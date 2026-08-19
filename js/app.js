@@ -375,7 +375,9 @@ const App = {
     if (pillar.dialogueBreakdown && pillar.dialogueBreakdown.length > 0) {
         dialogueHtml = pillar.dialogueBreakdown.map(line => {
             const isAggressor = line.speaker.toLowerCase().includes('manipulador') || line.speaker === 'A' || line.speaker.toLowerCase().includes('tóxica');
-            const icon = isAggressor ? '<i class="fa-solid fa-user-ninja text-lg"></i>' : '<i class="fa-solid fa-user-shield text-lg"></i>';
+            const icon = isAggressor 
+    ? '<img src="assets/img/avatar_manipulator.jpg" class="w-8 h-8 rounded-full border border-rose-500/50 shadow-[0_0_10px_rgba(244,63,94,0.3)] object-cover preserve-color">' 
+    : '<img src="assets/img/avatar_victim.jpg" class="w-8 h-8 rounded-full border border-emerald-500/50 shadow-[0_0_10px_rgba(16,185,129,0.3)] object-cover preserve-color">';
             return `
             <div class="mb-4">
                 <div class="flex items-center gap-2 text-[11px] font-bold ${isAggressor ? 'text-rose-400' : 'text-emerald-400'} mb-1 tracking-wider uppercase">
