@@ -101,7 +101,12 @@
             </div>
           </div>
 
-          <!-- Porcentaje de Dominio -->
+          
+        <!-- Theme Toggle -->
+        <button onclick="App.toggleTheme()" id="themeToggleBtn" class="w-10 h-10 rounded-xl bg-slate-900/90 border border-slate-800 flex items-center justify-center text-amber-400 hover:text-amber-300 hover:border-amber-500/50 shadow-sm transition-all hover:scale-105">
+            <i class="fa-solid fa-sun text-lg" id="themeIcon"></i>
+        </button>
+        <!-- Porcentaje de Dominio -->
           <div class="flex items-center gap-2 bg-slate-900/90 border border-cyan-500/30 px-3 py-1.5 rounded-xl cursor-pointer hover:border-cyan-400" onclick="App.switchTab('certificate')">
             <div class="w-7 h-7 rounded-full border-2 border-cyan-500 flex items-center justify-center text-[11px] font-mono font-bold text-cyan-400" id="globalProgressCircle">
               0%

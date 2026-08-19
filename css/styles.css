@@ -192,3 +192,16 @@ body {
 .fade-in-view {
   animation: fadeViewIn 0.35s ease-out forwards;
 }
+
+
+/* LIGHT MODE MAGIC OVERRIDE */
+html.light-theme {
+  filter: invert(1) hue-rotate(180deg);
+  background: #fff;
+}
+html.light-theme img,
+html.light-theme video,
+html.light-theme canvas,
+html.light-theme .preserve-color {
+  filter: invert(1) hue-rotate(180deg);
+}

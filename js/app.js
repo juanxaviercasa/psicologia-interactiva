@@ -20,7 +20,31 @@ const App = {
   // =============================================
   // INIT & CORE
   // =============================================
+
+  toggleTheme() {
+      const html = document.documentElement;
+      const icon = document.getElementById('themeIcon');
+      if (html.classList.contains('light-theme')) {
+          html.classList.remove('light-theme');
+          icon.classList.remove('fa-moon');
+          icon.classList.add('fa-sun');
+          localStorage.setItem('pso_theme', 'dark');
+      } else {
+          html.classList.add('light-theme');
+          icon.classList.remove('fa-sun');
+          icon.classList.add('fa-moon');
+          localStorage.setItem('pso_theme', 'light');
+      }
+  },
+
   init() {
+      // Load theme
+      if (localStorage.getItem('pso_theme') === 'light') {
+          document.documentElement.classList.add('light-theme');
+          const icon = document.getElementById('themeIcon');
+          if (icon) { icon.classList.remove('fa-sun'); icon.classList.add('fa-moon'); }
+      }
+
     this.loadProgress();
     this.renderDashboard();
     this.loadFlashcards();
