@@ -229,35 +229,34 @@ const App = {
       const modPct = Math.round((modCompletedCount / modTotal) * 100);
 
       return `
-      <div class="glass-card p-5 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all cursor-pointer group flex flex-col relative overflow-hidden" onclick="App.switchTab('learning')">
-        <img src="assets/img/cover_mod${m.id}.jpg" onerror="this.style.display='none'" class="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-50 transition-opacity duration-500 z-0">
+      <div class="glass-card rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all cursor-pointer group flex flex-col relative overflow-hidden" onclick="App.switchTab('learning')">
+        <img src="assets/img/cover_mod${m.bookNumber}.jpg" onerror="this.style.display='none'" class="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-50 transition-opacity duration-500 z-0">
         <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/80 to-slate-900/40 z-0"></div>
-        <div class="relative z-10 flex flex-col h-full">
-        <div class="flex items-start justify-between mb-4">
-          <div class="w-12 h-12 rounded-xl bg-slate-900 flex items-center justify-center text-cyan-400 group-hover:scale-110 transition-transform border border-slate-700">
-            <i class="fa-solid ${m.icon} text-xl"></i>
-          </div>
-          <span class="text-[10px] font-bold text-slate-500 bg-slate-900 px-2 py-1 rounded border border-slate-800">${m.badge}</span>
-        </div>
-        <h3 class="text-white font-bold mb-1">${m.title}</h3>
-        <p class="text-xs text-slate-400 line-clamp-2 mb-3 flex-1">${m.overview}</p>
-        
-        <div class="mt-auto">
-          <div class="flex justify-between text-[10px] mb-1">
-            <span class="text-slate-400">${modCompletedCount}/${modTotal} Pilares</span>
-            <span class="${modPct === 100 ? 'text-emerald-400' : 'text-cyan-400'} font-bold">${modPct}%</span>
-          </div>
-          <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
-            <div class="h-full ${modPct === 100 ? 'bg-emerald-500' : 'bg-cyan-500'} transition-all duration-500" style="width: ${modPct}%"></div>
-          </div>
+        <div class="relative z-10 flex flex-col h-full p-5">
+            <div class="flex items-start justify-between mb-4">
+              <div class="w-12 h-12 rounded-xl bg-slate-900 flex items-center justify-center text-cyan-400 group-hover:scale-110 transition-transform border border-slate-700">
+                <i class="fa-solid ${m.icon} text-xl"></i>
+              </div>
+              <span class="text-[10px] font-bold text-slate-500 bg-slate-900 px-2 py-1 rounded border border-slate-800">${m.badge}</span>
+            </div>
+            <h3 class="text-white font-bold mb-1">${m.title}</h3>
+            <p class="text-xs text-slate-400 line-clamp-2 mb-3 flex-1">${m.overview}</p>
+            
+            <div class="mt-auto">
+              <div class="flex justify-between text-[10px] mb-1">
+                <span class="text-slate-400">${modCompletedCount}/${modTotal} Pilares</span>
+                <span class="${modPct === 100 ? 'text-emerald-400' : 'text-cyan-400'} font-bold">${modPct}%</span>
+              </div>
+              <div class="w-full bg-slate-800 h-1.5 rounded-full overflow-hidden">
+                <div class="h-full ${modPct === 100 ? 'bg-emerald-500' : 'bg-cyan-500'} transition-all duration-500" style="width: ${modPct}%"></div>
+              </div>
+            </div>
         </div>
       </div>
-    `}).join('');
+      `;
+    }).join('');
   },
 
-  // =============================================
-  // ACADEMIA (LEARNING PATH)
-  // =============================================
   renderLearningPath() {
     const container = document.getElementById('learningPathContainer');
     if (!container || typeof LIBROS_DATA === 'undefined') return;
@@ -447,13 +446,18 @@ const App = {
             </button>
           </div>
           <!-- INFOGRAFIA EDUCATIVA (Encyclopedia Style) -->
-          <div class="w-full mb-6 mt-4 rounded-xl overflow-hidden border border-slate-700 shadow-lg relative group bg-slate-950">
+          <div class="lesson-img-container w-full mb-6 mt-4 rounded-xl overflow-hidden border border-slate-700 shadow-lg relative group bg-slate-950" id="lesson-img-m${modNumber}-p${pIndex+1}">
               <img src="assets/img/lesson_m${modNumber}_p${pIndex+1}.jpg" 
-                   onerror="this.src='https://picsum.photos/seed/psy_m${modNumber}_p${pIndex+1}/800/400'; this.classList.add('opacity-40', 'grayscale')" 
                    alt="Ilustración de ${pillar.title}" 
-                   class="w-full h-48 md:h-64 object-cover transition-transform duration-700 group-hover:scale-105 preserve-color mix-blend-lighten">
+                   class="w-full h-48 md:h-64 object-cover transition-transform duration-700 group-hover:scale-105 preserve-color"
+                   onerror="this.parentElement.querySelector('.img-placeholder').style.display='flex'; this.style.display='none'">
+              <div class="img-placeholder hidden w-full h-48 md:h-64 flex-col items-center justify-center gap-3 bg-gradient-to-br from-slate-900 to-indigo-950 border-0">
+                  <i class="fa-solid ${modIcon} text-5xl text-indigo-400/60"></i>
+                  <span class="text-xs text-slate-500 font-mono text-center px-4">Ilustración educativa en preparación</span>
+                  <span class="text-[10px] text-slate-600 font-mono text-center px-8">${pillar.title}</span>
+              </div>
               <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-950 via-slate-900/90 to-transparent p-4">
-                  <span class="text-xs font-mono text-cyan-400 font-semibold tracking-wider uppercase"><i class="fa-solid fa-camera text-slate-500 mr-1"></i> Fig 1. Aplicación Práctica: ${pillar.title}</span>
+                  <span class="text-xs font-mono text-cyan-400 font-semibold tracking-wider uppercase"><i class="fa-solid fa-image text-slate-500 mr-1"></i> Fig 1. Aplicación Práctica: ${pillar.title}</span>
               </div>
           </div>
           <div class="text-slate-200 text-[15px] md:text-base leading-relaxed space-y-4 font-medium">
