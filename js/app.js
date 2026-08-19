@@ -229,7 +229,10 @@ const App = {
       const modPct = Math.round((modCompletedCount / modTotal) * 100);
 
       return `
-      <div class="glass-card p-5 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all cursor-pointer group flex flex-col" onclick="App.switchTab('learning')">
+      <div class="glass-card p-5 rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all cursor-pointer group flex flex-col relative overflow-hidden" onclick="App.switchTab('learning')">
+        <img src="assets/img/cover_mod${m.id}.jpg" onerror="this.style.display='none'" class="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-50 transition-opacity duration-500 z-0">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/80 to-slate-900/40 z-0"></div>
+        <div class="relative z-10 flex flex-col h-full">
         <div class="flex items-start justify-between mb-4">
           <div class="w-12 h-12 rounded-xl bg-slate-900 flex items-center justify-center text-cyan-400 group-hover:scale-110 transition-transform border border-slate-700">
             <i class="fa-solid ${m.icon} text-xl"></i>
@@ -442,6 +445,16 @@ const App = {
             <button onclick="App.speakText('${conceptText.replace(/'/g,"&apos;").replace(/"/g,"&quot;")}')" class="text-amber-400 hover:text-white bg-amber-500/10 hover:bg-amber-500/20 px-3 py-1.5 rounded-lg text-xs transition-colors">
               <i class="fa-solid fa-volume-high"></i> Escuchar
             </button>
+          </div>
+          <!-- INFOGRAFIA EDUCATIVA (Encyclopedia Style) -->
+          <div class="w-full mb-6 mt-4 rounded-xl overflow-hidden border border-slate-700 shadow-lg relative group bg-slate-950">
+              <img src="assets/img/lesson_m${modNumber}_p${pIndex+1}.jpg" 
+                   onerror="this.src='https://picsum.photos/seed/psy_m${modNumber}_p${pIndex+1}/800/400'; this.classList.add('opacity-40', 'grayscale')" 
+                   alt="Ilustración de ${pillar.title}" 
+                   class="w-full h-48 md:h-64 object-cover transition-transform duration-700 group-hover:scale-105 preserve-color mix-blend-lighten">
+              <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-950 via-slate-900/90 to-transparent p-4">
+                  <span class="text-xs font-mono text-cyan-400 font-semibold tracking-wider uppercase"><i class="fa-solid fa-camera text-slate-500 mr-1"></i> Fig 1. Aplicación Práctica: ${pillar.title}</span>
+              </div>
           </div>
           <div class="text-slate-200 text-[15px] md:text-base leading-relaxed space-y-4 font-medium">
              ${conceptText.split('\n').map(p => `<p>${p}</p>`).join('')}
