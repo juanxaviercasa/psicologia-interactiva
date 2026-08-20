@@ -385,8 +385,8 @@ const App = {
         dialogueHtml = pillar.dialogueBreakdown.map(line => {
             const isAggressor = line.speaker.toLowerCase().includes('manipulador') || line.speaker === 'A' || line.speaker.toLowerCase().includes('tóxica');
             const icon = isAggressor 
-    ? '<img src="assets/img/avatar_manipulator.jpg" class="w-8 h-8 rounded-full border border-rose-500/50 shadow-[0_0_10px_rgba(244,63,94,0.3)] object-cover preserve-color">' 
-    : '<img src="assets/img/avatar_victim.jpg" class="w-8 h-8 rounded-full border border-emerald-500/50 shadow-[0_0_10px_rgba(16,185,129,0.3)] object-cover preserve-color">';
+    ? '<img src="assets/img/avatar_manipulator.jpg" class="w-12 h-12 rounded-full border-2 border-rose-500/70 shadow-[0_0_15px_rgba(244,63,94,0.5)] object-cover shrink-0">' 
+    : '<img src="assets/img/avatar_victim.jpg" class="w-12 h-12 rounded-full border-2 border-emerald-500/70 shadow-[0_0_15px_rgba(16,185,129,0.5)] object-cover shrink-0">';
             return `
             <div class="mb-4">
                 <div class="flex items-center gap-2 text-[11px] font-bold ${isAggressor ? 'text-rose-400' : 'text-emerald-400'} mb-1 tracking-wider uppercase">
@@ -456,7 +456,7 @@ const App = {
           <div class="lesson-img-container w-full mb-6 mt-4 rounded-xl overflow-hidden border border-slate-700 shadow-lg relative group bg-slate-950" id="lesson-img-m${modNumber}-p${pIndex+1}">
               <img src="assets/img/lesson_m${modNumber}_p${pIndex+1}.jpg" 
                    alt="Ilustración de ${pillar.title}" 
-                   class="w-full h-48 md:h-64 object-cover transition-transform duration-700 group-hover:scale-105 preserve-color"
+                   class="w-full h-52 md:h-72 object-cover transition-transform duration-700 group-hover:scale-105"
                    onerror="this.parentElement.querySelector('.img-placeholder').style.display='flex'; this.style.display='none'">
               <div class="img-placeholder hidden w-full h-48 md:h-64 flex-col items-center justify-center gap-3 bg-gradient-to-br from-slate-900 to-indigo-950 border-0">
                   <div class="text-5xl text-indigo-400/60">${modIcon}</div>
