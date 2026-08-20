@@ -230,13 +230,13 @@ const App = {
 
       return `
       <div class="glass-card rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all cursor-pointer group flex flex-col overflow-hidden" onclick="App.switchTab('learning')">
-        <!-- IMAGE THUMBNAIL - PROMINENT & VISIBLE -->
-        <div class="relative w-full h-40 overflow-hidden bg-slate-900">
+        <!-- IMAGE THUMBNAIL - PROMINENT & VISIBLE — 16:9 ratio, no distortion -->
+        <div class="relative w-full bg-slate-900 overflow-hidden" style="padding-top: 56.25%;">
           <img src="assets/img/cover_mod${m.bookNumber}.jpg"
                alt="${m.title}"
-               class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-               onerror="this.parentElement.classList.add('flex','items-center','justify-center'); this.style.display='none'">
-          <div class="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
+               class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+               onerror="this.style.display='none'">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-900/70 to-transparent"></div>
           <span class="absolute top-2 right-2 text-[10px] font-bold text-white bg-slate-900/70 backdrop-blur px-2 py-0.5 rounded border border-slate-700">${m.badge}</span>
         </div>
         <!-- CARD CONTENT -->
@@ -454,16 +454,19 @@ const App = {
           </div>
           <!-- INFOGRAFIA EDUCATIVA (Encyclopedia Style) -->
           <div class="lesson-img-container w-full mb-6 mt-4 rounded-xl overflow-hidden border border-slate-700 shadow-lg relative group bg-slate-950" id="lesson-img-m${modNumber}-p${pIndex+1}">
-              <img src="assets/img/lesson_m${modNumber}_p${pIndex+1}.jpg" 
-                   alt="Ilustración de ${pillar.title}" 
-                   class="w-full h-52 md:h-72 object-cover transition-transform duration-700 group-hover:scale-105"
-                   onerror="this.parentElement.querySelector('.img-placeholder').style.display='flex'; this.style.display='none'">
-              <div class="img-placeholder hidden w-full h-48 md:h-64 flex-col items-center justify-center gap-3 bg-gradient-to-br from-slate-900 to-indigo-950 border-0">
+              <!-- Aspect ratio 16:9 wrapper — prevents any stretching/pixelation -->
+              <div class="relative w-full" style="padding-top: 56.25%;">
+                  <img src="assets/img/lesson_m${modNumber}_p${pIndex+1}.jpg" 
+                       alt="Ilustración de ${pillar.title}" 
+                       class="absolute inset-0 w-full h-full object-contain bg-slate-950 transition-transform duration-700 group-hover:scale-105"
+                       onerror="this.parentElement.parentElement.querySelector('.img-placeholder').style.display='flex'; this.parentElement.style.display='none'">
+              </div>
+              <div class="img-placeholder hidden w-full aspect-video flex-col items-center justify-center gap-3 bg-gradient-to-br from-slate-900 to-indigo-950">
                   <div class="text-5xl text-indigo-400/60">${modIcon}</div>
                   <span class="text-xs text-slate-500 font-mono text-center px-4">Ilustración educativa en preparación</span>
                   <span class="text-[10px] text-slate-600 font-mono text-center px-8">${pillar.title}</span>
               </div>
-              <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-950 via-slate-900/90 to-transparent p-4">
+              <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-slate-950 via-slate-900/90 to-transparent p-3">
                   <span class="text-xs font-mono text-cyan-400 font-semibold tracking-wider uppercase"><i class="fa-solid fa-image text-slate-500 mr-1"></i> Fig 1. Aplicación Práctica: ${pillar.title}</span>
               </div>
           </div>
