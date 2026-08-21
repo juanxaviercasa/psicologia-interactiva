@@ -10,6 +10,8 @@ const LIBROS_DATA = {
       keyPillars: [
         {
           title: 'Arquitectura del Comportamiento (Sistema 1 vs Sistema 2)',
+          clinicalCase: "En el estudio clásico de Kahneman y Tversky (1981) sobre 'El problema de la enfermedad asiática', se demostró cómo el Sistema 1 es altamente susceptible al 'Efecto Marco'. Cuando a grupos clínicos se les presentó exactamente el mismo riesgo estadístico, el 72% eligió una opción cuando se enmarcó como 'salvar vidas' (ganancia), pero solo el 22% la eligió cuando se enmarcó como 'evitar muertes' (pérdida). La amígdala reacciona al lenguaje emocional antes de que el córtex prefrontal evalúe la matemática real.",
+          academicCitation: "Kahneman, D. (2011). Thinking, fast and slow. Farrar, Straus and Giroux. | Tversky, A., & Kahneman, D. (1981). The framing of decisions and the psychology of choice. Science, 211(4481), 453-458. PMID: 7455683.",
           storytellingConcept: `Imagina que tu cerebro tiene dos modos de conducción: el Piloto Automático (Sistema 1) y el Conducción Manual (Sistema 2).
 
 El **Sistema 1** es instintivo, emocional y ultrarrápido. Es el que te hace saltar hacia atrás cuando ves algo parecido a una serpiente, incluso si luego descubres que era solo una manguera. Consume muy poca energía, por lo que el 95% de tus decisiones diarias las toma este sistema sin que te des cuenta.
@@ -872,6 +874,10 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
   ],
 
   glossary: [
+    { term: 'Trastorno de la Personalidad Narcisista (NPD)', category: 'DSM-5', definition: 'Según el DSM-5, un patrón dominante de grandeza (en la fantasía o en el comportamiento), necesidad de admiración y falta de empatía, que comienza en las primeras etapas de la vida adulta.', example: '"Exhibe un sentido grandioso de prepotencia, esperando ser reconocido como superior sin logros proporcionales." (Criterio 1, DSM-5).' },
+    { term: 'Trastorno de la Personalidad Antisocial (ASPD)', category: 'DSM-5', definition: 'Patrón dominante de inatención y vulneración de los derechos de los demás, que se produce desde los 15 años de edad. Correlaciona fuertemente con la psicopatía y maquiavelismo de la Tríada Oscura.', example: '"Engaño, que se manifiesta por mentiras repetidas, uso de alias o estafa para provecho o placer personal." (Criterio 2, DSM-5).' },
+    { term: 'Control Coercitivo', category: 'Psicología Forense', definition: 'Patrón estratégico de comportamiento diseñado para explotar, controlar, crear dependencia e infundir miedo en la víctima. Un término académico usado en literatura sobre violencia doméstica y sectas.', example: 'El perpetrador aísla a la víctima de sus redes de apoyo (amigos/familia) para monopolizar su percepción de la realidad.' },
+
     { term: 'DARVO', category: 'Abuso Narcisista', definition: 'Deny, Attack, Reverse Victim and Offender. Táctica para invertir roles y convertir al agresor en víctima.', example: '"Yo nunca te hice nada, tú eres el abusador por acusarme así."' },
     { term: 'Love Bombing', category: 'Tríada Oscura', definition: 'Bombardeo de afecto, atención e idealización extrema en etapas tempranas para crear dependencia emocional artificial rápida.', example: '"Nunca conocí a nadie como tú. Eres lo que siempre busqué." — en la primera semana.' },
     { term: 'Línea Base (Baseline)', category: 'No Verbal', definition: 'Patrón de comportamiento normal de una persona cuando está relajada y habla con verdad. Referencia para detectar desviaciones.', example: 'Si alguien siempre gesticula y de pronto se paraliza, esa parálisis es la señal.' },

@@ -504,6 +504,29 @@ const App = {
           <p class="text-indigo-200/90 text-sm leading-relaxed relative z-10">${pillar.deepDive}</p>
         </div>` : ''}
 
+        ${pillar.clinicalCase ? `
+        <!-- CASO CLÍNICO DOCUMENTADO -->
+        <div class="p-6 rounded-2xl bg-slate-800/40 border border-slate-700 lg:col-span-2 shadow-inner mb-4">
+          <div class="text-[11px] text-amber-500 font-bold font-mono tracking-widest mb-4 flex items-center gap-2">
+            <i class="fa-solid fa-file-medical"></i> EVIDENCIA EMPÍRICA: CASO CLÍNICO
+          </div>
+          <div class="text-slate-300 text-[15px] md:text-base leading-relaxed italic border-l-4 border-amber-500/30 pl-4 bg-slate-900/30 p-4 rounded-r-xl">
+             ${this.enrichTextWithIcons(pillar.clinicalCase)}
+          </div>
+        </div>` : ''}
+        
+        ${pillar.academicCitation ? `
+        <!-- RESPALDO ACADÉMICO -->
+        <div class="p-5 rounded-xl bg-slate-950 border border-slate-800 lg:col-span-2 shadow-sm flex items-start gap-4 mb-4">
+          <div class="text-slate-600 text-2xl pt-1 shrink-0"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div>
+            <div class="text-[10px] text-slate-500 font-bold font-mono tracking-widest uppercase mb-1">Respaldo Académico / Científico</div>
+            <div class="text-slate-400 text-xs leading-relaxed font-serif">
+               ${pillar.academicCitation}
+            </div>
+          </div>
+        </div>` : ''}
+
         <!-- DIAGRAMA EDUCATIVO -->
         <div class="lg:col-span-2">
           <div class="text-[11px] text-slate-500 font-bold font-mono tracking-widest mb-2"><i class="fa-solid fa-diagram-project text-slate-500 mr-1"></i> DIAGRAMA DEL MECANISMO INTERNO</div>
