@@ -428,18 +428,22 @@ const App = {
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
         <!-- HEADER VISUAL ARCHITECTURE -->
-        <div class="lg:col-span-2 relative overflow-hidden rounded-2xl bg-gradient-to-r from-slate-900 to-slate-800 border border-slate-700 p-6 flex items-center gap-6 shadow-2xl">
-            <div class="absolute -right-10 -bottom-10 text-slate-700/30 text-[180px] pointer-events-none">
-                ${modIcon}
-            </div>
-            <div class="w-16 h-16 md:w-20 md:h-20 rounded-2xl bg-indigo-500/20 flex items-center justify-center border border-indigo-500/40 text-4xl text-indigo-400 shadow-[0_0_20px_rgba(99,102,241,0.2)] relative z-10 shrink-0">
-                ${modIcon}
-            </div>
-            <div class="relative z-10">
-                <div class="text-xs text-indigo-400 font-bold tracking-widest uppercase mb-1 flex items-center gap-2">
-                   <i class="fa-solid fa-layer-group"></i> Fase ${modNumber} • Pilar ${pIndex + 1}
+        <div class="lg:col-span-2 relative overflow-hidden rounded-2xl border border-slate-700 shadow-2xl" style="padding-top:28%;">
+            <img src="assets/img/module_header_m${modNumber}.jpg"
+                 alt="Módulo ${modNumber}"
+                 class="absolute inset-0 w-full h-full object-cover"
+                 onerror="this.style.display='none'">
+            <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/60 to-transparent"></div>
+            <div class="absolute inset-0 flex items-end p-6 gap-4">
+                <div class="w-14 h-14 rounded-2xl bg-indigo-500/30 backdrop-blur flex items-center justify-center border border-indigo-500/50 text-3xl text-indigo-300 shrink-0">
+                    ${modIcon}
                 </div>
-                <h2 class="text-2xl md:text-3xl font-bold text-white leading-tight">${pillar.title}</h2>
+                <div>
+                    <div class="text-xs text-indigo-300 font-bold tracking-widest uppercase mb-1 flex items-center gap-2">
+                       <i class="fa-solid fa-layer-group"></i> Fase ${modNumber} &bull; Pilar ${pIndex + 1}
+                    </div>
+                    <h2 class="text-2xl md:text-3xl font-bold text-white leading-tight drop-shadow-lg">${pillar.title}</h2>
+                </div>
             </div>
         </div>
 
@@ -499,6 +503,17 @@ const App = {
           <div class="text-[11px] text-indigo-400 font-bold font-mono tracking-widest mb-3 relative z-10"><i class="fa-solid fa-network-wired"></i> 4. CONSOLIDACIÓN NEUROLÓGICA (EL MECANISMO)</div>
           <p class="text-indigo-200/90 text-sm leading-relaxed relative z-10">${pillar.deepDive}</p>
         </div>` : ''}
+
+        <!-- DIAGRAMA EDUCATIVO -->
+        <div class="lg:col-span-2">
+          <div class="text-[11px] text-slate-500 font-bold font-mono tracking-widest mb-2"><i class="fa-solid fa-diagram-project text-slate-500 mr-1"></i> DIAGRAMA DEL MECANISMO INTERNO</div>
+          <div class="relative w-full rounded-xl overflow-hidden border border-slate-700 shadow-md bg-slate-950 group" style="padding-top:56.25%;">
+            <img src="assets/img/diagram_m${modNumber}_p${pIndex+1}.jpg"
+                 alt="Diagrama ${pillar.title}"
+                 class="absolute inset-0 w-full h-full object-contain bg-slate-950 transition-transform duration-500 group-hover:scale-105"
+                 onerror="this.parentElement.parentElement.style.display='none'">
+          </div>
+        </div>
 
         <!-- 5. MAPA MENTAL -->
         ${pillar.diagram ? `
@@ -719,6 +734,17 @@ const App = {
         <div class="flex items-center gap-2 mb-3">
           <span class="px-2.5 py-1 bg-amber-950 text-amber-400 text-[10px] font-bold rounded border border-amber-900 font-mono">${caseData.badge || 'ESCENARIO'}</span>
         </div>
+        <!-- Simulator Scenario Image -->
+        <div class="relative w-full rounded-xl overflow-hidden mb-4 border border-slate-700 bg-slate-950 group" style="padding-top:56.25%;">
+          <img src="assets/img/sim_case_${caseData.id.replace('c','')}.jpg"
+               alt="${caseData.title}"
+               class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent"></div>
+          <div class="absolute bottom-3 left-4">
+            <span class="text-xs font-mono text-amber-400 font-bold tracking-widest uppercase"><i class="fa-solid fa-film mr-1"></i> Caso en Vivo</span>
+          </div>
+        </div>
         <h3 class="text-xl font-bold text-white mb-4">${caseData.title}</h3>
         <div class="p-4 rounded-xl bg-slate-950 border border-slate-700 mb-5 text-sm text-slate-300 leading-relaxed italic">
           "${caseData.scenarioDescription}"
@@ -906,6 +932,14 @@ const App = {
     if (!container || typeof LIBROS_DATA === 'undefined') return;
     container.innerHTML = LIBROS_DATA.quizzes.map((q, i) => `
       <div class="glass-card p-6 rounded-2xl border border-slate-800" id="quiz-block-${q.id}">
+        <!-- Quiz Scenario Image -->
+        <div class="relative w-full rounded-xl overflow-hidden mb-4 border border-slate-700 bg-slate-950 group" style="padding-top:50%;">
+          <img src="assets/img/quiz_${q.id}.jpg"
+               alt="Escenario ${q.question.substring(0,40)}"
+               class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+               onerror="this.parentElement.style.display='none'">
+          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 to-transparent"></div>
+        </div>
         <h4 class="text-base font-bold text-white mb-4 flex items-start gap-2">
           <span class="text-cyan-500 font-mono shrink-0">Q${String(i+1).padStart(2,'0')}</span>
           ${q.question}
