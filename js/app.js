@@ -1184,7 +1184,7 @@ const App = {
           </div>
         </div>
 
-        <!-- 7. NOTAS PERSONALES<!-- 7. NOTAS PERSONALES & SPAR AI -->
+        <!-- 7. NOTAS PERSONALES & SPAR AI -->
         <div class="p-6 rounded-2xl bg-slate-800/30 border border-slate-700/50 lg:col-span-2">
           <div class="text-[11px] text-slate-400 font-bold font-mono tracking-widest mb-3"><i class="fa-solid fa-pen"></i> 7. MIS NOTAS E INSIGHTS PERSONALES</div>
           <textarea id="lessonNotes" placeholder="Escribe tus conexiones, epifanías o cómo aplicarías esto mañana mismo..." class="w-full bg-slate-900/80 border border-slate-700 rounded-xl p-4 text-sm text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-32">${notes}</textarea>
@@ -1210,8 +1210,6 @@ const App = {
             <button onclick="App.openVoiceSettingsModal()" class="px-3 py-1.5 rounded-lg bg-indigo-950/80 text-indigo-300 border border-indigo-500/40 hover:bg-indigo-900/60 hover:text-white transition-all text-xs font-semibold flex items-center gap-1.5 shadow-sm" title="Cambiar voz masculina/femenina y velocidad">
               <i class="fa-solid fa-sliders text-indigo-400"></i> Configurar Voz
             </button>
-          </div>
-            <i class="fa-solid fa-book-open-reader"></i> LECTURA PROFUNDA (TEXTO COMPLETO ORIGINAL)
           </div>
           <div class="space-y-4">
       `;
@@ -1259,6 +1257,9 @@ const App = {
     }
 
     document.getElementById('lessonModalContent').innerHTML = contentHtml;
+
+    // Inicializar Quiz Interactivo Brilliant.org
+    this.initLessonQuiz(modNumber, pIndex);
 
     const btn = document.getElementById('btnCompleteLesson');
     btn.onclick = () => this.completeLesson(modNumber, pIndex);
