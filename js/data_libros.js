@@ -34,7 +34,7 @@ Cuando sientas urgencia repentina, confusión o una emoción intensa (positiva o
 
 Forzar la pausa obliga al manipulador a cambiar de táctica y le da a tu Córtex Prefrontal el tiempo biológico necesario (unos 15 minutos) para limpiar el cortisol o la dopamina y empezar a pensar lógicamente.`,
 
-          chapters: ["Tema_01_P____SICOLOGIA_OSCURA", "Tema_02_Introduction", "Tema_03_El_Antiguo_Pensamiento_Psicolo"],
+          chapters: ["Tema_01_P____SICOLOGIA_OSCURA", "Tema_02_Introduction", "Tema_03_El_Antiguo_Pensamiento_Psicolo", "Tema_04_El_papiro_de_Edwin_Smith"],
           deepDive: 'La teoría del proceso dual (Kahneman) demuestra que la presión emocional desactiva el córtex prefrontal. En alto estrés, la amígdala toma el control. El dominio táctico requiere respiración diafragmática para mantener el flujo sanguíneo frontal y obligar al adversario a justificar sus demandas.',
           diagram: `graph TD
     A[ESTÍMULO EXTERNO] --> B{¿Amenaza o urgencia?}
@@ -58,7 +58,7 @@ Forzar la pausa obliga al manipulador a cambiar de táctica y le da a tu Córtex
           concept: 'Errores sistemáticos en el pensamiento. Sesgo de Confirmación, Efecto Halo y Anclaje son las herramientas primarias de influencia.',
           tacticalRule: 'Cuestiona tu primera impresión. ¿Estoy de acuerdo porque es lógico o porque me agrada la persona?',
           realExample: 'Creerle a un estafador porque viste un traje caro (Efecto Halo).',
-          chapters: ["Tema_04_El_papiro_de_Edwin_Smith", "Tema_05_Describa", "Tema_06_Explique"],
+          chapters: ["Tema_05_Describa", "Tema_06_Explique", "Tema_07_Predecir", "Tema_08_Cambier", "Tema_09_La_Perspectiva_Cognitiva", "Tema_10_La_Perspectiva_Humanista"],
           deepDive: 'El cerebro está diseñado para confirmar creencias previas. Los manipuladores alimentan tus creencias existentes (Sesgo de Confirmación) para insertar su agenda oculta.',
           diagram: `graph LR
     A[INFORMACIÓN NUEVA] --> B{¿Confirma mi creencia?}
@@ -80,7 +80,7 @@ Forzar la pausa obliga al manipulador a cambiar de táctica y le da a tu Córtex
           concept: 'El malestar psicológico de mantener dos creencias contradictorias. Las personas harán cualquier cosa para resolverlo, incluso autoengañarse.',
           tacticalRule: 'Nunca ataques creencias centrales directamente. Usa preguntas socráticas para que ellos mismos vean la contradicción.',
           realExample: '"¿Cómo se alinea esa decisión con tu meta de ahorrar?" en lugar de "tu idea es mala".',
-          chapters: ["Tema_07_Predecir", "Tema_08_Cambier", "Tema_09_La_Perspectiva_Cognitiva"],
+          chapters: ["Tema_11_Conciencia_de_si_mismo", "Tema_12_Autoregulacion", "Tema_13_Las_Emociones_Universales"],
           deepDive: 'Festinger (1957) demostró que cuando la realidad choca con la creencia, la gente ajusta la creencia. Los manipuladores crean disonancia para forzarte a ceder y restablecer el equilibrio psicológico.',
           diagram: `graph TD
     A[Creencia A] --> C{CHOQUE}
@@ -103,7 +103,7 @@ Forzar la pausa obliga al manipulador a cambiar de táctica y le da a tu Córtex
           concept: 'Presión evolutiva profunda de devolver favores. Una técnica clásica de infiltración social.',
           tacticalRule: 'Acepta favores declarando explícitamente que no generan deuda: "Gracias, es un gesto desinteresado".',
           realExample: 'Un compañero te trae café 3 días seguidos y al cuarto pide que cubras su turno de 8 horas.',
-          chapters: ["Tema_10_La_Perspectiva_Humanista", "Tema_11_Conciencia_de_si_mismo", "Tema_12_Autoregulacion"],
+          chapters: ["Tema_14_Capitulo_5__Gestion_de_los_Pen", "Tema_15_Gestionar_los_Pensamientos_y_l", "Tema_16_Afirmaciones", "Tema_17_Regulacion_Emotional", "Tema_18_Metodo_de_puesta_a_tierra", "Tema_19_Respiracion_profunda", "Tema_20_El_Problema_de_la_Procrastinac", "Tema_21_Sobornos", "Tema_22_Conclusion"],
           deepDive: 'Cialdini: la reciprocidad asimétrica es el arma más letal. Un favor de $2 genera una obligación percibida de $100. Neutralizar requiere desvincular el acto del intercambio.',
           diagram: `graph LR
     A[Dar Favor Pequeño] --> B[Activar Deuda Social Percibida]
@@ -149,7 +149,7 @@ Antes de empezar una negociación o conversación difícil, dedica 5 minutos a h
 
 Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de repente oculta las manos, su tono sube media octava o rompe el contacto visual, tienes tu primer **indicador de engaño o estrés**. Busca 3 de estos indicadores (Cluster) para confirmar.`,
 
-          chapters: ["Tema_13_Las_Emociones_Universales", "Tema_14_Capitulo_5__Gestion_de_los_Pen", "Tema_15_Gestionar_los_Pensamientos_y_l"],
+          chapters: ["Tema_23_Introduction", "Tema_24_Apertura", "Tema_25_Conciencia"],
           deepDive: 'El sistema límbico rige el lenguaje corporal genuino. Al mentir, el córtex debe inventar la historia y suprimir la verdad (Carga Cognitiva). Esta sobrecarga produce filtraciones límbicas o congelamiento motor.',
           diagram: `graph TD
     A[Observar 5 minutos relajado] --> B[LÍNEA BASE establecida]
@@ -171,7 +171,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Fugas faciales involuntarias que duran menos de 1/5 de segundo y revelan la emoción real, imposibles de suprimir completamente.',
           tacticalRule: 'Observa la asimetría. Expresiones genuinas son simétricas. Asimetría = emoción fabricada o desprecio.',
           realExample: 'Un colega te felicita pero la comisura izquierda se tensa por un milisegundo: desprecio puro.',
-          chapters: ["Tema_16_Afirmaciones", "Tema_17_Regulacion_Emotional", "Tema_18_Metodo_de_puesta_a_tierra", "Tema_19_Respiracion_profunda"],
+          chapters: ["Tema_26_Haptica"],
           deepDive: 'Las 7 emociones universales (Ekman) tienen firmas musculares involuntarias. El desprecio es la única unilateral. Es el mayor predictor de fracaso relacional.',
           diagram: `graph LR
     A[EMOCIÓN REAL] --> B[Sistema Límbico]
@@ -192,7 +192,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Acciones repetitivas de autotoque para calmar el estrés: acariciar el cuello, frotar manos, tocarse la cara.',
           tacticalRule: 'Cuando el estrés aumenta sin justificación verbal visible, estás ante un punto ciego o mentira activa.',
           realExample: 'Le preguntas al proveedor sobre el retraso y comienza a ajustarse el cuello de la camisa.',
-          chapters: ["Tema_20_El_Problema_de_la_Procrastinac", "Tema_21_Sobornos", "Tema_22_Conclusion"],
+          chapters: ["Tema_27_Ejemplo_2__Ventas_con_Persuasi", "Tema_28_Ejempllo_3__Manipulacion_Emoti"],
           deepDive: 'El nervio vago regula el parasimpático. El toque en el cuello estimula barorreceptores, reduciendo la frecuencia cardíaca. Es una respuesta biológica incontrolable al estrés.',
           diagram: `graph TD
     A[Pregunta generadora de estrés] --> B[AMÍGDALA activada]
@@ -213,7 +213,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'El cerebro dirige instintivamente los pies hacia donde quiere ir (escape) o hacia quien le interesa. Los pies no mienten.',
           tacticalRule: 'Si el torso de una persona te enfrenta pero sus pies apuntan a la puerta, la conversación terminó para ellos.',
           realExample: 'Tu jefe te sonríe mientras te atiende, pero sus dos pies apuntan hacia la salida de la oficina.',
-          chapters: ["Tema_23_Introduction", "Tema_24_Apertura", "Tema_25_Conciencia"],
+          chapters: ["Tema_29_Senales_de_Manipulacion", "Tema_30_Conclusion"],
           deepDive: 'Las piernas son la parte del cuerpo más sincera. El cerebro evolucionó para priorizar la huida (supervivencia) antes que la diplomacia facial. Ignorar la cara y mirar los pies revela la intención real.',
           diagram: `graph LR
     A[Cara: Sonría / Cortesía] --- B[Puede ser fabricada]
@@ -244,7 +244,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Idealización (Love Bombing) → Devaluación (Crítica sutil) → Descarte. Un ciclo predecible y repetible.',
           tacticalRule: 'Si una relación avanza a velocidad irreal y la persona parece un espejo perfecto de tus gustos, frena en seco.',
           realExample: 'Un nuevo socio dice que eres el único genio que lo comprende, para luego exigirte dinero prestado.',
-          chapters: ["Tema_26_Haptica", "Tema_27_Ejemplo_2__Ventas_con_Persuasi", "Tema_28_Ejempllo_3__Manipulacion_Emoti"],
+          chapters: ["Tema_31_Introduction", "Tema_32_El_Proceso_de_Manipulacion"],
           deepDive: 'El Refuerzo Intermitente libera dopamina en picos extremos, creando un vínculo traumático idéntico a la adicción al juego. Cortar el suministro es la única defensa.',
           diagram: `graph LR
     A[LOVE BOMBING] --> B[DEVALUACIÓN]
@@ -268,7 +268,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Control mental que destruye la confianza de la víctima en su propia cordura mediante negación sistemática de la realidad.',
           tacticalRule: 'No discutas la realidad. Documenta. Responde: "Esa es tu percepción; yo confío en mi memoria y mis registros".',
           realExample: '"Yo nunca dije eso. Estás imaginando cosas. Siempre exageras todo."',
-          chapters: ["Tema_29_Senales_de_Manipulacion", "Tema_30_Conclusion", "Tema_31_Introduction"],
+          chapters: ["Tema_33_Ethos", "Tema_34_Pathos", "Tema_35_Logos"],
           deepDive: 'Altera la topología neuronal al causar disonancia cognitiva prolongada. El antídoto es el reality-testing externo: validar con terceros de confianza y mantener un diario de hechos.',
           diagram: `graph TD
     A[MANIPULADOR niega realidad] --> B[Víctima duda de su memoria]
@@ -291,7 +291,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Introducir a un tercero real o imaginario para generar celos, competencia y control sobre la víctima.',
           tacticalRule: 'Retírate de la competencia inmediatamente. La única forma de ganar en un triángulo es no jugar.',
           realExample: '"Mi ex nunca me habría tratado así" o "Mi otro empleado hace esto en la mitad del tiempo".',
-          chapters: ["Tema_32_El_Proceso_de_Manipulacion", "Tema_33_Ethos", "Tema_34_Pathos"],
+          chapters: ["Tema_36_Palabras_Cargadas", "Tema_37_Anclaje"],
           deepDive: 'Explota la necesidad humana de pertenencia. Al retirar tu deseo de competir con esa tercera persona, colapsas el andamiaje psicológico del manipulador.',
           diagram: `graph TD
     M[MANIPULADOR] -->|Compara| V[VÍCTIMA]
@@ -314,7 +314,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'El manipulador acusa a su víctima de hacer exactamente lo que él mismo está haciendo. Sus acusaciones son confesiones.',
           tacticalRule: 'Las acusaciones sin base de un perfil oscuro suelen ser confesiones de sus propios comportamientos.',
           realExample: 'Una pareja que te es infiel te acusa repentinamente de coquetear con otros sin razón.',
-          chapters: ["Tema_35_Logos", "Tema_36_Palabras_Cargadas", "Tema_37_Anclaje", "Tema_38_Disociacion"],
+          chapters: ["Tema_38_Disociacion", "Tema_39_Reccuadre_de_Contentos", "Tema_40_Conclusion"],
           deepDive: 'Mecanismo freudiano: incapaces de procesar la culpa, externalizan la disonancia atacando ese rasgo en otra persona. Cada acusación sin base es un revelador de sus propias acciones.',
           diagram: `graph LR
     A[MANIPULADOR comete acto X] --> B[Genera culpa / Disonancia]
@@ -344,7 +344,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'La sincronización inconsciente genera confianza extrema. Espejear postura, ritmo y vocabulario activa las neuronas espejo.',
           tacticalRule: 'Espejea con un retraso de 3-5 segundos. Usa las mismas palabras clave del canal VAK de la persona.',
           realExample: 'Si alguien dice "Siento que esto pesa mucho", respondes: "Quitémosle esa presión".',
-          chapters: ["Tema_39_Reccuadre_de_Contentos", "Tema_40_Conclusion", "Tema_41_Introduction"],
+          chapters: ["Tema_41_Introduction", "Tema_42_Reconocer_al_Manipulador"],
           deepDive: 'Activa neuronas espejo en la corteza premotora. Al lograr resonancia límbica, las defensas del sujeto bajan porque su cerebro identifica al otro como parte del in-group.',
           diagram: `graph TD
     A[Observar canal VAK] --> B{¿Visual, Auditivo o Kinestésico?}
@@ -367,7 +367,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Asociar un estímulo externo a un estado emocional intenso para dispararlo a voluntad. Condicionamiento pavloviano avanzado.',
           tacticalRule: 'Instala el ancla SOLO cuando la persona esté en el pico (clímax) de la emoción, no antes ni después.',
           realExample: 'Hacer un gesto único cada vez que tu equipo ríe intensamente. Usarlo en una crisis para evocar calma.',
-          chapters: ["Tema_42_Reconocer_al_Manipulador", "Tema_43_Principios_de_la_Persuasion", "Tema_44_Ethos"],
+          chapters: ["Tema_43_Principios_de_la_Persuasion"],
           deepDive: 'Se requiere pureza (estímulo único), intensidad (pico emocional real) y timing exacto (1-3 segundos antes del clímax) para instalar un ancla kinestésica o espacial válida.',
           diagram: `graph TD
     A[Identificar emoción fuerte en la persona] --> B[Esperar el PICO del clímax emocional]
@@ -389,7 +389,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Hipnosis conversacional usando lenguaje vagamente específico y presuposiciones para pasar órdenes al subconsciente.',
           tacticalRule: 'Detecta presuposiciones: "¿Qué te gustaría comprar hoy?" presupone que COMPRARÁS, solo falta elegir qué.',
           realExample: '"No sé qué tan rápido te darás cuenta de que este acuerdo es la mejor opción."',
-          chapters: ["Tema_45_Pathos", "Tema_46_PNL_y_Ritmo_y_Liderazgo", "Tema_47_Conclusion"],
+          chapters: ["Tema_44_Ethos", "Tema_45_Pathos"],
           deepDive: 'Sobrecarga el hemisferio izquierdo (analítico) con estructuras ambiguas complejas, permitiendo que las sugestiones pasen directamente al hemisferio derecho (inconsciente).',
           diagram: `graph LR
     A[Patrón de lenguaje ambiguo] --> B[Sobrecarga hemisferio izquierdo]
@@ -409,7 +409,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Cambiar el significado emocional de un evento alterando el marco contextual sin cambiar los hechos.',
           tacticalRule: 'Ante una objeción, no la niegues. Cambia el marco temporal, de escala o de significado.',
           realExample: 'Objeción: "Es muy caro". Reencuadre: "Precisamente por eso garantiza que no tendrás que comprarlo dos veces".',
-          chapters: ["Tema_48_Introduction", "Tema_49_La_Historia_de_la_Inteligencia", "Tema_50_Como_Funciona_la_TCC"],
+          chapters: ["Tema_46_PNL_y_Ritmo_y_Liderazgo", "Tema_47_Conclusion"],
           deepDive: 'El significado depende del marco. El Reframing mueve el comportamiento a un entorno donde adquiere un valor diferente, o cambia la evaluación del mismo evento.',
           diagram: `graph LR
     A[MISMO HECHO objetivo] --> B[Marco 1: Pérdida]
@@ -440,7 +440,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Modelo Pensamiento → Emoción → Comportamiento. No sufres por el evento, sufres por tu interpretación del evento.',
           tacticalRule: 'Atrapa el pensamiento distorsionado, examínalo con lógica y reemplázalo antes de que genere la emoción tóxica.',
           realExample: 'En vez de "soy un fracaso", pensar "esta tarea falló; ajustaré el método para la siguiente".',
-          chapters: ["Tema_51_Por_que_se_Utiliza_la_TCC", "Tema_52_Entender_la_Terapia_Conductual", "Tema_53_Cuando_la_Terapia_Cognitiva_y_"],
+          chapters: ["Tema_48_Introduction", "Tema_49_La_Historia_de_la_Inteligencia", "Tema_50_Como_Funciona_la_TCC", "Tema_51_Por_que_se_Utiliza_la_TCC"],
           deepDive: 'Las distorsiones cognitivas (catastrofización, personalización, pensamiento todo-nada) son vulnerabilidades explotables. El Registro de Pensamientos audita la lógica y neutraliza el secuestro emocional.',
           diagram: `graph TD
     E[EVENTO] --> P[PENSAMIENTO automático]
@@ -464,7 +464,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Exposición gradual y controlada a estímulos que generan miedo para reentrenar el cerebro límbico.',
           tacticalRule: 'No evites el conflicto. Divide la confrontación en 5 pasos y expónte al Nivel 1 primero.',
           realExample: 'Miedo a hablar en público: grábate solo → habla con 1 amigo → habla ante 5 personas → conferencia.',
-          chapters: ["Tema_54_TCC_y_Anisiedad", "Tema_55_Exposicion_Graduada", "Tema_56_Juegos_de_Rol__Que_pasa_si", "Tema_57_Aproximacion_Sucesiva"],
+          chapters: ["Tema_52_Entender_la_Terapia_Conductual", "Tema_53_Cuando_la_Terapia_Cognitiva_y_"],
           deepDive: 'El miedo evitativo refuerza la fobia (condicionamiento operante). La exposición progresiva rompe el ciclo, creando nuevas vías neuronales de tolerancia.',
           diagram: `graph TD
     A[Jerarquía de Miedo: 10 niveles] --> B[Nivel 1: Mínima incomodidad]
@@ -487,7 +487,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Interrupción física o verbal de rumiaciones obsesivas para romper el ciclo neuronal de ansiedad.',
           tacticalRule: 'Cuando la rumiación comience, usa una señal contundente (aplaudir, decir ALTO en voz alta, ligar de goma en la muñeca).',
           realExample: 'Llevas 2 horas sobrepensando un mensaje. Dices "ALTO" y te pones a hacer ejercicio físico.',
-          chapters: ["Tema_58_Programacion_de_Actividades", "Tema_59_Conclusion", "Tema_60_Introduction"],
+          chapters: ["Tema_54_TCC_y_Anisiedad", "Tema_55_Exposicion_Graduada", "Tema_56_Juegos_de_Rol__Que_pasa_si"],
           deepDive: 'Las rumiaciones fortalecen sinapsis tóxicas. El Thought Stopping induce un shock cognitivo que permite redirigir el foco atencional al córtex prefrontal dorsolateral.',
           diagram: `graph LR
     A[Pensamiento obsesivo inicia] --> B[Bucle de Rumiación]
@@ -510,7 +510,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Las víctimas de abuso asumen el 100% de la culpa. La reatribución distribuye la responsabilidad real con lógica visual.',
           tacticalRule: 'Dibuja una tarta de porcentajes y asigna responsabilidad real a TODAS las partes implicadas.',
           realExample: '"Me gritó por el retraso". Reatribución: 10% retraso, 90% su falta de control emocional.',
-          chapters: ["Tema_61_Abuso_sexual", "Tema_62_Abuso_espiritual", "Tema_63_Abuso_narcisista"],
+          chapters: ["Tema_57_Aproximacion_Sucesiva", "Tema_58_Programacion_de_Actividades", "Tema_59_Conclusion"],
           deepDive: 'Al usar lógica espacial y visual, el cerebro activa el hemisferio analítico, disolviendo el secuestro emocional de la culpa internalizada artificialmente.',
           diagram: `graph LR
     A[Evento traumático] --> B[Víctima asume 100% culpa]
@@ -541,7 +541,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'DARVO: Deny (Negar), Attack (Atacar), Reverse Victim and Offender. Nunca te defiendas: les das suministro emocional.',
           tacticalRule: 'Aplica Contacto Cero radical o el Método de la Roca Gris si el contacto es inevitable.',
           realExample: 'Dices "me lastimaste" y responde "tú estás loca, siempre dramatizas". Te retiras en silencio.',
-          chapters: ["Tema_64_Perdonate_a_ti_Mismo", "Tema_65_Reclama_tu_Narrativa", "Tema_66_El_Narcisista"],
+          chapters: ["Tema_60_Introduction", "Tema_61_Abuso_sexual", "Tema_62_Abuso_espiritual", "Tema_63_Abuso_narcisista"],
           deepDive: 'Explicar tus sentimientos le da suministro emocional. El narcisismo maligno carece de empatía estructural. La única victoria es retirar completamente la atención.',
           diagram: `graph TD
     V[Víctima confronta] --> D[DARVO activado]
@@ -565,7 +565,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Vínculo químico generado por el refuerzo intermitente. Idéntico neurológicamente a la adicción a sustancias.',
           tacticalRule: 'Trátalo como rehabilitación de narcóticos. Acepta el síndrome de abstinencia como proceso necesario.',
           realExample: 'Sientes necesidad de llamarlo después de que te insultó, porque él mismo era tu "curación" del dolor que causaba.',
-          chapters: ["Tema_67_DARVO_y_el_Narcisista", "Tema_68_Perder_la_Confianza_en_uno_Mis", "Tema_69_Problemas_de_Salud_Mental"],
+          chapters: ["Tema_64_Perdonate_a_ti_Mismo", "Tema_65_Reclama_tu_Narrativa", "Tema_66_El_Narcisista", "Tema_67_DARVO_y_el_Narcisista"],
           deepDive: 'El Trauma Bond requiere 90 días de abstinencia total para que los receptores dopaminérgicos del cerebro vuelvan a regularse. La terapia de pareja empeora el trauma.',
           diagram: `graph LR
     A[Abuso] --> B[Dolor intenso]
@@ -589,7 +589,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Terceros reclutados consciente o inconscientemente por el narcisista para hacer el trabajo sucio: espiarte, persuadirte o transmitir mensajes.',
           tacticalRule: 'No intentes convencerlos de la verdad. Son extensiones del abusador. Córtalos también.',
           realExample: 'Tu suegra te llama para decirte: "Él está muy triste, dale otra oportunidad".',
-          chapters: ["Tema_70_Cortar_el_Contacto_por_Complet", "Tema_71_Convirette_en_la_Roca_Gris", "Tema_72_Buscar_Apoyo"],
+          chapters: ["Tema_68_Perder_la_Confianza_en_uno_Mis", "Tema_69_Problemas_de_Salud_Mental"],
           deepDive: 'El narcisista externaliza el acoso. Proveerles información a ellos es proveerle al abusador. Compartimentación extrema y contacto cero extendido son necesarios.',
           diagram: `graph TD
     N[NARCISISTA] -->|Recluta o manipula| M1[Mono 1: Familiar]
@@ -611,7 +611,7 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
           concept: 'Un límite no es decirle al otro lo que debe hacer. Es decirle lo que TÚ harás si cruza una línea. Autoejecutable e irrefutable.',
           tacticalRule: 'Formula límites con acción propia que puedas cumplir inmediatamente, sin condiciones ni negociación.',
           realExample: 'No dices "deja de llamarme a las 3 AM". Dices "mi teléfono estará apagado después de las 10 PM".',
-          chapters: ["Tema_73_Escriba_sus_Razones_para_Irse", "Tema_74_Inteligencia_Emocional", "Tema_75_Afirmaciones", "Tema_76_Conclusion"],
+          chapters: ["Tema_70_Cortar_el_Contacto_por_Complet", "Tema_71_Convirette_en_la_Roca_Gris", "Tema_72_Buscar_Apoyo", "Tema_73_Escriba_sus_Razones_para_Irse", "Tema_74_Inteligencia_Emocional", "Tema_75_Afirmaciones", "Tema_76_Conclusion"],
           deepDive: 'Las víctimas tienen límites amorfos o inexistentes. La recuperación requiere reconstruir el Ego sintónico mediante acciones autoejecutables que restauran el locus de control interno.',
           diagram: `graph LR
     A[Límite difuso: El otro no debe hacer X] --> B[Depende del comportamiento del otro]

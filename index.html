@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Psicología Oscura 6 en 1 | Sistema de Aprendizaje Estratégico</title>
   <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
   <script>
     tailwind.config = {
       darkMode: 'class',
@@ -73,13 +73,7 @@
 
         <!-- Métricas Rápidas & Nivel -->
         <div class="flex items-center gap-3">
-        <!-- BOTONES DE MODO DIOS Y AYUDA -->
-        <button onclick="document.getElementById('methodologyModal').classList.remove('hidden')" class="hidden md:flex items-center gap-2 px-3 py-2 rounded-xl bg-cyan-500/20 text-cyan-400 border border-cyan-500/50 hover:bg-cyan-500/30 transition-all text-xs font-bold">
-          <i class="fa-solid fa-microscope"></i> Bases Científicas
-        </button>
-        <button onclick="App.unlockAll()" class="hidden md:flex items-center gap-2 px-3 py-2 rounded-xl bg-amber-500/20 text-amber-400 border border-amber-500/50 hover:bg-amber-500/30 transition-all text-xs font-bold">
-          <i class="fa-solid fa-unlock-keyhole"></i> Modo Dios
-        </button>
+
                     <!-- Streak Diario -->
           <div class="hidden sm:flex items-center gap-2 bg-slate-900/90 border border-slate-800 px-3 py-1 rounded-xl" title="Racha de estudio">
             <i class="fa-solid fa-fire text-orange-500 text-sm"></i>
@@ -113,6 +107,17 @@
         <button onclick="App.toggleTheme()" id="themeToggleBtn" class="w-10 h-10 rounded-xl bg-slate-900/90 border border-slate-800 flex items-center justify-center text-amber-400 hover:text-amber-300 hover:border-amber-500/50 shadow-sm transition-all hover:scale-105">
             <i class="fa-solid fa-sun text-lg" id="themeIcon"></i>
         </button>
+          <!-- BOTÓN BASES CIENTÍFICAS (AYUDA) -->
+          <button onclick="document.getElementById('methodologyModal').classList.remove('hidden')" id="headerMethodologyBtn" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-cyan-950/90 text-cyan-400 border border-cyan-500/50 hover:bg-cyan-900/60 hover:border-cyan-400 shadow-sm transition-all cursor-pointer font-bold text-xs" title="¿Por qué está bloqueado el contenido?">
+            <i class="fa-solid fa-microscope text-cyan-400"></i>
+            <span class="hidden md:inline">Bases Científicas</span>
+          </button>
+
+          <!-- BOTÓN MODO DIOS -->
+          <button onclick="App.unlockAll()" id="headerGodModeBtn" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-950/90 text-amber-400 border border-amber-500/50 hover:bg-amber-900/60 hover:border-amber-400 shadow-sm transition-all cursor-pointer font-bold text-xs" title="Desbloquear todo el contenido">
+            <i class="fa-solid fa-unlock-keyhole text-amber-400"></i>
+            <span class="hidden md:inline">Modo Dios</span>
+          </button>
         <!-- Porcentaje de Dominio -->
           <div class="flex items-center gap-2 bg-slate-900/90 border border-cyan-500/30 px-3 py-1.5 rounded-xl cursor-pointer hover:border-cyan-400" onclick="App.switchTab('certificate')">
             <div class="w-7 h-7 rounded-full border-2 border-cyan-500 flex items-center justify-center text-[11px] font-mono font-bold text-cyan-400" id="globalProgressCircle">
@@ -589,13 +594,7 @@
         </div>
 
         <div class="flex items-center gap-3">
-        <!-- BOTONES DE MODO DIOS Y AYUDA -->
-        <button onclick="document.getElementById('methodologyModal').classList.remove('hidden')" class="hidden md:flex items-center gap-2 px-3 py-2 rounded-xl bg-cyan-500/20 text-cyan-400 border border-cyan-500/50 hover:bg-cyan-500/30 transition-all text-xs font-bold">
-          <i class="fa-solid fa-microscope"></i> Bases Científicas
-        </button>
-        <button onclick="App.unlockAll()" class="hidden md:flex items-center gap-2 px-3 py-2 rounded-xl bg-amber-500/20 text-amber-400 border border-amber-500/50 hover:bg-amber-500/30 transition-all text-xs font-bold">
-          <i class="fa-solid fa-unlock-keyhole"></i> Modo Dios
-        </button>
+
           <div class="bg-slate-900 border border-slate-700 px-3 py-1.5 rounded-xl font-mono text-xs text-emerald-400 font-bold" id="quizScoreBadge">
             Puntuación: 0 / 12
           </div>
@@ -626,13 +625,7 @@
         </div>
 
         <div class="flex items-center gap-3">
-        <!-- BOTONES DE MODO DIOS Y AYUDA -->
-        <button onclick="document.getElementById('methodologyModal').classList.remove('hidden')" class="hidden md:flex items-center gap-2 px-3 py-2 rounded-xl bg-cyan-500/20 text-cyan-400 border border-cyan-500/50 hover:bg-cyan-500/30 transition-all text-xs font-bold">
-          <i class="fa-solid fa-microscope"></i> Bases Científicas
-        </button>
-        <button onclick="App.unlockAll()" class="hidden md:flex items-center gap-2 px-3 py-2 rounded-xl bg-amber-500/20 text-amber-400 border border-amber-500/50 hover:bg-amber-500/30 transition-all text-xs font-bold">
-          <i class="fa-solid fa-unlock-keyhole"></i> Modo Dios
-        </button>
+
           <input type="text" id="certUserNameInput" oninput="App.saveCertName(this.value)" placeholder="Escribe tu nombre..." class="bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-xl px-3 py-2 focus:outline-none focus:border-cyan-500">
           <button onclick="App.downloadCertificate()" class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-slate-950 font-bold text-xs rounded-xl shadow-lg shadow-cyan-500/25 flex items-center gap-2">
             <i class="fa-solid fa-download"></i> Descargar Diploma PNG
@@ -692,13 +685,7 @@
         <p class="text-xs text-slate-400 mt-1">Desbloquea nuevas capacidades cognitivas a medida que dominas los conceptos. Las herramientas avanzadas están bloqueadas hasta que domines lo básico.</p>
       </div>
       <div class="flex items-center gap-3">
-        <!-- BOTONES DE MODO DIOS Y AYUDA -->
-        <button onclick="document.getElementById('methodologyModal').classList.remove('hidden')" class="hidden md:flex items-center gap-2 px-3 py-2 rounded-xl bg-cyan-500/20 text-cyan-400 border border-cyan-500/50 hover:bg-cyan-500/30 transition-all text-xs font-bold">
-          <i class="fa-solid fa-microscope"></i> Bases Científicas
-        </button>
-        <button onclick="App.unlockAll()" class="hidden md:flex items-center gap-2 px-3 py-2 rounded-xl bg-amber-500/20 text-amber-400 border border-amber-500/50 hover:bg-amber-500/30 transition-all text-xs font-bold">
-          <i class="fa-solid fa-unlock-keyhole"></i> Modo Dios
-        </button>
+
         <button onclick="App.toggleFocusMode()" id="btnFocusMode" class="px-4 py-2 bg-indigo-600 hover:bg-indigo-500 text-xs font-bold text-white rounded-xl shadow-lg flex items-center gap-2 transition-all">
           <i class="fa-solid fa-headphones"></i> Activar Modo Enfoque (Ondas Alfa)
         </button>

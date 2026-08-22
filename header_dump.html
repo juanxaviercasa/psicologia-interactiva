@@ -1,0 +1,167 @@
+<header class="sticky top-0 z-40 bg-[#0B1120]/90 backdrop-blur-md border-b border-slate-800 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 gap-4">
+        
+        <!-- Logo & Titulo -->
+        <div class="flex items-center gap-3 cursor-pointer" onclick="App.switchTab('dashboard')">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-600 to-indigo-600 flex items-center justify-center shadow-lg shadow-cyan-500/20 border border-cyan-400/30">
+            <i class="fa-solid fa-brain text-white text-lg"></i>
+          </div>
+          <div>
+            <div class="flex items-center gap-2">
+              <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-300 to-indigo-400 text-lg tracking-tight">PSICOLOGÍA OSCURA</span>
+              <span class="px-1.5 py-0.5 text-[10px] font-mono font-bold bg-cyan-950 text-cyan-400 border border-cyan-700/50 rounded">6 EN 1</span>
+            </div>
+            <p class="text-xs text-slate-400 hidden sm:block">Sistema de Maestría Estratégica • Benedict Goleman</p>
+          </div>
+        </div>
+
+        <!-- Buscador Global Rápido -->
+        <div class="flex-1 max-w-md hidden md:block">
+          <div class="relative cursor-pointer" onclick="App.openSearchModal()">
+            <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
+            <input type="text" readonly placeholder="Buscar táctica, concepto o defensa... (Ctrl+K)" class="w-full bg-slate-900/90 border border-slate-700/80 rounded-xl py-1.5 pl-10 pr-12 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-cyan-500 hover:border-slate-600 cursor-pointer">
+            <kbd class="absolute right-3 top-1/2 -translate-y-1/2 px-1.5 py-0.5 text-[10px] font-mono text-slate-400 bg-slate-800 border border-slate-700 rounded">⌘K</kbd>
+          </div>
+        </div>
+
+        <!-- Métricas Rápidas & Nivel -->
+        <div class="flex items-center gap-3">
+
+                    <!-- Streak Diario -->
+          <div class="hidden sm:flex items-center gap-2 bg-slate-900/90 border border-slate-800 px-3 py-1 rounded-xl" title="Racha de estudio">
+            <i class="fa-solid fa-fire text-orange-500 text-sm"></i>
+            <div class="text-left">
+              <div class="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Racha</div>
+              <div id="streakCounterText" class="text-xs font-bold text-orange-400 font-mono">0 Días</div>
+            </div>
+          </div>
+
+          <!-- Pomodoro Timer -->
+          <div class="flex items-center gap-2 bg-slate-900/90 border border-slate-800 px-3 py-1 rounded-xl cursor-pointer hover:border-rose-500/50" onclick="App.togglePomodoro()" title="Iniciar/Pausar Pomodoro">
+            <i class="fa-solid fa-stopwatch text-rose-400 text-sm" id="pomodoroIcon"></i>
+            <div class="text-left hidden md:block">
+              <div class="text-[10px] text-slate-400 uppercase tracking-wider font-semibold" id="pomodoroLabel">Enfoque</div>
+              <div id="pomodoroTimerText" class="text-xs font-bold text-rose-300 font-mono">25:00</div>
+            </div>
+            <div class="md:hidden text-xs font-bold text-rose-300 font-mono" id="pomodoroTimerTextMobile">25:00</div>
+          </div>
+
+          <!-- Nivel Táctico Badge -->
+          <div class="hidden lg:flex items-center gap-2 bg-slate-900/90 border border-slate-800 px-3 py-1 rounded-xl">
+            <i class="fa-solid fa-shield-halved text-cyan-400 text-sm"></i>
+            <div class="text-left">
+              <div class="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Nivel Táctico</div>
+              <div id="globalLevelText" class="text-xs font-bold text-cyan-300 font-mono">Iniciando</div>
+            </div>
+          </div>
+
+          
+        <!-- Theme Toggle -->
+        <button onclick="App.toggleTheme()" id="themeToggleBtn" class="w-10 h-10 rounded-xl bg-slate-900/90 border border-slate-800 flex items-center justify-center text-amber-400 hover:text-amber-300 hover:border-amber-500/50 shadow-sm transition-all hover:scale-105">
+            <i class="fa-solid fa-sun text-lg" id="themeIcon"></i>
+        </button>
+        <!-- Porcentaje de Dominio -->
+          <div class="flex items-center gap-2 bg-slate-900/90 border border-cyan-500/30 px-3 py-1.5 rounded-xl cursor-pointer hover:border-cyan-400" onclick="App.switchTab('certificate')">
+            <div class="w-7 h-7 rounded-full border-2 border-cyan-500 flex items-center justify-center text-[11px] font-mono font-bold text-cyan-400" id="globalProgressCircle">
+              0%
+            </div>
+            <span class="text-xs font-semibold text-slate-300 hidden sm:inline">Dominio</span>
+          </div>
+
+          <!-- Botón Buscador Móvil -->
+          <button onclick="App.openSearchModal()" class="md:hidden p-2 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-cyan-400">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+        <!-- Barra de Navegación por Pestañas -->
+    <nav class="bg-slate-950/90 border-t border-slate-800/80 relative z-30">
+      <!-- Mobile Hamburger Button & Active Tab Name -->
+      <div class="md:hidden flex items-center justify-between px-4 py-3">
+        <div class="flex items-center gap-2">
+            <i class="fa-solid fa-bars-staggered text-slate-500"></i>
+            <span class="text-sm font-semibold text-slate-300" id="mobile-current-tab">Dashboard</span>
+        </div>
+        <button onclick="document.getElementById('mobile-menu').classList.toggle('hidden')" class="text-slate-400 hover:text-white bg-slate-800/50 px-3 py-1.5 rounded-md">
+          <i class="fa-solid fa-caret-down"></i> Menú
+        </button>
+      </div>
+
+      <!-- Main Navigation Menu -->
+      <div id="mobile-menu" class="hidden md:flex flex-col md:flex-row md:flex-wrap max-w-7xl mx-auto px-4 md:items-center md:justify-center py-4 md:py-1 gap-4 md:gap-x-2 md:gap-y-1">
+        
+        <!-- Grupo: Aprendizaje -->
+        <div class="flex flex-col md:flex-row gap-1 border-b border-slate-800/50 md:border-none pb-3 md:pb-0">
+          <span class="text-[10px] uppercase text-slate-500 font-bold px-3 mb-1 md:hidden tracking-wider">Módulo de Aprendizaje</span>
+          <button onclick="App.switchTab('dashboard'); closeMobileMenu()" id="tab-btn-dashboard" class="nav-tab active px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+            <i class="fa-solid fa-chart-pie w-4 text-center"></i> Dashboard
+          </button>
+          <button onclick="App.switchTab('learning'); closeMobileMenu()" id="tab-btn-learning" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+            <i class="fa-solid fa-brain w-4 text-center"></i> Academia
+          </button>
+          <button onclick="App.switchTab('matrix'); closeMobileMenu()" id="tab-btn-matrix" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+            <i class="fa-solid fa-shield-virus w-4 text-center"></i> Matriz
+          </button>
+          <button onclick="App.switchTab('glossary'); closeMobileMenu()" id="tab-btn-glossary" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+            <i class="fa-solid fa-file-invoice w-4 text-center"></i> Glosario
+          </button>
+        </div>
+
+        <div class="hidden md:block w-px h-5 bg-slate-800 mx-1"></div>
+
+        <!-- Grupo: Práctica -->
+        <div class="flex flex-col md:flex-row gap-1 border-b border-slate-800/50 md:border-none pb-3 md:pb-0">
+          <span class="text-[10px] uppercase text-slate-500 font-bold px-3 mb-1 md:hidden tracking-wider">Entrenamiento</span>
+          <button onclick="App.switchTab('simulator'); closeMobileMenu()" id="tab-btn-simulator" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+            <i class="fa-solid fa-chess-knight w-4 text-center"></i> Simulador
+          </button>
+          <button onclick="App.switchTab('flashcards'); closeMobileMenu()" id="tab-btn-flashcards" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+            <i class="fa-solid fa-bolt w-4 text-center text-yellow-400/70"></i> Flashcards
+          </button>
+          <button onclick="App.switchTab('bodylab'); closeMobileMenu()" id="tab-btn-bodylab" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+            <i class="fa-solid fa-eye w-4 text-center text-emerald-400/70"></i> No Verbal
+          </button>
+          <button onclick="App.switchTab('quizzes'); closeMobileMenu()" id="tab-btn-quizzes" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+            <i class="fa-solid fa-trophy w-4 text-center text-amber-400/70"></i> Quizzes
+          </button>
+        </div>
+
+        <div class="hidden md:block w-px h-5 bg-slate-800 mx-1"></div>
+
+        <!-- Grupo: Avanzado -->
+        <div class="flex flex-col md:flex-row gap-1 pb-2 md:pb-0">
+          <span class="text-[10px] uppercase text-slate-500 font-bold px-3 mb-1 md:hidden tracking-wider">Avanzado</span>
+          <button onclick="App.switchTab('skilltree'); closeMobileMenu()" id="tab-btn-skilltree" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-indigo-400 hover:text-indigo-300 hover:bg-indigo-950/40">
+            <i class="fa-solid fa-sitemap w-4 text-center"></i> Skill Tree
+          </button>
+          <button onclick="App.switchTab('sparring'); closeMobileMenu()" id="tab-btn-sparring" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-rose-400 hover:text-rose-300 hover:bg-rose-950/40">
+            <i class="fa-solid fa-robot w-4 text-center"></i> Sparring AI
+          </button>
+          <button onclick="App.switchTab('auditor'); closeMobileMenu()" id="tab-btn-auditor" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-emerald-400 hover:text-emerald-300 hover:bg-emerald-950/40">
+            <i class="fa-solid fa-user-secret w-4 text-center"></i> Auditor
+          </button>
+          <button onclick="App.switchTab('certificate'); closeMobileMenu()" id="tab-btn-certificate" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-amber-400 hover:text-amber-300 hover:bg-amber-950/40">
+            <i class="fa-solid fa-award w-4 text-center"></i> Certificado
+          </button>
+        </div>
+
+        <!-- PDF Original -->
+        <a href="Psicologia_Oscura_6_en_1.pdf" target="_blank" class="md:border-l md:border-slate-800 md:pl-2 px-3 py-2 md:py-1 rounded-lg text-sm md:text-[11px] font-semibold flex items-center gap-2 whitespace-nowrap text-cyan-400 border border-cyan-500/30 md:border-transparent hover:border-cyan-500/30 hover:bg-cyan-950/50 hover:text-cyan-300 transition-all justify-center md:justify-start">
+          <i class="fa-solid fa-book-open"></i> PDF
+        </a>
+
+      </div>
+    </nav>
+    
+    <script>
+      function closeMobileMenu() {
+        if(window.innerWidth < 768) {
+            document.getElementById('mobile-menu').classList.add('hidden');
+        }
+      }
+    </script>
+  </header>

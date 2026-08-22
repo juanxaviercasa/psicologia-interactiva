@@ -583,31 +583,45 @@ const App = {
     
     // Append Extended Reading Chapters
     if (pillar.chapters && pillar.chapters.length > 0) {
+      const bookStore = (typeof BOOK_CONTENT !== 'undefined' ? BOOK_CONTENT : null) || (typeof window !== 'undefined' ? window.BOOK_CONTENT : null) || {};
+      
       let chaptersHtml = `
         <div class="lg:col-span-2 mt-8">
-          <div class="text-[12px] text-indigo-400 font-bold font-mono tracking-widest mb-4 flex items-center gap-2">
-            <i class="fa-solid fa-book-open-reader"></i> LECTURA PROFUNDA (TEXTO ORIGINAL)
+          <div class="text-[12px] text-cyan-400 font-bold font-mono tracking-widest mb-4 flex items-center gap-2">
+            <i class="fa-solid fa-book-open-reader"></i> LECTURA PROFUNDA (TEXTO COMPLETO ORIGINAL)
           </div>
-          <div class="space-y-6">
+          <div class="space-y-4">
       `;
+      
       pillar.chapters.forEach((chapterName, idx) => {
-         const rawMd = window.BOOK_CONTENT && window.BOOK_CONTENT[chapterName] ? window.BOOK_CONTENT[chapterName] : 'Contenido no encontrado.';
-         const parsedHtml = typeof marked !== 'undefined' ? marked.parse(rawMd) : '<pre class="whitespace-pre-wrap text-sm text-slate-300">' + rawMd + '</pre>';
+         const rawMd = bookStore[chapterName] || 'Contenido del capítulo no disponible.';
+         
+         // Parse markdown safely
+         let parsedHtml = '';
+         if (typeof marked !== 'undefined') {
+            parsedHtml = typeof marked.parse === 'function' ? marked.parse(rawMd) : marked(rawMd);
+         } else {
+            parsedHtml = '<div class="whitespace-pre-wrap text-slate-300 font-sans leading-relaxed text-sm">' + rawMd + '</div>';
+         }
+         
+         const cleanTitle = chapterName.replace(/_/g, ' ').replace(/^Tema\s*\d+\s*/i, '').trim();
+         
          chaptersHtml += `
-           <div class="bg-slate-900 border border-slate-700/50 rounded-2xl overflow-hidden shadow-lg">
-             <div class="bg-slate-800/80 px-6 py-4 border-b border-slate-700/50 flex justify-between items-center cursor-pointer hover:bg-slate-700/60 transition-colors" onclick="this.nextElementSibling.classList.toggle('hidden'); this.querySelector('i.fa-chevron-down').classList.toggle('rotate-180')">
-               <span class="font-bold text-slate-200 font-serif text-lg">Sección ${idx+1}: ${chapterName.replace(/_/g, ' ').replace('Tema', 'Capítulo')}</span>
+           <div class="bg-slate-900/90 border border-slate-700/60 rounded-2xl overflow-hidden shadow-xl">
+             <div class="bg-slate-800/90 hover:bg-slate-700/80 px-6 py-4 border-b border-slate-700/60 flex justify-between items-center cursor-pointer transition-colors" onclick="const p = this.nextElementSibling; p.classList.toggle('hidden'); this.querySelector('.fa-chevron-down').classList.toggle('rotate-180');">
+               <div class="flex items-center gap-3">
+                 <span class="w-7 h-7 rounded-lg bg-cyan-950 border border-cyan-500/40 text-cyan-400 font-mono text-xs font-bold flex items-center justify-center">${idx + 1}</span>
+                 <span class="font-bold text-slate-100 font-serif text-base">${cleanTitle || chapterName}</span>
+               </div>
                <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
              </div>
-             <div class="hidden p-6 lg:p-10 prose prose-invert prose-indigo max-w-none prose-headings:font-serif prose-headings:text-slate-100 prose-p:text-slate-300 prose-p:leading-relaxed prose-a:text-indigo-400">
+             <div class="hidden p-6 sm:p-8 prose prose-invert prose-cyan max-w-none prose-headings:font-serif prose-headings:text-slate-100 prose-p:text-slate-300 prose-p:leading-relaxed prose-li:text-slate-300 prose-strong:text-cyan-300 bg-[#090e17]/80">
                ${parsedHtml}
              </div>
            </div>
          `;
       });
       chaptersHtml += `</div></div>`;
-      
-      // Inject it right before the last closing div of the grid
       contentHtml += chaptersHtml;
     }
 
