@@ -1,0 +1,23 @@
+## Como Funciona la TCC
+
+En ultima instancia, la TCC funciona principalmente porque examina de cerca como los comportamientos y los pensamientos estan innatamente relacionados entre si. Aunque puede centrale intencionadamente en los comportamientos, esto se debe mas bien a que los comportamientos son mucho mas sencillos de observar que cualquier otra forma. Se puede saber lo que hace alguien de un vistazo, pero no siempre se puede saber el tono emocional de alguien solo por su mirada.
+
+Este ciclo entre comportamientos y pensamientos tiene en realidad un punto mas: es el cuadro pensamientos-sentiminentos-conductas.
+
+Efectivamente, nuestros pensamientos influyen en nuestros sentiminentos. Si piensas que eres inutil, sentiras que no tienes confianza en ti mismo. Sin confianza en ti mismo, no estaras dispuesto a solicitar ese trabajo que realmente necesitas. Si no te presentas a ese trabajo, obviamente nunca lo conseguiras, y volveras a estar atrapado en lo horrible que eres y en lo mucho que desarias poder cambiarte por otra persona.
+
+Eso significica que el ciclo se ha completado oficialmente. Pensaste que eras inutil, sentiste que eras inutil, fuiste inutil como resultado directo de esos pensamientos, y luego continuaste usando eso como evidencia de lo inutil que eres.
+
+Esta es exactamente la razon por la que los sentiminentos negativos pueden ser tan increiblemente dificiles de dejarimplantados en otra persona: cuando estan ahi, esa otra persona va a tener que trabajar increiblemente duro para sacar esos sentiminetos negativos en un proceso que se conoce como reestructuracion cognitiva.
+
+La reestructuracion cognitiva es efectivamente la columna vertebral de la TCC en este punto: es la capacidad de detenerse, analizar sus propios pensamientos y luego cambiarlos con otra tecnicas. Al hacerlo, puede descubrir que, de hecho, funciona. La razon por la que funciona es porque rompe con el ciclo mencionado anteriormente: si los pensamientos negativos generan sentiminetos negativos, lo que genera un comportamiento negativo,?que sucede si se produce un cambio hacia sentiminetos positivos?
+
+Por ejemplo,?que pasaria si reemplazaras el pensamiento de ser inutil por un pensamiento de esforzarte por cambiar tus tendencias como individuo negativo? Si quisieras cambiar ese pensamiento en particular, tendrias que implantarlo de alguna manera en tu cerebro y luego averiguar la mejor manera de estar reforzandolo constantemente.
+
+Al principio, ese pensamiento positivo esta en tu mente, pero te resulta dificil utilizarlo. Esto tiene sentido: es un tema dificil de abordar y, sin embargo, abordarlo es la unica opcion correcta. Asi que, despues de insitir en que te esfuerzas al maximo en la vida y de ver a la chica del bar con la que no consequisite entablar una conversacion a pesear de tus deseos de hacerlo, tomas esa determinacion y te acercas a ella. Por supuesto, el mero hecho de acercarte, algo que te ateraba hacer, es suficiente para que empieces a sentirte un poco mas seguro de ti mismo y con exito.
+
+Tus procesos de pensamiento empiezan a ayudarte a tener exito. Descubriras que cuanto mas positivo sea el lenguaje que utilices, mas positivo te sentiras. Cuanto mas positivo se sienta, mas probable sera que se comporte de forma positiva. Efectivamente, entonces, eres capaz de vencer los problemas clave en tu vida, uno a la vez.
+
+?Tienes anisiedad? Puedes averiguar como eliminar esa respuesta ansiosa en Interneto en un libro como este.?Te sientes solo y quieres encontrar una cita? Tambien puedes hacerlo, siempre y cuando te esfuerces activamente en intentarlo. No importa cual sea tu problema de salud mental, casi siempre hay una forma de utilizar la TCC para afrontarlo mejor de una forma u otra.
+
+Sin embargo, es importante tener en cuenta que si se va a utilizar la TCC, es necesario reforzarla regularmente. Quieres asegurarte de que sigue siendo eficaz, y la mejor manera de hacerlo es flexionar repetidamente los musculos que utilizarias con la TCC en primer lugar. Esto significica que si la TCC te ayuda con la ansiedad, usala con tus sittomas de ansiedad tanto como puedas. Incluso si cree que los sintomas no son tan graves, intente utilizarla. Descubrira que es capaz de reforzarlos mejor y mas eficazmente simplemente utilizandolos de forma regular.

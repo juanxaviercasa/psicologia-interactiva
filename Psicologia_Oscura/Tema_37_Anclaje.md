@@ -1,0 +1,124 @@
+## Anclaje
+
+Una vez que has establecido una conexion con otra persona, estas listo para pasar a intentar realmente alterar la mente de otra persona. Una de las mejores maneras de hacer esto es a traves del anclaje -cuando estas anclando a alguien a algo, lo estas preparando para tener una reaccion especificia a un estimulo muy especificico. Puede ser que quieeras que cambien activamente su estado de animo cuando hagas algo, o que quieras encontrar una manera de hacer que hagan algo en particular en respuesta a su propia ansiedad o sentimiento negativo. Puedes usar esto para hacer que alguien sea mas propenso a elegir una decision positiva cuando se sienta fuera de control, o puedes hacerlo para conseguir que haga algo especifico para ti.
+
+Una tactica comun de los manipuladores, por ejemplo, es crear un desencadenante del miedo a partir de un anclaje muy pequeno e imperceptible para la mayoria: pueden utilizar un movimiento leve pero claro de la mano para hacer que la otra persona sienta miedo con el fin de mantenerla bajo control. Sin embargo, tambien se puede demandar para evitar malos habitos, como fumar o beber, o ser una forma de hacer frente a la ansiedad del momento.
+
+El anclaje es bastante sencillo una vez que eres capaz de desarrollar una relacion con otra persona. Todo lo que tienes que hacer es averiguar los pasos correctos y los sentiminetos adecuados para anclar. Hay cinco pasos sencillos para conseguir que otra persona se ancle a un sentimiento. Ten en cuenta que estos pasos llevaran tiempo; no puedes esperar que alguien se ancle al azar sin mucho esfuerzo. Estas condicionando a alguien de forma efectiva, probablemente sin que sea consciente de ello, y eso requiere esfuerzo y energia para no ser detectado. Sin mas preambulos, veamos los cinco pasos para anclar a otra persona.
+
+**Paso 1: Elegir un sentimento**
+
+Comenzara este proceso averiguando que sentimiento desea infundir en otra persona. A efectos de este proceso, digamos que queires que tu pareja se sienta mas segura de si misma, que no tenga miedo de pedir lo que necesita cuando lo necesita. Sabes que a ella le cuesta y quieres cambiarlo. Por supuesto, este sentimiento puede ser cualquier cosa. Podrias elegir infundirle anisiedado o relajacion. Podria elegir la felicidad o la tristeza. En definitiva, tienes que encontrar un desencadenante que funcione para ti y tu situacion.
+
+**Paso 2: Elegir un activator**
+
+Esta es una forma elegante de decirte que busques una forma de instalar ese sentimiento particular a la otra persona. Puedes utilizar la narracion de historias para otra persona, contandole un momento que le haga recordar ese sentimiento concreto que quieres instalar. Si quieres que tu pareja se sienta segura de si misma, puedes rememorar un periodo de tiempo en el que se sentia bastante segura, describiendolo hasta que veas que parece estar reviviendo ese sentimiento.
+
+**Paso 3: Elegir un ancla**
+
+A continuacion, debe identificar el anclaje que utilizar. Puede ser el tacto, la vista, el olfato, el gusto o el sonido. La mayoria de las veces, la vista es la mas facil de inculcar a otra persona, pero aun asi requiere una proximidad suficiente para que puedas activarla cuando la necesites. Averigua que funciona mejor para ti y para la otra persona. Tal vez, en este caso, elijas que vas a utilizar un toque en un punto concreto de la mueca que no seuele tocar.
+
+**Paso 4: Desencadenar el sentimiento**
+
+En este punto, vsted estara provocando activamente la sensacion de que se esta anclando. Puede contar la historia durante la cual su pareja se mostro confiada. Puede decir cosas que ayuden aumentar la confianza de su pareja, como ofrecerle un gran elogio por la cena que se preparo, o senalar lo guapa que esta ese dia. Quieres que se sienta segura de si misma, asi que puedes relacionarlo con el ancla. Puedes hacer esto de varias maneras diferentes varias veces a lo largo del dia.
+
+**Paso 5: Enlazar el ancla**
+
+Finalmente, cuando veas que la otra persona esta sintiendo la emocion que estas intentando anclar, puedes empezar a utilizar el anclaje que quieras. Si has elegido ese toque rapido en el interior de la muieca de tu pareja, lo tocaras entonces. Si has elegido una expresion facial, puedes hacerla. Al hacer esto, con el tiempo, veras que tu pareja hacer una asociacion entre su confianza y lo que sea que estes anclando.
+
+El truco aqui es asegurarse de que cada vez que actives ese sentimiento para ella, debes emparejarlo con el ancla tambien. Esto es critico si quieres que sea realmente efectivo. Ten en cuenta que esto llevara tiempo, pero tambien sera increiblemente efectivo.
+
+### Ritmo y Liderazgo
+
+En la PNL se utiliza comunmente el acto de marcar el paso y guiar. Efectivamente, se trata de la capacidad de averiguar la mejor manera de identificarse con la otra persona (como el reflejo para ponerse en la misma pagina) y luego guiarla hacia tu propia mentalidad en lugar de permitile mantener la suya.
+
+Mientras lees esto, repasando las palabras escritas aqui para ti, puedes descubrir que te esta creciendo la curiosidad por saber que es el ritmo y la direccion y como se puede utilizar.
+
+Si ahora sientes curiosidad por el ritmo y la direccion, entonces acabas de caer en enla: se reconocio tu estado actual y luego se te gui o suavemente hacia un estado diferente: la curiosidad. Esta es una tecnica increiblemente eficaz por una razon especifica: se empieza mencionando algo que es cierto, reconociendo el estado de otra persona antes de mencionar activamente otra cosa. Desarma eficazmente la mente consciente inmediatamente despues de decir la verdad: el consciente ya no ve lo que esta a punto de decirse como potencialmente amenazante porque la primera parte no lo era.
+
+A veces, esto puede ser bastante evidente, como lo fue en esa primera reaccion, pero tambien se puede ver que ocurre de forma mucho mas sutil. Siempre que seas capaz de seguir el ritmo y de dirigirlo, veras que esta tecnica puede tener exito. Por supuesto, debe tener esa relacion inicial establecida; si aun no tiene una relacion con la persona a la que intenta seguir el ritmo, comience con el reflejo y luego pase a esta tecnica.
+
+Considere por un momento que esta en una discusion con su conyuge. Su conyuge se esta enfadando bastante y esta subiendo la voz. Usted tambien esta bastante enfadado, pero no quiere que la cosa vaya a mas. En este caso, puede hacer lo posible por igualar el ritmo de la otra persona. Esto no significica que debas empezar a gritar a tu conyuge. Hay que encontrar otra forma de igualar el ritmo. En lugar de gritar tambien tus frustraciones, quizas devuelvas ese mismo tono e intensidad con algo un poco menos serio. Grita que tienes hambre en lugar de gritar que estas enfadado. Tal vez incluso lo mezcles y grites que tienes hambre en lugar de gritar que estas enfadado. Entonces empiezas a reducir gradualmente tu propia intensidad, arrastrandoles a ellos y a su propia intensidad. El repentinocambio de ritmo puede chocar inicialmente a tu conyuge, pero deberias descubrir que tu conyuge te seguir a en la mayoria de las ocasiones.
+
+Esto puede ser increiblemente util en muchos contextos diferentes: puede utilizarlo en un entorno comercial, es escuchando lo que su cliente tiene que decir, igualando el ritmo, y luego llevando a lo que le gustaria discutir en su lugar. Puede utilizarlo en la publicidad, reconociendo lo que la gente esta haciendo, y luego dirigiendolos a pedir el producto. Incluso puede utilizarlo para ganar interes en algo, como se hizo al principio de esta seccion.
+Finalmente, una ultima tecnica que se utiliza regularmente en la PNL es aprender a leer y manejar el lenguaje corporal. Dedicar tiempo a entender la comunicacion no verbal significa que podras leer mejor las intenciones deotras personas. Al entender las intenciones deotras personas, descubirras que tambien puedes influir y controlar las situaciones mucho mejor.
+
+Cuando eres capaz de leer el lenguaje corporal, desarrollas la capacidad de entender lo que estan pensando. Sin embargo, cuando aprendes a manejar tu propio lenguaje corporal, puedes empezar a averiguar cual es la mejormanera de interactuar con ortas personas para cambiar sutilmente sus propios sentiminentos.
+
+Piensa en el reflejo: es probable que la otra persona siga tu ejemplo cuando seas capaz de crear esa conexion conella.?Que pasaria si empezaras a utilizar us propias senales no verbales para ayudar a calmarlos o a cambiar su mentalidad durante ese momento? Tal vez ests hablando con alguien que parece dudar de hacer una compra: puedes reflejar a la otra persona y asentir sutilmente con la cabeza para empujarla suavemente a querer estar de acuerdo. Puedes usar esto para empujar a la gente a tomar su decision final. Si la otra persona sigue dudando de la idea despues de que hayas intentado presionarla para que acepte, probablemente debas aceptar ese no y seguir adelante.
+
+Tambien puedes utilizarlo de otras maneras. Si alguien parece molesto, puedes reflejarlo para conseguir tu propia compenetracion con la otra persona y luego utilizar el lenguaje corporal para empezar a calmarla tambien. Se trata de una version totalmente fisica del ritmo y la direccion, pero puede ser increiblemente eficaz si sabes lo que estas haciendo y te estuerzas por utilizarlo bien. Todo lo que tienes que hacer es pasar por el proceso, y descubirras que puedes influir constantemente incluso en los sentimientos menores.
+
+**Capitulo 9: Mejorar la Capacidad de Comunicacion**
+
+Teniento en cuenta lo social que resulta la PNL y lo mucho que debes ser capaz de interactuar con las mentes de los demas, no deberia sorprender que unas buenas habilidades de comunicacion sean fundamentales si queres ser capaz de de utilizarla. Estas pueden ser dificiles de desarrollar si no sabes lo que estas haciendo, pero puedes aprender la mejor manera de desarrollar las habilidades que te serviran si estas dispuesto a poner el esfuerzo. En particular, las habilidades de comunicacion que son fuertes pueden proporcionarle un mirada de beneficios, tanto dentro de la PNL y la persuasion y solo en su vida general. Podras comunicarte con los demas para que te entiendan mejor, lo que significa que no te encontraras con tantos conflictos. Seras capaz de hacer frente a las luchas que puedas encontrarte. Podra pedir lo que necesita. Podras comunicarte mejor con las mentes inconscientes de los que te radean. Todo lo que tienes que hacer es desarrollar las habilidades adecuadas para hacerlo. Aumentara tu propia confianza, y con esa confianza mejorada, descubirras que es mucho mas probable que seas feliz en tu vida.
+
+En particular, cuando se necesita desarrollar habilidades de comunicacion solidas, las mejores que se pueden aprender son: ser capaz de establecer un contacto visual significativo sin forzarlo ni fingirlo, ser capaz de presentarse como una persona segura de si misma y con el control, y ser capaz de escuchar con eficacia. Esto, en particular, le ayudara a mejorar su capacidad de comunicacion, no solo para facilitar su propia comprension de lo que otros quieren transmitirle, sino tambien para asegurarse de que puede decir a otras personas lo que necesita de forma clara y significativa. De este modo, podra asegurarse de que quienes le rodean le entienden y son capaces de respetar lo que quiere y necesita.
+
+Este capitulo le proporcionara la informacion necesaria para abordar esas tres tecnicas especificas a las que se ha hecho referencia anteriormente, ofreciendole los pasos para convertiflas en habituales, incluso si se siente intimidad por la idea de establecer contacto visual o de intentar mostarse confiado. Simplemente tenga en cuenta, siempre que, tenga dudas sobre estos metodos, que se le vera como mas digno de confianza, y esa confianza es fundamental si espera que quienes le rodean le vean como alguien fiable.
+
+**Establecer Contacto Visual**El contacto visual es una de esas habilidades que hay que desarrollar para ser eficaz en la comunicacion, pero tambien es una con la que la gente tiende a luchar. El contacto visual puede hacer que lo que dices sea mas impactante y cambiar la forma en que la gente te ve mientras hablas, pero tambien puede ser bastante dificil de mantener. Si quieres ser capaz de comunicarte con claridad, tienes que desarrollar una tolerancia al contacto visual o, al menos, aprender a establecer contacto visual de forma que convenzas a la otra parte de que la estas mirando.
+
+Dado que muchas discusiones y conflictos pueden estar relacionados con un error de comunicacion, es fundamental ser capaz de comunicarse con claridad y eficacia. Con un buen contacto visual y unas solidas habilidades de comunicacion, descubirras que la gente que te rodea esta mucho mas dispuesta a escuchar lo que tienes que decir. Conifaran en used con mas frecuencia y de mejor gana. Se implicaran mas en la conversacion y el intercambio y sera mas probable que te recuerden con carino y alegria. El principio de todo esto es el contacto visual. Al fin y al cabo, si alguien no establecer un fuerte contacto visual con unsted, suele suponer que no es digno de confianza: es un signo de engano, y eso no es lo que used quiere representar si quiere que le vean como alguien honesto y digno de ser escuchado.
+
+Cuando utilizas el contacto visual, le estas diciendo a la otra persona que la estas escuchando e interesando. Le dices a la otra persona que, en ese momento, tu atencion se centra en enlla, lo que significica que es libre de continuar. Sin embargo, la gente suele tener problemas con el contacto visual. Si quieres mejorar tu capacidad para establecer un contacto visual significativo, intenta seguir los siguientes pasos.
+
+### La regla del 50/70
+
+A primera vista, esto puede parecer confuso, ya que no suma 100, pero en realidad tiene sentido. Lo que se busca es un contacto visual que sea bueno, significativo, pero que no nos mire fijamente y nos resulte incomodo. Aunque todos queremos recibir el contacto visual para saber que nos importa y que la otra parte esta escuchando activamente, tampoco queremos demasiado contacto visual. Demasiado parece agresivo e incomodo, y por eso hay que encontrar ese punto medio en el que se da el suficiente contacto visual para reconocer, pero no tanto como para mirar fijamente a la otra persona.
+
+Esto se consigue manteniendo el contacto visual el 50% del tiempo cuando se habla, y el 70% del tiempo cuando se escucha. Cuando las personas hablan, miran naturalmente hacia otro lado para ordenar sus pensamientos. Esto se debe a que el pensamiento es increiblemente dificil de gestionar. El contacto visual es mentalamente intensivo y agotador, y por esta razon, puede distaerse si se intenta mantenerlo constantemente durante una conversacion. Si mantienes el contacto visual la mitad del tiempo cuando hablas, le dices a la otra persona que le estas hablando sin parecer grosero o desafiante.
+
+Sin embargo, cuando estas escuchando, quieres que te vean atento para animar a la otra persona a seguir hablando. Aqui es donde entra en juego la regla del 70%: debes miarlos directamente para que sientan que tienen tu atencion, pero debes evitar la mirada fija, ya que a la gente no le gusta que le miren fijamente. Distrae, es incomodo y puede causar problemas.
+
+### Mantener 4-5 segundos de contacto visual cada vez
+
+Cuando hagas ese contacto visual, asegurate de hacer una pausa cada 4 o 5 segundos. Al hacerlo, rompes el contacto visual lo suficiente como para suavizarlo sin parecer huidizo o distraido. Al romper el contacto visual cada pocos segundos, dejas claro que no estas intentando ser grosero o agresivo, y al volver a mirar al interlocutor, le dices que sigue teniendo toda tu atencion.
+
+### Presta atencion a donde miras
+
+Cuando se toma una pausa en el contacto visual, puede ser facil mirar hacia abajo o desviar la mirada rapidamente. Sin embargo, esto tiende a hacerte parecer nervioso y, por tanto, poco fiable. Cuando rompa el contacto visual, procure mirar a un lado en lugar de mirar hacia abajo. Mirar hacia un lado o hacia arriba y hacia un lado implica pensar, pero mirar hacia abajo te hace parecer incomodo o timido.
+
+**Contacto visual inmediato**
+
+Cuando quieras hablar con alguien, asegurate de establecer contacto visual antes de hablar, y asegurate de que ten encuentras con los ojos cuando empieces a hablar. Quieres que ese contacto visual este presente cuando empiece a hablar. Establece el contacto visual, habla y luego mira hacia otro lado.
+
+**Mirar entre ceja y ceja**
+
+Si te resulta demasiado incomodo mantener un contacto visual legitimo, puedes probar a mirar entre los ojos, en el puente de la nariz. De este modo, suele enganar a la otra persona para que piense que la estas miranda, aunque te ahorras la incomoddad del contacto visual. Por supuesto, siempre es preferible el contacto visual genuino, pero, puedes usar esto como muleta mientras trabajas en establecer tu contacto visual con mayor facilidad y regularidad.
+
+**Escuchar con Eficacia**
+
+[MISSING_PAGE_FAIL:208]
+
+asegurarte de que estas en una posicion que te permita escuchar y prestar atencion. Quieres evitar las distracciones. Quieres prestar a la otra persona toda tu atencion. Quieres escuchar realmente sin contemplar como vas a responder a la otra persona.
+
+Esto puede parecer sencillo en teoria, pero piense en lo que hace su mente durante una conversacion: \(\chi\)se da cuenta de que acaba pasando el tiempo intentando averiguar como responder a la ultima cuestion planteada cuando la otra persona todavia esta hablando? Eso no es escuchar activamente. Eso es escuchar a la otra persona y luego elaborar distraidamente una refutacion que puede ser totalmente irrelevante al final de la conversacion, y eso no es justo para la otra persona. Para escuchar activamente, entonces, haras lo siguiente:
+
+* **Paso 1: Enfrentate a la otra persona:** Aqui es donde le das toda tu atencion. No hay telefonos ni pantallas presentes. Te aseguraras de mantener el contacto visual y de no distrarete.
+* **Paso 2: Escuchar**: Cuando escuches, asegurate de prestar atencion a lo que dice la otra persona. No intentes dar una respuesta durante este periodo, simplemente escucha a la otra persona.
+* **Paso 3: Lenguaje corporal atento:**\(\chi\)Recuerdas como asentias con la cabeza cuando intentabas establecer una relacion? Eso se repite aqui. Asegurate de asentir con la cabeza y de afirmar que sigues escuchando mientras la otra persona habla, pero sin interrumpirla. Tambien debes asegurarte de inclinarte ligeramente mientras escuchas a la otra persona y mantener tu propio lenguaje corporal abierto y receptivo. Esto significa no cruzar los brazos y prestar atencion de forma efectiva.
+* **Paso 4: Haz preguntas:** Cuando llegues al final del discurso de la otra persona, hazle algunas preguntas. Deben ser preguntas aclaratorias, no preguntas destinadas a abrir agujeros en el argumento de la otra persona. T\(\hat{\text{o}}\)mate el tiempo de preguntar si has entendido bien.
+* **Paso 5: Formule su respuesta:** No empieces a formular tu respuesta a la otra persona hasta que hayas obtenido la confirmacion de que, de hecho, has entendido lo que se ha dicho. En ese momento, tomate un minuto para elaborar una respuesta y luego d\(\hat{\text{a}}\)sela
+
+Cuando sigas estos pasos, descubirras que en realidad eres mucho mejor para entender lo que la gente dice de lo que pensabas inicialmente. Comenzara a obtener mas informacion de otra personas. Los demas confiaran mas en ti cuando converses con ellos. Tambien estaran mas dispuestos a escucharte y tu estaras mas preparado para tu propio viaje con la PNL. Recuerda, si quieres ser capaz de dominar la PNL, tienes que ser capaz de escuchar eficazmente.
+Finalmente, un ultimo metodo que puedes utilizar para mejorar tu propia comunicacion con los demas es desarrollar un lenguaje corporal seguro. Esto significica que debes asegurarte de no cerararte al contacto con otras personas. Si eres muy consciente de tu lenguaje corporal, asegurandote de que te retratas de forma positiva y atenta, descubiras que en realidad eres mucho mas eficaz a la hora de comunicarte con los demas.
+
+Esta seccion le proporcionara varias formas diferentes de mantener su lenguaje corporal eficaz y seguro para convencer a los demas de que tambien muestren confianza en unsted. Si puedes atraer la confianza, veras que los demas son mas receptivos aus intentos de comunicarte con ellos.
+
+* **Mantengase erguido:** La mejor manera de que te vean como alguien asertivo y seguro de si mismo es mantener tu lenguaje corporal alto y abierto. La mejor manera de hacerlo es enderezar la columna vertebral, mantener la cabeza recta y asegurarse de que las piernas estan bien separadas. Deberias ponerte de pie con los pies separados a la anchura de los hombros, ya que esto deja claro a los demas que te sientes seguro y comodo contigo mismo.
+* **Utiliza poses de poder:** Algunas posturas, como la de permanenter tranquilo y erguido con las manos detras de la espalda, desprenden confianza sin ser prepotentes. Si eres capaz de utilizar us poses de poder, no solo diras a los demas que te sientes comodo y seguro, sino que tu tambien empezaras a sentitre mas seguro.
+* **No pierdas de vista tus manos:** Asegurate de vigilar lo que hacen tus manos. Puede ser increiblemente facil ofender a alguien con un gesto fuera de lugar o escondiendo la mano en el bolsillo. Presta atencion a la lo que haces con ellas para asegurarte de que demuestras que estas tranquilo y en control.
+* **Establezca un buen contacto visual:** Esto no puede ser mas importante ni mas enfatizado: tienes que ser capaz de establecer un buen contacto visual para que te consideren seguro de ti mismo.
+* **Evite el nerviosismo:** Las personas que no tienen confianza en si mismas a menudo se ven envueltas en comportamientos nerviosos simplemente porque se sienten incomodas. Su cuerpo delata esa falta de confianza. Intenta permanenter quieto y abierto cuando te comuniques para que te vean seguro de ti mismo.
+* **Lenguaje corporal abierto:** Asegurate de mantener un lenguaje corporal abierto. Esto significica que no puedes cruzar los brazos delante de ti o intentar escorderte de alguna manera cuando te comuniques. Quieres asegurarte de que la otra persona no te vea como deshonesto o poco dispesto a comunicarte eficazmente.
+
+**Capitulo 10: PNL para una Vida Exitosa**
+
+Finalmente, hemos llegado al ultimo capitulo de este libro. Puede que sientas que tienes mucha mas informacion sobre como puedes utilizar la PNL e influir en otras personas. Sin embargo, tambien puedes utilizarla en ti mismo.?Tienes algun tipo de trauma negativo que te dificulta el funcionamiento? Tal vez sientas que has sido frenado por tus emociones o intentos de salir adelante en la vida. Bueno, despues de leer este libro, ahora tienes varias herramientas que pueden ayudarte a sentitre mejor sobre quien eres, que que queires y como vives la vida. Todo lo que necesitas hacer es empezar a utilizarlas.
+
+La PNL se puede utilizar sobre ti mismo con la suficiente regularidad como para hacerte mas feliz, mas sano y mas confiado. Al atraer la felicidad y la confianza, descubrira que tiene mucho mas exito en sus esfuerzos. Puede darse cuenta de que es capaz de comunicarse y relacionarse mejor con la gente despues de haber vencido su ansiedad o sus miedos. Puede que descubra que es capaz de llevarse mejor porque puede comunicarse mas facilmente. Puede que descubra que simplemente se siente mejor sin que la preoccupacion por como le vera la gente haya desaparecido.
+
+Cuando eres capaz de usar la PNL para ti, puedes empezar a vencer cualquier trauma que haya permanecido, reteniendote durante demasiado tiempo. Seras capaz de reformular esos traumas, separandote de esa negatividad y descubriendo formas de hacer de esos recuerdos algo mucho menos traumatico. Podras anclarte en un proceso quees increiblemente similar al que se utiliza para otras personas, y con el uso de esto, encontraras que eres capaz de derrotar los habitos negativos. Con esos habitos eliminados, te sentiras mucho mas capaz. Estaras empoderado. Tendra exito. Estaras usando la PNL para su proposito mas real: para ayudar a otros y a ti mismo.
+
+Este capitulo te guiara a traves de tres tecnicas que puedes utilizar para ejercer el poder de la PNL sobre ti mismo. Aprenderas a utilizar la disociacion para distanciarte de los sentiminetos relacionados con un acontecimiento traumatico especifico o para eliminar un desencadenante entre un acontecimiento y un sentimiento. Aprenderas autilizar el reencuadre para cambiar la forma en que vees un evento o un recuerdo. Por ultimo, se le guiara sobre como anclarse con facilitad.

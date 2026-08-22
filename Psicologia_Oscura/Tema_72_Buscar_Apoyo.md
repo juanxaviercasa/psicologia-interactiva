@@ -1,0 +1,7 @@
+## Buscar Apoyo
+
+La primera forma que puede ayudarte a fortalecer tu determinacion durante esos momentos de debilitad es encontran apoyo. Busca amigos o familiares a los que puedas recurrir si necesitas hablar durante esos momentos, sabiendo que contaras con su apoyo total y absoluto cuando lo hagas. Asegurate de rodearte principalmente de personas que conozcas y en las que confies, o busca un grupo de apoyo para personas con historias similares a la tuya.
+
+Si has pasado por un refugia contra la violencia domestica, es posible que y tengas acceso a esto al tener acceso a todos los recursos que suelen seguir al refugio. Es probable que tengan grupos de apoyo para los que viven en el refugio en un momento dado. Si no tienen un grupo de apoyo, seguro que pueden indicarte la direccion correcta para encontrar uno que te resulte beneficioso.
+
+Es muy probable que descubras que poder hablar con otras personas te resultara increiblemente beneficioso: cuando puedes hablar con otras personas, tienes la libertad de escuchar otras historias. El mero hecho de saber que otras personas han vivido lo mismo que tu puede ayudarte a encontrar consuelo en esos momentos de soledad en los que preguntas donde te has equivocado tanto. Podras ampliar tus horizonotes y hacer nuevos amigos que han pasado por lo mismo que tu. Ellos sabran como ayudarte simplemente porque habran pasado por lo mismo antes, y sus consejos pueden ser absolutamente criticos para mantenerte a flote durante un momento tan oscuro.

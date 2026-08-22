@@ -1,0 +1,5 @@
+## Describa
+
+El primer objetivo es describir los comportamientos y los procesos de pensamiento. Esto es fundamental si quieres ser capaz de entender las reglas generales que se suelen exhibir en el comportamiento. Por ejemplo, si quieres ser capaz de saber como se va a comportar alguien, observaras varios casos que muestren exactamente como se va a comportar. Observamos a los ninos que jueegan para darnos cuenta de que, en algun momento, algo cambi a y ya no piensan que algo deja de existir cuando se pierde de vista. Observamos como los ninos interactian entre si sin orientacion para identificar cuando empieza a desarrollarse el comportamiento altruista.
+
+La descripcion y la observacion constituuyen un primer paso fundamental, precisamente porque son las responsables de desarrollar una comprenison base del comportamiento estandar. Para poder analizar, hay que averiguar una norma base para poder averiguar donde estan las desviaciones de la norma.

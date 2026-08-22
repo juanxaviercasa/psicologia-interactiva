@@ -1,0 +1,5 @@
+## Predecir
+
+A medida que la investigacion empirica arroja posibles explicaciones del comportamiento estudiado, la psicologia pasa a la prediccion como objetivo principal. Durante esta etapa, se toman las explicaciones creadas en el paso anterior y se ponen a prueba. Si no cumplen las expectativas, se eliminan de la lista y se intenta idear otra cosa.
+
+Por ejemplo, suponga que ha observado a su hijo totalmente desconcentado cuando used desaparece y vuelve a aparecer jugando al cucu. Puede suponer entonces que su hijo piensa que used se ha ido cuando desaparece. A continuacion, predice que su hijo reaccionara con la misma sensacion de desconcierto cuando coja la pelota con la que estaba jugando y la cubra con una manta, porque el nino estara buscando su pelota. Lo compruebas y, efectivamente, tu explicacion era correcta.
