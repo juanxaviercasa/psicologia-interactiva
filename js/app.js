@@ -615,7 +615,7 @@ const App = {
                </div>
                <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
              </div>
-             <div class="hidden p-6 sm:p-8 prose prose-invert prose-cyan max-w-none prose-headings:font-serif prose-headings:text-slate-100 prose-p:text-slate-300 prose-p:leading-relaxed prose-li:text-slate-300 prose-strong:text-cyan-300 bg-[#090e17]/80">
+             <div class="hidden p-6 sm:p-8 prose-editorial max-w-none prose-headings:font-serif prose-headings:text-slate-100 prose-p:text-slate-300 prose-p:leading-relaxed prose-li:text-slate-300 prose-strong:text-cyan-300 bg-[#090e17]/80">
                ${parsedHtml}
              </div>
            </div>

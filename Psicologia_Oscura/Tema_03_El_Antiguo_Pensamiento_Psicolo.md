@@ -1,3 +1,3 @@
-## El Antiguo Pensamiento Psicologico
+## El Antiguo Pensamiento Psicológico
 
-Ya en la historia antigua existia la necesidad de comprender la mente, el cerebro y el funcionamiento del ser humano. De hecho, algunos de los primeros registros medicos de la historia se refieren al cerebro y al comportamiento. La gente buscaba entender no solo como funcionaba el cuerpo, sino tambien como curarlo. En todo el mundo es posible encontrar todo tipo de documentacion sobre el desarrollo de la psicologia, desde Egipto hasta China, y desde Grecia hasta la India.
+Ya en la historia antigua existia la necesidad de comprender la mente, el cerebro y el funcionamiento del ser humano. De hecho, algunos de los primeros registros medicos de la historia se refieren al cerebro y al comportamiento. La gente buscaba entender no solo como funcionaba el cuerpo, sino también como curarlo. En todo el mundo es posible encontrar todo tipo de documentacion sobre el desarrollo de la psicología, desde Egipto hasta China, y desde Grecia hasta la India.
