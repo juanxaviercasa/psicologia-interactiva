@@ -178,6 +178,14 @@ const App = {
   // =============================================
   // TAB NAVIGATION
   // =============================================
+  goToModule(modNumber) {
+    this.switchTab('learning');
+    setTimeout(() => {
+      const el = document.getElementById(`module-${modNumber}`);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }, 150);
+  },
+
   switchTab(tabId) {
     this.state.activeTab = tabId;
     if (window.speechSynthesis && window.speechSynthesis.speaking) window.speechSynthesis.cancel();
@@ -229,7 +237,7 @@ const App = {
       const modPct = Math.round((modCompletedCount / modTotal) * 100);
 
       return `
-      <div class="glass-card rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all cursor-pointer group flex flex-col overflow-hidden" onclick="App.switchTab('learning')">
+      <div class="glass-card rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all cursor-pointer group flex flex-col overflow-hidden" onclick="App.goToModule(${m.bookNumber})">
         <!-- IMAGE THUMBNAIL - PROMINENT & VISIBLE — 16:9 ratio, no distortion -->
         <div class="relative w-full bg-slate-900 overflow-hidden" style="padding-top: 56.25%;">
           <img src="assets/img/cover_mod${m.bookNumber}.jpg"
@@ -282,7 +290,7 @@ const App = {
       const modPct = Math.round((modCompletedCount / modTotal) * 100);
 
       html += `
-        <div class="bg-slate-900/80 border border-slate-700/50 p-5 rounded-2xl shadow-xl">
+        <div id="module-${mod.bookNumber}" class="bg-slate-900/80 border border-slate-700/50 p-5 rounded-2xl shadow-xl scroll-mt-24">
           <div class="flex items-center gap-3 mb-2">
             <div class="w-10 h-10 rounded-full bg-indigo-900/50 flex items-center justify-center text-indigo-400 border border-indigo-500/30 shrink-0">
               <i class="fa-solid ${mod.icon}"></i>
