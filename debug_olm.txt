@@ -1,0 +1,49 @@
+openLessonModal(${mod.bookNumber}, ${pIndex})"` : 'disabled'}
+              class="w-full text-left p-3.5 rounded-xl border ${actuallyUnlocked ? 'border-indigo-500/20 bg-indigo-950/10 hover:bg-indigo-900/20 hover:border-indigo-500/40 cursor-pointer' : 'border-slate-800 bg-slate-900/30 cursor-not-allowed'} flex justify-between items-center group transition-all">
+              <div>
+                <div class="text-[10px] ${actuallyUnlocked ? 'text-indigo-400' : 'text-slate-600'} font-mono mb-0.5">Pilar ${pIndex + 1} de ${modTotal}</div>
+                <div class="font-semibold text-sm ${actuallyUnlocked ? 'text-slate-200' : 'text-slate-600'}">${pillar.title}</div>
+                ${pillar.diagram ? '<div class="text-[10px] text-cyan-500 mt-0.5"><i class="fa-solid fa-sitemap"></i> Incluye mapa mental</div>' : ''}
+                ${pillar.interactiveChallenge ? '<div class="text-[10px] text-amber-500 mt-0.5"><i class="fa-solid fa-bolt"></i> Incluye prueba interactiva</div>' : ''}
+              </div>
+              <div class="text-slate-500 group-hover:text-indigo-400 transition-colors">
+                ${isCompleted ? '<i class="fa-solid fa-circle-check text-indigo-500 text-lg"></i>' : (actuallyUnlocked ? '<i class="fa-solid fa-play text-indigo-400"></i>' : '<i class="fa-solid fa-lock text-slate-600"></i>')}
+              </div>
+            </button>
+          </div>
+        `;
+      });
+
+      prevModCompleted = modCompletedCount === modTotal;
+      html += `</div></div>`;
+    });
+
+    container.innerHTML = html;
+  },
+
+  enrichTextWithIcons(text) {
+    if (!text) return '';
+    let res = text;
+    const rules = [
+        { regex: /\b(cerebro|neurol[óo]gic[oa]s?)\b/gi, icon: '<i class="fa-solid fa-brain text-pink-400 mx-1"></i>$1' },
+        { regex: /\b(am[íi]gdala)\b/gi, icon: '<i class="fa-solid fa-fire text-rose-500 mx-1"></i>$1' },
+        { regex: /\b(Sistema 1)\b/gi, icon: '<span class="bg-rose-950/40 text-rose-300 px-1.5 py-0.5 rounded border border-rose-500/20 mx-1 whitespace-nowrap"><i class="fa-solid fa-bolt text-amber-500"></i> Sistema 1</span>' },
+        { regex: /\b(Sistema 2)\b/gi, icon: '<span class="bg-indigo-950/40 text-indigo-300 px-1.5 py-0.5 rounded border border-indigo-500/20 mx-1 whitespace-nowrap"><i class="fa-solid fa-chess-knight text-indigo-400"></i> Sistema 2</span>' },
+        { regex: /\b(cortisol)\b/gi, icon: '<span class="text-rose-400 font-bold">$1 <i class="fa-solid fa-temperature-arrow-up"></i></span>' },
+        { regex: /\b(dopamina|oxitocina)\b/gi, icon: '<span class="text-cyan-400 font-bold">$1 <i class="fa-solid fa-droplet"></i></span>' },
+        { regex: /\b(manipulador(?:es)?)\b/gi, icon: '<span class="text-rose-400 font-semibold"><i class="fa-solid fa-user-ninja"></i> $1</span>' },
+        { regex: /\b(v[íi]ctima(?:s)?)\b/gi, icon: '<span class="text-emerald-400 font-semibold"><i class="fa-solid fa-user-shield"></i> $1</span>' },
+        { regex: /\b(Contacto Cero)\b/gi, icon: '<span class="bg-slate-900 text-slate-300 px-2 py-0.5 rounded border border-slate-600 font-mono mx-1 whitespace-nowrap"><i class="fa-solid fa-user-slash text-rose-500"></i> Contacto Cero</span>' },
+        { regex: /\b(l[íi]mite(?:s)?)\b/gi, icon: '<span class="border-b-2 border-emerald-500 text-emerald-300"><i class="fa-solid fa-ban text-emerald-400"></i> $1</span>' },
+        { regex: /\b(Piedra Gris)\b/gi, icon: '<span class="text-slate-400 font-bold bg-slate-800 px-1 rounded"><i class="fa-solid fa-hill-rockslide"></i> Piedra Gris</span>' },
+        { regex: /\b(DARVO)\b/gi, icon: '<span class="text-rose-500 font-bold bg-rose-950/30 px-1 rounded border border-rose-500/30"><i class="fa-solid fa-radiation"></i> DARVO</span>' },
+        { regex: /\b(subconsciente)\b/gi, icon: '<i class="fa-solid fa-water text-cyan-500 mx-1"></i>$1' }
+    ];
+    rules.forEach(rule => {
+        res = res.replace(rule.regex, rule.icon);
+    });
+    return res;
+  },
+
+  openLessonModal(modNumber, pIndex) {
+    if (typeof LIBROS_DATA

@@ -432,7 +432,7 @@ const App = {
     };
     const modIcon = moduleIcons[modNumber] || '<i class="fa-solid fa-brain"></i>';
 
-    const contentHtml = `
+    let contentHtml = `
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
         <!-- HEADER VISUAL ARCHITECTURE -->
@@ -1313,6 +1313,26 @@ const App = {
     const a = document.createElement('a'); a.href = URL.createObjectURL(blob);
     a.download = 'Resumen_Estudio_PSO.txt'; a.click();
     this.showToast('📄 Notas exportadas', 'success');
+  },
+
+  
+  unlockAll() {
+    if (typeof LIBROS_DATA === 'undefined') return;
+    if (!confirm('¿Activar Modo Dios? Esto desbloqueará TODO el contenido ignorando el progreso lineal.')) return;
+    
+    LIBROS_DATA.modules.forEach(mod => {
+      mod.keyPillars.forEach((_, pIndex) => {
+        this.state.progress.unlockedLessons[`m${mod.bookNumber}-${pIndex}`] = true;
+      });
+      // Unlock the next module 0 index too
+      this.state.progress.unlockedLessons[`m${mod.bookNumber+1}-0`] = true;
+    });
+    this.saveProgress();
+    this.showToast('🔓 MODO DIOS ACTIVADO. Todo el contenido está desbloqueado.', 'success');
+    
+    if(this.state.activeTab === 'learning') {
+       this.renderLearningPath();
+    }
   },
 
   resetAllProgress() {

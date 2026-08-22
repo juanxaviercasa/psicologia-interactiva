@@ -1,0 +1,155 @@
+renderDashboard();
+    this.loadFlashcards();
+
+    document.addEventListener('keydown', (e) => {
+      if (e.ctrlKey && e.key === 'k') { e.preventDefault(); this.openSearchModal(); }
+      if (e.key === 'Escape') { this.closeSearchModal(); this.closeLessonModal(); }
+    });
+
+    if (typeof CVEngine !== 'undefined') CVEngine.init('webcamVideo', 'webcamCanvas');
+    if (typeof AIEngine !== 'undefined' && AIEngine.hasKey()) {
+      const el = document.getElementById('apiKeyInput');
+      if (el) el.value = '••••••••••••••••';
+    }
+  },
+
+  loadProgress() {
+    const saved = localStorage.getItem('pso_progress_v4');
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        this.state = { ...this.state, ...parsed };
+        if (!this.state.progress.unlockedLessons) this.state.progress.unlockedLessons = { 'm1-0': true };
+      } catch(e) { console.error('Progress load error', e); }
+    }
+    this.updateAllUI();
+  },
+
+  saveProgress() {
+    const toSave = {
+      progress: this.state.progress,
+      quizScore: this.state.quizScore,
+      quizAnswered: this.state.quizAnswered,
+      casesSolved: this.state.casesSolved,
+      flashcardsDone: this.state.flashcardsDone,
+      level: this.state.level,
+      xp: this.state.xp,
+      certName: this.state.certName,
+      userNotes: this.state.userNotes
+    };
+    localStorage.setItem('pso_progress_v4', JSON.stringify(toSave));
+    this.updateAllUI();
+  },
+
+  updateAllUI() {
+    if (typeof LIBROS_DATA === 'undefined') return;
+    const unlocked = Object.keys(this.state.progress.unlockedLessons);
+    const completed = Math.max(0, unlocked.length - 1);
+    let total = 0;
+    LIBROS_DATA.modules.forEach(m => total += m.keyPillars.length);
+    const pct = total > 0 ? Math.min(100, Math.round((completed / total) * 100)) : 0;
+
+    // Dashboard stats
+    const dp = document.getElementById('dashProgressPercent');
+    if (dp) dp.textContent = pct + '%';
+    const db = document.getElementById('dashProgressBar');
+    if (db) db.style.width = pct + '%';
+    const df = document.getElementById('dashFlashcardsLearned');
+    if (df) df.textContent = this.state.flashcardsDone + ' / ' + (LIBROS_DATA.flashcards ? LIBROS_DATA.flashcards.length : 18);
+    const dc = document.getElementById('dashCasesSolved');
+    if (dc) dc.textContent = this.state.casesSolved + ' / ' + (LIBROS_DATA.caseScenarios ? LIBROS_DATA.caseScenarios.length : 8);
+    const dq = document.getElementById('dashQuizScore');
+    if (dq) dq.textContent = this.state.quizScore + ' pts';
+
+    // Streak
+    const stEl = document.getElementById('streakCounterText');
+    if (stEl) stEl.textContent = (this.state.progress.streak || 0) + ' Días';
+
+    // Header level
+    const lvlEl = document.getElementById('globalLevelText');
+    if (lvlEl) {
+      const levels = ['Novato', 'Observador', 'Analista', 'Táctico', 'Maestro'];
+      lvlEl.textContent = levels[Math.min(this.state.level - 1, levels.length - 1)];
+    }
+
+    // Header progress circle
+    const circle = document.getElementById('globalProgressCircle');
+    if (circle) circle.textContent = pct + '%';
+
+    // Quiz score badge
+    const qb = document.getElementById('quizScoreBadge');
+    if (qb && LIBROS_DATA.quizzes) qb.textContent = `Puntuación: ${this.state.quizScore} / ${LIBROS_DATA.quizzes.length}`;
+  },
+
+  playSound(type) {
+    // Minimal audio feedback via AudioEngine if available
+    if (typeof AudioEngine !== 'undefined' && AudioEngine.ctx && type === 'success') {
+      try {
+        const o = AudioEngine.ctx.createOscillator();
+        const g = AudioEngine.ctx.createGain();
+        o.connect(g); g.connect(AudioEngine.ctx.destination);
+        o.frequency.value = 880; g.gain.value = 0.1;
+        o.start(); g.gain.exponentialRampToValueAtTime(0.001, AudioEngine.ctx.currentTime + 0.3);
+        o.stop(AudioEngine.ctx.currentTime + 0.3);
+      } catch(e) {}
+    }
+  },
+
+  speakText(text) {
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = 'es-ES'; u.rate = 0.9;
+      window.speechSynthesis.speak(u);
+    }
+  },
+
+  addXP(amount) {
+    this.state.xp += amount;
+    const xpPerLevel = 100;
+    if (this.state.xp >= xpPerLevel * this.state.level) {
+      this.state.level++;
+      this.showToast(`🎖️ ¡Nivel ${this.state.level} desbloqueado!`, 'success');
+    }
+    this.saveProgress();
+  },
+
+  showToast(msg, type = 'info') {
+    const existing = document.getElementById('toastNotif');
+    if (existing) existing.remove();
+
+    const colors = { success: 'bg-emerald-600 border-emerald-400', error: 'bg-rose-700 border-rose-500', info: 'bg-indigo-700 border-indigo-400' };
+    const div = document.createElement('div');
+    div.id = 'toastNotif';
+    div.className = `fixed bottom-6 right-6 z-[100] px-5 py-3 rounded-2xl border ${colors[type]} text-white text-sm font-bold shadow-2xl transition-all animate-in slide-in-from-bottom-5 duration-300`;
+    div.innerHTML = msg;
+    document.body.appendChild(div);
+    setTimeout(() => div.remove(), 3500);
+  },
+
+  // =============================================
+  // TAB NAVIGATION
+  // =============================================
+  switchTab(tabId) {
+    this.state.activeTab = tabId;
+    if (window.speechSynthesis && window.speechSynthesis.speaking) window.speechSynthesis.cancel();
+
+    const views = ['dashboard','learning','matrix','simulator','bodylab','flashcards','quizzes','certificate','glossary','skilltree','sparring','auditor','biometrics'];
+    views.forEach(v => {
+      const el = document.getElementById(`view-${v}`);
+      if (el) el.classList.add('hidden');
+      const btn = document.getElementById(`tab-btn-${v}`);
+      if (btn) { btn.classList.remove('active','text-cyan-400','text-indigo-400','text-rose-400','text-emerald-400'); btn.classList.add('text-slate-400'); }
+    });
+
+    const target = document.getElementById(`view-${tabId}`);
+    if (target) {
+        target.classList.remove('hidden', 'fade-in-view');
+        // Trigger reflow
+        void target.offsetWidth;
+        target.classList.add('fade-in-view');
+    }
+    const btn = document.getElementById(`tab-btn-${tabId}`);
+    if (btn) { btn.classList.add('active','text-cyan-400'); btn.classList.remove('text-slate-400'); }
+
+    if (tabId === 'learning') this.
