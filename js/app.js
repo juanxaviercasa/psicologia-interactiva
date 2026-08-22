@@ -143,12 +143,176 @@ const App = {
     }
   },
 
-  speakText(text) {
+  
+  // ==========================================
+  // ADVANCED NEURAL TTS NARRATION ENGINE
+  // ==========================================
+  ttsState: {
+    activeChapter: null,
+    activeButton: null,
+    utterances: [],
+    currentIndex: 0,
+    isPaused: false,
+    selectedVoice: null
+  },
+
+  initTTSVoices() {
+    if ('speechSynthesis' in window) {
+      const loadVoices = () => {
+        const voices = window.speechSynthesis.getVoices();
+        if (voices.length > 0) {
+          // Prioritize natural / neural Spanish voices
+          const esVoices = voices.filter(v => v.lang.startsWith('es'));
+          const neuralVoice = esVoices.find(v => 
+            v.name.includes('Natural') || 
+            v.name.includes('Online') || 
+            v.name.includes('Neural') || 
+            v.name.includes('Google español')
+          );
+          this.ttsState.selectedVoice = neuralVoice || esVoices[0] || null;
+        }
+      };
+      loadVoices();
+      if (window.speechSynthesis.onvoiceschanged !== undefined) {
+        window.speechSynthesis.onvoiceschanged = loadVoices;
+      }
+    }
+  },
+
+  stripMarkdownForTTS(md) {
+    if (!md) return '';
+    return md
+      .replace(/```mermaid[\s\S]*?```/g, '') // remove mermaid diagrams
+      .replace(/```[\s\S]*?```/g, '')        // remove code blocks
+      .replace(/`[^`]*`/g, '')                 // remove inline code
+      .replace(/!\[.*?\]\(.*?\)/g, '')         // remove images
+      .replace(/\[(.*?)\]\(.*?\)/g, '$1')      // keep link text
+      .replace(/^#{1,6}\s+/gm, '')             // remove headings
+      .replace(/>\s*\[!.*?\]/g, '')            // remove alert markers
+      .replace(/>/g, '')                       // remove blockquotes
+      .replace(/[*_~]{1,3}/g, '')              // remove bold/italic/strikethrough
+      .replace(/📖|🔥|🧠|🏛️|✅|❌|⚠️|🚀|💡|🎉|✍️|📦|📁/g, '') // remove emojis
+      .replace(/\s+/g, ' ')                   // normalize spaces
+      .trim();
+  },
+
+  toggleAudioNarration(chapterKey, btn) {
+    if (!('speechSynthesis' in window)) {
+      this.showToast('Tu navegador no soporta síntesis de voz.', 'error');
+      return;
+    }
+
+    const state = this.ttsState;
+
+    // Case 1: If clicked the active chapter currently speaking -> Pause / Resume
+    if (state.activeChapter === chapterKey) {
+      if (state.isPaused) {
+        window.speechSynthesis.resume();
+        state.isPaused = false;
+        btn.innerHTML = '<i class="fa-solid fa-pause text-amber-400 animate-pulse"></i> <span class="btn-text text-amber-300">Pausar</span>';
+        btn.classList.add('bg-amber-950/90', 'border-amber-500/60');
+      } else {
+        window.speechSynthesis.pause();
+        state.isPaused = true;
+        btn.innerHTML = '<i class="fa-solid fa-play text-cyan-400"></i> <span class="btn-text text-cyan-300">Reanudar</span>';
+        btn.classList.remove('bg-amber-950/90');
+        btn.classList.add('bg-cyan-950/90', 'border-cyan-500/60');
+      }
+      return;
+    }
+
+    // Case 2: Stop any previous playback
+    this.stopAudioNarration();
+
+    // Case 3: Start speaking the new chapter
+    const bookStore = (typeof BOOK_CONTENT !== 'undefined' ? BOOK_CONTENT : null) || window.BOOK_CONTENT || {};
+    const rawText = bookStore[chapterKey] || '';
+    const cleanText = this.stripMarkdownForTTS(rawText);
+
+    if (!cleanText || cleanText.length < 5) {
+      this.showToast('No hay texto para narrar en este capítulo.', 'error');
+      return;
+    }
+
+    // Ensure voices are loaded
+    if (!state.selectedVoice) this.initTTSVoices();
+
+    // Chunk text into natural sentences to bypass Chrome 15s freeze bug
+    const sentences = cleanText.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [cleanText];
+    state.utterances = sentences.map(s => s.trim()).filter(s => s.length > 0);
+    state.currentIndex = 0;
+    state.activeChapter = chapterKey;
+    state.activeButton = btn;
+    state.isPaused = false;
+
+    // Update Button UI
+    btn.innerHTML = '<i class="fa-solid fa-pause text-amber-400 animate-pulse"></i> <span class="btn-text text-amber-300">Pausar</span>';
+    btn.classList.add('bg-amber-950/90', 'border-amber-500/60');
+
+    this.showToast('Iniciando audio narración del capítulo...', 'info');
+    this.playNextTTSChunk();
+  },
+
+  playNextTTSChunk() {
+    const state = this.ttsState;
+    if (!state.activeChapter || state.currentIndex >= state.utterances.length) {
+      this.stopAudioNarration();
+      return;
+    }
+
+    const chunk = state.utterances[state.currentIndex];
+    const u = new SpeechSynthesisUtterance(chunk);
+    u.lang = 'es-ES';
+    u.rate = 1.0;
+    u.pitch = 1.0;
+    if (state.selectedVoice) u.voice = state.selectedVoice;
+
+    u.onend = () => {
+      state.currentIndex++;
+      this.playNextTTSChunk();
+    };
+
+    u.onerror = (e) => {
+      console.warn('TTS chunk error:', e);
+      state.currentIndex++;
+      this.playNextTTSChunk();
+    };
+
+    window.speechSynthesis.speak(u);
+  },
+
+  stopAudioNarration() {
     if ('speechSynthesis' in window) {
       window.speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(text);
-      u.lang = 'es-ES'; u.rate = 0.9;
-      window.speechSynthesis.speak(u);
+    }
+    const state = this.ttsState;
+    if (state.activeButton) {
+      state.activeButton.innerHTML = '<i class="fa-solid fa-volume-high text-indigo-400"></i> <span class="btn-text">Escuchar</span>';
+      state.activeButton.classList.remove('bg-amber-950/90', 'border-amber-500/60', 'bg-cyan-950/90', 'border-cyan-500/60');
+    }
+    state.activeChapter = null;
+    state.activeButton = null;
+    state.utterances = [];
+    state.currentIndex = 0;
+    state.isPaused = false;
+  },
+
+  speakText(text) {
+    if ('speechSynthesis' in window) {
+      this.stopAudioNarration();
+      if (!this.ttsState.selectedVoice) this.initTTSVoices();
+      
+      const clean = this.stripMarkdownForTTS(text);
+      const sentences = clean.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [clean];
+      this.ttsState.utterances = sentences.map(s => s.trim()).filter(s => s.length > 0);
+      this.ttsState.currentIndex = 0;
+      this.ttsState.activeChapter = 'generic_text';
+      this.ttsState.isPaused = false;
+
+      this.showToast('Reproduciendo audio con voz neural...', 'info');
+      this.playNextTTSChunk();
+    } else {
+      this.showToast('Tu navegador no soporta síntesis de voz.', 'error');
     }
   },
 
@@ -613,7 +777,13 @@ const App = {
                  <span class="w-7 h-7 rounded-lg bg-cyan-950 border border-cyan-500/40 text-cyan-400 font-mono text-xs font-bold flex items-center justify-center">${idx + 1}</span>
                  <span class="font-bold text-slate-100 font-serif text-base">${cleanTitle || chapterName}</span>
                </div>
-               <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
+               <div class="flex items-center gap-3">
+                 <!-- BOTON DE AUDIO NARRACIÓN -->
+                 <button onclick="event.stopPropagation(); App.toggleAudioNarration('${chapterName}', this)" class="narration-btn px-3 py-1.5 rounded-lg bg-indigo-950/80 text-indigo-300 border border-indigo-500/40 hover:bg-indigo-900/60 hover:text-white transition-all text-xs font-semibold flex items-center gap-1.5 shadow-sm" title="Escuchar este capítulo con voz natural">
+                   <i class="fa-solid fa-volume-high text-indigo-400"></i>
+                   <span class="btn-text">Escuchar</span>
+                 </button>
+                 <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
              </div>
              <div class="hidden p-6 sm:p-8 prose-editorial max-w-none prose-headings:font-serif prose-headings:text-slate-100 prose-p:text-slate-300 prose-p:leading-relaxed prose-li:text-slate-300 prose-strong:text-cyan-300 bg-[#090e17]/80">
                ${parsedHtml}
