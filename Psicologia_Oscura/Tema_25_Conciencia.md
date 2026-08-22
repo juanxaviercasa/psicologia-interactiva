@@ -86,7 +86,7 @@ Sin embargo, desde el punto de vista de la percepción, la gente prefiere manten
 
 ## 📖 Capítulo 3: Comunicación Verbal y no Verbal
 
-Imagina que que queires enviar un mensaje importante a alguien.?Como debe hacerlo? Es difícil saber cual es la mejor manera de transmitir un mensaje a otra persona, sobre todo si se da el caso de que hay que transmitirle algun tipo de mala noticia. Cuando eso ocurre, lo mejor es asegurarse de que no haya una mala comunicación, lo que significica que usted quiere estar presente en persona.
+Imagina que que queires enviar un mensaje importante a alguien.? Como debe hacerlo? Es difícil saber cual es la mejor manera de transmitir un mensaje a otra persona, sobre todo si se da el caso de que hay que transmitirle algun tipo de mala noticia. Cuando eso ocurre, lo mejor es asegurarse de que no haya una mala comunicación, lo que significica que usted quiere estar presente en persona.
 
 Piense que cuando la policia tiene que dar la mala noticia de informar a alguien de que su ser querido ha sido encontrado muerto, va en persona. Así se asegura que el mensaje se escuche y que no haya errores de comunicación.
 
@@ -116,11 +116,11 @@ Con el deseo de enviar un mensaje en mente, ahora debe averiguar cual es el mens
 
 ### Codificacion del mensaje
 
-Con su mensaje en mente, ahora debe averiguar la mejor manera de transmitirlo. Aquí es donde entra en juego la codificacion del mensaje. Hay que observar la situación y al receptor para saber exactamente como hay que comunicar.?Puede comunicarlo con palabras¿Podrá utilizar un lenguaje verbal¿Que idioma es el más eficaz en este caso? Si usted habla ingles y espanol, pero el amigo que ha hecho la tarta solo habla ingles, es probable que no elija el espanol como idioma para transmitir ese mensaje. Lo que quieres es asegurarte de que tu idioma este codificado de forma que el receptor lo entienda, independientemente de como elijas canalizar el mensaje. En este caso, vested decide que su mensaje es: "!Me gusta mucho este pastell".
+Con su mensaje en mente, ahora debe averiguar la mejor manera de transmitirlo. Aquí es donde entra en juego la codificacion del mensaje. Hay que observar la situación y al receptor para saber exactamente como hay que comunicar.? Puede comunicarlo con palabras¿Podrá utilizar un lenguaje verbal¿Que idioma es el más eficaz en este caso? Si usted habla ingles y espanol, pero el amigo que ha hecho la tarta solo habla ingles, es probable que no elija el espanol como idioma para transmitir ese mensaje. Lo que quieres es asegurarte de que tu idioma este codificado de forma que el receptor lo entienda, independientemente de como elijas canalizar el mensaje. En este caso, vested decide que su mensaje es: "! Me gusta mucho este pastell".
 
 ### Canalizar el mensaje
 
-Una vez elegido el mensaje, hay que averiguar cual es la mejor manera de canalizarlo. Se trata de determinar como va a enviar el mensaje.?Se dice cara a cara¿Va a enviar un mensaje de texto? Tal vez escriba una nota.?Lo dices en voz alta o entregas una nota rapida? Independientemente de como elijas transmitirlo, lo que estas enviando es elmensaje de "'ime gusta mucho este pastell".
+Una vez elegido el mensaje, hay que averiguar cual es la mejor manera de canalizarlo. Se trata de determinar como va a enviar el mensaje.? Se dice cara a cara¿Va a enviar un mensaje de texto? Tal vez escriba una nota.? Lo dices en voz alta o entregas una nota rapida? Independientemente de como elijas transmitirlo, lo que estas enviando es elmensaje de "'ime gusta mucho este pastell".
 
 ### El receptor
 
@@ -213,7 +213,7 @@ Tenga en cuenta que cada una de estas emociones tendrá sus propios propositos d
 
 * **La felicidad:** La felicidad suele ser bastante sencilla de identificar: la cara estará mucho más relajada y se verá que el individuo esta sonriendo: las comisuras de la boca selevantan y se echaran hacía atras. La boca puede estar separada para exponer los dientes o puede estar cerrada, y podrá identificar una arruga desde la nariz hasta el labio exterior, levantando las mejillas. El pargado inferior suele arrugarse o tensarse, y en un sonrisa genuina, se verá la arruga en las esquinas exteriores de los ojos. Cuando se finge la felicidad, habra menos tensión en la cara y no se verá la arruga en las esquinas de los ojos.
 * **Tristeza:** Al identificar la tristeza, notara que las esquinas interiores de las cejas del individulo selevantan hacía arriba y hacía adentro, creando arrugas. Los labios se fruncen, y la mandibula suele estar tensa y tirada hacía arriba. El labio inferior puede incluso hacer un mohin. De todas las expresiones, esta es la más difícil de fingir.
-* **Enfado:** La ira suele notarse por las cejas bajas, diseñadas para encapuchar los ojos. Suelen estar juntas,creando arrugas entre ellas. El pargado inferior suele estar tenso y los ojos suelen miar intensamente al objeto de la ira. Los labios pueden estar fuertemente apretados, o se abriran en forma de cuadrado si el individuo esta gritando. Las fosas nasales pueden dilatarse con la respiración, y la mandibula inferior suele estar forzada hacía fuera.
+* **Enfado:** La ira suele notarse por las cejas bajas, diseñadas para encapuchar los ojos. Suelen estar juntas, creando arrugas entre ellas. El pargado inferior suele estar tenso y los ojos suelen miar intensamente al objeto de la ira. Los labios pueden estar fuertemente apretados, o se abriran en forma de cuadrado si el individuo esta gritando. Las fosas nasales pueden dilatarse con la respiración, y la mandibula inferior suele estar forzada hacía fuera.
 * **Miedo:** El miedo se suele notar por las cejas que se levantan y se meten hacía dentro. Suelen ser rectas en lugar de curvadas o arqueadas. Suele haber arrugas en la frente que se situan sobre todo en el centro y no en toda la extension. Los ojos estarán muy abiertos, aunque solo se verá el blanco en la parte superior del iris y no en todo el contorno. La boca suele estar abierta, pero hay tensión alrededor de los labios, tensandolos y triando de ellos ligeramente hacía atras.
 * **Sorpresa:** Esta emoción en particular se expresa más comunmente con las cejas levantadas y redondeadas: los arcos estarán curvados. La piel debajo de las cejas se estira como resultado de la elevacion de las mismas, y a menudo se ven arrugas en la frente. Los ojos se abren de par en par y suele verse el blanco del ojo por encima y por debajo del mismo. La boca cuelga regularmente abierta con los dientes separados, aunque aquí no se mantiene ninguna tensión. Parece que simplemente cuelga abierta.
 * **Desprecio:** De todas las expresiones, el desprecio es la más sencilla. Por lo general, la mayor parte del rostro es neutral, aunque es posible que te miren con los ojos ligeramente balojs. Sin embargo, el rasgo más definitorio del desprecio es el ligero movimiento hacía arriba de un lado de la boca en una especie de mueca.
@@ -305,10 +305,10 @@ graph TD
     OCEAN --> A["A - Amabilidad (Empatía vs Competitividad)"]
     OCEAN --> N["N - Neuroticismo (Estabilidad vs Reactividad Emocional)"]
 
-    style OCEAN fill:#1e1b4b,stroke:#6366f1,color:#fff
-    style O fill:#0f172a,stroke:#38bdf8,color:#cbd5e1
-    style C fill:#0f172a,stroke:#34d399,color:#cbd5e1
-    style E fill:#0f172a,stroke:#fbbf24,color:#cbd5e1
-    style A fill:#0f172a,stroke:#a855f7,color:#cbd5e1
-    style N fill:#0f172a,stroke:#f43f5e,color:#cbd5e1
+    style OCEAN fill:#1e1b4b, stroke:#6366f1, color:#fff
+    style O fill:#0f172a, stroke:#38bdf8, color:#cbd5e1
+    style C fill:#0f172a, stroke:#34d399, color:#cbd5e1
+    style E fill:#0f172a, stroke:#fbbf24, color:#cbd5e1
+    style A fill:#0f172a, stroke:#a855f7, color:#cbd5e1
+    style N fill:#0f172a, stroke:#f43f5e, color:#cbd5e1
 ```

@@ -63,13 +63,13 @@ flowchart TD
     COG --> COG1["Procesamiento de información, esquemas y sesgos"]
     H --> H1["Autorrealización, libre albedrío y potencial humano"]
 
-    style M fill:#1e1b4b,stroke:#818cf8,stroke-width:2px,color:#fff
-    style B fill:#0f172a,stroke:#38bdf8,stroke-width:1px,color:#e2e8f0
-    style P fill:#0f172a,stroke:#f43f5e,stroke-width:1px,color:#e2e8f0
-    style C fill:#0f172a,stroke:#fbbf24,stroke-width:1px,color:#e2e8f0
-    style COG fill:#0f172a,stroke:#a855f7,stroke-width:1px,color:#e2e8f0
-    style H fill:#0f172a,stroke:#34d399,stroke-width:1px,color:#e2e8f0
+    style M fill:#1e1b4b, stroke:#818cf8, stroke-width:2px, color:#fff
+    style B fill:#0f172a, stroke:#38bdf8, stroke-width:1px, color:#e2e8f0
+    style P fill:#0f172a, stroke:#f43f5e, stroke-width:1px, color:#e2e8f0
+    style C fill:#0f172a, stroke:#fbbf24, stroke-width:1px, color:#e2e8f0
+    style COG fill:#0f172a, stroke:#a855f7, stroke-width:1px, color:#e2e8f0
+    style H fill:#0f172a, stroke:#34d399, stroke-width:1px, color:#e2e8f0
 ```
 
-> [!IMPORTANT]
+> [! IMPORTANT]
 > **Síntesis Estratégica:** Ninguna perspectiva explica la conducta humana de forma aislada. La psicología estratégica moderna integra la neuroquímica (Biológica), los patrones aprendidos (Conductual) y los sesgos perceptivos (Cognitiva) para obtener una radiografía completa del comportamiento.

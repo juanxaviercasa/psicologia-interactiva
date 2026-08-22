@@ -56,7 +56,7 @@ Cuando amas a tu pareja, puedes afterarte a la esperanza de que el maltratador c
 
 **Abuso Emocional**
 
-En los proximos capitulos abordaremos especificamente el abuso emocional. Ahora y sabe lo que es, al menos en la superficie: sabe que el abuso emocional es una forma de control psicológico y lo peligroso que puede ser. Sine embargo,?sabe como reconocerlo¿Sabe como etiquetar varias de las taticas de abuso más comunes? Esta formalo particular de abuso tiende a ser increiblemente encubierta -esta diseñada para ocultarse a plena vista- y al leer este capitulo, aprenderá a identificarla.
+En los proximos capitulos abordaremos especificamente el abuso emocional. Ahora y sabe lo que es, al menos en la superficie: sabe que el abuso emocional es una forma de control psicológico y lo peligroso que puede ser. Sine embargo,? sabe como reconocerlo¿Sabe como etiquetar varias de las taticas de abuso más comunes? Esta formalo particular de abuso tiende a ser increiblemente encubierta -esta diseñada para ocultarse a plena vista- y al leer este capitulo, aprenderá a identificarla.
 
 Si puedes pararte a pensar en un momento en el que sentiste que no eras lo suficientemente bueno, como si tu pareja, te estuiera haciendo un gran favor al quedarse contigo, puede que sea el momento de reevaluar vuestra relación. Si alguna vez te has dado cuenta de que la voz que utilizabas para hablar de ti era la voz de otra persona en lugar de la tuya propia, es posible que hayas suffido abuso emocional en algun momento.
 
@@ -86,7 +86,7 @@ Pronto, parecia que incluso sus noches sociales se veian afectadas por la presen
 
 Con el tiempo, notaste que Cara estaba cada vez más estresada. Parecia alejarse cada vez más del grupo, hasta que un dia se derrumbo y te dijo que el habia amenazado con suicidarse si ella lo dejaba y que, aunque tenía muchas ganas de irse, sentia que no tenía otra opcion que quedarse. Describio la mirada de furia absoluta y sin adulterar de el cuando le dijo que quería espacio y le dijo que estaba segura de que iba a herirla gravemente. Solo cuando ella se sacudio su interes por irse como una broma y que quería ver cuanto la quería, el parecio calmarse.
 
-Parate a ver que problemas puedes identificar en ese breve pasaje sobre tu amiga Cara y Austin.?Que estaba haciendo Austin que era problematico¿Que comportamientos debería cortar por completo para que la relación mantuviera algun tipo de apariencia saludable¿Seria posible que esa relación se convirtiera en una relación sana, teniendo en cuenta lo mucho que se ha convertido en una relación abusiva?
+Parate a ver que problemas puedes identificar en ese breve pasaje sobre tu amiga Cara y Austin.? Que estaba haciendo Austin que era problematico¿Que comportamientos debería cortar por completo para que la relación mantuviera algun tipo de apariencia saludable¿Seria posible que esa relación se convirtiera en una relación sana, teniendo en cuenta lo mucho que se ha convertido en una relación abusiva?
 
 Si te tomaste el tiempo, habras notado al menos seis banderas rojas distintivas sobre el comportamiento de Austin que se consideraria abusivo. En primer lugar, pasaba mucho tiempo **gritandole**. Intimidaba a todo el mundo con lo fuerte que era su voz, y constantemente mantenia a Cara en el suelo. A los gritos se sumaban constantemente **insultos y reprimendas** tan extremas que la propia Cara estaba convencida de que debia merecerlos.
 
@@ -165,7 +165,7 @@ Cuando alguien te hace la luz de gas, niega que lo que estas diciendo sea cierto
 
 **Manipulación emocional**
 
-La manipulación emocional es el acto de hacerte sentir una determinada emoción deliberadamente para que actues en consecuencia. Si quieren que hagas algo por ellos, encontraran alguna manera de hacerte sentir una emoción que conduzca a su respuesta deseada, y entonces se saldran con la suya. Por ejemplo, si a tu pareja no le gusta tu hermana, puede que se empene en decirte que tu hermana hizo algo imperdonable para que te enfades. Con tu enfado, entonces te peleas con tu hermana para defender a tu pareja, y acabas rompiendo los lazos.?Acaso ese suceso que dijo tu pareja ocurrio alguna vez? Probablemente no, o al menos, no de la forma en que tu pareja lo hizo parecer, pero tu pareja si consiguió que terminaras la relación sin tener que ser el quien te dijera que lo quería.
+La manipulación emocional es el acto de hacerte sentir una determinada emoción deliberadamente para que actues en consecuencia. Si quieren que hagas algo por ellos, encontraran alguna manera de hacerte sentir una emoción que conduzca a su respuesta deseada, y entonces se saldran con la suya. Por ejemplo, si a tu pareja no le gusta tu hermana, puede que se empene en decirte que tu hermana hizo algo imperdonable para que te enfades. Con tu enfado, entonces te peleas con tu hermana para defender a tu pareja, y acabas rompiendo los lazos.? Acaso ese suceso que dijo tu pareja ocurrio alguna vez? Probablemente no, o al menos, no de la forma en que tu pareja lo hizo parecer, pero tu pareja si consiguió que terminaras la relación sin tener que ser el quien te dijera que lo quería.
 
 **FOG**
 
@@ -199,7 +199,7 @@ Una vez eliminada la culpa, es posible que encuentres una nueva confianza en ti 
 
 ### Preparando la Salida
 
-Una vez que hayas reconocido el abuso en tu relación, es el momento de hacer us planes a largo plazo.?Cuales son tus objetivos finales¿Que esperas conseguir¿Que quieres hacer contigo misma? Hay todo un mundo fuera de tu maltratador, y el mundo es tu ostra. Puedes hacer lo que quieras sin preocuparte de lo que piense el maltratador y de si este estará de acuerdo o ridiculizara tus decisiones.
+Una vez que hayas reconocido el abuso en tu relación, es el momento de hacer us planes a largo plazo.? Cuales son tus objetivos finales¿Que esperas conseguir¿Que quieres hacer contigo misma? Hay todo un mundo fuera de tu maltratador, y el mundo es tu ostra. Puedes hacer lo que quieras sin preocuparte de lo que piense el maltratador y de si este estará de acuerdo o ridiculizara tus decisiones.
 
 Establecer esa meta para ti, esa imagen de éxito a largo plazo, puede ayudarte a mantener la motivacion. En los momentos de debilidad, y habra momentos de debilidad en los que consideres que las cosas serian mejores si perdonaras y olvidaras, puedes recordar ese objetivo, esa imagen de lo que que e quiesre en la vida. Esa puede ser la luz que te guie y te mantenga en el camino.
 
@@ -211,7 +211,7 @@ En particular, dejar la relación tiene muchos matices diferentes que deben segu
 
 Mientras este presente en la misma casa con el maltratador, es importante hacer el esfuerzo de evitar activamente que se desencadene el maltrato. Aunque normalmente no esta bien esperar que la víctima se acomode al maltratador, en este caso, puede ayudarle a pasar las proximas semanas o meses mientras reune todo lo que necesitara y hace su caso un poco más fácil.
 
-Esto significica que tendrás que entender cuales son los desencadenantes de tu pareja. Esto puede ser un poco difícil de identificar y puede tomar un cantidad significativa de tiempo, pero si puedes hacerlo, evitaras tener que lidiar con tanto abuso. Si desea averiguar los desencadenantes de su pareja, tendrá que pensar en todas las veces que ha visto a su pareja explotar sobre usted.?Que ha provocado la explosion¿Por que lo ha hecho¿Puedes ver un patrón en la explosion constante con estimulos específicos? Averiguar que es lo que suele desencadenar el abuso puede ser suficiente para ayudarte a evitar la mayoría de las iteraciones del mismo.
+Esto significica que tendrás que entender cuales son los desencadenantes de tu pareja. Esto puede ser un poco difícil de identificar y puede tomar un cantidad significativa de tiempo, pero si puedes hacerlo, evitaras tener que lidiar con tanto abuso. Si desea averiguar los desencadenantes de su pareja, tendrá que pensar en todas las veces que ha visto a su pareja explotar sobre usted.? Que ha provocado la explosion¿Por que lo ha hecho¿Puedes ver un patrón en la explosion constante con estimulos específicos? Averiguar que es lo que suele desencadenar el abuso puede ser suficiente para ayudarte a evitar la mayoría de las iteraciones del mismo.
 
 Tal vez la mejor manera de evitarlo sea simplemente ser muy agradable. Haz lo que se espera de ti sin discutir. Piensa en ello como en mantener la paz hasta que puedas escapar, tratandolo como una parte de tu plan a largo plazo y no como una debilidad por tu parte. No hay nada de debilidad en estar dispuesto aceptar lo que te dicen, por muy degradante que sea, para poder escapar. Hacerlo es el epitome de la fortaleza, mostrando tu verdadera dedicacion como superviviente. Sobreviviras al abuso, incluso si eso significica rebajarte y estar dispuesta a no luchar durante un breve periodo de tiempo.
 
@@ -221,7 +221,7 @@ Por supuesto, estar dispuesto a soportar ese abuso significica que probablemente
 
 Por supuesto, el narcisista o el maltratador solo quiere sacarte de quicio; si es capaz de incitarte a responder, diciendote que eres terrible y que tienes que dejar de intentarlo porque, de todos modos, tus intentos nunca van a ser salvables, puede utilizar tu ira contra ti. Caeras en su trampa en lugar de negarte a jugar al juego.
 
-La mejor manera de evitar un estallido propio como respuesta es desarrollar varias tecnicas de gestion del estres que te funcionen. En última instancia, esto implicara descubrir que es lo que mejor funciona para ti.?Te va mejor hacer ejercicio o salir a corner después de estar estresado¿Quizás quieras meditar¿Te gusta el arte? Todo eso puede ayudarte a mantenrete tranquilo con el tiempo.
+La mejor manera de evitar un estallido propio como respuesta es desarrollar varias tecnicas de gestion del estres que te funcionen. En última instancia, esto implicara descubrir que es lo que mejor funciona para ti.? Te va mejor hacer ejercicio o salir a corner después de estar estresado¿Quizás quieras meditar¿Te gusta el arte? Todo eso puede ayudarte a mantenrete tranquilo con el tiempo.
 
 Sin embargo, cuando estas en el momento, lo que realmente necesitas es una tecnica de conexión a tierra que te ayude a estar presente. Hacerlo puede ayudarte a retrasarte a ti mismo y a tus comportamientos el tiempo suficiente para que puedas evitar hacer algo que seria potencialmente peligroso. En concreto, vamos a ver una sencilla tecnica de respiración y conexión a tierra que te permitira utilizar todos tus sentidos.
 
@@ -239,7 +239,7 @@ Con toda la toxicidad y la negatividad que se arremolinan a tu alrededor mientra
 
 Cree una rutina que pueda utilizar para cuidarse a si mismo, incluso cuando el estres parezca insuperable. Cuando haces esto, estas haciendo activamente un punto para cuidar de ti mismo, ya que tu pareja ha dejado claro que no tiene ningun interes en ayudarte a sanar o ser un individuho saludable. Deberas hacer varias cosas durante tu rutina de autocuidado: Asegurate de dormir lo suficiente con regularidad. Esto puede ser difícil, pero asegurate de intentar dormir a la misma hora todas las noches, sin importar lo estresado que estes por la vida. Quieres ser capaz de mantenerte sano. Mantente motivado para hacer ejercicio de forma activa con regularidad y comer lo más sano posible.
 
-La rutina será su amiga, y programar activamente tiempo para usted, especialmente para hacer cosas que le gusten,será fundamental para mantenerse en el buen camino y ser capaz de hacer frente al abuso que pueda estar soportando.
+La rutina será su amiga, y programar activamente tiempo para usted, especialmente para hacer cosas que le gusten, será fundamental para mantenerse en el buen camino y ser capaz de hacer frente al abuso que pueda estar soportando.
 
 ### Negarse a Compromterse
 
@@ -305,8 +305,8 @@ flowchart TD
     C -->|Indiferencia cruel, reemplazo súbito| D[4. Fase de Reenganche / Hoovering]
     D -->|Falsas promesas, victimización para recuperar control| A
 
-    style A fill:#064e3b,stroke:#10b981,color:#d1fae5
-    style B fill:#451a03,stroke:#f59e0b,color:#fef3c7
-    style C fill:#450a0a,stroke:#ef4444,color:#fee2e2
-    style D fill:#1e1b4b,stroke:#818cf8,color:#e0e7ff
+    style A fill:#064e3b, stroke:#10b981, color:#d1fae5
+    style B fill:#451a03, stroke:#f59e0b, color:#fef3c7
+    style C fill:#450a0a, stroke:#ef4444, color:#fee2e2
+    style D fill:#1e1b4b, stroke:#818cf8, color:#e0e7ff
 ```

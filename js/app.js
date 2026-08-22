@@ -147,6 +147,32 @@ const App = {
   // ==========================================
   // ADVANCED NEURAL TTS NARRATION ENGINE
   // ==========================================
+  
+  toggleChapterReader(contentId, headerEl) {
+    const contentEl = document.getElementById(contentId);
+    if (!contentEl) return;
+    
+    const isHidden = contentEl.classList.contains('hidden');
+    contentEl.classList.toggle('hidden');
+    
+    const chevron = headerEl.querySelector('.fa-chevron-down');
+    if (chevron) {
+      if (isHidden) {
+        chevron.classList.add('rotate-180');
+      } else {
+        chevron.classList.remove('rotate-180');
+      }
+    }
+    
+    if (isHidden && typeof mermaid !== 'undefined') {
+      setTimeout(() => {
+        try {
+          mermaid.init(undefined, contentEl.querySelectorAll('.mermaid'));
+        } catch(e) {}
+      }, 50);
+    }
+  },
+
   ttsState: {
     activeChapter: null,
     activeButton: null,
@@ -263,19 +289,36 @@ const App = {
     const chunk = state.utterances[state.currentIndex];
     const u = new SpeechSynthesisUtterance(chunk);
     u.lang = 'es-ES';
-    u.rate = 1.0;
+    u.rate = 0.92; // Cadencia tranquila y comprensible
     u.pitch = 1.0;
     if (state.selectedVoice) u.voice = state.selectedVoice;
 
+    // Calcular pausa natural según el signo de puntuación final
+    let pauseMs = 380; // Pausa estándar de 380ms para punto seguido
+    if (chunk.endsWith('?') || chunk.endsWith('!')) {
+      pauseMs = 450;
+    } else if (chunk.endsWith(':') || chunk.endsWith(';')) {
+      pauseMs = 250;
+    } else if (chunk.endsWith(',')) {
+      pauseMs = 180;
+    }
+
     u.onend = () => {
-      state.currentIndex++;
-      this.playNextTTSChunk();
+      if (!state.isPaused && state.activeChapter) {
+        state.currentIndex++;
+        // Respiración / Pausa humana antes de la siguiente oración
+        setTimeout(() => {
+          if (!state.isPaused && state.activeChapter) {
+            this.playNextTTSChunk();
+          }
+        }, pauseMs);
+      }
     };
 
     u.onerror = (e) => {
       console.warn('TTS chunk error:', e);
       state.currentIndex++;
-      this.playNextTTSChunk();
+      setTimeout(() => this.playNextTTSChunk(), 200);
     };
 
     window.speechSynthesis.speak(u);
@@ -769,23 +812,27 @@ const App = {
          }
          
          const cleanTitle = chapterName.replace(/_/g, ' ').replace(/^Tema\s*\d+\s*/i, '').trim();
+         const contentId = `chapter-drawer-${modNumber}-${pIndex}-${idx}`;
          
          chaptersHtml += `
            <div class="bg-slate-900/90 border border-slate-700/60 rounded-2xl overflow-hidden shadow-xl">
-             <div class="bg-slate-800/90 hover:bg-slate-700/80 px-6 py-4 border-b border-slate-700/60 flex justify-between items-center cursor-pointer transition-colors" onclick="const p = this.nextElementSibling; p.classList.toggle('hidden'); this.querySelector('.fa-chevron-down').classList.toggle('rotate-180'); if(!p.classList.contains('hidden') && typeof mermaid !== 'undefined') { setTimeout(() => { try { mermaid.init(undefined, p.querySelectorAll('.mermaid')); } catch(e){} }, 50); }">
+             <!-- Header del Acordeón -->
+             <div class="bg-slate-800/90 hover:bg-slate-700/80 px-6 py-4 border-b border-slate-700/60 flex justify-between items-center cursor-pointer transition-colors" onclick="App.toggleChapterReader('${contentId}', this)">
                <div class="flex items-center gap-3">
                  <span class="w-7 h-7 rounded-lg bg-cyan-950 border border-cyan-500/40 text-cyan-400 font-mono text-xs font-bold flex items-center justify-center">${idx + 1}</span>
                  <span class="font-bold text-slate-100 font-serif text-base">${cleanTitle || chapterName}</span>
                </div>
                <div class="flex items-center gap-3">
-                 <!-- BOTON DE AUDIO NARRACIÓN -->
+                 <!-- Botón de Audio Narración -->
                  <button onclick="event.stopPropagation(); App.toggleAudioNarration('${chapterName}', this)" class="narration-btn px-3 py-1.5 rounded-lg bg-indigo-950/80 text-indigo-300 border border-indigo-500/40 hover:bg-indigo-900/60 hover:text-white transition-all text-xs font-semibold flex items-center gap-1.5 shadow-sm" title="Escuchar este capítulo con voz natural">
                    <i class="fa-solid fa-volume-high text-indigo-400"></i>
                    <span class="btn-text">Escuchar</span>
                  </button>
                  <i class="fa-solid fa-chevron-down text-slate-400 transition-transform duration-300"></i>
+               </div>
              </div>
-             <div class="hidden p-6 sm:p-8 prose-editorial max-w-none prose-headings:font-serif prose-headings:text-slate-100 prose-p:text-slate-300 prose-p:leading-relaxed prose-li:text-slate-300 prose-strong:text-cyan-300 bg-[#090e17]/80">
+             <!-- Cuerpo del Texto Desplegable -->
+             <div id="${contentId}" class="hidden p-6 sm:p-8 prose-editorial max-w-none prose-headings:font-serif prose-headings:text-slate-100 prose-p:text-slate-300 prose-p:leading-relaxed prose-li:text-slate-300 prose-strong:text-cyan-300 bg-[#090e17]/80">
                ${parsedHtml}
              </div>
            </div>

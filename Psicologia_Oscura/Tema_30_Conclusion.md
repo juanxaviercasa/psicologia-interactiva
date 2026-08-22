@@ -1,6 +1,6 @@
 ## Conclusión
 
-!Enhorabuena! Ha llegado al final de _Como Analizar a las Personas con la Psicología Oscura_.
+! Enhorabuena! Ha llegado al final de _Como Analizar a las Personas con la Psicología Oscura_.
 
 Eseramos que este haya sido un proceso increiblemente informativo para usted. Como siempre, con los temas de pisicologia, puede ser difícil encontrar un libro y un tema que sea realmente interesante y también fácil de entender, pero es con mi mayor esperanza que usted encontro este libro para ser interesante, fácil de entender, útil y procesable. Has pasado los últimos capitulos aprendiendo como utilizar mejor la psicología oscura y como analizar a otras personas. Estas habilidades son cruciales si quieres ser un adulto exitoso en el mundo real, y sin embargo, muchas personas simplemente careeren de la capacidad o habilidad para manejar cualquiera de ellas.
 

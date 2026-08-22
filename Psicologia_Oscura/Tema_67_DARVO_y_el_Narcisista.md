@@ -47,12 +47,12 @@ flowchart LR
     A --> RVO[RVO: Reverse Victim and Offender / Invertir Roles]
     RVO --> OUT([Resultado: Víctima Pide Perdón y Siente Culpa])
 
-    style CONFRONT fill:#0f172a,stroke:#38bdf8,color:#cbd5e1
-    style D fill:#1e1b4b,stroke:#f59e0b,color:#fff
-    style A fill:#451a03,stroke:#ef4444,color:#fff
-    style RVO fill:#450a0a,stroke:#f43f5e,stroke-width:2px,color:#fff
-    style OUT fill:#0f172a,stroke:#a855f7,color:#cbd5e1
+    style CONFRONT fill:#0f172a, stroke:#38bdf8, color:#cbd5e1
+    style D fill:#1e1b4b, stroke:#f59e0b, color:#fff
+    style A fill:#451a03, stroke:#ef4444, color:#fff
+    style RVO fill:#450a0a, stroke:#f43f5e, stroke-width:2px, color:#fff
+    style OUT fill:#0f172a, stroke:#a855f7, color:#cbd5e1
 ```
 
-> [!WARNING]
+> [! WARNING]
 > **Mecanismo del DARVO:** Ante cualquier evidencia irrefutable, el agresor narcisista nunca pedirá disculpas sinceras; atacará la credibilidad del denunciante y se posicionará como el mártir atacado para forzar a la víctima a asumir la responsabilidad del conflicto.

@@ -16,9 +16,9 @@ En este libro, recibir a una guía para reconocer que es la manipulación, por q
 
 Hay muchos libros sobre este tema en el mercado, ¡Gracias de nuevo por elegir estel Se ha hecho todo lo posible para que contenga la mayor cantidad de información útil posible.
 
-## 📖 Capítulo 1: ?Que es la Manipulación?
+## 📖 Capítulo 1: ? Que es la Manipulación?
 
-Si pudieras obligar a la gente a obedecerte,?lo harias? Si pudieras obligar a otra persona, anuque supieras que no quiere hacer lo que le pides,?estarias dispuesto a hacerlo? Tal vez necesites realmente un prestamo de 5.000 dolares para el pago inicial de un coche, pero tus padres no están dispuesto a dartelo. Tal vez realmente quieres pedir prestada la nueva moto de tu amigo para experimentar con ella, pero ellos se muestran reacios porque no tienes carnet.?Que posibililadas tienes de avanzar¿Y si tu amiga tiene una relación con alguien que la maltrata o que simplemente no le conviene¿Harias todo lo posible para convenercla de que termine la relación?
+Si pudieras obligar a la gente a obedecerte,? lo harias? Si pudieras obligar a otra persona, anuque supieras que no quiere hacer lo que le pides,? estarias dispuesto a hacerlo? Tal vez necesites realmente un prestamo de 5.000 dolares para el pago inicial de un coche, pero tus padres no están dispuesto a dartelo. Tal vez realmente quieres pedir prestada la nueva moto de tu amigo para experimentar con ella, pero ellos se muestran reacios porque no tienes carnet.? Que posibililadas tienes de avanzar¿Y si tu amiga tiene una relación con alguien que la maltrata o que simplemente no le conviene¿Harias todo lo posible para convenercla de que termine la relación?
 
 Todo eso y más es posible con el poder de la manipulación. Cuando eres capaz de manipular a la gente, estas consiguendo influur en la mente de la otra persona. Eres capaz de averiguar la mejor manera de controlar a la otra persona y asegurarte de que puedes, de hecho, tomar el control de una vez por todas. Puedes utilizar tu compression de la mente de la otra persona para conseguir que haga casi cualquier cosa. Si juegas bien tus cartas, puedes acceder de forma encubierta a la mente de otra persona, instalar todos los hilos accuados y jugar con la otra persona comosi si fuera una marioneta.
 

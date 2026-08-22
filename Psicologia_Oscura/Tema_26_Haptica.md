@@ -46,7 +46,7 @@ Ya has pasado por el proceso de aprender a leer el lenguaje corporal, pero ahora
 
 ### _&Por que Falsificar?_
 
-Si supieras que es posible fingir el lenguaje corporal de forma habitual, _?_sentirias que los que te rodean son menos dignos de confianza? Ahora bien, cieramente seria posible que las personas que te rodean fueran problematicamente poco confiables, pero en su mayor parte, el lenguaje corporal se ajusta de manera que hace que las personas sean mejores lideres. Los lideres, en particular, son muy conscientes de los beneficios de un buen lenguaje corporal,desde las poses de poder hasta el simple hecho de posicionarse de un manera específica.
+Si supieras que es posible fingir el lenguaje corporal de forma habitual, _?_sentirias que los que te rodean son menos dignos de confianza? Ahora bien, cieramente seria posible que las personas que te rodean fueran problematicamente poco confiables, pero en su mayor parte, el lenguaje corporal se ajusta de manera que hace que las personas sean mejores lideres. Los lideres, en particular, son muy conscientes de los beneficios de un buen lenguaje corporal, desde las poses de poder hasta el simple hecho de posicionarse de un manera específica.
 
 Cuando falseas tu lenguaje corporal, sueles tener una buena razón para hacerlo. Es posible que quieras que te vean como más seguro o con el control, como en un entrevista de trabajo, en la que esperas conseguir el puesto. Puede utilizarlo cuando interactua con sus hijos si es padre o madre. Puede utilizarlo cuando se enfrenta a alquien para hacerle saber que no esta dispuesto a retroceder, independientemente de como se sienta internamente.
 
@@ -80,7 +80,7 @@ Por ejemplo, imagina que quieres influir en tus hijos para que limpien. Gritarle
 
 ### Para influir en ti mismo
 
-Tu lenguaje corporal también es increiblemente eficaz para influir en ti mismo.?Has oido alguna vez la expresion "Finge hasta que lo consigas"? Este es el ejemplo perfecto de ello. El lenguaje corporal se ha utilizado para luchar contra los ataques de panico: si tu ansiedad se desbora, puedes hacer algo que nunca harias durante un emergencia realmente digna de panico, como masticar un chicle para recordarte que debes calmarte, porque nunca maserias un chicle cuando estas en peligro. Efectivamente, tu mente empieza a recibir información de tu cuerpo y se regula en consecuencia. Esto significa entonces que tu cuerpo acaba regulando tu mente. Tu lenguaje corporal le dice a tu mente que cambie su estado.
+Tu lenguaje corporal también es increiblemente eficaz para influir en ti mismo.? Has oido alguna vez la expresion "Finge hasta que lo consigas"? Este es el ejemplo perfecto de ello. El lenguaje corporal se ha utilizado para luchar contra los ataques de panico: si tu ansiedad se desbora, puedes hacer algo que nunca harias durante un emergencia realmente digna de panico, como masticar un chicle para recordarte que debes calmarte, porque nunca maserias un chicle cuando estas en peligro. Efectivamente, tu mente empieza a recibir información de tu cuerpo y se regula en consecuencia. Esto significa entonces que tu cuerpo acaba regulando tu mente. Tu lenguaje corporal le dice a tu mente que cambie su estado.
 
 Puedes comprobar este efecto con otras formas de lenguaje corporal. Puedes probar a sonreir más de lo habitual para empezar a motivarte a sentitre más feliz o más seguro de ti mismo. Puedes ponerte en determinadas posturas para animarte a sentitre más seguro de ti mismo, como la pose de poder de estar con las manos en las caderas, recto y alto, con la cabeza levantada.
 
@@ -143,7 +143,7 @@ Cuando el lenguaje corporal de las personas no esta censurado, suele aparecer ag
 
 ## 📖 Capítulo 6: Como Detectar la Mentira
 
-Parate a pensar en el esteerotipo de niño de 3 años. Ves que el niño que tienes delante tiene chocolate en la boca. Le preguntas si ha cogido las galletas del mostrador, observando que faltan dos. Te mira, sonrie y niega con la cabeza.?Lo ha hecho el?
+Parate a pensar en el esteerotipo de niño de 3 años. Ves que el niño que tienes delante tiene chocolate en la boca. Le preguntas si ha cogido las galletas del mostrador, observando que faltan dos. Te mira, sonrie y niega con la cabeza.? Lo ha hecho el?
 
 Es muy probable que lo haya hecho, sobre todo porque le has pillado con la boca llena de chocolate justo al lado de las galletas de chocolate desaparecidas. Fijate en como te ha sonreido sin mediar palabra y ha salido corriendo, caccareando alegremente y pensando que se ha salido con la suya.
 
@@ -209,7 +209,7 @@ Si no esta bien entrenado, puede encontrar que detectar el engaño es en realida
 
 Conocer las señales no siempre es suficiente. A veces, ayuda tener una especie de lista de control para repasar en tu mente cuando intentas determinar si alguien te esta mintiendo activamente o no. Al entender si la otra parte estamintiendo o siendo engañosa, puedes empezar a averiguar hasta que punto quieres confiar en ella. Hay principalmente cuatro formas de identificar si sientes que alguien te engana o no:
 
-* **Fijate en algo más que en el lenguaje corporal:** Escucha la voz durante un rato:?suena nerviosa o como alguien que esta mintiendo? Presta atención a las palabras que se utilizan y a si puedes identificar alguno de los signos de engaño.
+* **Fijate en algo más que en el lenguaje corporal:** Escucha la voz durante un rato:? suena nerviosa o como alguien que esta mintiendo? Presta atención a las palabras que se utilizan y a si puedes identificar alguno de los signos de engaño.
 * **Centre en el lenguaje corporal engañoso:** Sin embargo, cuando se observe el lenguaje corporal, busque especificamente el lenguaje corporal que tradicionalmente se agrupa como engaño.
 * **Pide que te cuenten la historia al reves:** Si alguien te ha proporcionado un relato largo y tendido del que dudas, una forma de averiguar si es cierto o no es pedirle que te cuente lo que paso, pero al reves. Si tiene que pensar demasiado, es un buen indicador de que se esta inventando las cosas.
 * **Confie en su instinto:** Por último, cuando intentes identificar si alguien te engana o no, confia en tu instinto. Esos instintos están ahi por una razón, y es muy posible que tu mente inconsciente haya captado pistas que se te escapan a medida que avanzas en la interacción.
@@ -240,7 +240,7 @@ Cuando se examina la psicología oscura, se considera como estos depredadores en
 
 Este capitulo le guiará a traves del proceso de aprender a identificar a los usuarios de la psicología oscura, así como la forma de empezar a pensar con la psicología oscura. Se le presentara el concepto de psicología oscura con una breve explicación de lo que es. Se le guiará a traves de la Triada Oscura-las personalidades que tienden a manejar la psicología oscura. Por último, se le guiará a traves de las razones por las que alguien puede utilizar la psicología oscura en primer lugar.
 
-**?Que es la Psicología de la Oscuridad?**
+**? Que es la Psicología de la Oscuridad?**
 
 La psicología oscura en si es el estudio de como las personas con los tipos de personalidad de la triada oscura tienden a interactuar con el mundo que les rodea. Especificamente mira como esas personas particulares ven a la gente, como eligen manipular a esa gente, y como eligen interactuar con la gente. El uso de la psicología oscura se considera a menudo absolutamente polemico simplemente debido a la angustia que puede causar a la otra parte. Debido a que muchos de los usuarios de la psicología oscura son propensos a la manipulación y el uso de las personas sin preocuparse por como pueden danar a los demas, la psicología oscura en si misma ha desarrollado la mala reputacion de ser totalmente negativa simplemente porque mira a esas mismas tecnicas.
 
@@ -248,7 +248,7 @@ Sin embargo, es importante señalar que la psicología oscura es poco más que o
 
 Los siguientes capitulos le guiaran a traves de la psicología oscura y la mentalidad de la psicología oscura. Se le mostraram como pensar en el mundo como si estuviera en la mente de un depredador. Se le mostrara un vistazo a la oscuridad que llena su mente, pero a diferencia de aquellos con los tipos de personalidad de la triada oscura, usted no tiene que ceder a la tentacion - puede simplemente aprender como funciona la psicología oscura sin decidir nunca actuar en consecuencia.
 
-La psicología oscura estudia la influencia y la persuasión. Trata de utilizar la PNL para controlar a otras personas. Busca conseguir lo que los usuarios quieren a toda costa. Sin embargo,?que pasaria si alguien sin interes en la manipulación fuera a manejar esta herramienta¿Que pasaria si utilizara la psicología oscura de forma que no se reuniera para hacer daño, sino que estuviera diseñada para ayudar a las personas a liberalarse de cualquier cosa que les este reteniendo? Tal vez la usen para convencer a alguien de que debe romper con su pareja abusiva. Tal vez un medico lo utilice para animar a alguien a buscar el tratamiento adecuado para un tumor que será mortal si no se opera pronto. Tal vez la utilices durante las negociaciones y, en consecuencia, consigas un ascenso porque tus números han sido muy buenos. En definitiva, la psicología oscura no tiene por que ser mala o erronea, simplemente puede ser neutral hasta que alguien decida coger la herramienta y utilizarla.
+La psicología oscura estudia la influencia y la persuasión. Trata de utilizar la PNL para controlar a otras personas. Busca conseguir lo que los usuarios quieren a toda costa. Sin embargo,? que pasaria si alguien sin interes en la manipulación fuera a manejar esta herramienta¿Que pasaria si utilizara la psicología oscura de forma que no se reuniera para hacer daño, sino que estuviera diseñada para ayudar a las personas a liberalarse de cualquier cosa que les este reteniendo? Tal vez la usen para convencer a alguien de que debe romper con su pareja abusiva. Tal vez un medico lo utilice para animar a alguien a buscar el tratamiento adecuado para un tumor que será mortal si no se opera pronto. Tal vez la utilices durante las negociaciones y, en consecuencia, consigas un ascenso porque tus números han sido muy buenos. En definitiva, la psicología oscura no tiene por que ser mala o erronea, simplemente puede ser neutral hasta que alguien decida coger la herramienta y utilizarla.
 
 #### Narcisisimo
 
@@ -262,7 +262,7 @@ Los tipos de personalidad maquiavelica suelen ser bastante cinicos, pero solo en
 
 Finalmente, el último de los tres tipos de personalidad de la triada oscura es la psicopatia. Suele considerarse el más maligno de los tres, y que el psicopata demuerstra tener dificultades con la empatía, al tiempo que muestra un alto nivel de impulsividad y busca emociones de cualquier manera posible.
 
-####?Por que Utilizar la Psicología Oscura?En última instancia, hay varias razones por las que uno puede utilizar la psicología oscura, y no todos son tan malos como uno puede pensar. Varias personas de la sociedad utilizan estas tecnicas no para hacer daño a los demas, sino para asegurarse de que son capaces de obtener los resultados que se necesitan. Los politicos y los lideres pueden utilizar las herramientas de influencia y persuasión para mantener a la gente motivada. Los ordores publicos pueden manipular el estado de animo de la sala para transmitir un determinado mensaje. Los agentes de policia pueden utilizarla para que la gente se mantenga en la línea.
+####? Por que Utilizar la Psicología Oscura? En última instancia, hay varias razones por las que uno puede utilizar la psicología oscura, y no todos son tan malos como uno puede pensar. Varias personas de la sociedad utilizan estas tecnicas no para hacer daño a los demas, sino para asegurarse de que son capaces de obtener los resultados que se necesitan. Los politicos y los lideres pueden utilizar las herramientas de influencia y persuasión para mantener a la gente motivada. Los ordores publicos pueden manipular el estado de animo de la sala para transmitir un determinado mensaje. Los agentes de policia pueden utilizarla para que la gente se mantenga en la línea.
 
 Independientemente de quien lo utilice, suele haber algun tipo de propósito, anuque a veces ese propósito resulte ser simplemente un entretenimiento. Ahora, vamos a repasar una lista de varios usos ordinarios de la psicología oscura que probablemente haya encontrado recientemente.
 
@@ -330,5 +330,5 @@ flowchart TD
     NV --> Z3[Háptica: Contacto Físico y Dominancia / Sumisión]
     NV --> Z4[Paralenguaje: Tono, Cadencia y Microvacilaciones]
     
-    style NV fill:#1e1b4b,stroke:#818cf8,color:#fff
+    style NV fill:#1e1b4b, stroke:#818cf8, color:#fff
 ```

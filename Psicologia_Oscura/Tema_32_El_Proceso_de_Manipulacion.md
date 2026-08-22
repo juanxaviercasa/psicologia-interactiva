@@ -127,7 +127,7 @@ Esto se refiere al tipo de intimidacion en la que no se sabe muy bien por que se
 
 ## 📖 Capítulo 2: Cuando y por que Utilizar la Manipulación
 
-Ahora bien,?tienes curiosidad por saber por que la gente decide utilizar este tipo de manipulación¿Por que alguien necesita ese nivel de control sobre las acciones o los scintientos de otra persona¿Quien utilizaria estas formas de manipulación¿Quien es realmente lo suticientemente despiadado como para seguir adelante sin culpa ni arrepentiimento? Todas estas son preguntas fantasticas, y este capitulo trata de responder al mayor número posible de ellas. Cuando se responda a estas preguntas, el retrato del manipulador será mucho más claro.
+Ahora bien,? tienes curiosidad por saber por que la gente decide utilizar este tipo de manipulación¿Por que alguien necesita ese nivel de control sobre las acciones o los scintientos de otra persona¿Quien utilizaria estas formas de manipulación¿Quien es realmente lo suticientemente despiadado como para seguir adelante sin culpa ni arrepentiimento? Todas estas son preguntas fantasticas, y este capitulo trata de responder al mayor número posible de ellas. Cuando se responda a estas preguntas, el retrato del manipulador será mucho más claro.
 
 **zQuien Manipula?**
 
@@ -231,7 +231,7 @@ A veces, las personas que occupan puestos de ventas tienen que ser astutas con l
 
 ### En los tribunales
 
-En los tribunales, cuando los abogados se enfrentan a menudo para averiguar la verdad, es posible que se produzcan manipulaciones. Especialmente si los abogados están especialmente anisos por probar sus propias posiciones,puede que te encuentres con problemas en los que ambas partes empiecen a lanzarse intentos de manipulación. Puede que formulen sus preguntas de una manera cargada para intentar que la otra parte caiga en la trampa. Pueden intentar inculpar a la otra parte o presionarla para que confiese. En última instancia, aunque se supone que la sala del tribunal es particularmente imparcial, a menudo se pueden ver intentos de manipulación para controlar al otro.
+En los tribunales, cuando los abogados se enfrentan a menudo para averiguar la verdad, es posible que se produzcan manipulaciones. Especialmente si los abogados están especialmente anisos por probar sus propias posiciones, puede que te encuentres con problemas en los que ambas partes empiecen a lanzarse intentos de manipulación. Puede que formulen sus preguntas de una manera cargada para intentar que la otra parte caiga en la trampa. Pueden intentar inculpar a la otra parte o presionarla para que confiese. En última instancia, aunque se supone que la sala del tribunal es particularmente imparcial, a menudo se pueden ver intentos de manipulación para controlar al otro.
 
 ### En las negociaciones
 
@@ -239,7 +239,7 @@ Los intentos de negociacion son otra area en la que se pueden ver intentos de ma
 
 ## 📖 Capítulo 3: El Poder de la Persuasión
 
-?Alguna vez has intentado decidir que hacer para cenar una noche y tu pareja o tu hijo se te han acercado con unargumento completo sobre por que deberias ir a cenar a tu restaurante de sushi favorito? Tal vez el argumento este muy bien expuesto para unset. Tu hijo seinala que no tendrias que cocinar ni limpiar, lo que significica que tendrias más tiempo para pasar con tu familia, algo que escasea desesperadamente estos dias. Su hijo seinala que a todo elmundo le gusta el sushi, así que no puede equivocarse al ir al restaurante y que toda la familia encontrara algo que comer. Por último, tu hijo te dice que sabe que te apetece mucho ir a comer sushi porque siempre quieres ir a comer sushi.
+? Alguna vez has intentado decidir que hacer para cenar una noche y tu pareja o tu hijo se te han acercado con unargumento completo sobre por que deberias ir a cenar a tu restaurante de sushi favorito? Tal vez el argumento este muy bien expuesto para unset. Tu hijo seinala que no tendrias que cocinar ni limpiar, lo que significica que tendrias más tiempo para pasar con tu familia, algo que escasea desesperadamente estos dias. Su hijo seinala que a todo elmundo le gusta el sushi, así que no puede equivocarse al ir al restaurante y que toda la familia encontrara algo que comer. Por último, tu hijo te dice que sabe que te apetece mucho ir a comer sushi porque siempre quieres ir a comer sushi.
 
 Puede que te des cuenta de que tu hijo tiene razón -todo eso es cierto- y aceptes ir. En este caso, su hijo le acaba deonvencer para que salga a cenar. Ahora bien, el argumento y el intento de persuasión pueden haber sido bastante simplificados, pero siguen contando como una forma de influencia. Usted no estaba pensando en salir a cenar hasta que su hijo le seinalo todas las razones por las que debia hacerlo. Esto significica, pues, que tu hijo ha influido en tu eleccion.
 
@@ -261,7 +261,7 @@ Sin embargo, hay que tener en cuenta las diferentes definiciones de los dos inte
 
 Esto significica que, principalmente, la manipulación es desleal o secreta por defecto: busca utilizar y abusar de las personas para satisfacer al manipulador y lo que este quiera. La persuasión, en cambio, es simplemente una forma en que las personas interactian con quienes las rodean. Intentas persuadir a alguien para que te ayude porque sientes que puede ser un activo valioso y crees que también obtendrá algo de ello. Cuando intentas persuadir a alguien eres totalmente sincero, pero cuando manipulas no lo eres.
 
-Por ejemplo, considere que, por alguna razón, necesita que le lleven al trabajo manana. Te acercas a tu vecino y le dices: "Oye, me he dado cuenta de que a tu jardin le vendria bien un poco de cuidado,?quieres que te ayude hoy?" Estoy libre todo el dia". El vecino acepta, y los dos charlan alegremente mientras se occupan de los trabajs deljardin. El vecino, al terminar todo, te pregunta si necesitas ayuda, ofreciendote a cambio. Tu le respondes que, en realidad, necesitas que te lleven al trabajo y que lo agradecerias mucho.
+Por ejemplo, considere que, por alguna razón, necesita que le lleven al trabajo manana. Te acercas a tu vecino y le dices: "Oye, me he dado cuenta de que a tu jardin le vendria bien un poco de cuidado,? quieres que te ayude hoy?" Estoy libre todo el dia". El vecino acepta, y los dos charlan alegremente mientras se occupan de los trabajs deljardin. El vecino, al terminar todo, te pregunta si necesitas ayuda, ofreciendote a cambio. Tu le respondes que, en realidad, necesitas que te lleven al trabajo y que lo agradecerias mucho.
 
 Por otro lado, si hubieras querido manipular al vecino para que te llevara, habrias salido por la manana como de costumbre y habrias intentado desesperadamente arrancar el coche mientras gemias en voz alta y polpeabas el valante antes de mirar tu reloj con exasperacion. En este caso, no estas interactuando directamente con la otra persona: estas dejando claro que estas descontento, pero no te diriges a tu vecino.
 
@@ -275,11 +275,11 @@ Entre las dos, la persuasión se considera generalmente acceptable desde el punt
 
 Cuando se planea utilizar la persuasión contra orta persona, es probable que se necesite algun tipo de plan. En general, tendrá que saber exactamente lo que quiere y como tiene que llegar a ese resultado. Si quiere conseguir un trabajo, por ejemplo, puede darse cuenta de que los pasos para conseguirlo requieriran que solicite trabajos y trabaje en su curriculum tanto como sea posible. Puede que vea que hay poco margen de error y que tendrá que intentar activamente encontrar es trabajo.
 
-Cuando hagas tu plan, puedes empezar a pensar a quien pediras Ayuda.?Conoce a alguien con algunos contactos¿Tienes algun amigo que trabaje en algun sitio con ofertas de empleo¿Tienes alguna habilidad que pueda conseguirte ese trabajo que realmente necesitas o quieres? Si puedes responder afirmativamente a cualquiera de estas preguntas, puedes averiguar a quien quieres dirigir tu persuasión. Después de todo, siempre tiene que haberalguien en el extremo receptor cuando se intenta persuadir a alguien.
+Cuando hagas tu plan, puedes empezar a pensar a quien pediras Ayuda.? Conoce a alguien con algunos contactos¿Tienes algun amigo que trabaje en algun sitio con ofertas de empleo¿Tienes alguna habilidad que pueda conseguirte ese trabajo que realmente necesitas o quieres? Si puedes responder afirmativamente a cualquiera de estas preguntas, puedes averiguar a quien quieres dirigir tu persuasión. Después de todo, siempre tiene que haberalguien en el extremo receptor cuando se intenta persuadir a alguien.
 
 Después de identificar a quien va a persuadir, debe averiguar como desea persuadirlo. Ahora bien, esto será un poco más complicado de averiguar: hay docenas de maneras de intentar persuadir a alguien y, en última instancia, tendrá que elegir la que mejor funcione para usted. Cuando pueda identificar exactamente como desea persuadir a otra persona, podrá empezar a reunir el mejor conjunto de herramientas posible para hacerlo.
 
-Ahora bien, no entraremos en las herramientas de persuasión hasta el proximo capitulo, así que mantengase firme en esse concepto particular. Sin embargo, reconozca que hay varias tecnicas de persuasión que se pueden utilizar, siempre y cuando se empene en usarlas con eficacia. Con el plan en mente y las herramientas en mente, y reconociendo que no solo estas persuadiendo para conseguir ayuda, tienes que averiguar que estas dispuesto a ofrecer a cambio.?Por que debería ayudarte la otra persona¿E Hará algo a cambio¿Les beneficiar de algunal manera? Recuerda que la manipulación es la que se hace a si misma. Cuando estas persuadiendo a alguien, todo elmundo debería ver al menos algun tipo de beneficio por ayudar o estar de acuerdo con lo que estas intentando persuadirle.
+Ahora bien, no entraremos en las herramientas de persuasión hasta el proximo capitulo, así que mantengase firme en esse concepto particular. Sin embargo, reconozca que hay varias tecnicas de persuasión que se pueden utilizar, siempre y cuando se empene en usarlas con eficacia. Con el plan en mente y las herramientas en mente, y reconociendo que no solo estas persuadiendo para conseguir ayuda, tienes que averiguar que estas dispuesto a ofrecer a cambio.? Por que debería ayudarte la otra persona¿E Hará algo a cambio¿Les beneficiar de algunal manera? Recuerda que la manipulación es la que se hace a si misma. Cuando estas persuadiendo a alguien, todo elmundo debería ver al menos algun tipo de beneficio por ayudar o estar de acuerdo con lo que estas intentando persuadirle.
 
 Por último, un vez averiguado el quien, el que, el como y el por que, ya puedes intentar utilizar tu tecnica. Ahora es el momento de acercarse y hablar con quien hayas identificado como la persona a la que estas pidiendo ayuda. Recuerde que debe intentar preguntarles si puede ayudarles antes de entrar de golpe en el tema de todo lo que busca de ellos.
 
@@ -312,7 +312,7 @@ En la crianza de los hijos, lo mejor que puedes hacer es aprender a hablar con e
 
 Cuando se cria a un niino, lo que se hace es intentar averiguar la mejor manera de ayudarle a convertirse en un adulto responsable y maduro, productivo y capaz de relacionarse con los que le rodean. Esto significica que tienen que desarrollarabilidades como la forma de persuadir a alguien o la mejor manera de comunicarse cuando necesitan algo. Esto significica que debe enseñar con el ejemplo: debe hablar con su hijo utilizando los mismos patrones de persuasión que utilizaria con un amigo o familiar.
 
-Por ejemplo, si realmente quieren una galleta y la piden amablemente, puedes decirles muy educadamente: "?Estoy muy orgullosa de que uses tus modeles! Pero y sabes que la cena esta a punto de terminar y tienes que asegurarte de que guardas espacio para comer tu cena.?Que tal si lo hacemos manana después de comer porque no necesitasazucar después de cenar?". De este modo, usted negocia una nueva hora para comer la galleta y su hijo esta de acuerdo.
+Por ejemplo, si realmente quieren una galleta y la piden amablemente, puedes decirles muy educadamente: "? Estoy muy orgullosa de que uses tus modeles! Pero y sabes que la cena esta a punto de terminar y tienes que asegurarte de que guardas espacio para comer tu cena.? Que tal si lo hacemos manana después de comer porque no necesitasazucar después de cenar?". De este modo, usted negocia una nueva hora para comer la galleta y su hijo esta de acuerdo.
 
 Ahora, por supuesto, podría haber dicho simplemente: "No hay galleta; es demasiado tarde", y que eso fuera el fin de la discusion, pero eso no le habría hecho ningun favor a su hijo. En lugar de eso, esta dejando claro que las buenas habilidades de comunicación son fundamentales si quieren tener éxito. Les estas ayudando a convertirse en los mejores adultos posibles porque les estas ensenando habilidades como la persuasión desde el principio.
 
@@ -322,7 +322,7 @@ La negociacion es algo a lo que solo ciertas personas se enfrentan de forma habi
 
 ### En el trabajo
 
-Por último, en el trabajo, es probable que necesites persuasión en algun momento.?Necesita un dia libre para un viaje? Tendrá que convencer a su jefe de que lo necesita.?Quiere s un aumento de sueldo¿Por que se lo merece¿Como cambiar a tu propio productividad si consigues ese aumento para justificarlo cuando lo pidas¿Que puedes, hacer para que ese aumento merezca la pena?
+Por último, en el trabajo, es probable que necesites persuasión en algun momento.? Necesita un dia libre para un viaje? Tendrá que convencer a su jefe de que lo necesita.? Quiere s un aumento de sueldo¿Por que se lo merece¿Como cambiar a tu propio productividad si consigues ese aumento para justificarlo cuando lo pidas¿Que puedes, hacer para que ese aumento merezca la pena?
 
 Sin embargo, más allá de las negociaciones con los empleadores, también hay que estar preparado para negociar con los clientes o los socios comerciales, y para ello también se necesita la persuasión. En definitiva, cada vez que tengal que pedirle a alguien que haga algo, estará tratando de persuadirle para que lo haga. Por eso es tan importante dominar la persuasión.
 
@@ -388,7 +388,7 @@ Esto debería indicar a tu pareja que no siempre estaras disponible; solo lo est
 
 Por último, la prueba social se refiere a la tendencia de la gente a dejarse llevar por la presión de los compañeros. Se trata de una palabra elegante para referirse a la presión de los compañeros y consiste en que uno se empena en elegir lo que hacen los demas. Si no sabes lo que deberias hacer, decides seguir lo que ves a tu alrededor. Si ves que tus compañeros están bailando en circulo, pero no sabes por que están bailando en circulo, es probable que te unas a ellos sin entender por que, y eso esta bien. Lo haces de todos modos y nunca averiguas por que.
 
-Cuando quiera utilizar esta forma de persuasión con eficacia, solo tendrá que establecer una zona de control.?Recuerdas por que a tantos manipuladores les gustaba la ventaja de jugar en casa? Es para poder manipular su entorno. Tu también puedes hacerlo. Por ejemplo, si quieres que alguien haga algo por ti, asegurate de pedirselo cerca de otras personas que esten haciendo activamente lo que les pediste que hicieran en primer lugar.
+Cuando quiera utilizar esta forma de persuasión con eficacia, solo tendrá que establecer una zona de control.? Recuerdas por que a tantos manipuladores les gustaba la ventaja de jugar en casa? Es para poder manipular su entorno. Tu también puedes hacerlo. Por ejemplo, si quieres que alguien haga algo por ti, asegurate de pedirselo cerca de otras personas que esten haciendo activamente lo que les pediste que hicieran en primer lugar.
 
 Por ejemplo, si quieres ir por ahi recogiendo firmas y donaciones para una causa, querras asegurarte de que los que te rodean vean que consigues lo que quieres. Cuando ven que otras personas están firmando y donando, es más probable que lo hagan, especialmente si reconocen los nombres, o sienten que tienen que seguir el ritmo de sus compañeros. Por lo tanto, esto funciona bien para mantener a la gente a raya simplemente manteniendo el ambiente que les rodea.
 
@@ -410,11 +410,11 @@ flowchart TD
     V2 --> P3
     V3 --> P3
 
-    style START fill:#312e81,stroke:#6366f1,color:#fff
-    style P1 fill:#0f172a,stroke:#38bdf8,color:#cbd5e1
-    style P2 fill:#0f172a,stroke:#fbbf24,color:#cbd5e1
-    style P3 fill:#450a0a,stroke:#f43f5e,stroke-width:2px,color:#fff
+    style START fill:#312e81, stroke:#6366f1, color:#fff
+    style P1 fill:#0f172a, stroke:#38bdf8, color:#cbd5e1
+    style P2 fill:#0f172a, stroke:#fbbf24, color:#cbd5e1
+    style P3 fill:#450a0a, stroke:#f43f5e, stroke-width:2px, color:#fff
 ```
 
-> [!CAUTION]
+> [! CAUTION]
 > **Criterios Indispensables de Manipulación:** Para que una maniobra sea considerada manipulación oscura, el perpetrador siempre debe cumplir tres condiciones: ocultar sus verdaderos fines, identificar la debilidad exacta del objetivo y carecer de reparos éticos para avanzar.

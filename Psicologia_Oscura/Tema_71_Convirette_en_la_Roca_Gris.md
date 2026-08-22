@@ -1,6 +1,6 @@
 ## Conviértete en la Roca Gris
 
-Otra tecnica que es un poco más realista si no puedes cortar por alguna razón, como por ejemplo si compartes hijos con un ex narcisista, es convertirte en la roca gris. Piensa en la última vez que diste un paseo al aire libre. Tal vez pasaste por tu jardin, o tal vez fuiste de excursion.?Puedes recordar alguna de las rocas que viste?
+Otra tecnica que es un poco más realista si no puedes cortar por alguna razón, como por ejemplo si compartes hijos con un ex narcisista, es convertirte en la roca gris. Piensa en la última vez que diste un paseo al aire libre. Tal vez pasaste por tu jardin, o tal vez fuiste de excursion.? Puedes recordar alguna de las rocas que viste?
 
 Lo más probable es que no pueda. Y esto es normal. Las rocas son tan mundanas e irrelevantes para tu vida diaria que no tienes ninguna razón para centrarte en ellas. Mirar las rocas no te importa porque son aburridas, y no memorizas ninguna de ellas.
 
@@ -30,13 +30,13 @@ Cuando se tiene una relación sana, se esperan límites. Si vas a imponer límit
 
 Por ejemplo, un límite muy comun que no se dice en la mayoría de las relaciones es que no habra violencia física. Esto significica que ambas partes son muy conscientes de que todo el mundo espera que no haya violencia física en la relación, y ambas partes están dispuestas a reconocer y seguir ese límite.
 
-A los narcisistas no les gustan los límites por una buena razón: se interponen en el camino del narcisista. Cuando el narcisista quiere controlar a alguien, no puede lograrlo exactamente si alguien tiene un límite especificamente porquerer ser libre de tomar decisiones por si mismo. El narcisista ve entonces ese límite como una especie de desafio: el narcisista quiere derribarlo y demostrar que no importa. Después de todo, el narcisista es especial,?recuerdas? Cree que se merece el honor de poder pisotearlo sin consecuencias, simplemente por su singularidad y superioridad.
+A los narcisistas no les gustan los límites por una buena razón: se interponen en el camino del narcisista. Cuando el narcisista quiere controlar a alguien, no puede lograrlo exactamente si alguien tiene un límite especificamente porquerer ser libre de tomar decisiones por si mismo. El narcisista ve entonces ese límite como una especie de desafio: el narcisista quiere derribarlo y demostrar que no importa. Después de todo, el narcisista es especial,? recuerdas? Cree que se merece el honor de poder pisotearlo sin consecuencias, simplemente por su singularidad y superioridad.
 
 Por supuesto, ese no es el caso. Usted absolutamente puede y debe establecer límites, no importa lo que el narcisista dice, y si alguien trata de aplastar por completo los límites, entonces vsted sabe que no son seguros o respetuosos de las personas a tener en su vida. Si van a titar voluntariamente us límites sin tener en cuenta como te sientes, no puedes confiar en ellos en absoluto, y eso es un problema. Deberias poder confiar en las personas de tu vida.
 
 Cuando estableczas un límite, debes asegurarte de declararlo explicitamente al narcisista, así como de acompanarlo de una consecuencia. Por ejemplo, puedes decirle al narcisista: "Si vas a seguir menospeciadome, terminare esta visita hasta que estes dispuesto a hablarme como un adulto respetuos". La proxima vez que te menospecie, y volvera a hacerlo para poner a prueba ese límite, deberas poner fin a la visita. Puedes simplemente levantarte, recoger tus pertenencias, reconocer que no estas de acuerdo con ese comportamiento y marcharte, diciendole que puedes volver a intentarlo cuando este dispuesto a ser respetuoso.
 
-Lo más probable es que se queje y le de un ataque por ser tan cruel por castigarle por su mal comportamiento, pero piensalo así: no le estas castigando, te estas protegiendo. Estas estableciendo un límite razonable para no ser insultado o menospeciado, y no es un castigo para el insultador que tu pongas distancia entre el y tu.?Llamarias castigo a la serpiente si te negaras a tocarla porque supieras que te iba a morder? No, es protegerte a ti mismo.
+Lo más probable es que se queje y le de un ataque por ser tan cruel por castigarle por su mal comportamiento, pero piensalo así: no le estas castigando, te estas protegiendo. Estas estableciendo un límite razonable para no ser insultado o menospeciado, y no es un castigo para el insultador que tu pongas distancia entre el y tu.? Llamarias castigo a la serpiente si te negaras a tocarla porque supieras que te iba a morder? No, es protegerte a ti mismo.
 
 Puedes volver a intentar la interacción después del periodo de tiempo que diijste que pasaria entre la siguiente falta de respeto a los límites, reiterando el límite que tienes para ti y la consecuencia de ignorarlo. El truco aquí es que debes cumplir cada vez que pongas una consecuencia. Tienes que ser capaz de decirle al narcisista que honraras tus propios límites para protegerte, le guste o no, y que lo harás para protegerte. Su comoddidad no es tu responsabilidad, y si realmente quisiera continuar con la visita, no te habría causado tantos problemas ni habría ignorado tus muy razonables límites.
 
@@ -58,9 +58,9 @@ Cuando estes seguro de que estas preparado para marcharte, recuerda tres cosas: 
 
 **Ponga sus Patos en Fila**Por muy bonita que sea esta imagen, tener los patos en fila es la capacidad de tener todo alineado y listo para salir. Vas a intentar activamente asegurarte de que todo lo que vas a necesitar en tu salida esta en un lugar y preparado.
 
-Esta etapa incluye todo lo legal que pueda necesitar.?Comparten hijos? Empiece a investigar sobre la custodia y lo que tendrá que hacer para solicitar la custodia de emergencia. Es posible que si tiene documentacion que demuestre el maltrato, pueda obtener la custodia de emergencia de sus hijos. En algunos estados, si tusted no esta casada como madre, conserva la custodia completa, incluso si el padre de su hijo figura en el certificado de nacimiento. Asegurate de consultar a un abogado para comprobar la legalidad de estos aspectos y asegurarte de no cometer ningun errorique pueda perjudicar tu lucha por la custodia.
+Esta etapa incluye todo lo legal que pueda necesitar.? Comparten hijos? Empiece a investigar sobre la custodia y lo que tendrá que hacer para solicitar la custodia de emergencia. Es posible que si tiene documentacion que demuestre el maltrato, pueda obtener la custodia de emergencia de sus hijos. En algunos estados, si tusted no esta casada como madre, conserva la custodia completa, incluso si el padre de su hijo figura en el certificado de nacimiento. Asegurate de consultar a un abogado para comprobar la legalidad de estos aspectos y asegurarte de no cometer ningun errorique pueda perjudicar tu lucha por la custodia.
 
-También querra asegurarse de que toda la documentacion importante esta alineada.?Sabe donde esta subdocumentacion legal¿Tienes la tarieta de la seguridad social y el certificado de nacimiento¿V toda la documentacion del cooche, el seguro, la propiedad conjunta y cualquier otra cosa que sea relevante para ti? Asegurese, de reunir todos los documentos legales importantes, así como de reunir todo lo relativo a sus hijos. Asegurate detener los documentos que declaran la custodia si y esta resuelta. Si va a solicitar un orden de alejamiento y una custodia de emergencia, consiga todo eso también.
+También querra asegurarse de que toda la documentacion importante esta alineada.? Sabe donde esta subdocumentacion legal¿Tienes la tarieta de la seguridad social y el certificado de nacimiento¿V toda la documentacion del cooche, el seguro, la propiedad conjunta y cualquier otra cosa que sea relevante para ti? Asegurese, de reunir todos los documentos legales importantes, así como de reunir todo lo relativo a sus hijos. Asegurate detener los documentos que declaran la custodia si y esta resuelta. Si va a solicitar un orden de alejamiento y una custodia de emergencia, consiga todo eso también.
 
 Con el papeleo alineado, necesitas asegurarte de que también tienes todos us objetos sentimentales e irremplazables, en un lugar que sea fácil de agarrar. Asegurate de tener los ordenadores, los discos duros, los albumes de fotos y cualquier otra cosa que te devastaria perder si el narcisista decide ponerse destructivo para castigarte por dejarlo. Querras poner todo esto en una bolsa que puedas llevar rapidamente, colocandola con todo el papeleo legal. Estas son tus bolsas de viaje: esta ahi para que las tomes y las dejes lo más rapido posible si surge la necesidad.
 
@@ -115,7 +115,7 @@ flowchart TD
     GR --> GR2[Cero reactividad emocional o justificaciones]
     GR --> GR3[Convertirse en el objeto más aburrido de la habitación]
 
-    style DECISION fill:#1e1b4b,stroke:#818cf8,color:#fff
-    style NC fill:#064e3b,stroke:#10b981,color:#d1fae5
-    style GR fill:#334155,stroke:#94a3b8,color:#f8fafc
+    style DECISION fill:#1e1b4b, stroke:#818cf8, color:#fff
+    style NC fill:#064e3b, stroke:#10b981, color:#d1fae5
+    style GR fill:#334155, stroke:#94a3b8, color:#f8fafc
 ```

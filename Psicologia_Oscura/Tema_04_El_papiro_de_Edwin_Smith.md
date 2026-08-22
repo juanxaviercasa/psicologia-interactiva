@@ -128,7 +128,7 @@ La psicología logra esto teniendo cuatro objetivos principales: Describir, expl
 timeline
     title Evolución Histórica de la Ciencia de la Mente
     section Antigüedad
-        1600 a.C. : Papiro Edwin Smith (Egipto) : Primeras conexiones cerebro-cuerpo
+        1600 a. C. : Papiro Edwin Smith (Egipto) : Primeras conexiones cerebro-cuerpo
         Siglo VI : Lin Xie (China) : Primeros experimentos de distracción motora
         Antigua India : Filosofía Vedanta : Cinco agregados y conciencia
     section Era Medieval y Moderna
@@ -142,5 +142,5 @@ timeline
         1900 : Sigmund Freud : Psicoanálisis y la mente inconsciente
 ```
 
-> [!NOTE]
+> [! NOTE]
 > **Hito Clave:** La transición de ver los desequilibrios psicológicos como posesiones místicas hacía explicaciones neurofisiológicas y conductuales comenzó formalmente con el Papiro de Edwin Smith y se consolidó en el laboratorio de Wundt en 1879.

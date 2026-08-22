@@ -6,7 +6,7 @@ Sin embargo, cuando utilizas un juego de rol de "quie pasaria si", te estas haci
 
 Efectivamente, tu ansiedad te dice que no puedes pedir una bebida porque se disparara tu ansiedad social. Entonces, te toca preguntarte cual es el peor escanario posible. Es probable que identifiques el hecho de que todo el mundo se ria de ti como el peor de los casos y luego pases a decir que todos los que te rodean solo quieren utilizarte como entretenimiento.
 
-Ahora, al tratar de averiguar que pasaria si, ahora debes preguntarte que importancia tendría eso.?Importa que la gente se ria¿Importa realmente que se rian de ti? En última instancia, no, realmente no. Aunque que se rian de ti es angustioso, no lo es tanto como para justificar la reorganizacion de toda tu vida para acomodaria. Por lo tanto, en este caso, es mucho mejor avanzar en la desensibilizacion.
+Ahora, al tratar de averiguar que pasaria si, ahora debes preguntarte que importancia tendría eso.? Importa que la gente se ria¿Importa realmente que se rian de ti? En última instancia, no, realmente no. Aunque que se rian de ti es angustioso, no lo es tanto como para justificar la reorganizacion de toda tu vida para acomodaria. Por lo tanto, en este caso, es mucho mejor avanzar en la desensibilizacion.
 
 ## 📖 Capítulo 9: Depression
 

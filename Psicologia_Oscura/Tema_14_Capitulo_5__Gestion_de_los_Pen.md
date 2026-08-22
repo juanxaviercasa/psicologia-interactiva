@@ -18,7 +18,7 @@ A medida que avancemos en este capitulo, aprenderás sobre varias situaciones en
 
 ### Cuando los Pensamientos Requieren Gestion
 
-?Alguna vez has tenido un pensamiento y, momentos después, has deseado no haber tenido otro igual? Tal vez haya tenido un pensamiento que le haya impulsado a actuar, como el ejemplo de la tienda de comestibles, en el que estaba tan abrumado con su dia que arremetio emocionalmente contra todos los presentes. Después del hecho, mientras te sentabas en el coche y recogias tus pensamientos, puede que te siniteras avergonzado o que desearas haber gestionado la situación mucho mejor que antes.
+? Alguna vez has tenido un pensamiento y, momentos después, has deseado no haber tenido otro igual? Tal vez haya tenido un pensamiento que le haya impulsado a actuar, como el ejemplo de la tienda de comestibles, en el que estaba tan abrumado con su dia que arremetio emocionalmente contra todos los presentes. Después del hecho, mientras te sentabas en el coche y recogias tus pensamientos, puede que te siniteras avergonzado o que desearas haber gestionado la situación mucho mejor que antes.
 
 Todos tenemos pensamientos de vez en cuando que son problematicos. Puede que te sientas mal por haber estropeado algo que creias que era muy importante, como por ejemplo, dicindote a ti mismo que eres un inutil por haber fracasado. Puede que te encuentres con que te has atascado pensando en lo que pronto llegaras a reconocer como una distorsion cognitiva: un pensamiento que es ilogico y problematico y que, por lo tanto, debe ser desechado.
 
@@ -26,7 +26,7 @@ Aunque es normal tener estos pensamientos de vez en cuando, es fundamental asegu
 
 #### Pensamientos negativos
 
-?Alguna vez te has enfrentado a una situación preguntandote inmediatamente que pasara si fracasas? Tal vez te convenzas a ti mismo de no intentar hacer algo porque estas convencido de que tu intente será siempre un fracaso. Por mucho que intentes convencter de lo contrario, te quedas atrapado en los pensamientos de la negatividad: tus pensamientos están arraigados en lo que puede y lo que no se puede, y a pesar de reconocer incluso que tu pensamiento actual es demasiado negativo, no puedes evitar seguir adelante.
+? Alguna vez te has enfrentado a una situación preguntandote inmediatamente que pasara si fracasas? Tal vez te convenzas a ti mismo de no intentar hacer algo porque estas convencido de que tu intente será siempre un fracaso. Por mucho que intentes convencter de lo contrario, te quedas atrapado en los pensamientos de la negatividad: tus pensamientos están arraigados en lo que puede y lo que no se puede, y a pesar de reconocer incluso que tu pensamiento actual es demasiado negativo, no puedes evitar seguir adelante.
 
 En última instancia, el pensamiento negativo es cualquier pensamiento que esta inherentemente bloqueado para funcionar desde un lugar de miedo. Es negativo y peligroso, y no importa lo que intentes hacer para borrarlo, descubres que sigue regresando. La aprension que sientes que impulsa estos pensamientos de desafia directamente - te mantiene atras, convenciendote de que no puedes realmente pasar por los procesos que necesitas. Te hace sentir que no vales nada, dejandote sentir culpable porque crees que eres incapaz, mientras que simultaneamente te sientes culpable por no haberlo intentado nunca en primer lugar.
 

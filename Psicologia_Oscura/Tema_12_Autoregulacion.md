@@ -36,7 +36,7 @@ Por último, el lider debe estar dispuesto y ser capaz de trabajar con otras per
 
 ### Emociones e Inteligencia Emocional
 
-Las emociones y la inteligencia emocional están intrinsecamente combinadas solo por el hecho de que ambas están involucradas en el acto de sentir y reconocer las emociones. Como has visto, las emociones son una especie de columna vertebral de todo el proceso de la inteligencia emocional. Debes empezar por entender tus propias emociones si quieres ser capaz de progressar más allá de esa primera etapa de autoconciencia, y sin esa conciencia de tus propias emociones, no puedes esperar entender a otras personas. Si no puedes entender a los demas,?como puedes esperar que los demas esten dispuestos y sean capaces de escucharte como lider? Si no eres capaz de sentir tus propias emociones,?como puedes esperar que los demas esten dispuestos a aguantarte a ti y a tu dramatismo si surge algun conflicto?
+Las emociones y la inteligencia emocional están intrinsecamente combinadas solo por el hecho de que ambas están involucradas en el acto de sentir y reconocer las emociones. Como has visto, las emociones son una especie de columna vertebral de todo el proceso de la inteligencia emocional. Debes empezar por entender tus propias emociones si quieres ser capaz de progressar más allá de esa primera etapa de autoconciencia, y sin esa conciencia de tus propias emociones, no puedes esperar entender a otras personas. Si no puedes entender a los demas,? como puedes esperar que los demas esten dispuestos y sean capaces de escucharte como lider? Si no eres capaz de sentir tus propias emociones,? como puedes esperar que los demas esten dispuestos a aguantarte a ti y a tu dramatismo si surge algun conflicto?
 
 Lo que es importante señalar es que, a pesar de que la inteligencia emocional se centra principalmente en comportarse de forma no impulsiva desde el punto de vista emocional, no busca una prohibicion general de las emociones en general. De hecho, la inteligencia emocional anima encracidamente a las personas a sentir sus emociones siempre que sea posible y pertinente. Cuando sientes tus emociones, sientes lo que tu cuerpo y tu mente inconsciente quieren que sientas. Tus emociones, como aprenderás en el capitulo 4, son increiblemente importantes. Siven para mantenerte regulado y, por eso, nunca debes ignorarlas o despreciarlas por completo.
 
@@ -76,7 +76,7 @@ Cuando empatizas de forma compasiva, que es la forma de empatía que la intelige
 
 La empatía tiene principalmente dos propositos que están directamente relacionados con la inteligencia emocional: Actua como una forma a traves de la cual puedes autorregularte, y actúa como un medio de comunicación, principalmente de señales emocionales no verbales. Cuando eres capaz de empatizar, entonces eres capaz de regular, así como de leer las señales para entender mejor las necesidades de los que te rodean.
 
-Sin embargo, antes de profundizar en ello, considere por un momento _por que_ necesitariamos sentir empatía en algun grado.?Para que sirve la empatía¿Por que es importante? La respuesta es muy sencilla: somos una especie social. De hecho, casi toda la inteligencia emocional solo es relevante porque somos una especie social. Cuando se vive en grupo, ya sea unidad familiar, un vecindario, un tribu o toda una ciudad o pueblo, hay que ser capaz de comunicarse. Los sees humanos, porque dependemos de los demas para sobrevivir, tenemos que ser capaces de comunicarnos con los demas con claridad.
+Sin embargo, antes de profundizar en ello, considere por un momento _por que_ necesitariamos sentir empatía en algun grado.? Para que sirve la empatía¿Por que es importante? La respuesta es muy sencilla: somos una especie social. De hecho, casi toda la inteligencia emocional solo es relevante porque somos una especie social. Cuando se vive en grupo, ya sea unidad familiar, un vecindario, un tribu o toda una ciudad o pueblo, hay que ser capaz de comunicarse. Los sees humanos, porque dependemos de los demas para sobrevivir, tenemos que ser capaces de comunicarnos con los demas con claridad.
 
 Piensa por un momento en los seres humanos "en la naturaleza": estamos hablando de seres humanos que aun no han dado el paso hacía las civilizaciones modernas. Estamos hablando especificamente de los humanos que no tenían otra opcion que cazar y cultivar su propia comida para sobrevivir. Tenían que existir en grupos. Los humanos cazaban también en grupo con otras personas, lo que les permitia abatir presas más grandes, lo que es fundamental si se tiene en cuenta lo debiles que son los humanos en comparacion con otros animales. Los humanos tenían que confiar en sus tribus para ayudar a proporcionar proteccion y cazar. Dependian unos de otros para vivir y viajar en este tipo de tribus.
 
@@ -204,8 +204,8 @@ flowchart LR
     AM -->|Secuestro Emocional| R1[Respuesta Reactiva / Impulsiva]
     CPF -->|Autorregulación y Pausa| R2[Respuesta Estratégica / Calibrada]
     
-    style AM fill:#450a0a,stroke:#ef4444,color:#fecaca
-    style CPF fill:#064e3b,stroke:#10b981,color:#d1fae5
-    style R1 fill:#1e293b,stroke:#ef4444,color:#e2e8f0
-    style R2 fill:#1e293b,stroke:#10b981,color:#e2e8f0
+    style AM fill:#450a0a, stroke:#ef4444, color:#fecaca
+    style CPF fill:#064e3b, stroke:#10b981, color:#d1fae5
+    style R1 fill:#1e293b, stroke:#ef4444, color:#e2e8f0
+    style R2 fill:#1e293b, stroke:#10b981, color:#e2e8f0
 ```
