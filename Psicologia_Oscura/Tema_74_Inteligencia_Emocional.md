@@ -1,6 +1,6 @@
 ## Inteligencia Emocional
 
-Otro conjunto de habilidades que puede ser beneficioso para protegerse también es aprender a ser emocionalmente inteligente. La inteligencia emocional se define como la capacidad de comprender e identificar tus propias emociones, asi como de regularlas. Con este conjunto de habilidades también podras identificar y regular los sentiminentos de otras personas.
+Otro conjunto de habilidades que puede ser beneficioso para protegerse también es aprender a ser emocionalmente inteligente. La inteligencia emocional se define como la capacidad de comprender e identificar tus propias emociones, así como de regularlas. Con este conjunto de habilidades también podrás identificar y regular los sentiminentos de otras personas.
 
 En particular, los que utilizan la inteligencia emocional reconocen que hay cuatro conjuntos de habilidades distintos que la componen: Esta el conjunto de habilidades de autoconicencia, el conjunto de habilidades de autorregulacion, el conjunto de habilidades de estion de las relaciones. Cada una de ellas es útil a su manera, pero cuando las cuatro se combinan, se pueden crear lideres capacitados que sean empaticos, persusivos, agradables y seguros de si mismos.
 
@@ -12,4 +12,4 @@ La conciencia social se refiere a la capacidad de empatiar con otras personas y 
 
 Cuando aprendes a regular también los comportamientos de los demas, estas aprendiendo la habilidad de la gestion de las relaciones. Estas aprendiendo a determinar con precision de que son capaces las personas, a ver como interactuan con otras personas y a averiguar como son capaces de beneficiar mejor a todos los implicados. Efectivamente, entonces, eres capaz de empezar a influir en los comportamientos de los demas con facilitad también. Lo haces observando como tus propios comportamientos influyen en los estados emocionales de los demas para averiguar el mejor enfoque.
 
-Desarrollar la inteligencia emocional no tiene por que ser difícil; lo único que hace falta es un poco de paciencia y estar dispuesto a leer libros, como este. Si cree que podria beneficiarse de la inteligencia emocional, es una tecnica muy recomendable y se aleja de la comprension del abuso y de las razones que lo motivan.
+Desarrollar la inteligencia emocional no tiene por que ser difícil; lo único que hace falta es un poco de paciencia y estar dispuesto a leer libros, como este. Si cree que podría beneficiarse de la inteligencia emocional, es una tecnica muy recomendable y se aleja de la comprension del abuso y de las razones que lo motivan.
