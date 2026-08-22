@@ -195,7 +195,9 @@ const App = {
             v.name.includes('Neural') || 
             v.name.includes('Google español')
           );
-          this.ttsState.selectedVoice = neuralVoice || esVoices[0] || null;
+          const savedVoiceName = localStorage.getItem('userTTSVoice');
+          const savedVoice = savedVoiceName ? esVoices.find(v => v.name === savedVoiceName) : null;
+          this.ttsState.selectedVoice = savedVoice || neuralVoice || esVoices[0] || null;
         }
       };
       loadVoices();
@@ -289,7 +291,8 @@ const App = {
     const chunk = state.utterances[state.currentIndex];
     const u = new SpeechSynthesisUtterance(chunk);
     u.lang = 'es-ES';
-    u.rate = 0.92; // Cadencia tranquila y comprensible
+    const savedRate = localStorage.getItem('userTTSRate');
+    u.rate = savedRate ? parseFloat(savedRate) : 0.92; // Cadencia tranquila y comprensible
     u.pitch = 1.0;
     if (state.selectedVoice) u.voice = state.selectedVoice;
 
@@ -667,9 +670,7 @@ const App = {
         <div class="p-6 rounded-2xl bg-slate-800/40 border border-slate-700 lg:col-span-2 shadow-inner">
           <div class="text-[11px] text-amber-500 font-bold font-mono tracking-widest mb-4 flex justify-between items-center">
             <span><i class="fa-solid fa-seedling"></i> 1. LA RAÍZ (EL POR QUÉ FUNCIONA)</span>
-            <button onclick="App.speakText('${conceptText.replace(/'/g,"&apos;").replace(/"/g,"&quot;")}')" class="text-amber-400 hover:text-white bg-amber-500/10 hover:bg-amber-500/20 px-3 py-1.5 rounded-lg text-xs transition-colors">
-              <i class="fa-solid fa-volume-high"></i> Escuchar
-            </button>
+            
           </div>
           <!-- INFOGRAFIA EDUCATIVA (Encyclopedia Style) -->
           <div class="lesson-img-container w-full mb-6 mt-4 rounded-xl overflow-hidden border border-slate-700 shadow-lg relative group bg-slate-950" id="lesson-img-m${modNumber}-p${pIndex+1}">
@@ -794,7 +795,14 @@ const App = {
       
       let chaptersHtml = `
         <div class="lg:col-span-2 mt-8">
-          <div class="text-[12px] text-cyan-400 font-bold font-mono tracking-widest mb-4 flex items-center gap-2">
+          <div class="mb-4 flex items-center justify-between">
+            <div class="text-[12px] text-cyan-400 font-bold font-mono tracking-widest flex items-center gap-2">
+              <i class="fa-solid fa-book-open-reader"></i> LECTURA PROFUNDA (TEXTO COMPLETO ORIGINAL)
+            </div>
+            <button onclick="App.openVoiceSettingsModal()" class="px-3 py-1.5 rounded-lg bg-indigo-950/80 text-indigo-300 border border-indigo-500/40 hover:bg-indigo-900/60 hover:text-white transition-all text-xs font-semibold flex items-center gap-1.5 shadow-sm" title="Cambiar voz masculina/femenina y velocidad">
+              <i class="fa-solid fa-sliders text-indigo-400"></i> Configurar Voz
+            </button>
+          </div>
             <i class="fa-solid fa-book-open-reader"></i> LECTURA PROFUNDA (TEXTO COMPLETO ORIGINAL)
           </div>
           <div class="space-y-4">
