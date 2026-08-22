@@ -19,11 +19,11 @@ La opcion por defecto, a la altura de los ojos, se considera la mas respetuosa: 
 
 ### El uso del espacio horizontal
 
-En el espacio horizontal, se observa lo cerca o lejos que estan las personas entre si. Esto lo utilizaras cuando estes analizando las relaciones de los demas. En particular, hay cuatro distancias que se utilizan entre si, que van desde las distancias intimas hasta la distancia publica.
+En el espacio horizontal, se observa lo cerca o lejos que estan las personas entre si. Esto lo utilizarás cuando estes analizando las relaciones de los demas. En particular, hay cuatro distancias que se utilizan entre si, que van desde las distancias intimas hasta la distancia publica.
 
 * **La distancia intima:** Se refiere a estar lo más cerca posible de la otra persona. Cuando se esta en esta posición, normalmente se esta tocando sin intentarlo, o lo suificientemente cerca como para hacerlo. Esto es tipico de los ninos pequenos y los padres, o de los amantes que se sienten comodos estando tan cercael uno del otro. Por lo general, esta zona esta a solo unos 45 centimetros de ti.
 * **La distancia personal:** Un poco mas lejos que la distancia intima, la distancia personal abarca desde, unos 18 centimetros de distancia hasta unos 1,5 metros a tu alrededor. A esto se refiere la gente cuando, dice que estas invadiendo sus burbujas personales. Esta zona suele estar reservada para aquellas personas, que te gustan o con las que te sientes comodo, como amigos y familiares, o ninos que son demasiado, mayores para estar dentro de la zona intima. Cuanto mas te acerques al centro, mas estrecha sera tu relacion con esa otra persona.
-* **La distancia social:** Esta es un poco mas lejana. Es la distancia que naturalmente intentas mantener con los extranos que te rodean, o cuando interactias con otra persona que no conoces. Normalmente, se situa entre 1,5 y 1,5 metros. La utilizaras cuando estes fuera de casa, a menos que no tengas otra opcion. Cuando te veas obligado a invadir esta distancia, lo mas frecuente es que te propongas ignorar a la otra persona en un intento de ignorar el hecho de que esta violando esos limites personales, como por ejemplo si estas sentado en el autobus.
+* **La distancia social:** Esta es un poco mas lejana. Es la distancia que naturalmente intentas mantener con los extranos que te rodean, o cuando interactúas con otra persona que no conoces. Normalmente, se situa entre 1,5 y 1,5 metros. La utilizarás cuando estes fuera de casa, a menos que no tengas otra opcion. Cuando te veas obligado a invadir esta distancia, lo mas frecuente es que te propongas ignorar a la otra persona en un intento de ignorar el hecho de que esta violando esos limites personales, como por ejemplo si estas sentado en el autobus.
 * **La distancia del publico:** Esta distancia es aun mayor: se refiere a todo lo que este mas alla de unos 3, metros y se reserva para los casos en los que se habla hacia una multitud. Quieres hablar los sufficientemente alto como para que todo el mundo pueda hablar, asi que debes asegurarte de que la gente este un poco mas lejos de ti para que puedan verte y oirte mas facilmente. Esto se reserva para las conferencias en las aulas, por ejemplo, o para las actuaciones.
 
 **Capitulo 5: Falsificacion del Lenguaje Corporal**
@@ -98,7 +98,7 @@ Con el tiempo, deberias empezar a captar patrones. Sabras que adoptas ciertas po
 
 #### Presta atencion a como tu lenguaje corporal impacta en otras personas
 
-Despues de estudiar tu propio lenguaje corporal, es hora de empezar a observar como tu lenguaje corporal parce impactar en otras personas. Sabras como tu lenguaje corporal se alinea con tus propios sentiminetos internos, pero tambien tienes que ver como impacta en los demas. Observa si la gente te evita cuando te pones de cierta manera o si pareces especialmente accesible en algunas situaciones. Sea cual sea la situacion y la forma en que te vean, estaras recogiendo una valiosa informacion.
+Despues de estudiar tu propio lenguaje corporal, es hora de empezar a observar como tu lenguaje corporal parce impactar en otras personas. Sabras como tu lenguaje corporal se alinea con tus propios sentimientos internos, pero tambien tienes que ver como impacta en los demas. Observa si la gente te evita cuando te pones de cierta manera o si pareces especialmente accesible en algunas situaciones. Sea cual sea la situacion y la forma en que te vean, estaras recogiendo una valiosa informacion.
 
 En esta etapa tendras que empatizar. La empatia en si misma es tu capacidad para entender la mentalidad de otras personas, y si eres capaz de hacerlo, empezaras a tener una vision adicional de como te ven los demas. Empezaras a entender esos puntos de vista para poder empezar a reconstrurie que comportamientos tuyos consiguen que reaccion. Si influyes en otras personas de forma habitual con tu propio lenguaje corporal, tienes que entender como te ven.
 
@@ -139,7 +139,7 @@ Los intentos forzados o falsos de mantener el contacto visual cuando alguien no 
 
 #### Busque grupos de lenguaje corporal
 
-Cuando el lenguaje corporal de las personas no esta censurado, suele aparecer agrupado. Es probable que la sonrisa vaya unida a la expresion facial y a una postura relajada o excitada. Es probable que el llanto este unido a un encorvamiento y a un cruce de brazos. Comprobar que todo el cuerpo parece enviar el mismo mensaje te ayudara a entender si el mensaje es fingido o si solo se fingen uno o dos aspectos. A veecs, las personas intentan imitar el lenguaje corporal, pero se olvidan de algunas partes criticas, o tienen una cara triste mientras su lenguaje corporal es distante o incluso confiado y en control. Sin embargo, cuando se trata de un grupo congruente, generalmente se puede estar seguro de que es veraz.
+Cuando el lenguaje corporal de las personas no esta censurado, suele aparecer agrupado. Es probable que la sonrisa vaya unida a la expresion facial y a una postura relajada o excitada. Es probable que el llanto este unido a un encorvamiento y a un cruce de brazos. Comprobar que todo el cuerpo parece enviar el mismo mensaje te ayudara a entender si el mensaje es fingido o si solo se fingen uno o dos aspectos. A veces, las personas intentan imitar el lenguaje corporal, pero se olvidan de algunas partes criticas, o tienen una cara triste mientras su lenguaje corporal es distante o incluso confiado y en control. Sin embargo, cuando se trata de un grupo congruente, generalmente se puede estar seguro de que es veraz.
 
 **Capitulo 6: Como Detectar la Mentira**
 
@@ -212,7 +212,7 @@ Conocer las senales no siempre es suficiente. A veces, ayuda tener una especie d
 * **Fijate en algo mas que en el lenguaje corporal:** Escucha la voz durante un rato:?suena nerviosa o como alguien que esta mintiendo? Presta atencion a las palabras que se utilizan y a si puedes identificar alguno de los signos de engano.
 * **Centre en el lenguaje corporal enganoso:** Sin embargo, cuando se observe el lenguaje corporal, busque especificamente el lenguaje corporal que tradicionalmente se agrupa como engano.
 * **Pide que te cuenten la historia al reves:** Si alguien te ha proporcionado un relato largo y tendido del que dudas, una forma de averiguar si es cierto o no es pedirle que te cuente lo que paso, pero al reves. Si tiene que pensar demasiado, es un buen indicador de que se esta inventando las cosas.
-* **Confie en su instinto:** Por ultimo, cuando intentes identificar si alguien te engana o no, confia en tu instinto. Esos institos estan ahi por una razon, y es muy posible que tu mente inconsciente haya captado pistas que se te escapan a medida que avanzas en la interaccion.
+* **Confie en su instinto:** Por ultimo, cuando intentes identificar si alguien te engana o no, confia en tu instinto. Esos instintos estan ahi por una razon, y es muy posible que tu mente inconsciente haya captado pistas que se te escapan a medida que avanzas en la interaccion.
 
 ### Por que se Utiliza el Engano
 
@@ -294,7 +294,7 @@ Por supuesto, no toda la psicologia oscura esta interesada en crear nuevas perso
 
 Este capitulo busca identificar y entender exactamente como es que la psicologia oscura interactua directamente con la mente, asi como proporcionar algunos ejemplos para que used vea este proceso en accion. Al comprender como se infiltra la mente y cuan profunda puede ser la psicologia oscura, used puede encontrar que used piensa dos veces antes de utilizarla dentro de su vida o hacia la gente que used conoce y le gusta.
 
-**Como Funciona la Psicologia Oscura**En ultima instancia, la piscologia oscura funciona de forma bastante similar a la manipulacion: debes estar dispuesto a dirigirte a otra persona sin reparos. Cuando vested ha decidido sobre un objetivo, vested debe tambien poder dirigir sus esfuerzos de un manera que sigue siendo encubierta, permitiendo que el proceso entero parezca absolutamente relajado o natural. Cuando vested esta jugando el juego de la piscologia oscura, vested esta jugando el juego largo, y no es inusual para las personas que estan utilizando la piscologia oscura para pasar meses, o incluso anos, la creacion de su proxima victima. Ellos quieren ser capaces de obtener los resultados exactos que quieren o necesitan sin preoccuparse por la deteccion, y eso significica pasar el tiempo suificiente para construir todo con el tiempo.
+**Como Funciona la Psicologia Oscura**En ultima instancia, la psicología oscura funciona de forma bastante similar a la manipulacion: debes estar dispuesto a dirigirte a otra persona sin reparos. Cuando vested ha decidido sobre un objetivo, vested debe tambien poder dirigir sus esfuerzos de un manera que sigue siendo encubierta, permitiendo que el proceso entero parezca absolutamente relajado o natural. Cuando vested esta jugando el juego de la psicología oscura, vested esta jugando el juego largo, y no es inusual para las personas que estan utilizando la psicología oscura para pasar meses, o incluso anos, la creacion de su proxima victima. Ellos quieren ser capaces de obtener los resultados exactos que quieren o necesitan sin preoccuparse por la deteccion, y eso significica pasar el tiempo suificiente para construir todo con el tiempo.
 
 La mayoria de las veces, la gente se desvive por hacerse amigo de la victima. La amistad con la victima significica que el manipulador puede dedicar el tiempo necesario para empezar a explorar a la victima y asegurarse de que es, de hecho, la persona adecuada para el trabajo y para lo que se quiere. A partir de ahi, el manipulador dedica mucho tiempo a conocer a la victima. Despues de todo, la mejor persona para manipular a alguien es alguien en quien se confia. En cuanto el individuuo es capaz de asegurarse un lugar en el grupo de amigos de la victima, pronto se le considera digno de confianza. Una vez establecida la amistad, el manipulador es libre de comenzar el reconocimiento.
 
@@ -321,3 +321,14 @@ mencionas lo molesto que es tratar con personas que son mas ruidosas de lo neces
 Al cabo de unas semanas, notas que parece calmarse un poco. No puedes saber si simplemente esta estresada porque ha estado trabajando mucho o si esta empezando a interiorizar lo que has dicho. Cuando se calla, la elogias, diciendole que te encanta lo atractiva y amable que es, y que es la imagen perfecta de la feminidad. Cuando es demasiado ruidosa para tu gusto, frunces el ceno, pero no dices nada.
 
 Al final, simplemente esta mas tranquila. No parece interesada en agitar el barco, y tampoco menciona que algo este mal. La convenciste efectivamente de que se callara simplemente mediante el uso de tus propias palabras para infiltrarte en su mente e instalar esos pensamientos de inseguridad en torno a la idea de ser ruidosa.
+
+```mermaid
+flowchart TD
+    NV[Comunicación No Verbal & Háptica]
+    NV --> Z1[Zona Proxémica: Distancia Íntima vs Social]
+    NV --> Z2[Microexpresiones Faciales: FACS de Ekman]
+    NV --> Z3[Háptica: Contacto Físico y Dominancia / Sumisión]
+    NV --> Z4[Paralenguaje: Tono, Cadencia y Microvacilaciones]
+    
+    style NV fill:#1e1b4b,stroke:#818cf8,color:#fff
+```

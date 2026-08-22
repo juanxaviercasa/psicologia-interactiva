@@ -1,6 +1,6 @@
 ## Conclusion
 
-\({}_{i}\)Enhorabuenal!\({}_{i}\)Has llegado al final de _Introduccion a la Psicologia!_
+¡Enhorabuenal!¡Has llegado al final de _Introduccion a la Psicologia!_
 
 A estas alturas, deberia tener una idea bastante solida sobre los fundamentos de la psicologia, lo que implica y como deberia abordarla. Es de esperar que este libro le haya resultado al menos tan informativo como se pretendia. El libro fue disenado para ensenar sobre la psicologia tanto como sea posible dentro de un corto periodo de tiempo, y mientras que no es un libro de texto completo la manera algo para la psicologia 101 en universidad puede ser, todavia es atascado con algunos de los principios basicos de la psicologia, tales como cuales son las emociones, que las causa, porque existen, y mas.
 

@@ -2,8 +2,6 @@
 
 La autorregulacion es el segundo de los pilares de la inteligencia emocional. Cuando eres capaz de utilizar la autorregulacion, eres capaz de gestionar us propias emociones. Con el autocontrol, eres capaz de asegurarte de que tus emociones se expresan siempre de un modo eficaz y apropiado. Si expresas tus emociones de una manera poco apropiada, o si cedes a cualquier impulso emocional que sientas, es probable que quemes los puentes en las relaciones con bastante rapidez, lo que hace que esta sea una habilidad critica. Por muy satisfactorio que resulte en el momento gritar a un cliente, no seria tan satisfactorio perder el trabajo como consecuencia de ello.
 
-[MISSING_PAGE_FAIL:32]
-
 las emociones de los demas si se desea ser capaz de entender las emociones de la gente, y no es probable que se pueda reconocer las emociones de otas personas si no se entienden primero los propios sentimentos.
 
 La conciencia organizativa se refiere a su capacidad para gestionar la forma en que se explica a los demas. Se trata de su capacidad para asegurarse de que siempre habla a un nivel que sea facilmente comprensible para los demas. Eres capaz de asegurarte de que los niveles de comprension de los que te rodean esten siempre en linea con los adecuados. Piensa en como seria una presentacion dirigida a ninos de jardin de infancia si se la dieras a estudiantes de secundaria: no se molestarian en prestarle atencion porque seria demasiado simple para que valiera la pena escucharla. Del mismo modo, si se hiciera esa misma presentacion a un grupo de ninos de jardin de infancia a pesar de estar dirigida a estudiantes de secundaria, los ninos probablemente no entenderian mucho. Sin embargo, cuando seas capaz de utilizar la conciencia organizativa, podras asegurarte de que siempre te dirigies a la audiencia adecuada cuando intentes hablar con otra persona, lo que te permitira retener la atencion durante mas tiempo y de forma mas eficaz.
@@ -154,9 +152,9 @@ Por supuesto, eso no significica en absoluto que tus emociones no sean important
 
 ### La Causa de las Emociones
 
-A pesar de los intentos de explicar la causa de las emociones, que van desde los espiritus y las pasiones de la antigua spicologia filosofica hasta suponer que se trata de algun tipo de acontecimiento hormonal, la unica constante entre las explicaciones de todos sobre lo que causa las emociones es que no hay una respuesta definitiva. De hecho, hay seis teorias principales sobre lo que hace que las personas tengan emociones en primer lugar y lo que las desencadena. En esta seccion, abordaremos las seis teorias, permitiendole llegar a su propia explicacion y teoria al escucharlas. Las seis principales teorias de la emocion son la teoria evolutiva, la teoria de la valoracion cognitiva, la teoria de la retroalimentacion facial, la teoria de James-Lange, la teoria de Cannon-Bard y la teoria de Schacter-Singer.
+A pesar de los intentos de explicar la causa de las emociones, que van desde los espiritus y las pasiones de la antigua psicología filosofica hasta suponer que se trata de algun tipo de acontecimiento hormonal, la unica constante entre las explicaciones de todos sobre lo que causa las emociones es que no hay una respuesta definitiva. De hecho, hay seis teorias principales sobre lo que hace que las personas tengan emociones en primer lugar y lo que las desencadena. En esta seccion, abordaremos las seis teorias, permitiendole llegar a su propia explicacion y teoria al escucharlas. Las seis principales teorias de la emocion son la teoria evolutiva, la teoria de la valoracion cognitiva, la teoria de la retroalimentacion facial, la teoria de James-Lange, la teoria de Cannon-Bard y la teoria de Schacter-Singer.
 
-En ultima instancia, estas teorias pueden entenderse de tres maneras: como fisiologicas por naturaleza, afirmando que el cuerpo es lo que causa las emociones, como neuroologicas en teoria, afirmando que el cerebo es responsable de las emociones, y como cognitivas en teoria, afirmando que los pensamientos y los estados mentales son influyentes sobre las emociones.
+En ultima instancia, estas teorias pueden entenderse de tres maneras: como fisiologicas por naturaleza, afirmando que el cuerpo es lo que causa las emociones, como neuroologicas en teoria, afirmando que el cerebro es responsable de las emociones, y como cognitivas en teoria, afirmando que los pensamientos y los estados mentales son influyentes sobre las emociones.
 
 **Teoria de la evolucion**
 
@@ -196,4 +194,18 @@ Esta teoria es bastante similar a las teorias de Cannon-Bard y James-Lange, y se
 
 En cuanto a la teoria de Cannon-Bard, ambos coinciden en que una misma reaccion fisica puede provocar varias emociones diferentes. Por ejemplo, puedes reconocer una sensacion concreta, como el temblor, como miedo en una situacion en la que estas mirando al oso, pero a veces, el temblor puede ser el resultado directo de tu propia excitacion por algo.
 
-Asi que, si el modelo de Schachter-Singer implica una respuesta fisica que se interpreta cognitivamente, imagina que acabas de salir a la calle y que ese oso esta ahi sentado, mirandote. Notas que empiezas a temblar y que tu corazon late con fuerza. Miras al oso y reconoces que la presencia del oso es lo que te hace sentir estos signos de excitacion: eres hiperconsciente de la presencia del oso. A continuacion, debes entender lo que significa la vision del oso: reconoces que la presencia del oso se considera una amenaza y respondes en consecucencia. Reconoces que la presencia del oso es una amenaza y que la amenaza debe enfrentarse con sentiminetos de miedo. Por lo tanto, determinas que el temblor y la aceleracion del corazon que sentiste al ver al oso es miedo.
+Asi que, si el modelo de Schachter-Singer implica una respuesta fisica que se interpreta cognitivamente, imagina que acabas de salir a la calle y que ese oso esta ahi sentado, mirandote. Notas que empiezas a temblar y que tu corazon late con fuerza. Miras al oso y reconoces que la presencia del oso es lo que te hace sentir estos signos de excitacion: eres hiperconsciente de la presencia del oso. A continuacion, debes entender lo que significa la vision del oso: reconoces que la presencia del oso se considera una amenaza y respondes en consecucencia. Reconoces que la presencia del oso es una amenaza y que la amenaza debe enfrentarse con sentimientos de miedo. Por lo tanto, determinas que el temblor y la aceleracion del corazon que sentiste al ver al oso es miedo.
+
+```mermaid
+flowchart LR
+    A[Estímulo Externo] -->|Vía Rápida Subcortical| AM[Amígdala: Reacción Emocional Inmediata]
+    A -->|Vía Lenta Cortical| CPF[Córtex Prefrontal: Evaluación Racional]
+    
+    AM -->|Secuestro Emocional| R1[Respuesta Reactiva / Impulsiva]
+    CPF -->|Autorregulación y Pausa| R2[Respuesta Estratégica / Calibrada]
+    
+    style AM fill:#450a0a,stroke:#ef4444,color:#fecaca
+    style CPF fill:#064e3b,stroke:#10b981,color:#d1fae5
+    style R1 fill:#1e293b,stroke:#ef4444,color:#e2e8f0
+    style R2 fill:#1e293b,stroke:#10b981,color:#e2e8f0
+```

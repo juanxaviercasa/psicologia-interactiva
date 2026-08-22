@@ -39,3 +39,20 @@ En ultima instancia, el ecologista es capaz de ayudar a otras personas a satisfa
 Por lo general, despues de tanto tiempo de ser inferior y de que se les ensenie a ayudar al narcisista en lugar de cuidarse a si mismos, los ecologistas llegan a estar dispuestos a hacer exactamente eso. Al igual que el codependiente, sienten que su unico proposito en la vida es asegurarse de que todos los demas sean atendidos, y al hacerlo, luchan. A medida que las necesidades se acumulan, completamente insatisfechas, se vuelven mas insanas. Se sienten miserables, y a menudo se sienten atascados.
 
 Si tiene miedo de ser un eco, no se preocupe: al igual que con todos los demas aspectos negativos de descubir que ha sido victima de un narcisista, tambien puede sanar este.
+
+```mermaid
+flowchart LR
+    CONFRONT[Víctima Confronta Abuso] --> D[D: Deny / Negar el Hecho]
+    D --> A[A: Attack / Atacar a la Víctima]
+    A --> RVO[RVO: Reverse Victim and Offender / Invertir Roles]
+    RVO --> OUT([Resultado: Víctima Pide Perdón y Siente Culpa])
+
+    style CONFRONT fill:#0f172a,stroke:#38bdf8,color:#cbd5e1
+    style D fill:#1e1b4b,stroke:#f59e0b,color:#fff
+    style A fill:#451a03,stroke:#ef4444,color:#fff
+    style RVO fill:#450a0a,stroke:#f43f5e,stroke-width:2px,color:#fff
+    style OUT fill:#0f172a,stroke:#a855f7,color:#cbd5e1
+```
+
+> [!WARNING]
+> **Mecanismo del DARVO:** Ante cualquier evidencia irrefutable, el agresor narcisista nunca pedirá disculpas sinceras; atacará la credibilidad del denunciante y se posicionará como el mártir atacado para forzar a la víctima a asumir la responsabilidad del conflicto.

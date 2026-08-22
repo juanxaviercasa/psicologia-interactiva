@@ -6,8 +6,6 @@ Este es quizas el uso principal de la TCC. Sin embargo, piense en todas las area
 
 Los pensamientos negativos pueden causar todo tipo de problemas. Es posible que los pensamientos negativos provoquen un trastorno alimentario o una fobia. Puede provocar el consumo de drogas o alcohol, o llevar a la lucha contra todo tipo de trastornos de la personalidad. Sin embargo, la mejor manera de averiguar si un pensamiento negativo es la causa de cualquier problema es mediante una profunda reflexion.
 
-[MISSING_PAGE_FAIL:312]
-
 Hay docenas de patrones de pensamiento negativo, pero en su mayor parte, caeran en una de las diez categorias. Estas categorias son el pensamiento de todo o nada, el enfoque en lo negativo, el pesimismo, la necesidad de aprobacion, la auto-etiquetacion negativa, la catastrofizacion, el detenerse en el pasado, la lectura de la mente, el enfoque en el deberia y la desalificacion del presente. Cada una de ellas tiene su propio proposito. Echemos un breve vistazo a cada uno de estos diez patrones de pensamiento negativo para hacernos una idea de lo que son en accion.
 
 El **pensamiento "todo o nada"** implica que te digas a ti mismo que debes hacer las cosas de una manera y que todo lo que no sea esa manera perfeccionada es un fracaso. Si no obtienes el 100% en esa prueba, entonces has fracasado. Efectivamente, esto es perfeccionismo escrito en un pensamiento.

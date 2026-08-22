@@ -47,3 +47,20 @@ En ultima instancia, la gente siempre se esfuerza por alcanzar la cima: la autor
 Cuando quiera crear una necesidad que pueda utilizar, puede encontrar que a veces, identificar una necesidad previamente existente puede ser mas facil. Sin embargo, tambien puede crear una sensacion de urgencia para satisfacer una de estas necesidades. Por ejemplo, imagine que esta vendiendo un coche. En realidad, esta trabajando para persuadir a alguien de que adquiera un coche muy especifico, aunque sabe que no esta especialmente interesado en el. Una forma de apelar a una necesidad es mencionar que el coche que le interesa a la gente no tiene las mejores calificaciones en terminos de seguridad. Senala que el coche es conocido por su bajo rendimiento en los accidentes y que el que tu propones tiende a ser mas seguro simplemente porque es mas grande y robusto, o porque tiene mejores indices de seguridad.
 
 Si apela a esa necesidad de seguridad, es mas probable que acepte comprar ese coche en concreto. Si no les preocupa la seguridad, puede apelar a la necesidad de pertenencia: puede senalar que otras personas tambien tienden a preferir ese coche que used quiere vender en lugar del que les interesa y aportar pruebas que apoyen esa afirmacion.
+
+```mermaid
+graph TD
+    RET[La Tríada de Persuasión Aristotélica]
+    RET --> ETH["🏛️ ETHOS (Autoridad & Carácter)"]
+    RET --> PAT["🔥 PATHOS (Emoción & Empatía)"]
+    RET --> LOG["🧠 LOGOS (Lógica & Datos)"]
+
+    ETH --> E1["Credibilidad percibida, estatus y reputación moral"]
+    PAT --> P1["Activación de miedo, esperanza, culpa o pertenencia"]
+    LOG --> L1["Argumentación estructurada, estadísticas y causalidad"]
+
+    style RET fill:#1e1b4b,stroke:#818cf8,color:#fff
+    style ETH fill:#0f172a,stroke:#38bdf8,color:#e2e8f0
+    style PAT fill:#0f172a,stroke:#f43f5e,color:#e2e8f0
+    style LOG fill:#0f172a,stroke:#34d399,color:#e2e8f0
+```

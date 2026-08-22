@@ -50,7 +50,7 @@ Otro uso comun de la persuasion es a traves del principio de que alguien o algo 
 
 La simpatia por alguien puede darse casi instantaneamente de varias maneras. Puedes caerle bien a alguien de forma rapida simplemente haciendo que sea un espejo de alguien, de forma similar a una tecnica comun a la PNL. Tambien puedes pasar por el proceso de gustar intencionadamente a alguien a traves de un proceso de tres pasos.
 
-Este proceso de tres pasos es bastante sencillo: Tienes que hacerte relacionable de alguna manera, tienes que ofrecer un cumplido y tienes que hacerte ver como un equipo. Esto funciona por varias razones: cuando eres afin, automaticamente te ven como mas humano de lo que eras hace un momento. Piensa en la cantidad de personas con las que interactias habitualmente:?Cuantas de ellas son capaces de recordar activamente??Puede recordar quien le ayudo en la tienda de comestibles o quien se cruzo con used en el trabajo? A menos que tenga algun tipo de supermemoria, lo mas probable es que no lo recuerde. Sin embargo, si puede hacer que se le relacione de alguna manera, sera mas memorable y mas persuasivo. Como ves a tanta gente a lo largo del dia, tiendes a olvidar que son personas y no simples borrones con los que te cruzas. Al cambiar eso, automaticamente querras prestarles mas atencion.
+Este proceso de tres pasos es bastante sencillo: Tienes que hacerte relacionable de alguna manera, tienes que ofrecer un cumplido y tienes que hacerte ver como un equipo. Esto funciona por varias razones: cuando eres afin, automaticamente te ven como mas humano de lo que eras hace un momento. Piensa en la cantidad de personas con las que interactúas habitualmente:?Cuantas de ellas son capaces de recordar activamente??Puede recordar quien le ayudo en la tienda de comestibles o quien se cruzo con used en el trabajo? A menos que tenga algun tipo de supermemoria, lo mas probable es que no lo recuerde. Sin embargo, si puede hacer que se le relacione de alguna manera, sera mas memorable y mas persuasivo. Como ves a tanta gente a lo largo del dia, tiendes a olvidar que son personas y no simples borrones con los que te cruzas. Al cambiar eso, automaticamente querras prestarles mas atencion.
 
 Cuando haces un cumplido a la otra persona, estableces una asociacion especifica entre tti y la otra persona: Que eres una fuente de buenos sentimientos. Para algunas personas, esto empieza a rozar la linea de la manipulacion emocional: se trata de desencadenar intencionadamente sentimientos muy especificos con un proposito muy concreto y, por esa razon, deberias asegurarte al menos de que cualquier cumplido que ofrezcas sea legitimo y lo hayas dicho en serio. Si no querias decir el cumplido y solo lo dijiste para que te gustaran, es probable que hagas exactamente lo contrario: en lugar de ser visto como simpatico, seras visto como manipulador, y mal.
 
@@ -95,3 +95,26 @@ Logis es una apelacion a la logica. En su forma mas sencilla, consiste en averig
 Por ejemplo, imagina que estas tratando de persuadir a alguien para que compre ese coche por el que tanto estas presionando. En ese momento, empiezas a hablar de todas las estadisticas que significan que el coche del que hablas es mas seguro. Es posible que saques a relucir los indices de colision, o como estadisticamente ahorran mas gasolina que otros coches. Intentas bombardear a la otra persona con tanta informacion que es innegable que la mejor opcion.
 
 disponible es comprar el coche, independientemente de la opinion personal.
+
+```mermaid
+mindmap
+  root((6 Principios de Influencia))
+    Reciprocidad
+      Favores no solicitados
+      Deuda psicológica
+    Coherencia y Compromiso
+      Técnica del pie en la puerta
+      Autoimagen pública
+    Aprobación Social
+      Validación de grupo
+      Comportamiento de rebaño
+    Autoridad
+      Símbolos de estatus
+      Pericia percibida
+    Simpatía y Rapport
+      Atracción física
+      Similitud y halagos
+    Escasez
+      FOMO
+      Oportunidad limitada
+```

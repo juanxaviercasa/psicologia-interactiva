@@ -13,7 +13,7 @@ Si alguien se acercara a ti y te dijera: "Te voy a obligar a invitarme a cenar",
 
 ### Comprender las vulnerabilidades
 
-En ultima instancia, la unica forma de llegar a alguien es conociendo sus puntos debiles. Aprovechando los puntos debiles de la otra parte, puedes averiguar exactamente como presentar lo que queires para asegurarte de que te lo den. Por ejemplo, si sabe que esta tratando con una persona que le gusta complacer a la gente, puede mencionar que tiene una necesidad muy importante que quiere averiguar como satisfacer y expressarlo de la manera adecuada para que la otra persona le pregunte si puede ayudar. Este es un ejemplo de vulnerabilidad. Otros pueden ser:
+En ultima instancia, la unica forma de llegar a alguien es conociendo sus puntos debiles. Aprovechando los puntos debiles de la otra parte, puedes averiguar exactamente como presentar lo que queires para asegurarte de que te lo den. Por ejemplo, si sabe que esta tratando con una persona que le gusta complacer a la gente, puede mencionar que tiene una necesidad muy importante que quiere averiguar como satisfacer y expresarlo de la manera adecuada para que la otra persona le pregunte si puede ayudar. Este es un ejemplo de vulnerabilidad. Otros pueden ser:
 
 * Necessitan una aprobacion externa
 * Miedo a las emociones negativas
@@ -193,7 +193,7 @@ La mayoria de las veces, el manipulador tiene algun tipo de razon para manipular
 
 ### No se identifican adecuadamente con las emociones de los demas
 
-A veecs, la manipulacion es involuntaria y un efecto secundario de la simple incapacidad de identificarse con otras personas. Efectivamente, carecen de empatia, y esa falta de empatia es suficiente para que no puedan identifier facilmente cuando han hecho algo que es manipulador, ni reconocer automaticamente cuando lo que han hecho es problematico. Son personas que simplemente no entienden las normas sociales por una u otra razon. Pueden tener un trastorno de la personalidad o de la salud mental.
+A veces, la manipulacion es involuntaria y un efecto secundario de la simple incapacidad de identificarse con otras personas. Efectivamente, carecen de empatia, y esa falta de empatia es suficiente para que no puedan identifier facilmente cuando han hecho algo que es manipulador, ni reconocer automaticamente cuando lo que han hecho es problematico. Son personas que simplemente no entienden las normas sociales por una u otra razon. Pueden tener un trastorno de la personalidad o de la salud mental.
 
 ### Cuando se Produce la Manipulacion
 
@@ -249,7 +249,7 @@ Un poco mas aceptable que su forma hermana de influencia, la persuasion se centr
 
 **?**
 
-La persuasion, al igual que la manipulacion, es una forma de influencia social. Esta disenada para cambiar los pensamientos, los sentiminetos o los comportamientos de otra persona por razones que se enumeran o se dictan para la otra persona en el intento de consequir que esta cambie. Esto significica que la otra persona es muy consciente del intento desde el principio. Al igual que su hijo le senalo que le gustaria ir a cenar sushi, cualquier otra forma de persuasion le va a decir lo que deberia queerer o hacer. Te animara a hacer algo en concreto en un intento de persuadirte, pero siempre podras rechazarlo y seguir con tu eleccion inicial.
+La persuasion, al igual que la manipulacion, es una forma de influencia social. Esta disenada para cambiar los pensamientos, los sentimientos o los comportamientos de otra persona por razones que se enumeran o se dictan para la otra persona en el intento de consequir que esta cambie. Esto significica que la otra persona es muy consciente del intento desde el principio. Al igual que su hijo le senalo que le gustaria ir a cenar sushi, cualquier otra forma de persuasion le va a decir lo que deberia queerer o hacer. Te animara a hacer algo en concreto en un intento de persuadirte, pero siempre podras rechazarlo y seguir con tu eleccion inicial.
 
 Normalmente, la persuasion es increiblemente poderosa. Estas creando un argumento de algun tipo para otra personale intentas seguir con ese argumento. Quieres que los demas vean que tu argumento es valido y que tienes la idea correcta. Quieres averiguar como hacer precisamente eso sin que haya una forma clara y facil de salir de ella. Todo esto significica que tienes que averiguar que es lo que motivar a tu objetivo y luego averiguar como motivarlo.
 
@@ -334,8 +334,6 @@ Este capitulo le presentara tanto los principios de la persuasion como la retori
 
 **Principios de la Persuasion**
 
-[MISSING_PAGE_FAIL:170]
-
 En ultima instancia, esta es exactamente la clase de divisi on que se ve normalmente: cuando se apela a la autoridad, gana el que tiene mas conocimientos. Al final, gana el que se considera mas autoridad por sus credenciales o su experiencia.
 
 Esto significica que cuando quiera apelar a la autoridad, lo que tiene que hacer es asegurarse de encontrar una manera de dejar claro queted es, de hecho, una autoridad en el tema. Si used es el vendedor de coches, quizas tenga cartas y fotos de sus clientes felices que le han comprado coches y se han ido totalmente satisfechos despues de su ayuda. Tal vez deberias prestar atencion al hecho de que cuando la gente entra, lo primero que quieres que vean es que estas cualificado en tu trabajo. Puedes preparar todo para que puedan ver tu diploma o tus premios, o te aseguraras de que se enteren en los primeros minutos de la reunion.
@@ -356,7 +354,7 @@ Gracias a que ya ha empezado a decir que si a otras cosas, su companiero de trab
 
 Este es quizas uno de los principios mas sencillos de la persuasion: todo lo que tiene que recordar es que cuanto mas le guste alguien o algo, mas probable sera que sienta que lo que le ha gustado es valioso, y mas probable sera que istano de valioso, y mas probable sera que istano de valioso, y mas probable sera que le convenzan a su favor. Por ejemplo, es mas probable que hagas un favor a alquien que te gusta mucho que a alquien que no te gusta nada.
 
-Por suerte, hay varias formas de conseguir caerle bien a otra persona. Puedes, por ejemplo, imitar a alquien hasta que le caigas bien. Esto significia que estarias copiando sus comportamientos de la manera mas encubierta posible, lo cual puede no ser particularmente secreto si no sabes lo que estas haciendo. Una vez que lo hayas preparado todo y hayas imitado a la otra persona hasta el punto de que esta te devuelva el reflejo, podras continuar.
+Por suerte, hay varias formas de conseguir caerle bien a otra persona. Puedes, por ejemplo, imitar a alquien hasta que le caigas bien. Esto significa que estarias copiando sus comportamientos de la manera mas encubierta posible, lo cual puede no ser particularmente secreto si no sabes lo que estas haciendo. Una vez que lo hayas preparado todo y hayas imitado a la otra persona hasta el punto de que esta te devuelva el reflejo, podras continuar.
 
 Sin embargo, si no estas seguro de como proceder con el mirroring o simplemente no quieres lidiar con ello, hay otra tecnicas que tambien puedes utilizar, como elegir hacer que alquien te guste intencionadamente. Esto no es tan dififici como parece.
 
@@ -370,7 +368,7 @@ Por ultimo, si quieres resultar simpatico, debes dejar claro que los dos estais 
 
 El siguiente principio de la persuasion es la reciprocidad. Cuando se apela a la reciprocidad, efectivamente, se trabaja con la actitud de que se ayudara a cualquiera que te ayude a ti primero. Dejas claro que estas encantado de ayudarles si crees que responderan de la misma manera. Esto no es tan legitimo como puede parecer a primera vista.
 
-Piensa en que, cuando un amigo te compra un regalo, sientes que debes corresponderle. Esto es intencionado en el desarrollo humano, asi que sientes el impulso de corresponder cuando otra persona te ofrece algo. Esto significia que cuando otra persona te ha ayudado, estaras mas inclinado a yudarla cuando necesite ayuda. Te proteges eficazmente con tus propios comportamientos altruistas para asegurarte de que tanto tu como la otra parte podais recibir en vuestros momentos de necesidad.
+Piensa en que, cuando un amigo te compra un regalo, sientes que debes corresponderle. Esto es intencionado en el desarrollo humano, asi que sientes el impulso de corresponder cuando otra persona te ofrece algo. Esto significa que cuando otra persona te ha ayudado, estaras mas inclinado a yudarla cuando necesite ayuda. Te proteges eficazmente con tus propios comportamientos altruistas para asegurarte de que tanto tu como la otra parte podais recibir en vuestros momentos de necesidad.
 
 Si quiere aprovecharse de esto, por ejemplo, puede empezar por ponerse en contacto con alguien de quien necesite ayuda. Tal vez quiera que su vecino cuide de su perro mientras tusted se va de viaje por la noche. Entonces te ofreces a hacer algo por tu vecino. Tal vez limpiie su jardin antes de preguntarle si puede cuidar de su perro durante el dia. Le dices que lo unico que tiene que hacer es dejar salir a tu perro un par de veces y todo ira bien.
 
@@ -399,3 +397,24 @@ Por ejemplo, si quieres ir por ahi recogiendo firmas y donaciones para una causa
 Otra serie de tecnicas que pueden ayudarte a ser mas persuasivo es el arte de la retorica. La retorica es el arte de halbar o escribir de forma persuasiva en un intento de hacer que otras personas vean las cosas a tu manera. Si eres capaz de formular tus argumentos con retorica, puedes asegurarte de que te diriges a otras personas de forma convincente y difici de rechazar o ignorar.
 
 En particular, la retorica implica tres metodos distintos de persuasion: son tres tecnicas que se utilizan habitualmente para asegurarse de que la otra persona acepte su sugerencia. Se conocen por sus nombres griegos: Ethos, Pathos y Logos.
+
+```mermaid
+flowchart TD
+    START([Inicio: Intención Oculta]) --> P1[Paso 1: Ocultar la Verdadera Intención]
+    P1 --> P2[Paso 2: Radiografía de Vulnerabilidades de la Víctima]
+    P2 --> CHECK{¿Tiene rasgos explotables?}
+    CHECK -->|Complacencia / Aprobación| V1[Explotar Necesidad de Validación]
+    CHECK -->|Miedo al Conflicto| V2[Presión Pasivo-Agresiva / Culpa]
+    CHECK -->|Baja Asertividad| V3[Invasión Sistemática de Límites]
+    V1 --> P3[Paso 3: Ejecución Despiadada y Dependencia]
+    V2 --> P3
+    V3 --> P3
+
+    style START fill:#312e81,stroke:#6366f1,color:#fff
+    style P1 fill:#0f172a,stroke:#38bdf8,color:#cbd5e1
+    style P2 fill:#0f172a,stroke:#fbbf24,color:#cbd5e1
+    style P3 fill:#450a0a,stroke:#f43f5e,stroke-width:2px,color:#fff
+```
+
+> [!CAUTION]
+> **Criterios Indispensables de Manipulación:** Para que una maniobra sea considerada manipulación oscura, el perpetrador siempre debe cumplir tres condiciones: ocultar sus verdaderos fines, identificar la debilidad exacta del objetivo y carecer de reparos éticos para avanzar.

@@ -27,9 +27,9 @@ Sin embargo, mas alla de eso, la personalidad determina como vas a interactuar c
 
 Quiza uno de los indicadores de tipo de personalidad mas conocidos sea el Indicador de Tipo Myers-Briggs (MBTI). Este indicador de tipo de personalidad examina cuatro modos distintos de interactuar con el mundo que se combinan para crear 16 tipos de personalidad distintos que tienen sus propias tendencias y determinantes.
 
-Este indicador de tipo de personalidad en particular funciona con un autoinforme introspectivo, lo que significia que las personas deben realizar la prueba por si mismas y responder lo que consideren mas preciso. Por supuesto, esto tambien significa que a veces puede ser defectucoso: las personas pueden inclinar la prueba hacia los rasgos que creen que tienen o que desearian tener, y eso puede hacer que surjan algunas dudas sobre si se trata de una forma eficaz o fiable de analizar la personalidad. No obstante, sigue siendo util para ofrecer una vision de la mente de otras personas.
+Este indicador de tipo de personalidad en particular funciona con un autoinforme introspectivo, lo que significa que las personas deben realizar la prueba por si mismas y responder lo que consideren mas preciso. Por supuesto, esto tambien significa que a veces puede ser defectucoso: las personas pueden inclinar la prueba hacia los rasgos que creen que tienen o que desearian tener, y eso puede hacer que surjan algunas dudas sobre si se trata de una forma eficaz o fiable de analizar la personalidad. No obstante, sigue siendo util para ofrecer una vision de la mente de otras personas.
 
-El MBTI examina en particular los estilos de aprendizaje cognitivos, lo que significia que se centra en la forma en que las personas interactuan con el mundo. Es importante reconocer que los pares comparativos de rasgos no deben verse como polos opuestos, sino como dos extremos de un espectro en el que se ve el mundo. Algunas personas pueden estar a medio camino de una categoria, equilibrandose en el medio, y alguien que se encuentra en gran medida en un extremo del espectro puede mostrar rasgos que tambien existen en el otro.
+El MBTI examina en particular los estilos de aprendizaje cognitivos, lo que significa que se centra en la forma en que las personas interactuan con el mundo. Es importante reconocer que los pares comparativos de rasgos no deben verse como polos opuestos, sino como dos extremos de un espectro en el que se ve el mundo. Algunas personas pueden estar a medio camino de una categoria, equilibrandose en el medio, y alguien que se encuentra en gran medida en un extremo del espectro puede mostrar rasgos que tambien existen en el otro.
 
 ### Introvertido vs. Extravertido
 
@@ -83,8 +83,6 @@ Sin embargo, desde el punto de vista de la percepcion, la gente prefiere mantene
 * **ESFP: El animador:** Este tipo de personalidad se caracteriza por la capacidad de aportar energia a cualquier evento. Son buenos para interactuar con otras personas, y esas habilidades hacen que sea increiblemente beneficioso tenerlos cerca. Suelen ser bastante comprensilvos y reflexivos con el mundo que les rodea.
 
 **Identificacion de los Tipos de Personalidad
-
-[MISSING_PAGE_FAIL:93]
 
 **Capitulo 3: Comunicacion Verbal y no Verbal**
 
@@ -280,8 +278,6 @@ Cuando la gente intenta disimular su propio movimiento, la mayoria de las veces 
 
 **Percepcion Ocular**
 
-[MISSING_PAGE_FAIL:107]
-
 Los ojos pueden moverse de varias maneras: pueden guinar, parpadear, cerrarse o permanencer abiertos. Pueden desplazarse y hacer mucho mas. En concreto, cuando se observan los movimientos del ojo, se busca:
 
 * **Parpadeo:** Parpadear normalmente es un signo de relajacion. El parpadeo rapido, por el contrario, muestra que el individu no quiere ver lo que tiene delante, o que esta intentando esconderse. Suele mostrar algun signo de estres.
@@ -298,3 +294,20 @@ La dilatacion de las pupilas es dificil de detectar, pero totalmente impossible 
 * **Pensamiento intensivo:** Cuando se esta pensando intensamente en algo, ya sea un problema matematico complejo o simplemente algo que se esta considerando seriamente, suele haber un ligero cambio en la dilatacion de las pupilas.
 * **En respuesta a la luz:** Esto es lo que la mayoria de la gente piensa cuando ve la dilatacion de la pupila: las pupilas se contraen en la luz brillante y se expanden en la oscuridad.
 * **En respuesta a una lesion en la cabeza:** Los traumatismos craneoencefalicos que han causado una conmocion cerebral u otras lesiones graves suelen presentar una alteracion del funcionamiento de las pupilas y requieren atencion medica inmediata.
+
+```mermaid
+graph TD
+    OCEAN[Modelo de los 5 Grandes Rasgos: OCEAN]
+    OCEAN --> O["O - Apertura a la Experiencia (Creatividad vs Rutina)"]
+    OCEAN --> C["C - Responsabilidad / Conciencia (Disciplina vs Impulsividad)"]
+    OCEAN --> E["E - Extraversión (Sociabilidad vs Reserva)"]
+    OCEAN --> A["A - Amabilidad (Empatía vs Competitividad)"]
+    OCEAN --> N["N - Neuroticismo (Estabilidad vs Reactividad Emocional)"]
+
+    style OCEAN fill:#1e1b4b,stroke:#6366f1,color:#fff
+    style O fill:#0f172a,stroke:#38bdf8,color:#cbd5e1
+    style C fill:#0f172a,stroke:#34d399,color:#cbd5e1
+    style E fill:#0f172a,stroke:#fbbf24,color:#cbd5e1
+    style A fill:#0f172a,stroke:#a855f7,color:#cbd5e1
+    style N fill:#0f172a,stroke:#f43f5e,color:#cbd5e1
+```

@@ -1,4 +1,4 @@
-## Convirette en la Roca Gris
+## Conviértete en la Roca Gris
 
 Otra tecnica que es un poco mas realista si no puedes cortar por alguna razon, como por ejemplo si compartes hijos con un ex narcisista, es convertirte en la roca gris. Piensa en la ultima vez que diste un paseo al aire libre. Tal vez pasaste por tu jardin, o tal vez fuiste de excursion.?Puedes recordar alguna de las rocas que viste?
 
@@ -100,3 +100,22 @@ En particular, este capitulo se tomara el tiempo de proporcionarle algunos conse
 El camino hacia la recuperacion comienza cuando dejas de culpar a las acciones del narcisista. Esto significica que debes recharaz la idea de que de alguna manera tienes la culpa de todo lo ocurrido. El abuso recae firmemente en el narcisista, y debes recordartelo. Recuerdate a ti mismo que nadie merece ser abusado en tus momentos de debilidad, y recuerdate a ti mismo que puede que no estes donde eserabas estar, pero al menos eres libre. Has salido de esa jula de una vez por todas y por fin eres libre para estirar tus alas y aprender a volar.
 
 Ahora que estas lejos, es el momento de mantenerte alejado. Puedes hacerlo.
+
+```mermaid
+flowchart TD
+    DECISION{¿Es posible cortar el contacto por completo?}
+    DECISION -->|SÍ| NC[Protocolo Contacto Cero]
+    DECISION -->|NO: Hijos, Trabajo, Juicio| GR[Protocolo Piedra Gris]
+
+    NC --> NC1[Bloqueo total en redes y teléfono]
+    NC --> NC2[Cero intermediarios o amigos comunes]
+    NC --> NC3[Extinción total del suministro narcisista]
+
+    GR --> GR1[Respuestas monocordes: 'Sí', 'No', 'Ok']
+    GR --> GR2[Cero reactividad emocional o justificaciones]
+    GR --> GR3[Convertirse en el objeto más aburrido de la habitación]
+
+    style DECISION fill:#1e1b4b,stroke:#818cf8,color:#fff
+    style NC fill:#064e3b,stroke:#10b981,color:#d1fae5
+    style GR fill:#334155,stroke:#94a3b8,color:#f8fafc
+```

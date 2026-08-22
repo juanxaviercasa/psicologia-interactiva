@@ -1,6 +1,6 @@
 ## La Perspectiva Cognitiva
 
-Los piscologos cognitivos, en cambio, afirman que el comportamiento esta determinado por las expectativas. Uno tiene un determinado pensamiento sobre una situacion y espera que se comporte de esa manera. Efectivamente, entonces, haces expectativas informadas en base a lo que ya sabes y tratas de hacer las inferencias adecuadas en tu comportamiento. En este caso, estas resolviendo problemas e interactuando con el mundo basandote en el recuerdo de lo que ha ocurrido en el pasado. Supones que lo que ha ocurrido en el pasado volvera a ocurri en el futuro, o haces suposiciones basadas en hechos similares.
+Los psicólogos cognitivos, en cambio, afirman que el comportamiento esta determinado por las expectativas. Uno tiene un determinado pensamiento sobre una situacion y espera que se comporte de esa manera. Efectivamente, entonces, haces expectativas informadas en base a lo que ya sabes y tratas de hacer las inferencias adecuadas en tu comportamiento. En este caso, estas resolviendo problemas e interactuando con el mundo basandote en el recuerdo de lo que ha ocurrido en el pasado. Supones que lo que ha ocurrido en el pasado volvera a ocurri en el futuro, o haces suposiciones basadas en hechos similares.
 
 Esto aleja a la humanidad de la idea de estar completamente desprovista de libre albedrio y, en cambio, como algo que es capaz de tener pensamientos y sentimientos de nuevo. Por supuesto, esto tambien trae consigo muchas mas complicaciones de las que habia de otra manera.
 

@@ -14,8 +14,6 @@ Al leer este libro, es con la mayor esperanza de que lo encuentre util, instruct
 
 Hay muchos libros sobre este tema en el mercado, igracias de nuevo por elegir este! Se ha hecho todo lo posible para que contenga la mayor cantidad de informacion util posible;!disfrutelo!
 
-[MISSING_PAGE_FAIL:360]
-
 Considere por un momento la definicion de la palabra "Abuso". Si buscaramos una definicion en Internet o en un diccionario, obtendriamos algo parecido a un mal uso de un objeto, o a tratar con crueldad o violencia. El abuso, puede utilizarse para referirse al mal uso de, por ejemplo, el alcohol, en el que el que bebe con frecuencia lo hace en exceso, ya sea por adiccion o por algun otro factor. El abuso de poder puede ocurrir cuando un juez dicta una sentencia que esta totalmente disenada para beneficiar al juez o impulsar una agenda en lugar de tomar la decisiono correcta. Incluso se puede escuchar a la gente decir que se abusa de los objetos, como por ejemplo decir que eljugete favorito de un nino ha soportado mucho abuso. Esto significa que, a pesar del uso rudo, el jugete ha resistido.
 
 A pesar de la amplia gama de usos que puede tener la palabra, en el ambito de este libro, nos centraremos, unicamente en la definicion de abuso es relevante para el maltrato o el dano a los demas. Mas concretamente, vamos a anadir un elemento adicional al halbar del abuso en este libro: debe ser intencionado.

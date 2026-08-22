@@ -4,7 +4,7 @@ Una vez que has establecido una conexion con otra persona, estas listo para pasa
 
 Una tactica comun de los manipuladores, por ejemplo, es crear un desencadenante del miedo a partir de un anclaje muy pequeno e imperceptible para la mayoria: pueden utilizar un movimiento leve pero claro de la mano para hacer que la otra persona sienta miedo con el fin de mantenerla bajo control. Sin embargo, tambien se puede demandar para evitar malos habitos, como fumar o beber, o ser una forma de hacer frente a la ansiedad del momento.
 
-El anclaje es bastante sencillo una vez que eres capaz de desarrollar una relacion con otra persona. Todo lo que tienes que hacer es averiguar los pasos correctos y los sentiminetos adecuados para anclar. Hay cinco pasos sencillos para conseguir que otra persona se ancle a un sentimiento. Ten en cuenta que estos pasos llevaran tiempo; no puedes esperar que alguien se ancle al azar sin mucho esfuerzo. Estas condicionando a alguien de forma efectiva, probablemente sin que sea consciente de ello, y eso requiere esfuerzo y energia para no ser detectado. Sin mas preambulos, veamos los cinco pasos para anclar a otra persona.
+El anclaje es bastante sencillo una vez que eres capaz de desarrollar una relacion con otra persona. Todo lo que tienes que hacer es averiguar los pasos correctos y los sentimientos adecuados para anclar. Hay cinco pasos sencillos para conseguir que otra persona se ancle a un sentimiento. Ten en cuenta que estos pasos llevaran tiempo; no puedes esperar que alguien se ancle al azar sin mucho esfuerzo. Estas condicionando a alguien de forma efectiva, probablemente sin que sea consciente de ello, y eso requiere esfuerzo y energia para no ser detectado. Sin mas preambulos, veamos los cinco pasos para anclar a otra persona.
 
 **Paso 1: Elegir un sentimento**
 
@@ -89,8 +89,6 @@ Si te resulta demasiado incomodo mantener un contacto visual legitimo, puedes pr
 
 **Escuchar con Eficacia**
 
-[MISSING_PAGE_FAIL:208]
-
 asegurarte de que estas en una posicion que te permita escuchar y prestar atencion. Quieres evitar las distracciones. Quieres prestar a la otra persona toda tu atencion. Quieres escuchar realmente sin contemplar como vas a responder a la otra persona.
 
 Esto puede parecer sencillo en teoria, pero piense en lo que hace su mente durante una conversacion: \(\chi\)se da cuenta de que acaba pasando el tiempo intentando averiguar como responder a la ultima cuestion planteada cuando la otra persona todavia esta hablando? Eso no es escuchar activamente. Eso es escuchar a la otra persona y luego elaborar distraidamente una refutacion que puede ser totalmente irrelevante al final de la conversacion, y eso no es justo para la otra persona. Para escuchar activamente, entonces, haras lo siguiente:
@@ -121,4 +119,4 @@ La PNL se puede utilizar sobre ti mismo con la suficiente regularidad como para 
 
 Cuando eres capaz de usar la PNL para ti, puedes empezar a vencer cualquier trauma que haya permanecido, reteniendote durante demasiado tiempo. Seras capaz de reformular esos traumas, separandote de esa negatividad y descubriendo formas de hacer de esos recuerdos algo mucho menos traumatico. Podras anclarte en un proceso quees increiblemente similar al que se utiliza para otras personas, y con el uso de esto, encontraras que eres capaz de derrotar los habitos negativos. Con esos habitos eliminados, te sentiras mucho mas capaz. Estaras empoderado. Tendra exito. Estaras usando la PNL para su proposito mas real: para ayudar a otros y a ti mismo.
 
-Este capitulo te guiara a traves de tres tecnicas que puedes utilizar para ejercer el poder de la PNL sobre ti mismo. Aprenderas a utilizar la disociacion para distanciarte de los sentiminetos relacionados con un acontecimiento traumatico especifico o para eliminar un desencadenante entre un acontecimiento y un sentimiento. Aprenderas autilizar el reencuadre para cambiar la forma en que vees un evento o un recuerdo. Por ultimo, se le guiara sobre como anclarse con facilitad.
+Este capitulo te guiara a traves de tres tecnicas que puedes utilizar para ejercer el poder de la PNL sobre ti mismo. Aprenderas a utilizar la disociacion para distanciarte de los sentimientos relacionados con un acontecimiento traumatico especifico o para eliminar un desencadenante entre un acontecimiento y un sentimiento. Aprenderas autilizar el reencuadre para cambiar la forma en que vees un evento o un recuerdo. Por ultimo, se le guiara sobre como anclarse con facilitad.

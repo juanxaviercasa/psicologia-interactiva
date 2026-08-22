@@ -608,7 +608,7 @@ const App = {
          
          chaptersHtml += `
            <div class="bg-slate-900/90 border border-slate-700/60 rounded-2xl overflow-hidden shadow-xl">
-             <div class="bg-slate-800/90 hover:bg-slate-700/80 px-6 py-4 border-b border-slate-700/60 flex justify-between items-center cursor-pointer transition-colors" onclick="const p = this.nextElementSibling; p.classList.toggle('hidden'); this.querySelector('.fa-chevron-down').classList.toggle('rotate-180');">
+             <div class="bg-slate-800/90 hover:bg-slate-700/80 px-6 py-4 border-b border-slate-700/60 flex justify-between items-center cursor-pointer transition-colors" onclick="const p = this.nextElementSibling; p.classList.toggle('hidden'); this.querySelector('.fa-chevron-down').classList.toggle('rotate-180'); if(!p.classList.contains('hidden') && typeof mermaid !== 'undefined') { setTimeout(() => { try { mermaid.init(undefined, p.querySelectorAll('.mermaid')); } catch(e){} }, 50); }">
                <div class="flex items-center gap-3">
                  <span class="w-7 h-7 rounded-lg bg-cyan-950 border border-cyan-500/40 text-cyan-400 font-mono text-xs font-bold flex items-center justify-center">${idx + 1}</span>
                  <span class="font-bold text-slate-100 font-serif text-base">${cleanTitle || chapterName}</span>

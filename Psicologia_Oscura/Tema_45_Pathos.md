@@ -24,11 +24,9 @@ El lavado de cerebro se produce por varias razones. La gente utiliza el arte del
 
 Otras veces, se utiliza comunmente durante la guerra: cuando los militares toman prisioneros de guerra, pueden lavarles el cerebro intencionadamente en un intento de que se dobleguen y obedezcan en cualquier situacion. Por ejemplo, durante la decada de 1950, los chimos se empeiaron en someter a varios soldados estadounidenses a sus procesos de lavado de cerebro antes de enviarlos de vuelta a Estados Unidos. Entonces, el pueblo renego completamente de sus propias culturas y personalidades, pregonando la importancia y los beneficios del mundo en 
 
-[MISSING_PAGE_FAIL:261]
-
 ### Asalto a la identitidad
 
-El lavado de cerebo es imposible si el individuuo al que se le esta lavando el cerebro no esta dispuesto a dejar de ser quien es como persona. Esto significica que la primera etapa del lavado de cerebro es convencerlos de que no deben gustar de la persona que son. En concreto, pasaras tiempo atacando su identitidad con la esperanza de convencerles de que su identitidad es problematica de alguna manera. En efecto, quieres hacerles temer lo que son y todo lo que valoran.
+El lavado de cerebro es imposible si el individuuo al que se le esta lavando el cerebro no esta dispuesto a dejar de ser quien es como persona. Esto significica que la primera etapa del lavado de cerebro es convencerlos de que no deben gustar de la persona que son. En concreto, pasaras tiempo atacando su identitidad con la esperanza de convencerles de que su identitidad es problematica de alguna manera. En efecto, quieres hacerles temer lo que son y todo lo que valoran.
 
 Por ejemplo, puedes preguntar a alguien como se llama. Si responde con su nombre, le castigas severamente y le dices que se llama de otra manera. Por ejemplo, imagina que la persona se llama Bill. Te lo dice y, como respuesta, le golpeas brutalmente en la espalda con una tabla y le dices que ahora se llama Larry. Cada vez que le preguntes sobre su pasado, su identitidad o cualquier otra cosa cercana a el y responda con la verdad, le golpearas para que tenga miedo a la verdad. Le estas ensenando a temer el acto de ser honesto con otras personas sobre quien es y, como lo teme, no es probable que siga repitiendo el error una y otra vez.
 
