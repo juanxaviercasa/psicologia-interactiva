@@ -1515,7 +1515,8 @@ const App = {
             parsedHtml = '<div class="whitespace-pre-wrap text-slate-300 font-sans leading-relaxed text-sm">' + rawMd + '</div>';
          }
          
-         const cleanTitle = chapterName.replace(/_/g, ' ').replace(/^Tema\s*\d+\s*/i, '').trim();
+         const titlesMap = (typeof CHAPTER_TITLES !== 'undefined' ? CHAPTER_TITLES : null) || (typeof window !== 'undefined' ? window.CHAPTER_TITLES : null) || {};
+         const cleanTitle = titlesMap[chapterName] || chapterName.replace(/_/g, ' ').replace(/^Tema\s*\d+\s*/i, '').trim();
          const contentId = `chapter-drawer-${modNumber}-${pIndex}-${idx}`;
          
          chaptersHtml += `
