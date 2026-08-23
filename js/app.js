@@ -1951,9 +1951,9 @@ const App = {
 
   renderCurrentFlashcard() {
     this.loadFlashcards();
-    const container = document.getElementById('flashcard-container');
-    if (!container || !this.state.filteredFlashcards || this.state.filteredFlashcards.length === 0) {
-      if (container) container.innerHTML = '<div class="text-center text-slate-500 py-12">No hay flashcards disponibles</div>';
+    const frontEl = document.getElementById('fcFrontText');
+    if (!frontEl || !this.state.filteredFlashcards || this.state.filteredFlashcards.length === 0) {
+      if (frontEl) frontEl.textContent = 'No hay flashcards disponibles';
       return;
     }
 
