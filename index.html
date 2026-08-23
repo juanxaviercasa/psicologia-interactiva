@@ -170,7 +170,10 @@
 
           
         <!-- Theme Toggle -->
-        <button onclick="App.toggleTheme()" id="themeToggleBtn" class="w-10 h-10 rounded-xl bg-slate-900/90 border border-slate-800 flex items-center justify-center text-amber-400 hover:text-amber-300 hover:border-amber-500/50 shadow-sm transition-all hover:scale-105">
+        <button onclick="App.toggleTheme()" <button onclick="App.openAIEngineModal()" class="px-3 py-1.5 rounded-lg bg-cyan-950/80 border border-cyan-500/40 text-cyan-300 hover:bg-cyan-900/60 hover:text-white transition-all text-xs font-bold flex items-center gap-1.5 shadow-sm" title="Configurar APIs de IA (Google, Groq, Qwen, Mistral)">
+          <i class="fa-solid fa-microchip text-cyan-400"></i> <span class="hidden sm:inline">Centro IA</span>
+        </button>
+        id="themeToggleBtn" class="w-10 h-10 rounded-xl bg-slate-900/90 border border-slate-800 flex items-center justify-center text-amber-400 hover:text-amber-300 hover:border-amber-500/50 shadow-sm transition-all hover:scale-105">
             <i class="fa-solid fa-sun text-lg" id="themeIcon"></i>
         </button>
           <!-- BOTÓN BASES CIENTÍFICAS (AYUDA) -->
@@ -1220,6 +1223,104 @@
         </button>
         <button onclick="App.saveVoiceSettings()" class="flex-1 px-4 py-2.5 bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 text-white rounded-xl text-xs font-bold transition-all shadow-lg shadow-indigo-500/20 flex items-center justify-center gap-2">
           <i class="fa-solid fa-check"></i> Guardar Ajustes
+        </button>
+      </div>
+    </div>
+  </div>
+
+  
+  <!-- MODAL DE CONEXIÓN MULTI-IA (GOOGLE / GROQ / MISTRAL / HUGGING FACE) -->
+  <div id="aiEngineModal" class="hidden fixed inset-0 z-[115] flex items-center justify-center p-4 bg-slate-950/90 backdrop-blur-md">
+    <div class="bg-slate-900 border-2 border-cyan-500/50 rounded-2xl w-full max-w-xl p-6 sm:p-8 shadow-[0_0_60px_rgba(6,182,212,0.25)] relative overflow-hidden flex flex-col gap-6 max-h-[90vh] overflow-y-auto custom-scrollbar">
+      <!-- Header -->
+      <div class="flex justify-between items-center border-b border-slate-800 pb-4">
+        <div>
+          <h3 class="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-indigo-400 to-amber-400 flex items-center gap-2.5">
+            <i class="fa-solid fa-microchip text-cyan-400"></i> Centro Multi-IA Táctico
+          </h3>
+          <p class="text-xs text-slate-400 mt-1">Conecta tus APIs gratuitas para generar exámenes y casos inéditos en tiempo real.</p>
+        </div>
+        <button onclick="App.closeAIEngineModal()" class="w-8 h-8 rounded-full bg-slate-800 text-slate-400 hover:text-white hover:bg-rose-500 transition-colors flex items-center justify-center shrink-0">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <!-- Selector de Proveedor Activo -->
+      <div class="space-y-2">
+        <label class="text-xs font-mono font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
+          <i class="fa-solid fa-server text-indigo-400"></i> Proveedor de IA Activo para Exámenes:
+        </label>
+        <select id="activeAIProvider" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-3 text-sm text-slate-100 font-semibold focus:outline-none focus:border-cyan-500 shadow-inner">
+          <option value="local">💾 Modo Autónomo Local (100% Offline / 0 Latencia)</option>
+          <option value="google">🟢 Google AI Studio (Gemini 2.0 Flash - 1,500 exámenes/día)</option>
+          <option value="groq">⚡ Groq Cloud (Qwen 2.5 32B / Llama 3.3 70B - 14,400 exámenes/día)</option>
+          <option value="mistral">🌪️ Mistral AI (Mistral Small - 1,000 exámenes/día)</option>
+          <option value="huggingface">🤗 Hugging Face (Qwen 2.5 72B / DeepSeek)</option>
+        </select>
+      </div>
+
+      <!-- Pestañas / Acordeón de Claves API -->
+      <div class="space-y-4 pt-2">
+        <!-- 1. Google AI Studio -->
+        <div class="p-4 rounded-xl bg-slate-950/70 border border-slate-800 space-y-2.5">
+          <div class="flex justify-between items-center">
+            <span class="text-xs font-bold text-emerald-400 flex items-center gap-2">
+              <i class="fa-brands fa-google"></i> Google AI Studio (Gemini)
+            </span>
+            <a href="https://aistudio.google.com/app/apikey" target="_blank" class="text-[11px] text-cyan-400 hover:text-cyan-300 hover:underline flex items-center gap-1 font-mono">
+              Obtener Clave Gratis <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+            </a>
+          </div>
+          <input type="password" id="key_google" placeholder="Pega tu clave AIzaSy..." class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-emerald-500 font-mono">
+        </div>
+
+        <!-- 2. Groq Cloud -->
+        <div class="p-4 rounded-xl bg-slate-950/70 border border-slate-800 space-y-2.5">
+          <div class="flex justify-between items-center">
+            <span class="text-xs font-bold text-amber-400 flex items-center gap-2">
+              <i class="fa-solid fa-bolt"></i> Groq Cloud (Qwen 2.5 / Llama 3.3)
+            </span>
+            <a href="https://console.groq.com/keys" target="_blank" class="text-[11px] text-cyan-400 hover:text-cyan-300 hover:underline flex items-center gap-1 font-mono">
+              Obtener Clave Gratis <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+            </a>
+          </div>
+          <input type="password" id="key_groq" placeholder="Pega tu clave gsk_..." class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-amber-500 font-mono">
+        </div>
+
+        <!-- 3. Mistral AI -->
+        <div class="p-4 rounded-xl bg-slate-950/70 border border-slate-800 space-y-2.5">
+          <div class="flex justify-between items-center">
+            <span class="text-xs font-bold text-indigo-400 flex items-center gap-2">
+              <i class="fa-solid fa-wind"></i> Mistral AI
+            </span>
+            <a href="https://console.mistral.ai/api-keys/" target="_blank" class="text-[11px] text-cyan-400 hover:text-cyan-300 hover:underline flex items-center gap-1 font-mono">
+              Obtener Clave Gratis <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+            </a>
+          </div>
+          <input type="password" id="key_mistral" placeholder="Pega tu clave Mistral..." class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-indigo-500 font-mono">
+        </div>
+
+        <!-- 4. Hugging Face -->
+        <div class="p-4 rounded-xl bg-slate-950/70 border border-slate-800 space-y-2.5">
+          <div class="flex justify-between items-center">
+            <span class="text-xs font-bold text-yellow-400 flex items-center gap-2">
+              <i class="fa-solid fa-face-smile"></i> Hugging Face (Token de Lectura)
+            </span>
+            <a href="https://huggingface.co/settings/tokens" target="_blank" class="text-[11px] text-cyan-400 hover:text-cyan-300 hover:underline flex items-center gap-1 font-mono">
+              Obtener Token Gratis <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+            </a>
+          </div>
+          <input type="password" id="key_huggingface" placeholder="Pega tu token hf_..." class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-yellow-500 font-mono">
+        </div>
+      </div>
+
+      <!-- Botones de Acción -->
+      <div class="flex items-center gap-3 pt-3 border-t border-slate-800">
+        <button onclick="App.testAIConnection()" class="flex-1 px-4 py-3 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 rounded-xl text-xs font-bold transition-colors flex items-center justify-center gap-2">
+          <i class="fa-solid fa-satellite-dish text-cyan-400"></i> Probar Conexión
+        </button>
+        <button onclick="App.saveAIEngineSettings()" class="flex-1 px-4 py-3 bg-gradient-to-r from-cyan-600 to-indigo-600 hover:from-cyan-500 hover:to-indigo-500 text-white rounded-xl text-xs font-bold transition-all shadow-lg shadow-cyan-500/25 flex items-center justify-center gap-2">
+          <i class="fa-solid fa-circle-check"></i> Guardar Ajustes
         </button>
       </div>
     </div>
