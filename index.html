@@ -133,73 +133,68 @@
           </div>
         </div>
 
-        <!-- Buscador Global Rápido -->
-        <div class="flex-1 max-w-md hidden md:block">
-          <div class="relative cursor-pointer" onclick="App.openSearchModal()">
-            <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-400 text-sm"></i>
-            <input type="text" readonly placeholder="Buscar táctica, concepto o defensa... (Ctrl+K)" class="w-full bg-slate-900/90 border border-slate-700/80 rounded-xl py-1.5 pl-10 pr-12 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-cyan-500 hover:border-slate-600 cursor-pointer">
-            <kbd class="absolute right-3 top-1/2 -translate-y-1/2 px-1.5 py-0.5 text-[10px] font-mono text-slate-400 bg-slate-800 border border-slate-700 rounded">⌘K</kbd>
-          </div>
-        </div>
-
-        <!-- Métricas Rápidas & Nivel -->
-        <div class="flex items-center gap-3">
-
-                    <!-- Streak Diario -->
-          <div class="hidden sm:flex items-center gap-2 bg-slate-900/90 border border-slate-800 px-3 py-1 rounded-xl" title="Racha de estudio">
-            <i class="fa-solid fa-fire text-orange-500 text-sm"></i>
-            <div class="text-left">
-              <div class="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Racha</div>
-              <div id="streakCounterText" class="text-xs font-bold text-orange-400 font-mono">0 Días</div>
-            </div>
-          </div>
-
-          <!-- Pomodoro Timer -->
-          <div class="flex items-center gap-2 bg-slate-900/90 border border-slate-800 px-3 py-1 rounded-xl cursor-pointer hover:border-rose-500/50" onclick="App.togglePomodoro()" title="Iniciar/Pausar Pomodoro">
-            <i class="fa-solid fa-stopwatch text-rose-400 text-sm" id="pomodoroIcon"></i>
-            <div class="text-left hidden md:block">
-              <div class="text-[10px] text-slate-400 uppercase tracking-wider font-semibold" id="pomodoroLabel">Enfoque</div>
-              <div id="pomodoroTimerText" class="text-xs font-bold text-rose-300 font-mono">25:00</div>
-            </div>
-            <div class="md:hidden text-xs font-bold text-rose-300 font-mono" id="pomodoroTimerTextMobile">25:00</div>
-          </div>
-
-          <!-- Nivel Táctico Badge -->
-          <div class="hidden lg:flex items-center gap-2 bg-slate-900/90 border border-slate-800 px-3 py-1 rounded-xl">
-            <i class="fa-solid fa-shield-halved text-cyan-400 text-sm"></i>
-            <div class="text-left">
-              <div class="text-[10px] text-slate-400 uppercase tracking-wider font-semibold">Nivel Táctico</div>
-              <div id="globalLevelText" class="text-xs font-bold text-cyan-300 font-mono">Iniciando</div>
-            </div>
-          </div>
-
-          
-        <!-- Theme Toggle -->
         
-        <button onclick="App.openAIEngineModal()" class="px-3 py-1.5 rounded-lg bg-cyan-950/80 border border-cyan-500/40 text-cyan-300 hover:bg-cyan-900/60 hover:text-white transition-all text-xs font-bold flex items-center gap-1.5 shadow-sm" title="Configurar APIs de IA (Google, Groq, Qwen, Mistral)">
-          <i class="fa-solid fa-microchip text-cyan-400"></i> <span class="hidden sm:inline">Centro IA</span>
-        </button>
-        <button onclick="App.toggleTheme()" id="themeToggleBtn"
- class="w-10 h-10 rounded-xl bg-slate-900/90 border border-slate-800 flex items-center justify-center text-amber-400 hover:text-amber-300 hover:border-amber-500/50 shadow-sm transition-all hover:scale-105">
-            <i class="fa-solid fa-sun text-lg" id="themeIcon"></i>
-        </button>
-          <!-- BOTÓN BASES CIENTÍFICAS (AYUDA) -->
-          <button onclick="document.getElementById('methodologyModal').classList.remove('hidden')" id="headerMethodologyBtn" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-cyan-950/90 text-cyan-400 border border-cyan-500/50 hover:bg-cyan-900/60 hover:border-cyan-400 shadow-sm transition-all cursor-pointer font-bold text-xs" title="¿Por qué está bloqueado el contenido?">
-            <i class="fa-solid fa-microscope text-cyan-400"></i>
-            <span class="hidden md:inline">Bases Científicas</span>
+
+        <!-- Dropdowns Consolidados (Ocupan mínimo espacio) -->
+        <div class="flex items-center gap-2">
+
+          <!-- Buscador Real Activo (Para Escritorio) -->
+          <div class="hidden lg:flex relative items-center w-64 mr-2">
+            <i class="fa-solid fa-magnifying-glass absolute left-3 text-slate-400 text-xs"></i>
+            <input type="text" id="headerSearchInput" placeholder="Buscar táctica..." oninput="App.performGlobalSearch(this.value)" class="w-full bg-slate-900/90 border border-slate-700/80 rounded-lg py-1.5 pl-8 pr-3 text-xs text-slate-200 placeholder-slate-500 focus:border-cyan-500 focus:outline-none transition-colors">
+            <!-- Resultados flotantes -->
+            <div id="headerSearchResults" class="absolute left-0 top-full mt-2 w-full bg-slate-900 border border-slate-700 rounded-xl shadow-2xl hidden flex-col overflow-hidden max-h-96 overflow-y-auto z-[70]"></div>
+          </div>
+
+          <!-- Dropdown: Stats -->
+          <div class="relative group">
+            <button class="flex items-center gap-1.5 bg-slate-900/90 border border-slate-800 hover:border-slate-700 px-3 py-1.5 rounded-lg transition-all text-slate-300">
+              <i class="fa-solid fa-chart-line text-cyan-400 text-xs"></i>
+              <span class="text-xs font-bold uppercase tracking-wider hidden sm:inline">Stats</span>
+              <i class="fa-solid fa-chevron-down text-[9px] opacity-60 ml-1 transition-transform group-hover:rotate-180"></i>
+            </button>
+            <div class="absolute right-0 top-full mt-2 hidden group-hover:flex flex-col bg-slate-900 border border-slate-700 rounded-xl shadow-2xl p-2 min-w-[160px] z-[60]">
+              <div class="flex items-center justify-between p-2 border-b border-slate-800/80">
+                <span class="text-xs text-slate-400 font-bold uppercase"><i class="fa-solid fa-fire text-orange-500 w-4"></i> Racha</span>
+                <span class="text-xs font-bold text-orange-400 font-mono" id="streakCounterText">0 Días</span>
+              </div>
+              <div class="flex items-center justify-between p-2 border-b border-slate-800/80 cursor-pointer hover:bg-slate-800/50 rounded" onclick="App.togglePomodoro()">
+                <span class="text-xs text-slate-400 font-bold uppercase"><i class="fa-solid fa-stopwatch text-rose-400 w-4"></i> Enfoque</span>
+                <span class="text-xs font-bold text-rose-300 font-mono" id="pomodoroTimerText">25:00</span>
+              </div>
+              <div class="flex items-center justify-between p-2 border-b border-slate-800/80">
+                <span class="text-xs text-slate-400 font-bold uppercase"><i class="fa-solid fa-shield-halved text-cyan-400 w-4"></i> Nivel</span>
+                <span class="text-xs font-bold text-cyan-300 font-mono" id="globalLevelText">Iniciando</span>
+              </div>
+              <div class="flex items-center justify-between p-2 cursor-pointer hover:bg-slate-800/50 rounded" onclick="App.switchTab('certificate')">
+                <span class="text-xs text-slate-400 font-bold uppercase"><i class="fa-solid fa-infinity text-blue-500 w-4"></i> Dominio</span>
+                <span class="text-xs font-bold text-blue-400 font-mono" id="globalProgressCircleText">0%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Centro IA Button (Prominent) -->
+          <button onclick="App.openAIEngineModal()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-950/80 border border-cyan-500/40 hover:bg-cyan-900/60 hover:border-cyan-400 text-cyan-300 hover:text-white transition-all text-[11px] uppercase tracking-wider font-bold shadow-[0_0_10px_rgba(34,211,238,0.1)] group">
+            <i class="fa-solid fa-microchip text-cyan-400 group-hover:animate-pulse"></i>
+            <span class="hidden sm:inline">Centro IA</span>
           </button>
 
-          <!-- BOTÓN MODO DIOS -->
-          <button onclick="App.unlockAll()" id="headerGodModeBtn" class="flex items-center gap-1.5 px-3 py-1.5 rounded-xl bg-amber-950/90 text-amber-400 border border-amber-500/50 hover:bg-amber-900/60 hover:border-amber-400 shadow-sm transition-all cursor-pointer font-bold text-xs" title="Desbloquear todo el contenido">
-            <i class="fa-solid fa-unlock-keyhole text-amber-400"></i>
-            <span class="hidden md:inline">Modo Dios</span>
-          </button>
-        <!-- Porcentaje de Dominio -->
-          <div class="flex items-center gap-2 bg-slate-900/90 border border-cyan-500/30 px-3 py-1.5 rounded-xl cursor-pointer hover:border-cyan-400" onclick="App.switchTab('certificate')">
-            <div class="w-7 h-7 rounded-full border-2 border-cyan-500 flex items-center justify-center text-[11px] font-mono font-bold text-cyan-400" id="globalProgressCircle">
-              0%
+          <!-- Dropdown: Settings -->
+          <div class="relative group">
+            <button class="w-8 h-8 rounded-lg bg-slate-900/90 border border-slate-800 hover:bg-slate-800 hover:border-slate-700 flex items-center justify-center text-slate-400 hover:text-white transition-all">
+              <i class="fa-solid fa-gear text-sm"></i>
+            </button>
+            <div class="absolute right-0 top-full mt-2 hidden group-hover:flex flex-col bg-slate-900 border border-slate-700 rounded-xl shadow-2xl p-1.5 min-w-[170px] z-[60]">
+              <button onclick="App.toggleTheme()" id="themeToggleBtn" class="flex items-center gap-2.5 w-full px-3 py-2.5 text-left text-xs font-semibold text-slate-300 hover:bg-slate-800/80 rounded-lg transition-colors">
+                <i class="fa-solid fa-moon text-amber-400 w-4 text-center"></i> Tema Visual
+              </button>
+              <button onclick="App.toggleScientificMode()" id="btnScientificMode" class="flex items-center gap-2.5 w-full px-3 py-2.5 text-left text-xs font-semibold text-slate-300 hover:bg-slate-800/80 rounded-lg transition-colors">
+                <i class="fa-solid fa-microscope text-teal-400 w-4 text-center"></i> Ciencias
+              </button>
+              <button onclick="App.unlockAll()" id="headerGodModeBtn" class="flex items-center gap-2.5 w-full px-3 py-2.5 text-left text-xs font-semibold text-amber-500 hover:bg-slate-800/80 rounded-lg transition-colors">
+                <i class="fa-solid fa-unlock-keyhole text-amber-500 w-4 text-center"></i> Modo Dios
+              </button>
             </div>
-            <span class="text-xs font-semibold text-slate-300 hidden sm:inline">Dominio</span>
           </div>
 
           <!-- Botón Buscador Móvil -->
@@ -225,30 +220,41 @@
       </div>
 
       <!-- Main Navigation Menu -->
-      <div id="mobile-menu" class="hidden md:flex flex-col md:flex-row md:flex-wrap max-w-7xl mx-auto px-4 md:items-center py-2 gap-4">
+      <div id="mobile-menu" class="hidden md:flex flex-col md:flex-row md:flex-wrap max-w-7xl mx-auto px-4 md:items-center md:justify-center py-4 md:py-2 gap-4 md:gap-x-2 md:gap-y-1">
         
-        <!-- Pestañas Principales Reducidas -->
-        <div class="flex flex-col md:flex-row gap-2">
-          <button onclick="App.switchTab('dashboard'); closeMobileMenu()" id="tab-btn-dashboard" class="nav-tab active px-4 py-2 rounded-lg text-sm font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+        <!-- Pestañas Principales -->
+        <div class="flex flex-col md:flex-row gap-1">
+          <button onclick="App.switchTab('dashboard'); closeMobileMenu()" id="tab-btn-dashboard" class="nav-tab active px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
             <i class="fa-solid fa-chart-pie w-4 text-center"></i> Dashboard
           </button>
-          
-          <!-- Dropdown: Explorar (Contiene TODAS las demás pestañas) -->
-          <div class="relative group z-[60]">
-            <button class="px-4 py-2 rounded-lg text-sm font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
-              <i class="fa-solid fa-compass w-4 text-center"></i> Explorar <i class="fa-solid fa-chevron-down text-[0.6rem] ml-1 opacity-70 transition-transform group-hover:rotate-180"></i>
-            </button>
-            <div class="absolute left-0 top-full mt-1 hidden group-hover:flex flex-col bg-slate-900 border border-slate-700 rounded-xl shadow-2xl overflow-hidden min-w-[220px]">
-              <button onclick="App.switchTab('learning'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="learning"><i class="fa-solid fa-book-open w-4 text-center text-blue-400"></i> Academia</button>
-              <button onclick="App.switchTab('matrix'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="matrix"><i class="fa-solid fa-shield-virus w-4 text-center text-cyan-400"></i> Matriz Táctica</button>
-              <button onclick="App.switchTab('simulator'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="simulator"><i class="fa-solid fa-chess-knight w-4 text-center text-purple-400"></i> Simulador de Casos</button>
-              <button onclick="App.switchTab('flashcards'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="flashcards"><i class="fa-solid fa-bolt w-4 text-center text-yellow-500"></i> Flashcards</button>
-              <button onclick="App.switchTab('sparring'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="sparring"><i class="fa-solid fa-robot w-4 text-center text-rose-400"></i> Sparring AI (Voz)</button>
-              <button onclick="App.switchTab('noverbal'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="noverbal"><i class="fa-solid fa-eye w-4 text-center text-emerald-400"></i> No Verbal</button>
-              <button onclick="App.switchTab('quizzes'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="quizzes"><i class="fa-solid fa-trophy w-4 text-center text-amber-500"></i> Quizzes</button>
-              <button onclick="App.switchTab('skilltree'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="skilltree"><i class="fa-solid fa-sitemap w-4 text-center text-emerald-400"></i> Skill Tree</button>
-              <button onclick="App.switchTab('glossary'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300" data-target="glossary"><i class="fa-solid fa-file-word w-4 text-center text-slate-400"></i> Glosario</button>
-            </div>
+          <button onclick="App.switchTab('learning'); closeMobileMenu()" id="tab-btn-learning" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+            <i class="fa-solid fa-book-open w-4 text-center"></i> Academia
+          </button>
+          <button onclick="App.switchTab('matrix'); closeMobileMenu()" id="tab-btn-matrix" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+            <i class="fa-solid fa-shield-virus w-4 text-center"></i> Matriz
+          </button>
+          <button onclick="App.switchTab('simulator'); closeMobileMenu()" id="tab-btn-simulator" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+            <i class="fa-solid fa-chess-knight w-4 text-center"></i> Simulador
+          </button>
+          <button onclick="App.switchTab('flashcards'); closeMobileMenu()" id="tab-btn-flashcards" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+            <i class="fa-solid fa-bolt w-4 text-center text-yellow-500"></i> Flashcards
+          </button>
+        </div>
+
+        <!-- Dropdown Más Herramientas -->
+        <div class="relative group z-[60]">
+          <button class="px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+            <i class="fa-solid fa-layer-group w-4 text-center"></i> Más Herramientas <i class="fa-solid fa-chevron-down text-[0.6rem] ml-1 opacity-70 transition-transform group-hover:rotate-180"></i>
+          </button>
+          <div class="absolute right-0 top-full mt-1 hidden group-hover:flex flex-col bg-slate-900 border border-slate-700 rounded-xl shadow-2xl overflow-hidden min-w-[200px]">
+            <button onclick="App.switchTab('glossary'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="glossary"><i class="fa-solid fa-file-word w-4 text-center"></i> Glosario</button>
+            <button onclick="App.switchTab('noverbal'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="noverbal"><i class="fa-solid fa-eye w-4 text-center"></i> No Verbal</button>
+            <button onclick="App.switchTab('quizzes'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="quizzes"><i class="fa-solid fa-trophy w-4 text-center text-amber-500"></i> Quizzes</button>
+            <button onclick="App.switchTab('skilltree'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="skilltree"><i class="fa-solid fa-sitemap w-4 text-center text-emerald-400"></i> Skill Tree</button>
+            <button onclick="App.switchTab('sparring'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="sparring"><i class="fa-solid fa-robot w-4 text-center text-cyan-400"></i> Sparring AI</button>
+            <button onclick="App.switchTab('auditor'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="auditor"><i class="fa-solid fa-microchip w-4 text-center text-indigo-400"></i> Auditor</button>
+            <button onclick="App.switchTab('certificate'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="certificate"><i class="fa-solid fa-award w-4 text-center text-yellow-400"></i> Certificado</button>
+            <button onclick="App.switchTab('pdf'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300" data-target="pdf"><i class="fa-solid fa-book w-4 text-center text-red-400"></i> PDF Original</button>
           </div>
         </div>
       </div>
