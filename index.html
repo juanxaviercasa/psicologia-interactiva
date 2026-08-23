@@ -170,10 +170,12 @@
 
           
         <!-- Theme Toggle -->
-        <button onclick="App.toggleTheme()" <button onclick="App.openAIEngineModal()" class="px-3 py-1.5 rounded-lg bg-cyan-950/80 border border-cyan-500/40 text-cyan-300 hover:bg-cyan-900/60 hover:text-white transition-all text-xs font-bold flex items-center gap-1.5 shadow-sm" title="Configurar APIs de IA (Google, Groq, Qwen, Mistral)">
+        
+        <button onclick="App.openAIEngineModal()" class="px-3 py-1.5 rounded-lg bg-cyan-950/80 border border-cyan-500/40 text-cyan-300 hover:bg-cyan-900/60 hover:text-white transition-all text-xs font-bold flex items-center gap-1.5 shadow-sm" title="Configurar APIs de IA (Google, Groq, Qwen, Mistral)">
           <i class="fa-solid fa-microchip text-cyan-400"></i> <span class="hidden sm:inline">Centro IA</span>
         </button>
-        id="themeToggleBtn" class="w-10 h-10 rounded-xl bg-slate-900/90 border border-slate-800 flex items-center justify-center text-amber-400 hover:text-amber-300 hover:border-amber-500/50 shadow-sm transition-all hover:scale-105">
+        <button onclick="App.toggleTheme()" id="themeToggleBtn"
+ class="w-10 h-10 rounded-xl bg-slate-900/90 border border-slate-800 flex items-center justify-center text-amber-400 hover:text-amber-300 hover:border-amber-500/50 shadow-sm transition-all hover:scale-105">
             <i class="fa-solid fa-sun text-lg" id="themeIcon"></i>
         </button>
           <!-- BOTÓN BASES CIENTÍFICAS (AYUDA) -->
