@@ -124,7 +124,12 @@
               <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-300 to-indigo-400 text-lg tracking-tight">PSICOLOGÍA OSCURA</span>
               <span class="px-1.5 py-0.5 text-[10px] font-mono font-bold bg-cyan-950 text-cyan-400 border border-cyan-700/50 rounded">6 EN 1</span>
             </div>
-            <p class="text-xs text-slate-400 hidden sm:block">Sistema de Maestría Estratégica • Benedict Goleman</p>
+            <div class="flex flex-col mt-0.5">
+              <p class="text-[0.65rem] sm:text-xs text-slate-400 font-medium tracking-wide">Sistema de Maestría Estratégica</p>
+              <p class="text-[0.55rem] sm:text-[0.65rem] text-slate-500 font-mono flex items-center gap-1 uppercase tracking-widest mt-0.5">
+                <i class="fa-solid fa-pen-nib text-cyan-500"></i> Autor: Benedict Goleman
+              </p>
+            </div>
           </div>
         </div>
 
@@ -220,79 +225,45 @@
       </div>
 
       <!-- Main Navigation Menu -->
-      <div id="mobile-menu" class="hidden md:flex flex-col md:flex-row md:flex-wrap max-w-7xl mx-auto px-4 md:items-center md:justify-center py-4 md:py-1 gap-4 md:gap-x-2 md:gap-y-1">
+      <div id="mobile-menu" class="hidden md:flex flex-col md:flex-row md:flex-wrap max-w-7xl mx-auto px-4 md:items-center md:justify-center py-4 md:py-2 gap-4 md:gap-x-2 md:gap-y-1">
         
-        <!-- Grupo: Aprendizaje -->
-        <div class="flex flex-col md:flex-row gap-1 border-b border-slate-800/50 md:border-none pb-3 md:pb-0">
-          <span class="text-[10px] uppercase text-slate-500 font-bold px-3 mb-1 md:hidden tracking-wider">Módulo de Aprendizaje</span>
+        <!-- Pestañas Principales -->
+        <div class="flex flex-col md:flex-row gap-1">
           <button onclick="App.switchTab('dashboard'); closeMobileMenu()" id="tab-btn-dashboard" class="nav-tab active px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
             <i class="fa-solid fa-chart-pie w-4 text-center"></i> Dashboard
           </button>
           <button onclick="App.switchTab('learning'); closeMobileMenu()" id="tab-btn-learning" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
-            <i class="fa-solid fa-brain w-4 text-center"></i> Academia
+            <i class="fa-solid fa-book-open w-4 text-center"></i> Academia
           </button>
           <button onclick="App.switchTab('matrix'); closeMobileMenu()" id="tab-btn-matrix" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
             <i class="fa-solid fa-shield-virus w-4 text-center"></i> Matriz
           </button>
-          <button onclick="App.switchTab('glossary'); closeMobileMenu()" id="tab-btn-glossary" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
-            <i class="fa-solid fa-file-invoice w-4 text-center"></i> Glosario
-          </button>
-        </div>
-
-        <div class="hidden md:block w-px h-5 bg-slate-800 mx-1"></div>
-
-        <!-- Grupo: Práctica -->
-        <div class="flex flex-col md:flex-row gap-1 border-b border-slate-800/50 md:border-none pb-3 md:pb-0">
-          <span class="text-[10px] uppercase text-slate-500 font-bold px-3 mb-1 md:hidden tracking-wider">Entrenamiento</span>
           <button onclick="App.switchTab('simulator'); closeMobileMenu()" id="tab-btn-simulator" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
             <i class="fa-solid fa-chess-knight w-4 text-center"></i> Simulador
           </button>
           <button onclick="App.switchTab('flashcards'); closeMobileMenu()" id="tab-btn-flashcards" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
-            <i class="fa-solid fa-bolt w-4 text-center text-yellow-400/70"></i> Flashcards
-          </button>
-          <button onclick="App.switchTab('bodylab'); closeMobileMenu()" id="tab-btn-bodylab" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
-            <i class="fa-solid fa-eye w-4 text-center text-emerald-400/70"></i> No Verbal
-          </button>
-          <button onclick="App.switchTab('quizzes'); closeMobileMenu()" id="tab-btn-quizzes" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
-            <i class="fa-solid fa-trophy w-4 text-center text-amber-400/70"></i> Quizzes
+            <i class="fa-solid fa-bolt w-4 text-center text-yellow-500"></i> Flashcards
           </button>
         </div>
 
-        <div class="hidden md:block w-px h-5 bg-slate-800 mx-1"></div>
-
-        <!-- Grupo: Avanzado -->
-        <div class="flex flex-col md:flex-row gap-1 pb-2 md:pb-0">
-          <span class="text-[10px] uppercase text-slate-500 font-bold px-3 mb-1 md:hidden tracking-wider">Avanzado</span>
-          <button onclick="App.switchTab('skilltree'); closeMobileMenu()" id="tab-btn-skilltree" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-indigo-400 hover:text-indigo-300 hover:bg-indigo-950/40">
-            <i class="fa-solid fa-sitemap w-4 text-center"></i> Skill Tree
+        <!-- Dropdown Más Herramientas -->
+        <div class="relative group z-[60]">
+          <button class="px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
+            <i class="fa-solid fa-layer-group w-4 text-center"></i> Más Herramientas <i class="fa-solid fa-chevron-down text-[0.6rem] ml-1 opacity-70 transition-transform group-hover:rotate-180"></i>
           </button>
-          <button onclick="App.switchTab('sparring'); closeMobileMenu()" id="tab-btn-sparring" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-rose-400 hover:text-rose-300 hover:bg-rose-950/40">
-            <i class="fa-solid fa-robot w-4 text-center"></i> Sparring AI
-          </button>
-          <button onclick="App.switchTab('auditor'); closeMobileMenu()" id="tab-btn-auditor" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-emerald-400 hover:text-emerald-300 hover:bg-emerald-950/40">
-            <i class="fa-solid fa-user-secret w-4 text-center"></i> Auditor
-          </button>
-          <button onclick="App.switchTab('certificate'); closeMobileMenu()" id="tab-btn-certificate" class="nav-tab px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-amber-400 hover:text-amber-300 hover:bg-amber-950/40">
-            <i class="fa-solid fa-award w-4 text-center"></i> Certificado
-          </button>
+          <div class="absolute right-0 top-full mt-1 hidden group-hover:flex flex-col bg-slate-900 border border-slate-700 rounded-xl shadow-2xl overflow-hidden min-w-[200px]">
+            <button onclick="App.switchTab('glossary'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="glossary"><i class="fa-solid fa-file-word w-4 text-center"></i> Glosario</button>
+            <button onclick="App.switchTab('noverbal'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="noverbal"><i class="fa-solid fa-eye w-4 text-center"></i> No Verbal</button>
+            <button onclick="App.switchTab('quizzes'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="quizzes"><i class="fa-solid fa-trophy w-4 text-center text-amber-500"></i> Quizzes</button>
+            <button onclick="App.switchTab('skilltree'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="skilltree"><i class="fa-solid fa-sitemap w-4 text-center text-emerald-400"></i> Skill Tree</button>
+            <button onclick="App.switchTab('sparring'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="sparring"><i class="fa-solid fa-robot w-4 text-center text-cyan-400"></i> Sparring AI</button>
+            <button onclick="App.switchTab('auditor'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="auditor"><i class="fa-solid fa-microchip w-4 text-center text-indigo-400"></i> Auditor</button>
+            <button onclick="App.switchTab('certificate'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="certificate"><i class="fa-solid fa-award w-4 text-center text-yellow-400"></i> Certificado</button>
+            <button onclick="App.switchTab('pdf'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300" data-target="pdf"><i class="fa-solid fa-book w-4 text-center text-red-400"></i> PDF Original</button>
+          </div>
         </div>
-
-        <!-- PDF Original -->
-        <a href="Psicologia_Oscura_6_en_1.pdf" target="_blank" class="md:border-l md:border-slate-800 md:pl-2 px-3 py-2 md:py-1 rounded-lg text-sm md:text-[11px] font-semibold flex items-center gap-2 whitespace-nowrap text-cyan-400 border border-cyan-500/30 md:border-transparent hover:border-cyan-500/30 hover:bg-cyan-950/50 hover:text-cyan-300 transition-all justify-center md:justify-start">
-          <i class="fa-solid fa-book-open"></i> PDF
-        </a>
-
       </div>
-    </nav>
-    
-    <script>
-      function closeMobileMenu() {
-        if(window.innerWidth < 768) {
-            document.getElementById('mobile-menu').classList.add('hidden');
-        }
-      }
-    </script>
-  </header>
+    </header>
 
   <!-- CONTENIDO PRINCIPAL DINÁMICO -->
   <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-8">
