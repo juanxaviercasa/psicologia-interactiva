@@ -2413,8 +2413,121 @@ const App = {
   // =============================================
   // SPARRING AI
   // =============================================
+    // ==========================================
+  // VOICE SPARRING AI INTEGRATION
+  // ==========================================
+  
+  voiceState: {
+    isActive: false,
+    recognition: null,
+    isListening: false
+  },
+
+  toggleVoiceMode() {
+    const orb = document.getElementById('voiceOrbContainer');
+    this.voiceState.isActive = !this.voiceState.isActive;
+    
+    if (this.voiceState.isActive) {
+      orb.classList.remove('hidden');
+      this.initVoiceRecognition();
+    } else {
+      orb.classList.add('hidden');
+      if (this.voiceState.recognition) {
+        this.voiceState.recognition.stop();
+      }
+      if (window.speechSynthesis && window.speechSynthesis.speaking) {
+        window.speechSynthesis.cancel();
+      }
+    }
+  },
+
+  initVoiceRecognition() {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!SpeechRecognition) {
+      alert("Tu navegador no soporta Reconocimiento de Voz. Intenta usar Google Chrome o Edge.");
+      this.toggleVoiceMode();
+      return;
+    }
+
+    if (!this.voiceState.recognition) {
+      this.voiceState.recognition = new SpeechRecognition();
+      this.voiceState.recognition.lang = 'es-ES';
+      this.voiceState.recognition.interimResults = false;
+      this.voiceState.recognition.maxAlternatives = 1;
+
+      this.voiceState.recognition.onstart = () => {
+        this.voiceState.isListening = true;
+        document.getElementById('voiceStatusText').innerText = 'IA Escuchando...';
+        document.getElementById('orbCore').classList.add('scale-110');
+      };
+
+      this.voiceState.recognition.onresult = (event) => {
+        const transcript = event.results[0][0].transcript;
+        document.getElementById('sparringInput').value = transcript;
+        document.getElementById('voiceStatusText').innerText = 'Procesando Táctica...';
+        document.getElementById('orbCore').classList.remove('scale-110');
+        this.sendSparringMessage();
+      };
+
+      this.voiceState.recognition.onspeechend = () => {
+        this.voiceState.recognition.stop();
+      };
+
+      this.voiceState.recognition.onerror = (event) => {
+        console.error("Speech Recognition Error:", event.error);
+        if (this.voiceState.isActive) {
+            setTimeout(() => { if (!this.voiceState.isListening) this.voiceState.recognition.start(); }, 1000);
+        }
+      };
+      
+      this.voiceState.recognition.onend = () => {
+        this.voiceState.isListening = false;
+        // Auto-restart happens after speaking is done
+      };
+    }
+    
+    // Start listening
+    if (!this.voiceState.isListening && window.speechSynthesis && !window.speechSynthesis.speaking) {
+        try { this.voiceState.recognition.start(); } catch(e){}
+    }
+  },
+
+  speakSparringResponse(text) {
+    if (!window.speechSynthesis || !this.voiceState.isActive) return;
+    
+    // Regex cleanup logic (raw string friendly)
+    let cleanText = text.replace(/[*#_`]/g, '');
+    
+    const utterance = new SpeechSynthesisUtterance(cleanText);
+    utterance.lang = 'es-ES';
+    utterance.pitch = 0.8; 
+    utterance.rate = 1.0; 
+    
+    const voices = window.speechSynthesis.getVoices();
+    const maleVoice = voices.find(v => v.lang.includes('es') && (v.name.includes('Male') || v.name.includes('Pablo') || v.name.includes('Jorge')));
+    if (maleVoice) utterance.voice = maleVoice;
+
+    utterance.onstart = () => {
+      document.getElementById('voiceStatusText').innerText = 'IA Hablando...';
+      document.getElementById('orbRing1').classList.add('border-indigo-500');
+      document.getElementById('orbRing2').classList.add('border-rose-500');
+    };
+
+    utterance.onend = () => {
+      document.getElementById('voiceStatusText').innerText = 'IA Escuchando...';
+      document.getElementById('orbRing1').classList.remove('border-indigo-500');
+      document.getElementById('orbRing2').classList.remove('border-rose-500');
+      
+      if (this.voiceState.isActive && !this.voiceState.isListening) {
+        try { this.voiceState.recognition.start(); } catch(e){}
+      }
+    };
+
+    window.speechSynthesis.speak(utterance);
+  },
+
   async sendSparringMessage(e) {
-    e.preventDefault();
+    if (e) e.preventDefault();
     const input = document.getElementById('sparringInput');
     const msg = input.value.trim();
     if (!msg) return;
@@ -2423,6 +2536,8 @@ const App = {
 
     box.innerHTML += `<div class="flex items-start gap-3 justify-end"><div class="bg-indigo-600 rounded-2xl rounded-tr-none p-3 max-w-[80%] text-sm text-white">${msg}</div></div>`;
     box.scrollTop = box.scrollHeight;
+    
+    if(!this.state.sparringHistory) this.state.sparringHistory = [];
     this.state.sparringHistory.push({ role: 'user', text: msg });
 
     const typingId = 'typing-' + Date.now();
@@ -2430,13 +2545,24 @@ const App = {
     box.scrollTop = box.scrollHeight;
 
     try {
-      const reply = await AIEngine.sparringChat(msg, this.state.sparringHistory);
+      const reply = await window.AIEngine.sparringChat(msg, this.state.sparringHistory);
       document.getElementById(typingId)?.remove();
       this.state.sparringHistory.push({ role: 'ai', text: reply });
       box.innerHTML += `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-rose-950 flex items-center justify-center text-rose-400 border border-rose-800"><i class="fa-solid fa-mask"></i></div><div class="bg-slate-800 rounded-2xl rounded-tl-none p-3 max-w-[80%] text-sm text-slate-200 whitespace-pre-line">${reply}</div></div>`;
       box.scrollTop = box.scrollHeight;
+      
+      if (this.voiceState.isActive) {
+         this.speakSparringResponse(reply);
+      }
+      
     } catch (err) {
-      document.getElementById(typingId).innerHTML = `<span class="text-rose-500 text-xs">Error: ${err.message}</span>`;
+      console.error(err);
+      document.getElementById(typingId)?.remove();
+      box.innerHTML += `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-red-900/50 flex items-center justify-center text-red-400 border border-red-800"><i class="fa-solid fa-triangle-exclamation"></i></div><div class="bg-red-950/20 border border-red-900/50 rounded-2xl rounded-tl-none p-3 max-w-[80%] text-sm text-red-400">Error de conexión. ¿Te intimidé demasiado? (Asegúrate de configurar tu API Key de Gemini en el Centro IA).</div></div>`;
+      box.scrollTop = box.scrollHeight;
+      if (this.voiceState.isActive && !this.voiceState.isListening) {
+          try { this.voiceState.recognition.start(); } catch(e){}
+      }
     }
   },
 
