@@ -592,7 +592,13 @@
               <div class="text-xs uppercase tracking-widest text-cyan-400 font-mono mb-4 flex items-center gap-1">
                 <i class="fa-solid fa-circle-question"></i> Desafío de Memoria Activa
               </div>
-              <h3 class="text-lg sm:text-xl font-bold text-white leading-relaxed my-auto text-center" id="fcFrontText">
+              
+              <!-- Imagen Descriptiva Flashcard -->
+              <div class="w-full h-32 md:h-48 mb-4 rounded-xl overflow-hidden shrink-0 border border-slate-700/80 shadow-[0_0_15px_rgba(0,0,0,0.5)] bg-slate-900 relative">
+                 <img id="fcFrontImg" src="" alt="Flashcard visual" class="absolute inset-0 w-full h-full object-cover opacity-90 transition-transform duration-700 hover:scale-105">
+                 <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-80"></div>
+              </div>
+              <h3 class="text-base sm:text-lg font-bold text-white leading-relaxed my-auto text-center relative z-10" id="fcFrontText">
                 Cargando pregunta...
               </h3>
               <div class="text-xs text-slate-400 mt-4 flex items-center gap-1 self-center">
