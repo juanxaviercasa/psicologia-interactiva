@@ -843,7 +843,58 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
         { id: 'opt-A', text: 'Confrontarlo públicamente, llamarlo mentiroso y amenazar con renunciar.', outcome: 'Autodestrucción Profesional', wisdomScore: 5, analysis: 'Perdiste el Sistema 2. Él justificó su decisión ante los demás y tú quedas como el inestable.', bookInsight: 'El maquiavélico espera que te autodestruyas en público. Es parte del plan.' },
         { id: 'opt-B', text: 'Aceptar callado para no perder el trabajo.', outcome: 'Sumisión Validada', wisdomScore: 0, analysis: 'Refuerzas su táctica de falso futuro. Serás explotado indefinidamente sin ascenso real.', bookInsight: 'Premiar el Future Faking garantiza su repetición (Refuerzo Intermitente).' },
         { id: 'opt-C', text: 'Agradecer neutralmente en público. En privado, pedir compromisos escritos con fecha y reducir horas extra al mínimo contractual.', outcome: 'Contra-Táctica Activa', wisdomScore: 100, analysis: 'No le das supply público. En privado, recuperas tu poder cortando la entrega no remunerada y documentando.', bookInsight: 'Future Faking se neutraliza con: ¿qué paso concreto ocurre HOY? + documentación.' }
+      ,
+// --- NUEVOS CASOS (EXPANSIÓN) ---
+    {
+      id: 'case-9', category: 'Familiar', title: 'La Triangulación Fraterna', difficulty: 'Media', badge: 'FAMILIAR',
+      scenarioDescription: 'Tu madre te llama llorando diciendo: "Tu hermano me dijo que tú no quieres venir a Navidad porque me odias". Tú nunca dijiste eso, pero sabes que tu hermano necesita dinero y está intentando quedar como "el buen hijo".',
+      options: [
+        { id: 'opt-A', text: 'Llamar a tu hermano gritando e insultándolo por mentiroso.', outcome: 'Drama Garantizado', wisdomScore: 0, analysis: 'Caíste en la trampa. Tu hermano le dirá a tu madre: "Mira lo agresivo que es".', bookInsight: 'El triángulo dramático necesita un perseguidor. No asumas ese rol.' },
+        { id: 'opt-B', text: 'Decirle a tu madre: "No sé por qué él dijo eso, pero yo te amo y nos vemos en Navidad". Y no decirle NADA a tu hermano.', outcome: 'Triángulo Roto', wisdomScore: 10, analysis: 'Neutralizaste la táctica rompiendo la triangulación.', bookInsight: 'Corta la comunicación a través de terceros. Habla directo con el objetivo.' }
       ]
+    },
+    {
+      id: 'case-10', category: 'Pareja', title: 'El Falso Futuro (Future Faking)', difficulty: 'Alta', badge: 'PAREJA',
+      scenarioDescription: 'Tu pareja lleva meses sin trabajar mientras tú pagas todo. Cuando le dices que no puedes más, te responde: "Justo hoy envié mis papeles para la visa a Europa, nos iremos juntos en un mes, te lo prometo. Solo aguanta un poco más". No hay pruebas de esa visa.',
+      options: [
+        { id: 'opt-A', text: 'Emocionarte y darle un mes más de plazo creyendo ciegamente.', outcome: 'Extracción de Recursos', wisdomScore: 0, analysis: 'Has comprado una mentira empaquetada en tus propios sueños.', bookInsight: 'El "Future Faking" se basa en prometer lo que más deseas a cambio de tu sacrificio hoy.' },
+        { id: 'opt-B', text: 'Responder: "Qué bueno, me alegro. Pero hasta que eso no se concrete, hoy debes empezar a buscar empleo aquí." y no darle dinero.', outcome: 'Límites Claros', wisdomScore: 10, analysis: 'Mantuviste el contacto con el presente. Los hechos matan las fantasías.', bookInsight: 'Solo se juzga por acciones en tiempo presente, nunca por promesas futuras.' }
+      ]
+    },
+    {
+      id: 'case-11', category: 'Social', title: 'El Bombardeo de Amor', difficulty: 'Baja', badge: 'SOCIAL',
+      scenarioDescription: 'Acabas de conocer a un colega hace dos días. Te ha regalado un café, te elogia constantemente frente a los jefes y te invita a su casa el fin de semana. "Siento que somos almas gemelas en esta empresa, hermano".',
+      options: [
+        { id: 'opt-A', text: 'Confiar plenamente y contarle los problemas que tienes con el gerente.', outcome: 'Traición Inminente', wisdomScore: 0, analysis: 'Te abriste demasiado rápido ante un encanto artificial.', bookInsight: 'La intimidad acelerada siempre oculta una agenda de recolección de información.' },
+        { id: 'opt-B', text: 'Agradecer amablemente, pero mantener tus opiniones en reserva y declinar la invitación.', outcome: 'Escudo Activo', wisdomScore: 10, analysis: 'Ganaste tiempo para observar si su actitud es consistente.', bookInsight: 'Ralentiza el tiempo de la relación. El manipulador se frustra cuando no cedes rápido.' }
+      ]
+    },
+    {
+      id: 'case-12', category: 'Laboral', title: 'Gaslighting Corporativo', difficulty: 'Alta', badge: 'LABORAL',
+      scenarioDescription: 'Entregaste un informe tal como te lo pidió tu jefa. Ella lo revisa en público y dice: "¿Por qué hiciste esto? Te dije claramente que el formato era otro. Siempre entiendes todo al revés". Tienes el correo donde ella pidió el formato actual.',
+      options: [
+        { id: 'opt-A', text: 'Llorar, pedir perdón y dudar de tu propia memoria.', outcome: 'Demolición Psicológica', wisdomScore: 0, analysis: 'El Gaslighting triunfó. Has cedido tu percepción de la realidad.', bookInsight: 'Quien controla tu memoria, controla tu autoconfianza.' },
+        { id: 'opt-B', text: 'Responder con calma: "Revisemos el correo del martes a las 9 am donde acordamos este formato".', outcome: 'Defensa con Pruebas', wisdomScore: 10, analysis: 'Detuviste la luz de gas con el ancla de la realidad escrita.', bookInsight: 'Contra el Gaslighting documental, la única cura es el registro estricto.' }
+      ]
+    },
+    {
+      id: 'case-13', category: 'Ventas', title: 'La Ilusión de Escasez', difficulty: 'Media', badge: 'VENTAS',
+      scenarioDescription: 'El vendedor te dice: "Este modelo de coche es el último en todo el país. Y tengo a otra familia viniendo a las 4 pm con el cheque en mano. O firmas ahora, o lo pierdes para siempre".',
+      options: [
+        { id: 'opt-A', text: 'Sentir pánico y firmar el contrato de inmediato sin leer.', outcome: 'Compra Impulsiva', wisdomScore: 0, analysis: 'El miedo a la pérdida apagó tu corteza prefrontal.', bookInsight: 'La escasez artificial crea falsa urgencia para forzar decisiones irracionales.' },
+        { id: 'opt-B', text: 'Decir: "Que lo compre la otra familia. Seguiré buscando". Y levantarte.', outcome: 'Recuperación de Poder', wisdomScore: 10, analysis: 'Rompiste el encuadre. Probablemente te llame antes de que llegues a la puerta.', bookInsight: 'La disposición a alejarte (walk-away power) es el antídoto contra la urgencia.' }
+      ]
+    },
+    {
+      id: 'case-14', category: 'Negocios', title: 'El Bueno y el Malo', difficulty: 'Alta', badge: 'NEGOCIOS',
+      scenarioDescription: 'En la mesa de negociación, el Abogado A te grita, te insulta y exige concesiones brutales. Luego se va. El Abogado B se acerca, suspira, y te dice: "Mi compañero está loco, perdóname. Mira, firma este acuerdo más razonable y yo me peleo con él para que lo acepte". El "acuerdo razonable" sigue siendo perjudicial para ti.',
+      options: [
+        { id: 'opt-A', text: 'Sentir alivio y firmar el acuerdo del Abogado B.', outcome: 'Táctica Policial', wisdomScore: 0, analysis: 'Caíste en la táctica del Poli Bueno, Poli Malo. El alivio nubló tu juicio.', bookInsight: 'El contraste de emociones te hace aceptar un mal trato solo porque es "menos malo" que el anterior.' },
+        { id: 'opt-B', text: 'Decir: "Valoro tu intención, pero los números siguen sin cuadrar. Esta es mi oferta final para ambos".', outcome: 'Anclaje Frío', wisdomScore: 10, analysis: 'Reconociste que ambos abogados trabajan para el mismo objetivo.', bookInsight: 'Desvincula la emoción (alivio) de las matemáticas del trato.' }
+      ]
+    }
+  ]
+  ]
     },
     {
       id: 'case-2', category: 'Relaciones', title: 'El Ataque DARVO en Pareja', difficulty: 'Crítica', badge: 'PAREJA',
