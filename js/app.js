@@ -189,10 +189,10 @@ const App = {
     quizList: [],
     timerSeconds: 45,
     timerInterval: null,
-    startTime: null
+    startTime: null,
+    hasStarted: false
   },
 
-  // Barajador de Fisher-Yates para permutar opciones aleatoriamente
   shuffleOptions(options, correctIndex) {
     const combined = options.map((opt, i) => ({ opt, isCorrect: i === correctIndex }));
     for (let i = combined.length - 1; i > 0; i--) {
@@ -217,7 +217,6 @@ const App = {
     const pConcept = pillar.storytellingConcept || pillar.concept || 'Concepto de análisis conductual.';
     const pShield = pillar.tacticalShield || pillar.tacticalRule || 'Regla del escudo: Pausar, verificar y no justificar tu negativa.';
 
-    // Base de 5 preguntas calibradas en los 5 niveles cognitivos de Bloom
     const rawQuestions = [
       {
         badge: '🏛️ NIVEL 1: BASE NEUROBIOLÓGICA Y CONCEPTUAL',
@@ -281,7 +280,6 @@ const App = {
       }
     ];
 
-    // Barajamos aleatoriamente las opciones de cada pregunta (Fisher-Yates)
     const randomizedQuestions = rawQuestions.map(q => {
       const shuffled = this.shuffleOptions(q.options, q.correctIndex);
       return {
@@ -305,110 +303,109 @@ const App = {
       quizList: randomizedQuestions,
       timerSeconds: 45,
       timerInterval: null,
-      startTime: Date.now()
+      startTime: null,
+      hasStarted: false
     };
 
-    this.renderQuizStep();
-  },
+    // Consultamos si ya tiene nota previa guardada
+    const scoreKey = `score_m${modNumber}_p${pIndex}`;
+    const scores = JSON.parse(localStorage.getItem('userPillarScores') || '{}');
+    const pastResult = scores[scoreKey] || null;
 
-  startQuizTimer() {
-    this.stopQuizTimer();
-    this.quizState.timerSeconds = 45;
-    this.quizState.startTime = Date.now();
-
-    const timerEl = document.getElementById('quizTimerText');
-    const timerBar = document.getElementById('quizTimerBar');
-
-    this.quizState.timerInterval = setInterval(() => {
-      if (this.quizState.isAnswered) {
-        this.stopQuizTimer();
-        return;
+    // Actualizar estado del botón de completar lección
+    const btnComplete = document.getElementById('btnCompleteLesson');
+    if (btnComplete) {
+      if (pastResult && pastResult.passed) {
+        btnComplete.disabled = false;
+        btnComplete.classList.remove('opacity-50', 'cursor-not-allowed');
+      } else {
+        btnComplete.disabled = true;
+        btnComplete.classList.add('opacity-50', 'cursor-not-allowed');
       }
-
-      this.quizState.timerSeconds--;
-      const secs = this.quizState.timerSeconds;
-
-      if (timerEl) {
-        timerEl.innerText = `${secs}s`;
-        if (secs <= 10) {
-          timerEl.className = 'text-xs font-mono font-bold text-rose-400 animate-pulse';
-        } else if (secs <= 20) {
-          timerEl.className = 'text-xs font-mono font-bold text-amber-400';
-        } else {
-          timerEl.className = 'text-xs font-mono font-bold text-cyan-400';
-        }
-      }
-
-      if (timerBar) {
-        const pct = Math.max(0, (secs / 45) * 100);
-        timerBar.style.width = `${pct}%`;
-        if (secs <= 10) {
-          timerBar.className = 'bg-rose-500 h-full transition-all duration-1000';
-        } else if (secs <= 20) {
-          timerBar.className = 'bg-amber-500 h-full transition-all duration-1000';
-        } else {
-          timerBar.className = 'bg-gradient-to-r from-cyan-500 to-indigo-500 h-full transition-all duration-1000';
-        }
-      }
-
-      if (secs <= 0) {
-        this.stopQuizTimer();
-        this.handleQuizTimeout();
-      }
-    }, 1000);
-  },
-
-  stopQuizTimer() {
-    if (this.quizState.timerInterval) {
-      clearInterval(this.quizState.timerInterval);
-      this.quizState.timerInterval = null;
     }
+
+    // Renderizamos el Lobby de Inicio (No arranca solo)
+    this.renderQuizLobby(pastResult);
   },
 
-  handleQuizTimeout() {
-    if (this.quizState.isAnswered) return;
-    this.quizState.isAnswered = true;
-    this.quizState.selectedOption = -1; // Tiempo expirado
+  renderQuizLobby(pastResult) {
+    const container = document.getElementById('quizInteractiveContainer');
+    if (!container) return;
 
     const state = this.quizState;
-    const q = state.quizList[state.currentStep];
+    const hasHistory = pastResult !== null;
+    const isPassed = hasHistory && pastResult.passed;
 
-    // Resaltar la respuesta correcta
-    q.options.forEach((_, i) => {
-      const btn = document.getElementById(`quiz-opt-${i}`);
-      if (!btn) return;
-      if (i === q.correctIndex) {
-        btn.className = 'w-full text-left p-4 rounded-xl border-2 border-emerald-500 bg-emerald-950/50 text-emerald-100 shadow-[0_0_20px_rgba(16,185,129,0.3)] transition-all text-sm flex items-start gap-3.5';
-      } else {
-        btn.className = 'w-full text-left p-4 rounded-xl border border-slate-800 bg-slate-950/40 text-slate-500 opacity-50 text-sm flex items-start gap-3.5';
-      }
-      btn.disabled = true;
-    });
-
-    const feedbackBox = document.getElementById('quizFeedbackBox');
-    if (feedbackBox) {
-      feedbackBox.classList.remove('hidden');
-      feedbackBox.className = 'p-5 rounded-xl text-sm font-medium border border-rose-500/50 bg-rose-950/40 text-rose-200 mt-4 shadow-lg animate-fade-in flex items-start gap-3';
-      feedbackBox.innerHTML = `
-        <i class="fa-solid fa-clock text-rose-400 text-xl mt-0.5 shrink-0 animate-pulse"></i>
-        <div>
-          <div class="font-bold text-rose-300 mb-1">¡Tiempo Expirado! (0 puntos)</div>
-          <p class="text-slate-300 leading-relaxed">${q.explanation}</p>
+    container.innerHTML = `
+      <div class="p-6 sm:p-8 rounded-2xl bg-slate-950/80 border border-slate-800 space-y-6 text-center animate-fade-in shadow-inner">
+        <div class="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-500/20 to-indigo-500/20 border border-amber-500/30 text-amber-400 text-3xl shadow-lg">
+          <i class="fa-solid fa-brain"></i>
         </div>
-      `;
-    }
 
-    const actionBtn = document.getElementById('btnQuizAction');
-    if (actionBtn) {
-      const isLast = (state.currentStep === state.totalSteps - 1);
-      actionBtn.innerHTML = isLast ? '<span>Ver Resultados Finales</span> <i class="fa-solid fa-trophy"></i>' : '<span>Siguiente Pregunta</span> <i class="fa-solid fa-arrow-right"></i>';
-      actionBtn.className = 'px-6 py-3 rounded-xl bg-gradient-to-r from-indigo-600 to-cyan-600 hover:from-indigo-500 hover:to-cyan-500 text-white font-bold text-xs uppercase tracking-wider transition-all flex items-center gap-2 shadow-lg shadow-indigo-500/20 cursor-pointer';
-      actionBtn.disabled = false;
-      actionBtn.onclick = () => {
-        state.currentStep++;
-        this.renderQuizStep();
-      };
-    }
+        <div class="space-y-2 max-w-md mx-auto">
+          <h4 class="text-xl font-bold text-white tracking-wide">
+            Entrenamiento de Asimilación Táctica
+          </h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Pon a prueba tu agilidad mental frente a 5 escenarios tácticos simulados. El examen no se detendrá una vez que inicies.
+          </p>
+        </div>
+
+        <!-- Indicadores de Reglas del Examen -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 max-w-lg mx-auto text-left">
+          <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
+            <div class="text-[10px] font-mono text-slate-500 uppercase">Preguntas</div>
+            <div class="text-sm font-bold text-slate-200 flex items-center gap-1.5 mt-0.5">
+              <i class="fa-solid fa-list-ol text-cyan-400 text-xs"></i> 5 Niveles
+            </div>
+          </div>
+          <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
+            <div class="text-[10px] font-mono text-slate-500 uppercase">Tiempo</div>
+            <div class="text-sm font-bold text-slate-200 flex items-center gap-1.5 mt-0.5">
+              <i class="fa-solid fa-stopwatch text-amber-400 text-xs"></i> 45s / Preg.
+            </div>
+          </div>
+          <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
+            <div class="text-[10px] font-mono text-slate-500 uppercase">Nota Mínima</div>
+            <div class="text-sm font-bold text-emerald-400 flex items-center gap-1.5 mt-0.5">
+              <i class="fa-solid fa-shield-check text-emerald-400 text-xs"></i> 80% (4/5)
+            </div>
+          </div>
+          <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
+            <div class="text-[10px] font-mono text-slate-500 uppercase">Recompensa</div>
+            <div class="text-sm font-bold text-amber-300 flex items-center gap-1.5 mt-0.5">
+              <i class="fa-solid fa-award text-amber-400 text-xs"></i> Medalla + XP
+            </div>
+          </div>
+        </div>
+
+        <!-- Estado de la Última Nota -->
+        <div class="p-4 rounded-xl max-w-lg mx-auto ${hasHistory ? (isPassed ? 'bg-emerald-950/30 border border-emerald-500/40 text-emerald-300' : 'bg-rose-950/30 border border-rose-500/40 text-rose-300') : 'bg-slate-900/60 border border-slate-800 text-slate-400'} flex items-center justify-between text-xs font-mono">
+          <span class="flex items-center gap-2">
+            <i class="fa-solid ${hasHistory ? (isPassed ? 'fa-circle-check text-emerald-400 text-base' : 'fa-triangle-exclamation text-rose-400 text-base') : 'fa-hourglass-start text-cyan-400'}"></i>
+            <span>${hasHistory ? `Última Nota: ${pastResult.score}/5 (${pastResult.score * 20}%) - ${isPassed ? 'Aprobado 🥈' : 'No Aprobado ⚠️'}` : 'Estado: Pendiente de Evaluación'}</span>
+          </span>
+          <span class="text-[10px] ${isPassed ? 'text-emerald-400 font-bold' : 'text-slate-500'}">
+            ${isPassed ? 'Lección Desbloqueada' : 'Bloqueado (Requiere 4/5)'}
+          </span>
+        </div>
+
+        <!-- Botón de Inicio con Acción Directa -->
+        <div class="pt-2">
+          <button onclick="App.startQuizQuestions()" class="px-8 py-3.5 rounded-xl bg-gradient-to-r from-amber-500 via-indigo-600 to-cyan-500 hover:from-amber-400 hover:via-indigo-500 hover:to-cyan-400 text-white font-bold text-xs uppercase tracking-widest transition-all shadow-xl shadow-indigo-500/25 flex items-center gap-3 mx-auto cursor-pointer">
+            <i class="fa-solid fa-play text-sm"></i>
+            <span>${hasHistory ? 'Reintentar Evaluación (Opciones Barajadas)' : 'Iniciar Evaluación Táctica'}</span>
+          </button>
+        </div>
+      </div>
+    `;
+  },
+
+  startQuizQuestions() {
+    this.quizState.hasStarted = true;
+    this.quizState.currentStep = 0;
+    this.quizState.score = 0;
+    this.renderQuizStep();
   },
 
   renderQuizStep() {
@@ -617,7 +614,19 @@ const App = {
     let titleText = isGold ? '¡MEDALLA DE ORO: MAESTRÍA TÁCTICA 100%!' : (isSilver ? '¡MEDALLA DE PLATA: ESCUDO DEFENSIVO APROBADO (80%)!' : 'EVALUACIÓN NO APROBADA (REQUIERE 80%)');
     let badgeColor = isGold ? 'border-amber-400 bg-amber-500/10 text-amber-300 shadow-[0_0_30px_rgba(251,191,36,0.3)]' : (isSilver ? 'border-cyan-400 bg-cyan-500/10 text-cyan-300 shadow-[0_0_25px_rgba(6,182,212,0.3)]' : 'border-rose-500 bg-rose-950/30 text-rose-300');
 
-    // Guardar medalla en el historial del usuario
+    // Guardar nota y medalla en el historial del usuario
+    const scoreKey = `score_m${state.modNumber}_p${state.pIndex}`;
+    let allScores = JSON.parse(localStorage.getItem('userPillarScores') || '{}');
+    allScores[scoreKey] = {
+      score: state.score,
+      total: state.totalSteps,
+      percentage: state.score * 20,
+      passed: isPassed,
+      tier: isGold ? 'Oro' : (isSilver ? 'Plata' : 'Sin Calificar'),
+      timestamp: new Date().toISOString()
+    };
+    localStorage.setItem('userPillarScores', JSON.stringify(allScores));
+
     if (isPassed) {
       const badgeKey = `badge_m${state.modNumber}_p${state.pIndex}`;
       const badgeData = {
