@@ -1965,7 +1965,6 @@ const App = {
     if (counterEl) counterEl.textContent = `Tarjeta ${idx + 1} de ${cards.length}`;
     const catEl = document.getElementById('fcCategoryBadge');
     if (catEl) catEl.textContent = card.category || 'General';
-    const frontEl = document.getElementById('fcFrontText');
     if (frontEl) frontEl.textContent = card.front;
     const imgEl = document.getElementById('fcFrontImg');
     if (imgEl) imgEl.src = 'assets/img/flashcards/' + card.id + '.jpg';
