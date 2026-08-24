@@ -7,29 +7,35 @@ document.addEventListener('DOMContentLoaded', () => {
     window.addEventListener("load", async function () {
         
         const clerk = window.Clerk;
+        const loadingScreen = document.getElementById('clerk-loading-screen');
+        const authScreen = document.getElementById('clerk-auth-screen');
+        const appContent = document.getElementById('app-main-content');
         
-        if (!clerk) {
-            console.error("Clerk no se cargó correctamente. Revisa la Publishable Key o la conexión a internet.");
+        // MODO PÚBLICO TEMPORAL (Bypass)
+        // Si no hay clerk, o si la llave es el placeholder, mostramos la app directamente.
+        const clerkScript = document.querySelector('script[data-clerk-publishable-key]');
+        const isPlaceholder = clerkScript && clerkScript.getAttribute('data-clerk-publishable-key').includes('PLACEHOLDER');
+
+        if (!clerk || isPlaceholder) {
+            console.warn("Clerk Auth: Modo Desarrollo/Público activo (Publishable Key no configurada). Omitiendo login.");
+            if (loadingScreen) loadingScreen.style.display = 'none';
+            if (authScreen) authScreen.classList.add('hidden');
+            if (appContent) appContent.classList.remove('hidden');
             return;
         }
 
         try {
             await clerk.load({
                 appearance: {
-                    baseTheme: 'dark', // Clerk soporta temas oscuros
+                    baseTheme: 'dark',
                     variables: {
-                        colorPrimary: '#06b6d4', // cyan-500
+                        colorPrimary: '#06b6d4',
                         colorBackground: '#0B1120',
                         colorText: '#e2e8f0',
                     }
                 }
             });
-
-            const loadingScreen = document.getElementById('clerk-loading-screen');
-            const authScreen = document.getElementById('clerk-auth-screen');
-            const appContent = document.getElementById('app-main-content');
             
-            // Ocultar pantalla de carga inicial
             if (loadingScreen) loadingScreen.style.display = 'none';
 
             if (!clerk.user) {
@@ -39,21 +45,16 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 const signInDiv = document.getElementById("clerk-sign-in-box");
                 if (signInDiv) {
-                    clerk.mountSignIn(signInDiv, {
-                        routing: 'virtual'
-                    });
+                    clerk.mountSignIn(signInDiv, { routing: 'virtual' });
                 }
             } else {
                 // Usuario AUTENTICADO -> Mostrar App
                 console.log("Usuario autenticado:", clerk.user.primaryEmailAddress?.emailAddress);
                 
                 if (authScreen) authScreen.classList.add('hidden');
-                if (appContent) {
-                    appContent.classList.remove('hidden');
-                    // Reiniciar animaciones o lógica de la app si es necesario
-                }
+                if (appContent) appContent.classList.remove('hidden');
 
-                // Montar el UserButton en el header
+                // Montar el UserButton
                 const userButtonDiv = document.getElementById("clerk-user-button");
                 if (userButtonDiv) {
                     clerk.mountUserButton(userButtonDiv);
@@ -62,8 +63,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
         } catch (err) {
             console.error("Error inicializando Clerk:", err);
-            const loadingText = document.getElementById('clerk-loading-text');
-            if (loadingText) loadingText.innerText = "Error de conexión con el servidor de autenticación.";
+            // Fallback en caso de error de red: mostrar la app para no bloquear al usuario (opcional)
+            if (loadingScreen) loadingScreen.style.display = 'none';
+            if (authScreen) authScreen.classList.add('hidden');
+            if (appContent) appContent.classList.remove('hidden');
         }
     });
 });
