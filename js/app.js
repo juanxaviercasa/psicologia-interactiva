@@ -94,6 +94,21 @@ const App = {
           const icon = document.getElementById('themeIcon');
           if (icon) { icon.classList.remove('fa-sun'); icon.classList.add('fa-moon'); }
       }
+    // Load Scientific Mode state
+    if (localStorage.getItem('pso_scientific') === 'true') {
+        document.body.classList.add('scientific-mode-active');
+        setTimeout(() => {
+            const btn = document.getElementById('btnScientificMode');
+            if (btn) {
+                const icon = btn.querySelector('i');
+                if (icon) {
+                    icon.classList.remove('text-teal-400');
+                    icon.classList.add('text-rose-500', 'fa-beat-fade');
+                }
+            }
+        }, 100);
+    }
+
 
     this.loadProgress();
     this.renderDashboard();
