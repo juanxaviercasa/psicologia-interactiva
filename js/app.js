@@ -1606,7 +1606,7 @@ const App = {
           </div>
         </div>` : ''}
         
-        ${pillar.academicCitation && document.body.classList.contains("scientific-mode-active") ? `
+        ${pillar.academicCitation ? `
         <!-- RESPALDO ACADÉMICO MEJORADO -->
         <div class="p-5 rounded-xl bg-slate-950/80 border border-indigo-900/50 shadow-[0_0_15px_rgba(79,70,229,0.1)] flex flex-col gap-3 mb-4 transition-all hover:border-indigo-500/50">
           <div class="flex items-center gap-3 border-b border-slate-800 pb-2">
