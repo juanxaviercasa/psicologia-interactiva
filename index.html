@@ -221,7 +221,8 @@
             <button class="w-8 h-8 rounded-lg bg-slate-900/90 border border-slate-800 hover:bg-slate-800 hover:border-slate-700 flex items-center justify-center text-slate-400 hover:text-white transition-all">
               <i class="fa-solid fa-gear text-sm"></i>
             </button>
-            <div class="absolute right-0 top-full mt-2 hidden group-hover:flex flex-col bg-slate-900 border border-slate-700 rounded-xl shadow-2xl p-1.5 min-w-[170px] z-[60]">
+            <div class="absolute right-0 top-full pt-2 hidden group-hover:flex flex-col min-w-[170px] z-[60]"
+            ><div class="flex flex-col bg-slate-900 border border-slate-700 rounded-xl shadow-2xl p-1.5 w-full">
               <button onclick="App.toggleTheme()" id="themeToggleBtn" class="flex items-center gap-2.5 w-full px-3 py-2.5 text-left text-xs font-semibold text-slate-300 hover:bg-slate-800/80 rounded-lg transition-colors">
                 <i class="fa-solid fa-moon text-amber-400 w-4 text-center"></i> Tema Visual
               </button>
@@ -231,12 +232,12 @@
               <button onclick="App.unlockAll()" id="headerGodModeBtn" class="flex items-center gap-2.5 w-full px-3 py-2.5 text-left text-xs font-semibold text-amber-500 hover:bg-slate-800/80 rounded-lg transition-colors">
                 <i class="fa-solid fa-unlock-keyhole text-amber-500 w-4 text-center"></i> Modo Dios
               </button>
-            </div>
+            </div></div>
           </div>
 
           
           <!-- Clerk User Profile -->
-          <div id="clerk-user-button" class="ml-2 w-8 h-8 rounded-full flex items-center justify-center bg-slate-800 animate-pulse"></div>
+          <div id="clerk-user-button" class="ml-2 flex items-center justify-center"></div>
 
           <!-- Botón Buscador Móvil -->
           <button onclick="App.openSearchModal()" class="md:hidden p-2 rounded-lg bg-slate-900 border border-slate-800 text-slate-300 hover:text-cyan-400">
@@ -287,7 +288,8 @@
           <button class="px-3 py-2 md:py-1.5 rounded-lg text-sm md:text-xs font-semibold flex items-center gap-2 whitespace-nowrap text-slate-400 hover:text-slate-200 hover:bg-slate-800/50">
             <i class="fa-solid fa-layer-group w-4 text-center"></i> Más Herramientas <i class="fa-solid fa-chevron-down text-[0.6rem] ml-1 opacity-70 transition-transform group-hover:rotate-180"></i>
           </button>
-          <div class="absolute right-0 top-full mt-1 hidden group-hover:flex flex-col bg-slate-900 border border-slate-700 rounded-xl shadow-2xl overflow-hidden min-w-[200px]">
+          <div class="absolute right-0 top-full pt-1 hidden group-hover:flex flex-col min-w-[200px]"
+          ><div class="flex flex-col bg-slate-900 border border-slate-700 rounded-xl shadow-2xl overflow-hidden w-full">
             <button onclick="App.switchTab('glossary'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="glossary"><i class="fa-solid fa-file-word w-4 text-center"></i> Glosario</button>
             <button onclick="App.switchTab('noverbal'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="noverbal"><i class="fa-solid fa-eye w-4 text-center"></i> No Verbal</button>
             <button onclick="App.switchTab('quizzes'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="quizzes"><i class="fa-solid fa-trophy w-4 text-center text-amber-500"></i> Quizzes</button>
@@ -296,7 +298,7 @@
             <button onclick="App.switchTab('auditor'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="auditor"><i class="fa-solid fa-microchip w-4 text-center text-indigo-400"></i> Auditor</button>
             <button onclick="App.switchTab('certificate'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="certificate"><i class="fa-solid fa-award w-4 text-center text-yellow-400"></i> Certificado</button>
             <button onclick="App.switchTab('pdf'); closeMobileMenu()" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300" data-target="pdf"><i class="fa-solid fa-book w-4 text-center text-red-400"></i> PDF Original</button>
-          </div>
+          </div></div>
         </div>
       </div>
     </nav>
