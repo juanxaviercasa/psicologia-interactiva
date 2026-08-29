@@ -930,43 +930,59 @@ const App = {
       return;
     }
 
-    const chunk = state.utterances[state.currentIndex];
-    const u = new SpeechSynthesisUtterance(chunk);
-    u.lang = 'es-ES';
-    const savedRate = localStorage.getItem('userTTSRate');
-    u.rate = savedRate ? parseFloat(savedRate) : 0.92; // Cadencia tranquila y comprensible
-    u.pitch = 1.0;
-    if (state.selectedVoice) u.voice = state.selectedVoice;
+    // Anti-freeze: ensure queue is clear before next chunk
+    window.speechSynthesis.cancel();
+    
+    // Small delay to allow the browser's audio engine to breathe before speaking again
+    setTimeout(() => {
+        if (!state.activeChapter || state.isPaused) return;
+        
+        const chunk = state.utterances[state.currentIndex];
+        const u = new SpeechSynthesisUtterance(chunk);
+        u.lang = 'es-ES';
+        const savedRate = localStorage.getItem('userTTSRate');
+        u.rate = savedRate ? parseFloat(savedRate) : 0.95;
+        u.pitch = 1.0;
+        
+        // Find best Spanish voice if selectedVoice is null
+        if (state.selectedVoice) {
+            u.voice = state.selectedVoice;
+        } else {
+            const voices = window.speechSynthesis.getVoices();
+            const esVoice = voices.find(v => v.lang.includes('es-ES') || v.lang.includes('es'));
+            if (esVoice) u.voice = esVoice;
+        }
 
-    // Calcular pausa natural según el signo de puntuación final
-    let pauseMs = 380; // Pausa estándar de 380ms para punto seguido
-    if (chunk.endsWith('?') || chunk.endsWith('!')) {
-      pauseMs = 450;
-    } else if (chunk.endsWith(':') || chunk.endsWith(';')) {
-      pauseMs = 250;
-    } else if (chunk.endsWith(',')) {
-      pauseMs = 180;
-    }
+        let pauseMs = 380;
+        if (chunk.endsWith('?') || chunk.endsWith('!')) pauseMs = 450;
+        else if (chunk.endsWith(':') || chunk.endsWith(';')) pauseMs = 250;
+        else if (chunk.endsWith(',')) pauseMs = 180;
 
-    u.onend = () => {
-      if (!state.isPaused && state.activeChapter) {
-        state.currentIndex++;
-        // Respiración / Pausa humana antes de la siguiente oración
-        setTimeout(() => {
+        u.onend = () => {
           if (!state.isPaused && state.activeChapter) {
-            this.playNextTTSChunk();
+            state.currentIndex++;
+            setTimeout(() => {
+              if (!state.isPaused && state.activeChapter) this.playNextTTSChunk();
+            }, pauseMs);
           }
-        }, pauseMs);
-      }
-    };
+        };
 
-    u.onerror = (e) => {
-      console.warn('TTS chunk error:', e);
-      state.currentIndex++;
-      setTimeout(() => this.playNextTTSChunk(), 200);
-    };
+        u.onerror = (e) => {
+          console.warn('TTS chunk error:', e);
+          state.currentIndex++;
+          setTimeout(() => { if (!state.isPaused && state.activeChapter) this.playNextTTSChunk(); }, 200);
+        };
 
-    window.speechSynthesis.speak(u);
+        window.speechSynthesis.speak(u);
+        
+        // Anti-freeze watchdog (Chrome 15s bug): 
+        // If the chunk is long and doesn't fire onend after 12 seconds, we force resume.
+        if (state.watchdog) clearTimeout(state.watchdog);
+        state.watchdog = setTimeout(() => {
+            if (!state.isPaused && state.activeChapter) window.speechSynthesis.resume();
+        }, 12000);
+        
+    }, 50);
   },
 
   stopAudioNarration() {
@@ -2639,35 +2655,58 @@ const App = {
   speakSparringResponse(text) {
     if (!window.speechSynthesis || !this.voiceState.isActive) return;
     
-    // Regex cleanup logic (raw string friendly)
-    let cleanText = text.replace(/[*#_`]/g, '');
+    window.speechSynthesis.cancel();
     
-    const utterance = new SpeechSynthesisUtterance(cleanText);
-    utterance.lang = 'es-ES';
-    utterance.pitch = 0.8; 
-    utterance.rate = 1.0; 
+    let cleanText = text.replace(/[*#_`]/g, '').trim();
+    if (!cleanText) return;
     
-    const voices = window.speechSynthesis.getVoices();
-    const maleVoice = voices.find(v => v.lang.includes('es') && (v.name.includes('Male') || v.name.includes('Pablo') || v.name.includes('Jorge')));
-    if (maleVoice) utterance.voice = maleVoice;
+    // Chunking to prevent Chrome 15s crash
+    const sentences = cleanText.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [cleanText];
+    let chunks = sentences.map(s => s.trim()).filter(s => s.length > 0);
+    let currentIndex = 0;
+    
+    const speakNextChunk = () => {
+        if (!this.voiceState.isActive || currentIndex >= chunks.length) {
+            // Finished speaking all chunks
+            document.getElementById('voiceStatusText').innerText = 'IA Escuchando...';
+            document.getElementById('orbRing1').classList.remove('border-indigo-500');
+            document.getElementById('orbRing2').classList.remove('border-rose-500');
+            if (this.voiceState.isActive && !this.voiceState.isListening) {
+                try { this.voiceState.recognition.start(); } catch(e){}
+            }
+            return;
+        }
+        
+        const utterance = new SpeechSynthesisUtterance(chunks[currentIndex]);
+        utterance.lang = 'es-ES';
+        utterance.pitch = 0.8; 
+        utterance.rate = 1.0; 
+        
+        const voices = window.speechSynthesis.getVoices();
+        const maleVoice = voices.find(v => v.lang.includes('es') && (v.name.includes('Male') || v.name.includes('Pablo') || v.name.includes('Jorge')));
+        if (maleVoice) utterance.voice = maleVoice;
 
-    utterance.onstart = () => {
-      document.getElementById('voiceStatusText').innerText = 'IA Hablando...';
-      document.getElementById('orbRing1').classList.add('border-indigo-500');
-      document.getElementById('orbRing2').classList.add('border-rose-500');
+        utterance.onstart = () => {
+            document.getElementById('voiceStatusText').innerText = 'IA Hablando...';
+            document.getElementById('orbRing1').classList.add('border-indigo-500');
+            document.getElementById('orbRing2').classList.add('border-rose-500');
+        };
+
+        utterance.onend = () => {
+            currentIndex++;
+            setTimeout(speakNextChunk, 200);
+        };
+        
+        utterance.onerror = (e) => {
+            console.warn('Sparring TTS error', e);
+            currentIndex++;
+            setTimeout(speakNextChunk, 200);
+        };
+
+        window.speechSynthesis.speak(utterance);
     };
-
-    utterance.onend = () => {
-      document.getElementById('voiceStatusText').innerText = 'IA Escuchando...';
-      document.getElementById('orbRing1').classList.remove('border-indigo-500');
-      document.getElementById('orbRing2').classList.remove('border-rose-500');
-      
-      if (this.voiceState.isActive && !this.voiceState.isListening) {
-        try { this.voiceState.recognition.start(); } catch(e){}
-      }
-    };
-
-    window.speechSynthesis.speak(utterance);
+    
+    speakNextChunk();
   },
 
   async sendSparringMessage(e) {
