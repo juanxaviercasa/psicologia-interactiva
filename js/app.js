@@ -1622,7 +1622,7 @@ const App = {
             <a href="https://scholar.google.com/scholar?q=${encodeURIComponent(pillar.academicCitation)}" target="_blank" class="text-[10px] uppercase tracking-wider font-bold bg-indigo-950 text-indigo-300 px-3 py-1.5 rounded-md hover:bg-indigo-900 transition-colors flex items-center gap-2">
               <i class="fa-brands fa-google"></i> Buscar en Scholar
             </a>
-            <a href="https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(pillar.academicCitation.substring(0, 40))}" target="_blank" class="text-[10px] uppercase tracking-wider font-bold bg-slate-900 text-slate-400 border border-slate-700 px-3 py-1.5 rounded-md hover:bg-slate-800 transition-colors flex items-center gap-2">
+            <a href="https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent((pillar.academicCitation.match(/\)\.\s([^\.]+)/) || ["", pillar.academicCitation.substring(0, 50)])[1].trim())}" target="_blank" class="text-[10px] uppercase tracking-wider font-bold bg-slate-900 text-slate-400 border border-slate-700 px-3 py-1.5 rounded-md hover:bg-slate-800 transition-colors flex items-center gap-2">
               <i class="fa-solid fa-book-medical"></i> Buscar en PubMed
             </a>
           </div>
