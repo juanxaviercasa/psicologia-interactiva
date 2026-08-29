@@ -905,8 +905,6 @@ const App = {
     }
 
     // Ensure voices are loaded
-    if (!state.selectedVoice) this.initTTSVoices();
-
     // Chunk text into natural sentences to bypass Chrome 15s freeze bug
     const sentences = cleanText.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [cleanText];
     state.utterances = sentences.map(s => s.trim()).filter(s => s.length > 0);
@@ -1237,8 +1235,6 @@ const App = {
   speakText(text) {
     if ('speechSynthesis' in window) {
       this.stopAudioNarration();
-      if (!this.ttsState.selectedVoice) this.initTTSVoices();
-      
       const clean = this.stripMarkdownForTTS(text);
       const sentences = clean.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [clean];
       this.ttsState.utterances = sentences.map(s => s.trim()).filter(s => s.length > 0);
