@@ -2469,6 +2469,75 @@ const App = {
   // =============================================
   // AUDIO ENGINE
   // =============================================
+
+  pomodoroInterval: null,
+  pomodoroTime: 25 * 60,
+  isPomodoroActive: false,
+
+  togglePomodoro() {
+      const timerText = document.getElementById('pomodoroTimerText');
+      if (!timerText) return;
+      
+      if (this.isPomodoroActive) {
+          // Pause
+          clearInterval(this.pomodoroInterval);
+          this.isPomodoroActive = false;
+          timerText.classList.remove('fa-fade');
+          timerText.style.color = '#fda4af'; // rose-300
+      } else {
+          // Start
+          this.isPomodoroActive = true;
+          timerText.classList.add('fa-fade');
+          timerText.style.color = '#2dd4bf'; // teal-400 indicating active
+          
+          this.pomodoroInterval = setInterval(() => {
+              this.pomodoroTime--;
+              if (this.pomodoroTime <= 0) {
+                  clearInterval(this.pomodoroInterval);
+                  this.isPomodoroActive = false;
+                  this.pomodoroTime = 25 * 60;
+                  this.updatePomodoroDisplay();
+                  timerText.classList.remove('fa-fade');
+                  timerText.style.color = '#fda4af';
+                  
+                  // Play a soft chime if possible
+                  try {
+                      const ctx = new (window.AudioContext || window.webkitAudioContext)();
+                      const osc = ctx.createOscillator();
+                      osc.type = 'sine';
+                      osc.frequency.setValueAtTime(523.25, ctx.currentTime); // C5
+                      osc.connect(ctx.destination);
+                      osc.start();
+                      osc.stop(ctx.currentTime + 0.5);
+                  } catch(e) {}
+                  
+                  if (window.Swal) {
+                      Swal.fire({
+                          title: '¡Sesión Completada!',
+                          text: 'Has mantenido un enfoque profundo por 25 minutos. Tu cerebro necesita asimilar la información. Toma 5 minutos de descanso lejos de la pantalla.',
+                          icon: 'success',
+                          background: '#0B1120',
+                          color: '#fff',
+                          confirmButtonColor: '#06b6d4'
+                      });
+                  } else {
+                      alert("¡Sesión de 25 minutos completada! Toma un descanso.");
+                  }
+              } else {
+                  this.updatePomodoroDisplay();
+              }
+          }, 1000);
+      }
+  },
+  
+  updatePomodoroDisplay() {
+      const timerText = document.getElementById('pomodoroTimerText');
+      if (!timerText) return;
+      const m = Math.floor(this.pomodoroTime / 60).toString().padStart(2, '0');
+      const s = (this.pomodoroTime % 60).toString().padStart(2, '0');
+      timerText.innerText = `${m}:${s}`;
+  },
+
   toggleFocusMode() {
     if (typeof AudioEngine !== 'undefined') {
       const on = AudioEngine.toggleBinauralBeats(200, 10);
