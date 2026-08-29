@@ -21,6 +21,56 @@ const App = {
   // INIT & CORE
   // =============================================
 
+
+  toggleScientificMode() {
+      const body = document.body;
+      const btn = document.getElementById('btnScientificMode');
+      if (!btn) return;
+      const icon = btn.querySelector('i');
+      
+      body.classList.toggle('scientific-mode-active');
+      const isActive = body.classList.contains('scientific-mode-active');
+      localStorage.setItem('pso_scientific', isActive);
+      
+      if (isActive) {
+          icon.classList.remove('text-teal-400');
+          icon.classList.add('text-rose-500', 'fa-beat-fade');
+          
+          // Sweet alert style if available, otherwise native alert
+          if (window.Swal) {
+              Swal.fire({
+                  title: 'Modo Ciencias Activado',
+                  text: 'El motor revelará referencias ocultas del DSM-5, citas de PubMed y análisis neurocientíficos profundos.',
+                  icon: 'info',
+                  background: '#0B1120',
+                  color: '#fff',
+                  confirmButtonColor: '#06b6d4'
+              });
+          } else {
+              alert("🔬 MODO CIENCIAS ACTIVADO\n\nEl motor revelará referencias ocultas del DSM-5, citas de PubMed y análisis neurocientíficos profundos.");
+          }
+      } else {
+          icon.classList.remove('text-rose-500', 'fa-beat-fade');
+          icon.classList.add('text-teal-400');
+          if (window.Swal) {
+              Swal.fire({
+                  title: 'Modo Ciencias Desactivado',
+                  text: 'Lectura estándar restaurada para aprendizaje acelerado.',
+                  icon: 'success',
+                  background: '#0B1120',
+                  color: '#fff',
+                  confirmButtonColor: '#06b6d4',
+                  timer: 2000
+              });
+          }
+      }
+      
+      // Force re-render if in learning tab
+      if (this.state.currentTab === 'learning' && this.state.activeModule !== null) {
+          this.goToModule(this.state.activeModule);
+      }
+  },
+
   toggleTheme() {
       const html = document.documentElement;
       const icon = document.getElementById('themeIcon');
@@ -1541,7 +1591,7 @@ const App = {
           </div>
         </div>` : ''}
         
-        ${pillar.academicCitation ? `
+        ${pillar.academicCitation && document.body.classList.contains("scientific-mode-active") ? `
         <!-- RESPALDO ACADÉMICO -->
         <div class="p-5 rounded-xl bg-slate-950 border border-slate-800 lg:col-span-2 shadow-sm flex items-start gap-4 mb-4">
           <div class="text-slate-600 text-2xl pt-1 shrink-0"><i class="fa-solid fa-graduation-cap"></i></div>
