@@ -4,7 +4,7 @@
  */
 
 const AIEngine = {
-  apiKey: localStorage.getItem('agy_llm_api_key') || '',
+  apiKey: localStorage.getItem('userAIKey_google') || localStorage.getItem('agy_llm_api_key') || '',
   modelName: 'gemini-1.5-flash-latest',
   
   hasKey() {
