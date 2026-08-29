@@ -39,7 +39,7 @@ const App = {
           // Sweet alert style if available, otherwise native alert
           if (window.Swal) {
               Swal.fire({
-                  title: 'Modo Ciencias Activado',
+                  title: 'Bases Científicas Activadas',
                   text: 'El motor revelará referencias ocultas del DSM-5, citas de PubMed y análisis neurocientíficos profundos.',
                   icon: 'info',
                   background: '#0B1120',
@@ -54,7 +54,7 @@ const App = {
           icon.classList.add('text-teal-400');
           if (window.Swal) {
               Swal.fire({
-                  title: 'Modo Ciencias Desactivado',
+                  title: 'Bases Científicas Desactivadas',
                   text: 'Lectura estándar restaurada para aprendizaje acelerado.',
                   icon: 'success',
                   background: '#0B1120',
@@ -1592,14 +1592,24 @@ const App = {
         </div>` : ''}
         
         ${pillar.academicCitation && document.body.classList.contains("scientific-mode-active") ? `
-        <!-- RESPALDO ACADÉMICO -->
-        <div class="p-5 rounded-xl bg-slate-950 border border-slate-800 lg:col-span-2 shadow-sm flex items-start gap-4 mb-4">
-          <div class="text-slate-600 text-2xl pt-1 shrink-0"><i class="fa-solid fa-graduation-cap"></i></div>
-          <div>
-            <div class="text-[10px] text-slate-500 font-bold font-mono tracking-widest uppercase mb-1">Respaldo Académico / Científico</div>
-            <div class="text-slate-400 text-xs leading-relaxed font-serif">
-               ${pillar.academicCitation}
+        <!-- RESPALDO ACADÉMICO MEJORADO -->
+        <div class="p-5 rounded-xl bg-slate-950/80 border border-indigo-900/50 shadow-[0_0_15px_rgba(79,70,229,0.1)] flex flex-col gap-3 mb-4 transition-all hover:border-indigo-500/50">
+          <div class="flex items-center gap-3 border-b border-slate-800 pb-2">
+            <div class="w-8 h-8 rounded-lg bg-indigo-900/50 flex items-center justify-center text-indigo-400">
+              <i class="fa-solid fa-microscope"></i>
             </div>
+            <span class="text-xs text-indigo-300 font-bold font-mono tracking-widest uppercase">Evidencia Científica y Psiquiátrica</span>
+          </div>
+          <p class="text-sm text-slate-300 font-serif italic leading-relaxed pl-2 border-l-2 border-indigo-500/30">
+            ${this.enrichTextWithIcons(pillar.academicCitation)}
+          </p>
+          <div class="mt-2 flex gap-2 flex-wrap">
+            <a href="https://scholar.google.com/scholar?q=${encodeURIComponent(pillar.academicCitation)}" target="_blank" class="text-[10px] uppercase tracking-wider font-bold bg-indigo-950 text-indigo-300 px-3 py-1.5 rounded-md hover:bg-indigo-900 transition-colors flex items-center gap-2">
+              <i class="fa-brands fa-google"></i> Buscar en Scholar
+            </a>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/?term=${encodeURIComponent(pillar.academicCitation.substring(0, 40))}" target="_blank" class="text-[10px] uppercase tracking-wider font-bold bg-slate-900 text-slate-400 border border-slate-700 px-3 py-1.5 rounded-md hover:bg-slate-800 transition-colors flex items-center gap-2">
+              <i class="fa-solid fa-book-medical"></i> Buscar en PubMed
+            </a>
           </div>
         </div>` : ''}
 
