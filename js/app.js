@@ -2583,6 +2583,16 @@ const App = {
     isListening: false
   },
 
+  ttsState: {
+    activeChapter: null,
+    activeButton: null,
+    utterances: [],
+    currentIndex: 0,
+    isPaused: false,
+    selectedVoice: null,
+    watchdog: null
+  },
+
   toggleVoiceMode() {
     const orb = document.getElementById('voiceOrbContainer');
     this.voiceState.isActive = !this.voiceState.isActive;
