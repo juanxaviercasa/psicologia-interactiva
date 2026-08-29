@@ -2484,31 +2484,157 @@ const App = {
 
   pomodoroInterval: null,
   pomodoroTime: 25 * 60,
+  pomodoroBreakTime: 5 * 60,
   isPomodoroActive: false,
+  isPomodoroBreak: false,
+  pomodoroSessions: 0,
+
+  openPomodoroWidget() {
+    document.getElementById('pomodoroWidget').classList.remove('hidden');
+    document.getElementById('pomodoroWidget').classList.add('flex');
+    document.getElementById('pomodoroBubble').classList.remove('flex');
+    document.getElementById('pomodoroBubble').classList.add('hidden');
+    this.updatePomodoroDisplay();
+  },
+
+  closePomodoroWidget() {
+    document.getElementById('pomodoroWidget').classList.add('hidden');
+    document.getElementById('pomodoroWidget').classList.remove('flex');
+    if (this.isPomodoroActive) {
+      // Show bubble when running but minimized
+      document.getElementById('pomodoroBubble').classList.remove('hidden');
+      document.getElementById('pomodoroBubble').classList.add('flex');
+    }
+  },
+
+  showPomodoroWidget() {
+    // Open the main widget and hide bubble
+    this.openPomodoroWidget();
+  },
+
+  resetPomodoro() {
+    clearInterval(this.pomodoroInterval);
+    this.isPomodoroActive = false;
+    this.isPomodoroBreak = false;
+    this.pomodoroTime = 25 * 60;
+    this.updatePomodoroDisplay();
+    const btn = document.getElementById('pomodoroStartBtn');
+    if (btn) btn.innerHTML = '<i class="fa-solid fa-play"></i> Iniciar';
+    const status = document.getElementById('pomodoroStatus');
+    if (status) status.textContent = 'Listo para empezar';
+    const modeLabel = document.getElementById('pomodoroModeLabel');
+    if (modeLabel) { modeLabel.textContent = '🎯 Sesión de Enfoque'; modeLabel.classList.remove('text-teal-400'); modeLabel.classList.add('text-rose-400'); }
+  },
 
   togglePomodoro() {
-      const timerText = document.getElementById('pomodoroTimerText');
-      if (!timerText) return;
-      
+      const timerText = document.getElementById('pomodoroTimerText');  // in stats dropdown
+      const bigTimer = document.getElementById('pomodoroBigTimer');    // in floating widget
+      const btn = document.getElementById('pomodoroStartBtn');
+      const status = document.getElementById('pomodoroStatus');
+
       if (this.isPomodoroActive) {
-          // Pause
+          // PAUSE
           clearInterval(this.pomodoroInterval);
           this.isPomodoroActive = false;
-          timerText.classList.remove('fa-fade');
-          timerText.style.color = '#fda4af'; // rose-300
+          if (timerText) timerText.style.color = '#fda4af';
+          if (btn) btn.innerHTML = '<i class="fa-solid fa-play"></i> Reanudar';
+          if (status) status.textContent = 'Pausado';
       } else {
-          // Start
+          // START / RESUME
           this.isPomodoroActive = true;
-          timerText.classList.add('fa-fade');
-          timerText.style.color = '#2dd4bf'; // teal-400 indicating active
-          
+
+          // Make sure widget is visible
+          this.openPomodoroWidget();
+
+          if (timerText) timerText.style.color = '#2dd4bf';
+          if (btn) btn.innerHTML = '<i class="fa-solid fa-pause"></i> Pausar';
+          if (status) status.textContent = this.isPomodoroBreak ? 'Descansando...' : 'En enfoque profundo...';
+
           this.pomodoroInterval = setInterval(() => {
               this.pomodoroTime--;
+              this.updatePomodoroDisplay();
+
               if (this.pomodoroTime <= 0) {
                   clearInterval(this.pomodoroInterval);
                   this.isPomodoroActive = false;
-                  this.pomodoroTime = 25 * 60;
-                  this.updatePomodoroDisplay();
+
+                  // Chime
+                  try {
+                      const ctx = new (window.AudioContext || window.webkitAudioContext)();
+                      [523.25, 659.25, 783.99].forEach((freq, i) => {
+                          const osc = ctx.createOscillator();
+                          osc.type = 'sine';
+                          osc.frequency.setValueAtTime(freq, ctx.currentTime);
+                          const g = ctx.createGain();
+                          g.gain.setValueAtTime(0.3, ctx.currentTime + i * 0.35);
+                          g.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + i * 0.35 + 0.6);
+                          osc.connect(g); g.connect(ctx.destination);
+                          osc.start(ctx.currentTime + i * 0.35);
+                          osc.stop(ctx.currentTime + i * 0.35 + 0.7);
+                      });
+                  } catch(e) {}
+
+                  if (!this.isPomodoroBreak) {
+                      // Completed a focus session
+                      this.pomodoroSessions++;
+                      const sessEl = document.getElementById('pomodoroSessionCount');
+                      if (sessEl) sessEl.textContent = `${this.pomodoroSessions} / 4`;
+
+                      this.isPomodoroBreak = true;
+                      this.pomodoroTime = (this.pomodoroSessions % 4 === 0) ? 15 * 60 : 5 * 60; // Long break every 4 sessions
+                      const breakLabel = this.pomodoroSessions % 4 === 0 ? '15 minutos' : '5 minutos';
+                      const modeLabel = document.getElementById('pomodoroModeLabel');
+                      if (modeLabel) { modeLabel.textContent = '☕ Descanso'; modeLabel.classList.remove('text-rose-400'); modeLabel.classList.add('text-teal-400'); }
+
+                      if (window.Swal) {
+                          Swal.fire({
+                              title: '🧠 ¡Sesión Completada!',
+                              html: `Completaste <strong>${this.pomodoroSessions} sesión(es)</strong> de enfoque profundo hoy.<br><br>Tómate <strong>${breakLabel} de descanso</strong> lejos de la pantalla. Tu cerebro está consolidando el conocimiento.`,
+                              icon: 'success',
+                              background: '#0B1120',
+                              color: '#fff',
+                              confirmButtonColor: '#06b6d4',
+                              confirmButtonText: 'Iniciar Descanso',
+                              showCancelButton: true,
+                              cancelButtonText: 'Saltar',
+                              cancelButtonColor: '#475569',
+                          }).then(r => {
+                              if (r.isConfirmed) this.togglePomodoro();
+                              else this.resetPomodoro();
+                          });
+                      }
+                      this.updatePomodoroDisplay();
+                  } else {
+                      // Completed a break
+                      this.isPomodoroBreak = false;
+                      this.pomodoroTime = 25 * 60;
+                      const modeLabel = document.getElementById('pomodoroModeLabel');
+                      if (modeLabel) { modeLabel.textContent = '🎯 Sesión de Enfoque'; modeLabel.classList.remove('text-teal-400'); modeLabel.classList.add('text-rose-400'); }
+                      this.updatePomodoroDisplay();
+                      if (window.Swal) {
+                          Swal.fire({
+                              title: '¡Hora de Enfocarse!',
+                              text: 'El descanso terminó. ¿Listo para otra sesión de 25 minutos?',
+                              icon: 'info',
+                              background: '#0B1120',
+                              color: '#fff',
+                              confirmButtonColor: '#f43f5e',
+                              confirmButtonText: 'Iniciar Sesión',
+                              showCancelButton: true,
+                              cancelButtonText: 'Más tarde',
+                          }).then(r => {
+                              if (r.isConfirmed) this.togglePomodoro();
+                          });
+                      }
+                  }
+                  if (btn) btn.innerHTML = '<i class="fa-solid fa-play"></i> Iniciar';
+                  if (status) status.textContent = 'Listo para empezar';
+              }
+          }, 1000);
+      }
+  },
+
+  updatePomodoroDisplayupdatePomodoroDisplay();
                   timerText.classList.remove('fa-fade');
                   timerText.style.color = '#fda4af';
                   
@@ -2543,11 +2669,22 @@ const App = {
   },
   
   updatePomodoroDisplay() {
+      const mins = Math.floor(this.pomodoroTime / 60).toString().padStart(2, '0');
+      const secs = (this.pomodoroTime % 60).toString().padStart(2, '0');
+      const formatted = `${mins}:${secs}`;
+
+      // 1. Update stats dropdown mini-timer
       const timerText = document.getElementById('pomodoroTimerText');
-      if (!timerText) return;
-      const m = Math.floor(this.pomodoroTime / 60).toString().padStart(2, '0');
-      const s = (this.pomodoroTime % 60).toString().padStart(2, '0');
-      timerText.innerText = `${m}:${s}`;
+      if (timerText) timerText.innerText = formatted;
+
+      // 2. Update the big floating widget clock
+      const bigTimer = document.getElementById('pomodoroBigTimer');
+      if (bigTimer) bigTimer.textContent = formatted;
+
+      // 3. Update the minimized bubble
+      const bubble = document.getElementById('pomodoroBubbleTime');
+      if (bubble) bubble.textContent = formatted;
+  }:${s}`;
   },
 
   toggleFocusMode() {

@@ -210,6 +210,12 @@
             </div>
           </div>
 
+          <!-- Pomodoro Launch Button -->
+          <button onclick="App.showPomodoroWidget()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-rose-950/80 border border-rose-500/40 hover:bg-rose-900/60 hover:border-rose-400 text-rose-300 hover:text-white transition-all text-[11px] uppercase tracking-wider font-bold shadow-[0_0_10px_rgba(244,63,94,0.1)] group" title="Abrir Temporizador Pomodoro 25/5">
+            <i class="fa-solid fa-stopwatch text-rose-400 group-hover:animate-pulse"></i>
+            <span class="hidden sm:inline" id="headerPomodoroLabel">Pomodoro</span>
+          </button>
+
           <!-- Centro IA Button (Prominent) -->
           <button onclick="App.openAIEngineModal()" class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-cyan-950/80 border border-cyan-500/40 hover:bg-cyan-900/60 hover:border-cyan-400 text-cyan-300 hover:text-white transition-all text-[11px] uppercase tracking-wider font-bold shadow-[0_0_10px_rgba(34,211,238,0.1)] group">
             <i class="fa-solid fa-microchip text-cyan-400 group-hover:animate-pulse"></i>
@@ -1419,5 +1425,43 @@
       }
     });
   </script>
+
+  <!-- FLOATING POMODORO TIMER WIDGET -->
+  <div id="pomodoroWidget" class="fixed bottom-6 right-6 z-[90] hidden flex-col items-center gap-2">
+    <!-- The pill badge that is always visible when active -->
+    <div class="flex flex-col items-center bg-slate-900/95 border border-rose-500/50 rounded-2xl shadow-[0_0_30px_rgba(244,63,94,0.25)] p-4 min-w-[180px] backdrop-blur-md">
+      <!-- Header with mode label -->
+      <div class="flex items-center justify-between w-full mb-3">
+        <span id="pomodoroModeLabel" class="text-[10px] font-mono font-bold uppercase tracking-widest text-rose-400">🎯 Sesión de Enfoque</span>
+        <button onclick="App.closePomodoroWidget()" class="w-5 h-5 rounded-full bg-slate-800 text-slate-400 hover:text-white text-xs flex items-center justify-center transition-colors" title="Minimizar">×</button>
+      </div>
+      <!-- Big Clock -->
+      <div id="pomodoroBigTimer" class="text-5xl font-mono font-black text-white tracking-tight mb-3">25:00</div>
+      <!-- Progress ring caption -->
+      <div id="pomodoroStatus" class="text-xs text-slate-400 mb-3">Listo para empezar</div>
+      <!-- Controls -->
+      <div class="flex gap-2 w-full">
+        <button id="pomodoroStartBtn" onclick="App.togglePomodoro()" class="flex-1 py-2 rounded-xl text-xs font-bold bg-rose-600 hover:bg-rose-500 text-white transition-all flex items-center justify-center gap-1.5">
+          <i class="fa-solid fa-play"></i> Iniciar
+        </button>
+        <button onclick="App.resetPomodoro()" class="px-3 py-2 rounded-xl text-xs font-bold bg-slate-800 hover:bg-slate-700 text-slate-300 transition-all" title="Reiniciar">
+          <i class="fa-solid fa-rotate-left"></i>
+        </button>
+      </div>
+      <!-- Session counter -->
+      <div class="flex items-center justify-between w-full mt-3 pt-3 border-t border-slate-800">
+        <span class="text-[10px] text-slate-500 uppercase tracking-widest">Sesiones hoy</span>
+        <span id="pomodoroSessionCount" class="text-xs font-mono font-bold text-amber-400">0 / 4</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Minimized Pomodoro Bubble (when widget is hidden but timer is running) -->
+  <div id="pomodoroBubble" class="fixed bottom-6 right-6 z-[89] hidden items-center gap-2 cursor-pointer" onclick="App.openPomodoroWidget()" title="Abrir Pomodoro">
+    <div class="bg-slate-900/95 border border-rose-500/60 rounded-full px-4 py-2 shadow-[0_0_20px_rgba(244,63,94,0.3)] flex items-center gap-2 backdrop-blur-md animate-pulse">
+      <i class="fa-solid fa-stopwatch text-rose-400 text-sm"></i>
+      <span id="pomodoroBubbleTime" class="text-sm font-mono font-bold text-white">25:00</span>
+    </div>
+  </div>
 </body>
 </html>
