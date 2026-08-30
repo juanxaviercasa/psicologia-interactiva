@@ -910,31 +910,30 @@ const App = {
     // Case 2: Stop any previous playback
     this.stopAudioNarration();
 
-    // Case 3: Start speaking the new chapter
-    const bookStore = (typeof BOOK_CONTENT !== 'undefined' ? BOOK_CONTENT : null) || window.BOOK_CONTENT || {};
-    const rawText = bookStore[chapterKey] || '';
-    const cleanText = this.stripMarkdownForTTS(rawText);
+    // Case 3: Start speaking the new chapter (with a small delay to let browser flush old audio buffers)
+    setTimeout(() => {
+        const bookStore = (typeof BOOK_CONTENT !== 'undefined' ? BOOK_CONTENT : null) || window.BOOK_CONTENT || {};
+        const rawText = bookStore[chapterKey] || '';
+        const cleanText = this.stripMarkdownForTTS(rawText);
 
-    if (!cleanText || cleanText.length < 5) {
-      this.showToast('No hay texto para narrar en este capítulo.', 'error');
-      return;
-    }
+        if (!cleanText || cleanText.length < 5) {
+          this.showToast('No hay texto para narrar en este capítulo.', 'error');
+          return;
+        }
 
-    // Ensure voices are loaded
-    // Chunk text into natural sentences to bypass Chrome 15s freeze bug
-    const sentences = cleanText.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [cleanText];
-    state.utterances = sentences.map(s => s.trim()).filter(s => s.length > 0);
-    state.currentIndex = 0;
-    state.activeChapter = chapterKey;
-    state.activeButton = btn;
-    state.isPaused = false;
+        const sentences = cleanText.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [cleanText];
+        state.utterances = sentences.map(s => s.trim()).filter(s => s.length > 0);
+        state.currentIndex = 0;
+        state.activeChapter = chapterKey;
+        state.activeButton = btn;
+        state.isPaused = false;
 
-    // Update Button UI
-    btn.innerHTML = '<i class="fa-solid fa-pause text-amber-400 animate-pulse"></i> <span class="btn-text text-amber-300">Pausar</span>';
-    btn.classList.add('bg-amber-950/90', 'border-amber-500/60');
+        btn.innerHTML = '<i class="fa-solid fa-pause text-amber-400 animate-pulse"></i> <span class="btn-text text-amber-300">Pausar</span>';
+        btn.classList.add('bg-amber-950/90', 'border-amber-500/60');
 
-    this.showToast('Iniciando audio narración del capítulo...', 'info');
-    this.playNextTTSChunk();
+        this.showToast('Iniciando audio narración del capítulo...', 'info');
+        this.playNextTTSChunk();
+    }, 150);
   },
 
   playNextTTSChunk() {
@@ -973,19 +972,22 @@ const App = {
         else if (chunk.endsWith(':') || chunk.endsWith(';')) pauseMs = 250;
         else if (chunk.endsWith(',')) pauseMs = 180;
 
+        const expectedChapter = state.activeChapter;
         u.onend = () => {
-          if (!state.isPaused && state.activeChapter) {
+          if (!state.isPaused && state.activeChapter === expectedChapter) {
             state.currentIndex++;
             setTimeout(() => {
-              if (!state.isPaused && state.activeChapter) this.playNextTTSChunk();
+              if (!state.isPaused && state.activeChapter === expectedChapter) this.playNextTTSChunk();
             }, pauseMs);
           }
         };
 
         u.onerror = (e) => {
           console.warn('TTS chunk error:', e);
-          state.currentIndex++;
-          setTimeout(() => { if (!state.isPaused && state.activeChapter) this.playNextTTSChunk(); }, 200);
+          if (state.activeChapter === expectedChapter) {
+            state.currentIndex++;
+            setTimeout(() => { if (!state.isPaused && state.activeChapter === expectedChapter) this.playNextTTSChunk(); }, 200);
+          }
         };
 
         window.speechSynthesis.speak(u);
