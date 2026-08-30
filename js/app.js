@@ -2761,32 +2761,21 @@ const App = {
       this.voiceState.recognition.lang = 'es-ES';
       this.voiceState.recognition.interimResults = false;
       this.voiceState.recognition.maxAlternatives = 1;
+      this.voiceState.recognition.continuous = true;
 
       this.voiceState.recognition.onstart = () => {
         this.voiceState.isListening = true;
-        document.getElementById('voiceStatusText').innerText = 'IA Escuchando...';
-        document.getElementById('orbCore').classList.add('scale-110');
       };
 
-      let voiceDebounce;
       this.voiceState.recognition.onresult = (event) => {
-        // Collect all transcripts robustly
+        // Collect all transcripts robustly (Dictation mode)
         const transcript = Array.from(event.results).map(r => r[0].transcript).join(' ');
         document.getElementById('sparringInput').value = transcript;
-        
-        clearTimeout(voiceDebounce);
-        voiceDebounce = setTimeout(() => {
-            const currentVal = document.getElementById('sparringInput').value.trim();
-            if(currentVal) {
-                document.getElementById('voiceStatusText').innerText = 'Procesando Táctica...';
-                document.getElementById('orbCore').classList.remove('scale-110');
-                this.sendSparringMessage();
-            }
-        }, 1500); // Espera 1.5s de silencio antes de auto-enviar
+        // No auto-send! It just waits for the user to click Send.
       };
 
       this.voiceState.recognition.onspeechend = () => {
-        this.voiceState.recognition.stop();
+        // En continuous=true, onspeechend no detiene necesariamente la captura
       };
 
       this.voiceState.recognition.onerror = (event) => {
@@ -2798,12 +2787,15 @@ const App = {
       
       this.voiceState.recognition.onend = () => {
         this.voiceState.isListening = false;
-        // Auto-restart happens after speaking is done
+        // Si sigue activo el botón del micrófono, vuelve a escuchar
+        if (this.voiceState.isActive && (!window.speechSynthesis || !window.speechSynthesis.speaking)) {
+            try { this.voiceState.recognition.start(); } catch(e){}
+        }
       };
     }
     
     // Start listening
-    if (!this.voiceState.isListening && window.speechSynthesis && !window.speechSynthesis.speaking) {
+    if (!this.voiceState.isListening && (!window.speechSynthesis || !window.speechSynthesis.speaking)) {
         try { this.voiceState.recognition.start(); } catch(e){}
     }
   },
@@ -2872,6 +2864,12 @@ const App = {
     if (!msg) return;
     input.value = '';
     const box = document.getElementById('sparringChatBox');
+    
+    // Clear speech recognition buffer if in dictation mode
+    if (this.voiceState.isActive && this.voiceState.recognition) {
+        this.voiceState.recognition.stop();
+        // It will automatically restart from onend, with a clean buffer
+    }
 
     box.innerHTML += `<div class="flex items-start gap-3 justify-end"><div class="bg-indigo-600 rounded-2xl rounded-tr-none p-3 max-w-[80%] text-sm text-white">${msg}</div></div>`;
     box.scrollTop = box.scrollHeight;
