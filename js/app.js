@@ -2768,12 +2768,21 @@ const App = {
         document.getElementById('orbCore').classList.add('scale-110');
       };
 
+      let voiceDebounce;
       this.voiceState.recognition.onresult = (event) => {
-        const transcript = event.results[0][0].transcript;
+        // Collect all transcripts robustly
+        const transcript = Array.from(event.results).map(r => r[0].transcript).join(' ');
         document.getElementById('sparringInput').value = transcript;
-        document.getElementById('voiceStatusText').innerText = 'Procesando Táctica...';
-        document.getElementById('orbCore').classList.remove('scale-110');
-        this.sendSparringMessage();
+        
+        clearTimeout(voiceDebounce);
+        voiceDebounce = setTimeout(() => {
+            const currentVal = document.getElementById('sparringInput').value.trim();
+            if(currentVal) {
+                document.getElementById('voiceStatusText').innerText = 'Procesando Táctica...';
+                document.getElementById('orbCore').classList.remove('scale-110');
+                this.sendSparringMessage();
+            }
+        }, 1500); // Espera 1.5s de silencio antes de auto-enviar
       };
 
       this.voiceState.recognition.onspeechend = () => {
