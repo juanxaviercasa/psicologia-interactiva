@@ -2634,39 +2634,6 @@ const App = {
       }
   },
 
-  updatePomodoroDisplayupdatePomodoroDisplay();
-                  timerText.classList.remove('fa-fade');
-                  timerText.style.color = '#fda4af';
-                  
-                  // Play a soft chime if possible
-                  try {
-                      const ctx = new (window.AudioContext || window.webkitAudioContext)();
-                      const osc = ctx.createOscillator();
-                      osc.type = 'sine';
-                      osc.frequency.setValueAtTime(523.25, ctx.currentTime); // C5
-                      osc.connect(ctx.destination);
-                      osc.start();
-                      osc.stop(ctx.currentTime + 0.5);
-                  } catch(e) {}
-                  
-                  if (window.Swal) {
-                      Swal.fire({
-                          title: '¡Sesión Completada!',
-                          text: 'Has mantenido un enfoque profundo por 25 minutos. Tu cerebro necesita asimilar la información. Toma 5 minutos de descanso lejos de la pantalla.',
-                          icon: 'success',
-                          background: '#0B1120',
-                          color: '#fff',
-                          confirmButtonColor: '#06b6d4'
-                      });
-                  } else {
-                      alert("¡Sesión de 25 minutos completada! Toma un descanso.");
-                  }
-              } else {
-                  this.updatePomodoroDisplay();
-              }
-          }, 1000);
-      }
-  },
   
   updatePomodoroDisplay() {
       const mins = Math.floor(this.pomodoroTime / 60).toString().padStart(2, '0');
@@ -2684,7 +2651,6 @@ const App = {
       // 3. Update the minimized bubble
       const bubble = document.getElementById('pomodoroBubbleTime');
       if (bubble) bubble.textContent = formatted;
-  }:${s}`;
   },
 
   toggleFocusMode() {
