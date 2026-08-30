@@ -2897,7 +2897,7 @@ const App = {
     box.scrollTop = box.scrollHeight;
 
     try {
-      const reply = await window.AIEngine.sparringChat(msg, this.state.sparringHistory);
+      const reply = await AIEngine.sparringChat(msg, this.state.sparringHistory);
       document.getElementById(typingId)?.remove();
       this.state.sparringHistory.push({ role: 'ai', text: reply });
       box.innerHTML += `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-rose-950 flex items-center justify-center text-rose-400 border border-rose-800"><i class="fa-solid fa-mask"></i></div><div class="bg-slate-800 rounded-2xl rounded-tl-none p-3 max-w-[80%] text-sm text-slate-200 whitespace-pre-line">${reply}</div></div>`;
