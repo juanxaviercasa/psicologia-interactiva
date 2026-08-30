@@ -2434,6 +2434,29 @@ const App = {
   // =============================================
   // HERRAMIENTAS DE EXPORTACIÓN
   // =============================================
+  shareProgress() {
+    const text = `¡Estoy dominando tácticas de influencia y persuasión avanzada en la plataforma interactiva de Psicología Oscura! 🧠♟️\n\nMis stats actuales:\n🔥 Nivel: ${document.getElementById('globalLevelText')?.textContent || 'Novato'}\n✅ Progreso: ${document.getElementById('dashProgressPercent')?.textContent || '0%'}\n🎯 Simulador: ${document.getElementById('dashCasesSolved')?.textContent || '0'}\n\n¿Tienes lo necesario para ser un Maestro Táctico? 👉 https://juanxaviercasa.github.io/psicologia-interactiva/`;
+    
+    // Create the LinkedIn share URL. LinkedIn only takes a URL reliably via param, but we can copy the text to clipboard first!
+    navigator.clipboard.writeText(text).then(() => {
+        Swal.fire({
+            title: '¡Texto Copiado!',
+            html: '<p class="text-sm text-slate-300">El mensaje con tus logros ha sido copiado al portapapeles. ¡Pégalo en tu próximo post de LinkedIn para atraer reclutadores!</p>',
+            icon: 'success',
+            background: '#0f172a',
+            color: '#e2e8f0',
+            confirmButtonText: 'Abrir LinkedIn',
+            confirmButtonColor: '#0a66c2',
+            showCancelButton: true,
+            cancelButtonText: 'Cerrar'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.open('https://www.linkedin.com/feed/', '_blank');
+            }
+        });
+    });
+  },
+
   exportStudySummary() {
     if (typeof LIBROS_DATA === 'undefined') return;
     const unlocked = Object.keys(this.state.progress.unlockedLessons).length - 1;
