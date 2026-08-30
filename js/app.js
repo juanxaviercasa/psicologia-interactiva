@@ -2435,7 +2435,7 @@ const App = {
   // HERRAMIENTAS DE EXPORTACIÓN
   // =============================================
   shareProgress() {
-    const text = `¡Estoy dominando tácticas de influencia y persuasión avanzada en la plataforma interactiva de Psicología Oscura! 🧠♟️\n\nMis stats actuales:\n🔥 Nivel: ${document.getElementById('globalLevelText')?.textContent || 'Novato'}\n✅ Progreso: ${document.getElementById('dashProgressPercent')?.textContent || '0%'}\n🎯 Simulador: ${document.getElementById('dashCasesSolved')?.textContent || '0'}\n\n¿Tienes lo necesario para ser un Maestro Táctico? 👉 https://juanxaviercasa.github.io/psicologia-interactiva/`;
+    const text = `¡Estoy dominando tácticas de influencia y persuasión avanzada en la plataforma interactiva de Psicología Oscura! 🧠♟️\n\nMis stats actuales:\n🔥 Nivel: ${document.getElementById('globalLevelText')?.textContent || 'Novato'}\n✅ Progreso: ${document.getElementById('dashProgressPercent')?.textContent || '0%'}\n🎯 Simulador: ${document.getElementById('dashCasesSolved')?.textContent || '0'}\n\n¿Tienes lo necesario para ser un Maestro Táctico? 👉 `;
     
     // Create the LinkedIn share URL. LinkedIn only takes a URL reliably via param, but we can copy the text to clipboard first!
     navigator.clipboard.writeText(text).then(() => {
