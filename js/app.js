@@ -2731,20 +2731,31 @@ const App = {
   },
 
   toggleVoiceMode() {
-    const orb = document.getElementById('voiceOrbContainer');
+    const btn = document.getElementById('btnVoiceMode');
     this.voiceState.isActive = !this.voiceState.isActive;
     
     if (this.voiceState.isActive) {
-      orb.classList.remove('hidden');
+      // Dictation mode ON
+      if(btn) {
+          btn.classList.add('bg-rose-600', 'text-white', 'animate-pulse');
+          btn.classList.remove('text-rose-400');
+      }
       this.initVoiceRecognition();
+      this.showToast('Micrófono activado. Habla cuando estés listo.', 'info');
     } else {
-      orb.classList.add('hidden');
+      // Dictation mode OFF
+      if(btn) {
+          btn.classList.remove('bg-rose-600', 'text-white', 'animate-pulse');
+          btn.classList.add('text-rose-400');
+      }
       if (this.voiceState.recognition) {
         this.voiceState.recognition.stop();
+        this.voiceState.isListening = false;
       }
       if (window.speechSynthesis && window.speechSynthesis.speaking) {
         window.speechSynthesis.cancel();
       }
+      this.showToast('Micrófono desactivado.', 'info');
     }
   },
 
