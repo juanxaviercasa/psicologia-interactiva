@@ -1,3 +1,11 @@
+
+window.onerror = function(msg, url, lineNo, columnNo, error) {
+    alert('JS Error:\n' + msg + '\nLine: ' + lineNo + '\nCol: ' + columnNo + '\nURL: ' + url);
+    return false;
+};
+window.addEventListener('unhandledrejection', function(event) {
+    alert('Unhandled Promise Rejection:\n' + event.reason);
+});
 // app.js - NEURO-TACTICAL OS v2.0 — FULL REBUILD (ALL FUNCTIONS IMPLEMENTED)
 const App = {
   state: {
@@ -937,9 +945,10 @@ const App = {
     }
 
     // Anti-freeze: ensure queue is clear before next chunk
+    if (window.speechSynthesis.paused) window.speechSynthesis.resume();
     window.speechSynthesis.cancel();
     
-    // Small delay to allow the browser's audio engine to breathe before speaking again
+    // Suave delay to prevent harsh cuts and engine lag between audios
     setTimeout(() => {
         if (!state.activeChapter || state.isPaused) return;
         
@@ -993,6 +1002,10 @@ const App = {
 
   stopAudioNarration() {
     if ('speechSynthesis' in window) {
+      // FIX LAG: If paused, resume before cancel to prevent engine freeze
+      if (window.speechSynthesis.paused) {
+          window.speechSynthesis.resume();
+      }
       window.speechSynthesis.cancel();
     }
     const state = this.ttsState;
