@@ -132,9 +132,17 @@ const App = {
       try {
         const parsed = JSON.parse(saved);
         this.state = { ...this.state, ...parsed };
-        if (!this.state.progress.unlockedLessons) this.state.progress.unlockedLessons = { 'm1-0': true };
       } catch(e) { console.error('Progress load error', e); }
     }
+    // Bulletproof state structure
+    if (!this.state.progress) this.state.progress = {};
+    if (!this.state.progress.unlockedLessons) this.state.progress.unlockedLessons = { 'm1-0': true };
+    if (typeof this.state.level !== 'number') this.state.level = 1;
+    if (typeof this.state.xp !== 'number') this.state.xp = 0;
+    if (typeof this.state.flashcardsDone !== 'number') this.state.flashcardsDone = 0;
+    if (typeof this.state.casesSolved !== 'number') this.state.casesSolved = 0;
+    if (typeof this.state.quizScore !== 'number') this.state.quizScore = 0;
+    
     this.updateAllUI();
   },
 
