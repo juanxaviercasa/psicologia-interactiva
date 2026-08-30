@@ -2892,11 +2892,52 @@ const App = {
     ).join('');
 
     return `
-      <div id="sparringPreSession" class="flex flex-col gap-5 p-6 h-full overflow-y-auto custom-scrollbar">
-        <div class="text-center">
-          <div class="text-4xl mb-2">🥊</div>
-          <h3 class="text-lg font-bold text-white">Configura tu Sesión de Entrenamiento</h3>
-          <p class="text-xs text-slate-400 mt-1">Elige el conocimiento a practicar y el escenario de combate antes de iniciar.</p>
+      <div id="sparringPreSession" class="flex flex-col gap-5 p-6 overflow-y-auto custom-scrollbar" style="max-height:580px;">
+
+        <!-- BIENVENIDA -->
+        <div class="rounded-2xl bg-gradient-to-br from-rose-950/60 to-indigo-950/60 border border-rose-800/40 p-5 space-y-3">
+          <div class="flex items-center gap-3">
+            <div class="text-3xl">🥊</div>
+            <div>
+              <h3 class="text-base font-bold text-white">Sparring Táctico — IA Generativa</h3>
+              <p class="text-[11px] text-slate-400 mt-0.5">Simulador de combate psicológico en tiempo real</p>
+            </div>
+          </div>
+          <p class="text-xs text-slate-300 leading-relaxed">
+            En este simulador, una <strong class="text-rose-300">IA toma el rol de un perfil manipulador</strong> real (jefe tóxico, pareja con Gaslighting, narcisista, etc.) y te atacará usando exactamente las tácticas contrarias a la técnica que quieras entrenar. Tu misión: responderle correctamente usando lo que aprendiste en el libro.
+          </p>
+
+          <!-- Cómo funciona en 3 puntos -->
+          <div class="grid grid-cols-3 gap-2 pt-1">
+            <div class="bg-slate-900/60 rounded-xl p-3 text-center border border-slate-700/50">
+              <div class="text-xl mb-1">1️⃣</div>
+              <p class="text-[10px] text-slate-300 font-bold">Elige tu técnica</p>
+              <p class="text-[10px] text-slate-500 mt-0.5">Qué defensa quieres practicar de los 6 libros</p>
+            </div>
+            <div class="bg-slate-900/60 rounded-xl p-3 text-center border border-slate-700/50">
+              <div class="text-xl mb-1">2️⃣</div>
+              <p class="text-[10px] text-slate-300 font-bold">Elige el escenario</p>
+              <p class="text-[10px] text-slate-500 mt-0.5">El rol del atacante y el contexto de la batalla</p>
+            </div>
+            <div class="bg-slate-900/60 rounded-xl p-3 text-center border border-slate-700/50">
+              <div class="text-xl mb-1">3️⃣</div>
+              <p class="text-[10px] text-slate-300 font-bold">Combate y aprende</p>
+              <p class="text-[10px] text-slate-500 mt-0.5">La IA evalúa cada una de tus respuestas en tiempo real</p>
+            </div>
+          </div>
+
+          <!-- Cómo leer la evaluación -->
+          <div class="bg-slate-900/70 rounded-xl p-3 border border-slate-700/50 space-y-2">
+            <p class="text-[10px] font-bold text-slate-300 uppercase tracking-wider flex items-center gap-1.5"><i class="fa-solid fa-chart-bar text-cyan-400"></i> Cómo leer tu evaluación al final de cada respuesta:</p>
+            <div class="flex items-start gap-2">
+              <span class="shrink-0 text-[10px] font-mono bg-emerald-950/50 text-emerald-400 border border-emerald-800/50 rounded px-1.5 py-0.5">✅ Éxito</span>
+              <p class="text-[10px] text-slate-400">Aplicaste la técnica correctamente. La IA detectó que mantuviste el marco, la neutralidad o la defensa según lo que estás entrenando.</p>
+            </div>
+            <div class="flex items-start gap-2">
+              <span class="shrink-0 text-[10px] font-mono bg-rose-950/50 text-rose-400 border border-rose-800/50 rounded px-1.5 py-0.5">❌ Fallo</span>
+              <p class="text-[10px] text-slate-400">Cediste poder emocional o reaccionaste justo como el manipulador esperaba. Relée el capítulo correspondiente y vuelve a intentarlo.</p>
+            </div>
+          </div>
         </div>
 
         <div class="grid grid-cols-1 gap-4">
