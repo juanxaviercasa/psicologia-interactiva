@@ -107,20 +107,13 @@
   </style>
 
 
-  <!-- Clerk Authentication SDK -->
-  <script
-    async
-    crossorigin="anonymous"
-    data-clerk-publishable-key="PLACEHOLDER"
-    src="https://cdn.jsdelivr.net/npm/@clerk/clerk-js@latest/dist/clerk.browser.js"
-  ></script>
-  <script src="js/clerk_auth.js"></script>
+  <!-- Clerk Authentication removed for public access -->
 
 </head>
 <body class="bg-[#090D16] text-slate-100 min-h-screen flex flex-col antialiased selection:bg-cyan-500 selection:text-black">
   
   <!-- CLERK LOADING SCREEN -->
-  <div id="clerk-loading-screen" class="fixed inset-0 z-[100] bg-[#0B1120] flex flex-col items-center justify-center">
+  <div id="clerk-loading-screen" class="hidden fixed inset-0 z-[100] bg-[#0B1120] flex flex-col items-center justify-center">
     <i class="fa-solid fa-brain text-cyan-500 text-6xl animate-pulse drop-shadow-[0_0_15px_rgba(6,182,212,0.5)]"></i>
     <p id="clerk-loading-text" class="mt-6 text-slate-400 font-mono text-sm tracking-widest uppercase">Iniciando Protocolos de Seguridad...</p>
   </div>
@@ -143,7 +136,7 @@
   </div>
 
   <!-- APP MAIN CONTENT (Hidden by default until Auth resolves) -->
-  <div id="app-main-content" class="hidden">
+  <div id="app-main-content" class="">
 
 
   <!-- HEADER / NAVBAR PRINCIPAL -->
