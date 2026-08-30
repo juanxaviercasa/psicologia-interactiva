@@ -2963,6 +2963,26 @@ const App = {
   // =============================================
   // API KEY MODAL
   // =============================================
+  showApiKeyGuide() {
+    Swal.fire({
+      title: '<span class="text-cyan-400">Guía Rápida</span>',
+      html: `
+        <div class="text-left text-sm text-slate-300 space-y-4">
+          <p>Para usar la Inteligencia Artificial necesitas tu propia llave (API Key). Toma 1 minuto y es totalmente gratis:</p>
+          <ol class="list-decimal list-inside space-y-2 text-slate-200 bg-slate-800 p-4 rounded-xl border border-slate-700">
+            <li>Ve a <a href="https://aistudio.google.com/app/apikey" target="_blank" class="text-cyan-400 font-bold hover:underline">Google AI Studio</a> e inicia sesión con Google.</li>
+            <li>Haz clic en el botón azul <strong>"Create API key"</strong>.</li>
+            <li>Copia el texto largo que empieza con <span class="text-amber-400 font-mono">AIzaSy...</span></li>
+            <li>Pégalo aquí en la plataforma.</li>
+          </ol>
+        </div>
+      `,
+      background: '#0f172a',
+      confirmButtonColor: '#0891b2',
+      confirmButtonText: '¡Entendido!'
+    });
+  },
+
   saveApiKey() {
     const k = document.getElementById('apiKeyInput').value.trim();
     if (!k || k.includes('•')) { this.showToast('Pega una API Key válida', 'error'); return; }
