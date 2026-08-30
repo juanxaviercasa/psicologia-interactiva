@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "echo \"Build skipped\""
+  },
   "dependencies": {
     "jsdom": "^30.0.1"
   }
