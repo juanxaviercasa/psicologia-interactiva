@@ -1,11 +1,3 @@
-
-window.onerror = function(msg, url, lineNo, columnNo, error) {
-    alert('JS Error:\n' + msg + '\nLine: ' + lineNo + '\nCol: ' + columnNo + '\nURL: ' + url);
-    return false;
-};
-window.addEventListener('unhandledrejection', function(event) {
-    alert('Unhandled Promise Rejection:\n' + event.reason);
-});
 // app.js - NEURO-TACTICAL OS v2.0 — FULL REBUILD (ALL FUNCTIONS IMPLEMENTED)
 const App = {
   state: {
@@ -1156,7 +1148,7 @@ const App = {
 
     try {
       if (provider === 'google') {
-        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${key}`, {
+        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${key}`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ contents: [{ parts: [{ text: 'Responde solo: OK' }] }] })
