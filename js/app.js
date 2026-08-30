@@ -13,6 +13,7 @@ const App = {
     level: 1,
     xp: 0,
     sparringHistory: [],
+    sparringContext: null, // { libroId, tecnicaId, escenarioId } | null = Modo Libre
     certName: '',
     userNotes: {}
   },
@@ -124,6 +125,10 @@ const App = {
       const el = document.getElementById('apiKeyInput');
       if (el) el.value = '••••••••••••••••';
     }
+
+    // Initialize Sparring pre-session panel
+    const sparringBox = document.getElementById('sparringChatBox');
+    if (sparringBox) sparringBox.innerHTML = this.renderSparringPreSession();
   },
 
   loadProgress() {
@@ -2872,13 +2877,179 @@ const App = {
     speakNextChunk();
   },
 
+  // =============================================
+  // SPARRING SESSION MANAGEMENT
+  // =============================================
+
+  renderSparringPreSession() {
+    const scenarios = typeof AIEngine !== 'undefined' ? AIEngine.SPARRING_SCENARIOS : {};
+    const libroOptions = Object.entries(scenarios).map(([id, l]) =>
+      `<option value="${id}">${l.emoji} ${l.nombre}</option>`
+    ).join('');
+
+    const escenarioOptions = (typeof AIEngine !== 'undefined' ? AIEngine.SPARRING_ESCENARIOS : []).map(e =>
+      `<option value="${e.id}">${e.nombre}</option>`
+    ).join('');
+
+    return `
+      <div id="sparringPreSession" class="flex flex-col gap-5 p-6 h-full overflow-y-auto custom-scrollbar">
+        <div class="text-center">
+          <div class="text-4xl mb-2">🥊</div>
+          <h3 class="text-lg font-bold text-white">Configura tu Sesión de Entrenamiento</h3>
+          <p class="text-xs text-slate-400 mt-1">Elige el conocimiento a practicar y el escenario de combate antes de iniciar.</p>
+        </div>
+
+        <div class="grid grid-cols-1 gap-4">
+          <!-- Paso 1: Libro -->
+          <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700 space-y-2">
+            <label class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
+              <span class="w-5 h-5 rounded-full bg-rose-600 text-white text-[10px] flex items-center justify-center font-bold">1</span>
+              ¿Qué libro deseas practicar?
+            </label>
+            <select id="sparringLibroSelect" onchange="App.updateTechniqueOptions()" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-100 focus:outline-none focus:border-rose-500 font-semibold">
+              <option value="">— Selecciona un libro —</option>
+              ${libroOptions}
+            </select>
+          </div>
+
+          <!-- Paso 2: Técnica -->
+          <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700 space-y-2">
+            <label class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
+              <span class="w-5 h-5 rounded-full bg-rose-600 text-white text-[10px] flex items-center justify-center font-bold">2</span>
+              ¿Qué técnica quieres entrenar?
+            </label>
+            <select id="sparringTecnicaSelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-100 focus:outline-none focus:border-rose-500">
+              <option value="">— Primero elige un libro —</option>
+            </select>
+          </div>
+
+          <!-- Paso 3: Escenario -->
+          <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700 space-y-2">
+            <label class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
+              <span class="w-5 h-5 rounded-full bg-rose-600 text-white text-[10px] flex items-center justify-center font-bold">3</span>
+              ¿En qué escenario deseas combatir?
+            </label>
+            <select id="sparringEscenarioSelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-100 focus:outline-none focus:border-rose-500">
+              <option value="">— Selecciona un escenario —</option>
+              ${escenarioOptions}
+            </select>
+          </div>
+        </div>
+
+        <!-- Botones de acción -->
+        <div class="flex gap-3 mt-2">
+          <button onclick="App.startSparringSession()" class="flex-1 py-3 bg-gradient-to-r from-rose-600 to-indigo-700 hover:from-rose-500 hover:to-indigo-600 text-white rounded-xl font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-rose-500/25 transition-all">
+            <i class="fa-solid fa-bolt"></i> Iniciar Entrenamiento
+          </button>
+          <button onclick="App.startSparringSession(true)" class="px-4 py-3 bg-slate-700 hover:bg-slate-600 text-slate-300 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-all" title="Modo libre sin guía">
+            <i class="fa-solid fa-shuffle"></i> Modo Libre
+          </button>
+        </div>
+      </div>`;
+  },
+
+  updateTechniqueOptions() {
+    const libroId = document.getElementById('sparringLibroSelect')?.value;
+    const tecSelect = document.getElementById('sparringTecnicaSelect');
+    if (!tecSelect || !libroId || typeof AIEngine === 'undefined') return;
+
+    const libro = AIEngine.SPARRING_SCENARIOS[libroId];
+    if (!libro) return;
+
+    tecSelect.innerHTML = libro.tecnicas.map(t =>
+      `<option value="${t.id}">${t.nombre}</option>`
+    ).join('');
+  },
+
+  async startSparringSession(freeMode = false) {
+    const box = document.getElementById('sparringChatBox');
+    if (!box) return;
+
+    if (freeMode) {
+      this.state.sparringContext = null;
+      this.state.sparringHistory = [];
+    } else {
+      const libroId = document.getElementById('sparringLibroSelect')?.value;
+      const tecnicaId = document.getElementById('sparringTecnicaSelect')?.value;
+      const escenarioId = document.getElementById('sparringEscenarioSelect')?.value;
+
+      if (!libroId || !tecnicaId || !escenarioId) {
+        this.showToast('Completa los 3 pasos de configuración para iniciar.', 'error');
+        return;
+      }
+
+      this.state.sparringContext = { libroId, tecnicaId, escenarioId };
+      this.state.sparringHistory = [];
+    }
+
+    // Build context bar
+    let contextBar = '';
+    if (this.state.sparringContext && typeof AIEngine !== 'undefined') {
+      const { libroId, tecnicaId, escenarioId } = this.state.sparringContext;
+      const libro = AIEngine.SPARRING_SCENARIOS[libroId];
+      const tecnica = libro?.tecnicas.find(t => t.id === tecnicaId);
+      const escenario = AIEngine.SPARRING_ESCENARIOS.find(e => e.id === escenarioId);
+      contextBar = `<div class="flex items-center gap-2 flex-wrap px-4 py-2 bg-rose-950/30 border-b border-rose-900/50 text-[11px] font-mono text-rose-300">
+        <i class="fa-solid fa-crosshairs text-rose-400"></i>
+        <span class="text-slate-400">Libro:</span> <strong>${libro?.emoji} ${libro?.nombre}</strong>
+        <span class="text-slate-600">|</span>
+        <span class="text-slate-400">Técnica:</span> <strong>${tecnica?.nombre}</strong>
+        <span class="text-slate-600">|</span>
+        <span class="text-slate-400">Escenario:</span> <strong>${escenario?.nombre}</strong>
+        <button onclick="App.resetSparringSession()" class="ml-auto text-slate-500 hover:text-rose-400 transition-colors" title="Nueva sesión"><i class="fa-solid fa-arrow-rotate-left text-xs"></i></button>
+      </div>`;
+    } else {
+      contextBar = `<div class="flex items-center gap-2 px-4 py-2 bg-slate-800/50 border-b border-slate-700 text-[11px] font-mono text-slate-400">
+        <i class="fa-solid fa-shuffle text-cyan-400"></i> <strong class="text-slate-300">Modo Libre</strong> — Sin contexto fijo. Practica libremente.
+        <button onclick="App.resetSparringSession()" class="ml-auto text-slate-500 hover:text-rose-400 transition-colors" title="Nueva sesión"><i class="fa-solid fa-arrow-rotate-left text-xs"></i></button>
+      </div>`;
+    }
+
+    // Replace pre-session UI with chat UI
+    box.innerHTML = contextBar + `<div id="sparringMessages" class="flex-1 p-4 space-y-4 overflow-y-auto custom-scrollbar" style="max-height: 520px;"></div>`;
+
+    // Auto-generate NPC opening line
+    const typingId = 'typing-init-' + Date.now();
+    const msgContainer = document.getElementById('sparringMessages');
+    if (msgContainer) {
+      msgContainer.innerHTML += `<div id="${typingId}" class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-rose-950 flex items-center justify-center text-rose-400 border border-rose-800"><i class="fa-solid fa-mask"></i></div><div class="text-slate-500 text-xs mt-2 animate-pulse">El oponente se prepara...</div></div>`;
+      msgContainer.scrollTop = msgContainer.scrollHeight;
+
+      try {
+        const openingMsg = this.state.sparringContext
+          ? `Inicia el escenario de forma natural. Tú eres el atacante. Comienza el rol de inmediato sin saludar ni explicar.`
+          : `Di una frase de apertura corta e intimidante. Estás en modo libre de sparring psicológico.`;
+
+        const opening = await AIEngine.sparringChat(openingMsg, [], this.state.sparringContext);
+        document.getElementById(typingId)?.remove();
+        this.state.sparringHistory.push({ role: 'ai', text: opening });
+        msgContainer.innerHTML += this._sparringAIBubble(opening);
+        msgContainer.scrollTop = msgContainer.scrollHeight;
+      } catch (err) {
+        document.getElementById(typingId)?.remove();
+        msgContainer.innerHTML += `<div class="text-xs text-slate-500 italic text-center py-2">El oponente está esperando tu primer movimiento...</div>`;
+      }
+    }
+  },
+
+  resetSparringSession() {
+    const box = document.getElementById('sparringChatBox');
+    if (box) box.innerHTML = this.renderSparringPreSession();
+    this.state.sparringHistory = [];
+    this.state.sparringContext = null;
+  },
+
+  _sparringAIBubble(text) {
+    return `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-rose-950 flex items-center justify-center text-rose-400 border border-rose-800 shrink-0"><i class="fa-solid fa-mask"></i></div><div class="bg-slate-800 rounded-2xl rounded-tl-none p-3 max-w-[85%] text-sm text-slate-200 whitespace-pre-line">${text}</div></div>`;
+  },
+
   async sendSparringMessage(e) {
     if (e) e.preventDefault();
     const input = document.getElementById('sparringInput');
     const msg = input.value.trim();
     if (!msg) return;
     input.value = '';
-    const box = document.getElementById('sparringChatBox');
+    const box = document.getElementById('sparringMessages') || document.getElementById('sparringChatBox');
     
     // Clear speech recognition buffer if in dictation mode
     if (this.voiceState.isActive && this.voiceState.recognition) {
@@ -2897,10 +3068,10 @@ const App = {
     box.scrollTop = box.scrollHeight;
 
     try {
-      const reply = await AIEngine.sparringChat(msg, this.state.sparringHistory);
+      const reply = await AIEngine.sparringChat(msg, this.state.sparringHistory, this.state.sparringContext);
       document.getElementById(typingId)?.remove();
       this.state.sparringHistory.push({ role: 'ai', text: reply });
-      box.innerHTML += `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-rose-950 flex items-center justify-center text-rose-400 border border-rose-800"><i class="fa-solid fa-mask"></i></div><div class="bg-slate-800 rounded-2xl rounded-tl-none p-3 max-w-[80%] text-sm text-slate-200 whitespace-pre-line">${reply}</div></div>`;
+      box.innerHTML += this._sparringAIBubble(reply);
       box.scrollTop = box.scrollHeight;
       
       if (this.voiceState.isActive) {

@@ -805,39 +805,14 @@
     </div>
 
     <!-- Chat Interface -->
-    <div class="glass-card rounded-2xl border border-slate-800 flex flex-col h-[650px] overflow-hidden relative">
-      
-      <!-- Holographic Voice Orb (Hidden by default, shown when Voice Mode active) -->
-      <div id="voiceOrbContainer" class="absolute inset-0 bg-slate-950/90 z-20 flex flex-col items-center justify-center hidden backdrop-blur-md">
-         <div class="relative w-48 h-48 flex items-center justify-center">
-            <!-- Pulsing Rings -->
-            <div id="orbRing1" class="absolute inset-0 rounded-full border border-rose-500/30 animate-ping" style="animation-duration: 2s;"></div>
-            <div id="orbRing2" class="absolute inset-4 rounded-full border border-indigo-500/50 animate-pulse" style="animation-duration: 1.5s;"></div>
-            
-            <!-- Central Core -->
-            <div id="orbCore" class="w-24 h-24 rounded-full bg-gradient-to-tr from-rose-600 to-indigo-900 shadow-[0_0_40px_rgba(244,63,94,0.6)] flex items-center justify-center transition-all duration-300">
-               <i class="fa-solid fa-microphone-lines text-white text-3xl"></i>
-            </div>
-         </div>
-         
-         <p id="voiceStatusText" class="mt-8 text-rose-300 font-mono text-sm tracking-widest uppercase">IA Escuchando...</p>
-         
-         <button onclick="App.toggleVoiceMode()" class="mt-12 px-6 py-2 bg-slate-800/80 border border-slate-700 hover:bg-slate-700 text-slate-300 rounded-full text-xs font-bold uppercase tracking-widest transition-colors">
-            Cerrar Modo Voz
-         </button>
-      </div>
+    <div class="glass-card rounded-2xl border border-slate-800 flex flex-col overflow-hidden relative">
 
-      <div id="sparringChatBox" class="flex-1 overflow-y-auto p-4 space-y-4 bg-slate-950/50 scroll-smooth">
-        <!-- Default Welcome Message -->
-        <div class="flex items-start gap-3">
-          <div class="w-8 h-8 rounded-full bg-rose-950 flex flex-shrink-0 items-center justify-center text-rose-400 border border-rose-800"><i class="fa-solid fa-mask"></i></div>
-          <div class="bg-slate-800 rounded-2xl rounded-tl-none p-3 max-w-[80%] border border-slate-700/50">
-            <p class="text-sm text-slate-300">Ah, has decidido entrar. Te advierto que aquí no hay reglas justas. Intenta usar tus técnicas de "Roca Gris" o "Desvío" conmigo. Habla o escribe cuando estés listo.</p>
-          </div>
-        </div>
+      <!-- Main scrollable area: pre-session panel OR chat messages -->
+      <div id="sparringChatBox" class="flex-1 bg-slate-950/50 scroll-smooth min-h-[500px]">
+        <!-- Rendered dynamically by App.renderSparringPreSession() -->
       </div>
       
-      <!-- Input Area -->
+      <!-- Input Area (always visible) -->
       <div class="p-4 bg-slate-900 border-t border-slate-800">
         <div class="flex items-center gap-2 relative">
           
@@ -1373,16 +1348,16 @@
 
   <!-- Scripts Neural OS -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="js/book_content.js?v=3.1"></script>
-  <script src="js/data_libros.js?v=3.1"></script>
-  <script src="js/audio_engine.js?v=3.1"></script>
-  <script src="js/cv_engine.js?v=3.1"></script>
-  <script src="js/ai_engine.js?v=3.1"></script>
+  <script src="js/book_content.js?v=3.2"></script>
+  <script src="js/data_libros.js?v=3.2"></script>
+  <script src="js/audio_engine.js?v=3.2"></script>
+  <script src="js/cv_engine.js?v=3.2"></script>
+  <script src="js/ai_engine.js?v=3.2"></script>
   <!-- Face-API.js -->
   <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
   <!-- SweetAlert2 -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="js/app.js?v=3.1"></script>
+  <script src="js/app.js?v=3.2"></script>
 
   <footer class="mt-16 py-8 border-t border-slate-800/60 bg-slate-950/50 text-center relative z-20">
     <div class="container mx-auto px-4">
