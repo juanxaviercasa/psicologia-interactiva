@@ -1119,7 +1119,11 @@ const App = {
     keys.forEach(k => {
       const input = document.getElementById(`key_${k}`);
       if (input) {
-        localStorage.setItem(`userAIKey_${k}`, input.value.trim());
+        const val = input.value.trim();
+        localStorage.setItem(`userAIKey_${k}`, val);
+        if (k === 'google' && typeof AIEngine !== 'undefined') {
+          AIEngine.apiKey = val;
+        }
       }
     });
 
@@ -2906,7 +2910,8 @@ const App = {
     } catch (err) {
       console.error(err);
       document.getElementById(typingId)?.remove();
-      box.innerHTML += `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-red-900/50 flex items-center justify-center text-red-400 border border-red-800"><i class="fa-solid fa-triangle-exclamation"></i></div><div class="bg-red-950/20 border border-red-900/50 rounded-2xl rounded-tl-none p-3 max-w-[80%] text-sm text-red-400">Error de conexión. ¿Te intimidé demasiado? (Asegúrate de configurar tu API Key de Gemini en el Centro IA).</div></div>`;
+      let errorMsg = err.message || 'Error desconocido';
+      box.innerHTML += `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-red-900/50 flex items-center justify-center text-red-400 border border-red-800"><i class="fa-solid fa-triangle-exclamation"></i></div><div class="bg-red-950/20 border border-red-900/50 rounded-2xl rounded-tl-none p-3 max-w-[80%] text-sm text-red-400"><b>Fallo en el enlace táctico:</b> ${errorMsg} <br><br><span class="text-xs text-slate-400">Si el error persiste, verifica que tu API Key esté bien copiada en el Centro IA.</span></div></div>`;
       box.scrollTop = box.scrollHeight;
       if (this.voiceState.isActive && !this.voiceState.isListening) {
           try { this.voiceState.recognition.start(); } catch(e){}

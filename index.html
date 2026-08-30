@@ -798,7 +798,7 @@
           </h2>
           <p class="text-xs text-slate-400 mt-1">Simulador de chat en tiempo real. Enfréntate a un perfil maquiavélico y pon a prueba tu capacidad de aplicar la Roca Gris y desarmar el Gaslighting.</p>
         </div>
-        <button onclick="document.getElementById('aiSettingsModal').classList.remove('hidden')" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-300 rounded-xl border border-slate-700">
+        <button onclick="document.getElementById('aiEngineModal').classList.remove('hidden')" class="px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-xs font-semibold text-slate-300 rounded-xl border border-slate-700">
           <i class="fa-solid fa-gear"></i> Configurar IA
         </button>
       </div>
@@ -1118,21 +1118,6 @@
     </div>
   </section>
 
-  <!-- MODAL DE CONFIGURACIÓN DE IA -->
-  <div id="aiSettingsModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4">
-    <div class="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-md p-6 shadow-2xl relative">
-      <button onclick="document.getElementById('aiSettingsModal').classList.add('hidden')" class="absolute top-4 right-4 text-slate-400 hover:text-white">
-        <i class="fa-solid fa-xmark text-lg"></i>
-      </button>
-      <h3 class="text-lg font-bold text-white mb-2"><i class="fa-solid fa-key text-amber-400"></i> Configuración LLM</h3>
-      <p class="text-xs text-slate-400 mb-2">Para que el Sparring y el Auditor funcionen de forma infinita y orgánica, necesitas proporcionar una API Key de Google Gemini (es gratuita).</p>
-      <button onclick="App.showApiKeyGuide()" class="text-xs text-cyan-400 hover:text-cyan-300 underline mb-4 text-left w-full"><i class="fa-solid fa-circle-info"></i> ¿Cómo obtener mi API Key gratis en 1 minuto?</button>
-      <input type="password" id="apiKeyInput" placeholder="Pega tu Gemini API Key (AIzaSy...)" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2 text-sm text-slate-200 focus:border-cyan-500 outline-none mb-4">
-      <button onclick="App.saveApiKey()" class="w-full py-2 bg-cyan-600 hover:bg-cyan-500 text-slate-950 font-bold rounded-xl">Guardar API Key</button>
-      <div class="mt-4 text-[10px] text-slate-500 italic">Tu clave se guarda localmente en tu navegador mediante localStorage y nunca se envía a ningún otro servidor que no sea la API oficial de Google.</div>
-    </div>
-  </div>
-
   <!-- MODAL DE BÚSQUEDA UNIVERSAL (CTRL+K) -->
   <div id="searchModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-2xl max-h-[80vh] flex flex-col shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-200">
@@ -1324,9 +1309,12 @@
             <span class="text-xs font-bold text-emerald-400 flex items-center gap-2">
               <i class="fa-brands fa-google"></i> Google AI Studio (Gemini)
             </span>
-            <a href="https://aistudio.google.com/app/apikey" target="_blank" class="text-[11px] text-cyan-400 hover:text-cyan-300 hover:underline flex items-center gap-1 font-mono">
-              Obtener Clave Gratis <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
-            </a>
+            <div class="flex items-center gap-3">
+                <button onclick="App.showApiKeyGuide()" class="text-[11px] text-cyan-400 hover:text-cyan-300 underline font-mono flex items-center gap-1"><i class="fa-solid fa-circle-info"></i> Guía Rápida</button>
+                <a href="https://aistudio.google.com/app/apikey" target="_blank" class="text-[11px] text-emerald-400 hover:text-emerald-300 hover:underline flex items-center gap-1 font-mono">
+                  Generar <i class="fa-solid fa-arrow-up-right-from-square text-[9px]"></i>
+                </a>
+            </div>
           </div>
           <input type="password" id="key_google" placeholder="Pega tu clave AIzaSy..." class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 focus:outline-none focus:border-emerald-500 font-mono">
         </div>
@@ -1385,16 +1373,16 @@
 
   <!-- Scripts Neural OS -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="js/book_content.js?v=2.9"></script>
-  <script src="js/data_libros.js?v=2.9"></script>
-  <script src="js/audio_engine.js?v=2.9"></script>
-  <script src="js/cv_engine.js?v=2.9"></script>
-  <script src="js/ai_engine.js?v=2.9"></script>
+  <script src="js/book_content.js?v=3.0"></script>
+  <script src="js/data_libros.js?v=3.0"></script>
+  <script src="js/audio_engine.js?v=3.0"></script>
+  <script src="js/cv_engine.js?v=3.0"></script>
+  <script src="js/ai_engine.js?v=3.0"></script>
   <!-- Face-API.js -->
   <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
   <!-- SweetAlert2 -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="js/app.js?v=2.9"></script>
+  <script src="js/app.js?v=3.0"></script>
 
   <footer class="mt-16 py-8 border-t border-slate-800/60 bg-slate-950/50 text-center relative z-20">
     <div class="container mx-auto px-4">
