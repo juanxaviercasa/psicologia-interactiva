@@ -2881,14 +2881,11 @@ const App = {
   // SPARRING SESSION MANAGEMENT
   // =============================================
 
+
   renderSparringPreSession() {
     const scenarios = typeof AIEngine !== 'undefined' ? AIEngine.SPARRING_SCENARIOS : {};
     const libroOptions = Object.entries(scenarios).map(([id, l]) =>
       `<option value="${id}">${l.emoji} ${l.nombre}</option>`
-    ).join('');
-
-    const escenarioOptions = (typeof AIEngine !== 'undefined' ? AIEngine.SPARRING_ESCENARIOS : []).map(e =>
-      `<option value="${e.id}">${e.nombre}</option>`
     ).join('');
 
     return `
@@ -2904,55 +2901,71 @@ const App = {
             </div>
           </div>
           <!-- Info colapsable -->
-          <button onclick="this.nextElementSibling.classList.toggle('hidden')" class="text-slate-500 hover:text-cyan-400 transition-colors text-xs flex items-center gap-1 border border-slate-700 rounded-lg px-2 py-1">
+          <button onclick="document.getElementById('sparringTutorialPanel').classList.toggle('hidden')" class="text-slate-500 hover:text-cyan-400 transition-colors text-xs flex items-center gap-1 border border-slate-700 rounded-lg px-2 py-1">
             <i class="fa-solid fa-circle-info"></i> ¿Cómo funciona?
           </button>
         </div>
 
         <!-- Tutorial colapsable (oculto por defecto) -->
-        <div class="hidden bg-slate-800/60 border border-slate-700 rounded-xl p-4 text-[11px] text-slate-400 space-y-2">
-          <p class="text-slate-300">La IA tomará el rol de un <strong class="text-rose-300">perfil manipulador</strong> y te atacará con las tácticas contrarias a la técnica que elijas. Tu misión: defenderte correctamente.</p>
-          <div class="flex gap-2 pt-1">
-            <span class="bg-emerald-950/60 text-emerald-400 border border-emerald-800/40 rounded px-2 py-1 font-mono">✅ Éxito</span>
-            <span class="text-slate-400">= Aplicaste la técnica correctamente.</span>
+        <div id="sparringTutorialPanel" class="hidden bg-slate-800/60 border border-slate-700 rounded-xl p-4 text-[11px] text-slate-400 space-y-3">
+          <p class="text-slate-300 font-semibold flex items-center gap-2"><i class="fa-solid fa-route text-rose-400"></i> Ruta de entrenamiento:</p>
+          <div class="flex items-start gap-3">
+            <span class="w-5 h-5 shrink-0 rounded-full bg-rose-700 text-white text-[10px] flex items-center justify-center font-bold">1</span>
+            <p><strong class="text-slate-300">Elige el libro</strong> — el área de conocimiento que quieres practicar</p>
           </div>
-          <div class="flex gap-2">
-            <span class="bg-rose-950/60 text-rose-400 border border-rose-800/40 rounded px-2 py-1 font-mono">❌ Fallo</span>
-            <span class="text-slate-400">= Cediste poder emocional. Relée el capítulo y vuelve.</span>
+          <div class="flex items-start gap-3">
+            <span class="w-5 h-5 shrink-0 rounded-full bg-rose-700 text-white text-[10px] flex items-center justify-center font-bold">2</span>
+            <p><strong class="text-slate-300">Elige la técnica</strong> — la defensa concreta de ese libro (Roca Gris, DARVO Reverso...)</p>
+          </div>
+          <div class="flex items-start gap-3">
+            <span class="w-5 h-5 shrink-0 rounded-full bg-rose-700 text-white text-[10px] flex items-center justify-center font-bold">3</span>
+            <p><strong class="text-slate-300">Elige el escenario</strong> — el contexto social donde ocurre el ataque</p>
+          </div>
+          <div class="border-t border-slate-700/50 pt-3 flex gap-4">
+            <div class="flex items-center gap-2">
+              <span class="bg-emerald-950/60 text-emerald-400 border border-emerald-800/40 rounded px-2 py-0.5 font-mono shrink-0">✅ Éxito</span>
+              <span>Aplicaste bien la técnica.</span>
+            </div>
+            <div class="flex items-center gap-2">
+              <span class="bg-rose-950/60 text-rose-400 border border-rose-800/40 rounded px-2 py-0.5 font-mono shrink-0">❌ Fallo</span>
+              <span>Cediste poder emocional.</span>
+            </div>
+          </div>
+          <div class="text-right mt-1">
+             <button onclick="document.getElementById('sparringTutorialPanel').classList.add('hidden')" class="text-[10px] text-slate-500 hover:text-slate-300 uppercase tracking-wider font-bold">Cerrar</button>
           </div>
         </div>
 
-        <!-- Selectores en 2 columnas -->
+        <!-- Selectores en cascada -->
         <div class="grid grid-cols-1 gap-3">
 
           <div class="flex items-center gap-3">
             <span class="w-6 h-6 shrink-0 rounded-full bg-rose-700 text-white text-[10px] flex items-center justify-center font-bold">1</span>
-            <select id="sparringLibroSelect" onchange="App.updateTechniqueOptions()" class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-rose-500">
+            <select id="sparringLibroSelect" onchange="App.updateTechniqueOptions()" class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-rose-500 font-semibold">
               <option value="">📚 ¿Qué libro practicas?</option>
               ${libroOptions}
             </select>
           </div>
 
           <div class="flex items-center gap-3">
-            <span class="w-6 h-6 shrink-0 rounded-full bg-rose-700 text-white text-[10px] flex items-center justify-center font-bold">2</span>
-            <select id="sparringTecnicaSelect" class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-rose-500">
+            <span id="sparringTecnicaBadge" class="w-6 h-6 shrink-0 rounded-full bg-slate-700 text-slate-400 text-[10px] flex items-center justify-center font-bold transition-colors">2</span>
+            <select id="sparringTecnicaSelect" onchange="App.updateScenarioOptions()" class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-slate-500 focus:outline-none focus:border-rose-500 transition-colors" disabled>
               <option value="">⚔️ Primero elige un libro</option>
             </select>
           </div>
 
           <div class="flex items-center gap-3">
-            <span class="w-6 h-6 shrink-0 rounded-full bg-rose-700 text-white text-[10px] flex items-center justify-center font-bold">3</span>
-            <select id="sparringEscenarioSelect" class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-rose-500">
-              <option value="">🎭 ¿En qué escenario combatir?</option>
-              ${escenarioOptions}
+            <span id="sparringEscenarioBadge" class="w-6 h-6 shrink-0 rounded-full bg-slate-700 text-slate-400 text-[10px] flex items-center justify-center font-bold transition-colors">3</span>
+            <select id="sparringEscenarioSelect" onchange="App.checkSparringReady()" class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-slate-500 focus:outline-none focus:border-rose-500 transition-colors" disabled>
+              <option value="">🎭 Después elige la técnica</option>
             </select>
           </div>
 
         </div>
 
         <!-- Botones -->
-        <div class="flex gap-3">
-          <button onclick="App.startSparringSession()" class="flex-1 py-2.5 bg-gradient-to-r from-rose-600 to-indigo-700 hover:from-rose-500 hover:to-indigo-600 text-white rounded-xl font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-rose-500/20 transition-all">
+        <div class="flex gap-3 mt-1">
+          <button id="btnStartSparring" onclick="App.startSparringSession()" class="flex-1 py-2.5 bg-slate-800 text-slate-500 cursor-not-allowed rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition-all" disabled>
             <i class="fa-solid fa-bolt"></i> Iniciar Entrenamiento
           </button>
           <button onclick="App.startSparringSession(true)" title="Sparring libre sin contexto fijo" class="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-slate-200 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all border border-slate-700">
@@ -2961,20 +2974,89 @@ const App = {
         </div>
 
       </div>`;
-
   },
 
   updateTechniqueOptions() {
     const libroId = document.getElementById('sparringLibroSelect')?.value;
     const tecSelect = document.getElementById('sparringTecnicaSelect');
-    if (!tecSelect || !libroId || typeof AIEngine === 'undefined') return;
+    const badge = document.getElementById('sparringTecnicaBadge');
+    
+    // Reset following step
+    const escSelect = document.getElementById('sparringEscenarioSelect');
+    const escBadge = document.getElementById('sparringEscenarioBadge');
+    if (escSelect) {
+      escSelect.innerHTML = '<option value="">🎭 Después elige la técnica</option>';
+      escSelect.disabled = true;
+      escSelect.classList.replace('text-slate-100', 'text-slate-500');
+    }
+    if (escBadge) {
+      escBadge.className = "w-6 h-6 shrink-0 rounded-full bg-slate-700 text-slate-400 text-[10px] flex items-center justify-center font-bold transition-colors";
+    }
+    this.checkSparringReady();
+
+    if (!tecSelect || !libroId || typeof AIEngine === 'undefined') {
+      if (tecSelect) {
+        tecSelect.innerHTML = '<option value="">⚔️ Primero elige un libro</option>';
+        tecSelect.disabled = true;
+        tecSelect.classList.replace('text-slate-100', 'text-slate-500');
+        if(badge) badge.className = "w-6 h-6 shrink-0 rounded-full bg-slate-700 text-slate-400 text-[10px] flex items-center justify-center font-bold transition-colors";
+      }
+      return;
+    }
 
     const libro = AIEngine.SPARRING_SCENARIOS[libroId];
     if (!libro) return;
 
-    tecSelect.innerHTML = libro.tecnicas.map(t =>
+    tecSelect.innerHTML = '<option value="">⚔️ ¿Qué técnica entrenarás?</option>' + libro.tecnicas.map(t =>
       `<option value="${t.id}">${t.nombre}</option>`
     ).join('');
+    tecSelect.disabled = false;
+    tecSelect.classList.replace('text-slate-500', 'text-slate-100');
+    if (badge) badge.className = "w-6 h-6 shrink-0 rounded-full bg-rose-700 text-white text-[10px] flex items-center justify-center font-bold transition-colors";
+  },
+
+  updateScenarioOptions() {
+    const tecnicaId = document.getElementById('sparringTecnicaSelect')?.value;
+    const escSelect = document.getElementById('sparringEscenarioSelect');
+    const badge = document.getElementById('sparringEscenarioBadge');
+
+    this.checkSparringReady();
+
+    if (!escSelect || !tecnicaId || typeof AIEngine === 'undefined') {
+      if (escSelect) {
+        escSelect.innerHTML = '<option value="">🎭 Después elige la técnica</option>';
+        escSelect.disabled = true;
+        escSelect.classList.replace('text-slate-100', 'text-slate-500');
+        if(badge) badge.className = "w-6 h-6 shrink-0 rounded-full bg-slate-700 text-slate-400 text-[10px] flex items-center justify-center font-bold transition-colors";
+      }
+      return;
+    }
+
+    const escenarioOptions = AIEngine.SPARRING_ESCENARIOS.map(e =>
+      `<option value="${e.id}">${e.nombre}</option>`
+    ).join('');
+
+    escSelect.innerHTML = '<option value="">🎭 Elige el escenario</option>' + escenarioOptions;
+    escSelect.disabled = false;
+    escSelect.classList.replace('text-slate-500', 'text-slate-100');
+    if (badge) badge.className = "w-6 h-6 shrink-0 rounded-full bg-rose-700 text-white text-[10px] flex items-center justify-center font-bold transition-colors";
+  },
+
+  checkSparringReady() {
+    const libroId = document.getElementById('sparringLibroSelect')?.value;
+    const tecnicaId = document.getElementById('sparringTecnicaSelect')?.value;
+    const escenarioId = document.getElementById('sparringEscenarioSelect')?.value;
+    const btn = document.getElementById('btnStartSparring');
+    
+    if (btn) {
+      if (libroId && tecnicaId && escenarioId) {
+        btn.disabled = false;
+        btn.className = "flex-1 py-2.5 bg-gradient-to-r from-rose-600 to-indigo-700 hover:from-rose-500 hover:to-indigo-600 text-white rounded-xl font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-rose-500/20 transition-all cursor-pointer";
+      } else {
+        btn.disabled = true;
+        btn.className = "flex-1 py-2.5 bg-slate-800 text-slate-500 cursor-not-allowed rounded-xl font-bold text-sm flex items-center justify-center gap-2 transition-all";
+      }
+    }
   },
 
   async startSparringSession(freeMode = false) {
