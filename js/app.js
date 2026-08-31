@@ -2892,101 +2892,76 @@ const App = {
     ).join('');
 
     return `
-      <div id="sparringPreSession" class="flex flex-col gap-5 p-6 overflow-y-auto custom-scrollbar" style="max-height:580px;">
+      <div id="sparringPreSession" class="flex flex-col p-5 gap-4">
 
-        <!-- BIENVENIDA -->
-        <div class="rounded-2xl bg-gradient-to-br from-rose-950/60 to-indigo-950/60 border border-rose-800/40 p-5 space-y-3">
+        <!-- Header compacto -->
+        <div class="flex items-center justify-between">
           <div class="flex items-center gap-3">
-            <div class="text-3xl">🥊</div>
+            <div class="w-10 h-10 rounded-xl bg-gradient-to-br from-rose-700 to-indigo-800 flex items-center justify-center text-lg shadow-lg shadow-rose-500/20">🥊</div>
             <div>
-              <h3 class="text-base font-bold text-white">Sparring Táctico — IA Generativa</h3>
-              <p class="text-[11px] text-slate-400 mt-0.5">Simulador de combate psicológico en tiempo real</p>
+              <h3 class="text-sm font-bold text-white">Sparring Táctico</h3>
+              <p class="text-[11px] text-slate-500">Configura tu sesión de entrenamiento</p>
             </div>
           </div>
-          <p class="text-xs text-slate-300 leading-relaxed">
-            En este simulador, una <strong class="text-rose-300">IA toma el rol de un perfil manipulador</strong> real (jefe tóxico, pareja con Gaslighting, narcisista, etc.) y te atacará usando exactamente las tácticas contrarias a la técnica que quieras entrenar. Tu misión: responderle correctamente usando lo que aprendiste en el libro.
-          </p>
+          <!-- Info colapsable -->
+          <button onclick="this.nextElementSibling.classList.toggle('hidden')" class="text-slate-500 hover:text-cyan-400 transition-colors text-xs flex items-center gap-1 border border-slate-700 rounded-lg px-2 py-1">
+            <i class="fa-solid fa-circle-info"></i> ¿Cómo funciona?
+          </button>
+        </div>
 
-          <!-- Cómo funciona en 3 puntos -->
-          <div class="grid grid-cols-3 gap-2 pt-1">
-            <div class="bg-slate-900/60 rounded-xl p-3 text-center border border-slate-700/50">
-              <div class="text-xl mb-1">1️⃣</div>
-              <p class="text-[10px] text-slate-300 font-bold">Elige tu técnica</p>
-              <p class="text-[10px] text-slate-500 mt-0.5">Qué defensa quieres practicar de los 6 libros</p>
-            </div>
-            <div class="bg-slate-900/60 rounded-xl p-3 text-center border border-slate-700/50">
-              <div class="text-xl mb-1">2️⃣</div>
-              <p class="text-[10px] text-slate-300 font-bold">Elige el escenario</p>
-              <p class="text-[10px] text-slate-500 mt-0.5">El rol del atacante y el contexto de la batalla</p>
-            </div>
-            <div class="bg-slate-900/60 rounded-xl p-3 text-center border border-slate-700/50">
-              <div class="text-xl mb-1">3️⃣</div>
-              <p class="text-[10px] text-slate-300 font-bold">Combate y aprende</p>
-              <p class="text-[10px] text-slate-500 mt-0.5">La IA evalúa cada una de tus respuestas en tiempo real</p>
-            </div>
+        <!-- Tutorial colapsable (oculto por defecto) -->
+        <div class="hidden bg-slate-800/60 border border-slate-700 rounded-xl p-4 text-[11px] text-slate-400 space-y-2">
+          <p class="text-slate-300">La IA tomará el rol de un <strong class="text-rose-300">perfil manipulador</strong> y te atacará con las tácticas contrarias a la técnica que elijas. Tu misión: defenderte correctamente.</p>
+          <div class="flex gap-2 pt-1">
+            <span class="bg-emerald-950/60 text-emerald-400 border border-emerald-800/40 rounded px-2 py-1 font-mono">✅ Éxito</span>
+            <span class="text-slate-400">= Aplicaste la técnica correctamente.</span>
           </div>
-
-          <!-- Cómo leer la evaluación -->
-          <div class="bg-slate-900/70 rounded-xl p-3 border border-slate-700/50 space-y-2">
-            <p class="text-[10px] font-bold text-slate-300 uppercase tracking-wider flex items-center gap-1.5"><i class="fa-solid fa-chart-bar text-cyan-400"></i> Cómo leer tu evaluación al final de cada respuesta:</p>
-            <div class="flex items-start gap-2">
-              <span class="shrink-0 text-[10px] font-mono bg-emerald-950/50 text-emerald-400 border border-emerald-800/50 rounded px-1.5 py-0.5">✅ Éxito</span>
-              <p class="text-[10px] text-slate-400">Aplicaste la técnica correctamente. La IA detectó que mantuviste el marco, la neutralidad o la defensa según lo que estás entrenando.</p>
-            </div>
-            <div class="flex items-start gap-2">
-              <span class="shrink-0 text-[10px] font-mono bg-rose-950/50 text-rose-400 border border-rose-800/50 rounded px-1.5 py-0.5">❌ Fallo</span>
-              <p class="text-[10px] text-slate-400">Cediste poder emocional o reaccionaste justo como el manipulador esperaba. Relée el capítulo correspondiente y vuelve a intentarlo.</p>
-            </div>
+          <div class="flex gap-2">
+            <span class="bg-rose-950/60 text-rose-400 border border-rose-800/40 rounded px-2 py-1 font-mono">❌ Fallo</span>
+            <span class="text-slate-400">= Cediste poder emocional. Relée el capítulo y vuelve.</span>
           </div>
         </div>
 
-        <div class="grid grid-cols-1 gap-4">
-          <!-- Paso 1: Libro -->
-          <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700 space-y-2">
-            <label class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
-              <span class="w-5 h-5 rounded-full bg-rose-600 text-white text-[10px] flex items-center justify-center font-bold">1</span>
-              ¿Qué libro deseas practicar?
-            </label>
-            <select id="sparringLibroSelect" onchange="App.updateTechniqueOptions()" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-100 focus:outline-none focus:border-rose-500 font-semibold">
-              <option value="">— Selecciona un libro —</option>
+        <!-- Selectores en 2 columnas -->
+        <div class="grid grid-cols-1 gap-3">
+
+          <div class="flex items-center gap-3">
+            <span class="w-6 h-6 shrink-0 rounded-full bg-rose-700 text-white text-[10px] flex items-center justify-center font-bold">1</span>
+            <select id="sparringLibroSelect" onchange="App.updateTechniqueOptions()" class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-rose-500">
+              <option value="">📚 ¿Qué libro practicas?</option>
               ${libroOptions}
             </select>
           </div>
 
-          <!-- Paso 2: Técnica -->
-          <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700 space-y-2">
-            <label class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
-              <span class="w-5 h-5 rounded-full bg-rose-600 text-white text-[10px] flex items-center justify-center font-bold">2</span>
-              ¿Qué técnica quieres entrenar?
-            </label>
-            <select id="sparringTecnicaSelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-100 focus:outline-none focus:border-rose-500">
-              <option value="">— Primero elige un libro —</option>
+          <div class="flex items-center gap-3">
+            <span class="w-6 h-6 shrink-0 rounded-full bg-rose-700 text-white text-[10px] flex items-center justify-center font-bold">2</span>
+            <select id="sparringTecnicaSelect" class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-rose-500">
+              <option value="">⚔️ Primero elige un libro</option>
             </select>
           </div>
 
-          <!-- Paso 3: Escenario -->
-          <div class="bg-slate-800/50 rounded-xl p-4 border border-slate-700 space-y-2">
-            <label class="text-xs font-bold text-slate-300 uppercase tracking-wider flex items-center gap-2">
-              <span class="w-5 h-5 rounded-full bg-rose-600 text-white text-[10px] flex items-center justify-center font-bold">3</span>
-              ¿En qué escenario deseas combatir?
-            </label>
-            <select id="sparringEscenarioSelect" class="w-full bg-slate-950 border border-slate-700 rounded-xl px-4 py-2.5 text-sm text-slate-100 focus:outline-none focus:border-rose-500">
-              <option value="">— Selecciona un escenario —</option>
+          <div class="flex items-center gap-3">
+            <span class="w-6 h-6 shrink-0 rounded-full bg-rose-700 text-white text-[10px] flex items-center justify-center font-bold">3</span>
+            <select id="sparringEscenarioSelect" class="flex-1 bg-slate-900 border border-slate-700 rounded-xl px-3 py-2 text-sm text-slate-100 focus:outline-none focus:border-rose-500">
+              <option value="">🎭 ¿En qué escenario combatir?</option>
               ${escenarioOptions}
             </select>
           </div>
+
         </div>
 
-        <!-- Botones de acción -->
-        <div class="flex gap-3 mt-2">
-          <button onclick="App.startSparringSession()" class="flex-1 py-3 bg-gradient-to-r from-rose-600 to-indigo-700 hover:from-rose-500 hover:to-indigo-600 text-white rounded-xl font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-rose-500/25 transition-all">
+        <!-- Botones -->
+        <div class="flex gap-3">
+          <button onclick="App.startSparringSession()" class="flex-1 py-2.5 bg-gradient-to-r from-rose-600 to-indigo-700 hover:from-rose-500 hover:to-indigo-600 text-white rounded-xl font-bold text-sm flex items-center justify-center gap-2 shadow-lg shadow-rose-500/20 transition-all">
             <i class="fa-solid fa-bolt"></i> Iniciar Entrenamiento
           </button>
-          <button onclick="App.startSparringSession(true)" class="px-4 py-3 bg-slate-700 hover:bg-slate-600 text-slate-300 rounded-xl font-bold text-xs flex items-center justify-center gap-2 transition-all" title="Modo libre sin guía">
-            <i class="fa-solid fa-shuffle"></i> Modo Libre
+          <button onclick="App.startSparringSession(true)" title="Sparring libre sin contexto fijo" class="px-4 py-2.5 bg-slate-800 hover:bg-slate-700 text-slate-400 hover:text-slate-200 rounded-xl text-xs font-bold flex items-center gap-1.5 transition-all border border-slate-700">
+            <i class="fa-solid fa-shuffle"></i> Libre
           </button>
         </div>
+
       </div>`;
+
   },
 
   updateTechniqueOptions() {
