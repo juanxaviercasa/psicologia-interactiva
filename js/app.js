@@ -129,6 +129,20 @@ const App = {
     // Initialize Sparring pre-session panel
     const sparringBox = document.getElementById('sparringChatBox');
     if (sparringBox) sparringBox.innerHTML = this.renderSparringPreSession();
+
+    // Initialize Audioplayer & Biblioteca Engines
+    if (typeof AudioPlayerEngine !== 'undefined') AudioPlayerEngine.init();
+    if (typeof BibliotecaEngine !== 'undefined') BibliotecaEngine.init();
+
+    // Click outside handler for desktop global search results
+    document.addEventListener('click', (e) => {
+      const input = document.getElementById('headerSearchInput');
+      const container = document.getElementById('headerSearchResults');
+      if (container && input && !input.contains(e.target) && !container.contains(e.target)) {
+        container.classList.add('hidden');
+        container.classList.remove('flex');
+      }
+    });
   },
 
   loadProgress() {
@@ -1311,7 +1325,7 @@ const App = {
     this.state.activeTab = tabId;
     if (window.speechSynthesis && window.speechSynthesis.speaking) window.speechSynthesis.cancel();
 
-    const views = ['dashboard','learning','matrix','simulator','bodylab','flashcards','quizzes','certificate','glossary','skilltree','sparring','auditor','biometrics'];
+    const views = ['dashboard','learning','matrix','simulator','bodylab','flashcards','quizzes','certificate','glossary','skilltree','sparring','auditor','biometrics','audiolibros','biblioteca'];
     views.forEach(v => {
       const el = document.getElementById(`view-${v}`);
       if (el) el.classList.add('hidden');
@@ -1329,6 +1343,27 @@ const App = {
     const btn = document.getElementById(`tab-btn-${tabId}`);
     if (btn) { btn.classList.add('active','text-cyan-400'); btn.classList.remove('text-slate-400'); }
 
+    // Actualizar nombre de pestaña en barra móvil
+    const mobileTabLabel = document.getElementById('mobile-current-tab');
+    if (mobileTabLabel) {
+      const tabNames = {
+        dashboard: 'Dashboard',
+        learning: 'Academia',
+        matrix: 'Matriz Táctica',
+        simulator: 'Simulador',
+        flashcards: 'Flashcards',
+        audiolibros: 'Audioteca (20)',
+        biblioteca: 'Biblioteca (94)',
+        glossary: 'Glosario',
+        quizzes: 'Quizzes',
+        skilltree: 'Skill Tree',
+        sparring: 'Sparring AI',
+        auditor: 'Auditor',
+        certificate: 'Certificado'
+      };
+      mobileTabLabel.textContent = tabNames[tabId] || tabId;
+    }
+
     if (tabId === 'learning') this.renderLearningPath();
     else if (tabId === 'matrix') this.renderMatrix();
     else if (tabId === 'simulator') this.renderSimulator();
@@ -1338,7 +1373,99 @@ const App = {
     else if (tabId === 'glossary') this.renderGlossary();
     else if (tabId === 'certificate') this.renderCertificateView();
     else if (tabId === 'skilltree') this.renderSkillTree();
+    else if (tabId === 'audiolibros' && typeof AudioPlayerEngine !== 'undefined') {
+      AudioPlayerEngine.renderAudioCatalog();
+    }
+    else if (tabId === 'biblioteca' && typeof BibliotecaEngine !== 'undefined') {
+      BibliotecaEngine.renderCategoryTabs();
+      BibliotecaEngine.renderBooks();
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
+  },
+
+  performGlobalSearch(query) {
+    const resultsContainer = document.getElementById('headerSearchResults');
+    if (!resultsContainer) return;
+    const q = (query || '').trim().toLowerCase();
+    if (q.length < 2) {
+      resultsContainer.classList.add('hidden');
+      resultsContainer.classList.remove('flex');
+      resultsContainer.innerHTML = '';
+      return;
+    }
+
+    let results = [];
+
+    // Buscar en audiolibros
+    if (typeof COLECCION_DATA !== 'undefined' && COLECCION_DATA.audiobooks) {
+      COLECCION_DATA.audiobooks.forEach(a => {
+        if (a.title.toLowerCase().includes(q) || a.author.toLowerCase().includes(q) || a.categoryName.toLowerCase().includes(q)) {
+          results.push({
+            type: 'Audiolibro',
+            icon: 'fa-headphones text-cyan-400',
+            title: a.title,
+            sub: `${a.categoryName} • ${a.timeEstimate}`,
+            action: `App.switchTab('audiolibros'); AudioPlayerEngine.playTrack('${a.id}');`
+          });
+        }
+      });
+    }
+
+    // Buscar en libros del búnker
+    if (typeof COLECCION_DATA !== 'undefined' && COLECCION_DATA.books) {
+      COLECCION_DATA.books.forEach(b => {
+        if (b.title.toLowerCase().includes(q) || b.author.toLowerCase().includes(q) || b.categoryName.toLowerCase().includes(q)) {
+          results.push({
+            type: 'Libro',
+            icon: 'fa-book text-amber-400',
+            title: b.title,
+            sub: `${b.categoryName} • ${b.sizeFormatted}`,
+            action: b.extension === 'PDF' 
+              ? `App.switchTab('biblioteca'); BibliotecaEngine.openReaderModal('${b.id}');`
+              : `App.switchTab('biblioteca');`
+          });
+        }
+      });
+    }
+
+    // Buscar en módulos del curso principal
+    if (typeof LIBROS_DATA !== 'undefined' && LIBROS_DATA.modules) {
+      LIBROS_DATA.modules.forEach(m => {
+        if (m.title.toLowerCase().includes(q) || m.overview.toLowerCase().includes(q)) {
+          results.push({
+            type: 'Academia',
+            icon: 'fa-graduation-cap text-indigo-400',
+            title: m.title,
+            sub: `Módulo ${m.bookNumber}`,
+            action: `App.switchTab('learning'); App.openLessonModal('m${m.bookNumber}-0');`
+          });
+        }
+      });
+    }
+
+    results = results.slice(0, 8);
+
+    if (results.length === 0) {
+      resultsContainer.innerHTML = '<div class="p-3 text-xs text-slate-400 text-center font-mono">No se encontraron tácticas o libros.</div>';
+    } else {
+      resultsContainer.innerHTML = results.map(r => `
+        <div onclick="${r.action}; document.getElementById('headerSearchResults').classList.add('hidden');" class="p-2.5 hover:bg-slate-800/90 cursor-pointer border-b border-slate-800/60 last:border-0 flex items-center gap-3 transition-colors">
+          <div class="w-7 h-7 rounded-lg bg-slate-950 border border-slate-800 flex items-center justify-center shrink-0">
+            <i class="fa-solid ${r.icon} text-xs"></i>
+          </div>
+          <div class="min-w-0 flex-1">
+            <div class="text-xs font-bold text-slate-200 truncate">${r.title}</div>
+            <div class="text-[10px] text-slate-400 font-mono flex items-center gap-1.5">
+              <span class="text-cyan-400 font-semibold">[${r.type}]</span>
+              <span>${r.sub}</span>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    resultsContainer.classList.remove('hidden');
+    resultsContainer.classList.add('flex');
   },
 
   // =============================================

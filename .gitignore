@@ -1,0 +1,13 @@
+# Raw media files exceeding GitHub's 100MB file limit
+Coleccion _Psicologia_Oscura_Audiolibros/
+
+# Local staging folder for image generation (production covers live in assets/img/covers/)
+assets/images/
+
+# Scratch & temporary development scripts
+scratch/
+*.log
+
+# OS metadata
+Thumbs.db
+.DS_Store
