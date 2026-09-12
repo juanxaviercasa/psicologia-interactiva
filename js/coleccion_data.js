@@ -540,7 +540,7 @@ const COLECCION_DATA = {
   ],
   "books": [
     {
-      "id": "col-021",
+      "id": "2-psicolog-a-oscura---aprenda-los-usos-pr-cticos-y-las-defensas-dmanipulacion-la-influencia-emociona",
       "filename": "Psicología oscura - Aprenda los usos prácticos y las defensas dmanipulacion, la influencia emocional y otras tecnicas secretas.pdf",
       "title": "Psicología Oscura: Usos Prácticos y Defensas",
       "fullTitle": "Psicología Oscura: Aprenda los Usos Prácticos y las Defensas de la Manipulación, la Influencia Emocional y Técnicas Secretas",
@@ -562,7 +562,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-021.jpg"
     },
     {
-      "id": "col-022",
+      "id": "3-psicologia-obscura-s-l-moore",
       "filename": "PSICOLOGIA OBSCURA S.L. MOORE .pdf",
       "title": "Psicología Oscura: Manipulación Emocional Encubierta",
       "fullTitle": "Psicología Oscura: Domine las Técnicas Secretas de la Manipulación Emocional Encubierta, Persuasión y Control Mental",
@@ -584,7 +584,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-022.jpg"
     },
     {
-      "id": "col-023",
+      "id": "3-psicologia-obscura-s-l-moore",
       "filename": "PSICOLOGIA OBSCURA S.L. MOORE .pdf",
       "title": "Psicología Oscura (6 en 1) - Compendio Maestro",
       "fullTitle": "Psicología Oscura: 6 Libros en 1 - Introducción a la Psicología, Análisis Conductual, Manipulación, Persuasión, TCC y Abuso Narcisista",
@@ -606,7 +606,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-023.jpg"
     },
     {
-      "id": "col-024",
+      "id": "psicologia-oscura-4-en-1-este-libro-incluye-secretos-de-la-psicologia-oscura-lectura-rapida-de-perso",
       "filename": "PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-Recablee-Su-Mente-L.pdf",
       "title": "Psicología Oscura (4 en 1): Reescriba su Mente",
       "fullTitle": "Psicología Oscura (4 en 1): Secretos de la Psicología Oscura, Lectura Rápida de Personas y Reprogramación Mental",
@@ -628,7 +628,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-024.jpg"
     },
     {
-      "id": "col-025",
+      "id": "psicologia-oscura-4-en-1-este-libro-incluye-secretos-de-la-psicologia-oscura-lectura-rapida-de-perso",
       "filename": "PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-by-Recablee-Su-Mente.pdf",
       "title": "Psicología Oscura (4 en 1): Recablee su Mente",
       "fullTitle": "Psicología Oscura (4 en 1): Secretos de la Mente, Lectura Rápida de Personas y Libro de Ejercicios",
@@ -650,7 +650,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-025.jpg"
     },
     {
-      "id": "col-026",
+      "id": "psicologia-oscura-al-extremo-41-tecnicas-de-psicologia-oscura-reveladas",
       "filename": "PSICOLOGIA-OSCURA-AL-EXTREMO-41-Tecnicas-de-Psicologia-Oscura-Reveladas.pdf",
       "title": "Psicología Oscura al Extremo: 41 Técnicas Reveladas",
       "fullTitle": "Psicología Oscura al Extremo: 41 Técnicas de Divulgación, Persuasión e Influencia",
@@ -672,7 +672,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-026.jpg"
     },
     {
-      "id": "col-027",
+      "id": "manipulacion-secretos-de-la-psicologia-oscura-aprende-como-analizar-e-influir-en-las-personas-pnl-le",
       "filename": "PSICOLOGIA-OSCURA-SECRETOS.pdf",
       "title": "Secretos de la Psicología Oscura 101",
       "fullTitle": "Secretos de la Psicología Oscura: Identificación y Defensa ante Depredadores Humanos",
@@ -694,7 +694,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-027.jpg"
     },
     {
-      "id": "col-028",
+      "id": "manipulacion-el-santo-grial-de-la-psicologia-oscura-aprender-a-influir-en-las-personas-gracias-al-co",
       "filename": "Psicologi-a-Oscura-Aprenda-co-mo-Influir-en-las-personas-mediante.pdf",
       "title": "Psicología Oscura: Cómo Influir en las Personas",
       "fullTitle": "Psicología Oscura: Aprenda Cómo Influir en las Personas mediante el Control Mental, la Persuasión y la Manipulación",
@@ -716,7 +716,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-028.jpg"
     },
     {
-      "id": "col-029",
+      "id": "manipulacion-secretos-de-la-psicologia-oscura-aprende-como-analizar-e-influir-en-las-personas-pnl-le",
       "filename": "Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l (1).pdf",
       "title": "Psicología Oscura: Reconocer y Controlar la Manipulación",
       "fullTitle": "Psicología Oscura: Cómo Reconocer y Controlar la Manipulación y la Persuasión, Mejorando la Inteligencia Emocional",
@@ -738,7 +738,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-029.jpg"
     },
     {
-      "id": "col-030",
+      "id": "manipulacion-secretos-de-la-psicologia-oscura-aprende-como-analizar-e-influir-en-las-personas-pnl-le",
       "filename": "Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l.pdf",
       "title": "Psicología Oscura: Guía de Defensa ante la Manipulación",
       "fullTitle": "Psicología Oscura: Cómo Reconocer y Controlar la Manipulación, las Habilidades Sociales y la Influencia",
@@ -760,7 +760,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-030.jpg"
     },
     {
-      "id": "col-031",
+      "id": "psicologia-oscura-fabian-goleman",
       "filename": "Psicologia-Oscura-Fabian-Goleman.pdf",
       "title": "Psicología Oscura: Inteligencia Emocional y Relaciones",
       "fullTitle": "Psicología Oscura: Estrategias de Inteligencia Emocional, Terapia Conductual y Dinámicas Interpersonales",
@@ -782,7 +782,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-031.jpg"
     },
     {
-      "id": "col-032",
+      "id": "como-analizar-a-las-personas-con-psicologia-oscura-una-guia-rapida-para-leer-tipos-de-personalidad-h",
       "filename": "Psicologia-Oscura-La-Guia-Definitiva-Para-Aprender-a-Analizar.pdf",
       "title": "Psicología Oscura: Guía Definitiva para Analizar Personas",
       "fullTitle": "Psicología Oscura: La Guía Definitiva para Analizar Personas, Leer el Lenguaje Corporal y Dejar de Ser Manipulado",
@@ -826,7 +826,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-033.jpg"
     },
     {
-      "id": "col-034",
+      "id": "como-analizar-a-las-personas-con-psicologia-oscura-una-guia-rapida-para-leer-tipos-de-personalidad-h",
       "filename": "Psicologia-Oscura-Victor-Sykes.pdf",
       "title": "Psicología Oscura: Usos Prácticos y Defensas",
       "fullTitle": "Psicología Oscura: Aprenda los Usos Prácticos y las Defensas de la Manipulación, la PNL Encubierta y el Control Mental",
@@ -848,7 +848,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-034.jpg"
     },
     {
-      "id": "col-035",
+      "id": "persuasion-de-psicologia-oscura-e-inteligencia-emocional-descubre-como-detectar-la-manipulacion-emoc",
       "filename": "Psicologia-Oscura-e-Inteligencia-Emocional-Descubre-como-detectar-la-manipulacion-emocional-y-aprende-tecnicas-para-persuadir-y-analizar-a-las-person.pdf",
       "title": "Psicología Oscura e Inteligencia Emocional",
       "fullTitle": "Psicología Oscura e Inteligencia Emocional: Descubre Cómo Detectar la Manipulación Emocional y Analizar a las Personas",
@@ -870,7 +870,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-035.jpg"
     },
     {
-      "id": "col-036",
+      "id": "como-analizar-a-las-personas-con-psicologia-oscura-una-guia-rapida-para-leer-tipos-de-personalidad-h",
       "filename": "Psicologia-Oscura.pdf",
       "title": "Psicología Oscura: Fundamentos y Análisis Conductual",
       "fullTitle": "Psicología Oscura (Volumen 2): Análisis de Rasgos Oscuros, Maquiavelismo y Comportamiento Social",
@@ -892,7 +892,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-036.jpg"
     },
     {
-      "id": "col-037",
+      "id": "2-psicolog-a-oscura---aprenda-los-usos-pr-cticos-y-las-defensas-dmanipulacion-la-influencia-emociona",
       "filename": "Psicologia-oscura-Aprenda-los-usos-pra-cticos-y-las-defensas-dmanipulacion-la-influencia-emocional-y-otras-tecnicas-secretas.pdf",
       "title": "Psicología Oscura: Control Mental y PNL Encubierta",
       "fullTitle": "Psicología Oscura: Aprenda los Usos Prácticos de la Influencia Emocional, el Engaño y la PNL Encubierta",
@@ -914,7 +914,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-037.jpg"
     },
     {
-      "id": "col-038",
+      "id": "el-arte-de-manipulacion-y-psicologia-oscura",
       "filename": "Psicologia-oscura-y-manipulacion-compress.pdf",
       "title": "Psicología Oscura y Manipulación: Señales y Defensas",
       "fullTitle": "Psicología Oscura y Manipulación: Entendiendo el Arte de la Manipulación, Señales de Alarma y Estrategias de Protección",
@@ -936,7 +936,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-038.jpg"
     },
     {
-      "id": "col-039",
+      "id": "como-analizar-a-las-personas-psicologia-oscura-tecnicas-secretas-para-analizar-e-influenciar-a-cualq",
       "filename": "Secretos-De-La-Psicologia-Oscura-Aprenda-las-Tecnicas-de-Persuasion-Cubiertas-como-Lavado-de-Cerebro-Hipnosis-y-PNL-para-Usarlas-en-su-Beneficio-Da.pdf",
       "title": "Secretos de la Psicología Oscura: Persuasión y PNL",
       "fullTitle": "Secretos de la Psicología Oscura: Técnicas de Persuasión Encubierta, Lavado de Cerebro, Hipnosis y PNL",
@@ -958,7 +958,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-039.jpg"
     },
     {
-      "id": "col-040",
+      "id": "manipulacion-secretos-de-la-psicologia-oscura-aprende-como-analizar-e-influir-en-las-personas-pnl-le",
       "filename": "Secretos-de-psicologia-oscura-Daniel-James-Hollins.pdf",
       "title": "Secretos de la Psicología Oscura: Guía Maestra",
       "fullTitle": "Secretos de la Psicología Oscura: Manipulación Emocional Encubierta, Propaganda y Detección de Engaño",
@@ -980,7 +980,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-040.jpg"
     },
     {
-      "id": "col-041",
+      "id": "como-analizar-a-las-personas-con-psicologia-oscura-una-guia-rapida-para-leer-tipos-de-personalidad-h",
       "filename": "psicologia-oscura-4.pdf",
       "title": "Psicología Oscura: Manual Avanzado de Autoprotección",
       "fullTitle": "Psicología Oscura (Volumen 4): Mecanismos de Blindaje Mental y Neutralización de Depredadores Psicológicos",
@@ -1002,7 +1002,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-041.jpg"
     },
     {
-      "id": "col-042",
+      "id": "7-manipulacion-mental-para-principiantes-aprenda-a-analizar-a-las-personas-y-manipular-su-mente-subc",
       "filename": "1. MANIPULACIÓN MENTAL.pdf",
       "title": "Técnicas Prohibidas de Manipulación Mental (3 en 1)",
       "fullTitle": "Técnicas Prohibidas de Manipulación Mental: Persuasión, Manipulación e Hipnosis Secreta (3 Libros en 1)",
@@ -1068,7 +1068,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-044.jpg"
     },
     {
-      "id": "col-045",
+      "id": "7-manipulacion-mental-para-principiantes-aprenda-a-analizar-a-las-personas-y-manipular-su-mente-subc",
       "filename": "7-MANIPULACION-MENTAL-PARA-PRINCIPIANTES-Aprenda-a-Analizar-a-Las-Personas-y-Manipular-Su-Mente-Subconsciente-Influya-en-Las-Personas-Con-Psicologia-O.pdf",
       "title": "Manipulación Mental para Principiantes",
       "fullTitle": "Manipulación Mental para Principiantes: Aprenda a Analizar a las Personas y Guiar su Mente Subconsciente",
@@ -1090,7 +1090,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-045.jpg"
     },
     {
-      "id": "col-046",
+      "id": "el-arte-de-manipulacion-y-psicologia-oscura",
       "filename": "El-Arte-de-Manipulacion-y-Psicologia-Oscura.pdf",
       "title": "El Arte de la Manipulación y Psicología Oscura",
       "fullTitle": "El Arte de la Manipulación y Psicología Oscura: Guía Práctica de Lectura Rápida, Personalidades y Lenguaje Corporal",
@@ -1112,7 +1112,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-046.jpg"
     },
     {
-      "id": "col-047",
+      "id": "garcia-la-gran-manipulacion",
       "filename": "GARCIA-La-gran-manipulacion.pdf",
       "title": "La Gran Manipulación: De la Mentira al Control Social",
       "fullTitle": "La Gran Manipulación: El Tridente Político, Mediático y Digital Contra la Verdad",
@@ -1134,7 +1134,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-047.jpg"
     },
     {
-      "id": "col-048",
+      "id": "goleman-fabian-manipulacion",
       "filename": "Goleman-Fabian-Manipulacion.pdf",
       "title": "Manipulación: Técnicas de Persuasión y Negociación",
       "fullTitle": "Manipulación: Cuáles son las Técnicas de Persuasión Usadas para la Manipulación Mental, Influenciar y Negociar",
@@ -1156,7 +1156,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-048.jpg"
     },
     {
-      "id": "col-049",
+      "id": "manipulacio-n-y-psicolo-gica-oscura",
       "filename": "MANIPULACIO-N-Y-PSICOLO-GICA-OSCURA.pdf",
       "title": "Manipulación y Psicología Oscura: Lectura Rápida",
       "fullTitle": "Manipulación y Psicología Oscura: Cómo Aprender a Leer a las Personas, Detectar el Abuso Narcisista y Defenderse",
@@ -1178,7 +1178,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-049.jpg"
     },
     {
-      "id": "col-050",
+      "id": "goleman-fabian-manipulacion",
       "filename": "MANIPULACION-FABIAN-GOLEMAN.pdf",
       "title": "Manipulación: Cómo y Por Qué se Termina Diciendo Sí",
       "fullTitle": "Manipulación: Técnicas Clave de Persuasión y Negociación para Comprender la Voluntad Humana",
@@ -1200,7 +1200,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-050.jpg"
     },
     {
-      "id": "col-051",
+      "id": "7-manipulacion-mental-para-principiantes-aprenda-a-analizar-a-las-personas-y-manipular-su-mente-subc",
       "filename": "MANIPULACION-MENTAL-PARA-PRINCIPIANTES-Aprenda-a-Analizar-a-Las-Personas-y-Manipular-Su-Mente-Subconsciente-Influya-en-Las-Personas-Con-Psicologia-O (1).pdf",
       "title": "Manipulación Mental y Análisis Subconsciente",
       "fullTitle": "Manipulación Mental para Principiantes: Claves Prácticas de Psicología Oscura, Lenguaje Corporal e Hipnosis",
@@ -1222,7 +1222,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-051.jpg"
     },
     {
-      "id": "col-052",
+      "id": "manipulacion-secretos-de-la-psicologia-oscura-aprende-como-analizar-e-influir-en-las-personas-pnl-le",
       "filename": "MANIPULACION-SECRETOS-de-LA-PSICOLOGIA-OSCURA-Aprende-Como-Analizar-e-Influir-en-Las-Personas-PNL-Lenguaje-Corporal-y-Tecnicas-Usadas-Por-El-Maes.pdf",
       "title": "Manipulación: Secretos de la Psicología Oscura",
       "fullTitle": "Manipulación: Secretos de la Psicología Oscura - Aprende Cómo Analizar e Influir en las Personas con PNL y Lenguaje Corporal",
@@ -1244,7 +1244,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-052.jpg"
     },
     {
-      "id": "col-053",
+      "id": "manipulacion-el-santo-grial-de-la-psicologia-oscura-aprender-a-influir-en-las-personas-gracias-al-co",
       "filename": "Manipulacion-El-santo-grial-de-la-Psicologia-Oscura-Aprender-a-influir-en-las-personas-gracias-al-Control-Mental-y-Emocional-Hipnosis-superficial.pdf",
       "title": "Manipulación: El Santo Grial de la Psicología Oscura",
       "fullTitle": "Manipulación: El Santo Grial de la Psicología Oscura - Control Mental y Emocional, Hipnosis y PNL",
@@ -1266,7 +1266,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-053.jpg"
     },
     {
-      "id": "col-054",
+      "id": "manipulacion-psicologica-aprende-a-manipular-y-influir-en-los-comportamientos-humanos-nuevas-tecnica",
       "filename": "Manipulacion-Psicologica-Aprende-a-Manipular-y-Influir-en-Los-Comportamientos-Humanos-Nuevas-Tecnicas-Para-Lavar-El-Cerebro-Usando-Hipnosis-PNL-y.pdf",
       "title": "Manipulación Psicológica: Nuevas Técnicas de Influencia",
       "fullTitle": "Manipulación Psicológica: Nuevas Técnicas para Influir en el Comportamiento Humano Usando Hipnosis y PNL",
@@ -1288,7 +1288,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-054.jpg"
     },
     {
-      "id": "col-055",
+      "id": "manipulacion-spanish-edition-h-g-tudor",
       "filename": "Manipulacion-Spanish-Edition-H-G-Tudor.pdf",
       "title": "Manipulación (Manipulated): La Mente Narcisista",
       "fullTitle": "Manipulación: Análisis Psicológico desde la Perspectiva de la Dinámica Narcisista",
@@ -1310,7 +1310,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-055.jpg"
     },
     {
-      "id": "col-056",
+      "id": "manipulacion-y-psicologia-oscur-daniel-long",
       "filename": "Manipulacion-Y-Psicologia-Oscur-Daniel-Long.pdf",
       "title": "Manipulación y Psicología Oscura: Guerra Psicológica",
       "fullTitle": "Manipulación y Psicología Oscura: Guía Esencial sobre Manipulación, Engaño, Persuasión y Guerra Psicológica",
@@ -1332,7 +1332,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-056.jpg"
     },
     {
-      "id": "col-057",
+      "id": "manipulacion-afectiva-belen-vitelleschi",
       "filename": "Manipulacion-afectiva-Belen-Vitelleschi.pdf",
       "title": "Manipulación Afectiva: Cuando el Amor se Enferma",
       "fullTitle": "Manipulación Afectiva: Cuando el Amor se Enferma - Identificación de Vínculos Tóxicos y Sanación",
@@ -1354,7 +1354,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-057.jpg"
     },
     {
-      "id": "col-058",
+      "id": "manipulacion-y-psicologia-oscura-maria-costanza-calvio",
       "filename": "Manipulacion-y-Psicologia-Oscura-Maria-Costanza-Calvio.pdf",
       "title": "Manipulación y Psicología Oscura: Perfil del Manipulador",
       "fullTitle": "Manipulación y Psicología Oscura: Aprender a Reconocer al Manipulador, sus Técnicas y su Lenguaje Corporal",
@@ -1376,7 +1376,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-058.jpg"
     },
     {
-      "id": "col-059",
+      "id": "manipulacion-y-psicologia-oscura-una-guia-completa-para-aprender-las-tecnicas-secretas-para-influir-",
       "filename": "Manipulacion-y-Psicologia-Oscura-Una-Guia-Completa-para-Aprender-las-Tecnicas-Secretas-para-Influir-en-las-Personas-con-Persuasion-Engano-Control-M.pdf",
       "title": "Manipulación y Psicología Oscura: Guía Completa",
       "fullTitle": "Manipulación y Psicología Oscura: Guía Completa de Técnicas Secretas para Influir con Persuasión y Control Mental",
@@ -1398,7 +1398,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-059.jpg"
     },
     {
-      "id": "col-060",
+      "id": "el-arte-de-manipulacion-y-psicologia-oscura",
       "filename": "Manipulación y Psicologia-oscura.pdf",
       "title": "Manipulación y Psicología Oscura: Estrategias de Blindaje",
       "fullTitle": "Manipulación y Psicología Oscura: Detección de Dinámicas Coercitivas y Protección Psicológica",
@@ -1420,7 +1420,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-060.jpg"
     },
     {
-      "id": "col-061",
+      "id": "manual-de-manipulacion",
       "filename": "Manual-de-Manipulacion.pdf",
       "title": "Manual Operativo de Gestión y Calidad",
       "fullTitle": "Manual Operativo de Buenas Prácticas, Gestión de Procesos y Calidad Estratégica",
@@ -1442,7 +1442,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-061.jpg"
     },
     {
-      "id": "col-062",
+      "id": "pnl-guia-pratica-de-manipulacion-e-persuasion-como-influir-en-las-personas-usando-la-psicologia-oscu",
       "filename": "PNL Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
       "title": "PNL: Guía Práctica de Manipulación y Persuasión",
       "fullTitle": "PNL: Guía Práctica de Manipulación y Persuasión - Cómo Influir en las Personas Usando la Psicología Oscura",
@@ -1464,7 +1464,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-062.jpg"
     },
     {
-      "id": "col-063",
+      "id": "persuasion-de-psicologia-oscura-e-inteligencia-emocional-descubre-como-detectar-la-manipulacion-emoc",
       "filename": "Psicologia-Oscura-Manipulacion-Emocional.pdf",
       "title": "Psicología Oscura y Manipulación Emocional",
       "fullTitle": "Psicología Oscura y Manipulación Emocional: Lavado de Cerebro, Abuso Narcisista e Influencia Encubierta",
@@ -1486,7 +1486,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-063.jpg"
     },
     {
-      "id": "col-064",
+      "id": "47-las-mejores-tecnicas-de-persuasion",
       "filename": "47-las-mejores-tecnicas-de-persuasion.pdf",
       "title": "Las Mejores Técnicas de Persuasión",
       "fullTitle": "Las Mejores Técnicas de Persuasión: Principios de Influencia, Actitudes y Programación Neurolingüística",
@@ -1508,7 +1508,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-064.jpg"
     },
     {
-      "id": "col-065",
+      "id": "5-libro-negro-de-la-persuasi-n",
       "filename": "5. LIBRO NEGRO DE LA PERSUASIÓN .pdf",
       "title": "El Libro Negro de la Persuasión (23 Leyes)",
       "fullTitle": "El Libro Negro de la Persuasión: Conozca las 23 Leyes que Mueven Nuestras Voluntades",
@@ -1530,7 +1530,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-065.jpg"
     },
     {
-      "id": "col-066",
+      "id": "comunicacion-persuasiva-3-libr-hayden-j-power",
       "filename": "Comunicacion-Persuasiva-3-Libr-Hayden-j-Power.pdf",
       "title": "Comunicación Persuasiva (3 Libros en 1)",
       "fullTitle": "Comunicación Persuasiva: Claves de Persuasión, Manipulación Mental y Lenguaje Corporal Revelado",
@@ -1552,7 +1552,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-066.jpg"
     },
     {
-      "id": "col-067",
+      "id": "empaticos-y-narcisistas-guia-de-supervivencia-para",
       "filename": "Empaticos-y-Narcisistas-Guia-de-Supervivencia-Para.pdf",
       "title": "Programación Neurolingüística: Secretos de Manipulación",
       "fullTitle": "Programación Neurolingüística: Descubra los Secretos de la Manipulación Mental con Psicología Oscura y PNL",
@@ -1574,7 +1574,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-067.jpg"
     },
     {
-      "id": "col-068",
+      "id": "la-magia-de-la-persuasion-pamela-jean-zetina",
       "filename": "La-Magia-de-La-Persuasion-Pamela-Jean-Zetina.pdf",
       "title": "La Magia de la Persuasión: El Arte de Conectar",
       "fullTitle": "La Magia de la Persuasión: Estrategias Efectivas de Influencia, Negociación y Carisma",
@@ -1618,7 +1618,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-069.jpg"
     },
     {
-      "id": "col-070",
+      "id": "maestro-de-la-persuasion-mateo-holm",
       "filename": "Maestro-de-la-Persuasion-Mateo-Holm.pdf",
       "title": "Maestro de la Persuasión: Técnicas de Influencia",
       "fullTitle": "Maestro de la Persuasión: Técnicas para Persuadir y Conseguir lo que Quieras Mediante Lenguaje Corporal y PNL",
@@ -1640,7 +1640,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-070.jpg"
     },
     {
-      "id": "col-071",
+      "id": "pnl-guia-pratica-de-manipulacion-e-persuasion-como-influir-en-las-personas-usando-la-psicologia-oscu",
       "filename": "PNL-Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
       "title": "PNL y Psicología Oscura: Estrategias de Influencia",
       "fullTitle": "PNL: Guía Práctica de Manipulación y Persuasión - Fundamentos de Programación Neurolingüística Aplicada",
@@ -1662,7 +1662,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-071.jpg"
     },
     {
-      "id": "col-072",
+      "id": "persuasion-de-psicologia-oscura-e-inteligencia-emocional-descubre-como-detectar-la-manipulacion-emoc",
       "filename": "Persuasion de Psicologia-Oscura-e-Inteligencia-Emocional-Descubre-como-detectar-la-manipulacion-emocional-y-aprende-tecnicas-para-persuadir-y-analizar-a-las-person.pdf",
       "title": "Persuasión e Inteligencia Emocional Aplicada",
       "fullTitle": "Persuasión de Psicología Oscura e Inteligencia Emocional: Detección de Manipulación y Lectura Humana",
@@ -1684,7 +1684,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-072.jpg"
     },
     {
-      "id": "col-073",
+      "id": "persuasion-jane-austen",
       "filename": "Persuasion-Jane-Austen.pdf",
       "title": "Persuasión (Clásico de la Literatura Universal)",
       "fullTitle": "Persuasión: Novela Clásica sobre la Influencia Social, el Juicio y las Relaciones Humanas",
@@ -1706,7 +1706,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-073.jpg"
     },
     {
-      "id": "col-074",
+      "id": "persuasion-positiva",
       "filename": "Persuasion-Positiva.pdf",
       "title": "Persuasión Positiva: Cómo Influir en los Demás",
       "fullTitle": "Persuasión Positiva: Cómo Influir en los Demás, Tender Puentes de Comunicación y Seducir con Asertividad",
@@ -1728,7 +1728,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-074.jpg"
     },
     {
-      "id": "col-075",
+      "id": "persuasion-psicologia-oscura-tecnicas-secretas-para-influenciar-en-las-personas-usando-el-control-me",
       "filename": "Persuasion-Psicologia-Oscura-Tecnicas-Secretas-Para-Influenciar-en-Las-Personas-Usando-El-Control-Mental-La-Manipulacion-y-El-Engano-Spanish-Edit.pdf",
       "title": "Persuasión y Psicología Oscura: Control Mental y Engaño",
       "fullTitle": "Persuasión: Psicología Oscura - Técnicas Secretas para Influenciar en las Personas Usando Control Mental y Manipulación",
@@ -1750,7 +1750,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-075.jpg"
     },
     {
-      "id": "col-076",
+      "id": "persuasion-y-manipulacion-como-convencer-a-la-gente-influenciar-su-decisiones-y-defenderse-de-los-ma",
       "filename": "Persuasion-y-Manipulacion-Como-Convencer-a-La-Gente-Influenciar-Su-Decisiones-y-Defenderse-de-Los-Manipuladores-Psicologia-Oscura-Spanish-Edition.pdf",
       "title": "Persuasión y Manipulación: Cómo Convencer a la Gente",
       "fullTitle": "Persuasión y Manipulación: Cómo Convencer a la Gente, Influenciar sus Decisiones y Defenderse de Manipuladores",
@@ -1816,7 +1816,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-078.jpg"
     },
     {
-      "id": "col-079",
+      "id": "tecnicas-de-persuacion",
       "filename": "Tecnicas-de-persuacion.pdf",
       "title": "Técnicas de Persuasión: De la Propaganda al Lavado de Cerebro",
       "fullTitle": "Técnicas de Persuasión: De la Propaganda al Lavado de Cerebro - Estudio Psicológico e Histórico",
@@ -1838,7 +1838,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-079.jpg"
     },
     {
-      "id": "col-080",
+      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
       "filename": "100-Tips-de-Lenguaje-Corporal.pdf",
       "title": "100 Tips Esenciales de Lenguaje Corporal",
       "fullTitle": "100 Tips Esenciales de Lenguaje Corporal: Guía Rápida de Comunicación No Verbal y Detección de Microexpresiones",
@@ -1860,7 +1860,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-080.jpg"
     },
     {
-      "id": "col-081",
+      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
       "filename": "9. LENGUAJE CORPORAL 40 DÍAS .pdf",
       "title": "Lenguaje Corporal en 40 Días: Persuasión Silenciosa",
       "fullTitle": "Lenguaje Corporal en 40 Días: Una Guía Paso a Paso para Dominar la Persuasión Silenciosa",
@@ -1882,7 +1882,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-081.jpg"
     },
     {
-      "id": "col-082",
+      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
       "filename": "Aprende-Con-El-Lenguaje-Corporal-Analizar-a-Las-Personas-Editado3.pdf",
       "title": "Aprende con el Lenguaje Corporal a Analizar a las Personas",
       "fullTitle": "Aprende con el Lenguaje Corporal a Analizar a las Personas: Tus Movimientos te Delatan",
@@ -1904,7 +1904,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-082.jpg"
     },
     {
-      "id": "col-083",
+      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
       "filename": "Como Conocer A Las Personas Por Su Lenguaje Corporal - Leonardo Ferrari.pdf",
       "title": "Cómo Conocer a las Personas por su Lenguaje Corporal",
       "fullTitle": "Cómo Conocer a las Personas por su Lenguaje Corporal: Más Allá de las Palabras, el Cuerpo No Miente",
@@ -1926,7 +1926,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-083.jpg"
     },
     {
-      "id": "col-084",
+      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
       "filename": "Domina tu lenguaje corporal_ La - 50Minutos.es.pdf",
       "title": "Domina tu Lenguaje Corporal: Tu Valioso Aliado",
       "fullTitle": "Domina tu Lenguaje Corporal: Las 3V de la Comunicación, Señales No Verbales y Seguridad Personal",
@@ -1948,7 +1948,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-084.jpg"
     },
     {
-      "id": "col-085",
+      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
       "filename": "El-Lenguaje-Corporal-NO-Miente-Mateo-Holm.pdf",
       "title": "El Lenguaje Corporal No Miente",
       "fullTitle": "El Lenguaje Corporal No Miente: La Ciencia Oculta para Interpretar y Dominar la Comunicación No Verbal",
@@ -2036,7 +2036,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-088.jpg"
     },
     {
-      "id": "col-089",
+      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
       "filename": "Lenguaje-Corporal.pdf",
       "title": "Manual Integral de Lenguaje Corporal y Kinésica",
       "fullTitle": "Manual Integral de Lenguaje Corporal, Microexpresiones y Detección de Incongruencias",
@@ -2058,7 +2058,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-089.jpg"
     },
     {
-      "id": "col-090",
+      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
       "filename": "Lenguaje-corporal-poderoso.pdf",
       "title": "Lenguaje Corporal Poderoso: Presencia e Impacto",
       "fullTitle": "Lenguaje Corporal Poderoso: Una Introducción al Maravilloso Mundo de la Comunicación No Verbal",
@@ -2080,7 +2080,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-090.jpg"
     },
     {
-      "id": "col-091",
+      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
       "filename": "Los-Secretos-Del-Lenguaje-Corporal.pdf",
       "title": "Los Secretos del Lenguaje Corporal y Microexpresiones",
       "fullTitle": "Los Secretos del Lenguaje Corporal: Expresiones Faciales, Detección de Mentiras y Microexpresiones",
@@ -2102,7 +2102,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-091.jpg"
     },
     {
-      "id": "col-092",
+      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
       "filename": "MANUAL-LENGUAJE-CORPORAL-1.pdf",
       "title": "Manual Práctico de Lenguaje Corporal y Videollamadas",
       "fullTitle": "Manual de Lenguaje Corporal: Canales No Verbales, Diferencias Culturales y Comunicación Digital",
@@ -2124,7 +2124,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-092.jpg"
     },
     {
-      "id": "col-093",
+      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
       "filename": "Manual-de-Lenguaje-Corporal.pdf",
       "title": "Manual de Lenguaje Corporal: Claves y Dinámicas",
       "fullTitle": "Manual de Lenguaje Corporal: Guía de Aprendizaje Práctico para la Interpretación Gestual",
@@ -2146,7 +2146,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-093.jpg"
     },
     {
-      "id": "col-094",
+      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
       "filename": "COMO-ANALIZAR-A-LA-GENTE-Una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-tipos-de-personalidad-engano-empatico-compor.pdf",
       "title": "Cómo Analizar a la Gente: Maestría en Lectura Humana",
       "fullTitle": "Cómo Analizar a la Gente: Una Maestría para Leer el Lenguaje Corporal, Tipos de Personalidad y Defenderse",
@@ -2168,7 +2168,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-094.jpg"
     },
     {
-      "id": "col-095",
+      "id": "como-analizar-a-las-personas-con-psicologia-oscura-una-guia-rapida-para-leer-tipos-de-personalidad-h",
       "filename": "COMO-ANALIZAR-A-LAS-PERSONAS-CON-PSICOLOGIA-OSCURA-Una-Guia-Rapida-para-Leer-Tipos-de-Personalidad-Humana-Mediante-el-Analisis-del-Lenguaje-Corporal.pdf",
       "title": "Cómo Analizar a las Personas con Psicología Oscura",
       "fullTitle": "Cómo Analizar a las Personas con Psicología Oscura: Guía Rápida para Leer Personalidades Mediante el Lenguaje Corporal",
@@ -2190,7 +2190,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-095.jpg"
     },
     {
-      "id": "col-096",
+      "id": "como-analizar-a-las-personas-robert-leary",
       "filename": "COMO-ANALIZAR-A-LAS-PERSONAS-ROBERT-LEARY.pdf",
       "title": "Cómo Analizar a las Personas: Comunicación Total",
       "fullTitle": "Cómo Analizar a las Personas: Lenguaje Verbal, No Verbal y Comprensión de la Mente Humana",
@@ -2212,7 +2212,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-096.jpg"
     },
     {
-      "id": "col-097",
+      "id": "como-analizar-a-las-personas-una-guia-para-acelerar-la-lectura-de-las-personas-a-traves-de-la-psicol",
       "filename": "Como-Analizar-A-Las-Personas-Una-Guia-Para-Acelerar-La-Lectura-De-Las-Personas-A-Traves-De-La-Psicologia-Del-Comportamiento-Humano-Aprende-A-Leer-El.pdf",
       "title": "Cómo Analizar a las Personas: Lectura Rápida Conductual",
       "fullTitle": "Cómo Analizar a las Personas: Una Guía para Acelerar la Lectura Humana a Través de la Psicología del Comportamiento",
@@ -2234,7 +2234,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-097.jpg"
     },
     {
-      "id": "col-098",
+      "id": "como-analizar-a-las-personas-psicologia-oscura-tecnicas-secretas-para-analizar-e-influenciar-a-cualq",
       "filename": "como-analizar-a-las-personas-psicologia-oscura-tecnicas-secretas-para-analizar-e-influenciar-a-cualquiera-utilizando-el-lenguaje-corporal-la-psico.pdf",
       "title": "Cómo Analizar a las Personas: Técnicas Secretas de Influencia",
       "fullTitle": "Cómo Analizar a las Personas: Psicología Oscura y Técnicas Secretas para Interpretar e Influenciar a Cualquiera",
@@ -2278,7 +2278,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-099.jpg"
     },
     {
-      "id": "col-100",
+      "id": "psicologia-del-masoquismo",
       "filename": "Psicologia del masoquismo.pdf",
       "title": "Psicología del Masoquismo: Dimensiones Clínicas",
       "fullTitle": "Psicología del Masoquismo: Dimensiones Psicológicas de la Entrega y la Dinámica del Deseo",
@@ -2300,7 +2300,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-100.jpg"
     },
     {
-      "id": "col-101",
+      "id": "psicologia-maquiavelica-teoria-y-tecnicas-de-psicologia-oscura-manipulacion-pdf",
       "filename": "Psicologia-Maquiavelica.pdf",
       "title": "Psicología Maquiavélica: Teoría y Técnicas Oscuras",
       "fullTitle": "Psicología Maquiavélica: Teoría y Técnicas de Psicología Oscura, Manipulación e Influencia",
@@ -2322,7 +2322,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-101.jpg"
     },
     {
-      "id": "col-102",
+      "id": "psicologia-maquiavelica-teoria-y-tecnicas-de-psicologia-oscura-manipulacion-pdf",
       "filename": "Psicologia-maquiavelica-Teoria-y-tecnicas-de-psicologia-oscura-manipulacion-pdf.pdf",
       "title": "Psicología Maquiavélica en la Vida Diaria",
       "fullTitle": "Psicología Maquiavélica: Cómo Reconocer al Manipulador, Dinámicas de Vulnerabilidad y Estrategias Prácticas",
@@ -2344,7 +2344,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-102.jpg"
     },
     {
-      "id": "col-103",
+      "id": "comunicacion-persuasiva-3-libros-en-1-persuasion-manipulacion-lenguaje-corporal-comunicacion-efectiv",
       "filename": "COMUNICACION-PERSUASIVA-3-libros-en-1-Persuasion-Manipulacion-Lenguaje-Corporal-Comunicacion-Efectiva-para-controlar-instantaneamente-cualquie.pdf",
       "title": "Comunicación Persuasiva (3 en 1): Control de Conversaciones",
       "fullTitle": "Comunicación Persuasiva: Persuasión, Manipulación Mental y Lenguaje Corporal (3 Libros en 1)",
@@ -2366,7 +2366,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-103.jpg"
     },
     {
-      "id": "col-104",
+      "id": "como-analizar-a-las-personas-4-libros-en-1",
       "filename": "Como-Analizar-a-Las-Personas-4-Libros-en-1.pdf",
       "title": "Cómo Analizar a las Personas (4 Libros en 1)",
       "fullTitle": "Cómo Analizar a las Personas (4 en 1): Psicología del Comportamiento, Lenguaje Corporal, Persuasión y Manipulación",
@@ -2388,7 +2388,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-104.jpg"
     },
     {
-      "id": "col-105",
+      "id": "como-analizar-a-las-personas-con-psicologia-oscura-una-guia-rapida-para-leer-tipos-de-personalidad-h",
       "filename": "El-ABC-de-La-Psicologia-Oscura.pdf",
       "title": "El ABC de la Psicología Oscura y Control Mental",
       "fullTitle": "El ABC de la Psicología Oscura: Aprende el Mundo de la Manipulación, el Control Mental y las Habilidades Psicológicas",
@@ -2410,7 +2410,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-105.jpg"
     },
     {
-      "id": "col-106",
+      "id": "manipulacion-mental-descubra-los-secretos-oscuros-de-la-psicologia-del-control-mental-para-analizar-",
       "filename": "MANIPULACION-MENTAL-Descubra-los-secretos-oscuros-de-la-psicologia-del-control-mental-para-analizar-influir-y-manipular-a-las-personas-con-tecnicas.pdf",
       "title": "Manipulación Mental: Secretos Oscuros y PNL",
       "fullTitle": "Manipulación Mental: Secretos Oscuros del Control Mental, Programación Neurolingüística, Hipnosis y Lenguaje Corporal",
@@ -2432,7 +2432,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-106.jpg"
     },
     {
-      "id": "col-107",
+      "id": "psicologia-4-manuales-en-1-autodisciplina-inteligencia-emocional-psicologia-oscura-y-manipulacion-ap",
       "filename": "Psicologia-4-Manuales-en-1-Autodisciplina-Inteligencia-Emocional-Psicologia-Oscura-y-Manipulacion-Aprende-Las-Claves-Del-Goleman-Fabian.pdf",
       "title": "Psicología (4 Manuales en 1): Autodisciplina y Dominio Mental",
       "fullTitle": "Psicología: 4 Manuales en 1 - Autodisciplina, Inteligencia Emocional, Psicología Oscura y Manipulación",
@@ -2454,7 +2454,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-107.jpg"
     },
     {
-      "id": "col-108",
+      "id": "como-analizar-a-las-personas-con-psicologia-oscura-una-guia-rapida-para-leer-tipos-de-personalidad-h",
       "filename": "Psicologia-Oscura-6-en-1.pdf",
       "title": "Psicología Oscura (6 Libros en 1): Edición Integral",
       "fullTitle": "Psicología Oscura: 6 Libros en 1 - El Compendio Maestro de Benedict Goleman",
@@ -2476,7 +2476,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-108.jpg"
     },
     {
-      "id": "col-109",
+      "id": "psicologia-oscura-fabian-goleman",
       "filename": "Psicologia-oscura-Fabian-Goleman.pdf",
       "title": "Psicología Oscura (2 Libros en 1): Persuasión y PNL",
       "fullTitle": "Psicología Oscura (2 Libros en 1): Psicología Oscura y Manipulación - Técnicas Secretas de Negociación y PNL",
@@ -2498,7 +2498,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-109.jpg"
     },
     {
-      "id": "col-110",
+      "id": "coleccion-erotica_-cuentos-que---sonam-thapa",
       "filename": "Coleccion erotica_ cuentos que - Sonam Thapa.pdf",
       "title": "Colección Erótica: Cuentos que Inspiran",
       "fullTitle": "Colección Erótica: Relatos y Cuentos de Seducción, Sensualidad y Vínculos Pasionales",
@@ -2520,7 +2520,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-110.jpg"
     },
     {
-      "id": "col-111",
+      "id": "desbloquea-tu-mente-modulo-1-pdf",
       "filename": "Desbloquea-tu-mente-modulo-1-pdf.pdf",
       "title": "Desbloquea tu Mente: Control y Reprogramación (Módulo 1)",
       "fullTitle": "Desbloquea tu Mente: ¿Por Qué Debes Trabajar el Control de tu Mente? Escuela QMM (Módulo 1)",
@@ -2542,7 +2542,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-111.jpg"
     },
     {
-      "id": "col-112",
+      "id": "diario-de-una-ninfomana",
       "filename": "Diario de una ninfomana.pdf",
       "title": "Diario de una Ninfómana",
       "fullTitle": "Diario de una Ninfómana: Relato Testimonial sobre Deseo, Vínculos y Psicología Femenina",
@@ -2564,7 +2564,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-112.jpg"
     },
     {
-      "id": "col-113",
+      "id": "psicologia-para-principiantes-manipulacion-lenguaje-corporal-pnl",
       "filename": "Psicologia-para-principiantes-Manipulacion-Lenguaje-Corporal-PNL.pdf",
       "title": "Psicología para Principiantes (4 en 1): Psique Humana y PNL",
       "fullTitle": "Psicología para Principiantes: Psicología Positiva, Manipulación, Lenguaje Corporal y PNL (Libro 4 en 1)",
@@ -2586,7 +2586,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-113.jpg"
     },
     {
-      "id": "col-114",
+      "id": "desbloquea-tu-cerebro-lib-rate-del-comportamiento-obsesivo-compulsivo-jeffrey-schwartz-1",
       "filename": "desbloquea-tu-cerebro-libérate-del-comportamiento-obsesivo-compulsivo-jeffrey-schwartz (1).pdf",
       "title": "Desbloquea tu Cerebro: Libérate del TOC",
       "fullTitle": "Desbloquea tu Cerebro: Libérate del Comportamiento Obsesivo-Compulsivo con Neuroplasticidad Dirigida",
