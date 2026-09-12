@@ -1,5 +1,8 @@
-# Raw media files exceeding GitHub's 100MB file limit
-Coleccion _Psicologia_Oscura_Audiolibros/
+# Raw media files exceeding GitHub's 100MB file limit. PDFs are kept in the
+# Pages deployment because the library links to them directly.
+Coleccion _Psicologia_Oscura_Audiolibros/*
+!Coleccion _Psicologia_Oscura_Audiolibros/**/
+!Coleccion _Psicologia_Oscura_Audiolibros/**/*.pdf
 
 # Local staging folder for image generation (production covers live in assets/img/covers/)
 assets/images/
@@ -8,6 +11,19 @@ assets/images/
 scratch/
 *.log
 
+# Secrets and local processing outputs
+.env
+.env.*
+!.env.example
+scripts/curacion_libros/data/
+scripts/curacion_libros/output/
+scripts/curacion_libros/reports/
+
+# Python cache
+__pycache__/
+*.pyc
+
 # OS metadata
 Thumbs.db
 .DS_Store
+
