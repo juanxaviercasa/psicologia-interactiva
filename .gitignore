@@ -3,6 +3,12 @@
 Coleccion _Psicologia_Oscura_Audiolibros/*
 !Coleccion _Psicologia_Oscura_Audiolibros/**/
 !Coleccion _Psicologia_Oscura_Audiolibros/**/*.pdf
+Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/
+*.m4a
+*.mp3
+*.wav
+*.aac
+
 
 # Local staging folder for image generation (production covers live in assets/img/covers/)
 assets/images/
