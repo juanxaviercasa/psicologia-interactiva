@@ -27,7 +27,24 @@ const AudioPlayerEngine = {
     // Crear elemento de audio nativo
     this.audio = new Audio();
     this.audio.preload = 'metadata';
+    this.audio.crossOrigin = "anonymous"; // Requerido para Web Audio API
     this.audio.volume = this.volume;
+
+    // Inicializar Web Audio API para amplificación
+    try {
+      const AudioCtx = window.AudioContext || window.webkitAudioContext;
+      this.audioContext = new AudioCtx();
+      this.mediaSource = this.audioContext.createMediaElementSource(this.audio);
+      this.gainNode = this.audioContext.createGain();
+      
+      // Duplicar el volumen (Amplificador x2)
+      this.gainNode.gain.value = 2.0; 
+      
+      this.mediaSource.connect(this.gainNode);
+      this.gainNode.connect(this.audioContext.destination);
+    } catch (e) {
+      console.warn("Web Audio API not supported", e);
+    }
 
     this.bindAudioEvents();
     this.bindKeyboardShortcuts();
@@ -213,6 +230,10 @@ const AudioPlayerEngine = {
     this.audio.src = this.currentTrack.encodedPath;
     this.audio.playbackRate = this.playbackRate;
 
+    if (this.audioContext && this.audioContext.state === 'suspended') {
+      this.audioContext.resume();
+    }
+
     const playPromise = this.audio.play();
     if (playPromise !== undefined) {
       playPromise
@@ -241,6 +262,9 @@ const AudioPlayerEngine = {
     }
 
     if (this.audio.paused) {
+      if (this.audioContext && this.audioContext.state === 'suspended') {
+        this.audioContext.resume();
+      }
       this.audio.play().then(() => {
         this.isPlaying = true;
         this.updatePlayStateUI();
