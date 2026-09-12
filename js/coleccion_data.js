@@ -116,7 +116,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "103.6 MB",
       "timeEstimate": "1h 38m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Aprende_a_Manipular_Sin_Que_Nadie_Lo_Note_Técnicas_Psicológica.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Aprende_a_Manipular_Sin_Que_Nadie_Lo_Note_T%C3%A9cnicas_Psicol%C3%B3gica.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Aprende_a_Manipular_Sin_Que_Nadie_Lo_Note_T%C3%A9cnicas_Psicol%C3%B3gica.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-001.jpg"
     },
     {
@@ -138,7 +138,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "72.3 MB",
       "timeEstimate": "1h 8m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Aprende_a_leer_mentes_con_el_lenguaje_corpora_United_Audiobook.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Aprende_a_leer_mentes_con_el_lenguaje_corpora_United_Audiobook.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Aprende_a_leer_mentes_con_el_lenguaje_corpora_United_Audiobook.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-002.jpg"
     },
     {
@@ -160,7 +160,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "66.4 MB",
       "timeEstimate": "1h 3m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/CÓMO_ANALIZAR_A_LAS_PERSONAS_RJ_ANDERSON.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/C%C3%93MO_ANALIZAR_A_LAS_PERSONAS_RJ_ANDERSON.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/C%C3%93MO_ANALIZAR_A_LAS_PERSONAS_RJ_ANDERSON.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-003.jpg"
     },
     {
@@ -182,7 +182,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "128.9 MB",
       "timeEstimate": "2h 2m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Descubre_los_Secretos_de_la_Psicología_Oscura!_Aprende_a_Analiza.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Descubre_los_Secretos_de_la_Psicolog%C3%ADa_Oscura%21_Aprende_a_Analiza.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Descubre_los_Secretos_de_la_Psicolog%C3%ADa_Oscura%21_Aprende_a_Analiza.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-004.jpg"
     },
     {
@@ -204,7 +204,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "241.4 MB",
       "timeEstimate": "3h 49m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_El_Lenguaje_Corporal_Descubre_Cómo_Leer_A_Las_Personas_C.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Domina_El_Lenguaje_Corporal_Descubre_C%C3%B3mo_Leer_A_Las_Personas_C.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_El_Lenguaje_Corporal_Descubre_C%C3%B3mo_Leer_A_Las_Personas_C.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-005.jpg"
     },
     {
@@ -226,7 +226,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "135.0 MB",
       "timeEstimate": "2h 8m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_La_Psicología_Oscura_Aprende_A_Leer_Mentes_Y_Manipular_C.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Domina_La_Psicolog%C3%ADa_Oscura_Aprende_A_Leer_Mentes_Y_Manipular_C.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_La_Psicolog%C3%ADa_Oscura_Aprende_A_Leer_Mentes_Y_Manipular_C.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-006.jpg"
     },
     {
@@ -248,7 +248,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "117.1 MB",
       "timeEstimate": "1h 51m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_el_Lenguaje_Corporal_Descifra_los_Secretos_del_Comportam.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Domina_el_Lenguaje_Corporal_Descifra_los_Secretos_del_Comportam.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_el_Lenguaje_Corporal_Descifra_los_Secretos_del_Comportam.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-007.jpg"
     },
     {
@@ -270,7 +270,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "113.3 MB",
       "timeEstimate": "1h 47m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_el_lenguaje_corporal_y_la_psicología_oscura_en_tu_vida_di.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Domina_el_lenguaje_corporal_y_la_psicolog%C3%ADa_oscura_en_tu_vida_di.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_el_lenguaje_corporal_y_la_psicolog%C3%ADa_oscura_en_tu_vida_di.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-008.jpg"
     },
     {
@@ -292,7 +292,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "200.5 MB",
       "timeEstimate": "3h 10m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_la_Manipulación_El_audiolibro_sobre_Psicología_Oscura.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Domina_la_Manipulaci%C3%B3n_El_audiolibro_sobre_Psicolog%C3%ADa_Oscura.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_la_Manipulaci%C3%B3n_El_audiolibro_sobre_Psicolog%C3%ADa_Oscura.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-009.jpg"
     },
     {
@@ -314,7 +314,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "245.9 MB",
       "timeEstimate": "3h 54m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_la_Psicología_Oscura_Aprende_a_Detectar_y_Controlar_la_M.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Domina_la_Psicolog%C3%ADa_Oscura_Aprende_a_Detectar_y_Controlar_la_M.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_la_Psicolog%C3%ADa_Oscura_Aprende_a_Detectar_y_Controlar_la_M.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-010.jpg"
     },
     {
@@ -336,7 +336,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "239.0 MB",
       "timeEstimate": "3h 47m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/El Libro de Enoc (Audiolibro Completo)  Voz Real Humana.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/El%20Libro%20de%20Enoc%20%28Audiolibro%20Completo%29%20%20Voz%20Real%20Humana.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/El%20Libro%20de%20Enoc%20%28Audiolibro%20Completo%29%20%20Voz%20Real%20Humana.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-011.jpg"
     },
     {
@@ -358,7 +358,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "82.4 MB",
       "timeEstimate": "1h 18m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Inteligencia Emocional Terry Lindberg.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Inteligencia%20Emocional%20Terry%20Lindberg.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Inteligencia%20Emocional%20Terry%20Lindberg.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-012.jpg"
     },
     {
@@ -380,7 +380,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "104.9 MB",
       "timeEstimate": "1h 39m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/La_Psicología_de_la_Persuasión_El_audiolibro_sobre_Psicología.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/La_Psicolog%C3%ADa_de_la_Persuasi%C3%B3n_El_audiolibro_sobre_Psicolog%C3%ADa.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/La_Psicolog%C3%ADa_de_la_Persuasi%C3%B3n_El_audiolibro_sobre_Psicolog%C3%ADa.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-013.jpg"
     },
     {
@@ -402,7 +402,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "78.4 MB",
       "timeEstimate": "1h 14m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Lee a las Personas con facilidad - Audiolibro completo.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Lee%20a%20las%20Personas%20con%20facilidad%20-%20Audiolibro%20completo.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Lee%20a%20las%20Personas%20con%20facilidad%20-%20Audiolibro%20completo.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-014.jpg"
     },
     {
@@ -424,7 +424,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "174.1 MB",
       "timeEstimate": "2h 45m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Lo_Que_Nadie_Te_Dice_Sobre_Leer_a_Las_Personas_Descúbrelo_en_E.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Lo_Que_Nadie_Te_Dice_Sobre_Leer_a_Las_Personas_Desc%C3%BAbrelo_en_E.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Lo_Que_Nadie_Te_Dice_Sobre_Leer_a_Las_Personas_Desc%C3%BAbrelo_en_E.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-015.jpg"
     },
     {
@@ -446,7 +446,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "92.7 MB",
       "timeEstimate": "1h 28m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Los_Secretos_Oscuros_de_la_Mente_Aprende_a_Controlar_y_Protege.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Los_Secretos_Oscuros_de_la_Mente_Aprende_a_Controlar_y_Protege.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Los_Secretos_Oscuros_de_la_Mente_Aprende_a_Controlar_y_Protege.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-016.jpg"
     },
     {
@@ -468,7 +468,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "97.6 MB",
       "timeEstimate": "1h 32m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Manipulación al Descubierto - Tu audiolibro definitivo.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Manipulaci%C3%B3n%20al%20Descubierto%20-%20Tu%20audiolibro%20definitivo.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Manipulaci%C3%B3n%20al%20Descubierto%20-%20Tu%20audiolibro%20definitivo.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-017.jpg"
     },
     {
@@ -490,7 +490,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "287.7 MB",
       "timeEstimate": "4h 34m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/PSICOLOGÍA_OSCURA_TÉCNICAS_PROHIBIDAS_de_PERSUASIÓN,_MANIPULACION.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/PSICOLOG%C3%8DA_OSCURA_T%C3%89CNICAS_PROHIBIDAS_de_PERSUASI%C3%93N%2C_MANIPULACION.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/PSICOLOG%C3%8DA_OSCURA_T%C3%89CNICAS_PROHIBIDAS_de_PERSUASI%C3%93N%2C_MANIPULACION.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-018.jpg"
     },
     {
@@ -512,7 +512,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "346.4 MB",
       "timeEstimate": "5h 29m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/STEVEN TURNER - PSICOLOGÍA OSCURA .m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/STEVEN%20TURNER%20-%20PSICOLOG%C3%8DA%20OSCURA%20.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/STEVEN%20TURNER%20-%20PSICOLOG%C3%8DA%20OSCURA%20.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-019.jpg"
     },
     {
@@ -534,14 +534,14 @@ const COLECCION_DATA = {
       "sizeFormatted": "126.7 MB",
       "timeEstimate": "2h 0m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Secretos_para_Leer_a_las_Personas_Psicología_Oscura_y_Análisis.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Secretos_para_Leer_a_las_Personas_Psicolog%C3%ADa_Oscura_y_An%C3%A1lisis.m4a",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Secretos_para_Leer_a_las_Personas_Psicolog%C3%ADa_Oscura_y_An%C3%A1lisis.m4a",
       "coverImage": "assets/img/covers/cover_audio_col-020.jpg"
     }
   ],
   "books": [
     {
       "id": "col-021",
-      "filename": "2. Psicología oscura - Aprenda los usos prácticos y las defensas dmanipulacion, la influencia emocional y otras tecnicas secretas.pdf · versión 1.pdf",
+      "filename": "Psicología oscura - Aprenda los usos prácticos y las defensas dmanipulacion, la influencia emocional y otras tecnicas secretas.pdf",
       "title": "Psicología Oscura: Usos Prácticos y Defensas",
       "fullTitle": "Psicología Oscura: Aprenda los Usos Prácticos y las Defensas de la Manipulación, la Influencia Emocional y Técnicas Secretas",
       "author": "Victor Sykes",
@@ -555,15 +555,15 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 693250,
       "sizeMb": 0.66,
-      "sizeFormatted": "0.7 MB",
+      "sizeFormatted": "677.0 KB",
       "timeEstimate": "~19 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/2. Psicología oscura - Aprenda los usos prácticos y las defensas dmanipulacion, la influencia emocional y otras tecnicas secretas.pdf · versión 1.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/2.%20Psicolog%C3%ADa%20oscura%20-%20Aprenda%20los%20usos%20pr%C3%A1cticos%20y%20las%20defensas%20dmanipulacion%2C%20la%20influencia%20emocional%20y%20otras%20tecnicas%20secretas.pdf%20%C2%B7%20versi%C3%B3n%201.pdf",
+      "relativePath": "libros/psicologia/Psicología oscura - Aprenda los usos prácticos y las defensas dmanipulacion, la influencia emocional y otras tecnicas secretas.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicolog%C3%ADa%20oscura%20-%20Aprenda%20los%20usos%20pr%C3%A1cticos%20y%20las%20defensas%20dmanipulacion%2C%20la%20influencia%20emocional%20y%20otras%20tecnicas%20secretas.pdf",
       "coverImage": "assets/img/covers/cover_book_col-021.jpg"
     },
     {
       "id": "col-022",
-      "filename": "3. PSICOLOGIA OBSCURA S.L. MOORE .pdf",
+      "filename": "PSICOLOGIA OBSCURA S.L. MOORE .pdf",
       "title": "Psicología Oscura: Manipulación Emocional Encubierta",
       "fullTitle": "Psicología Oscura: Domine las Técnicas Secretas de la Manipulación Emocional Encubierta, Persuasión y Control Mental",
       "author": "S.L. Moore",
@@ -577,15 +577,15 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 808620,
       "sizeMb": 0.77,
-      "sizeFormatted": "0.8 MB",
+      "sizeFormatted": "789.7 KB",
       "timeEstimate": "~22 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/3. PSICOLOGIA OBSCURA S.L. MOORE .pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/3.%20PSICOLOGIA%20OBSCURA%20S.L.%20MOORE%20.pdf",
+      "relativePath": "libros/psicologia/PSICOLOGIA OBSCURA S.L. MOORE .pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/PSICOLOGIA%20OBSCURA%20S.L.%20MOORE%20.pdf",
       "coverImage": "assets/img/covers/cover_book_col-022.jpg"
     },
     {
       "id": "col-023",
-      "filename": "8. PSICOLOGIA OBSCURA 6 EN 1.pdf",
+      "filename": "PSICOLOGIA OBSCURA S.L. MOORE .pdf",
       "title": "Psicología Oscura (6 en 1) - Compendio Maestro",
       "fullTitle": "Psicología Oscura: 6 Libros en 1 - Introducción a la Psicología, Análisis Conductual, Manipulación, Persuasión, TCC y Abuso Narcisista",
       "author": "Benedict Goleman",
@@ -597,12 +597,12 @@ const COLECCION_DATA = {
       "gradient": "from-rose-950/70 via-slate-900 to-slate-950",
       "extension": "PDF",
       "type": "book",
-      "sizeBytes": 2135051,
-      "sizeMb": 2.04,
-      "sizeFormatted": "2.0 MB",
+      "sizeBytes": 808620,
+      "sizeMb": 0.77,
+      "sizeFormatted": "789.7 KB",
       "timeEstimate": "~59 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/8. PSICOLOGIA OBSCURA 6 EN 1.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/8.%20PSICOLOGIA%20OBSCURA%206%20EN%201.pdf",
+      "relativePath": "libros/psicologia/PSICOLOGIA OBSCURA S.L. MOORE .pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/PSICOLOGIA%20OBSCURA%20S.L.%20MOORE%20.pdf",
       "coverImage": "assets/img/covers/cover_book_col-023.jpg"
     },
     {
@@ -623,8 +623,8 @@ const COLECCION_DATA = {
       "sizeMb": 3.86,
       "sizeFormatted": "3.9 MB",
       "timeEstimate": "~112 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-Recablee-Su-Mente-L.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-Recablee-Su-Mente-L.pdf",
+      "relativePath": "libros/psicologia/PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-Recablee-Su-Mente-L.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-Recablee-Su-Mente-L.pdf",
       "coverImage": "assets/img/covers/cover_book_col-024.jpg"
     },
     {
@@ -645,8 +645,8 @@ const COLECCION_DATA = {
       "sizeMb": 3.86,
       "sizeFormatted": "3.9 MB",
       "timeEstimate": "~112 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-by-Recablee-Su-Mente.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-by-Recablee-Su-Mente.pdf",
+      "relativePath": "libros/psicologia/PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-by-Recablee-Su-Mente.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-by-Recablee-Su-Mente.pdf",
       "coverImage": "assets/img/covers/cover_book_col-025.jpg"
     },
     {
@@ -665,15 +665,15 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 957433,
       "sizeMb": 0.91,
-      "sizeFormatted": "0.9 MB",
+      "sizeFormatted": "935.0 KB",
       "timeEstimate": "~26 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/PSICOLOGIA-OSCURA-AL-EXTREMO-41-Tecnicas-de-Psicologia-Oscura-Reveladas.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/PSICOLOGIA-OSCURA-AL-EXTREMO-41-Tecnicas-de-Psicologia-Oscura-Reveladas.pdf",
+      "relativePath": "libros/psicologia/PSICOLOGIA-OSCURA-AL-EXTREMO-41-Tecnicas-de-Psicologia-Oscura-Reveladas.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/PSICOLOGIA-OSCURA-AL-EXTREMO-41-Tecnicas-de-Psicologia-Oscura-Reveladas.pdf",
       "coverImage": "assets/img/covers/cover_book_col-026.jpg"
     },
     {
       "id": "col-027",
-      "filename": "PSICOLOGIA-OSCURA-SECREROS-Version-1.pdf",
+      "filename": "PSICOLOGIA-OSCURA-SECRETOS.pdf",
       "title": "Secretos de la Psicología Oscura 101",
       "fullTitle": "Secretos de la Psicología Oscura: Identificación y Defensa ante Depredadores Humanos",
       "author": "Especialista en Psicología Oscura",
@@ -689,8 +689,8 @@ const COLECCION_DATA = {
       "sizeMb": 4.33,
       "sizeFormatted": "4.3 MB",
       "timeEstimate": "~126 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/PSICOLOGIA-OSCURA-SECREROS-Version-1.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/PSICOLOGIA-OSCURA-SECREROS-Version-1.pdf",
+      "relativePath": "libros/psicologia/PSICOLOGIA-OSCURA-SECRETOS.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/PSICOLOGIA-OSCURA-SECRETOS.pdf",
       "coverImage": "assets/img/covers/cover_book_col-027.jpg"
     },
     {
@@ -709,10 +709,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 917884,
       "sizeMb": 0.88,
-      "sizeFormatted": "0.9 MB",
+      "sizeFormatted": "896.4 KB",
       "timeEstimate": "~25 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/Psicologi-a-Oscura-Aprenda-co-mo-Influir-en-las-personas-mediante.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/Psicologi-a-Oscura-Aprenda-co-mo-Influir-en-las-personas-mediante.pdf",
+      "relativePath": "libros/psicologia/Psicologi-a-Oscura-Aprenda-co-mo-Influir-en-las-personas-mediante.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologi-a-Oscura-Aprenda-co-mo-Influir-en-las-personas-mediante.pdf",
       "coverImage": "assets/img/covers/cover_book_col-028.jpg"
     },
     {
@@ -733,8 +733,8 @@ const COLECCION_DATA = {
       "sizeMb": 4.23,
       "sizeFormatted": "4.2 MB",
       "timeEstimate": "~123 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l (1).pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l%20%281%29.pdf",
+      "relativePath": "libros/psicologia/Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l (1).pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l%20%281%29.pdf",
       "coverImage": "assets/img/covers/cover_book_col-029.jpg"
     },
     {
@@ -755,8 +755,8 @@ const COLECCION_DATA = {
       "sizeMb": 4.23,
       "sizeFormatted": "4.2 MB",
       "timeEstimate": "~123 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l.pdf",
+      "relativePath": "libros/psicologia/Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l.pdf",
       "coverImage": "assets/img/covers/cover_book_col-030.jpg"
     },
     {
@@ -775,10 +775,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 783342,
       "sizeMb": 0.75,
-      "sizeFormatted": "0.7 MB",
+      "sizeFormatted": "765.0 KB",
       "timeEstimate": "~21 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/Psicologia-Oscura-Fabian-Goleman.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/Psicologia-Oscura-Fabian-Goleman.pdf",
+      "relativePath": "libros/psicologia/Psicologia-Oscura-Fabian-Goleman.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura-Fabian-Goleman.pdf",
       "coverImage": "assets/img/covers/cover_book_col-031.jpg"
     },
     {
@@ -799,8 +799,8 @@ const COLECCION_DATA = {
       "sizeMb": 7.77,
       "sizeFormatted": "7.8 MB",
       "timeEstimate": "~227 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/Psicologia-Oscura-La-Guia-Definitiva-Para-Aprender-a-Analizar.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/Psicologia-Oscura-La-Guia-Definitiva-Para-Aprender-a-Analizar.pdf",
+      "relativePath": "libros/psicologia/Psicologia-Oscura-La-Guia-Definitiva-Para-Aprender-a-Analizar.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura-La-Guia-Definitiva-Para-Aprender-a-Analizar.pdf",
       "coverImage": "assets/img/covers/cover_book_col-032.jpg"
     },
     {
@@ -821,8 +821,8 @@ const COLECCION_DATA = {
       "sizeMb": 11.3,
       "sizeFormatted": "11.3 MB",
       "timeEstimate": "~330 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/Psicologia-Oscura-Steven-Turner-z-lib-org.docx",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/Psicologia-Oscura-Steven-Turner-z-lib-org.docx",
+      "relativePath": "libros/psicologia/Psicologia-Oscura-Steven-Turner-z-lib-org.docx",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura-Steven-Turner-z-lib-org.docx",
       "coverImage": "assets/img/covers/cover_book_col-033.jpg"
     },
     {
@@ -841,10 +841,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 605567,
       "sizeMb": 0.58,
-      "sizeFormatted": "0.6 MB",
+      "sizeFormatted": "591.4 KB",
       "timeEstimate": "~16 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/Psicologia-Oscura-Victor-Sykes.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/Psicologia-Oscura-Victor-Sykes.pdf",
+      "relativePath": "libros/psicologia/Psicologia-Oscura-Victor-Sykes.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura-Victor-Sykes.pdf",
       "coverImage": "assets/img/covers/cover_book_col-034.jpg"
     },
     {
@@ -865,8 +865,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.21,
       "sizeFormatted": "1.2 MB",
       "timeEstimate": "~35 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/Psicologia-Oscura-e-Inteligencia-Emocional-Descubre-como-detectar-la-manipulacion-emocional-y-aprende-tecnicas-para-persuadir-y-analizar-a-las-person.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/Psicologia-Oscura-e-Inteligencia-Emocional-Descubre-como-detectar-la-manipulacion-emocional-y-aprende-tecnicas-para-persuadir-y-analizar-a-las-person.pdf",
+      "relativePath": "libros/psicologia/Psicologia-Oscura-e-Inteligencia-Emocional-Descubre-como-detectar-la-manipulacion-emocional-y-aprende-tecnicas-para-persuadir-y-analizar-a-las-person.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura-e-Inteligencia-Emocional-Descubre-como-detectar-la-manipulacion-emocional-y-aprende-tecnicas-para-persuadir-y-analizar-a-las-person.pdf",
       "coverImage": "assets/img/covers/cover_book_col-035.jpg"
     },
     {
@@ -887,8 +887,8 @@ const COLECCION_DATA = {
       "sizeMb": 7.38,
       "sizeFormatted": "7.4 MB",
       "timeEstimate": "~215 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/Psicologia-Oscura.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/Psicologia-Oscura.pdf",
+      "relativePath": "libros/psicologia/Psicologia-Oscura.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura.pdf",
       "coverImage": "assets/img/covers/cover_book_col-036.jpg"
     },
     {
@@ -907,10 +907,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 599749,
       "sizeMb": 0.57,
-      "sizeFormatted": "0.6 MB",
+      "sizeFormatted": "585.7 KB",
       "timeEstimate": "~16 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/Psicologia-oscura-Aprenda-los-usos-pra-cticos-y-las-defensas-dmanipulacion-la-influencia-emocional-y-otras-tecnicas-secretas.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/Psicologia-oscura-Aprenda-los-usos-pra-cticos-y-las-defensas-dmanipulacion-la-influencia-emocional-y-otras-tecnicas-secretas.pdf",
+      "relativePath": "libros/psicologia/Psicologia-oscura-Aprenda-los-usos-pra-cticos-y-las-defensas-dmanipulacion-la-influencia-emocional-y-otras-tecnicas-secretas.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-oscura-Aprenda-los-usos-pra-cticos-y-las-defensas-dmanipulacion-la-influencia-emocional-y-otras-tecnicas-secretas.pdf",
       "coverImage": "assets/img/covers/cover_book_col-037.jpg"
     },
     {
@@ -931,8 +931,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.03,
       "sizeFormatted": "1.0 MB",
       "timeEstimate": "~30 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/Psicologia-oscura-y-manipulacion-compress.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/Psicologia-oscura-y-manipulacion-compress.pdf",
+      "relativePath": "libros/psicologia/Psicologia-oscura-y-manipulacion-compress.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-oscura-y-manipulacion-compress.pdf",
       "coverImage": "assets/img/covers/cover_book_col-038.jpg"
     },
     {
@@ -953,8 +953,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.31,
       "sizeFormatted": "1.3 MB",
       "timeEstimate": "~38 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/Secretos-De-La-Psicologia-Oscura-Aprenda-las-Tecnicas-de-Persuasion-Cubiertas-como-Lavado-de-Cerebro-Hipnosis-y-PNL-para-Usarlas-en-su-Beneficio-Da.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/Secretos-De-La-Psicologia-Oscura-Aprenda-las-Tecnicas-de-Persuasion-Cubiertas-como-Lavado-de-Cerebro-Hipnosis-y-PNL-para-Usarlas-en-su-Beneficio-Da.pdf",
+      "relativePath": "libros/psicologia/Secretos-De-La-Psicologia-Oscura-Aprenda-las-Tecnicas-de-Persuasion-Cubiertas-como-Lavado-de-Cerebro-Hipnosis-y-PNL-para-Usarlas-en-su-Beneficio-Da.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Secretos-De-La-Psicologia-Oscura-Aprenda-las-Tecnicas-de-Persuasion-Cubiertas-como-Lavado-de-Cerebro-Hipnosis-y-PNL-para-Usarlas-en-su-Beneficio-Da.pdf",
       "coverImage": "assets/img/covers/cover_book_col-039.jpg"
     },
     {
@@ -975,8 +975,8 @@ const COLECCION_DATA = {
       "sizeMb": 2.07,
       "sizeFormatted": "2.1 MB",
       "timeEstimate": "~60 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/Secretos-de-psicologia-oscura-Daniel-James-Hollins.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/Secretos-de-psicologia-oscura-Daniel-James-Hollins.pdf",
+      "relativePath": "libros/psicologia/Secretos-de-psicologia-oscura-Daniel-James-Hollins.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Secretos-de-psicologia-oscura-Daniel-James-Hollins.pdf",
       "coverImage": "assets/img/covers/cover_book_col-040.jpg"
     },
     {
@@ -997,8 +997,8 @@ const COLECCION_DATA = {
       "sizeMb": 21.96,
       "sizeFormatted": "22.0 MB",
       "timeEstimate": "~642 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/⚠Psicologia Oscura⚠/psicologia-oscura-4.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%E2%9A%A0Psicologia%20Oscura%E2%9A%A0/psicologia-oscura-4.pdf",
+      "relativePath": "libros/psicologia/psicologia-oscura-4.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/psicologia-oscura-4.pdf",
       "coverImage": "assets/img/covers/cover_book_col-041.jpg"
     },
     {
@@ -1017,10 +1017,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 496468,
       "sizeMb": 0.47,
-      "sizeFormatted": "0.5 MB",
+      "sizeFormatted": "484.8 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/1. MANIPULACIÓN MENTAL.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/1.%20MANIPULACI%C3%93N%20MENTAL.pdf",
+      "relativePath": "libros/manipulacion/1. MANIPULACIÓN MENTAL.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/1.%20MANIPULACI%C3%93N%20MENTAL.pdf",
       "coverImage": "assets/img/covers/cover_book_col-042.jpg"
     },
     {
@@ -1041,8 +1041,8 @@ const COLECCION_DATA = {
       "sizeMb": 2.33,
       "sizeFormatted": "2.3 MB",
       "timeEstimate": "~68 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/4. MANIPULACIÓN .pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/4.%20MANIPULACI%C3%93N%20.pdf",
+      "relativePath": "libros/manipulacion/4. MANIPULACIÓN .pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/4.%20MANIPULACI%C3%93N%20.pdf",
       "coverImage": "assets/img/covers/cover_book_col-043.jpg"
     },
     {
@@ -1061,10 +1061,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 389207,
       "sizeMb": 0.37,
-      "sizeFormatted": "0.4 MB",
+      "sizeFormatted": "380.1 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/6. Manipulación .pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/6.%20Manipulaci%C3%B3n%20.pdf",
+      "relativePath": "libros/manipulacion/6. Manipulación .pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/6.%20Manipulaci%C3%B3n%20.pdf",
       "coverImage": "assets/img/covers/cover_book_col-044.jpg"
     },
     {
@@ -1085,8 +1085,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.01,
       "sizeFormatted": "1.0 MB",
       "timeEstimate": "~29 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/7-MANIPULACION-MENTAL-PARA-PRINCIPIANTES-Aprenda-a-Analizar-a-Las-Personas-y-Manipular-Su-Mente-Subconsciente-Influya-en-Las-Personas-Con-Psicologia-O.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/7-MANIPULACION-MENTAL-PARA-PRINCIPIANTES-Aprenda-a-Analizar-a-Las-Personas-y-Manipular-Su-Mente-Subconsciente-Influya-en-Las-Personas-Con-Psicologia-O.pdf",
+      "relativePath": "libros/manipulacion/7-MANIPULACION-MENTAL-PARA-PRINCIPIANTES-Aprenda-a-Analizar-a-Las-Personas-y-Manipular-Su-Mente-Subconsciente-Influya-en-Las-Personas-Con-Psicologia-O.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/7-MANIPULACION-MENTAL-PARA-PRINCIPIANTES-Aprenda-a-Analizar-a-Las-Personas-y-Manipular-Su-Mente-Subconsciente-Influya-en-Las-Personas-Con-Psicologia-O.pdf",
       "coverImage": "assets/img/covers/cover_book_col-045.jpg"
     },
     {
@@ -1105,10 +1105,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 510997,
       "sizeMb": 0.49,
-      "sizeFormatted": "0.5 MB",
+      "sizeFormatted": "499.0 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/El-Arte-de-Manipulacion-y-Psicologia-Oscura.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/El-Arte-de-Manipulacion-y-Psicologia-Oscura.pdf",
+      "relativePath": "libros/manipulacion/El-Arte-de-Manipulacion-y-Psicologia-Oscura.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/El-Arte-de-Manipulacion-y-Psicologia-Oscura.pdf",
       "coverImage": "assets/img/covers/cover_book_col-046.jpg"
     },
     {
@@ -1127,10 +1127,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 942720,
       "sizeMb": 0.9,
-      "sizeFormatted": "0.9 MB",
+      "sizeFormatted": "920.6 KB",
       "timeEstimate": "~26 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/GARCIA-La-gran-manipulacion.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/GARCIA-La-gran-manipulacion.pdf",
+      "relativePath": "libros/manipulacion/GARCIA-La-gran-manipulacion.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/GARCIA-La-gran-manipulacion.pdf",
       "coverImage": "assets/img/covers/cover_book_col-047.jpg"
     },
     {
@@ -1149,10 +1149,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 1030568,
       "sizeMb": 0.98,
-      "sizeFormatted": "1.0 MB",
+      "sizeFormatted": "1006.4 KB",
       "timeEstimate": "~28 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/Goleman-Fabian-Manipulacion.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/Goleman-Fabian-Manipulacion.pdf",
+      "relativePath": "libros/manipulacion/Goleman-Fabian-Manipulacion.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Goleman-Fabian-Manipulacion.pdf",
       "coverImage": "assets/img/covers/cover_book_col-048.jpg"
     },
     {
@@ -1173,8 +1173,8 @@ const COLECCION_DATA = {
       "sizeMb": 2.54,
       "sizeFormatted": "2.5 MB",
       "timeEstimate": "~74 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/MANIPULACIO-N-Y-PSICOLO-GICA-OSCURA.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/MANIPULACIO-N-Y-PSICOLO-GICA-OSCURA.pdf",
+      "relativePath": "libros/manipulacion/MANIPULACIO-N-Y-PSICOLO-GICA-OSCURA.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/MANIPULACIO-N-Y-PSICOLO-GICA-OSCURA.pdf",
       "coverImage": "assets/img/covers/cover_book_col-049.jpg"
     },
     {
@@ -1195,8 +1195,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.36,
       "sizeFormatted": "1.4 MB",
       "timeEstimate": "~39 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/MANIPULACION-FABIAN-GOLEMAN.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/MANIPULACION-FABIAN-GOLEMAN.pdf",
+      "relativePath": "libros/manipulacion/MANIPULACION-FABIAN-GOLEMAN.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/MANIPULACION-FABIAN-GOLEMAN.pdf",
       "coverImage": "assets/img/covers/cover_book_col-050.jpg"
     },
     {
@@ -1217,8 +1217,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.01,
       "sizeFormatted": "1.0 MB",
       "timeEstimate": "~29 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/MANIPULACION-MENTAL-PARA-PRINCIPIANTES-Aprenda-a-Analizar-a-Las-Personas-y-Manipular-Su-Mente-Subconsciente-Influya-en-Las-Personas-Con-Psicologia-O (1).pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/MANIPULACION-MENTAL-PARA-PRINCIPIANTES-Aprenda-a-Analizar-a-Las-Personas-y-Manipular-Su-Mente-Subconsciente-Influya-en-Las-Personas-Con-Psicologia-O%20%281%29.pdf",
+      "relativePath": "libros/manipulacion/MANIPULACION-MENTAL-PARA-PRINCIPIANTES-Aprenda-a-Analizar-a-Las-Personas-y-Manipular-Su-Mente-Subconsciente-Influya-en-Las-Personas-Con-Psicologia-O (1).pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/MANIPULACION-MENTAL-PARA-PRINCIPIANTES-Aprenda-a-Analizar-a-Las-Personas-y-Manipular-Su-Mente-Subconsciente-Influya-en-Las-Personas-Con-Psicologia-O%20%281%29.pdf",
       "coverImage": "assets/img/covers/cover_book_col-051.jpg"
     },
     {
@@ -1237,10 +1237,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 730569,
       "sizeMb": 0.7,
-      "sizeFormatted": "0.7 MB",
+      "sizeFormatted": "713.4 KB",
       "timeEstimate": "~20 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/MANIPULACION-SECRETOS-de-LA-PSICOLOGIA-OSCURA-Aprende-Como-Analizar-e-Influir-en-Las-Personas-PNL-Lenguaje-Corporal-y-Tecnicas-Usadas-Por-El-Maes.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/MANIPULACION-SECRETOS-de-LA-PSICOLOGIA-OSCURA-Aprende-Como-Analizar-e-Influir-en-Las-Personas-PNL-Lenguaje-Corporal-y-Tecnicas-Usadas-Por-El-Maes.pdf",
+      "relativePath": "libros/manipulacion/MANIPULACION-SECRETOS-de-LA-PSICOLOGIA-OSCURA-Aprende-Como-Analizar-e-Influir-en-Las-Personas-PNL-Lenguaje-Corporal-y-Tecnicas-Usadas-Por-El-Maes.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/MANIPULACION-SECRETOS-de-LA-PSICOLOGIA-OSCURA-Aprende-Como-Analizar-e-Influir-en-Las-Personas-PNL-Lenguaje-Corporal-y-Tecnicas-Usadas-Por-El-Maes.pdf",
       "coverImage": "assets/img/covers/cover_book_col-052.jpg"
     },
     {
@@ -1259,10 +1259,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 1021493,
       "sizeMb": 0.97,
-      "sizeFormatted": "1.0 MB",
+      "sizeFormatted": "997.6 KB",
       "timeEstimate": "~28 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/Manipulacion-El-santo-grial-de-la-Psicologia-Oscura-Aprender-a-influir-en-las-personas-gracias-al-Control-Mental-y-Emocional-Hipnosis-superficial.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/Manipulacion-El-santo-grial-de-la-Psicologia-Oscura-Aprender-a-influir-en-las-personas-gracias-al-Control-Mental-y-Emocional-Hipnosis-superficial.pdf",
+      "relativePath": "libros/manipulacion/Manipulacion-El-santo-grial-de-la-Psicologia-Oscura-Aprender-a-influir-en-las-personas-gracias-al-Control-Mental-y-Emocional-Hipnosis-superficial.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulacion-El-santo-grial-de-la-Psicologia-Oscura-Aprender-a-influir-en-las-personas-gracias-al-Control-Mental-y-Emocional-Hipnosis-superficial.pdf",
       "coverImage": "assets/img/covers/cover_book_col-053.jpg"
     },
     {
@@ -1281,10 +1281,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 722860,
       "sizeMb": 0.69,
-      "sizeFormatted": "0.7 MB",
+      "sizeFormatted": "705.9 KB",
       "timeEstimate": "~20 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/Manipulacion-Psicologica-Aprende-a-Manipular-y-Influir-en-Los-Comportamientos-Humanos-Nuevas-Tecnicas-Para-Lavar-El-Cerebro-Usando-Hipnosis-PNL-y.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/Manipulacion-Psicologica-Aprende-a-Manipular-y-Influir-en-Los-Comportamientos-Humanos-Nuevas-Tecnicas-Para-Lavar-El-Cerebro-Usando-Hipnosis-PNL-y.pdf",
+      "relativePath": "libros/manipulacion/Manipulacion-Psicologica-Aprende-a-Manipular-y-Influir-en-Los-Comportamientos-Humanos-Nuevas-Tecnicas-Para-Lavar-El-Cerebro-Usando-Hipnosis-PNL-y.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulacion-Psicologica-Aprende-a-Manipular-y-Influir-en-Los-Comportamientos-Humanos-Nuevas-Tecnicas-Para-Lavar-El-Cerebro-Usando-Hipnosis-PNL-y.pdf",
       "coverImage": "assets/img/covers/cover_book_col-054.jpg"
     },
     {
@@ -1303,10 +1303,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 569598,
       "sizeMb": 0.54,
-      "sizeFormatted": "0.5 MB",
+      "sizeFormatted": "556.2 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/Manipulacion-Spanish-Edition-H-G-Tudor.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/Manipulacion-Spanish-Edition-H-G-Tudor.pdf",
+      "relativePath": "libros/manipulacion/Manipulacion-Spanish-Edition-H-G-Tudor.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulacion-Spanish-Edition-H-G-Tudor.pdf",
       "coverImage": "assets/img/covers/cover_book_col-055.jpg"
     },
     {
@@ -1327,8 +1327,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.45,
       "sizeFormatted": "1.4 MB",
       "timeEstimate": "~42 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/Manipulacion-Y-Psicologia-Oscur-Daniel-Long.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/Manipulacion-Y-Psicologia-Oscur-Daniel-Long.pdf",
+      "relativePath": "libros/manipulacion/Manipulacion-Y-Psicologia-Oscur-Daniel-Long.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulacion-Y-Psicologia-Oscur-Daniel-Long.pdf",
       "coverImage": "assets/img/covers/cover_book_col-056.jpg"
     },
     {
@@ -1347,10 +1347,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 580028,
       "sizeMb": 0.55,
-      "sizeFormatted": "0.6 MB",
+      "sizeFormatted": "566.4 KB",
       "timeEstimate": "~16 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/Manipulacion-afectiva-Belen-Vitelleschi.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/Manipulacion-afectiva-Belen-Vitelleschi.pdf",
+      "relativePath": "libros/manipulacion/Manipulacion-afectiva-Belen-Vitelleschi.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulacion-afectiva-Belen-Vitelleschi.pdf",
       "coverImage": "assets/img/covers/cover_book_col-057.jpg"
     },
     {
@@ -1371,8 +1371,8 @@ const COLECCION_DATA = {
       "sizeMb": 2.5,
       "sizeFormatted": "2.5 MB",
       "timeEstimate": "~73 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/Manipulacion-y-Psicologia-Oscura-Maria-Costanza-Calvio.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/Manipulacion-y-Psicologia-Oscura-Maria-Costanza-Calvio.pdf",
+      "relativePath": "libros/manipulacion/Manipulacion-y-Psicologia-Oscura-Maria-Costanza-Calvio.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulacion-y-Psicologia-Oscura-Maria-Costanza-Calvio.pdf",
       "coverImage": "assets/img/covers/cover_book_col-058.jpg"
     },
     {
@@ -1393,8 +1393,8 @@ const COLECCION_DATA = {
       "sizeMb": 2.91,
       "sizeFormatted": "2.9 MB",
       "timeEstimate": "~84 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/Manipulacion-y-Psicologia-Oscura-Una-Guia-Completa-para-Aprender-las-Tecnicas-Secretas-para-Influir-en-las-Personas-con-Persuasion-Engano-Control-M.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/Manipulacion-y-Psicologia-Oscura-Una-Guia-Completa-para-Aprender-las-Tecnicas-Secretas-para-Influir-en-las-Personas-con-Persuasion-Engano-Control-M.pdf",
+      "relativePath": "libros/manipulacion/Manipulacion-y-Psicologia-Oscura-Una-Guia-Completa-para-Aprender-las-Tecnicas-Secretas-para-Influir-en-las-Personas-con-Persuasion-Engano-Control-M.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulacion-y-Psicologia-Oscura-Una-Guia-Completa-para-Aprender-las-Tecnicas-Secretas-para-Influir-en-las-Personas-con-Persuasion-Engano-Control-M.pdf",
       "coverImage": "assets/img/covers/cover_book_col-059.jpg"
     },
     {
@@ -1415,8 +1415,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.03,
       "sizeFormatted": "1.0 MB",
       "timeEstimate": "~30 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/Manipulación y Psicologia-oscura.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/Manipulaci%C3%B3n%20y%20Psicologia-oscura.pdf",
+      "relativePath": "libros/manipulacion/Manipulación y Psicologia-oscura.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulaci%C3%B3n%20y%20Psicologia-oscura.pdf",
       "coverImage": "assets/img/covers/cover_book_col-060.jpg"
     },
     {
@@ -1437,8 +1437,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.4,
       "sizeFormatted": "1.4 MB",
       "timeEstimate": "~41 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/Manual-de-Manipulacion.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/Manual-de-Manipulacion.pdf",
+      "relativePath": "libros/manipulacion/Manual-de-Manipulacion.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manual-de-Manipulacion.pdf",
       "coverImage": "assets/img/covers/cover_book_col-061.jpg"
     },
     {
@@ -1457,10 +1457,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 808997,
       "sizeMb": 0.77,
-      "sizeFormatted": "0.8 MB",
+      "sizeFormatted": "790.0 KB",
       "timeEstimate": "~22 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/PNL Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/PNL%20Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
+      "relativePath": "libros/manipulacion/PNL Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/PNL%20Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
       "coverImage": "assets/img/covers/cover_book_col-062.jpg"
     },
     {
@@ -1479,10 +1479,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 642578,
       "sizeMb": 0.61,
-      "sizeFormatted": "0.6 MB",
+      "sizeFormatted": "627.5 KB",
       "timeEstimate": "~17 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🧠MANIPULACION🧠/Psicologia-Oscura-Manipulacion-Emocional.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%A7%A0MANIPULACION%F0%9F%A7%A0/Psicologia-Oscura-Manipulacion-Emocional.pdf",
+      "relativePath": "libros/manipulacion/Psicologia-Oscura-Manipulacion-Emocional.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Psicologia-Oscura-Manipulacion-Emocional.pdf",
       "coverImage": "assets/img/covers/cover_book_col-063.jpg"
     },
     {
@@ -1503,8 +1503,8 @@ const COLECCION_DATA = {
       "sizeMb": 12.01,
       "sizeFormatted": "12.0 MB",
       "timeEstimate": "~351 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/47-las-mejores-tecnicas-de-persuasion.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/47-las-mejores-tecnicas-de-persuasion.pdf",
+      "relativePath": "libros/persuasion/47-las-mejores-tecnicas-de-persuasion.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/47-las-mejores-tecnicas-de-persuasion.pdf",
       "coverImage": "assets/img/covers/cover_book_col-064.jpg"
     },
     {
@@ -1523,10 +1523,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 394809,
       "sizeMb": 0.38,
-      "sizeFormatted": "0.4 MB",
+      "sizeFormatted": "385.6 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/5. LIBRO NEGRO DE LA PERSUASIÓN .pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/5.%20LIBRO%20NEGRO%20DE%20LA%20PERSUASI%C3%93N%20.pdf",
+      "relativePath": "libros/persuasion/5. LIBRO NEGRO DE LA PERSUASIÓN .pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/5.%20LIBRO%20NEGRO%20DE%20LA%20PERSUASI%C3%93N%20.pdf",
       "coverImage": "assets/img/covers/cover_book_col-065.jpg"
     },
     {
@@ -1547,8 +1547,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.05,
       "sizeFormatted": "1.1 MB",
       "timeEstimate": "~30 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/Comunicacion-Persuasiva-3-Libr-Hayden-j-Power.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/Comunicacion-Persuasiva-3-Libr-Hayden-j-Power.pdf",
+      "relativePath": "libros/persuasion/Comunicacion-Persuasiva-3-Libr-Hayden-j-Power.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Comunicacion-Persuasiva-3-Libr-Hayden-j-Power.pdf",
       "coverImage": "assets/img/covers/cover_book_col-066.jpg"
     },
     {
@@ -1569,8 +1569,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.2,
       "sizeFormatted": "1.2 MB",
       "timeEstimate": "~35 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/Empaticos-y-Narcisistas-Guia-de-Supervivencia-Para.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/Empaticos-y-Narcisistas-Guia-de-Supervivencia-Para.pdf",
+      "relativePath": "libros/persuasion/Empaticos-y-Narcisistas-Guia-de-Supervivencia-Para.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Empaticos-y-Narcisistas-Guia-de-Supervivencia-Para.pdf",
       "coverImage": "assets/img/covers/cover_book_col-067.jpg"
     },
     {
@@ -1591,8 +1591,8 @@ const COLECCION_DATA = {
       "sizeMb": 2.86,
       "sizeFormatted": "2.9 MB",
       "timeEstimate": "~83 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/La-Magia-de-La-Persuasion-Pamela-Jean-Zetina.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/La-Magia-de-La-Persuasion-Pamela-Jean-Zetina.pdf",
+      "relativePath": "libros/persuasion/La-Magia-de-La-Persuasion-Pamela-Jean-Zetina.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/La-Magia-de-La-Persuasion-Pamela-Jean-Zetina.pdf",
       "coverImage": "assets/img/covers/cover_book_col-068.jpg"
     },
     {
@@ -1613,8 +1613,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.52,
       "sizeFormatted": "1.5 MB",
       "timeEstimate": "~44 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/La-Persuasion.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/La-Persuasion.pdf",
+      "relativePath": "libros/persuasion/La-Persuasion.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/La-Persuasion.pdf",
       "coverImage": "assets/img/covers/cover_book_col-069.jpg"
     },
     {
@@ -1633,10 +1633,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 441791,
       "sizeMb": 0.42,
-      "sizeFormatted": "0.4 MB",
+      "sizeFormatted": "431.4 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/Maestro-de-la-Persuasion-Mateo-Holm.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/Maestro-de-la-Persuasion-Mateo-Holm.pdf",
+      "relativePath": "libros/persuasion/Maestro-de-la-Persuasion-Mateo-Holm.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Maestro-de-la-Persuasion-Mateo-Holm.pdf",
       "coverImage": "assets/img/covers/cover_book_col-070.jpg"
     },
     {
@@ -1655,10 +1655,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 808997,
       "sizeMb": 0.77,
-      "sizeFormatted": "0.8 MB",
+      "sizeFormatted": "790.0 KB",
       "timeEstimate": "~22 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/PNL-Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/PNL-Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
+      "relativePath": "libros/persuasion/PNL-Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/PNL-Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
       "coverImage": "assets/img/covers/cover_book_col-071.jpg"
     },
     {
@@ -1679,8 +1679,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.21,
       "sizeFormatted": "1.2 MB",
       "timeEstimate": "~35 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/Persuasion de Psicologia-Oscura-e-Inteligencia-Emocional-Descubre-como-detectar-la-manipulacion-emocional-y-aprende-tecnicas-para-persuadir-y-analizar-a-las-person.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/Persuasion%20de%20Psicologia-Oscura-e-Inteligencia-Emocional-Descubre-como-detectar-la-manipulacion-emocional-y-aprende-tecnicas-para-persuadir-y-analizar-a-las-person.pdf",
+      "relativePath": "libros/persuasion/Persuasion de Psicologia-Oscura-e-Inteligencia-Emocional-Descubre-como-detectar-la-manipulacion-emocional-y-aprende-tecnicas-para-persuadir-y-analizar-a-las-person.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Persuasion%20de%20Psicologia-Oscura-e-Inteligencia-Emocional-Descubre-como-detectar-la-manipulacion-emocional-y-aprende-tecnicas-para-persuadir-y-analizar-a-las-person.pdf",
       "coverImage": "assets/img/covers/cover_book_col-072.jpg"
     },
     {
@@ -1701,8 +1701,8 @@ const COLECCION_DATA = {
       "sizeMb": 7.45,
       "sizeFormatted": "7.4 MB",
       "timeEstimate": "~217 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/Persuasion-Jane-Austen.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/Persuasion-Jane-Austen.pdf",
+      "relativePath": "libros/persuasion/Persuasion-Jane-Austen.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Persuasion-Jane-Austen.pdf",
       "coverImage": "assets/img/covers/cover_book_col-073.jpg"
     },
     {
@@ -1721,10 +1721,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 202229,
       "sizeMb": 0.19,
-      "sizeFormatted": "0.2 MB",
+      "sizeFormatted": "197.5 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/Persuasion-Positiva.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/Persuasion-Positiva.pdf",
+      "relativePath": "libros/persuasion/Persuasion-Positiva.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Persuasion-Positiva.pdf",
       "coverImage": "assets/img/covers/cover_book_col-074.jpg"
     },
     {
@@ -1743,10 +1743,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 1011395,
       "sizeMb": 0.96,
-      "sizeFormatted": "1.0 MB",
+      "sizeFormatted": "987.7 KB",
       "timeEstimate": "~28 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/Persuasion-Psicologia-Oscura-Tecnicas-Secretas-Para-Influenciar-en-Las-Personas-Usando-El-Control-Mental-La-Manipulacion-y-El-Engano-Spanish-Edit.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/Persuasion-Psicologia-Oscura-Tecnicas-Secretas-Para-Influenciar-en-Las-Personas-Usando-El-Control-Mental-La-Manipulacion-y-El-Engano-Spanish-Edit.pdf",
+      "relativePath": "libros/persuasion/Persuasion-Psicologia-Oscura-Tecnicas-Secretas-Para-Influenciar-en-Las-Personas-Usando-El-Control-Mental-La-Manipulacion-y-El-Engano-Spanish-Edit.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Persuasion-Psicologia-Oscura-Tecnicas-Secretas-Para-Influenciar-en-Las-Personas-Usando-El-Control-Mental-La-Manipulacion-y-El-Engano-Spanish-Edit.pdf",
       "coverImage": "assets/img/covers/cover_book_col-075.jpg"
     },
     {
@@ -1765,10 +1765,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 680042,
       "sizeMb": 0.65,
-      "sizeFormatted": "0.6 MB",
+      "sizeFormatted": "664.1 KB",
       "timeEstimate": "~18 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/Persuasion-y-Manipulacion-Como-Convencer-a-La-Gente-Influenciar-Su-Decisiones-y-Defenderse-de-Los-Manipuladores-Psicologia-Oscura-Spanish-Edition.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/Persuasion-y-Manipulacion-Como-Convencer-a-La-Gente-Influenciar-Su-Decisiones-y-Defenderse-de-Los-Manipuladores-Psicologia-Oscura-Spanish-Edition.pdf",
+      "relativePath": "libros/persuasion/Persuasion-y-Manipulacion-Como-Convencer-a-La-Gente-Influenciar-Su-Decisiones-y-Defenderse-de-Los-Manipuladores-Psicologia-Oscura-Spanish-Edition.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Persuasion-y-Manipulacion-Como-Convencer-a-La-Gente-Influenciar-Su-Decisiones-y-Defenderse-de-Los-Manipuladores-Psicologia-Oscura-Spanish-Edition.pdf",
       "coverImage": "assets/img/covers/cover_book_col-076.jpg"
     },
     {
@@ -1787,10 +1787,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 370033,
       "sizeMb": 0.35,
-      "sizeFormatted": "0.4 MB",
+      "sizeFormatted": "361.4 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/Persuasion.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/Persuasion.pdf",
+      "relativePath": "libros/persuasion/Persuasion.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Persuasion.pdf",
       "coverImage": "assets/img/covers/cover_book_col-077.jpg"
     },
     {
@@ -1811,8 +1811,8 @@ const COLECCION_DATA = {
       "sizeMb": 2.64,
       "sizeFormatted": "2.6 MB",
       "timeEstimate": "~77 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/Psicologia-de-La-Persuasion.pptx",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/Psicologia-de-La-Persuasion.pptx",
+      "relativePath": "libros/persuasion/Psicologia-de-La-Persuasion.pptx",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Psicologia-de-La-Persuasion.pptx",
       "coverImage": "assets/img/covers/cover_book_col-078.jpg"
     },
     {
@@ -1833,8 +1833,8 @@ const COLECCION_DATA = {
       "sizeMb": 13.51,
       "sizeFormatted": "13.5 MB",
       "timeEstimate": "~395 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🗣Persuasion🗣/Tecnicas-de-persuacion.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%97%A3Persuasion%F0%9F%97%A3/Tecnicas-de-persuacion.pdf",
+      "relativePath": "libros/persuasion/Tecnicas-de-persuacion.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Tecnicas-de-persuacion.pdf",
       "coverImage": "assets/img/covers/cover_book_col-079.jpg"
     },
     {
@@ -1855,8 +1855,8 @@ const COLECCION_DATA = {
       "sizeMb": 11.89,
       "sizeFormatted": "11.9 MB",
       "timeEstimate": "~347 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/👀 Lenguaje Corporal👀/100-Tips-de-Lenguaje-Corporal.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%91%80%20Lenguaje%20Corporal%F0%9F%91%80/100-Tips-de-Lenguaje-Corporal.pdf",
+      "relativePath": "libros/lenguaje_corporal/100-Tips-de-Lenguaje-Corporal.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/100-Tips-de-Lenguaje-Corporal.pdf",
       "coverImage": "assets/img/covers/cover_book_col-080.jpg"
     },
     {
@@ -1875,10 +1875,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 987240,
       "sizeMb": 0.94,
-      "sizeFormatted": "0.9 MB",
+      "sizeFormatted": "964.1 KB",
       "timeEstimate": "~27 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/👀 Lenguaje Corporal👀/9. LENGUAJE CORPORAL 40 DÍAS .pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%91%80%20Lenguaje%20Corporal%F0%9F%91%80/9.%20LENGUAJE%20CORPORAL%2040%20D%C3%8DAS%20.pdf",
+      "relativePath": "libros/lenguaje_corporal/9. LENGUAJE CORPORAL 40 DÍAS .pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/9.%20LENGUAJE%20CORPORAL%2040%20D%C3%8DAS%20.pdf",
       "coverImage": "assets/img/covers/cover_book_col-081.jpg"
     },
     {
@@ -1897,10 +1897,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 822476,
       "sizeMb": 0.78,
-      "sizeFormatted": "0.8 MB",
+      "sizeFormatted": "803.2 KB",
       "timeEstimate": "~22 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/👀 Lenguaje Corporal👀/Aprende-Con-El-Lenguaje-Corporal-Analizar-a-Las-Personas-Editado3.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%91%80%20Lenguaje%20Corporal%F0%9F%91%80/Aprende-Con-El-Lenguaje-Corporal-Analizar-a-Las-Personas-Editado3.pdf",
+      "relativePath": "libros/lenguaje_corporal/Aprende-Con-El-Lenguaje-Corporal-Analizar-a-Las-Personas-Editado3.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Aprende-Con-El-Lenguaje-Corporal-Analizar-a-Las-Personas-Editado3.pdf",
       "coverImage": "assets/img/covers/cover_book_col-082.jpg"
     },
     {
@@ -1919,10 +1919,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 1033046,
       "sizeMb": 0.99,
-      "sizeFormatted": "1.0 MB",
+      "sizeFormatted": "1008.8 KB",
       "timeEstimate": "~28 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/👀 Lenguaje Corporal👀/Como Conocer A Las Personas Por Su Lenguaje Corporal - Leonardo Ferrari.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%91%80%20Lenguaje%20Corporal%F0%9F%91%80/Como%20Conocer%20A%20Las%20Personas%20Por%20Su%20Lenguaje%20Corporal%20-%20Leonardo%20Ferrari.pdf",
+      "relativePath": "libros/lenguaje_corporal/Como Conocer A Las Personas Por Su Lenguaje Corporal - Leonardo Ferrari.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Como%20Conocer%20A%20Las%20Personas%20Por%20Su%20Lenguaje%20Corporal%20-%20Leonardo%20Ferrari.pdf",
       "coverImage": "assets/img/covers/cover_book_col-083.jpg"
     },
     {
@@ -1943,8 +1943,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.22,
       "sizeFormatted": "1.2 MB",
       "timeEstimate": "~35 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/👀 Lenguaje Corporal👀/Domina tu lenguaje corporal_ La - 50Minutos.es.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%91%80%20Lenguaje%20Corporal%F0%9F%91%80/Domina%20tu%20lenguaje%20corporal_%20La%20-%2050Minutos.es.pdf",
+      "relativePath": "libros/lenguaje_corporal/Domina tu lenguaje corporal_ La - 50Minutos.es.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Domina%20tu%20lenguaje%20corporal_%20La%20-%2050Minutos.es.pdf",
       "coverImage": "assets/img/covers/cover_book_col-084.jpg"
     },
     {
@@ -1963,10 +1963,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 1035519,
       "sizeMb": 0.99,
-      "sizeFormatted": "1.0 MB",
+      "sizeFormatted": "1011.2 KB",
       "timeEstimate": "~28 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/👀 Lenguaje Corporal👀/El-Lenguaje-Corporal-NO-Miente-Mateo-Holm.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%91%80%20Lenguaje%20Corporal%F0%9F%91%80/El-Lenguaje-Corporal-NO-Miente-Mateo-Holm.pdf",
+      "relativePath": "libros/lenguaje_corporal/El-Lenguaje-Corporal-NO-Miente-Mateo-Holm.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/El-Lenguaje-Corporal-NO-Miente-Mateo-Holm.pdf",
       "coverImage": "assets/img/covers/cover_book_col-085.jpg"
     },
     {
@@ -1987,8 +1987,8 @@ const COLECCION_DATA = {
       "sizeMb": 3.83,
       "sizeFormatted": "3.8 MB",
       "timeEstimate": "~112 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/👀 Lenguaje Corporal👀/El-Lenguaje-Del-Cuerpo-Revela-Mas-Que-Las-Palabras.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%91%80%20Lenguaje%20Corporal%F0%9F%91%80/El-Lenguaje-Del-Cuerpo-Revela-Mas-Que-Las-Palabras.pdf",
+      "relativePath": "libros/lenguaje_corporal/El-Lenguaje-Del-Cuerpo-Revela-Mas-Que-Las-Palabras.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/El-Lenguaje-Del-Cuerpo-Revela-Mas-Que-Las-Palabras.pdf",
       "coverImage": "assets/img/covers/cover_book_col-086.jpg"
     },
     {
@@ -2009,8 +2009,8 @@ const COLECCION_DATA = {
       "sizeMb": 4.73,
       "sizeFormatted": "4.7 MB",
       "timeEstimate": "~138 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/👀 Lenguaje Corporal👀/El_lenguaje_del_cuerpo.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%91%80%20Lenguaje%20Corporal%F0%9F%91%80/El_lenguaje_del_cuerpo.pdf",
+      "relativePath": "libros/lenguaje_corporal/El_lenguaje_del_cuerpo.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/El_lenguaje_del_cuerpo.pdf",
       "coverImage": "assets/img/covers/cover_book_col-087.jpg"
     },
     {
@@ -2029,10 +2029,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 547682,
       "sizeMb": 0.52,
-      "sizeFormatted": "0.5 MB",
+      "sizeFormatted": "534.8 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/👀 Lenguaje Corporal👀/Lenguaje-Corporal.docx",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%91%80%20Lenguaje%20Corporal%F0%9F%91%80/Lenguaje-Corporal.docx",
+      "relativePath": "libros/lenguaje_corporal/Lenguaje-Corporal.docx",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Lenguaje-Corporal.docx",
       "coverImage": "assets/img/covers/cover_book_col-088.jpg"
     },
     {
@@ -2053,8 +2053,8 @@ const COLECCION_DATA = {
       "sizeMb": 9.74,
       "sizeFormatted": "9.7 MB",
       "timeEstimate": "~285 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/👀 Lenguaje Corporal👀/Lenguaje-Corporal.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%91%80%20Lenguaje%20Corporal%F0%9F%91%80/Lenguaje-Corporal.pdf",
+      "relativePath": "libros/lenguaje_corporal/Lenguaje-Corporal.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Lenguaje-Corporal.pdf",
       "coverImage": "assets/img/covers/cover_book_col-089.jpg"
     },
     {
@@ -2075,8 +2075,8 @@ const COLECCION_DATA = {
       "sizeMb": 17.38,
       "sizeFormatted": "17.4 MB",
       "timeEstimate": "~508 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/👀 Lenguaje Corporal👀/Lenguaje-corporal-poderoso.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%91%80%20Lenguaje%20Corporal%F0%9F%91%80/Lenguaje-corporal-poderoso.pdf",
+      "relativePath": "libros/lenguaje_corporal/Lenguaje-corporal-poderoso.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Lenguaje-corporal-poderoso.pdf",
       "coverImage": "assets/img/covers/cover_book_col-090.jpg"
     },
     {
@@ -2095,10 +2095,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 412954,
       "sizeMb": 0.39,
-      "sizeFormatted": "0.4 MB",
+      "sizeFormatted": "403.3 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/👀 Lenguaje Corporal👀/Los-Secretos-Del-Lenguaje-Corporal.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%91%80%20Lenguaje%20Corporal%F0%9F%91%80/Los-Secretos-Del-Lenguaje-Corporal.pdf",
+      "relativePath": "libros/lenguaje_corporal/Los-Secretos-Del-Lenguaje-Corporal.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Los-Secretos-Del-Lenguaje-Corporal.pdf",
       "coverImage": "assets/img/covers/cover_book_col-091.jpg"
     },
     {
@@ -2119,8 +2119,8 @@ const COLECCION_DATA = {
       "sizeMb": 23.92,
       "sizeFormatted": "23.9 MB",
       "timeEstimate": "~699 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/👀 Lenguaje Corporal👀/MANUAL-LENGUAJE-CORPORAL-1.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%91%80%20Lenguaje%20Corporal%F0%9F%91%80/MANUAL-LENGUAJE-CORPORAL-1.pdf",
+      "relativePath": "libros/lenguaje_corporal/MANUAL-LENGUAJE-CORPORAL-1.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/MANUAL-LENGUAJE-CORPORAL-1.pdf",
       "coverImage": "assets/img/covers/cover_book_col-092.jpg"
     },
     {
@@ -2141,8 +2141,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.82,
       "sizeFormatted": "1.8 MB",
       "timeEstimate": "~53 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/👀 Lenguaje Corporal👀/Manual-de-Lenguaje-Corporal.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%91%80%20Lenguaje%20Corporal%F0%9F%91%80/Manual-de-Lenguaje-Corporal.pdf",
+      "relativePath": "libros/lenguaje_corporal/Manual-de-Lenguaje-Corporal.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Manual-de-Lenguaje-Corporal.pdf",
       "coverImage": "assets/img/covers/cover_book_col-093.jpg"
     },
     {
@@ -2163,8 +2163,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.08,
       "sizeFormatted": "1.1 MB",
       "timeEstimate": "~31 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🔍Analizar a las personas🔍/COMO-ANALIZAR-A-LA-GENTE-Una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-tipos-de-personalidad-engano-empatico-compor.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%94%8DAnalizar%20a%20las%20personas%F0%9F%94%8D/COMO-ANALIZAR-A-LA-GENTE-Una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-tipos-de-personalidad-engano-empatico-compor.pdf",
+      "relativePath": "libros/analizar_personas/COMO-ANALIZAR-A-LA-GENTE-Una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-tipos-de-personalidad-engano-empatico-compor.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/analizar_personas/COMO-ANALIZAR-A-LA-GENTE-Una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-tipos-de-personalidad-engano-empatico-compor.pdf",
       "coverImage": "assets/img/covers/cover_book_col-094.jpg"
     },
     {
@@ -2183,10 +2183,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 963611,
       "sizeMb": 0.92,
-      "sizeFormatted": "0.9 MB",
+      "sizeFormatted": "941.0 KB",
       "timeEstimate": "~26 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🔍Analizar a las personas🔍/COMO-ANALIZAR-A-LAS-PERSONAS-CON-PSICOLOGIA-OSCURA-Una-Guia-Rapida-para-Leer-Tipos-de-Personalidad-Humana-Mediante-el-Analisis-del-Lenguaje-Corporal.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%94%8DAnalizar%20a%20las%20personas%F0%9F%94%8D/COMO-ANALIZAR-A-LAS-PERSONAS-CON-PSICOLOGIA-OSCURA-Una-Guia-Rapida-para-Leer-Tipos-de-Personalidad-Humana-Mediante-el-Analisis-del-Lenguaje-Corporal.pdf",
+      "relativePath": "libros/analizar_personas/COMO-ANALIZAR-A-LAS-PERSONAS-CON-PSICOLOGIA-OSCURA-Una-Guia-Rapida-para-Leer-Tipos-de-Personalidad-Humana-Mediante-el-Analisis-del-Lenguaje-Corporal.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/analizar_personas/COMO-ANALIZAR-A-LAS-PERSONAS-CON-PSICOLOGIA-OSCURA-Una-Guia-Rapida-para-Leer-Tipos-de-Personalidad-Humana-Mediante-el-Analisis-del-Lenguaje-Corporal.pdf",
       "coverImage": "assets/img/covers/cover_book_col-095.jpg"
     },
     {
@@ -2207,8 +2207,8 @@ const COLECCION_DATA = {
       "sizeMb": 2.1,
       "sizeFormatted": "2.1 MB",
       "timeEstimate": "~61 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🔍Analizar a las personas🔍/COMO-ANALIZAR-A-LAS-PERSONAS-ROBERT-LEARY.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%94%8DAnalizar%20a%20las%20personas%F0%9F%94%8D/COMO-ANALIZAR-A-LAS-PERSONAS-ROBERT-LEARY.pdf",
+      "relativePath": "libros/analizar_personas/COMO-ANALIZAR-A-LAS-PERSONAS-ROBERT-LEARY.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/analizar_personas/COMO-ANALIZAR-A-LAS-PERSONAS-ROBERT-LEARY.pdf",
       "coverImage": "assets/img/covers/cover_book_col-096.jpg"
     },
     {
@@ -2227,10 +2227,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 718047,
       "sizeMb": 0.68,
-      "sizeFormatted": "0.7 MB",
+      "sizeFormatted": "701.2 KB",
       "timeEstimate": "~20 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🔍Analizar a las personas🔍/Como-Analizar-A-Las-Personas-Una-Guia-Para-Acelerar-La-Lectura-De-Las-Personas-A-Traves-De-La-Psicologia-Del-Comportamiento-Humano-Aprende-A-Leer-El.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%94%8DAnalizar%20a%20las%20personas%F0%9F%94%8D/Como-Analizar-A-Las-Personas-Una-Guia-Para-Acelerar-La-Lectura-De-Las-Personas-A-Traves-De-La-Psicologia-Del-Comportamiento-Humano-Aprende-A-Leer-El.pdf",
+      "relativePath": "libros/analizar_personas/Como-Analizar-A-Las-Personas-Una-Guia-Para-Acelerar-La-Lectura-De-Las-Personas-A-Traves-De-La-Psicologia-Del-Comportamiento-Humano-Aprende-A-Leer-El.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/analizar_personas/Como-Analizar-A-Las-Personas-Una-Guia-Para-Acelerar-La-Lectura-De-Las-Personas-A-Traves-De-La-Psicologia-Del-Comportamiento-Humano-Aprende-A-Leer-El.pdf",
       "coverImage": "assets/img/covers/cover_book_col-097.jpg"
     },
     {
@@ -2249,10 +2249,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 293938,
       "sizeMb": 0.28,
-      "sizeFormatted": "0.3 MB",
+      "sizeFormatted": "287.0 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🔍Analizar a las personas🔍/como-analizar-a-las-personas-psicologia-oscura-tecnicas-secretas-para-analizar-e-influenciar-a-cualquiera-utilizando-el-lenguaje-corporal-la-psico.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%94%8DAnalizar%20a%20las%20personas%F0%9F%94%8D/como-analizar-a-las-personas-psicologia-oscura-tecnicas-secretas-para-analizar-e-influenciar-a-cualquiera-utilizando-el-lenguaje-corporal-la-psico.pdf",
+      "relativePath": "libros/analizar_personas/como-analizar-a-las-personas-psicologia-oscura-tecnicas-secretas-para-analizar-e-influenciar-a-cualquiera-utilizando-el-lenguaje-corporal-la-psico.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/analizar_personas/como-analizar-a-las-personas-psicologia-oscura-tecnicas-secretas-para-analizar-e-influenciar-a-cualquiera-utilizando-el-lenguaje-corporal-la-psico.pdf",
       "coverImage": "assets/img/covers/cover_book_col-098.jpg"
     },
     {
@@ -2273,8 +2273,8 @@ const COLECCION_DATA = {
       "sizeMb": 12.75,
       "sizeFormatted": "12.8 MB",
       "timeEstimate": "~373 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🕵‍♂Psicologia Maquiavelica🕵‍♂/El_príncipe_de_maquiavelo.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%95%B5%E2%80%8D%E2%99%82Psicologia%20Maquiavelica%F0%9F%95%B5%E2%80%8D%E2%99%82/El_pr%C3%ADncipe_de_maquiavelo.pdf",
+      "relativePath": "libros/maquiavelo/El_príncipe_de_maquiavelo.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/maquiavelo/El_pr%C3%ADncipe_de_maquiavelo.pdf",
       "coverImage": "assets/img/covers/cover_book_col-099.jpg"
     },
     {
@@ -2293,10 +2293,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 104986,
       "sizeMb": 0.1,
-      "sizeFormatted": "0.1 MB",
+      "sizeFormatted": "102.5 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🕵‍♂Psicologia Maquiavelica🕵‍♂/Psicologia del masoquismo.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%95%B5%E2%80%8D%E2%99%82Psicologia%20Maquiavelica%F0%9F%95%B5%E2%80%8D%E2%99%82/Psicologia%20del%20masoquismo.pdf",
+      "relativePath": "libros/maquiavelo/Psicologia del masoquismo.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/maquiavelo/Psicologia%20del%20masoquismo.pdf",
       "coverImage": "assets/img/covers/cover_book_col-100.jpg"
     },
     {
@@ -2315,10 +2315,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 758850,
       "sizeMb": 0.72,
-      "sizeFormatted": "0.7 MB",
+      "sizeFormatted": "741.1 KB",
       "timeEstimate": "~21 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🕵‍♂Psicologia Maquiavelica🕵‍♂/Psicologia-Maquiavelica.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%95%B5%E2%80%8D%E2%99%82Psicologia%20Maquiavelica%F0%9F%95%B5%E2%80%8D%E2%99%82/Psicologia-Maquiavelica.pdf",
+      "relativePath": "libros/maquiavelo/Psicologia-Maquiavelica.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/maquiavelo/Psicologia-Maquiavelica.pdf",
       "coverImage": "assets/img/covers/cover_book_col-101.jpg"
     },
     {
@@ -2337,10 +2337,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 677528,
       "sizeMb": 0.65,
-      "sizeFormatted": "0.6 MB",
+      "sizeFormatted": "661.6 KB",
       "timeEstimate": "~18 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🕵‍♂Psicologia Maquiavelica🕵‍♂/Psicologia-maquiavelica-Teoria-y-tecnicas-de-psicologia-oscura-manipulacion-pdf.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%95%B5%E2%80%8D%E2%99%82Psicologia%20Maquiavelica%F0%9F%95%B5%E2%80%8D%E2%99%82/Psicologia-maquiavelica-Teoria-y-tecnicas-de-psicologia-oscura-manipulacion-pdf.pdf",
+      "relativePath": "libros/maquiavelo/Psicologia-maquiavelica-Teoria-y-tecnicas-de-psicologia-oscura-manipulacion-pdf.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/maquiavelo/Psicologia-maquiavelica-Teoria-y-tecnicas-de-psicologia-oscura-manipulacion-pdf.pdf",
       "coverImage": "assets/img/covers/cover_book_col-102.jpg"
     },
     {
@@ -2361,8 +2361,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.33,
       "sizeFormatted": "1.3 MB",
       "timeEstimate": "~38 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎁BONOS🎁/COMUNICACION-PERSUASIVA-3-libros-en-1-Persuasion-Manipulacion-Lenguaje-Corporal-Comunicacion-Efectiva-para-controlar-instantaneamente-cualquie.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%81BONOS%F0%9F%8E%81/COMUNICACION-PERSUASIVA-3-libros-en-1-Persuasion-Manipulacion-Lenguaje-Corporal-Comunicacion-Efectiva-para-controlar-instantaneamente-cualquie.pdf",
+      "relativePath": "libros/bonos/COMUNICACION-PERSUASIVA-3-libros-en-1-Persuasion-Manipulacion-Lenguaje-Corporal-Comunicacion-Efectiva-para-controlar-instantaneamente-cualquie.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/bonos/COMUNICACION-PERSUASIVA-3-libros-en-1-Persuasion-Manipulacion-Lenguaje-Corporal-Comunicacion-Efectiva-para-controlar-instantaneamente-cualquie.pdf",
       "coverImage": "assets/img/covers/cover_book_col-103.jpg"
     },
     {
@@ -2383,8 +2383,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.15,
       "sizeFormatted": "1.2 MB",
       "timeEstimate": "~33 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎁BONOS🎁/Como-Analizar-a-Las-Personas-4-Libros-en-1.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%81BONOS%F0%9F%8E%81/Como-Analizar-a-Las-Personas-4-Libros-en-1.pdf",
+      "relativePath": "libros/bonos/Como-Analizar-a-Las-Personas-4-Libros-en-1.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/bonos/Como-Analizar-a-Las-Personas-4-Libros-en-1.pdf",
       "coverImage": "assets/img/covers/cover_book_col-104.jpg"
     },
     {
@@ -2405,8 +2405,8 @@ const COLECCION_DATA = {
       "sizeMb": 3.26,
       "sizeFormatted": "3.3 MB",
       "timeEstimate": "~95 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎁BONOS🎁/El-ABC-de-La-Psicologia-Oscura.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%81BONOS%F0%9F%8E%81/El-ABC-de-La-Psicologia-Oscura.pdf",
+      "relativePath": "libros/bonos/El-ABC-de-La-Psicologia-Oscura.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/bonos/El-ABC-de-La-Psicologia-Oscura.pdf",
       "coverImage": "assets/img/covers/cover_book_col-105.jpg"
     },
     {
@@ -2427,8 +2427,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.71,
       "sizeFormatted": "1.7 MB",
       "timeEstimate": "~50 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎁BONOS🎁/MANIPULACION-MENTAL-Descubra-los-secretos-oscuros-de-la-psicologia-del-control-mental-para-analizar-influir-y-manipular-a-las-personas-con-tecnicas.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%81BONOS%F0%9F%8E%81/MANIPULACION-MENTAL-Descubra-los-secretos-oscuros-de-la-psicologia-del-control-mental-para-analizar-influir-y-manipular-a-las-personas-con-tecnicas.pdf",
+      "relativePath": "libros/bonos/MANIPULACION-MENTAL-Descubra-los-secretos-oscuros-de-la-psicologia-del-control-mental-para-analizar-influir-y-manipular-a-las-personas-con-tecnicas.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/bonos/MANIPULACION-MENTAL-Descubra-los-secretos-oscuros-de-la-psicologia-del-control-mental-para-analizar-influir-y-manipular-a-las-personas-con-tecnicas.pdf",
       "coverImage": "assets/img/covers/cover_book_col-106.jpg"
     },
     {
@@ -2449,8 +2449,8 @@ const COLECCION_DATA = {
       "sizeMb": 3.76,
       "sizeFormatted": "3.8 MB",
       "timeEstimate": "~110 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎁BONOS🎁/Psicologia-4-Manuales-en-1-Autodisciplina-Inteligencia-Emocional-Psicologia-Oscura-y-Manipulacion-Aprende-Las-Claves-Del-Goleman-Fabian.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%81BONOS%F0%9F%8E%81/Psicologia-4-Manuales-en-1-Autodisciplina-Inteligencia-Emocional-Psicologia-Oscura-y-Manipulacion-Aprende-Las-Claves-Del-Goleman-Fabian.pdf",
+      "relativePath": "libros/bonos/Psicologia-4-Manuales-en-1-Autodisciplina-Inteligencia-Emocional-Psicologia-Oscura-y-Manipulacion-Aprende-Las-Claves-Del-Goleman-Fabian.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/bonos/Psicologia-4-Manuales-en-1-Autodisciplina-Inteligencia-Emocional-Psicologia-Oscura-y-Manipulacion-Aprende-Las-Claves-Del-Goleman-Fabian.pdf",
       "coverImage": "assets/img/covers/cover_book_col-107.jpg"
     },
     {
@@ -2471,8 +2471,8 @@ const COLECCION_DATA = {
       "sizeMb": 9.94,
       "sizeFormatted": "9.9 MB",
       "timeEstimate": "~290 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎁BONOS🎁/Psicologia-Oscura-6-en-1.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%81BONOS%F0%9F%8E%81/Psicologia-Oscura-6-en-1.pdf",
+      "relativePath": "libros/bonos/Psicologia-Oscura-6-en-1.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/bonos/Psicologia-Oscura-6-en-1.pdf",
       "coverImage": "assets/img/covers/cover_book_col-108.jpg"
     },
     {
@@ -2493,8 +2493,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.46,
       "sizeFormatted": "1.5 MB",
       "timeEstimate": "~42 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎁BONOS🎁/Psicologia-oscura-Fabian-Goleman.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%81BONOS%F0%9F%8E%81/Psicologia-oscura-Fabian-Goleman.pdf",
+      "relativePath": "libros/bonos/Psicologia-oscura-Fabian-Goleman.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/bonos/Psicologia-oscura-Fabian-Goleman.pdf",
       "coverImage": "assets/img/covers/cover_book_col-109.jpg"
     },
     {
@@ -2513,10 +2513,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 493677,
       "sizeMb": 0.47,
-      "sizeFormatted": "0.5 MB",
+      "sizeFormatted": "482.1 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🌟EXTRAS🌟/Coleccion erotica_ cuentos que - Sonam Thapa.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8C%9FEXTRAS%F0%9F%8C%9F/Coleccion%20erotica_%20cuentos%20que%20-%20Sonam%20Thapa.pdf",
+      "relativePath": "libros/extras/Coleccion erotica_ cuentos que - Sonam Thapa.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/extras/Coleccion%20erotica_%20cuentos%20que%20-%20Sonam%20Thapa.pdf",
       "coverImage": "assets/img/covers/cover_book_col-110.jpg"
     },
     {
@@ -2535,10 +2535,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 176397,
       "sizeMb": 0.17,
-      "sizeFormatted": "0.2 MB",
+      "sizeFormatted": "172.3 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🌟EXTRAS🌟/Desbloquea-tu-mente-modulo-1-pdf.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8C%9FEXTRAS%F0%9F%8C%9F/Desbloquea-tu-mente-modulo-1-pdf.pdf",
+      "relativePath": "libros/extras/Desbloquea-tu-mente-modulo-1-pdf.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/extras/Desbloquea-tu-mente-modulo-1-pdf.pdf",
       "coverImage": "assets/img/covers/cover_book_col-111.jpg"
     },
     {
@@ -2557,10 +2557,10 @@ const COLECCION_DATA = {
       "type": "book",
       "sizeBytes": 552742,
       "sizeMb": 0.53,
-      "sizeFormatted": "0.5 MB",
+      "sizeFormatted": "539.8 KB",
       "timeEstimate": "~15 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🌟EXTRAS🌟/Diario de una ninfomana.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8C%9FEXTRAS%F0%9F%8C%9F/Diario%20de%20una%20ninfomana.pdf",
+      "relativePath": "libros/extras/Diario de una ninfomana.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/extras/Diario%20de%20una%20ninfomana.pdf",
       "coverImage": "assets/img/covers/cover_book_col-112.jpg"
     },
     {
@@ -2581,8 +2581,8 @@ const COLECCION_DATA = {
       "sizeMb": 1.25,
       "sizeFormatted": "1.2 MB",
       "timeEstimate": "~36 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🌟EXTRAS🌟/Psicologia-para-principiantes-Manipulacion-Lenguaje-Corporal-PNL.pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8C%9FEXTRAS%F0%9F%8C%9F/Psicologia-para-principiantes-Manipulacion-Lenguaje-Corporal-PNL.pdf",
+      "relativePath": "libros/extras/Psicologia-para-principiantes-Manipulacion-Lenguaje-Corporal-PNL.pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/extras/Psicologia-para-principiantes-Manipulacion-Lenguaje-Corporal-PNL.pdf",
       "coverImage": "assets/img/covers/cover_book_col-113.jpg"
     },
     {
@@ -2603,8 +2603,8 @@ const COLECCION_DATA = {
       "sizeMb": 2.14,
       "sizeFormatted": "2.1 MB",
       "timeEstimate": "~62 págs",
-      "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🌟EXTRAS🌟/desbloquea-tu-cerebro-libérate-del-comportamiento-obsesivo-compulsivo-jeffrey-schwartz (1).pdf",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8C%9FEXTRAS%F0%9F%8C%9F/desbloquea-tu-cerebro-lib%C3%A9rate-del-comportamiento-obsesivo-compulsivo-jeffrey-schwartz%20%281%29.pdf",
+      "relativePath": "libros/extras/desbloquea-tu-cerebro-libérate-del-comportamiento-obsesivo-compulsivo-jeffrey-schwartz (1).pdf",
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/extras/desbloquea-tu-cerebro-lib%C3%A9rate-del-comportamiento-obsesivo-compulsivo-jeffrey-schwartz%20%281%29.pdf",
       "coverImage": "assets/img/covers/cover_book_col-114.jpg"
     }
   ],
@@ -2628,7 +2628,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "103.6 MB",
       "timeEstimate": "1h 38m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Aprende_a_Manipular_Sin_Que_Nadie_Lo_Note_Técnicas_Psicológica.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Aprende_a_Manipular_Sin_Que_Nadie_Lo_Note_T%C3%A9cnicas_Psicol%C3%B3gica.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Aprende_a_Manipular_Sin_Que_Nadie_Lo_Note_T%C3%A9cnicas_Psicol%C3%B3gica.m4a"
     },
     {
       "id": "col-002",
@@ -2649,7 +2649,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "72.3 MB",
       "timeEstimate": "1h 8m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Aprende_a_leer_mentes_con_el_lenguaje_corpora_United_Audiobook.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Aprende_a_leer_mentes_con_el_lenguaje_corpora_United_Audiobook.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Aprende_a_leer_mentes_con_el_lenguaje_corpora_United_Audiobook.m4a"
     },
     {
       "id": "col-003",
@@ -2670,7 +2670,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "66.4 MB",
       "timeEstimate": "1h 3m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/CÓMO_ANALIZAR_A_LAS_PERSONAS_RJ_ANDERSON.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/C%C3%93MO_ANALIZAR_A_LAS_PERSONAS_RJ_ANDERSON.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/C%C3%93MO_ANALIZAR_A_LAS_PERSONAS_RJ_ANDERSON.m4a"
     },
     {
       "id": "col-004",
@@ -2691,7 +2691,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "128.9 MB",
       "timeEstimate": "2h 2m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Descubre_los_Secretos_de_la_Psicología_Oscura!_Aprende_a_Analiza.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Descubre_los_Secretos_de_la_Psicolog%C3%ADa_Oscura%21_Aprende_a_Analiza.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Descubre_los_Secretos_de_la_Psicolog%C3%ADa_Oscura%21_Aprende_a_Analiza.m4a"
     },
     {
       "id": "col-005",
@@ -2712,7 +2712,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "241.4 MB",
       "timeEstimate": "3h 49m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_El_Lenguaje_Corporal_Descubre_Cómo_Leer_A_Las_Personas_C.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Domina_El_Lenguaje_Corporal_Descubre_C%C3%B3mo_Leer_A_Las_Personas_C.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_El_Lenguaje_Corporal_Descubre_C%C3%B3mo_Leer_A_Las_Personas_C.m4a"
     },
     {
       "id": "col-006",
@@ -2733,7 +2733,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "135.0 MB",
       "timeEstimate": "2h 8m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_La_Psicología_Oscura_Aprende_A_Leer_Mentes_Y_Manipular_C.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Domina_La_Psicolog%C3%ADa_Oscura_Aprende_A_Leer_Mentes_Y_Manipular_C.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_La_Psicolog%C3%ADa_Oscura_Aprende_A_Leer_Mentes_Y_Manipular_C.m4a"
     },
     {
       "id": "col-007",
@@ -2754,7 +2754,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "117.1 MB",
       "timeEstimate": "1h 51m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_el_Lenguaje_Corporal_Descifra_los_Secretos_del_Comportam.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Domina_el_Lenguaje_Corporal_Descifra_los_Secretos_del_Comportam.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_el_Lenguaje_Corporal_Descifra_los_Secretos_del_Comportam.m4a"
     },
     {
       "id": "col-008",
@@ -2775,7 +2775,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "113.3 MB",
       "timeEstimate": "1h 47m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_el_lenguaje_corporal_y_la_psicología_oscura_en_tu_vida_di.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Domina_el_lenguaje_corporal_y_la_psicolog%C3%ADa_oscura_en_tu_vida_di.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_el_lenguaje_corporal_y_la_psicolog%C3%ADa_oscura_en_tu_vida_di.m4a"
     },
     {
       "id": "col-009",
@@ -2796,7 +2796,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "200.5 MB",
       "timeEstimate": "3h 10m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_la_Manipulación_El_audiolibro_sobre_Psicología_Oscura.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Domina_la_Manipulaci%C3%B3n_El_audiolibro_sobre_Psicolog%C3%ADa_Oscura.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_la_Manipulaci%C3%B3n_El_audiolibro_sobre_Psicolog%C3%ADa_Oscura.m4a"
     },
     {
       "id": "col-010",
@@ -2817,7 +2817,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "245.9 MB",
       "timeEstimate": "3h 54m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_la_Psicología_Oscura_Aprende_a_Detectar_y_Controlar_la_M.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Domina_la_Psicolog%C3%ADa_Oscura_Aprende_a_Detectar_y_Controlar_la_M.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_la_Psicolog%C3%ADa_Oscura_Aprende_a_Detectar_y_Controlar_la_M.m4a"
     },
     {
       "id": "col-011",
@@ -2838,7 +2838,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "239.0 MB",
       "timeEstimate": "3h 47m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/El Libro de Enoc (Audiolibro Completo)  Voz Real Humana.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/El%20Libro%20de%20Enoc%20%28Audiolibro%20Completo%29%20%20Voz%20Real%20Humana.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/El%20Libro%20de%20Enoc%20%28Audiolibro%20Completo%29%20%20Voz%20Real%20Humana.m4a"
     },
     {
       "id": "col-012",
@@ -2859,7 +2859,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "82.4 MB",
       "timeEstimate": "1h 18m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Inteligencia Emocional Terry Lindberg.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Inteligencia%20Emocional%20Terry%20Lindberg.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Inteligencia%20Emocional%20Terry%20Lindberg.m4a"
     },
     {
       "id": "col-013",
@@ -2880,7 +2880,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "104.9 MB",
       "timeEstimate": "1h 39m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/La_Psicología_de_la_Persuasión_El_audiolibro_sobre_Psicología.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/La_Psicolog%C3%ADa_de_la_Persuasi%C3%B3n_El_audiolibro_sobre_Psicolog%C3%ADa.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/La_Psicolog%C3%ADa_de_la_Persuasi%C3%B3n_El_audiolibro_sobre_Psicolog%C3%ADa.m4a"
     },
     {
       "id": "col-014",
@@ -2901,7 +2901,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "78.4 MB",
       "timeEstimate": "1h 14m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Lee a las Personas con facilidad - Audiolibro completo.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Lee%20a%20las%20Personas%20con%20facilidad%20-%20Audiolibro%20completo.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Lee%20a%20las%20Personas%20con%20facilidad%20-%20Audiolibro%20completo.m4a"
     },
     {
       "id": "col-015",
@@ -2922,7 +2922,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "174.1 MB",
       "timeEstimate": "2h 45m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Lo_Que_Nadie_Te_Dice_Sobre_Leer_a_Las_Personas_Descúbrelo_en_E.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Lo_Que_Nadie_Te_Dice_Sobre_Leer_a_Las_Personas_Desc%C3%BAbrelo_en_E.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Lo_Que_Nadie_Te_Dice_Sobre_Leer_a_Las_Personas_Desc%C3%BAbrelo_en_E.m4a"
     },
     {
       "id": "col-016",
@@ -2943,7 +2943,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "92.7 MB",
       "timeEstimate": "1h 28m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Los_Secretos_Oscuros_de_la_Mente_Aprende_a_Controlar_y_Protege.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Los_Secretos_Oscuros_de_la_Mente_Aprende_a_Controlar_y_Protege.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Los_Secretos_Oscuros_de_la_Mente_Aprende_a_Controlar_y_Protege.m4a"
     },
     {
       "id": "col-017",
@@ -2964,7 +2964,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "97.6 MB",
       "timeEstimate": "1h 32m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Manipulación al Descubierto - Tu audiolibro definitivo.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Manipulaci%C3%B3n%20al%20Descubierto%20-%20Tu%20audiolibro%20definitivo.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Manipulaci%C3%B3n%20al%20Descubierto%20-%20Tu%20audiolibro%20definitivo.m4a"
     },
     {
       "id": "col-018",
@@ -2985,7 +2985,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "287.7 MB",
       "timeEstimate": "4h 34m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/PSICOLOGÍA_OSCURA_TÉCNICAS_PROHIBIDAS_de_PERSUASIÓN,_MANIPULACION.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/PSICOLOG%C3%8DA_OSCURA_T%C3%89CNICAS_PROHIBIDAS_de_PERSUASI%C3%93N%2C_MANIPULACION.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/PSICOLOG%C3%8DA_OSCURA_T%C3%89CNICAS_PROHIBIDAS_de_PERSUASI%C3%93N%2C_MANIPULACION.m4a"
     },
     {
       "id": "col-019",
@@ -3006,7 +3006,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "346.4 MB",
       "timeEstimate": "5h 29m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/STEVEN TURNER - PSICOLOGÍA OSCURA .m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/STEVEN%20TURNER%20-%20PSICOLOG%C3%8DA%20OSCURA%20.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/STEVEN%20TURNER%20-%20PSICOLOG%C3%8DA%20OSCURA%20.m4a"
     },
     {
       "id": "col-020",
@@ -3027,7 +3027,7 @@ const COLECCION_DATA = {
       "sizeFormatted": "126.7 MB",
       "timeEstimate": "2h 0m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Secretos_para_Leer_a_las_Personas_Psicología_Oscura_y_Análisis.m4a",
-      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/Coleccion%20_Psicologia_Oscura_Audiolibros/%F0%9F%8E%A7Audiolibros%F0%9F%8E%A7/Secretos_para_Leer_a_las_Personas_Psicolog%C3%ADa_Oscura_y_An%C3%A1lisis.m4a"
+      "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Secretos_para_Leer_a_las_Personas_Psicolog%C3%ADa_Oscura_y_An%C3%A1lisis.m4a"
     },
     {
       "id": "col-021",
