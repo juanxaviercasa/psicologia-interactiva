@@ -254,14 +254,14 @@ const BibliotecaEngine = {
               <span>Leer Online</span>
             </button>
           ` : `
-            <a href="${book.encodedPath}" download="${book.filename}" class="flex-1 py-2 px-3 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-semibold flex items-center justify-center gap-1.5 transition-all">
-              <i class="fa-solid fa-arrow-down-to-bracket text-xs"></i>
+            <a href="${book.encodedPath}" download="${book.filename}" class="flex-1 py-2 px-3 rounded-xl bg-slate-800 border border-slate-600 hover:bg-slate-700 hover:border-cyan-500 text-slate-200 hover:text-cyan-300 text-xs font-semibold flex items-center justify-center gap-1.5 transition-all shadow-sm">
+              <i class="fa-solid fa-download text-sm"></i>
               <span>Descargar</span>
             </a>
           `}
 
-          <a href="${book.encodedPath}" download="${book.filename}" class="w-9 h-9 rounded-xl bg-slate-900 border border-slate-700 hover:border-slate-500 hover:bg-slate-800 flex items-center justify-center text-slate-400 hover:text-white transition-all" title="Descargar copia local (${book.sizeFormatted})">
-            <i class="fa-solid fa-download text-xs"></i>
+          <a href="${book.encodedPath}" download="${book.filename}" class="w-9 h-9 rounded-xl bg-slate-800 border border-slate-600 hover:border-cyan-500 hover:bg-slate-700 flex items-center justify-center text-slate-200 hover:text-cyan-300 transition-all shadow-sm" title="Descargar copia local (${book.sizeFormatted})">
+            <i class="fa-solid fa-download text-sm"></i>
           </a>
         </div>
       </div>

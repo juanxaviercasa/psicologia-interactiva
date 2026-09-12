@@ -75,16 +75,7 @@ const AudioPlayerEngine = {
 
     this.audio.addEventListener('error', (e) => {
       console.warn("Audio playback error:", e);
-      if (typeof Swal !== 'undefined') {
-        Swal.fire({
-          icon: 'info',
-          title: 'Reproducción Local',
-          text: 'Si abres la app desde un servidor local (http://localhost), el audio cargará con streaming instantáneo. También puedes descargar el archivo directamente.',
-          background: '#0F172A',
-          color: '#F8FAFC',
-          confirmButtonColor: '#06B6D4'
-        });
-      }
+      // Alert removed: 403/CORS errors trigger this unnecessarily.
     });
   },
 
@@ -603,8 +594,8 @@ const AudioPlayerEngine = {
             <h3 class="text-base font-bold text-white group-hover:text-cyan-300 transition-colors line-clamp-2 leading-snug min-h-[3rem]" title="${item.fullTitle || item.title}">
               ${item.title}
             </h3>
-            <p class="text-xs text-slate-400 mt-1.5 flex items-center gap-1.5 truncate">
-              <i class="fa-solid fa-pen-nib text-slate-500 text-[10px]"></i> ${item.author}
+            <p class="text-xs text-slate-300 mt-1.5 flex items-center gap-1.5 truncate">
+              <i class="fa-solid fa-pen-nib text-slate-400 text-[10px]"></i> ${item.author}
             </p>
 
             <!-- Metadatos (Peso y Formato) -->
@@ -631,8 +622,8 @@ const AudioPlayerEngine = {
               <span>${isCurrent && this.isPlaying ? 'Pausar' : 'Reproducir'}</span>
             </button>
 
-            <a href="${item.encodedPath}" download="${item.filename}" class="w-10 h-10 rounded-xl bg-slate-900 border border-slate-700 hover:border-slate-500 hover:bg-slate-800 flex items-center justify-center text-slate-400 hover:text-white transition-all" title="Descargar audiolibro (${item.sizeFormatted})">
-              <i class="fa-solid fa-arrow-down-to-bracket text-xs"></i>
+            <a href="${item.encodedPath}" download="${item.filename}" class="w-10 h-10 rounded-xl bg-slate-800 border border-slate-600 hover:border-cyan-500 hover:bg-slate-700 flex items-center justify-center text-slate-200 hover:text-cyan-300 transition-all shadow-sm" title="Descargar audiolibro (${item.sizeFormatted})">
+              <i class="fa-solid fa-download text-sm"></i>
             </a>
           </div>
         </div>
