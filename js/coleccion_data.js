@@ -540,7 +540,7 @@ const COLECCION_DATA = {
   ],
   "books": [
     {
-      "id": "2-psicolog-a-oscura---aprenda-los-usos-pr-cticos-y-las-defensas-dmanipulacion-la-influencia-emociona",
+      "id": "psicologia-oscura-aprenda-los-usos-pra-cticos-y-las-defensas-dmanipulacion-la-influencia-emocional-y",
       "filename": "Psicología oscura - Aprenda los usos prácticos y las defensas dmanipulacion, la influencia emocional y otras tecnicas secretas.pdf",
       "title": "Psicología Oscura: Usos Prácticos y Defensas",
       "fullTitle": "Psicología Oscura: Aprenda los Usos Prácticos y las Defensas de la Manipulación, la Influencia Emocional y Técnicas Secretas",
@@ -694,7 +694,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-027.jpg"
     },
     {
-      "id": "manipulacion-el-santo-grial-de-la-psicologia-oscura-aprender-a-influir-en-las-personas-gracias-al-co",
+      "id": "psicologi-a-oscura-aprenda-co-mo-influir-en-las-personas-mediante",
       "filename": "Psicologi-a-Oscura-Aprenda-co-mo-Influir-en-las-personas-mediante.pdf",
       "title": "Psicología Oscura: Cómo Influir en las Personas",
       "fullTitle": "Psicología Oscura: Aprenda Cómo Influir en las Personas mediante el Control Mental, la Persuasión y la Manipulación",
@@ -716,7 +716,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-028.jpg"
     },
     {
-      "id": "manipulacion-secretos-de-la-psicologia-oscura-aprende-como-analizar-e-influir-en-las-personas-pnl-le",
+      "id": "psicologia-oscura-como-reconocer-y-controlar-la-manipulacion-y-l-1",
       "filename": "Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l (1).pdf",
       "title": "Psicología Oscura: Reconocer y Controlar la Manipulación",
       "fullTitle": "Psicología Oscura: Cómo Reconocer y Controlar la Manipulación y la Persuasión, Mejorando la Inteligencia Emocional",
@@ -738,7 +738,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-029.jpg"
     },
     {
-      "id": "manipulacion-secretos-de-la-psicologia-oscura-aprende-como-analizar-e-influir-en-las-personas-pnl-le",
+      "id": "psicologia-oscura-como-reconocer-y-controlar-la-manipulacion-y-l-1",
       "filename": "Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l.pdf",
       "title": "Psicología Oscura: Guía de Defensa ante la Manipulación",
       "fullTitle": "Psicología Oscura: Cómo Reconocer y Controlar la Manipulación, las Habilidades Sociales y la Influencia",
@@ -782,7 +782,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-031.jpg"
     },
     {
-      "id": "como-analizar-a-las-personas-con-psicologia-oscura-una-guia-rapida-para-leer-tipos-de-personalidad-h",
+      "id": "psicologia-oscura-la-guia-definitiva-para-aprender-a-analizar",
       "filename": "Psicologia-Oscura-La-Guia-Definitiva-Para-Aprender-a-Analizar.pdf",
       "title": "Psicología Oscura: Guía Definitiva para Analizar Personas",
       "fullTitle": "Psicología Oscura: La Guía Definitiva para Analizar Personas, Leer el Lenguaje Corporal y Dejar de Ser Manipulado",
@@ -826,7 +826,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-033.jpg"
     },
     {
-      "id": "como-analizar-a-las-personas-con-psicologia-oscura-una-guia-rapida-para-leer-tipos-de-personalidad-h",
+      "id": "psicologia-oscura-victor-sykes",
       "filename": "Psicologia-Oscura-Victor-Sykes.pdf",
       "title": "Psicología Oscura: Usos Prácticos y Defensas",
       "fullTitle": "Psicología Oscura: Aprenda los Usos Prácticos y las Defensas de la Manipulación, la PNL Encubierta y el Control Mental",
@@ -892,7 +892,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-036.jpg"
     },
     {
-      "id": "2-psicolog-a-oscura---aprenda-los-usos-pr-cticos-y-las-defensas-dmanipulacion-la-influencia-emociona",
+      "id": "psicologia-oscura-aprenda-los-usos-pra-cticos-y-las-defensas-dmanipulacion-la-influencia-emocional-y",
       "filename": "Psicologia-oscura-Aprenda-los-usos-pra-cticos-y-las-defensas-dmanipulacion-la-influencia-emocional-y-otras-tecnicas-secretas.pdf",
       "title": "Psicología Oscura: Control Mental y PNL Encubierta",
       "fullTitle": "Psicología Oscura: Aprenda los Usos Prácticos de la Influencia Emocional, el Engaño y la PNL Encubierta",
@@ -914,7 +914,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-037.jpg"
     },
     {
-      "id": "el-arte-de-manipulacion-y-psicologia-oscura",
+      "id": "psicologia-oscura-y-manipulacion-compress",
       "filename": "Psicologia-oscura-y-manipulacion-compress.pdf",
       "title": "Psicología Oscura y Manipulación: Señales y Defensas",
       "fullTitle": "Psicología Oscura y Manipulación: Entendiendo el Arte de la Manipulación, Señales de Alarma y Estrategias de Protección",
@@ -936,7 +936,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-038.jpg"
     },
     {
-      "id": "como-analizar-a-las-personas-psicologia-oscura-tecnicas-secretas-para-analizar-e-influenciar-a-cualq",
+      "id": "secretos-de-la-psicologia-oscura-aprenda-las-tecnicas-de-persuasion-cubiertas-como-lavado-de-cerebro",
       "filename": "Secretos-De-La-Psicologia-Oscura-Aprenda-las-Tecnicas-de-Persuasion-Cubiertas-como-Lavado-de-Cerebro-Hipnosis-y-PNL-para-Usarlas-en-su-Beneficio-Da.pdf",
       "title": "Secretos de la Psicología Oscura: Persuasión y PNL",
       "fullTitle": "Secretos de la Psicología Oscura: Técnicas de Persuasión Encubierta, Lavado de Cerebro, Hipnosis y PNL",
@@ -958,7 +958,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-039.jpg"
     },
     {
-      "id": "manipulacion-secretos-de-la-psicologia-oscura-aprende-como-analizar-e-influir-en-las-personas-pnl-le",
+      "id": "secretos-de-psicologia-oscura-daniel-james-hollins",
       "filename": "Secretos-de-psicologia-oscura-Daniel-James-Hollins.pdf",
       "title": "Secretos de la Psicología Oscura: Guía Maestra",
       "fullTitle": "Secretos de la Psicología Oscura: Manipulación Emocional Encubierta, Propaganda y Detección de Engaño",
@@ -1838,7 +1838,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-079.jpg"
     },
     {
-      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
+      "id": "100-tips-de-lenguaje-corporal",
       "filename": "100-Tips-de-Lenguaje-Corporal.pdf",
       "title": "100 Tips Esenciales de Lenguaje Corporal",
       "fullTitle": "100 Tips Esenciales de Lenguaje Corporal: Guía Rápida de Comunicación No Verbal y Detección de Microexpresiones",
@@ -1860,7 +1860,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-080.jpg"
     },
     {
-      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
+      "id": "100-tips-de-lenguaje-corporal",
       "filename": "9. LENGUAJE CORPORAL 40 DÍAS .pdf",
       "title": "Lenguaje Corporal en 40 Días: Persuasión Silenciosa",
       "fullTitle": "Lenguaje Corporal en 40 Días: Una Guía Paso a Paso para Dominar la Persuasión Silenciosa",
@@ -1882,7 +1882,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-081.jpg"
     },
     {
-      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
+      "id": "aprende-con-el-lenguaje-corporal-analizar-a-las-personas-editado3",
       "filename": "Aprende-Con-El-Lenguaje-Corporal-Analizar-a-Las-Personas-Editado3.pdf",
       "title": "Aprende con el Lenguaje Corporal a Analizar a las Personas",
       "fullTitle": "Aprende con el Lenguaje Corporal a Analizar a las Personas: Tus Movimientos te Delatan",
@@ -1904,7 +1904,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-082.jpg"
     },
     {
-      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
+      "id": "como-conocer-a-las-personas-por-su-lenguaje-corporal---leonardo-ferrari",
       "filename": "Como Conocer A Las Personas Por Su Lenguaje Corporal - Leonardo Ferrari.pdf",
       "title": "Cómo Conocer a las Personas por su Lenguaje Corporal",
       "fullTitle": "Cómo Conocer a las Personas por su Lenguaje Corporal: Más Allá de las Palabras, el Cuerpo No Miente",
@@ -1926,7 +1926,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-083.jpg"
     },
     {
-      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
+      "id": "domina-tu-lenguaje-corporal_-la---50minutos-es",
       "filename": "Domina tu lenguaje corporal_ La - 50Minutos.es.pdf",
       "title": "Domina tu Lenguaje Corporal: Tu Valioso Aliado",
       "fullTitle": "Domina tu Lenguaje Corporal: Las 3V de la Comunicación, Señales No Verbales y Seguridad Personal",
@@ -1948,7 +1948,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-084.jpg"
     },
     {
-      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
+      "id": "el-lenguaje-corporal-no-miente-mateo-holm",
       "filename": "El-Lenguaje-Corporal-NO-Miente-Mateo-Holm.pdf",
       "title": "El Lenguaje Corporal No Miente",
       "fullTitle": "El Lenguaje Corporal No Miente: La Ciencia Oculta para Interpretar y Dominar la Comunicación No Verbal",
@@ -1970,7 +1970,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-085.jpg"
     },
     {
-      "id": "col-086",
+      "id": "el-lenguaje-del-cuerpo-revela-mas-que-las-palabras",
       "filename": "El-Lenguaje-Del-Cuerpo-Revela-Mas-Que-Las-Palabras.pdf",
       "title": "El Lenguaje del Cuerpo Revela Más Que Las Palabras",
       "fullTitle": "El Lenguaje del Cuerpo: Guía Avanzada de Lectura Facial, Gestual y Posturas Reveladoras",
@@ -1992,7 +1992,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-086.jpg"
     },
     {
-      "id": "col-087",
+      "id": "el-lenguaje-del-cuerpo-revela-mas-que-las-palabras",
       "filename": "El_lenguaje_del_cuerpo.pdf",
       "title": "El Lenguaje del Cuerpo: El Libro Clásico",
       "fullTitle": "El Lenguaje del Cuerpo: Cómo Interpretar a los Demás a Través de sus Gestos",
@@ -2036,7 +2036,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-088.jpg"
     },
     {
-      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
+      "id": "100-tips-de-lenguaje-corporal",
       "filename": "Lenguaje-Corporal.pdf",
       "title": "Manual Integral de Lenguaje Corporal y Kinésica",
       "fullTitle": "Manual Integral de Lenguaje Corporal, Microexpresiones y Detección de Incongruencias",
@@ -2058,7 +2058,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-089.jpg"
     },
     {
-      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
+      "id": "lenguaje-corporal-poderoso",
       "filename": "Lenguaje-corporal-poderoso.pdf",
       "title": "Lenguaje Corporal Poderoso: Presencia e Impacto",
       "fullTitle": "Lenguaje Corporal Poderoso: Una Introducción al Maravilloso Mundo de la Comunicación No Verbal",
@@ -2080,7 +2080,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-090.jpg"
     },
     {
-      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
+      "id": "los-secretos-del-lenguaje-corporal",
       "filename": "Los-Secretos-Del-Lenguaje-Corporal.pdf",
       "title": "Los Secretos del Lenguaje Corporal y Microexpresiones",
       "fullTitle": "Los Secretos del Lenguaje Corporal: Expresiones Faciales, Detección de Mentiras y Microexpresiones",
@@ -2102,7 +2102,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-091.jpg"
     },
     {
-      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
+      "id": "manual-de-lenguaje-corporal",
       "filename": "MANUAL-LENGUAJE-CORPORAL-1.pdf",
       "title": "Manual Práctico de Lenguaje Corporal y Videollamadas",
       "fullTitle": "Manual de Lenguaje Corporal: Canales No Verbales, Diferencias Culturales y Comunicación Digital",
@@ -2124,7 +2124,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-092.jpg"
     },
     {
-      "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
+      "id": "manual-de-lenguaje-corporal",
       "filename": "Manual-de-Lenguaje-Corporal.pdf",
       "title": "Manual de Lenguaje Corporal: Claves y Dinámicas",
       "fullTitle": "Manual de Lenguaje Corporal: Guía de Aprendizaje Práctico para la Interpretación Gestual",
