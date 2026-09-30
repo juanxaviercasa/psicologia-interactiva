@@ -136,7 +136,7 @@ const AudioPlayerEngine = {
       artist: this.currentTrack.author || 'Psicología Estratégica',
       album: 'Colección Psicología Oscura & Audiolibros',
       artwork: [
-        { src: 'assets/img/hero_banner_brain.jpg', sizes: '512x512', type: 'image/jpeg' }
+        { src: 'assets/img/psicologia_obscura_6en1/banners/hero_banner_brain.jpg', sizes: '512x512', type: 'image/jpeg' }
       ]
     });
   },

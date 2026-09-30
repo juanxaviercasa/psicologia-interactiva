@@ -1488,7 +1488,7 @@ const App = {
       <div class="glass-card rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all cursor-pointer group flex flex-col overflow-hidden" onclick="App.goToModule(${m.bookNumber})">
         <!-- IMAGE THUMBNAIL - PROMINENT & VISIBLE — 16:9 ratio, no distortion -->
         <div class="relative w-full bg-slate-900 overflow-hidden" style="padding-top: 56.25%;">
-          <img src="assets/img/cover_mod${m.bookNumber}.jpg"
+          <img src="assets/img/psicologia_obscura_6en1/covers/cover_mod${m.bookNumber}.jpg"
                alt="${m.title}"
                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                onerror="this.style.display='none'">
@@ -1641,8 +1641,8 @@ const App = {
         dialogueHtml = pillar.dialogueBreakdown.map(line => {
             const isAggressor = line.speaker.toLowerCase().includes('manipulador') || line.speaker === 'A' || line.speaker.toLowerCase().includes('tóxica');
             const icon = isAggressor 
-    ? '<img src="assets/img/avatar_manipulator.jpg" class="w-12 h-12 rounded-full border-2 border-rose-500/70 shadow-[0_0_15px_rgba(244,63,94,0.5)] object-cover shrink-0">' 
-    : '<img src="assets/img/avatar_victim.jpg" class="w-12 h-12 rounded-full border-2 border-emerald-500/70 shadow-[0_0_15px_rgba(16,185,129,0.5)] object-cover shrink-0">';
+    ? '<img src="assets/img/psicologia_obscura_6en1/avatars/avatar_manipulator.jpg" class="w-12 h-12 rounded-full border-2 border-rose-500/70 shadow-[0_0_15px_rgba(244,63,94,0.5)] object-cover shrink-0">' 
+    : '<img src="assets/img/psicologia_obscura_6en1/avatars/avatar_victim.jpg" class="w-12 h-12 rounded-full border-2 border-emerald-500/70 shadow-[0_0_15px_rgba(16,185,129,0.5)] object-cover shrink-0">';
             return `
             <div class="mb-4">
                 <div class="flex items-center gap-2 text-[11px] font-bold ${isAggressor ? 'text-rose-400' : 'text-emerald-400'} mb-1 tracking-wider uppercase">
@@ -1685,7 +1685,7 @@ const App = {
 
         <!-- HEADER VISUAL ARCHITECTURE -->
         <div class="lg:col-span-2 relative overflow-hidden rounded-2xl border border-slate-700 shadow-2xl" style="padding-top:28%;">
-            <img src="assets/img/module_header_m${modNumber}.jpg"
+            <img src="assets/img/psicologia_obscura_6en1/headers/module_header_m${modNumber}.jpg"
                  alt="Módulo ${modNumber}"
                  class="absolute inset-0 w-full h-full object-cover"
                  onerror="this.style.display='none'">
@@ -1714,7 +1714,7 @@ const App = {
           <div class="lesson-img-container w-full mb-6 mt-4 rounded-xl overflow-hidden border border-slate-700 shadow-lg relative group bg-slate-950" id="lesson-img-m${modNumber}-p${pIndex+1}">
               <!-- Aspect ratio 16:9 wrapper — prevents any stretching/pixelation -->
               <div class="relative w-full" style="padding-top: 56.25%;">
-                  <img src="assets/img/lesson_m${modNumber}_p${pIndex+1}.jpg" 
+                  <img src="assets/img/psicologia_obscura_6en1/lessons/lesson_m${modNumber}_p${pIndex+1}.jpg" 
                        alt="Ilustración de ${pillar.title}" 
                        class="absolute inset-0 w-full h-full object-contain bg-slate-950 transition-transform duration-700 group-hover:scale-105"
                        onerror="this.parentElement.parentElement.querySelector('.img-placeholder').style.display='flex'; this.parentElement.style.display='none'">
@@ -1795,7 +1795,7 @@ const App = {
         <div class="lg:col-span-2">
           <div class="text-[11px] text-slate-500 font-bold font-mono tracking-widest mb-2"><i class="fa-solid fa-diagram-project text-slate-500 mr-1"></i> DIAGRAMA DEL MECANISMO INTERNO</div>
           <div class="relative w-full rounded-xl overflow-hidden border border-slate-700 shadow-md bg-slate-950 group" style="padding-top:56.25%;">
-            <img src="assets/img/diagram_m${modNumber}_p${pIndex+1}.jpg"
+            <img src="assets/img/psicologia_obscura_6en1/diagrams/diagram_m${modNumber}_p${pIndex+1}.jpg"
                  alt="Diagrama ${pillar.title}"
                  class="absolute inset-0 w-full h-full object-contain bg-slate-950 transition-transform duration-500 group-hover:scale-105"
                  onerror="this.parentElement.parentElement.style.display='none'">
@@ -2085,7 +2085,7 @@ const App = {
         </div>
         <!-- Simulator Scenario Image -->
         <div class="relative w-full rounded-xl overflow-hidden mb-4 border border-slate-700 bg-slate-950 group" style="padding-top:56.25%;">
-          <img src="assets/img/sim_case_${caseData.id.replace('c','')}.jpg"
+          <img src="assets/img/psicologia_obscura_6en1/simulador/sim_case_${caseData.id.replace('c','')}.jpg"
                alt="${caseData.title}"
                class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                onerror="this.parentElement.style.display='none'">
@@ -2205,7 +2205,7 @@ const App = {
     if (catEl) catEl.textContent = card.category || 'General';
     if (frontEl) frontEl.textContent = card.front;
     const imgEl = document.getElementById('fcFrontImg');
-    if (imgEl) imgEl.src = 'assets/img/flashcards/' + card.id + '.jpg';
+    if (imgEl) imgEl.src = 'assets/img/psicologia_obscura_6en1/flashcards/' + card.id + '.jpg';
     const backEl = document.getElementById('fcBackText');
     if (backEl) backEl.textContent = card.back;
     const mnemoEl = document.getElementById('fcMnemonicText');
@@ -2284,7 +2284,7 @@ const App = {
       <div class="glass-card p-6 rounded-2xl border border-slate-800" id="quiz-block-${q.id}">
         <!-- Quiz Scenario Image -->
         <div class="relative w-full rounded-xl overflow-hidden mb-4 border border-slate-700 bg-slate-950 group" style="padding-top:50%;">
-          <img src="assets/img/quiz_${q.id}.jpg"
+          <img src="assets/img/psicologia_obscura_6en1/quizzes/quiz_${q.id}.jpg"
                alt="Escenario ${q.question.substring(0,40)}"
                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                onerror="this.parentElement.style.display='none'">
