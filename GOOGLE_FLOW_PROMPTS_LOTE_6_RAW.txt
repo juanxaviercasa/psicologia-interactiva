@@ -1,0 +1,200 @@
+================================================================================
+PROMPTS LOTE 6: LIBROS 28 AL 32 (54 IMÁGENES EDUCATIVAS 16:9 CINEMÁTICAS)
+FORMATO: 16:9 FOTORREALISTA, 8K, SIN LETRAS NI TEXTO
+================================================================================
+
+================================================================================
+LIBRO 28: PSICOLOGÍA OSCURA: USOS PRÁCTICOS Y DEFENSAS (13 MÓDULOS)
+CARPETA DESTINO: assets/img/psicologia_oscura_usos_defensas/
+PREFIJO DESTINO: usosdef_m{id}_{slug}.jpg
+================================================================================
+
+--- [LIBRO 28 - MÓDULO 1: Preliminares E Introduccion] ---
+Photorealistic scene of a psychological research study: An antique dark-leather compendium resting open on a polished mahogany desk next to a vintage brass balance scale and a magnifying glass. Dramatic directional chiaroscuro lighting, deep mysterious shadows, 8k resolution, no typography, no letters.
+
+--- [LIBRO 28 - MÓDULO 2: Capitulo 1 Que Es La Psicologia Oscura] ---
+Photorealistic conceptual study of the dark mind: A classic marble human bust illuminated in split lighting, one half warmly lit in soft amber and the other half casting an angular, shadowy silhouette with subtle geometric mechanical gears. Atmospheric haze, high contrast, 8k resolution, no typography, no letters.
+
+--- [LIBRO 28 - MÓDULO 3: Capitulo 2 Fundamentos De La Manipulacion Emocional] ---
+Photorealistic corporate psychology scene: Two executives at an expansive minimalist slate table; one individual subtly slides an obsidian chess piece forward while the other leans back under tension. Moody cinematic reflections, soft rim lighting, 8k resolution, no typography, no letters.
+
+--- [LIBRO 28 - MÓDULO 4: Capitulo 3 Metodos Comunes De Manipulacion Encubierta] ---
+Photorealistic tactical strategy scene: A frosted glass drafting table showing delicate glowing azure fiber-optic strands interconnecting abstract decision cards and silhouettes. Moody atmospheric depth, low-key lighting, 8k resolution, no typography, no letters.
+
+--- [LIBRO 28 - MÓDULO 5: Capitulo 4 Persuasion Oscura] ---
+Photorealistic scene of dark persuasion: A charismatic speaker in a tailored dark suit standing on a dimly lit auditorium stage, gesturing with precise, magnetic hand movements under a single warm spotlight. Cinematic depth of field, haze, 8k resolution, no typography, no letters.
+
+--- [LIBRO 28 - MÓDULO 6: Capitulo 5 Tecnicas De Persuasion Oscura] ---
+Photorealistic conceptual laboratory: Precision optical glass prisms strategically aligned on a dark velvet surface, refracting and bending a concentrated golden beam of light into a sharp focal point. Macro lens clarity, 8k resolution, no typography, no letters.
+
+--- [LIBRO 28 - MÓDULO 7: Capitulo 6 Control Mental No Detectado] ---
+Photorealistic psychological metaphor: An ornate brass hourglass where fine dark sand flows silently in an intricate swirling vortex upon an architect's desk surrounded by faint drafts. Atmospheric mood, golden hour side lighting, 8k resolution, no typography, no letters.
+
+--- [LIBRO 28 - MÓDULO 8: Capitulo 7 Psicologia Oscura Y Juegos Mentales] ---
+Photorealistic psychological chess game: Two contemplative players seated opposite each other over a multi-tiered glass chessboard, their faces reflected in moody smoky mirrors lining the private study. Chiaroscuro lighting, cinematic tension, 8k resolution, no typography, no letters.
+
+--- [LIBRO 28 - MÓDULO 9: Capitulo 8 Entendiendo El Engano] ---
+Photorealistic forensic investigation: A large optical magnifying glass focusing on a delicate porcelain mask with a subtle hairline fracture, revealing the observant eye of a person beneath. Dramatic spotlight, high micro-detail, 8k resolution, no typography, no letters.
+
+--- [LIBRO 28 - MÓDULO 10: Capitulo 9 El Lavado De Cerebro] ---
+Photorealistic psychological environment: A minimalist, sterile room with sleek polished concrete floors and a single chair positioned before high Venetian blinds casting rhythmic geometric shadows in the morning sun. Moody cinematic framing, 8k resolution, no typography, no letters.
+
+--- [LIBRO 28 - MÓDULO 11: Capitulo 10 La Triada Oscura] ---
+Photorealistic symbolic representation: Three triangular polished obsidian monoliths standing upright on a textured volcanic stone plinth, reflecting subtle crimson and charcoal ambient gradients. Elegant, ominous composition, 8k resolution, no typography, no letters.
+
+--- [LIBRO 28 - MÓDULO 12: Capitulo 11 Aplicacion De La Triada Oscura] ---
+Photorealistic corporate intrigue: An enigmatic corporate director standing in silhouette behind a floor-to-ceiling glass wall, observing a busy boardroom meeting below with overlapping architectural reflections. Cinematic teal and amber tones, 8k resolution, no typography, no letters.
+
+--- [LIBRO 28 - MÓDULO 13: Capitulo 12 Seduccion Con Psicologia Oscura] ---
+Photorealistic intimate psychological dynamic: An elegant candlelit lounge with two well-dressed individuals conversing intently across a dark marble table with crystal wine glasses. Warm amber candlelight, deep velvety shadows, cinematic romantic tension, 8k resolution, no typography, no letters.
+
+
+================================================================================
+LIBRO 29: PSICOLOGÍA OBSCURA - S.L. MOORE (7 MÓDULOS)
+CARPETA DESTINO: assets/img/psicologia_obscura_sl_moore/
+PREFIJO DESTINO: slmoore_m{id}_{slug}.jpg
+================================================================================
+
+--- [LIBRO 29 - MÓDULO 1: Preliminares E Introduccion] ---
+Photorealistic scene of secret psychological knowledge: A dark velvet-bound grimoire resting on an ornate wrought-iron reading stand in a private library surrounded by floor-to-ceiling mahogany bookshelves. Volumetric dust motes in sunbeams, 8k resolution, no typography, no letters.
+
+--- [LIBRO 29 - MÓDULO 2: Capitulo 1 La Psicologia De La Persuasion] ---
+Photorealistic conceptual neuroscience: A precision-crafted golden sculpture of the human brain supported by delicate orbital brass rings and suspended crystal spheres. Clean dark studio background, elegant museum illumination, 8k resolution, no typography, no letters.
+
+--- [LIBRO 29 - MÓDULO 3: Capitulo 2 Maestros De La Persuasion] ---
+Photorealistic historical strategy scene: An intellectual mentor in a classic dark wool coat studying navigational charts and blueprints with an antique brass caliper under a green banker's lamp. Warm focused lighting, rich atmosphere, 8k resolution, no typography, no letters.
+
+--- [LIBRO 29 - MÓDULO 4: Capitulo 3 Como Usar La Persuasion Parte 1] ---
+Photorealistic psychological self-mastery: A disciplined person standing calmly before a tranquil reflecting pool inside a minimalist modern pavilion, achieving complete mental equilibrium. Serene morning mist, diffuse golden dawn light, 8k resolution, no typography, no letters.
+
+--- [LIBRO 29 - MÓDULO 5: Capitulo 3 Como Usar La Persuasion Parte 2] ---
+Photorealistic negotiation rapport: Two diplomats engaging in a warm, definitive handshake with authentic eye contact in a dignified reception hall with floor-to-ceiling drapery. Soft daylight, dignified cinematic composition, 8k resolution, no typography, no letters.
+
+--- [LIBRO 29 - MÓDULO 6: Capitulo 4 Como Defenderse De Los Manipuladores] ---
+Photorealistic defensive psychological barrier: A person standing with composed authority behind a crystalline, multifaceted shield of pure translucent light that easily repels intrusive dark tendrils. Cinematic contrast, volumetric glow, 8k resolution, no typography, no letters.
+
+--- [LIBRO 29 - MÓDULO 7: Conclusion] ---
+Photorealistic conclusion scene: A visionary thinker standing at the balustrade of a high stone terrace overlooking a sprawling city bathed in warm sunrise light, holding an ornate golden compass. Triumphant, peaceful atmosphere, 8k resolution, no typography, no letters.
+
+
+================================================================================
+LIBRO 30: MANIPULACIÓN Y PSICOLOGÍA OSCURA - ESTRATEGIAS DE DETECCIÓN (11 MÓDULOS)
+CARPETA DESTINO: assets/img/manipulacion_estrategias_deteccion/
+PREFIJO DESTINO: manidetec_m{id}_{slug}.jpg
+================================================================================
+
+--- [LIBRO 30 - MÓDULO 1: Introduccion] ---
+Photorealistic investigative workspace: A massive dark oak desk equipped with forensic magnifying tools, sealed dossier envelopes, and a low-angled brass desk lamp casting long dramatic shadows. Cinematic depth, 8k resolution, no typography, no letters.
+
+--- [LIBRO 30 - MÓDULO 2: Capitulo 1 Que Es La Psicologia Oscura] ---
+Photorealistic conceptual art: Two intertwined human sculpture silhouettes carved from contrasting crystal and smoky volcanic obsidian, resting on a pedestal in an art gallery. Soft dramatic spotlight, 8k resolution, no typography, no letters.
+
+--- [LIBRO 30 - MÓDULO 3: Capitulo 2 Los 4 Rasgos De La Psicologia Oscura] ---
+Photorealistic dark tetrad composition: Four distinct dark mineral spheres (obsidian, haematite, black tourmaline, and smoky quartz) levitating slightly above an ancient basalt slab. Moody dramatic studio lighting, 8k resolution, no typography, no letters.
+
+--- [LIBRO 30 - MÓDULO 4: Capitulo 3 Tecnicas De Manipulacion Psicologica Parte 1] ---
+Photorealistic optical manipulation: A precise hand sliding an amber glass filter into a vintage brass optical projector, shifting the color spectrum on a projection wall. Macro detail, moody atmosphere, 8k resolution, no typography, no letters.
+
+--- [LIBRO 30 - MÓDULO 5: Capitulo 3 Tecnicas De Manipulacion Psicologica Parte 2] ---
+Photorealistic behavioral psychology metaphor: A delicate antique puzzle box of brass and dark wood, with intricate mechanical levers and silver pins partially engaged. Warm directional light, macro precision, 8k resolution, no typography, no letters.
+
+--- [LIBRO 30 - MÓDULO 6: Capitulo 4 Comportamiento Y Rasgos De Caracter Parte 1] ---
+Photorealistic psychological double face: A charming socialite smiling warmly at guests across a banquet table, while the reflection in a polished silver platter reveals a sharp, detached, evaluating gaze. High cinematic tension, 8k resolution, no typography, no letters.
+
+--- [LIBRO 30 - MÓDULO 7: Capitulo 4 Comportamiento Y Rasgos De Caracter Parte 2] ---
+Photorealistic subtle coercive dynamic: Two people conversing at dusk on a modern luxury balcony; one gestures with simulated helplessness while the other stands perplexed and emotionally conflicted. Cinematic twilight mood, 8k resolution, no typography, no letters.
+
+--- [LIBRO 30 - MÓDULO 8: Capitulo 5 Que Es La Manipulacion Emocional Encubierta] ---
+Photorealistic gaslighting and covert control: A person walking through a long neoclassical hallway filled with delicate low-lying mist, where antique wall mirrors cast slightly disjointed reflections. Dreamlike moody cinematography, 8k resolution, no typography, no letters.
+
+--- [LIBRO 30 - MÓDULO 9: Capitulo 6 Que Estan Tratando De Hacer Los Manipuladores] ---
+Photorealistic psychological control metaphor: An unseen strategist's hands methodically positioning miniature polished bronze figures across an architectural scale model of a modern city. Low key overhead lighting, 8k resolution, no typography, no letters.
+
+--- [LIBRO 30 - MÓDULO 10: Capitulo 7 Rasgos De Comportamiento De Las Victimas] ---
+Photorealistic emotional fragility: A glowing raw rose quartz crystal resting inside a glass cloche with a subtle fissure, illuminated by warm candlelight on a rustic wooden table. Macro lens, soft depth of field, 8k resolution, no typography, no letters.
+
+--- [LIBRO 30 - MÓDULO 11: Capitulo 8 El Papel De La Defensa] ---
+Photorealistic psychological resilience: A confident, dignified individual standing resolute at the gateway of a majestic stone fortress, bathed in victorious morning sunlight. Inspiring cinematic lighting, wide angle, 8k resolution, no typography, no letters.
+
+
+================================================================================
+LIBRO 31: LAS MEJORES TÉCNICAS DE PERSUASIÓN (6 MÓDULOS)
+CARPETA DESTINO: assets/img/mejores_tecnicas_persuasion/
+PREFIJO DESTINO: tecpers_m{id}_{slug}.jpg
+================================================================================
+
+--- [LIBRO 31 - MÓDULO 1: Introduccion] ---
+Photorealistic conference setting: An ultramodern auditorium with a sleek glass lectern and curved acoustic wood paneling, illuminated by elegant blue and amber ambient LEDs. Crisp clean architectural perspective, 8k resolution, no typography, no letters.
+
+--- [LIBRO 31 - MÓDULO 2: Todos Podemos Persuadir] ---
+Photorealistic professional empowerment: An articulate young professional practicing natural, confident persuasive hand gestures before a floor-to-ceiling panoramic city view at sunrise. Warm energetic sunlight, clean corporate aesthetic, 8k resolution, no typography, no letters.
+
+--- [LIBRO 31 - MÓDULO 3: Los 6 Principios Basicos De La Persuasion] ---
+Photorealistic architectural metaphor: Six illuminated marble pillars supporting an elegant contemporary glass dome in an atrium, each bathed in warm golden light. Majestic wide-angle view, pristine geometric symmetry, 8k resolution, no typography, no letters.
+
+--- [LIBRO 31 - MÓDULO 4: Tecnicas Y Actitudes] ---
+Photorealistic balance and flexibility metaphor: A poised performer in sleek attire gracefully balancing upon a taut silver wire in an architectural hall, demonstrating effortless adaptability. Dramatic side lighting, cinematic elegance, 8k resolution, no typography, no letters.
+
+--- [LIBRO 31 - MÓDULO 5: Programacion Neurolinguistica] ---
+Photorealistic neuro-linguistic programming scene: Two professionals engaged in intense rapport in a lounge, their mirroring postures and aligned gaze creating palpable mutual trust. Warm soft-focus ambient lighting, 8k resolution, no typography, no letters.
+
+--- [LIBRO 31 - MÓDULO 6: Sintesis] ---
+Photorealistic constructive agreement: Two partners completing a high-value agreement with a firm, genuine handshake over a circular oak table in a modern boardroom. Golden afternoon light streaming through expansive windows, 8k resolution, no typography, no letters.
+
+
+================================================================================
+LIBRO 32: MANIPULACIÓN MENTAL PARA PRINCIPIANTES (17 MÓDULOS)
+CARPETA DESTINO: assets/img/manipulacion_mental_principiantes/
+PREFIJO DESTINO: maniprinc_m{id}_{slug}.jpg
+================================================================================
+
+--- [LIBRO 32 - MÓDULO 1: Introduccion Y Sumario] ---
+Photorealistic study of human psychology: An open leather sketchbook filled with delicate charcoal anatomical sketches of the human mind, resting on a dark slate desk beside a silver fountain pen. Warm accent lighting, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 2: Capitulo 1 Que Es La Manipulacion] ---
+Photorealistic labyrinth of decision-making: An overhead view of an intricate translucent crystal maze bathed in contrasting cool blue and warm golden spotlights. Precise geometric composition, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 3: Capitulo 2 La Personalidad Manipuladora] ---
+Photorealistic study of the manipulative personality: An impeccably groomed individual adjusting their suit in an antique silver mirror, whose reflection displays an intensely calculative, piercing expression. Dramatic chiaroscuro, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 4: Capitulo 3 La Moralidad De La Manipulacion Parte 1] ---
+Photorealistic ethical dilemma: An antique golden balance scale poised precariously on a split marble pedestal, balancing a smooth white river stone against a jagged black obsidian chunk. Dramatic side lighting, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 5: Capitulo 3 La Moralidad De La Manipulacion Parte 2] ---
+Photorealistic metaphor of personal freedom: A sculpted glass bird poised with spread wings atop an open antique wrought-iron gate at dawn, catching the first golden rays of freedom. Atmospheric bokeh, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 6: Capitulo 4 El Arte De La Auto Manipulacion Parte 1] ---
+Photorealistic psychological self-deception: An introspective person standing in a dimly lit hallway surrounded by angled mirrors, each reflection presenting a slightly altered, idealized posture. Moody atmospheric lighting, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 7: Capitulo 4 El Arte De La Auto Manipulacion Parte 2] ---
+Photorealistic anchoring effect metaphor: A modest mineral stone showcased upon a lavish royal velvet cushion under an exquisite museum spotlight, creating an aura of immense value. Rich textures, luxury lighting, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 8: Capitulo 5 Manipulacion De La Memoria] ---
+Photorealistic memory manipulation metaphor: A vintage 35mm slide projector beaming a soft, fading photograph onto a textured wall, with dust motes and golden light particles dissolving the edges. Nostalgic, moody cinematic glow, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 9: Capitulo 6 Manipulacion De Palabras Parte 1] ---
+Photorealistic high-stakes negotiation: Two corporate leaders across a frosted glass conference table, fountain pens poised over pristine document folios, engaged in silent tactical evaluation. Sleek modern corporate atmosphere, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 10: Capitulo 6 Manipulacion De Palabras Parte 2] ---
+Photorealistic linguistic framing metaphor: An optician examining an exquisite convex lens that refracts a dim, cluttered room into a sharply focused, luminous perspective. Macro workshop detail, rich golden lighting, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 11: Capitulo 7 El Uso Del Miedo En La Manipulacion] ---
+Photorealistic fear manipulation metaphor: A miniature brass chess pawn casting an enormous, intimidating shadow across a towering limestone wall via a single low flickering candle. Stark high-contrast chiaroscuro, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 12: Capitulo 7 La Manifestacion De La Manipulacion] ---
+Photorealistic intricate horology: The exposed interior of a master clockwork mechanism, showing a small concealed golden cog governing the movement of massive brass gears. Macro depth of field, warm candlelight on polished metal, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 13: Capitulo 8 Senales De Advertencia De Manipulacion Emocional] ---
+Photorealistic warning signal metaphor: A solitary maritime lighthouse on a rugged cliffside beaming a warm warning beacon into the dark misty sea swell at twilight. Moody atmospheric weather, dramatic cinematography, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 14: Capitulo 9 Manipulacion Social Y Grupal] ---
+Photorealistic social conformity scene: A bustling metropolitan concourse where an entire crowd moves in identical synchronized direction with motion blur, while a single sharp individual stands still, looking in the opposite direction. Cinematic urban depth, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 15: Capitulo 10 Tecnica De Persuasion Parte 1] ---
+Photorealistic cognitive processing: A focused analyst seated in an archive, examining a detailed architectural schema with a magnifying glass, demonstrating intense critical scrutiny under warm library lamps. Rich texture and focus, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 16: Capitulo 10 Tecnica De Persuasion Parte 2] ---
+Photorealistic classical rhetoric: Three exquisite classical elements arranged on a marble table: a carved laurel wreath of character, a gentle golden flame of emotion, and an antique brass compass of logic. Museum lighting, elegant composition, 8k resolution, no typography, no letters.
+
+--- [LIBRO 32 - MÓDULO 17: Conclusion] ---
+Photorealistic conclusion of personal sovereignty: A confident person standing at the start of a clear scenic mountain trail at sunrise, breathing freely in the golden dawn light. Crisp alpine clarity, inspiring cinematic framing, 8k resolution, no typography, no letters.

@@ -1,0 +1,158 @@
+=== GOOGLE FLOW PROMPTS LOTE 3 (LIBROS 13 AL 17) ===
+Total Ilustraciones: 62 Prompts
+Instrucciones: Copia y pega el bloque correspondiente a cada libro en Google Flow con relación de aspecto 16:9.
+
+
+======================================================================
+📖 LIBRO 13: PERSUASIÓN DE PSICOLOGÍA OSCURA E INTELIGENCIA EMOCIONAL (15 PROMPTS)
+📁 Guardar en: assets/img/persuasion_emocional/
+======================================================================
+
+Photorealistic split conceptual study: on one side, an intuitive thinker surrounded by subtle warm ripples of emotional empathy; on the other side, an intricate analytical chessboard representing covert psychological tactics. Chiaroscuro lighting, deep navy and warm amber, 8k resolution, no typography, no letters.
+
+Photorealistic scene of investigating human psychology: An investigator in a dark architectural gallery examining three floating obsidian geometric prisms that cast long enigmatic shadows across a polished marble floor. Dramatic side lighting, cinematic atmosphere, 8k resolution, no typography, no letters.
+
+Photorealistic macro forensic scene on a dark oak desk: a magnifying lens revealing hidden fine gears inside an antique pocket watch, symbolizing the unseen mechanisms of psychological leverage and influence. Warm key light, 8k resolution, no typography, no letters.
+
+Photorealistic scene of psychological maneuvering: Two silhouetted figures in an executive lounge; one extends a subtle gesture of persuasion while glowing translucent marionette threads hover faintly in the atmospheric haze. Moody thriller aesthetic, 8k resolution, no typography, no letters.
+
+Photorealistic scene of focused influence: A charismatic orator speaking in an intimate salon under soft focused lamplight, hands gesturing in calibrated hypnotic circles that captivate the attentive listeners around a round mahogany table. Cinematic bokeh, 8k resolution, no typography, no letters.
+
+Photorealistic conceptual visualization of mental sovereignty: A translucent glass head model with glowing neural pathways, surrounded by a delicate protective golden halo deflecting shadowy intrusive waves. High-tech psychological aesthetic, 8k resolution, no typography, no letters.
+
+Photorealistic scene of empathy vs detachment: Two hands meeting across a dark table, one radiating a warm organic golden glow of genuine empathy, the other displaying a cool crystalline geometric aura of detached calculation. Dramatic contrast, 8k resolution, no typography, no letters.
+
+Photorealistic scene of self-calibration: A professional standing before a full-length architectural mirror in a sunlit modern atrium, calmly adjusting their posture while observing the subtle interplay of confidence and social warmth in their reflection. Clean natural lighting, 8k resolution, no typography, no letters.
+
+Photorealistic scene of emotional equilibrium: A serene philosopher seated in a minimalist courtyard garden, watching ripples in a clear reflection pool settle into total stillness beneath a blossoming tree. Tranquil morning light, zen atmosphere, 8k resolution, no typography, no letters.
+
+Photorealistic conceptual scene of emotional intelligence: Four luminous crystalline spheres resting on dark velvet pedestals, each glowing with distinct harmonic colors representing self-awareness, self-regulation, empathy, and social mastery. Museum lighting, 8k resolution, no typography, no letters.
+
+Photorealistic scene of social harmony: A collaborative conference hall where an emotionally intelligent leader facilitates a lively, harmonious exchange among diverse professionals, radiating mutual respect and synergy. Warm architectural lighting, 8k resolution, no typography, no letters.
+
+Photorealistic close-up portrait of an empathetic listener in a private consultation: relaxed facial micro-muscles, focused receptive gaze, and calm breathing that radiates deep psychological stability. Soft natural window light, 8k resolution, no typography, no letters.
+
+Photorealistic scene of intellectual resonance: Two colleagues having an inspiring discussion while walking along an illuminated glass-walled skybridge overlooking a vibrant city at dusk. Golden hour reflections, cinematic depth, 8k resolution, no typography, no letters.
+
+Photorealistic scene of psychological self-assessment: An analytical thinker seated at a sleek wooden desk with a balanced brass scale and an open field notebook, carefully calibrating personal insights under a soft desk lamp. Warm chiaroscuro, 8k resolution, no typography, no letters.
+
+Photorealistic conclusion scene of emotional mastery: An empowered individual standing at the summit of an architectural observation terrace at dawn, holding an illuminated compass of emotional clarity that points toward a radiant sunrise. Majestic cinematic composition, 8k resolution, no typography, no letters.
+
+
+======================================================================
+📖 LIBRO 14: MANIPULACIÓN Y PSICOLOGÍA OSCURA (Daniel Long) (10 PROMPTS)
+📁 Guardar en: assets/img/manipulacion_daniel_long/
+======================================================================
+
+Photorealistic scene in a dimly lit tactical study: an antique compass and tactical nautical map laid out beneath the soft amber beam of an industrial desk lamp, with chess pieces resting near boundary lines. Moody noir atmosphere, 8k resolution, no typography, no letters.
+
+Photorealistic scene of behavioural observation: An analytical observer in a high-tech glass booth watching human silhouettes interact in an illuminated hall, mapping behavioral levers and psychological pressure points. Cool cyan and graphite tones, 8k resolution, no typography, no letters.
+
+Photorealistic scene of detecting manipulation: A vigilant person in an executive meeting noticing a sudden dissonance: a colleague’s forced polite smile contradicted by tense, white-knuckled fingers gripping a coffee cup. Intense psychological focus, 8k resolution, no typography, no letters.
+
+Photorealistic conceptual scene of cognitive labyrinths: An intricate multi-layered maze of dark smoked glass with luminous pathways winding through deceptive dead ends. Atmospheric cinematic haze, 8k resolution, no typography, no letters.
+
+Photorealistic conceptual macro visualization: A tiny luminous seed of light being delicately placed into the center of a glowing neural network inside a translucent sculpted head. High-tech psychological thriller aesthetic, 8k resolution, no typography, no letters.
+
+Photorealistic dramatic psychological scene: A solitary figure sitting in a stark minimalist room facing a bright projector screen that washes out previous shadows, symbolizing systematic cognitive resets. High contrast lighting, 8k resolution, no typography, no letters.
+
+Photorealistic scene of mass influence: A charismatic figure standing on an elevated podium before a vast sea of shadowed spectators, gesturing with magnetic authority as spotlights converge in geometric symmetry. Monumental cinematic scale, 8k resolution, no typography, no letters.
+
+Photorealistic scene of psychological seduction: An intimate candlelit salon where two well-dressed individuals share a captivating gaze across a velvet table, surrounded by warm amber light and deep seductive shadows. Luxurious noir atmosphere, 8k resolution, no typography, no letters.
+
+Photorealistic scene of psychological defense: An empowered individual holding an invisible shield of radiant crystal energy that smoothly deflects incoming darts of shadowy mist in a dark hallway. Heroic psychological defense, 8k resolution, no typography, no letters.
+
+Photorealistic conclusion scene: A victorious thinker standing in an open sunlit library with floor-to-ceiling windows, looking out toward a clear morning horizon with complete mental autonomy. Golden sunlight, inspiring atmosphere, 8k resolution, no typography, no letters.
+
+
+======================================================================
+📖 LIBRO 15: PERSUASIÓN Y PSICOLOGÍA OSCURA: CONTROL MENTAL (11 PROMPTS)
+📁 Guardar en: assets/img/persuasion_control_mental/
+======================================================================
+
+Photorealistic scene in a grand library hall at midnight: A single open book resting on an illuminated pedestal, surrounded by holographic constellations of human cognition and persuasion. Deep indigo and warm golden light, 8k resolution, no typography, no letters.
+
+Photorealistic scene of persuasive practice: A polished orator rehearsing in front of an acoustic wood-paneled wall, mastering calibrated vocal cadence and confident expansive gestures under warm studio spotlights. Clean modern aesthetic, 8k resolution, no typography, no letters.
+
+Photorealistic conceptual scene of psychological alignment: A master clockmaker fine-tuning an enormous intricate clockwork mechanism of polished brass cogs, symbolizing the subtle alignment of human motivations. Golden chiaroscuro, 8k resolution, no typography, no letters.
+
+Photorealistic scene of hypnotic induction: A tranquil dimly lit therapeutic room where a polished silver pendulum oscillates in slow rhythmic arcs through a soft beam of golden light, inducing deep focused relaxation. Serene cinematic atmosphere, 8k resolution, no typography, no letters.
+
+Photorealistic scene of NLP communication: A practitioner and subject in collaborative dialogue, with subtle illuminated linguistic wavebands connecting their vocal expressions to subconscious cognitive anchors. High-end modern study, 8k resolution, no typography, no letters.
+
+Photorealistic scene of misdirection: A theatrical magician in an antique theater stepping behind a dual-tone velvet screen, creating an optical illusion where an empty birdcage appears filled with light. Theatrical dramatic lighting, 8k resolution, no typography, no letters.
+
+Photorealistic psychological scene: Two strategic thinkers across an ultra-sleek minimalist chess table made of smoked glass, where floating holographic moves shimmer between their intense gazes. Moody psychological thriller aesthetic, 8k resolution, no typography, no letters.
+
+Photorealistic scene of imperceptible influence: A covert advisor whispering a suggestion in an executive conference, while a delicate ripple of light quietly permeates the conference room water glasses without disturbing the surface. Atmospheric tension, 8k resolution, no typography, no letters.
+
+Photorealistic scene of social charm: An elegant ballroom setting where a charming conversationalist effortlessly draws the undivided attention and genuine laughter of a small elite group. Warm glowing chandeliers, luxurious depth of field, 8k resolution, no typography, no letters.
+
+Photorealistic scene of subliminal design: A creative director reviewing visual stimuli on high-resolution screens where micro-second color gradients subtly evoke feelings of safety and desire. Sleek design studio, soft blue and amber ambient light, 8k resolution, no typography, no letters.
+
+Photorealistic conclusion scene: An enlightened strategist standing on an architectural observation deck as fog clears beneath a brilliant morning sky, representing total mastery over persuasive arts. Sunrise golden rays, inspiring panoramic framing, 8k resolution, no typography, no letters.
+
+
+======================================================================
+📖 LIBRO 16: MANIPULACIÓN (H.G. Tudor) (12 PROMPTS)
+📁 Guardar en: assets/img/manipulacion_hg_tudor/
+======================================================================
+
+Photorealistic dramatic Renaissance-noir study: An ornate antique masquerade mask resting beside a silver dagger and a vintage leather ledger on a polished mahogany bureau. Volumetric shadows, warm candlelight, 8k resolution, no typography, no letters.
+
+Photorealistic split-screen dramatic scene: A lavish room filled with radiant bouquets of crimson roses and overflowing gifts, while a large ornate mirror flawlessly mirrors a lover’s posture in exact synchronization. Opulent theatrical lighting, 8k resolution, no typography, no letters.
+
+Photorealistic tense confrontation in a dimly lit hallway: One towering figure casting a menacing, elongated shadow across the floor while the other recoils against the wall, weighed down by an invisible emotional burden. High-contrast noir lighting, 8k resolution, no typography, no letters.
+
+Photorealistic conceptual scene of triangulation: Three silhouettes arranged in a stark triangular geometry in a modern art gallery; glowing red lines connect the central manipulator to the two unsuspecting counterparts. Mysterious atmospheric fog, 8k resolution, no typography, no letters.
+
+Photorealistic conceptual scene of deceptive captivity: An opulent golden birdcage with an open door that leads only into an infinite maze of cold stone corridors, illustrating deceptive promises of freedom. Cinematic thriller lighting, 8k resolution, no typography, no letters.
+
+Photorealistic scene of social smear tactics: Whispering silhouetted figures in the background of a corporate gala spreading rumors, while a central figure stands isolated beneath a cold downlight, surrounded by falling paper fragments. Moody chiaroscuro, 8k resolution, no typography, no letters.
+
+Photorealistic scene of psychological projection: A high-resolution mirror where a person’s reflected face takes on an angry accusatory mask, projecting their own flaws outward onto an innocent partner standing beside them. Dramatic split lighting, 8k resolution, no typography, no letters.
+
+Photorealistic scene of the silent treatment: A cavernous, empty modern living room where two partners sit at opposite extremes of an enormous gray sofa, enveloped in chilling cold blue light and thick emotional silence. Stark minimalist aesthetic, 8k resolution, no typography, no letters.
+
+Photorealistic scene of severe gaslighting: A person walking through a disorienting hall of warped funhouse mirrors where floor and walls seem to bend unpredictably, creating intense psychological doubt. Surreal noir lighting, teal and charcoal tones, 8k resolution, no typography, no letters.
+
+Photorealistic conceptual visualization of circular arguments: An ouroboros-like infinite spiral staircase made of dark marble, where a traveler walks endlessly in circles without ever reaching a conclusion. Atmospheric mystery, 8k resolution, no typography, no letters.
+
+Photorealistic theatrical scene of pity play: A manipulative actor feigning sorrow on a dark stage with a solitary spotlight, while invisible glass walls gradually close in to isolate an empathetic onlooker from the rest of the world. Dramatic theatrical contrast, 8k resolution, no typography, no letters.
+
+Photorealistic triumphant conclusion scene: A triumphant survivor stepping out of a dark tunnel into blinding golden daylight, leaving shattered puppet strings and broken chains behind on the floor. Epic cinematic lighting, inspiring emotional release, 8k resolution, no typography, no letters.
+
+
+======================================================================
+📖 LIBRO 17: CÓMO ANALIZAR A LA GENTE: MAESTRÍA EN LENGUAJE CORPORAL (14 PROMPTS)
+📁 Guardar en: assets/img/maestria_analizar_gente/
+======================================================================
+
+Photorealistic scene in a modern behavioral observation laboratory: A master profiler standing before large transparent holographic displays showcasing gait analysis vectors and facial emotion mapping. Cinematic cyan and obsidian lighting, 8k resolution, no typography, no letters.
+
+Photorealistic scene of public behavioral profiling: An observant passenger sitting in a bustling international airport lounge, accurately reading the micro-behaviors, urgency levels, and emotional states of travelers walking past. Telephoto lens depth of field, natural airport lighting, 8k resolution, no typography, no letters.
+
+Photorealistic forensic scene of decoding dark traits: An analyst in a dimly lit office studying illuminated personality dossiers on transparent glass panels, identifying deceptive behaviors and hidden agendas. Moody chiaroscuro, 8k resolution, no typography, no letters.
+
+Photorealistic close-up scene of romantic interest: Two people at a cozy coffee shop table, where leaning postures, warm synchronized smiling, and dilated pupils reveal undeniable genuine attraction. Warm natural daylight, shallow depth of field, 8k resolution, no typography, no letters.
+
+Photorealistic scene of cognitive analysis: An analytical thinker with an open notebook, viewing a 3D luminous schematic of brain lobes and neural processing pathways floating above the desk. High-tech scientific aesthetic, 8k resolution, no typography, no letters.
+
+Photorealistic forensic deduction scene: A modern deductive investigator seated calmly in a sleek library, reading an entire emotional context from an individual’s scuffed shoe tip, worn watch strap, and subtle ring mark. Forensic macro detail, 8k resolution, no typography, no letters.
+
+Photorealistic extreme macro forensic close-up of a subject’s face during questioning: a rapid micro-swallow, pupil constriction, and tiny twitch at the corner of the lip revealing deception. Sharp cinematic lighting, 8k resolution, no typography, no letters.
+
+Photorealistic macro view of human hands resting on a conference table: one hand displaying tense tapping fingers while the other demonstrates relaxed open palms, contrasting anxiety with confidence. Clean corporate lighting, 8k resolution, no typography, no letters.
+
+Photorealistic evening restaurant scene where a charming couple leans across the table; their mirror-image hand positions and focused mutual gazes display unmistakable romantic rapport. Soft candlelight, romantic bokeh, 8k resolution, no typography, no letters.
+
+Photorealistic scene of behavioral pattern mapping: An analyst in a glass-walled conference room mapping repetitive behavioral habits on a digital whiteboard, connecting emotional reactions to trigger events. Modern minimalist interior, 8k resolution, no typography, no letters.
+
+Photorealistic scene of behavioral diversity: A compassionate psychologist observing cultural nuances as two individuals from different backgrounds greet each other with distinct greeting rituals and proxemic boundaries. Sunlit cultural center, 8k resolution, no typography, no letters.
+
+Photorealistic scene of rapid social profiling: A sharp profiler walking into a busy networking event, scanning the room and instantly identifying the dominant leaders, insecure participants, and genuine connectors within seconds. Dynamic cinematic tracking shot, 8k resolution, no typography, no letters.
+
+Photorealistic striking visual metaphor of ethical influence: Two doorways side by side; on the left, a sunlit path guided by an honest open hand; on the right, a shadowy corridor guided by hidden puppet strings. Balanced dramatic lighting, 8k resolution, no typography, no letters.
+
+Photorealistic conclusion scene of behavioral mastery: An empowered master of human analysis standing atop an urban rooftop at sunset, gazing over the bustling city below with calm wisdom, clarity, and total emotional mastery. Majestic golden hour glow, 8k resolution, no typography, no letters.
+

@@ -1,0 +1,145 @@
+=== GOOGLE FLOW PROMPTS LOTE 7 (LIBROS 33 AL 37) ===
+Total Ilustraciones: 56 Prompts (16:9 Fotorrealista)
+Instrucciones: Copia y pega el bloque correspondiente a cada libro en Google Flow.
+
+
+======================================================================
+📖 LIBRO 33: PSICOLOGÍA OBSCURA 6 EN 1 (6 PROMPTS)
+📁 Guardar en: assets/img/psicologia_obscura_6en1/
+======================================================================
+
+Photorealistic archival scene: A stack of six antique leather-bound volumes resting on a polished walnut table beside a brass astrolabe, illuminated by a single vertical ray of light through a high cathedral arch. Moody dust particles, rich textures, 8k resolution, no typography, no letters.
+
+Photorealistic historical timeline of psychology: A classical Greek philosopher's bust displayed alongside 19th-century experimental brass galvanometers and laboratory lenses on an oak workbench. Warm sepia lighting, museum atmosphere, 8k resolution, no typography, no letters.
+
+Photorealistic cognitive conceptual art: A life-size frosted glass human sculpture whose translucent interior glows with an intricate web of luminous blue and golden neural filaments. Studio dark setting, soft ambient glow, 8k resolution, no typography, no letters.
+
+Photorealistic harmony of intellect and emotion: An elegant brass scale suspended in mid-air, perfectly balancing a glowing clear crystal sphere with a gentle warm flame resting in a small ceramic crucible. Soft atmospheric haze, 8k resolution, no typography, no letters.
+
+Photorealistic spectrum of human emotion: A sharp triangular glass prism placed on polished black obsidian, dispersing a single white light beam into a brilliant palette of deep amber, crimson, and violet hues. Macro lens focus, 8k resolution, no typography, no letters.
+
+Photorealistic psychological mindfulness: A serene individual in a tranquil indoor Japanese zen garden, slowly raking perfect concentric sand circles around smooth river stones under soft morning sun. Serene peaceful aura, 8k resolution, no typography, no letters.
+
+
+======================================================================
+📖 LIBRO 34: CÓMO ANALIZAR A LAS PERSONAS CON PSICOLOGÍA OSCURA (6 PROMPTS)
+📁 Guardar en: assets/img/analizar_personas_tecnicas_secretas/
+======================================================================
+
+Photorealistic forensic profiling desk: An analyst's dark desk featuring detailed photographic contact sheets of human micro-expressions, a brass drafting compass, and an illuminated glass lens. Moody detective aesthetic, 8k resolution, no typography, no letters.
+
+Photorealistic non-verbal profiling: An observant profiler standing in an airport terminal, discreetly studying the distinct postural dynamics, foot orientations, and crossed arms of distant travelers. Cinematic telephoto lens depth, 8k resolution, no typography, no letters.
+
+Photorealistic covert manipulation metaphor: Skilled hands operating an ornate golden marionette crossbar in moody dramatic shadows, with silken threads leading downward into mist. Rich contrast, chiaroscuro lighting, 8k resolution, no typography, no letters.
+
+Photorealistic neuro-linguistic interaction: Two individuals sitting across each other in a contemporary private studio; one anchors a conversational transition with a subtle fingertip press, establishing intense hypnotic rapport. Soft cinematic glow, 8k resolution, no typography, no letters.
+
+Photorealistic deception analysis: Extreme cinematic close-up of a subject's eyes and brow during cross-examination, capturing a momentary micro-flinch of doubt under harsh directional spotlighting. High psychological tension, 8k resolution, no typography, no letters.
+
+Photorealistic mastery conclusion: A sharp, insightful professional walking confidently through a gleaming architectural atrium at dusk, completely in control of the surrounding social environment. Reflective marble floors, cinematic amber and blue hues, 8k resolution, no typography, no letters.
+
+
+======================================================================
+📖 LIBRO 35: LA GRAN MANIPULACIÓN - JAVI GARCÍA (13 PROMPTS)
+📁 Guardar en: assets/img/la_gran_manipulacion_garcia/
+======================================================================
+
+Photorealistic investigative journalism desk: A vintage editor's desk piled with newspaper broadsheets, typed manuscript dispatches, and an iconic green glass banker's lamp casting a warm circle of light. Moody atmospheric dust, 8k resolution, no typography, no letters.
+
+Photorealistic historical propaganda studio: A row of heavy vintage brass broadcast microphones standing in a cavernous art deco recording booth, bathed in dramatic overhead spotlights. Smoky atmosphere, noir cinematography, 8k resolution, no typography, no letters.
+
+Photorealistic mass media saturation: A monumental wall of glowing modern LED monitors in a public square broadcasting synchronized news feeds onto an anonymous crowd standing in passive silhouette. Moody blue and crimson reflections, 8k resolution, no typography, no letters.
+
+Photorealistic early crisis detection: Two scientists in a high-tech operations center pointing at an illuminated topographical globe with glowing anomaly clusters. Dim moody control room lighting, 8k resolution, no typography, no letters.
+
+Photorealistic institutional silence: An empty official government press conference podium surrounded by silent television broadcast cameras with blinking tally lights in an abandoned briefing hall. Dramatic cold blue lighting, 8k resolution, no typography, no letters.
+
+Photorealistic government crisis room: Senior cabinet officials gathered around an illuminated digital situation map, engaged in tense emergency deliberation. High atmospheric tension, stark overhead lighting, 8k resolution, no typography, no letters.
+
+Photorealistic urban lockdown: A sleek police patrol vehicle navigating a vast, completely deserted grand avenue at night, its flashing blue emergency lights reflecting off empty asphalt and shuttered facades. Eerie quiet, cinematic wide angle, 8k resolution, no typography, no letters.
+
+Photorealistic disinformation factory metaphor: Giant industrial printing press rollers churning out vast cascades of blank sheets into a foggy warehouse, with splatters of dark ink distorting the paper. Industrial noir aesthetic, 8k resolution, no typography, no letters.
+
+Photorealistic psychological isolation: A person seen from behind gazing through a residential window at an immense, completely vacant metropolis under an overcast sky. Melancholic cinematic mood, soft interior shadows, 8k resolution, no typography, no letters.
+
+Photorealistic economic crisis: An empty stock trading floor after hours, with curved ticker displays showing sharp red downward graphical lines reflecting on the polished floor. Stark moody composition, 8k resolution, no typography, no letters.
+
+Photorealistic narrative obedience: Citizens walking in uniform rhythm through a brutalist plaza dominated by a colossal loudspeaker horn mounted upon a concrete pedestal. Desaturated tones, oppressive dystopian grandeur, 8k resolution, no typography, no letters.
+
+Photorealistic awakening and critical thinking: A determined individual stepping through a dark doorway out into a sunlit, tranquil natural landscape, leaving behind a tangle of disconnected wires. Uplifting warm illumination, 8k resolution, no typography, no letters.
+
+Photorealistic classified newspaper archives: Endless rows of tall metal filing cabinets and labeled storage boxes stretching into depth in a subterranean library aisle, illuminated by hanging industrial lamps. Deep perspective, forensic tone, 8k resolution, no typography, no letters.
+
+
+======================================================================
+📖 LIBRO 36: SECRETOS DE PSICOLOGÍA OSCURA - DANIEL JAMES HOLLINS (14 PROMPTS)
+📁 Guardar en: assets/img/secretos_psicologia_hollins/
+======================================================================
+
+Photorealistic dark knowledge compendium: An ebony hardbound treatise with gold-edged pages resting on a dark marble pedestal beside a slow-swinging antique grandfather clock. Moody low-key lighting, 8k resolution, no typography, no letters.
+
+Photorealistic psychological hazard: A traveler carefully stepping across a suspension rope bridge over a misty canyon, where several planks are illusory shadows. Cinematic atmosphere of suspense, 8k resolution, no typography, no letters.
+
+Photorealistic art of deception: An illusionist holding a playing card toward a glass mirror, where the reflection reveals a completely different symbol in a moody parlor setting. Dramatic warm candlelight, 8k resolution, no typography, no letters.
+
+Photorealistic psychological defense: A cautious person stepping back from a disguised floor snare mechanism in an ornate mansion corridor, maintaining sharp situational awareness. Cinematic side light, 8k resolution, no typography, no letters.
+
+Photorealistic subtle propaganda: A grid of glowing antique tube radios aligned on dark wooden shelves, radiating a synchronized warm amber vacuum-tube glow in an empty studio. Atmospheric depth, 8k resolution, no typography, no letters.
+
+Photorealistic assertive refusal: A person's calm, steady hand raised in a clear stop gesture across a boardroom desk, stopping an assertive counterpart in their tracks. Sharp executive lighting, 8k resolution, no typography, no letters.
+
+Photorealistic dark human nature: A sculpted bust of black volcanic glass displaying subtle internal fissures, illuminated by a cold rim light in an austere dark museum gallery. Moody chiaroscuro, 8k resolution, no typography, no letters.
+
+Photorealistic covert influence: The silhouette of a persuader whispering from behind a translucent shoji screen, casting an elongated shadow toward an unsuspecting listener. Minimalist noir lighting, 8k resolution, no typography, no letters.
+
+Photorealistic complex psychological shadow: A large multifaceted smoky quartz prism reflecting fragmented, varied expressions of a single person's countenance. Macro depth of field, dramatic moody lighting, 8k resolution, no typography, no letters.
+
+Photorealistic engineering of consent: An operator's hand finely adjusting brass dials and calibration sliders on a vintage analog control console. Dramatic industrial lighting, rich metallic textures, 8k resolution, no typography, no letters.
+
+Photorealistic hypnotic induction: An elegant rotating golden Fibonacci spiral pendulum suspended in a quiet dim consultation room, capturing a single point of warm focused amber light. Dreamlike bokeh, 8k resolution, no typography, no letters.
+
+Photorealistic persuasion mastery: An ornate antique golden skeleton key inserted into a heavy dark iron lock, turning smoothly to open a massive door into radiant morning light. Cinematic macro focus, 8k resolution, no typography, no letters.
+
+Photorealistic duality of deceit: A subject standing between two antique silvered mirrors, one reflecting a calm pleasant gaze and the other a tense calculating side-eye. Chiaroscuro thriller lighting, 8k resolution, no typography, no letters.
+
+Photorealistic emotional sovereignty: An empowered individual standing at peace on an ocean promontory at sunrise, inhaling deeply with absolute freedom and tranquility. Golden dawn cinematic rays, expansive view, 8k resolution, no typography, no letters.
+
+
+======================================================================
+📖 LIBRO 37: MANIPULACIÓN AFECTIVA - BELÉN VITELLESCHI (17 PROMPTS)
+📁 Guardar en: assets/img/manipulacion_afectiva_belen/
+======================================================================
+
+Photorealistic intimate contemplation: A handwritten letter resting open on a rustic wooden table beside a steaming cup of tea near a rain-streaked windowpane. Warm cozy interior lighting, soft melancholic bokeh, 8k resolution, no typography, no letters.
+
+Photorealistic emotional imbalance metaphor: An elegant bonsai tree in an artisanal ceramic dish, where one side's branches bend precariously under heavy fruit while the other side remains barren. Delicate lighting, 8k resolution, no typography, no letters.
+
+Photorealistic emotional vulnerability: A delicate hand-blown glass heart resting upon a slab of rough slate, catching a fragile beam of morning sun through a window. Macro lens, high micro-detail, 8k resolution, no typography, no letters.
+
+Photorealistic couple distance: Two partners seated at opposing ends of a contemporary sofa, looking away with crossed arms and heavy, tangible emotional silence between them. Dramatic cinematic side lighting, 8k resolution, no typography, no letters.
+
+Photorealistic healthy relationship metaphor: Two artisans cooperatively fitting smooth wooden planks into a beautiful arched footbridge across a clear stream in an orchard. Warm natural sunlight, 8k resolution, no typography, no letters.
+
+Photorealistic emotional blackmail metaphor: A hand offering an exquisite crimson rose whose stem is wrapped in sharp silver thorns, glistening with tiny drops under dramatic spotlighting. Macro depth, 8k resolution, no typography, no letters.
+
+Photorealistic emotional disguises: A row of distinct Venetian carnival masks (the victim, the martyr, the savior) hanging on a dark velvet wall under moody ambient lighting. Rich decorative texture, 8k resolution, no typography, no letters.
+
+Photorealistic narcissism scene: An elegant figure enchanted by their own gilded reflection in a marble courtyard fountain, oblivious to the wilting plants in the surrounding garden. Classical chiaroscuro lighting, 8k resolution, no typography, no letters.
+
+Photorealistic digital surveillance in relationships: An illuminated smartphone glowing coldly on a dark bedside table, casting an anxious blue glow across a restless, waking person's face. Moody nocturnal cinematography, 8k resolution, no typography, no letters.
+
+Photorealistic callous emotional detachment: An exquisitely carved ice bust standing in an otherwise warm, rich living room, refusing to melt or connect with the surrounding warmth. High textural contrast, 8k resolution, no typography, no letters.
+
+Photorealistic setting personal boundaries: A resolute person closing an antique solid oak door firmly and peacefully, sealing their sanctuary against an intrusive hallway. Warm interior safety lighting, 8k resolution, no typography, no letters.
+
+Photorealistic autonomous love metaphor: Two separate elegant silver candelabras holding lit white taper candles, burning brightly side by side with distinct, independent flames. Warm golden candlelight, 8k resolution, no typography, no letters.
+
+Photorealistic releasing old attachments: An old rusted iron padlock breaking open as delicate fresh green ivy shoots sprout and push through the links. Macro garden sunlight, inspiring renewal, 8k resolution, no typography, no letters.
+
+Photorealistic emotional detox metaphor: Pure crystal-clear spring water pouring steadily into a glass goblet, flushing away cloudy dark sediment until the water is completely pure and transparent. Macro high-speed photography, 8k resolution, no typography, no letters.
+
+Photorealistic honest self-reflection: A thoughtful person holding a silver pocket mirror near a table lamp, looking at their own eyes with compassionate, honest introspection. Warm gentle lighting, 8k resolution, no typography, no letters.
+
+Photorealistic healthy relationship: A happy, authentic couple walking hand in hand through an autumnal park with golden foliage, sharing a genuine laugh with relaxed posture. Warm cinematic afternoon sunlight, 8k resolution, no typography, no letters.
+
+Photorealistic closing journey: An artisan leather journal bound with a silk ribbon, resting gracefully on a wooden bookshelf beside dried flowers. Soft sentimental lighting, peaceful closure, 8k resolution, no typography, no letters.
