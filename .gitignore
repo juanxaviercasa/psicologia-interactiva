@@ -24,6 +24,9 @@ scratch/
 scripts/curacion_libros/data/
 scripts/curacion_libros/output/
 scripts/curacion_libros/reports/
+scripts/test_*.js
+scripts/ai_*.js
+scripts/test_api.js
 
 # Python cache
 __pycache__/

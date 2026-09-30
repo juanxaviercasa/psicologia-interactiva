@@ -43,6 +43,22 @@ const server = http.createServer((req, res) => {
   }
 
   if (!fs.existsSync(safePath)) {
+    // Smart fallback for re-organized 6 en 1 assets
+    const imgPrefix = path.normalize(path.join(PUBLIC_DIR, 'assets', 'img'));
+    if (safePath.startsWith(imgPrefix)) {
+      const filename = path.basename(safePath);
+      const subdirs = ['covers', 'headers', 'lessons', 'diagrams', 'simulador', 'quizzes', 'banners', 'avatars', 'flashcards'];
+      for (const sub of subdirs) {
+        const altPath = path.join(PUBLIC_DIR, 'assets', 'img', 'psicologia_obscura_6en1', sub, filename);
+        if (fs.existsSync(altPath)) {
+          safePath = altPath;
+          break;
+        }
+      }
+    }
+  }
+
+  if (!fs.existsSync(safePath)) {
     res.writeHead(404, { 'Content-Type': 'text/plain' });
     res.end('404 Not Found');
     return;
