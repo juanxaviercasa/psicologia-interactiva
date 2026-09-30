@@ -1,1 +1,3 @@
-const BOOK_CONTENT = { modules: [] };
+const BOOK_CONTENT = {
+  "modules": []
+};
