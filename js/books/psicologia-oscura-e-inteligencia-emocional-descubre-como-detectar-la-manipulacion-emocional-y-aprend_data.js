@@ -8250,53 +8250,157 @@ const LIBROS_DATA = {
   "caseScenarios": [
     {
       "id": "cs1",
-      "category": "Defensa Personal Psicológica",
-      "title": "Caso Práctico: Cap Tulo 2 T Cnicas De La Psicolog A Oscura Ahora Que Tiene Una L Nea De Base Adecuada Para Comprend",
+      "category": "Psicología Oscura",
+      "title": "La Línea de Base en el Entorno Laboral",
       "difficulty": "Media",
-      "badge": "Guardián Mental",
-      "scenarioDescription": "Durante una situación relacionada con \"Cap Tulo 2 T Cnicas De La Psicolog A Oscura Ahora Que Tiene Una L Nea De Base Adecuada Para Comprend\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "badge": "Calibrador de Conducta",
+      "scenarioDescription": "Un compañero de trabajo muestra un comportamiento inusualmente amable y servicial justo antes de pedirte cobertura para un proyecto importante. Debes decidir si evaluar su línea de base conductual o aceptar la solicitud directamente.",
       "options": [
         {
           "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Cap Tulo 2 T Cnicas De La Psicolog A Oscura Ahora Que Tiene Una L Nea De Base Adecuada Para Comprend\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Aceptar de inmediato debido a su amabilidad repentina sin cuestionar sus motivos.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "Has caído en una trampa de persuasión superficial, ignorando la alteración repentina de su línea de base conductual.",
+          "bookInsight": "El libro enseña la importancia de establecer una línea de base adecuada para comprender las intenciones ocultas."
         },
         {
           "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Analizar su comportamiento pasado (línea de base) y cuestionar cortésmente el motivo real de su inusual favor.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Excelente calibración táctica. Al comparar su actitud actual con su línea de base, detectaste manipulación potencial.",
+          "bookInsight": "La psicología oscura opera alterando las líneas de base; reconocer esto te otorga inmunidad táctica."
         }
       ]
     },
     {
       "id": "cs2",
-      "category": "Detección en Entorno Laboral",
-      "title": "Caso Práctico: Cap Tulo Posterior Pero Es Suficiente Decir Que Sugerir No Es Sin Nimo De Hipnosis Que En Realidad E",
+      "category": "Manipulación",
+      "title": "Identificando Sugestión vs. Hipnosis",
       "difficulty": "Alta",
-      "badge": "Detective Social",
-      "scenarioDescription": "Durante una situación relacionada con \"Cap Tulo Posterior Pero Es Suficiente Decir Que Sugerir No Es Sin Nimo De Hipnosis Que En Realidad E\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "badge": "Escudo Anticonfusión",
+      "scenarioDescription": "Durante una reunión de negociación, un socio introduce sutiles sugerencias verbales que te hacen dudar de tus propios límites financieros. ¿Cómo respondes ante esta presión?",
       "options": [
         {
           "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Cap Tulo Posterior Pero Es Suficiente Decir Que Sugerir No Es Sin Nimo De Hipnosis Que En Realidad E\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Asentir y asumir que estás perdiendo el juicio o bajo un estado de trance hipnótico.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Confundir la sugestión conversacional con hipnosis profunda debilita tu capacidad de defensa.",
+          "bookInsight": "Sugerir no es sinónimo de hipnosis; se trata de implantar ideas sutiles aprovechando sesgos cognitivos."
         },
         {
           "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
+          "text": "Pausar la negociación, revisar los datos objetivos por escrito y aislar la sugerencia verbal del argumento lógico.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Neutralizaste la manipulación psicológica separando la sugestión emocional de los datos concretos.",
+          "bookInsight": "El control mental y la sugestión requieren de la ambigüedad para funcionar; la objetividad destruye su poder."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Persuasión Oscura",
+      "title": "El Vendedor de Urgencias Falsas",
+      "difficulty": "Media",
+      "badge": "Analista de Urgencias",
+      "scenarioDescription": "Un proveedor te presiona para cerrar un contrato hoy mismo utilizando argumentos persuasivos oscuros que apelan al miedo de perder una oportunidad única.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Firmar rápidamente para evitar perder la supuesta gran oportunidad.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Fuiste víctima de la persuasión oscura basada en la fabricación artificial de escasez y urgencia.",
+          "bookInsight": "La persuasión oscura explota las vulnerabilidades emocionales para acelerar la toma de decisiones sin análisis crítico."
+        },
+        {
+          "id": "opt2",
+          "text": "Solicitar tiempo para evaluar el contrato y rechazar la presión temporal artificial.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Rompiste el ciclo de presión psicológica al exigir pausas racionales.",
+          "bookInsight": "Las técnicas de persuasión oscura pierden efectividad en cuanto se introduce fricción temporal y análisis lógico."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Control Mental",
+      "title": "Aislamiento de Criterio",
+      "difficulty": "Alta",
+      "badge": "Maestro Antimanipulación",
+      "scenarioDescription": "Un líder de grupo intenta convencerte de que tus opiniones tradicionales son erróneas y que debes seguir ciegamente sus directrices para alcanzar el éxito colectivo.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Abandonar tu criterio propio y aceptar la ideología del grupo para evitar el conflicto.",
+          "outcome": "Fallo",
           "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "analysis": "Cediste ante la herramienta más compleja de la psicología oscura: el control mental y la erosión de la identidad.",
+          "bookInsight": "El control mental es la más compleja de las herramientas primarias de la psicología oscura."
+        },
+        {
+          "id": "opt2",
+          "text": "Mantener tus principios, cuestionar la validez de las directrices y buscar validación externa independiente.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Protegiste tu soberanía mental frente a intentos sistemáticos de reingeniería conductual.",
+          "bookInsight": "Preservar el pensamiento crítico es la única defensa real contra las metodologías avanzadas de control mental."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Inteligencia Emocional",
+      "title": "La Prueba de Mayer-Salovey-Caruso",
+      "difficulty": "Media",
+      "badge": "Estratega Emocional",
+      "scenarioDescription": "Te enfrentas a un test de inteligencia emocional donde debes identificar las emociones complejas de los demás en una situación de alta tensión corporativa.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Responder basándote únicamente en lo que la gente dice verbalmente, ignorando el subtexto emocional.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "Tu nivel de inteligencia emocional es superficial, lo que te hace vulnerable a manipuladores expertos.",
+          "bookInsight": "Comprender la inteligencia emocional requiere ir más allá de las palabras y descifrar el verdadero estado afectivo."
+        },
+        {
+          "id": "opt2",
+          "text": "Aplicar los principios de percepción y facilitación emocional evaluando tanto el lenguaje no verbal como el contexto.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Demostraste alta competencia según los modelos científicos de inteligencia emocional.",
+          "bookInsight": "La inteligencia emocional actúa como escudo protector frente a las dinámicas de la psicología oscura."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Empatía",
+      "title": "El Uso Armamentístico de la Empatía",
+      "difficulty": "Alta",
+      "badge": "Guardián Empático",
+      "scenarioDescription": "Una persona utiliza historias conmovedoras sobre sus desgracias para conseguir beneficios económicos constantes, apelando directamente a tu empatía.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Entregar recursos ilimitados impulsado por una respuesta puramente emocional y compasiva.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Permitiste que tu empatía fuera convertida en un arma en tu contra.",
+          "bookInsight": "La empatía puede ser instrumentalizada por la psicología oscura para doblegar las defensas de la víctima."
+        },
+        {
+          "id": "opt2",
+          "text": "Separar la compasión humana de la validación objetiva de la situación, ofreciendo ayuda estructurada pero no ciega.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Mantuviste el equilibrio entre la inteligencia emocional y la autoprotección táctica.",
+          "bookInsight": "La empatía debe ser regulada por la inteligencia emocional para evitar su explotación maliciosa."
         }
       ]
     }
@@ -8304,38 +8408,466 @@ const LIBROS_DATA = {
   "flashcards": [
     {
       "id": "fc1",
-      "term": "Rapport forzado",
-      "definition": "Técnica psicológica estudiada en \"Introduccion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Reconocer los 7 signos de la Tríada Oscura en contactos cercanos."
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Psicología Oscura",
+      "definition": "Estudio y aplicación de tácticas y comportamientos que implican la manipulación, el control y la coerción de otros.",
+      "tacticalUse": "Identificar intenciones ocultas en negociaciones y relaciones interpersonales.",
+      "countermeasure": "Establecer límites estrictos y mantener la línea de base conductual."
     },
     {
       "id": "fc2",
-      "term": "Consistencia cognitiva",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo 8 Comprender La Inteligencia Emocional Qu Es Inteligencia Emocional\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Establecer límites claros y comunicarlos asertivamente."
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Línea de Base Conductual",
+      "definition": "Patrón normal de comportamiento, lenguaje corporal y reacciones de un individuo en un estado relajado.",
+      "tacticalUse": "Detectar mentiras o intentos de manipulación al notar desviaciones repentinas.",
+      "countermeasure": "Conocer profundamente el comportamiento habitual del interlocutor antes de evaluar anomalías."
     },
     {
       "id": "fc3",
-      "term": "Triangulación",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo 1O Inteligencia Emocional Y La Sociedad Inteligencia Emocional Y El Trabajo Inteligencia Em\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Tomarse tiempo antes de responder a demandas urgentes fabricadas."
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Sugestión Conversacional",
+      "definition": "Implantación de ideas de manera indirecta sin recurrir a la hipnosis formal.",
+      "tacticalUse": "Influenciar decisiones sin generar resistencia consciente en el receptor.",
+      "countermeasure": "Cuestionar la fuente de tus propias ideas y separar el argumento de la emoción."
     },
     {
       "id": "fc4",
-      "term": "Hipnosis ericksoniana",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo 13 Test De Inteligencia Emocional La Prueba De Inteligencia Emocional Mayer Salovey Cause M\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Desarrollar independencia emocional mediante mindfulness diario."
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Manipulación Psicológica",
+      "definition": "Distorsión intencional de la realidad ajena para obtener ventajas personales.",
+      "tacticalUse": "Doblegar la voluntad ajena manteniendo una fachada de inocencia.",
+      "countermeasure": "Registrar hechos por escrito y mantener testigos objetivos."
     },
     {
       "id": "fc5",
-      "term": "Simpatía fabricada",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo 1 Qu Es La Psicolog A Oscura\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
+      "bookNumber": 1,
+      "category": "Persuasión Oscura",
+      "term": "Persuasión Oscura",
+      "definition": "Uso de técnicas retóricas y psicológicas manipuladoras disfrazadas de argumentos válidos.",
+      "tacticalUse": "Acelerar acuerdos comerciales o personales mediante la presión psicológica.",
+      "countermeasure": "Introducir fricción temporal exigiendo tiempo para pensar."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Control Mental",
+      "term": "Control Mental",
+      "definition": "Herramienta compleja de la psicología oscura destinada a erosionar la autonomía de pensamiento.",
+      "tacticalUse": "Someter la voluntad de un individuo o grupo a una agenda externa.",
+      "countermeasure": "Fomentar el pensamiento crítico independiente y la diversidad de opiniones."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "Empatía",
+      "term": "Empatía Táctica",
+      "definition": "Uso estratégico de la comprensión emocional para desarmar o influir en el oponente.",
+      "tacticalUse": "Generar falsa confianza y disuadir resistencias defensivas.",
+      "countermeasure": "No confundir comprensión con acuerdo incondicional."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Inteligencia Emocional",
+      "term": "Inteligencia Emocional (IE)",
+      "definition": "Capacidad de reconocer, comprender y gestionar nuestras propias emociones y las de los demás.",
+      "tacticalUse": "Navegar entornos sociales complejos y resistir la manipulación.",
+      "countermeasure": "Entrenamiento constante en autoconciencia y regulación afectiva."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Inteligencia Emocional",
+      "term": "Prueba MSCEIT",
+      "definition": "Test de Inteligencia Emocional de Mayer-Salovey-Caruso basado en habilidades.",
+      "tacticalUse": "Evaluar de manera científica la competencia emocional de un individuo.",
+      "countermeasure": "Desarrollar habilidades cognitivo-emocionales para superar la prueba con éxito."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Entorno Laboral",
+      "term": "IE en el Trabajo",
+      "definition": "Aplicación de la inteligencia emocional en dinámicas corporativas y de liderazgo.",
+      "tacticalUse": "Mejorar la productividad y neutralizar dinámicas de oficina tóxicas.",
+      "countermeasure": "Establecer códigos de conducta profesionales basados en la transparencia."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Aislamiento Cognitivo",
+      "definition": "Táctica para separar a la víctima de sus redes de apoyo habituales.",
+      "tacticalUse": "Incrementar la dependencia emocional hacia el manipulador.",
+      "countermeasure": "Mantener vínculos sólidos con múltiples círculos sociales independientes."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Forma de manipulación que busca hacer dudar a la víctima de su propia memoria y cordura.",
+      "tacticalUse": "Lograr el control absoluto de la narrativa en una relación.",
+      "countermeasure": "Documentar conversaciones y eventos mediante pruebas tangibles."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Persuasión Oscura",
+      "term": "Culpabilización",
+      "definition": "Táctica para transferir la responsabilidad de un problema o error a la víctima.",
+      "tacticalUse": "Eludir consecuencias negativas y someter al oponente.",
+      "countermeasure": "Establecer límites claros de responsabilidad personal."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Inteligencia Emocional",
+      "term": "Percepción Emocional",
+      "definition": "Habilidad para identificar emociones en rostros, voces y expresiones corporales.",
+      "tacticalUse": "Anticiparse a las reacciones del interlocutor.",
+      "countermeasure": "Calibrar constantemente el lenguaje no verbal propio y ajeno."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Inmunización Psicológica",
+      "definition": "Exposición controlada a argumentos manipuladores para desarrollar resistencia contra ellos.",
+      "tacticalUse": "Entrenar equipos o individuos frente a intentos futuros de coerción.",
+      "countermeasure": "Estudio activo de las tácticas descritas en la literatura especializada."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación",
+      "name": "Alteración de Línea de Base",
+      "severity": "Alta",
+      "icon": "fa-eye",
+      "howItWorks": "El manipulador altera sutilmente el contexto para que la víctima pierda su punto de referencia conductual y sea más influenciable.",
+      "redFlags": [
+        "Cambios drásticos de actitud sin motivo aparente",
+        "Insistencia en que recuerdes las cosas de forma diferente",
+        "Sensación constante de desorientación en las interacciones"
+      ],
+      "counterScript": "Prefiero que revisemos los hechos anteriores paso a paso para asegurarnos de que estamos alineados.",
+      "deepMechanism": "Explota la necesidad cognitiva humana de estabilidad y coherencia situacional."
+    },
+    {
+      "id": "t2",
+      "category": "Persuasión Oscura",
+      "name": "Sugestión Encubierta",
+      "severity": "Media",
+      "icon": "fa-brain",
+      "source": "Capítulo 4",
+      "howItWorks": "Implanta premisas falsas en la conversación cotidiana de forma que la víctima las asuma como propias.",
+      "redFlags": [
+        "Uso frecuente de frases como 'todos sabemos que tú...'",
+        "Preguntas cargadas con premisas ocultas",
+        "Premura por aceptar conclusiones sin debate"
+      ],
+      "counterScript": "No asumo esa premisa como válida. ¿Podrías fundamentarla con datos objetivos?",
+      "deepMechanism": "Aprovecha la heurística de disponibilidad y el sesgo de confirmación."
+    },
+    {
+      "id": "t3",
+      "category": "Control Mental",
+      "name": "Erosión de Autonomía",
+      "severity": "Crítica",
+      "icon": "fa-skull",
+      "howItWorks": "Desafía sistemáticamente las decisiones y el criterio de la persona hasta hacerla dependiente del juicio del manipulador.",
+      "redFlags": [
+        "Crítica constante a tus decisiones cotidianas",
+        "Sugerencias de que no puedes sobrevivir sin su guía",
+        "Aislamiento progresivo de tu red de confianza"
+      ],
+      "counterScript": "Valoro mi propia capacidad de decisión y mantendré mi postura en este asunto.",
+      "deepMechanism": "Debilita el locus de control interno generando indefensión aprendida."
+    },
+    {
+      "id": "t4",
+      "category": "Empatía",
+      "name": "Armamentización de la Empatía",
+      "severity": "Alta",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Utiliza apelaciones exageradas a la compasión para neutralizar los límites y defensas de la víctima.",
+      "redFlags": [
+        "Historias dramáticas recurrentes que buscan lástima",
+        "Presuposición de que si te niegas eres una mala persona",
+        "Demandas desproporcionadas de ayuda inmediata"
+      ],
+      "counterScript": "Comprendo tu situación, pero mis capacidades actuales son limitadas y no puedo ayudarte en esto.",
+      "deepMechanism": "Secuestra el sistema de neuronas espejo y la respuesta de altruismo natural."
+    },
+    {
+      "id": "t5",
+      "category": "Psicología Oscura",
+      "name": "Culpabilización Sistémica",
+      "severity": "Alta",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Invierte los roles de responsabilidad para que la víctima cargue con la culpa de los errores del agresor.",
+      "redFlags": [
+        "Respuestas defensivas basadas en desviar el tema hacia tus fallos",
+        "Sensación perpetua de tener que pedir disculpas",
+        "Minimización del daño causado por la otra parte"
+      ],
+      "counterScript": "Separemos mi comportamiento del tuyo; cada uno es responsable de sus propias acciones.",
+      "deepMechanism": "Activa la culpa neurótica y la disonancia cognitiva en la psique del receptor."
+    },
+    {
+      "id": "t6",
+      "category": "Inteligencia Emocional",
+      "name": "Secuestro Emocional Superficial",
+      "severity": "Media",
+      "icon": "fa-brain",
+      "howItWorks": "Provoca picos emocionales intensos (ira, miedo, euforia) para bloquear el pensamiento analítico racional.",
+      "redFlags": [
+        "Provocaciones gratuitas diseñadas para hacerte enojar",
+        "Cambios abruptos de tono en la conversación",
+        "Exigencias de respuestas instantáneas bajo presión emocional"
+      ],
+      "counterScript": "Tomemos un receso de diez minutos antes de continuar con esta conversación.",
+      "deepMechanism": "Sobrecarga la amígdala cerebral, impidiendo temporalmente la función de la corteza prefrontal."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "¿Cuál es el propósito principal de establecer una línea de base conductual según la psicología oscura?",
+      "options": [
+        "Diagnosticar trastornos psiquiátricos severos en el entorno laboral.",
+        "Detectar anomalías y posibles intentos de manipulación ante cambios repentinos.",
+        "Establecer normas estrictas de vestimenta y etiqueta social.",
+        "Acelerar los procesos de hipnosis conversacional profunda."
+      ],
+      "correctIndex": 1,
+      "explanation": "La línea de base conductual permite conocer el estado normal de una persona para identificar desviaciones que indiquen engaño o manipulación."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "De acuerdo con los conceptos del libro, ¿qué relación existe entre la sugestión y la hipnosis?",
+      "options": [
+        "Son exactamente el mismo fenómeno aplicado en diferentes contextos.",
+        "Sugerir no es sinónimo de hipnosis; la sugestión implanta ideas sutiles sin requerir estados de trance profundo.",
+        "La hipnosis es una herramienta básica de la persuasión oscura corporativa.",
+        "Ninguna relación; la sugestión es un mito desmentido por la psicología moderna."
+      ],
+      "correctIndex": 1,
+      "explanation": "El texto aclara que sugerir no equivale a hipnosis, tratándose la primera de una técnica de influencia cotidiana."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "¿Qué rol cumple la inteligencia emocional frente a las tácticas de la psicología oscura?",
+      "options": [
+        "Funciona como un escudo protector y regulador frente al secuestro emocional.",
+        "Facilita la aplicación de técnicas manipuladoras más refinadas.",
+        "Es irrelevante, ya que la psicología oscura opera únicamente a nivel cognitivo.",
+        "Sustituye por completo la necesidad de establecer límites personales."
+      ],
+      "correctIndex": 0,
+      "explanation": "La alta inteligencia emocional permite percibir y regular las emociones propias y ajenas, neutralizando los intentos de coerción."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "¿Qué evalúa principalmente la Prueba de Inteligencia Emocional de Mayer-Salovey-Caruso (MSCEIT)?",
+      "options": [
+        "La capacidad de resistencia física ante situaciones de estrés extremo.",
+        "Las habilidades basadas en la percepción, facilitación, comprensión y gestión de las emociones.",
+        "El grado de introversión o extroversión de un individuo en el trabajo.",
+        "La susceptibilidad a ser hipnotizado en entornos controlados."
+      ],
+      "correctIndex": 1,
+      "explanation": "El modelo MSCEIT mide las cuatro ramas clave de la inteligencia emocional como un conjunto de habilidades prácticas."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "¿Por qué se considera al control mental como la más compleja de las herramientas primarias de la psicología oscura?",
+      "options": [
+        "Porque requiere equipos tecnológicos avanzados para su aplicación.",
+        "Porque erosiona sistemáticamente la autonomía y la identidad del individuo hasta hacerle dependiente.",
+        "Porque es la única técnica que no puede ser contrarrestada con inteligencia emocional.",
+        "Porque se aplica exclusivamente en el ámbito político."
+      ],
+      "correctIndex": 1,
+      "explanation": "El control mental altera profundamente la estructura de pensamiento y la soberanía personal, requiriendo un proceso complejo de reingeniería."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "¿Cómo se vincula la empatía con las técnicas de la psicología oscura?",
+      "options": [
+        "La empatía anula por completo cualquier posibilidad de manipulación.",
+        "La empatía puede ser instrumentalizada y convertida en un arma para doblegar a la víctima.",
+        "La psicología oscura elimina la necesidad de sentir empatía en absoluto.",
+        "La empatía es sinónimo de persuasión oscura."
+      ],
+      "correctIndex": 1,
+      "explanation": "Los manipuladores suelen explotar la empatía natural de las personas para conseguir sus objetivos mediante la compasión inducida."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Psicología Oscura",
+      "category": "Concepto Central",
+      "definition": "Estudio de las tácticas de manipulación, coerción y control mental utilizadas en las relaciones humanas.",
+      "practicalExample": "Identificar cuando un compañero de trabajo distorsiona la información para perjudicar tu reputación."
+    },
+    {
+      "id": "g2",
+      "term": "Línea de Base",
+      "category": "Calibración",
+      "definition": "Patrón conductual estándar de una persona en condiciones normales y relajadas.",
+      "practicalExample": "Notar que alguien evita el contacto visual habitual al mentir sobre un proyecto."
+    },
+    {
+      "id": "g3",
+      "term": "Sugestión",
+      "category": "Manipulación",
+      "definition": "Proceso mediante el cual se introducen ideas o creencias de forma indirecta.",
+      "practicalExample": "Plantar la duda sobre la viabilidad de un plan diciendo 'espero que estés seguro de lo que haces'."
+    },
+    {
+      "id": "g4",
+      "term": "Control Mental",
+      "category": "Coerción",
+      "definition": "Conjunto de métodos destinados a socavar la autonomía del pensamiento de un individuo.",
+      "practicalExample": "Aislar a una persona de sus amigos para que dependa exclusivamente de una sola fuente de opinión."
+    },
+    {
+      "id": "g5",
+      "term": "Persuasión Oscura",
+      "category": "Influencia",
+      "definition": "Uso retórico de argumentos falaces y manipulación emocional para obtener ventajas.",
+      "practicalExample": "Utilizar falsas urgencias para forzar la firma inmediata de un contrato desfavorable."
+    },
+    {
+      "id": "g6",
+      "term": "Empatía Táctica",
+      "category": "Inteligencia Emocional",
+      "definition": "Uso consciente de la comprensión emocional para influir en las decisiones del interlocutor.",
+      "practicalExample": "Validar los sentimientos de un cliente molesto para disipar su agresividad inicial."
+    },
+    {
+      "id": "g7",
+      "term": "Inteligencia Emocional",
+      "category": "Habilidad",
+      "definition": "Capacidad para percibir, entender, gestionar y utilizar las emociones eficazmente.",
+      "practicalExample": "Mantener la calma y la claridad mental durante una discusión acalorada."
+    },
+    {
+      "id": "g8",
+      "term": "Prueba MSCEIT",
+      "definition": "Evaluación estandarizada de la inteligencia emocional basada en la resolución de problemas emocionales.",
+      "practicalExample": "Aplicar el test en procesos de selección para medir competencias de liderazgo."
+    },
+    {
+      "id": "g9",
+      "term": "Gaslighting",
+      "category": "Manipulación",
+      "definition": "Forma de abuso psicológico que busca hacer dudar a la víctima de su propia percepción de la realidad.",
+      "practicalExample": "Negar rotundamente haber dicho algo que consta en grabaciones o documentos."
+    },
+    {
+      "id": "g10",
+      "term": "Aislamiento Cognitivo",
+      "category": "Control",
+      "definition": "Táctica para limitar las fuentes de información y apoyo externo de una persona.",
+      "practicalExample": "Desacreditar constantemente a los amigos y familiares de la víctima."
+    },
+    {
+      "id": "g11",
+      "term": "Culpabilización",
+      "category": "Manipulación",
+      "definition": "Mecanismo para trasladar la responsabilidad de un fallo propio hacia la otra persona.",
+      "practicalExample": "Decir 'si no me hubieras interrumpido, no habría cometido este error'."
+    },
+    {
+      "id": "g12",
+      "term": "Secuestro Emocional",
+      "category": "Neuropsicología",
+      "definition": "Reacción en la cual las emociones desbordan la capacidad de razonamiento lógico.",
+      "practicalExample": "Reaccionar con ira desproporcionada ante una crítica menor."
+    },
+    {
+      "id": "g13",
+      "term": "Inmunización Psicológica",
+      "definition": "Estrategia defensiva basada en exponerse a microdosis de persuasión oscura para crear resistencia.",
+      "practicalExample": "Analizar casos prácticos de estafas para evitar caer en ellas en el futuro."
+    },
+    {
+      "id": "g14",
+      "term": "Percepción Emocional",
+      "category": "Inteligencia Emocional",
+      "definition": "Habilidad para identificar con precisión expresiones y estados afectivos ajenos.",
+      "practicalExample": "Detectar tensión en el tono de voz de un compañero durante una llamada telefónica."
+    },
+    {
+      "id": "g15",
+      "term": "Autonomía Psicológica",
+      "category": "Defensa",
+      "definition": "Independencia de criterio y soberanía sobre los propios procesos mentales y decisiones.",
+      "practicalExample": "Tomar una decisión impopular pero fundamentada en principios propios."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "CALIBRACIÓN",
+      "title": "Desviación de la Línea de Base Ocular",
+      "cue": "Cambio repentino en la dirección de la mirada o aumento drástico en la frecuencia de parpadeo al abordar un tema específico.",
+      "interpretation": "Indica incomodidad, procesamiento activo de engaño o alteración emocional ante una pregunta directa.",
+      "practicalDrill": "Observa a un compañero en tres conversaciones cotidianas para establecer su parpadeo normal antes de evaluar desviaciones."
+    },
+    {
+      "id": "bl2",
+      "category": "DETECCIÓN",
+      "title": "Microexpresiones de Congruencia",
+      "cue": "Asentimiento verbal afirmativo acompañado de una microexpresión de negación (movimiento horizontal leve de cabeza).",
+      "interpretation": "Incongruencia entre lo que se dice conscientemente y lo que el subconsciente rechaza.",
+      "practicalDrill": "Practica identificar microexpresiones en videos a velocidad reducida para mejorar tu agudeza visual."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Barreras Defensivas Posturales",
+      "cue": "Cruzarse de brazos y piernas de manera repentina al introducir una propuesta comercial.",
+      "interpretation": "Señal clara de rechazo subconsciente, cierre a la negociación o postura defensiva frente a una amenaza percibida.",
+      "practicalDrill": "Adopta una postura abierta (palmas visibles, torso relajado) para neutralizar la tensión defensiva en la otra persona."
+    },
+    {
+      "id": "bl4",
+      "category": "CALIBRACIÓN",
+      "title": "Microgestos de Tensión Facial",
+      "cue": "Tensión en los labios, compresión mandibular o contracción del músculo corrugador de la ceja.",
+      "interpretation": "Refleja estrés oculto, frustración contenida o esfuerzo por mantener una fachada de calma.",
+      "practicalDrill": "Calibra el rostro de tu interlocutor en un estado neutral para detectar estas tensiones minúsculas."
+    },
+    {
+      "id": "bl5",
+      "category": "DETECCIÓN",
+      "title": "Asimetría Gestual en Afirmaciones",
+      "cue": "Movimientos corporales unilaterales (hombro o mano) al afirmar un compromiso importante.",
+      "interpretation": "Falta de convicción interna; el cuerpo no apoya plenamente el discurso verbal.",
+      "practicalDrill": "Analiza discursos públicos prestando atención exclusiva a la simetría de los gestos manuales."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "Proxemia Intrusiva y Control Espacial",
+      "cue": "Invadir el espacio personal de manera deliberada durante una negociación para generar presión.",
+      "interpretation": "Táctica de dominio físico destinada a intimidar y reducir la capacidad de resistencia psicológica de la víctima.",
+      "practicalDrill": "Da un paso atrás de forma consciente para restablecer tu espacio personal y neutralizar la táctica de presión."
     }
   ]
 };

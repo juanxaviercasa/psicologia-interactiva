@@ -1,3 +1,4 @@
+// Contenido enriquecido para Psicología Oscura (4 en 1): Reescriba su Mente
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-layer-group\"></i> Colección: 4 Libros en 1\n    </h4>\n    <p class=\"text-slate-300 text-sm mb-4\">Esta edición especial contiene las 4 obras completas. A continuación puedes ver los títulos incluidos:</p>\n    <div class=\"grid grid-cols-2 md:grid-cols-4 gap-4\">\n        <!-- Placeholder Libro 1 -->\n        <div class=\"flex flex-col items-center group\">\n            <div class=\"w-full aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden group-hover:border-indigo-500 transition-colors\">\n                <i class=\"fa-solid fa-book-skull text-3xl text-slate-600 mb-2 group-hover:text-indigo-400 transition-colors\"></i>\n                <span class=\"text-xs text-slate-500 font-semibold uppercase tracking-wider group-hover:text-indigo-300 transition-colors\">Libro 1</span>\n                <span class=\"text-[10px] text-slate-400 mt-1 leading-tight\">Secretos de la Psicología Oscura</span>\n            </div>\n        </div>\n        <!-- Placeholder Libro 2 -->\n        <div class=\"flex flex-col items-center group\">\n            <div class=\"w-full aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden group-hover:border-emerald-500 transition-colors\">\n                <i class=\"fa-solid fa-eye text-3xl text-slate-600 mb-2 group-hover:text-emerald-400 transition-colors\"></i>\n                <span class=\"text-xs text-slate-500 font-semibold uppercase tracking-wider group-hover:text-emerald-300 transition-colors\">Libro 2</span>\n                <span class=\"text-[10px] text-slate-400 mt-1 leading-tight\">Lectura Rápida de Personas</span>\n            </div>\n        </div>\n        <!-- Placeholder Libro 3 -->\n        <div class=\"flex flex-col items-center group\">\n            <div class=\"w-full aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden group-hover:border-amber-500 transition-colors\">\n                <i class=\"fa-solid fa-brain text-3xl text-slate-600 mb-2 group-hover:text-amber-400 transition-colors\"></i>\n                <span class=\"text-xs text-slate-500 font-semibold uppercase tracking-wider group-hover:text-amber-300 transition-colors\">Libro 3</span>\n                <span class=\"text-[10px] text-slate-400 mt-1 leading-tight\">Reescriba su Mente</span>\n            </div>\n        </div>\n        <!-- Placeholder Libro 4 -->\n        <div class=\"flex flex-col items-center group\">\n            <div class=\"w-full aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden group-hover:border-rose-500 transition-colors\">\n                <i class=\"fa-solid fa-network-wired text-3xl text-slate-600 mb-2 group-hover:text-rose-400 transition-colors\"></i>\n                <span class=\"text-xs text-slate-500 font-semibold uppercase tracking-wider group-hover:text-rose-300 transition-colors\">Libro 4</span>\n                <span class=\"text-[10px] text-slate-400 mt-1 leading-tight\">Recablee su Mente</span>\n            </div>\n        </div>\n    </div>\n</div><br/>Psicología Oscura PSICOLOGÍA OSCURA (4 en 1) Este libro incluye Secretos de la psicología oscura - Lectura rápida de personas - Reescriba su mente - Recablee su mente Libro de ejercicios de Empath, Richard Spot, Benedict. © Copyright 2020 - Todos los derechos reservados. El contenido de este libro no puede ser reproducido, duplicado o transmitido sin permiso directo por escrito del autor o del editor. Bajo ninguna circunstancia se podrá culpar o responsabilizar legalmente al editor, o al autor, por cualquier daño, reparación o pérdida monetaria debido a la información contenida en este libro. Ya sea directa o indirectamente. Aviso legal: Este libro está protegido por derechos de autor. Este libro es solo para uso personal. No puede enmendar, distribuir, vender, usar, citar o parafrasear ninguna parte, o el contenido de este libro, sin el consentimiento del autor o editor. Aviso de exención de responsabilidad: Por favor, tenga en cuenta que la información contenida en este documento es solo para fines educativos y de entretenimiento. Se ha hecho todo lo posible por presentar una información precisa, actualizada, fiable y completa. No se declaran ni se implican garantías de ningún tipo. Los lectores reconocen que el autor no está comprometido en la prestación de asesoramiento legal, financiero, médico o profesional. El contenido de este libro se ha obtenido de varias fuentes. Por favor, consulte a un profesional autorizado antes de intentar cualquier técnica descrita en este li",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Preliminares E Indice\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso_m1.jpg\" alt=\"Preliminares E Indice\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-layer-group\"></i> Colección: 4 Libros en 1\n    </h4>\n    <p class=\"text-slate-300 text-sm mb-4\">Esta edición especial contiene las 4 obras completas. A continuación puedes ver los títulos incluidos:</p>\n    <div class=\"grid grid-cols-2 md:grid-cols-4 gap-4\">\n        <!-- Placeholder Libro 1 -->\n        <div class=\"flex flex-col items-center group\">\n            <div class=\"w-full aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden group-hover:border-indigo-500 transition-colors\">\n                <i class=\"fa-solid fa-book-skull text-3xl text-slate-600 mb-2 group-hover:text-indigo-400 transition-colors\"></i>\n                <span class=\"text-xs text-slate-500 font-semibold uppercase tracking-wider group-hover:text-indigo-300 transition-colors\">Libro 1</span>\n                <span class=\"text-[10px] text-slate-400 mt-1 leading-tight\">Secretos de la Psicología Oscura</span>\n            </div>\n        </div>\n        <!-- Placeholder Libro 2 -->\n        <div class=\"flex flex-col items-center group\">\n            <div class=\"w-full aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden group-hover:border-emerald-500 transition-colors\">\n                <i class=\"fa-solid fa-eye text-3xl text-slate-600 mb-2 group-hover:text-emerald-400 transition-colors\"></i>\n                <span class=\"text-xs text-slate-500 font-semibold uppercase tracking-wider group-hover:text-emerald-300 transition-colors\">Libro 2</span>\n                <span class=\"text-[10px] text-slate-400 mt-1 leading-tight\">Lectura Rápida de Personas</span>\n            </div>\n        </div>\n        <!-- Placeholder Libro 3 -->\n        <div class=\"flex flex-col items-center group\">\n            <div class=\"w-full aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden group-hover:border-amber-500 transition-colors\">\n                <i class=\"fa-solid fa-brain text-3xl text-slate-600 mb-2 group-hover:text-amber-400 transition-colors\"></i>\n                <span class=\"text-xs text-slate-500 font-semibold uppercase tracking-wider group-hover:text-amber-300 transition-colors\">Libro 3</span>\n                <span class=\"text-[10px] text-slate-400 mt-1 leading-tight\">Reescriba su Mente</span>\n            </div>\n        </div>\n        <!-- Placeholder Libro 4 -->\n        <div class=\"flex flex-col items-center group\">\n            <div class=\"w-full aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden group-hover:border-rose-500 transition-colors\">\n                <i class=\"fa-solid fa-network-wired text-3xl text-slate-600 mb-2 group-hover:text-rose-400 transition-colors\"></i>\n                <span class=\"text-xs text-slate-500 font-semibold uppercase tracking-wider group-hover:text-rose-300 transition-colors\">Libro 4</span>\n                <span class=\"text-[10px] text-slate-400 mt-1 leading-tight\">Recablee su Mente</span>\n            </div>\n        </div>\n    </div>\n</div><br/>Psicología Oscura PSICOLOGÍA OSCURA (4 en 1) Este libro incluye Secretos de la psicología oscura - Lectura rápida de personas - Reescriba su mente - Recablee su mente Libro de ejercicios de Empath, Richard Spot, Benedict. © Copyright 2020 - Todos los derechos reservados. El contenido de este libro no puede ser reproducido, duplicado o transmitido sin permiso directo por escrito del autor o del editor. Bajo ninguna circunstancia se podrá culpar o responsabilizar legalmente al editor, o al autor, por cualquier daño, reparación o pérdida monetaria debido a la información contenida en este libro. Ya sea directa o indirectamente. Aviso legal: Este libro está protegido por derechos de autor. Este libro es solo para uso personal. No puede enmendar, distribuir, vender, usar, citar o parafrasear ninguna parte, o el contenido de este libro, sin el consentimiento del autor o editor. Aviso de exención de responsabilidad: Por favor, tenga en cuenta que la información contenida en este documento es solo para fines educativos y de entretenimiento. Se ha hecho todo lo posible por presentar una información precisa, actualizada, fiable y completa. No se declaran ni se implican garantías de ningún tipo. Los lectores reconocen que el autor no está comprometido en la prestación de asesoramiento legal, financiero, médico o profesional. El contenido de este libro se ha obtenido de varias fuentes. Por favor, consulte a un profesional autorizado antes de intentar cualquier técnica descrita en este li",
           "interactiveChallenge": {
             "question": "¿Cuál es el objetivo principal de la manipulación psicológica según este capítulo?",
             "options": [
@@ -217,7 +218,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Libro 1 “Secretos oscuros de la psicología” Capítulo 1: ¿Qué es la manipulación mental? El término \"manipulación mental\" se utiliza a menudo en los medios de comunicación social y en las comunicaciones principales. De hecho, es bastante común escuchar esta expresión utilizada en referencia a grandes eventos públicos, campañas políticas y publicidad. El hecho es que la mayoría de la gente tiene una comprensión general de lo que se refiere, pero puede no tener claro lo específico de lo que abarca este término. En resumen, la manipulación mental es controlar y retorcer el estado mental de una persona para hacer que quiera hacer lo que usted quiere que se haga. Un manipulador influye en la voluntad de los demás a través del uso de engaños o técnicas solapadas. Como tal, la manipulación implica un grado de fuerza sobre los objetivos, es decir, el manipulador hará todo lo posible por obligar a sus objetivos a hacer lo que quieran, especialmente si los objetivos no desean cumplir. No hablo de secuestrar a la gente y lavarles el cerebro como se hace en las películas. Hablo de técnicas y estrategias sutiles que se usan para que otros se vayan sin que se den cuenta de que están siendo manipulados. De hecho, los mejores manipuladores hacen que parezca que la gente hace las cosas por su cuenta en lugar de actuar por la provocación de alguna fuerza externa. Sin embargo, hay un grado de fuerzas que acompañan a la manipulación. Por ejemplo, las estaciones de televisión te obligan a ver su p",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Libro 1 Cap 01 A 04 Manipulacion Y Psicologia Oscura\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso_m2.jpg\" alt=\"Libro 1 Cap 01 A 04 Manipulacion Y Psicologia Oscura\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Libro 1 “Secretos oscuros de la psicología” Capítulo 1: ¿Qué es la manipulación mental? El término \"manipulación mental\" se utiliza a menudo en los medios de comunicación social y en las comunicaciones principales. De hecho, es bastante común escuchar esta expresión utilizada en referencia a grandes eventos públicos, campañas políticas y publicidad. El hecho es que la mayoría de la gente tiene una comprensión general de lo que se refiere, pero puede no tener claro lo específico de lo que abarca este término. En resumen, la manipulación mental es controlar y retorcer el estado mental de una persona para hacer que quiera hacer lo que usted quiere que se haga. Un manipulador influye en la voluntad de los demás a través del uso de engaños o técnicas solapadas. Como tal, la manipulación implica un grado de fuerza sobre los objetivos, es decir, el manipulador hará todo lo posible por obligar a sus objetivos a hacer lo que quieran, especialmente si los objetivos no desean cumplir. No hablo de secuestrar a la gente y lavarles el cerebro como se hace en las películas. Hablo de técnicas y estrategias sutiles que se usan para que otros se vayan sin que se den cuenta de que están siendo manipulados. De hecho, los mejores manipuladores hacen que parezca que la gente hace las cosas por su cuenta en lugar de actuar por la provocación de alguna fuerza externa. Sin embargo, hay un grado de fuerzas que acompañan a la manipulación. Por ejemplo, las estaciones de televisión te obligan a ver su p",
           "interactiveChallenge": {
             "question": "En el contexto de la Psicología Oscura, ¿qué táctica es más probable que use un manipulador inicialmente?",
             "options": [
@@ -485,7 +486,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 5: ¿Cuáles son las señales de manipulación tal como se utilizan hoy en día en el mundo? La manipulación ocurre en todo tipo de relaciones en nuestra sociedad. Ocurre entre amantes, entre pastores y sus seguidores, y los políticos nos manipulan también, entre muchas otras relaciones. En este capítulo, veremos los signos de manipulación en diferentes relaciones. Iglesias La manipulación en la iglesia puede ocurrir de ambas maneras. La gente en el liderazgo de la iglesia puede manipular a sus seguidores y viceversa. Es triste ya que la mayoría de nosotros vemos a la iglesia como la fuente de su paz. La mayoría de nosotros vamos por el alimento espiritual cuando nos sentimos mal en la iglesia. ¿Qué tan triste puede ser si la iglesia puede ser la fuente de su dolor? Veamos cómo los pastores pueden manipular a sus seguidores. 1. La falta de conversaciones abiertas y honestas. En algunas iglesias, no se permite hacer preguntas. Si te encuentras en esa situación, te encuentras con excusas o despidos por no obtener la información. Está bien cuando hay preocupación por no divulgar información que interfiera con la privacidad de otros miembros. Los líderes deben asumir la responsabilidad de sus acciones y estar siempre dispuestos a explicar a los miembros por qué hay ciertas reglas. La información de la Iglesia debe estar abierta a sus miembros, y debe haber transparencia. 2. Los líderes nunca admiten sus errores. Podemos perdonar a nuestros pastores por cometer errores. Despué",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Libro 1 Cap 05 A 07 Senales Y Defensa Contra Manipulacion\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso_m3.jpg\" alt=\"Libro 1 Cap 05 A 07 Senales Y Defensa Contra Manipulacion\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 5: ¿Cuáles son las señales de manipulación tal como se utilizan hoy en día en el mundo? La manipulación ocurre en todo tipo de relaciones en nuestra sociedad. Ocurre entre amantes, entre pastores y sus seguidores, y los políticos nos manipulan también, entre muchas otras relaciones. En este capítulo, veremos los signos de manipulación en diferentes relaciones. Iglesias La manipulación en la iglesia puede ocurrir de ambas maneras. La gente en el liderazgo de la iglesia puede manipular a sus seguidores y viceversa. Es triste ya que la mayoría de nosotros vemos a la iglesia como la fuente de su paz. La mayoría de nosotros vamos por el alimento espiritual cuando nos sentimos mal en la iglesia. ¿Qué tan triste puede ser si la iglesia puede ser la fuente de su dolor? Veamos cómo los pastores pueden manipular a sus seguidores. 1. La falta de conversaciones abiertas y honestas. En algunas iglesias, no se permite hacer preguntas. Si te encuentras en esa situación, te encuentras con excusas o despidos por no obtener la información. Está bien cuando hay preocupación por no divulgar información que interfiera con la privacidad de otros miembros. Los líderes deben asumir la responsabilidad de sus acciones y estar siempre dispuestos a explicar a los miembros por qué hay ciertas reglas. La información de la Iglesia debe estar abierta a sus miembros, y debe haber transparencia. 2. Los líderes nunca admiten sus errores. Podemos perdonar a nuestros pastores por cometer errores. Despué",
           "interactiveChallenge": {
             "question": "¿Cómo se defiende uno de la lectura mental o 'cold reading' de un manipulador?",
             "options": [
@@ -1014,7 +1015,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "# Capítulo 8: Hipnosis y autohipnosis La hipnosis se refiere a la inducción de un estado de conciencia en el que una persona pierde su poder de acciones voluntarias y es altamente sensible a cualquier dirección así como a la sugestión. Es una de las terapias útiles que permite suprimir sus recuerdos y permitirá la modificación de sus comportamientos. La autohipnosis, por otro lado, se refiere a un estado mental que ocurre instintivamente y que puede ilustrarse como un estado elevado de concentración fija. En otras palabras, cambia la forma en que una persona piensa, deja los malos hábitos y se controla a sí misma. Es uno de los medios para introducir el arte de la relajación y la angustia en el día a día. Los dos aspectos son críticos en el sentido de que permiten a una mente reescribir o más bien reprogramar el subconsciente. El elemento es crucial en el sentido de que le permitirá a uno relajarse y pasar por alto las cuestiones que están afectando a alguien, introduciendo así algunas mentalidades positivas. En la mayoría de los casos, tanto las ideas como los aspectos que se inculcan en la mente son positivos y animan a repensar más y a actuar de forma diferente. Es una de las mejores maneras de mejorar la eficacia de la autosugestión y juega el debido papel de ser el sugerente y el sugerido. En otras palabras, el aspecto permite a una mente indicarse a sí misma las cosas que deben realizarse o hacerse para que una solución sea viable. Así, los dos aspectos son muy cruciale",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Libro 1 Cap 08 A 10 Hipnosis Y Mecanismo Emocional\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso_m4.jpg\" alt=\"Libro 1 Cap 08 A 10 Hipnosis Y Mecanismo Emocional\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/># Capítulo 8: Hipnosis y autohipnosis La hipnosis se refiere a la inducción de un estado de conciencia en el que una persona pierde su poder de acciones voluntarias y es altamente sensible a cualquier dirección así como a la sugestión. Es una de las terapias útiles que permite suprimir sus recuerdos y permitirá la modificación de sus comportamientos. La autohipnosis, por otro lado, se refiere a un estado mental que ocurre instintivamente y que puede ilustrarse como un estado elevado de concentración fija. En otras palabras, cambia la forma en que una persona piensa, deja los malos hábitos y se controla a sí misma. Es uno de los medios para introducir el arte de la relajación y la angustia en el día a día. Los dos aspectos son críticos en el sentido de que permiten a una mente reescribir o más bien reprogramar el subconsciente. El elemento es crucial en el sentido de que le permitirá a uno relajarse y pasar por alto las cuestiones que están afectando a alguien, introduciendo así algunas mentalidades positivas. En la mayoría de los casos, tanto las ideas como los aspectos que se inculcan en la mente son positivos y animan a repensar más y a actuar de forma diferente. Es una de las mejores maneras de mejorar la eficacia de la autosugestión y juega el debido papel de ser el sugerente y el sugerido. En otras palabras, el aspecto permite a una mente indicarse a sí misma las cosas que deben realizarse o hacerse para que una solución sea viable. Así, los dos aspectos son muy cruciale",
           "interactiveChallenge": {
             "question": "¿Cuál es el objetivo principal de la manipulación psicológica según este capítulo?",
             "options": [
@@ -1543,7 +1544,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Capítulo 11: ¿Qué habilidades de comunicación y verbales hay que desarrollar para mejorar la persuasión y las habilidades de manipulación? No hay nada tan importante como ser capaz de comunicarse eficazmente. Uno tiene que ser capaz de comunicarse verbalmente de una manera que la gente a su alrededor entienda. La gente creerá y confiará en alguien que tenga habilidades de comunicación efectivas. Esto se debe a que saben cómo hablarle a todo el mundo dependiendo de su nivel de comprensión. Hay ese tipo de competencias que uno debe tener para poder comunicarse de manera efectiva. Un manipulador necesita tener habilidades verbales para poder comunicarse eficazmente con sus víctimas. Ser capaz de hablar es más que sólo hablar. Se requiere que te asegures de transmitir la información que necesitas para comunicarte con alguien y que lo entienda. Cuando ellos entiendan y respondan de la manera que usted quiere que lo hagan, es cuando usted será capaz de decir que se ha comunicado. Es importante que un manipulador comprenda esto para que pueda utilizar las habilidades de comunicación para manipular a sus víctimas sin experimentar ningún problema de comunicación. Afortunadamente, todas estas habilidades pueden ser aprendidas o cultivadas. Los manipuladores necesitan, por lo tanto, asegurarse de que tienen las habilidades necesarias para usarlas cuando manipulan a las personas. He discutido algunas de las habilidades a continuación. Habilidades de escucha Un manipulador necesita se",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Libro 1 Cap 11 A 14 Persuasion Y Ejemplos Practicos\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso_m5.jpg\" alt=\"Libro 1 Cap 11 A 14 Persuasion Y Ejemplos Practicos\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Capítulo 11: ¿Qué habilidades de comunicación y verbales hay que desarrollar para mejorar la persuasión y las habilidades de manipulación? No hay nada tan importante como ser capaz de comunicarse eficazmente. Uno tiene que ser capaz de comunicarse verbalmente de una manera que la gente a su alrededor entienda. La gente creerá y confiará en alguien que tenga habilidades de comunicación efectivas. Esto se debe a que saben cómo hablarle a todo el mundo dependiendo de su nivel de comprensión. Hay ese tipo de competencias que uno debe tener para poder comunicarse de manera efectiva. Un manipulador necesita tener habilidades verbales para poder comunicarse eficazmente con sus víctimas. Ser capaz de hablar es más que sólo hablar. Se requiere que te asegures de transmitir la información que necesitas para comunicarte con alguien y que lo entienda. Cuando ellos entiendan y respondan de la manera que usted quiere que lo hagan, es cuando usted será capaz de decir que se ha comunicado. Es importante que un manipulador comprenda esto para que pueda utilizar las habilidades de comunicación para manipular a sus víctimas sin experimentar ningún problema de comunicación. Afortunadamente, todas estas habilidades pueden ser aprendidas o cultivadas. Los manipuladores necesitan, por lo tanto, asegurarse de que tienen las habilidades necesarias para usarlas cuando manipulan a las personas. He discutido algunas de las habilidades a continuación. Habilidades de escucha Un manipulador necesita se",
           "interactiveChallenge": {
             "question": "En el contexto de la Psicología Oscura, ¿qué táctica es más probable que use un manipulador inicialmente?",
             "options": [
@@ -2246,7 +2247,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Libro 2 “Gente de lectura rápida” Capítulo 15: Cómo comprender de antemano el carácter de una persona La investigación del laboratorio de medios de comunicación del MIT sobre las negociaciones llevó a cabo un estudio. En él, encontraron que, a través de un cuidadoso estudio del lenguaje corporal de una persona, y sin una palabra de contexto, llegaron a un excitante hallazgo. Pudieron acceder con un 87% de precisión al resultado de la negociación, que se realizó a partir de llamadas de ventas telefónicas y argumentos comerciales. Leer el lenguaje corporal para entender de antemano el carácter de una persona y luego saber cómo persuadirla fue más allá de sólo mirar su lenguaje corporal al comunicarse. En \"El lenguaje silencioso de los líderes\", Carol Goman, especialista en lenguaje corporal, escribió sobre su investigación. En ella, identificó formas en las que podíamos aprender con precisión el carácter de otra persona. La forma en que hablan nos da una pista de su naturaleza, y así, sabe cómo podríamos manipularlos. Contexto: ignorar el contexto si a menudo una forma en la que leemos el lenguaje corporal mal, por ejemplo, cruzar las manos si a menudo se ve como una señal de que se está cerrando. Pero, esto puede ser inexacto cuando el clima es frío. Lectura única: la lectura única era otra forma de cometer errores. En su lugar, Goman nos pidió que leyéramos el lenguaje corporal en grupos. Necesitábamos mirar más allá de un solo indicador para juzgar con precisión el carác",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Libro 2 Cap 15 A 18 Caracter Y Lenguaje Corporal\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso_m6.jpg\" alt=\"Libro 2 Cap 15 A 18 Caracter Y Lenguaje Corporal\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Libro 2 “Gente de lectura rápida” Capítulo 15: Cómo comprender de antemano el carácter de una persona La investigación del laboratorio de medios de comunicación del MIT sobre las negociaciones llevó a cabo un estudio. En él, encontraron que, a través de un cuidadoso estudio del lenguaje corporal de una persona, y sin una palabra de contexto, llegaron a un excitante hallazgo. Pudieron acceder con un 87% de precisión al resultado de la negociación, que se realizó a partir de llamadas de ventas telefónicas y argumentos comerciales. Leer el lenguaje corporal para entender de antemano el carácter de una persona y luego saber cómo persuadirla fue más allá de sólo mirar su lenguaje corporal al comunicarse. En \"El lenguaje silencioso de los líderes\", Carol Goman, especialista en lenguaje corporal, escribió sobre su investigación. En ella, identificó formas en las que podíamos aprender con precisión el carácter de otra persona. La forma en que hablan nos da una pista de su naturaleza, y así, sabe cómo podríamos manipularlos. Contexto: ignorar el contexto si a menudo una forma en la que leemos el lenguaje corporal mal, por ejemplo, cruzar las manos si a menudo se ve como una señal de que se está cerrando. Pero, esto puede ser inexacto cuando el clima es frío. Lectura única: la lectura única era otra forma de cometer errores. En su lugar, Goman nos pidió que leyéramos el lenguaje corporal en grupos. Necesitábamos mirar más allá de un solo indicador para juzgar con precisión el carác",
           "interactiveChallenge": {
             "question": "¿Cómo se defiende uno de la lectura mental o 'cold reading' de un manipulador?",
             "options": [
@@ -2659,7 +2660,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Capítulo 19: Lenguaje corporal en hombres y mujeres - ¿Qué son todos esos gestos que esconden las palabras no dichas? El lenguaje corporal juega un papel importante en nuestra comunicación diaria. Se refiere a los gestos y señales no verbales que tanto hombres como mujeres usan para expresar emociones con sus cuerpos sin decir una palabra. Nuestros gestos corporales y expresiones faciales dicen mucho sobre lo que no decimos cuando se trata de transmitir información. Los expertos sugieren que más de la mitad de toda la comunicación se debe a nuestro lenguaje corporal. El lenguaje corporal y aprender a interpretarlo es esencial. Al interpretar el lenguaje corporal, es vital entender el contexto de la conversación y estar atento a cualquier otra pista. Tampoco se debe llegar a una conclusión centrándose en una sola acción, sino que hay que mirar las señales como un grupo para poder llegar a la conclusión correcta. Expresiones faciales La forma en que expresamos nuestros rostros transmite mucha información a los demás. Puede que digas que estás bien, pero dependiendo de la expresión de tu cara, algunos podrán decir que no estás bien. La gente puede confiar o desconfiar de lo que dices por la expresión de tu cara... La felicidad o la aprobación se indica generalmente con una sonrisa, mientras que un rostro fruncido expresará tristeza y desaprobación. Una leve sonrisa y un ligero levantamiento de las cejas es un signo de confianza, porque es una muestra de confianza y de ser am",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Libro 2 Cap 19 A 22 Personalidad Y Comunicacion Verbal\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso_m7.jpg\" alt=\"Libro 2 Cap 19 A 22 Personalidad Y Comunicacion Verbal\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Capítulo 19: Lenguaje corporal en hombres y mujeres - ¿Qué son todos esos gestos que esconden las palabras no dichas? El lenguaje corporal juega un papel importante en nuestra comunicación diaria. Se refiere a los gestos y señales no verbales que tanto hombres como mujeres usan para expresar emociones con sus cuerpos sin decir una palabra. Nuestros gestos corporales y expresiones faciales dicen mucho sobre lo que no decimos cuando se trata de transmitir información. Los expertos sugieren que más de la mitad de toda la comunicación se debe a nuestro lenguaje corporal. El lenguaje corporal y aprender a interpretarlo es esencial. Al interpretar el lenguaje corporal, es vital entender el contexto de la conversación y estar atento a cualquier otra pista. Tampoco se debe llegar a una conclusión centrándose en una sola acción, sino que hay que mirar las señales como un grupo para poder llegar a la conclusión correcta. Expresiones faciales La forma en que expresamos nuestros rostros transmite mucha información a los demás. Puede que digas que estás bien, pero dependiendo de la expresión de tu cara, algunos podrán decir que no estás bien. La gente puede confiar o desconfiar de lo que dices por la expresión de tu cara... La felicidad o la aprobación se indica generalmente con una sonrisa, mientras que un rostro fruncido expresará tristeza y desaprobación. Una leve sonrisa y un ligero levantamiento de las cejas es un signo de confianza, porque es una muestra de confianza y de ser am",
           "interactiveChallenge": {
             "question": "¿Cuál es el objetivo principal de la manipulación psicológica según este capítulo?",
             "options": [
@@ -3188,7 +3189,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Capítulo 23: Cómo prestar atención a los detalles Para hackear eficazmente la mente de alguien, debes aprender a prestar atención a cada detalle de cada palabra que pronuncie y a los movimientos del cuerpo. Las palabras que usan son las principales señales que la gente usa para expresar sus pensamientos. Los movimientos corporales son sólo un mero refuerzo de esas palabras. Intenta crear una conexión entre cada palabra que se pronuncia y el movimiento que la acompaña, estos dos pueden ser simultáneos o separados. Aprender a relacionar las palabras y los movimientos será útil cuando busques a personas que quieran manipularte. Estudiaremos las palabras y movimientos individuales en este capítulo como una técnica de atención a los detalles. Esto será ilustrativo para facilitar la comprensión. El vínculo entre el movimiento del cuerpo y las palabras Los oradores públicos prominentes se someten a un intenso entrenamiento antes de ponerse de pie ante un público para hablar. Aquellos cercanos a figuras como presidentes y líderes religiosos le confirmarán que, en efecto, el entrenamiento puede durar varios meses o incluso años. La razón por la que esto sucede es para asegurarse de que lo que hablan a la audiencia es exactamente lo que está en su mente, ya sea la verdad o sólo mentiras. Sin embargo, uno puede seguir leyendo sus mentes con precisión a pesar de un entrenamiento vigoroso. La relación entre las palabras y los movimientos puede fácilmente venderlos; es difícil fingir e",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Libro 2 Cap 23 A 27 Mentiras Verdad Y Analisis\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso_m8.jpg\" alt=\"Libro 2 Cap 23 A 27 Mentiras Verdad Y Analisis\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Capítulo 23: Cómo prestar atención a los detalles Para hackear eficazmente la mente de alguien, debes aprender a prestar atención a cada detalle de cada palabra que pronuncie y a los movimientos del cuerpo. Las palabras que usan son las principales señales que la gente usa para expresar sus pensamientos. Los movimientos corporales son sólo un mero refuerzo de esas palabras. Intenta crear una conexión entre cada palabra que se pronuncia y el movimiento que la acompaña, estos dos pueden ser simultáneos o separados. Aprender a relacionar las palabras y los movimientos será útil cuando busques a personas que quieran manipularte. Estudiaremos las palabras y movimientos individuales en este capítulo como una técnica de atención a los detalles. Esto será ilustrativo para facilitar la comprensión. El vínculo entre el movimiento del cuerpo y las palabras Los oradores públicos prominentes se someten a un intenso entrenamiento antes de ponerse de pie ante un público para hablar. Aquellos cercanos a figuras como presidentes y líderes religiosos le confirmarán que, en efecto, el entrenamiento puede durar varios meses o incluso años. La razón por la que esto sucede es para asegurarse de que lo que hablan a la audiencia es exactamente lo que está en su mente, ya sea la verdad o sólo mentiras. Sin embargo, uno puede seguir leyendo sus mentes con precisión a pesar de un entrenamiento vigoroso. La relación entre las palabras y los movimientos puede fácilmente venderlos; es difícil fingir e",
           "interactiveChallenge": {
             "question": "En el contexto de la Psicología Oscura, ¿qué táctica es más probable que use un manipulador inicialmente?",
             "options": [
@@ -3891,7 +3892,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Libro 1 \"Psicología Oscura: reconfigura tu mente\" Capítulo 1: Importancia de la mentalidad Éxito vs. Fracaso Existe una distinción precisa entre los que tienen éxito y los que sólo desean tenerlo. La principal diferencia radica en los hábitos. Los hábitos influyen en cada decisión tomada por un individuo, que será recordada u olvidada por otros. Simplemente ajustando y modificando sus patrones de pensamiento para que se parezcan a los demostrados por las personas exitosas no sólo influirá en su vida sino que también mostrará cómo le perciben los demás. Una persona exitosa está dispuesta a hacer todo lo que una persona esperanzada a menudo duda en hacer. Hay diferentes elementos asociados con el éxito, y no se limita al trabajo duro. Es mucho más que el deseo de tener éxito. Se trata de tener el coraje de tomar las medidas necesarias para marcar la diferencia. Aquí hay algunas diferencias entre los que tienen éxito y los que no, ¿alguna te suena familiar? Abrazar el cambio Una de las principales diferencias entre los que tienen éxito y los que no lo tienen es la forma en que se enfrentan al cambio. La única cosa constante en la vida, y si quieres crecer, debes abrazar el cambio. El cambio rara vez es fácil, pero a veces tienes un descanso. Cuando tienes que salir de tu zona de confort, se vuelve complicado. En lugar de negar, esconder o temer lo desconocido, trata de abrazarlo y adaptarlo, y tu vida se volverá más fácil. Aceptar la responsabilidad Una persona exitosa nunca",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Libro 3 Cap 01 A 03 Mentalidad Y Pensamientos\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso_m9.jpg\" alt=\"Libro 3 Cap 01 A 03 Mentalidad Y Pensamientos\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Libro 1 \"Psicología Oscura: reconfigura tu mente\" Capítulo 1: Importancia de la mentalidad Éxito vs. Fracaso Existe una distinción precisa entre los que tienen éxito y los que sólo desean tenerlo. La principal diferencia radica en los hábitos. Los hábitos influyen en cada decisión tomada por un individuo, que será recordada u olvidada por otros. Simplemente ajustando y modificando sus patrones de pensamiento para que se parezcan a los demostrados por las personas exitosas no sólo influirá en su vida sino que también mostrará cómo le perciben los demás. Una persona exitosa está dispuesta a hacer todo lo que una persona esperanzada a menudo duda en hacer. Hay diferentes elementos asociados con el éxito, y no se limita al trabajo duro. Es mucho más que el deseo de tener éxito. Se trata de tener el coraje de tomar las medidas necesarias para marcar la diferencia. Aquí hay algunas diferencias entre los que tienen éxito y los que no, ¿alguna te suena familiar? Abrazar el cambio Una de las principales diferencias entre los que tienen éxito y los que no lo tienen es la forma en que se enfrentan al cambio. La única cosa constante en la vida, y si quieres crecer, debes abrazar el cambio. El cambio rara vez es fácil, pero a veces tienes un descanso. Cuando tienes que salir de tu zona de confort, se vuelve complicado. En lugar de negar, esconder o temer lo desconocido, trata de abrazarlo y adaptarlo, y tu vida se volverá más fácil. Aceptar la responsabilidad Una persona exitosa nunca",
           "interactiveChallenge": {
             "question": "¿Cómo se defiende uno de la lectura mental o 'cold reading' de un manipulador?",
             "options": [
@@ -4536,7 +4537,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 4: El paradigma es importante ¿Qué es un paradigma? Un paradigma es casi como un programa o software instalado en tu mente subconsciente. Es responsable de controlar tus hábitos y comportamientos, aparte de tus patrones de pensamiento. Si te tomas un momento para pensarlo, casi todo tu comportamiento se basa en el hábito. Desde el momento en que te levantas por la mañana hasta que te duermes por la noche, sigues una rutina específica. Puedes hacer el desayuno, beber café, navegar por los medios sociales o leer las noticias, trabajar, hacer ejercicio, comer, relajarte y dormir, y volver a hacerlo todo al día siguiente. Estos son considerados tus hábitos. Los diferentes aspectos de la vida en los que influyen tus paradigmas incluyen tu sentido de la percepción, la eficacia general, el uso del tiempo, la productividad, el pensamiento lógico y la creatividad. Un paradigma esencialmente coloca cada una de estas áreas en una caja, y sin importar cuánto lo intentes, no puedes romper estas cajas hasta que cambies tu programación mental. Todos tenemos diferentes paradigmas, pero rara vez los creamos nosotros mismos. O los heredamos, o dependen del condicionamiento ambiental. Su programación mental llega a usted desde el ADN de sus padres y sus antepasados, que se remonta a generaciones anteriores. Cada cosa a la que estás expuesto se convierte en parte de tus paradigmas. A medida que avanzas en la vida, todo lo que sucede está programado en tu mente. Cualquier idea que se les",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Libro 3 Cap 04 A 05 Paradigma Y Manipulacion\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso_m10.jpg\" alt=\"Libro 3 Cap 04 A 05 Paradigma Y Manipulacion\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 4: El paradigma es importante ¿Qué es un paradigma? Un paradigma es casi como un programa o software instalado en tu mente subconsciente. Es responsable de controlar tus hábitos y comportamientos, aparte de tus patrones de pensamiento. Si te tomas un momento para pensarlo, casi todo tu comportamiento se basa en el hábito. Desde el momento en que te levantas por la mañana hasta que te duermes por la noche, sigues una rutina específica. Puedes hacer el desayuno, beber café, navegar por los medios sociales o leer las noticias, trabajar, hacer ejercicio, comer, relajarte y dormir, y volver a hacerlo todo al día siguiente. Estos son considerados tus hábitos. Los diferentes aspectos de la vida en los que influyen tus paradigmas incluyen tu sentido de la percepción, la eficacia general, el uso del tiempo, la productividad, el pensamiento lógico y la creatividad. Un paradigma esencialmente coloca cada una de estas áreas en una caja, y sin importar cuánto lo intentes, no puedes romper estas cajas hasta que cambies tu programación mental. Todos tenemos diferentes paradigmas, pero rara vez los creamos nosotros mismos. O los heredamos, o dependen del condicionamiento ambiental. Su programación mental llega a usted desde el ADN de sus padres y sus antepasados, que se remonta a generaciones anteriores. Cada cosa a la que estás expuesto se convierte en parte de tus paradigmas. A medida que avanzas en la vida, todo lo que sucede está programado en tu mente. Cualquier idea que se les",
           "interactiveChallenge": {
             "question": "¿Cuál es el objetivo principal de la manipulación psicológica según este capítulo?",
             "options": [
@@ -5152,7 +5153,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Capítulo 6: Recableando la mente La ley de atracción Independientemente de sus creencias religiosas, edad, sexo o incluso nacionalidad, todos los humanos son susceptibles a las leyes fundamentales del universo, incluyendo la ley de atracción. Esta ley aprovecha principalmente el poder de la mente para materializar tus pensamientos en la realidad. En pocas palabras, cualquier idea puede transformarse en existencia. Si te enfocas en pensamientos negativos, siempre tendrás una nube oscura siguiéndote. Si empiezas a enfocarte en lo que quieres lograr y te mantienes positivo, tus posibilidades aumentan. La ley de atracción establece esencialmente que todo lo que pienses y tengas en el ojo de tu mente puede lograrse, siempre que tomes las medidas necesarias y te ciñas a un plan que te permita alcanzarlas. No mucha gente es consciente del verdadero impacto que esto tiene en sus vidas. Independientemente de si lo hacemos a sabiendas, actuamos como imanes enviando nuestras emociones y lo que sea que las acompañe, y atraemos esta misma energía de vuelta. Lamentablemente, muchos de nosotros todavía estamos ciegos al verdadero potencial que hay en nuestro interior, por lo que se hace bastante fácil dejar las cosas sin control. Podrías terminar enviando sentimientos negativos como una forma de pensar que lo expulsa, pero a su vez, atraer más de la emoción no deseada. Ya que tus pensamientos guían tus acciones, estos patrones de pensamiento dan como resultado que entre más negatividad",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Libro 3 Cap 06 Recableando La Mente\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso_m11.jpg\" alt=\"Libro 3 Cap 06 Recableando La Mente\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Capítulo 6: Recableando la mente La ley de atracción Independientemente de sus creencias religiosas, edad, sexo o incluso nacionalidad, todos los humanos son susceptibles a las leyes fundamentales del universo, incluyendo la ley de atracción. Esta ley aprovecha principalmente el poder de la mente para materializar tus pensamientos en la realidad. En pocas palabras, cualquier idea puede transformarse en existencia. Si te enfocas en pensamientos negativos, siempre tendrás una nube oscura siguiéndote. Si empiezas a enfocarte en lo que quieres lograr y te mantienes positivo, tus posibilidades aumentan. La ley de atracción establece esencialmente que todo lo que pienses y tengas en el ojo de tu mente puede lograrse, siempre que tomes las medidas necesarias y te ciñas a un plan que te permita alcanzarlas. No mucha gente es consciente del verdadero impacto que esto tiene en sus vidas. Independientemente de si lo hacemos a sabiendas, actuamos como imanes enviando nuestras emociones y lo que sea que las acompañe, y atraemos esta misma energía de vuelta. Lamentablemente, muchos de nosotros todavía estamos ciegos al verdadero potencial que hay en nuestro interior, por lo que se hace bastante fácil dejar las cosas sin control. Podrías terminar enviando sentimientos negativos como una forma de pensar que lo expulsa, pero a su vez, atraer más de la emoción no deseada. Ya que tus pensamientos guían tus acciones, estos patrones de pensamiento dan como resultado que entre más negatividad",
           "interactiveChallenge": {
             "question": "En el contexto de la Psicología Oscura, ¿qué táctica es más probable que use un manipulador inicialmente?",
             "options": [
@@ -5826,7 +5827,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Libro 2 \"Psicología Oscura: recablea tu libro de trabajo de la mente\" Capítulo 1: Aplicación de la manipulación y reprogramación mental en diferentes roles Como ya sabrás, tus pensamientos juegan un papel importante en tus elecciones y en la toma de decisiones en la vida diaria. Tendemos a jugar diferentes papeles a medida que la vida progresa. En esta sección, miramos estos diferentes roles y la forma en que el pensamiento negativo puede frenarnos. Tus pensamientos influyen en tu comportamiento, que a su vez, moldea tu vida. Así que, aprender a regular el pensamiento negativo y reemplazarlo con paradigmas positivos es la quintaesencia para tener éxito. Comenzando por tu personalidad y tu rol, aprenderás sobre ejercicios simples que puedes usar para cambiar tus paradigmas negativos por otros positivos. Vendedor ¿Cuál es el objetivo principal de un vendedor? Aumentar las ventas. Para ello, debe ser bueno en la creación de redes y en la comunicación efectiva con los demás. Aparte de eso, también debe ser capaz de influir en las decisiones de los demás. Para hacer esto, necesitas tener no sólo un agudo sentido de autoconciencia sino también una conciencia de los deseos de los demás. Si su objetivo es aumentar sus ventas, entonces cualquier patrón de pensamiento que no le ayude a alcanzar este objetivo es indeseable. Tal vez dudas de tu capacidad de vender, o tal vez crees que el cliente nunca hará una compra. En tal situación, alcanzar tu objetivo puede ser extremadamente difíci",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Libro 4 Cap 01 Reprogramacion Y Conclusion Final\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso/psicologia_oscura_4_en_1_este_libro_incluye_secretos_de_la_psicologia_oscura_lectura_rapida_de_perso_m12.jpg\" alt=\"Libro 4 Cap 01 Reprogramacion Y Conclusion Final\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Libro 2 \"Psicología Oscura: recablea tu libro de trabajo de la mente\" Capítulo 1: Aplicación de la manipulación y reprogramación mental en diferentes roles Como ya sabrás, tus pensamientos juegan un papel importante en tus elecciones y en la toma de decisiones en la vida diaria. Tendemos a jugar diferentes papeles a medida que la vida progresa. En esta sección, miramos estos diferentes roles y la forma en que el pensamiento negativo puede frenarnos. Tus pensamientos influyen en tu comportamiento, que a su vez, moldea tu vida. Así que, aprender a regular el pensamiento negativo y reemplazarlo con paradigmas positivos es la quintaesencia para tener éxito. Comenzando por tu personalidad y tu rol, aprenderás sobre ejercicios simples que puedes usar para cambiar tus paradigmas negativos por otros positivos. Vendedor ¿Cuál es el objetivo principal de un vendedor? Aumentar las ventas. Para ello, debe ser bueno en la creación de redes y en la comunicación efectiva con los demás. Aparte de eso, también debe ser capaz de influir en las decisiones de los demás. Para hacer esto, necesitas tener no sólo un agudo sentido de autoconciencia sino también una conciencia de los deseos de los demás. Si su objetivo es aumentar sus ventas, entonces cualquier patrón de pensamiento que no le ayude a alcanzar este objetivo es indeseable. Tal vez dudas de tu capacidad de vender, o tal vez crees que el cliente nunca hará una compra. En tal situación, alcanzar tu objetivo puede ser extremadamente difíci",
           "interactiveChallenge": {
             "question": "¿Cómo se defiende uno de la lectura mental o 'cold reading' de un manipulador?",
             "options": [
@@ -6811,6 +6812,628 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "cs1",
+      "category": "Manipulación y Psicología Oscura",
+      "title": "La oferta laboral bajo presión artificial",
+      "difficulty": "Alta",
+      "badge": "Escudo Antimanipulación",
+      "scenarioDescription": "Un reclutador utiliza tácticas de urgencia extrema y aislamiento informativo para obligarte a aceptar un contrato desventajoso en menos de 24 horas, apelando a tu miedo a perder oportunidades.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Aceptar de inmediato por miedo a quedar desempleado y perder la supuesta única oportunidad.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Caíste en la trampa de la escasez artificial y el anclaje temporal, cediendo ante la presión emocional.",
+          "bookInsight": "Los manipuladores usan la urgencia artificial para apagar el córtex prefrontal y forzar decisiones impulsivas."
+        },
+        {
+          "id": "opt2",
+          "text": "Pausar la interacción, solicitar el contrato por escrito y establecer un plazo razonable de revisión.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Neutralizaste la táctica de presión al recuperar el control del tiempo y exigir transparencia objetiva.",
+          "bookInsight": "Romper el marco temporal del manipulador restaura la capacidad de análisis racional y defensa psicológica."
+        }
+      ]
+    },
+    {
+      "id": "cs2",
+      "category": "Señales y Defensa Contra Manipulación",
+      "title": "El gaslighting sutil en el entorno laboral",
+      "difficulty": "Alta",
+      "badge": "Vigilante Cognitivo",
+      "scenarioDescription": "Un compañero de equipo altera sutilmente los registros de un proyecto y luego insinúa repetidamente que tu memoria está fallando debido al estrés.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Dudar de tu propia capacidad y disculparte por los supuestos errores de memoria.",
+          "outcome": "Fallo",
+          "wisdomScore": 15,
+          "analysis": "Permitiste que erosionaran tu sentido de realidad, cediendo el control de tu autoconcepto al manipulador.",
+          "bookInsight": "El gaslighting busca socavar la confianza en las propias percepciones para hacerte dependiente de la versión del otro."
+        },
+        {
+          "id": "opt2",
+          "text": "Consultar las copias de seguridad documentales y mantener registros escritos de cada intercambio.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Invalidaste la manipulación psicológica confrontándola con evidencia empírica inquebrantable.",
+          "bookInsight": "La documentación objetiva es el antídoto definitivo contra la distorsión sistemática de la realidad."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Hipnosis y Mecanismo Emocional",
+      "title": "La apelación emocional en una negociación de crisis",
+      "difficulty": "Media",
+      "badge": "Maestro Emocional",
+      "scenarioDescription": "Durante una discusión familiar por herencias, un familiar utiliza lágrimas fingidas y culpa para forzar una repartición desigual.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ceder en los términos económicos para evitar la confrontación emocional y calmar la culpa.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Fuiste víctima de chantaje emocional, premiando el comportamiento manipulador con concesiones injustas.",
+          "bookInsight": "El chantaje emocional utiliza el miedo, la obligación y la culpa (FOG) para doblegar la voluntad ajena."
+        },
+        {
+          "id": "opt2",
+          "text": "Validar el sentimiento sin ceder en el acuerdo, manteniendo la conversación en un plano estrictamente lógico.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Separaste la emoción simulada de los hechos objetivos, protegiendo tus intereses sin caer en la trampa.",
+          "bookInsight": "Responder con ecuanimidad y separación de contextos neutraliza las técnicas de inducción hipnótica informal."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Carácter y Lenguaje Corporal",
+      "title": "La lectura de microexpresiones en una reunión clave",
+      "difficulty": "Media",
+      "badge": "Analista Conductual",
+      "scenarioDescription": "Un socio comercial asiente verbalmente a una propuesta, pero notas una microexpresión de desprecio y tensión mandibular al cerrar el trato.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ignorar la señal corporal y confiar ciegamente en las palabras afirmativas del socio.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "Ignoraste la disonancia entre la comunicación verbal y la no verbal, exponiéndote a una traición futura.",
+          "bookInsight": "El cuerpo rara vez miente; las microexpresiones revelan la verdadera actitud emocional oculta tras la fachada."
+        },
+        {
+          "id": "opt2",
+          "text": "Hacer una pregunta de sondeo abierta para verificar si existen objeciones no expresadas.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Utilizaste la detección temprana de incongruencias para prevenir un conflicto oculto antes de que escale.",
+          "bookInsight": "Contrastar el lenguaje corporal con preguntas de calibración desarma los acuerdos falsos."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Mentiras, Verdad y Análisis",
+      "title": "La detección de engaños mediante preguntas inversas",
+      "difficulty": "Alta",
+      "badge": "Detector Humano",
+      "scenarioDescription": "Un subordinado da demasiados detalles irrelevantes y evita el contacto visual al explicar por qué falló un informe crítico.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Aceptar la narrativa excesivamente detallada asumiendo que la abundancia de datos demuestra honestidad.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "Caíste en la falacia del exceso de justificación, síntoma clásico de discursos fabricados.",
+          "bookInsight": "Los mentirosos patológicos suelen sobrecargar sus relatos con detalles innecesarios para ensayar credibilidad."
+        },
+        {
+          "id": "opt2",
+          "text": "Pedir que relate los hechos en orden cronológico inverso para evidenciar inconsistencias en la invención.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Desmontaste la mentira utilizando la carga cognitiva del engaño en su propia contra.",
+          "bookInsight": "Recordar una mentira al revés exige un esfuerzo cognitivo masivo que desenmascara al fabulador."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Recableando la Mente",
+      "title": "La ruptura de patrones de autosabotaje",
+      "difficulty": "Alta",
+      "badge": "Arquitecto Mental",
+      "scenarioDescription": "Identificas un diálogo interno recurrente que te convence de que no estás preparado para liderar un nuevo proyecto estratégico.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Renunciar a la oportunidad y esperar a sentirte 100% seguro antes de intentar algo nuevo.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Permitiste que los sesgos cognitivos y el miedo limitaran tu crecimiento profesional y personal.",
+          "bookInsight": "Esperar la ausencia total de miedo es una trampa mental para mantener la zona de confort."
+        },
+        {
+          "id": "opt2",
+          "text": "Reestructurar el pensamiento limitante mediante evidencia pasada y asumir la tarea como un experimento de aprendizaje.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Recableaste tu respuesta mental transformando el miedo en un estímulo de acción controlada.",
+          "bookInsight": "La reprogramación mental requiere identificar el sesgo y reemplazarlo conscientemente mediante neuroplasticidad activa."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc1",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Táctica de manipulación psicológica diseñada para hacer que la víctima dude de su propia cordura, memoria o percepción de la realidad.",
+      "tacticalUse": "Inducir dependencia absoluta haciendo que el sujeto confíe únicamente en el criterio del manipulador.",
+      "countermeasure": "Mantener registros escritos, diarios objetivos y buscar validación externa de terceros de confianza."
+    },
+    {
+      "id": "fc2",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Anclaje Psicológico",
+      "definition": "Sesgo cognitivo donde la mente humana depende demasiado de la primera pieza de información ofrecida (el 'ancla') al tomar decisiones.",
+      "tacticalUse": "Establecer la primera cifra o condición extrema en una negociación para sesgar todas las contraofertas.",
+      "countermeasure": "Reconocer el ancla, suspender la decisión y redefinir los parámetros basándose en valores de mercado objetivos."
+    },
+    {
+      "id": "fc3",
+      "bookNumber": 1,
+      "category": "Influencia",
+      "term": "Principio de Escasez",
+      "definition": "Técnica de persuasión basada en la percepción de que los ítems o oportunidades son limitados en cantidad o tiempo.",
+      "tacticalUse": "Acelerar la toma de decisiones impulsivas eliminando el tiempo de reflexión crítica.",
+      "countermeasure": "Introducir una pausa artificial y preguntarse si el valor del objeto se mantiene sin el factor urgencia."
+    },
+    {
+      "id": "fc4",
+      "bookNumber": 1,
+      "category": "Emoción",
+      "term": "Triángulo FOG (Miedo, Obligación, Culpa)",
+      "definition": "Dinámica de control emocional empleada por manipuladores para mantener a sus objetivos sumisos y complacientes.",
+      "tacticalUse": "Explotar la empatía y la moralidad del sujeto para que actúe en contra de sus propios intereses.",
+      "countermeasure": "Identificar el chantaje emocional y establecer límites asertivos sin justificaciones excesivas."
+    },
+    {
+      "id": "fc5",
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Confusión Inducida",
+      "definition": "Método de saturación cognitiva donde se abruma al interlocutor con datos complejos o contrarios para facilitar la sugestionabilidad.",
+      "tacticalUse": "Bajar las defensas críticas del sujeto para plantar sugerencias o acuerdos favorables.",
+      "countermeasure": "Detener el discurso, simplificar el problema a una sola premisa y exigir claridad absoluta."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 2,
+      "category": "Lenguaje Corporal",
+      "term": "Microexpresiones",
+      "definition": "Expresiones faciales involuntarias y extremadamente breves que duran una fracción de segundo, revelando emociones reprimidas.",
+      "tacticalUse": "Detectar mentiras o incongruencias entre lo que una persona dice y lo que realmente siente.",
+      "countermeasure": "Entrenar la observación focalizada y calibrar la línea base del comportamiento del interlocutor."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 2,
+      "category": "Comunicación",
+      "term": "Proximémica",
+      "definition": "Estudio del uso del espacio físico y la distancia interpersonal en la comunicación no verbal y las relaciones de poder.",
+      "tacticalUse": "Invadir el espacio personal para intimidar o establecer dominio jerárquico sutil.",
+      "countermeasure": "Reclamar y mantener firmemente el territorio personal manteniendo una postura erguida y calmada."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 2,
+      "category": "Personalidad",
+      "term": "Triada Oscura",
+      "definition": "Conjunto de rasgos de personalidad que incluye maquiavelismo, narcisismo y psicopatía subclínica.",
+      "tacticalUse": "Identificar patrones de comportamiento manipulador, falta de empatía y búsqueda de poder a cualquier costo.",
+      "countermeasure": "Establecer límites estrictos, evitar la vulnerabilidad emocional y documentar todas las interacciones."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 2,
+      "category": "Análisis",
+      "term": "Línea Base Conductual",
+      "definition": "Patrón de comportamiento habitual, tono de voz y lenguaje corporal de una persona en un estado relajado y sincero.",
+      "tacticalUse": "Servir como punto de comparación para detectar desviaciones causadas por estrés, engaño o manipulación.",
+      "countermeasure": "Observar al individuo en situaciones neutrales antes de realizar evaluaciones críticas."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 3,
+      "category": "Mentalidad",
+      "term": "Sesgo de Confirmación",
+      "definition": "Tendencia a buscar, interpretar y recordar información que confirme las creencias previas, ignorando la evidencia contradictoria.",
+      "tacticalUse": "Mantener al sujeto atrapado en ideologías o creencias manipuladas mediante filtros informativos.",
+      "countermeasure": "Buscar activamente argumentos y datos que refuten las propias hipótesis."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 3,
+      "category": "Paradigma",
+      "term": "Marcos de Realidad (Frames)",
+      "definition": "Estructuras conceptuales o perspectivas a través de las cuales las personas interpretan los eventos y las interacciones.",
+      "tacticalUse": "Imponer un marco propio en una conversación para obligar a los demás a operar bajo tus reglas.",
+      "countermeasure": "Reconocer el marco dominante y rechazarlo redefiniendo los términos del debate ('romper el frame')."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 3,
+      "category": "Recableado",
+      "term": "Neuroplasticidad",
+      "definition": "Capacidad del cerebro para formar y reorganizar conexiones sinápticas, especialmente en respuesta al aprendizaje o la experiencia.",
+      "tacticalUse": "Modificar patrones de pensamiento destructivos mediante la práctica consciente de nuevos hábitos mentales.",
+      "countermeasure": "Sustituir rutinas de pensamiento negativo por respuestas cognitivas constructivas y repetitivas."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 4,
+      "category": "Reprogramación",
+      "term": "Inundación Cognitiva",
+      "definition": "Técnica de exposición controlada a estímulos o pensamientos temidos para reducir la respuesta de ansiedad.",
+      "tacticalUse": "Desactivar fobias o bloqueos mentales que impiden la toma de decisiones asertivas.",
+      "countermeasure": "Aplicar técnicas de regulación respiratoria y desactivación del sistema nervioso autónomo."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Reciprocidad Forzada",
+      "definition": "Obligación psicológica sentida de devolver un favor o concesión, incluso cuando no se ha solicitado el estímulo inicial.",
+      "tacticalUse": "Obtener compromisos desproporcionados ofreciendo regalos o favores no solicitados.",
+      "countermeasure": "Aceptar el regalo solo si se puede desvincular de cualquier obligación futura, o rechazarlo cortésmente."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 2,
+      "category": "Mentiras",
+      "term": "Carga Cognitiva del Engaño",
+      "definition": "Esfuerzo mental adicional requerido para inventar y mantener una mentira coherente frente a la realidad.",
+      "tacticalUse": "Saturar al mentiroso con preguntas complejas y repentinas para que su discurso colapse.",
+      "countermeasure": "Mantener la veracidad en las comunicaciones para evitar el desgaste mental del engaño."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación Emocional",
+      "name": "Aislamiento Progresivo",
+      "severity": "Crítica",
+      "icon": "fa-user-ninja",
+      "howItWorks": "El manipulador desacredita sistemáticamente a la red de apoyo de la víctima (amigos, familiares) para volverse la única fuente de validación y referencia.",
+      "redFlags": [
+        "Críticas constantes hacia tus seres queridos sin motivo real.",
+        "Incentivos sutiles para pasar menos tiempo fuera del círculo del manipulador.",
+        "Sensación de que solo esa persona te comprende de verdad."
+      ],
+      "counterScript": "Mantendré y fortaleceré mis vínculos externos de manera independiente. Mis relaciones personales no están sujetas a tu aprobación.",
+      "deepMechanism": "Aprovecha la necesidad evolutiva de pertenencia a la tribu, cortando los sistemas alternativos de seguridad social y emocional."
+    },
+    {
+      "id": "t2",
+      "category": "Técnicas de Poder",
+      "name": "El Juego de la Culpa Invertida (DARVO)",
+      "severity": "Alta",
+      "icon": "fa-skull",
+      "howItWorks": "Denegar el ataque, ataca a la víctima y invierte los roles de culpable y víctima para eludir la responsabilidad.",
+      "redFlags": [
+        "Cuando señalas un error, terminas disculpándote tú.",
+        "El agresor se posiciona como la verdadera víctima de tu reclamo.",
+        "Uso de generalizaciones extremas para desviar el foco del problema original."
+      ],
+      "counterScript": "No voy a desviar el foco. Estamos discutiendo el comportamiento específico X, no mis reacciones ante él.",
+      "deepMechanism": "Utiliza la disonancia cognitiva y la empatía de la víctima para generar confusión moral y evitar la rendición de cuentas."
+    },
+    {
+      "id": "t3",
+      "category": "Influencia Subconsciente",
+      "name": "Culpabilización Preventiva",
+      "severity": "Media",
+      "icon": "fa-brain",
+      "howItWorks": "Anticiparse a los reproches mostrando un falsa vulnerabilidad para desarmar cualquier crítica legítima antes de que sea expresada.",
+      "redFlags": [
+        "Autoexculpaciones antes de cometer una acción cuestionable.",
+        "Uso excesivo de 'sé que soy terrible en esto, pero...'.",
+        "Apelación constante a la compasión para evitar evaluaciones de desempeño."
+      ],
+      "counterScript": "Entiendo tu postura, pero evaluemos el resultado objetivo del trabajo independientemente de tus intenciones.",
+      "deepMechanism": "Bloquea el juicio crítico del interlocutor al activar prematuramente el circuito de la compasión y el perdón."
+    },
+    {
+      "id": "t4",
+      "category": "Guerra Psicológica",
+      "name": "Ambigüedad Calculada",
+      "severity": "Alta",
+      "icon": "fa-eye",
+      "howItWorks": "Mantener señales mixtas (interés extremo seguido de indiferencia total) para generar adicción psicológica y ansiedad por aprobación.",
+      "redFlags": [
+        "Cambios drásticos y sin causa aparente en el trato recibido.",
+        "Mensajes contradictorios entre palabras y acciones.",
+        "Sensación constante de estar caminando sobre cáscaras de huevo."
+      ],
+      "counterScript": "La inconsistencia en la comunicación no es funcional para mí. Necesito claridad o daré por terminada la interacción.",
+      "deepMechanism": "Estimula el sistema de recompensa intermitente en el cerebro, idéntico al mecanismo neuroquímico de las máquinas tragamonedas."
+    },
+    {
+      "id": "t5",
+      "category": "Defensa Táctica",
+      "name": "El Anclaje de Límites",
+      "severity": "Crítica",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Establecer barreras conductuales claras y consecuencias inquebrantables ante cualquier intento de invasión psicológica.",
+      "redFlags": [
+        "Pruebas constantes de resistencia a tus normas personales.",
+        "Minimización de tus peticiones de respeto ('era una broma', 'exageras').",
+        "Invasión repetida del espacio físico o digital."
+      ],
+      "counterScript": "Esta es la última vez que advierto sobre este comportamiento. Si se repite, suspenderemos la comunicación.",
+      "deepMechanism": "Reentrena el cerebro del manipulador al asociar su conducta transgresora con una consecuencia negativa inmediata y predecible."
+    },
+    {
+      "id": "t6",
+      "category": "Análisis Conductual",
+      "name": "Incongruencia Sistémica",
+      "severity": "Media",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Detectar desalineaciones entre el canal verbal, paraverbal y no verbal para descubrir intenciones ocultas.",
+      "redFlags": [
+        "Decir 'sí' con la cabeza mientras se realizan microgestos de rechazo.",
+        "Tono de voz plano o forzado al expresar entusiasmo.",
+        "Rigidez corporal inusual durante una supuesta charla casual."
+      ],
+      "counterScript": "Tus palabras dicen una cosa, pero tu lenguaje corporal expresa reticencia. ¿Hay algo que no me estás diciendo?",
+      "deepMechanism": "El sistema nervioso autónomo controla la comunicación no verbal, traicionando el discurso consciente fabricado."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal de la táctica de 'Gaslighting' según la psicología oscura?",
+      "options": [
+        "Aumentar la autoestima de la víctima mediante elogios constantes.",
+        "Hacer que la víctima dude de su propia percepción de la realidad y dependa del manipulador.",
+        "Negociar términos comerciales justos y transparentes.",
+        "Mejorar la memoria a corto plazo mediante ejercicios cognitivos."
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting busca socavar sistemáticamente la confianza en las propias facultades mentales para desestabilizar el criterio de la víctima."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "¿Cómo opera el sesgo de 'Anclaje' en una negociación manipuladora?",
+      "options": [
+        "Bloqueando totalmente la capacidad de comunicación del interlocutor.",
+        "Estableciendo un referente inicial extremo que sesga todas las valoraciones posteriores.",
+        "Generando empatía profunda a través de la vulnerabilidad compartida.",
+        "Eliminando la necesidad de contratos escritos."
+      ],
+      "correctIndex": 1,
+      "explanation": "El anclaje fija un parámetro inicial (precio, plazo o condición) que condiciona cognitivamente todas las estimaciones subsiguientes."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 2,
+      "question": "¿Qué revelan principalmente las microexpresiones faciales en un análisis conductual?",
+      "options": [
+        "El coeficiente intelectual de la persona.",
+        "Las intenciones futuras planificadas a largo plazo.",
+        "Emociones genuinas que el individuo intenta reprimir u ocultar.",
+        "El estado de salud física general."
+      ],
+      "correctIndex": 2,
+      "explanation": "Las microexpresiones son fugaces e involuntarias, filtrando la verdadera emoción que la persona busca disimular."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 3,
+      "question": "¿Qué representa el concepto de 'Marcos de Realidad' (Frames) en la comunicación estratégica?",
+      "options": [
+        "Los límites físicos de una habitación.",
+        "La estructura conceptual y perspectiva desde la cual se interpreta una interacción.",
+        "Un registro fotográfico de las expresiones corporales.",
+        "Las leyes jurídicas que regulan un contrato."
+      ],
+      "correctIndex": 1,
+      "explanation": "Quien impone el marco de realidad define las reglas, el tono y los significados aceptados dentro de la dinámica comunicativa."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 4,
+      "question": "¿Cuál es el propósito de aplicar la 'Carga Cognitiva del Engaño' al interrogar a un posible mentiroso?",
+      "options": [
+        "Hacer que se sienta cómodo para que confiese voluntariamente.",
+        "Saturar su capacidad mental al exigir tareas complejas como relatar los hechos en orden inverso.",
+        "Ofrecerle incentivos económicos para decir la verdad.",
+        "Disminuir su ritmo cardíaco mediante técnicas de relajación."
+      ],
+      "correctIndex": 1,
+      "explanation": "Mentir requiere un alto esfuerzo mental; añadir complejidad cognitiva expone las contradicciones del discurso fabricado."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "¿Qué caracteriza al triángulo FOG en el contexto del chantaje emocional?",
+      "options": [
+        "Felicidad, Optimismo y Gratitud.",
+        "Miedo (Fear), Obligación (Obligation) y Culpa (Guilt).",
+        "Fuerza, Orden y Gobierno.",
+        "Flexibilidad, Objetividad y Genialidad."
+      ],
+      "correctIndex": 1,
+      "explanation": "FOG (niebla en inglés) representa las tres palancas emocionales oscuras utilizadas para doblegar la voluntad de las personas."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Gaslighting",
+      "category": "Manipulación",
+      "definition": "Forma de abuso psicológico que distorsiona la verdad para sembrar dudas en la estabilidad mental de la víctima.",
+      "practicalExample": "Negar categóricamente haber dicho algo que consta en grabaciones para hacer creer al otro que imagina cosas."
+    },
+    {
+      "id": "g2",
+      "term": "Anclaje",
+      "category": "Sesgos Cognitivos",
+      "definition": "Dependencia excesiva de la primera información recibida al tomar decisiones posteriores.",
+      "practicalExample": "Ofrecer un producto a un precio exageradamente alto para que el descuento posterior parezca una ganga irresistible."
+    },
+    {
+      "id": "g3",
+      "term": "Microexpresión",
+      "category": "Lenguaje Corporal",
+      "definition": "Movimiento facial involuntario que dura milisegundos y muestra emociones reprimidas.",
+      "practicalExample": "Una fracción de segundo de sonrisa cínica mientras se expresa pésame verbal."
+    },
+    {
+      "id": "g4",
+      "term": "Proximémica",
+      "category": "Comunicación No Verbal",
+      "definition": "Uso estratégico del espacio personal y la distancia en las interacciones humanas.",
+      "practicalExample": "Invadir el espacio físico de un negociador para generar incomodidad y ventaja psicológica."
+    },
+    {
+      "id": "g5",
+      "term": "Triada Oscura",
+      "category": "Personalidad",
+      "definition": "Constelación de rasgos que incluye narcisismo, maquiavelismo y psicopatía subclínica.",
+      "practicalExample": "Un líder que manipula sin remordimientos los logros de su equipo para beneficiarse personalmente."
+    },
+    {
+      "id": "g6",
+      "term": "Reciprocidad Forzada",
+      "category": "Persuasión",
+      "definition": "Imposición de un favor no solicitado para generar una deuda psicológica exigible.",
+      "practicalExample": "Regalar un objeto promocional costoso para obligar al cliente a escuchar una larga presentación de ventas."
+    },
+    {
+      "id": "g7",
+      "term": "Línea Base Conductual",
+      "category": "Análisis",
+      "definition": "Comportamiento estándar de un individuo en condiciones de tranquilidad y honestidad.",
+      "practicalExample": "Observar cómo gesticula habitualmente una persona al responder preguntas neutrales antes de interrogarla."
+    },
+    {
+      "id": "g8",
+      "term": "Marco (Frame)",
+      "category": "Estrategia",
+      "definition": "Estructura mental que define el contexto y las reglas de interpretación de una conversación.",
+      "practicalExample": "Establecer desde el inicio de una reunión que el tiempo disponible es de solo diez minutos, condicionando la urgencia."
+    },
+    {
+      "id": "g9",
+      "term": "Neuroplasticidad",
+      "category": "Recableado Mental",
+      "definition": "Capacidad neuronal para modificar conexiones y crear nuevos patrones de pensamiento.",
+      "practicalExample": "Reemplazar un diálogo interno derrotista por afirmaciones de competencia mediante práctica diaria."
+    },
+    {
+      "id": "g10",
+      "term": "Chantaje Emocional (FOG)",
+      "category": "Manipulación",
+      "definition": "Uso de miedo, obligación y culpa para controlar las decisiones de otros.",
+      "practicalExample": "Decir 'si me quieres de verdad, harás esto por mí, aunque te perjudique'."
+    },
+    {
+      "id": "g11",
+      "term": "Carga Cognitiva",
+      "definition": "Esfuerzo mental aplicado en la memoria de trabajo durante una tarea.",
+      "practicalExample": "Hacer preguntas imprevistas en orden cronológico inverso para saturar la capacidad de invención de un mentiroso."
+    },
+    {
+      "id": "g12",
+      "term": "Sesgo de Confirmación",
+      "category": "Sesgos Cognitivos",
+      "definition": "Tendencia a favorecer información que valida creencias preexistentes.",
+      "practicalExample": "Leer únicamente noticias que apoyan una postura política y descartar todas las evidencias contrarias."
+    },
+    {
+      "id": "g13",
+      "term": "Aislamiento Progresivo",
+      "category": "Manipulación Oscura",
+      "definition": "Estrategia para separar a un individuo de su red de apoyo social.",
+      "practicalExample": "Criticar sistemáticamente a los amigos de la pareja hasta lograr que dejen de frecuentarlos."
+    },
+    {
+      "id": "g14",
+      "term": "DARVO",
+      "category": "Tácticas de Defensa",
+      "definition": "Denegar, Atacar y Revertir el Rol de Víctima y Ofensor.",
+      "practicalExample": "Acusar a tu pareja de ser 'demasiado sensible' cuando le reclamas una falta de respeto evidente."
+    },
+    {
+      "id": "g15",
+      "term": "Escasez Artificial",
+      "definition": "Ilusión de limitación creada para acelerar la toma de decisiones impulsivas.",
+      "practicalExample": "Anunciar que quedan 'solo dos plazas disponibles' en un curso en línea ilimitado."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "DETECCIÓN",
+      "title": "Calibración de la Línea Base",
+      "cue": "Observar gestos de confort, tono de voz habitual, postura relajada y patrones de parpadeo en un contexto neutral.",
+      "interpretation": "Establece el punto de partida conductual del sujeto, permitiendo identificar anomalías causadas por estrés o engaño posterior.",
+      "practicalDrill": "Mantén una charla trivial de 5 minutos con tu interlocutor prestando atención exclusiva a sus manierismos naturales antes de tratar temas complejos."
+    },
+    {
+      "id": "bl2",
+      "category": "DETECCIÓN",
+      "title": "Disonancia Verbal y No Verbal",
+      "cue": "Asentimiento verbal con la cabeza ('sí') combinado con un microgesto lateral de negación o rigidez corporal.",
+      "interpretation": "Revela desacuerdo interno profundo o simulación deliberada de aceptación ante una propuesta.",
+      "practicalDrill": "Haz una pregunta de prueba sobre un acuerdo inminente y observa milimétricamente el movimiento del cuello y mandíbula."
+    },
+    {
+      "id": "bl3",
+      "category": "CALIBRACIÓN",
+      "title": "Bloqueo de Autoprotección",
+      "cue": "Cruzarse de brazos, tocarse el cuello o crear barreras físicas (como colocar objetos entre ambos) ante una pregunta directa.",
+      "interpretation": "Indica incomodidad psicológica, actitud defensiva o sensación de amenaza ante la información expuesta.",
+      "practicalDrill": "Observa el momento exacto en que tu interlocutor modifica su postura defensiva al introducir un tema delicado en la conversación."
+    },
+    {
+      "id": "bl4",
+      "category": "DEFENSA",
+      "title": "Postura de Expansión Territorial",
+      "cue": "Hombros hacia atrás, torso erguido, ocupación natural del espacio y contacto visual firme pero no intimidatorio.",
+      "interpretation": "Proyecta seguridad, dominio del marco de realidad y resistencia efectiva a intentos de intimidación.",
+      "practicalDrill": "Practica mantener la postura de poder neutra durante situaciones de alta presión o negociaciones difíciles."
+    },
+    {
+      "id": "bl5",
+      "category": "DETECCIÓN",
+      "title": "Sobrecarga de Detalle Fabricado",
+      "cue": "Exceso de justificaciones innecesarias, rigidez en la mirada fija (evitando el parpadeo natural) y ausencia de errores espontáneos.",
+      "interpretation": "Síntoma clásico de un relato ensayado o fabricado para ocultar la verdad real de los hechos.",
+      "practicalDrill": "Solicita un resumen cronológico inverso de un acontecimiento y analiza si el exceso de detalles se quiebra."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "Neutralización de la Invasión Espacial",
+      "cue": "Mantener la distancia de seguridad (proximémica neutra), dar un paso lateral y reorientar el ángulo corporal sin retroceder.",
+      "interpretation": "Anula el intento de dominación física y recoloca la interacción en un plano de igualdad negociadora.",
+      "practicalDrill": "Simula una aproximación invasiva con un compañero y practica recuperar tu espacio personal con elegancia y firmeza."
     }
   ]
 };

@@ -4134,53 +4134,157 @@ const LIBROS_DATA = {
   "caseScenarios": [
     {
       "id": "cs1",
-      "category": "Detección en Entorno Laboral",
-      "title": "Caso Práctico: Capitulo 6 Manejo De Personas Mediante Persuasion",
+      "category": "Analisis De Los Tipos De Personalidad",
+      "title": "Negociación con un Perfil Narcisista",
       "difficulty": "Alta",
-      "badge": "Detective Social",
-      "scenarioDescription": "Durante una situación relacionada con \"Capitulo 6 Manejo De Personas Mediante Persuasion\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "badge": "Maestro del Perfilado",
+      "scenarioDescription": "Te encuentras en una reunión de alta dirección donde un colega con rasgos narcisistas evidentes intenta descalificar tu propuesta frente a los superiores, buscando validación pública y socavando tu autoridad.",
       "options": [
         {
           "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Capitulo 6 Manejo De Personas Mediante Persuasion\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Atacar su ego directamente señalando sus errores pasados frente a todos.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Un ataque directo activa los mecanismos de defensa narcisistas, provocando una guerra de desgaste contraproducente.",
+          "bookInsight": "El libro enseña que los tipos de personalidad narcisista deben manejarse alimentando sutilmente su necesidad de reconocimiento mientras se asegura el objetivo propio."
         },
         {
           "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Alabar públicamente su visión general y luego enmarcar tu propuesta como el vehículo perfecto para hacer brillar sus ideas.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Al alinear tu propuesta con su necesidad de protagonismo, neutralizas la resistencia y obtienes su aprobación indirecta.",
+          "bookInsight": "El análisis de personalidades permite redirigir los motivos egoístas del interlocutor hacia resultados favorables para uno mismo."
         }
       ]
     },
     {
       "id": "cs2",
-      "category": "Relaciones Interpersonales",
-      "title": "Caso Práctico: Capitulo 7 Manejar A La Gente Usando La Pnl",
+      "category": "Como Manejar El Lenguaje Corporal",
+      "title": "Interpretación de Microexpresiones en Entrevista",
       "difficulty": "Media",
-      "badge": "Experto en Vínculos",
-      "scenarioDescription": "Durante una situación relacionada con \"Capitulo 7 Manejar A La Gente Usando La Pnl\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "badge": "Lector de Rostros",
+      "scenarioDescription": "Estás cerrando un acuerdo comercial. Tu contraparte dice verbalmente que está de acuerdo con los términos, pero notas que cruza los brazos y desvía la mirada hacia la izquierda al asentir.",
       "options": [
         {
           "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Capitulo 7 Manejar A La Gente Usando La Pnl\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Ignorar la señal corporal y proceder a firmar el contrato inmediatamente.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "Ignorar la incongruencia entre la comunicación verbal y la no verbal suele llevar a sorpresas desagradables posteriores.",
+          "bookInsight": "El lenguaje corporal revela la verdadera intención cuando las palabras intentan enmascararla."
         },
         {
           "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Hacer una pausa, sonreír y pedir su opinión sobre un detalle menor para calibrar su verdadera postura.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Rompes el patrón de tensión y das espacio para que emerja la verdadera objeción oculta tras la postura defensiva.",
+          "bookInsight": "Dominar el lenguaje corporal implica detectar microincongruencias para ajustar la estrategia de influencia."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Motivos De La Manipulacion",
+      "title": "Descubriendo Motivos Ocultos",
+      "difficulty": "Alta",
+      "badge": "Analista de Motivos",
+      "scenarioDescription": "Un conocido te ofrece un favor desmesurado sin aparente razón, insistiendo en que lo aceptes sin condiciones.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Aceptar el favor con gratitud y asumir que es un acto genuino de generosidad.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "En el terreno de la influencia, los favores no solicitados son herramientas clásicas para activar el principio de reciprocidad.",
+          "bookInsight": "Los motivos de la manipulación a menudo se disfrazan de altruismo para generar una deuda psicológica."
+        },
+        {
+          "id": "opt2",
+          "text": "Identificar el desequilibrio potencial y declinar cortésmente o establecer límites claros antes de aceptar.",
+          "outcome": "Éxito",
+          "wisdomScore": 85,
+          "analysis": "Neutralizas la trampa de la reciprocidad forzada manteniendo tu independencia.",
+          "bookInsight": "Comprender por qué la gente manipula permite anticiparse a las deudas morales artificiales."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Tecnicas De Manipulacion",
+      "title": "Defensa ante la Tecnica del Pie en la Puerta",
+      "difficulty": "Media",
+      "badge": "Escudo Táctico",
+      "scenarioDescription": "Un vendedor te pide responder una encuesta de dos minutos. Una vez que aceptas, la encuesta se convierte en una presentación de ventas agresiva.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Continuar escuchando por cortesía y terminar comprando para no quedar mal.",
+          "outcome": "Fallo",
+          "wisdomScore": 35,
+          "analysis": "Caes exactamente en la trampa de la consistencia y el compromiso gradual.",
+          "bookInsight": "Las técnicas de manipulación explotan la tendencia humana a ser coherentes con compromisos iniciales pequeños."
+        },
+        {
+          "id": "opt2",
+          "text": "Reconocer la táctica, recordar el acuerdo original y finalizar la interacción amablemente.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Rompes el ciclo de manipulación al confrontar la expansión no acordada del compromiso.",
+          "bookInsight": "Identificar el 'pie en la puerta' permite cortar la escalada de concesiones."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Manejar A La Gente Mediante Persuasion",
+      "title": "Influencia Ética vs Coacción",
+      "difficulty": "Alta",
+      "badge": "Persuasor Maestro",
+      "scenarioDescription": "Necesitas convencer a tu equipo de adoptar un nuevo software complejo bajo presión de tiempo.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Amenazar con despidos o sanciones si no aprenden el software en tiempo récord.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "La coacción genera resistencia pasiva, sabotaje y alta rotación de personal.",
+          "bookInsight": "La manipulación burda genera defensas; la persuasión sofisticada alinea los intereses del otro con los propios."
+        },
+        {
+          "id": "opt2",
+          "text": "Mostrar cómo el software elimina las tareas más tediosas de su día a día, haciéndoles partícipes del beneficio.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Utilizas los resortes motivacionales correctos para lograr adopción voluntaria y entusiasta.",
+          "bookInsight": "La persuasión efectiva se basa en hacer que la otra persona crea que la idea es suya."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Manejar A La Gente Usando La Pnl",
+      "title": "Alineación de Canales Sensoriales",
+      "difficulty": "Alta",
+      "badge": "Estratega PNL",
+      "scenarioDescription": "Estás intentando cerrar un trato con un cliente que constantemente utiliza frases como 'veo claramente el panorama' y 'esto pinta muy bien'.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Responder utilizando metáforas kinestésicas como 'siento que esto nos pesará si no avanzamos'.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "La falta de sintonía en el canal representacional principal genera fricción subconsciente.",
+          "bookInsight": "La Programación Neurolingüística (PNL) demuestra que calibrar el canal preferente del interlocutor acelera la rapport."
+        },
+        {
+          "id": "opt2",
+          "text": "Adaptar tu discurso usando vocabulario visual: 'Quiero mostrarle cómo se proyecta este escenario con claridad'.",
+          "outcome": "Éxito",
+          "wisdomScore": 92,
+          "analysis": "Creas una conexión empática inmediata al sintonizar con el canal representacional visual del cliente.",
+          "bookInsight": "El uso de la PNL permite entrar en el mapa mental del otro utilizando su propio código sensorial."
         }
       ]
     }
@@ -4188,38 +4292,466 @@ const LIBROS_DATA = {
   "flashcards": [
     {
       "id": "fc1",
-      "term": "Microexpresiones",
-      "definition": "Técnica psicológica estudiada en \"Preliminares E Introduccion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Desarrollar independencia emocional mediante mindfulness diario."
+      "bookNumber": 1,
+      "category": "Personalidad",
+      "term": "Perfil Narcisista",
+      "definition": "Patrón de grandiosidad, necesidad de admiración y falta de empatía explotado por manipuladores o exhibido por ellos.",
+      "tacticalUse": "Identificar puntos débiles en líderes autoritarios para ganar su favor mediante adulación calculada.",
+      "countermeasure": "Establecer límites estrictos y no buscar su aprobación emocional."
     },
     {
       "id": "fc2",
-      "term": "Prueba social",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 1 Analisis De Los Tipos De Personalidad\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
+      "bookNumber": 1,
+      "category": "Lenguaje Corporal",
+      "term": "Microexpresiones",
+      "definition": "Expresiones faciales involuntarias que duran fracciones de segundo y revelan emociones reprimidas.",
+      "tacticalUse": "Detectar engaños o desacuerdos ocultos durante negociaciones de alto riesgo.",
+      "countermeasure": "Mantener la neutralidad emocional y observar patrones globales en lugar de gestos aislados."
     },
     {
       "id": "fc3",
-      "term": "Love bombing",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 2 Como Manejar El Lenguaje Corporal\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Consultar perspectivas externas de confianza antes de decidir."
+      "bookNumber": 1,
+      "category": "Motivos",
+      "term": "Reciprocidad Forzada",
+      "definition": "Táctica de entregar un regalo o favor no solicitado para crear una deuda psicológica exigible.",
+      "tacticalUse": "Inducir conformidad ofreciendo valor inicial sin compromiso previo.",
+      "countermeasure": "Rechazar obsequios con condiciones implícitas o devolver el favor de inmediato en términos monetarios o neutrales."
     },
     {
       "id": "fc4",
-      "term": "Rapport forzado",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 3 Motivos De La Manipulacion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Practicar la técnica del \"disco rayado\" ante presión persistente."
+      "bookNumber": 1,
+      "category": "Técnicas",
+      "term": "Pie en la Puerta",
+      "definition": "Técnica de persuasión basada en aceptar una petición pequeña para luego incrementar el tamaño de la exigencia.",
+      "tacticalUse": "Lograr acuerdos mayores dividiéndolos en micro-compromisos sucesivos.",
+      "countermeasure": "Evaluar cada solicitud de forma aislada sin mirar el historial previo de compromisos."
     },
     {
       "id": "fc5",
-      "term": "Consistencia cognitiva",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 4 Tecnicas De Manipulacion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Aplicar el protocolo JADE-never: no Justifiques, Argumentes, Defiendas ni Expliques."
+      "bookNumber": 1,
+      "category": "Relaciones",
+      "term": "Gaslighting",
+      "definition": "Forma de abuso psicológico que busca sembrar dudas en la cordura o percepción de la realidad de la víctima.",
+      "tacticalUse": "Desestabilizar la confianza de un competidor o subordinado para hacerlo dependiente.",
+      "countermeasure": "Llevar registros escritos y objetivos de los hechos para contrastar con la manipulación."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Prueba Social",
+      "definition": "Tendencia psicológica a asumir las acciones de otros en un intento de reflejar el comportamiento correcto.",
+      "tacticalUse": "Movilizar masas o convencer individuos mostrando que 'todos los demás lo están haciendo'.",
+      "countermeasure": "Analizar la validez de las decisiones basándose en datos propios y no en la popularidad."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Rapport",
+      "definition": "Estado de armonía y sintonía donde dos personas se comunican con fluidez y empatía mutua.",
+      "tacticalUse": "Construir confianza instantánea mediante el espejo de posturas y tonos de voz.",
+      "countermeasure": "Ser consciente de cuando alguien imita artificialmente tus movimientos para generar falsa cercanía."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Inducción al Transe",
+      "definition": "Proceso de enfocar la atención de un sujeto hacia un estímulo interno o externo estrecho, bajando las defensas críticas.",
+      "tacticalUse": "Facilitar la aceptación de sugestiones directas o indirectas.",
+      "countermeasure": "Mantener un estado de alerta cognitiva activa ante discursos monótonos o altamente repetitivos."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Personalidad",
+      "term": "Personalidad Maquiavélica",
+      "definition": "Perfil caracterizado por el cinismo, la manipulación interpersonal y la priorización del fin sobre los medios.",
+      "tacticalUse": "Anticipar jugadas egoístas en entornos competitivos corporativos o políticos.",
+      "countermeasure": "Exigir transparencia contractual y minimizar la dependencia personal."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Lenguaje Corporal",
+      "term": "Proxémica",
+      "definition": "Estudio del uso del espacio físico y la distancia interpersonal en la comunicación.",
+      "tacticalUse": "Invadir sutilmente el espacio personal para generar intimidación o dominar una negociación.",
+      "countermeasure": "Reclamar y mantener conscientemente la distancia de confort física."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Técnicas",
+      "term": "Puerta en la Cara",
+      "definition": "Hacer una petición excesiva que será rechazada, para luego ofrecer una petición menor que era la meta real.",
+      "tacticalUse": "Hacer que una concesión real parezca un favor generoso.",
+      "countermeasure": "Evaluar la segunda propuesta en función de su valor real, no en contraste con la primera exagerada."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Anclaje",
+      "definition": "Asociación de un estímulo externo (palabra, gesto) a una respuesta emocional específica.",
+      "tacticalUse": "Establecer estados de confianza o tensión en momentos clave de una interacción.",
+      "countermeasure": "Identificar el estímulo disparador y romper el patrón mental conscientemente."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Canales Representacionales",
+      "definition": "Sistemas sensoriales preferidos (Visual, Auditivo, Kinestésico) para procesar la experiencia.",
+      "tacticalUse": "Calibrar el vocabulario para sintonizar con el mapa mental del cliente o interlocutor.",
+      "countermeasure": "Asegurar que las decisiones se basen en análisis lógicos y no solo en la comodidad lingüística."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Doble Vínculo",
+      "definition": "Presentar dos opciones donde ambas conducen al resultado deseado por el emisor.",
+      "tacticalUse": "Guiar la decisión de un cliente sin darle la opción de rechazar la premisa principal.",
+      "countermeasure": "Introducir una tercera opción o rechazar ambas premisas con firmeza."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Relaciones",
+      "term": "Aislamiento",
+      "definition": "Estrategia para cortar las redes de apoyo de una persona y volverla totalmente dependiente.",
+      "tacticalUse": "Monopolizar el tiempo y la atención de alguien para ejercer control total.",
+      "countermeasure": "Mantener relaciones diversas y cultivar la autonomía social de forma activa."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Aislamiento y Control",
+      "name": "Gaslighting Sistémico",
+      "severity": "Crítica",
+      "icon": "fa-brain",
+      "howItWorks": "Niega sistemáticamente la validez de los recuerdos y percepciones de la víctima hasta hacerla dudar de su propia salud mental.",
+      "redFlags": [
+        "Te dicen 'eso nunca pasó' ante eventos claros",
+        "Te acusan de tener mala memoria constantemente",
+        "Modifican los hechos de conversaciones pasadas"
+      ],
+      "counterScript": "Mi memoria sobre este evento es clara y registrada. No aceptaré que reescribas lo que sucedió.",
+      "deepMechanism": "Ataque directo al sentido de autoeficacia y validación interna del individuo, generando dependencia cognitiva."
+    },
+    {
+      "id": "t2",
+      "category": "Persuasión Coercitiva",
+      "name": "La Tecnica del Doble Vínculo",
+      "severity": "Alta",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Fuerza una elección limitada donde cualquier camino tomado beneficia al manipulador.",
+      "redFlags": [
+        "Preguntas cerradas con solo dos opciones aparentes",
+        "Sensación de estar atrapado sin salida lógica",
+        "Presura excesiva para tomar la decisión"
+      ],
+      "counterScript": "Prefiero explorar una tercera opción que no esté limitada a estas dos alternativas.",
+      "deepMechanism": "Bloquea el pensamiento divergente limitando el marco de referencia del cerebro bajo presión temporal."
+    },
+    {
+      "id": "t3",
+      "category": "Influencia Emocional",
+      "name": "Reciprocidad Inducida",
+      "severity": "Media",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Otorga favores no solicitados para activar el imperativo biológico de devolver la atención o el favor.",
+      "redFlags": [
+        "Regalos o favores desproporcionados sin relación previa",
+        "Recordatorios sutiles de 'todo lo que he hecho por ti'",
+        "Sensación de deuda moral inmediata"
+      ],
+      "counterScript": "Aprecio el gesto, pero prefiero rechazar el favor para evitar compromisos futuros.",
+      "deepMechanism": "Explotación de las normas sociales de reciprocidad grabadas evolutivamente para la cohesión grupal."
+    },
+    {
+      "id": "t4",
+      "category": "Manipulación Cognitiva",
+      "name": "Anclaje de Miedo y Culpa",
+      "severity": "Crítica",
+      "icon": "fa-skull",
+      "howItWorks": "Asocia un estímulo negativo o un sentimiento de culpa a una conducta específica para condicionar la sumisión.",
+      "redFlags": [
+        "Cambios drásticos de humor cuando no cumples sus expectativas",
+        "Uso frecuente de la culpa para cambiar tu comportamiento",
+        "Asociación de tu independencia con 'falta de amor o lealtad'"
+      ],
+      "counterScript": "Comprendo que estés molesto, pero mi decisión está tomada y no es negociable en esos términos.",
+      "deepMechanism": "Genera condicionamiento clásico pavloviano utilizando respuestas límbicas de miedo y culpa."
+    },
+    {
+      "id": "t5",
+      "category": "Neurolingüística",
+      "name": "Sugestión Hipnótica Conversacional",
+      "severity": "Alta",
+      "icon": "fa-eye",
+      "howItWorks": "Utiliza patrones de lenguaje vago y metáforas incrustadas para plantar ideas directamente en el subconsciente.",
+      "redFlags": [
+        "Frases con palabras enfatizadas sutilmente en un discurso fluido",
+        "Preguntas reorientadas sin que notes el cambio de tema",
+        "Sensación de confusión leve tras hablar con la persona"
+      ],
+      "counterScript": "Detengámonos un momento. ¿Exactamente qué quieres decir con esa afirmación?",
+      "deepMechanism": "Bypasea el factor crítico del consciente humano comunicándose directamente con las capas asociativas."
+    },
+    {
+      "id": "t6",
+      "category": "Dinámica Relacional",
+      "name": "Aislamiento Social Progresivo",
+      "severity": "Crítica",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Critica sutilmente al círculo cercano de la víctima para reducir sus apoyos externos.",
+      "redFlags": [
+        "Comentarios despectivos sobre tus amigos o familiares",
+        "Incomodidad manifiesta cuando pasas tiempo sin el manipulador",
+        "Intentos de monopolizar todo tu tiempo libre"
+      ],
+      "counterScript": "Mis relaciones con mi familia y amigos son importantes para mí y no voy a discutirlas.",
+      "deepMechanism": "Elimina la realidad alternativa y las fuentes externas de validación, facilitando el control total."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal del perfilado de personalidades según Brad Wood en el contexto de la manipulación?",
+      "options": [
+        "Diagnosticar trastornos clínicos profundos en los amigos",
+        "Identificar vulnerabilidades y puntos de apalancamiento para la influencia",
+        "Cambiar la personalidad de los competidores mediante terapia",
+        "Evitar por completo cualquier interacción social"
+      ],
+      "correctIndex": 1,
+      "explanation": "El libro enseña que analizar personalidades oscuras o comunes sirve para entender cómo operan y dónde se encuentran sus puntos débiles para influir o defenderse."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "En el contexto del lenguaje corporal, ¿qué indica típicamente que alguien se lleve la mano a la boca o toque su nariz al hablar?",
+      "options": [
+        "Un problema neurológico grave",
+        "Incongruencia, bloqueo o intento de ocultar información",
+        "Exceso de confianza y sinceridad absoluta",
+        "Una necesidad biológica de oxígeno"
+      ],
+      "correctIndex": 1,
+      "explanation": "Los gestos de manipulación o bloqueo facial suelen reflejar el subconsciente intentando 'bloquear' el flujo de palabras dudosas o falsas."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "¿Qué define a la técnica del 'Pie en la Puerta'?",
+      "options": [
+        "Bloquear físicamente la salida de una habitación",
+        "Hacer una petición pequeña que, al ser aceptada, abre paso a una petición mayor",
+        "Negarse a escuchar argumentos contrarios",
+        "Ofrecer un descuento imposible en la primera compra"
+      ],
+      "correctIndex": 1,
+      "explanation": "La técnica aprovecha la consistencia del individuo al aceptar un compromiso menor inicial para acceder después a solicitudes mucho mayores."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "¿Cómo opera la PNL (Programación Neurolingüística) en la persuasión avanzada descrita en la obra?",
+      "options": [
+        "Hipnotizando al sujeto mediante relojes de bolsillo",
+        "Sintonizando con los canales sensoriales preferidos del interlocutor para acelerar el rapport",
+        "Hackeando dispositivos electrónicos mediante comandos de voz",
+        "Obligando al sujeto a firmar contratos bajo amenaza"
+      ],
+      "correctIndex": 1,
+      "explanation": "La PNL utiliza la calibración del lenguaje visual, auditivo o kinestésico para generar una conexión profunda y rápida en el mapa mental del otro."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "¿Cuál es el antídoto principal contra el Gaslighting según las enseñanzas de psicología oscura?",
+      "options": [
+        "Aislarse de todas las personas",
+        "Mantener registros objetivos y externos de la realidad y los hechos",
+        "Aceptar siempre la versión del manipulador para evitar conflictos",
+        "Atacar físicamente al agresor"
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting busca destruir la confianza en la memoria propia; por ello, llevar un diario o registros objetivos neutraliza la manipulación."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "Según el libro, ¿cuál es la diferencia fundamental entre manipulación y persuasión ética?",
+      "options": [
+        "No existe ninguna diferencia",
+        "La manipulación oculta los verdaderos motivos en beneficio propio, mientras la persuasión busca el beneficio mutuo transparente",
+        "La persuasión es ilegal y la manipulación es legal",
+        "La manipulación solo funciona en personas con baja inteligencia"
+      ],
+      "correctIndex": 1,
+      "explanation": "La diferencia radica en la transparencia y en el propósito: la manipulación explota las debilidades ocultando la intención real."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Psicología Oscura",
+      "category": "Teoría General",
+      "definition": "Estudio de la manipulación, el engaño y las tácticas coercitivas utilizadas para influir en los demás.",
+      "practicalExample": "Analizar las tácticas detrás de una campaña publicitaria agresiva."
+    },
+    {
+      "id": "g2",
+      "term": "Calibración",
+      "category": "Lenguaje Corporal",
+      "definition": "Habilidad de leer y notar los cambios sutiles en la fisiología y conducta de otra persona.",
+      "practicalExample": "Notar cuando el tono de voz de un cliente cambia al hablar de precios."
+    },
+    {
+      "id": "g3",
+      "term": "Triada Oscura",
+      "category": "Personalidad",
+      "definition": "Conjunto de tres rasgos de personalidad: narcisismo, maquiavelismo y psicopatía.",
+      "practicalExample": "Identificar perfiles tóxicos en entornos corporativos altamente competitivos."
+    },
+    {
+      "id": "g4",
+      "term": "Rapport",
+      "category": "PNL",
+      "definition": "Sintonía conductual y emocional que genera un puente de confianza instantánea.",
+      "practicalExample": "Igualar sutilmente el ritmo respiratorio de un socio durante una negociación."
+    },
+    {
+      "id": "g5",
+      "term": "Inducción Hipnótica",
+      "category": "Hipnosis",
+      "definition": "Proceso de enfocar la atención para disminuir el filtro crítico consciente.",
+      "practicalExample": "Usar un tono de voz pausado y monótono para relajar la resistencia del cliente."
+    },
+    {
+      "id": "g6",
+      "term": "Principio de Escasez",
+      "category": "Persuasión",
+      "definition": "Técnica que aumenta el valor percibido de algo basándose en su limitación temporal o cuantitativa.",
+      "practicalExample": "Decir 'solo quedan dos plazas disponibles para este acuerdo'."
+    },
+    {
+      "id": "g7",
+      "term": "Cognición Oculta",
+      "category": "Estrategia",
+      "definition": "Proceso mental de anticipar las jugadas psicológicas de un adversario sin revelar las propias.",
+      "practicalExample": "Mantener una expresión neutral mientras evalúas una oferta trampa."
+    },
+    {
+      "id": "g8",
+      "term": "Disonancia Cognitiva",
+      "category": "Psicología",
+      "definition": "Tensión mental experimentada al mantener dos creencias contradictorias simultáneamente.",
+      "practicalExample": "Hacer que alguien cuestione sus propios valores mediante preguntas paradoxales."
+    },
+    {
+      "id": "g9",
+      "term": "Aislamiento Psicológico",
+      "category": "Relaciones",
+      "definition": "Estrategia de control para cortar los canales externos de apoyo de la víctima.",
+      "practicalExample": "Criticar constantemente a los amigos del compañero para que se distancie."
+    },
+    {
+      "id": "g10",
+      "term": "Anclaje Sensorial",
+      "category": "PNL",
+      "definition": "Vinculación de un estímulo específico a un estado emocional determinado.",
+      "practicalExample": "Tocar el hombro de alguien al darle una buena noticia para asociar el gesto al bienestar."
+    },
+    {
+      "id": "g11",
+      "term": "Metamodelo del Lenguaje",
+      "category": "PNL",
+      "definition": "Conjunto de preguntas diseñadas para desafiar distorsiones, generalizaciones y omisiones lingüísticas.",
+      "practicalExample": "Preguntar '¿Exactamente quién dice eso?' ante la afirmación 'todos opinan lo mismo'."
+    },
+    {
+      "id": "g12",
+      "term": "Compliance (Conformidad)",
+      "category": "Influencia",
+      "definition": "Cambio de comportamiento en respuesta a una petición explícita de otra persona.",
+      "practicalExample": "Lograr que un colega firme un documento antes de leer los anexos."
+    },
+    {
+      "id": "g13",
+      "term": "Efecto Halo",
+      "category": "Percepción",
+      "definition": "Sesgo cognitivo donde la impresión positiva en un área influye en la opinión general sobre la persona.",
+      "practicalExample": "Confiar ciegamente en alguien solo por su apariencia elegante."
+    },
+    {
+      "id": "g14",
+      "term": "Negación Plausible",
+      "category": "Táctica",
+      "definition": "Capacidad de un manipulador para negar la malicia de sus actos y culpar a malentendidos.",
+      "practicalExample": "Decir 'era solo una broma, te lo Tomas muy en serio' tras un insulto sutil."
+    },
+    {
+      "id": "g15",
+      "term": "Resistencia Psicológica",
+      "definition": "Reacción defensiva automática ante la sensación de que la libertad personal está siendo amenazada.",
+      "practicalExample": "Rechazar una propuesta excelente solo porque fue impuesta con demasiada fuerza."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "CALIBRACIÓN",
+      "title": "Detección de Bloqueo Óculo-Motor",
+      "cue": "Cierre breve o parpadeo prolongado seguido de desvío de la mirada hacia arriba y a la derecha.",
+      "interpretation": "Indica acceso a la construcción visual interna, sugiriendo que la persona está imaginando o fabricando una respuesta en lugar de recordarla.",
+      "practicalDrill": "Haz una pregunta de control sobre hechos pasados y observa el movimiento ocular; luego haz una pregunta compleja y compara el patrón."
+    },
+    {
+      "id": "bl2",
+      "category": "DETECCIÓN",
+      "title": "Asimetría en la Sonrisa (Sonrisa de Duchenne Falsa)",
+      "cue": "Elevación de los labios sin contracción del músculo orbicular alrededor de los ojos (ausencia de patas de gallo).",
+      "interpretation": "Revela una sonrisa social o fingida, indicando que la amabilidad expresada no coincide con el estado emocional interno real.",
+      "practicalDrill": "Practica frente al espejo sonreír solo con la boca y luego involucra la mirada conscientemente hasta dominar la diferencia."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Calibración de la Barrera Torácica",
+      "cue": "Cruzado de brazos repentino o ajuste de la chaqueta/reloj al introducir un tema específico.",
+      "interpretation": "Señal clásica de autoprotección y defensa subconsciente ante una proposición que genera incomodidad o rechazo.",
+      "practicalDrill": "Monitorea las manos y el torso de tu contraparte al mencionar cifras o condiciones clave en una negociación."
+    },
+    {
+      "id": "bl4",
+      "category": "CALIBRACIÓN",
+      "title": "Marcadores de Ritmo Respiratorio",
+      "cue": "Aceleración súbita en la frecuencia respiratoria y elevación superficial del pecho.",
+      "interpretation": "Indica activación del sistema nervioso simpático (lucha o huida), señalando estrés, ansiedad o resistencia ante la premisa actual.",
+      "practicalDrill": "Modera tu propio ritmo respiratorio y observa si la otra persona tiende a sincronizarse o mantiene el estado de alteración."
+    },
+    {
+      "id": "bl5",
+      "category": "DETECCIÓN",
+      "title": "Microgestos de Autocontacto Facial",
+      "cue": "Frotarse el lóbulo de la oreja, tocarse la base de la nariz o pasar la mano por el cuello de manera repetitiva.",
+      "interpretation": "Refleja micro-picazones inducidas por el aumento del flujo sanguíneo debido al estrés de emitir información dudosa.",
+      "practicalDrill": "Registra cuántas veces tu interlocutor se toca la cara durante una explicación de sus motivos personales."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "Anclaje Postural de Dominancia",
+      "cue": "Inclinación del torso hacia adelante con manos apoyadas firmemente en la mesa y mentón elevado.",
+      "interpretation": "Proyecta territorio, seguridad y desafío, alterando la dinámica de sumisión en la sala.",
+      "practicalDrill": "Adopta esta postura conscientemente al momento de establecer un límite o rechazar una manipulación directa."
     }
   ]
 };

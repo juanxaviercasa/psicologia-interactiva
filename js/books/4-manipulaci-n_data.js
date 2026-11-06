@@ -2981,27 +2981,157 @@ const LIBROS_DATA = {
   "caseScenarios": [
     {
       "id": "cs1",
-      "category": "Aplicación de Defensa Psicológica",
-      "title": "El 'Gaslighting' y la Agresión Pasiva en el Entorno Corporativo",
+      "category": "Psicología Oscura y Rasgos",
+      "title": "El Colega Narcisista en Reunión de Dirección",
       "difficulty": "Alta",
-      "badge": "Experto en Defensa",
-      "scenarioDescription": "Trabajas en un equipo de desarrollo de proyectos. Tu supervisor directo, Roberto, suele darte instrucciones verbales ambiguas o contradictorias. Cuando entregas el trabajo final basado en sus directrices, él te confronta públicamente afirmando: 'Yo nunca te pedí esto; estás distorsionando mis palabras. Deberías prestar más atención a tus capacidades cognitivas, estás muy olvidadizo últimamente'. Notas que esto te genera una profunda inseguridad, dudas de tu memoria y tiendes a disculparte sumisamente para evitar el conflicto.",
+      "badge": "Escudo Antinarcisista",
+      "scenarioDescription": "Durante una reunión de direct directorio, un compañero con claros rasgos de la Triada Oscura (específicamente narcisismo) se apropia públicamente de una propuesta estratégica que tú diseñaste, presentándola como propia ante los altos mandos.",
       "options": [
         {
           "id": "opt1",
-          "text": "Establecer registro escrito estricto, enviar minutas post-reunión para confirmación explícita y responder con hechos neutrales sin justificaciones emocionales.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Al eliminar el canal puramente verbal, destruyes la base del Gaslighting. Las confirmaciones por escrito sirven como un muro infranqueable de hechos reales. Al responder de forma asertiva y neutral (usando la técnica de la Piedra Gris), impides que Roberto se alimente de tus reacciones de culpa o pánico.",
-          "bookInsight": "El libro enseña que la mejor defensa contra el abuso psicológico encubierto es documentar la realidad de forma objetiva y negarse a validar emocionalmente las percepciones distorsionadas del manipulador."
+          "text": "Confrontarle furiosamente en el acto, interrumpiéndole y exigiendo que admita que el mérito es tuyo.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "Caer en la trampa emocional del manipulador te hace parecer inestable o carente de inteligencia emocional ante la dirección.",
+          "bookInsight": "Los manipuladores buscan la desregulación emocional de su víctima para invalidarla (Capítulo 2 y 6)."
         },
         {
           "id": "opt2",
-          "text": "Confrontar a Roberto emocionalmente en la siguiente reunión, exigiéndole que admita que él dio esas instrucciones y amenazándolo con reportarlo a Recursos Humanos de inmediato sin pruebas físicas.",
+          "text": "Mantener la calma, sonreír y presentar con datos métricos concretos los documentos de diseño que avalan la autoría y desarrollo técnico previo.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "El uso de datos objetivos desmantela la narrativa del usurpador sin generar un conflicto visceral que afecte tu imagen profesional.",
+          "bookInsight": "La defensa más efectiva contra la manipulación encubierta es la documentación objetiva y la neutralidad emocional (Capítulo 8)."
+        }
+      ]
+    },
+    {
+      "id": "cs2",
+      "category": "Manipulación Emocional Encubierta",
+      "title": "La Cita de Culpa y Victimismo Crónico",
+      "difficulty": "Media",
+      "badge": "Vigilante Emocional",
+      "scenarioDescription": "Una amistad cercana utiliza constantemente el papel de víctima para obligarte a cancelar tus propios planes y rescatarle de situaciones autoimpuestas, usando frases como 'si de verdad me quisieras, estarías aquí'.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ceder a la culpa, cancelar tus planes y acudir a su rescate para evitar una discusión prolongada.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Refuerzas el comportamiento manipulador, validando que el chantaje emocional es un método eficaz para controlarte.",
+          "bookInsight": "El chantaje emocional explota la empatía de la víctima para doblegar su voluntad (Capítulo 5)."
+        },
+        {
+          "id": "opt2",
+          "text": "Establecer un límite claro utilizando comunicación asertiva, reconociendo su malestar pero declinando la oferta de ayuda inmediata.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Rompes el ciclo de dependencia y manipulación mediante la aplicación de límites firmes y no reactivos.",
+          "bookInsight": "El Papel de la Defensa requiere asertividad inquebrantable frente al victimismo instrumental (Capítulo 8)."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Técnicas de Manipulación",
+      "title": "El Aislamiento Silencioso (Gaslighting en Pareja)",
+      "difficulty": "Alta",
+      "badge": "Detector de Gaslighting",
+      "scenarioDescription": "Tu pareja niega sistemáticamente conversaciones previas sobre acuerdos económicos, haciéndote dudar de tu propia memoria y cordura con afirmaciones categóricas como 'eso nunca pasó, te lo estás inventando'.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Cuestionar tu propia memoria y disculparte por 'imaginar cosas'.",
+          "outcome": "Fallo",
+          "wisdomScore": 10,
+          "analysis": "Permites que erosionen tu confianza cognitiva, entregando el control de tu realidad al manipulador.",
+          "bookInsight": "El gaslighting busca desestabilizar la percepción de la realidad de la víctima para hacerla totalmente dependiente (Capítulo 3)."
+        },
+        {
+          "id": "opt2",
+          "text": "Recurrir a registros escritos previos y reafirmar con calma lo acordado, sin entrar en debates sobre tu salud mental.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Anclas la realidad en evidencias físicas externas, neutralizando la técnica de distorsión psicológica.",
+          "bookInsight": "La objetividad documentada es el antídoto contra la manipulación cognitiva (Capítulo 3 y 8)."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Comportamiento y Rasgos de Carácter",
+      "title": "El Flujo de Lisonjas Excesivas (Love Bombing)",
+      "difficulty": "Media",
+      "badge": "Analista de Patrones",
+      "scenarioDescription": "Un nuevo socio comercial te inunda de elogios desmedidos, regalos y atención asfixiante durante la primera semana de conoceros, presionándote para firmar un contrato a largo plazo sin lectura previa.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Dejarte llevar por la validación y firmar el contrato rápidamente para no desaprovechar 'una conexión tan especial'.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Caíste en la fase de bombardeo de amor diseñada para acelerar la toma de decisiones y eludir tu juicio crítico.",
+          "bookInsight": "El love bombing satura los centros de recompensa cerebral para anular las defensas racionales (Capítulo 4)."
+        },
+        {
+          "id": "opt2",
+          "text": "Frenar el ritmo de la negociación, exigir tiempo de revisión legal y mantener la distancia emocional.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Al desacelerar artificialmente la interacción, neutralizas la urgencia inducida por el manipulador.",
+          "bookInsight": "El control del tiempo es una herramienta defensiva crítica frente a la persuasión coercitiva (Capítulo 6)."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Rasgos de las Víctimas",
+      "title": "La Hiperempatía ante el Agresor",
+      "difficulty": "Alta",
+      "badge": "Escudo Empático",
+      "scenarioDescription": "Un subordinado comete errores graves de forma repetida pero utiliza excusas elaboradas sobre su difícil infancia y problemas personales cada vez que le corriges, evitando asumir responsabilidades.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Sentir profunda lástima, perdonarle una y otra vez y asumir su carga de trabajo para protegerle.",
+          "outcome": "Fallo",
+          "wisdomScore": 35,
+          "analysis": "Activas el perfil de hiperempatía vulnerable, permitiendo que el manipulador use su vulnerabilidad fingida como escudo protector.",
+          "bookInsight": "Los manipuladores explotan el exceso de empatía y el sentido de culpa de sus objetivos (Capítulo 7)."
+        },
+        {
+          "id": "opt2",
+          "text": "Mostrar comprensión humana hacia su situación pero establecer métricas de rendimiento obligatorias y consecuencias claras.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Equilibras la empatía con la firmeza profesional, separando la validación emocional de la exigencia operativa.",
+          "bookInsight": "La defensa eficaz requiere separar el juicio emocional de la evaluación de desempeño (Capítulo 8)."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Defensa y Contramedidas",
+      "title": "El Triangulamiento en el Entorno Laboral",
+      "difficulty": "Alta",
+      "badge": "Neutralizador de Triángulos",
+      "scenarioDescription": "Un compañero tóxico te dice en secreto: 'Juan estuvo diciendo en el pasillo que no confía en tu capacidad técnica', buscando generar fricción directa entre tú y Juan.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Confrontar a Juan de inmediato con enojo para aclararle las cosas.",
           "outcome": "Fallo",
           "wisdomScore": 15,
-          "analysis": "Esta reacción emocional y reactiva le da a Roberto exactamente lo que quiere: te expone ante el equipo como alguien inestable y descontrolado. Al no tener registros físicos que te respalden, él puede usar tu estallido de ira para validar su argumento de que estás 'perdiendo la cordura' o que eres hostil.",
-          "bookInsight": "Nunca entres en una lucha de lodo emocional con un manipulador maquiavélico sin pruebas documentadas; ellos controlan mejor el caos emocional y revertirán tu confrontación para victimizarse."
+          "analysis": "Completaste el juego de triangulación del manipulador, quien ahora observa cómo destruyen su relación por él.",
+          "bookInsight": "La triangulación utiliza intermediarios para generar conflictos artificiales y desestabilizar grupos (Capítulo 6 y 8)."
+        },
+        {
+          "id": "opt2",
+          "text": "Ignorar el rumor o hablar directamente con Juan de forma cordial y transparente para verificar si existió tal declaración.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Rompes la cadena de comunicación indirecta mediante la verificación directa y la neutralización del chisme.",
+          "bookInsight": "La comunicación directa y abierta destruye los intentos de división táctica (Capítulo 8)."
         }
       ]
     }
@@ -3009,38 +3139,467 @@ const LIBROS_DATA = {
   "flashcards": [
     {
       "id": "fc1",
-      "term": "Refuerzo Intermitente",
-      "definition": "Alternancia inconsistente de recompensas (atención, afecto, validación) y castigos (indiferencia, abuso, frialdad) sin un patrón predecible.",
-      "tacticalUse": "Se usa para crear una adicción bioquímica y psicológica en la víctima, manteniéndola en un estado constante de ansiedad y búsqueda de aprobación.",
-      "countermeasure": "Reconocer el patrón de inconsistencia, abstenerse de buscar explicaciones lógicas al rechazo y cortar el contacto para romper el ciclo de adicción emocional."
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Psicología Oscura",
+      "definition": "Estudio de la propensión humana a depredar a otros mediante la manipulación, coerción y el engaño sin remordimiento.",
+      "tacticalUse": "Identificar patrones depredadores ocultos en interacciones cotidianas y profesionales.",
+      "countermeasure": "Establecer límites estrictos y desarrollar conciencia situacional temprana."
     },
     {
       "id": "fc2",
-      "term": "Táctica de la Piedra Gris (Grey Rock)",
-      "definition": "Comportarse de la manera más aburrida, neutra, inexpresiva y poco reactiva posible ante los intentos de provocación o drama del manipulador.",
-      "tacticalUse": "Se emplea cuando no se puede evitar el contacto físico o profesional inmediato, haciendo que el manipulador pierda el interés al no obtener 'combustible' emocional.",
-      "countermeasure": "Mantener respuestas monosilábicas, evitar compartir información personal o emocional, y no mostrar enfado, tristeza ni alegría en su presencia."
+      "bookNumber": 1,
+      "category": "Rasgos Oscuros",
+      "term": "Narcisismo Maligno",
+      "definition": "Variante extrema del narcisismo caracterizada por grandiosidad, falta de empatía, paranoia y agresión instrumental.",
+      "tacticalUse": "Reconocer líderes o compañeros tóxicos antes de entablar vínculos profundos.",
+      "countermeasure": "Evitar la validación pública y documentar cada interacción por escrito."
     },
     {
       "id": "fc3",
-      "term": "Proyección Oscura",
-      "definition": "Mecanismo de defensa donde el manipulador atribuye activamente sus propios rasgos negativos, malas intenciones o comportamientos deshonestos a la víctima.",
-      "tacticalUse": "Sirve para desviar la atención de sus propias faltas, obligando a la víctima a ponerse a la defensiva y a gastar energía justificándose de acusaciones absurdas.",
-      "countermeasure": "No morder el anzuelo defensivo. En lugar de argumentar en contra de la acusación falsa, señalar calmadamente el intento de desvío o ignorar la provocación."
+      "bookNumber": 1,
+      "category": "Rasgos Oscuros",
+      "term": "Maquiavelismo",
+      "definition": "Rasgo de personalidad centrado en la manipulación cínica, el cálculo frío y la creencia de que el fin justifica los medios.",
+      "tacticalUse": "Anticipar estrategias de negociación basadas en el engaño y el ocultamiento de intenciones.",
+      "countermeasure": "Exigir transparencia en los procesos y buscar incentivos desalineados con el engaño."
     },
     {
       "id": "fc4",
-      "term": "Bombardeo de Amor (Love Bombing)",
-      "definition": "Demostración abrumadora y acelerada de afecto, halagos, regalos y atención al inicio de una relación para ganar confianza rápidamente.",
-      "tacticalUse": "Se utiliza para desarmar las defensas naturales de la víctima, crear un falso sentido de alma gemela y establecer una deuda emocional gigante antes de iniciar la fase de devaluación.",
-      "countermeasure": "Monitorear el ritmo de la relación. Desconfiar de la intimidad instantánea y las promesas excesivas a muy corto plazo; mantener límites de tiempo y espacio personal."
+      "bookNumber": 1,
+      "category": "Rasgos Oscuros",
+      "term": "Psicopatía Integrada",
+      "definition": "Ausencia total de empatía y culpa combinada con un alto encanto superficial que permite operar con impunidad en la sociedad.",
+      "tacticalUse": "Detectar la desconexión emocional detrás de sonrisas ensayadas y discursos persuasivos.",
+      "countermeasure": "Confiar en las acciones consistentes a lo largo del tiempo por encima de las palabras."
     },
     {
       "id": "fc5",
+      "bookNumber": 1,
+      "category": "Rasgos Oscuros",
+      "term": "Sadismo Cotidiano",
+      "definition": "Disfrute consciente del sufrimiento ajeno expresado a través de humillaciones sutiles y crueldad verbal encubierta.",
+      "tacticalUse": "Identificar burlas disfrazadas de chistes o 'críticas constructivas' malintencionadas.",
+      "countermeasure": "Aplicar la técnica del disco rayado o ignorar el refuerzo del drama."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Forma de abuso psicológico sistemático destinado a hacer que la víctima dude de su propia percepción, memoria y juicio.",
+      "tacticalUse": "Reconocer alteraciones deliberadas de los hechos por parte de interlocutores.",
+      "countermeasure": "Mantener bitácoras de eventos, fechas y declaraciones exactas."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Love Bombing",
+      "definition": "Inundación inicial de afecto, atención y promesas desmedidas para desarmar las defensas críticas de la víctima.",
+      "tacticalUse": "Desconfiar de la intensidad anormalmente rápida en relaciones de cualquier índole.",
+      "countermeasure": "Ralentizar deliberadamente el ritmo de la relación y exigir espacio."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Manipulación",
       "term": "Triangulación",
-      "definition": "Introducción deliberada de una tercera persona (un ex, un colega, un amigo) en la dinámica de comunicación para generar celos, rivalidad o inseguridad.",
-      "tacticalUse": "Manipula a través de la división; hace que la víctima compita por la atención y aprobación del manipulador, aumentando el valor percibido de este último.",
-      "countermeasure": "No competir. Retirarse del triángulo comunicando directamente que no se participará en dinámicas de comparación de terceros."
+      "definition": "Introducción de un tercero en una relación bilateral para generar celos, rivalidad o inseguridad.",
+      "tacticalUse": "Detectar menciones manipuladoras sobre opiniones supuestas de terceros.",
+      "countermeasure": "Verificar directamente con la supuesta fuente sin alimentar el conflicto."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Victimismo Instrumental",
+      "definition": "Uso estratégico de la vulnerabilidad fingida para evadir responsabilidades y manipular la compasión ajena.",
+      "tacticalUse": "Distinguir entre sufrimiento genuino y quejas repetitivas orientadas al control.",
+      "countermeasure": "Separar la validación emocional de la exigencia de rendición de cuentas."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Comportamiento",
+      "term": "Silencio Punitivo (The Silent Treatment)",
+      "definition": "Retirada abrupta de la comunicación como castigo psicológico para obligar a la sumisión.",
+      "tacticalUse": "Comprender que el silencio es un arma de control y no un reflejo de necesidad de espacio.",
+      "countermeasure": "Mantener la indiferencia táctica y no rogar por la reanudación del diálogo."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Comportamiento",
+      "term": "Proyección Oscura",
+      "definition": "Mecanismo de defensa donde el manipulador acusa a su víctima de los defectos o intenciones maliciosas que él mismo posee.",
+      "tacticalUse": "Analizar las acusaciones repentinas hacia tu persona como un espejo de la psique del emisor.",
+      "countermeasure": "No asumir culpas ajenas y desviar la acusación con preguntas objetivas."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Víctimas",
+      "term": "Hiperempatía Vulnerable",
+      "definition": "Exceso de empatía y tendencia a anteponer las necesidades ajenas a las propias, facilitando el abuso.",
+      "tacticalUse": "Reconocer la propia propensión a rescatar perfiles problemáticos.",
+      "countermeasure": "Desarrollar el autocuidado asertivo y la validación interna."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Asertividad Inquebrantable",
+      "definition": "Habilidad para defender los propios derechos e intereses sin agresividad ni sumisión.",
+      "tacticalUse": "Bloquear intentos de invasión psicológica mediante respuestas claras y calmadas.",
+      "countermeasure": "Entrenar frases preestablecidas de límite firme."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Indiferencia Táctica (Grey Rock)",
+      "definition": "Técnica de defensa que consiste en volverse aburrido, plano y carente de reacción emocional ante un manipulador.",
+      "tacticalUse": "Desalentar el acoso o la manipulación en entornos inevitables como el trabajo o exparejas.",
+      "countermeasure": "Responder con monosílabos y evitar compartir información personal."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Bitácora de Evidencias",
+      "definition": "Registro cronológico y documentado de interacciones, fechas y declaraciones para contrarrestar distorsiones.",
+      "tacticalUse": "Neutralizar el gaslighting y la manipulación de la memoria.",
+      "countermeasure": "Guardar correos, mensajes y notas de forma segura e inalterable."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación Cognitiva",
+      "name": "Gaslighting Sistemático",
+      "severity": "Crítica",
+      "icon": "fa-brain",
+      "howItWorks": "El agresor altera de forma metódica elementos del entorno o niega eventos pasados para que la víctima dude de su propia capacidad cognitiva y memoria.",
+      "redFlags": [
+        "Negación categórica de conversaciones previas con testigos ausentes.",
+        "Aserciones de que 'estás loco' o 'exageras todo'.",
+        "Cambios sutiles en objetos o documentos seguidos de incredulidad fingida."
+      ],
+      "counterScript": "Mis notas y registros indican exactamente lo contrario. Me fío de mis evidencias.",
+      "deepMechanism": "Erosión progresiva de la autoeficacia y dependencia de la realidad construida por el agresor."
+    },
+    {
+      "id": "t2",
+      "category": "Manipulación Afectiva",
+      "name": "Love Bombing Estratégico",
+      "severity": "Alta",
+      "icon": "fa-eye",
+      "howItWorks": "Sobrecarga de afecto y atención temprana para generar una deuda emocional artificial y acelerar la intimidad antes de desplegar conductas abusivas.",
+      "redFlags": [
+        "Declaraciones de amor o amistad eterna en plazos absurdamente cortos.",
+        "Regalos excesivos y desproporcionados sin ocasión justificada.",
+        "Presencia constante y asfixiante bajo la excusa de 'no poder vivir sin ti'."
+      ],
+      "counterScript": "Aprecio tu entusiasmo, pero prefiero que vayamos paso a paso y con calma.",
+      "deepMechanism": "Saturación de los circuitos de dopamina y anulación temporal del juicio crítico defensivo."
+    },
+    {
+      "id": "t3",
+      "category": "Manipulación Social",
+      "name": "Triangulación Inducida",
+      "severity": "Alta",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Involucrar a un tercero para validar la postura del manipulador o generar rivalidad y celos artificiales entre dos personas.",
+      "redFlags": [
+        "Comentarios del tipo 'fulano dijo que no sirves para esto'.",
+        "Comparaciones constantes con exparejas o compañeros idealizados.",
+        "Creación deliberada de bandos o facciones en un entorno laboral o familiar."
+      ],
+      "counterScript": "Si fulano tiene algo que decirme, prefiero que hablemos directamente los dos.",
+      "deepMechanism": "Explotación del miedo al rechazo y la necesidad de validación social."
+    },
+    {
+      "id": "t4",
+      "category": "Coerción Emocional",
+      "name": "Chantaje de Victimismo Crónico",
+      "severity": "Media",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Adoptar el rol perpetuo de víctima para culpabilizar a la contraparte por cualquier malestar, forzando la sumisión mediante la culpa.",
+      "redFlags": [
+        "Uso constante de frases como 'después de todo lo que he hecho por ti'.",
+        "Aparente fragilidad extrema que desaparece al conseguir lo que desea.",
+        "Incapacidad absoluta para asumir autocrítica o responsabilidad."
+      ],
+      "counterScript": "Lamento que te sientas así, pero mi decisión al respecto se mantiene firme.",
+      "deepMechanism": "Activación del sesgo de empatía y el deber moral de protección en la víctima."
+    },
+    {
+      "id": "t5",
+      "category": "Aislamiento Psicológico",
+      "name": "Silencio Punitivo",
+      "severity": "Alta",
+      "icon": "fa-skull",
+      "howItWorks": "Retirada intencional de la comunicación verbal y no verbal para castigar a la víctima y obligarla a pedir perdón por faltas inexistentes.",
+      "redFlags": [
+        "Negación absoluta a responder preguntas básicas tras un desacuerdo menor.",
+        "Actitud glacial e indiferente diseñada para generar ansiedad de abandono.",
+        "Reanudación del trato solo cuando la víctima se humilla o cede."
+      ],
+      "counterScript": "Entiendo que necesitas espacio. Cuando estés listo para hablar con respeto, aquí estaré.",
+      "deepMechanism": "Inducción de estrés por exclusión social y activación de la respuesta de amígdala cerebral."
+    },
+    {
+      "id": "t6",
+      "category": "Distorsión Comunicativa",
+      "name": "Proyección Inversa",
+      "severity": "Media",
+      "icon": "fa-brain",
+      "howItWorks": "Atribuir de forma inmediata los propios defectos, infidelidades o intenciones manipuladoras a la persona que se tiene enfrente.",
+      "redFlags": [
+        "Acusar de deshonestidad a quien acaba de descubrir una mentira del manipulador.",
+        "Celos infundados proyectados cuando el manipulador es quien coquetea.",
+        "Reacciones defensivas desproporcionadas basadas en acusaciones espejo."
+      ],
+      "counterScript": "Esa descripción no se ajusta a mis actos. Concentrémonos en el problema actual.",
+      "deepMechanism": "Mecanismo de defensa arcaico para proteger el ego frágil de la vergüenza y la culpa."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "Según el análisis de los 4 rasgos de la psicología oscura, ¿cuál de las siguientes opciones define mejor al Maquiavelismo?",
+      "options": [
+        "Un deseo incontrolable de causar dolor físico por puro placer sádico.",
+        "Una combinación de grandiosidad, paranoia y falta absoluta de remordimiento.",
+        "El cálculo frío, el cinismo y la manipulación estratégica donde el fin justifica los medios.",
+        "Una timidez patológica que impide la interacción social saludable."
+      ],
+      "correctIndex": 2,
+      "explanation": "El Maquiavelismo se caracteriza por la estrategia calculadora, la ausencia de escrúpulos morales y la instrumentalización de las personas para lograr objetivos propios (Capítulo 2)."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo psicológico principal de la técnica de manipulación conocida como Gaslighting?",
+      "options": [
+        "Conseguir dinero mediante préstamos rápidos no reembolsables.",
+        "Hacer que la víctima dude de su propia percepción, memoria y cordura.",
+        "Generar celos profesionales mediante la mención de terceros.",
+        "Acelerar el compromiso emocional en una nueva relación."
+      ],
+      "correctIndex": 1,
+      "explanation": "El Gaslighting socava deliberadamente la estabilidad cognitiva de la víctima para que dependa enteramente de la versión de la realidad que dicta el manipulador (Capítulo 3)."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "En el contexto de la manipulación emocional encubierta, ¿cómo actúa el fenómeno del 'Love Bombing'?",
+      "options": [
+        "A través de críticas destructivas constantes para bajar la autoestima.",
+        "Mediante el silencio prolongado para castigar desacuerdos.",
+        "Satirizando los logros de la víctima frente a sus superiores.",
+        "Inundando a la persona de afecto y atención extrema al inicio para desarmar sus defensas."
+      ],
+      "correctIndex": 3,
+      "explanation": "El Love Bombing utiliza la sobreestimulación afectiva inicial para crear una falsa sensación de seguridad y deuda emocional antes de iniciar el ciclo de abuso (Capítulo 5)."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "Según los patrones descritos sobre las víctimas de manipulación, ¿qué perfil suele ser el más vulnerado por personalidades oscuras?",
+      "options": [
+        "Personas altamente escépticas y con desconfianza crónica.",
+        "Individuos con hiperempatía y tendencia a justificar el mal comportamiento ajeno.",
+        "Sujetos con rasgos narcisistas dominantes.",
+        "Profesionales con entrenamiento avanzado en negociación táctica."
+      ],
+      "correctIndex": 1,
+      "explanation": "La hiperempatía y el deseo de rescatar o comprender al agresor son los puntos de entrada más comunes que explotan los manipuladores (Capítulo 7)."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "¿En qué consiste la técnica de defensa conocida como 'Indiferencia Táctica' o 'Grey Rock'?",
+      "options": [
+        "En confrontar al agresor con insultos públicos para humillarlo.",
+        "En volverse aburrido, plano y carente de reactividad emocional para desincentivar al manipulador.",
+        "En huir del país sin avisar a ningún conocido.",
+        "En aceptar todas las demandas del manipulador para evitar conflictos."
+      ],
+      "correctIndex": 1,
+      "explanation": "La técnica de la piedra gris elimina el suministro emocional que el manipulador busca, provocando que pierda interés en la víctima (Capítulo 8)."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "Cuando un manipulador utiliza la 'Triangulación', ¿qué táctica está empleando fundamentalmente?",
+      "options": [
+        "Introducir a un tercero para manipular percepciones, generar celos o fragmentar alianzas.",
+        "Firmar contratos en colaboración con tres empresas fantasma.",
+        "Hacer tres preguntas trampa en una sola frase.",
+        "Dividir su tiempo entre tres hogares diferentes."
+      ],
+      "correctIndex": 0,
+      "explanation": "La triangulación involucra a un mediador o tercero de forma artificial para desestabilizar la relación directa y ejercer control indirecto (Capítulo 6 y 8)."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Psicología Oscura",
+      "category": "Teoría General",
+      "definition": "Marco de estudio centrado en las tácticas de coerción, engaño y manipulación empleadas por ciertos individuos sobre otros.",
+      "practicalExample": "Analizar las intenciones ocultas detrás de un cumplido excesivo en el trabajo."
+    },
+    {
+      "id": "g2",
+      "term": "Triada Oscura",
+      "category": "Rasgos de Personalidad",
+      "definition": "Conjunto de tres rasgos de personalidad socialmente aborrecibles: narcisismo, maquiavelismo y psicopatía.",
+      "practicalExample": "Identificar a un líder corporativo que carece de empatía y explota a sus subordinados."
+    },
+    {
+      "id": "g3",
+      "term": "Gaslighting",
+      "category": "Manipulación Cognitiva",
+      "definition": "Abuso psicológico que distorsiona la verdad para hacer dudar a la víctima de su memoria y juicio.",
+      "practicalExample": "Negar repetidamente haber dicho algo que consta en un mensaje escrito."
+    },
+    {
+      "id": "g4",
+      "term": "Love Bombing",
+      "category": "Manipulación Afectiva",
+      "definition": "Demostración abrumadora y prematura de afecto para acelerar la vulnerabilidad de la víctima.",
+      "practicalExample": "Prometer matrimonio a las dos semanas de conocerse y exigir exclusividad total."
+    },
+    {
+      "id": "g5",
+      "term": "Triangulación",
+      "category": "Manipulación Social",
+      "definition": "Uso de intermediarios o terceros para crear conflictos, celos o alianzas tóxicas.",
+      "practicalExample": "Comentarle a un compañero que otro ha criticado su trabajo sin pruebas."
+    },
+    {
+      "id": "g6",
+      "term": "Victimismo Instrumental",
+      "category": "Coerción",
+      "definition": "Adopción fingida del rol de víctima para eludir responsabilidades y manipular la compasión.",
+      "practicalExample": "Culpar a la pareja de una discusión propia argumentando que 'estás destruyendo su salud'."
+    },
+    {
+      "id": "g7",
+      "term": "Silencio Punitivo",
+      "category": "Comportamiento",
+      "definition": "Supresión deliberada de la comunicación para castigar y doblegar a la contraparte.",
+      "practicalExample": "Dejar de hablar a un familiar durante días por no aceptar una sugerencia menor."
+    },
+    {
+      "id": "g8",
+      "term": "Proyección",
+      "category": "Mecanismo Defensivo",
+      "definition": "Atribución de defectos o impulsos propios inaceptables hacia otra persona.",
+      "practicalExample": "Acusar de deshonestidad a quien te ha pedido cuentas claras."
+    },
+    {
+      "id": "g9",
+      "term": "Hiperempatía",
+      "category": "Perfil de Víctima",
+      "definition": "Empatía desmedida que lleva a justificar abusos y anteponer el bienestar del agresor al propio.",
+      "practicalExample": "Disculpar las agresiones verbales de un amigo porque 'tuvo una infancia difícil'."
+    },
+    {
+      "id": "g10",
+      "term": "Indiferencia Táctica",
+      "category": "Defensa",
+      "definition": "Técnica de la piedra gris para desincentivar el acoso volviéndose emocionalmente aburrido.",
+      "practicalExample": "Responder con frases monosilábicas y neutrales ante provocaciones malintencionadas."
+    },
+    {
+      "id": "g11",
+      "term": "Bitácora de Evidencias",
+      "category": "Defensa",
+      "definition": "Registro documental fidedigno de hechos y conversaciones para neutralizar distorsiones.",
+      "practicalExample": "Guardar capturas de pantalla de acuerdos y correos electrónicos importantes."
+    },
+    {
+      "id": "g12",
+      "term": "Asertividad",
+      "category": "Defensa",
+      "definition": "Habilidad para expresar límites y derechos de forma firme y respetuosa.",
+      "practicalExample": "Decir 'no' a una petición abusiva sin necesidad de dar excusas elaboradas."
+    },
+    {
+      "id": "g13",
+      "term": "Suministro Narcisista",
+      "category": "Psicología Oscura",
+      "definition": "Atención, admiración o reacción emocional que alimenta el ego de una persona narcisista.",
+      "practicalExample": "Discutir largamente con un narcisista porque eso le otorga la energía que busca."
+    },
+    {
+      "id": "g14",
+      "term": "Cognición Defensiva",
+      "category": "Defensa",
+      "definition": "Proceso mental crítico para evaluar situaciones de riesgo antes de comprometer confianza.",
+      "practicalExample": "Analizar la coherencia entre las promesas de un socio y sus acciones previas."
+    },
+    {
+      "id": "g15",
+      "term": "Aislamiento Social",
+      "category": "Táctica Oscura",
+      "definition": "Estrategia para cortar los vínculos de la víctima con su red de apoyo y dejarla indefensa.",
+      "practicalExample": "Criticar constantemente a los amigos de la pareja para lograr que dejen de verlos."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "CALIBRACIÓN",
+      "title": "La Sonrisa Asimétrica Superficial",
+      "cue": "Movimiento unilateral de los labios sin participación de los músculos orbiculares alrededor de los ojos (ausencia de patas de gallo).",
+      "interpretation": "Indica insinceridad, desprecio encubierto o afecto fingido (característico en perfiles maquiavélicos o psicopáticos durante interacciones sociales).",
+      "practicalDrill": "Frente a un espejo, intenta sonreír usando solo la boca y luego involucrando los ojos; observa la diferencia en la percepción de autenticidad."
+    },
+    {
+      "id": "bl2",
+      "category": "DETECCIÓN",
+      "title": "Microexpresión de Desprecio",
+      "cue": "Elevación unilateral de un extremo de los labios por un breve lapso (menos de medio segundo) durante una conversación.",
+      "interpretation": "Señal inequívoca de superioridad y subestimación hacia la persona que está hablando, común en narcisistas.",
+      "practicalDrill": "Practica la observación en entrevistas grabadas en video para identificar este gesto fugaz en momentos clave de tensión."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Postura de Anclaje y Bloqueo",
+      "cue": "Brazos cruzados firmemente con retroceso leve del torso ante una proposición invasiva o demasiado insistente.",
+      "interpretation": "Barrera física subconsciente que denota rechazo a la intromisión y protección del espacio personal.",
+      "practicalDrill": "Adopta esta postura al momento de recibir un cumplido sospechosamente rápido para frenar el ritmo de la interacción."
+    },
+    {
+      "id": "bl4",
+      "category": "CALIBRACIÓN",
+      "title": "Mirada Fija y Sostenida (The Stare)",
+      "cue": "Ausencia de parpadeo normal durante periodos prolongados, manteniendo los ojos clavados en el interlocutor.",
+      "interpretation": "Táctica intimidatoria empleada para buscar la sumisión de la víctima o evaluar su nivel de sumisión y miedo.",
+      "practicalDrill": "Mantén la calma y desvía la mirada hacia un punto neutral (como las manos del emisor) sin mostrar incomodidad ni bajar la cabeza."
+    },
+    {
+      "id": "bl5",
+      "category": "DETECCIÓN",
+      "title": "Incongruencia Gestual (Palabras vs. Cuerpo)",
+      "cue": "Afirmación verbal rotunda de seguridad o acuerdo acompañada de un leve movimiento lateral de negación con la cabeza.",
+      "interpretation": "Disociación entre lo que la persona dice conscientemente y lo que su subconsciente rechaza o desmiente.",
+      "practicalDrill": "Entrena tu atención periférica durante las negociaciones para detectar desajustes entre el discurso y la kinésica."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "Control del Ritmo Respiratorio y Vocal",
+      "cue": "Respiración abdominal pausada y tono de voz deliberadamente grave y estable ante provocaciones.",
+      "interpretation": "Envía señales de control absoluto a la propia amígdala y proyecta una barrera inquebrantable frente al manipulador.",
+      "practicalDrill": "Practica respiraciones de 4 segundos al inhalar y 4 al exhalar antes de responder a una crítica malintencionada."
     }
   ]
 };

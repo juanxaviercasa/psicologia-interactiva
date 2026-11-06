@@ -11700,53 +11700,157 @@ const LIBROS_DATA = {
   "caseScenarios": [
     {
       "id": "cs1",
-      "category": "Detección en Entorno Laboral",
-      "title": "Caso Práctico: L1 Falsos Ganadores Analisis Conductual Y Conclusion",
-      "difficulty": "Alta",
-      "badge": "Detective Social",
-      "scenarioDescription": "Durante una situación relacionada con \"L1 Falsos Ganadores Analisis Conductual Y Conclusion\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "category": "Manipulación en el Trabajo",
+      "title": "El Compañero Complaciente",
+      "difficulty": "Media",
+      "badge": "Escudo de Inteligencia Emocional",
+      "scenarioDescription": "Un colega nuevo te pide constantemente pequeños favores que escalan en tiempo y complejidad. Notas que cuando le niegas algo, utiliza halagos exagerados seguidos de culpa sutil.",
       "options": [
         {
           "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"L1 Falsos Ganadores Analisis Conductual Y Conclusion\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Aceptar todos los favores para mantener la paz laboral.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Cedes ante la culpa y el refuerzo intermitente, permitiendo que el manipulador establezca un precedente de control sobre tu tiempo.",
+          "bookInsight": "La psicología oscura utiliza la reciprocidad forzada y la culpa para doblegar los límites personales."
         },
         {
           "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Establecer límites claros y firmes, documentando tus propias tareas sin caer en los halagos vacíos.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Neutralizas la técnica de manipulación emocional manteniendo la asertividad y protegiendo tus recursos energéticos.",
+          "bookInsight": "La inteligencia emocional actúa como un blindaje contra el desgaste inducido por la culpa calculada."
         }
       ]
     },
     {
       "id": "cs2",
-      "category": "Relaciones Interpersonales",
-      "title": "Caso Práctico: L2 Definicion Y Estudios Cientificos",
-      "difficulty": "Media",
-      "badge": "Experto en Vínculos",
-      "scenarioDescription": "Durante una situación relacionada con \"L2 Definicion Y Estudios Cientificos\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "category": "Influencia y Liderazgo",
+      "title": "La Reunión del Director Carismático",
+      "difficulty": "Alta",
+      "badge": "Analista de Dinámicas de Poder",
+      "scenarioDescription": "Durante una junta directiva, el líder utiliza un discurso altamente emocional, apelando al miedo a la obsolescencia para forzar la aprobación inmediata de un proyecto arriesgado.",
       "options": [
         {
           "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"L2 Definicion Y Estudios Cientificos\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Votar a favor contagiado por la urgencia y el miedo proyectado por el líder.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Caíste en la trampa del contagio emocional y la manipulación de estados de ánimo colectivos.",
+          "bookInsight": "Los líderes oscuros utilizan el miedo y la urgencia artificial para bypassar el pensamiento crítico."
         },
         {
           "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Solicitar una pausa para analizar los datos fríos y separar la retórica emocional de los hechos objetivos.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Desactivaste la persuasión oscura al exigir racionalidad y evidencia ante un discurso puramente emocional.",
+          "bookInsight": "El análisis conductual y la pausa cognitiva rompen el ciclo de la influencia maquiavélica."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Dinámicas de Pareja",
+      "title": "El Ciclo de Gaslighting Cotidiano",
+      "difficulty": "Alta",
+      "badge": "Maestro en Detección de Realidades Alteradas",
+      "scenarioDescription": "Tu pareja niega repetidamente discusiones previas y acuerdos mutuos, haciéndote dudar de tu propia memoria y cordura sobre eventos recientes.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Cuestionar tu propia memoria y disculparte por 'confundirte'.",
+          "outcome": "Fallo",
+          "wisdomScore": 10,
+          "analysis": "Entregas el control de tu percepción de la realidad, validando la táctica destructiva del gaslighting.",
+          "bookInsight": "El gaslighting erosiona la confianza interna de la víctima para hacerla totalmente dependiente del abusador."
+        },
+        {
+          "id": "opt2",
+          "text": "Anotar acuerdos por escrito y confrontar las discrepancias con evidencia objetiva.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Proteges tu estabilidad mental utilizando registros externos inalterables que neutralizan la negación sistemática.",
+          "bookInsight": "La objetividad documentada es el antídoto contra la distorsión psicológica deliberada."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Negociación Comercial",
+      "title": "La Oferta con Anclaje Manipulador",
+      "difficulty": "Media",
+      "badge": "Estratega Antifraude",
+      "scenarioDescription": "Un vendedor presenta una propuesta inicial con un precio desorbitado, para luego ofrecer 'un descuento especial' que sigue siendo excesivamente alto.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Aceptar el descuento creyendo que estás haciendo una gran negociación.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "Fuiste víctima de la falacia de contraste y el anclaje psicológico.",
+          "bookInsight": "La psicología oscura manipula la percepción de valor comparativo mediante puntos de referencia extremos."
+        },
+        {
+          "id": "opt2",
+          "text": "Rechazar el ancla inicial, reevaluar el valor real de mercado y proponer una contraoferta basada en métricas.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Neutralizaste la trampa del anclaje aplicando inteligencia táctica en la negociación.",
+          "bookInsight": "Conocer los sesgos cognitivos te permite desarticular las técnicas de presión comercial."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Redes Sociales y Percepción",
+      "title": "La Trampa de la Validación Ajena",
+      "difficulty": "Media",
+      "badge": "Centinela Cognitivo",
+      "scenarioDescription": "Notas que un conocido utiliza las redes sociales para publicar contenido ambiguo buscando generar lástima y atención constante de su círculo.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Escribirle mensajes largos de apoyo y validación constante.",
+          "outcome": "Fallo",
+          "wisdomScore": 35,
+          "analysis": "Refuerzas el comportamiento de manipulación por lástima (vulnerabilidad instrumentalizada).",
+          "bookInsight": "La falsa vulnerabilidad es una estrategia de control emocional para extraer energía y atención."
+        },
+        {
+          "id": "opt2",
+          "text": "Ignorar el señuelo digital y ofrecer un trato neutral y directo fuera de las plataformas públicas.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Extingues la conducta manipuladora al negarte a participar en el teatro emocional.",
+          "bookInsight": "La falta de refuerzo es la herramienta más efectiva para desactivar conductas de manipulación histriónica."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Entorno Familiar",
+      "title": "El Triángulo de Culpa Familiar",
+      "difficulty": "Alta",
+      "badge": "Arquitecto de Límites",
+      "scenarioDescription": "Un familiar utiliza la triangulación, comparándote desfavorablemente con otro miembro de la familia para obligarte a cumplir sus expectativas.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Competir y esforzarte el doble para ganar la aprobación de ese familiar.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "Caíste en la dinámica de división y conquista, validando el juego de poder del manipulador.",
+          "bookInsight": "La triangulación busca generar rivalidad artificial para mantener el control sobre el grupo."
+        },
+        {
+          "id": "opt2",
+          "text": "Señalar la manipulación con calma y negarte a participar en comparaciones tóxicas.",
+          "outcome": "Éxito",
+          "wisdomScore": 98,
+          "analysis": "Rompes la estructura de poder familiar al exponer la táctica y mantener tu autonomía emocional.",
+          "bookInsight": "Nombrar la manipulación en voz alta disuelve su poder oculto sobre la psique."
         }
       ]
     }
@@ -11754,38 +11858,453 @@ const LIBROS_DATA = {
   "flashcards": [
     {
       "id": "fc1",
-      "term": "Consistencia cognitiva",
-      "definition": "Técnica psicológica estudiada en \"Preliminares Y Tabla De Contenido\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Usar el \"test de la silla vacía\": ¿qué le dirías a un amigo en tu situación?"
+      "bookNumber": 1,
+      "category": "Fundamentos",
+      "term": "Psicología Oscura",
+      "definition": "Estudio y aplicación de tácticas de coerción, manipulación y persuasión coercitiva utilizadas para subvertir la voluntad ajena.",
+      "tacticalUse": "Identificar patrones ocultos de control en entornos corporativos o personales.",
+      "countermeasure": "Desarrollo de pensamiento crítico y calibración emocional."
     },
     {
       "id": "fc2",
-      "term": "Triangulación",
-      "definition": "Técnica psicológica estudiada en \"L1 Introduccion Y Que Es La Psicologia Oscura\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Reconocer los 7 signos de la Tríada Oscura en contactos cercanos."
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Forma de abuso psicológico donde se siembran dudas sistemáticas en el individuo para hacerle dudar de su memoria y percepción.",
+      "tacticalUse": "Controlar a la pareja o subordinados alterando los hechos.",
+      "countermeasure": "Mantener registros escritos y diarios de eventos."
     },
     {
       "id": "fc3",
-      "term": "Hipnosis ericksoniana",
-      "definition": "Técnica psicológica estudiada en \"L1 Origen Y Estudios De La Psicologia Oscura\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Establecer límites claros y comunicarlos asertivamente."
+      "bookNumber": 1,
+      "category": "Influencia",
+      "term": "Reciprocidad Forzada",
+      "definition": "Técnica donde se otorga un favor no solicitado para generar una deuda psicológica ineludible.",
+      "tacticalUse": "Inducir a otros a aceptar condiciones desfavorables por 'compromiso'.",
+      "countermeasure": "Rechazar favores innecesarios o devolverlos inmediatamente sin condiciones."
     },
     {
       "id": "fc4",
-      "term": "Simpatía fabricada",
-      "definition": "Técnica psicológica estudiada en \"L1 Influencia De Las Emociones Y Enfoques\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Tomarse tiempo antes de responder a demandas urgentes fabricadas."
+      "bookNumber": 1,
+      "category": "Conducta",
+      "term": "Triangulación",
+      "definition": "Introducir a una tercera persona en un conflicto para validar una postura o manipular a través de los celos y la rivalidad.",
+      "tacticalUse": "Dividir y conquistar grupos o relaciones cercanas.",
+      "countermeasure": "Rechazar comentarios sobre terceros y exigir comunicación directa."
     },
     {
       "id": "fc5",
-      "term": "DARVO",
-      "definition": "Técnica psicológica estudiada en \"L1 Lideres Que Han Usado La Psicologia Oscura\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Desarrollar independencia emocional mediante mindfulness diario."
+      "bookNumber": 1,
+      "category": "Liderazgo Oscuro",
+      "term": "Maquiavelismo",
+      "definition": "Rasgo de personalidad caracterizado por el cynical desapego moral, la manipulación y el uso de otros como medios para un fin.",
+      "tacticalUse": "Avanzar políticamente a costa del bienestar ajeno.",
+      "countermeasure": "Auditar resultados éticos y establecer rendición de cuentas transparente."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Lenguaje Corporal",
+      "term": "Microexpresiones",
+      "definition": "Breves expresiones faciales involuntarias que revelan emociones reprimidas o incongruencia en el discurso.",
+      "tacticalUse": "Detectar mentiras o inseguridades ocultas durante una negociación.",
+      "countermeasure": "Calibrar la línea base del interlocutor antes de evaluar."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "Emociones",
+      "term": "Cercenamiento Empático",
+      "definition": "Supresión deliberada de la empatía para tomar decisiones frías que perjudican a otros.",
+      "tacticalUse": "Ejecutar despidos masivos o negociaciones duras sin culpa.",
+      "countermeasure": "Reconectar con principios éticos humanistas y supervisión externa."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Técnicas",
+      "term": "Anclaje Emocional",
+      "definition": "Asociación de un estímulo específico a un estado emocional intenso para activarlo a voluntad.",
+      "tacticalUse": "Manipular estados de ánimo en audiencias o negociaciones.",
+      "countermeasure": "Reconocer el estímulo y separarlo racionalmente de la decisión."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Neurociencia",
+      "term": "Secuestro Amigdalino",
+      "definition": "Reacción emocional desproporcionada donde la amígdala cerebral secuestra el control antes de que la corteza prefrontal procese el estímulo.",
+      "tacticalUse": "Provocar miedo o ira para impedir el razonamiento lógico.",
+      "countermeasure": "Respiración diafragmática y pausa de 5 segundos antes de responder."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Aislamiento Progresivo",
+      "definition": "Técnica de separación gradual de la víctima de su red de apoyo para aumentar su dependencia.",
+      "tacticalUse": "Monopolizar el tiempo y la influencia sobre una persona.",
+      "countermeasure": "Mantener vínculos activos con múltiples círculos sociales."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Ética",
+      "term": "Narcisismo Maligno",
+      "definition": "Combinación de grandiosidad, falta de empatía, agresión y paranoia orientada al dominio interpersonal.",
+      "tacticalUse": "Dominar jerarquías mediante el terror psicológico y el encanto superficial.",
+      "countermeasure": "Establecer distancia operativa y cero contacto emocional."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "La Puerta en la Cara",
+      "definition": "Técnica de cumplimiento donde se realiza primero una petición desmesurada para que la segunda, más razonable, sea aceptada.",
+      "tacticalUse": "Conseguir concesiones mediante la aparente moderación posterior.",
+      "countermeasure": "Evaluar cada petición de forma aislada sin comparar con la anterior."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Asertividad Escudo",
+      "definition": "Capacidad de comunicar límites claros sin agresividad ni sumisión.",
+      "tacticalUse": "Bloquear intentos de invasión psicológica o manipulación.",
+      "countermeasure": "Práctica constante del disco rayado y frases 'Yo'."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Análisis",
+      "term": "Incongruencia Kinésica",
+      "definition": "Contradicción entre lo que se dice verbalmente y el lenguaje corporal emitido.",
+      "tacticalUse": "Detectar engaños y ocultamiento de información relevante.",
+      "countermeasure": "Confrontar la ambigüedad pidiendo clarificación verbal y gestual."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Estrategia",
+      "term": "Culpabilización Invertida",
+      "definition": "Hacer responsable a la víctima de los actos cometidos por el agresor.",
+      "tacticalUse": "Eludir responsabilidades y desestabilizar al oponente.",
+      "countermeasure": "Mantener el foco en la conducta original sin aceptar culpas ajenas."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación Emocional",
+      "name": "Culpa Inducida por Víctima",
+      "severity": "Alta",
+      "icon": "fa-brain",
+      "howItWorks": "El manipulador exagera su sufrimiento para hacer que la víctima sienta remordimiento por establecer límites legítimos.",
+      "redFlags": [
+        "Uso frecuente de frases como 'Después de todo lo que hice por ti'",
+        "Cambios repentinos de postura de enojo a tristeza profunda",
+        "Sensación injustificada de deuda constante"
+      ],
+      "counterScript": "Entiendo que estés dolido/a, pero mi decisión respecto a este asunto es firme y no negociable.",
+      "deepMechanism": "Explota el sesgo de empatía y el miedo social a ser percibido como una mala persona."
+    },
+    {
+      "id": "t2",
+      "category": "Control Psicológico",
+      "name": "Gaslighting Sistemático",
+      "severity": "Crítica",
+      "icon": "fa-skull",
+      "howItWorks": "Alteración deliberada de hechos y negación de la realidad para desestabilizar la confianza cognitiva de la víctima.",
+      "redFlags": [
+        "Negación rotunda de eventos que ocurrieron claramente",
+        "Acusaciones de tener mala memoria o estar paranoico",
+        "Aislamiento gradual de opiniones externas"
+      ],
+      "counterScript": "Yo recuerdo perfectamente lo que sucedió y tengo un registro de ello. No aceptaré que se nieguen los hechos.",
+      "deepMechanism": "Dañar la corteza prefrontal y la memoria de trabajo mediante el estrés crónico de la incertidumbre."
+    },
+    {
+      "id": "t3",
+      "category": "Estrategia de Poder",
+      "name": "Triangulación Política",
+      "severity": "Alta",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Involucrar a un tercero para generar celos, inseguridad o presión competitiva artificial.",
+      "redFlags": [
+        "Comentarios frecuentes sobre lo bien que lo hace otra persona comparado contigo",
+        "Rumores sutiles transmitidos entre conocidos",
+        "Creación de alianzas secretas"
+      ],
+      "counterScript": "Prefiero hablar directamente contigo sobre este tema sin involucrar terceras opiniones.",
+      "deepMechanism": "Activa el instinto primitivo de pertenencia y el miedo al reemplazo dentro del grupo."
+    },
+    {
+      "id": "t4",
+      "category": "Persuasión Coercitiva",
+      "name": "Ambigüedad Calculada",
+      "severity": "Media",
+      "icon": "fa-eye",
+      "howItWorks": "Mantener intenciones confusas para que la víctima proyecte sus propios deseos y sea más fácil de manipular.",
+      "redFlags": [
+        "Respuestas evasivas a preguntas directas",
+        "Cambios constantes en las reglas del juego",
+        "Señales mixtas entre afecto y rechazo"
+      ],
+      "counterScript": "Necesito una respuesta clara y directa de sí o no para poder avanzar.",
+      "deepMechanism": "Genera un bucle de dopamina en la víctima por la búsqueda constante de certeza."
+    },
+    {
+      "id": "t5",
+      "category": "Dinámica de Influencia",
+      "name": "Aislamiento Informativo",
+      "severity": "Crítica",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Restringir el acceso de la víctima a fuentes externas de validación o perspectivas objetivas.",
+      "redFlags": [
+        "Crítica constante hacia tus amigos o familiares",
+        "Exigencia de exclusividad de tiempo absoluta",
+        "Descalificación de medios o fuentes de información externos"
+      ],
+      "counterScript": "Valoro mis relaciones externas y mantendré contacto con mi red de apoyo.",
+      "deepMechanism": "Elimina la disonancia cognitiva que aportarían perspectivas externas, acelerando el control."
+    },
+    {
+      "id": "t6",
+      "category": "Manipulación Financiera/Laboral",
+      "name": "Reciprocidad Armada",
+      "severity": "Media",
+      "icon": "fa-brain",
+      "howItWorks": "Imponer favores no solicitados para luego exigir contraprestaciones abusivas bajo el peso moral.",
+      "redFlags": [
+        "Regalos o ayudas excesivas sin motivo aparente",
+        "Recordatorio constante de lo que el otro ha hecho por ti",
+        "Presión para aceptar tratos inmediatos"
+      ],
+      "counterScript": "Agradezco el gesto, pero prefiero no aceptarlo para evitar compromisos futuros.",
+      "deepMechanism": "Activa la norma social universal de reciprocidad para anular el juicio crítico."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal de la psicología oscura en un contexto interpersonal?",
+      "options": [
+        "Fomentar la empatía y la comunicación asertiva.",
+        "Comprender y aplicar tácticas de coerción y manipulación para subvertir la voluntad.",
+        "Mejorar la salud mental mediante la terapia cognitivo-conductual.",
+        "Desarrollar liderazgo ético y transparente en las organizaciones."
+      ],
+      "correctIndex": 1,
+      "explanation": "La psicología oscura estudia el lado maquiavélico y coercitivo del comportamiento humano orientado al control."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "¿Qué caracteriza principalmente a la táctica del Gaslighting?",
+      "options": [
+        "Ofrecer regalos excesivos para generar deudas emocionales.",
+        "Hacer dudar sistemáticamente a la víctima de su memoria y cordura.",
+        "Involucrar a un tercero para crear rivalidad.",
+        "Amenazar con abandonar la relación de forma abrupta."
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting busca destruir la autoconfianza cognitiva de la víctima distorsionando la realidad."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "¿Qué es el 'Secuestro Amigdalino' en el contexto de la influencia emocional?",
+      "options": [
+        "Una técnica de negociación basada en contratos legales.",
+        "Una reacción donde la emoción extrema bloquea el razonamiento lógico prefrontal.",
+        "Un método para recordar información compleja mediante repetición espaciada.",
+        "Una estrategia de liderazgo carismático y positivo."
+      ],
+      "correctIndex": 1,
+      "explanation": "Ocurre cuando la amígdala toma el control ejecutivo ante el miedo o la ira, anulando el pensamiento crítico."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "¿Cuál es la contramedida más efectiva ante la triangulación?",
+      "options": [
+        "Competir con el tercero para ganar la aprobación.",
+        "Aceptar los comentarios sin cuestionar.",
+        "Exigir comunicación directa y rechazar involucrar terceras opiniones.",
+        "Ignorar por completo al manipulador sin decir nada."
+      ],
+      "correctIndex": 2,
+      "explanation": "La triangulación se disuelve al cortar los canales indirectos y exigir transparencia bilateral."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "¿Qué define el rasgo de personalidad conocido como Maquiavelismo?",
+      "options": [
+        "Una búsqueda constante de validación social y afecto.",
+        "Un desapego moral orientado a la manipulación y uso de otros como medios.",
+        "Una tendencia natural a la empatía excesiva y el altruismo.",
+        "Un miedo patológico al conflicto y al liderazgo."
+      ],
+      "correctIndex": 1,
+      "explanation": "El maquiavelismo implica frialdad emocional y cálculo estratégico para alcanzar poder e intereses propios."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "¿Por qué es crucial calibrar la línea base del lenguaje corporal antes de analizar microexpresiones?",
+      "options": [
+        "Para gastar menos energía durante la observación.",
+        "Porque cada individuo tiene patrones únicos de normalidad que evitan falsos positivos.",
+        "Para intimidar al interlocutor desde el primer momento.",
+        "Porque el lenguaje corporal no tiene utilidad científica."
+      ],
+      "correctIndex": 1,
+      "explanation": "La línea base establece el comportamiento estándar de la persona, permitiendo detectar anomalías reales."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Psicología Oscura",
+      "category": "Fundamentos",
+      "definition": "Estudio de las técnicas de manipulación y coerción mental.",
+      "practicalExample": "Analizar cómo un jefe utiliza el miedo para forzar horas extra."
+    },
+    {
+      "id": "g2",
+      "term": "Gaslighting",
+      "definition": "Abuso psicológico que distorsiona la realidad de la víctima.",
+      "practicalExample": "Decir 'yo nunca dije eso' cuando hay testigos presenciales."
+    },
+    {
+      "id": "g3",
+      "term": "Triangulación",
+      "definition": "Uso de un tercero para manipular relaciones interpersonales.",
+      "practicalExample": "Comentarle a tu pareja lo mucho que tu colega te admira para generar celos."
+    },
+    {
+      "id": "g4",
+      "term": "Maquiavelismo",
+      "definition": "Estrategia interpersonal basada en la manipulación calculadora.",
+      "practicalExample": "Ascender utilizando información confidencial de otros."
+    },
+    {
+      "id": "g5",
+      "term": "Anclaje",
+      "definition": "Asociación de un estímulo a un estado emocional específico.",
+      "practicalExample": "Usar un tono de voz firme para asociarlo con autoridad."
+    },
+    {
+      "id": "g6",
+      "term": "Secuestro Amigdalino",
+      "definition": "Respuesta cerebral impulsiva ante estímulos amenazantes.",
+      "practicalExample": "Gritar en una discusión antes de procesar los argumentos."
+    },
+    {
+      "id": "g7",
+      "term": "Reciprocidad Forzada",
+      "definition": "Imposición de un favor no pedido para obligar a devolverlo.",
+      "practicalExample": "Regalar algo costoso para exigir un voto a favor."
+    },
+    {
+      "id": "g8",
+      "term": "Microexpresión",
+      "definition": "Expresión facial involuntaria de corta duración.",
+      "practicalExample": "Una sonrisa sarcástica de milisegundos al escuchar un cumplido."
+    },
+    {
+      "id": "g9",
+      "term": "Aislamiento",
+      "definition": "Corte gradual de redes de apoyo de la víctima.",
+      "practicalExample": "Criticar a los amigos de tu pareja hasta que deje de verlos."
+    },
+    {
+      "id": "g10",
+      "term": "Narcisismo",
+      "definition": "Patrón de grandiosidad y falta de empatía.",
+      "practicalExample": "Monopolizar cada conversación hablando solo de logros propios."
+    },
+    {
+      "id": "g11",
+      "term": "Cercenamiento Empático",
+      "definition": "Apagado voluntario de la empatía para obtener beneficios.",
+      "practicalExample": "Ignorar el llanto de un subordinado al despedirlo."
+    },
+    {
+      "id": "g12",
+      "term": "Incongruencia Kinésica",
+      "definition": "Contradicción entre palabras y lenguaje corporal.",
+      "practicalExample": "Decir 'estoy tranquilo' mientras se cruzan y tensan los brazos."
+    },
+    {
+      "id": "g13",
+      "term": "Culpabilización Invertida",
+      "definition": "Hacer responsable a la víctima de las acciones del agresor.",
+      "practicalExample": "Decir 'me obligaste a gritarte por tu incompetencia'."
+    },
+    {
+      "id": "g14",
+      "term": "Línea Base",
+      "definition": "Comportamiento normal y relajado de una persona.",
+      "practicalExample": "Observar cómo gesticula alguien cuando habla de temas triviales."
+    },
+    {
+      "id": "g15",
+      "term": "Asertividad",
+      "definition": "Comunicación clara de límites sin agredir ni someterse.",
+      "practicalExample": "Decir 'no puedo ayudarte con este proyecto este fin de semana'."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "DETECCIÓN",
+      "title": "Microexpresión de Desprecio Asimétrico",
+      "cue": "Elevación unilateral de la comisura de los labios (sonrisa torcida de un solo lado).",
+      "interpretation": "Indica superioridad percibida, desdén o desprecio oculto hacia el interlocutor o su argumento.",
+      "practicalDrill": "Observar entrevistas grabadas a velocidad lenta buscando asimetrías faciales fugaces durante acuerdos."
+    },
+    {
+      "id": "bl2",
+      "category": "CALIBRACIÓN",
+      "title": "Bloqueo Ocular y Oclusiones",
+      "cue": "Cierre prolongado de ojos, frotarse los párpados o mirar hacia abajo al recibir una pregunta.",
+      "interpretation": "Mecanismo inconsciente de defensa para 'borrar' visualmente algo desagradable, amenazante o falso.",
+      "practicalDrill": "Monitorear la frecuencia de parpadeo y oclusiones al introducir un tema incómodo en una charla."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Incongruencia Postural de Aceptación",
+      "cue": "Afirmar verbalmente con la cabeza un 'sí' mientras el torso o los pies apuntan hacia la salida.",
+      "interpretation": "Disonancia entre el compromiso verbal forzado y el deseo real de escape o rechazo.",
+      "practicalDrill": "Calibrar los pies del interlocutor en negociaciones; los pies siempre apuntan hacia donde realmente se quiere ir."
+    },
+    {
+      "id": "bl4",
+      "category": "DETECCIÓN",
+      "title": "Manipuladores de Autoconsuelo",
+      "cue": "Tocar repetidamente el cuello, la base de la garganta o frotar las manos en los muslos.",
+      "interpretation": "Señal de alta ansiedad, estrés o intento de calmar el sistema nervioso autónomo ante la mentira o la presión.",
+      "practicalDrill": "Identificar el gesto calmante específico de un colega cuando se le cuestiona sobre un error."
+    },
+    {
+      "id": "bl5",
+      "category": "CALIBRACIÓN",
+      "title": "Expansión Territorial y Postura Alfa",
+      "cue": "Brazos abiertos ocupando espacio, manos en la cintura o respaldo de silla abarcado con amplitud.",
+      "interpretation": "Demostración kinésica de dominio, intento de intimidación o afirmación de jerarquía.",
+      "practicalDrill": "Practicar la postura neutra expandida para neutralizar intentos de intimidación espacial."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "Sonrisa Social vs. Sonrisa de Duchenne",
+      "cue": "Movimiento exclusivo de la boca sin arrugas en las comisuras de los ojos (patas de gallo ausentes).",
+      "interpretation": "Demuestra una sonrisa fingida, falta de alegría genuina y presencia de máscara social o manipulación.",
+      "practicalDrill": "Examinar fotos o interacciones cotidianas diferenciando sonrisas genuinas de sonrisas calculadas."
     }
   ]
 };

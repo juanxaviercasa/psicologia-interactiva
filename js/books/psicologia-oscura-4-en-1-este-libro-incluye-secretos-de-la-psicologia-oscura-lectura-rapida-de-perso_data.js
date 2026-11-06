@@ -6816,27 +6816,157 @@ const LIBROS_DATA = {
   "caseScenarios": [
     {
       "id": "cs1",
-      "category": "Manipulación en el Trabajo",
-      "title": "El Jefe Maquiavélico",
+      "category": "Manipulación y Psicología Oscura",
+      "title": "La oferta laboral bajo presión artificial",
       "difficulty": "Alta",
-      "badge": "Psicología Oscura",
-      "scenarioDescription": "Tu jefe te asigna constantemente el trabajo de otros, pero en las reuniones de equipo afirma que 'todos debemos colaborar'. Cuando te quejas en privado, él niega haberte sobrecargado y te acusa de no tener 'espíritu de equipo'. ¿Qué técnica está usando y cómo respondes?",
+      "badge": "Escudo Antimanipulación",
+      "scenarioDescription": "Un reclutador utiliza tácticas de urgencia extrema y aislamiento informativo para obligarte a aceptar un contrato desventajoso en menos de 24 horas, apelando a tu miedo a perder oportunidades.",
       "options": [
         {
           "id": "opt1",
-          "text": "Es Gaslighting. Documento todas las asignaciones por correo y respondo asertivamente con pruebas en público.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Identificaste correctamente el gaslighting (negar la realidad) y la manipulación de la culpa. Documentar es tu mejor defensa objetiva.",
-          "bookInsight": "El maquiavelismo prospera en la ambigüedad. La documentación destruye su coartada."
+          "text": "Aceptar de inmediato por miedo a quedar desempleado y perder la supuesta única oportunidad.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Caíste en la trampa de la escasez artificial y el anclaje temporal, cediendo ante la presión emocional.",
+          "bookInsight": "Los manipuladores usan la urgencia artificial para apagar el córtex prefrontal y forzar decisiones impulsivas."
         },
         {
           "id": "opt2",
-          "text": "Es Bombardeo de Amor. Le agradezco la oportunidad de demostrar mi valor trabajando más duro.",
+          "text": "Pausar la interacción, solicitar el contrato por escrito y establecer un plazo razonable de revisión.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Neutralizaste la táctica de presión al recuperar el control del tiempo y exigir transparencia objetiva.",
+          "bookInsight": "Romper el marco temporal del manipulador restaura la capacidad de análisis racional y defensa psicológica."
+        }
+      ]
+    },
+    {
+      "id": "cs2",
+      "category": "Señales y Defensa Contra Manipulación",
+      "title": "El gaslighting sutil en el entorno laboral",
+      "difficulty": "Alta",
+      "badge": "Vigilante Cognitivo",
+      "scenarioDescription": "Un compañero de equipo altera sutilmente los registros de un proyecto y luego insinúa repetidamente que tu memoria está fallando debido al estrés.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Dudar de tu propia capacidad y disculparte por los supuestos errores de memoria.",
           "outcome": "Fallo",
-          "wisdomScore": 10,
-          "analysis": "No es bombardeo de amor, es explotación. Estás validando su abuso y fomentando más sobrecarga laboral.",
-          "bookInsight": "Ceder ante la manipulación de la culpa solo refuerza el condicionamiento del manipulador."
+          "wisdomScore": 15,
+          "analysis": "Permitiste que erosionaran tu sentido de realidad, cediendo el control de tu autoconcepto al manipulador.",
+          "bookInsight": "El gaslighting busca socavar la confianza en las propias percepciones para hacerte dependiente de la versión del otro."
+        },
+        {
+          "id": "opt2",
+          "text": "Consultar las copias de seguridad documentales y mantener registros escritos de cada intercambio.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Invalidaste la manipulación psicológica confrontándola con evidencia empírica inquebrantable.",
+          "bookInsight": "La documentación objetiva es el antídoto definitivo contra la distorsión sistemática de la realidad."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Hipnosis y Mecanismo Emocional",
+      "title": "La apelación emocional en una negociación de crisis",
+      "difficulty": "Media",
+      "badge": "Maestro Emocional",
+      "scenarioDescription": "Durante una discusión familiar por herencias, un familiar utiliza lágrimas fingidas y culpa para forzar una repartición desigual.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ceder en los términos económicos para evitar la confrontación emocional y calmar la culpa.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Fuiste víctima de chantaje emocional, premiando el comportamiento manipulador con concesiones injustas.",
+          "bookInsight": "El chantaje emocional utiliza el miedo, la obligación y la culpa (FOG) para doblegar la voluntad ajena."
+        },
+        {
+          "id": "opt2",
+          "text": "Validar el sentimiento sin ceder en el acuerdo, manteniendo la conversación en un plano estrictamente lógico.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Separaste la emoción simulada de los hechos objetivos, protegiendo tus intereses sin caer en la trampa.",
+          "bookInsight": "Responder con ecuanimidad y separación de contextos neutraliza las técnicas de inducción hipnótica informal."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Carácter y Lenguaje Corporal",
+      "title": "La lectura de microexpresiones en una reunión clave",
+      "difficulty": "Media",
+      "badge": "Analista Conductual",
+      "scenarioDescription": "Un socio comercial asiente verbalmente a una propuesta, pero notas una microexpresión de desprecio y tensión mandibular al cerrar el trato.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ignorar la señal corporal y confiar ciegamente en las palabras afirmativas del socio.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "Ignoraste la disonancia entre la comunicación verbal y la no verbal, exponiéndote a una traición futura.",
+          "bookInsight": "El cuerpo rara vez miente; las microexpresiones revelan la verdadera actitud emocional oculta tras la fachada."
+        },
+        {
+          "id": "opt2",
+          "text": "Hacer una pregunta de sondeo abierta para verificar si existen objeciones no expresadas.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Utilizaste la detección temprana de incongruencias para prevenir un conflicto oculto antes de que escale.",
+          "bookInsight": "Contrastar el lenguaje corporal con preguntas de calibración desarma los acuerdos falsos."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Mentiras, Verdad y Análisis",
+      "title": "La detección de engaños mediante preguntas inversas",
+      "difficulty": "Alta",
+      "badge": "Detector Humano",
+      "scenarioDescription": "Un subordinado da demasiados detalles irrelevantes y evita el contacto visual al explicar por qué falló un informe crítico.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Aceptar la narrativa excesivamente detallada asumiendo que la abundancia de datos demuestra honestidad.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "Caíste en la falacia del exceso de justificación, síntoma clásico de discursos fabricados.",
+          "bookInsight": "Los mentirosos patológicos suelen sobrecargar sus relatos con detalles innecesarios para ensayar credibilidad."
+        },
+        {
+          "id": "opt2",
+          "text": "Pedir que relate los hechos en orden cronológico inverso para evidenciar inconsistencias en la invención.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Desmontaste la mentira utilizando la carga cognitiva del engaño en su propia contra.",
+          "bookInsight": "Recordar una mentira al revés exige un esfuerzo cognitivo masivo que desenmascara al fabulador."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Recableando la Mente",
+      "title": "La ruptura de patrones de autosabotaje",
+      "difficulty": "Alta",
+      "badge": "Arquitecto Mental",
+      "scenarioDescription": "Identificas un diálogo interno recurrente que te convence de que no estás preparado para liderar un nuevo proyecto estratégico.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Renunciar a la oportunidad y esperar a sentirte 100% seguro antes de intentar algo nuevo.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Permitiste que los sesgos cognitivos y el miedo limitaran tu crecimiento profesional y personal.",
+          "bookInsight": "Esperar la ausencia total de miedo es una trampa mental para mantener la zona de confort."
+        },
+        {
+          "id": "opt2",
+          "text": "Reestructurar el pensamiento limitante mediante evidencia pasada y asumir la tarea como un experimento de aprendizaje.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Recableaste tu respuesta mental transformando el miedo en un estímulo de acción controlada.",
+          "bookInsight": "La reprogramación mental requiere identificar el sesgo y reemplazarlo conscientemente mediante neuroplasticidad activa."
         }
       ]
     }
@@ -6844,38 +6974,465 @@ const LIBROS_DATA = {
   "flashcards": [
     {
       "id": "fc1",
-      "term": "La Tríada Oscura",
-      "definition": "Concepto psicológico que agrupa tres rasgos de personalidad malévolos: Narcisismo, Maquiavelismo y Psicopatía.",
-      "tacticalUse": "Los manipuladores la usan para racionalizar su abuso y falta de empatía al buscar sus objetivos.",
-      "countermeasure": "Establecer límites estrictos; reconocer la falta de remordimiento y alejarse en lugar de intentar 'cambiarlos'."
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Táctica de manipulación psicológica diseñada para hacer que la víctima dude de su propia cordura, memoria o percepción de la realidad.",
+      "tacticalUse": "Inducir dependencia absoluta haciendo que el sujeto confíe únicamente en el criterio del manipulador.",
+      "countermeasure": "Mantener registros escritos, diarios objetivos y buscar validación externa de terceros de confianza."
     },
     {
       "id": "fc2",
-      "term": "Gaslighting (Luz de Gas)",
-      "definition": "Táctica de manipulación donde el abusador hace que la víctima dude de su propia memoria, percepción o cordura.",
-      "tacticalUse": "Negar eventos que ocurrieron ('Eso nunca pasó') o cambiar la narrativa para invalidar los sentimientos de la víctima.",
-      "countermeasure": "Llevar un registro escrito de los hechos, confiar en la propia intuición y no discutir la realidad con el abusador."
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Anclaje Psicológico",
+      "definition": "Sesgo cognitivo donde la mente humana depende demasiado de la primera pieza de información ofrecida (el 'ancla') al tomar decisiones.",
+      "tacticalUse": "Establecer la primera cifra o condición extrema en una negociación para sesgar todas las contraofertas.",
+      "countermeasure": "Reconocer el ancla, suspender la decisión y redefinir los parámetros basándose en valores de mercado objetivos."
     },
     {
       "id": "fc3",
-      "term": "Bombardeo de Amor (Love Bombing)",
-      "definition": "Demostraciones excesivas y prematuras de atención, afecto y regalos al inicio de una relación para crear dependencia.",
-      "tacticalUse": "Se usa para bajar las defensas de la víctima y aislarla de su círculo de apoyo al hacerla sentir 'única' y 'especial'.",
-      "countermeasure": "Ralentizar la relación. Exigir espacio y evaluar si el afecto es proporcional al tiempo de conocerse."
+      "bookNumber": 1,
+      "category": "Influencia",
+      "term": "Principio de Escasez",
+      "definition": "Técnica de persuasión basada en la percepción de que los ítems o oportunidades son limitados en cantidad o tiempo.",
+      "tacticalUse": "Acelerar la toma de decisiones impulsivas eliminando el tiempo de reflexión crítica.",
+      "countermeasure": "Introducir una pausa artificial y preguntarse si el valor del objeto se mantiene sin el factor urgencia."
     },
     {
       "id": "fc4",
-      "term": "Técnica del Espejo (Mirroring)",
-      "definition": "Imitar sutilmente el lenguaje corporal, tono de voz o palabras de otra persona para generar simpatía inconsciente.",
-      "tacticalUse": "Crear un falso sentido de familiaridad y confianza rápida (Rapport) para que la persona baje sus defensas.",
-      "countermeasure": "Hacer un movimiento inusual de forma deliberada y observar si el interlocutor lo copia instintivamente."
+      "bookNumber": 1,
+      "category": "Emoción",
+      "term": "Triángulo FOG (Miedo, Obligación, Culpa)",
+      "definition": "Dinámica de control emocional empleada por manipuladores para mantener a sus objetivos sumisos y complacientes.",
+      "tacticalUse": "Explotar la empatía y la moralidad del sujeto para que actúe en contra de sus propios intereses.",
+      "countermeasure": "Identificar el chantaje emocional y establecer límites asertivos sin justificaciones excesivas."
     },
     {
       "id": "fc5",
-      "term": "Neuro-Linguistic Programming (PNL)",
-      "definition": "Enfoque que afirma la conexión entre procesos neurológicos, lenguaje y patrones de comportamiento para influir en la mente.",
-      "tacticalUse": "Uso de 'anclajes' emocionales o lenguaje sugestivo (órdenes incrustadas) para guiar decisiones sin que la persona lo note.",
-      "countermeasure": "Prestar atención a los cambios bruscos de estado emocional y cuestionar las sugerencias lógicas detrás de los mensajes."
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Confusión Inducida",
+      "definition": "Método de saturación cognitiva donde se abruma al interlocutor con datos complejos o contrarios para facilitar la sugestionabilidad.",
+      "tacticalUse": "Bajar las defensas críticas del sujeto para plantar sugerencias o acuerdos favorables.",
+      "countermeasure": "Detener el discurso, simplificar el problema a una sola premisa y exigir claridad absoluta."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 2,
+      "category": "Lenguaje Corporal",
+      "term": "Microexpresiones",
+      "definition": "Expresiones faciales involuntarias y extremadamente breves que duran una fracción de segundo, revelando emociones reprimidas.",
+      "tacticalUse": "Detectar mentiras o incongruencias entre lo que una persona dice y lo que realmente siente.",
+      "countermeasure": "Entrenar la observación focalizada y calibrar la línea base del comportamiento del interlocutor."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 2,
+      "category": "Comunicación",
+      "term": "Proximémica",
+      "definition": "Estudio del uso del espacio físico y la distancia interpersonal en la comunicación no verbal y las relaciones de poder.",
+      "tacticalUse": "Invadir el espacio personal para intimidar o establecer dominio jerárquico sutil.",
+      "countermeasure": "Reclamar y mantener firmemente el territorio personal manteniendo una postura erguida y calmada."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 2,
+      "category": "Personalidad",
+      "term": "Triada Oscura",
+      "definition": "Conjunto de rasgos de personalidad que incluye maquiavelismo, narcisismo y psicopatía subclínica.",
+      "tacticalUse": "Identificar patrones de comportamiento manipulador, falta de empatía y búsqueda de poder a cualquier costo.",
+      "countermeasure": "Establecer límites estrictos, evitar la vulnerabilidad emocional y documentar todas las interacciones."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 2,
+      "category": "Análisis",
+      "term": "Línea Base Conductual",
+      "definition": "Patrón de comportamiento habitual, tono de voz y lenguaje corporal de una persona en un estado relajado y sincero.",
+      "tacticalUse": "Servir como punto de comparación para detectar desviaciones causadas por estrés, engaño o manipulación.",
+      "countermeasure": "Observar al individuo en situaciones neutrales antes de realizar evaluaciones críticas."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 3,
+      "category": "Mentalidad",
+      "term": "Sesgo de Confirmación",
+      "definition": "Tendencia a buscar, interpretar y recordar información que confirme las creencias previas, ignorando la evidencia contradictoria.",
+      "tacticalUse": "Mantener al sujeto atrapado en ideologías o creencias manipuladas mediante filtros informativos.",
+      "countermeasure": "Buscar activamente argumentos y datos que refuten las propias hipótesis."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 3,
+      "category": "Paradigma",
+      "term": "Marcos de Realidad (Frames)",
+      "definition": "Estructuras conceptuales o perspectivas a través de las cuales las personas interpretan los eventos y las interacciones.",
+      "tacticalUse": "Imponer un marco propio en una conversación para obligar a los demás a operar bajo tus reglas.",
+      "countermeasure": "Reconocer el marco dominante y rechazarlo redefiniendo los términos del debate ('romper el frame')."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 3,
+      "category": "Recableado",
+      "term": "Neuroplasticidad",
+      "definition": "Capacidad del cerebro para formar y reorganizar conexiones sinápticas, especialmente en respuesta al aprendizaje o la experiencia.",
+      "tacticalUse": "Modificar patrones de pensamiento destructivos mediante la práctica consciente de nuevos hábitos mentales.",
+      "countermeasure": "Sustituir rutinas de pensamiento negativo por respuestas cognitivas constructivas y repetitivas."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 4,
+      "category": "Reprogramación",
+      "term": "Inundación Cognitiva",
+      "definition": "Técnica de exposición controlada a estímulos o pensamientos temidos para reducir la respuesta de ansiedad.",
+      "tacticalUse": "Desactivar fobias o bloqueos mentales que impiden la toma de decisiones asertivas.",
+      "countermeasure": "Aplicar técnicas de regulación respiratoria y desactivación del sistema nervioso autónomo."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Reciprocidad Forzada",
+      "definition": "Obligación psicológica sentida de devolver un favor o concesión, incluso cuando no se ha solicitado el estímulo inicial.",
+      "tacticalUse": "Obtener compromisos desproporcionados ofreciendo regalos o favores no solicitados.",
+      "countermeasure": "Aceptar el regalo solo si se puede desvincular de cualquier obligación futura, o rechazarlo cortésmente."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 2,
+      "category": "Mentiras",
+      "term": "Carga Cognitiva del Engaño",
+      "definition": "Esfuerzo mental adicional requerido para inventar y mantener una mentira coherente frente a la realidad.",
+      "tacticalUse": "Saturar al mentiroso con preguntas complejas y repentinas para que su discurso colapse.",
+      "countermeasure": "Mantener la veracidad en las comunicaciones para evitar el desgaste mental del engaño."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación Emocional",
+      "name": "Aislamiento Progresivo",
+      "severity": "Crítica",
+      "icon": "fa-user-ninja",
+      "howItWorks": "El manipulador desacredita sistemáticamente a la red de apoyo de la víctima (amigos, familiares) para volverse la única fuente de validación y referencia.",
+      "redFlags": [
+        "Críticas constantes hacia tus seres queridos sin motivo real.",
+        "Incentivos sutiles para pasar menos tiempo fuera del círculo del manipulador.",
+        "Sensación de que solo esa persona te comprende de verdad."
+      ],
+      "counterScript": "Mantendré y fortaleceré mis vínculos externos de manera independiente. Mis relaciones personales no están sujetas a tu aprobación.",
+      "deepMechanism": "Aprovecha la necesidad evolutiva de pertenencia a la tribu, cortando los sistemas alternativos de seguridad social y emocional."
+    },
+    {
+      "id": "t2",
+      "category": "Técnicas de Poder",
+      "name": "El Juego de la Culpa Invertida (DARVO)",
+      "severity": "Alta",
+      "icon": "fa-skull",
+      "howItWorks": "Denegar el ataque, ataca a la víctima y invierte los roles de culpable y víctima para eludir la responsabilidad.",
+      "redFlags": [
+        "Cuando señalas un error, terminas disculpándote tú.",
+        "El agresor se posiciona como la verdadera víctima de tu reclamo.",
+        "Uso de generalizaciones extremas para desviar el foco del problema original."
+      ],
+      "counterScript": "No voy a desviar el foco. Estamos discutiendo el comportamiento específico X, no mis reacciones ante él.",
+      "deepMechanism": "Utiliza la disonancia cognitiva y la empatía de la víctima para generar confusión moral y evitar la rendición de cuentas."
+    },
+    {
+      "id": "t3",
+      "category": "Influencia Subconsciente",
+      "name": "Culpabilización Preventiva",
+      "severity": "Media",
+      "icon": "fa-brain",
+      "howItWorks": "Anticiparse a los reproches mostrando un falsa vulnerabilidad para desarmar cualquier crítica legítima antes de que sea expresada.",
+      "redFlags": [
+        "Autoexculpaciones antes de cometer una acción cuestionable.",
+        "Uso excesivo de 'sé que soy terrible en esto, pero...'.",
+        "Apelación constante a la compasión para evitar evaluaciones de desempeño."
+      ],
+      "counterScript": "Entiendo tu postura, pero evaluemos el resultado objetivo del trabajo independientemente de tus intenciones.",
+      "deepMechanism": "Bloquea el juicio crítico del interlocutor al activar prematuramente el circuito de la compasión y el perdón."
+    },
+    {
+      "id": "t4",
+      "category": "Guerra Psicológica",
+      "name": "Ambigüedad Calculada",
+      "severity": "Alta",
+      "icon": "fa-eye",
+      "howItWorks": "Mantener señales mixtas (interés extremo seguido de indiferencia total) para generar adicción psicológica y ansiedad por aprobación.",
+      "redFlags": [
+        "Cambios drásticos y sin causa aparente en el trato recibido.",
+        "Mensajes contradictorios entre palabras y acciones.",
+        "Sensación constante de estar caminando sobre cáscaras de huevo."
+      ],
+      "counterScript": "La inconsistencia en la comunicación no es funcional para mí. Necesito claridad o daré por terminada la interacción.",
+      "deepMechanism": "Estimula el sistema de recompensa intermitente en el cerebro, idéntico al mecanismo neuroquímico de las máquinas tragamonedas."
+    },
+    {
+      "id": "t5",
+      "category": "Defensa Táctica",
+      "name": "El Anclaje de Límites",
+      "severity": "Crítica",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Establecer barreras conductuales claras y consecuencias inquebrantables ante cualquier intento de invasión psicológica.",
+      "redFlags": [
+        "Pruebas constantes de resistencia a tus normas personales.",
+        "Minimización de tus peticiones de respeto ('era una broma', 'exageras').",
+        "Invasión repetida del espacio físico o digital."
+      ],
+      "counterScript": "Esta es la última vez que advierto sobre este comportamiento. Si se repite, suspenderemos la comunicación.",
+      "deepMechanism": "Reentrena el cerebro del manipulador al asociar su conducta transgresora con una consecuencia negativa inmediata y predecible."
+    },
+    {
+      "id": "t6",
+      "category": "Análisis Conductual",
+      "name": "Incongruencia Sistémica",
+      "severity": "Media",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Detectar desalineaciones entre el canal verbal, paraverbal y no verbal para descubrir intenciones ocultas.",
+      "redFlags": [
+        "Decir 'sí' con la cabeza mientras se realizan microgestos de rechazo.",
+        "Tono de voz plano o forzado al expresar entusiasmo.",
+        "Rigidez corporal inusual durante una supuesta charla casual."
+      ],
+      "counterScript": "Tus palabras dicen una cosa, pero tu lenguaje corporal expresa reticencia. ¿Hay algo que no me estás diciendo?",
+      "deepMechanism": "El sistema nervioso autónomo controla la comunicación no verbal, traicionando el discurso consciente fabricado."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal de la táctica de 'Gaslighting' según la psicología oscura?",
+      "options": [
+        "Aumentar la autoestima de la víctima mediante elogios constantes.",
+        "Hacer que la víctima dude de su propia percepción de la realidad y dependa del manipulador.",
+        "Negociar términos comerciales justos y transparentes.",
+        "Mejorar la memoria a corto plazo mediante ejercicios cognitivos."
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting busca socavar sistemáticamente la confianza en las propias facultades mentales para desestabilizar el criterio de la víctima."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "¿Cómo opera el sesgo de 'Anclaje' en una negociación manipuladora?",
+      "options": [
+        "Bloqueando totalmente la capacidad de comunicación del interlocutor.",
+        "Estableciendo un referente inicial extremo que sesga todas las valoraciones posteriores.",
+        "Generando empatía profunda a través de la vulnerabilidad compartida.",
+        "Eliminando la necesidad de contratos escritos."
+      ],
+      "correctIndex": 1,
+      "explanation": "El anclaje fija un parámetro inicial (precio, plazo o condición) que condiciona cognitivamente todas las estimaciones subsiguientes."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 2,
+      "question": "¿Qué revelan principalmente las microexpresiones faciales en un análisis conductual?",
+      "options": [
+        "El coeficiente intelectual de la persona.",
+        "Las intenciones futuras planificadas a largo plazo.",
+        "Emociones genuinas que el individuo intenta reprimir u ocultar.",
+        "El estado de salud física general."
+      ],
+      "correctIndex": 2,
+      "explanation": "Las microexpresiones son fugaces e involuntarias, filtrando la verdadera emoción que la persona busca disimular."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 3,
+      "question": "¿Qué representa el concepto de 'Marcos de Realidad' (Frames) en la comunicación estratégica?",
+      "options": [
+        "Los límites físicos de una habitación.",
+        "La estructura conceptual y perspectiva desde la cual se interpreta una interacción.",
+        "Un registro fotográfico de las expresiones corporales.",
+        "Las leyes jurídicas que regulan un contrato."
+      ],
+      "correctIndex": 1,
+      "explanation": "Quien impone el marco de realidad define las reglas, el tono y los significados aceptados dentro de la dinámica comunicativa."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 4,
+      "question": "¿Cuál es el propósito de aplicar la 'Carga Cognitiva del Engaño' al interrogar a un posible mentiroso?",
+      "options": [
+        "Hacer que se sienta cómodo para que confiese voluntariamente.",
+        "Saturar su capacidad mental al exigir tareas complejas como relatar los hechos en orden inverso.",
+        "Ofrecerle incentivos económicos para decir la verdad.",
+        "Disminuir su ritmo cardíaco mediante técnicas de relajación."
+      ],
+      "correctIndex": 1,
+      "explanation": "Mentir requiere un alto esfuerzo mental; añadir complejidad cognitiva expone las contradicciones del discurso fabricado."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "¿Qué caracteriza al triángulo FOG en el contexto del chantaje emocional?",
+      "options": [
+        "Felicidad, Optimismo y Gratitud.",
+        "Miedo (Fear), Obligación (Obligation) y Culpa (Guilt).",
+        "Fuerza, Orden y Gobierno.",
+        "Flexibilidad, Objetividad y Genialidad."
+      ],
+      "correctIndex": 1,
+      "explanation": "FOG (niebla en inglés) representa las tres palancas emocionales oscuras utilizadas para doblegar la voluntad de las personas."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Gaslighting",
+      "category": "Manipulación",
+      "definition": "Forma de abuso psicológico que distorsiona la verdad para sembrar dudas en la estabilidad mental de la víctima.",
+      "practicalExample": "Negar categóricamente haber dicho algo que consta en grabaciones para hacer creer al otro que imagina cosas."
+    },
+    {
+      "id": "g2",
+      "term": "Anclaje",
+      "category": "Sesgos Cognitivos",
+      "definition": "Dependencia excesiva de la primera información recibida al tomar decisiones posteriores.",
+      "practicalExample": "Ofrecer un producto a un precio exageradamente alto para que el descuento posterior parezca una ganga irresistible."
+    },
+    {
+      "id": "g3",
+      "term": "Microexpresión",
+      "category": "Lenguaje Corporal",
+      "definition": "Movimiento facial involuntario que dura milisegundos y muestra emociones reprimidas.",
+      "practicalExample": "Una fracción de segundo de sonrisa cínica mientras se expresa pésame verbal."
+    },
+    {
+      "id": "g4",
+      "term": "Proximémica",
+      "category": "Comunicación No Verbal",
+      "definition": "Uso estratégico del espacio personal y la distancia en las interacciones humanas.",
+      "practicalExample": "Invadir el espacio físico de un negociador para generar incomodidad y ventaja psicológica."
+    },
+    {
+      "id": "g5",
+      "term": "Triada Oscura",
+      "category": "Personalidad",
+      "definition": "Constelación de rasgos que incluye narcisismo, maquiavelismo y psicopatía subclínica.",
+      "practicalExample": "Un líder que manipula sin remordimientos los logros de su equipo para beneficiarse personalmente."
+    },
+    {
+      "id": "g6",
+      "term": "Reciprocidad Forzada",
+      "category": "Persuasión",
+      "definition": "Imposición de un favor no solicitado para generar una deuda psicológica exigible.",
+      "practicalExample": "Regalar un objeto promocional costoso para obligar al cliente a escuchar una larga presentación de ventas."
+    },
+    {
+      "id": "g7",
+      "term": "Línea Base Conductual",
+      "category": "Análisis",
+      "definition": "Comportamiento estándar de un individuo en condiciones de tranquilidad y honestidad.",
+      "practicalExample": "Observar cómo gesticula habitualmente una persona al responder preguntas neutrales antes de interrogarla."
+    },
+    {
+      "id": "g8",
+      "term": "Marco (Frame)",
+      "category": "Estrategia",
+      "definition": "Estructura mental que define el contexto y las reglas de interpretación de una conversación.",
+      "practicalExample": "Establecer desde el inicio de una reunión que el tiempo disponible es de solo diez minutos, condicionando la urgencia."
+    },
+    {
+      "id": "g9",
+      "term": "Neuroplasticidad",
+      "category": "Recableado Mental",
+      "definition": "Capacidad neuronal para modificar conexiones y crear nuevos patrones de pensamiento.",
+      "practicalExample": "Reemplazar un diálogo interno derrotista por afirmaciones de competencia mediante práctica diaria."
+    },
+    {
+      "id": "g10",
+      "term": "Chantaje Emocional (FOG)",
+      "category": "Manipulación",
+      "definition": "Uso de miedo, obligación y culpa para controlar las decisiones de otros.",
+      "practicalExample": "Decir 'si me quieres de verdad, harás esto por mí, aunque te perjudique'."
+    },
+    {
+      "id": "g11",
+      "term": "Carga Cognitiva",
+      "definition": "Esfuerzo mental aplicado en la memoria de trabajo durante una tarea.",
+      "practicalExample": "Hacer preguntas imprevistas en orden cronológico inverso para saturar la capacidad de invención de un mentiroso."
+    },
+    {
+      "id": "g12",
+      "term": "Sesgo de Confirmación",
+      "category": "Sesgos Cognitivos",
+      "definition": "Tendencia a favorecer información que valida creencias preexistentes.",
+      "practicalExample": "Leer únicamente noticias que apoyan una postura política y descartar todas las evidencias contrarias."
+    },
+    {
+      "id": "g13",
+      "term": "Aislamiento Progresivo",
+      "category": "Manipulación Oscura",
+      "definition": "Estrategia para separar a un individuo de su red de apoyo social.",
+      "practicalExample": "Criticar sistemáticamente a los amigos de la pareja hasta lograr que dejen de frecuentarlos."
+    },
+    {
+      "id": "g14",
+      "term": "DARVO",
+      "category": "Tácticas de Defensa",
+      "definition": "Denegar, Atacar y Revertir el Rol de Víctima y Ofensor.",
+      "practicalExample": "Acusar a tu pareja de ser 'demasiado sensible' cuando le reclamas una falta de respeto evidente."
+    },
+    {
+      "id": "g15",
+      "term": "Escasez Artificial",
+      "definition": "Ilusión de limitación creada para acelerar la toma de decisiones impulsivas.",
+      "practicalExample": "Anunciar que quedan 'solo dos plazas disponibles' en un curso en línea ilimitado."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "DETECCIÓN",
+      "title": "Calibración de la Línea Base",
+      "cue": "Observar gestos de confort, tono de voz habitual, postura relajada y patrones de parpadeo en un contexto neutral.",
+      "interpretation": "Establece el punto de partida conductual del sujeto, permitiendo identificar anomalías causadas por estrés o engaño posterior.",
+      "practicalDrill": "Mantén una charla trivial de 5 minutos con tu interlocutor prestando atención exclusiva a sus manierismos naturales antes de tratar temas complejos."
+    },
+    {
+      "id": "bl2",
+      "category": "DETECCIÓN",
+      "title": "Disonancia Verbal y No Verbal",
+      "cue": "Asentimiento verbal con la cabeza ('sí') combinado con un microgesto lateral de negación o rigidez corporal.",
+      "interpretation": "Revela desacuerdo interno profundo o simulación deliberada de aceptación ante una propuesta.",
+      "practicalDrill": "Haz una pregunta de prueba sobre un acuerdo inminente y observa milimétricamente el movimiento del cuello y mandíbula."
+    },
+    {
+      "id": "bl3",
+      "category": "CALIBRACIÓN",
+      "title": "Bloqueo de Autoprotección",
+      "cue": "Cruzarse de brazos, tocarse el cuello o crear barreras físicas (como colocar objetos entre ambos) ante una pregunta directa.",
+      "interpretation": "Indica incomodidad psicológica, actitud defensiva o sensación de amenaza ante la información expuesta.",
+      "practicalDrill": "Observa el momento exacto en que tu interlocutor modifica su postura defensiva al introducir un tema delicado en la conversación."
+    },
+    {
+      "id": "bl4",
+      "category": "DEFENSA",
+      "title": "Postura de Expansión Territorial",
+      "cue": "Hombros hacia atrás, torso erguido, ocupación natural del espacio y contacto visual firme pero no intimidatorio.",
+      "interpretation": "Proyecta seguridad, dominio del marco de realidad y resistencia efectiva a intentos de intimidación.",
+      "practicalDrill": "Practica mantener la postura de poder neutra durante situaciones de alta presión o negociaciones difíciles."
+    },
+    {
+      "id": "bl5",
+      "category": "DETECCIÓN",
+      "title": "Sobrecarga de Detalle Fabricado",
+      "cue": "Exceso de justificaciones innecesarias, rigidez en la mirada fija (evitando el parpadeo natural) y ausencia de errores espontáneos.",
+      "interpretation": "Síntoma clásico de un relato ensayado o fabricado para ocultar la verdad real de los hechos.",
+      "practicalDrill": "Solicita un resumen cronológico inverso de un acontecimiento y analiza si el exceso de detalles se quiebra."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "Neutralización de la Invasión Espacial",
+      "cue": "Mantener la distancia de seguridad (proximémica neutra), dar un paso lateral y reorientar el ángulo corporal sin retroceder.",
+      "interpretation": "Anula el intento de dominación física y recoloca la interacción en un plano de igualdad negociadora.",
+      "practicalDrill": "Simula una aproximación invasiva con un compañero y practica recuperar tu espacio personal con elegancia y firmeza."
     }
   ]
 };

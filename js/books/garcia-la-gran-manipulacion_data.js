@@ -4677,53 +4677,157 @@ const LIBROS_DATA = {
   "caseScenarios": [
     {
       "id": "cs1",
-      "category": "Análisis de Comunicación de Crisis",
-      "title": "La Aparición de una Declaración Oficial Contradictoria",
+      "category": "Medios y Propaganda",
+      "title": "La Cobertura de la Crisis y el Pánico Colectivo",
       "difficulty": "Alta",
-      "badge": "Maestro en Desmontaje de Propaganda",
-      "scenarioDescription": "Te encuentras analizando el discurso del portavoz gubernamental durante una emergencia sanitaria. Un mes antes afirmó categóricamente que 'las mascarillas no eran necesarias y resultaban contraproducentes'. Hoy declara que 'su uso es indispensable y que quien no las lleve comete un delito contra la salud pública', negando haber dicho la postura anterior.",
+      "badge": "Analista de Medios",
+      "scenarioDescription": "Trabajas en la asesoría de comunicación de una institución pública. Ante una situación de crisis sanitaria, los principales medios de comunicación emiten un flujo constante de noticias con carga emocional extrema, apelando exclusivamente al miedo y a la urgencia. Se te pide diseñar una estrategia de comunicación que mantenga a la población en estado de alerta máxima.",
       "options": [
         {
           "id": "opt1",
-          "text": "Recopilar las grabaciones originales, contrastar las fechas, documentar el cambio de versión e identificar si la negativa inicial se debió a desabastecimiento gubernamental.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Identificaste la técnica de manipulación de la hemeroteca. Exponer la contradicción con pruebas documentales demuestra cómo el relato se adapta para ocultar fallos de gestión (escasez de stock).",
-          "bookInsight": "El poder político rara vez admite un error de previsión; prefiere cambiar el relato y culpar o sancionar al ciudadano."
+          "text": "Alinear la estrategia con el relato alarmista de los medios para asegurar la obediencia estricta mediante el miedo.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Cae en la trampa de la demagogia descrita por Jano García, priorizando el control social a corto plazo mediante la manipulación emocional sobre el pensamiento crítico.",
+          "bookInsight": "El uso deliberado de la propaganda y la demagogia desactiva la racionalidad del ciudadano, convirtiendo la información en una herramienta de coerción."
         },
         {
           "id": "opt2",
-          "text": "Aceptar que la ciencia evoluciona y respaldar inmediatamente la nueva narrativa penalizando a quienes recuerden las declaraciones pasadas.",
-          "outcome": "Fallo",
-          "wisdomScore": 20,
-          "analysis": "Confundes la evolución del conocimiento científico con la manipulación política. Justificar la mentira u ocultamiento previo valida la ingeniería social.",
-          "bookInsight": "La sumisión acrítica a las variaciones del discurso oficial destruye la exigencia de transparencia democrática."
+          "text": "Desacelerar el tono emocional, aportar datos contrastados, separar la información objetiva de la opinión y fomentar la transparencia.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Rompe el ciclo de manipulación mediática, empoderando a la ciudadanía con datos en lugar de apelar a las emociones primarias como el terror.",
+          "bookInsight": "La gestión de la crisis sanitaria y mediática mostrada en 'La Gran Manipulación' evidencia que el control social se basa en la supresión del análisis objetivo."
         }
       ]
     },
     {
       "id": "cs2",
-      "category": "Protección contra el Control Social",
-      "title": "Gestión de una Campaña de Presión Ciudadana",
+      "category": "Control Social y Confinamiento",
+      "title": "La Aceptación de Restricciones Extraordinarias",
       "difficulty": "Alta",
-      "badge": "Auditor de Libertad Ciudadana",
-      "scenarioDescription": "Durante un periodo de restricciones severas, la televisión estatal lanza una campaña que anima a denunciar a los vecinos que salgan a la calle más de 15 minutos, bajo el eslogan 'El virus lo paramos unidos o con delación'. En tu comunidad se genera un clima de paranoia y linchamiento digital a un vecino que sale con frecuencia por razones médicas no visibles.",
+      "badge": "Escudo de Autonomía",
+      "scenarioDescription": "Durante un periodo de restricciones severas de movilidad y confinamiento, observas que la disidencia es censurada y la población asume cualquier directriz oficial sin cuestionamiento ético ni legal, temiendo el señalamiento social.",
       "options": [
         {
           "id": "opt1",
-          "text": "Intervenir en la comunidad recordando el derecho a la privacidad, desmontando la validez del linchamiento mediático y alertando del peligro del totalitarianismo de balcón.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Detectaste la creación de la 'policía horizontal'. Fomentar la empatía y los derechos fundamentales rompe la dinámica de control social dividida instigada desde la propaganda estatal.",
-          "bookInsight": "El estado autoritario se consolida cuando logra que los ciudadanos vigilen y castiguen a otros ciudadanos."
+          "text": "Unirte al coro de vigilancia ciudadana, señalando y culpabilizando a quienes cuestionan las medidas para proteger el estatus quo.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "Refuerza el totalitarismo blando donde la sociedad se convierte en carcelera de sí misma, tal como analiza el libro sobre el confinamiento y el control social.",
+          "bookInsight": "El control social extremo transforma a los ciudadanos en censores activos de sus propios vecinos, validando el relato oficial."
         },
         {
           "id": "opt2",
-          "text": "Sumarse al grupo de denuncia en redes para demostrar compromiso social e intimidar al vecino hasta que publique su historial médico.",
+          "text": "Analizar críticamente las medidas desde la perspectiva jurídica y científica, manteniendo el equilibrio mental y promoviendo el debate sosegado.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Ejerce la resistencia cognitiva fundamental descrita en la obra frente a la ingeniería social y el pensamiento único.",
+          "bookInsight": "El impacto económico y político del confinamiento requiere mantener la capacidad de cuestionamiento frente al relato oficial inquebrantable."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Desinformación y Redes",
+      "title": "La Tormenta de Noticias Falsas Institucionales",
+      "difficulty": "Media",
+      "badge": "Detector de Relatos",
+      "scenarioDescription": "Las redes sociales y los medios tradicionales difunden masivamente una información alarmante que justifica recortes de libertades. Al investigar las fuentes primarias, descubres que los datos han sido manipulados u omitidos parcialmente.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Compartir la noticia para evitar conflictos con tu entorno y formar parte de la corriente de opinión predominante.",
           "outcome": "Fallo",
-          "wisdomScore": 15,
-          "analysis": "Te has convertido en un instrumento del control social estatal, sacrificando el respeto individual en favor de una histeria colectiva azuzada por el poder.",
-          "bookInsight": "La manipulación más peligrosa es la que convence al ciudadano ordinario de ser el verdugo voluntario del Estado."
+          "wisdomScore": 35,
+          "analysis": "Demuestra conformismo y susceptibilidad a la desinformación institucional expuesta en el libro.",
+          "bookInsight": "La desinformación y las noticias falsas prosperan cuando el individuo delega su capacidad crítica en la comodidad de la mayoría."
+        },
+        {
+          "id": "opt2",
+          "text": "Desglosar la información falsa, contrastar las fuentes originales y publicar un análisis de disonancia basado en hechos.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Neutraliza la propaganda mediante la exposición metodológica de las contradicciones del relato oficial.",
+          "bookInsight": "Frente a la manipulación masiva, el antídoto es la verificación rigurosa y la desmitificación del discurso oficial."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Gestión de Crisis",
+      "title": "El Dilema del Consenso Fabricado",
+      "difficulty": "Alta",
+      "badge": "Estratega Antifrágil",
+      "scenarioDescription": "Se te convoca a una mesa de expertos donde se discute una medida económica y social drástica. Notas que cualquier opinión divergente es inmediatamente descalificada como 'peligrosa' o 'anticientífica' sin debate técnico.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Guardar silencio para preservar tu posición profesional y no ser etiquetado como disidente.",
+          "outcome": "Fallo",
+          "wisdomScore": 50,
+          "analysis": "Alimenta el pensamiento de grupo y la censura interna que el autor identifica como precursoras del autoritarismo.",
+          "bookInsight": "La gestión de las crisis sanitarias y políticas se sustenta en la eliminación sistemática de la disidencia informada."
+        },
+        {
+          "id": "opt2",
+          "text": "Presentar objeciones fundamentadas basadas en la gestión histórica de crisis y exigir un análisis de coste-beneficio transparente.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Restituye el rigor analítico y rompe el falso consenso construido artificialmente por las élites.",
+          "bookInsight": "El futuro de la sociedad depende de la valentía intelectual para desafiar los relatos oficiales carentes de sustento empírico."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Impacto Económico y Político",
+      "title": "La Justificación del Desastre Económico",
+      "difficulty": "Media",
+      "badge": "Visión Sistémica",
+      "scenarioDescription": "Un conjunto de políticas económicas destructivas para sectores enteros de la población es presentado como el 'único camino posible' e inevitable para el bien común.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Asumir el sacrificio incondicionalmente, aceptando que la economía es secundaria frente al relato preestablecido.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "Ignora las consecuencias reales analizadas en la obra sobre cómo las crisis son instrumentalizadas para transformar el modelo socioeconómico.",
+          "bookInsight": "El impacto económico y político de las decisiones de control suele ser el objetivo real disimulado tras discursos de emergencia."
+        },
+        {
+          "id": "opt2",
+          "text": "Analizar los datos económicos globales, identificar los intereses ocultos tras el relato oficial y exponer las alternativas viables.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Desmonta la falacia de que no existen alternativas, aplicando el pensamiento crítico ante la ingeniería social.",
+          "bookInsight": "Desenmascarar las mentiras del poder exige conectar las decisiones políticas con sus verdaderos efectos económicos."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Futuro de la Sociedad",
+      "title": "El Legado del Control: ¿Adaptación o Resistencia?",
+      "difficulty": "Alta",
+      "badge": "Guardián de la Verdad",
+      "scenarioDescription": "Tras analizar todos los mecanismos de manipulación, propaganda, gestión de crisis y control social expuestos en el libro, debes proponer una directriz personal y colectiva para evitar futuros abusos de poder.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Confiar pasivamente en que las instituciones corregirán sus errores con el tiempo sin necesidad de vigilancia ciudadana.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Representa la máxima vulnerabilidad frente al totalitarismo y la desinformación descrita en la conclusión de la obra.",
+          "bookInsight": "El futuro de la sociedad está amenazado si la ciudadanía abdica permanentemente de su deber de fiscalizar al poder."
+        },
+        {
+          "id": "opt2",
+          "text": "Fomentar la educación crítica, la descentralización de la información y la exigencia implacable de rendición de cuentas.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Consolida las defensas psicológicas e intelectuales necesarias para salvaguardar las libertades individuales.",
+          "bookInsight": "La conclusión de 'La Gran Manipulación' apunta a que la vigilancia constante y el pensamiento crítico son los únicos garantes de la libertad futura."
         }
       ]
     }
@@ -4731,38 +4835,466 @@ const LIBROS_DATA = {
   "flashcards": [
     {
       "id": "fc1",
-      "term": "Ingeniería del Miedo",
-      "definition": "Técnica de manipulación masiva que utiliza la amenaza hiperbolizada para suspender el juicio racional del individuo y lograr la aceptación voluntaria de restricciones.",
-      "tacticalUse": "Difusión continua de titulares alarmistas, recuento constante de bajas sin contexto y uso de lenguaje bélico.",
-      "countermeasure": "Análisis estadístico comparativo, desconexión del ruido mediático y consulta de datos primarios no procesados."
+      "bookNumber": 1,
+      "category": "Propaganda",
+      "term": "Demagogia Estructurada",
+      "definition": "Uso sistemático de apelaciones emocionales y argumentos falaces por parte del poder para guiar la conducta de masas.",
+      "tacticalUse": "Identificar discursos políticos que priorizan la emotividad sobre la lógica para manipular decisiones.",
+      "countermeasure": "Desvincular la emoción del análisis, exigiendo métricas y datos verificables."
     },
     {
       "id": "fc2",
-      "term": "Comité de Expertos Fantasma",
-      "definition": "Recurso retórico donde el poder político valida sus decretos bajo la supuesta autoridad de un panel científico inexistente o falto de transparencia.",
-      "tacticalUse": "Escudarse en 'lo que dice la ciencia' para eludir la responsabilidad jurídica y el debate político.",
-      "countermeasure": "Exigencia formal de actas, nombres, incompatibilidades de interés y metodologías mediante leyes de transparencia."
+      "bookNumber": 1,
+      "category": "Medios",
+      "term": "Ingeniería del Consenso Mediático",
+      "definition": "Sincronización de los medios de comunicación masivos para presentar un relato único y suprimir voces disidentes.",
+      "tacticalUse": "Reconocer patrones de cobertura idénticos en múltiples cadenas de noticias.",
+      "countermeasure": "Diversificar fuentes de información y consultar medios independientes o de orígenes ideológicos diversos."
     },
     {
       "id": "fc3",
-      "term": "Sesgo de Verificación Asimétrica",
-      "definition": "Práctica ejercida por agencias de 'fact-checking' consistente en desmentir exhaustivamente las opiniones críticas mientras se ignoran los bulos oficiales.",
-      "tacticalUse": "Etiquetar información incómoda como 'falsa' o 'fuera de contexto' para provocar su censura algorítmica.",
-      "countermeasure": "Auditar a los verificadores examinando sus fuentes de financiamiento, sesgo editorial y contradicciones pasadas."
+      "bookNumber": 1,
+      "category": "Crisis",
+      "term": "Gestión del Miedo Institucional",
+      "definition": "Estrategia de gobierno que utiliza la amenaza constante y magnificada para inducir parálisis y obediencia ciega.",
+      "tacticalUse": "Detectar el uso de hipérboles y lenguaje catastrofista en comunicados oficiales.",
+      "countermeasure": "Evaluar el riesgo real mediante estadística comparada y análisis probabilístico."
     },
     {
       "id": "fc4",
-      "term": "Estigmatización Moral del Disidente",
-      "definition": "Mecanismo social para tachar de egoísta, peligroso o 'negacionista' a cualquiera que cuestione la gestión o las verdades impuestas por el Estado.",
-      "tacticalUse": "Crear una dicotomía ética donde obedecer es ser 'buen ciudadano' y dudar equivale a poner en riesgo la vida comunitaria.",
-      "countermeasure": "Mantener la firmeza argumentativa basada en hechos y rechazar la chantajista culpabilización emocional."
+      "bookNumber": 1,
+      "category": "Desinformación",
+      "term": "Bulos Oficiales",
+      "definition": "Información falsa o distorsionada emitida por canales gubernamentales o mediáticos autorizados.",
+      "tacticalUse": "Desconfiar de afirmaciones extraordinarias presentadas sin respaldo documental primario.",
+      "countermeasure": "Exigir la publicación de los informes técnicos originales y auditorías independientes."
     },
     {
       "id": "fc5",
-      "term": "Reescritura de la Hemeroteca",
-      "definition": "Estrategia propagandística para alterar retroactivamente el relato de lo dicho o hecho por el gobierno al inicio de una crisis.",
-      "tacticalUse": "Borrar o modificar noticias previas, afirmar 'siempre se supo' o culpar a organismos externos de los errores propios.",
-      "countermeasure": "Archivado local de documentos, captura de declaraciones oficiales en vídeo y consulta de cronologías independientes."
+      "bookNumber": 1,
+      "category": "Control Social",
+      "term": "Confinamiento Conductual",
+      "definition": "Restricción severa de movimientos y relaciones sociales que debilita el tejido comunitario y la capacidad de protesta.",
+      "tacticalUse": "Comprender el impacto psicológico del aislamiento en la resistencia civil.",
+      "countermeasure": "Mantener redes de apoyo comunitarias y espacios de debate presencial seguros."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Economía",
+      "term": "Instrumentalización de Crisis",
+      "definition": "Aprovechamiento de situaciones de emergencia para implementar reformas económicas y políticas impopulares.",
+      "tacticalUse": "Analizar qué grupos se benefician económicamente de las restricciones extraordinarias.",
+      "countermeasure": "Auditar las adjudicaciones y cambios legislativos aprobados bajo el amparo de la urgencia."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "Relato Oficial",
+      "term": "Dogmatismo del Relato",
+      "definition": "Postura inquebrantable que califica cualquier duda sobre la versión oficial como herejía o desinformación.",
+      "tacticalUse": "Identificar falacias ad hominem contra expertos que cuestionan la narrativa oficial.",
+      "countermeasure": "Reivindicar el derecho metodológico a la duda y al contraste científico."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Psicología de Masas",
+      "term": "Pensamiento de Grupo Inducido",
+      "definition": "Fenómeno por el cual la presión social anula el juicio crítico individual en favor de la conformidad.",
+      "tacticalUse": "Detectar la autocensura en entornos profesionales o sociales.",
+      "countermeasure": "Fomentar la disidencia controlada y expresar opiniones contrarias con base técnica."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Propaganda",
+      "term": "Apelación a la Falsa Autoridad",
+      "definition": "Uso de figuras con prestigio en un área para avalar decisiones en campos totalmente ajenos.",
+      "tacticalUse": "Desvelar la falta de competencia específica de los portavoces designados.",
+      "countermeasure": "Verificar el currículum y las publicaciones revisadas por pares de los expertos citados."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Medios",
+      "term": "Censura por Omisión",
+      "definition": "Táctica consistente en silenciar datos, estudios o eventos completos para evitar que contradigan el relato oficial.",
+      "tacticalUse": "Observar qué temas clave están ausentes en los informativos principales.",
+      "countermeasure": "Buscar activamente investigaciones internacionales y estadísticas oficiales no enlazadas por los grandes medios."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Control Social",
+      "term": "Vigilancia Horizontal",
+      "definition": "Dinámica donde los ciudadanos actúan como policías de sus semejantes, denunciando desviaciones del relato oficial.",
+      "tacticalUse": "Reconocer la polarización social fomentada desde el poder político y mediático.",
+      "countermeasure": "Rechazar la delación y fomentar la empatía con la libertad ajena."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Crisis",
+      "term": "Efecto Túnel Cognitivo",
+      "definition": "Reducción del campo de atención mental ante una amenaza percibida, impidiendo evaluar riesgos secundarios.",
+      "tacticalUse": "Entender por qué la población acepta pérdidas colaterales masivas durante una emergencia.",
+      "countermeasure": "Tomar pausas deliberadas antes de tomar decisiones importantes bajo presión."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Desinformación",
+      "term": "Polarización Binaria",
+      "definition": "Presentación de la realidad en dos únicos bandos irreconciliables: 'con nosotros o contra el peligro'.",
+      "tacticalUse": "Identificar los intentos de eliminar los matices y el análisis moderado.",
+      "countermeasure": "Rechazar las falsas dicotomías y proponer marcos de discusión complejos."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Economía",
+      "term": "Asfixia Financiera Selectiva",
+      "definition": "Políticas que dañan selectivamente al tejido productivo independiente mientras fortalecen a grandes corporaciones.",
+      "tacticalUse": "Analizar la concentración de mercado tras la aplicación de medidas excepcionales.",
+      "countermeasure": "Apoyar la economía local y la diversificación de proveedores."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Futuro",
+      "term": "Vigilancia Preventiva Perpetua",
+      "definition": "Institucionalización de controles excepcionales bajo la promesa de una seguridad permanente.",
+      "tacticalUse": "Detectar la permanencia de medidas temporales de control tras finalizar la crisis que las originó.",
+      "countermeasure": "Exigir cláusulas de caducidad estrictas para cualquier limitación de derechos."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación Mediática",
+      "name": "Sobrecarga Emocional y Catastrofismo",
+      "severity": "Crítica",
+      "icon": "fa-brain",
+      "howItWorks": "Bombardea el sistema límbico con imágenes y mensajes de terror, bloqueando la corteza prefrontal y la capacidad de razonamiento lógico.",
+      "redFlags": [
+        "Uso constante de superlativos y adjetivos apocalípticos en los titulares.",
+        "Ausencia de datos estadísticos contextualizados.",
+        "Apelación directa a la culpa y al miedo a la muerte."
+      ],
+      "counterScript": "Apago la emisión en este momento. Voy a contrastar esta información con datos estadísticos oficiales antes de sacar conclusiones.",
+      "deepMechanism": "Hiperactivación de la amígdala cerebral, induciendo una respuesta de lucha, huida o parálisis que inhibe el pensamiento crítico."
+    },
+    {
+      "id": "t2",
+      "category": "Ingeniería Social",
+      "name": "Falso Consenso Fabricado",
+      "severity": "Alta",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Presenta una opinión minoritaria o interesada como la postura universal de la 'ciencia' o la 'sociedad', estigmatizando al discrepante.",
+      "redFlags": [
+        "Afirmaciones del tipo 'todos los expertos coinciden en que...'",
+        "Descalificación sistemática de voces expertas alternativas sin debate técnico.",
+        "Etiquetado de opiniones contrarias como peligrosas o ilegítimas."
+      ],
+      "counterScript": "El consenso científico real se basa en el debate abierto y la revisión de pruebas, no en dogmas inuestionables. Muéstrame los estudios que sustentan esa afirmación.",
+      "deepMechanism": "Explotación del sesgo de conformidad y la necesidad evolutiva de pertenencia al grupo."
+    },
+    {
+      "id": "t3",
+      "category": "Control Político",
+      "name": "Emergencia Permanente y Excepcionalidad",
+      "severity": "Crítica",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Prolonga indefinidamente medidas de control excepcional argumentando que la crisis nunca termina del todo.",
+      "redFlags": [
+        "Renovación sistemática de decretos de emergencia sin justificación empírica.",
+        "Eliminación de los mecanismos parlamentarios de control al Ejecutivo.",
+        "Normalización de la pérdida de libertades fundamentales."
+      ],
+      "counterScript": "¿Cuál es el indicador métrico exacto que marcará el fin de esta excepcionalidad y la restitución de los derechos previos?",
+      "deepMechanism": "Habituación psicológica al control autoritario, reduciendo la resistencia ciudadana con el paso del tiempo."
+    },
+    {
+      "id": "t4",
+      "category": "Desinformación",
+      "name": "Inversión Causal y Desvío de Atención",
+      "severity": "Alta",
+      "icon": "fa-eye",
+      "howItWorks": "Atribuye las consecuencias negativas de las propias decisiones políticas a factores externos inevitables o a la irresponsabilidad ciudadana.",
+      "redFlags": [
+        "Culpar a la población de los fallos estructurales de la gestión oficial.",
+        "Cambiar de tema o introducir una nueva crisis cuando se exigen responsabilidades.",
+        "Uso de cortinas de humo informáticas o mediáticas."
+      ],
+      "counterScript": "No desviemos el foco. Estamos analizando las consecuencias directas de la decisión tomada por la institución en fecha X.",
+      "deepMechanism": "Mecanismo de defensa institucional basado en la externalización de la culpa y la manipulación de la narrativa causal."
+    },
+    {
+      "id": "t5",
+      "category": "Propaganda",
+      "name": "Apelación a la Falacia de Autoridad Omnisciente",
+      "severity": "Media",
+      "icon": "fa-skull",
+      "howItWorks": "Utiliza portavoces institucionales revestidos de aparente infalibilidad para dictar verdades indiscutibles en campos complejos.",
+      "redFlags": [
+        "Negativa a someter los informes oficiales a auditoría externa e independiente.",
+        "Presentación de hipótesis como si fueran leyes científicas inmutables.",
+        "Uso de lenguaje tecnocrático incomprensible para oscurecer la realidad."
+      ],
+      "counterScript": "Agradezco la directriz, pero necesito revisar la metodología, la muestra y los conflictos de interés de los autores del informe.",
+      "deepMechanism": "Respeto atávico a la figura de autoridad jerárquica, heredado de estructuras tribales y autocráticas."
+    },
+    {
+      "id": "t6",
+      "category": "Censura",
+      "name": "Etiquetado Preventivo y Desacreditación",
+      "severity": "Alta",
+      "icon": "fa-brain",
+      "howItWorks": "Asigna etiquetas estigmatizantes ('propagador de bulos', 'anticientífico') a cualquier ciudadano o analista que cuestione el relato oficial.",
+      "redFlags": [
+        "Ataques personales en lugar de refutaciones basadas en argumentos.",
+        "Censura en plataformas digitales bajo criterios ambiguos de 'seguridad'.",
+        "Presión laboral o social contra voces discordantes."
+      ],
+      "counterScript": "Atacar al mensajero no refuta el argumento. Si hay errores en mis datos, demuéstralo con evidencias objetivas.",
+      "deepMechanism": "Exclusión social programada para generar un efecto disuasorio en el resto de la comunidad."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "Según Jano García en 'La Gran Manipulación', ¿cuál es el objetivo principal del uso intensivo del miedo y la demagogia en los medios de comunicación?",
+      "options": [
+        "Informar con rigor científico sobre los riesgos reales.",
+        "Desactivar la racionalidad del ciudadano para lograr obediencia y control social.",
+        "Promover el debate plural y democrático en la sociedad.",
+        "Estimular el crecimiento económico y la estabilidad institucional."
+      ],
+      "correctIndex": 1,
+      "explanation": "El libro demuestra que el miedo constante paraliza el pensamiento crítico, facilitando que la población acepte medidas de control que en condiciones normales rechazaría."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "¿Cómo operan los medios de comunicación según la tesis central del libro durante la gestión de crisis?",
+      "options": [
+        "Actuando como contrapoder independiente fiscalizando al Estado.",
+        "Creando un relato único y sincronizado que elimina la disidencia y fabrica un falso consenso.",
+        "Fomentando la investigación descentralizada y el periodismo de investigación riguroso.",
+        "Reduciendo el impacto emocional de las noticias para calmar a la población."
+      ],
+      "correctIndex": 1,
+      "explanation": "Jano García expone cómo los medios actúan como altavoces del relato oficial, sincronizando mensajes para anular la pluralidad informativa."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "Qué consecuencia social directa genera el confinamiento severo y la propaganda institucional, según el análisis del autor?",
+      "options": [
+        "Un incremento en la cohesión comunitaria y el libre pensamiento.",
+        "Una mayor fiscalización ciudadana mutua (vigilancia horizontal) y aceptación de restricciones de libertad.",
+        "La descentralización del poder político y el fortalecimiento de los derechos individuales.",
+        "La erradicación definitiva de la desinformación en redes sociales."
+      ],
+      "correctIndex": 1,
+      "explanation": "El confinamiento y el miedo transforman a los ciudadanos en censores de sus propios vecinos, validando el control social vertical."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "En el contexto de la desinformación y las noticias falsas analizadas en el libro, ¿cuál es el papel de los bulos oficiales?",
+      "options": [
+        "Son errores involuntarios sin impacto en la opinión pública.",
+        "Son herramientas de ingeniería social emitidas desde el poder para justificar decisiones políticas.",
+        "Son desmentidos rápidamente por agencias independientes.",
+        "Son una minoría irrelevante en comparación con los bulos ciudadanos."
+      ],
+      "correctIndex": 1,
+      "explanation": "El libro destaca que la mayor fuente de desinformación estructurada proviene de las propias instituciones encargadas de difundir el relato oficial."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "¿Qué relación existe entre la gestión de las crisis sanitarias/políticas y la economía según 'La Gran Manipulación'?",
+      "options": [
+        "Las medidas de control no tienen ninguna repercusión económica.",
+        "Las crisis son instrumentalizadas para justificar impactos económicos devastadores y transformar el modelo social.",
+        "La economía siempre se prioriza por encima de cualquier otra consideración política.",
+        "Los efectos económicos negativos son siempre imprevistos y accidentales."
+      ],
+      "correctIndex": 1,
+      "explanation": "Las decisiones tomadas bajo el paraguas de la emergencia generan un impacto económico y político profundo que beneficia determinados intereses mientras debilita a la sociedad civil."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "Según las conclusiones de Jano García, ¿cuál es el antídoto fundamental para que el futuro de la sociedad no quede dominado por la manipulación?",
+      "options": [
+        "Confiar incondicionalmente en las directrices de los organismos internacionales.",
+        "Eliminar por completo el acceso a internet y a las redes sociales.",
+        "Mantener la vigilancia constante, fomentar el pensamiento crítico y exigir rendición de cuentas.",
+        "Delegar la toma de decisiones éticas en comités de expertos gubernamentales."
+      ],
+      "correctIndex": 2,
+      "explanation": "La obra concluye que la defensa de la libertad exige ciudadanos informados, críticos y dispuestos a cuestionar permanentemente el discurso del poder."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Demagogia",
+      "category": "Propaganda",
+      "definition": "Empleo de halagos, mentiras y apelaciones emocionales para ganar el favor y la obediencia de las masas.",
+      "practicalExample": "Un político exagera un peligro inminente para justificar leyes restrictivas sin debate técnico."
+    },
+    {
+      "id": "g2",
+      "term": "Relato Oficial",
+      "category": "Medios",
+      "definition": "Versión de los acontecimientos construida, difundida y protegida por las instituciones de poder y los grandes medios.",
+      "practicalExample": "La narrativa unificada que repiten todas las cadenas de televisión sobre una crisis."
+    },
+    {
+      "id": "g3",
+      "term": "Ingeniería Social",
+      "category": "Control Social",
+      "definition": "Uso deliberado de la ciencia, la propaganda y la psicología para modificar masivamente la conducta y creencias de una sociedad.",
+      "practicalExample": "Implementar campañas de miedo sistemático para modificar hábitos de movilidad y relación."
+    },
+    {
+      "id": "g4",
+      "term": "Pensamiento de Grupo",
+      "category": "Psicología",
+      "definition": "Deseo de armonía o conformidad en el grupo que da lugar a una toma de decisiones irracional o acrítica.",
+      "practicalExample": "Un consejo de redacción que descarta investigar un escándalo por miedo a romper la línea editorial."
+    },
+    {
+      "id": "g5",
+      "term": "Disonancia Cognitiva",
+      "category": "Psicología",
+      "definition": "Tensión interna que experimenta una persona al sostener dos creencias contradictorias o al actuar en contra de sus valores.",
+      "practicalExample": "Defender el confinamiento estricto mientras se observan excepciones injustificadas en la élite política."
+    },
+    {
+      "id": "g6",
+      "term": "Vigilancia Horizontal",
+      "category": "Sociología",
+      "definition": "Proceso por el cual los ciudadanos vigilan, denuncian y corrigen el comportamiento de sus iguales según directrices del poder.",
+      "practicalExample": "Reprender públicamente a un vecino por no cumplir una norma menor de restricción."
+    },
+    {
+      "id": "g7",
+      "term": "Apelación al Miedo",
+      "category": "Persuasión Oscura",
+      "definition": "Táctica retórica que busca inducir terror para paralizar la capacidad analítica y forzar una respuesta sumisa.",
+      "practicalExample": "Titulares catastrofistas diarios sobre la inminencia de un colapso total."
+    },
+    {
+      "id": "g8",
+      "term": "Censura por Omisión",
+      "category": "Medios",
+      "definition": "Acción de silenciar deliberadamente información veraz que contradice la narrativa oficial establecida.",
+      "practicalExample": "Ignorar en los informativos los estudios científicos que contradicen una medida gubernamental."
+    },
+    {
+      "id": "g9",
+      "term": "Falacia de Autoridad",
+      "category": "Retórica",
+      "definition": "Argumento que defiende la validez de una premisa basándose únicamente en la autoridad de quien la emite, sin pruebas.",
+      "practicalExample": "Afirmar que algo es cierto porque 'lo ha dicho el comité de expertos'."
+    },
+    {
+      "id": "g10",
+      "term": "Excepcionalidad Permanente",
+      "category": "Política",
+      "definition": "Estado de emergencia prolongado en el tiempo que suspende de manera continuada derechos y garantías constitucionales.",
+      "practicalExample": "Mantener decretos de urgencia años después de superada la emergencia original."
+    },
+    {
+      "id": "g11",
+      "term": "Polarización Inducida",
+      "category": "Sociología",
+      "definition": "Estrategia para dividir a la sociedad en dos bandos enfrentados, neutralizando el centro moderado y el debate complejo.",
+      "practicalExample": "Categorizar a cualquier crítico como enemigo de la salud pública o del bien común."
+    },
+    {
+      "id": "g12",
+      "term": "Bulo Institucional",
+      "category": "Desinformación",
+      "definition": "Información falsa o sesgada generada y difundida por organismos oficiales para manipular la percepción pública.",
+      "practicalExample": "Publicar datos de contagio o económicos manipulados para justificar recortes."
+    },
+    {
+      "id": "g13",
+      "term": "Efecto Túnel",
+      "category": "Psicología",
+      "definition": "Estrechamiento de la atención consciente ante una situación de peligro percibido, ignorando el contexto general.",
+      "practicalExample": "Aceptar la ruina económica personal con tal de evitar una única amenaza magnificada por los medios."
+    },
+    {
+      "id": "g14",
+      "term": "Instrumentalización de Crisis",
+      "definition": "Uso cínico de una catástrofe o emergencia para impulsar agendas políticas o económicas previamente rechazadas.",
+      "practicalExample": "Aprobar leyes de control digital aprovechando un clima de histeria colectiva."
+    },
+    {
+      "id": "g15",
+      "term": "Resistencia Cognitiva",
+      "category": "Defensa Psicológica",
+      "definition": "Capacidad del individuo para procesar información de forma independiente, inmune al contagio emocional masivo.",
+      "practicalExample": "Consultar múltiples fuentes, verificar datos primarios y mantener la calma ante titulares alarmistas."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "CALIBRACIÓN",
+      "title": "Detección de la Congruencia en Portavoces Oficiales",
+      "cue": "Asimetría en los hombros, microexpresiones de desprecio (contracción unilateral de los labios) y parpadeo acelerado al leer un comunicado oficial.",
+      "interpretation": "Indica disonancia entre lo que el orador está verbalizando y sus verdaderas creencias o el conocimiento de que la información transmitida es dudosa.",
+      "practicalDrill": "Observa una rueda de prensa institucional sin sonido durante 2 minutos; identifica los gestos de tensión corporal y compáralos con los momentos de mayor dramatismo verbal."
+    },
+    {
+      "id": "bl2",
+      "category": "DETECCIÓN",
+      "title": "Análisis de Tono y Ritmo en Discursos Demagógicos",
+      "cue": "Aceleración repentina del ritmo de la voz acompañada de un tono agudo y pausas dramáticas calculadas para provocar aplausos o respuestas viscerales.",
+      "interpretation": "Diseñado para evocar respuestas emocionales automáticas en la masa, evitando que el receptor procese lógicamente el contenido del mensaje.",
+      "practicalDrill": "Escucha un discurso político aplicando un temporizador; cada vez que notes una subida artificial de tono sin datos de respaldo, anótalo como intento de manipulación emocional."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Postura de Anclaje contra la Presión de Grupo",
+      "cue": "Mantener los pies firmemente apoyados en el suelo, columna recta, brazos descruzados y contacto visual estable y pausado durante un debate tenso.",
+      "interpretation": "Transmite seguridad interna y evita físicamente la adopción automática de la postura sumisa o defensiva inducida por el entorno hostil.",
+      "practicalDrill": "Practica esta postura en una reunión donde haya unanimidad ficticia; observa cómo tu propia estabilidad física reduce la ansiedad ante la presión social."
+    },
+    {
+      "id": "bl4",
+      "category": "CALIBRACIÓN",
+      "title": "Identificación de la Apelación Artificial al Miedo",
+      "cue": "Tensión excesiva en el cuello (músculos esternocleidomastoideos marcados), respiración pectoral superficial y rigidez en las manos de un interlocutor.",
+      "interpretation": "Refleja activación simpática extrema (lucha/huida). En contextos de debate, indica que el individuo está operando bajo el efecto túnel del miedo.",
+      "practicalDrill": "Calibra el lenguaje no verbal de personas expuestas a noticias alarmantes frente a aquellas que consumen información contrastada."
+    },
+    {
+      "id": "bl5",
+      "category": "DETECCIÓN",
+      "title": "Señales de Evasión ante Preguntas Incómodas",
+      "cue": "Inclinación del torso hacia atrás inmediatamente después de recibir una pregunta sobre datos oficiales, acompañada de un gesto de limpieza en la solapa o la mesa.",
+      "interpretation": "Distanciamiento físico inconsciente del emisor respecto a la pregunta fiscalizadora, revelando incomodidad ante la falta de argumentos veraces.",
+      "practicalDrill": "Analiza entrevistas a portavoces institucionales cuando se les cuestionan contradicciones en el relato oficial."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "El Anclaje de la Pregunta Neutral",
+      "cue": "Responder a un ataque emocional con una pausa deliberada de 3 segundos, bajando ligeramente el mentón y formulando una pregunta basada en datos.",
+      "interpretation": "Rompe el ritmo de la manipulación, obliga al emisor a abandonar el terreno emocional y traslada la interacción al plano racional.",
+      "practicalDrill": "Ante una descalificación personal o demagógica, practica contar mentalmente hasta tres antes de articular una pregunta técnica calmada."
     }
   ]
 };

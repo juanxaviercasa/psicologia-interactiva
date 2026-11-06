@@ -1,3 +1,4 @@
+// Contenido enriquecido para La Gran Manipulación: De la Mentira al Control Social
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_2.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>La manipulación de masas es un fenómeno que el poder político ha utilizado a lo largo de la historia. Nuestros tiempos no iban a ser una excepción, y la televisión, unida al fenómeno de las redes sociales y las masas de acoso, han conformado un tridente mortífero contra la verdad. Mientras el ojo de la población estaba inmerso en la pandemia del Covid-19, hemos asistido al mayor espectáculo de manipulación de masas del último siglo en nuestro país, donde se ha privado al ciudadano de una información que podría haber evitado el desastre. Jano García La gran manipulación Cómo la desinformación convirtió a España en el paraíso del coronavirus ePub r1.1 Titivillus 18.01.2021 Título original: La gran manipulación Jano García, 2020 Editor digital: Titivillus ePub base r2.1 A mi abuela, que vivió la Guerra Civil, la dura postguerra, la gran depresión del año 2008 y ahora esta terrible pandemia que amenaza con llevársela por delante. A pesar de todo, ha sido la que menos se ha quejado de la situación. A mis estimados colaboradores, que me permiten tener la independencia de poder ser libre gracias a sus contribuciones en Patreon y YouTube. A mis lectores y oyentes. A mis seres queridos. A Juan Ricardo, un tipo valiente y comprometido con su país. A Fernando, que siempre ha estado ahí. A Estanislao, que ha soportado durante todo este confinamiento mis insistentes preguntas. We were silenced by the night but you and I, we’re going to rise again…",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Preliminares y Dedicatoria\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_gran_manipulacion_garcia/granmani_m1_preliminares_dedicatoria.webp\" alt=\"Preliminares y Dedicatoria\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>La manipulación de masas es un fenómeno que el poder político ha utilizado a lo largo de la historia. Nuestros tiempos no iban a ser una excepción, y la televisión, unida al fenómeno de las redes sociales y las masas de acoso, han conformado un tridente mortífero contra la verdad. Mientras el ojo de la población estaba inmerso en la pandemia del Covid-19, hemos asistido al mayor espectáculo de manipulación de masas del último siglo en nuestro país, donde se ha privado al ciudadano de una información que podría haber evitado el desastre. Jano García La gran manipulación Cómo la desinformación convirtió a España en el paraíso del coronavirus ePub r1.1 Titivillus 18.01.2021 Título original: La gran manipulación Jano García, 2020 Editor digital: Titivillus ePub base r2.1 A mi abuela, que vivió la Guerra Civil, la dura postguerra, la gran depresión del año 2008 y ahora esta terrible pandemia que amenaza con llevársela por delante. A pesar de todo, ha sido la que menos se ha quejado de la situación. A mis estimados colaboradores, que me permiten tener la independencia de poder ser libre gracias a sus contribuciones en Patreon y YouTube. A mis lectores y oyentes. A mis seres queridos. A Juan Ricardo, un tipo valiente y comprometido con su país. A Fernando, que siempre ha estado ahí. A Estanislao, que ha soportado durante todo este confinamiento mis insistentes preguntas. We were silenced by the night but you and I, we’re going to rise again…",
           "interactiveChallenge": {
             "question": "¿Cuál es el propósito central expresado en las dedicatorias y preliminares de la obra respecto al análisis de la manipulación?",
             "options": [
@@ -43,7 +44,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Introducción Desde que la política comenzó a ser descrita, hay un componente que siempre la ha acompañado, la demagogia. Son muchos los autores que la han descrito de diferentes formas, pero el primero en utilizar dicho término fue Aristóteles. El filósofo griego aseguraba que la demagogia se centraba en la manipulación de los pobres para así ganarse su favor y, de esa forma, asegurarse el poder a través del sentimentalismo, promesas inviables, el miedo o la falsa esperanza. Desde que Heródoto de Halicarnaso (considerado por algunos como el primer historiador) comenzó a escribir los pasajes de las Guerras Médicas entre griegos y persas, son multitud los ejemplos que nos demuestran que siempre ha estado presente la demagogia y la manipulación de masas por parte de los gobernantes para ganarse el favor de la mayoría del pueblo. Tenemos miles de ejemplos a lo largo de la historia, podríamos hablar de emperadores romanos como Tiberio, Calígula, Claudio o Nerón. Calígula representó a la perfección en qué consistía la demagogia que anteriormente había acuñado Aristóteles. En sus primeros meses de mandato se encargó de llenar de pan, dinero y buenos espectáculos a la plebe (los pobres que definía Aristóteles). Sin embargo, todo empezó a torcerse cuando apenas un año más tarde se había gastado el tesoro heredado por Tiberio (2700 millones de sestercios) provocando un enorme déficit en las arcas públicas. Decidió recurrir a nuevos y altos impuestos de los que no se salvaría nadie.",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Introducción - Demagogia y Propaganda\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_gran_manipulacion_garcia/granmani_m2_demagogia_propaganda.webp\" alt=\"Introducción - Demagogia y Propaganda\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Introducción Desde que la política comenzó a ser descrita, hay un componente que siempre la ha acompañado, la demagogia. Son muchos los autores que la han descrito de diferentes formas, pero el primero en utilizar dicho término fue Aristóteles. El filósofo griego aseguraba que la demagogia se centraba en la manipulación de los pobres para así ganarse su favor y, de esa forma, asegurarse el poder a través del sentimentalismo, promesas inviables, el miedo o la falsa esperanza. Desde que Heródoto de Halicarnaso (considerado por algunos como el primer historiador) comenzó a escribir los pasajes de las Guerras Médicas entre griegos y persas, son multitud los ejemplos que nos demuestran que siempre ha estado presente la demagogia y la manipulación de masas por parte de los gobernantes para ganarse el favor de la mayoría del pueblo. Tenemos miles de ejemplos a lo largo de la historia, podríamos hablar de emperadores romanos como Tiberio, Calígula, Claudio o Nerón. Calígula representó a la perfección en qué consistía la demagogia que anteriormente había acuñado Aristóteles. En sus primeros meses de mandato se encargó de llenar de pan, dinero y buenos espectáculos a la plebe (los pobres que definía Aristóteles). Sin embargo, todo empezó a torcerse cuando apenas un año más tarde se había gastado el tesoro heredado por Tiberio (2700 millones de sestercios) provocando un enorme déficit en las arcas públicas. Decidió recurrir a nuevos y altos impuestos de los que no se salvaría nadie.",
           "interactiveChallenge": {
             "question": "En el marco de la demagogia y propaganda, ¿qué mecanismo emocional es el pilar principal para doblegar el juicio crítico de las masas?",
             "options": [
@@ -572,7 +573,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "de progreso y felicidad. También sumo el cine, el teatro y, por supuesto, los mítines políticos transmitidos por televisión para conseguir una combinación de manipulación letal junto a la radio. El avance tecnológico ha permitido explotar todavía más la propaganda política televisiva, pero fue Goebbels el primero que comenzó a utilizar este medio. Cuando corrían voces de la inminente invasión de los «Aliados», Goebbels lanzó un bulo para mantener la moral alta de los alemanes. Se les dijo que poseían un arma secreta que acabaría con la guerra y que los alemanes no tenían nada que temer, incitándoles a luchar contra las tropas invasoras. El final es ya el conocido por todos. Sin Joseph Goebbels, los nazis jamás habrían podido conseguir el poder ni realizar, una vez alcanzado, todas y cada una de las fechorías cometidas bajo el régimen nacionalsocialista. Tanto es así, que sus nuevas formas propagandísticas siguen vigentes en la actualidad. En cualquier mitin político (no importa la ideología del partido que lo celebre) es habitual observar como el líder del partido entra por el centro del recinto custodiado por sus colaboradores más estrechos, pero siempre a una distancia prudente para que el líder pueda destacar mientras todo el mundo aplaude su llegada. Los escenarios donde se desempeñan los grandes mítines están a una distancia considerable del público, dejando total protagonismo en la escena al orador para resaltar su poder en las imágenes que más tarde se publican en los",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Los Medios de Comunicación y Redes\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_gran_manipulacion_garcia/granmani_m3_medios_y_redes.webp\" alt=\"Los Medios de Comunicación y Redes\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>de progreso y felicidad. También sumo el cine, el teatro y, por supuesto, los mítines políticos transmitidos por televisión para conseguir una combinación de manipulación letal junto a la radio. El avance tecnológico ha permitido explotar todavía más la propaganda política televisiva, pero fue Goebbels el primero que comenzó a utilizar este medio. Cuando corrían voces de la inminente invasión de los «Aliados», Goebbels lanzó un bulo para mantener la moral alta de los alemanes. Se les dijo que poseían un arma secreta que acabaría con la guerra y que los alemanes no tenían nada que temer, incitándoles a luchar contra las tropas invasoras. El final es ya el conocido por todos. Sin Joseph Goebbels, los nazis jamás habrían podido conseguir el poder ni realizar, una vez alcanzado, todas y cada una de las fechorías cometidas bajo el régimen nacionalsocialista. Tanto es así, que sus nuevas formas propagandísticas siguen vigentes en la actualidad. En cualquier mitin político (no importa la ideología del partido que lo celebre) es habitual observar como el líder del partido entra por el centro del recinto custodiado por sus colaboradores más estrechos, pero siempre a una distancia prudente para que el líder pueda destacar mientras todo el mundo aplaude su llegada. Los escenarios donde se desempeñan los grandes mítines están a una distancia considerable del público, dejando total protagonismo en la escena al orador para resaltar su poder en las imágenes que más tarde se publican en los",
           "interactiveChallenge": {
             "question": "¿Cómo actuaron los medios de comunicación hegemónicos y las redes sociales según el análisis del módulo 3?",
             "options": [
@@ -1043,7 +1044,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- ofrecidos por los ciudadanos de Wuhan. 29 de enero: Iberia y British Airways anuncian que suspenden todos sus vuelos con China. — Se suspende el campeonato del mundo de atletismo en pista cubierta que debía celebrarse en marzo en la ciudad de Nankín (China). — Ese mismo día, llega a Málaga el equipo de fútbol de Wuhan. Las autoridades españolas afirman que no tienen síntomas (a pesar de que está demostrado que puedes estar infectado y ser asintomático). — El coronavirus supera los 6000 afectados, más que el SARS de 2002, aunque su mortalidad es menor teniendo en cuenta los datos ofrecidos por China. La facilidad de propagación es ya evidente. Se contabilizan 1459 nuevos casos en apenas 24 horas. 30 de enero: Italia confirma sus dos primeros casos de coronavirus. El primer ministro italiano (Giuseppe Conte) anuncia la suspensión de todos los vuelos desde y hacia China. — El comité de emergencia de la Organización Mundial de la Salud (OMS) declara la emergencia sanitaria internacional por el brote del nuevo coronavirus. — Se desploman las reservas hoteleras, Starbucks anuncia el cierre de más de la mitad de sus cafeterías en China, Toyota se prepara en Japón para detener la producción y las compañías aéreas más importantes del mundo (excepto KLM y otras compañías menores), anuncian la cancelación de sus viajes a China. — España continúa sin hacer controles en los aeropuertos y se sigue permitiendo la llegada de viajeros procedentes de China que hacen escala en otros países.",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Origen y Primeras Advertencias (Parte 1)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_gran_manipulacion_garcia/granmani_m4_primeras_advertencias_p1.webp\" alt=\"Origen y Primeras Advertencias (Parte 1)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- ofrecidos por los ciudadanos de Wuhan. 29 de enero: Iberia y British Airways anuncian que suspenden todos sus vuelos con China. — Se suspende el campeonato del mundo de atletismo en pista cubierta que debía celebrarse en marzo en la ciudad de Nankín (China). — Ese mismo día, llega a Málaga el equipo de fútbol de Wuhan. Las autoridades españolas afirman que no tienen síntomas (a pesar de que está demostrado que puedes estar infectado y ser asintomático). — El coronavirus supera los 6000 afectados, más que el SARS de 2002, aunque su mortalidad es menor teniendo en cuenta los datos ofrecidos por China. La facilidad de propagación es ya evidente. Se contabilizan 1459 nuevos casos en apenas 24 horas. 30 de enero: Italia confirma sus dos primeros casos de coronavirus. El primer ministro italiano (Giuseppe Conte) anuncia la suspensión de todos los vuelos desde y hacia China. — El comité de emergencia de la Organización Mundial de la Salud (OMS) declara la emergencia sanitaria internacional por el brote del nuevo coronavirus. — Se desploman las reservas hoteleras, Starbucks anuncia el cierre de más de la mitad de sus cafeterías en China, Toyota se prepara en Japón para detener la producción y las compañías aéreas más importantes del mundo (excepto KLM y otras compañías menores), anuncian la cancelación de sus viajes a China. — España continúa sin hacer controles en los aeropuertos y se sigue permitiendo la llegada de viajeros procedentes de China que hacen escala en otros países.",
           "interactiveChallenge": {
             "question": "En la primera parte sobre el origen y las primeras advertencias, ¿cuál fue el error o contradicción inicial más flagrante?",
             "options": [
@@ -1340,7 +1341,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Confieso que tengo la mala costumbre de entrar en Twitter de vez en cuando y guardé este hilo, lamentablemente, sabiendo que posiblemente me serviría para un futuro. También he de confesarles que mantengo ciertas buenas costumbres, como no leer nunca el diario El País. Por ello, desconozco si el señor Javier Salas sigue escribiendo en la sección de ciencia o ha sido relegado al horóscopo semanal. Sección en la que quizás incluso podría acertar más que con la cuestión del coronavirus. Sin embargo, su hilo es una maravillosa lección de manipulación de masas. En primer lugar, recurre a una supuesta seriedad a la hora de abordar la actualidad política. Recuerden, mensajes claros y directos es lo que necesita la masa: yo sé de lo que hablo, el otro no. No solo eso, también se atreve a llamar al doctor Cavadas «desinformador», para que así el lector tenga claro que hay un enemigo (Cavadas) y un salvador (él), cuando en realidad, lo único que ha hecho el primero es declarar una evidencia. Por supuesto, recurre al mecanismo de ridiculizar al mensajero, una praxis muy utilizada en un país como España que padece «titulitis», ya se sabe que solamente un inculto se deja impresionar por los títulos universitarios. «Cavadas es un cirujano», es decir, no sabe de lo que habla porque no es un experto en la materia, transmitiendo al lector que hagan caso de lo que nos cuenta nuestro experto oficial, que no es otro que Fernando Simón y nuestro ministro de Sanidad. ¡Confíen en el Estado! Le",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Origen y Primeras Advertencias (Parte 2)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_gran_manipulacion_garcia/granmani_m5_primeras_advertencias_p2.webp\" alt=\"Origen y Primeras Advertencias (Parte 2)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Confieso que tengo la mala costumbre de entrar en Twitter de vez en cuando y guardé este hilo, lamentablemente, sabiendo que posiblemente me serviría para un futuro. También he de confesarles que mantengo ciertas buenas costumbres, como no leer nunca el diario El País. Por ello, desconozco si el señor Javier Salas sigue escribiendo en la sección de ciencia o ha sido relegado al horóscopo semanal. Sección en la que quizás incluso podría acertar más que con la cuestión del coronavirus. Sin embargo, su hilo es una maravillosa lección de manipulación de masas. En primer lugar, recurre a una supuesta seriedad a la hora de abordar la actualidad política. Recuerden, mensajes claros y directos es lo que necesita la masa: yo sé de lo que hablo, el otro no. No solo eso, también se atreve a llamar al doctor Cavadas «desinformador», para que así el lector tenga claro que hay un enemigo (Cavadas) y un salvador (él), cuando en realidad, lo único que ha hecho el primero es declarar una evidencia. Por supuesto, recurre al mecanismo de ridiculizar al mensajero, una praxis muy utilizada en un país como España que padece «titulitis», ya se sabe que solamente un inculto se deja impresionar por los títulos universitarios. «Cavadas es un cirujano», es decir, no sabe de lo que habla porque no es un experto en la materia, transmitiendo al lector que hagan caso de lo que nos cuenta nuestro experto oficial, que no es otro que Fernando Simón y nuestro ministro de Sanidad. ¡Confíen en el Estado! Le",
           "interactiveChallenge": {
             "question": "¿Qué motivación secundaria analiza el módulo 5 sobre el retraso en la adopción de medidas preventivas clave?",
             "options": [
@@ -1724,7 +1725,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Los altavoces empezaban a sonar a las seis de la mañana. Había que ponerse en pie y arreglarse en menos de veinte minutos. Luego tenían que colocarse en fila india delante de una pared en la que había colgado un retrato de Mao. Allí pedían las instrucciones de la mañana (que consistían en leer en voz alta unas cuantas citas de Mao antes de ir a trabajar) y cantaban las citas al son de la música. Mientras enarbolaban en la mano El Libro Rojo, debían gritar tres veces «¡larga vida!» y luego ir al comedor a comer el potaje. Después se reunían para estudiar durante media hora las obras de Mao y, al fin, salían a labrar la tierra con la azada al hombro.[8] Las recompensas otorgadas por Mao a los disidentes consistían principalmente en unos cuantos gramos de arroz y unos litros de leche. Pueden parecer surrealistas estos relatos, pero ciertamente cometen un error aquellos que creen que por habitar en este siglo escapan a las manos de la manipulación mediática. Más aún, cuando estos hechos ocurrieron el siglo pasado. Ni siquiera hace cien años. Los nazis hicieron creer a los alemanes que los judíos eran una raza inferior y no merecían los mismos derechos, llegando incluso a justificar su exterminio. Los comunistas rusos consiguieron convencer a la población de la necesidad de vivir por y para el Estado. Los fascistas italianos vendieron a los ciudadanos el resurgimiento de un nuevo Imperio romano, aunque sus campañas militares fueron un fracaso absoluto y apenas pudieron extender su",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Gestión de la Crisis Sanitaria (Parte 1)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_gran_manipulacion_garcia/granmani_m6_gestion_crisis_p1.webp\" alt=\"Gestión de la Crisis Sanitaria (Parte 1)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Los altavoces empezaban a sonar a las seis de la mañana. Había que ponerse en pie y arreglarse en menos de veinte minutos. Luego tenían que colocarse en fila india delante de una pared en la que había colgado un retrato de Mao. Allí pedían las instrucciones de la mañana (que consistían en leer en voz alta unas cuantas citas de Mao antes de ir a trabajar) y cantaban las citas al son de la música. Mientras enarbolaban en la mano El Libro Rojo, debían gritar tres veces «¡larga vida!» y luego ir al comedor a comer el potaje. Después se reunían para estudiar durante media hora las obras de Mao y, al fin, salían a labrar la tierra con la azada al hombro.[8] Las recompensas otorgadas por Mao a los disidentes consistían principalmente en unos cuantos gramos de arroz y unos litros de leche. Pueden parecer surrealistas estos relatos, pero ciertamente cometen un error aquellos que creen que por habitar en este siglo escapan a las manos de la manipulación mediática. Más aún, cuando estos hechos ocurrieron el siglo pasado. Ni siquiera hace cien años. Los nazis hicieron creer a los alemanes que los judíos eran una raza inferior y no merecían los mismos derechos, llegando incluso a justificar su exterminio. Los comunistas rusos consiguieron convencer a la población de la necesidad de vivir por y para el Estado. Los fascistas italianos vendieron a los ciudadanos el resurgimiento de un nuevo Imperio romano, aunque sus campañas militares fueron un fracaso absoluto y apenas pudieron extender su",
           "interactiveChallenge": {
             "question": "En la primera parte de la gestión de la crisis sanitaria, ¿qué caracteriza la actuación ejecutiva inicial?",
             "options": [
@@ -2021,7 +2022,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "eran las «unidades motorizadas», un grupo de las SA, que se dedicaba a ir en moto por las calles alemanas pegando palizas y asaltando locales judíos. A decir verdad, la era de las redes sociales se ha llevado por delante el exhaustivo proceso de búsqueda de la verdad, que ya no parece importar a nadie, o más bien a casi nadie. Pocos son los que realmente muestran interés en informarse, investigar e invertir parte de su tiempo en obtener los datos necesarios para poder forjar una opinión mínimamente respetable. Si a eso le sumamos la falta de escrúpulos y ética de los nuevos medios de comunicación digitales, la combinación resulta mortífera. La degradación del debate político e intelectual ha propiciado el auge de panfletos sensacionalistas que han encontrado en el votante más inculto la forma de propagar el odio y a su vez llenarse los bolsillos. Enemigos de la razón que han convertido la mentira en una forma de vida. Medios digitales que viven del engaño y la manipulación, que no son más que auténtica basura informativa que lanzan mensajes falsos de forma constante con total impunidad. La mayoría de los usuarios jamás leerán un texto que suponga invertir un par de minutos de su tiempo. Paradójicamente, esos mismos son los que sí destinan horas en defender su opinión e insultar al contrario en las campañas orquestadas por los dirigentes de los partidos que señalan al oponente a batir. Son los mismos que se atreven a hacer pública su ignorancia sin ruborizarse, porque se sient",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Gestión de la Crisis Sanitaria (Parte 2)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_gran_manipulacion_garcia/granmani_m7_gestion_crisis_p2.webp\" alt=\"Gestión de la Crisis Sanitaria (Parte 2)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>eran las «unidades motorizadas», un grupo de las SA, que se dedicaba a ir en moto por las calles alemanas pegando palizas y asaltando locales judíos. A decir verdad, la era de las redes sociales se ha llevado por delante el exhaustivo proceso de búsqueda de la verdad, que ya no parece importar a nadie, o más bien a casi nadie. Pocos son los que realmente muestran interés en informarse, investigar e invertir parte de su tiempo en obtener los datos necesarios para poder forjar una opinión mínimamente respetable. Si a eso le sumamos la falta de escrúpulos y ética de los nuevos medios de comunicación digitales, la combinación resulta mortífera. La degradación del debate político e intelectual ha propiciado el auge de panfletos sensacionalistas que han encontrado en el votante más inculto la forma de propagar el odio y a su vez llenarse los bolsillos. Enemigos de la razón que han convertido la mentira en una forma de vida. Medios digitales que viven del engaño y la manipulación, que no son más que auténtica basura informativa que lanzan mensajes falsos de forma constante con total impunidad. La mayoría de los usuarios jamás leerán un texto que suponga invertir un par de minutos de su tiempo. Paradójicamente, esos mismos son los que sí destinan horas en defender su opinión e insultar al contrario en las campañas orquestadas por los dirigentes de los partidos que señalan al oponente a batir. Son los mismos que se atreven a hacer pública su ignorancia sin ruborizarse, porque se sient",
           "interactiveChallenge": {
             "question": "¿Qué controversia rodeó a la toma de decisiones en la segunda parte de la gestión de la crisis sanitaria?",
             "options": [
@@ -2405,7 +2406,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Las noticias falsas son un claro componente de esta nueva «verdad» a la que nos someten. La pandemia que estamos viviendo es un claro ejemplo de cómo la información falaz, pero oficial, consigue encontrar a millones de víctimas que caen en la desinformación. La velocidad a la que viaja la información es espectacular y la plataforma WhatsApp es una de las más recurrentes; y, por supuesto, el control por parte de los poderes fácticos para limitar el alcance de los contenidos que no es conveniente que la masa reciba no se ha hecho esperar. Las redes sociales tienen sus días contados, la libertad cada vez es menor en ellas, pero esta situación ha acelerado el proceso de control por parte del poder político para evitar por todos los medios, que los ciudadanos puedan encontrar la verdad, tras una exhaustiva búsqueda, por sus propios medios. Se impulsan las cuentas que coinciden con el mensaje vertido por el régimen, mientras que a las contrarias se les limita el alcance, se les borra contenido o directamente sufren la liquidación de su cuenta sin una sola explicación, como me ocurrió a mí hace más de un año en Facebook. Pocos conocen verdaderamente el efecto de las redes e incluso todavía a día de hoy, muchos siguen minusvalorando su enorme poder. Un poder que aumenta cada día y que ha cambiado por completo los mecanismos establecidos hasta el día de hoy de cómo utilizarlas para fines políticos. Según un estudio de Ipsos Global Advisor llevado a cabo en veintisiete países del mundo",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Desinformación y Noticias Falsas\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_gran_manipulacion_garcia/granmani_m8_desinformacion_noticias_falsas.webp\" alt=\"Desinformación y Noticias Falsas\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Las noticias falsas son un claro componente de esta nueva «verdad» a la que nos someten. La pandemia que estamos viviendo es un claro ejemplo de cómo la información falaz, pero oficial, consigue encontrar a millones de víctimas que caen en la desinformación. La velocidad a la que viaja la información es espectacular y la plataforma WhatsApp es una de las más recurrentes; y, por supuesto, el control por parte de los poderes fácticos para limitar el alcance de los contenidos que no es conveniente que la masa reciba no se ha hecho esperar. Las redes sociales tienen sus días contados, la libertad cada vez es menor en ellas, pero esta situación ha acelerado el proceso de control por parte del poder político para evitar por todos los medios, que los ciudadanos puedan encontrar la verdad, tras una exhaustiva búsqueda, por sus propios medios. Se impulsan las cuentas que coinciden con el mensaje vertido por el régimen, mientras que a las contrarias se les limita el alcance, se les borra contenido o directamente sufren la liquidación de su cuenta sin una sola explicación, como me ocurrió a mí hace más de un año en Facebook. Pocos conocen verdaderamente el efecto de las redes e incluso todavía a día de hoy, muchos siguen minusvalorando su enorme poder. Un poder que aumenta cada día y que ha cambiado por completo los mecanismos establecidos hasta el día de hoy de cómo utilizarlas para fines políticos. Según un estudio de Ipsos Global Advisor llevado a cabo en veintisiete países del mundo",
           "interactiveChallenge": {
             "question": "¿Qué función real cumplieron agencias de 'fact-checking' según el módulo de desinformación?",
             "options": [
@@ -2963,7 +2964,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "— Se produce una avalancha de empresas que anuncian que no acudirán al Mobile World Congress. Sony, LG, NVIDIA, Ericsson, Amazon, Umidigi, Ulefone, NTT DoCoMo, Gigaset, Intel, Vivo, ZTE y TCL no estarán en Barcelona. A pesar de ello, ese mismo día, el ministro Salvador Illa afirma: «No hay ninguna razón de salud pública para suspender o aplazar el Mobile World Congress». — Alemania confirma dos nuevos casos, elevando a 16 la cifra. 2 de febrero: China anuncia el lanzamiento de una aplicación que te indica si has estado cerca de una persona con coronavirus. — Son cada vez más los expertos que ponen en duda las cifras que reconoce China de forma oficial. — Singapur anuncia que ha superado los 50 casos, se convierte en el país más afectado después de China, y preocupa la existencia de transmisión local. — Los organizadores del Mobile World Congress no tienen más remedio que anunciar su cancelación apenas 24 horas después de las declaraciones del ministro de Sanidad, Salvador Illa, que afirmaba que no había riesgos. — Fernando Simón sale al rescate ante el jarro de agua fría que supone la cancelación del Mobile World Congress y la alarma que ha generado en parte de la población y afirma: Lo cierto es que la incidencia de la gripe es muy muy superior a la que pueda tener el coronavirus. Por lo tanto, aunque puede aparecer algún caso, eso es obvio y se ha dicho repetidamente, lo cierto es que la probabilidad de que todas esas posibles señales de riesgo sean positivas es muy muy baj",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> El Confinamiento y el Control Social\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_gran_manipulacion_garcia/granmani_m9_confinamiento_control_social.webp\" alt=\"El Confinamiento y el Control Social\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>— Se produce una avalancha de empresas que anuncian que no acudirán al Mobile World Congress. Sony, LG, NVIDIA, Ericsson, Amazon, Umidigi, Ulefone, NTT DoCoMo, Gigaset, Intel, Vivo, ZTE y TCL no estarán en Barcelona. A pesar de ello, ese mismo día, el ministro Salvador Illa afirma: «No hay ninguna razón de salud pública para suspender o aplazar el Mobile World Congress». — Alemania confirma dos nuevos casos, elevando a 16 la cifra. 2 de febrero: China anuncia el lanzamiento de una aplicación que te indica si has estado cerca de una persona con coronavirus. — Son cada vez más los expertos que ponen en duda las cifras que reconoce China de forma oficial. — Singapur anuncia que ha superado los 50 casos, se convierte en el país más afectado después de China, y preocupa la existencia de transmisión local. — Los organizadores del Mobile World Congress no tienen más remedio que anunciar su cancelación apenas 24 horas después de las declaraciones del ministro de Sanidad, Salvador Illa, que afirmaba que no había riesgos. — Fernando Simón sale al rescate ante el jarro de agua fría que supone la cancelación del Mobile World Congress y la alarma que ha generado en parte de la población y afirma: Lo cierto es que la incidencia de la gripe es muy muy superior a la que pueda tener el coronavirus. Por lo tanto, aunque puede aparecer algún caso, eso es obvio y se ha dicho repetidamente, lo cierto es que la probabilidad de que todas esas posibles señales de riesgo sean positivas es muy muy baj",
           "interactiveChallenge": {
             "question": "¿Cómo influyó el confinamiento severo en el control social de la ciudadanía?",
             "options": [
@@ -3550,7 +3551,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- IGNACIO CEMBRERO: «La magnitud del problema no es diferente de una gripe vulgar y corriente». «El riesgo es para países con un sistema sanitario débil como puede ser, por ejemplo, que prácticamente hay muy pocos casos, en África por ejemplo o en algunos países de América Latina». «El alarmismo es excesivo, el alarmismo de la sociedad, el alarmismo de algunos políticos, el propio alarmismo yo me atrevería a decir del director de la Organización Mundial de la Salud». JAVIER AROCA: «Irán no cuenta con un sistema sanitario como el que tenemos nosotros. Pero el sistema sanitario español, el andaluz en este caso, es maravilloso. Yo confío en ello». ANTONIO GARCÍA FERRERAS: «Yo tengo la sensación de que en Italia hay un cierto desorden en la gestión». «Las mascarillas son para los sanitarios o para los que están ya enfermos». SANDRA LEÓN: «Tenemos que confiar, creo que el ministerio está haciendo un buen trabajo […] Bajemos las alarmas y mantengámonos contenidos». GASPAR LLAMAZARES: «Hay que transmitir tranquilidad y el peor enemigo en estos momentos es la sobreactuación y el miedo, y en ese sentido la comunicación del ministerio y de los expertos, creo que está dando seguridad a los ciudadanos». — El presentador de La Sexta Noche (Iñaki López) publica un tuit que dice lo siguiente: El sábado en @SextaNocheTV información y expertos para luchar contra la coronahisteria. Datos, certezas y falsedades de una epidemia con una mortandad menor de la gripe común. Lo acompaña con una fot",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> El Impacto Económico y Político\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_gran_manipulacion_garcia/granmani_m10_impacto_economico_politico.webp\" alt=\"El Impacto Económico y Político\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- IGNACIO CEMBRERO: «La magnitud del problema no es diferente de una gripe vulgar y corriente». «El riesgo es para países con un sistema sanitario débil como puede ser, por ejemplo, que prácticamente hay muy pocos casos, en África por ejemplo o en algunos países de América Latina». «El alarmismo es excesivo, el alarmismo de la sociedad, el alarmismo de algunos políticos, el propio alarmismo yo me atrevería a decir del director de la Organización Mundial de la Salud». JAVIER AROCA: «Irán no cuenta con un sistema sanitario como el que tenemos nosotros. Pero el sistema sanitario español, el andaluz en este caso, es maravilloso. Yo confío en ello». ANTONIO GARCÍA FERRERAS: «Yo tengo la sensación de que en Italia hay un cierto desorden en la gestión». «Las mascarillas son para los sanitarios o para los que están ya enfermos». SANDRA LEÓN: «Tenemos que confiar, creo que el ministerio está haciendo un buen trabajo […] Bajemos las alarmas y mantengámonos contenidos». GASPAR LLAMAZARES: «Hay que transmitir tranquilidad y el peor enemigo en estos momentos es la sobreactuación y el miedo, y en ese sentido la comunicación del ministerio y de los expertos, creo que está dando seguridad a los ciudadanos». — El presentador de La Sexta Noche (Iñaki López) publica un tuit que dice lo siguiente: El sábado en @SextaNocheTV información y expertos para luchar contra la coronahisteria. Datos, certezas y falsedades de una epidemia con una mortandad menor de la gripe común. Lo acompaña con una fot",
           "interactiveChallenge": {
             "question": "¿Cuál fue una consecuencia directa del impacto económico y político analizado en el libro?",
             "options": [
@@ -4108,7 +4109,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "---... (markdown content with fixed typos like '0 de marzo' to '10 de marzo' or 'cuarenta' to 'cuarentena' if applicable, keeping formatting) ...---",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> El Relato Oficial y la Sociedad\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_gran_manipulacion_garcia/granmani_m11_relato_oficial_sociedad.webp\" alt=\"El Relato Oficial y la Sociedad\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>---... (markdown content with fixed typos like '0 de marzo' to '10 de marzo' or 'cuarenta' to 'cuarentena' if applicable, keeping formatting) ...---",
           "interactiveChallenge": {
             "question": "¿Qué estrategia se utilizó para construir el 'Relato Oficial' e integrarlo en la sociedad?",
             "options": [
@@ -4144,7 +4145,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Conclusión El siglo XXI debería haber supuesto el fin de la manipulación de masas. El acceso a la información es más fácil que nunca y todos los ciudadanos cuentan con la mayor biblioteca de la historia de la humanidad en sus bolsillos (el teléfono móvil). Ni las fastuosas y extintas bibliotecas de Alejandría o la Imperial Constantinopla, ni las actuales, contaron jamás con tanta información como la que podemos adquirir nosotros desde el sofá de casa. Sin embargo, la necedad del ciudadano ha hecho que sea todo lo contrario y esa gran oportunidad la estamos desperdiciando. El mero hecho de ver una urbe como Shanghái reconvertida en una ciudad fantasma debería haber preocupado enormemente a la población española. Desgraciadamente, esas imágenes no alertaron a casi nadie. A pesar de que estamos hablando de una ciudad con 24 millones de habitantes, tres veces más que Nueva York (ciudad con la que el español está más familiarizado), la incultura del ciudadano medio le hizo creer que esto era cosa de chinos. España está viviendo un cambio de régimen encubierto por los medios de comunicación, esos embusteros que obedecen al que paga y que son activistas, no periodistas. La crisis económica que vamos a sufrir no tiene parangón. El Gobierno de Sánchez ha decidido que, para conseguir imponer este nuevo modelo en el país, debe eliminar por completo a la clase media y asfixiarla económicamente. Son cientos de miles las empresas que van a desaparecer en España tras esta pandemia. Los espa",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Conclusión - El Futuro de la Sociedad\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_gran_manipulacion_garcia/granmani_m12_conclusion_futuro.webp\" alt=\"Conclusión - El Futuro de la Sociedad\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Conclusión El siglo XXI debería haber supuesto el fin de la manipulación de masas. El acceso a la información es más fácil que nunca y todos los ciudadanos cuentan con la mayor biblioteca de la historia de la humanidad en sus bolsillos (el teléfono móvil). Ni las fastuosas y extintas bibliotecas de Alejandría o la Imperial Constantinopla, ni las actuales, contaron jamás con tanta información como la que podemos adquirir nosotros desde el sofá de casa. Sin embargo, la necedad del ciudadano ha hecho que sea todo lo contrario y esa gran oportunidad la estamos desperdiciando. El mero hecho de ver una urbe como Shanghái reconvertida en una ciudad fantasma debería haber preocupado enormemente a la población española. Desgraciadamente, esas imágenes no alertaron a casi nadie. A pesar de que estamos hablando de una ciudad con 24 millones de habitantes, tres veces más que Nueva York (ciudad con la que el español está más familiarizado), la incultura del ciudadano medio le hizo creer que esto era cosa de chinos. España está viviendo un cambio de régimen encubierto por los medios de comunicación, esos embusteros que obedecen al que paga y que son activistas, no periodistas. La crisis económica que vamos a sufrir no tiene parangón. El Gobierno de Sánchez ha decidido que, para conseguir imponer este nuevo modelo en el país, debe eliminar por completo a la clase media y asfixiarla económicamente. Son cientos de miles las empresas que van a desaparecer en España tras esta pandemia. Los espa",
           "interactiveChallenge": {
             "question": "En las conclusiones sobre el futuro de la sociedad, ¿cuál es la principal advertencia del autor?",
             "options": [
@@ -4557,7 +4558,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Artículos (enlaces) 17 enero The guardian 18 enero BBC 19 enero BBC Reuters BBC CNN 20 enero The guardian 21 enero NPR 22 enero Redacción médica El independiente El Norte de Castilla 23 enero Nius BBC ABC RTVE 24 enero NBC Página 98 Business insider La Gaceta de Salamanca 25 enero La Voz de Galicia VOX The Lancet 26 enero La vanguardia 20 minutos Antena 3 Europapress 27 enero El país La vanguardia 28 enero DW 29 enero República El periódico El país El mundo RTVE 30 enero Expansión El español La vanguardia Página 99 31 enero Valencia Plaza Toronto ctv news ABC 20 minutos La sexta 1 febrero Forbes CNN La vanguardia DW El mundo 2 febrero La república La vanguardia 3 febrero infobae El Norte de Castilla Cinco Días ABC El diario The Straits Times 4 febrero Ok diario La vanguardia Europa Press El Faro de Ceuta 20 minutos Página 100 El mundo 5 febrero La sexta Marca BBC El español Redacción médica 6 febrero BBC ABC 7 febrero Telemadrid El comercio 8 febrero BBC Redacción médica maldita.es 9 febrero 20 minutos Cinco Dias 10 febrero Twitter The guardian China daily ABC Página 101 11 febrero Computer hoy Redacción médica Agencia EFE BBC 12 febrero The straits times CNBC Financial Times Cinco días 13 febrero La vanguardia The guardian Europa Press Con Salud El Correo de Andalucía 14 febrero The guardian The straits times La sexta Bloomberg RTVE 15 de febrero Expansión CNBC The guardian 16 de febrero Página 102 La sexta 17 febrero CNBC CNN La vanguardia 18 febrero Business insider Ne",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cronología de Medios y Fuentes\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_gran_manipulacion_garcia/granmani_m13_cronologia_fuentes.webp\" alt=\"Cronología de Medios y Fuentes\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Artículos (enlaces) 17 enero The guardian 18 enero BBC 19 enero BBC Reuters BBC CNN 20 enero The guardian 21 enero NPR 22 enero Redacción médica El independiente El Norte de Castilla 23 enero Nius BBC ABC RTVE 24 enero NBC Página 98 Business insider La Gaceta de Salamanca 25 enero La Voz de Galicia VOX The Lancet 26 enero La vanguardia 20 minutos Antena 3 Europapress 27 enero El país La vanguardia 28 enero DW 29 enero República El periódico El país El mundo RTVE 30 enero Expansión El español La vanguardia Página 99 31 enero Valencia Plaza Toronto ctv news ABC 20 minutos La sexta 1 febrero Forbes CNN La vanguardia DW El mundo 2 febrero La república La vanguardia 3 febrero infobae El Norte de Castilla Cinco Días ABC El diario The Straits Times 4 febrero Ok diario La vanguardia Europa Press El Faro de Ceuta 20 minutos Página 100 El mundo 5 febrero La sexta Marca BBC El español Redacción médica 6 febrero BBC ABC 7 febrero Telemadrid El comercio 8 febrero BBC Redacción médica maldita.es 9 febrero 20 minutos Cinco Dias 10 febrero Twitter The guardian China daily ABC Página 101 11 febrero Computer hoy Redacción médica Agencia EFE BBC 12 febrero The straits times CNBC Financial Times Cinco días 13 febrero La vanguardia The guardian Europa Press Con Salud El Correo de Andalucía 14 febrero The guardian The straits times La sexta Bloomberg RTVE 15 de febrero Expansión CNBC The guardian 16 de febrero Página 102 La sexta 17 febrero CNBC CNN La vanguardia 18 febrero Business insider Ne",
           "interactiveChallenge": {
             "question": "¿Por qué es fundamental la cronología de medios y fuentes presentada al final del libro?",
             "options": [
@@ -4672,6 +4673,629 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "cs1",
+      "category": "Medios y Propaganda",
+      "title": "La Cobertura de la Crisis y el Pánico Colectivo",
+      "difficulty": "Alta",
+      "badge": "Analista de Medios",
+      "scenarioDescription": "Trabajas en la asesoría de comunicación de una institución pública. Ante una situación de crisis sanitaria, los principales medios de comunicación emiten un flujo constante de noticias con carga emocional extrema, apelando exclusivamente al miedo y a la urgencia. Se te pide diseñar una estrategia de comunicación que mantenga a la población en estado de alerta máxima.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Alinear la estrategia con el relato alarmista de los medios para asegurar la obediencia estricta mediante el miedo.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Cae en la trampa de la demagogia descrita por Jano García, priorizando el control social a corto plazo mediante la manipulación emocional sobre el pensamiento crítico.",
+          "bookInsight": "El uso deliberado de la propaganda y la demagogia desactiva la racionalidad del ciudadano, convirtiendo la información en una herramienta de coerción."
+        },
+        {
+          "id": "opt2",
+          "text": "Desacelerar el tono emocional, aportar datos contrastados, separar la información objetiva de la opinión y fomentar la transparencia.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Rompe el ciclo de manipulación mediática, empoderando a la ciudadanía con datos en lugar de apelar a las emociones primarias como el terror.",
+          "bookInsight": "La gestión de la crisis sanitaria y mediática mostrada en 'La Gran Manipulación' evidencia que el control social se basa en la supresión del análisis objetivo."
+        }
+      ]
+    },
+    {
+      "id": "cs2",
+      "category": "Control Social y Confinamiento",
+      "title": "La Aceptación de Restricciones Extraordinarias",
+      "difficulty": "Alta",
+      "badge": "Escudo de Autonomía",
+      "scenarioDescription": "Durante un periodo de restricciones severas de movilidad y confinamiento, observas que la disidencia es censurada y la población asume cualquier directriz oficial sin cuestionamiento ético ni legal, temiendo el señalamiento social.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Unirte al coro de vigilancia ciudadana, señalando y culpabilizando a quienes cuestionan las medidas para proteger el estatus quo.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "Refuerza el totalitarismo blando donde la sociedad se convierte en carcelera de sí misma, tal como analiza el libro sobre el confinamiento y el control social.",
+          "bookInsight": "El control social extremo transforma a los ciudadanos en censores activos de sus propios vecinos, validando el relato oficial."
+        },
+        {
+          "id": "opt2",
+          "text": "Analizar críticamente las medidas desde la perspectiva jurídica y científica, manteniendo el equilibrio mental y promoviendo el debate sosegado.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Ejerce la resistencia cognitiva fundamental descrita en la obra frente a la ingeniería social y el pensamiento único.",
+          "bookInsight": "El impacto económico y político del confinamiento requiere mantener la capacidad de cuestionamiento frente al relato oficial inquebrantable."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Desinformación y Redes",
+      "title": "La Tormenta de Noticias Falsas Institucionales",
+      "difficulty": "Media",
+      "badge": "Detector de Relatos",
+      "scenarioDescription": "Las redes sociales y los medios tradicionales difunden masivamente una información alarmante que justifica recortes de libertades. Al investigar las fuentes primarias, descubres que los datos han sido manipulados u omitidos parcialmente.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Compartir la noticia para evitar conflictos con tu entorno y formar parte de la corriente de opinión predominante.",
+          "outcome": "Fallo",
+          "wisdomScore": 35,
+          "analysis": "Demuestra conformismo y susceptibilidad a la desinformación institucional expuesta en el libro.",
+          "bookInsight": "La desinformación y las noticias falsas prosperan cuando el individuo delega su capacidad crítica en la comodidad de la mayoría."
+        },
+        {
+          "id": "opt2",
+          "text": "Desglosar la información falsa, contrastar las fuentes originales y publicar un análisis de disonancia basado en hechos.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Neutraliza la propaganda mediante la exposición metodológica de las contradicciones del relato oficial.",
+          "bookInsight": "Frente a la manipulación masiva, el antídoto es la verificación rigurosa y la desmitificación del discurso oficial."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Gestión de Crisis",
+      "title": "El Dilema del Consenso Fabricado",
+      "difficulty": "Alta",
+      "badge": "Estratega Antifrágil",
+      "scenarioDescription": "Se te convoca a una mesa de expertos donde se discute una medida económica y social drástica. Notas que cualquier opinión divergente es inmediatamente descalificada como 'peligrosa' o 'anticientífica' sin debate técnico.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Guardar silencio para preservar tu posición profesional y no ser etiquetado como disidente.",
+          "outcome": "Fallo",
+          "wisdomScore": 50,
+          "analysis": "Alimenta el pensamiento de grupo y la censura interna que el autor identifica como precursoras del autoritarismo.",
+          "bookInsight": "La gestión de las crisis sanitarias y políticas se sustenta en la eliminación sistemática de la disidencia informada."
+        },
+        {
+          "id": "opt2",
+          "text": "Presentar objeciones fundamentadas basadas en la gestión histórica de crisis y exigir un análisis de coste-beneficio transparente.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Restituye el rigor analítico y rompe el falso consenso construido artificialmente por las élites.",
+          "bookInsight": "El futuro de la sociedad depende de la valentía intelectual para desafiar los relatos oficiales carentes de sustento empírico."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Impacto Económico y Político",
+      "title": "La Justificación del Desastre Económico",
+      "difficulty": "Media",
+      "badge": "Visión Sistémica",
+      "scenarioDescription": "Un conjunto de políticas económicas destructivas para sectores enteros de la población es presentado como el 'único camino posible' e inevitable para el bien común.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Asumir el sacrificio incondicionalmente, aceptando que la economía es secundaria frente al relato preestablecido.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "Ignora las consecuencias reales analizadas en la obra sobre cómo las crisis son instrumentalizadas para transformar el modelo socioeconómico.",
+          "bookInsight": "El impacto económico y político de las decisiones de control suele ser el objetivo real disimulado tras discursos de emergencia."
+        },
+        {
+          "id": "opt2",
+          "text": "Analizar los datos económicos globales, identificar los intereses ocultos tras el relato oficial y exponer las alternativas viables.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Desmonta la falacia de que no existen alternativas, aplicando el pensamiento crítico ante la ingeniería social.",
+          "bookInsight": "Desenmascarar las mentiras del poder exige conectar las decisiones políticas con sus verdaderos efectos económicos."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Futuro de la Sociedad",
+      "title": "El Legado del Control: ¿Adaptación o Resistencia?",
+      "difficulty": "Alta",
+      "badge": "Guardián de la Verdad",
+      "scenarioDescription": "Tras analizar todos los mecanismos de manipulación, propaganda, gestión de crisis y control social expuestos en el libro, debes proponer una directriz personal y colectiva para evitar futuros abusos de poder.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Confiar pasivamente en que las instituciones corregirán sus errores con el tiempo sin necesidad de vigilancia ciudadana.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Representa la máxima vulnerabilidad frente al totalitarismo y la desinformación descrita en la conclusión de la obra.",
+          "bookInsight": "El futuro de la sociedad está amenazado si la ciudadanía abdica permanentemente de su deber de fiscalizar al poder."
+        },
+        {
+          "id": "opt2",
+          "text": "Fomentar la educación crítica, la descentralización de la información y la exigencia implacable de rendición de cuentas.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Consolida las defensas psicológicas e intelectuales necesarias para salvaguardar las libertades individuales.",
+          "bookInsight": "La conclusión de 'La Gran Manipulación' apunta a que la vigilancia constante y el pensamiento crítico son los únicos garantes de la libertad futura."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc1",
+      "bookNumber": 1,
+      "category": "Propaganda",
+      "term": "Demagogia Estructurada",
+      "definition": "Uso sistemático de apelaciones emocionales y argumentos falaces por parte del poder para guiar la conducta de masas.",
+      "tacticalUse": "Identificar discursos políticos que priorizan la emotividad sobre la lógica para manipular decisiones.",
+      "countermeasure": "Desvincular la emoción del análisis, exigiendo métricas y datos verificables."
+    },
+    {
+      "id": "fc2",
+      "bookNumber": 1,
+      "category": "Medios",
+      "term": "Ingeniería del Consenso Mediático",
+      "definition": "Sincronización de los medios de comunicación masivos para presentar un relato único y suprimir voces disidentes.",
+      "tacticalUse": "Reconocer patrones de cobertura idénticos en múltiples cadenas de noticias.",
+      "countermeasure": "Diversificar fuentes de información y consultar medios independientes o de orígenes ideológicos diversos."
+    },
+    {
+      "id": "fc3",
+      "bookNumber": 1,
+      "category": "Crisis",
+      "term": "Gestión del Miedo Institucional",
+      "definition": "Estrategia de gobierno que utiliza la amenaza constante y magnificada para inducir parálisis y obediencia ciega.",
+      "tacticalUse": "Detectar el uso de hipérboles y lenguaje catastrofista en comunicados oficiales.",
+      "countermeasure": "Evaluar el riesgo real mediante estadística comparada y análisis probabilístico."
+    },
+    {
+      "id": "fc4",
+      "bookNumber": 1,
+      "category": "Desinformación",
+      "term": "Bulos Oficiales",
+      "definition": "Información falsa o distorsionada emitida por canales gubernamentales o mediáticos autorizados.",
+      "tacticalUse": "Desconfiar de afirmaciones extraordinarias presentadas sin respaldo documental primario.",
+      "countermeasure": "Exigir la publicación de los informes técnicos originales y auditorías independientes."
+    },
+    {
+      "id": "fc5",
+      "bookNumber": 1,
+      "category": "Control Social",
+      "term": "Confinamiento Conductual",
+      "definition": "Restricción severa de movimientos y relaciones sociales que debilita el tejido comunitario y la capacidad de protesta.",
+      "tacticalUse": "Comprender el impacto psicológico del aislamiento en la resistencia civil.",
+      "countermeasure": "Mantener redes de apoyo comunitarias y espacios de debate presencial seguros."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Economía",
+      "term": "Instrumentalización de Crisis",
+      "definition": "Aprovechamiento de situaciones de emergencia para implementar reformas económicas y políticas impopulares.",
+      "tacticalUse": "Analizar qué grupos se benefician económicamente de las restricciones extraordinarias.",
+      "countermeasure": "Auditar las adjudicaciones y cambios legislativos aprobados bajo el amparo de la urgencia."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "Relato Oficial",
+      "term": "Dogmatismo del Relato",
+      "definition": "Postura inquebrantable que califica cualquier duda sobre la versión oficial como herejía o desinformación.",
+      "tacticalUse": "Identificar falacias ad hominem contra expertos que cuestionan la narrativa oficial.",
+      "countermeasure": "Reivindicar el derecho metodológico a la duda y al contraste científico."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Psicología de Masas",
+      "term": "Pensamiento de Grupo Inducido",
+      "definition": "Fenómeno por el cual la presión social anula el juicio crítico individual en favor de la conformidad.",
+      "tacticalUse": "Detectar la autocensura en entornos profesionales o sociales.",
+      "countermeasure": "Fomentar la disidencia controlada y expresar opiniones contrarias con base técnica."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Propaganda",
+      "term": "Apelación a la Falsa Autoridad",
+      "definition": "Uso de figuras con prestigio en un área para avalar decisiones en campos totalmente ajenos.",
+      "tacticalUse": "Desvelar la falta de competencia específica de los portavoces designados.",
+      "countermeasure": "Verificar el currículum y las publicaciones revisadas por pares de los expertos citados."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Medios",
+      "term": "Censura por Omisión",
+      "definition": "Táctica consistente en silenciar datos, estudios o eventos completos para evitar que contradigan el relato oficial.",
+      "tacticalUse": "Observar qué temas clave están ausentes en los informativos principales.",
+      "countermeasure": "Buscar activamente investigaciones internacionales y estadísticas oficiales no enlazadas por los grandes medios."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Control Social",
+      "term": "Vigilancia Horizontal",
+      "definition": "Dinámica donde los ciudadanos actúan como policías de sus semejantes, denunciando desviaciones del relato oficial.",
+      "tacticalUse": "Reconocer la polarización social fomentada desde el poder político y mediático.",
+      "countermeasure": "Rechazar la delación y fomentar la empatía con la libertad ajena."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Crisis",
+      "term": "Efecto Túnel Cognitivo",
+      "definition": "Reducción del campo de atención mental ante una amenaza percibida, impidiendo evaluar riesgos secundarios.",
+      "tacticalUse": "Entender por qué la población acepta pérdidas colaterales masivas durante una emergencia.",
+      "countermeasure": "Tomar pausas deliberadas antes de tomar decisiones importantes bajo presión."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Desinformación",
+      "term": "Polarización Binaria",
+      "definition": "Presentación de la realidad en dos únicos bandos irreconciliables: 'con nosotros o contra el peligro'.",
+      "tacticalUse": "Identificar los intentos de eliminar los matices y el análisis moderado.",
+      "countermeasure": "Rechazar las falsas dicotomías y proponer marcos de discusión complejos."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Economía",
+      "term": "Asfixia Financiera Selectiva",
+      "definition": "Políticas que dañan selectivamente al tejido productivo independiente mientras fortalecen a grandes corporaciones.",
+      "tacticalUse": "Analizar la concentración de mercado tras la aplicación de medidas excepcionales.",
+      "countermeasure": "Apoyar la economía local y la diversificación de proveedores."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Futuro",
+      "term": "Vigilancia Preventiva Perpetua",
+      "definition": "Institucionalización de controles excepcionales bajo la promesa de una seguridad permanente.",
+      "tacticalUse": "Detectar la permanencia de medidas temporales de control tras finalizar la crisis que las originó.",
+      "countermeasure": "Exigir cláusulas de caducidad estrictas para cualquier limitación de derechos."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación Mediática",
+      "name": "Sobrecarga Emocional y Catastrofismo",
+      "severity": "Crítica",
+      "icon": "fa-brain",
+      "howItWorks": "Bombardea el sistema límbico con imágenes y mensajes de terror, bloqueando la corteza prefrontal y la capacidad de razonamiento lógico.",
+      "redFlags": [
+        "Uso constante de superlativos y adjetivos apocalípticos en los titulares.",
+        "Ausencia de datos estadísticos contextualizados.",
+        "Apelación directa a la culpa y al miedo a la muerte."
+      ],
+      "counterScript": "Apago la emisión en este momento. Voy a contrastar esta información con datos estadísticos oficiales antes de sacar conclusiones.",
+      "deepMechanism": "Hiperactivación de la amígdala cerebral, induciendo una respuesta de lucha, huida o parálisis que inhibe el pensamiento crítico."
+    },
+    {
+      "id": "t2",
+      "category": "Ingeniería Social",
+      "name": "Falso Consenso Fabricado",
+      "severity": "Alta",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Presenta una opinión minoritaria o interesada como la postura universal de la 'ciencia' o la 'sociedad', estigmatizando al discrepante.",
+      "redFlags": [
+        "Afirmaciones del tipo 'todos los expertos coinciden en que...'",
+        "Descalificación sistemática de voces expertas alternativas sin debate técnico.",
+        "Etiquetado de opiniones contrarias como peligrosas o ilegítimas."
+      ],
+      "counterScript": "El consenso científico real se basa en el debate abierto y la revisión de pruebas, no en dogmas inuestionables. Muéstrame los estudios que sustentan esa afirmación.",
+      "deepMechanism": "Explotación del sesgo de conformidad y la necesidad evolutiva de pertenencia al grupo."
+    },
+    {
+      "id": "t3",
+      "category": "Control Político",
+      "name": "Emergencia Permanente y Excepcionalidad",
+      "severity": "Crítica",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Prolonga indefinidamente medidas de control excepcional argumentando que la crisis nunca termina del todo.",
+      "redFlags": [
+        "Renovación sistemática de decretos de emergencia sin justificación empírica.",
+        "Eliminación de los mecanismos parlamentarios de control al Ejecutivo.",
+        "Normalización de la pérdida de libertades fundamentales."
+      ],
+      "counterScript": "¿Cuál es el indicador métrico exacto que marcará el fin de esta excepcionalidad y la restitución de los derechos previos?",
+      "deepMechanism": "Habituación psicológica al control autoritario, reduciendo la resistencia ciudadana con el paso del tiempo."
+    },
+    {
+      "id": "t4",
+      "category": "Desinformación",
+      "name": "Inversión Causal y Desvío de Atención",
+      "severity": "Alta",
+      "icon": "fa-eye",
+      "howItWorks": "Atribuye las consecuencias negativas de las propias decisiones políticas a factores externos inevitables o a la irresponsabilidad ciudadana.",
+      "redFlags": [
+        "Culpar a la población de los fallos estructurales de la gestión oficial.",
+        "Cambiar de tema o introducir una nueva crisis cuando se exigen responsabilidades.",
+        "Uso de cortinas de humo informáticas o mediáticas."
+      ],
+      "counterScript": "No desviemos el foco. Estamos analizando las consecuencias directas de la decisión tomada por la institución en fecha X.",
+      "deepMechanism": "Mecanismo de defensa institucional basado en la externalización de la culpa y la manipulación de la narrativa causal."
+    },
+    {
+      "id": "t5",
+      "category": "Propaganda",
+      "name": "Apelación a la Falacia de Autoridad Omnisciente",
+      "severity": "Media",
+      "icon": "fa-skull",
+      "howItWorks": "Utiliza portavoces institucionales revestidos de aparente infalibilidad para dictar verdades indiscutibles en campos complejos.",
+      "redFlags": [
+        "Negativa a someter los informes oficiales a auditoría externa e independiente.",
+        "Presentación de hipótesis como si fueran leyes científicas inmutables.",
+        "Uso de lenguaje tecnocrático incomprensible para oscurecer la realidad."
+      ],
+      "counterScript": "Agradezco la directriz, pero necesito revisar la metodología, la muestra y los conflictos de interés de los autores del informe.",
+      "deepMechanism": "Respeto atávico a la figura de autoridad jerárquica, heredado de estructuras tribales y autocráticas."
+    },
+    {
+      "id": "t6",
+      "category": "Censura",
+      "name": "Etiquetado Preventivo y Desacreditación",
+      "severity": "Alta",
+      "icon": "fa-brain",
+      "howItWorks": "Asigna etiquetas estigmatizantes ('propagador de bulos', 'anticientífico') a cualquier ciudadano o analista que cuestione el relato oficial.",
+      "redFlags": [
+        "Ataques personales en lugar de refutaciones basadas en argumentos.",
+        "Censura en plataformas digitales bajo criterios ambiguos de 'seguridad'.",
+        "Presión laboral o social contra voces discordantes."
+      ],
+      "counterScript": "Atacar al mensajero no refuta el argumento. Si hay errores en mis datos, demuéstralo con evidencias objetivas.",
+      "deepMechanism": "Exclusión social programada para generar un efecto disuasorio en el resto de la comunidad."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "Según Jano García en 'La Gran Manipulación', ¿cuál es el objetivo principal del uso intensivo del miedo y la demagogia en los medios de comunicación?",
+      "options": [
+        "Informar con rigor científico sobre los riesgos reales.",
+        "Desactivar la racionalidad del ciudadano para lograr obediencia y control social.",
+        "Promover el debate plural y democrático en la sociedad.",
+        "Estimular el crecimiento económico y la estabilidad institucional."
+      ],
+      "correctIndex": 1,
+      "explanation": "El libro demuestra que el miedo constante paraliza el pensamiento crítico, facilitando que la población acepte medidas de control que en condiciones normales rechazaría."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "¿Cómo operan los medios de comunicación según la tesis central del libro durante la gestión de crisis?",
+      "options": [
+        "Actuando como contrapoder independiente fiscalizando al Estado.",
+        "Creando un relato único y sincronizado que elimina la disidencia y fabrica un falso consenso.",
+        "Fomentando la investigación descentralizada y el periodismo de investigación riguroso.",
+        "Reduciendo el impacto emocional de las noticias para calmar a la población."
+      ],
+      "correctIndex": 1,
+      "explanation": "Jano García expone cómo los medios actúan como altavoces del relato oficial, sincronizando mensajes para anular la pluralidad informativa."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "Qué consecuencia social directa genera el confinamiento severo y la propaganda institucional, según el análisis del autor?",
+      "options": [
+        "Un incremento en la cohesión comunitaria y el libre pensamiento.",
+        "Una mayor fiscalización ciudadana mutua (vigilancia horizontal) y aceptación de restricciones de libertad.",
+        "La descentralización del poder político y el fortalecimiento de los derechos individuales.",
+        "La erradicación definitiva de la desinformación en redes sociales."
+      ],
+      "correctIndex": 1,
+      "explanation": "El confinamiento y el miedo transforman a los ciudadanos en censores de sus propios vecinos, validando el control social vertical."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "En el contexto de la desinformación y las noticias falsas analizadas en el libro, ¿cuál es el papel de los bulos oficiales?",
+      "options": [
+        "Son errores involuntarios sin impacto en la opinión pública.",
+        "Son herramientas de ingeniería social emitidas desde el poder para justificar decisiones políticas.",
+        "Son desmentidos rápidamente por agencias independientes.",
+        "Son una minoría irrelevante en comparación con los bulos ciudadanos."
+      ],
+      "correctIndex": 1,
+      "explanation": "El libro destaca que la mayor fuente de desinformación estructurada proviene de las propias instituciones encargadas de difundir el relato oficial."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "¿Qué relación existe entre la gestión de las crisis sanitarias/políticas y la economía según 'La Gran Manipulación'?",
+      "options": [
+        "Las medidas de control no tienen ninguna repercusión económica.",
+        "Las crisis son instrumentalizadas para justificar impactos económicos devastadores y transformar el modelo social.",
+        "La economía siempre se prioriza por encima de cualquier otra consideración política.",
+        "Los efectos económicos negativos son siempre imprevistos y accidentales."
+      ],
+      "correctIndex": 1,
+      "explanation": "Las decisiones tomadas bajo el paraguas de la emergencia generan un impacto económico y político profundo que beneficia determinados intereses mientras debilita a la sociedad civil."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "Según las conclusiones de Jano García, ¿cuál es el antídoto fundamental para que el futuro de la sociedad no quede dominado por la manipulación?",
+      "options": [
+        "Confiar incondicionalmente en las directrices de los organismos internacionales.",
+        "Eliminar por completo el acceso a internet y a las redes sociales.",
+        "Mantener la vigilancia constante, fomentar el pensamiento crítico y exigir rendición de cuentas.",
+        "Delegar la toma de decisiones éticas en comités de expertos gubernamentales."
+      ],
+      "correctIndex": 2,
+      "explanation": "La obra concluye que la defensa de la libertad exige ciudadanos informados, críticos y dispuestos a cuestionar permanentemente el discurso del poder."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Demagogia",
+      "category": "Propaganda",
+      "definition": "Empleo de halagos, mentiras y apelaciones emocionales para ganar el favor y la obediencia de las masas.",
+      "practicalExample": "Un político exagera un peligro inminente para justificar leyes restrictivas sin debate técnico."
+    },
+    {
+      "id": "g2",
+      "term": "Relato Oficial",
+      "category": "Medios",
+      "definition": "Versión de los acontecimientos construida, difundida y protegida por las instituciones de poder y los grandes medios.",
+      "practicalExample": "La narrativa unificada que repiten todas las cadenas de televisión sobre una crisis."
+    },
+    {
+      "id": "g3",
+      "term": "Ingeniería Social",
+      "category": "Control Social",
+      "definition": "Uso deliberado de la ciencia, la propaganda y la psicología para modificar masivamente la conducta y creencias de una sociedad.",
+      "practicalExample": "Implementar campañas de miedo sistemático para modificar hábitos de movilidad y relación."
+    },
+    {
+      "id": "g4",
+      "term": "Pensamiento de Grupo",
+      "category": "Psicología",
+      "definition": "Deseo de armonía o conformidad en el grupo que da lugar a una toma de decisiones irracional o acrítica.",
+      "practicalExample": "Un consejo de redacción que descarta investigar un escándalo por miedo a romper la línea editorial."
+    },
+    {
+      "id": "g5",
+      "term": "Disonancia Cognitiva",
+      "category": "Psicología",
+      "definition": "Tensión interna que experimenta una persona al sostener dos creencias contradictorias o al actuar en contra de sus valores.",
+      "practicalExample": "Defender el confinamiento estricto mientras se observan excepciones injustificadas en la élite política."
+    },
+    {
+      "id": "g6",
+      "term": "Vigilancia Horizontal",
+      "category": "Sociología",
+      "definition": "Proceso por el cual los ciudadanos vigilan, denuncian y corrigen el comportamiento de sus iguales según directrices del poder.",
+      "practicalExample": "Reprender públicamente a un vecino por no cumplir una norma menor de restricción."
+    },
+    {
+      "id": "g7",
+      "term": "Apelación al Miedo",
+      "category": "Persuasión Oscura",
+      "definition": "Táctica retórica que busca inducir terror para paralizar la capacidad analítica y forzar una respuesta sumisa.",
+      "practicalExample": "Titulares catastrofistas diarios sobre la inminencia de un colapso total."
+    },
+    {
+      "id": "g8",
+      "term": "Censura por Omisión",
+      "category": "Medios",
+      "definition": "Acción de silenciar deliberadamente información veraz que contradice la narrativa oficial establecida.",
+      "practicalExample": "Ignorar en los informativos los estudios científicos que contradicen una medida gubernamental."
+    },
+    {
+      "id": "g9",
+      "term": "Falacia de Autoridad",
+      "category": "Retórica",
+      "definition": "Argumento que defiende la validez de una premisa basándose únicamente en la autoridad de quien la emite, sin pruebas.",
+      "practicalExample": "Afirmar que algo es cierto porque 'lo ha dicho el comité de expertos'."
+    },
+    {
+      "id": "g10",
+      "term": "Excepcionalidad Permanente",
+      "category": "Política",
+      "definition": "Estado de emergencia prolongado en el tiempo que suspende de manera continuada derechos y garantías constitucionales.",
+      "practicalExample": "Mantener decretos de urgencia años después de superada la emergencia original."
+    },
+    {
+      "id": "g11",
+      "term": "Polarización Inducida",
+      "category": "Sociología",
+      "definition": "Estrategia para dividir a la sociedad en dos bandos enfrentados, neutralizando el centro moderado y el debate complejo.",
+      "practicalExample": "Categorizar a cualquier crítico como enemigo de la salud pública o del bien común."
+    },
+    {
+      "id": "g12",
+      "term": "Bulo Institucional",
+      "category": "Desinformación",
+      "definition": "Información falsa o sesgada generada y difundida por organismos oficiales para manipular la percepción pública.",
+      "practicalExample": "Publicar datos de contagio o económicos manipulados para justificar recortes."
+    },
+    {
+      "id": "g13",
+      "term": "Efecto Túnel",
+      "category": "Psicología",
+      "definition": "Estrechamiento de la atención consciente ante una situación de peligro percibido, ignorando el contexto general.",
+      "practicalExample": "Aceptar la ruina económica personal con tal de evitar una única amenaza magnificada por los medios."
+    },
+    {
+      "id": "g14",
+      "term": "Instrumentalización de Crisis",
+      "definition": "Uso cínico de una catástrofe o emergencia para impulsar agendas políticas o económicas previamente rechazadas.",
+      "practicalExample": "Aprobar leyes de control digital aprovechando un clima de histeria colectiva."
+    },
+    {
+      "id": "g15",
+      "term": "Resistencia Cognitiva",
+      "category": "Defensa Psicológica",
+      "definition": "Capacidad del individuo para procesar información de forma independiente, inmune al contagio emocional masivo.",
+      "practicalExample": "Consultar múltiples fuentes, verificar datos primarios y mantener la calma ante titulares alarmistas."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "CALIBRACIÓN",
+      "title": "Detección de la Congruencia en Portavoces Oficiales",
+      "cue": "Asimetría en los hombros, microexpresiones de desprecio (contracción unilateral de los labios) y parpadeo acelerado al leer un comunicado oficial.",
+      "interpretation": "Indica disonancia entre lo que el orador está verbalizando y sus verdaderas creencias o el conocimiento de que la información transmitida es dudosa.",
+      "practicalDrill": "Observa una rueda de prensa institucional sin sonido durante 2 minutos; identifica los gestos de tensión corporal y compáralos con los momentos de mayor dramatismo verbal."
+    },
+    {
+      "id": "bl2",
+      "category": "DETECCIÓN",
+      "title": "Análisis de Tono y Ritmo en Discursos Demagógicos",
+      "cue": "Aceleración repentina del ritmo de la voz acompañada de un tono agudo y pausas dramáticas calculadas para provocar aplausos o respuestas viscerales.",
+      "interpretation": "Diseñado para evocar respuestas emocionales automáticas en la masa, evitando que el receptor procese lógicamente el contenido del mensaje.",
+      "practicalDrill": "Escucha un discurso político aplicando un temporizador; cada vez que notes una subida artificial de tono sin datos de respaldo, anótalo como intento de manipulación emocional."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Postura de Anclaje contra la Presión de Grupo",
+      "cue": "Mantener los pies firmemente apoyados en el suelo, columna recta, brazos descruzados y contacto visual estable y pausado durante un debate tenso.",
+      "interpretation": "Transmite seguridad interna y evita físicamente la adopción automática de la postura sumisa o defensiva inducida por el entorno hostil.",
+      "practicalDrill": "Practica esta postura en una reunión donde haya unanimidad ficticia; observa cómo tu propia estabilidad física reduce la ansiedad ante la presión social."
+    },
+    {
+      "id": "bl4",
+      "category": "CALIBRACIÓN",
+      "title": "Identificación de la Apelación Artificial al Miedo",
+      "cue": "Tensión excesiva en el cuello (músculos esternocleidomastoideos marcados), respiración pectoral superficial y rigidez en las manos de un interlocutor.",
+      "interpretation": "Refleja activación simpática extrema (lucha/huida). En contextos de debate, indica que el individuo está operando bajo el efecto túnel del miedo.",
+      "practicalDrill": "Calibra el lenguaje no verbal de personas expuestas a noticias alarmantes frente a aquellas que consumen información contrastada."
+    },
+    {
+      "id": "bl5",
+      "category": "DETECCIÓN",
+      "title": "Señales de Evasión ante Preguntas Incómodas",
+      "cue": "Inclinación del torso hacia atrás inmediatamente después de recibir una pregunta sobre datos oficiales, acompañada de un gesto de limpieza en la solapa o la mesa.",
+      "interpretation": "Distanciamiento físico inconsciente del emisor respecto a la pregunta fiscalizadora, revelando incomodidad ante la falta de argumentos veraces.",
+      "practicalDrill": "Analiza entrevistas a portavoces institucionales cuando se les cuestionan contradicciones en el relato oficial."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "El Anclaje de la Pregunta Neutral",
+      "cue": "Responder a un ataque emocional con una pausa deliberada de 3 segundos, bajando ligeramente el mentón y formulando una pregunta basada en datos.",
+      "interpretation": "Rompe el ritmo de la manipulación, obliga al emisor a abandonar el terreno emocional y traslada la interacción al plano racional.",
+      "practicalDrill": "Ante una descalificación personal o demagógica, practica contar mentalmente hasta tres antes de articular una pregunta técnica calmada."
     }
   ]
 };

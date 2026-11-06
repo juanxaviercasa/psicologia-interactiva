@@ -1,3 +1,4 @@
+// Contenido enriquecido para Manipulación (Manipulated): La Mente Narcisista
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_8.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>--- MANIPULACIÓN H G TUDOR Manipulación H G Tudor Título original en inglés: Manipulated © 2015, HG Tudor Traducción al español: Lourdes Briones Camelo Publicado por Insight Books Primera edición 2015 Todos los derechos reservados. Ninguna parte de este libro puede ser reproducida, almacenada en un sistema de recuperación o transmitida en cualquier forma o por cualquier medio, electrónico, mecánico, fotocopia, grabación u otro tipo, sin el permiso escrito del editor. Dedicatoria A aquellos que leen y que, al hacerlo, adquieren armas para defenderse mejor. Introducción Hola. He vuelto, y esta vez voy a hablarte de veinticinco maneras en que te manipulo. Sí, esta obra te dará información de primera mano sobre veinticinco métodos infames que utilizo para controlarte. Es información fascinante y una lectura absolutamente indispensable para cualquiera que desea estar en una relación, está en una relación, o está recuperándose de una relación abusiva. Esto incluye a la mayor parte de la población del planeta, lo que indica el alcance del problema al que nos enfrentamos aquí. Este material no solo concierne a los de mi especie y a mí, los narcisistas, sino a todos aquellos que exhiben un comportamiento abusivo y manipulador, tales como las personas que sufren de trastorno límite de la personalidad, de trastorno de personalidad antisocial, alcohólicos, drogadictos y personas que tal vez no sufran de un trastorno de personalidad, o de una adicción, pero que tienen rasgos que las lleva",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> La Máscara y el Tratado del Manipulador Narcisista\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_hg_tudor/tudor_m1_preliminares.webp\" alt=\"La Máscara y el Tratado del Manipulador Narcisista\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- MANIPULACIÓN H G TUDOR Manipulación H G Tudor Título original en inglés: Manipulated © 2015, HG Tudor Traducción al español: Lourdes Briones Camelo Publicado por Insight Books Primera edición 2015 Todos los derechos reservados. Ninguna parte de este libro puede ser reproducida, almacenada en un sistema de recuperación o transmitida en cualquier forma o por cualquier medio, electrónico, mecánico, fotocopia, grabación u otro tipo, sin el permiso escrito del editor. Dedicatoria A aquellos que leen y que, al hacerlo, adquieren armas para defenderse mejor. Introducción Hola. He vuelto, y esta vez voy a hablarte de veinticinco maneras en que te manipulo. Sí, esta obra te dará información de primera mano sobre veinticinco métodos infames que utilizo para controlarte. Es información fascinante y una lectura absolutamente indispensable para cualquiera que desea estar en una relación, está en una relación, o está recuperándose de una relación abusiva. Esto incluye a la mayor parte de la población del planeta, lo que indica el alcance del problema al que nos enfrentamos aquí. Este material no solo concierne a los de mi especie y a mí, los narcisistas, sino a todos aquellos que exhiben un comportamiento abusivo y manipulador, tales como las personas que sufren de trastorno límite de la personalidad, de trastorno de personalidad antisocial, alcohólicos, drogadictos y personas que tal vez no sufran de un trastorno de personalidad, o de una adicción, pero que tienen rasgos que las lleva",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la framing narrativo en el contexto de \"Preliminares E Introduccion\"?",
             "options": [
@@ -217,7 +218,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- 1. Bombardeo de amor Voy a comenzar con la técnica del bombardeo de amor por varias razones. En primer lugar, la utilizo cuando comienzo a manipularte. En segundo lugar, es extremadamente eficaz y, en tercer lugar, allana el camino para la ejecución y el uso de otras técnicas de manipulación. La cuarta razón es que, si estás bien informada sobre esta técnica, ampliamente probada y comprobada por los de mi especie, tal vez te alejes de mí (hay que reconocer que esto es muy difícil, pero posible) y evites ser sometido o sometida a todos los otros métodos de manipulación que utilizo posteriormente, protegiendo así tu cordura, tu autoestima, tu dinero y tu salud. Por consiguiente, advertirte sobre la técnica del bombardeo de amor es primordial. De hecho, si todas las personas que están a punto de comenzar a salir en citas y a buscar novio o novia supieran sobre el bombardeo de amor, habría menos, mucho menos víctimas de narcisistas. Es por esto que esta técnica merece estar en la cima de los veinticinco métodos de manipulación. A menudo pienso que incluso debería enseñarse en las escuelas, en algún tipo de clase sobre las relaciones sociales. A esa edad las personas tienen poca experiencia en materia de relaciones y, por lo tanto, no pueden distinguir entre un comportamiento normal y otro que no lo es. Esto se vuelve aún más difícil cuando dicho comportamiento es agradable, maravilloso y adictivo. Informar sobre lo que es el bombardeo de amor y sus efectos sería una tarea muy",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Bombardeo de Amor y Espejo Ilusorio\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_hg_tudor/tudor_m2_bombardeo_amor_reflejo.webp\" alt=\"Bombardeo de Amor y Espejo Ilusorio\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- 1. Bombardeo de amor Voy a comenzar con la técnica del bombardeo de amor por varias razones. En primer lugar, la utilizo cuando comienzo a manipularte. En segundo lugar, es extremadamente eficaz y, en tercer lugar, allana el camino para la ejecución y el uso de otras técnicas de manipulación. La cuarta razón es que, si estás bien informada sobre esta técnica, ampliamente probada y comprobada por los de mi especie, tal vez te alejes de mí (hay que reconocer que esto es muy difícil, pero posible) y evites ser sometido o sometida a todos los otros métodos de manipulación que utilizo posteriormente, protegiendo así tu cordura, tu autoestima, tu dinero y tu salud. Por consiguiente, advertirte sobre la técnica del bombardeo de amor es primordial. De hecho, si todas las personas que están a punto de comenzar a salir en citas y a buscar novio o novia supieran sobre el bombardeo de amor, habría menos, mucho menos víctimas de narcisistas. Es por esto que esta técnica merece estar en la cima de los veinticinco métodos de manipulación. A menudo pienso que incluso debería enseñarse en las escuelas, en algún tipo de clase sobre las relaciones sociales. A esa edad las personas tienen poca experiencia en materia de relaciones y, por lo tanto, no pueden distinguir entre un comportamiento normal y otro que no lo es. Esto se vuelve aún más difícil cuando dicho comportamiento es agradable, maravilloso y adictivo. Informar sobre lo que es el bombardeo de amor y sus efectos sería una tarea muy",
           "interactiveChallenge": {
             "question": "Ante una situación de la aislamiento progresivo en el contexto de \"Metodos 01 A 02 Bombardeo De Amor Y Reflejo\"?",
             "options": [
@@ -601,7 +602,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "3. Culpa Sin duda sabrás que gran parte de nuestra actitud emocional en la vida está condicionada por cómo fuimos educados cuando éramos niños. Ahora sé que mi infancia ha tenido una influencia significativa en lo que soy ahora. Ha habido varias personas que me han explicado que mi comportamiento es consecuencia de la manera en que se me trató de niño. Pero dejemos este tema para otra ocasión. El hecho es que gran parte de cómo nos sentimos y actuamos siendo adultos ha sido forjado en nuestra infancia, y esta es una conexión directa que permanece abierta toda la vida. Es una conexión entre cómo nos sentíamos cuando éramos pequeños y desamparados y nuestros yo adultos. La carretera es directa, sin obstáculos, y ciertas señales pueden enviarnos con la velocidad de un rayo a nuestros años de formación. Quizá hayas visto la película Rocknrolla. En una escena, el personaje del actor Mark Strong, Archie, está exponiendo la virtud de una bofetada bien administrada con el dorso de la mano en la cara de uno de los miembros de la pandilla. Archie explica que, cuando la bofetada se hace correctamente, transporta al que la recibe inmediatamente a la infancia. Lo que esto sugiere es que el punzante castigo que sentimos siendo niños cuando se nos daba una bofetada se manifiesta igualmente cuando, de adultos, recibimos otra cachetada, dejándonos correctamente castigados y obedientes como cuando éramos niños. La culpa tiene en gran parte el mismo efecto. Utilizo la culpa para enviarte de via",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Imposición de Culpa y Sombras de Intimidación\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_hg_tudor/tudor_m3_culpa_intimidacion.webp\" alt=\"Imposición de Culpa y Sombras de Intimidación\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>3. Culpa Sin duda sabrás que gran parte de nuestra actitud emocional en la vida está condicionada por cómo fuimos educados cuando éramos niños. Ahora sé que mi infancia ha tenido una influencia significativa en lo que soy ahora. Ha habido varias personas que me han explicado que mi comportamiento es consecuencia de la manera en que se me trató de niño. Pero dejemos este tema para otra ocasión. El hecho es que gran parte de cómo nos sentimos y actuamos siendo adultos ha sido forjado en nuestra infancia, y esta es una conexión directa que permanece abierta toda la vida. Es una conexión entre cómo nos sentíamos cuando éramos pequeños y desamparados y nuestros yo adultos. La carretera es directa, sin obstáculos, y ciertas señales pueden enviarnos con la velocidad de un rayo a nuestros años de formación. Quizá hayas visto la película Rocknrolla. En una escena, el personaje del actor Mark Strong, Archie, está exponiendo la virtud de una bofetada bien administrada con el dorso de la mano en la cara de uno de los miembros de la pandilla. Archie explica que, cuando la bofetada se hace correctamente, transporta al que la recibe inmediatamente a la infancia. Lo que esto sugiere es que el punzante castigo que sentimos siendo niños cuando se nos daba una bofetada se manifiesta igualmente cuando, de adultos, recibimos otra cachetada, dejándonos correctamente castigados y obedientes como cuando éramos niños. La culpa tiene en gran parte el mismo efecto. Utilizo la culpa para enviarte de via",
           "interactiveChallenge": {
             "question": "El concepto central de la hipnosis ericksoniana en el contexto de \"Metodos 03 A 04 Culpa E Intimidacion\"?",
             "options": [
@@ -840,7 +841,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "5. Triangulación Una de mis técnicas favoritas ya que es muy eficaz. Mi especie y yo la utilizamos constantemente. Se lleva a cabo muy rápidamente durante la etapa de devaluación. En la triangulación se introduce una tercera parte, una persona, o incluso un objeto, en nuestra dinámica como medio de manipulación. Es un método de manipulación muy bueno para todas las ocasiones, ya sea entre amantes, amigos, en el trabajo o la familia. Yo tengo dos métodos de triangulación, a los que me refiero como el método tradicional y el método moderno. El método tradicional es la introducción arquetípica de una tercera persona. Este método tradicional puede dividirse en real e imaginario. Por ejemplo, estoy en una relación contigo y empiezo a mencionar a una colega de trabajo muy competente y atractiva a quien nunca había mencionado antes. En realidad, no tengo nada que ver con ella; la veo de vez en cuando entrar en el edificio donde ambos trabajamos y asumo que trabaja en otro piso, pero nunca hablo con ella y nuestros caminos no se cruzan en el trabajo salvo por algún email ocasional o en algunas reuniones. A pesar de esto, hago mención de ella a menudo cuando estoy contigo. Te comento cuán bien vestida es, cómo ha perdido peso, que sus labios son pulposos y que sus besos deben ser excelentes sin ninguna duda. También te comento cuán diligente es y que le han dado una gratificación. Resalto cualquier rasgo de ella al que sé que serás sensible (tú no te vistes elegantemente muy a menudo,",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Triangulación Táctica y Lugartenientes Inconscientes\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_hg_tudor/tudor_m4_triangulacion_obsesion.webp\" alt=\"Triangulación Táctica y Lugartenientes Inconscientes\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>5. Triangulación Una de mis técnicas favoritas ya que es muy eficaz. Mi especie y yo la utilizamos constantemente. Se lleva a cabo muy rápidamente durante la etapa de devaluación. En la triangulación se introduce una tercera parte, una persona, o incluso un objeto, en nuestra dinámica como medio de manipulación. Es un método de manipulación muy bueno para todas las ocasiones, ya sea entre amantes, amigos, en el trabajo o la familia. Yo tengo dos métodos de triangulación, a los que me refiero como el método tradicional y el método moderno. El método tradicional es la introducción arquetípica de una tercera persona. Este método tradicional puede dividirse en real e imaginario. Por ejemplo, estoy en una relación contigo y empiezo a mencionar a una colega de trabajo muy competente y atractiva a quien nunca había mencionado antes. En realidad, no tengo nada que ver con ella; la veo de vez en cuando entrar en el edificio donde ambos trabajamos y asumo que trabaja en otro piso, pero nunca hablo con ella y nuestros caminos no se cruzan en el trabajo salvo por algún email ocasional o en algunas reuniones. A pesar de esto, hago mención de ella a menudo cuando estoy contigo. Te comento cuán bien vestida es, cómo ha perdido peso, que sus labios son pulposos y que sus besos deben ser excelentes sin ninguna duda. También te comento cuán diligente es y que le han dado una gratificación. Resalto cualquier rasgo de ella al que sé que serás sensible (tú no te vistes elegantemente muy a menudo,",
           "interactiveChallenge": {
             "question": "¿Cómo reconoce un observador entrenado la prueba social en el contexto de \"Metodos 05 A 07 Triangulacion Lugartenientes Y Obsesion\"?",
             "options": [
@@ -1166,7 +1167,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- 8. Falsas promesas Durante la fase de seducción y bombardeo de amor he creado lo que podríamos considerar como nuestra época dorada. Durante esos tiempos felices, todo fue maravilloso y yo creé memorias adictivas que tú vas a recordar una y otra vez. Fue una época emocionante, edificante y fascinante. Te dije cosas que nadie te había dicho nunca antes. Te llevé a lugares maravillosos, te hice el amor a menudo y con una pasión que nadie te había mostrado nunca antes. Cada día que pasabas conmigo parecía Navidad; siempre con sorpresas de amor, cordialidad, afecto y deseo de mi parte. Te llenaba de regalos, te bombardeaba con mensajes de texto, y la seducción fluía en todo tu alrededor. Era único. Sin embargo, al igual que todo gran imperio, el nuestro se vino abajo también. El afecto se agotó, dejé de hacerte el amor o, si lo hacía, era de manera mecánica, como un autómata. Rara vez quería hacer algo juntos; prefería pasar mi tiempo conectado a una Xbox o viendo deporte en la televisión sin cesar (método moderno de triangulación). Empecé a desaparecer sin que tú pudieras lograr contactarme. Empecé a hacer mención de otras mujeres y tú comenzaste a dudar de mi fidelidad. Empecé a criticar esos mismos aspectos de ti que alguna vez había dicho que adoraba. El mundo se volvió frío y un viento triste sopló a través de los árboles desnudos donde alguna vez una dulce flor había caído sobre nosotros mientras nos besábamos. Te tengo atrapada firmemente en la etapa de devaluación. Es",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Jaula Dorada: Falsas Promesas y Desgaste Emocional\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_hg_tudor/tudor_m5_falsas_promesas_desgaste.webp\" alt=\"Jaula Dorada: Falsas Promesas y Desgaste Emocional\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- 8. Falsas promesas Durante la fase de seducción y bombardeo de amor he creado lo que podríamos considerar como nuestra época dorada. Durante esos tiempos felices, todo fue maravilloso y yo creé memorias adictivas que tú vas a recordar una y otra vez. Fue una época emocionante, edificante y fascinante. Te dije cosas que nadie te había dicho nunca antes. Te llevé a lugares maravillosos, te hice el amor a menudo y con una pasión que nadie te había mostrado nunca antes. Cada día que pasabas conmigo parecía Navidad; siempre con sorpresas de amor, cordialidad, afecto y deseo de mi parte. Te llenaba de regalos, te bombardeaba con mensajes de texto, y la seducción fluía en todo tu alrededor. Era único. Sin embargo, al igual que todo gran imperio, el nuestro se vino abajo también. El afecto se agotó, dejé de hacerte el amor o, si lo hacía, era de manera mecánica, como un autómata. Rara vez quería hacer algo juntos; prefería pasar mi tiempo conectado a una Xbox o viendo deporte en la televisión sin cesar (método moderno de triangulación). Empecé a desaparecer sin que tú pudieras lograr contactarme. Empecé a hacer mención de otras mujeres y tú comenzaste a dudar de mi fidelidad. Empecé a criticar esos mismos aspectos de ti que alguna vez había dicho que adoraba. El mundo se volvió frío y un viento triste sopló a través de los árboles desnudos donde alguna vez una dulce flor había caído sobre nosotros mientras nos besábamos. Te tengo atrapada firmemente en la etapa de devaluación. Es",
           "interactiveChallenge": {
             "question": "Según este módulo, ¿cuál es el mecanismo principal de la framing narrativo en el contexto de \"Metodos 08 A 10 Falsas Promesas Amenaza Y Desgaste\"?",
             "options": [
@@ -1434,7 +1435,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "11. Difamación Aunque es similar al desgaste, puesto que se trata de atacar tu persona y lo que haces, la difamación es tanto directa como indirecta, y es mucho más brutal. Con la difamación voy directo a la yugular cuando estoy contigo, y llevo a cabo una campaña de desprestigio contra ti a tus espaldas. Cuando decido emplear la difamación, me he quitado los guantes y la temporada de caza ha comenzado. ¿Qué hay detrás de mi recurso a la difamación? Dos cosas: envidia y el deseo de manipular. ¿Por qué envidia? Yo no tengo una identidad real, siempre estoy tomando prestada la identidad de los demás y subsumiéndola dentro de mí. Eso significa que tomo las características e intereses de otros, a pesar de que en realidad no sé cómo se siente ser esa persona. A modo de ejemplo, digamos que a ti te gusta el fútbol. Vas al estadio a ver un partido cada fin de semana y disfrutas hablar con tus amigos y otros adeptos sobre la selección de equipo. Reflexionas sobre el resultado anterior, examinas la oposición y haces tu pronóstico para el juego siguiente. Pateas cada pelota con los jugadores, sientes la euforia cuando tu equipo marca un gol y te hundes en tu asiento cuando es el equipo adversario el que lo hace. Te indignas ante una mala decisión de arbitraje que va en contra de tu equipo. Puedes disfrutar la bebida y golosinas que compraste en uno de los puestos, u oler los hot dogs que están a la venta. También hay ese zumbido eléctrico de la gran muchedumbre que hace que los pelos d",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Campañas de Difamación y Aislamiento por Susurro\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_hg_tudor/tudor_m6_difamacion_negacion.webp\" alt=\"Campañas de Difamación y Aislamiento por Susurro\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>11. Difamación Aunque es similar al desgaste, puesto que se trata de atacar tu persona y lo que haces, la difamación es tanto directa como indirecta, y es mucho más brutal. Con la difamación voy directo a la yugular cuando estoy contigo, y llevo a cabo una campaña de desprestigio contra ti a tus espaldas. Cuando decido emplear la difamación, me he quitado los guantes y la temporada de caza ha comenzado. ¿Qué hay detrás de mi recurso a la difamación? Dos cosas: envidia y el deseo de manipular. ¿Por qué envidia? Yo no tengo una identidad real, siempre estoy tomando prestada la identidad de los demás y subsumiéndola dentro de mí. Eso significa que tomo las características e intereses de otros, a pesar de que en realidad no sé cómo se siente ser esa persona. A modo de ejemplo, digamos que a ti te gusta el fútbol. Vas al estadio a ver un partido cada fin de semana y disfrutas hablar con tus amigos y otros adeptos sobre la selección de equipo. Reflexionas sobre el resultado anterior, examinas la oposición y haces tu pronóstico para el juego siguiente. Pateas cada pelota con los jugadores, sientes la euforia cuando tu equipo marca un gol y te hundes en tu asiento cuando es el equipo adversario el que lo hace. Te indignas ante una mala decisión de arbitraje que va en contra de tu equipo. Puedes disfrutar la bebida y golosinas que compraste en uno de los puestos, u oler los hot dogs que están a la venta. También hay ese zumbido eléctrico de la gran muchedumbre que hace que los pelos d",
           "interactiveChallenge": {
             "question": "¿Qué distingue a un experto en la aislamiento progresivo en el contexto de \"Metodos 11 A 12 Difamacion Y Negacion\"?",
             "options": [
@@ -1731,7 +1732,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "13. Proyección El número trece es proyección. Mala suerte para algunos. Mala suerte para ti. Todo el mundo proyecta, pero la mayoría lo hace involuntariamente y sin consecuencias serias. Mi especie y yo lo hacemos intencionalmente y por una infinidad de razones. Lo que sucede en la proyección es que veo mi propio comportamiento inaceptable y mis deseos en otras personas. Pongo mis comportamientos o deseos en otros de manera que ya no sean míos, sino de ellos, y yo quede absoelto de cualquier responsabilidad. También hago esto para sentirme superior. Tú tienes el comportamiento desagradable, no yo, por consiguiente, soy superior a ti. Utilizo la proyección como un mecanismo de defensa para mí, y un método de control sobre ti. Sé que mis comportamientos son execrables, y también estoy consciente de mi verdadero y dañado ser. Esta terrible realidad me golpea y me hiere cuando tú me dices la verdad sobre lo que he hecho, o cuando yo tengo un terrible momento de toma de conciencia. Esto generalmente surge cuando se me critica, lo que detesto. El dolor que siento cuando de vez en cuando se me da una dosis de esta realidad es abrumador. En lugar de intentar cambiar mi comportamiento de manera que este dolor disminuya o desaparezca definitivamente, necesito algo que me proporcione una solución rápida para deshacerme de este. La solución es proyectar. Inmediatamente te acuso de lo que soy o lo que he hecho. Tú eres la persona deshonesta, la que está diciendo mentiras, la que no tiene",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Proyección de Defectos y Reflejo Invertido\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_hg_tudor/tudor_m7_proyeccion_lenguaje_corporal.webp\" alt=\"Proyección de Defectos y Reflejo Invertido\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>13. Proyección El número trece es proyección. Mala suerte para algunos. Mala suerte para ti. Todo el mundo proyecta, pero la mayoría lo hace involuntariamente y sin consecuencias serias. Mi especie y yo lo hacemos intencionalmente y por una infinidad de razones. Lo que sucede en la proyección es que veo mi propio comportamiento inaceptable y mis deseos en otras personas. Pongo mis comportamientos o deseos en otros de manera que ya no sean míos, sino de ellos, y yo quede absoelto de cualquier responsabilidad. También hago esto para sentirme superior. Tú tienes el comportamiento desagradable, no yo, por consiguiente, soy superior a ti. Utilizo la proyección como un mecanismo de defensa para mí, y un método de control sobre ti. Sé que mis comportamientos son execrables, y también estoy consciente de mi verdadero y dañado ser. Esta terrible realidad me golpea y me hiere cuando tú me dices la verdad sobre lo que he hecho, o cuando yo tengo un terrible momento de toma de conciencia. Esto generalmente surge cuando se me critica, lo que detesto. El dolor que siento cuando de vez en cuando se me da una dosis de esta realidad es abrumador. En lugar de intentar cambiar mi comportamiento de manera que este dolor disminuya o desaparezca definitivamente, necesito algo que me proporcione una solución rápida para deshacerme de este. La solución es proyectar. Inmediatamente te acuso de lo que soy o lo que he hecho. Tú eres la persona deshonesta, la que está diciendo mentiras, la que no tiene",
           "interactiveChallenge": {
             "question": "¿Cuál de las siguientes afirmaciones sobre la hipnosis ericksoniana en el contexto de \"Metodos 13 A 14 Proyeccion Y Lectura Del Lenguaje Corporal\"?",
             "options": [
@@ -1941,7 +1942,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- 15. Silencio Era sólo una pequeña broma. Aunque me pregunto si esa página silenciosa y vacía comenzó a infundirte la misma sensación que mi uso del silencio como herramienta de manipulación infunde en otros. Muchas personas utilizan el silencio a menudo. La pausa significativa en un discurso para hacer énfasis en algo. El silencio al final de una obra de teatro para transmitir el efecto del último e intenso soliloquio de la obra. El silencio se utiliza en todos los aspectos de la vida para crear una respuesta. Yo lo utilizo de manera algo diferente. Yo uso el silencio para producir una respuesta, pero una que sea emocional. Recuerdo una conversación que tuve con un consultor de dirección quien me explicó que, al final de sus presentaciones, no dice nada. Espera y espera hasta que sus oyentes hablan. Me explicó que lo hacía porque quería hacerlos participar y que estos establecieran la agenda de la discusión. El silencio es un poderoso dispositivo. Cuando primero te someto a mi silencio, el efecto es devastador. Varias veces intentas ponerte en contacto conmigo y dialogar para saber qué es lo que pasa. ¿Qué es lo que ha provocado mi silencio repentino cuando justo el día anterior te había dicho cuán contento estaba de haberte encontrado mientras estábamos acostados juntos en la cama? Tu necesidad de saber es tan grande que anula por completo tu sentido de la vergüenza o decoro en ti. Llamas a mi teléfono móvil una y otra vez, y otra vez. Llamas a mi oficina varias veces, p",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> El Muro de Hielo: Ley del Silencio y Abandono\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_hg_tudor/tudor_m8_silencio_distanciamiento.webp\" alt=\"El Muro de Hielo: Ley del Silencio y Abandono\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- 15. Silencio Era sólo una pequeña broma. Aunque me pregunto si esa página silenciosa y vacía comenzó a infundirte la misma sensación que mi uso del silencio como herramienta de manipulación infunde en otros. Muchas personas utilizan el silencio a menudo. La pausa significativa en un discurso para hacer énfasis en algo. El silencio al final de una obra de teatro para transmitir el efecto del último e intenso soliloquio de la obra. El silencio se utiliza en todos los aspectos de la vida para crear una respuesta. Yo lo utilizo de manera algo diferente. Yo uso el silencio para producir una respuesta, pero una que sea emocional. Recuerdo una conversación que tuve con un consultor de dirección quien me explicó que, al final de sus presentaciones, no dice nada. Espera y espera hasta que sus oyentes hablan. Me explicó que lo hacía porque quería hacerlos participar y que estos establecieran la agenda de la discusión. El silencio es un poderoso dispositivo. Cuando primero te someto a mi silencio, el efecto es devastador. Varias veces intentas ponerte en contacto conmigo y dialogar para saber qué es lo que pasa. ¿Qué es lo que ha provocado mi silencio repentino cuando justo el día anterior te había dicho cuán contento estaba de haberte encontrado mientras estábamos acostados juntos en la cama? Tu necesidad de saber es tan grande que anula por completo tu sentido de la vergüenza o decoro en ti. Llamas a mi teléfono móvil una y otra vez, y otra vez. Llamas a mi oficina varias veces, p",
           "interactiveChallenge": {
             "question": "Al aplicar los principios de la prueba social en el contexto de \"Metodos 15 A 16 Silencio Y Distanciamiento\"?",
             "options": [
@@ -2238,7 +2239,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "17. Transgresión de límites Soy peor que un ejército invasor a la hora de cruzar líneas e ignorar convenciones. ¿Qué hay detrás de mi falta de respeto por la privacidad y los límites de otras personas? Mi enorme sentido de tener derecho a todo y el hecho de que considero a todo el mundo como objetos o aparatos que están allí para servir mis propósitos. Soy incapaz y reacio a distinguir entre lo que te pertenece y lo que me pertenece. Esto es porque no veo ninguna distinción entre tú y yo. Tú eres solo una extensión de mí y estás allí para hacer mi voluntad. Tengo que gobernar todas las cosas que hagas. Debido a mi condición, similar a la de un dios, tengo derecho a juzgar lo que dices, haces, piensas y sientes. Mi objetivo es poseerte. No aceptaré tu existencia independiente de mí; considero que eres mía. El ignorar todo límite entre nosotros me permite fusionarte a mí. Esta transgresión penetrante te dice quién tiene el control y garantiza que tú hagas lo que yo quiera. Como con muchas de mis técnicas de manipulación, a fuerza de repetir una y otra vez cierto comportamiento, logro acostumbrarte y condicionarte a este. Terminas por perder tu identidad, el concepto de ti misma. Terminas por aceptar que lo que es tuyo también es mío. Dejas de hacer cosas que podrían apartarte de mí y terminas por aceptar que así debe ser. Si me he mostrado particularmente encantador, te engañarás diciéndote que la transgresión es porque te amo tanto. Es porque quiero que nos unamos y seamos uno",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Transgresión de Límites y Niebla del Gaslighting\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_hg_tudor/tudor_m9_transgresion_gaslighting.webp\" alt=\"Transgresión de Límites y Niebla del Gaslighting\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>17. Transgresión de límites Soy peor que un ejército invasor a la hora de cruzar líneas e ignorar convenciones. ¿Qué hay detrás de mi falta de respeto por la privacidad y los límites de otras personas? Mi enorme sentido de tener derecho a todo y el hecho de que considero a todo el mundo como objetos o aparatos que están allí para servir mis propósitos. Soy incapaz y reacio a distinguir entre lo que te pertenece y lo que me pertenece. Esto es porque no veo ninguna distinción entre tú y yo. Tú eres solo una extensión de mí y estás allí para hacer mi voluntad. Tengo que gobernar todas las cosas que hagas. Debido a mi condición, similar a la de un dios, tengo derecho a juzgar lo que dices, haces, piensas y sientes. Mi objetivo es poseerte. No aceptaré tu existencia independiente de mí; considero que eres mía. El ignorar todo límite entre nosotros me permite fusionarte a mí. Esta transgresión penetrante te dice quién tiene el control y garantiza que tú hagas lo que yo quiera. Como con muchas de mis técnicas de manipulación, a fuerza de repetir una y otra vez cierto comportamiento, logro acostumbrarte y condicionarte a este. Terminas por perder tu identidad, el concepto de ti misma. Terminas por aceptar que lo que es tuyo también es mío. Dejas de hacer cosas que podrían apartarte de mí y terminas por aceptar que así debe ser. Si me he mostrado particularmente encantador, te engañarás diciéndote que la transgresión es porque te amo tanto. Es porque quiero que nos unamos y seamos uno",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la framing narrativo en el contexto de \"Metodos 17 A 18 Transgresion De Limites Y Gaslighting\"?",
             "options": [
@@ -2448,7 +2449,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "19. Conversaciones circulares Uso esto en el contexto de una discusión. Las discusiones circulares son discusiones interminables en las que yo repito los mismos puntos una y otra vez sin llegar a una solución. Lo que hago es embaucarte y hacerte pensar que podrías hacerme cambiar de opinión para que tú continúes intentando. Recuerda que eres una persona con mucha empatía y que, por lo tanto, sientes un deseo abrumador de “repararme”, a pesar de que eso es imposible. Estás convencida de que terminaré por comprender y ver mis errores. Lo que tú necesitas comprender es que sé lo que estoy haciendo, veo lo que estoy haciendo, pero no me importa que lo que estoy haciendo hiera a otras personas, en especial a ti. Los fines siempre justifican los medios conmigo. También he creado una realidad falsa y, si intentas demostrar algo que interfiera con esta realidad falsa, yo simplemente no lo aceptaré. Reivindico que el negro es blanco y luego, al día siguiente, que es naranja. Tú no puedes comprender cómo puedo afirmar tales cosas. Desafía toda lógica. Sabes que soy una persona inteligente, ¿cómo es posible que no lo vea? Te preguntas si has presentado la situación de manera clara. Tal vez si gritas yo podría entender tu punto de vista. Te mantienes lógica y seguirás tratando una y otra vez de hacerme ver y entender. Estas conversaciones darán vueltas, y vueltas y más vueltas. Mi comportamiento nunca va a cambiar. Con frecuencia, el comportamiento que estás desafiando no es un comportam",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Espiral Infinita de Discusiones Circulares\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_hg_tudor/tudor_m10_conversaciones_circulares.webp\" alt=\"Espiral Infinita de Discusiones Circulares\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>19. Conversaciones circulares Uso esto en el contexto de una discusión. Las discusiones circulares son discusiones interminables en las que yo repito los mismos puntos una y otra vez sin llegar a una solución. Lo que hago es embaucarte y hacerte pensar que podrías hacerme cambiar de opinión para que tú continúes intentando. Recuerda que eres una persona con mucha empatía y que, por lo tanto, sientes un deseo abrumador de “repararme”, a pesar de que eso es imposible. Estás convencida de que terminaré por comprender y ver mis errores. Lo que tú necesitas comprender es que sé lo que estoy haciendo, veo lo que estoy haciendo, pero no me importa que lo que estoy haciendo hiera a otras personas, en especial a ti. Los fines siempre justifican los medios conmigo. También he creado una realidad falsa y, si intentas demostrar algo que interfiera con esta realidad falsa, yo simplemente no lo aceptaré. Reivindico que el negro es blanco y luego, al día siguiente, que es naranja. Tú no puedes comprender cómo puedo afirmar tales cosas. Desafía toda lógica. Sabes que soy una persona inteligente, ¿cómo es posible que no lo vea? Te preguntas si has presentado la situación de manera clara. Tal vez si gritas yo podría entender tu punto de vista. Te mantienes lógica y seguirás tratando una y otra vez de hacerme ver y entender. Estas conversaciones darán vueltas, y vueltas y más vueltas. Mi comportamiento nunca va a cambiar. Con frecuencia, el comportamiento que estás desafiando no es un comportam",
           "interactiveChallenge": {
             "question": "Ante una situación de la aislamiento progresivo en el contexto de \"Metodos 19 A 20 Conversaciones Circulares Y Omnipresencia\"?",
             "options": [
@@ -2687,7 +2688,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "21. Lástima Mucho del funcionamiento de este mundo se basa en la lástima. La lastima es una prima del amor. ¿Cuántas veces has visto una publicidad en la televisión sobre un niño maltratado o un niño famélico en un país subdesarrollado? Al igual que esos acordes de cuerdas del soundtrack de la publicidad, las cuerdas de tu corazón también están siendo tocadas para que hagas una donación. Sientes lástima por la terrible situación en que el pobre desdichado se encuentra. Sientes lástima por los pobres, los refugiados, los vagabundos, los enfermos, los moribundos, los abusados y los desplazados. Tu sentimiento de lástima surge de manera que te sientas obligado u obligada a actuar. Sabes que no puedes llegar y abrazar a esa persona, así que contactas la organización y haces una donación. Las organizaciones de beneficencia saben que eres capaz de mostrar tal compasión y lástima y se agarran de eso. Sé que, debido a la empatía que has mostrado, rebosas de lástima y compasión. Figurativamente, estos sentimientos desbordan de ti y solo te falta encontrar a esa pobre alma digna para que tú viertas todos estos sentimientos en ella. Lo único que quieres es mostrar interés, comprensión, mostrar que puedes ponerte en su lugar y que puedes ayudar mostrando tu lástima hacia ellos. Yo me aprovecho de tu lástima. Utilizo las máscaras de la desgracia y la victimización para hacerte sentir lástima por mí. Te hago creer que estoy sufriendo más que tú. Me pongo en el papel de una pobre víctima in",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Víctima Estratégica: Lástima como Trampa\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_hg_tudor/tudor_m11_lastima_aislamiento.webp\" alt=\"Víctima Estratégica: Lástima como Trampa\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>21. Lástima Mucho del funcionamiento de este mundo se basa en la lástima. La lastima es una prima del amor. ¿Cuántas veces has visto una publicidad en la televisión sobre un niño maltratado o un niño famélico en un país subdesarrollado? Al igual que esos acordes de cuerdas del soundtrack de la publicidad, las cuerdas de tu corazón también están siendo tocadas para que hagas una donación. Sientes lástima por la terrible situación en que el pobre desdichado se encuentra. Sientes lástima por los pobres, los refugiados, los vagabundos, los enfermos, los moribundos, los abusados y los desplazados. Tu sentimiento de lástima surge de manera que te sientas obligado u obligada a actuar. Sabes que no puedes llegar y abrazar a esa persona, así que contactas la organización y haces una donación. Las organizaciones de beneficencia saben que eres capaz de mostrar tal compasión y lástima y se agarran de eso. Sé que, debido a la empatía que has mostrado, rebosas de lástima y compasión. Figurativamente, estos sentimientos desbordan de ti y solo te falta encontrar a esa pobre alma digna para que tú viertas todos estos sentimientos en ella. Lo único que quieres es mostrar interés, comprensión, mostrar que puedes ponerte en su lugar y que puedes ayudar mostrando tu lástima hacia ellos. Yo me aprovecho de tu lástima. Utilizo las máscaras de la desgracia y la victimización para hacerte sentir lástima por mí. Te hago creer que estoy sufriendo más que tú. Me pongo en el papel de una pobre víctima in",
           "interactiveChallenge": {
             "question": "El concepto central de la hipnosis ericksoniana en el contexto de \"Metodos 21 A 22 Lastima Y Aislamiento\"?",
             "options": [
@@ -2868,7 +2869,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "23. Sacar a relucir el pasado Déjame decirte de una vez que este es mi libro sobre técnicas de manipulación. No es el tuyo. Por lo tanto, nunca te permitiré sacar el tema del pasado para castigarme, criticarme o demostrarme que tienes la razón. No. Naturalmente, yo tengo perfectamente el derecho de hacerlo para manipularte. La hipocresía y yo nos llevamos muy bien, ¿sabes? Para alguien que repetidamente no puede recordar lo que ha ocurrido hace apenas tal vez unos dos días (véase la sección sobre luz de gas), de repente desarrollo un impresionante poder de memoria (aquí vuelve mi naturaleza contradictoria) para desempolvar el pasado. Si yo soy uno de tus padres, lo haré para que te sientas como un niño pequeño e indefenso otra vez (aunque de hecho estoy proyectando la manera cómo yo me siento). Sacaré a relucir el hecho de que no aprobaste un examen en particular hace veinte años, o hago mención de cómo solías mojar la cama hasta los nueve años de edad. No saco a relucir estos asuntos como un golpecito de codo cariñoso o divertido hacia ti; lo hago para recordarte que yo soy el que tiene el control. Escojo algo que sea visceral para ti, a menudo algo que no está resuelto en ti, de manera que te arrastre a tu infancia y te sientas avergonzada. Tú me detestas por hacerlo, pero te recuerdo de algo que sucedió realmente. No tiene ninguna relevancia mencionar el asunto ahora, pero eso no me importa. Con esta técnica logro manipularte para que te sientas inferior a mí, permitiéndom",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Ruptura de Cadenas y Salida Triunfal a la Luz\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_hg_tudor/tudor_m12_pasado_ira_epilogo.webp\" alt=\"Ruptura de Cadenas y Salida Triunfal a la Luz\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>23. Sacar a relucir el pasado Déjame decirte de una vez que este es mi libro sobre técnicas de manipulación. No es el tuyo. Por lo tanto, nunca te permitiré sacar el tema del pasado para castigarme, criticarme o demostrarme que tienes la razón. No. Naturalmente, yo tengo perfectamente el derecho de hacerlo para manipularte. La hipocresía y yo nos llevamos muy bien, ¿sabes? Para alguien que repetidamente no puede recordar lo que ha ocurrido hace apenas tal vez unos dos días (véase la sección sobre luz de gas), de repente desarrollo un impresionante poder de memoria (aquí vuelve mi naturaleza contradictoria) para desempolvar el pasado. Si yo soy uno de tus padres, lo haré para que te sientas como un niño pequeño e indefenso otra vez (aunque de hecho estoy proyectando la manera cómo yo me siento). Sacaré a relucir el hecho de que no aprobaste un examen en particular hace veinte años, o hago mención de cómo solías mojar la cama hasta los nueve años de edad. No saco a relucir estos asuntos como un golpecito de codo cariñoso o divertido hacia ti; lo hago para recordarte que yo soy el que tiene el control. Escojo algo que sea visceral para ti, a menudo algo que no está resuelto en ti, de manera que te arrastre a tu infancia y te sientas avergonzada. Tú me detestas por hacerlo, pero te recuerdo de algo que sucedió realmente. No tiene ninguna relevancia mencionar el asunto ahora, pero eso no me importa. Con esta técnica logro manipularte para que te sientas inferior a mí, permitiéndom",
           "interactiveChallenge": {
             "question": "¿Cómo reconoce un observador entrenado la prueba social en el contexto de \"Metodos 23 A 25 Pasado Ira Esperanza Y Epilogo\"?",
             "options": [
@@ -3099,6 +3100,630 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "cs1",
+      "category": "Bombardeo De Amor Y Reflejo",
+      "title": "La Tormenta de Atenciones Iniciales",
+      "difficulty": "Media",
+      "badge": "Escudo Reflector",
+      "scenarioDescription": "Una nueva pareja muestra una admiración exagerada, validando todas tus inseguridades y acelerando el compromiso en semanas. Notas que imita tus gustos exactos de manera sospechosa.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Aceptar el afecto efusivamente, asumiendo que es amor verdadero y correspondencia kármica.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Has caído en el bombardeo de amor y el reflejo artificial, creando un vínculo traumático prematuro.",
+          "bookInsight": "El narcisista utiliza la adulación extrema y el espejo psicológico para desarmar tus defensas y engancharte rápidamente."
+        },
+        {
+          "id": "opt2",
+          "text": "Poner límites de ritmo, observar la consistencia a largo plazo y mantener espacios independientes.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Neutralizas la intoxicación dopaminérgica del bombardeo de amor mediante la validación interna y el ritmo pausado.",
+          "bookInsight": "La desaceleración deliberada expone la impaciencia y la máscara del manipulador."
+        }
+      ]
+    },
+    {
+      "id": "cs2",
+      "category": "Culpa E Intimidacion",
+      "title": "El Ataque de Culpabilidad Injustificada",
+      "difficulty": "Media",
+      "badge": "Mente Fría",
+      "scenarioDescription": "Tu pareja te culpa de arruinar un viaje familiar debido a un retraso menor, exigiendo disculpas y haciéndote sentir un monstruo egoísta.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Disculparte profusamente y aceptar toda la responsabilidad para evitar una discusión mayor.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Validas la narrativa distorsionada, reforzando el ciclo donde tú eres el perpetrador y el otro la víctima.",
+          "bookInsight": "La culpa es un arma de control diseñada para mantenerte en deuda emocional permanente."
+        },
+        {
+          "id": "opt2",
+          "text": "Validar el contratiempo sin asumir culpas exageradas, manteniendo la objetividad del evento.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Bloqueas la transferencia de culpa mediante un anclaje firme en la realidad objetiva.",
+          "bookInsight": "Rechazar la falsa responsabilidad debilita el poder intimidatorio del manipulador."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Triangulacion Lugartenientes Y Obsesion",
+      "title": "La Introducción de Terceros en el Conflicto",
+      "difficulty": "Alta",
+      "badge": "Observador Neutro",
+      "scenarioDescription": "Tu pareja menciona repetidamente lo comprensiva y maravillosa que es una compañera de trabajo, comparándote sutilmente con ella.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Entrar en celos competitivos, intentando demostrar que eres superior a la tercera persona.",
+          "outcome": "Fallo",
+          "wisdomScore": 15,
+          "analysis": "Al entrar en el juego de la triangulación, alimentas el ego del narcisista y te colocas en una posición de inferioridad.",
+          "bookInsight": "La triangulación busca generar inseguridad y competencia mediante la introducción deliberada de aliados o rivales."
+        },
+        {
+          "id": "opt2",
+          "text": "Ignorar la provocación y señalar con indiferencia la virtud de la compañera, negándote a competir.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Desactivas la herramienta de triangulación al negarte a otorgar el combustible de los celos.",
+          "bookInsight": "La falta de reacción ante la triangulación frustra el diseño estratégico del manipulador."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Transgresion De Limites Y Gaslighting",
+      "title": "La Negación de los Hechos Evidentes",
+      "difficulty": "Alta",
+      "badge": "Anti-Gaslighting",
+      "scenarioDescription": "Escuchas a tu pareja decir algo hiriente, pero cuando se lo reprochas, niega categóricamente haberlo dicho y te acusa de inventar cosas y estar perdiendo la cabeza.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Dudar de tu propia memoria y disculparte por malinterpretar la situación.",
+          "outcome": "Fallo",
+          "wisdomScore": 10,
+          "analysis": "Permites la erosión de tu percepción de la realidad, cediendo el control cognitivo al manipulador.",
+          "bookInsight": "El gaslighting busca socavar tu salud mental haciendo que dudes sistemáticamente de tus sentidos."
+        },
+        {
+          "id": "opt2",
+          "text": "Mantenerte firme en tu registro de los hechos (idealmente con notas previas) y finalizar la conversación.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Proteges tu integridad cognitiva mediante la validación documental y el distanciamiento.",
+          "bookInsight": "Contraatacar el gaslighting requiere un anclaje inquebrantable en registros objetivos y límites firmes."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Silencio Y Distanciamiento",
+      "title": "El Castigo del Silencio Indefinido",
+      "difficulty": "Media",
+      "badge": "Inmune al Silencio",
+      "scenarioDescription": "Tras un desacuerdo menor, tu pareja te aplica la ley del hielo, ignorando tus mensajes y tratándote como un fantasma en casa durante días.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Suplicar perdón repetidamente y buscar validación desesperada para romper el hielo.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "Premian el castigo con sumisión, enseñando al manipulador que esta táctica siempre funciona.",
+          "bookInsight": "El tratamiento de silencio es un castigo instrumental para forzar la capitulación y la dependencia emocional."
+        },
+        {
+          "id": "opt2",
+          "text": "Disfrutar de tu propia compañía, continuar con tu rutina y no mostrar alteración alguna.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Conviertes el arma del manipulador en una oportunidad de paz, privándole del combustible esperado.",
+          "bookInsight": "La indiferencia ante el silencio desactiva su efectividad como mecanismo de control."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Lastima Y Aislamiento",
+      "title": "La Invocación de Tristeza Crónica",
+      "difficulty": "Media",
+      "badge": "Empatía Estratégica",
+      "scenarioDescription": "Tu pareja relata constantemente su infancia trágica y cómo todos la han traicionado, apelando a tu instinto protector para justificar que dejes de ver a tus amigos.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Alejarte de tus amigos para dedicarte por completo a sanar y cuidar a tu pareja.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Cae en la trampa del aislamiento, facilitando el control total del manipulador sobre tu entorno.",
+          "bookInsight": "El uso de la lástima es un señuelo para desarmar tus defensas y lograr tu aislamiento progresivo."
+        },
+        {
+          "id": "opt2",
+          "text": "Ofrecer apoyo empático limitado pero mantener intactas tus redes de amistad y apoyo externo.",
+          "outcome": "Éxito",
+          "wisdomScore": 92,
+          "analysis": "Mantienes la compasión sin sacrificar tu soberanía social y tu red de seguridad.",
+          "bookInsight": "El aislamiento se previene manteniendo una vida social activa y un juicio independiente."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc1",
+      "bookNumber": 1,
+      "category": "Bombardeo De Amor Y Reflejo",
+      "term": "Bombardeo de Amor (Love Bombing)",
+      "definition": "Exceso masivo de afecto, atención y promesas al inicio de una relación para crear dependencia emocional rápida.",
+      "tacticalUse": "Generar un estado de intoxicación por dopamina que adormece el juicio crítico de la víctima.",
+      "countermeasure": "Establecer pausas temporales, observar la consistencia a largo plazo y mantener la distancia crítica."
+    },
+    {
+      "id": "fc2",
+      "bookNumber": 1,
+      "category": "Bombardeo De Amor Y Reflejo",
+      "term": "Reflejo (Mirroring)",
+      "definition": "Imitación consciente o inconsciente de los gustos, valores y personalidad de la víctima para generar falsa afinidad.",
+      "tacticalUse": "Hacer que la víctima crea que ha encontrado su 'alma gemela' o su reflejo perfecto.",
+      "countermeasure": "Hacer preguntas profundas sobre valores fundamentales y observar discrepancias con el tiempo."
+    },
+    {
+      "id": "fc3",
+      "bookNumber": 1,
+      "category": "Culpa E Intimidacion",
+      "term": "Inducción de Culpa",
+      "definition": "Táctica para hacer que la víctima se sienta responsable de los errores, emociones negativas o frustraciones del manipulador.",
+      "tacticalUse": "Controlar el comportamiento de la víctima mediante la imposición de una deuda moral ficticia.",
+      "countermeasure": "Utilizar la asertividad y separar la responsabilidad propia de la ajena mediante preguntas clarificadoras."
+    },
+    {
+      "id": "fc4",
+      "bookNumber": 1,
+      "category": "Culpa E Intimidacion",
+      "term": "Intimidación",
+      "definition": "Uso de la agresión verbal implícita, miradas, tonos de voz o amenazas veladas para infundir temor y sumisión.",
+      "tacticalUse": "Forzar la obediencia inmediata y evitar que la víctima cuestione la autoridad del manipulador.",
+      "countermeasure": "Mantener la calma, postura firme y verbalizar objetivamente la conducta intimidatoria sin entrar en pánico."
+    },
+    {
+      "id": "fc5",
+      "bookNumber": 1,
+      "category": "Triangulacion Lugartenientes Y Obsesion",
+      "term": "Triangulación",
+      "definition": "Introducción de un tercero (real o imaginario) en la dinámica de pareja para generar celos, inseguridad y competencia.",
+      "tacticalUse": "Desestabilizar emocionalmente a la víctima y elevar el valor percibido del manipulador.",
+      "countermeasure": "Rechazar entrar en competencia, ignorar la comparación y mantener la soberanía emocional."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Triangulacion Lugartenientes Y Obsesion",
+      "term": "Lugartenientes (Lieutenants)",
+      "definition": "Personas del entorno del manipulador utilizadas como peones para difundir rumores, vigilar o validar su narrativa.",
+      "tacticalUse": "Ejercer presión social indirecta sobre la víctima sin ensuciar las manos del manipulador principal.",
+      "countermeasure": "Establecer límites claros con los intermediarios y negarse a participar en chismes o dinámicas de grupo."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "Falsas Promesas Amenaza Y Desgaste",
+      "term": "Falsas Promesas",
+      "definition": "Compromisos futuros de cambio o bonanza que nunca se materializan, utilizados como zanahoria para retener a la víctima.",
+      "tacticalUse": "Mantener la esperanza de la víctima activa mientras continúa el ciclo de abuso.",
+      "countermeasure": "Juzgar al manipulador exclusivamente por sus acciones presentes, ignorando las promesas futuras."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Falsas Promesas Amenaza Y Desgaste",
+      "term": "Desgaste (Wear Down)",
+      "definition": "Exhaustión psicológica y física provocada por conflictos constantes, drama y micro-abusos continuos.",
+      "tacticalUse": "Debilitar la resistencia de la víctima hasta que ceda ante cualquier demanda por pura fatiga.",
+      "countermeasure": "Priorizar el descanso, establecer rutinas de autocuidado y buscar apoyo externo neutral."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Difamacion Y Negacion",
+      "term": "Campaña de Difamación (Smear Campaign)",
+      "definition": "Difusión sistemática de mentiras, medias verdades o distorsiones sobre la víctima para arruinar su reputación.",
+      "tacticalUse": "Aislar a la víctima y asegurar que nadie crea su versión en caso de separación o denuncia.",
+      "countermeasure": "Mantener la dignidad, no entrar en guerras públicas de descalificación y apoyarse en testigos confiables."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Transgresion De Limites Y Gaslighting",
+      "term": "Gaslighting",
+      "definition": "Manipulación psicológica sistemática destinada a hacer que la víctima dude de su propia memoria, percepción y cordura.",
+      "tacticalUse": "Dominar cognitivamente a la víctima haciendo que dependa enteramente de la versión de la realidad del manipulador.",
+      "countermeasure": "Llevar un diario de eventos, registrar conversaciones objetivamente y validar la propia memoria con aliados sanos."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Transgresion De Limites Y Gaslighting",
+      "term": "Transgresión de Límites",
+      "definition": "Violación intencional de los espacios físicos, emocionales o temporales establecidos por la víctima.",
+      "tacticalUse": "Probar el nivel de sumisión y erosionar la autonomía personal paso a paso.",
+      "countermeasure": "Imponer consecuencias inmediatas y firmes ante cada invasión de los límites personales."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Conversaciones Circulares Y Omnipresencia",
+      "term": "Conversaciones Circulares",
+      "definition": "Debates interminables y sin lógica donde el tema cambia constantemente, impidiendo llegar a una conclusión.",
+      "tacticalUse": "Agotar mentalmente a la víctima y evitar que se resuelva cualquier responsabilidad del manipulador.",
+      "countermeasure": "Cortar la conversación mediante la técnica del disco rayado o abandonando el intercambio."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Lastima Y Aislamiento",
+      "term": "Apelación a la Lástima (Pity Play)",
+      "definition": "Uso de historias trágicas o victimismo crónico para despertar compasión y desactivar reclamos legítimos.",
+      "tacticalUse": "Invertir los roles de agresor y víctima, exigiendo cuidado en lugar de rendición de cuentas.",
+      "countermeasure": "Separar la compasión general de la rendición de cuentas por conductas abusivas específicas."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Lastima Y Aislamiento",
+      "term": "Aislamiento",
+      "definition": "Estrategia para cortar gradualmente los lazos de la víctima con amigos, familiares y redes de apoyo.",
+      "tacticalUse": "Eliminar fuentes externas de validación y realidad para asegurar el control absoluto del manipulador.",
+      "countermeasure": "Cultivar y proteger celosamente las relaciones independientes de la pareja."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Pasado Ira Esperanza Y Epilogo",
+      "term": "Ciclo de Ira y Esperanza",
+      "definition": "Alternancia entre explosiones de furia destructiva y periodos de arrepentimiento fingido y esperanza.",
+      "tacticalUse": "Crear un vínculo traumático (trauma bonding) adictivo basado en la imprevisibilidad.",
+      "countermeasure": "Reconocer el patrón cíclico y salir del sistema antes de la siguiente fase de explosión."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Bombardeo De Amor Y Reflejo",
+      "name": "Espejo Narcisista",
+      "severity": "Alta",
+      "icon": "fa-brain",
+      "howItWorks": "El manipulador analiza tus pasiones y debilidades para replicarlas artificialmente, creando una ilusión de conexión mística.",
+      "redFlags": [
+        "Coincidencia milagrosa en absolutamente todos los gustos y opiniones.",
+        "Acelerar los planes de vida y convivencia en semanas.",
+        "Adulación desmedida que contradice el tiempo real de conocerse."
+      ],
+      "counterScript": "Valoro tu entusiasmo, pero prefiero que vayamos con calma y nos conozcamos paso a paso.",
+      "deepMechanism": "Explota el sesgo de confirmación y la necesidad humana básica de pertenencia y validación profunda."
+    },
+    {
+      "id": "t2",
+      "category": "Transgresion De Limites Y Gaslighting",
+      "name": "Inversión de Realidad (Gaslighting)",
+      "severity": "Crítica",
+      "icon": "fa-eye",
+      "howItWorks": "Niega hechos probados y reescribe la narrativa para hacer que la víctima dude de su propia cordura y memoria.",
+      "redFlags": [
+        "Afirmar categóricamente que algo que presenciaste nunca ocurrió.",
+        "Acusarte de tener problemas de memoria o imaginación fértil.",
+        "Cambiar las reglas de un acuerdo sobre la marcha negando lo pactado."
+      ],
+      "counterScript": "Tengo claro lo que sucedió y lo registré con precisión. No voy a discutir sobre si mi memoria es válida.",
+      "deepMechanism": "Socava el sistema de anclaje cognitivo de la víctima, generando dependencia absoluta del criterio del abusador."
+    },
+    {
+      "id": "t3",
+      "category": "Triangulacion Lugartenientes Y Obsesion",
+      "name": "Triangulación Social",
+      "severity": "Alta",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Introduce terceras personas para generar rivalidad, celos y validar su sentido de superioridad.",
+      "redFlags": [
+        "Comentarios frecuentes sobre lo atento o atractivo que es un colega o conocido.",
+        "Comparaciones sutiles que te dejan en desventaja.",
+        "Uso de amigos o familiares para transmitir mensajes indirectos."
+      ],
+      "counterScript": "Me parece genial que esa persona te parezca interesante. No tengo ningún inconveniente al respecto.",
+      "deepMechanism": "Activa el miedo ancestral al rechazo de la tribu y la competencia por los recursos de atención y afecto."
+    },
+    {
+      "id": "t4",
+      "category": "Silencio Y Distanciamiento",
+      "name": "Aislamiento por Silencio",
+      "severity": "Media",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Utiliza la retirada afectiva y el silencio prolongado como castigo para forzar la sumisión sin utilizar la violencia física.",
+      "redFlags": [
+        "Ignorar preguntas directas y llamadas durante días sin causa justificada.",
+        "Tratarte como a un desconocido en el mismo espacio físico.",
+        "Condicionar el fin del silencio a una disculpa incondicional."
+      ],
+      "counterScript": "Veo que necesitas espacio. Cuando estés listo para hablar de forma constructiva, aquí estaré; mientras tanto, seguiré con mis actividades.",
+      "deepMechanism": "Dispara el dolor social en el cerebro (corteza cingulada anterior) similar al dolor físico, provocando desesperación por reconectar."
+    },
+    {
+      "id": "t5",
+      "category": "Conversaciones Circulares Y Omnipresencia",
+      "name": "Laberinto Circular",
+      "severity": "Media",
+      "icon": "fa-skull",
+      "howItWorks": "Desvía los argumentos mediante falacias lógicas, cambiando de tema constantemente para desgastar cognitivamente a la víctima.",
+      "redFlags": [
+        "Nunca llegar a una conclusión tras horas de discusión.",
+        "Acusarte de cosas pasadas cada vez que intentas señalar un error actual.",
+        "Sentirte mentalmente exhausto y confundido al terminar de hablar."
+      ],
+      "counterScript": "Nos estamos desviando del punto central. Si no vamos a abordar el tema específico, prefiero terminar esta conversación.",
+      "deepMechanism": "Sobrecarga la memoria de trabajo y la capacidad de procesamiento lógico de la víctima, induciendo parálisis analítica."
+    },
+    {
+      "id": "t6",
+      "category": "Lastima Y Aislamiento",
+      "name": "Arma de Lástima",
+      "severity": "Alta",
+      "icon": "fa-brain",
+      "howItWorks": "Exagera desgracias pasadas o inventa vulnerabilidades para desarmar los límites de la víctima mediante la compasión.",
+      "redFlags": [
+        "Historias donde siempre es la víctima inocente de todo el mundo.",
+        "Uso frecuente de su fragilidad emocional para evitar que le reclames errores.",
+        "Demanda de atención desproporcionada basada en su sufrimiento crónico."
+      ],
+      "counterScript": "Lamento lo que viviste en el pasado, pero eso no justifica la falta de respeto en nuestra interacción actual.",
+      "deepMechanism": "Manipula el instinto empático humano para inhibir la agresión defensiva y bloquear el juicio crítico."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "¿Cuál es el propósito principal del 'bombardeo de amor' al inicio de una relación narcisista?",
+      "options": [
+        "Demostrar un amor sincero y maduro",
+        "Crear una intoxicación rápida por dopamina y desarmar el juicio crítico de la víctima",
+        "Acelerar los trámites de convivencia por razones económicas",
+        "Evaluar la compatibilidad intelectual a largo plazo"
+      ],
+      "correctIndex": 1,
+      "explanation": "El bombardeo de amor satura los receptores de dopamina, cegando a la víctima ante señales de alerta tempranas y generando un vínculo de dependencia artificial."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "¿Cómo opera la técnica del 'reflejo' (mirroring) en la mente del objetivo?",
+      "options": [
+        "Obliga a la víctima a mirarse al espejo para mejorar su autoestima",
+        "Imita los gustos y valores de la víctima para crear una falsa ilusión de alma gemela",
+        "Refleja los defectos de la víctima para que se corrija",
+        "Evita que el manipulador muestre su verdadera identidad física"
+      ],
+      "correctIndex": 1,
+      "explanation": "El reflejo simula los intereses y la personalidad de la víctima para que esta sienta que ha encontrado a alguien idéntico a ella, acelerando la confianza."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "¿Qué busca un manipulador al aplicar la 'triangulación' con terceros?",
+      "options": [
+        "Mejorar la vida social de la pareja",
+        "Generar celos, inseguridad y competencia para elevar su propio valor percibido",
+        "Ayudar a la víctima a resolver conflictos familiares",
+        "Distribuir las tareas domésticas equitativamente"
+      ],
+      "correctIndex": 1,
+      "explanation": "La triangulación desestabiliza a la víctima al introducir competidores reales o imaginarios, asegurando que su atención y validación sigan enfocadas en el manipulador."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "¿Cuál es la característica principal de las 'conversaciones circulares'?",
+      "options": [
+        "Se realizan en forma de círculos para mayor comodidad",
+        "Llegan a conclusiones científicas avanzadas",
+        "Son debates interminables llenos de desvíos lógicos diseñados para desgastar mentalmente a la víctima",
+        "Buscan la reconciliación rápida y efectiva"
+      ],
+      "correctIndex": 2,
+      "explanation": "Las conversaciones circulares atrapan a la víctima en un laberinto de argumentos cambiantes hasta agotarla cognitivamente, impidiendo que se exija responsabilidad."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "¿Qué función táctica cumple el 'gaslighting' en la dinámica de manipulación?",
+      "options": [
+        "Ahorrar energía eléctrica en el hogar",
+        "Hacer dudar a la víctima de su memoria y cordura para subordinar su realidad a la del abusador",
+        "Fomentar la creatividad artística",
+        "Mejorar la comunicación no verbal"
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting erosiona la confianza de la víctima en sus propios sentidos y juicio, volviéndola dependiente de la versión del manipulador."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "¿Por qué el manipulador utiliza el 'tratamiento de silencio'?",
+      "options": [
+        "Porque necesita meditar en silencio",
+        "Como castigo instrumental para forzar la capitulación y la búsqueda desesperada de aprobación",
+        "Para ahorrar recursos vocales",
+        "Porque respeta el espacio personal de la víctima"
+      ],
+      "correctIndex": 1,
+      "explanation": "El silencio es un arma punitiva que explota el miedo al rechazo social, obligando a la víctima a ceder para restaurar el contacto."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Bombardeo de Amor",
+      "category": "Bombardeo De Amor Y Reflejo",
+      "definition": "Exceso desmedido de afecto y atención inicial para enganchar emocionalmente a la víctima.",
+      "practicalExample": "Regalar joyas caras y decir 'eres el amor de mi vida' tras conocerse hace tres días."
+    },
+    {
+      "id": "g2",
+      "term": "Reflejo Psicológico",
+      "category": "Bombardeo De Amor Y Reflejo",
+      "definition": "Copia artificial de los rasgos y gustos de la víctima para generar afinidad instantánea.",
+      "practicalExample": "Afirmar que te encantan los mismos libros y pasatiempos oscuros que acabas de mencionar."
+    },
+    {
+      "id": "g3",
+      "term": "Inducción de Culpa",
+      "category": "Culpa E Intimidacion",
+      "definition": "Estrategia para hacer que la víctima asuma responsabilidades ajenas mediante chantaje moral.",
+      "practicalExample": "Decir: 'Si realmente me quisieras, no trabajarías tanto este fin de semana'."
+    },
+    {
+      "id": "g4",
+      "term": "Intimidación Velada",
+      "category": "Culpa E Intimidacion",
+      "definition": "Amenazas implícitas o lenguaje corporal agresivo para inducir miedo y sumisión.",
+      "practicalExample": "Mirar fijamente sin hablar y golpear los dedos contra la mesa al recibir una objeción."
+    },
+    {
+      "id": "g5",
+      "term": "Triangulación",
+      "category": "Triangulacion Lugartenientes Y Obsesion",
+      "definition": "Inclusión de un tercero para generar inseguridad y celos competitivos.",
+      "practicalExample": "Mencionar repetidamente cuánto valora la opinión de su ex pareja sobre asuntos actuales."
+    },
+    {
+      "id": "g6",
+      "term": "Lugartenientes",
+      "category": "Triangulacion Lugartenientes Y Obsesion",
+      "definition": "Aliados o peones utilizados por el manipulador para vigilar o influir en la víctima.",
+      "practicalExample": "Un amigo común que te llama para decirte lo mal que la está pasando el manipulador por tu culpa."
+    },
+    {
+      "id": "g7",
+      "term": "Falsas Promesas",
+      "category": "Falsas Promesas Amenaza Y Desgaste",
+      "definition": "Compromisos de cambio futuros utilizados para retener a la víctima en el ciclo de abuso.",
+      "practicalExample": "Prometer que la próxima semana irán a terapia de pareja, sin intención de hacerlo."
+    },
+    {
+      "id": "g8",
+      "term": "Desgaste",
+      "category": "Falsas Promesas Amenaza Y Desgaste",
+      "definition": "Fatiga mental y física provocada por conflictos continuos y micro-abusos.",
+      "practicalExample": "Sentirse agotado y sin voluntad después de discutir toda la noche sobre un tema trivial."
+    },
+    {
+      "id": "g9",
+      "term": "Campaña de Difamación",
+      "category": "Difamacion Y Negacion",
+      "definition": "Difusión de falsedades para destruir la reputación y credibilidad de la víctima.",
+      "practicalExample": "Contar a los compañeros de trabajo que tienes problemas de estabilidad mental."
+    },
+    {
+      "id": "g10",
+      "term": "Gaslighting",
+      "category": "Transgresion De Limites Y Gaslighting",
+      "definition": "Manipulación sistemática para hacer dudar a la víctima de su propia memoria y percepción.",
+      "practicalExample": "Negar haber escondido las llaves del auto y acusarte de volverte olvidadizo."
+    },
+    {
+      "id": "g11",
+      "term": "Transgresión de Límites",
+      "category": "Transgresion De Limites Y Gaslighting",
+      "definition": "Violación intencional de los espacios o normas personales establecidas por la víctima.",
+      "practicalExample": "Revisar el teléfono celular sin permiso tras haber acordado respetar la privacidad."
+    },
+    {
+      "id": "g12",
+      "term": "Conversaciones Circulares",
+      "category": "Conversaciones Circulares Y Omnipresencia",
+      "definition": "Discusiones interminables y sin lógica que desvían el tema central para desgastar a la víctima.",
+      "practicalExample": "Terminar discutiendo sobre un error que cometiste hace cinco años al intentar reclamar un retraso actual."
+    },
+    {
+      "id": "g13",
+      "term": "Apelación a la Lástima",
+      "category": "Lastima Y Aislamiento",
+      "definition": "Uso de vulnerabilidades fingidas o exageradas para desactivar reclamos legítimos.",
+      "practicalExample": "Comenzar a llorar y hablar de su infancia difícil cuando le señalas una infidelidad."
+    },
+    {
+      "id": "g14",
+      "term": "Aislamiento",
+      "category": "Lastima Y Aislamiento",
+      "definition": "Corte gradual de las redes de apoyo social y familiar de la víctima.",
+      "practicalExample": "Criticar constantemente a tus amigos hasta que dejas de frecuentarlos por incomodidad."
+    },
+    {
+      "id": "g15",
+      "term": "Ciclo de Ira y Esperanza",
+      "category": "Pasado Ira Esperanza Y Epilogo",
+      "definition": "Alternancia adictiva entre estallidos de furia y periodos de reconciliación idealizada.",
+      "practicalExample": "Gritos violentos seguidos al día siguiente por flores, disculpas y promesas eternas."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "DETECCIÓN",
+      "title": "La Sonrisa Congelada",
+      "cue": "Sonrisa en la que la boca se estira de manera mecánica mientras los ojos permanecen fríos, in expresivos o tensos.",
+      "interpretation": "Indica una falta de empatía genuina y que la expresión emocional está siendo simulada para cumplir un propósito estratégico.",
+      "practicalDrill": "Observa el área orbicular de los ojos (patas de gallo) al momento de una sonrisa para verificar si hay genuinidad o simulación."
+    },
+    {
+      "id": "bl2",
+      "category": "CALIBRACIÓN",
+      "title": "Invasión de Espacio Proxémico",
+      "cue": "Acercarse excesivamente al interlocutor invadiendo su distancia personal sin señales de complicidad previa.",
+      "interpretation": "Táctica de intimidación no verbal diseñada para probar el nivel de sumisión y desestabilizar los límites físicos de la víctima.",
+      "practicalDrill": "Practica dar un paso atrás de manera natural para restablecer tu espacio personal sin mostrar temor ni agresividad."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Micro-expresiones de Desprecio",
+      "cue": "Elevación unilateral de un rincón de los labios durante una fracción de segundo mientras se habla o se escucha.",
+      "interpretation": "Señal universal de desprecio y sensación de superioridad oculta hacia la persona que está enfrente.",
+      "practicalDrill": "Entrena tu atención periférica para detectar asimetrías faciales fugaces durante conversaciones tensas."
+    },
+    {
+      "id": "bl4",
+      "category": "DETECCIÓN",
+      "title": "Postura de Bloqueo y Torso Rígido",
+      "cue": "Brazos cruzados firmemente con hombros encogidos y torso girado en ángulo opuesto al interlocutor durante una supuesta reconciliación.",
+      "interpretation": "Rechazo interno subconsciente que contradice las palabras amables que se estén pronunciando en ese momento.",
+      "practicalDrill": "Compara la congruencia entre el mensaje verbal de afecto y la postura corporal de cierre defensivo."
+    },
+    {
+      "id": "bl5",
+      "category": "CALIBRACIÓN",
+      "title": "Mirada de Barrido Evaluativo",
+      "cue": "Examinar de arriba a abajo el cuerpo de la persona con una expresión inexpresiva o evaluativa.",
+      "interpretation": "Intento consciente o inconsciente de objetivar al interlocutor y establecer una jerarquía de poder y juicio.",
+      "practicalDrill": "Mantén contacto visual firme y neutro sin mostrar incomodidad ni bajar la mirada ante el escaneo."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "Anclaje de Calma Postural",
+      "cue": "Mantener respiración diafragmática lenta, hombros relajados y manos abiertas ante un ataque verbal o intimidación.",
+      "interpretation": "Bloquea el contagio emocional del estrés y proyecta un escudo de autogobierno que frustra al manipulador.",
+      "practicalDrill": "Realiza ciclos de respiración 4x4 mientras mantienes las manos visibles y relajadas ante situaciones de alta presión."
     }
   ]
 };

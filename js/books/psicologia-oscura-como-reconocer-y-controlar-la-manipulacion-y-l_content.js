@@ -1,3 +1,4 @@
+// Contenido enriquecido para Psicología Oscura: Guía de Defensa ante la Manipulación
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -11912,6 +11913,630 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "cs1",
+      "category": "Psicología Oscura",
+      "title": "Aislamiento sutil en el entorno laboral",
+      "difficulty": "Alta",
+      "badge": "Escudo Antimanipulación",
+      "scenarioDescription": "Un compañero de trabajo comienza a elogiarte excesivamente frente a los jefes, pero en privado te siembra dudas sobre tus capacidades y critica a tus demás colegas, sugiriendo que solo él te entiende y te apoya de verdad.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Aceptar su apoyo incondicional y distanciarte del resto del equipo como él sugiere.",
+          "outcome": "Fallo",
+          "wisdomScore": 15,
+          "analysis": "Has caído en la táctica clásica de aislamiento y triangulación. El manipulador busca romper tus redes de apoyo para volverte completamente dependiente de su criterio.",
+          "bookInsight": "El aislamiento es el pilar fundamental de la psicología oscura para doblegar la autonomía del individuo."
+        },
+        {
+          "id": "opt2",
+          "text": "Establecer límites claros, mantener relaciones abiertas con todo el equipo y documentar tus interacciones laborales.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Excelente respuesta táctica. Al mantener la objetividad y diversificar tus fuentes de validación social, neutralizas el intento de monopolizar tu realidad.",
+          "bookInsight": "La realidad compartida y la verificación externa destruyen las distorsiones impuestas por el engaño sistemático."
+        }
+      ]
+    },
+    {
+      "id": "cs2",
+      "category": "Engaño y Detección",
+      "title": "La cortina de humo emocional",
+      "difficulty": "Media",
+      "badge": "Detector de Ilusiones",
+      "scenarioDescription": "Durante una negociación importante, la contraparte cambia repentinamente de tema y muestra una indignación exagerada por un detalle menor, desviando la atención del punto central del contrato donde salías beneficiado.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Disculparme por el detalle menor e intentar calmar la ira de la otra parte cediendo en el punto central.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "Cediste ante una maniobra de distracción emocional. El estallido era una puesta en escena para manipular tu empatía y sentido de justicia.",
+          "bookInsight": "El engaño utiliza la sobrecarga emocional para impedir el procesamiento lógico y analítico de la situación."
+        },
+        {
+          "id": "opt2",
+          "text": "Reconocer la emoción pero reconducir la conversación con calma y firmeza hacia el punto central del contrato.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Has desarmado la manipulación emocional manteniendo el foco en los datos duros y los objetivos reales de la negociación.",
+          "bookInsight": "La conciencia del momento presente y la separación entre emoción y lógica anulan el control mental no detectado."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Persuasión Oscura",
+      "title": "La trampa de la reciprocidad forzada",
+      "difficulty": "Media",
+      "badge": "Vigilante Cognitivo",
+      "scenarioDescription": "Un conocido te hace un favor no solicitado que te genera incomodidad, y de inmediato te exige un compromiso mayor bajo el argumento de que 'entre amigos se ayudan sin dudar'.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Aceptar hacer lo que pide para evitar sentir la culpa de parecer un malagradecido.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Caíste en la reciprocidad manipuladora. El favor inicial no fue un acto genuino, sino una inversión calculada para extraer una deuda psicológica.",
+          "bookInsight": "La persuasión oscura instrumentaliza normas sociales básicas como la reciprocidad para anular tu capacidad de decisión."
+        },
+        {
+          "id": "opt2",
+          "text": "Devolver el valor equivalente del favor inicial de forma monetaria o neutral, declinando el compromiso mayor.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Neutralizaste la trampa saldando la deuda en sus términos justos, liberándote de la obligación emocional impuesta.",
+          "bookInsight": "Identificar y acotar los intercambios impide que la influencia psicológica se convierta en control conductual."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Control Mental y Trance",
+      "title": "El discurso de urgencia artificial",
+      "difficulty": "Alta",
+      "badge": "Maestro del Anclaje",
+      "scenarioDescription": "Un supuesto experto en desarrollo personal te presiona en un seminario para tomar una decisión financiera en los próximos 10 minutos, afirmando que la oportunidad única desaparecerá y que dudar es muestra de debilidad.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Tomar la decisión apresuradamente por miedo a perder la supuesta oportunidad irrepetible.",
+          "outcome": "Fallo",
+          "wisdomScore": 10,
+          "analysis": "Fuiste víctima de técnicas de inducción de trance ligero y presión temporal, diseñadas para apagar el pensamiento crítico.",
+          "bookInsight": "La urgencia artificial es un disparador hipnótico que fuerza respuestas automáticas basadas en el miedo a la escasez."
+        },
+        {
+          "id": "opt2",
+          "text": "Abandonar el espacio de presión temporal y exigir tiempo para analizar la propuesta con calma.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Rompiste el ritmo del manipulador. El tiempo es el mayor enemigo de las técnicas de control mental basadas en la urgencia.",
+          "bookInsight": "Romper el ciclo temporal restablece el control consciente y la soberanía sobre tus decisiones."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Lavado de Cerebro y Defensa",
+      "title": "La deconstrucción de la identidad",
+      "difficulty": "Alta",
+      "badge": "Centinela del Ser",
+      "scenarioDescription": "Un grupo u organización a la que te has unido recientemente comienza a cuestionar sistemáticamente tus gustos, tus amistades pasadas y tus logros previos, tildándolos de 'contaminados' por el sistema.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Renunciar a mis gustos y amistades anteriores para demostrar lealtad y encajar en el grupo.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Estás permitiendo la demolición sistemática de tu identidad, primer paso fundamental en los procesos de lavado de cerebro.",
+          "bookInsight": "El lavado de cerebro requiere la destrucción previa de los puntos de referencia del ego para reconstruir una nueva obediencia."
+        },
+        {
+          "id": "opt2",
+          "text": "Reafirmar mis valores individuales, mantener contacto con mi entorno externo y cuestionar las premisas del grupo.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Tu resistencia preserva tu individualidad. La conexión con tu pasado y tus valores propios es la mejor barrera contra el adoctrinamiento.",
+          "bookInsight": "La conciencia de sí mismo y la preservación de la memoria personal son antídotos infalibles contra la manipulación colectiva."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Influencia Conductual",
+      "title": "El refuerzo intermitente en una relación",
+      "difficulty": "Media",
+      "badge": "Analista Conductual",
+      "scenarioDescription": "Tu pareja alterna momentos de afecto desbordante con periodos inexplicables de indiferencia y frialdad, lo que te mantiene ansioso buscando constantemente su aprobación.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Esforzarme el doble y complacerle en todo para evitar que vuelva a mostrarme esa fría indiferencia.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Has quedado atrapado en la trampa del refuerzo intermitente, generando un ciclo de dependencia química y emocional similar al juego de azar.",
+          "bookInsight": "El refuerzo intermitente es la técnica más potente para condicionar conductas adictivas en las relaciones humanas."
+        },
+        {
+          "id": "opt2",
+          "text": "Identificar el patrón adictivo, comunicar la insostenibilidad de la dinámica y evaluar la salida de la relación.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Al reconocer el condicionamiento conductual, recuperas tu valor propio y neutralizas la trampa del enganche emocional.",
+          "bookInsight": "Comprender los resortes del comportamiento humano permite desarticular los lazos invisibles de la dependencia."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc1",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Psicología Oscura",
+      "definition": "Estudio y aplicación de tácticas de manipulación, engaño y coerción que violan la autonomía psicológica del individuo.",
+      "tacticalUse": "Identificar intenciones ocultas en negociaciones y relaciones interpersonales complejas.",
+      "countermeasure": "Desarrollar autoconciencia crítica y establecer límites inquebrantables."
+    },
+    {
+      "id": "fc2",
+      "bookNumber": 1,
+      "category": "Engaño",
+      "term": "Triangulación",
+      "definition": "Táctica donde un manipulador introduce a un tercero para generar celos, inseguridad o validar sus propias mentiras.",
+      "tacticalUse": "Dividir grupos o crear dependencia emocional en dinámicas de pareja o laborales.",
+      "countermeasure": "Comunicación directa entre las partes involucradas sin permitir intermediarios manipuladores."
+    },
+    {
+      "id": "fc3",
+      "bookNumber": 1,
+      "category": "Persuasión Oscura",
+      "term": "Reciprocidad Forzada",
+      "definition": "Imposición de un favor no solicitado para generar una deuda psicológica y obligar a una concesión posterior.",
+      "tacticalUse": "Asegurar ventas, favores o lealtades mediante la culpa y la norma social de reciprocidad.",
+      "countermeasure": "Rechazar favores no solicitados o devolver su valor exacto de inmediato para neutralizar la deuda."
+    },
+    {
+      "id": "fc4",
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Inducción de Trance Cotidiano",
+      "definition": "Uso de monotonía, sobrecarga de información o fatiga para llevar a la mente a un estado de alta suggestibilidad.",
+      "tacticalUse": "Facilitar la aceptación de ideas o compras impulsivas sin resistencia lógica.",
+      "countermeasure": "Pausar, cambiar el ritmo de la interacción y exigir claridad antes de decidir."
+    },
+    {
+      "id": "fc5",
+      "bookNumber": 1,
+      "category": "Control Mental",
+      "term": "Aislamiento Psicológico",
+      "definition": "Separación paulatina de la víctima de sus redes de apoyo y fuentes alternativas de validación de la realidad.",
+      "tacticalUse": "Aumentar el control total sobre la percepción y decisiones de la persona objetivo.",
+      "countermeasure": "Mantener vínculos diversos y cultiva la independencia social y emocional."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Lavado de Cerebro",
+      "term": "Deconstrucción de Identidad",
+      "definition": "Ataque sistemático a los valores, historia y creencias previas de una persona para vaciar su autoconcepto.",
+      "tacticalUse": "Facilitar la asimilación de un nuevo sistema de creencias dogmático o tóxico.",
+      "countermeasure": "Anclaje firme en la biografía personal, valores propios y memoria histórica."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "Comportamiento Humano",
+      "term": "Refuerzo Intermitente",
+      "definition": "Entrega impredecible de premios o afecto que genera una respuesta adictiva y de búsqueda constante.",
+      "tacticalUse": "Mantener a una persona enganchada emocionalmente a una relación o entorno abusivo.",
+      "countermeasure": "Reconocer el ciclo de recompensa variable y aplicar la extinción de la conducta."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Realidad y Conciencia",
+      "term": "Gaslighting",
+      "definition": "Manipulación sistemática para hacer dudar a la víctima de su propia memoria, percepción y cordura.",
+      "tacticalUse": "Invalidar reclamos legítimos y someter el criterio de la víctima al del manipulador.",
+      "countermeasure": "Llevar registros escritos, diarios o buscar validación en hechos objetivos comprobables."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Anclaje Emocional",
+      "definition": "Asociación de un estímulo neutro a una respuesta emocional intensa para activarla a voluntad.",
+      "tacticalUse": "Controlar el estado de ánimo de la contraparte mediante palabras o gestos específicos.",
+      "countermeasure": "Identificar el estímulo gatillo y desasociarlo conscientemente mediante análisis racional."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Manipulación Emocional",
+      "term": "Chantaje Emocional",
+      "definition": "Amenaza directa o sutil de retirar afecto o generar daño si no se cumplen los deseos del manipulador.",
+      "tacticalUse": "Doblegar la voluntad ajena utilizando el miedo, la obligación y la culpa (FOG).",
+      "countermeasure": "Establecer límites asertivos y desvincular la propia valía de la aprobación ajena."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Defensa Psicológica",
+      "term": "Asertividad Defensiva",
+      "definition": "Capacidad de comunicar límites y rechazar imposiciones sin caer en la agresividad ni en la sumisión.",
+      "tacticalUse": "Neutralizar intentos de manipulación verbal en el acto.",
+      "countermeasure": "Técnica del disco rayado y validación parcial para mantener la postura."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Influencia Social",
+      "term": "Prueba Social Oscura",
+      "definition": "Fabricación artificial de un consenso mayoritario para forzar la conformidad del individuo.",
+      "tacticalUse": "Inducir a masas o individuos a adoptar conductas dudosas bajo la premisa de que 'todos lo hacen'.",
+      "countermeasure": "Cuestionar la fuente de la información y evaluar los méritos propios del argumento."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Engaño Avanzado",
+      "term": "Cortina de Humo",
+      "definition": "Desvío deliberado de la atención hacia un tema secundario o escandaloso para ocultar una acción principal.",
+      "tacticalUse": "Evitar la rendición de cuentas sobre errores o negociaciones desfavorables.",
+      "countermeasure": "Ignorar la provocación secundaria y reenfocar la discusión en el núcleo original."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Control Mental",
+      "term": "Urgencia Artificial",
+      "definition": "Creación de una falsa escasez de tiempo para impedir el análisis lógico y forzar una decisión impulsiva.",
+      "tacticalUse": "Acelerar procesos de decisión en ventas agresivas o estafas.",
+      "countermeasure": "Establecer como regla personal nunca tomar decisiones importantes bajo presión temporal."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Soberanía Cognitiva",
+      "definition": "Derecho y capacidad inviolable de un individuo para gobernar sus propios pensamientos, creencias y voluntad.",
+      "tacticalUse": "Meta final de cualquier entrenamiento de defensa ante la manipulación oscura.",
+      "countermeasure": "Autoevaluación constante, pensamiento crítico y defensa activa de los límites mentales."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación Mental",
+      "name": "Gaslighting Sistemático",
+      "severity": "Crítica",
+      "icon": "fa-brain",
+      "howItWorks": "Distorce la realidad de la víctima mediante la negación reiterada de hechos, eventos y declaraciones pasadas, erosionando su confianza en su propia memoria.",
+      "redFlags": [
+        "Te dice 'tú nunca dijiste eso' o 'estás imaginando cosas'.",
+        "Modifica objetos o situaciones para hacerte dudar de tu juicio.",
+        "Te sientes constantemente confundido y pides disculpas por todo."
+      ],
+      "counterScript": "Mi memoria sobre este evento es clara y registrada. No aceptaré una versión que altere la realidad de los hechos.",
+      "deepMechanism": "Aprovecha la dependencia natural del cerebro humano en la validación social y la memoria compartida para reescribir el marco perceptivo."
+    },
+    {
+      "id": "t2",
+      "category": "Coerción Social",
+      "name": "Triangulación Relacional",
+      "severity": "Alta",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Introduce terceras personas reales o imaginarias para generar rivalidad, celos y validar de forma unilateral la postura del manipulador.",
+      "redFlags": [
+        "Compara tus actitudes con las de otros de forma despectiva.",
+        "Menciona que 'todos opinan lo mismo de ti' sin dar nombres.",
+        "Genera competencia innecesaria por su atención o aprobación."
+      ],
+      "counterScript": "Si tienes un problema conmigo, háblalo directamente. No necesito la opinión de terceros para entender esta situación.",
+      "deepMechanism": "Explota el miedo ancestral al rechazo de la tribu y la necesidad de competir por recursos limitados (atención o estatus)."
+    },
+    {
+      "id": "t3",
+      "category": "Condicionamiento",
+      "name": "Refuerzo Intermitente",
+      "severity": "Alta",
+      "icon": "fa-skull",
+      "howItWorks": "Alterna períodos de calidez extrema con castigos de indiferencia fría, creando un ciclo de adicción psicológica idéntico al de las máquinas tragamonedas.",
+      "redFlags": [
+        "Pasas de la euforia por su trato a la ansiedad por su distanciamiento repentino.",
+        "Justificas el maltrato actual esperando que vuelva la versión cariñosa.",
+        "Sientes que debes esforzarte el doble para mantener su afecto."
+      ],
+      "counterScript": "No aceptaré un trato inconsistente. La estabilidad y el respeto son requisitos básicos en cualquier relación.",
+      "deepMechanism": "La imprevisibilidad de la recompensa dispara los niveles de dopamina y mantiene el foco mental obsesivo en el agente manipulador."
+    },
+    {
+      "id": "t4",
+      "category": "Persuasión Coercitiva",
+      "name": "Reciprocidad Forzada",
+      "severity": "Media",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Ofrece favores o regalos no solicitados para activar el imperativo biológico de reciprocidad, exigiendo posteriormente compromisos desproporcionados.",
+      "redFlags": [
+        "Insiste en hacerte favores a pesar de que le dices que no es necesario.",
+        "Te recuerda constantemente lo que ha hecho por ti cuando necesita algo.",
+        "Te hace sentir culpable por no ceder ante sus peticiones."
+      ],
+      "counterScript": "Agradezco el gesto, pero prefiero no aceptarlo para evitar compromisos que no puedo asumir.",
+      "deepMechanism": "Activa normas culturales y evolutivas de reciprocidad grupal que imponen una carga de deuda psicológica automática."
+    },
+    {
+      "id": "t5",
+      "category": "Inducción de Trance",
+      "name": "Urgencia Artificial y Presión Temporal",
+      "severity": "Alta",
+      "icon": "fa-eye",
+      "howItWorks": "Fuerza decisiones inmediatas bajo la premisa de escasez extrema, impidiendo el procesamiento lógico en la corteza prefrontal.",
+      "redFlags": [
+        "Afirma que la oportunidad expira en cuestión de minutos u horas.",
+        "Descalifica tus dudas tachándolas de indecisión o debilidad.",
+        "Te abruma con datos complejos y rápidos para que aceptes sin pensar."
+      ],
+      "counterScript": "Si una decisión es buena hoy, lo será también mañana. No tomaré ninguna resolución bajo presión de tiempo.",
+      "deepMechanism": "Activa la respuesta de supervivencia de huida o lucha ante la escasez, apagando el pensamiento crítico y analítico."
+    },
+    {
+      "id": "t6",
+      "category": "Control Mental",
+      "name": "Aislamiento y Destrucción de Redes",
+      "severity": "Crítica",
+      "icon": "fa-brain",
+      "howItWorks": "Critica sistemáticamente a los amigos, familiares y entorno de la víctima para desacreditarlos y volverla dependiente exclusivo del manipulador.",
+      "redFlags": [
+        "Sugiere que tus amigos no te aprecian de verdad o te envidian.",
+        "Se molesta cuando dedicas tiempo a otras personas o actividades.",
+        "Busca ser tu única fuente de consejo y validación emocional."
+      ],
+      "counterScript": "Mis relaciones personales son valiosas y enriquecedoras. No permitiré que se cuestione a mi entorno sin fundamento.",
+      "deepMechanism": "Elimina los puntos de referencia externos y la realidad compartida, facilitando el control total sobre el marco mental del individuo."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal de la táctica conocida como 'Gaslighting' según los fundamentos de la psicología oscura?",
+      "options": [
+        "Aumentar la autoestima de la víctima a través de elogios constantes.",
+        "Hacer dudar a la víctima de su propia memoria, percepción y cordura.",
+        "Fomentar la independencia financiera y social del individuo.",
+        "Establecer una negociación justa y transparente entre dos partes."
+      ],
+      "correctIndex": 1,
+      "explanation": "El Gaslighting busca socavar los cimientos cognitivos de la persona, logrando que dependa enteramente del criterio del manipulador para definir la realidad."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "¿Por qué el 'refuerzo intermitente' es considerado una de las técnicas más potentes de control conductual?",
+      "options": [
+        "Porque ofrece recompensas constantes y predecibles que generan confianza.",
+        "Porque al eliminar todo premio, la persona se vuelve autosuficiente.",
+        "Porque la imprevisibilidad de la recompensa genera una respuesta adictiva y de búsqueda obsesiva similar al juego de azar.",
+        "Porque fomenta la comunicación abierta y directa en las parejas."
+      ],
+      "correctIndex": 2,
+      "explanation": "El refuerzo intermitente mantiene el cerebro en un estado de expectativa ansiosa, elevando la dopamina y enganchando profundamente a la víctima al ciclo de abuso."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "¿Qué mecanismo psicológico explota la táctica de 'reciprocidad forzada'?",
+      "options": [
+        "El miedo a la confrontación física directa.",
+        "La norma social y evolutiva que nos obliga a devolver los favores recibidos.",
+        "La necesidad de aislamiento social para meditar.",
+        "El deseo de adquirir conocimientos técnicos avanzados."
+      ],
+      "correctIndex": 1,
+      "explanation": "La reciprocidad es un pilar de la cooperación humana que los manipuladores instrumentalizan como arma de deuda psicológica para exigir concesiones."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "¿Cuál es la función táctica de la 'urgencia artificial' en los procesos de persuasión oscura?",
+      "options": [
+        "Estimular el pensamiento crítico y la investigación profunda.",
+        "Apagar el procesamiento analítico de la corteza prefrontal mediante el miedo a perder la oportunidad.",
+        "Fomentar la paciencia y la planificación a largo plazo.",
+        "Establecer contratos claros y detallados."
+      ],
+      "correctIndex": 1,
+      "explanation": "Al presionar con el tiempo, se fuerza una respuesta automática de supervivencia y escasez, bloqueando la evaluación racional del riesgo."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "En el contexto del lavado de cerebro y la manipulación sectaria, ¿por qué es indispensable la 'deconstrucción de la identidad'?",
+      "options": [
+        "Para mejorar las habilidades de liderazgo del individuo.",
+        "Para vaciar el autoconcepto previo y facilitar la asimilación de un nuevo sistema de creencias impuesto.",
+        "Para potenciar la memoria histórica y los lazos familiares.",
+        "Para incrementar la autonomía y el pensamiento independiente."
+      ],
+      "correctIndex": 1,
+      "explanation": "Destruir las referencias previas del ego permite moldear una nueva identidad subordinada a los intereses del grupo o manipulador."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "¿Qué representa la 'soberanía cognitiva' frente a las tácticas de la psicología oscura?",
+      "options": [
+        "La capacidad de manipular a los demás con mayor eficacia.",
+        "El derecho e inviolabilidad de gobernar los propios pensamientos, creencias y voluntad.",
+        "La sumisión voluntaria ante una autoridad superior.",
+        "La pérdida total de la conciencia en situaciones de estrés."
+      ],
+      "correctIndex": 1,
+      "explanation": "La soberanía cognitiva es el estado óptimo de defensa, donde el individuo preserva el control soberano sobre su mente frente a cualquier intento de coerción."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Gaslighting",
+      "category": "Manipulación Mental",
+      "definition": "Forma de abuso psicológico donde se manipula información para hacer dudar a la víctima de su percepción.",
+      "practicalExample": "Negar eventos que ocurrieron claramente diciendo 'tú te lo estás inventando'."
+    },
+    {
+      "id": "g2",
+      "term": "Triangulación",
+      "category": "Dinámicas Relacionales",
+      "definition": "Involucrar a un tercero en una relación de dos para manipular la dinámica de poder y generar celos.",
+      "practicalExample": "Comentar lo mucho que otra persona admira al manipulador para hacer sentir inferior a su pareja."
+    },
+    {
+      "id": "g3",
+      "term": "Refuerzo Intermitente",
+      "category": "Condicionamiento",
+      "definition": "Entrega irregular y disfuncional de recompensas o afecto que genera adicción psicológica.",
+      "practicalExample": "Tratar con frialdad un día y con amor desbordante al día siguiente sin motivo aparente."
+    },
+    {
+      "id": "g4",
+      "term": "Reciprocidad Forzada",
+      "category": "Persuasión Oscura",
+      "definition": "Imposición de un favor no solicitado para reclamar una contraprestación mayor posterior.",
+      "practicalExample": "Comprar un regalo costoso a un compañero para exigirle que vote a favor de su propuesta."
+    },
+    {
+      "id": "g5",
+      "term": "Aislamiento",
+      "category": "Control Coercitivo",
+      "definition": "Separación metódica de la víctima de sus redes de apoyo y familiares.",
+      "practicalExample": "Decirle a la pareja que sus amigos son una mala influencia y que solo se tienen el uno al otro."
+    },
+    {
+      "id": "g6",
+      "term": "Cortina de Humo",
+      "category": "Engaño",
+      "definition": "Desvío de la atención hacia un asunto secundario para ocultar un error o manipulación central.",
+      "practicalExample": "Sacar a relucir un error del pasado cuando te reclaman una falta cometida en el presente."
+    },
+    {
+      "id": "g7",
+      "term": "Urgencia Artificial",
+      "category": "Técnicas de Venta/Influencia",
+      "definition": "Fabricación de una falsa presión de tiempo para impedir el análisis lógico.",
+      "practicalExample": "Afirmar que una oferta expira en los próximos 10 minutos para obligar a firmar."
+    },
+    {
+      "id": "g8",
+      "term": "Anclaje Emocional",
+      "category": "Programación",
+      "definition": "Asociación de un estímulo externo a una respuesta emocional específica.",
+      "practicalExample": "Usar un tono de voz severo cada vez que se quiere asociar un tema a la culpa."
+    },
+    {
+      "id": "g9",
+      "term": "Soberanía Cognitiva",
+      "category": "Defensa Psicológica",
+      "definition": "Control absoluto y soberano sobre los propios procesos mentales y decisiones.",
+      "practicalExample": "Analizar una propuesta con calma, ignorando las presiones externas de urgencia."
+    },
+    {
+      "id": "g10",
+      "term": "Chantaje Emocional",
+      "category": "Manipulación Emocional",
+      "definition": "Uso de amenazas veladas sobre el afecto para doblegar la voluntad ajena.",
+      "practicalExample": "Decir 'si de verdad me quisieras, harías esto por mí sin protestar'."
+    },
+    {
+      "id": "g11",
+      "term": "Deconstrucción de Identidad",
+      "category": "Lavado de Cerebro",
+      "definition": "Demolición sistemática del autoconcepto y valores previos de un individuo.",
+      "practicalExample": "Criticar sistemáticamente los gustos y logros pasados de una persona hasta hacerla avergonzarse de ellos."
+    },
+    {
+      "id": "g12",
+      "term": "Prueba Social Oscura",
+      "category": "Influencia Masiva",
+      "definition": "Fabricación de un consenso falso para obligar a la conformidad.",
+      "practicalExample": "Afirmar falsamente que todo el departamento ya aceptó las nuevas condiciones abusivas."
+    },
+    {
+      "id": "g13",
+      "term": "Asertividad Defensiva",
+      "category": "Contramedidas",
+      "definition": "Técnica de comunicación para establecer límites firmes sin caer en agresividad.",
+      "practicalExample": "Repetir con calma un límite establecido ante insistencias manipuladoras."
+    },
+    {
+      "id": "g14",
+      "term": "Trance Cotidiano",
+      "category": "Hipnosis",
+      "definition": "Estado de alta suggestibilidad inducido por sobrecarga o monotonía en la interacción.",
+      "practicalExample": "Discursos rápidos y repetitivos usados por estafadores en seminarios."
+    },
+    {
+      "id": "g15",
+      "term": "Psicología Oscura",
+      "category": "Marco Teórico",
+      "definition": "Estudio global de las tácticas de manipulación, engaño y coerción interpersonal.",
+      "practicalExample": "Analizar la estructura oculta detrás de un discurso persuasivo corporativo o personal."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "CALIBRACIÓN",
+      "title": "Incongruencia Microexpresiva",
+      "cue": "Una sonrisa social forzada donde los músculos orbiculares de los ojos no se contraen (ausencia de patas de gallo), mientras se emiten halagos exagerados.",
+      "interpretation": "Indica disonancia entre el mensaje verbal halagador y la verdadera intención emocional (posible engaño o cálculo interesado).",
+      "practicalDrill": "Practica observar la zona periocular en tus interacciones diarias para detectar sonrisas falsas en entornos de negociación."
+    },
+    {
+      "id": "bl2",
+      "category": "DETECCIÓN",
+      "title": "Bloqueo de Barrera Defensiva Tardía",
+      "cue": "Cruzamiento repentino de brazos o ajuste milimétrico de la ropa justo después de que la otra parte afirma 'puedes confiar plenamente en mí'.",
+      "interpretation": "El cuerpo revela una contradicción subconsciente con la afirmación de confianza, señalando una posible mentira o reserva oculta.",
+      "practicalDrill": "Monitorea los gestos de cierre corporal que ocurren inmediatamente después de declaraciones de intenciones o promesas."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Anclaje de Postura Soberana",
+      "cue": "Adoptar una postura abierta, con los pies firmemente plantados en el suelo y las manos visibles, manteniendo contacto visual firme pero no desafiante.",
+      "interpretation": "Proyecta seguridad interna y bloquea los intentos de inducción de sumisión o trance por parte de un manipulador.",
+      "practicalDrill": "Entrena frente al espejo mantener una postura neutral y anclada mientras visualizas situaciones de alta presión verbal."
+    },
+    {
+      "id": "bl4",
+      "category": "DETECCIÓN",
+      "title": "Cambio Abrupto en la Cadencia Vocal",
+      "cue": "Aceleración repentina del ritmo al hablar y elevación del tono cuando se le presiona a un interlocutor sobre un detalle específico de su historia.",
+      "interpretation": "Respuesta fisiológica al estrés generado por la necesidad de mantener un relato falso o fabricado.",
+      "practicalDrill": "Presta atención a los cambios de ritmo y tono en lugar de solo enfocarte en las palabras durante una conversación delicada."
+    },
+    {
+      "id": "bl5",
+      "category": "CALIBRACIÓN",
+      "title": "La Mirada de Escaneo Vertical",
+      "cue": "Un observador que barre con la mirada de arriba abajo a su objetivo de manera sutil al evaluar su estatus o vulnerabilidad.",
+      "interpretation": "Evaluación táctica de poder; el manipulador busca identificar puntos débiles o inseguridades físicas y de presentación.",
+      "practicalDrill": "Detecta cuándo alguien está midiendo tu valor o posición y mantén una postura inalterable para neutralizar su calibración."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "El Escudo de la Pausa Deliberada",
+      "cue": "Ante una pregunta trampa o urgencia artificial, guardar silencio absoluto durante 3 segundos antes de emitir cualquier respuesta.",
+      "interpretation": "Rompe el ritmo hipnótico del manipulador, demostrando control emocional y desactivando la presión temporal.",
+      "practicalDrill": "Utiliza la regla de los 3 segundos de silencio en discusiones tensas para recuperar el control cognitivo antes de hablar."
     }
   ]
 };

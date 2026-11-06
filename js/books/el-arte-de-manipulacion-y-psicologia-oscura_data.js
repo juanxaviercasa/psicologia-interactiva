@@ -1546,53 +1546,157 @@ const LIBROS_DATA = {
   "caseScenarios": [
     {
       "id": "cs1",
-      "category": "Negociación y Detección de Engaño",
-      "title": "La Propuesta Inversionista Estratégica",
+      "category": "Análisis de Personalidad",
+      "title": "Negociación bajo presión con un perfil Narcisista",
       "difficulty": "Alta",
-      "badge": "Maestro Analista",
-      "scenarioDescription": "Estás en una reunión crucial con un potencial socio comercial. El inversor asegura que cuenta con un capital de 2 millones de dólares listo para ser transferido inmediatamente. Sin embargo, al tocar el tema de las garantías bancarias, notas que se frotando la parte posterior del cuello, aclara su garganta repitiendo 'Sinceramente, mi palabra es oro', y cruza los tobillos debajo de la silla. ¿Cómo procedes?",
+      "badge": "Escudo Táctico Humano",
+      "scenarioDescription": "Te encuentras en una reunión de negocios con un directivo que constantemente monopoliza la conversación, invalida las propuestas ajenas y busca la admiración constante. Necesitas cerrar un acuerdo crítico sin herir su ego ni ceder condiciones desventajosas.",
       "options": [
         {
           "id": "opt1",
-          "text": "Pausas la presión verbal directa, aseguras el ambiente con lenguaje neutro y exiges verificación documental bancaria formal antes de firmar cualquier compromiso.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Identificaste múltiples pacificadores de estrés (frotarse el cuello), indicadores de engaño verbal ('Sinceramente') y retención física (tobillos cruzados). Mantener la calma evita que el manipulador se ponga a la defensiva mientras proteges tus intereses con datos fríos.",
-          "bookInsight": "Nunca confrontes una sospecha de mentira con agresividad inmediata; valida con pruebas objetivas las desviaciones de la línea base conductual."
+          "text": "Confrontar directamente sus argumentos exagerados y señalar sus contradicciones frente al equipo.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Un narcisista herido en público activará mecanismos de defensa agresivos y buscará destruirte, arruinando la negociación.",
+          "bookInsight": "El Capítulo 6 enseña que los perfiles narcisistas requieren validación estratégica superficial mientras se controla la negociación desde la retaguardia."
         },
         {
           "id": "opt2",
-          "text": "Lo confrontas inmediatamente llamándolo mentiroso delante de todos para obligarlo a confesar.",
-          "outcome": "Fallo",
-          "wisdomScore": 20,
-          "analysis": "La confrontación abierta hace que un manipulador experimentado victimice su posición o escale el conflicto, destruyendo la negociación sin darte tiempo de recopilar evidencia.",
-          "bookInsight": "El analista astuto observa en silencio y actúa con hechos formalizados, jamás con arrebatos emocionales."
+          "text": "Alimentar sutilmente su sentido de grandiosidad vinculando tu propuesta a su éxito personal antes de presentar los términos.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Al hacerle sentir que la idea beneficia su imagen de liderazgo, acepta los términos técnicos sin resistencia.",
+          "bookInsight": "Capítulo 1 y 6: Analizar a las personas permite usar sus propias vulnerabilidades de ego como ancla de influencia."
         }
       ]
     },
     {
-      "id": "cs1_2",
-      "category": "Dinámicas Interpersonales y Desarme de Gaslighting",
-      "title": "La Reestructuración de Proyecto en la Oficina",
-      "difficulty": "Alta",
-      "badge": "Defensor Inexpugnable",
-      "scenarioDescription": "Un colega de alto rango modificó los parámetros de un proyecto que diriges, provocando un retraso. Al reclamarle en privado, sonríe suavemente, niega haber tocado los archivos y te dice: 'Estás muy estresado últimamente, estás imaginando cosas y tu equipo se está dando cuenta'. Sabes con certeza que él fue el autor del cambio.",
+      "id": "cs2",
+      "category": "Lectura de Rostro y Microexpresiones",
+      "title": "La entrevista de posible socio oculto",
+      "difficulty": "Media",
+      "badge": "Lector de Microexpresiones",
+      "scenarioDescription": "Estás evaluando a un candidato para una alianza financiera. Durante la charla, menciona que su empresa anterior tuvo un 'cierre amistoso', pero notas una asimetría momentánea en sus labios y un parpadeo acelerado.",
       "options": [
         {
           "id": "opt1",
-          "text": "Evitas discutir sobre tu estabilidad mental, muestras los registros informáticos de auditoría con fecha e IP, y solicitas formalmente a RRHH una revisión de accesos sin alterar tu tono de voz.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Desarticulaste la maniobra de Gaslighting rehusando defender tu cordura (que era la trampa) y desviando el foco directamente hacia las pruebas digitales irrefutables.",
-          "bookInsight": "Ante la distorsión de la realidad mediante Gaslighting, nunca te justifiques emocionalmente: apóyate en registros duros y hechos verificables."
+          "text": "Ignorar la señal corporal y confiar en los documentos presentados en su dossier.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "Confiar ciegamente en el papel ignorando la incongruencia no verbal te expone a fraudes ocultos.",
+          "bookInsight": "El Capítulo 2 y 4 destacan que las microexpresiones incongruentes revelan verdades que el discurso verbal intenta ocultar."
         },
         {
           "id": "opt2",
-          "text": "Te alteras tratando de convencerlo de que no estás loco, explicándole en detalle por qué estás seguro de que fue él.",
+          "text": "Hacer una pausa intencional en silencio y pedirle que profundice en los motivos exactos de su salida.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "El silencio presiona al mentiroso a llenar el vacío, revelando inconsistencias en su historia.",
+          "bookInsight": "Capítulo 3: El lenguaje corporal y las respuestas de fuga revelan engaños cuando se aplica presión sutil."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Detección de Estafas",
+      "title": "La oferta de inversión 'demasiado buena para ser verdad'",
+      "difficulty": "Alta",
+      "badge": "Detector de Estafas",
+      "scenarioDescription": "Un conocido de perfil carismático te ofrece entrar en un fondo exclusivo con retornos garantizados del 30% mensual, exigiendo una decisión en menos de 24 horas bajo el argumento de cupos limitados.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Aceptar de inmediato transfiriendo una suma moderada para asegurar el lugar antes de que cierre el plazo.",
           "outcome": "Fallo",
-          "wisdomScore": 20,
-          "analysis": "Al engancharte emocionalmente en la discusión de si 'estás loco o no', caes directo en la provocación del manipulador, quien usará tu alteración como 'prueba' de tu inestabilidad.",
-          "bookInsight": "Caer en la provocación valida el marco del manipulador. Quien controla sus emociones controla la dinámica."
+          "wisdomScore": 10,
+          "analysis": "Caíste en la táctica de urgencia y escasez clásica de los estafadores profesionales descritos en el libro.",
+          "bookInsight": "El Capítulo 5 detalla cómo los estafadores utilizan la presión temporal para apagar el pensamiento crítico."
+        },
+        {
+          "id": "opt2",
+          "text": "Solicitar la documentación legal completa y negarse a decidir bajo presión de tiempo, observando su reacción.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Al romper el marco de urgencia, el estafador pierde el control y suele retirarse o mostrar hostilidad.",
+          "bookInsight": "Capítulo 5: Como detectar trucos, engaños y estafas mediante la deconstrucción de tácticas de presión."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Lenguaje Corporal Avanzado",
+      "title": "Reunión de reestructuración salarial",
+      "difficulty": "Media",
+      "badge": "Observador Táctico",
+      "scenarioDescription": "Te reúnes con tu superior para solicitar un aumento. Durante tu exposición, notas que cruza los brazos firmemente sobre el pecho y cruza las piernas alejándose de ti, aunque asiente con la cabeza.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Continuar insistiendo con el mismo argumento económico ya que está asintiendo con la cabeza.",
+          "outcome": "Fallo",
+          "wisdomScore": 35,
+          "analysis": "El asentimiento es una cortesía social superficial; la postura de barrera (brazos y piernas cruzadas) indica rechazo interno genuino.",
+          "bookInsight": "Capítulo 3 y 4: Las posturas de cierre corporal contradicen la aquiescencia verbal fingida."
+        },
+        {
+          "id": "opt2",
+          "text": "Cambiar de enfoque reconociendo su postura defensiva y preguntar directamente qué objeción presupuestaria tiene.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Desarmas la barrera física al obligarle a abrir su postura para responder a una pregunta directa y abierta.",
+          "bookInsight": "Capítulo 4: Las técnicas de lectura corporal permiten adaptar la estrategia en tiempo real."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Bioquímica y Comportamiento",
+      "title": "Manejo de un colaborador con alta carga de Cortisol",
+      "difficulty": "Alta",
+      "badge": "Estratega Bioquímico",
+      "scenarioDescription": "Uno de tus subordinados clave llega a la oficina con respiración acelerada, rigidez en el cuello, sudoración leve y respuestas verbales cortantes y defensivas ante cualquier pregunta menor.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Exigirle rendimiento inmediato y señalar sus errores recientes para que recupere el enfoque.",
+          "outcome": "Fallo",
+          "wisdomScore": 15,
+          "analysis": "Incrementar la presión sobre alguien con niveles tóxicos de cortisol genera bloqueo mental total o colapso emocional.",
+          "bookInsight": "El Capítulo 7 explica cómo la bioquímica de la personalidad afecta la toma de decisiones bajo estrés agudo."
+        },
+        {
+          "id": "opt2",
+          "text": "Invitarlo a caminar un momento fuera del área de trabajo, ofreciéndole agua y bajando el tono de voz para reducir su activación simpática.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Modulas el entorno físico y tu propia comunicación para inducir la co-regulación del sistema nervioso del colaborador.",
+          "bookInsight": "Capítulo 7: Entendiendo la bioquímica de la personalidad y su impacto en las respuestas conductuales."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Lectura de Personas",
+      "title": "Identificando la máscara social en una entrevista laboral",
+      "difficulty": "Media",
+      "badge": "Analista Conductual",
+      "scenarioDescription": "Entrevistas a un candidato que muestra una sonrisa constante, demasiado perfecta y estática, cuyos ojos no participan en la expresión facial (ausencia de patas de gallo).",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Asumir que es una persona sumamente feliz, positiva y adecuada para el servicio al cliente.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Confundiste una sonrisa social ensayada (falsa) con una emoción genuina de agrado.",
+          "bookInsight": "El Capítulo 2 detalla los secretos para leer la discrepancia entre la expresión facial simulada y la real."
+        },
+        {
+          "id": "opt2",
+          "text": "Realizar una pregunta inesperada o fuera de guion para romper la máscara ensayada y observar su reacción espontánea.",
+          "outcome": "Éxito",
+          "wisdomScore": 85,
+          "analysis": "La pregunta imprevista rompe el script preparado del candidato, obligándolo a mostrar su verdadera personalidad.",
+          "bookInsight": "Capítulo 1 y 2: Métodos rigurosos para analizar capas de personalidad y desvelar intenciones ocultas."
         }
       ]
     }
@@ -1600,38 +1704,463 @@ const LIBROS_DATA = {
   "flashcards": [
     {
       "id": "fc1",
-      "term": "Línea Base (Baseline)",
-      "definition": "El patrón de conducta normal, tono de voz y lenguaje corporal de una persona en un estado libre de estrés.",
-      "tacticalUse": "Observar al sujeto en situaciones cotidianas para identificar desviaciones (picos de tensión, mentiras) cuando cambie el tema.",
-      "countermeasure": "Proyectar una línea base deliberada y consistente para evitar revelar fugas emocionales voluntarias."
+      "bookNumber": 1,
+      "category": "Análisis de Personalidad",
+      "term": "Lectura fría táctica",
+      "definition": "Técnica de observación rápida que permite deducir patrones psicológicos y estados emocionales basándose en indicios externos sutiles.",
+      "tacticalUse": "Anticiparse a las intenciones de interlocutores en negociaciones de alto riesgo.",
+      "countermeasure": "Mantener una neutralidad conductual estricta (poker face) y limitar la emisión de datos personales."
     },
     {
       "id": "fc2",
-      "term": "Refuerzo Intermitente",
-      "definition": "Táctica de entregar recompensas emocionales o validadoras de forma impredecible e inconsistente.",
-      "tacticalUse": "Crear adicción psicológica y dependencia en la víctima mediante la incertidumbre dopaminérgica.",
-      "countermeasure": "Identificar la inconsistencia, cortar la dependencia del estímulo externo y establecer un marco de evaluación racional de la relación."
+      "bookNumber": 1,
+      "category": "Lenguaje Corporal",
+      "term": "Asimetría facial en microexpresiones",
+      "definition": "Diferencia temporal o espacial en la activación de los músculos de la cara que delata la supresión de una emoción real.",
+      "tacticalUse": "Detectar mentiras o desacuerdos profundos cuando el discurso verbal afirma lo contrario.",
+      "countermeasure": "Entrenar la congruencia emocional y evitar sobre-controlar el rostro, lo que genera rigidez."
     },
     {
       "id": "fc3",
-      "term": "Gaslighting (Luz de Gas)",
-      "definition": "Forma de manipulación donde se hace dudar a la víctima de su propia memoria, percepción o cordura.",
-      "tacticalUse": "Invalidad las críticas negando hechos pasados con firmeza ('eso nunca ocurrió', 'estás loco/a').",
-      "countermeasure": "Llevar registros escritos/grabados de eventos clave y confiar en la propia evidencia objetiva sin entrar en debates."
+      "bookNumber": 1,
+      "category": "Detección de Estafas",
+      "term": "Anclaje por urgencia artificial",
+      "definition": "Estrategia de manipulación temporal para reducir el tiempo de análisis racional y forzar respuestas impulsivas.",
+      "tacticalUse": "Cerrar acuerdos ventajosos apresurando a la contraparte antes de que consulte fuentes externas.",
+      "countermeasure": "Establecer una regla personal de innegociabilidad temporal ante cualquier oferta sorpresiva."
     },
     {
       "id": "fc4",
-      "term": "Tríada Oscura",
-      "definition": "Conjunto de tres rasgos de personalidad de alto riesgo: Maquiavelismo (explotación), Narcisismo (grandiosidad) y Psicopatía (falta de empatía).",
-      "tacticalUse": "Evaluar la peligrosidad de un individuo al detectar falta de remordimiento y encanto superficial predatorio.",
-      "countermeasure": "Establecer la política de 'Contacto Cero' o interactuar únicamente bajo la técnica de la 'Piedra Gris' (ser aburrido e inexpresivo)."
+      "bookNumber": 1,
+      "category": "Rasgos de Personalidad",
+      "term": "Perfil Narcisista Defensivo",
+      "definition": "Estructura de personalidad caracterizada por un sentido inflado de autoimportancia quemascara una profunda inseguridad.",
+      "tacticalUse": "Gestionar su necesidad de validación para lograr cooperación sin confrontación directa.",
+      "countermeasure": "Establecer límites firmes sin herir su autoimagen pública para evitar reacciones vindicativas."
     },
     {
       "id": "fc5",
-      "term": "Bombardeo de Amor (Love Bombing)",
-      "definition": "Demostración abrumadora de afecto, elogios y atención al inicio de una relación para derribar defensas.",
-      "tacticalUse": "Acelerar el apego emocional y la confianza ciega antes de iniciar la fase de devaluación y manipulación.",
-      "countermeasure": "Forzar un ritmo lento en la relación y desconfiar de afirmaciones desproporcionadas en etapas tempranas."
+      "bookNumber": 1,
+      "category": "Bioquímica de la Personalidad",
+      "term": "Secuestro de Cortisol",
+      "definition": "Estado de saturación hormonal por estrés que bloquea la corteza prefrontal y activa respuestas de supervivencia.",
+      "tacticalUse": "Identificar cuándo un adversario o colaborador ha perdido la capacidad de razonamiento lógico.",
+      "countermeasure": "Desescalar la tensión mediante pausas, respiración controlada y reducción de estímulos."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Lenguaje Corporal",
+      "term": "Bloqueo Ocular Táctico",
+      "definition": "Acción refleja de cubrirse, frotarse o cerrar los ojos prolongadamente ante la exposición a estímulos desagradables.",
+      "tacticalUse": "Identificar qué propuestas o ideas generan rechazo inmediato en el interlocutor.",
+      "countermeasure": "Evitar revelar información sensible cuando el observador experimenta fatiga sensorial."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "Análisis de Personalidad",
+      "term": "Rasgo de Conformidad Social",
+      "definition": "Tendencia a modificar opiniones o conductas para alinearse con la presión del grupo o la autoridad.",
+      "tacticalUse": "Influir en colectivos modificando la opinión de la figura central de autoridad.",
+      "countermeasure": "Fomentar el pensamiento crítico independiente y la disidencia informada en equipos."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Detección de Estafas",
+      "term": "Principio de Reciprocidad Forzada",
+      "definition": "Otorgar un favor no solicitado para activar la obligación psicológica de devolver el favor en condiciones desfavorables.",
+      "tacticalUse": "Generar apalancamiento inicial en negociaciones comerciales complejas.",
+      "countermeasure": "Rechazar obsequios o favores iniciales de fuentes desconocidas o con intenciones ambiguas."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Lenguaje Corporal",
+      "term": "Orientación de los Pies (Foot Index)",
+      "definition": "Indicador no verbal que muestra la dirección hacia donde realmente desea ir o escapar una persona.",
+      "tacticalUse": "Saber si el interlocutor está interesado en la conversación o busca finalizarla urgentemente.",
+      "countermeasure": "Alinear conscientemente los pies hacia el interlocutor para proyectar falso interés."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Bioquímica de la Personalidad",
+      "term": "Efecto de la Dopamina en la Anticipación",
+      "definition": "Aumento de neurotransmisores asociados al placer ante la promesa de una recompensa incierta.",
+      "tacticalUse": "Utilizar expectativas dosificadas para mantener cautiva la atención de un socio o cliente.",
+      "countermeasure": "Evaluar las propuestas basándose en datos tangibles actuales y no en promesas futuras."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Rasgos de Personalidad",
+      "term": "Personalidad Maquiavélica",
+      "definition": "Patrón de conducta focalizado en la manipulación interpersonal, el pragmatismo frío y el engaño estratégico.",
+      "tacticalUse": "Anticipar jugadas de ajedrez social en entornos corporativos altamente competitivos.",
+      "countermeasure": "Exigir transparencia documental y auditorías externas para neutralizar tácticas ocultas."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Análisis de Personas",
+      "term": "Congruencia Verbal-Gestual",
+      "definition": "Grado de sincronía entre el mensaje hablado y las señales corporales emitidas simultáneamente.",
+      "tacticalUse": "Validar la veracidad de testimonios en auditorías o entrevistas de selección.",
+      "countermeasure": "Practicar la sincronización consciente de gestos y palabras para evitar alertas en observadores."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Detección de Estafas",
+      "term": "Ilusión de Escasez",
+      "definition": "Táctica para magnificar el valor de un bien o propuesta haciéndolo parecer extremadamente limitado.",
+      "tacticalUse": "Acelerar la toma de decisiones en ventas o negociaciones de alta presión.",
+      "countermeasure": "Verificar la existencia real de la limitación y pausar el proceso de compra."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Lenguaje Corporal",
+      "term": "Autocontacto Calmante (Pacifying)",
+      "definition": "Tocarse el cuello, la nuca o los brazos para reducir la ansiedad generada por incomodidad.",
+      "tacticalUse": "Detectar el momento exacto en que una pregunta incómoda genera estrés en el sujeto.",
+      "countermeasure": "Controlar los movimientos de las manos y mantenerlas en reposo durante situaciones de estrés."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Bioquímica de la Personalidad",
+      "term": "Respuesta de Lucha o Huida Somática",
+      "definition": "Activación fisiológica automática que altera la frecuencia cardíaca, la dilatación pupilar y la postura corporal.",
+      "tacticalUse": "Reconocer cuando un oponente ha sido arrinconado tácticamente.",
+      "countermeasure": "Ofrecer una 'salida honrosa' (puente de plata) para evitar una reacción agresiva desesperada."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación Emocional",
+      "name": "Gaslighting Táctico",
+      "severity": "Crítica",
+      "icon": "fa-brain",
+      "howItWorks": "Distorsiona sistemáticamente la realidad y los hechos para hacer que la víctima dude de su propia memoria y cordura.",
+      "redFlags": [
+        "Negación categórica de eventos que ocurrieron",
+        "Acusar a la víctima de inventar o exagerar",
+        "Cambio sutil pero constante de los acuerdos previos"
+      ],
+      "counterScript": "Tengo registrado por escrito y documentado exactamente cómo ocurrieron los hechos. Nos atenemos a este registro.",
+      "deepMechanism": "Aprovecha la dependencia cognitiva de la víctima hacia la figura del emisor para reescribir su marco referencial de la realidad."
+    },
+    {
+      "id": "t2",
+      "category": "Influencia Subconsciente",
+      "name": "Anclaje de Urgencia y Escasez",
+      "severity": "Alta",
+      "icon": "fa-eye",
+      "howItWorks": "Fuerza un estado de urgencia artificial para desactivar el pensamiento analítico de la corteza prefrontal.",
+      "redFlags": [
+        "Exigencia de respuestas inmediatas sin tiempo de revisión",
+        "Argumentos de que la oportunidad desaparecerá para siempre",
+        "Creación de presión social mediante falsos competidores"
+      ],
+      "counterScript": "Si la oferta es sólida hoy, lo será también dentro de 48 horas tras mi revisión legal.",
+      "deepMechanism": "Estimula la respuesta evolutiva de supervivencia ante la pérdida potencial, inhibiendo la evaluación lógica de riesgos."
+    },
+    {
+      "id": "t3",
+      "category": "Psicología Oscura",
+      "name": "Aislamiento Estratégico",
+      "severity": "Crítica",
+      "icon": "fa-skull",
+      "howItWorks": "Separa gradualmente al objetivo de su red de apoyo y fuentes de contraste objetivo para monopolizar su perspectiva.",
+      "redFlags": [
+        "Crítica constante hacia amigos, familiares o colegas del objetivo",
+        "Incentivar que los asuntos se traten exclusivamente en privado",
+        "Generación de dependencia operativa o emocional"
+      ],
+      "counterScript": "Mantendré informados a mis asesores habituales sobre cada detalle de este proceso.",
+      "deepMechanism": "Elimina la triangulación social necesaria para que el individuo mantenga un juicio crítico objetivo de la realidad."
+    },
+    {
+      "id": "t4",
+      "category": "Lectura Conductual",
+      "name": "Interrogatorio por Incongruencia",
+      "severity": "Media",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Contrasta las declaraciones verbales del sujeto con sus microexpresiones y posturas de defensa.",
+      "redFlags": [
+        "Sonrisas asimétricas desconectadas de los ojos",
+        "Respuestas corporales de repliegue ante preguntas directas",
+        "Parpadeo acelerado ante temas sensibles"
+      ],
+      "counterScript": "Tus palabras dicen una cosa, pero tu lenguaje corporal muestra reticencia. ¿Qué es lo que no me estás diciendo?",
+      "deepMechanism": "El sistema nervioso autónomo filtra respuestas físicas involuntarias que delatan la disonancia cognitiva del engaño."
+    },
+    {
+      "id": "t5",
+      "category": "Defensa Psicológica",
+      "name": "Neutralización de Narcisismo Coercitivo",
+      "severity": "Alta",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Utiliza el halago estratégico superficial para desactivar la agresividad del perfil narcisista mientras se toman decisiones firmes.",
+      "redFlags": [
+        "Necesidad imperiosa de ser el centro de atención en reuniones críticas",
+        "Desprecio sistemático por las aportaciones de los demás",
+        "Reacciones coléricas ante la mínima crítica pública"
+      ],
+      "counterScript": "Tu visión directiva ha sido clave en este punto; ahora procedemos a ejecutar la fase técnica acordada.",
+      "deepMechanism": "Satisface el ego hipertrofiado del agresor para evitar la respuesta defensiva destructiva, manteniendo el control operativo."
+    },
+    {
+      "id": "t6",
+      "category": "Bioquímica Aplicada",
+      "name": "Modulación de Cortisol por Estrés Inducido",
+      "severity": "Alta",
+      "icon": "fa-brain",
+      "howItWorks": "Somete al oponente a un flujo constante de micro-conflicto para saturar su capacidad de procesamiento mental.",
+      "redFlags": [
+        "Cambios abruptos de tema acompañados de exigencias imprevistas",
+        "Interrupciones constantes durante la exposición de argumentos",
+        "Señalamiento repetitivo de fallos menores"
+      ],
+      "counterScript": "Hagamos una pausa de cinco minutos para estructurar los datos antes de continuar con este punto.",
+      "deepMechanism": "La saturación de cortisol colapsa la memoria de trabajo y la capacidad de evaluar consecuencias a largo plazo."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "Según el Capítulo 1 y 2, ¿qué revela principalmente una sonrisa social asimétrica sin participación de los músculos orbiculares de los ojos?",
+      "options": [
+        "Una alegría genuina y espontánea ante la situación.",
+        "Una simulación o máscara emocional para ocultar el rechazo real.",
+        "Un cuadro clínico avanzado de fatiga crónica.",
+        "Una respuesta bioquímica involuntaria de alta dopamina."
+      ],
+      "correctIndex": 1,
+      "explanation": "La sonrisa genuina (de Duchenne) activa los músculos alrededor de los ojos (patas de gallo). Cuando falta esto, se trata de una simulación consciente o automática."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal de la táctica de urgencia y escasez descrita en el Capítulo 5 al detectar estafas?",
+      "options": [
+        "Mejorar la eficiencia logística de la empresa.",
+        "Desactivar el pensamiento analítico de la corteza prefrontal mediante presión temporal.",
+        "Aumentar la concentración de oxitocina en el equipo de trabajo.",
+        "Garantizar la transparencia legal de la transacción."
+      ],
+      "correctIndex": 1,
+      "explanation": "Los estafadores utilizan la presión de tiempo para impedir que la víctima evalúe riesgos y consulte fuentes externas de contraste."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "En el contexto de la lectura del lenguaje corporal (Capítulos 3 y 4), ¿qué indica el 'Foot Index' (dirección de los pies)?",
+      "options": [
+        "El nivel de comodidad física con el calzado.",
+        "La dirección hacia donde la persona realmente desea ir o escapar.",
+        "La cantidad de cortisol acumulada en las extremidades.",
+        "El grado de formalidad del interlocutor."
+      ],
+      "correctIndex": 1,
+      "explanation": "Los pies son la parte del cuerpo menos controlada conscientemente y suelen apuntar hacia la salida o hacia la persona de mayor interés."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "¿Cómo impacta el exceso de cortisol en la psique y el comportamiento según el Capítulo 7 sobre bioquímica de la personalidad?",
+      "options": [
+        "Mejora la creatividad y la empatía interpersonal.",
+        "Facilita la planificación estratégica a largo plazo.",
+        "Bloquea la corteza prefrontal y activa respuestas de supervivencia o colapso.",
+        "Estabiliza el estado de ánimo ante situaciones complejas."
+      ],
+      "correctIndex": 2,
+      "explanation": "El cortisol elevado crónicamente apaga las funciones cognitivas superiores y prioriza respuestas reactivas de defensa o huida."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "Según el análisis de rasgos de personalidad del Capítulo 6, ¿cuál es la mejor estrategia para tratar con un perfil narcisista en negociaciones?",
+      "options": [
+        "Atacar públicamente sus debilidades para debilitarlo.",
+        "Ignorarlo por completo hasta que cambie de actitud.",
+        "Validar su imagen de grandeza superficialmente mientras se controla la negociación.",
+        "Ceder en todas sus demandas para evitar conflictos."
+      ],
+      "correctIndex": 2,
+      "explanation": "Alimentar su necesidad de validación evita que active respuestas vindicativas, permitiendo guiar el resultado técnico de la negociación."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "¿Qué representa un 'bloqueo ocular' durante una interacción interpersonal según las técnicas del libro?",
+      "options": [
+        "Una señal de acuerdo absoluto con lo que se está diciendo.",
+        "Un reflejo de rechazo o incomodidad ante un estímulo visual o verbal.",
+        "Un síntoma exclusivo de problemas oftalmológicos.",
+        "Una técnica de meditación instantánea."
+      ],
+      "correctIndex": 1,
+      "explanation": "Cubrirse o cerrar los ojos ante un comentario actúa como un mecanismo de defensa subconsciente para bloquear aquello que resulta desagradable."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Lectura Fría",
+      "category": "Análisis",
+      "definition": "Habilidad de deducir información detallada sobre una persona mediante la observación rápida de su aspecto, lenguaje corporal y reacciones.",
+      "practicalExample": "Adivinar la profesión de un cliente analizando el desgaste de sus manos y su postura al sentarse."
+    },
+    {
+      "id": "g2",
+      "term": "Microexpresión",
+      "category": "Conducta",
+      "definition": "Expresión facial involuntaria y fugaz que dura una fracción de segundo, revelando emociones reprimidas.",
+      "practicalExample": "Notar un destello de desprecio en los labios de un socio al escuchar una propuesta económica."
+    },
+    {
+      "id": "g3",
+      "term": "Gaslighting",
+      "category": "Manipulación",
+      "definition": "Forma de abuso psicológico que busca sembrar dudas en la víctima sobre su percepción de la realidad.",
+      "practicalExample": "Negar rotundamente haber hecho una promesa previa para hacer creer a la otra persona que lo imaginó."
+    },
+    {
+      "id": "g4",
+      "term": "Anclaje",
+      "category": "Influencia",
+      "definition": "Asociación subconsciente entre un estímulo externo y una respuesta emocional o conductual específica.",
+      "practicalExample": "Utilizar un tono de voz firme y pausado cada vez que se requiere calmar una discusión."
+    },
+    {
+      "id": "g5",
+      "term": "Cortisol",
+      "category": "Bioquímica",
+      "definition": "Hormona principal del estrés liberada por las glándulas suprarrenales ante situaciones de amenaza.",
+      "practicalExample": "Identificar rigidez muscular y respiración corta en un colega sometido a plazos imposibles."
+    },
+    {
+      "id": "g6",
+      "term": "Disonancia Cognitiva",
+      "category": "Psicología",
+      "definition": "Tensión interna que experimenta una persona cuando sus creencias entran en conflicto con sus acciones o nueva información.",
+      "practicalExample": "Incomodidad de un vendedor al defender un producto defectuoso que sabe que no funciona."
+    },
+    {
+      "id": "g7",
+      "term": "Perfil Narcisista",
+      "category": "Personalidad",
+      "definition": "Estructura caracterizada por grandiosidad, necesidad de admiración y carencia de empatía genuina.",
+      "practicalExample": "Un directivo que atribuye los éxitos del equipo exclusivamente a su propia gestión."
+    },
+    {
+      "id": "g8",
+      "term": "Triangulación",
+      "category": "Manipulación",
+      "definition": "Táctica en la que se introduce a un tercero en una relación para generar rivalidad o control.",
+      "practicalExample": "Comparar el rendimiento de un empleado con otro ficticio para presionar su productividad."
+    },
+    {
+      "id": "g9",
+      "term": "Autocontacto Calmante",
+      "category": "Lenguaje Corporal",
+      "definition": "Acciones de tocarse el cuerpo para calmar la ansiedad generada por situaciones de estrés.",
+      "practicalExample": "Frotarse la nuca repetidamente al responder una pregunta compleja en una entrevista."
+    },
+    {
+      "id": "g10",
+      "term": "Personalidad Maquiavélica",
+      "category": "Personalidad",
+      "definition": "Patrón conductual centrado en la manipulación calculadora y el uso de los demás como meros medios.",
+      "practicalExample": "Ocultar información clave a un compañero para asegurar un ascenso personal."
+    },
+    {
+      "id": "g11",
+      "term": "Reciprocidad Forzada",
+      "definition": "Estrategia de coerción sutil basada en la norma social de devolver favores no solicitados.",
+      "practicalExample": "Entregar un regalo costoso antes de exigir la firma de un contrato complejo."
+    },
+    {
+      "id": "g12",
+      "term": "Escasez Artificial",
+      "definition": "Creación ficticia de limitación de recursos para acelerar la toma de decisiones impulsivas.",
+      "practicalExample": "Afirmar que solo queda una plaza disponible en el programa de inversión."
+    },
+    {
+      "id": "g13",
+      "term": "Congruencia",
+      "category": "Comunicación",
+      "definition": "Alineación perfecta entre las palabras emitidas y el lenguaje no verbal que las acompaña.",
+      "practicalExample": "Expresar seguridad financiera manteniendo una postura abierta y tono de voz firme."
+    },
+    {
+      "id": "g14",
+      "term": "Respuesta de Lucha o Huida",
+      "definition": "Mecanismo neurobiológico de supervivencia ante estímulos interpretados como amenazas.",
+      "practicalExample": "Discutir con agresividad verbal ante un cuestionamiento inesperado de autoridad."
+    },
+    {
+      "id": "g15",
+      "term": "Aislamiento Táctico",
+      "definition": "Separación progresiva de un individuo de sus redes de apoyo para incrementar su vulnerabilidad.",
+      "practicalExample": "Desalentar la participación en reuniones con asesores externos para retener el control."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "DETECCIÓN",
+      "title": "Calibración de la Sonrisa Social vs. Duchenne",
+      "cue": "Elevación de los pómulos y aparición de arrugas orbiculares (patas de gallo) acompañando la sonrisa.",
+      "interpretation": "La ausencia de arrugas oculares indica que la sonrisa es un constructo social artificial que oculta insatisfacción.",
+      "practicalDrill": "Observa vídeos corporativos sin sonido e identifica qué directivos muestran sonrisas reales frente a sonrisas fingidas."
+    },
+    {
+      "id": "bl2",
+      "category": "DEFENSA",
+      "title": "Identificación del Bloqueo Ocular Defensivo",
+      "cue": "Cierre prolongado de ojos o frote de párpados al recibir una pregunta o propuesta.",
+      "interpretation": "El cerebro intenta borrar visualmente un estímulo amenazante o una idea que genera profundo rechazo.",
+      "practicalDrill": "Lanza propuestas deliberadamente incómodas en reuniones y registra quién realiza bloqueos oculares inmediatos."
+    },
+    {
+      "id": "bl3",
+      "category": "CALIBRACIÓN",
+      "title": "Análisis de la Orientación de los Pies (Foot Index)",
+      "cue": "Pies apuntando hacia la salida de la habitación mientras el torso permanece girado hacia ti.",
+      "interpretation": "Deseo inconsciente de escapar o finalizar la interacción a pesar de la cortesía verbal superficial.",
+      "practicalDrill": "En conversaciones de pie, observa discretamente hacia dónde apuntan las puntas de los zapatos de tu interlocutor."
+    },
+    {
+      "id": "bl4",
+      "category": "DETECCIÓN",
+      "title": "Detección de Gestos de Autocontacto (Pacifying)",
+      "cue": "Frotarse la nuca, tocarse el cuello o ajustar el cuello de la camisa bajo presión conversacional.",
+      "interpretation": "Respuesta somática automática para reducir el estrés y la ansiedad generados por la incomodidad.",
+      "practicalDrill": "Practica realizar preguntas incisivas manteniendo tus manos inmóviles mientras observas los gestos de apaciguamiento del otro."
+    },
+    {
+      "id": "bl5",
+      "category": "DEFENSA",
+      "title": "Mapeo de Posturas de Barrera Corporal",
+      "cue": "Brazos cruzados firmemente sobre el pecho con piernas cruzadas en dirección contraria.",
+      "interpretation": "Defensa física inconsciente que delimita el espacio personal ante una amenaza percibida o desacuerdo.",
+      "practicalDrill": "Introduce un objeto físico (como un documento) y entrégaselo al sujeto para obligarle a abrir la postura defensiva."
+    },
+    {
+      "id": "bl6",
+      "category": "CALIBRACIÓN",
+      "title": "Detección de Asimetría en Microexpresiones",
+      "cue": "Movimiento unilateral de los labios o cejas al asentir verbalmente a una afirmación.",
+      "interpretation": "Incongruencia profunda entre el discurso hablado y la actividad emocional subconsciente reprimida.",
+      "practicalDrill": "Utiliza grabaciones en cámara lenta de entrevistas para aislar asimetrías faciales de duración menor a medio segundo."
     }
   ]
 };

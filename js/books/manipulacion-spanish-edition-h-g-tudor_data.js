@@ -3104,53 +3104,157 @@ const LIBROS_DATA = {
   "caseScenarios": [
     {
       "id": "cs1",
-      "category": "Detección en Entorno Laboral",
-      "title": "Caso Práctico: Metodos 08 A 10 Falsas Promesas Amenaza Y Desgaste",
-      "difficulty": "Alta",
-      "badge": "Detective Social",
-      "scenarioDescription": "Durante una situación relacionada con \"Metodos 08 A 10 Falsas Promesas Amenaza Y Desgaste\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "category": "Bombardeo De Amor Y Reflejo",
+      "title": "La Tormenta de Atenciones Iniciales",
+      "difficulty": "Media",
+      "badge": "Escudo Reflector",
+      "scenarioDescription": "Una nueva pareja muestra una admiración exagerada, validando todas tus inseguridades y acelerando el compromiso en semanas. Notas que imita tus gustos exactos de manera sospechosa.",
       "options": [
         {
           "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Metodos 08 A 10 Falsas Promesas Amenaza Y Desgaste\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Aceptar el afecto efusivamente, asumiendo que es amor verdadero y correspondencia kármica.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Has caído en el bombardeo de amor y el reflejo artificial, creando un vínculo traumático prematuro.",
+          "bookInsight": "El narcisista utiliza la adulación extrema y el espejo psicológico para desarmar tus defensas y engancharte rápidamente."
         },
         {
           "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Poner límites de ritmo, observar la consistencia a largo plazo y mantener espacios independientes.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Neutralizas la intoxicación dopaminérgica del bombardeo de amor mediante la validación interna y el ritmo pausado.",
+          "bookInsight": "La desaceleración deliberada expone la impaciencia y la máscara del manipulador."
         }
       ]
     },
     {
       "id": "cs2",
-      "category": "Relaciones Interpersonales",
-      "title": "Caso Práctico: Metodos 11 A 12 Difamacion Y Negacion",
+      "category": "Culpa E Intimidacion",
+      "title": "El Ataque de Culpabilidad Injustificada",
       "difficulty": "Media",
-      "badge": "Experto en Vínculos",
-      "scenarioDescription": "Durante una situación relacionada con \"Metodos 11 A 12 Difamacion Y Negacion\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "badge": "Mente Fría",
+      "scenarioDescription": "Tu pareja te culpa de arruinar un viaje familiar debido a un retraso menor, exigiendo disculpas y haciéndote sentir un monstruo egoísta.",
       "options": [
         {
           "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Metodos 11 A 12 Difamacion Y Negacion\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Disculparte profusamente y aceptar toda la responsabilidad para evitar una discusión mayor.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Validas la narrativa distorsionada, reforzando el ciclo donde tú eres el perpetrador y el otro la víctima.",
+          "bookInsight": "La culpa es un arma de control diseñada para mantenerte en deuda emocional permanente."
         },
         {
           "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
+          "text": "Validar el contratiempo sin asumir culpas exageradas, manteniendo la objetividad del evento.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Bloqueas la transferencia de culpa mediante un anclaje firme en la realidad objetiva.",
+          "bookInsight": "Rechazar la falsa responsabilidad debilita el poder intimidatorio del manipulador."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Triangulacion Lugartenientes Y Obsesion",
+      "title": "La Introducción de Terceros en el Conflicto",
+      "difficulty": "Alta",
+      "badge": "Observador Neutro",
+      "scenarioDescription": "Tu pareja menciona repetidamente lo comprensiva y maravillosa que es una compañera de trabajo, comparándote sutilmente con ella.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Entrar en celos competitivos, intentando demostrar que eres superior a la tercera persona.",
+          "outcome": "Fallo",
           "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "analysis": "Al entrar en el juego de la triangulación, alimentas el ego del narcisista y te colocas en una posición de inferioridad.",
+          "bookInsight": "La triangulación busca generar inseguridad y competencia mediante la introducción deliberada de aliados o rivales."
+        },
+        {
+          "id": "opt2",
+          "text": "Ignorar la provocación y señalar con indiferencia la virtud de la compañera, negándote a competir.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Desactivas la herramienta de triangulación al negarte a otorgar el combustible de los celos.",
+          "bookInsight": "La falta de reacción ante la triangulación frustra el diseño estratégico del manipulador."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Transgresion De Limites Y Gaslighting",
+      "title": "La Negación de los Hechos Evidentes",
+      "difficulty": "Alta",
+      "badge": "Anti-Gaslighting",
+      "scenarioDescription": "Escuchas a tu pareja decir algo hiriente, pero cuando se lo reprochas, niega categóricamente haberlo dicho y te acusa de inventar cosas y estar perdiendo la cabeza.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Dudar de tu propia memoria y disculparte por malinterpretar la situación.",
+          "outcome": "Fallo",
+          "wisdomScore": 10,
+          "analysis": "Permites la erosión de tu percepción de la realidad, cediendo el control cognitivo al manipulador.",
+          "bookInsight": "El gaslighting busca socavar tu salud mental haciendo que dudes sistemáticamente de tus sentidos."
+        },
+        {
+          "id": "opt2",
+          "text": "Mantenerte firme en tu registro de los hechos (idealmente con notas previas) y finalizar la conversación.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Proteges tu integridad cognitiva mediante la validación documental y el distanciamiento.",
+          "bookInsight": "Contraatacar el gaslighting requiere un anclaje inquebrantable en registros objetivos y límites firmes."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Silencio Y Distanciamiento",
+      "title": "El Castigo del Silencio Indefinido",
+      "difficulty": "Media",
+      "badge": "Inmune al Silencio",
+      "scenarioDescription": "Tras un desacuerdo menor, tu pareja te aplica la ley del hielo, ignorando tus mensajes y tratándote como un fantasma en casa durante días.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Suplicar perdón repetidamente y buscar validación desesperada para romper el hielo.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "Premian el castigo con sumisión, enseñando al manipulador que esta táctica siempre funciona.",
+          "bookInsight": "El tratamiento de silencio es un castigo instrumental para forzar la capitulación y la dependencia emocional."
+        },
+        {
+          "id": "opt2",
+          "text": "Disfrutar de tu propia compañía, continuar con tu rutina y no mostrar alteración alguna.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Conviertes el arma del manipulador en una oportunidad de paz, privándole del combustible esperado.",
+          "bookInsight": "La indiferencia ante el silencio desactiva su efectividad como mecanismo de control."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Lastima Y Aislamiento",
+      "title": "La Invocación de Tristeza Crónica",
+      "difficulty": "Media",
+      "badge": "Empatía Estratégica",
+      "scenarioDescription": "Tu pareja relata constantemente su infancia trágica y cómo todos la han traicionado, apelando a tu instinto protector para justificar que dejes de ver a tus amigos.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Alejarte de tus amigos para dedicarte por completo a sanar y cuidar a tu pareja.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Cae en la trampa del aislamiento, facilitando el control total del manipulador sobre tu entorno.",
+          "bookInsight": "El uso de la lástima es un señuelo para desarmar tus defensas y lograr tu aislamiento progresivo."
+        },
+        {
+          "id": "opt2",
+          "text": "Ofrecer apoyo empático limitado pero mantener intactas tus redes de amistad y apoyo externo.",
+          "outcome": "Éxito",
+          "wisdomScore": 92,
+          "analysis": "Mantienes la compasión sin sacrificar tu soberanía social y tu red de seguridad.",
+          "bookInsight": "El aislamiento se previene manteniendo una vida social activa y un juicio independiente."
         }
       ]
     }
@@ -3158,38 +3262,467 @@ const LIBROS_DATA = {
   "flashcards": [
     {
       "id": "fc1",
-      "term": "Framing narrativo",
-      "definition": "Técnica psicológica estudiada en \"Preliminares E Introduccion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Aplicar el protocolo JADE-never: no Justifiques, Argumentes, Defiendas ni Expliques."
+      "bookNumber": 1,
+      "category": "Bombardeo De Amor Y Reflejo",
+      "term": "Bombardeo de Amor (Love Bombing)",
+      "definition": "Exceso masivo de afecto, atención y promesas al inicio de una relación para crear dependencia emocional rápida.",
+      "tacticalUse": "Generar un estado de intoxicación por dopamina que adormece el juicio crítico de la víctima.",
+      "countermeasure": "Establecer pausas temporales, observar la consistencia a largo plazo y mantener la distancia crítica."
     },
     {
       "id": "fc2",
-      "term": "Lenguaje corporal dominante",
-      "definition": "Técnica psicológica estudiada en \"Metodos 01 A 02 Bombardeo De Amor Y Reflejo\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Documentar patrones de comportamiento para identificar manipulación."
+      "bookNumber": 1,
+      "category": "Bombardeo De Amor Y Reflejo",
+      "term": "Reflejo (Mirroring)",
+      "definition": "Imitación consciente o inconsciente de los gustos, valores y personalidad de la víctima para generar falsa afinidad.",
+      "tacticalUse": "Hacer que la víctima crea que ha encontrado su 'alma gemela' o su reflejo perfecto.",
+      "countermeasure": "Hacer preguntas profundas sobre valores fundamentales y observar discrepancias con el tiempo."
     },
     {
       "id": "fc3",
-      "term": "Autoridad proyectada",
-      "definition": "Técnica psicológica estudiada en \"Metodos 03 A 04 Culpa E Intimidacion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Usar el \"test de la silla vacía\": ¿qué le dirías a un amigo en tu situación?"
+      "bookNumber": 1,
+      "category": "Culpa E Intimidacion",
+      "term": "Inducción de Culpa",
+      "definition": "Táctica para hacer que la víctima se sienta responsable de los errores, emociones negativas o frustraciones del manipulador.",
+      "tacticalUse": "Controlar el comportamiento de la víctima mediante la imposición de una deuda moral ficticia.",
+      "countermeasure": "Utilizar la asertividad y separar la responsabilidad propia de la ajena mediante preguntas clarificadoras."
     },
     {
       "id": "fc4",
-      "term": "Gaslighting sutil",
-      "definition": "Técnica psicológica estudiada en \"Metodos 05 A 07 Triangulacion Lugartenientes Y Obsesion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Reconocer los 7 signos de la Tríada Oscura en contactos cercanos."
+      "bookNumber": 1,
+      "category": "Culpa E Intimidacion",
+      "term": "Intimidación",
+      "definition": "Uso de la agresión verbal implícita, miradas, tonos de voz o amenazas veladas para infundir temor y sumisión.",
+      "tacticalUse": "Forzar la obediencia inmediata y evitar que la víctima cuestione la autoridad del manipulador.",
+      "countermeasure": "Mantener la calma, postura firme y verbalizar objetivamente la conducta intimidatoria sin entrar en pánico."
     },
     {
       "id": "fc5",
-      "term": "Microexpresiones",
-      "definition": "Técnica psicológica estudiada en \"Metodos 08 A 10 Falsas Promesas Amenaza Y Desgaste\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Establecer límites claros y comunicarlos asertivamente."
+      "bookNumber": 1,
+      "category": "Triangulacion Lugartenientes Y Obsesion",
+      "term": "Triangulación",
+      "definition": "Introducción de un tercero (real o imaginario) en la dinámica de pareja para generar celos, inseguridad y competencia.",
+      "tacticalUse": "Desestabilizar emocionalmente a la víctima y elevar el valor percibido del manipulador.",
+      "countermeasure": "Rechazar entrar en competencia, ignorar la comparación y mantener la soberanía emocional."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Triangulacion Lugartenientes Y Obsesion",
+      "term": "Lugartenientes (Lieutenants)",
+      "definition": "Personas del entorno del manipulador utilizadas como peones para difundir rumores, vigilar o validar su narrativa.",
+      "tacticalUse": "Ejercer presión social indirecta sobre la víctima sin ensuciar las manos del manipulador principal.",
+      "countermeasure": "Establecer límites claros con los intermediarios y negarse a participar en chismes o dinámicas de grupo."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "Falsas Promesas Amenaza Y Desgaste",
+      "term": "Falsas Promesas",
+      "definition": "Compromisos futuros de cambio o bonanza que nunca se materializan, utilizados como zanahoria para retener a la víctima.",
+      "tacticalUse": "Mantener la esperanza de la víctima activa mientras continúa el ciclo de abuso.",
+      "countermeasure": "Juzgar al manipulador exclusivamente por sus acciones presentes, ignorando las promesas futuras."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Falsas Promesas Amenaza Y Desgaste",
+      "term": "Desgaste (Wear Down)",
+      "definition": "Exhaustión psicológica y física provocada por conflictos constantes, drama y micro-abusos continuos.",
+      "tacticalUse": "Debilitar la resistencia de la víctima hasta que ceda ante cualquier demanda por pura fatiga.",
+      "countermeasure": "Priorizar el descanso, establecer rutinas de autocuidado y buscar apoyo externo neutral."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Difamacion Y Negacion",
+      "term": "Campaña de Difamación (Smear Campaign)",
+      "definition": "Difusión sistemática de mentiras, medias verdades o distorsiones sobre la víctima para arruinar su reputación.",
+      "tacticalUse": "Aislar a la víctima y asegurar que nadie crea su versión en caso de separación o denuncia.",
+      "countermeasure": "Mantener la dignidad, no entrar en guerras públicas de descalificación y apoyarse en testigos confiables."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Transgresion De Limites Y Gaslighting",
+      "term": "Gaslighting",
+      "definition": "Manipulación psicológica sistemática destinada a hacer que la víctima dude de su propia memoria, percepción y cordura.",
+      "tacticalUse": "Dominar cognitivamente a la víctima haciendo que dependa enteramente de la versión de la realidad del manipulador.",
+      "countermeasure": "Llevar un diario de eventos, registrar conversaciones objetivamente y validar la propia memoria con aliados sanos."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Transgresion De Limites Y Gaslighting",
+      "term": "Transgresión de Límites",
+      "definition": "Violación intencional de los espacios físicos, emocionales o temporales establecidos por la víctima.",
+      "tacticalUse": "Probar el nivel de sumisión y erosionar la autonomía personal paso a paso.",
+      "countermeasure": "Imponer consecuencias inmediatas y firmes ante cada invasión de los límites personales."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Conversaciones Circulares Y Omnipresencia",
+      "term": "Conversaciones Circulares",
+      "definition": "Debates interminables y sin lógica donde el tema cambia constantemente, impidiendo llegar a una conclusión.",
+      "tacticalUse": "Agotar mentalmente a la víctima y evitar que se resuelva cualquier responsabilidad del manipulador.",
+      "countermeasure": "Cortar la conversación mediante la técnica del disco rayado o abandonando el intercambio."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Lastima Y Aislamiento",
+      "term": "Apelación a la Lástima (Pity Play)",
+      "definition": "Uso de historias trágicas o victimismo crónico para despertar compasión y desactivar reclamos legítimos.",
+      "tacticalUse": "Invertir los roles de agresor y víctima, exigiendo cuidado en lugar de rendición de cuentas.",
+      "countermeasure": "Separar la compasión general de la rendición de cuentas por conductas abusivas específicas."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Lastima Y Aislamiento",
+      "term": "Aislamiento",
+      "definition": "Estrategia para cortar gradualmente los lazos de la víctima con amigos, familiares y redes de apoyo.",
+      "tacticalUse": "Eliminar fuentes externas de validación y realidad para asegurar el control absoluto del manipulador.",
+      "countermeasure": "Cultivar y proteger celosamente las relaciones independientes de la pareja."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Pasado Ira Esperanza Y Epilogo",
+      "term": "Ciclo de Ira y Esperanza",
+      "definition": "Alternancia entre explosiones de furia destructiva y periodos de arrepentimiento fingido y esperanza.",
+      "tacticalUse": "Crear un vínculo traumático (trauma bonding) adictivo basado en la imprevisibilidad.",
+      "countermeasure": "Reconocer el patrón cíclico y salir del sistema antes de la siguiente fase de explosión."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Bombardeo De Amor Y Reflejo",
+      "name": "Espejo Narcisista",
+      "severity": "Alta",
+      "icon": "fa-brain",
+      "howItWorks": "El manipulador analiza tus pasiones y debilidades para replicarlas artificialmente, creando una ilusión de conexión mística.",
+      "redFlags": [
+        "Coincidencia milagrosa en absolutamente todos los gustos y opiniones.",
+        "Acelerar los planes de vida y convivencia en semanas.",
+        "Adulación desmedida que contradice el tiempo real de conocerse."
+      ],
+      "counterScript": "Valoro tu entusiasmo, pero prefiero que vayamos con calma y nos conozcamos paso a paso.",
+      "deepMechanism": "Explota el sesgo de confirmación y la necesidad humana básica de pertenencia y validación profunda."
+    },
+    {
+      "id": "t2",
+      "category": "Transgresion De Limites Y Gaslighting",
+      "name": "Inversión de Realidad (Gaslighting)",
+      "severity": "Crítica",
+      "icon": "fa-eye",
+      "howItWorks": "Niega hechos probados y reescribe la narrativa para hacer que la víctima dude de su propia cordura y memoria.",
+      "redFlags": [
+        "Afirmar categóricamente que algo que presenciaste nunca ocurrió.",
+        "Acusarte de tener problemas de memoria o imaginación fértil.",
+        "Cambiar las reglas de un acuerdo sobre la marcha negando lo pactado."
+      ],
+      "counterScript": "Tengo claro lo que sucedió y lo registré con precisión. No voy a discutir sobre si mi memoria es válida.",
+      "deepMechanism": "Socava el sistema de anclaje cognitivo de la víctima, generando dependencia absoluta del criterio del abusador."
+    },
+    {
+      "id": "t3",
+      "category": "Triangulacion Lugartenientes Y Obsesion",
+      "name": "Triangulación Social",
+      "severity": "Alta",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Introduce terceras personas para generar rivalidad, celos y validar su sentido de superioridad.",
+      "redFlags": [
+        "Comentarios frecuentes sobre lo atento o atractivo que es un colega o conocido.",
+        "Comparaciones sutiles que te dejan en desventaja.",
+        "Uso de amigos o familiares para transmitir mensajes indirectos."
+      ],
+      "counterScript": "Me parece genial que esa persona te parezca interesante. No tengo ningún inconveniente al respecto.",
+      "deepMechanism": "Activa el miedo ancestral al rechazo de la tribu y la competencia por los recursos de atención y afecto."
+    },
+    {
+      "id": "t4",
+      "category": "Silencio Y Distanciamiento",
+      "name": "Aislamiento por Silencio",
+      "severity": "Media",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Utiliza la retirada afectiva y el silencio prolongado como castigo para forzar la sumisión sin utilizar la violencia física.",
+      "redFlags": [
+        "Ignorar preguntas directas y llamadas durante días sin causa justificada.",
+        "Tratarte como a un desconocido en el mismo espacio físico.",
+        "Condicionar el fin del silencio a una disculpa incondicional."
+      ],
+      "counterScript": "Veo que necesitas espacio. Cuando estés listo para hablar de forma constructiva, aquí estaré; mientras tanto, seguiré con mis actividades.",
+      "deepMechanism": "Dispara el dolor social en el cerebro (corteza cingulada anterior) similar al dolor físico, provocando desesperación por reconectar."
+    },
+    {
+      "id": "t5",
+      "category": "Conversaciones Circulares Y Omnipresencia",
+      "name": "Laberinto Circular",
+      "severity": "Media",
+      "icon": "fa-skull",
+      "howItWorks": "Desvía los argumentos mediante falacias lógicas, cambiando de tema constantemente para desgastar cognitivamente a la víctima.",
+      "redFlags": [
+        "Nunca llegar a una conclusión tras horas de discusión.",
+        "Acusarte de cosas pasadas cada vez que intentas señalar un error actual.",
+        "Sentirte mentalmente exhausto y confundido al terminar de hablar."
+      ],
+      "counterScript": "Nos estamos desviando del punto central. Si no vamos a abordar el tema específico, prefiero terminar esta conversación.",
+      "deepMechanism": "Sobrecarga la memoria de trabajo y la capacidad de procesamiento lógico de la víctima, induciendo parálisis analítica."
+    },
+    {
+      "id": "t6",
+      "category": "Lastima Y Aislamiento",
+      "name": "Arma de Lástima",
+      "severity": "Alta",
+      "icon": "fa-brain",
+      "howItWorks": "Exagera desgracias pasadas o inventa vulnerabilidades para desarmar los límites de la víctima mediante la compasión.",
+      "redFlags": [
+        "Historias donde siempre es la víctima inocente de todo el mundo.",
+        "Uso frecuente de su fragilidad emocional para evitar que le reclames errores.",
+        "Demanda de atención desproporcionada basada en su sufrimiento crónico."
+      ],
+      "counterScript": "Lamento lo que viviste en el pasado, pero eso no justifica la falta de respeto en nuestra interacción actual.",
+      "deepMechanism": "Manipula el instinto empático humano para inhibir la agresión defensiva y bloquear el juicio crítico."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "¿Cuál es el propósito principal del 'bombardeo de amor' al inicio de una relación narcisista?",
+      "options": [
+        "Demostrar un amor sincero y maduro",
+        "Crear una intoxicación rápida por dopamina y desarmar el juicio crítico de la víctima",
+        "Acelerar los trámites de convivencia por razones económicas",
+        "Evaluar la compatibilidad intelectual a largo plazo"
+      ],
+      "correctIndex": 1,
+      "explanation": "El bombardeo de amor satura los receptores de dopamina, cegando a la víctima ante señales de alerta tempranas y generando un vínculo de dependencia artificial."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "¿Cómo opera la técnica del 'reflejo' (mirroring) en la mente del objetivo?",
+      "options": [
+        "Obliga a la víctima a mirarse al espejo para mejorar su autoestima",
+        "Imita los gustos y valores de la víctima para crear una falsa ilusión de alma gemela",
+        "Refleja los defectos de la víctima para que se corrija",
+        "Evita que el manipulador muestre su verdadera identidad física"
+      ],
+      "correctIndex": 1,
+      "explanation": "El reflejo simula los intereses y la personalidad de la víctima para que esta sienta que ha encontrado a alguien idéntico a ella, acelerando la confianza."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "¿Qué busca un manipulador al aplicar la 'triangulación' con terceros?",
+      "options": [
+        "Mejorar la vida social de la pareja",
+        "Generar celos, inseguridad y competencia para elevar su propio valor percibido",
+        "Ayudar a la víctima a resolver conflictos familiares",
+        "Distribuir las tareas domésticas equitativamente"
+      ],
+      "correctIndex": 1,
+      "explanation": "La triangulación desestabiliza a la víctima al introducir competidores reales o imaginarios, asegurando que su atención y validación sigan enfocadas en el manipulador."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "¿Cuál es la característica principal de las 'conversaciones circulares'?",
+      "options": [
+        "Se realizan en forma de círculos para mayor comodidad",
+        "Llegan a conclusiones científicas avanzadas",
+        "Son debates interminables llenos de desvíos lógicos diseñados para desgastar mentalmente a la víctima",
+        "Buscan la reconciliación rápida y efectiva"
+      ],
+      "correctIndex": 2,
+      "explanation": "Las conversaciones circulares atrapan a la víctima en un laberinto de argumentos cambiantes hasta agotarla cognitivamente, impidiendo que se exija responsabilidad."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "¿Qué función táctica cumple el 'gaslighting' en la dinámica de manipulación?",
+      "options": [
+        "Ahorrar energía eléctrica en el hogar",
+        "Hacer dudar a la víctima de su memoria y cordura para subordinar su realidad a la del abusador",
+        "Fomentar la creatividad artística",
+        "Mejorar la comunicación no verbal"
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting erosiona la confianza de la víctima en sus propios sentidos y juicio, volviéndola dependiente de la versión del manipulador."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "¿Por qué el manipulador utiliza el 'tratamiento de silencio'?",
+      "options": [
+        "Porque necesita meditar en silencio",
+        "Como castigo instrumental para forzar la capitulación y la búsqueda desesperada de aprobación",
+        "Para ahorrar recursos vocales",
+        "Porque respeta el espacio personal de la víctima"
+      ],
+      "correctIndex": 1,
+      "explanation": "El silencio es un arma punitiva que explota el miedo al rechazo social, obligando a la víctima a ceder para restaurar el contacto."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Bombardeo de Amor",
+      "category": "Bombardeo De Amor Y Reflejo",
+      "definition": "Exceso desmedido de afecto y atención inicial para enganchar emocionalmente a la víctima.",
+      "practicalExample": "Regalar joyas caras y decir 'eres el amor de mi vida' tras conocerse hace tres días."
+    },
+    {
+      "id": "g2",
+      "term": "Reflejo Psicológico",
+      "category": "Bombardeo De Amor Y Reflejo",
+      "definition": "Copia artificial de los rasgos y gustos de la víctima para generar afinidad instantánea.",
+      "practicalExample": "Afirmar que te encantan los mismos libros y pasatiempos oscuros que acabas de mencionar."
+    },
+    {
+      "id": "g3",
+      "term": "Inducción de Culpa",
+      "category": "Culpa E Intimidacion",
+      "definition": "Estrategia para hacer que la víctima asuma responsabilidades ajenas mediante chantaje moral.",
+      "practicalExample": "Decir: 'Si realmente me quisieras, no trabajarías tanto este fin de semana'."
+    },
+    {
+      "id": "g4",
+      "term": "Intimidación Velada",
+      "category": "Culpa E Intimidacion",
+      "definition": "Amenazas implícitas o lenguaje corporal agresivo para inducir miedo y sumisión.",
+      "practicalExample": "Mirar fijamente sin hablar y golpear los dedos contra la mesa al recibir una objeción."
+    },
+    {
+      "id": "g5",
+      "term": "Triangulación",
+      "category": "Triangulacion Lugartenientes Y Obsesion",
+      "definition": "Inclusión de un tercero para generar inseguridad y celos competitivos.",
+      "practicalExample": "Mencionar repetidamente cuánto valora la opinión de su ex pareja sobre asuntos actuales."
+    },
+    {
+      "id": "g6",
+      "term": "Lugartenientes",
+      "category": "Triangulacion Lugartenientes Y Obsesion",
+      "definition": "Aliados o peones utilizados por el manipulador para vigilar o influir en la víctima.",
+      "practicalExample": "Un amigo común que te llama para decirte lo mal que la está pasando el manipulador por tu culpa."
+    },
+    {
+      "id": "g7",
+      "term": "Falsas Promesas",
+      "category": "Falsas Promesas Amenaza Y Desgaste",
+      "definition": "Compromisos de cambio futuros utilizados para retener a la víctima en el ciclo de abuso.",
+      "practicalExample": "Prometer que la próxima semana irán a terapia de pareja, sin intención de hacerlo."
+    },
+    {
+      "id": "g8",
+      "term": "Desgaste",
+      "category": "Falsas Promesas Amenaza Y Desgaste",
+      "definition": "Fatiga mental y física provocada por conflictos continuos y micro-abusos.",
+      "practicalExample": "Sentirse agotado y sin voluntad después de discutir toda la noche sobre un tema trivial."
+    },
+    {
+      "id": "g9",
+      "term": "Campaña de Difamación",
+      "category": "Difamacion Y Negacion",
+      "definition": "Difusión de falsedades para destruir la reputación y credibilidad de la víctima.",
+      "practicalExample": "Contar a los compañeros de trabajo que tienes problemas de estabilidad mental."
+    },
+    {
+      "id": "g10",
+      "term": "Gaslighting",
+      "category": "Transgresion De Limites Y Gaslighting",
+      "definition": "Manipulación sistemática para hacer dudar a la víctima de su propia memoria y percepción.",
+      "practicalExample": "Negar haber escondido las llaves del auto y acusarte de volverte olvidadizo."
+    },
+    {
+      "id": "g11",
+      "term": "Transgresión de Límites",
+      "category": "Transgresion De Limites Y Gaslighting",
+      "definition": "Violación intencional de los espacios o normas personales establecidas por la víctima.",
+      "practicalExample": "Revisar el teléfono celular sin permiso tras haber acordado respetar la privacidad."
+    },
+    {
+      "id": "g12",
+      "term": "Conversaciones Circulares",
+      "category": "Conversaciones Circulares Y Omnipresencia",
+      "definition": "Discusiones interminables y sin lógica que desvían el tema central para desgastar a la víctima.",
+      "practicalExample": "Terminar discutiendo sobre un error que cometiste hace cinco años al intentar reclamar un retraso actual."
+    },
+    {
+      "id": "g13",
+      "term": "Apelación a la Lástima",
+      "category": "Lastima Y Aislamiento",
+      "definition": "Uso de vulnerabilidades fingidas o exageradas para desactivar reclamos legítimos.",
+      "practicalExample": "Comenzar a llorar y hablar de su infancia difícil cuando le señalas una infidelidad."
+    },
+    {
+      "id": "g14",
+      "term": "Aislamiento",
+      "category": "Lastima Y Aislamiento",
+      "definition": "Corte gradual de las redes de apoyo social y familiar de la víctima.",
+      "practicalExample": "Criticar constantemente a tus amigos hasta que dejas de frecuentarlos por incomodidad."
+    },
+    {
+      "id": "g15",
+      "term": "Ciclo de Ira y Esperanza",
+      "category": "Pasado Ira Esperanza Y Epilogo",
+      "definition": "Alternancia adictiva entre estallidos de furia y periodos de reconciliación idealizada.",
+      "practicalExample": "Gritos violentos seguidos al día siguiente por flores, disculpas y promesas eternas."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "DETECCIÓN",
+      "title": "La Sonrisa Congelada",
+      "cue": "Sonrisa en la que la boca se estira de manera mecánica mientras los ojos permanecen fríos, in expresivos o tensos.",
+      "interpretation": "Indica una falta de empatía genuina y que la expresión emocional está siendo simulada para cumplir un propósito estratégico.",
+      "practicalDrill": "Observa el área orbicular de los ojos (patas de gallo) al momento de una sonrisa para verificar si hay genuinidad o simulación."
+    },
+    {
+      "id": "bl2",
+      "category": "CALIBRACIÓN",
+      "title": "Invasión de Espacio Proxémico",
+      "cue": "Acercarse excesivamente al interlocutor invadiendo su distancia personal sin señales de complicidad previa.",
+      "interpretation": "Táctica de intimidación no verbal diseñada para probar el nivel de sumisión y desestabilizar los límites físicos de la víctima.",
+      "practicalDrill": "Practica dar un paso atrás de manera natural para restablecer tu espacio personal sin mostrar temor ni agresividad."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Micro-expresiones de Desprecio",
+      "cue": "Elevación unilateral de un rincón de los labios durante una fracción de segundo mientras se habla o se escucha.",
+      "interpretation": "Señal universal de desprecio y sensación de superioridad oculta hacia la persona que está enfrente.",
+      "practicalDrill": "Entrena tu atención periférica para detectar asimetrías faciales fugaces durante conversaciones tensas."
+    },
+    {
+      "id": "bl4",
+      "category": "DETECCIÓN",
+      "title": "Postura de Bloqueo y Torso Rígido",
+      "cue": "Brazos cruzados firmemente con hombros encogidos y torso girado en ángulo opuesto al interlocutor durante una supuesta reconciliación.",
+      "interpretation": "Rechazo interno subconsciente que contradice las palabras amables que se estén pronunciando en ese momento.",
+      "practicalDrill": "Compara la congruencia entre el mensaje verbal de afecto y la postura corporal de cierre defensivo."
+    },
+    {
+      "id": "bl5",
+      "category": "CALIBRACIÓN",
+      "title": "Mirada de Barrido Evaluativo",
+      "cue": "Examinar de arriba a abajo el cuerpo de la persona con una expresión inexpresiva o evaluativa.",
+      "interpretation": "Intento consciente o inconsciente de objetivar al interlocutor y establecer una jerarquía de poder y juicio.",
+      "practicalDrill": "Mantén contacto visual firme y neutro sin mostrar incomodidad ni bajar la mirada ante el escaneo."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "Anclaje de Calma Postural",
+      "cue": "Mantener respiración diafragmática lenta, hombros relajados y manos abiertas ante un ataque verbal o intimidación.",
+      "interpretation": "Bloquea el contagio emocional del estrés y proyecta un escudo de autogobierno que frustra al manipulador.",
+      "practicalDrill": "Realiza ciclos de respiración 4x4 mientras mantienes las manos visibles y relajadas ante situaciones de alta presión."
     }
   ]
 };

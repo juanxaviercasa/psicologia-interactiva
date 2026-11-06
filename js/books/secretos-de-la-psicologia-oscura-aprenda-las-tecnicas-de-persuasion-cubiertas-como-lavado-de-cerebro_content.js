@@ -1,3 +1,4 @@
+// Contenido enriquecido para Secretos de la Psicología Oscura: Persuasión y PNL
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -4118,6 +4119,622 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "cs1",
+      "category": "Manipulación y Ciclo Forzado",
+      "title": "La trampa del problema fabricado en la negociación",
+      "difficulty": "Alta",
+      "badge": "Arquitecto de Contramedidas",
+      "scenarioDescription": "Un colega de la oficina crea deliberadamente un cuello de botella en un proyecto compartido (El Ciclo Forzado), haciéndote creer que tú cometiste un error de comunicación, para luego ofrecerse a solucionarlo a cambio de que asumas su carga de trabajo.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Aceptar su ayuda inmediatamente para evitar el conflicto y terminar el proyecto.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Coges el anzuelo del ciclo forzado, validando su manipulación y quedando subordinado a su falsa solución.",
+          "bookInsight": "El Ciclo Forzado del Problema, la Reacción y la Solución busca fabricar dependencias artificiales."
+        },
+        {
+          "id": "opt2",
+          "text": "Desglosar objetivamente el flujo de tareas mediante registros y desarmar el supuesto error sin alterarse.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Al exponer la trazabilidad del proceso, neutralizas el problema fabricado y devuelves la responsabilidad al emisor.",
+          "bookInsight": "La conciencia de los patrones oscuros destruye la eficacia de la manipulación indirecta."
+        }
+      ]
+    },
+    {
+      "id": "cs2",
+      "category": "Promoción de la Ignorancia",
+      "title": "El entorno de mediocridad inducida",
+      "difficulty": "Media",
+      "badge": "Escudo Cognitivo",
+      "scenarioDescription": "Tu supervisor minimiza constantemente la importancia de aprender nuevas habilidades analíticas en el equipo, argumentando que 'las cosas complejas solo confunden', fomentando un clima de ignorancia cómoda.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Adaptarte al nivel del grupo y dejar de proponer mejoras técnicas.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Cae en la trampa de la mediocridad inducida, limitando tu propio crecimiento profesional para satisfacer la necesidad de control del líder.",
+          "bookInsight": "La promoción de la ignorancia y la mediocridad es una estrategia para mantener el poder a través de la reducción de alternativas."
+        },
+        {
+          "id": "opt2",
+          "text": "Continuar capacitándote por cuenta propia y aplicar las mejoras de manera sutil y autónoma.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Rompes el cerco de la ignorancia manteniendo tu soberanía cognitiva intacta.",
+          "bookInsight": "La autonomía intelectual es la mayor defensa contra la manipulación ambiental."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Intrusión Psicológica",
+      "title": "El perfilamiento invasivo en una cita de negocios",
+      "difficulty": "Alta",
+      "badge": "Analista Táctico",
+      "scenarioDescription": "Durante una reunión inicial, un socio comercial utiliza técnicas para averiguar tus mayores inseguridades y miedos personales bajo el pretexto de 'conocerte mejor a nivel humano'.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Compartir tus vulnerabilidades para construir una falsa sensación de intimidad y confianza rápida.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "Entregas información asimétrica que será utilizada en tu contra en futuras negociaciones.",
+          "bookInsight": "Saber más sobre una persona de lo que ella misma sabe otorga un poder de influencia desmedido."
+        },
+        {
+          "id": "opt2",
+          "text": "Establecer límites claros en la conversación, redirigiendo el foco estrictamente hacia los objetivos profesionales.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Bloqueas la extracción de datos íntimos y mantienes la relación en un plano estrictamente profesional.",
+          "bookInsight": "La protección de la información personal es el pilar de la autodefensa psicológica."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Programación Neurolingüística (PNL)",
+      "title": "El uso del Patrón Swish en una discusión de pareja",
+      "difficulty": "Media",
+      "badge": "Maestro PNL",
+      "scenarioDescription": "Tu pareja intenta anclar una discusión pasada a un momento actual de tensión utilizando imágenes mentales negativas recurrentes (Patrón Swish distorsionado).",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Entrar en el juego defensivo justificando los errores del pasado mencionados.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "Permites que el anclaje negativo domine la dinámica actual del conflicto.",
+          "bookInsight": "El Patrón Swish redirige los estados internos modificando las submodalidades de las imágenes mentales."
+        },
+        {
+          "id": "opt2",
+          "text": "Reconocer la táctica, separar el evento actual del pasado y exigir anclar soluciones en lugar de culpas.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Desarticules el patrón de condicionamiento y elevas la calidad comunicativa de la interacción.",
+          "bookInsight": "Reformular y cambiar el marco de referencia neutraliza los intentos de condicionamiento."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Hipnosis y Sugestión",
+      "title": "La inducción de trance conversacional en ventas",
+      "difficulty": "Alta",
+      "badge": "Descodificador de Trances",
+      "scenarioDescription": "Un vendedor utiliza un tono monótono, pausas calculadas y preguntas presuposicionales para inducir un estado de trance conversacional y lograr que firmes un contrato sin leer los anexos.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Firmar el documento rápidamente para salir de la atmósfera pesada que sientes en el ambiente.",
+          "outcome": "Fallo",
+          "wisdomScore": 15,
+          "analysis": "Caíste completamente en la sugestión hipnótica conversacional y cediste tu capacidad crítica.",
+          "bookInsight": "La hipnosis no es magia de escenario; es el uso de patrones lingüísticos para bypassar el factor crítico de la mente."
+        },
+        {
+          "id": "opt2",
+          "text": "Interrumpir el ritmo pidiendo un receso de 10 minutos y revisando el contrato de pie y en silencio.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Rompes el patrón rítmico de la inducción hipnótica y restauras el pensamiento analítico.",
+          "bookInsight": "El cambio de postura física y la ruptura de patrón disuelven cualquier trance conversacional."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Reformulación Estratégica",
+      "title": "El reencuadre de objeciones en una junta directiva",
+      "difficulty": "Media",
+      "badge": "Estratega Verbal",
+      "scenarioDescription": "Un opositor en la junta directiva intenta desacreditar tu propuesta tachándola de 'arriesgada y costosa'.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Defenderte argumentando que el costo es bajo y el riesgo es mínimo.",
+          "outcome": "Fallo",
+          "wisdomScore": 45,
+          "analysis": "Te posicionas a la defensiva aceptando los términos y el marco mental impuesto por tu rival.",
+          "bookInsight": "Reformular (Reframing) consiste en cambiar el significado de una situación alterando su marco de referencia."
+        },
+        {
+          "id": "opt2",
+          "text": "Aceptar la premisa reformulándolas como 'inversión necesaria de alta rentabilidad y bajo margen de error'.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Transformas una crítica negativa en la principal fortaleza y justificación de tu proyecto.",
+          "bookInsight": "El verdadero poder de la reformulación radica en apropiarse del marco y cambiar la perspectiva del auditorio."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc1",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Psicología Oscura",
+      "definition": "Estudio y aplicación de tácticas de influencia, persuasión y manipulación que explotan vulnerabilidades humanas para obtener control.",
+      "tacticalUse": "Identificar intenciones ocultas en interacciones sociales y negociaciones complejas.",
+      "countermeasure": "Desarrollo de autoconsciencia y análisis crítico de las motivaciones ajenas."
+    },
+    {
+      "id": "fc2",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Ciclo Forzado (Problema-Reacción-Solución)",
+      "definition": "Estrategia donde el manipulador crea un problema artificial, espera la reacción de estrés y ofrece la solución que le beneficia.",
+      "tacticalUse": "Generar dependencia artificial en entornos laborales o relacionales.",
+      "countermeasure": "Auditar la procedencia de los problemas repentinos y exigir trazabilidad."
+    },
+    {
+      "id": "fc3",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Promoción de la Ignorancia",
+      "definition": "Táctica orientada a limitar el acceso a la información y desalentar el pensamiento crítico para mantener el dominio.",
+      "tacticalUse": "Controlar a grupos o subordinados reduciendo sus alternativas de crecimiento.",
+      "countermeasure": "Búsqueda activa de información independiente y fomento de la educación continua."
+    },
+    {
+      "id": "fc4",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Perfilamiento Invasivo",
+      "definition": "Extracción sutil de información íntima y miedos profundos para utilizarlos como palancas de influencia.",
+      "tacticalUse": "Conocer los puntos de quiebre de una persona para doblegar su voluntad.",
+      "countermeasure": "Establecer límites estrictos de privacidad y no compartir vulnerabilidades prematuramente."
+    },
+    {
+      "id": "fc5",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Programación Neurolingüística (PNL)",
+      "definition": "Modelo que examina cómo interactúan los pensamientos, el lenguaje y los patrones de comportamiento para producir resultados.",
+      "tacticalUse": "Modificar estados internos propios y ajenos mediante el uso calibrado del lenguaje.",
+      "countermeasure": "Conocer los presupuestos de la PNL para no ser sugestionado inconscientemente."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Trance Conversacional",
+      "definition": "Estado de atención focalizada inducido mediante patrones lingüísticos dentro de una conversación normal.",
+      "tacticalUse": "Bypasar el factor crítico de la mente para insertar sugerencias persuasivas.",
+      "countermeasure": "Romper el ritmo de la conversación, hacer preguntas directas o cambiar de postura."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Patrón Swish",
+      "definition": "Técnica de PNL diseñada para reemplazar una imagen mental limitante por una imagen empoderadora.",
+      "tacticalUse": "Modificar hábitos y romper patrones de respuesta emocional automática.",
+      "countermeasure": "Identificar el estímulo visual anclado y cuestionar su validez lógica."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Reformulación (Reframing)",
+      "definition": "Cambio del marco de referencia de una situación para modificar su significado y percepción.",
+      "tacticalUse": "Neutralizar objeciones y transformar críticas en ventajas competitivas.",
+      "countermeasure": "Mantenerse firme en los datos objetivos y no aceptar definiciones ajenas sin análisis."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Factor Crítico",
+      "definition": "Filtro mental lógico que evalúa y rechaza información que no coincide con las creencias actuales.",
+      "tacticalUse": "Superar las defensas lógicas mediante técnicas de distracción y sobrecarga sensorial.",
+      "countermeasure": "Mantenerse alerta y analítico ante ofertas demasiado atractivas o discursos confusos."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Asimetría de Información",
+      "definition": "Situación donde una parte posee más o mejor información que la otra, utilizándola para obtener ventaja.",
+      "tacticalUse": "Controlar los tiempos y las decisiones en una negociación de alto nivel.",
+      "countermeasure": "Igualar el flujo de información mediante investigación previa y transparencia forzada."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Anclaje Emocional",
+      "definition": "Asociación entre un estímulo sensorial específico y una respuesta emocional intensa.",
+      "tacticalUse": "Desencadenar estados de sumisión o inseguridad mediante gestos o palabras clave.",
+      "countermeasure": "Desvincular conscientemente el estímulo de la emoción mediante pausas reflexivas."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Submodalidades",
+      "definition": "Las cualidades sensoriales específicas de una representación mental (brillo, tamaño, distancia, tono).",
+      "tacticalUse": "Alterar la intensidad de los recuerdos y miedos modificando sus características internas.",
+      "countermeasure": "Tomar el control consciente de la narrativa visual interna."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Sugestión Posthipnótica",
+      "definition": "Indicación dada durante un estado de trance para ser ejecutada posteriormente ante un desencadenante.",
+      "tacticalUse": "Programar conductas automáticas a futuro en personas sugestionables.",
+      "countermeasure": "Evaluar la autonomía de las propias decisiones y rechazar mandatos externos automatizados."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Gaslighting Táctico",
+      "definition": "Acción sistemática para hacer que alguien dude de su propia percepción, memoria o cordura.",
+      "tacticalUse": "Minar la confianza de la contraparte para dominar la dinámica relacional.",
+      "countermeasure": "Registrar por escrito hechos, acuerdos y conversaciones para mantener la objetividad."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Presuposición",
+      "definition": "Estructura lingüística que da por sentado un hecho dentro de una afirmación mayor sin permitir su debate.",
+      "tacticalUse": "Introducir premisas manipuladoras ocultas bajo afirmaciones aparentemente inofensivas.",
+      "countermeasure": "Desglosar las frases del interlocutor para identificar y cuestionar los supuestos ocultos."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación Conductual",
+      "name": "El Ciclo Forzado",
+      "severity": "Alta",
+      "icon": "fa-skull",
+      "howItWorks": "Crea una crisis simulada que genera estrés, obligando a la víctima a aceptar una solución impuesta.",
+      "redFlags": [
+        "Problemas repentinos sin causa aparente",
+        "Urgencia extrema injustificada",
+        "Ofrecimiento inmediato de ayuda interesada"
+      ],
+      "counterScript": "Detengamos el proceso. Analicemos el origen de este problema antes de tomar cualquier decisión precipitada.",
+      "deepMechanism": "Explota la respuesta de lucha o huida, reduciendo la capacidad del córtex prefrontal para el análisis lógico."
+    },
+    {
+      "id": "t2",
+      "category": "Control Cognitivo",
+      "name": "Promoción de la Ignorancia",
+      "severity": "Media",
+      "icon": "fa-eye",
+      "howItWorks": "Restringe el acceso al conocimiento crítico para fomentar la dependencia intelectual y laboral.",
+      "redFlags": [
+        "Desaliento activo hacia la capacitación",
+        "Simplificación excesiva de procesos complejos",
+        "Ataques sutiles a la curiosidad intelectual"
+      ],
+      "counterScript": "Agradezco tu perspectiva, pero prefiero profundizar técnicamente en este tema por mi cuenta.",
+      "deepMechanism": "Aprovecha la inercia cognitiva y el sesgo de conformidad social para mantener estructuras de poder."
+    },
+    {
+      "id": "t3",
+      "category": "Intrusión Psicológica",
+      "name": "Perfilamiento Invasivo",
+      "severity": "Crítica",
+      "icon": "fa-brain",
+      "howItWorks": "Extrae información íntima y puntos débiles bajo el disfraz de una conversación empática o amistosa.",
+      "redFlags": [
+        "Preguntas personales demasiado intrusivas en poco tiempo",
+        "Uso de falsas confidencias para inducir reciprocidad",
+        "Atención excesiva a tus inseguridades"
+      ],
+      "counterScript": "Prefiero mantener mi vida personal al margen de este ámbito profesional.",
+      "deepMechanism": "Manipula la norma social de reciprocidad para extraer asimetría de información vulnerable."
+    },
+    {
+      "id": "t4",
+      "category": "Condicionamiento PNL",
+      "name": "Anclaje y Patrón Swish",
+      "severity": "Alta",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Asocia estímulos sensoriales a estados emocionales específicos para gobernar las reacciones de la víctima.",
+      "redFlags": [
+        "Uso repetitivo de gestos o palabras en momentos de tensión",
+        "Intentos de asociar imágenes negativas a tus proyectos",
+        "Cambios bruscos en el tono emocional inducidos por el otro"
+      ],
+      "counterScript": "Ese recuerdo no tiene relación con la situación actual que estamos discutiendo.",
+      "deepMechanism": "Aprovecha el condicionamiento clásico pavloviano adaptado a representaciones neurolingüísticas internas."
+    },
+    {
+      "id": "t5",
+      "category": "Sugestión Hipnótica",
+      "name": "Trance Conversacional",
+      "severity": "Crítica",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Utiliza patrones rítmicos, pausas y presuposiciones para eludir el factor crítico de la mente.",
+      "redFlags": [
+        "Discurso monótono y altamente hipnótico",
+        "Presuposiciones constantes en las preguntas",
+        "Sensación de fatiga mental durante la charla"
+      ],
+      "counterScript": "Necesito hacer una pausa, ponernos de pie y revisar esto con total claridad analítica.",
+      "deepMechanism": "Satura el canal consciente de procesamiento, permitiendo la implantación directa de sugestiones en el inconsciente."
+    },
+    {
+      "id": "t6",
+      "category": "Estrategia Verbal",
+      "name": "Reformulación Maliciosa",
+      "severity": "Media",
+      "icon": "fa-brain",
+      "howItWorks": "Modifica el marco de una declaración para cambiar su sentido y debilitar la posición del oponente.",
+      "redFlags": [
+        "Interpretación tergiversada de tus palabras",
+        "Uso de etiquetas negativas para definir tus propuestas",
+        "Inversión de roles en la responsabilidad del conflicto"
+      ],
+      "counterScript": "No he dicho eso. Mi planteamiento exacto es el siguiente...",
+      "deepMechanism": "Manipula el marco de referencia contextual, alterando la percepción de terceros sobre el mensaje original."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal de la táctica conocida como 'El Ciclo Forzado' en la psicología oscura?",
+      "options": [
+        "Acelerar el aprendizaje de nuevas habilidades en equipo.",
+        "Fabricar un problema artificial para ofrecer una solución que beneficie al manipulador.",
+        "Fomentar la transparencia comunicativa en las organizaciones.",
+        "Establecer límites saludables en las relaciones interpersonales."
+      ],
+      "correctIndex": 1,
+      "explanation": "El ciclo forzado busca crear dependencia artificial mediante la simulación de problemas y la posterior imposición de soluciones interesadas."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "¿Qué busca lograr la 'Promoción de la Ignorancia y la Mediocridad' según el análisis de Brian Covert McBride?",
+      "options": [
+        "Mantener el control y el poder reduciendo las alternativas y el pensamiento crítico.",
+        "Reducir el estrés laboral mediante la simplificación de tareas.",
+        "Mejorar la cohesión grupal a través de intereses comunes básicos.",
+        "Optimizar los tiempos de entrega en proyectos técnicos."
+      ],
+      "correctIndex": 0,
+      "explanation": "Limitar el acceso al conocimiento y desalentar la crítica son métodos clásicos para conservar jerarquías de poder abusivas."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "¿Por qué el perfilamiento invasivo de vulnerabilidades es peligroso en las negociaciones?",
+      "options": [
+        "Porque genera una amistad demasiado duradera.",
+        "Porque otorga al manipulador información asimétrica para usarla como palanca de control.",
+        "Porque incrementa la empatía de forma desmedida.",
+        "Porque acelera los procesos burocráticos."
+      ],
+      "correctIndex": 1,
+      "explanation": "Conocer los puntos débiles y miedos profundos de alguien permite al manipulador doblegar su voluntad con precisión quirúrgica."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "¿En qué consiste fundamentalmente el 'Patrón Swish' dentro de la PNL descrita en la obra?",
+      "options": [
+        "En anclar un estado de fatiga crónica.",
+        "En reemplazar una imagen mental limitante por una imagen empoderadora.",
+        "En confundir al interlocutor mediante jerga técnica.",
+        "En acelerar el ritmo cardíaco durante una discusión."
+      ],
+      "correctIndex": 1,
+      "explanation": "El Patrón Swish es una herramienta de PNL diseñada para modificar patrones de respuesta interna alterando las representaciones visuales."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "¿Cómo se define el 'Factor Crítico' en el contexto de la hipnosis y la persuasión oscura?",
+      "options": [
+        "El momento exacto en que una negociación fracasa.",
+        "El filtro mental lógico que evalúa y rechaza información contraria a las creencias actuales.",
+        "La habilidad para detectar mentiras corporales.",
+        "El tiempo límite para firmar un contrato."
+      ],
+      "correctIndex": 1,
+      "explanation": "El factor crítico es la barrera lógica que protege a la mente consciente; las técnicas avanzadas buscan eludirlo."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "¿Cuál es la función táctica de la 'Reformulación' (Reframing)?",
+      "options": [
+        "Cambiar el marco de referencia de una situación para modificar su significado y neutralizar objeciones.",
+        "Repetir exactamente los mismos argumentos hasta convencer al oponente.",
+        "Ocultar información financiera clave en un contrato.",
+        "Generar un estado de trance hipnótico profundo."
+      ],
+      "correctIndex": 0,
+      "explanation": "Reformular permite apoderarse del marco de la conversación, transformando críticas en ventajas o cambiando la perspectiva del problema."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Psicología Oscura",
+      "category": "Concepto Central",
+      "definition": "Estudio de las tácticas de manipulación y persuasión coercitiva orientadas al dominio interpersonal.",
+      "practicalExample": "Detectar cuando un compañero de trabajo utiliza tácticas de culpa para obligarte a hacer sus tareas."
+    },
+    {
+      "id": "g2",
+      "term": "Ciclo Forzado",
+      "category": "Manipulación",
+      "definition": "Creación deliberada de un problema para vender posteriormente la solución deseada.",
+      "practicalExample": "Inventar un fallo en el servidor para ofrecerse a repararlo a cambio de un favor personal."
+    },
+    {
+      "id": "g3",
+      "term": "Mediocridad Inducida",
+      "category": "Control",
+      "definition": "Estrategia para frenar el desarrollo intelectual y técnico de un grupo con el fin de dominarlo.",
+      "practicalExample": "Ridiculizar las propuestas de mejora continua en una empresa para mantener el statu quo."
+    },
+    {
+      "id": "g4",
+      "term": "Perfilamiento Invasivo",
+      "category": "Psicología",
+      "definition": "Extracción sistemática de inseguridades y miedos personales bajo apariencia de empatía.",
+      "practicalExample": "Hacer preguntas muy personales en una entrevista informal para usar esa información después."
+    },
+    {
+      "id": "g5",
+      "term": "Programación Neurolingüística",
+      "category": "PNL",
+      "definition": "Modelo de comunicación y cambio enfocado en la relación entre procesos neurológicos y lenguaje.",
+      "practicalExample": "Utilizar palabras basadas en el canal visual ('veamos esto claramente') para conectar mejor."
+    },
+    {
+      "id": "g6",
+      "term": "Trance Conversacional",
+      "category": "Hipnosis",
+      "definition": "Estado de atención focalizada inducido mediante patrones lingüísticos sutiles.",
+      "practicalExample": "Vendedor que ralentiza su tono de voz para conseguir que el cliente acepte cláusulas sin leerlas."
+    },
+    {
+      "id": "g7",
+      "term": "Patrón Swish",
+      "category": "PNL",
+      "definition": "Técnica para sustituir imágenes mentales limitantes por constructos empoderadores.",
+      "practicalExample": "Visualizar un éxito pasado antes de afrontar una negociación difícil para disipar el miedo."
+    },
+    {
+      "id": "g8",
+      "term": "Factor Crítico",
+      "definition": "Filtro mental lógico que evalúa la veracidad de los inputs externos.",
+      "practicalExample": "Cuestionar una oferta comercial demasiado buena para ser verdad en lugar de aceptarla de inmediato."
+    },
+    {
+      "id": "g9",
+      "term": "Reformulación",
+      "definition": "Cambio del marco interpretativo de un hecho para alterar su valor y percepción.",
+      "practicalExample": "Llamar 'oportunidad de aprendizaje' a un error operativo grave durante una reunión."
+    },
+    {
+      "id": "g10",
+      "term": "Asimetría de Información",
+      "definition": "Desequilibrio en el conocimiento disponible entre dos partes en una transacción.",
+      "practicalExample": "Ocultar datos de mercado a un socio para conservar el control de la negociación."
+    },
+    {
+      "id": "g11",
+      "term": "Anclaje Emocional",
+      "definition": "Asociación estímulo-respuesta que automatiza reacciones afectivas.",
+      "practicalExample": "Asociar una frase específica a un estado de calma mediante repetición consciente."
+    },
+    {
+      "id": "g12",
+      "term": "Submodalidades",
+      "definition": "Atributos sensoriales finos de las representaciones mentales internas.",
+      "practicalExample": "Alejar mentalmente la imagen de un problema para disminuir su impacto emocional."
+    },
+    {
+      "id": "g13",
+      "term": "Sugestión Posthipnótica",
+      "definition": "Orden implantada en trance para ejecutarse ante un estímulo posterior.",
+      "practicalExample": "Sentir rechazo automático hacia un producto tras una campaña publicitaria altamente sugestiva."
+    },
+    {
+      "id": "g14",
+      "term": "Gaslighting Táctico",
+      "definition": "Manipulación orientada a desestabilizar la percepción de la realidad del oponente.",
+      "practicalExample": "Negar haber dicho algo que consta por escrito para hacer dudar a la otra persona."
+    },
+    {
+      "id": "g15",
+      "term": "Presuposición",
+      "definition": "Estructura lingüística que da por sentado un hecho dentro de una afirmación.",
+      "practicalExample": "Preguntar '¿Cuándo empezamos a trabajar?' en lugar de '¿Quieres trabajar con nosotros?'."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "CALIBRACIÓN",
+      "title": "Calibración del Trance Conversacional",
+      "cue": "Parpadeo disminuido, mirada fija en un punto y relajación repentina del tono muscular facial.",
+      "interpretation": "Indica que el sujeto ha entrado en un estado de atención focalizada o trance conversacional, bypassando su factor crítico.",
+      "practicalDrill": "Observa vídeos de negociadores expertos y detecta el exacto momento en que el interlocutor pierde el parpadeo reflejo."
+    },
+    {
+      "id": "bl2",
+      "category": "DETECCIÓN",
+      "title": "Detección del Ciclo Forzado en la Postura",
+      "cue": "Inclinación súbita hacia adelante acompañada de gestos de urgencia y tensión en los hombros del emisor.",
+      "interpretation": "Señala la fabricación artificial de una crisis destinada a presionar una respuesta inmediata y no meditada.",
+      "practicalDrill": "Simula una situación de falsa urgencia frente a un espejo y observa cómo cambia tu lenguaje corporal para exigir control."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Ruptura de Patrón Postural",
+      "cue": "Cruzarse de brazos, cambiar de asiento o levantarse físicamente durante una conversación tensa.",
+      "interpretation": "Rompe el ritmo de inducción hipnótica o el anclaje emocional que el manipulador intenta establecer sobre ti.",
+      "practicalDrill": "Practica levantarte y caminar hacia la pizarra cada vez que sientas que la conversación entra en un ciclo de presión psicológica."
+    },
+    {
+      "id": "bl4",
+      "category": "CALIBRACIÓN",
+      "title": "Calibración de Asimetría de Información",
+      "cue": "Microexpresiones de suficiencia (sonrisa unilateral asimétrica) al momento de escuchar tu propuesta.",
+      "interpretation": "Revela que el interlocutor posee datos ocultos que invalidan o debilitan tu planteamiento actual.",
+      "practicalDrill": "Entrena la lectura de microexpresiones faciales en simulaciones de negociación para identificar ventajas ocultas."
+    },
+    {
+      "id": "bl5",
+      "category": "DETECCIÓN",
+      "title": "Detección de Perfilamiento Invasivo",
+      "cue": "Inclinación de cabeza hacia un lado y contacto visual sostenido y penetrante mientras responde preguntas personales.",
+      "interpretation": "Indica un escaneo activo de tus vulnerabilidades y una alta concentración en extraer datos íntimos.",
+      "practicalDrill": "Mantén una postura neutral y desvía la mirada hacia un documento al notar miradas excesivamente inquisitivas."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "Anclaje Defensivo de Soberanía",
+      "cue": "Presionar firmemente el dedo pulgar contra la palma de la mano al momento de establecer un límite verbal.",
+      "interpretation": "Sirve como un ancla propio para mantener la firmeza emocional y evitar ceder ante la presión de la contraparte.",
+      "practicalDrill": "Asocia un gesto físico discreto a un estado de absoluta seguridad y utilízalo en negociaciones difíciles."
     }
   ]
 };

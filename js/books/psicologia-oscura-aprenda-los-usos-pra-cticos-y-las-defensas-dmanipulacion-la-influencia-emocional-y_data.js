@@ -4138,53 +4138,157 @@ const LIBROS_DATA = {
   "caseScenarios": [
     {
       "id": "cs1",
-      "category": "Relaciones Interpersonales",
-      "title": "Caso Práctico: Cap Tulo 16 Micro Expresiones Y Lenguaje Corporal   Una Introducci N B Sica Se Ales No Verbales Asoc",
-      "difficulty": "Media",
-      "badge": "Experto en Vínculos",
-      "scenarioDescription": "Durante una situación relacionada con \"Cap Tulo 16 Micro Expresiones Y Lenguaje Corporal   Una Introducci N B Sica Se Ales No Verbales Asoc\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "category": "Manipulación Emocional",
+      "title": "La Trampa del Bombardeo de Amor",
+      "difficulty": "Alta",
+      "badge": "Escudo Empático",
+      "scenarioDescription": "Un nuevo compañero de trabajo muestra un interés abrumador, halagando constantemente tus habilidades y cubriéndote en reuniones durante las primeras dos semanas. Sientes una intensa presión por corresponder a esta lealtad antes de conocer sus verdaderas intenciones.",
       "options": [
         {
           "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Cap Tulo 16 Micro Expresiones Y Lenguaje Corporal   Una Introducci N B Sica Se Ales No Verbales Asoc\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Aceptar completamente la alianza y compartir información personal confidencial para acelerar la confianza.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Has caído directamente en el ciclo de sobreexposición. El 'bombardeo de amor' busca desarmar tus defensas naturales creando una deuda emocional ficticia.",
+          "bookInsight": "El Capítulo 3 detalla cómo el bombardeo de amor y el refuerzo intermitente crean dependencia psicológica rápida antes de aplicar la devaluación."
         },
         {
           "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Establecer límites estrictos, agradecer los gestos pero mantener la distancia profesional y observar la consistencia a largo plazo.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Excelente calibración táctica. Al frenar la velocidad artificial de la relación, neutralizas la urgencia emocional impuesta por el manipulador.",
+          "bookInsight": "La desaceleración consciente de la interacción es la contramedida primaria contra la manipulación emocional encubierta expuesta en el Capítulo 2."
         }
       ]
     },
     {
       "id": "cs2",
-      "category": "Aplicación Ética de Principios",
-      "title": "Caso Práctico: Cap Tulo 1",
+      "category": "Tríada Oscura",
+      "title": "El Cálculo Maquiavélico en el Ascenso",
       "difficulty": "Alta",
-      "badge": "Maestro de Influencia",
-      "scenarioDescription": "Durante una situación relacionada con \"Cap Tulo 1\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "badge": "Vigilante Maquiavélico",
+      "scenarioDescription": "Un superior te sugiere de forma sutil que para obtener el ascenso debes sabotear silenciosamente el informe de un colega rival. Argumenta que 'el fin justifica los medios' en un entorno competitivo.",
       "options": [
         {
           "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Cap Tulo 1\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Ejecutar el sabotaje discretamente para asegurar el puesto, adoptando una postura utilitaria.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Te has convertido en un peón dentro de la arquitectura de la Tríada Oscura, comprometiendo tu ética y quedando vulnerable al chantaje futuro del superior.",
+          "bookInsight": "El Capítulo 11 analiza cómo los perfiles maquiavélicos instrumentalizan a otros mediante incentivos condicionados y pruebas de lealtad oscura."
         },
         {
           "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
+          "text": "Documentar la sugerencia, rechazar la propuesta basándose en la integridad operativa y buscar canales alternativos de visibilidad.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Proteges tu capital reputacional y neutralizas el intento de cooptación maquiavélica mediante la documentación y el rigor ético.",
+          "bookInsight": "Las acciones maquiavélicas requieren cómplices silenciosos; la exposición documentada rompe su dinámica de poder."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Seducción Oscura",
+      "title": "La Dinámica de la Indiferencia Calculada",
+      "difficulty": "Media",
+      "badge": "Detector de Señales",
+      "scenarioDescription": "Notas que una persona con la que sales alterna repentinamente periodos de atención intensa con días de silencio total, generando en ti una ansiedad constante por recibir su validación.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Enviar mensajes insistentes pidiendo explicaciones y disculpándote si has hecho algo mal.",
+          "outcome": "Fallo",
           "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "analysis": "Refuerzas el ciclo de adicción psicológica. El manipulador valida su control sobre tus estados emocionales a través de tu ansiedad.",
+          "bookInsight": "El Capítulo 13 explora la seducción oscura y cómo el refuerzo intermitente activa los circuitos de dopamina similares a los del juego de apuestas."
+        },
+        {
+          "id": "opt2",
+          "text": "Reconocer el patrón de refuerzo intermitente, retirar la inversión emocional y redirigir la atención hacia tus propias metas.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Rompes el bucle adictivo al desvincular tu valor personal de la disponibilidad errática del seductor oscuro.",
+          "bookInsight": "La conciencia de las técnicas de seducción basada en la escasez artificial elimina su impacto en la psique."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Lenguaje Corporal",
+      "title": "Discrepancia entre Palabras y Microexpresiones",
+      "difficulty": "Media",
+      "badge": "Calibrador Ocular",
+      "scenarioDescription": "Un socio comercial te asegura con una sonrisa amplia y verbalizaciones entusiastas que apoya tu proyecto, pero notas un leve parpadeo acelerado y una contracción asimétrica en un lado de los labios al mencionar los términos financieros.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Confiar plenamente en sus palabras debido a su tono amistoso y la aparente cordialidad del encuentro.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "Ignoraste las señales no verbales basándote en el sesgo de confirmación social. Las palabras pueden ensayarse, las microexpresiones no.",
+          "bookInsight": "El Capítulo 16 enfatiza que las microexpresiones revelan el estado emocional real que contradice el discurso verbal consciente."
+        },
+        {
+          "id": "opt2",
+          "text": "Hacer una pausa en la negociación y plantear una pregunta de control sobre los términos financieros para observar su reacción corporal.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Utilizaste la calibración somática para validar la incongruencia, protegiéndote de un posible engaño encubierto.",
+          "bookInsight": "Contrastar el lenguaje corporal con la comunicación verbal es la clave de la detección táctica en negociaciones oscuras."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "PNL Encubierta",
+      "title": "El Anclaje de Emociones en Reuniones",
+      "difficulty": "Alta",
+      "badge": "Maestro Antianclaje",
+      "scenarioDescription": "Durante las negociaciones de un contrato, notas que tu contraparte toca repetidamente su propio hombro cada vez que introduce un punto crítico y desfavorable para ti, buscando asociar ese gesto a un estado de sumisión previa.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Continuar cediendo en los puntos para mantener un ambiente armónico en la sala.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "Caíste en el estímulo condicionado sin percatarte de que estabas respondiendo a un patrón de PNL diseñado para debilitar tu postura.",
+          "bookInsight": "La PNL encubierta utiliza anclajes cinestésicos para evocar estados emocionales específicos en momentos predeterminados de la interacción."
+        },
+        {
+          "id": "opt2",
+          "text": "Romper el patrón cambiando de postura, interrumpiendo el flujo con una pregunta técnica y neutralizando el anclaje.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Interrumpiste con éxito la cadena de condicionamiento al alterar el contexto físico y mental de la negociación.",
+          "bookInsight": "Identificar y romper los anclajes de PNL encubierta restaura la autonomía cognitiva frente a intentos de influencia oculta."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Manipulación Emocional",
+      "title": "La Culpabilización Inversa",
+      "difficulty": "Media",
+      "badge": "Anulador de Gaslighting",
+      "scenarioDescription": "Confrontas a un colega por no cumplir con una entrega acordada, y este responde inmediatamente atacándote por tu 'falta de apoyo' y 'exceso de control', logrando que termines disculpándote.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Disculparte por haber sido demasiado exigente y asumir la responsabilidad del retraso.",
+          "outcome": "Fallo",
+          "wisdomScore": 10,
+          "analysis": "El manipulador invirtió exitosamente los roles de víctima y agresor, invalidando tu reclamo legítimo mediante la culpa.",
+          "bookInsight": "Los fundamentos de la manipulación emocional incluyen la inversión de roles para desviar la atención de la falta cometida."
+        },
+        {
+          "id": "opt2",
+          "text": "Mantener el enfoque en el objetivo original: 'Entiendo tu perspectiva, pero volvamos al entregable pendiente y a la fecha de resolución'.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Aplicaste la técnica del disco rayado, neutralizando el desvío emocional y manteniendo la conversación anclada en hechos reales.",
+          "bookInsight": "La objetividad inquebrantable es el escudo más efectivo contra las tácticas de inversión emocional y gaslighting."
         }
       ]
     }
@@ -4192,38 +4296,467 @@ const LIBROS_DATA = {
   "flashcards": [
     {
       "id": "fc1",
-      "term": "Lenguaje corporal dominante",
-      "definition": "Técnica psicológica estudiada en \"Introduccion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Practicar la técnica del \"disco rayado\" ante presión persistente."
+      "bookNumber": 1,
+      "category": "Manipulación Emocional",
+      "term": "Bombardeo de Amor",
+      "definition": "Exceso masivo de afecto, atención y validación al inicio de una relación para crear dependencia emocional.",
+      "tacticalUse": "Acelerar la vulnerabilidad de la víctima antes de aplicar dinámicas de control.",
+      "countermeasure": "Establecer límites de tiempo estrictos y desacelerar conscientemente el ritmo de la relación."
     },
     {
       "id": "fc2",
-      "term": "Autoridad proyectada",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo 2 Los Fundamentos De La Manipulaci N Emocional Encubierta Situaci N Y Manipulaciones\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Aplicar el protocolo JADE-never: no Justifiques, Argumentes, Defiendas ni Expliques."
+      "bookNumber": 1,
+      "category": "Manipulación Emocional",
+      "term": "Refuerzo Intermitente",
+      "definition": "Entrega impredecible de recompensas y castigos que genera adicción psicológica y ansiedad por validación.",
+      "tacticalUse": "Mantener a una persona enganchada emocionalmente mediante la incertidumbre.",
+      "countermeasure": "Reconocer el patrón de recompensa variable y desvincular el valor propio de la aprobación ajena."
     },
     {
       "id": "fc3",
-      "term": "Gaslighting sutil",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo 3 Algunos M Todos Comunes De Manipulaci N Encubierta Bombardeo De Amor Refuerzo Una Secuenc\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Documentar patrones de comportamiento para identificar manipulación."
+      "bookNumber": 1,
+      "category": "Tríada Oscura",
+      "term": "Maquiavelismo",
+      "definition": "Rasgo de personalidad caracterizado por la manipulación, el cinismo y la fría instrumentalización de los demás.",
+      "tacticalUse": "Planificar estrategias a largo plazo donde las personas son vistas meramente como recursos o peones.",
+      "countermeasure": "Exigir transparencia en los procesos y evaluar a las personas por sus acciones documentadas, no por sus promesas."
     },
     {
       "id": "fc4",
-      "term": "Microexpresiones",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo 11 C Mo Se Puede Aplicar La Tr Ada Oscura Acciones Maquiav Licas Las Acciones Psicop Ticas \": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Usar el \"test de la silla vacía\": ¿qué le dirías a un amigo en tu situación?"
+      "bookNumber": 1,
+      "category": "Tríada Oscura",
+      "term": "Psicopatía Integrada",
+      "definition": "Ausencia de empatía y remordimiento combinada con un encanto superficial que permite operar sin culpa en entornos sociales.",
+      "tacticalUse": "Tomar decisiones despiadadas sin el peso de la culpa o el conflicto emocional interno.",
+      "countermeasure": "Establecer contratos claros con consecuencias legales y no depender de la buena fe o la empatía del sujeto."
     },
     {
       "id": "fc5",
-      "term": "Prueba social",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo 13 Las T Cnicas Para Hacer Que La Seducci N Oscura Funcione Por Qu Los Seductores Oscuros S\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Reconocer los 7 signos de la Tríada Oscura en contactos cercanos."
+      "bookNumber": 1,
+      "category": "Seducción Oscura",
+      "term": "Seductor Oscuro",
+      "definition": "Individuo que utiliza tácticas de manipulación psicológica, misterio y asimetría de atención para dominar románticamente.",
+      "tacticalUse": "Generar dependencia afectiva y control total sobre la identidad de la pareja.",
+      "countermeasure": "Mantener la independencia social, financiera y emocional frente a dinámicas de fascinación excesiva."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Lenguaje Corporal",
+      "term": "Microexpresiones",
+      "definition": "Breves expresiones faciales involuntarias que duran una fracción de segundo y revelan emociones reprimidas.",
+      "tacticalUse": "Detectar el verdadero estado emocional de una persona a pesar de sus intentos de ocultarlo.",
+      "countermeasure": "Calibrar la congruencia entre el discurso verbal y las señales faciales asimétricas."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "PNL Encubierta",
+      "term": "Anclaje Cinestésico",
+      "definition": "Asociación estímulo-respuesta donde un estímulo físico evoca un estado emocional específico.",
+      "tacticalUse": "Disparar sumisión o confianza en momentos clave mediante gestos previamente condicionados.",
+      "countermeasure": "Identificar el gesto repetitivo y romper el patrón cambiando de postura o tema."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Manipulación Emocional",
+      "term": "Inversión de Roles",
+      "definition": "Táctica defensiva donde el agresor se posiciona como víctima cuando es confrontado por sus faltas.",
+      "tacticalUse": "Evadir la responsabilidad y hacer que el acusador termine pidiendo disculpas.",
+      "countermeasure": "Aplicar la técnica del disco rayado manteniendo la conversación enfocada en el hecho original."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Tríada Oscura",
+      "term": "Narcisismo Maligno",
+      "definition": "Combinación de grandiosidad, paranoia, agresión y falta total de empatía hacia los demás.",
+      "tacticalUse": "Exigir admiración absoluta mientras se devalúa sistemáticamente la autoestima del entorno.",
+      "countermeasure": "Establecer el contacto cero o la política de 'piedra gris' para eliminar el suministro narcisista."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "PNL Encubierta",
+      "term": "Presuposición Lingüística",
+      "definition": "Estructura gramatical que da por sentado un hecho dentro de una pregunta o afirmación para evitar el debate.",
+      "tacticalUse": "Inducir acuerdos implícitos sin permitir que la otra persona cuestione la premisa.",
+      "countermeasure": "Analizar la estructura de las preguntas y desacoplar la presuposición antes de responder."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Lenguaje Corporal",
+      "term": "Bloqueo Ocular",
+      "definition": "Acción inconsciente de cubrirse o cerrarse los ojos ante la presencia de algo indeseable.",
+      "tacticalUse": "Identificar rechazo visceral o incomodidad ante una propuesta o afirmación.",
+      "countermeasure": "Observar esta señal para reevaluar la aceptación real de la contraparte."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Manipulación Emocional",
+      "term": "Triangulación",
+      "definition": "Introducción de una tercera persona en una dinámica interpersonal para generar celos e inseguridad.",
+      "tacticalUse": "Aumentar el valor percibido del manipulador y forzar la competencia por su atención.",
+      "countermeasure": "Rechazar entrar en dinámicas competitivas y señalar la manipulación con indiferencia."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Seducción Oscura",
+      "term": "Escasez Artificial",
+      "definition": "Restricción calculada de disponibilidad y afecto para incrementar el valor percibido del seductor.",
+      "tacticalUse": "Estimular el miedo a la pérdida y acelerar la inversión emocional de la víctima.",
+      "countermeasure": "Mantener la soberanía del propio tiempo y no reaccionar con ansiedad ante la ausencia."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Tríada Oscura",
+      "term": "Instrumentalización",
+      "definition": "Uso de seres humanos como meras herramientas para alcanzar objetivos egoístas.",
+      "tacticalUse": "Optimizar recursos relacionales sin involucrarse afectivamente.",
+      "countermeasure": "Identificar transacciones desequilibradas y cortar la reciprocidad unilateral."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "PNL Encubierta",
+      "term": "Calibración Sensorial",
+      "definition": "Habilidad de leer con precisión los cambios sutiles en la fisiología de otra persona.",
+      "tacticalUse": "Monitorear el impacto de las palabras y tácticas en tiempo real.",
+      "countermeasure": "Desarrollar autoconciencia para no exhibir estados internos vulnerables."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación Emocional",
+      "name": "Bombardeo de Amor y Devaluación",
+      "severity": "Alta",
+      "icon": "fa-brain",
+      "howItWorks": "Inunda a la víctima con afecto artificial para elevar sus niveles de dopamina, seguido de una retirada abrupta para generar dependencia y necesidad constante de aprobación.",
+      "redFlags": [
+        "Promesas de compromiso o intensidad extrema en un tiempo récord.",
+        "Halagos desproporcionados sin base en méritos reales.",
+        "Cambio drástico e injustificado hacia la frialdad tras la entrega inicial."
+      ],
+      "counterScript": "Agradezco tu entusiasmo, pero prefiero que avancemos a un ritmo más realista y pausado para conocernos con objetividad.",
+      "deepMechanism": "Aprovecha la necesidad evolutiva de conexión social, secuestrando el sistema de recompensa cerebral mediante ciclos de validación impredecible."
+    },
+    {
+      "id": "t2",
+      "category": "Tríada Oscura",
+      "name": "Acciones Maquiavélicas de Cooptación",
+      "severity": "Crítica",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Utiliza alianzas estratégicas falsas e incentivos condicionados para comprometer la ética de la víctima, convirtiéndola en cómplice y rehén de su propia reputación.",
+      "redFlags": [
+        "Sugerencias sutiles para saltarse protocolos a cambio de beneficios mutuos.",
+        "Uso de información confidencial como moneda de cambio o prueba de lealtad.",
+        "Discurso utilitario donde las personas son clasificadas por su utilidad."
+      ],
+      "counterScript": "No estoy dispuesto a comprometer los protocolos establecidos. Prefiero que resolvamos esto por canales transparentes.",
+      "deepMechanism": "Manipula el sesgo de reciprocidad y el miedo al aislamiento profesional para anular el juicio moral autónomo."
+    },
+    {
+      "id": "t3",
+      "category": "Seducción Oscura",
+      "name": "Asimetría de Atención y Misterio",
+      "severity": "Media",
+      "icon": "fa-eye",
+      "howItWorks": "Cultiva una fachada de enigmatismo combinada con atenciones intermitentes para que la víctima gaste energía mental intentando descifrar y complacer al seductor.",
+      "redFlags": [
+        "Ocultamiento deliberado de información personal básica para generar intriga.",
+        "Alternancia extrema entre disponibilidad total y silencio prolongado.",
+        "Generación de celos sutiles mediante la mención de terceros."
+      ],
+      "counterScript": "Entiendo que tienes tu propia agenda y espacio, así que gestionaré mi tiempo de la misma manera.",
+      "deepMechanism": "Activa el sesgo cognitivo de cierre psicológico y la búsqueda incesante de resolución ante estímulos ambiguos."
+    },
+    {
+      "id": "t4",
+      "category": "Lenguaje Corporal",
+      "name": "Lectura de Microexpresiones Asimétricas",
+      "severity": "Media",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Analiza las discordancias entre el discurso verbal ensayado y las respuestas involuntarias del sistema nervioso autónomo reflejadas en el rostro.",
+      "redFlags": [
+        "Contracciones unilaterales de los labios al expresar acuerdo.",
+        "Parpadeo acelerado o bloqueos oculares breves ante preguntas directas.",
+        "Microgestos de desprecio (elevación unilateral de una comisura) disfrazados de sonrisa."
+      ],
+      "counterScript": "Noto cierta reserva en tu expresión al respecto; ¿hay algún detalle de la propuesta que prefieras que revisemos?",
+      "deepMechanism": "Las expresiones faciales controladas por el sistema límbico escapan temporalmente al control del córtex prefrontal cuando hay incongruencia interna."
+    },
+    {
+      "id": "t5",
+      "category": "PNL Encubierta",
+      "name": "Anclaje Cinestésico y Presuposición",
+      "severity": "Alta",
+      "icon": "fa-skull",
+      "howItWorks": "Introduce comandos ocultos en la estructura gramatical y asocia estados emocionales a estímulos físicos discretos para condicionar la respuesta de la víctima.",
+      "redFlags": [
+        "Preguntas que asumen un acuerdo previo ('¿Cuándo empezamos a ceder en esto?').",
+        "Tocarse o realizar gestos específicos repetidamente al introducir puntos clave.",
+        "Uso de tonos de voz y ritmos hipnóticos para guiar la conclusión de la contraparte."
+      ],
+      "counterScript": "Antes de asumir eso, analicemos si realmente estamos de acuerdo en el punto de partida.",
+      "deepMechanism": "Subvierte el procesamiento lógico del lenguaje aprovechando los atajos heurísticos del cerebro para aceptar premisas no validadas."
+    },
+    {
+      "id": "t6",
+      "category": "Manipulación Emocional",
+      "name": "Inversión de Roles y Gaslighting",
+      "severity": "Crítica",
+      "icon": "fa-brain",
+      "howItWorks": "Distorsiona la realidad de los hechos y culpa a la víctima de haber provocado la falta, generando dudas sobre su propia memoria y estabilidad mental.",
+      "redFlags": [
+        "Negación categórica de eventos documentados ('Eso nunca pasó').",
+        "Ataque inmediato ante un reclamo legítimo para desplazar el foco de culpa.",
+        "Minimización sistemática de los sentimientos de la otra persona."
+      ],
+      "counterScript": "Los hechos están documentados y mi enfoque es resolver el problema actual, no debatir sobre percepciones alteradas.",
+      "deepMechanism": "Ataca la autoconfianza y la memoria de trabajo de la víctima, obligándola a buscar la validación del agresor para definir la realidad."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal del 'bombardeo de amor' al inicio de una relación manipuladora?",
+      "options": [
+        "Demostrar un afecto genuino y maduro hacia la pareja.",
+        "Acelerar la dependencia emocional y desarmar las defensas naturales de la víctima.",
+        "Establecer límites claros de respeto mutuo desde el primer día.",
+        "Fomentar la independencia financiera y personal del individuo."
+      ],
+      "correctIndex": 1,
+      "explanation": "El bombardeo de amor inunda a la víctima de dopamina y validación artificial para crear un vínculo de dependencia rápida antes de iniciar la fase de control."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "Según el análisis de la Tríada Oscura, ¿cómo opera principalmente un perfil maquiavélico?",
+      "options": [
+        "A través de impulsos violentos y arrebatos emocionales sin premeditación.",
+        "Mediante la planificación fría, la instrumentalización de personas y el cálculo de incentivos.",
+        "Buscando la aprobación constante y la admiración masiva del público.",
+        "A través de un exceso de empatía que le impide tomar decisiones difíciles."
+      ],
+      "correctIndex": 1,
+      "explanation": "El maquiavelismo se define por el cálculo estratégico, la manipulación fría y el uso de las personas como recursos para alcanzar objetivos egoístas."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "¿Por qué el refuerzo intermitente es tan efectivo para mantener cautiva a una persona en una dinámica tóxica?",
+      "options": [
+        "Porque garantiza estabilidad y previsibilidad en la relación.",
+        "Porque activa los mismos circuitos de dopamina y adicción que las máquinas tragamonedas ante la incertidumbre.",
+        "Porque elimina por completo la ansiedad y el estrés en la víctima.",
+        "Porque fomenta la comunicación abierta y transparente."
+      ],
+      "correctIndex": 1,
+      "explanation": "La recompensa impredecible crea un bucle de refuerzo sumamente adictivo en el cerebro, generando una espera ansiosa por la siguiente validación."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "¿Qué revelan principalmente las microexpresiones faciales en el contexto de la detección de mentiras y manipulación?",
+      "options": [
+        "El estado emocional consciente y ensayado que la persona desea proyectar.",
+        "Las emociones reales y reprimidas que contradicen el discurso verbal consciente.",
+        "La capacidad de concentración intelectual del individuo.",
+        "El nivel de fatiga física acumulada durante el día."
+      ],
+      "correctIndex": 1,
+      "explanation": "Las microexpresiones escapan al control consciente y reflejan el estado emocional genuino que el emisor intenta ocultar."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "¿En qué consiste la técnica de 'inversión de roles' cuando un manipulador es confrontado?",
+      "options": [
+        "En asumir la culpa de inmediato y pedir disculpas sinceras.",
+        "En cambiar los papeles de modo que el agresor se victimice y el acusador termine pidiendo perdón.",
+        "En proponer una mediación neutral con un tercero imparcial.",
+        "En ignorar por completo el conflicto y cambiar de tema."
+      ],
+      "correctIndex": 1,
+      "explanation": "La inversión de roles desvía la responsabilidad del manipulador haciendo que la víctima se sienta culpable por haber realizado el reclamo."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "¿Cuál es la función de un anclaje cinestésico en la PNL encubierta?",
+      "options": [
+        "Mejorar la memoria a largo plazo mediante técnicas de estudio.",
+        "Asociar un estímulo físico a un estado emocional específico para dispararlo a voluntad en el futuro.",
+        "Relajar los músculos de la mandíbula durante una negociación tensa.",
+        "Evaluar la postura corporal de la contraparte sin ser visto."
+      ],
+      "correctIndex": 1,
+      "explanation": "El anclaje de PNL vincula un gesto o toque físico a una respuesta emocional condicionada para influir en la conducta de la otra persona."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Bombardeo de Amor",
+      "category": "Manipulación Emocional",
+      "definition": "Exceso de atención, halagos y afecto prematuro diseñado para acelerar la vulnerabilidad.",
+      "practicalExample": "Un compañero nuevo te cubre en todo y te llena de elogios exagerados en tu primera semana."
+    },
+    {
+      "id": "g2",
+      "term": "Refuerzo Intermitente",
+      "category": "Manipulación Emocional",
+      "definition": "Entrega impredecible de premios y castigos que genera dependencia psicológica.",
+      "practicalExample": "Alguien te responde con calidez un día y te ignora por completo al siguiente sin motivo."
+    },
+    {
+      "id": "g3",
+      "term": "Maquiavelismo",
+      "category": "Tríada Oscura",
+      "definition": "Rasgo de personalidad centrado en la manipulación y la instrumentalización fría de los demás.",
+      "practicalExample": "Planear alianzas corporativas temporales descartando a los aliados en cuanto dejan de ser útiles."
+    },
+    {
+      "id": "g4",
+      "term": "Psicopatía Integrada",
+      "category": "Tríada Oscura",
+      "definition": "Ausencia de empatía combinada con encanto superficial que permite operar sin remordimientos.",
+      "practicalExample": "Despedir personal masivamente con una sonrisa y sin experimentar ningún conflicto emocional."
+    },
+    {
+      "id": "g5",
+      "term": "Seducción Oscura",
+      "category": "Seducción",
+      "definition": "Uso de tácticas psicológicas de misterio y asimetría para dominar afectivamente.",
+      "practicalExample": "Alternar silencios prolongados con momentos de intensidad romántica para generar ansiedad."
+    },
+    {
+      "id": "g6",
+      "term": "Microexpresión",
+      "category": "Lenguaje Corporal",
+      "definition": "Expresión facial involuntaria de corta duración que revela la emoción real oculta.",
+      "practicalExample": "Una ligera contracción de desprecio en los labios mientras se afirma estar de acuerdo."
+    },
+    {
+      "id": "g7",
+      "term": "Anclaje Cinestésico",
+      "category": "PNL Encubierta",
+      "definition": "Asociación de un estímulo físico con un estado emocional específico para su activación posterior.",
+      "practicalExample": "Tocar el propio hombro cada vez que se introduce un punto de presión en una negociación."
+    },
+    {
+      "id": "g8",
+      "term": "Inversión de Roles",
+      "category": "Manipulación Emocional",
+      "definition": "Táctica defensiva donde el agresor se coloca como la verdadera víctima del conflicto.",
+      "practicalExample": "Reclamar un error y terminar disculpándote porque 'tu tono de voz lastimó' a la otra persona."
+    },
+    {
+      "id": "g9",
+      "term": "Gaslighting",
+      "category": "Manipulación Emocional",
+      "definition": "Distorsión sistemática de la realidad para hacer dudar a la víctima de su memoria y cordura.",
+      "practicalExample": "Negar categóricamente acuerdos previos que están por escrito argumentando que lo imaginaste."
+    },
+    {
+      "id": "g10",
+      "term": "Presuposición",
+      "category": "PNL Encubierta",
+      "definition": "Estructura lingüística que da por sentada una premisa para evitar que sea cuestionada.",
+      "practicalExample": "Preguntar '¿A qué hora vas a ceder en este punto?' asumiendo que inevitablemente lo harás."
+    },
+    {
+      "id": "g11",
+      "term": "Bloqueo Ocular",
+      "category": "Lenguaje Corporal",
+      "definition": "Acción refleja de cubrirse o cerrar los ojos ante un estímulo o persona indeseable.",
+      "practicalExample": "Cerrar los ojos brevemente al escuchar la contrapropuesta de un socio."
+    },
+    {
+      "id": "g12",
+      "term": "Triangulación",
+      "category": "Manipulación Emocional",
+      "definition": "Involucrar a un tercero en una relación para generar celos e inseguridad competitiva.",
+      "practicalExample": "Mencionar constantemente lo impresionado que estás con las habilidades de otra persona para hacer sentir mal a tu pareja."
+    },
+    {
+      "id": "g13",
+      "term": "Escasez Artificial",
+      "category": "Seducción",
+      "definition": "Restricción calculada de tiempo y atención para incrementar el valor percibido.",
+      "practicalExample": "Aparecer y desaparecer de forma impredecible para obligar a la otra persona a esperarte."
+    },
+    {
+      "id": "g14",
+      "term": "Instrumentalización",
+      "category": "Tríada Oscura",
+      "definition": "Tratar a los seres humanos como objetos o herramientas para un fin personal.",
+      "practicalExample": "Mantener contacto con alguien únicamente por los contactos influyentes que posee."
+    },
+    {
+      "id": "g15",
+      "term": "Calibración Sensorial",
+      "category": "Observación",
+      "definition": "Capacidad de leer los cambios fisiológicos sutiles en la postura, respiración y rostro de otro.",
+      "practicalExample": "Notar cómo la respiración de tu contraparte se acelera al tocar un tema financiero delicado."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "CALIBRACIÓN",
+      "title": "Detección de Microexpresiones Asimétricas",
+      "cue": "Contracción unilateral de los labios o elevación parcial de una sola ceja durante una afirmación verbal de acuerdo.",
+      "interpretation": "Incongruencia profunda entre el discurso consciente y la emoción real reprimida (usualmente desprecio o rechazo).",
+      "practicalDrill": "Observa una entrevista en video sin sonido durante 2 minutos, enfocándote exclusivamente en la simetría de la mitad inferior del rostro al responder preguntas difíciles."
+    },
+    {
+      "id": "bl2",
+      "category": "DETECCIÓN",
+      "title": "Identificación de Bloqueos Oculares Defensivos",
+      "cue": "Cierre palpebral prolongado o cobertura parcial de los ojos con la mano al escuchar una propuesta.",
+      "interpretation": "Rechazo visceral o intento inconsciente de eliminar visualmente un estímulo amenazante o desagradable.",
+      "practicalDrill": "Introduce una condición desfavorable en una conversación simulada y observa si los párpados de tu contraparte se cierran por más de medio segundo."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Neutralización de Anclajes Cinestésicos",
+      "cue": "Tocar repetidamente el propio brazo, hombro o mesa al introducir un argumento clave en la negociación.",
+      "interpretation": "Intento de anclar un estado emocional (presión, sumisión o urgencia) a un gesto físico repetitivo.",
+      "practicalDrill": "Cada vez que notes un gesto repetitivo en tu contraparte, cambia de postura corporal y haz una pregunta técnica que rompa el ritmo de su anclaje."
+    },
+    {
+      "id": "bl4",
+      "category": "CALIBRACIÓN",
+      "title": "Cambios en el Ritmo de Parpadeo",
+      "cue": "Aceleración súbita en la frecuencia de parpadeo seguida de un periodo de rigidez ocular.",
+      "interpretation": "Aumento de la carga cognitiva, estrés interno o procesamiento de información bajo presión (posible engaño o cálculo táctico).",
+      "practicalDrill": "Monitorea la línea base de parpadeo de una persona hablando de temas triviales, y compárala cuando le hagas una pregunta directa sobre un punto crítico."
+    },
+    {
+      "id": "bl5",
+      "category": "DETECCIÓN",
+      "title": "Postura de Retirada y Orientación de los Pies",
+      "cue": "Torso inclinado hacia atrás y pies apuntando hacia la salida a pesar de tener el rostro orientado hacia ti.",
+      "interpretation": "Deseo inconsciente de huir de la interacción; discrepancia entre la cortesía verbal y la intención corporal genuina.",
+      "practicalDrill": "Observa la dirección de los pies de las personas en un grupo de pie; revelarán siempre hacia dónde desean ir realmente, independientemente de dónde miren."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "Calibración de la Línea Base de Tensión Mandibular",
+      "cue": "Tensión en los músculos maseteros (quijada apretada) y labios comprimidos en una línea delgada.",
+      "interpretation": "Supresión de la ira, frustración contenida o resistencia activa frente a una directriz impuesta.",
+      "practicalDrill": "Identifica la tensión mandibular en tu propia línea base al enfrentarte a críticas injustas, y practica relajar conscientemente la quijada para mantener el control emocional."
     }
   ]
 };

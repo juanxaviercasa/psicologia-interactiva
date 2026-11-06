@@ -1,3 +1,4 @@
+// Contenido enriquecido para Manipulación: El Santo Grial de la Psicología Oscura
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_5.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>Manipulación El santo grial de la Psicología Oscura Aprender a influir en las personas gracias al control mental y emocional, hipnosis superficial y técnicas de PNL Por Brad Wood © Copyright 2020 por Brad Wood- Todos los derechos reservados. El siguiente libro electrónico se reproduce con el objetivo de proporcionar información lo más precisa y fiable posible. Independientemente de ello, la compra de este libro electrónico puede considerarse como un consentimiento al hecho de que tanto el editor como el autor de este libro no son en modo alguno expertos en los temas tratados y que cualquier recomendación o sugerencia que se haga aquí es sólo para fines de entretenimiento. Se debe consultar a los profesionales según sea necesario antes de emprender cualquiera de las acciones aquí respaldadas. Esta declaración es considerada justa y válida tanto por la Asociación Americana de Abogados como por el Comité de la Asociación de Editores y es legalmente vinculante en todo el territorio de los Estados Unidos. Además, la transmisión, duplicación o reproducción de cualquiera de los siguientes trabajos, incluida la información específica, se considerará un acto ilegal, independientemente de que se realice electrónicamente o en forma impresa. Esto se extiende a la creación de una copia secundaria o terciaria de la obra o una copia registrada y sólo se permite con el consentimiento expreso por escrito del Editor. Se reservan todos los derechos adicionales. La información que figura en las",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> El Cáliz de la Influencia Psicológica Suprema\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/santo_grial_manipulacion/grial_m1_preliminares.webp\" alt=\"El Cáliz de la Influencia Psicológica Suprema\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Manipulación El santo grial de la Psicología Oscura Aprender a influir en las personas gracias al control mental y emocional, hipnosis superficial y técnicas de PNL Por Brad Wood © Copyright 2020 por Brad Wood- Todos los derechos reservados. El siguiente libro electrónico se reproduce con el objetivo de proporcionar información lo más precisa y fiable posible. Independientemente de ello, la compra de este libro electrónico puede considerarse como un consentimiento al hecho de que tanto el editor como el autor de este libro no son en modo alguno expertos en los temas tratados y que cualquier recomendación o sugerencia que se haga aquí es sólo para fines de entretenimiento. Se debe consultar a los profesionales según sea necesario antes de emprender cualquiera de las acciones aquí respaldadas. Esta declaración es considerada justa y válida tanto por la Asociación Americana de Abogados como por el Comité de la Asociación de Editores y es legalmente vinculante en todo el territorio de los Estados Unidos. Además, la transmisión, duplicación o reproducción de cualquiera de los siguientes trabajos, incluida la información específica, se considerará un acto ilegal, independientemente de que se realice electrónicamente o en forma impresa. Esto se extiende a la creación de una copia secundaria o terciaria de la obra o una copia registrada y sólo se permite con el consentimiento expreso por escrito del Editor. Se reservan todos los derechos adicionales. La información que figura en las",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la microexpresiones en el contexto de \"Preliminares E Introduccion\"?",
             "options": [
@@ -362,7 +363,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 1: Análisis de los tipos de personalidad La psicología creó el área de estudio conocida como psicología analítica. Es de donde proviene todo el debate sobre los tipos de personalidad. Creían que cada uno de nosotros tenía un \"tipo\" psicológico. Para empezar, se examinó cómo las personas reciben información (perciben las cosas) y cómo toman decisiones. La gente percibía las cosas basándose en sus sentidos o en su intuición. La gente también tomaba decisiones basadas en la lógica objetiva o en sentimientos subjetivos. Cualquiera que sea la tendencia en la que más se apoyaban, indicaba la característica dominante. En el nivel más amplio, se puede dividir en dos categorías: introversión y extroversión. Luego, bajo esos paraguas, se despliegan aún más. Aquí hay ocho tipos de personalidad: 1. Extrovertido Intuitivo: Un extrovertido intuitivo es un verdadero aventurero. No sólo son activos, sino también inquietos. Aunque poseen una gran habilidad para \"hacer las cosas\", una vez que lo han hecho, pasan directamente a la siguiente aventura. 2. Introvertido Intuitivo: Los introvertidos intuitivos son muy conscientes de todo lo que les rodea. Pueden sentir cómo se siente la gente. Más allá de eso, también son grandes soñadores y, como tales, luchan por \"mantener los pies en la tierra\". 3. Extrovertido Sentimental: Los extrovertidos sentimentales son muy buenos para relacionarse con los demás y desarrollar relaciones fuertes. Lo hacen tan bien que experimentan dificultades cuand",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Mosaico de Tipologías de Personalidad\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/santo_grial_manipulacion/grial_m2_tipos_personalidad.webp\" alt=\"Mosaico de Tipologías de Personalidad\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 1: Análisis de los tipos de personalidad La psicología creó el área de estudio conocida como psicología analítica. Es de donde proviene todo el debate sobre los tipos de personalidad. Creían que cada uno de nosotros tenía un \"tipo\" psicológico. Para empezar, se examinó cómo las personas reciben información (perciben las cosas) y cómo toman decisiones. La gente percibía las cosas basándose en sus sentidos o en su intuición. La gente también tomaba decisiones basadas en la lógica objetiva o en sentimientos subjetivos. Cualquiera que sea la tendencia en la que más se apoyaban, indicaba la característica dominante. En el nivel más amplio, se puede dividir en dos categorías: introversión y extroversión. Luego, bajo esos paraguas, se despliegan aún más. Aquí hay ocho tipos de personalidad: 1. Extrovertido Intuitivo: Un extrovertido intuitivo es un verdadero aventurero. No sólo son activos, sino también inquietos. Aunque poseen una gran habilidad para \"hacer las cosas\", una vez que lo han hecho, pasan directamente a la siguiente aventura. 2. Introvertido Intuitivo: Los introvertidos intuitivos son muy conscientes de todo lo que les rodea. Pueden sentir cómo se siente la gente. Más allá de eso, también son grandes soñadores y, como tales, luchan por \"mantener los pies en la tierra\". 3. Extrovertido Sentimental: Los extrovertidos sentimentales son muy buenos para relacionarse con los demás y desarrollar relaciones fuertes. Lo hacen tan bien que experimentan dificultades cuand",
           "interactiveChallenge": {
             "question": "Ante una situación de la escasez artificial en el contexto de \"Capitulo 1 Analisis De Los Tipos De Personalidad\"?",
             "options": [
@@ -572,7 +573,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 2: Cómo manejar el lenguaje corporal Tu lenguaje corporal dice mucho de ti y tiene un gran impacto en cómo te ven los demás. Como tal, puedes aprender mucho del lenguaje corporal de los demás. El lenguaje corporal representa hasta el 55% de la forma en que nos comunicamos. El lenguaje corporal junto con las señales verbales pueden indicar un número de cosas diferentes dependiendo del contexto. Las personas con un lenguaje corporal poderoso con movimientos abiertos que ocupan más espacio tienden a sentirse más seguras. Es más probable que tengan menos estrés, sean más dominantes, tomen más riesgos y sean más optimistas. El lenguaje corporal dominante crea una apariencia poderosa. Los estudios muestran que incluso la falsificación de poses altas y bajas afecta el nivel de confianza de los participantes tanto positiva como negativamente. La idea de fingir hasta hacerla puede parecer falsa, pero al fingirla, el proceso te ayudará a convertirte en ella empezando por pequeños cambios en tu lenguaje corporal. Algo que todo el mundo puede aprender. Aquí hay tres situaciones comunes en las que el lenguaje corporal es especialmente importante: una entrevista de trabajo, citas y detección de mentiras, y formas de leer entre líneas para ayudar a entender lo que realmente está pasando. Nos guste o no, todos mentimos mucho. Cuando conversamos con un extraño, es probable que mintamos una o más veces en los primeros 10 minutos. Pueden ser pequeñas mentiras pero aún así lo hacemos. L",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Control Voluntario y Orquestación Kinésica\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/santo_grial_manipulacion/grial_m3_manejo_corporal.webp\" alt=\"Control Voluntario y Orquestación Kinésica\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 2: Cómo manejar el lenguaje corporal Tu lenguaje corporal dice mucho de ti y tiene un gran impacto en cómo te ven los demás. Como tal, puedes aprender mucho del lenguaje corporal de los demás. El lenguaje corporal representa hasta el 55% de la forma en que nos comunicamos. El lenguaje corporal junto con las señales verbales pueden indicar un número de cosas diferentes dependiendo del contexto. Las personas con un lenguaje corporal poderoso con movimientos abiertos que ocupan más espacio tienden a sentirse más seguras. Es más probable que tengan menos estrés, sean más dominantes, tomen más riesgos y sean más optimistas. El lenguaje corporal dominante crea una apariencia poderosa. Los estudios muestran que incluso la falsificación de poses altas y bajas afecta el nivel de confianza de los participantes tanto positiva como negativamente. La idea de fingir hasta hacerla puede parecer falsa, pero al fingirla, el proceso te ayudará a convertirte en ella empezando por pequeños cambios en tu lenguaje corporal. Algo que todo el mundo puede aprender. Aquí hay tres situaciones comunes en las que el lenguaje corporal es especialmente importante: una entrevista de trabajo, citas y detección de mentiras, y formas de leer entre líneas para ayudar a entender lo que realmente está pasando. Nos guste o no, todos mentimos mucho. Cuando conversamos con un extraño, es probable que mintamos una o más veces en los primeros 10 minutos. Pueden ser pequeñas mentiras pero aún así lo hacemos. L",
           "interactiveChallenge": {
             "question": "El concepto central de la anclaje emocional en el contexto de \"Capitulo 2 Como Manejar El Lenguaje Corporal\"?",
             "options": [
@@ -1014,7 +1015,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 3: Motivos de la manipulación Primero hay muchas razones por las que la gente siente la necesidad de controlar a las personas, lugares y cosas, así como de manipular a otros para satisfacer lo que ellos creen que son sus necesidades, deseos y anhelos personales. Se traerá a la superficie los problemas más comunes que se basan en egos heridos con muy poca autoestima y, por lo tanto, poca autosuficiencia. La gente que está controlando siempre usará tácticas de manipulación sutiles, y con el tiempo, se convertirán en maestros manipuladores como muchas personalidades narcisistas. La manipulación se refiere a hacer intentos de influenciar o controlar indirectamente el comportamiento o las acciones de otra persona. Como seres humanos, nuestras emociones negativas a menudo nublan nuestro discernimiento haciendo difícil ver la realidad detrás de las agendas o motivos ocultos en las diferentes formas de comportamiento. Los aspectos de control o la complejidad en profundidad de la perpetuación de los engaños están vinculados a las técnicas de manipulación emocional y de mentira; y en ocasiones, son muy sutiles que pueden pasarse por alto fácilmente. Muchas veces, los malos hábitos se han adquirido a través de un ego negativo no controlado del cual los comportamientos controladores están enterrados bajo sentimientos de culpa, baja autoestima, miedos y baja conducta ética. La motivación beneficia a la persona que está siendo motivada con incentivo, impulso y estímulo. La manipul",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Los Motores Ocultos del Poder y el Ego\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/santo_grial_manipulacion/grial_m4_motivos_manipulacion.webp\" alt=\"Los Motores Ocultos del Poder y el Ego\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 3: Motivos de la manipulación Primero hay muchas razones por las que la gente siente la necesidad de controlar a las personas, lugares y cosas, así como de manipular a otros para satisfacer lo que ellos creen que son sus necesidades, deseos y anhelos personales. Se traerá a la superficie los problemas más comunes que se basan en egos heridos con muy poca autoestima y, por lo tanto, poca autosuficiencia. La gente que está controlando siempre usará tácticas de manipulación sutiles, y con el tiempo, se convertirán en maestros manipuladores como muchas personalidades narcisistas. La manipulación se refiere a hacer intentos de influenciar o controlar indirectamente el comportamiento o las acciones de otra persona. Como seres humanos, nuestras emociones negativas a menudo nublan nuestro discernimiento haciendo difícil ver la realidad detrás de las agendas o motivos ocultos en las diferentes formas de comportamiento. Los aspectos de control o la complejidad en profundidad de la perpetuación de los engaños están vinculados a las técnicas de manipulación emocional y de mentira; y en ocasiones, son muy sutiles que pueden pasarse por alto fácilmente. Muchas veces, los malos hábitos se han adquirido a través de un ego negativo no controlado del cual los comportamientos controladores están enterrados bajo sentimientos de culpa, baja autoestima, miedos y baja conducta ética. La motivación beneficia a la persona que está siendo motivada con incentivo, impulso y estímulo. La manipul",
           "interactiveChallenge": {
             "question": "¿Cómo reconoce un observador entrenado la triangulación en el contexto de \"Capitulo 3 Motivos De La Manipulacion\"?",
             "options": [
@@ -1369,7 +1370,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 4: Técnicas de manipulación Las emociones son una gran parte de la existencia humana. De hecho, el esquema general de las cosas es un producto tanto de las emociones humanas como del intelecto humano. Las emociones pueden transmitir sentimientos a la mente y crear un deseo o una necesidad; y la mente procesa la necesidad e incita a la persona a actuar sobre la emoción. La gente tiene muchas maneras de lidiar con las emociones. Algunos pueden ejercer un control saludable sobre los suyos, pero desafortunadamente muchos explotan las emociones para hacer las cosas a su manera. Más triste aún es el hecho de que la mayor parte de la raza humana sigue sin ser consciente de que, muy probablemente, están siendo manipulados por otros emocionalmente. Puedes evitar quedar atrapado en este aprieto aprendiendo las tácticas que la mayoría de la gente usa para manipular las emociones. Puedes protegerte de esta desafortunada situación y evitar hacer o decir cosas en contra de tu voluntad. Puedes vivir la vida siendo fiel a ti mismo y hacer las cosas que realmente deseas. Aquí hay algunos ejemplos de estratagemas retorcidas y maniobras intrigantes de las que deberías ser consciente. Técnica de Manipulación Emocional #1: Soy yo o él/ella Para determinar tu posición en la vida de otras personas, ciertas personas pueden presentarte las opciones que se deben tomar. Pueden hacer que elijas entre ellos y otra persona para que puedas mantener tu asociación con ellos. La mayoría de las veces,",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Hilos Invisibles del Control Mental\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/santo_grial_manipulacion/grial_m5_tecnicas_manipulacion.webp\" alt=\"Hilos Invisibles del Control Mental\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 4: Técnicas de manipulación Las emociones son una gran parte de la existencia humana. De hecho, el esquema general de las cosas es un producto tanto de las emociones humanas como del intelecto humano. Las emociones pueden transmitir sentimientos a la mente y crear un deseo o una necesidad; y la mente procesa la necesidad e incita a la persona a actuar sobre la emoción. La gente tiene muchas maneras de lidiar con las emociones. Algunos pueden ejercer un control saludable sobre los suyos, pero desafortunadamente muchos explotan las emociones para hacer las cosas a su manera. Más triste aún es el hecho de que la mayor parte de la raza humana sigue sin ser consciente de que, muy probablemente, están siendo manipulados por otros emocionalmente. Puedes evitar quedar atrapado en este aprieto aprendiendo las tácticas que la mayoría de la gente usa para manipular las emociones. Puedes protegerte de esta desafortunada situación y evitar hacer o decir cosas en contra de tu voluntad. Puedes vivir la vida siendo fiel a ti mismo y hacer las cosas que realmente deseas. Aquí hay algunos ejemplos de estratagemas retorcidas y maniobras intrigantes de las que deberías ser consciente. Técnica de Manipulación Emocional #1: Soy yo o él/ella Para determinar tu posición en la vida de otras personas, ciertas personas pueden presentarte las opciones que se deben tomar. Pueden hacer que elijas entre ellos y otra persona para que puedas mantener tu asociación con ellos. La mayoría de las veces,",
           "interactiveChallenge": {
             "question": "Según este módulo, ¿cuál es el mecanismo principal de la microexpresiones en el contexto de \"Capitulo 4 Tecnicas De Manipulacion\"?",
             "options": [
@@ -1724,7 +1725,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 5: Relaciones de manipulación Somos vulnerables a ser manipulados en las relaciones, ya sea entre parejas románticas, amigos, padres, hijos, empleadores, compañeros de trabajo o vecinos. Cuando permitimos que otra persona nos manipule, estamos confabulados con su deseo de controlar nuestros sentimientos, motivos e incluso nuestros pensamientos a través de medios engañosos, explotadores e injustos. Una relación manipuladora es unilateral y desequilibrada; y promueve los objetivos del manipulador a expensas de la persona que está siendo manipulada. Estas relaciones se vuelven problemáticas con el tiempo. Si se quiere cambiar este tipo de relación, primero hay que reconocer las características de la manipulación y luego mirar hacia adentro para comprender tu contribución a la manipulación. Hay formas eficaces de hacer frente a la manipulación y devolver el equilibrio a la relación. Aquí hay algunos rasgos comunes de los que son vulnerables a los manipuladores: Te sientes útil y querido sólo cuando puedes atender las necesidades de otras personas: Esto va más allá de ser amable. Tu sentido de la valía está ligado a hacer cosas por otras personas. De hecho, llevas esto tan lejos que complaces a otros a expensas de tu propio bienestar. Por ejemplo: Podrías comprar algo especialmente agradable para tu pareja o un amigo cuando nunca gastarías esa cantidad de dinero en ti mismo. Los manipuladores se sienten atraídos por este tipo de personas y no tienen reparos en aprovechar",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Dinámicas de Poder Asimétrico en Relaciones\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/santo_grial_manipulacion/grial_m6_relaciones_toxicas.webp\" alt=\"Dinámicas de Poder Asimétrico en Relaciones\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 5: Relaciones de manipulación Somos vulnerables a ser manipulados en las relaciones, ya sea entre parejas románticas, amigos, padres, hijos, empleadores, compañeros de trabajo o vecinos. Cuando permitimos que otra persona nos manipule, estamos confabulados con su deseo de controlar nuestros sentimientos, motivos e incluso nuestros pensamientos a través de medios engañosos, explotadores e injustos. Una relación manipuladora es unilateral y desequilibrada; y promueve los objetivos del manipulador a expensas de la persona que está siendo manipulada. Estas relaciones se vuelven problemáticas con el tiempo. Si se quiere cambiar este tipo de relación, primero hay que reconocer las características de la manipulación y luego mirar hacia adentro para comprender tu contribución a la manipulación. Hay formas eficaces de hacer frente a la manipulación y devolver el equilibrio a la relación. Aquí hay algunos rasgos comunes de los que son vulnerables a los manipuladores: Te sientes útil y querido sólo cuando puedes atender las necesidades de otras personas: Esto va más allá de ser amable. Tu sentido de la valía está ligado a hacer cosas por otras personas. De hecho, llevas esto tan lejos que complaces a otros a expensas de tu propio bienestar. Por ejemplo: Podrías comprar algo especialmente agradable para tu pareja o un amigo cuando nunca gastarías esa cantidad de dinero en ti mismo. Los manipuladores se sienten atraídos por este tipo de personas y no tienen reparos en aprovechar",
           "interactiveChallenge": {
             "question": "¿Qué distingue a un experto en la escasez artificial en el contexto de \"Capitulo 5 Relaciones De Manipulacion\"?",
             "options": [
@@ -2079,7 +2080,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 6: Manejo de personas mediante técnicas de persuasión El término \"persuasión\" puede significar muchas cosas. Desde una perspectiva amplia, puede considerarse parte de la vida cotidiana ya que la mayoría de nosotros, inconscientemente, aplicamos la persuasión para conseguir lo que queremos o para convencer a otra persona de que haga algo por nosotros. Tomemos, por ejemplo, el trabajo de un vendedor; a menudo tratan de convencer a los clientes para que compren sus productos, por lo que utilizan diferentes \"técnicas de persuasión\" con el fin de convencer a un cliente de que haga lo que quiere: comprar el producto. Incluso los jóvenes utilizan técnicas de persuasión para convencer a sus padres de que les compren algo. Por otro lado, la persuasión tiene también un significado más profundo. También puede referirse al poder de comunicar o influenciar la mente de otra persona sin hacerse notar. La gente a veces lo asocia con \"magia\", \"hipnosis\", \"truco\" o \"poder\". Hay muchos tipos de técnicas de persuasión y las más comunes son las siguientes: “técnica del nombre”, técnica del “lenguaje positivo”, técnica de las “palabras repetitivas” y técnica de “vinculación”. La técnica del nombre es un tipo de técnica de persuasión en la que algunos individuos llaman a una persona por su nombre de pila con el fin de llamar la atención de la persona y eventualmente construir una relación. Esto se puede observar entre los vendedores que tratan de convencer a sus clientes para que compren s",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Dirección Estratégica mediante Persuasión\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/santo_grial_manipulacion/grial_m7_manejo_persuasion.webp\" alt=\"Dirección Estratégica mediante Persuasión\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 6: Manejo de personas mediante técnicas de persuasión El término \"persuasión\" puede significar muchas cosas. Desde una perspectiva amplia, puede considerarse parte de la vida cotidiana ya que la mayoría de nosotros, inconscientemente, aplicamos la persuasión para conseguir lo que queremos o para convencer a otra persona de que haga algo por nosotros. Tomemos, por ejemplo, el trabajo de un vendedor; a menudo tratan de convencer a los clientes para que compren sus productos, por lo que utilizan diferentes \"técnicas de persuasión\" con el fin de convencer a un cliente de que haga lo que quiere: comprar el producto. Incluso los jóvenes utilizan técnicas de persuasión para convencer a sus padres de que les compren algo. Por otro lado, la persuasión tiene también un significado más profundo. También puede referirse al poder de comunicar o influenciar la mente de otra persona sin hacerse notar. La gente a veces lo asocia con \"magia\", \"hipnosis\", \"truco\" o \"poder\". Hay muchos tipos de técnicas de persuasión y las más comunes son las siguientes: “técnica del nombre”, técnica del “lenguaje positivo”, técnica de las “palabras repetitivas” y técnica de “vinculación”. La técnica del nombre es un tipo de técnica de persuasión en la que algunos individuos llaman a una persona por su nombre de pila con el fin de llamar la atención de la persona y eventualmente construir una relación. Esto se puede observar entre los vendedores que tratan de convencer a sus clientes para que compren s",
           "interactiveChallenge": {
             "question": "¿Cuál de las siguientes afirmaciones sobre la anclaje emocional en el contexto de \"Capitulo 6 Manejo De Personas Mediante Persuasion\"?",
             "options": [
@@ -2463,7 +2464,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 7: Manejar a la gente usando la PNL PNL (Programación Neuro Lingüística) El término Programación Neuro Lingüística señala las áreas en las que se despliegan las técnicas. Neuro se refiere al cerebro, siendo el lenguaje lo que tiene que ver con el lenguaje y cómo se usa. La programación se refiere a un concepto de ser capaz de reprogramar la forma en que funciona nuestro cerebro. Algunas de estas áreas pueden ser inicialmente preocupantes, ya que sabemos muy poco sobre el funcionamiento del cerebro. La PNL no profundiza en el funcionamiento del cerebro, ya sea de forma médica o psicológica, sino que se preocupa por conseguir que el cerebro de un individuo funcione de forma beneficiosa teniendo en cuenta los deseos y dedicaciones del individuo y asegurándose de que los resultados sean ecológicamente correctos, seguros y de impacto beneficioso. Entonces, ¿cómo se logra esto? Los co-creadores de la PNL (Richard Bandler y John Grinder) comenzaron a hacer sus descubrimientos de la PNL estudiando y modelando el comportamiento y el trabajo de otros grandes expertos y líderes respetados en varios campos de trabajo, que implicaban la comunicación e interacción con otros. Bandler y Grinder inicialmente estudiaron los patrones de lenguaje utilizados por estos especialistas y de esto derivaron un modelo de cómo usamos el lenguaje para construir nuestra percepción de nuestra realidad del mundo. Los practicantes de PNL usan esta y otras técnicas lingüísticas de PNL para ayudarles c",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Calibración Neurolingüística Aplicada\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/santo_grial_manipulacion/grial_m8_manejo_pnl.webp\" alt=\"Calibración Neurolingüística Aplicada\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 7: Manejar a la gente usando la PNL PNL (Programación Neuro Lingüística) El término Programación Neuro Lingüística señala las áreas en las que se despliegan las técnicas. Neuro se refiere al cerebro, siendo el lenguaje lo que tiene que ver con el lenguaje y cómo se usa. La programación se refiere a un concepto de ser capaz de reprogramar la forma en que funciona nuestro cerebro. Algunas de estas áreas pueden ser inicialmente preocupantes, ya que sabemos muy poco sobre el funcionamiento del cerebro. La PNL no profundiza en el funcionamiento del cerebro, ya sea de forma médica o psicológica, sino que se preocupa por conseguir que el cerebro de un individuo funcione de forma beneficiosa teniendo en cuenta los deseos y dedicaciones del individuo y asegurándose de que los resultados sean ecológicamente correctos, seguros y de impacto beneficioso. Entonces, ¿cómo se logra esto? Los co-creadores de la PNL (Richard Bandler y John Grinder) comenzaron a hacer sus descubrimientos de la PNL estudiando y modelando el comportamiento y el trabajo de otros grandes expertos y líderes respetados en varios campos de trabajo, que implicaban la comunicación e interacción con otros. Bandler y Grinder inicialmente estudiaron los patrones de lenguaje utilizados por estos especialistas y de esto derivaron un modelo de cómo usamos el lenguaje para construir nuestra percepción de nuestra realidad del mundo. Los practicantes de PNL usan esta y otras técnicas lingüísticas de PNL para ayudarles c",
           "interactiveChallenge": {
             "question": "Al aplicar los principios de la triangulación en el contexto de \"Capitulo 7 Manejar A La Gente Usando La Pnl\"?",
             "options": [
@@ -2992,7 +2993,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Capítulo 8: El poder de las técnicas de hipnosis Una historia de la hipnosis La hipnosis es la forma más antigua de psicoterapia (Ellenberger, 1970). Si examinamos las ceremonias religiosas y curativas de los pueblos primitivos, podemos encontrar los elementos básicos necesarios para inducir el trance hipnótico. De esto, es posible extrapolar que estos comportamientos ceremoniales existían antes de las hisotorías escritas y que el uso de cantos rítmicos, golpes de tambor monótonos, junto con las fijaciones tensas de los ojos, acompañadas por la catalepsia del resto del cuerpo; son de por sí, inducciones al trance. Si aceptamos esta hipótesis, podríamos deducir que la hipnosis, como la llamamos, existió como un método para acceder al inconsciente y permitir que el inconsciente ayude al consciente a lograr los cambios y beneficios deseados; siempre y cuando, hayamos querido cambiar nuestro comportamiento. Estos comportamientos no se habrían llamado hipnosis, aunque sí hipnóticos en el comportamiento hasta Braid en 1842. El registro escrito más antiguo de curas por \"hipnosis\" se obtuvo del papiro de Ebers, lo que nos da una idea de la teoría y la práctica de la medicina egipcia antes de 1552 a.C. En el papiro de Ebers, se describía un tratamiento en el que el médico ponía sus manos sobre la cabeza del paciente y afirmaba que los poderes terapéuticos sobrehumanos se manifestaban con extrañas declaraciones de remedios que se sugerían a los pacientes y que daban lugar a curas.",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Inducción de Foco e Hipnosis Sugestiva\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/santo_grial_manipulacion/grial_m9_poder_hipnosis.webp\" alt=\"Inducción de Foco e Hipnosis Sugestiva\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Capítulo 8: El poder de las técnicas de hipnosis Una historia de la hipnosis La hipnosis es la forma más antigua de psicoterapia (Ellenberger, 1970). Si examinamos las ceremonias religiosas y curativas de los pueblos primitivos, podemos encontrar los elementos básicos necesarios para inducir el trance hipnótico. De esto, es posible extrapolar que estos comportamientos ceremoniales existían antes de las hisotorías escritas y que el uso de cantos rítmicos, golpes de tambor monótonos, junto con las fijaciones tensas de los ojos, acompañadas por la catalepsia del resto del cuerpo; son de por sí, inducciones al trance. Si aceptamos esta hipótesis, podríamos deducir que la hipnosis, como la llamamos, existió como un método para acceder al inconsciente y permitir que el inconsciente ayude al consciente a lograr los cambios y beneficios deseados; siempre y cuando, hayamos querido cambiar nuestro comportamiento. Estos comportamientos no se habrían llamado hipnosis, aunque sí hipnóticos en el comportamiento hasta Braid en 1842. El registro escrito más antiguo de curas por \"hipnosis\" se obtuvo del papiro de Ebers, lo que nos da una idea de la teoría y la práctica de la medicina egipcia antes de 1552 a.C. En el papiro de Ebers, se describía un tratamiento en el que el médico ponía sus manos sobre la cabeza del paciente y afirmaba que los poderes terapéuticos sobrehumanos se manifestaban con extrañas declaraciones de remedios que se sugerían a los pacientes y que daban lugar a curas.",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la microexpresiones en el contexto de \"Capitulo 8 El Poder De La Hipnosis Parte 1\"?",
             "options": [
@@ -3550,7 +3551,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "dispuesto a hacerlo) \"Te dar&eacute; algunos dulces cuando termines tus deberes\". (En lugar de ofrecer una recompensa \"si\"; utilizas la frase m&aacute;s persuasiva \"cuando\"). \"&iquest;Cu&aacute;ndo quieres irte?\" (Hay una suposici&oacute;n de que ya quieres hacerlo, la pregunta es simplemente \"cu&aacute;ndo\"). \"&iquest;Qu&eacute; tan bien te sientes hoy?\" (La pregunta se refiere al nivel de bienestar de la persona porque ya presupones que se siente bien). \"Creo que es genial que est&eacute;s interesado en este producto. &iquest;C&oacute;mo piensas usarlo?\" (La suposici&oacute;n es que la persona est&aacute; interesada en el producto; la &uacute;nica pregunta es \"c&oacute;mo\" lo usar&aacute;. Esta estructura de preguntas en particular es una de las m&aacute;s poderosas t&eacute;cnicas de hipnosis conversacional para que los vendedores la usen, porque elevar&aacute; su tasa de ventas, atrayendo al cliente). Al hacer preguntas como estas, la gente que deseas persuadir comenzar&aacute; a pensar en las respuestas y dejar&aacute; de centrarse en descifrar completamente la pregunta en s&iacute;. Entonces entrar&aacute;n en un estado m&aacute;s receptivo en el que se les puede persuadir f&aacutecilmente y de forma indetectable. La &uacute;ltima t&eacute;cnica de hipnosis conversacional Es completamente posible hacer que la mayor&iacute;a de la gente haga exactamente lo que t&uacute; quieres que hagan, simplemente haciendo una pregunta que asume que ya han hecho lo que quieres que hag",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Despertar Consciente y Soberanía Mental\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/santo_grial_manipulacion/grial_m10_hipnosis_conclusion.webp\" alt=\"Despertar Consciente y Soberanía Mental\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>dispuesto a hacerlo) \"Te dar&eacute; algunos dulces cuando termines tus deberes\". (En lugar de ofrecer una recompensa \"si\"; utilizas la frase m&aacute;s persuasiva \"cuando\"). \"&iquest;Cu&aacute;ndo quieres irte?\" (Hay una suposici&oacute;n de que ya quieres hacerlo, la pregunta es simplemente \"cu&aacute;ndo\"). \"&iquest;Qu&eacute; tan bien te sientes hoy?\" (La pregunta se refiere al nivel de bienestar de la persona porque ya presupones que se siente bien). \"Creo que es genial que est&eacute;s interesado en este producto. &iquest;C&oacute;mo piensas usarlo?\" (La suposici&oacute;n es que la persona est&aacute; interesada en el producto; la &uacute;nica pregunta es \"c&oacute;mo\" lo usar&aacute;. Esta estructura de preguntas en particular es una de las m&aacute;s poderosas t&eacute;cnicas de hipnosis conversacional para que los vendedores la usen, porque elevar&aacute; su tasa de ventas, atrayendo al cliente). Al hacer preguntas como estas, la gente que deseas persuadir comenzar&aacute; a pensar en las respuestas y dejar&aacute; de centrarse en descifrar completamente la pregunta en s&iacute;. Entonces entrar&aacute;n en un estado m&aacute;s receptivo en el que se les puede persuadir f&aacutecilmente y de forma indetectable. La &uacute;ltima t&eacute;cnica de hipnosis conversacional Es completamente posible hacer que la mayor&iacute;a de la gente haga exactamente lo que t&uacute; quieres que hagan, simplemente haciendo una pregunta que asume que ya han hecho lo que quieres que hag",
           "interactiveChallenge": {
             "question": "Ante una situación de la escasez artificial en el contexto de \"Capitulo 8 El Poder De La Hipnosis Parte 2 Y Conclusion\"?",
             "options": [
@@ -4129,6 +4130,629 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "cs1",
+      "category": "Analisis De Los Tipos De Personalidad",
+      "title": "Negociación con un Perfil Narcisista",
+      "difficulty": "Alta",
+      "badge": "Maestro del Perfilado",
+      "scenarioDescription": "Te encuentras en una reunión de alta dirección donde un colega con rasgos narcisistas evidentes intenta descalificar tu propuesta frente a los superiores, buscando validación pública y socavando tu autoridad.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Atacar su ego directamente señalando sus errores pasados frente a todos.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Un ataque directo activa los mecanismos de defensa narcisistas, provocando una guerra de desgaste contraproducente.",
+          "bookInsight": "El libro enseña que los tipos de personalidad narcisista deben manejarse alimentando sutilmente su necesidad de reconocimiento mientras se asegura el objetivo propio."
+        },
+        {
+          "id": "opt2",
+          "text": "Alabar públicamente su visión general y luego enmarcar tu propuesta como el vehículo perfecto para hacer brillar sus ideas.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Al alinear tu propuesta con su necesidad de protagonismo, neutralizas la resistencia y obtienes su aprobación indirecta.",
+          "bookInsight": "El análisis de personalidades permite redirigir los motivos egoístas del interlocutor hacia resultados favorables para uno mismo."
+        }
+      ]
+    },
+    {
+      "id": "cs2",
+      "category": "Como Manejar El Lenguaje Corporal",
+      "title": "Interpretación de Microexpresiones en Entrevista",
+      "difficulty": "Media",
+      "badge": "Lector de Rostros",
+      "scenarioDescription": "Estás cerrando un acuerdo comercial. Tu contraparte dice verbalmente que está de acuerdo con los términos, pero notas que cruza los brazos y desvía la mirada hacia la izquierda al asentir.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ignorar la señal corporal y proceder a firmar el contrato inmediatamente.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "Ignorar la incongruencia entre la comunicación verbal y la no verbal suele llevar a sorpresas desagradables posteriores.",
+          "bookInsight": "El lenguaje corporal revela la verdadera intención cuando las palabras intentan enmascararla."
+        },
+        {
+          "id": "opt2",
+          "text": "Hacer una pausa, sonreír y pedir su opinión sobre un detalle menor para calibrar su verdadera postura.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Rompes el patrón de tensión y das espacio para que emerja la verdadera objeción oculta tras la postura defensiva.",
+          "bookInsight": "Dominar el lenguaje corporal implica detectar microincongruencias para ajustar la estrategia de influencia."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Motivos De La Manipulacion",
+      "title": "Descubriendo Motivos Ocultos",
+      "difficulty": "Alta",
+      "badge": "Analista de Motivos",
+      "scenarioDescription": "Un conocido te ofrece un favor desmesurado sin aparente razón, insistiendo en que lo aceptes sin condiciones.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Aceptar el favor con gratitud y asumir que es un acto genuino de generosidad.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "En el terreno de la influencia, los favores no solicitados son herramientas clásicas para activar el principio de reciprocidad.",
+          "bookInsight": "Los motivos de la manipulación a menudo se disfrazan de altruismo para generar una deuda psicológica."
+        },
+        {
+          "id": "opt2",
+          "text": "Identificar el desequilibrio potencial y declinar cortésmente o establecer límites claros antes de aceptar.",
+          "outcome": "Éxito",
+          "wisdomScore": 85,
+          "analysis": "Neutralizas la trampa de la reciprocidad forzada manteniendo tu independencia.",
+          "bookInsight": "Comprender por qué la gente manipula permite anticiparse a las deudas morales artificiales."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Tecnicas De Manipulacion",
+      "title": "Defensa ante la Tecnica del Pie en la Puerta",
+      "difficulty": "Media",
+      "badge": "Escudo Táctico",
+      "scenarioDescription": "Un vendedor te pide responder una encuesta de dos minutos. Una vez que aceptas, la encuesta se convierte en una presentación de ventas agresiva.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Continuar escuchando por cortesía y terminar comprando para no quedar mal.",
+          "outcome": "Fallo",
+          "wisdomScore": 35,
+          "analysis": "Caes exactamente en la trampa de la consistencia y el compromiso gradual.",
+          "bookInsight": "Las técnicas de manipulación explotan la tendencia humana a ser coherentes con compromisos iniciales pequeños."
+        },
+        {
+          "id": "opt2",
+          "text": "Reconocer la táctica, recordar el acuerdo original y finalizar la interacción amablemente.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Rompes el ciclo de manipulación al confrontar la expansión no acordada del compromiso.",
+          "bookInsight": "Identificar el 'pie en la puerta' permite cortar la escalada de concesiones."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Manejar A La Gente Mediante Persuasion",
+      "title": "Influencia Ética vs Coacción",
+      "difficulty": "Alta",
+      "badge": "Persuasor Maestro",
+      "scenarioDescription": "Necesitas convencer a tu equipo de adoptar un nuevo software complejo bajo presión de tiempo.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Amenazar con despidos o sanciones si no aprenden el software en tiempo récord.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "La coacción genera resistencia pasiva, sabotaje y alta rotación de personal.",
+          "bookInsight": "La manipulación burda genera defensas; la persuasión sofisticada alinea los intereses del otro con los propios."
+        },
+        {
+          "id": "opt2",
+          "text": "Mostrar cómo el software elimina las tareas más tediosas de su día a día, haciéndoles partícipes del beneficio.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Utilizas los resortes motivacionales correctos para lograr adopción voluntaria y entusiasta.",
+          "bookInsight": "La persuasión efectiva se basa en hacer que la otra persona crea que la idea es suya."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Manejar A La Gente Usando La Pnl",
+      "title": "Alineación de Canales Sensoriales",
+      "difficulty": "Alta",
+      "badge": "Estratega PNL",
+      "scenarioDescription": "Estás intentando cerrar un trato con un cliente que constantemente utiliza frases como 'veo claramente el panorama' y 'esto pinta muy bien'.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Responder utilizando metáforas kinestésicas como 'siento que esto nos pesará si no avanzamos'.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "La falta de sintonía en el canal representacional principal genera fricción subconsciente.",
+          "bookInsight": "La Programación Neurolingüística (PNL) demuestra que calibrar el canal preferente del interlocutor acelera la rapport."
+        },
+        {
+          "id": "opt2",
+          "text": "Adaptar tu discurso usando vocabulario visual: 'Quiero mostrarle cómo se proyecta este escenario con claridad'.",
+          "outcome": "Éxito",
+          "wisdomScore": 92,
+          "analysis": "Creas una conexión empática inmediata al sintonizar con el canal representacional visual del cliente.",
+          "bookInsight": "El uso de la PNL permite entrar en el mapa mental del otro utilizando su propio código sensorial."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc1",
+      "bookNumber": 1,
+      "category": "Personalidad",
+      "term": "Perfil Narcisista",
+      "definition": "Patrón de grandiosidad, necesidad de admiración y falta de empatía explotado por manipuladores o exhibido por ellos.",
+      "tacticalUse": "Identificar puntos débiles en líderes autoritarios para ganar su favor mediante adulación calculada.",
+      "countermeasure": "Establecer límites estrictos y no buscar su aprobación emocional."
+    },
+    {
+      "id": "fc2",
+      "bookNumber": 1,
+      "category": "Lenguaje Corporal",
+      "term": "Microexpresiones",
+      "definition": "Expresiones faciales involuntarias que duran fracciones de segundo y revelan emociones reprimidas.",
+      "tacticalUse": "Detectar engaños o desacuerdos ocultos durante negociaciones de alto riesgo.",
+      "countermeasure": "Mantener la neutralidad emocional y observar patrones globales en lugar de gestos aislados."
+    },
+    {
+      "id": "fc3",
+      "bookNumber": 1,
+      "category": "Motivos",
+      "term": "Reciprocidad Forzada",
+      "definition": "Táctica de entregar un regalo o favor no solicitado para crear una deuda psicológica exigible.",
+      "tacticalUse": "Inducir conformidad ofreciendo valor inicial sin compromiso previo.",
+      "countermeasure": "Rechazar obsequios con condiciones implícitas o devolver el favor de inmediato en términos monetarios o neutrales."
+    },
+    {
+      "id": "fc4",
+      "bookNumber": 1,
+      "category": "Técnicas",
+      "term": "Pie en la Puerta",
+      "definition": "Técnica de persuasión basada en aceptar una petición pequeña para luego incrementar el tamaño de la exigencia.",
+      "tacticalUse": "Lograr acuerdos mayores dividiéndolos en micro-compromisos sucesivos.",
+      "countermeasure": "Evaluar cada solicitud de forma aislada sin mirar el historial previo de compromisos."
+    },
+    {
+      "id": "fc5",
+      "bookNumber": 1,
+      "category": "Relaciones",
+      "term": "Gaslighting",
+      "definition": "Forma de abuso psicológico que busca sembrar dudas en la cordura o percepción de la realidad de la víctima.",
+      "tacticalUse": "Desestabilizar la confianza de un competidor o subordinado para hacerlo dependiente.",
+      "countermeasure": "Llevar registros escritos y objetivos de los hechos para contrastar con la manipulación."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Prueba Social",
+      "definition": "Tendencia psicológica a asumir las acciones de otros en un intento de reflejar el comportamiento correcto.",
+      "tacticalUse": "Movilizar masas o convencer individuos mostrando que 'todos los demás lo están haciendo'.",
+      "countermeasure": "Analizar la validez de las decisiones basándose en datos propios y no en la popularidad."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Rapport",
+      "definition": "Estado de armonía y sintonía donde dos personas se comunican con fluidez y empatía mutua.",
+      "tacticalUse": "Construir confianza instantánea mediante el espejo de posturas y tonos de voz.",
+      "countermeasure": "Ser consciente de cuando alguien imita artificialmente tus movimientos para generar falsa cercanía."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Inducción al Transe",
+      "definition": "Proceso de enfocar la atención de un sujeto hacia un estímulo interno o externo estrecho, bajando las defensas críticas.",
+      "tacticalUse": "Facilitar la aceptación de sugestiones directas o indirectas.",
+      "countermeasure": "Mantener un estado de alerta cognitiva activa ante discursos monótonos o altamente repetitivos."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Personalidad",
+      "term": "Personalidad Maquiavélica",
+      "definition": "Perfil caracterizado por el cinismo, la manipulación interpersonal y la priorización del fin sobre los medios.",
+      "tacticalUse": "Anticipar jugadas egoístas en entornos competitivos corporativos o políticos.",
+      "countermeasure": "Exigir transparencia contractual y minimizar la dependencia personal."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Lenguaje Corporal",
+      "term": "Proxémica",
+      "definition": "Estudio del uso del espacio físico y la distancia interpersonal en la comunicación.",
+      "tacticalUse": "Invadir sutilmente el espacio personal para generar intimidación o dominar una negociación.",
+      "countermeasure": "Reclamar y mantener conscientemente la distancia de confort física."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Técnicas",
+      "term": "Puerta en la Cara",
+      "definition": "Hacer una petición excesiva que será rechazada, para luego ofrecer una petición menor que era la meta real.",
+      "tacticalUse": "Hacer que una concesión real parezca un favor generoso.",
+      "countermeasure": "Evaluar la segunda propuesta en función de su valor real, no en contraste con la primera exagerada."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Anclaje",
+      "definition": "Asociación de un estímulo externo (palabra, gesto) a una respuesta emocional específica.",
+      "tacticalUse": "Establecer estados de confianza o tensión en momentos clave de una interacción.",
+      "countermeasure": "Identificar el estímulo disparador y romper el patrón mental conscientemente."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Canales Representacionales",
+      "definition": "Sistemas sensoriales preferidos (Visual, Auditivo, Kinestésico) para procesar la experiencia.",
+      "tacticalUse": "Calibrar el vocabulario para sintonizar con el mapa mental del cliente o interlocutor.",
+      "countermeasure": "Asegurar que las decisiones se basen en análisis lógicos y no solo en la comodidad lingüística."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Doble Vínculo",
+      "definition": "Presentar dos opciones donde ambas conducen al resultado deseado por el emisor.",
+      "tacticalUse": "Guiar la decisión de un cliente sin darle la opción de rechazar la premisa principal.",
+      "countermeasure": "Introducir una tercera opción o rechazar ambas premisas con firmeza."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Relaciones",
+      "term": "Aislamiento",
+      "definition": "Estrategia para cortar las redes de apoyo de una persona y volverla totalmente dependiente.",
+      "tacticalUse": "Monopolizar el tiempo y la atención de alguien para ejercer control total.",
+      "countermeasure": "Mantener relaciones diversas y cultivar la autonomía social de forma activa."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Aislamiento y Control",
+      "name": "Gaslighting Sistémico",
+      "severity": "Crítica",
+      "icon": "fa-brain",
+      "howItWorks": "Niega sistemáticamente la validez de los recuerdos y percepciones de la víctima hasta hacerla dudar de su propia salud mental.",
+      "redFlags": [
+        "Te dicen 'eso nunca pasó' ante eventos claros",
+        "Te acusan de tener mala memoria constantemente",
+        "Modifican los hechos de conversaciones pasadas"
+      ],
+      "counterScript": "Mi memoria sobre este evento es clara y registrada. No aceptaré que reescribas lo que sucedió.",
+      "deepMechanism": "Ataque directo al sentido de autoeficacia y validación interna del individuo, generando dependencia cognitiva."
+    },
+    {
+      "id": "t2",
+      "category": "Persuasión Coercitiva",
+      "name": "La Tecnica del Doble Vínculo",
+      "severity": "Alta",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Fuerza una elección limitada donde cualquier camino tomado beneficia al manipulador.",
+      "redFlags": [
+        "Preguntas cerradas con solo dos opciones aparentes",
+        "Sensación de estar atrapado sin salida lógica",
+        "Presura excesiva para tomar la decisión"
+      ],
+      "counterScript": "Prefiero explorar una tercera opción que no esté limitada a estas dos alternativas.",
+      "deepMechanism": "Bloquea el pensamiento divergente limitando el marco de referencia del cerebro bajo presión temporal."
+    },
+    {
+      "id": "t3",
+      "category": "Influencia Emocional",
+      "name": "Reciprocidad Inducida",
+      "severity": "Media",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Otorga favores no solicitados para activar el imperativo biológico de devolver la atención o el favor.",
+      "redFlags": [
+        "Regalos o favores desproporcionados sin relación previa",
+        "Recordatorios sutiles de 'todo lo que he hecho por ti'",
+        "Sensación de deuda moral inmediata"
+      ],
+      "counterScript": "Aprecio el gesto, pero prefiero rechazar el favor para evitar compromisos futuros.",
+      "deepMechanism": "Explotación de las normas sociales de reciprocidad grabadas evolutivamente para la cohesión grupal."
+    },
+    {
+      "id": "t4",
+      "category": "Manipulación Cognitiva",
+      "name": "Anclaje de Miedo y Culpa",
+      "severity": "Crítica",
+      "icon": "fa-skull",
+      "howItWorks": "Asocia un estímulo negativo o un sentimiento de culpa a una conducta específica para condicionar la sumisión.",
+      "redFlags": [
+        "Cambios drásticos de humor cuando no cumples sus expectativas",
+        "Uso frecuente de la culpa para cambiar tu comportamiento",
+        "Asociación de tu independencia con 'falta de amor o lealtad'"
+      ],
+      "counterScript": "Comprendo que estés molesto, pero mi decisión está tomada y no es negociable en esos términos.",
+      "deepMechanism": "Genera condicionamiento clásico pavloviano utilizando respuestas límbicas de miedo y culpa."
+    },
+    {
+      "id": "t5",
+      "category": "Neurolingüística",
+      "name": "Sugestión Hipnótica Conversacional",
+      "severity": "Alta",
+      "icon": "fa-eye",
+      "howItWorks": "Utiliza patrones de lenguaje vago y metáforas incrustadas para plantar ideas directamente en el subconsciente.",
+      "redFlags": [
+        "Frases con palabras enfatizadas sutilmente en un discurso fluido",
+        "Preguntas reorientadas sin que notes el cambio de tema",
+        "Sensación de confusión leve tras hablar con la persona"
+      ],
+      "counterScript": "Detengámonos un momento. ¿Exactamente qué quieres decir con esa afirmación?",
+      "deepMechanism": "Bypasea el factor crítico del consciente humano comunicándose directamente con las capas asociativas."
+    },
+    {
+      "id": "t6",
+      "category": "Dinámica Relacional",
+      "name": "Aislamiento Social Progresivo",
+      "severity": "Crítica",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Critica sutilmente al círculo cercano de la víctima para reducir sus apoyos externos.",
+      "redFlags": [
+        "Comentarios despectivos sobre tus amigos o familiares",
+        "Incomodidad manifiesta cuando pasas tiempo sin el manipulador",
+        "Intentos de monopolizar todo tu tiempo libre"
+      ],
+      "counterScript": "Mis relaciones con mi familia y amigos son importantes para mí y no voy a discutirlas.",
+      "deepMechanism": "Elimina la realidad alternativa y las fuentes externas de validación, facilitando el control total."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal del perfilado de personalidades según Brad Wood en el contexto de la manipulación?",
+      "options": [
+        "Diagnosticar trastornos clínicos profundos en los amigos",
+        "Identificar vulnerabilidades y puntos de apalancamiento para la influencia",
+        "Cambiar la personalidad de los competidores mediante terapia",
+        "Evitar por completo cualquier interacción social"
+      ],
+      "correctIndex": 1,
+      "explanation": "El libro enseña que analizar personalidades oscuras o comunes sirve para entender cómo operan y dónde se encuentran sus puntos débiles para influir o defenderse."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "En el contexto del lenguaje corporal, ¿qué indica típicamente que alguien se lleve la mano a la boca o toque su nariz al hablar?",
+      "options": [
+        "Un problema neurológico grave",
+        "Incongruencia, bloqueo o intento de ocultar información",
+        "Exceso de confianza y sinceridad absoluta",
+        "Una necesidad biológica de oxígeno"
+      ],
+      "correctIndex": 1,
+      "explanation": "Los gestos de manipulación o bloqueo facial suelen reflejar el subconsciente intentando 'bloquear' el flujo de palabras dudosas o falsas."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "¿Qué define a la técnica del 'Pie en la Puerta'?",
+      "options": [
+        "Bloquear físicamente la salida de una habitación",
+        "Hacer una petición pequeña que, al ser aceptada, abre paso a una petición mayor",
+        "Negarse a escuchar argumentos contrarios",
+        "Ofrecer un descuento imposible en la primera compra"
+      ],
+      "correctIndex": 1,
+      "explanation": "La técnica aprovecha la consistencia del individuo al aceptar un compromiso menor inicial para acceder después a solicitudes mucho mayores."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "¿Cómo opera la PNL (Programación Neurolingüística) en la persuasión avanzada descrita en la obra?",
+      "options": [
+        "Hipnotizando al sujeto mediante relojes de bolsillo",
+        "Sintonizando con los canales sensoriales preferidos del interlocutor para acelerar el rapport",
+        "Hackeando dispositivos electrónicos mediante comandos de voz",
+        "Obligando al sujeto a firmar contratos bajo amenaza"
+      ],
+      "correctIndex": 1,
+      "explanation": "La PNL utiliza la calibración del lenguaje visual, auditivo o kinestésico para generar una conexión profunda y rápida en el mapa mental del otro."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "¿Cuál es el antídoto principal contra el Gaslighting según las enseñanzas de psicología oscura?",
+      "options": [
+        "Aislarse de todas las personas",
+        "Mantener registros objetivos y externos de la realidad y los hechos",
+        "Aceptar siempre la versión del manipulador para evitar conflictos",
+        "Atacar físicamente al agresor"
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting busca destruir la confianza en la memoria propia; por ello, llevar un diario o registros objetivos neutraliza la manipulación."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "Según el libro, ¿cuál es la diferencia fundamental entre manipulación y persuasión ética?",
+      "options": [
+        "No existe ninguna diferencia",
+        "La manipulación oculta los verdaderos motivos en beneficio propio, mientras la persuasión busca el beneficio mutuo transparente",
+        "La persuasión es ilegal y la manipulación es legal",
+        "La manipulación solo funciona en personas con baja inteligencia"
+      ],
+      "correctIndex": 1,
+      "explanation": "La diferencia radica en la transparencia y en el propósito: la manipulación explota las debilidades ocultando la intención real."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Psicología Oscura",
+      "category": "Teoría General",
+      "definition": "Estudio de la manipulación, el engaño y las tácticas coercitivas utilizadas para influir en los demás.",
+      "practicalExample": "Analizar las tácticas detrás de una campaña publicitaria agresiva."
+    },
+    {
+      "id": "g2",
+      "term": "Calibración",
+      "category": "Lenguaje Corporal",
+      "definition": "Habilidad de leer y notar los cambios sutiles en la fisiología y conducta de otra persona.",
+      "practicalExample": "Notar cuando el tono de voz de un cliente cambia al hablar de precios."
+    },
+    {
+      "id": "g3",
+      "term": "Triada Oscura",
+      "category": "Personalidad",
+      "definition": "Conjunto de tres rasgos de personalidad: narcisismo, maquiavelismo y psicopatía.",
+      "practicalExample": "Identificar perfiles tóxicos en entornos corporativos altamente competitivos."
+    },
+    {
+      "id": "g4",
+      "term": "Rapport",
+      "category": "PNL",
+      "definition": "Sintonía conductual y emocional que genera un puente de confianza instantánea.",
+      "practicalExample": "Igualar sutilmente el ritmo respiratorio de un socio durante una negociación."
+    },
+    {
+      "id": "g5",
+      "term": "Inducción Hipnótica",
+      "category": "Hipnosis",
+      "definition": "Proceso de enfocar la atención para disminuir el filtro crítico consciente.",
+      "practicalExample": "Usar un tono de voz pausado y monótono para relajar la resistencia del cliente."
+    },
+    {
+      "id": "g6",
+      "term": "Principio de Escasez",
+      "category": "Persuasión",
+      "definition": "Técnica que aumenta el valor percibido de algo basándose en su limitación temporal o cuantitativa.",
+      "practicalExample": "Decir 'solo quedan dos plazas disponibles para este acuerdo'."
+    },
+    {
+      "id": "g7",
+      "term": "Cognición Oculta",
+      "category": "Estrategia",
+      "definition": "Proceso mental de anticipar las jugadas psicológicas de un adversario sin revelar las propias.",
+      "practicalExample": "Mantener una expresión neutral mientras evalúas una oferta trampa."
+    },
+    {
+      "id": "g8",
+      "term": "Disonancia Cognitiva",
+      "category": "Psicología",
+      "definition": "Tensión mental experimentada al mantener dos creencias contradictorias simultáneamente.",
+      "practicalExample": "Hacer que alguien cuestione sus propios valores mediante preguntas paradoxales."
+    },
+    {
+      "id": "g9",
+      "term": "Aislamiento Psicológico",
+      "category": "Relaciones",
+      "definition": "Estrategia de control para cortar los canales externos de apoyo de la víctima.",
+      "practicalExample": "Criticar constantemente a los amigos del compañero para que se distancie."
+    },
+    {
+      "id": "g10",
+      "term": "Anclaje Sensorial",
+      "category": "PNL",
+      "definition": "Vinculación de un estímulo específico a un estado emocional determinado.",
+      "practicalExample": "Tocar el hombro de alguien al darle una buena noticia para asociar el gesto al bienestar."
+    },
+    {
+      "id": "g11",
+      "term": "Metamodelo del Lenguaje",
+      "category": "PNL",
+      "definition": "Conjunto de preguntas diseñadas para desafiar distorsiones, generalizaciones y omisiones lingüísticas.",
+      "practicalExample": "Preguntar '¿Exactamente quién dice eso?' ante la afirmación 'todos opinan lo mismo'."
+    },
+    {
+      "id": "g12",
+      "term": "Compliance (Conformidad)",
+      "category": "Influencia",
+      "definition": "Cambio de comportamiento en respuesta a una petición explícita de otra persona.",
+      "practicalExample": "Lograr que un colega firme un documento antes de leer los anexos."
+    },
+    {
+      "id": "g13",
+      "term": "Efecto Halo",
+      "category": "Percepción",
+      "definition": "Sesgo cognitivo donde la impresión positiva en un área influye en la opinión general sobre la persona.",
+      "practicalExample": "Confiar ciegamente en alguien solo por su apariencia elegante."
+    },
+    {
+      "id": "g14",
+      "term": "Negación Plausible",
+      "category": "Táctica",
+      "definition": "Capacidad de un manipulador para negar la malicia de sus actos y culpar a malentendidos.",
+      "practicalExample": "Decir 'era solo una broma, te lo Tomas muy en serio' tras un insulto sutil."
+    },
+    {
+      "id": "g15",
+      "term": "Resistencia Psicológica",
+      "definition": "Reacción defensiva automática ante la sensación de que la libertad personal está siendo amenazada.",
+      "practicalExample": "Rechazar una propuesta excelente solo porque fue impuesta con demasiada fuerza."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "CALIBRACIÓN",
+      "title": "Detección de Bloqueo Óculo-Motor",
+      "cue": "Cierre breve o parpadeo prolongado seguido de desvío de la mirada hacia arriba y a la derecha.",
+      "interpretation": "Indica acceso a la construcción visual interna, sugiriendo que la persona está imaginando o fabricando una respuesta en lugar de recordarla.",
+      "practicalDrill": "Haz una pregunta de control sobre hechos pasados y observa el movimiento ocular; luego haz una pregunta compleja y compara el patrón."
+    },
+    {
+      "id": "bl2",
+      "category": "DETECCIÓN",
+      "title": "Asimetría en la Sonrisa (Sonrisa de Duchenne Falsa)",
+      "cue": "Elevación de los labios sin contracción del músculo orbicular alrededor de los ojos (ausencia de patas de gallo).",
+      "interpretation": "Revela una sonrisa social o fingida, indicando que la amabilidad expresada no coincide con el estado emocional interno real.",
+      "practicalDrill": "Practica frente al espejo sonreír solo con la boca y luego involucra la mirada conscientemente hasta dominar la diferencia."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Calibración de la Barrera Torácica",
+      "cue": "Cruzado de brazos repentino o ajuste de la chaqueta/reloj al introducir un tema específico.",
+      "interpretation": "Señal clásica de autoprotección y defensa subconsciente ante una proposición que genera incomodidad o rechazo.",
+      "practicalDrill": "Monitorea las manos y el torso de tu contraparte al mencionar cifras o condiciones clave en una negociación."
+    },
+    {
+      "id": "bl4",
+      "category": "CALIBRACIÓN",
+      "title": "Marcadores de Ritmo Respiratorio",
+      "cue": "Aceleración súbita en la frecuencia respiratoria y elevación superficial del pecho.",
+      "interpretation": "Indica activación del sistema nervioso simpático (lucha o huida), señalando estrés, ansiedad o resistencia ante la premisa actual.",
+      "practicalDrill": "Modera tu propio ritmo respiratorio y observa si la otra persona tiende a sincronizarse o mantiene el estado de alteración."
+    },
+    {
+      "id": "bl5",
+      "category": "DETECCIÓN",
+      "title": "Microgestos de Autocontacto Facial",
+      "cue": "Frotarse el lóbulo de la oreja, tocarse la base de la nariz o pasar la mano por el cuello de manera repetitiva.",
+      "interpretation": "Refleja micro-picazones inducidas por el aumento del flujo sanguíneo debido al estrés de emitir información dudosa.",
+      "practicalDrill": "Registra cuántas veces tu interlocutor se toca la cara durante una explicación de sus motivos personales."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "Anclaje Postural de Dominancia",
+      "cue": "Inclinación del torso hacia adelante con manos apoyadas firmemente en la mesa y mentón elevado.",
+      "interpretation": "Proyecta territorio, seguridad y desafío, alterando la dinámica de sumisión en la sala.",
+      "practicalDrill": "Adopta esta postura conscientemente al momento de establecer un límite o rechazar una manipulación directa."
     }
   ]
 };

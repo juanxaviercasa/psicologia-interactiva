@@ -11917,53 +11917,157 @@ const LIBROS_DATA = {
   "caseScenarios": [
     {
       "id": "cs1",
-      "category": "Relaciones Interpersonales",
-      "title": "Caso Práctico: Cap Tulo Dos El Secreto Del Enga O Qu Es El Enga O",
-      "difficulty": "Media",
-      "badge": "Experto en Vínculos",
-      "scenarioDescription": "Durante una situación relacionada con \"Cap Tulo Dos El Secreto Del Enga O Qu Es El Enga O\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "category": "Psicología Oscura",
+      "title": "La Reunión Directiva y la Persuasión Oculta",
+      "difficulty": "Alta",
+      "badge": "Escudo de Conciencia",
+      "scenarioDescription": "Durante una junta directiva clave, un colega utiliza técnicas de persuasión oscura y anclaje emocional para forzar la aprobación de un presupuesto desfavorable, apelando sutilmente a tus inseguridades pasadas.",
       "options": [
         {
           "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Cap Tulo Dos El Secreto Del Enga O Qu Es El Enga O\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Atacar frontalmente acusando al colega de manipulación frente a todos.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "Reaccionar a la defensiva de forma agresiva expone tus debilidades emocionales y juega a favor del manipulador, quien usará tu reacción para desacreditarte.",
+          "bookInsight": "El arte de la persuasión oscura requiere que mantengas la calma y reconozcas el patrón antes de responder."
         },
         {
           "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Identificar el sesgo de anclaje, pausar la discusión y exigir datos objetivos sobre el presupuesto.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Desarmas la manipulación emocional neutralizando el canal afectivo con lógica pura, obligando al emisor a basarse en hechos tangibles.",
+          "bookInsight": "El control mental y el engaño pierden su fuerza cuando la realidad y la conciencia se determinan mutuamente mediante datos."
         }
       ]
     },
     {
       "id": "cs2",
-      "category": "Aplicación Ética de Principios",
-      "title": "Caso Práctico: Cap Tulo Tres Comprensi N De La Persuasi N Oscura",
-      "difficulty": "Alta",
-      "badge": "Maestro de Influencia",
-      "scenarioDescription": "Durante una situación relacionada con \"Cap Tulo Tres Comprensi N De La Persuasi N Oscura\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "category": "Engaño y Detección",
+      "title": "El Contrato Oculto",
+      "difficulty": "Media",
+      "badge": "Analista de Engaños",
+      "scenarioDescription": "Un socio comercial te presenta un contrato con cláusulas ambiguas redactadas para beneficiarle en caso de ruptura, insistiendo en que 'es una formalidad estándar y confía en ti'.",
       "options": [
         {
           "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Cap Tulo Tres Comprensi N De La Persuasi N Oscura\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Firmar de inmediato para no dañar la relación de confianza.",
+          "outcome": "Fallo",
+          "wisdomScore": 10,
+          "analysis": "Caer en la apelación a la confianza ciega es el núcleo del engaño táctico expuesto en el Capítulo Dos.",
+          "bookInsight": "El secreto del engaño radica en disfrazar el interés propio bajo conceptos de lealtad y confianza."
         },
         {
           "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
+          "text": "Agradecer la confianza, pero diferir la firma hasta que un asesor legal revise cada cláusula.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Establecer límites racionales neutraliza la presión psicológica del manipulador sin generar un conflicto abierto innecesario.",
+          "bookInsight": "Proteger la propia realidad mental implica no ceder ante urgencias artificiales creadas por terceros."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Control Emocional",
+      "title": "La Tormenta de Culpa",
+      "difficulty": "Alta",
+      "badge": "Dominio Emocional",
+      "scenarioDescription": "Un familiar recurrente utiliza la culpa sistemática y el gaslighting para hacerte responsable de sus propios fracasos financieros, buscando que asumas deudas suyas.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Asumir una pequeña parte de la deuda para calmar la situación y evitar discusiones.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Ceder refuerza el comportamiento manipulador, validando el chantaje emocional como método efectivo.",
+          "bookInsight": "Las técnicas de control emocional buscan moldear tu comportamiento mediante la asfixia de tus propias decisiones."
+        },
+        {
+          "id": "opt2",
+          "text": "Establecer un límite firme verbalizando su intento de manipulación y negando la ayuda económica.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Romper el ciclo de dependencia emocional corta de raíz el control mental no detectado.",
+          "bookInsight": "Controlar tus emociones y tus relaciones exige anteponer la conciencia sobre el chantaje afectivo."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Influencia Conductual",
+      "title": "El Entorno Laboral Tóxico",
+      "difficulty": "Media",
+      "badge": "Vigilante Conductual",
+      "scenarioDescription": "Notas que un supervisor utiliza aislamiento selectivo y desvalorización sutil para minar la confianza de los miembros del equipo, logrando obediencia ciega.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Unirte al grupo del supervisor para asegurar tu propia posición a expensas de los demás.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Participar en dinámicas de lavado de cerebro o manipulación sistémica corrompe los propios principios éticos y de autodefensa.",
+          "bookInsight": "El lavado de cerebro y la influencia en el comportamiento humano prosperan en el miedo y la división."
+        },
+        {
+          "id": "opt2",
+          "text": "Documentar los incidentes, fomentar la cohesión entre compañeros y reportar formalmente si es necesario.",
+          "outcome": "Éxito",
+          "wisdomScore": 85,
+          "analysis": "La documentación objetiva destruye la narrativa subjetiva del manipulador basada en el miedo.",
+          "bookInsight": "Comprender el comportamiento humano permite anticipar y bloquear tácticas de influencia colectiva."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Hipnosis y Trance",
+      "title": "La Venta a Presión",
+      "difficulty": "Alta",
+      "badge": "Antídoto Hipnótico",
+      "scenarioDescription": "Durante una presentación de ventas de alto standing, el ponente utiliza un tono monótono, ritmos pausados y comandos verbales encubiertos para inducir un estado de sumisión y compra impulsiva.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Comprar el producto para demostrar que tienes el control y no te dejas intimidar.",
+          "outcome": "Fallo",
           "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "analysis": "Has caído exactamente en el estado parecido al trance que buscaba el vendedor mediante la hipnosis conversacional.",
+          "bookInsight": "La hipnosis y la hipnoterapia encubiertas aumentan la sugestibilidad eludiendo el pensamiento crítico."
+        },
+        {
+          "id": "opt2",
+          "text": "Romper el patrón de atención cambiando de postura, haciendo una pregunta incómoda o saliendo de la sala.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Romper el estímulo rítmico disuelve el estado de trance inducido y restaura el procesamiento analítico.",
+          "bookInsight": "Reconocer las técnicas de inducción es la clave principal para evitar el control mental no detectado."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Persuasión Oscura",
+      "title": "El Influencer Oculto",
+      "difficulty": "Media",
+      "badge": "Maestro del Contrapeso",
+      "scenarioDescription": "Un conocido en redes sociales utiliza técnicas avanzadas de polarización y validación intermitente para crear dependencia emocional y fidelidad ciega a su contenido.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Interactuar constantemente buscando su aprobación y validación pública.",
+          "outcome": "Fallo",
+          "wisdomScore": 35,
+          "analysis": "Te conviertes en un peón dentro del sistema de refuerzo intermitente diseñado para capturar tu atención.",
+          "bookInsight": "El arte de la persuasión ha evolucionado mediante técnicas sofisticadas de manipulación digital."
+        },
+        {
+          "id": "opt2",
+          "text": "Reconocer el refuerzo intermitente, limitar el consumo de su contenido y mantener el pensamiento crítico.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Desactivar el ciclo de dopamina neutraliza la trampa psicológica del influencer oscuro.",
+          "bookInsight": "El dominio de uno mismo se logra al comprender cómo la persuasión intenta secuestrar la voluntad."
         }
       ]
     }
@@ -11971,38 +12075,453 @@ const LIBROS_DATA = {
   "flashcards": [
     {
       "id": "fc1",
-      "term": "Triangulación",
-      "definition": "Técnica psicológica estudiada en \"Introduccion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Documentar patrones de comportamiento para identificar manipulación."
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Psicología Oscura",
+      "definition": "Estudio y aplicación de tácticas de manipulación, engaño y coerción que violan los límites y la autonomía de otros.",
+      "tacticalUse": "Identificar intenciones ocultas en negociaciones y relaciones personales.",
+      "countermeasure": "Establecer límites estrictos y validar los hechos frente a las emociones."
     },
     {
       "id": "fc2",
-      "term": "Hipnosis ericksoniana",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo 1 Los Cuatro Polos Realidad Y Conciencia C Mo El Ser Y La Conciencia Se Determinan Mutuamen\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Usar el \"test de la silla vacía\": ¿qué le dirías a un amigo en tu situación?"
+      "bookNumber": 1,
+      "category": "Engaño",
+      "term": "Engaño Táctico",
+      "definition": "Distorsión deliberada de la verdad para inducir a error y obtener una ventaja sobre el interlocutor.",
+      "tacticalUse": "Detectar incongruencias entre lenguaje verbal y no verbal.",
+      "countermeasure": "Exigir verificación documental y pruebas contrastables."
     },
     {
       "id": "fc3",
-      "term": "Simpatía fabricada",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo Uno Una Mirada A La Psicolog A Oscura Qu Es La Psicolog A Oscura\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Reconocer los 7 signos de la Tríada Oscura en contactos cercanos."
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Persuasión Oscura",
+      "definition": "Uso de técnicas de influencia psicológica orientadas al beneficio unilateral a costa del bienestar ajeno.",
+      "tacticalUse": "Reconocer discursos motivacionales vacíos pero emocionalmente cargados.",
+      "countermeasure": "Analizar las propuestas basadas en sus consecuencias lógicas, no emocionales."
     },
     {
       "id": "fc4",
-      "term": "DARVO",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo Dos El Secreto Del Enga O Qu Es El Enga O\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Establecer límites claros y comunicarlos asertivamente."
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Trance Conversacional",
+      "definition": "Estado de alta sugestibilidad inducido mediante patrones de lenguaje rítmico, tonos monótonos y sobrecarga cognitiva.",
+      "tacticalUse": "Vender ideas o productos eludiendo el pensamiento crítico del cliente.",
+      "countermeasure": "Romper el ritmo de la conversación con preguntas analíticas o cambiando de postura."
     },
     {
       "id": "fc5",
-      "term": "Programación neurolingüística",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo Tres Comprensi N De La Persuasi N Oscura\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Tomarse tiempo antes de responder a demandas urgentes fabricadas."
+      "bookNumber": 1,
+      "category": "Control Mental",
+      "term": "Control Mental No Detectado",
+      "definition": "Proceso sistemático de erosión de la autonomía individual sin que la víctima sea consciente del proceso.",
+      "tacticalUse": "Moldear conductas y creencias en entornos laborales o de pareja.",
+      "countermeasure": "Mantener espacios de reflexión independientes y consultar con perspectivas externas."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Lavado de Cerebro",
+      "term": "Lavado de Cerebro Defensivo",
+      "definition": "Término adoptado para describir la desprogramación de creencias impuestas por manipuladores sistemáticos.",
+      "tacticalUse": "Reestructurar patrones mentales tras sufrir relaciones abusivas.",
+      "countermeasure": "Reconstruir la identidad a través de valores propios y autoconocimiento."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "Comportamiento",
+      "term": "Influencia Conductual",
+      "definition": "Capacidad de guiar las acciones de un grupo o individuo mediante estímulos ambientales y emocionales.",
+      "tacticalUse": "Diseñar entornos que favorezcan la productividad o la obediencia.",
+      "countermeasure": "Analizar el origen de las directrices que recibes y su propósito final."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Realidad y Conciencia",
+      "term": "Los Cuatro Polos",
+      "definition": "Eje dinámico donde la realidad y la conciencia se determinan mutuamente en la psique humana.",
+      "tacticalUse": "Comprender cómo la alteración de la realidad modifica la conciencia.",
+      "countermeasure": "Anclarse firmemente en la realidad objetiva mediante registros y evidencias."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Arte de la Manipulación",
+      "definition": "Evolución histórica y técnica de métodos para doblegar voluntades mediante sutileza psicológica.",
+      "tacticalUse": "Anticipar jugadas psicológicas en disputas de poder.",
+      "countermeasure": "Exponer las tácticas en voz alta para disolver su efectividad."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Emociones",
+      "term": "Secuestro Emocional",
+      "definition": "Anulación temporaria del neocórtex por parte del sistema límbico ante un estímulo abrumador.",
+      "tacticalUse": "Forzar decisiones precipitadas basadas en miedo o ira.",
+      "countermeasure": "Aplicar la regla de la pausa antes de responder a provocaciones."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Relaciones",
+      "term": "Refuerzo Intermitente",
+      "definition": "Entrega impredecible de premios y castigos para generar adicción psicológica y dependencia.",
+      "tacticalUse": "Mantener cautiva la atención de seguidores o parejas.",
+      "countermeasure": "Identificar el patrón cíclico y cortar el suministro emocional."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Anclaje Emocional Defensivo",
+      "definition": "Asociación consciente de un estado de calma a un estímulo físico propio para neutralizar la ansiedad.",
+      "tacticalUse": "Mantener la serenidad bajo presión de manipuladores.",
+      "countermeasure": "Utilizar la respiración diafragmática y la postura erguida."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Evaluación",
+      "term": "Calibración Conductual",
+      "definition": "Medición precisa de las microexpresiones y cambios vocales para detectar incongruencias.",
+      "tacticalUse": "Saber cuándo alguien miente u oculta información clave.",
+      "countermeasure": "Mantener una postura neutral y observar sin emitir juicios precipitados."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Cognición",
+      "term": "Sobrecarga Cognitiva",
+      "definition": "Saturar la capacidad de procesamiento mental del sujeto para facilitar su sugestión.",
+      "tacticalUse": "Cerrar tratos complejos rápidamente mediante exceso de información confusa.",
+      "countermeasure": "Pedir que se resuma todo en un solo punto clave y solicitar tiempo."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Ética",
+      "term": "Autonomía Psicológica",
+      "definition": "Derecho y capacidad soberana de un individuo para regir su propia mente y decisiones.",
+      "tacticalUse": "Defensa fundamental contra cualquier forma de control mental.",
+      "countermeasure": "Rechazar cualquier intento de invasión en la toma de decisiones personales."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación Emocional",
+      "name": "Gaslighting Sistémico",
+      "severity": "Crítica",
+      "icon": "fa-brain",
+      "howItWorks": "El emisor distorsiona sistemáticamente los hechos para hacer dudar a la víctima de su propia memoria y cordura.",
+      "redFlags": [
+        "Negación categórica de eventos que ocurrieron.",
+        "Acusaciones de tener 'mucha imaginación' o estar loco.",
+        "Cambios sutiles en el entorno para confundirte."
+      ],
+      "counterScript": "Tengo registros exactos de esto. No voy a permitir que reescribas lo que sucedió.",
+      "deepMechanism": "Ataque directo a la autoconfianza y a la construcción de la realidad en el eje del individuo."
+    },
+    {
+      "id": "t2",
+      "category": "Persuasión Oscura",
+      "name": "Anclaje de Culpa Crónica",
+      "severity": "Alta",
+      "icon": "fa-skull",
+      "howItWorks": "Asocia de forma permanente errores pasados de la víctima con cualquier demanda actual de obediencia.",
+      "redFlags": [
+        "Traer a colación errores antiguos en cada discusión.",
+        "Hacerte sentir que le debes algo de manera perpetua.",
+        "Victimización exagerada ante cualquier límite que pongas."
+      ],
+      "counterScript": "Ya asumí la responsabilidad de aquello en su momento. Esto es un asunto diferente.",
+      "deepMechanism": "Explotación del sesgo de deuda moral y el sentido de reciprocidad distorsionado."
+    },
+    {
+      "id": "t3",
+      "category": "Control Mental",
+      "name": "Inducción por Trance Conversacional",
+      "severity": "Alta",
+      "icon": "fa-eye",
+      "howItWorks": "Utiliza un ritmo de voz pausado, repetición de palabras clave y tonos hipnóticos para eludir el filtro lógico.",
+      "redFlags": [
+        "Discurso excesivamente rítmico y monótono.",
+        "Peticiones de cerrar acuerdos de forma inmediata.",
+        "Sensación de fatiga mental repentina al hablar con la persona."
+      ],
+      "counterScript": "Dame 24 horas para analizarlo en frío y te doy una respuesta definitiva.",
+      "deepMechanism": "Fatiga temporal del córtex prefrontal, reduciendo la capacidad analítica crítica."
+    },
+    {
+      "id": "t4",
+      "category": "Engaño",
+      "name": "Aislamiento Social Selectivo",
+      "severity": "Crítica",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Minimiza la importancia de las redes de apoyo de la víctima para volverla 100% dependiente del manipulador.",
+      "redFlags": [
+        "Críticas constantes hacia tus amigos y familiares cercanos.",
+        "Crear situaciones donde debas elegir entre él/ella y los demás.",
+        "Alejamiento paulatino de tus actividades habituales."
+      ],
+      "counterScript": "Mis relaciones con mi familia y amigos son esenciales para mí y no son negociables.",
+      "deepMechanism": "Destrucción sistemática de los contrapesos sociales que validan la realidad del sujeto."
+    },
+    {
+      "id": "t5",
+      "category": "Influencia Conductual",
+      "name": "Refuerzo Intermitente de Dopamina",
+      "severity": "Alta",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Alterna períodos de afecto extremo con frialdad y castigo injustificado para mantener a la persona enganchada.",
+      "redFlags": [
+        "Cambios drásticos e impredecibles de humor y trato.",
+        "Sentimiento de caminar sobre cáscaras de huevo.",
+        "Alegría desmedida cuando recibes una migaja de aprobación."
+      ],
+      "counterScript": "No aceptaré este trato inestable. Hablaremos cuando haya respeto mutuo.",
+      "deepMechanism": "Activación del circuito de recompensa cerebral mediante la imprevisibilidad, similar a las máquinas tragamonedas."
+    },
+    {
+      "id": "t6",
+      "category": "Psicología Oscura",
+      "name": "Proyección Maliciosa",
+      "severity": "Media",
+      "icon": "fa-brain",
+      "howItWorks": "Atribuye a la víctima los defectos, intenciones oscuras o culpas que el propio manipulador posee.",
+      "redFlags": [
+        "Acusarte de deslealtad cuando es él/ella quien traiciona.",
+        "Insistir en que eres tú quien está manipulando.",
+        "Reacciones defensivas desproporcionadas."
+      ],
+      "counterScript": "Estás proyectando tu comportamiento en mí. Mantengámonos en los hechos.",
+      "deepMechanism": "Mecanismo de defensa freudiano adaptado como táctica ofensiva de distracción."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "¿Cuál es el propósito principal de las técnicas de persuasión oscura expuestas en la obra de Luis Vega?",
+      "options": [
+        "Fomentar la empatía y la comunicación abierta en equipo.",
+        "Obtener un beneficio unilateral violando la autonomía y los límites de la otra persona.",
+        "Mejorar la oratoria pública para inspirar liderazgo positivo.",
+        "Acelerar el aprendizaje académico mediante técnicas mnemotécnicas."
+      ],
+      "correctIndex": 1,
+      "explanation": "La persuasión oscura se diferencia de la positiva en que busca manipular y doblegar la voluntad ajena para beneficio exclusivo del emisor, vulnerando los límites individuales."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "Según el libro, ¿cómo se relacionan la realidad y la conciencia en el contexto de la manipulación?",
+      "options": [
+        "Son totalmente independientes y no se afectan mutuamente.",
+        "La conciencia determina la realidad sin que el entorno influya.",
+        "Se determinan mutuamente; alterar la percepción de la realidad distorsiona la conciencia del individuo.",
+        "La realidad física anula por completo cualquier estado consciente."
+      ],
+      "correctIndex": 2,
+      "explanation": "El libro expone que el ser y la conciencia se determinan mutuamente, por lo que los manipuladores alteran la realidad percibida para controlar la conciencia de sus víctimas."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "¿Qué característica define al trance conversacional o hipnosis encubierta según el texto?",
+      "options": [
+        "El uso de un péndulo físico frente a los ojos del cliente.",
+        "Un estado parecido al trance inducido mediante patrones verbales y sobrecarga para aumentar la sugestibilidad.",
+        "Un profundo sueño inducido en un entorno clínico controlado.",
+        "Una técnica de meditación guiada para reducir el estrés laboral."
+      ],
+      "correctIndex": 1,
+      "explanation": "La hipnosis abordada en la obra es un estado de alta sugestibilidad generado conversacionalmente para eludir el pensamiento crítico sin necesidad de herramientas físicas."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "¿Cuál es el mecanismo clave del control mental no detectado?",
+      "options": [
+        "El uso de la fuerza física y amenazas directas.",
+        "La infiltración sutil en los procesos de toma de decisiones sin que la víctima perciba la coerción externa.",
+        "La hipnosis profunda en laboratorios especializados.",
+        "La lectura directa de pensamientos mediante tecnología avanzada."
+      ],
+      "correctIndex": 1,
+      "explanation": "El control mental no detectado opera desde la invisibilidad, haciendo que la víctima crea que sus decisiones sumisas son producto de su propia voluntad."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "Frente a una táctica de lavado de cerebro o influencia conductual colectiva, ¿cuál es la contramedida más efectiva?",
+      "options": [
+        "Aislarse por completo de la sociedad y no hablar con nadie.",
+        "Aceptar todas las normas del grupo para evitar conflictos.",
+        "Mantener el pensamiento crítico, contrastar datos con la realidad objetiva y preservar vínculos externos.",
+        "Responder con agresividad verbal a todos los integrantes."
+      ],
+      "correctIndex": 2,
+      "explanation": "La objetividad, el contraste de datos y la conservación de perspectivas externas destruyen los cimientos del lavado de cerebro."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "En el contexto del engaño táctico, ¿qué busca el manipulador al apelar frecuentemente a la 'confianza'?",
+      "options": [
+        "Establecer una relación de amistad sincera y duradera.",
+        "Eludir la revisión lógica y documental de acuerdos o peticiones.",
+        "Demostrar su alta autoestima y seguridad personal.",
+        "Cumplir con los protocolos legales estándar de contratación."
+      ],
+      "correctIndex": 1,
+      "explanation": "El secreto del engaño se basa en disfrazar intenciones egoístas bajo conceptos morales como la confianza para evitar que la víctima analice críticamente la situación."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Psicología Oscura",
+      "category": "Concepto Central",
+      "definition": "Estudio de las tácticas de manipulación y coerción orientadas al control de otros.",
+      "practicalExample": "Identificar cuando un compañero de trabajo distorsiona información para culparte de un error."
+    },
+    {
+      "id": "g2",
+      "term": "Engaño Táctico",
+      "definition": "Alteración consciente de la verdad para obtener ventaja en una interacción.",
+      "practicalExample": "Ocultar costos adicionales en un contrato hasta que la otra parte ya esté comprometida."
+    },
+    {
+      "id": "g3",
+      "term": "Persuasión Oscura",
+      "definition": "Influencia psicológica orientada al beneficio unilateral mediante manipulación afectiva.",
+      "practicalExample": "Usar la culpa para convencer a alguien de hacer algo que no desea."
+    },
+    {
+      "id": "g4",
+      "term": "Trance Conversacional",
+      "definition": "Inducción de alta sugestibilidad mediante ritmos verbales y monotonía.",
+      "practicalExample": "Un vendedor usando frases repetitivas y pausadas para cerrar una venta rápida."
+    },
+    {
+      "id": "g5",
+      "term": "Control Mental",
+      "definition": "Erosión sistemática de la autonomía de un individuo sin su conocimiento explícito.",
+      "practicalExample": "Modificar gradualmente las opiniones de una persona haciéndole creer que son suyas."
+    },
+    {
+      "id": "g6",
+      "term": "Lavado de Cerebro",
+      "definition": "Reestructuración forzada de creencias y valores mediante aislamiento y presión.",
+      "practicalExample": "Aislar a un miembro de su familia para convencerlo de que sus seres queridos lo odian."
+    },
+    {
+      "id": "g7",
+      "term": "Influencia Conductual",
+      "definition": "Guía de acciones ajenas mediante estímulos psicológicos calculados.",
+      "practicalExample": "Crear un ambiente de miedo en la oficina para asegurar obediencia ciega."
+    },
+    {
+      "id": "g8",
+      "term": "Calibración",
+      "definition": "Observación aguda de microexpresiones y tonos para descifrar intenciones ocultas.",
+      "practicalExample": "Notar que alguien parpadea rápidamente al negar una acusación."
+    },
+    {
+      "id": "g9",
+      "term": "Refuerzo Intermitente",
+      "definition": "Entrega aleatoria de premios y castigos para generar dependencia emocional.",
+      "practicalExample": "Tratar a alguien con afecto un día y con total indiferencia al siguiente."
+    },
+    {
+      "id": "g10",
+      "term": "Gaslighting",
+      "definition": "Táctica para hacer dudar a la víctima de su propia memoria y percepción de la realidad.",
+      "practicalExample": "Negar rotundamente haber dicho algo que consta en un mensaje escrito."
+    },
+    {
+      "id": "g11",
+      "term": "Anclaje",
+      "definition": "Asociación de un estado mental a un estímulo específico para activarlo a voluntad.",
+      "practicalExample": "Usar una frase recurrente para calmar la ansiedad en momentos de tensión."
+    },
+    {
+      "id": "g12",
+      "term": "Autonomía",
+      "definition": "Capacidad soberana de tomar decisiones libres de coerción externa.",
+      "practicalExample": "Negarse firmemente a una petición que viola tus principios personales."
+    },
+    {
+      "id": "g13",
+      "term": "Proyección",
+      "definition": "Atribuir defectos o culpas propias a otra persona como mecanismo ofensivo.",
+      "practicalExample": "Acusar a otro de mentiroso cuando el que oculta información eres tú."
+    },
+    {
+      "id": "g14",
+      "term": "Sobrecarga Cognitiva",
+      "definition": "Saturación del procesamiento mental para anular el pensamiento crítico.",
+      "practicalExample": "Presentar un aluvión de datos complejos sin dejar tiempo para pensar."
+    },
+    {
+      "id": "g15",
+      "term": "Realidad y Conciencia",
+      "definition": "Eje dinámico donde la percepción del entorno moldea el estado mental del sujeto.",
+      "practicalExample": "Contrastar percepciones subjetivas con registros físicos objetivos."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "CALIBRACIÓN",
+      "title": "Microexpresión de Desprecio Unilateral",
+      "cue": "Elevación sutil y rápida de un solo lado del labio superior, acompañada de una ligera inclinación de cabeza hacia atrás.",
+      "interpretation": "Indica sensación de superioridad, desdén oculto o juicio negativo hacia el interlocutor, a pesar de mantener una sonrisa social formal.",
+      "practicalDrill": "Practica frente al espejo mantener un rostro neutral mientras detectas este gesto en debates grabados."
+    },
+    {
+      "id": "bl2",
+      "category": "DETECCIÓN",
+      "title": "Congelamiento Kinésico ante Pregunta Incómoda",
+      "cue": "Cese repentino de los gestos de las manos y rigidez corporal total justo después de formular una pregunta directa sobre hechos.",
+      "interpretation": "Señal clásica de alta carga cognitiva asociada a la invención o filtrado de información falsa (control de daños).",
+      "practicalDrill": "Haz una pregunta de control inesperada en una simulación y observa si los gestos fluidos se detienen de golpe."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Postura de Anclaje y Expansión Torácica",
+      "cue": "Hombros hacia atrás, pies firmemente plantados al ancho de los hombros y respiración diafragmática profunda.",
+      "interpretation": "Envía señales de seguridad al sistema nervioso autónomo, reduciendo la producción de cortisol y bloqueando la intimidación.",
+      "practicalDrill": "Adopta esta postura durante 2 minutos antes de entrar a una reunión con un perfil manipulador."
+    },
+    {
+      "id": "bl4",
+      "category": "DETECCIÓN",
+      "title": "Discrepancia Verbo-Gestual de Afirmación",
+      "cue": "Decir verbalmente 'estoy totalmente de acuerdo' mientras la cabeza realiza un micro-movimiento imperceptible de negación (de lado a lado).",
+      "interpretation": "Conflicto profundo entre el discurso complaciente y el rechazo interno genuino del contenido.",
+      "practicalDrill": "Entrena tu vista para detectar el movimiento lateral de cabeza en los primeros milisegundos de respuestas afirmativas."
+    },
+    {
+      "id": "bl5",
+      "category": "CALIBRACIÓN",
+      "title": "Barrera de Protección con Objetos",
+      "cue": "Colocar tazas, carpetas o brazos cruzados formando una línea de barricada defensiva frente al torso al introducir un tema delicado.",
+      "interpretation": "Refleja vulnerabilidad subconsciente, necesidad de protección ante una amenaza percibida o rechazo al argumento.",
+      "practicalDrill": "Retira sutilmente los objetos de barrera durante una negociación para observar la reacción de incomodidad del otro."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "La Pausa Estratégica y Contacto Visual Neutro",
+      "cue": "Mantener silencio durante 3 segundos completos con mirada estable y relajada antes de responder a una provocación emocional.",
+      "interpretation": "Rompe el ritmo del manipulador, desactiva su intento de secuestro emocional y proyecta absoluto dominio de la situación.",
+      "practicalDrill": "Cronometra pausas de 3 segundos en conversaciones cotidianas para habituar a tu mente a no reaccionar por impulso."
     }
   ]
 };

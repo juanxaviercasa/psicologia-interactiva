@@ -2669,27 +2669,157 @@ const LIBROS_DATA = {
   "caseScenarios": [
     {
       "id": "cs1",
-      "category": "Negociación y Defensa de Presupuesto",
-      "title": "La Batalla por los Recursos de tu Departamento",
+      "category": "Persuasión",
+      "title": "La Negociación Corporativa Bajo Presión",
       "difficulty": "Alta",
-      "badge": "Experto en Persuasión",
-      "scenarioDescription": "Trabajas como director de proyectos de una compañía en crecimiento. Tu departamento necesita un presupuesto adicional de $50,000 para actualizar servidores obsoletos que ponen en riesgo la seguridad de los datos. Sin embargo, el Director de Finanzas (CFO), conocido por ser un negociador implacable y altamente manipulador, ha programado una reunión contigo. Sabes que intentará usar tácticas de fatiga, manipulación emocional (culpándote de falta de previsión) y el sesgo de escasez de fondos corporativos para rechazar por completo tu solicitud. ¿Cómo aplicarás las lecciones de persuasión efectiva y defensa contra la manipulación mental para asegurar el presupuesto?",
+      "badge": "Negociador Maestro",
+      "scenarioDescription": "Te encuentras cerrando un contrato crucial para tu empresa. El director de compras opina distinto y amenaza con cancelar si no cedes un 15% del margen. Debes usar los principios de comunicación persuasiva para revertir la situación sin perder rentabilidad.",
       "options": [
         {
           "id": "opt1",
-          "text": "Iniciar la reunión aplicando 'Empatía Táctica' reconociendo su labor de cuidar el dinero, presentar el gasto no como un coste sino como un 'Encuadre' de seguro contra pérdidas catastróficas, y desarmar sus intentos de culpabilización respondiendo con hechos objetivos y calma.",
-          "outcome": "Éxito total",
-          "wisdomScore": 100,
-          "analysis": "Al validar primero su rol de guardián de las finanzas (Rapport y Acompasamiento), neutralizas su postura defensiva. Al reencuadrar los $50,000 como un escudo protector contra pérdidas multimillonarias por hackeos, el cerebro del CFO deja de ver el dinero como un 'gasto' y pasa a verlo como un 'ahorro de pérdidas inevitables'. Además, tu autocontrol ante sus provocaciones desactiva su intento de manipulación emocional.",
-          "bookInsight": "La persuasión efectiva busca siempre la sintonía previa (Pacing) y el reencuadre ético (Framing) para que el otro vea que el acuerdo protege sus propios intereses organizacionales."
+          "text": "Aplicar los 5 secretos de la comunicación persuasiva alineando sus intereses con los tuyos y validando su postura antes de proponer.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Al validar la postura del oponente reduces su resistencia psicológica y abres canales de influencia profunda.",
+          "bookInsight": "Los 5 Secretos De La Comunicacion Persuasiva"
         },
         {
           "id": "opt2",
-          "text": "Adoptar una postura agresiva desde el inicio para demostrar dominancia absoluta, exigir los $50,000 usando amenazas de renunciar si ocurre un fallo de seguridad, e intentar intimidarlo con jerga informática extremadamente compleja para confundirlo.",
-          "outcome": "Fracaso rotundo",
-          "wisdomScore": 15,
-          "analysis": "La intimidación y las amenazas activan de inmediato la reactancia psicológica y la hostilidad del CFO, quien tiene más poder jerárquico real. El uso de jerga incomprensible genera desconfianza y la sensación de que intentas ocultar algo o engañarlo. El resultado es el bloqueo total de los fondos y la destrucción de la relación laboral.",
-          "bookInsight": "El libro enseña que la manipulación o persuasión hostil basada en la fuerza o el engaño genera resistencia defensiva inmediata y destruye la posibilidad de una cooperación constructiva a largo plazo."
+          "text": "Exigir el cumplimiento de los términos iniciales amenazando con romper la relación comercial.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "La confrontación directa activa los mecanismos de defensa y el sesgo de reactancia del interlocutor.",
+          "bookInsight": "Diferencia Entre Persuasion Y Manipulacion"
+        }
+      ]
+    },
+    {
+      "id": "cs2",
+      "category": "Manipulación Mental",
+      "title": "Defensa Ante la Distorsión de Realidad",
+      "difficulty": "Alta",
+      "badge": "Escudo Cognitivo",
+      "scenarioDescription": "Un compañero de trabajo utiliza técnicas de PNL y sugestión sutil para hacerte dudar de tus capacidades en un proyecto frente a la gerencia.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Detectar los patrones lingüísticos de manipulación, mantener la calma y anclar la discusión en datos objetivos.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Neutralizar la manipulación requiere desvincular el componente emocional e institucionalizar hechos.",
+          "bookInsight": "Pnl Y Tecnicas De Manipulacion Mental"
+        },
+        {
+          "id": "opt2",
+          "text": "Atacar su reputación personal frente a la gerencia para desacreditarlo.",
+          "outcome": "Fallo",
+          "wisdomScore": 40,
+          "analysis": "Entrar en su juego destructivo te posiciona como el elemento conflictivo del equipo.",
+          "bookInsight": "Proposito De La Manipulacion Mental"
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Influencia",
+      "title": "Aplicación de los 11 Principios",
+      "difficulty": "Media",
+      "badge": "Arquitecto de Influencia",
+      "scenarioDescription": "Necesitas convencer a un equipo de voluntarios para adoptar un nuevo proceso operativo complejo sin incentivos económicos.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Utilizar el principio de reciprocidad y prueba social, mostrando cómo otros equipos ya se benefician y aportando valor primero.",
+          "outcome": "Éxito",
+          "wisdomScore": 85,
+          "analysis": "La reciprocidad y la validación social son motores automáticos de adopción conductual.",
+          "bookInsight": "Los 11 Principios De La Persuasion"
+        },
+        {
+          "id": "opt2",
+          "text": "Imponer el cambio mediante un memorándum de obligado cumplimiento.",
+          "outcome": "Fallo",
+          "wisdomScore": 45,
+          "analysis": "La coerción genera cumplimiento superficial pero destruye el compromiso a largo plazo.",
+          "bookInsight": "Libro 1 Claves Efectivas Para La Persuasion"
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Tácticas de Persuasión",
+      "title": "El Cierre de Ventas con las 21 Técnicas",
+      "difficulty": "Alta",
+      "badge": "Cerebro Táctico",
+      "scenarioDescription": "Un cliente potencial está indeciso entre tu servicio de alta gama y una opción económica. Debes emplear las técnicas de persuasión avanzadas.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Aplicar contraste de valor y escasez controlada para elevar la percepción de exclusividad.",
+          "outcome": "Éxito",
+          "wisdomScore": 92,
+          "analysis": "El contraste reencuadra el precio como una inversión menor frente al costo de no adquirir el beneficio.",
+          "bookInsight": "Las 21 Tecnicas De Persuasion Parte 1"
+        },
+        {
+          "id": "opt2",
+          "text": "Bajar drásticamente el precio para asegurar la venta inmediatamente.",
+          "outcome": "Fallo",
+          "wisdomScore": 50,
+          "analysis": "Degradar el valor del servicio destruye la autoridad percibida y la confianza.",
+          "bookInsight": "Las 21 Tecnicas De Persuasion Parte 2"
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Ética e Influencia",
+      "title": "Línea Delgada entre Persuasión y Manipulación",
+      "difficulty": "Media",
+      "badge": "Guardián Ético",
+      "scenarioDescription": "Te piden estructurar una campaña de comunicación donde se omitirán ciertos riesgos del producto para acelerar su adopción.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Rediseñar la estrategia usando persuasión ética: resaltar los beneficios reales sin falsear ni ocultar datos críticos.",
+          "outcome": "Éxito",
+          "wisdomScore": 88,
+          "analysis": "La persuasión sostenible se basa en la transparencia estratégica; la manipulación destruye la reputación a largo plazo.",
+          "bookInsight": "Diferencia Entre Persuasion Y Manipulacion"
+        },
+        {
+          "id": "opt2",
+          "text": "Ocultar la información por completo para cumplir con los KPIs de conversión.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Esto cruza la línea hacia la manipulación abusiva, generando riesgos legales y de crisis reputacional.",
+          "bookInsight": "Libro 2 Claves Efectivas Para La Manipulacion Mental"
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Trucos Psicológicos",
+      "title": "Desactivación de Trucos Mentales en Reuniones",
+      "difficulty": "Media",
+      "badge": "Analista Conductual",
+      "scenarioDescription": "Notas que un colega utiliza trucos psicológicos simples, como interrumpir sistemáticamente y anclar expectativas bajas, para dominar la agenda.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Aplicar los trucos psicológicos de reconducción: pausar, sonreír y devolver la palabra al grupo con una pregunta abierta.",
+          "outcome": "Éxito",
+          "wisdomScore": 87,
+          "analysis": "Exponer sutilmente la táctica sin confrontación agresiva desarma el patrón de poder.",
+          "bookInsight": "Los 7 Trucos Psicologicos Mas Simples Y Conclusion"
+        },
+        {
+          "id": "opt2",
+          "text": "Levantar la voz para interrumpir al interlocutor y recuperar el protagonismo.",
+          "outcome": "Fallo",
+          "wisdomScore": 35,
+          "analysis": "Caer en la lucha de egos valida la dinámica tóxica frente a los observadores.",
+          "bookInsight": "Persuasion Efectiva"
         }
       ]
     }
@@ -2697,38 +2827,467 @@ const LIBROS_DATA = {
   "flashcards": [
     {
       "id": "fc1",
-      "term": "Rapport (Sintonía)",
-      "definition": "Estado de mutua confianza, armonía y comprensión entre dos personas, facilitado por el reflejo sutil de posturas, gestos, ritmos de respiración y tono de voz.",
-      "tacticalUse": "Permite reducir drásticamente las defensas naturales del interlocutor, haciendo que sus filtros críticos se relajen ante alguien que perciben como 'igual a ellos'.",
-      "countermeasure": "Si notas que alguien copia de manera idéntica y casi inmediata tus gestos, postura o ritmo al hablar, rompe deliberadamente el patrón físico (por ejemplo, cruza los brazos o muévete) para evaluar si te imita de forma calculada."
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Persuasión Ética",
+      "definition": "Proceso de influir en las decisiones de otros alineando sus intereses genuinos con el objetivo propuesto, sin coerción.",
+      "tacticalUse": "Construir alianzas duraderas y ventas consultivas de alto valor.",
+      "countermeasure": "Verificar la veracidad de los beneficios prometidos."
     },
     {
       "id": "fc2",
-      "term": "Encuadre (Framing)",
-      "definition": "Técnica que consiste en definir el contexto, la perspectiva o el 'lente' a través del cual se interpreta una situación o problema, condicionando el juicio de valor antes del análisis de los datos.",
-      "tacticalUse": "Presentar un costo no como una 'pérdida de dinero', sino como una 'inversión diaria de bajo costo' para redefinir el valor en la mente del comprador.",
-      "countermeasure": "Redefine activamente el encuadre planteado. Pregúntate: '¿De qué otra forma se puede describir esta misma situación?' o '¿Qué datos están quedando fuera de este marco?'"
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Manipulación Mental",
+      "definition": "Control o influencia oculta sobre el comportamiento y juicio de otra persona en beneficio exclusivo del emisor.",
+      "tacticalUse": "Dominar negociaciones asimétricas mediante asimetría informativa.",
+      "countermeasure": "Identificar las intenciones ocultas y establecer límites claros."
     },
     {
       "id": "fc3",
-      "term": "Prueba Social (Social Proof)",
-      "definition": "Sesgo cognitivo por el cual las personas asumen que la conducta de la mayoría en una situación dada representa el comportamiento correcto y más seguro.",
-      "tacticalUse": "Mencionar constantemente cuántas personas, empresas o expertos ya han adoptado la solución propuesta para eliminar el miedo al riesgo del prospecto.",
-      "countermeasure": "Recuerda que la popularidad de una idea o acción no garantiza su veracidad, seguridad ni conveniencia personal. Separa la estadística de tu necesidad real."
+      "bookNumber": 1,
+      "category": "Comunicación",
+      "term": "Anclaje PNL",
+      "definition": "Asociación de un estímulo externo (visual, auditivo o táctil) a un estado emocional específico.",
+      "tacticalUse": "Inducir estados de confianza o receptividad en el interlocutor.",
+      "countermeasure": "Reconocer el estímulo desencadenante y romper el patrón."
     },
     {
       "id": "fc4",
-      "term": "Gaslighting (Luz de Gas)",
-      "definition": "Técnica de manipulación mental destructiva donde se distorsiona la realidad de la víctima sistemáticamente para hacerla dudar de su propia memoria, percepción, juicio y cordura.",
-      "tacticalUse": "El manipulador niega con seguridad absoluta hechos reales ocurridos o acusa a la víctima de estar 'loca', 'obsesionada' o 'exagerando' para debilitar su autoestima.",
-      "countermeasure": "Lleva un registro escrito de conversaciones clave, guarda capturas de pantalla de acuerdos importantes y confía en tu memoria respaldada por hechos objetivos de terceros de confianza."
+      "bookNumber": 1,
+      "category": "Principios",
+      "term": "Principio de Reciprocidad",
+      "definition": "Tendencia psicológica innata a devolver favores o concesiones recibidas.",
+      "tacticalUse": "Otorgar valor inicial para predisponer al receptor a aceptar una propuesta posterior.",
+      "countermeasure": "Separar el regalo o favor de la obligación de compra."
     },
     {
       "id": "fc5",
-      "term": "Anclaje de Estímulo (PNL)",
-      "definition": "Asociación neurológica inconsciente entre un estímulo sensorial específico (un toque, un sonido, una palabra) y un estado emocional intenso (calma, euforia, estrés).",
-      "tacticalUse": "Provocar un estado de entusiasmo en tu interlocutor y, en el punto máximo de la emoción, realizar un gesto sutil (como tocar suavemente su hombro) para disparar esa emoción en el futuro con el mismo gesto.",
-      "countermeasure": "Mantente alerta a los toques físicos inusuales o sonidos repetitivos que ocurren exactamente cuando experimentas picos emocionales provocados por otra persona."
+      "bookNumber": 1,
+      "category": "Técnicas",
+      "term": "Contraste Psicológico",
+      "definition": "Presentar dos alternativas de forma que la segunda parezca drásticamente más atractiva o económica.",
+      "tacticalUse": "Mostrar una opción de alto costo antes de la oferta real para hacerla parecer económica.",
+      "countermeasure": "Evaluar cada opción de forma aislada y objetiva."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Estrategia",
+      "term": "Prueba Social",
+      "definition": "Fenómeno donde las personas adoptan las acciones de otros bajo el supuesto de que es el comportamiento correcto.",
+      "tacticalUse": "Demostrar que líderes o mayorías ya apoyan tu iniciativa.",
+      "countermeasure": "Analizar si la mayoría actúa por evidencia o por simple conformidad."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "Comunicación",
+      "term": "Escucha Activa Táctica",
+      "definition": "Técnica de recepción de mensajes que descodifica tanto el contenido verbal como las emociones y motivaciones ocultas.",
+      "tacticalUse": "Obtener información privilegiada y reducir las defensas del emisor.",
+      "countermeasure": "Controlar la información que se revela mediante el silencio estratégico."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting Táctico",
+      "definition": "Táctica para sembrar dudas en la memoria, percepción o cordura de un individuo.",
+      "tacticalUse": "Minar la seguridad del oponente para invalidar sus argumentos.",
+      "countermeasure": "Registrar por escrito acuerdos, interacciones y datos clave."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Principio de Escasez",
+      "definition": "Percepción de que los recursos o oportunidades son limitados, incrementando su valor subjetivo.",
+      "tacticalUse": "Acelerar la toma de decisiones limitando el tiempo o la disponibilidad.",
+      "countermeasure": "Preguntarse si el valor real existe más allá de la limitación temporal."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Técnicas",
+      "term": "Reencuadre Cognitivo",
+      "definition": "Modificar el marco de referencia mental en el que se interpreta una situación para cambiar su significado.",
+      "tacticalUse": "Transformar una objeción de costo en una objeción de valor.",
+      "countermeasure": "Reconocer el cambio de perspectiva y reevaluar la premisa original."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Sesgo de Autoridad",
+      "definition": "Tendencia a otorgar mayor peso a la opinión de una figura de autoridad.",
+      "tacticalUse": "Proyectar símbolos de estatus y experiencia para acelerar la aceptación.",
+      "countermeasure": "Verificar la competencia real del emisor en el tema específico."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Inducción de Culpabilidad",
+      "definition": "Manipulación emocional para hacer que el otro se sienta responsable de un problema ajeno.",
+      "tacticalUse": "Doblar la resistencia moral del oponente para obtener concesiones.",
+      "countermeasure": "Analizar la línea de responsabilidad objetiva y rechazar la culpa infundada."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Comunicación",
+      "term": "Los 5 Secretos Comunicativos",
+      "definition": "Pilares de la elocuencia que combinan claridad, empatía, ritmo, calibración y cierre persuasivo.",
+      "tacticalUse": "Capturar y retener la atención absoluta del auditorio.",
+      "countermeasure": "Desglosar el mensaje para detectar falacias ocultas."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Técnicas",
+      "term": "Técnica del Pie en la Puerta",
+      "definition": "Conseguir la aceptación de una petición pequeña para luego escalar a una solicitud mayor.",
+      "tacticalUse": "Asegurar compromisos progresivos sin activar alertas de rechazo.",
+      "countermeasure": "Evaluar la petición final con independencia de los acuerdos previos menores."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Ética",
+      "term": "Límites de la Influencia Oscura",
+      "definition": "Umbral donde la manipulación psicológica causa daño psicológico o manipulación coercitiva severa.",
+      "tacticalUse": "Mantenerse dentro de los márgenes de efectividad táctica sin cruzar a la ilegalidad.",
+      "countermeasure": "Establecer auditorías éticas en dinámicas de negociación y liderazgo."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación Mental",
+      "name": "Inducción de Duda Sistémica",
+      "severity": "Crítica",
+      "icon": "fa-brain",
+      "howItWorks": "El emisor debilita la confianza del sujeto cuestionando constantemente sus recuerdos, percepciones o capacidades técnicas.",
+      "redFlags": [
+        "Inconsistencia en los relatos que te obligan a dudar",
+        "Uso frecuente de frases como 'tú nunca te acuerdas bien'",
+        "Sensación persistente de confusión tras interactuar con la persona"
+      ],
+      "counterScript": "Registrar cada hecho por escrito y responder: 'Mis registros indican exactamente lo contrario; revisemos la evidencia objetiva.'",
+      "deepMechanism": "Explota la necesidad humana de validación externa y la plasticidad de la memoria autobiográfica."
+    },
+    {
+      "id": "t2",
+      "category": "Persuasión Oscura",
+      "name": "Aislamiento Emocional y de Apoyo",
+      "severity": "Alta",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Busca distanciar al individuo de su red de apoyo habitual para incrementar su dependencia psicológica del manipulador.",
+      "redFlags": [
+        "Críticas constantes y sutiles hacia tus amigos o colegas",
+        "Incentivar que pases todo el tiempo profesional o personal con el manipulador",
+        "Crear un sentido de 'nosotros contra el mundo'"
+      ],
+      "counterScript": "Mantener canales de comunicación activos y transparentes con la red de apoyo externa y establecer límites de tiempo.",
+      "deepMechanism": "Reduce las fuentes alternativas de realidad, facilitando la validación exclusiva de la narrativa del manipulador."
+    },
+    {
+      "id": "t3",
+      "category": "Control Conductual",
+      "name": "Anclaje de Culpa y Victimismo",
+      "severity": "Media",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Invierte los roles de responsabilidad haciendo que la víctima asuma la culpa de los errores o frustraciones del manipulador.",
+      "redFlags": [
+        "El manipulador asume el rol de víctima ante cualquier cuestionamiento",
+        "Sentimiento desproporcionado de culpa por decisiones legítimas",
+        "Uso de chantaje emocional pasivo-agresivo"
+      ],
+      "counterScript": "Desasociar la emoción de la responsabilidad: 'Comprendo tu frustración, pero mi acción fue correcta y justificada.'",
+      "deepMechanism": "Activa la empatía natural y el sesgo de reparación en el interlocutor para manipular su conducta."
+    },
+    {
+      "id": "t4",
+      "category": "PNL Avanzada",
+      "name": "Bucle de Confusión Lingüística",
+      "severity": "Alta",
+      "icon": "fa-eye",
+      "howItWorks": "Utiliza paradojas, jerga excesiva y premisas circulares para saturar la capacidad de procesamiento consciente del sujeto.",
+      "redFlags": [
+        "Explicaciones excesivamente largas que no llegan a ninguna conclusión clara",
+        "Sensación de fatiga mental repentina durante una charla",
+        "Cambios constantes de tema para evitar la rendición de cuentas"
+      ],
+      "counterScript": "Detener el discurso y simplificar: 'Para asegurarme de que entiendo, resumiendo en una frase: ¿cuál es tu propuesta exacta?'",
+      "deepMechanism": "Satura la memoria de trabajo, reduciendo el pensamiento crítico y facilitando la aceptación pasiva."
+    },
+    {
+      "id": "t5",
+      "category": "Estrategia de Poder",
+      "name": "Asimetría de Información y Silencio",
+      "severity": "Media",
+      "icon": "fa-skull",
+      "howItWorks": "Retiene datos clave o utiliza silencios prolongados para generar ansiedad y forzar concesiones precipitadas.",
+      "redFlags": [
+        "Falta repentina de respuesta o transparencia en momentos críticos",
+        "Uso del silencio como castigo o presión psicológica",
+        "Ocultamiento deliberado de métricas o acuerdos previos"
+      ],
+      "counterScript": "Mantener la compostura, abrazar el silencio y no llenar los vacíos con concesiones innecesarias.",
+      "deepMechanism": "Explota la aversión a la incertidumbre y la necesidad evolutiva de cierre cognitivo."
+    },
+    {
+      "id": "t6",
+      "category": "Influencia Coercitiva",
+      "name": "Falsa Urgencia y Escasez Artificial",
+      "severity": "Alta",
+      "icon": "fa-brain",
+      "howItWorks": "Manufactura crisis temporales o límites ficticios para impedir el análisis racional y forzar decisiones impulsivas.",
+      "redFlags": [
+        "Presión extrema para decidir en minutos sin opción a evaluar",
+        "Advertencias catastróficas si no se acepta la oferta de inmediato",
+        "Negativa a permitir consultas con terceros"
+      ],
+      "counterScript": "Aplicar la regla de enfriamiento: 'Si la oferta es tan buena, mantendrá su validez 24 horas. Lo revisaré con calma.'",
+      "deepMechanism": "Activa el sistema límbico (respuesta de lucha o huida), inhibiendo la corteza prefrontal lógica."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "Según el análisis de la obra, ¿cuál es la diferencia fundamental entre persuasión y manipulación?",
+      "options": [
+        "No existe ninguna diferencia; ambas buscan el mismo fin.",
+        "La persuasión alinea intereses de forma transparente, mientras que la manipulación busca el beneficio oculto a expensas del otro.",
+        "La manipulación siempre es ilegal y la persuasión siempre es gratuita.",
+        "La persuasión utiliza PNL y la manipulación utiliza la fuerza física."
+      ],
+      "correctIndex": 1,
+      "explanation": "La obra destaca que la ética y la transparencia de intenciones marcan la línea divisoria entre influir constructivamente (persuasión) y subvertir la voluntad ajena (manipulación)."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "¿Cuál es el propósito principal de dominar las técnicas presentadas en el libro sobre manipulación mental?",
+      "options": [
+        "Controlar y dominar a todos los colegas del entorno laboral.",
+        "Comprender cómo operan para blindar la propia psique y negociar con efectividad.",
+        "Ocultar información para evitar cualquier tipo de responsabilidad.",
+        "Eliminar la necesidad de comunicarse verbalmente."
+      ],
+      "correctIndex": 1,
+      "explanation": "El conocimiento de las técnicas oscuras sirve principalmente como herramienta de autodefensa psicológica y calibración táctica."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "En el contexto de los 11 principios de la persuasión, ¿cómo actúa el principio de reciprocidad?",
+      "options": [
+        "Forzando al oponente mediante amenazas legales.",
+        "Generando una deuda psicológica inconsciente que predispone al receptor a corresponder.",
+        "Ocultando información hasta el último segundo de la negociación.",
+        "Estableciendo un sistema de castigos y recompensas económicas."
+      ],
+      "correctIndex": 1,
+      "explanation": "La reciprocidad explota la norma social profundamente arraigada de devolver los favores recibidos."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "¿Qué rol juegan las técnicas de PNL dentro de los capítulos de manipulación mental?",
+      "options": [
+        "Sirven exclusivamente para mejorar la memoria a corto plazo.",
+        "Permiten modelar y utilizar patrones lingüísticos para influir en los estados mentales y conductuales.",
+        "Son teorías científicamente refutadas sin aplicación práctica.",
+        "Se utilizan únicamente para relajar los músculos faciales."
+      ],
+      "correctIndex": 1,
+      "explanation": "La PNL en este contexto se emplea para calibrar el lenguaje verbal y no verbal, induciendo estados receptivos o de confusión estratégica."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "Al aplicar los 5 secretos de la comunicación persuasiva, ¿qué elemento es prioritario antes de emitir una propuesta?",
+      "options": [
+        "Hablar más rápido que el interlocutor para saturarlo.",
+        "Comprender el marco mental, intereses y objeciones ocultas del receptor.",
+        "Imponer un ultimátum temporal.",
+        "Desacreditar la fuente de información contraria."
+      ],
+      "correctIndex": 1,
+      "explanation": "La comunicación persuasiva efectiva comienza con la calibración y sintonía con las necesidades y el mapa mental del otro."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "¿Cómo se deben contrarrestar los trucos psicológicos simples expuestos en la conclusión de la obra?",
+      "options": [
+        "Ignorándolos y esperando que el problema desaparezca.",
+        "Detectando el patrón, neutralizando el impacto emocional y respondiendo con hechos objetivos.",
+        "Respondiendo con agresividad verbal desproporcionada.",
+        "Aceptando todas las condiciones del manipulador para mantener la paz."
+      ],
+      "correctIndex": 1,
+      "explanation": "La detección temprana y la respuesta objetiva neutralizan el efecto de cualquier truco psicológico básico."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Persuasión",
+      "category": "Influencia",
+      "definition": "Arte de guiar a otros hacia la adopción de una idea o acción mediante argumentos lógicos y alineación de intereses.",
+      "practicalExample": "Convencer a un cliente de adquirir un servicio demostrando cómo resuelve su problema específico."
+    },
+    {
+      "id": "g2",
+      "term": "Manipulación Mental",
+      "category": "Psicología Oscura",
+      "definition": "Influencia subrepticia que altera el juicio y la conducta de un individuo en beneficio propio del emisor.",
+      "practicalExample": "Hacer creer a un compañero que olvidó una directriz crítica para modificar un informe."
+    },
+    {
+      "id": "g3",
+      "term": "Anclaje",
+      "category": "PNL",
+      "definition": "Asociación estímulo-respuesta donde un detonante externo activa un estado interno.",
+      "practicalExample": "Usar un tono de voz firme y pausado cada vez que se requiere atención absoluta en una reunión."
+    },
+    {
+      "id": "g4",
+      "term": "Reciprocidad",
+      "category": "Principios",
+      "definition": "Tendencia psicológica a retribuir lo que otros han hecho por nosotros.",
+      "practicalExample": "Ofrecer un informe preliminar gratuito para predisponer al cliente a escuchar la propuesta comercial."
+    },
+    {
+      "id": "g5",
+      "term": "Reencuadre",
+      "category": "Técnicas",
+      "definition": "Cambio del marco interpretativo de una situación para modificar su valor percibido.",
+      "practicalExample": "Presentar un gasto elevado de consultoría como una inversión de alta rentabilidad y bajo riesgo."
+    },
+    {
+      "id": "g6",
+      "term": "Calibración",
+      "category": "Conductual",
+      "definition": "Habilidad de leer las señales no verbales y conductuales del interlocutor en tiempo real.",
+      "practicalExample": "Notar microexpresiones de duda durante la presentación de un contrato para ajustar el argumento."
+    },
+    {
+      "id": "g7",
+      "term": "Escasez",
+      "category": "Principios",
+      "definition": "Principio que incrementa el valor percibido de algo ante su limitación o inminente desaparición.",
+      "practicalExample": "Limitar la disponibilidad de plazas para una asesoría exclusiva."
+    },
+    {
+      "id": "g8",
+      "term": "Prueba Social",
+      "category": "Influencia",
+      "definition": "Conformidad inducida por el comportamiento de la mayoría o de figuras relevantes.",
+      "practicalExample": "Mostrar testimonios de empresas líderes que ya utilizan tu metodología."
+    },
+    {
+      "id": "g9",
+      "term": "Gaslighting",
+      "category": "Manipulación",
+      "definition": "Táctica de manipulación para hacer dudar a la víctima de su propia percepción y cordura.",
+      "practicalExample": "Negar haber dicho una frase acordada públicamente para generar confusión."
+    },
+    {
+      "id": "g10",
+      "term": "Pie en la Puerta",
+      "category": "Técnicas",
+      "definition": "Estrategia de compromisos escalonados que parte de una solicitud menor.",
+      "practicalExample": "Pedir una firma de apoyo simbólico antes de solicitar una contribución mayor."
+    },
+    {
+      "id": "g11",
+      "term": "Asimetría Informativa",
+      "category": "Estrategia",
+      "definition": "Desequilibrio en el conocimiento disponible entre las partes en una negociación.",
+      "practicalExample": "Reservar datos clave sobre costes de producción hasta la fase final del cierre."
+    },
+    {
+      "id": "g12",
+      "term": "Sesgo de Autoridad",
+      "category": "Psicología",
+      "definition": "Tendencia a sobrevalorar la opinión de expertos o figuras con estatus elevado.",
+      "practicalExample": "Citar estudios de instituciones reconocidas para respaldar una afirmación técnica."
+    },
+    {
+      "id": "g13",
+      "term": "Escucha Activa",
+      "category": "Comunicación",
+      "definition": "Proceso de escuchar no solo las palabras, sino la intención y emoción subyacente.",
+      "practicalExample": "Parafrasear lo dicho por el cliente antes de responder para confirmar entendimiento."
+    },
+    {
+      "id": "g14",
+      "term": "Inducción de Culpabilidad",
+      "category": "Manipulación",
+      "definition": "Uso del sentimiento de culpa para doblegar la resistencia de la contraparte.",
+      "practicalExample": "Afirmar que tu falta de apoyo pondrá en riesgo el trabajo de todo el equipo."
+    },
+    {
+      "id": "g15",
+      "term": "Contraste Psicológico",
+      "category": "Técnicas",
+      "definition": "Juicio distorsionado por la comparación directa con un estímulo previo extremo.",
+      "practicalExample": "Presentar una opción sumamente costosa antes de mostrar el precio real del producto."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "CALIBRACIÓN",
+      "title": "Calibración de Microexpresiones de Duda",
+      "cue": "Contracción leve del ceño combinada con un retroceso milimétrico del tronco al escuchar una propuesta.",
+      "interpretation": "Indica desacuerdo interno o desconfianza latente a pesar de una sonrisa verbal de aceptación.",
+      "practicalDrill": "Practica detener tu discurso en el momento exacto en que observes este microgesto y formula una pregunta abierta de validación."
+    },
+    {
+      "id": "bl2",
+      "category": "DETECCIÓN",
+      "title": "Detección de Asimetría en Gestos de Afirmación",
+      "cue": "Asentimiento con la cabeza mientras los labios se mantienen firmemente apretados o tensos.",
+      "interpretation": "Señal clásica de disonancia cognitiva; el cuerpo intenta fingir acuerdo mientras la mente rechaza el concepto.",
+      "practicalDrill": "Identifica esta señal en simulaciones de negociación y detén la propuesta para indagar sobre objeciones no expresadas."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Bloqueo de Barreras Defensivas",
+      "cue": "El interlocutor cruza ambos brazos firmemente sobre el pecho y desvía la mirada al presentar un argumento clave.",
+      "interpretation": "Bloqueo físico que denota resistencia psicológica, cierre a la influencia y rechazo temporal del mensaje.",
+      "practicalDrill": "Entrega un objeto (un folleto, un bolígrafo) para obligar al interlocutor a descruzar los brazos y restablecer la apertura."
+    },
+    {
+      "id": "bl4",
+      "category": "CALIBRACIÓN",
+      "title": "Análisis del Patrón de Parpadeo",
+      "cue": "Aumento repentino y rápido en la frecuencia de parpadeo durante una pregunta específica.",
+      "interpretation": "Refleja incremento en la carga cognitiva, estrés o procesamiento de información compleja/oculta.",
+      "practicalDrill": "Monitorea la frecuencia de parpadeo al realizar preguntas de control para detectar áreas de sensibilidad o posible engaño."
+    },
+    {
+      "id": "bl5",
+      "category": "DETECCIÓN",
+      "title": "Orientación de los Pies hacia la Salida",
+      "cue": "Torso orientado hacia ti, pero con la punta de ambos pies apuntando directamente hacia la puerta.",
+      "interpretation": "Indica deseo subconsciente de huir, finalizar la interacción o incomodidad con la situación actual.",
+      "practicalDrill": "Cambia de postura o introduce un tema de alto interés para alinear la orientación corporal completa hacia el centro de la interacción."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "Neutralización de Posturas de Dominio",
+      "cue": "Interlocutor que se inclina excesivamente sobre la mesa invadiendo tu espacio personal con los hombros elevados.",
+      "interpretation": "Intento de intimidación física para ejercer presión psicológica y forzar una sumisión jerárquica.",
+      "practicalDrill": "Mantén la calma, recuéstate con firmeza en tu respaldo y mantén una sonrisa neutral para anular el efecto de dominación."
     }
   ]
 };

@@ -6008,53 +6008,157 @@ const LIBROS_DATA = {
   "caseScenarios": [
     {
       "id": "cs1",
-      "category": "Aplicación Ética de Principios",
-      "title": "Caso Práctico: Capitulo 03 Tipos De Manipulacion",
-      "difficulty": "Alta",
-      "badge": "Maestro de Influencia",
-      "scenarioDescription": "Durante una situación relacionada con \"Capitulo 03 Tipos De Manipulacion\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "category": "Manipulación Emocional",
+      "title": "La Culpa Inducida en el Entorno Laboral",
+      "difficulty": "Media",
+      "badge": "Escudo Anticulpa",
+      "scenarioDescription": "Un compañero de trabajo superior jerárquicamente te pide que cubras su turno del fin de semana usando un tono pasivo-agresivo: 'No te preocupes por mis planes familiares cancelados, supongo que algunos tenemos más compromiso que otros'. Sientes la necesidad de ceder para no parecer egoísta.",
       "options": [
         {
           "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Capitulo 03 Tipos De Manipulacion\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Aceptar el turno inmediatamente para evitar conflictos y demostrar compromiso.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Has cedido ante el chantaje emocional y el condicionamiento por culpa, reforzando la conducta manipuladora del emisor.",
+          "bookInsight": "Capítulo 08: La manipulación emocional utiliza la culpa como ancla para anular la asertividad de la víctima."
         },
         {
           "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Reconocer verbalmente su decepción pero establecer un límite firme sin justificaciones excesivas.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Desactivas la trampa de la culpa al no asumir una responsabilidad que no te corresponde, manteniendo tu autonomía.",
+          "bookInsight": "Capítulo 05: Diferencia entre manipulación y persuasión; la manipulación busca la sumisión a través de la afectación emocional."
         }
       ]
     },
     {
       "id": "cs2",
-      "category": "Defensa Personal Psicológica",
-      "title": "Caso Práctico: Capitulo 04 Conocimiento De La Conducta Humana",
-      "difficulty": "Media",
-      "badge": "Guardián Mental",
-      "scenarioDescription": "Durante una situación relacionada con \"Capitulo 04 Conocimiento De La Conducta Humana\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "category": "Dependencia Emocional",
+      "title": "El Ciclo de Aprobación Externa",
+      "difficulty": "Alta",
+      "badge": "Maestro de la Autonomía",
+      "scenarioDescription": "Tu pareja constantemente critica pequeños detalles de tus decisiones (ropa, amigos, proyectos) y luego te colma de elogios cuando cedes a sus preferencias. Comienzas a dudar de tu propio criterio.",
       "options": [
         {
           "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Capitulo 04 Conocimiento De La Conducta Humana\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Modificar gradualmente tus gustos y decisiones para alinearles con su aprobación y evitar discusiones.",
+          "outcome": "Fallo",
+          "wisdomScore": 15,
+          "analysis": "Entraste de lleno en el ciclo de refuerzo intermitente, consolidando la dependencia emocional descrita por el autor.",
+          "bookInsight": "Capítulo 09: La dependencia emocional se alimenta del miedo al rechazo y la búsqueda constante de validación externa."
         },
         {
           "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Confrontar la dinámica de validación y buscar espacios independientes de toma de decisiones.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Rompes el ciclo de refuerzo intermitente al validar tus propias elecciones y distanciar tu autoestima de su juicio.",
+          "bookInsight": "Capítulo 10: Las víctimas de manipuladores recuperan el control al identificar los patrones de devaluación e idealización."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Conducta Humana",
+      "title": "El Cebo de la Reciprocidad Forzada",
+      "difficulty": "Media",
+      "badge": "Vigilante Cognitivo",
+      "scenarioDescription": "Un conocido te hace un favor no solicitado muy costoso en tiempo y recursos. Inmediatamente después, te pide un gran favor que te perjudica, insinuando que 'le debes una'.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Aceptar el favor solicitado bajo la premisa de que debes corresponder la amabilidad inicial.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Caíste en la trampa de la reciprocidad instrumentalizada, donde el favor inicial no fue un acto genuino sino una inversión de control.",
+          "bookInsight": "Capítulo 04: El conocimiento de la conducta humana permite explotar la norma social de la reciprocidad para obtener obediencia."
+        },
+        {
+          "id": "opt2",
+          "text": "Rechazar el segundo favor aclarando que no solicitaste el primero y que no aceptas obligaciones impuestas.",
+          "outcome": "Éxito",
+          "wisdomScore": 85,
+          "analysis": "Neutralizas la presión social delimitando claramente los intercambios voluntarios de las transacciones manipuladoras.",
+          "bookInsight": "Capítulo 02: Las reglas científicas de la influencia demuestran que la asimetría en los favores destruye la equidad relacional."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Defensa Psicológica",
+      "title": "Lidiando con el Gaslighting Sutil",
+      "difficulty": "Alta",
+      "badge": "Detector de Ilusiones",
+      "scenarioDescription": "Un colega niega categóricamente haber dicho algo crítico sobre tu trabajo en una reunión previa, a pesar de que lo recuerdas claramente. Te dice que 'estás imaginando cosas' y que 'vuelves a estar estresado'.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Cuestionar tu propia memoria y disculparte por haberlo malinterpretado.",
+          "outcome": "Fallo",
+          "wisdomScore": 10,
+          "analysis": "Permitiste la alteración de tu percepción de la realidad, el objetivo principal del gaslighting y la manipulación mental.",
+          "bookInsight": "Capítulo 01: La definición de la manipulación mental incluye la distorsión deliberada de los hechos para generar dudas en la víctima."
+        },
+        {
+          "id": "opt2",
+          "text": "Mantener registros escritos previos y reafirmar tu versión con calma y sin entrar en debates sobre tu salud mental.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Neutralizas el gaslighting utilizando evidencia objetiva y negándote a discutir tu estabilidad emocional.",
+          "bookInsight": "Capítulo 11: Los efectos de una persona manipuladora se combaten documentando hechos y estableciendo límites estrictos."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Estrategia de Influencia",
+      "title": "La Trampa de la Persuasión Oculta",
+      "difficulty": "Media",
+      "badge": "Analista de Intenciones",
+      "scenarioDescription": "Un vendedor utiliza preguntas cerradas y premisas falsas para hacerte creer que la única opción lógica es comprar un producto financiero de alto riesgo, haciendo apelaciones constantes a tu miedo al fracaso.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Firmar el contrato para evitar parecer ignorante ante los argumentos técnicos del vendedor.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "Fuiste víctima de la confusión entre persuasión ética y manipulación coercitiva basada en el miedo.",
+          "bookInsight": "Capítulo 05: La persuasión busca el beneficio mutuo y la transparencia; la manipulación oculta intenciones y explota vulnerabilidades."
+        },
+        {
+          "id": "opt2",
+          "text": "Pausar la interacción, solicitar tiempo para revisar los datos de forma independiente y declinar la urgencia artificial.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Rompes la táctica de urgencia y obligas al proceso a regresar al terreno de la lógica y la transparencia.",
+          "bookInsight": "Capítulo 02: Las reglas de la influencia exigen ralentizar el proceso de decisión ante estímulos de alta presión."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Patrones Históricos",
+      "title": "El Enfoque del Líder Carismático",
+      "difficulty": "Alta",
+      "badge": "Estratega Crítico",
+      "scenarioDescription": "Un líder de grupo utiliza discursos cargados de épica, polarización ('nosotros contra ellos') y demandas de lealtad ciega para justificar acciones cuestionables en beneficio de la organización.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Seguir las directrices sin cuestionar, asumiendo que la visión del líder justifica los medios.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Caíste en el patrón clásico de manipulación sectaria y sumisión a la autoridad carismática analizada históricamente.",
+          "bookInsight": "Capítulo 06: Los manipuladores de la historia han utilizado la polarización y el carisma para subyugar colectivos enteros."
+        },
+        {
+          "id": "opt2",
+          "text": "Analizar objetivamente las acciones más allá del discurso y mantener canales de pensamiento crítico independientes.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Desarticulaste la retórica manipuladora evaluando hechos en lugar de apelaciones emocionales al carisma.",
+          "bookInsight": "Capítulo 07: Los ejemplos de casos de manipulación muestran que el análisis crítico de los hechos es el antídoto contra el lavado de cerebro."
         }
       ]
     }
@@ -6062,38 +6166,467 @@ const LIBROS_DATA = {
   "flashcards": [
     {
       "id": "fc1",
-      "term": "Hipnosis ericksoniana",
-      "definition": "Técnica psicológica estudiada en \"Introduccion Y Prologo\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Aplicar el protocolo JADE-never: no Justifiques, Argumentes, Defiendas ni Expliques."
+      "bookNumber": 1,
+      "category": "Definición",
+      "term": "Manipulación Mental",
+      "definition": "Proceso mediante el cual un emisor altera la percepción, el comportamiento o las decisiones de un receptor de forma oculta y en beneficio propio.",
+      "tacticalUse": "Identificar intenciones ocultas en interacciones aparentemente benévolas.",
+      "countermeasure": "Exigir claridad en las intenciones y verificar la simetría de la relación."
     },
     {
       "id": "fc2",
-      "term": "Simpatía fabricada",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 01 Definicion De La Manipulacion Mental\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Documentar patrones de comportamiento para identificar manipulación."
+      "bookNumber": 1,
+      "category": "Estudios Científicos",
+      "term": "Regla de Consistencia",
+      "definition": "Tendencia psicológica humana a mantener comportamientos alineados con compromisos previos, incluso cuando estos ya no son ventajosos.",
+      "tacticalUse": "Obtener pequeños 'sí' iniciales para escalar gradualmente hacia demandas mayores.",
+      "countermeasure": "Evaluar cada decisión de forma aislada sin importar compromisos pasados."
     },
     {
       "id": "fc3",
-      "term": "DARVO",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 02 Estudios Cientificos Y Reglas\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Usar el \"test de la silla vacía\": ¿qué le dirías a un amigo en tu situación?"
+      "bookNumber": 1,
+      "category": "Tipos de Manipulación",
+      "term": "Manipulación Coercitiva",
+      "definition": "Uso de amenazas veladas, presión psicológica o castigos emocionales para forzar la sumisión.",
+      "tacticalUse": "Generar un clima de tensión donde la obediencia parezca la única salida segura.",
+      "countermeasure": "Establecer límites estrictos y documentar cada intento de coerción."
     },
     {
       "id": "fc4",
-      "term": "Programación neurolingüística",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 03 Tipos De Manipulacion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Reconocer los 7 signos de la Tríada Oscura en contactos cercanos."
+      "bookNumber": 1,
+      "category": "Conducta Humana",
+      "term": "Sesgo de Autoridad",
+      "definition": "Inclinación a obedecer o creer ciegamente en figuras que aparentan estatus, poder o conocimiento experto.",
+      "tacticalUse": "Adoptar símbolos de autoridad para validar argumentos débiles o cuestionables.",
+      "countermeasure": "Verificar la evidencia empírica por encima de las credenciales del emisor."
     },
     {
       "id": "fc5",
-      "term": "Anclaje emocional",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 04 Conocimiento De La Conducta Humana\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Establecer límites claros y comunicarlos asertivamente."
+      "bookNumber": 1,
+      "category": "Persuasión vs Manipulación",
+      "term": "Transparencia de Intenciones",
+      "definition": "Diferencia cardinal donde la persuasión expone sus objetivos abiertamente, mientras que la manipulación los oculta.",
+      "tacticalUse": "Distinguir entre una negociación honesta y una maniobra de control psicológico.",
+      "countermeasure": "Preguntar directamente: '¿Cuál es el propósito real detrás de esta propuesta?'"
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Historia",
+      "term": "Polarización Estratégica",
+      "definition": "Táctica histórica para dividir grupos en facciones opuestas ('nosotros vs ellos') facilitando el control.",
+      "tacticalUse": "Unificar seguidores bajo un enemigo común ficticio.",
+      "countermeasure": "Fomentar el pensamiento matizado y rechazar las dicotomías simplistas."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "Casos Prácticos",
+      "term": "Aislamiento Progresivo",
+      "definition": "Estrategia de control donde el manipulador corta sistemáticamente las redes de apoyo de la víctima.",
+      "tacticalUse": "Volver a la víctima totalmente dependiente del juicio y compañía del agresor.",
+      "countermeasure": "Mantener activas y diversas las relaciones interpersonales independientes."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Emoción",
+      "term": "Culpa Instrumental",
+      "definition": "Inducción deliberada de remordimiento en el otro para obligarlo a ceder ante exigencias injustas.",
+      "tacticalUse": "Invertir los roles de víctima y agresor para forzar la reparación.",
+      "countermeasure": "Reconocer que la culpa artificial no requiere compensación alguna."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Dependencia",
+      "term": "Refuerzo Intermitente",
+      "definition": "Alternancia impredecible entre castigo y recompensa que genera adicción psicológica y sumisión.",
+      "tacticalUse": "Mantener a la persona en vilo esperando la próxima muestra de afecto o aprobación.",
+      "countermeasure": "Evaluar la relación por su consistencia a largo plazo y no por picos emocionales."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Víctimas",
+      "term": "Pérdida de Criterio Propio",
+      "definition": "Estado en el que la víctima delega por completo su capacidad de juicio en el manipulador.",
+      "tacticalUse": "Aprovechar la inseguridad para ofrecerse como la única brújula válida.",
+      "countermeasure": "Ejercitar la toma de decisiones autónomas en asuntos cotidianos."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Efectos",
+      "term": "Disonancia Cognitiva Inducida",
+      "definition": "Conflicto mental generado al forzar a alguien a actuar en contra de sus valores mediante manipulación.",
+      "tacticalUse": "Debilitar la autoestima y la coherencia interna de la persona afectada.",
+      "countermeasure": "Alinear las acciones estrictamente con los valores y principios personales."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Asertividad Defensiva",
+      "definition": "Habilidad de expresar límites claros sin caer en justificaciones, discusiones o agresividad.",
+      "tacticalUse": "Bloquear los intentos de manipulación en el momento exacto en que ocurren.",
+      "countermeasure": "Utilizar el disco rayado o la confrontación neutral de hechos."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Conducta Humana",
+      "term": "Prueba Social Manipulada",
+      "definition": "Creación de una falsa sensación de consenso general para forzar la conformidad del individuo.",
+      "tacticalUse": "Hacer creer que 'todos lo hacen' para disuadir el escepticismo.",
+      "countermeasure": "Analizar la validez de los datos al margen de la supuesta opinión mayoritaria."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Manipulación Emocional",
+      "term": "Invasión de Límites",
+      "definition": "Transgresión sistemática del espacio físico, emocional o temporal de la otra persona.",
+      "tacticalUse": "Desensibilizar a la víctima frente al abuso para que tolere mayores transgresiones.",
+      "countermeasure": "Sancionar inmediatamente cualquier intento de invasión con consecuencias claras."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Definición",
+      "term": "Antídoto Psicológico",
+      "definition": "Conjunto de herramientas cognitivas y conductuales que neutralizan el impacto de la influencia oscura.",
+      "tacticalUse": "Proteger la autonomía mental frente a intentos sistemáticos de coerción.",
+      "countermeasure": "Aplicar pensamiento crítico, autoconocimiento y gestión emocional."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación Emocional",
+      "name": "Chantaje por Victimización",
+      "severity": "Alta",
+      "icon": "fa-skull",
+      "howItWorks": "El manipulador adopta el rol de víctima absoluta ante cualquier límite impuesto, provocando que la persona responsable sienta culpa y ceda.",
+      "redFlags": [
+        "Inversión súbita de roles donde el agresor pasa a ser la víctima",
+        "Uso de expresiones dramáticas sobre su fragilidad emocional",
+        "Apelaciones constantes a lo mucho que han sufrido por tu culpa"
+      ],
+      "counterScript": "Entiendo que te sientas así, pero mi decisión respecto a este asunto es firme y no negociable.",
+      "deepMechanism": "Explota el sesgo empático y el miedo atávico a causar daño a otros seres humanos."
+    },
+    {
+      "id": "t2",
+      "category": "Gaslighting",
+      "name": "Negación Sistemática de la Realidad",
+      "severity": "Crítica",
+      "icon": "fa-eye",
+      "howItWorks": "Reescribe los acontecimientos pasados, negando hechos comprobables para hacer que la víctima dude de sus propias facultades mentales.",
+      "redFlags": [
+        "Negación categórica de conversaciones o eventos recientes",
+        "Acusaciones de tener mala memoria o estar demasiado sensible",
+        "Aislamiento de pruebas objetivas o testigos"
+      ],
+      "counterScript": "Tengo registros claros de que esto ocurrió exactamente como lo menciono. No voy a discutir sobre la realidad de los hechos.",
+      "deepMechanism": "Ataca el sentido de autoeficacia cognitiva, generando dependencia del criterio del manipulador."
+    },
+    {
+      "id": "t3",
+      "category": "Influencia",
+      "name": "El Anclaje de la Urgencia Falsa",
+      "severity": "Media",
+      "icon": "fa-brain",
+      "howItWorks": "Impone un plazo de tiempo irreal para tomar una decisión, impidiendo el razonamiento analítico y forzando una respuesta impulsiva.",
+      "redFlags": [
+        "Presión excesiva para decidir 'ahora o nunca'",
+        "Negativa a conceder tiempo para la reflexión o consulta",
+        "Creación artificial de escasez o peligro inminente"
+      ],
+      "counterScript": "Si una decisión es buena hoy, seguirá siendo válida después de que la analice con calma. No decidiré bajo presión.",
+      "deepMechanism": "Satura el sistema cognitivo ejecutivo, obligando al cerebro a tomar atajos mentales guiados por el miedo."
+    },
+    {
+      "id": "t4",
+      "category": "Dependencia",
+      "name": "Refuerzo Intermitente de Aprobación",
+      "severity": "Alta",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Alterna periodos de desprecio o frialdad con muestras intensas de afecto, creando una dependencia química cerebral similar al juego de azar.",
+      "redFlags": [
+        "Cambios drásticos e impredecibles de humor y trato hacia ti",
+        "Sentimiento constante de estar caminando sobre cáscaras de huevo",
+        "Recompensas desmedidas tras momentos de alta tensión"
+      ],
+      "counterScript": "No acepto tratos inconsistentes. Necesito un trato respetuoso y estable en todo momento.",
+      "deepMechanism": "Estimula los circuitos dopaminérgicos de recompensa mediante la incertidumbre, generando adicción emocional."
+    },
+    {
+      "id": "t5",
+      "category": "Conducta",
+      "name": "Aislamiento Relacional Disfrazado",
+      "severity": "Alta",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Critica sutilmente al entorno cercano de la víctima bajo la excusa de 'protegerla', logrando que se aisle y dependa únicamente del manipulador.",
+      "redFlags": [
+        "Críticas constantes hacia tus amigos y familiares",
+        "Insinuaciones de que los demás te quieren manipular",
+        "Búsqueda de exclusividad en tu tiempo y atención"
+      ],
+      "counterScript": "Mis relaciones con mi familia y amigos son importantes para mí y no voy a permitir que sean descalificadas.",
+      "deepMechanism": "Elimina las fuentes externas de validación y realidad objetiva para consolidar el control absoluto."
+    },
+    {
+      "id": "t6",
+      "category": "Persuasión Oscura",
+      "name": "Reciprocidad Inducida Forzosa",
+      "severity": "Media",
+      "icon": "fa-brain",
+      "howItWorks": "Entrega obsequios o favores no solicitados para activar el compromiso social de devolución, utilizando esto como palanca de control.",
+      "redFlags": [
+        "Regalos o favores desproporcionados sin motivo aparente",
+        "Recordatorios constantes de lo que han hecho por ti",
+        "Exigencias de favores mayores disfrazados de reciprocidad"
+      ],
+      "counterScript": "Te agradezco el gesto, pero te pedí que no lo hicieras. No voy a asumir compromisos derivados de esto.",
+      "deepMechanism": "Activa la norma cultural de la reciprocidad, convirtiendo un acto social en una transacción coercitiva."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "¿Cuál es la diferencia fundamental entre manipulación y persuasión según el análisis de Fabián Goleman?",
+      "options": [
+        "La persuasión es ilegal y la manipulación es legal.",
+        "La persuasión opera con transparencia e intenciones claras, mientras que la manipulación oculta sus propósitos y busca el beneficio unilateral.",
+        "La manipulación solo se usa en el ámbito laboral y la persuasión en la familia.",
+        "No existe ninguna diferencia teórica entre ambos conceptos."
+      ],
+      "correctIndex": 1,
+      "explanation": "El libro establece que la línea divisoria radica en la transparencia: la persuasión respeta la autonomía del receptor con intenciones abiertas, mientras que la manipulación oculta sus verdaderas intenciones para doblegar la voluntad."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "¿Cómo opera el fenómeno de la 'culpa instrumental' dentro de las dinámicas de manipulación emocional?",
+      "options": [
+        "Generando un sentido de responsabilidad real sobre un error cometido.",
+        "Invocando remordimiento artificial para forzar a la víctima a ceder ante demandas injustas.",
+        "Estimulando la productividad laboral mediante incentivos económicos.",
+        "Fomentando la autonomía y el perdón mutuo en la pareja."
+      ],
+      "correctIndex": 1,
+      "explanation": "La culpa instrumental no busca resolver un conflicto real, sino fabricar una deuda moral ficticia que la víctima intentará saldar cediendo el control."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "¿Qué efecto psicológico produce el 'refuerzo intermitente' en una relación de dependencia emocional?",
+      "options": [
+        "Desinterés rápido y distanciamiento definitivo.",
+        "Estabilidad emocional y comunicación asertiva.",
+        "Adicción psicológica similar al juego de azar debido a la imprevisibilidad de la recompensa.",
+        "Fortalecimiento de la autoestima de la víctima."
+      ],
+      "correctIndex": 2,
+      "explanation": "Al alternar castigos con premios impredecibles, el cerebro libera dopamina ante la expectativa, generando una fuerte dependencia hacia el emisor."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "¿Cuál es el propósito principal del 'gaslighting' o manipulación mental profunda?",
+      "options": [
+        "Mejorar la memoria a corto plazo de la persona.",
+        "Distorsionar la percepción de la realidad de la víctima para que dude de su propio juicio.",
+        "Aumentar la transparencia en la comunicación de pareja.",
+        "Resolver malentendidos mediante la lógica formal."
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting busca socavar los cimientos cognitivos de la víctima hasta que esta renuncie a su propio criterio y dependa por completo del agresor."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "Según el estudio de los manipuladores en la historia, ¿qué táctica común emplean para subyugar a los colectivos?",
+      "options": [
+        "El fomento del pensamiento crítico y el debate abierto.",
+        "La polarización extrema ('nosotros contra ellos') y el carisma unidireccional.",
+        "La descentralización total del poder.",
+        "La búsqueda de acuerdos pacíficos y democráticos."
+      ],
+      "correctIndex": 1,
+      "explanation": "Los líderes manipuladores históricos han utilizado sistemáticamente la polarización para eliminar matices y exigir lealtad ciega frente a un enemigo común."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "¿Qué constituye una contramedida eficaz ante los efectos de una persona manipuladora descritos en la obra?",
+      "options": [
+        "Aceptar todas sus peticiones para evitar discusiones.",
+        "Aislarse de cualquier entorno social.",
+        "Documentar hechos objetivamente y establecer límites firmes y asertivos.",
+        "Responder con agresividad física y verbal."
+      ],
+      "correctIndex": 2,
+      "explanation": "La defensa más sólida descansa en la objetividad de los registros y el mantenimiento férreo de límites asertivos que bloqueen la manipulación."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Manipulación Mental",
+      "category": "Definición",
+      "definition": "Alteración oculta de la conducta o percepción ajena en beneficio unilateral del emisor.",
+      "practicalExample": "Un jefe que hace creer a su empleado que su bajo rendimiento justifica no pagarle horas extras."
+    },
+    {
+      "id": "g2",
+      "term": "Regla de Consistencia",
+      "category": "Conducta",
+      "definition": "Tendencia a mantener compromisos previos aunque ya no sean lógicos.",
+      "practicalExample": "Continuar un proyecto fallido solo porque 'ya invertimos mucho tiempo en él'."
+    },
+    {
+      "id": "g3",
+      "term": "Culpa Instrumental",
+      "category": "Emoción",
+      "definition": "Remordimiento inducido artificialmente para forzar la obediencia.",
+      "practicalExample": "Decir 'si salieras con tus amigos, me dejarías solo sufriendo aquí'."
+    },
+    {
+      "id": "g4",
+      "term": "Refuerzo Intermitente",
+      "category": "Dependencia",
+      "definition": "Entrega impredecible de premios y castigos que genera adicción psicológica.",
+      "practicalExample": "Una pareja que alterna insultos cruces con declaraciones de amor apasionadas."
+    },
+    {
+      "id": "g5",
+      "term": "Gaslighting",
+      "category": "Defensa",
+      "definition": "Distorsión deliberada de los hechos para hacer dudar a la víctima de su cordura.",
+      "practicalExample": "Negar enfáticamente una promesa hecha el día anterior diciendo que 'lo estás inventando'."
+    },
+    {
+      "id": "g6",
+      "term": "Aislamiento Relacional",
+      "category": "Víctimas",
+      "definition": "Corte sistemático de las redes de apoyo de la víctima.",
+      "practicalExample": "Criticar constantemente a los amigos de la pareja hasta que ella decida dejar de verlos."
+    },
+    {
+      "id": "g7",
+      "term": "Polarización",
+      "category": "Historia",
+      "definition": "División de un grupo en bandos irreconciliables para facilitar su control.",
+      "practicalExample": "Presentar una discusión laboral como una guerra entre 'los leales' y 'los traidores'."
+    },
+    {
+      "id": "g8",
+      "term": "Asertividad Defensiva",
+      "category": "Defensa",
+      "definition": "Establecimiento claro de límites sin caer en la agresividad ni en la sumisión.",
+      "practicalExample": "Decir 'no voy a hacer este trabajo fuera de horario' de forma calmada y firme."
+    },
+    {
+      "id": "g9",
+      "term": "Reciprocidad Forzada",
+      "category": "Influencia",
+      "definition": "Uso de favores no solicitados como obligación moral de devolución.",
+      "practicalExample": "Comprar un regalo costoso para exigir después un favor importante."
+    },
+    {
+      "id": "g10",
+      "term": "Disonancia Cognitiva",
+      "category": "Psicología",
+      "definition": "Tensión interna al actuar en contra de los propios valores por presión externa.",
+      "practicalExample": "Sentir malestar profundo tras mentir para encubrir a un compañero manipulador."
+    },
+    {
+      "id": "g11",
+      "term": "Prueba Social",
+      "category": "Conducta",
+      "definition": "Creación de un falso consenso para guiar la conducta ajena.",
+      "practicalExample": "Afirmar que 'todo el equipo está de acuerdo' cuando nadie ha opinado."
+    },
+    {
+      "id": "g12",
+      "term": "Persuasión Ética",
+      "category": "Persuasión",
+      "definition": "Proceso de influencia transparente que respeta la libertad del receptor.",
+      "practicalExample": "Explicar los pros y contras de una propuesta comercial sin ocultar riesgos."
+    },
+    {
+      "id": "g13",
+      "term": "Antídoto Psicológico",
+      "category": "Defensa",
+      "definition": "Herramienta mental para bloquear intentos de manipulación.",
+      "practicalExample": "Pausar la decisión y verificar los datos de forma independiente ante una urgencia."
+    },
+    {
+      "id": "g14",
+      "term": "Criterio Propio",
+      "category": "Autonomía",
+      "definition": "Capacidad de evaluar situaciones basándose en principios propios y no en ajenos.",
+      "practicalExample": "Rechazar una crítica infundada tras analizar objetivamente el propio desempeño."
+    },
+    {
+      "id": "g15",
+      "term": "Víctima Crónica",
+      "category": "Perfil",
+      "definition": "Persona atrapada en patrones repetitivos de manipulación por dependencia no tratada.",
+      "practicalExample": "Alguien que encadena relaciones abusivas buscando una validación que nunca llega."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "DETECCIÓN",
+      "title": "Calibración de la Incongruencia No Verbal",
+      "cue": "El emisor asiente verbalmente con un 'sí' rotundo mientras realiza un microgesto de negación lateral con la cabeza.",
+      "interpretation": "Discrepancia entre el discurso consciente y la intención real; el mensaje verbal está diseñado para manipular mientras el cuerpo expresa rechazo u oposición.",
+      "practicalDrill": "Observa el rostro y las manos de tu interlocutor durante una negociación y busca contradicciones entre sus palabras y sus movimientos involuntarios de cabeza."
+    },
+    {
+      "id": "bl2",
+      "category": "CALIBRACIÓN",
+      "title": "Detección de la Mirada Fija de Dominio",
+      "cue": "Mantener contacto visual sostenido y sin parpadeo durante más de cinco segundos al realizar una exigencia.",
+      "interpretation": "Táctica de intimidación no verbal destinada a generar incomodidad y someter la voluntad del receptor mediante la presión visual.",
+      "practicalDrill": "Practica sostener el contacto visual con neutralidad emocional sin mostrar sumisión ni agresividad al ser desafiado."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Bloqueo de Invasión de Espacio Vital",
+      "cue": "El manipulador invade el espacio personal (menos de 45 cm) al presentar una propuesta o reclamo.",
+      "interpretation": "Uso de la proxémica para intimidar físicamente y anular la capacidad de reacción analítica de la víctima.",
+      "practicalDrill": "Da un paso atrás con calma para restablecer tu distancia de seguridad mientras respondes de manera verbal y firme."
+    },
+    {
+      "id": "bl4",
+      "category": "DETECCIÓN",
+      "title": "Sonrisa Social vs Sonrisa Duchenne en Manipuladores",
+      "cue": "Movimiento mecánico de la boca que no activa los músculos orbiculares alrededor de los ojos (patas de gallo).",
+      "interpretation": "Falsedad emocional; la empatía y el afecto mostrados son fingidos para conseguir un objetivo instrumental.",
+      "practicalDrill": "Analiza las expresiones faciales de personas que intentan venderte algo o pedirte un favor bajo una supuesta amabilidad."
+    },
+    {
+      "id": "bl5",
+      "category": "CALIBRACIÓN",
+      "title": "Postura de Cerrazón y Defensiva Oculta",
+      "cue": "Cruzamiento rígido de brazos y piernas acompañado de apretamiento de mandíbula ante preguntas directas.",
+      "interpretation": "Ocultamiento de información o resistencia a la verdad; el emisor está construyendo una narrativa defensiva o manipuladora.",
+      "practicalDrill": "Realiza una pregunta de control y observa la tensión muscular en el cuello y los hombros de tu interlocutor."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "El Anclaje de Postura Neutral Asertiva",
+      "cue": "Adoptar una postura abierta, con ambos pies firmemente en el suelo, hombros relajados y manos visibles.",
+      "interpretation": "Transmite seguridad, equilibrio y control interno, neutralizando los intentos de intimidación no verbal del manipulador.",
+      "practicalDrill": "Practica esta postura frente a un espejo antes de una reunión difícil para consolidar tu presencia y resistencia psicológica."
     }
   ]
 };

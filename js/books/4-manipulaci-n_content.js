@@ -1,3 +1,4 @@
+// Contenido enriquecido para Manipulación y Psicología Oscura: Detección y Defensa
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_5.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>--- Manipulación y Psicología Oscura: Cómo aprender a leer a las personas rápidamente, detectar la manipulación emocional encubierta, detectar el engaño y defenderse del abuso narcisista y de las personas tóxicas Por Alejandro Mendoza Derechos de Autor © Alejandro Mendoza Todos los derechos reservados. Ninguna parte de este texto puede reproducirse de ninguna forma sin permiso por escrito del editor, excepto en el caso de citas breves incorporadas en artículos críticos o reseñas. Información Legal La información contenida en este libro y su contenido no está diseñada para reemplazar cualquier forma de consejo médico o profesional; y no pretende reemplazar la necesidad de asesoramiento o servicios médicos, financieros, legales u otros profesionales independientes, según sea necesario. El contenido y la información de este libro se han proporcionado únicamente con fines educativos y de entretenimiento. El contenido y la información contenidos en este libro han sido compilados de fuentes que son consideradas confiables, y es precisa según el conocimiento, información y creencia del autor. Sin embargo, el autor no puede garantizar su precisión y validez y no se hace responsable de los errores u omisiones. Además, periódicamente se realizan cambios a este libro cuando se considere necesario. Cuando sea apropiado y/o necesario, debe consultar a un profesional (incluidos, entre otros, su médico, abogado, asesor financiero u otro asesor profesional) antes de utilizar cualquiera de lo",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Introducción (Mesa de Investigación)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_estrategias_deteccion/manidetec_m1_introduccion.webp\" alt=\"Introducción (Mesa de Investigación)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Manipulación y Psicología Oscura: Cómo aprender a leer a las personas rápidamente, detectar la manipulación emocional encubierta, detectar el engaño y defenderse del abuso narcisista y de las personas tóxicas Por Alejandro Mendoza Derechos de Autor © Alejandro Mendoza Todos los derechos reservados. Ninguna parte de este texto puede reproducirse de ninguna forma sin permiso por escrito del editor, excepto en el caso de citas breves incorporadas en artículos críticos o reseñas. Información Legal La información contenida en este libro y su contenido no está diseñada para reemplazar cualquier forma de consejo médico o profesional; y no pretende reemplazar la necesidad de asesoramiento o servicios médicos, financieros, legales u otros profesionales independientes, según sea necesario. El contenido y la información de este libro se han proporcionado únicamente con fines educativos y de entretenimiento. El contenido y la información contenidos en este libro han sido compilados de fuentes que son consideradas confiables, y es precisa según el conocimiento, información y creencia del autor. Sin embargo, el autor no puede garantizar su precisión y validez y no se hace responsable de los errores u omisiones. Además, periódicamente se realizan cambios a este libro cuando se considere necesario. Cuando sea apropiado y/o necesario, debe consultar a un profesional (incluidos, entre otros, su médico, abogado, asesor financiero u otro asesor profesional) antes de utilizar cualquiera de lo",
           "interactiveChallenge": {
             "question": "Según la Introducción, ¿cuál es la diferencia fundamental entre la persuasión legítima y la manipulación psicológica?",
             "options": [
@@ -159,7 +160,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 1: ¿Qué es la Psicología Oscura? Hay muchas formas diferentes de definir la psicología oscura, pero en este libro, la definiremos de la manera más simple. Dark Psychology es el arte y la ciencia de la manipulación y el control mental. La psicología, en general, busca estudiar y comprender el comportamiento humano. Se centra en nuestros pensamientos, acciones y la forma en que interactuamos entre nosotros. Sin embargo, la psicología oscura solo se enfoca en los tipos de pensamientos y acciones que son de naturaleza depredadora. La psicología oscura examina las tácticas utilizadas por las personas maliciosas para motivar, persuadir, manipular o coaccionar a otros para que actúen de manera beneficiosa para ellos mismos y potencialmente perjudiciales para la otra persona. La psicología oscura puede verse como el estudio de la condición humana, en relación con la naturaleza psicológica de los diferentes tipos de personas que se aprovechan de los demás. El hecho es que cada ser humano tiene el potencial de victimizar a otras personas u otras criaturas vivientes. Sin embargo, debido a las normas sociales, la conciencia humana y otros factores, la mayoría de los humanos tienden a contener sus impulsos oscuros y a evitar actuar por cada impulso que tienen. Sin embargo, hay un pequeño porcentaje de la población que no puede controlar sus impulsos oscuros y daña a otros de maneras aparentemente inimaginables. El objetivo de la psicología oscura, como tópico, es tratar de compre",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 1 - Qué es la Psicología Oscura\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_estrategias_deteccion/manidetec_m2_que_es_psicologia_oscura.webp\" alt=\"Cap 1 - Qué es la Psicología Oscura\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 1: ¿Qué es la Psicología Oscura? Hay muchas formas diferentes de definir la psicología oscura, pero en este libro, la definiremos de la manera más simple. Dark Psychology es el arte y la ciencia de la manipulación y el control mental. La psicología, en general, busca estudiar y comprender el comportamiento humano. Se centra en nuestros pensamientos, acciones y la forma en que interactuamos entre nosotros. Sin embargo, la psicología oscura solo se enfoca en los tipos de pensamientos y acciones que son de naturaleza depredadora. La psicología oscura examina las tácticas utilizadas por las personas maliciosas para motivar, persuadir, manipular o coaccionar a otros para que actúen de manera beneficiosa para ellos mismos y potencialmente perjudiciales para la otra persona. La psicología oscura puede verse como el estudio de la condición humana, en relación con la naturaleza psicológica de los diferentes tipos de personas que se aprovechan de los demás. El hecho es que cada ser humano tiene el potencial de victimizar a otras personas u otras criaturas vivientes. Sin embargo, debido a las normas sociales, la conciencia humana y otros factores, la mayoría de los humanos tienden a contener sus impulsos oscuros y a evitar actuar por cada impulso que tienen. Sin embargo, hay un pequeño porcentaje de la población que no puede controlar sus impulsos oscuros y daña a otros de maneras aparentemente inimaginables. El objetivo de la psicología oscura, como tópico, es tratar de compre",
           "interactiveChallenge": {
             "question": "En el Capítulo 1, ¿cómo se define formalmente el espectro de la 'Psicología Oscura'?",
             "options": [
@@ -311,7 +312,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 2: Los 4 Rasgos de la Psicología Oscura Durante mucho tiempo, los psicólogos se han referido a los rasgos humanos oscuros como \"la tríada oscura\", que consiste en tres rasgos negativos de la personalidad; narcisismo, maquiavelismo y psicopatía. Sin embargo, en los últimos años, muchos expertos en el campo han insistido en que las variedades de sadismo también debe agregarse a la lista de los principales rasgos psicológicos oscuros. Como resultado, ahora nos estamos alejando de la tríada oscura hacia los “4 rasgos de psicología oscura”. En este capítulo, veremos cada uno de los cuatro rasgos y los discutiremos en detalle. Antes de analizar esos rasgos, es importante tener en cuenta que es muy importante comprenderlos si desea tener un conocimiento funcional de cómo evitar ser manipulado. De hecho, la investigación de estos rasgos tiene muchas aplicaciones en diferentes campos, incluyendo: la psicología clínica, la aplicación de la ley e incluso la gestión empresarial. Los estudios muestran que las personas que obtienen un puntaje alto cuando se les evalúan los cuatro rasgos tienen más probabilidades de cometer delitos, causar problemas dentro de las instituciones, causar angustia a las personas en sus vidas y a la sociedad en general. En situaciones de negocios, puede ser importante mantener a las personas con tales rasgos alejados de los puestos de poder. Nos encontramos con casos de narcisismo, maquiavelismo, sadismo y psicopatía no clínica de forma regular y, si es",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 2 - Los 4 Rasgos de la Psicología Oscura\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_estrategias_deteccion/manidetec_m3_cuatro_rasgos.webp\" alt=\"Cap 2 - Los 4 Rasgos de la Psicología Oscura\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 2: Los 4 Rasgos de la Psicología Oscura Durante mucho tiempo, los psicólogos se han referido a los rasgos humanos oscuros como \"la tríada oscura\", que consiste en tres rasgos negativos de la personalidad; narcisismo, maquiavelismo y psicopatía. Sin embargo, en los últimos años, muchos expertos en el campo han insistido en que las variedades de sadismo también debe agregarse a la lista de los principales rasgos psicológicos oscuros. Como resultado, ahora nos estamos alejando de la tríada oscura hacia los “4 rasgos de psicología oscura”. En este capítulo, veremos cada uno de los cuatro rasgos y los discutiremos en detalle. Antes de analizar esos rasgos, es importante tener en cuenta que es muy importante comprenderlos si desea tener un conocimiento funcional de cómo evitar ser manipulado. De hecho, la investigación de estos rasgos tiene muchas aplicaciones en diferentes campos, incluyendo: la psicología clínica, la aplicación de la ley e incluso la gestión empresarial. Los estudios muestran que las personas que obtienen un puntaje alto cuando se les evalúan los cuatro rasgos tienen más probabilidades de cometer delitos, causar problemas dentro de las instituciones, causar angustia a las personas en sus vidas y a la sociedad en general. En situaciones de negocios, puede ser importante mantener a las personas con tales rasgos alejados de los puestos de poder. Nos encontramos con casos de narcisismo, maquiavelismo, sadismo y psicopatía no clínica de forma regular y, si es",
           "interactiveChallenge": {
             "question": "En el Capítulo 2, además del Narcisismo, el Maquiavelismo y la Psicopatía, ¿cuál es el cuarto rasgo que completa la 'Tétrada Oscura' descrita en el libro?",
             "options": [
@@ -724,7 +725,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Capítulo 3: Técnicas de Manipulación Psicológica La manipulación psicológica se define como una forma de influencia social que busca alterar el comportamiento y las percepciones de los demás, mediante el uso de tácticas que son indirectas, engañosas y poco claras. En otras palabras, se trata de usar ciertos trucos para lograr que las personas actúen de cierta manera o piensen ciertas cosas, generalmente en beneficio de quien perpetra la manipulación. De esta manera, los intereses del manipulador avanzan, generalmente a expensas de la otra persona en esa ecuación. La manipulación psicológica emplea métodos que son desviados y explotadores, y a menudo son utilizados por personas que tienen uno o más de los rasgos oscuros de personalidad que discutimos en el capítulo anterior. Ahora, desde el principio, debemos asegurarnos de que comprenda que no toda la manipulación psicológica y la influencia social son negativas. Es posible manipular a alguien para su propio bien. Por ejemplo, los padres pueden manipular a sus hijos para que coman vegetales. Más allá de que se trate de manipulación, termina beneficiando al niño porque su salud mejora. Del mismo modo, los amigos, los familiares y los profesionales de la salud pueden tratar de influir en usted utilizando ciertas técnicas de manipulación con el objetivo de lograr que tome las decisiones correctas en ciertas situaciones. La influencia social es una parte normal e importante del discurso social. En la influencia social saludab",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 3 - Técnicas de Manipulación Psicológica (Parte 1)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_estrategias_deteccion/manidetec_m4_tecnicas_manipulacion_p1.webp\" alt=\"Cap 3 - Técnicas de Manipulación Psicológica (Parte 1)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Capítulo 3: Técnicas de Manipulación Psicológica La manipulación psicológica se define como una forma de influencia social que busca alterar el comportamiento y las percepciones de los demás, mediante el uso de tácticas que son indirectas, engañosas y poco claras. En otras palabras, se trata de usar ciertos trucos para lograr que las personas actúen de cierta manera o piensen ciertas cosas, generalmente en beneficio de quien perpetra la manipulación. De esta manera, los intereses del manipulador avanzan, generalmente a expensas de la otra persona en esa ecuación. La manipulación psicológica emplea métodos que son desviados y explotadores, y a menudo son utilizados por personas que tienen uno o más de los rasgos oscuros de personalidad que discutimos en el capítulo anterior. Ahora, desde el principio, debemos asegurarnos de que comprenda que no toda la manipulación psicológica y la influencia social son negativas. Es posible manipular a alguien para su propio bien. Por ejemplo, los padres pueden manipular a sus hijos para que coman vegetales. Más allá de que se trate de manipulación, termina beneficiando al niño porque su salud mejora. Del mismo modo, los amigos, los familiares y los profesionales de la salud pueden tratar de influir en usted utilizando ciertas técnicas de manipulación con el objetivo de lograr que tome las decisiones correctas en ciertas situaciones. La influencia social es una parte normal e importante del discurso social. En la influencia social saludab",
           "interactiveChallenge": {
             "question": "En el Capítulo 3 (Parte 1), ¿cuál es el mecanismo principal por el cual opera el 'Gaslighting'?",
             "options": [
@@ -1166,7 +1167,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "cumples. Por lo tanto, el refuerzo negativo funciona sobre ti porque quieres detener un estímulo negativo que ya existe, mientras que el castigo funciona porque quieres evitar que algo negativo suceda. Cada vez que alguien hace algo negativo y te insiste para que tomes una determinada medida, eso es refuerzo negativo. Cuando estás tratando de romper con alguien, y él/ella llora muy fuerte al respecto en un lugar público, hasta que cambias de opinión, están usando un refuerzo negativo para manipularte (en ese momento, sientes que las miradas incómodas de los extraños solo se detendrán si aceptas a la persona de nuevo). Las sanciones también son una forma muy común de refuerzo negativo. Son utilizados por naciones poderosas para lograr que otras naciones se dobleguen a su voluntad, pero también pueden usarse en relaciones interpersonales o en el trabajo de una u otra forma. Una sanción es básicamente una amenaza de una consecuencia futura si no haces algo. Las sanciones pueden usarse en relaciones para el bien común o para intenciones maliciosas; debe evaluar la situación individual para determinar si el uso de sanciones (o cualquier otra técnica de refuerzo negativo) es malicioso. Castigo En la manipulación psicológica, el castigo es una acción negativa que toma el manipulador para debilitar las respuestas voluntarias de la víctima. El castigo funciona porque hace que la víctima tema las consecuencias de ir en contra de la voluntad del manipulador. Ya hemos visto cómo el casti",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 3 - Técnicas de Manipulación Psicológica (Parte 2)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_estrategias_deteccion/manidetec_m5_tecnicas_manipulacion_p2.webp\" alt=\"Cap 3 - Técnicas de Manipulación Psicológica (Parte 2)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>cumples. Por lo tanto, el refuerzo negativo funciona sobre ti porque quieres detener un estímulo negativo que ya existe, mientras que el castigo funciona porque quieres evitar que algo negativo suceda. Cada vez que alguien hace algo negativo y te insiste para que tomes una determinada medida, eso es refuerzo negativo. Cuando estás tratando de romper con alguien, y él/ella llora muy fuerte al respecto en un lugar público, hasta que cambias de opinión, están usando un refuerzo negativo para manipularte (en ese momento, sientes que las miradas incómodas de los extraños solo se detendrán si aceptas a la persona de nuevo). Las sanciones también son una forma muy común de refuerzo negativo. Son utilizados por naciones poderosas para lograr que otras naciones se dobleguen a su voluntad, pero también pueden usarse en relaciones interpersonales o en el trabajo de una u otra forma. Una sanción es básicamente una amenaza de una consecuencia futura si no haces algo. Las sanciones pueden usarse en relaciones para el bien común o para intenciones maliciosas; debe evaluar la situación individual para determinar si el uso de sanciones (o cualquier otra técnica de refuerzo negativo) es malicioso. Castigo En la manipulación psicológica, el castigo es una acción negativa que toma el manipulador para debilitar las respuestas voluntarias de la víctima. El castigo funciona porque hace que la víctima tema las consecuencias de ir en contra de la voluntad del manipulador. Ya hemos visto cómo el casti",
           "interactiveChallenge": {
             "question": "Según el Capítulo 3 (Parte 2), ¿cuál es el objetivo del 'Tratamiento de Silencio' (Silent Treatment) dentro de la dinámica de manipulación?",
             "options": [
@@ -1550,7 +1551,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 4: Comportamiento y rasgos de carácter de los manipuladores Poder saber si alguien se está aprovechando de ti o manipulándote es una de las habilidades de supervivencia más importantes que necesitas hoy en día. Todos los que están a su alrededor tienen sus propios intereses y agendas, pero es crucial saber cuándo esas agendas son maliciosas o pueden causarle un daño involuntario. Los manipuladores tienen muchos rasgos identificables de comportamiento y carácter, algunos de los cuales discutiremos en este capítulo. Con la información que aprenda aquí, podrá saber si una persona es o no un manipulador, si su tipo de manipulación está destinada a causarle daño y qué tipo de manipulador es. Estos son los rasgos de carácter y comportamiento que debe tener en cuenta si sospecha que alguien es un manipulador. Mentir por comisión y mentir por omisión Una mentira de comisión es lo que se llama una \"mentira clásica\". Cuando alguien dice algo que sabe que no es un hecho, eso es una mentira de comisión. En otras palabras, una mentira de comisión es algo que simplemente es falso. Implica decirle algo a alguien con la intención de engañarlo. Es extremadamente deliberado y su objetivo principal es obtener una ventaja personal en una situación dada. Mentir por comisión no siempre se hace con intenciones malas, pero las personas que se sienten más cómodas diciendo mentiras son más propensas a ser manipuladores. Todos mienten. Incluso niños pequeños aparentemente inocentes dirán una m",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 4 - Comportamiento y Rasgos de Carácter (Parte 1)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_estrategias_deteccion/manidetec_m6_comportamiento_rasgos_p1.webp\" alt=\"Cap 4 - Comportamiento y Rasgos de Carácter (Parte 1)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 4: Comportamiento y rasgos de carácter de los manipuladores Poder saber si alguien se está aprovechando de ti o manipulándote es una de las habilidades de supervivencia más importantes que necesitas hoy en día. Todos los que están a su alrededor tienen sus propios intereses y agendas, pero es crucial saber cuándo esas agendas son maliciosas o pueden causarle un daño involuntario. Los manipuladores tienen muchos rasgos identificables de comportamiento y carácter, algunos de los cuales discutiremos en este capítulo. Con la información que aprenda aquí, podrá saber si una persona es o no un manipulador, si su tipo de manipulación está destinada a causarle daño y qué tipo de manipulador es. Estos son los rasgos de carácter y comportamiento que debe tener en cuenta si sospecha que alguien es un manipulador. Mentir por comisión y mentir por omisión Una mentira de comisión es lo que se llama una \"mentira clásica\". Cuando alguien dice algo que sabe que no es un hecho, eso es una mentira de comisión. En otras palabras, una mentira de comisión es algo que simplemente es falso. Implica decirle algo a alguien con la intención de engañarlo. Es extremadamente deliberado y su objetivo principal es obtener una ventaja personal en una situación dada. Mentir por comisión no siempre se hace con intenciones malas, pero las personas que se sienten más cómodas diciendo mentiras son más propensas a ser manipuladores. Todos mienten. Incluso niños pequeños aparentemente inocentes dirán una m",
           "interactiveChallenge": {
             "question": "En el Capítulo 4 (Parte 1), ¿cuál es un rasgo de comportamiento característico de los manipuladores en sus interacciones cotidianas?",
             "options": [
@@ -1934,7 +1935,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- demostrar que no lo es, y las personas manipuladoras pueden aprovechar esto. Por ejemplo, si estás saliendo con alguien y esa persona quiere que le compres algo caro, o que le hagas un favor que te va a costar, tratarás de explicarle lo más claramente posible que no puedes hacerlo. Luego puede decir algo como \"simplemente no te preocupas lo suficientemente por mí\". Cuando la persona dice esto, incluso el argumento más racional que hagas no importará. Aquí hay una línea de fondo; que valoras mantener tu dinero más de lo que valoras su felicidad. La culpabilidad funcionan porque no se basan en razonamientos objetivos; se basan en las emociones (que son más primarias y tienen un rango más alto en la jerarquía de las funciones cerebrales). Cuando te preocupas por alguien y sientes una obligación hacia ellos, tienen el poder de llevarte a un viaje de culpa. Eso significa que para que un manipulador te haga sentir culpable, se asegurará de que tengas alguna conexión emocional con él. Si estás en una nueva relación, debe tener cuidado para ver si a su pareja le gusta llevar a sus amigos y familiares a viajes de culpa, porque podría significar que serás sometido al mismo tratamiento una vez que estés emocionalmente involucrado. Avergonzar La vergüenza se refiere al sentimiento incómodo de angustia o humillación, que se produce cuando somos conscientes de cierto comportamiento que consideramos incorrecto o tonto. Lo que hay que entender sobre la vergüenza es que es una construcció",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 4 - Comportamiento y Rasgos de Carácter (Parte 2)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_estrategias_deteccion/manidetec_m7_comportamiento_rasgos_p2.webp\" alt=\"Cap 4 - Comportamiento y Rasgos de Carácter (Parte 2)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- demostrar que no lo es, y las personas manipuladoras pueden aprovechar esto. Por ejemplo, si estás saliendo con alguien y esa persona quiere que le compres algo caro, o que le hagas un favor que te va a costar, tratarás de explicarle lo más claramente posible que no puedes hacerlo. Luego puede decir algo como \"simplemente no te preocupas lo suficientemente por mí\". Cuando la persona dice esto, incluso el argumento más racional que hagas no importará. Aquí hay una línea de fondo; que valoras mantener tu dinero más de lo que valoras su felicidad. La culpabilidad funcionan porque no se basan en razonamientos objetivos; se basan en las emociones (que son más primarias y tienen un rango más alto en la jerarquía de las funciones cerebrales). Cuando te preocupas por alguien y sientes una obligación hacia ellos, tienen el poder de llevarte a un viaje de culpa. Eso significa que para que un manipulador te haga sentir culpable, se asegurará de que tengas alguna conexión emocional con él. Si estás en una nueva relación, debe tener cuidado para ver si a su pareja le gusta llevar a sus amigos y familiares a viajes de culpa, porque podría significar que serás sometido al mismo tratamiento una vez que estés emocionalmente involucrado. Avergonzar La vergüenza se refiere al sentimiento incómodo de angustia o humillación, que se produce cuando somos conscientes de cierto comportamiento que consideramos incorrecto o tonto. Lo que hay que entender sobre la vergüenza es que es una construcció",
           "interactiveChallenge": {
             "question": "En el Capítulo 4 (Parte 2), ¿qué tipo de inconsistencia conductual es típica de un manipulador cuando se siente confrontado con pruebas irrefutables?",
             "options": [
@@ -2231,7 +2232,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 5: ¿Qué es la manipulación emocional encubierta? La manipulación emocional encubierta es utilizada por personas que desean obtener poder o control sobre usted mediante el uso de tácticas engañosas y poco claras. Dichas personas quieren cambiar tu forma de pensar y comportamiento sin que te des cuenta de lo que están haciendo. En otras palabras, usan técnicas que pueden alterar tus percepciones de tal manera que creas que lo estás haciendo por tu propia voluntad. La manipulación emocional encubierta es \"encubierta\" porque funciona sin que usted sea consciente de ese hecho. Las personas que son buenas para implementar tales técnicas pueden hacer que usted cometa licitación sin su conocimiento; pueden mantenerte \"psicológicamente cautivo\". Cuando los manipuladores expertos posan su mirada en usted, pueden lograr que usted les otorgue poder sobre su propio bienestar emocional e incluso su autoestima. Te pondrán bajo su hechizo sin que te des cuenta. Ganarán su confianza y usted comenzará a dar valor a lo que piensan de usted. Una vez que los haya dejado entrar en su vida, comenzarán a destruir su identidad de una manera metódica, y con el paso del tiempo perderá su autoestima y se convertirá en lo que ellos quieran que sea. La manipulación emocional encubierta es en realidad más común de lo que piensas. Como es sutil, las personas rara vez se dan cuenta de que les está sucediendo y, en algunos casos, es posible que nunca se den cuenta. Solo los observadores externos inte",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 5 - Qué es la Manipulación Emocional Encubierta\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_estrategias_deteccion/manidetec_m8_manipulacion_emocional_encubierta.webp\" alt=\"Cap 5 - Qué es la Manipulación Emocional Encubierta\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 5: ¿Qué es la manipulación emocional encubierta? La manipulación emocional encubierta es utilizada por personas que desean obtener poder o control sobre usted mediante el uso de tácticas engañosas y poco claras. Dichas personas quieren cambiar tu forma de pensar y comportamiento sin que te des cuenta de lo que están haciendo. En otras palabras, usan técnicas que pueden alterar tus percepciones de tal manera que creas que lo estás haciendo por tu propia voluntad. La manipulación emocional encubierta es \"encubierta\" porque funciona sin que usted sea consciente de ese hecho. Las personas que son buenas para implementar tales técnicas pueden hacer que usted cometa licitación sin su conocimiento; pueden mantenerte \"psicológicamente cautivo\". Cuando los manipuladores expertos posan su mirada en usted, pueden lograr que usted les otorgue poder sobre su propio bienestar emocional e incluso su autoestima. Te pondrán bajo su hechizo sin que te des cuenta. Ganarán su confianza y usted comenzará a dar valor a lo que piensan de usted. Una vez que los haya dejado entrar en su vida, comenzarán a destruir su identidad de una manera metódica, y con el paso del tiempo perderá su autoestima y se convertirá en lo que ellos quieran que sea. La manipulación emocional encubierta es en realidad más común de lo que piensas. Como es sutil, las personas rara vez se dan cuenta de que les está sucediendo y, en algunos casos, es posible que nunca se den cuenta. Solo los observadores externos inte",
           "interactiveChallenge": {
             "question": "Según el Capítulo 5, ¿cuál es la principal diferencia entre la manipulación abierta y la 'Manipulación Emocional Encubierta'?",
             "options": [
@@ -2499,7 +2500,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 6: ¿Qué están tratando de hacer los manipuladores? Puedes preguntarte; ¿Qué están tratando de hacer los manipuladores? ¿Por qué se esfuerzan tanto en manipular a otros, en lugar de centrarse en mejorar ellos mismos? El hecho es que los manipuladores tienen una profunda necesidad psicológica de controlar a los demás, por lo que buscan \"debilitar\" a sus víctimas para ganar dominio sobre ellas. Cuando manipulan a otros, intentan cancelar su fuerza de voluntad, destruir su autoestima, buscar venganza pasivo-agresiva contra ellos o confundir su realidad para que se vuelven más maleables. Veamos cómo y por qué los manipuladores hacen esas cuatro cosas. Cancelación de la fuerza de voluntad. Gracias a nuestra fuerza de voluntad, podemos mantener el control sobre nuestras vidas y resistir los intentos de las personas de dominarnos y obligarnos a cumplir sus órdenes. Es por eso que una de las principales intenciones de las personas manipuladoras es destruir nuestra fuerza de voluntad. Entonces, ¿cómo puede alguien quitarte tu fuerza de voluntad? Bueno, primero, debes entender que la fuerza de voluntad no es ilimitada. Podemos perder nuestra fuerza de voluntad a través de un proceso al que los psicólogos se refieren como \"pérdida del ego\". Para entender esto, debe pensar en la fuerza de voluntad como un recurso que puede ser renovable, pero solo puede renovarse a un ritmo lento. Entonces, si gastamos ese recurso en una cosa, tenemos menos para gastar en otra cosa que lo demanda",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 6 - Qué Están Tratando de Hacer los Manipuladores\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_estrategias_deteccion/manidetec_m9_objetivos_manipuladores.webp\" alt=\"Cap 6 - Qué Están Tratando de Hacer los Manipuladores\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 6: ¿Qué están tratando de hacer los manipuladores? Puedes preguntarte; ¿Qué están tratando de hacer los manipuladores? ¿Por qué se esfuerzan tanto en manipular a otros, en lugar de centrarse en mejorar ellos mismos? El hecho es que los manipuladores tienen una profunda necesidad psicológica de controlar a los demás, por lo que buscan \"debilitar\" a sus víctimas para ganar dominio sobre ellas. Cuando manipulan a otros, intentan cancelar su fuerza de voluntad, destruir su autoestima, buscar venganza pasivo-agresiva contra ellos o confundir su realidad para que se vuelven más maleables. Veamos cómo y por qué los manipuladores hacen esas cuatro cosas. Cancelación de la fuerza de voluntad. Gracias a nuestra fuerza de voluntad, podemos mantener el control sobre nuestras vidas y resistir los intentos de las personas de dominarnos y obligarnos a cumplir sus órdenes. Es por eso que una de las principales intenciones de las personas manipuladoras es destruir nuestra fuerza de voluntad. Entonces, ¿cómo puede alguien quitarte tu fuerza de voluntad? Bueno, primero, debes entender que la fuerza de voluntad no es ilimitada. Podemos perder nuestra fuerza de voluntad a través de un proceso al que los psicólogos se refieren como \"pérdida del ego\". Para entender esto, debe pensar en la fuerza de voluntad como un recurso que puede ser renovable, pero solo puede renovarse a un ritmo lento. Entonces, si gastamos ese recurso en una cosa, tenemos menos para gastar en otra cosa que lo demanda",
           "interactiveChallenge": {
             "question": "En el Capítulo 6, ¿cuál es el objetivo último de control que intentan alcanzar los manipuladores sobre sus objetivos?",
             "options": [
@@ -2796,7 +2797,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "---... (markdown content truncated for compliance, formatting properly inside json) ...---",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 7 - Rasgos de Comportamiento de las Víctimas\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_estrategias_deteccion/manidetec_m10_rasgos_victimas.webp\" alt=\"Cap 7 - Rasgos de Comportamiento de las Víctimas\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>---... (markdown content truncated for compliance, formatting properly inside json) ...---",
           "interactiveChallenge": {
             "question": "El Capítulo 7 describe los rasgos de comportamiento de las víctimas. ¿Por qué las personas altamente empáticas son blancos predilectos para estos perfiles?",
             "options": [
@@ -2832,7 +2833,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 8: El papel de la defensa Para evitar ser víctima de manipuladores, debe construir sus defensas para que esté preparado para cualquier estrategia de manipulación que puedan intentar utilizar en usted. La mejor manera de construir tus defensas es tomando medidas para mejorar tu autoestima y tu fuerza de voluntad. Sin embargo, como precaución, debes tener mucho cuidado con la forma en que construyes tus defensas porque no quieres crear restricciones que te impidan vivir una vida plena. Por ejemplo, cuando intentas protegerte contra la manipulación, no puedes actuar por miedo. No puedes esconderte del mundo solo para evitar escenarios en los que alguien quiera aprovecharse de ti. Recuerde que el mundo está lleno de personas con rasgos oscuros de personalidad que pueden albergar intenciones maliciosas, por lo que actuar por miedo no te protegerá de nadie. De hecho, solo te convertirá en un objetivo más. A medida que construyas tus defensas, asegúrate de comenzar con la premisa de que estás dispuesto a enfrentar a los manipuladores, y nunca huirás ni retrocederás. Si actúas por miedo, pierdes por defecto. Los pasos para aumentar la autoestima: para ayudarlo a construir sus defensas, analizaremos los ocho pasos que debe seguir para aumentar su autoestima y aumentar su fuerza de voluntad por extensión. Aceptación La aceptación consiste en aceptar la realidad de una situación dada. Se trata de reconocer que una determinada condición o proceso es lo que es, incluso si se cara",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 8 - El Papel de la Defensa\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_estrategias_deteccion/manidetec_m11_papel_defensa.webp\" alt=\"Cap 8 - El Papel de la Defensa\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 8: El papel de la defensa Para evitar ser víctima de manipuladores, debe construir sus defensas para que esté preparado para cualquier estrategia de manipulación que puedan intentar utilizar en usted. La mejor manera de construir tus defensas es tomando medidas para mejorar tu autoestima y tu fuerza de voluntad. Sin embargo, como precaución, debes tener mucho cuidado con la forma en que construyes tus defensas porque no quieres crear restricciones que te impidan vivir una vida plena. Por ejemplo, cuando intentas protegerte contra la manipulación, no puedes actuar por miedo. No puedes esconderte del mundo solo para evitar escenarios en los que alguien quiera aprovecharse de ti. Recuerde que el mundo está lleno de personas con rasgos oscuros de personalidad que pueden albergar intenciones maliciosas, por lo que actuar por miedo no te protegerá de nadie. De hecho, solo te convertirá en un objetivo más. A medida que construyas tus defensas, asegúrate de comenzar con la premisa de que estás dispuesto a enfrentar a los manipuladores, y nunca huirás ni retrocederás. Si actúas por miedo, pierdes por defecto. Los pasos para aumentar la autoestima: para ayudarlo a construir sus defensas, analizaremos los ocho pasos que debe seguir para aumentar su autoestima y aumentar su fuerza de voluntad por extensión. Aceptación La aceptación consiste en aceptar la realidad de una situación dada. Se trata de reconocer que una determinada condición o proceso es lo que es, incluso si se cara",
           "interactiveChallenge": {
             "question": "Según el Capítulo 8, ¿cuál es la primera línea de defensa fundamental contra la manipulación psicológica?",
             "options": [
@@ -2976,6 +2977,630 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "cs1",
+      "category": "Psicología Oscura y Rasgos",
+      "title": "El Colega Narcisista en Reunión de Dirección",
+      "difficulty": "Alta",
+      "badge": "Escudo Antinarcisista",
+      "scenarioDescription": "Durante una reunión de direct directorio, un compañero con claros rasgos de la Triada Oscura (específicamente narcisismo) se apropia públicamente de una propuesta estratégica que tú diseñaste, presentándola como propia ante los altos mandos.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Confrontarle furiosamente en el acto, interrumpiéndole y exigiendo que admita que el mérito es tuyo.",
+          "outcome": "Fallo",
+          "wisdomScore": 25,
+          "analysis": "Caer en la trampa emocional del manipulador te hace parecer inestable o carente de inteligencia emocional ante la dirección.",
+          "bookInsight": "Los manipuladores buscan la desregulación emocional de su víctima para invalidarla (Capítulo 2 y 6)."
+        },
+        {
+          "id": "opt2",
+          "text": "Mantener la calma, sonreír y presentar con datos métricos concretos los documentos de diseño que avalan la autoría y desarrollo técnico previo.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "El uso de datos objetivos desmantela la narrativa del usurpador sin generar un conflicto visceral que afecte tu imagen profesional.",
+          "bookInsight": "La defensa más efectiva contra la manipulación encubierta es la documentación objetiva y la neutralidad emocional (Capítulo 8)."
+        }
+      ]
+    },
+    {
+      "id": "cs2",
+      "category": "Manipulación Emocional Encubierta",
+      "title": "La Cita de Culpa y Victimismo Crónico",
+      "difficulty": "Media",
+      "badge": "Vigilante Emocional",
+      "scenarioDescription": "Una amistad cercana utiliza constantemente el papel de víctima para obligarte a cancelar tus propios planes y rescatarle de situaciones autoimpuestas, usando frases como 'si de verdad me quisieras, estarías aquí'.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Ceder a la culpa, cancelar tus planes y acudir a su rescate para evitar una discusión prolongada.",
+          "outcome": "Fallo",
+          "wisdomScore": 30,
+          "analysis": "Refuerzas el comportamiento manipulador, validando que el chantaje emocional es un método eficaz para controlarte.",
+          "bookInsight": "El chantaje emocional explota la empatía de la víctima para doblegar su voluntad (Capítulo 5)."
+        },
+        {
+          "id": "opt2",
+          "text": "Establecer un límite claro utilizando comunicación asertiva, reconociendo su malestar pero declinando la oferta de ayuda inmediata.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Rompes el ciclo de dependencia y manipulación mediante la aplicación de límites firmes y no reactivos.",
+          "bookInsight": "El Papel de la Defensa requiere asertividad inquebrantable frente al victimismo instrumental (Capítulo 8)."
+        }
+      ]
+    },
+    {
+      "id": "cs3",
+      "category": "Técnicas de Manipulación",
+      "title": "El Aislamiento Silencioso (Gaslighting en Pareja)",
+      "difficulty": "Alta",
+      "badge": "Detector de Gaslighting",
+      "scenarioDescription": "Tu pareja niega sistemáticamente conversaciones previas sobre acuerdos económicos, haciéndote dudar de tu propia memoria y cordura con afirmaciones categóricas como 'eso nunca pasó, te lo estás inventando'.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Cuestionar tu propia memoria y disculparte por 'imaginar cosas'.",
+          "outcome": "Fallo",
+          "wisdomScore": 10,
+          "analysis": "Permites que erosionen tu confianza cognitiva, entregando el control de tu realidad al manipulador.",
+          "bookInsight": "El gaslighting busca desestabilizar la percepción de la realidad de la víctima para hacerla totalmente dependiente (Capítulo 3)."
+        },
+        {
+          "id": "opt2",
+          "text": "Recurrir a registros escritos previos y reafirmar con calma lo acordado, sin entrar en debates sobre tu salud mental.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Anclas la realidad en evidencias físicas externas, neutralizando la técnica de distorsión psicológica.",
+          "bookInsight": "La objetividad documentada es el antídoto contra la manipulación cognitiva (Capítulo 3 y 8)."
+        }
+      ]
+    },
+    {
+      "id": "cs4",
+      "category": "Comportamiento y Rasgos de Carácter",
+      "title": "El Flujo de Lisonjas Excesivas (Love Bombing)",
+      "difficulty": "Media",
+      "badge": "Analista de Patrones",
+      "scenarioDescription": "Un nuevo socio comercial te inunda de elogios desmedidos, regalos y atención asfixiante durante la primera semana de conoceros, presionándote para firmar un contrato a largo plazo sin lectura previa.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Dejarte llevar por la validación y firmar el contrato rápidamente para no desaprovechar 'una conexión tan especial'.",
+          "outcome": "Fallo",
+          "wisdomScore": 20,
+          "analysis": "Caíste en la fase de bombardeo de amor diseñada para acelerar la toma de decisiones y eludir tu juicio crítico.",
+          "bookInsight": "El love bombing satura los centros de recompensa cerebral para anular las defensas racionales (Capítulo 4)."
+        },
+        {
+          "id": "opt2",
+          "text": "Frenar el ritmo de la negociación, exigir tiempo de revisión legal y mantener la distancia emocional.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Al desacelerar artificialmente la interacción, neutralizas la urgencia inducida por el manipulador.",
+          "bookInsight": "El control del tiempo es una herramienta defensiva crítica frente a la persuasión coercitiva (Capítulo 6)."
+        }
+      ]
+    },
+    {
+      "id": "cs5",
+      "category": "Rasgos de las Víctimas",
+      "title": "La Hiperempatía ante el Agresor",
+      "difficulty": "Alta",
+      "badge": "Escudo Empático",
+      "scenarioDescription": "Un subordinado comete errores graves de forma repetida pero utiliza excusas elaboradas sobre su difícil infancia y problemas personales cada vez que le corriges, evitando asumir responsabilidades.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Sentir profunda lástima, perdonarle una y otra vez y asumir su carga de trabajo para protegerle.",
+          "outcome": "Fallo",
+          "wisdomScore": 35,
+          "analysis": "Activas el perfil de hiperempatía vulnerable, permitiendo que el manipulador use su vulnerabilidad fingida como escudo protector.",
+          "bookInsight": "Los manipuladores explotan el exceso de empatía y el sentido de culpa de sus objetivos (Capítulo 7)."
+        },
+        {
+          "id": "opt2",
+          "text": "Mostrar comprensión humana hacia su situación pero establecer métricas de rendimiento obligatorias y consecuencias claras.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Equilibras la empatía con la firmeza profesional, separando la validación emocional de la exigencia operativa.",
+          "bookInsight": "La defensa eficaz requiere separar el juicio emocional de la evaluación de desempeño (Capítulo 8)."
+        }
+      ]
+    },
+    {
+      "id": "cs6",
+      "category": "Defensa y Contramedidas",
+      "title": "El Triangulamiento en el Entorno Laboral",
+      "difficulty": "Alta",
+      "badge": "Neutralizador de Triángulos",
+      "scenarioDescription": "Un compañero tóxico te dice en secreto: 'Juan estuvo diciendo en el pasillo que no confía en tu capacidad técnica', buscando generar fricción directa entre tú y Juan.",
+      "options": [
+        {
+          "id": "opt1",
+          "text": "Confrontar a Juan de inmediato con enojo para aclararle las cosas.",
+          "outcome": "Fallo",
+          "wisdomScore": 15,
+          "analysis": "Completaste el juego de triangulación del manipulador, quien ahora observa cómo destruyen su relación por él.",
+          "bookInsight": "La triangulación utiliza intermediarios para generar conflictos artificiales y desestabilizar grupos (Capítulo 6 y 8)."
+        },
+        {
+          "id": "opt2",
+          "text": "Ignorar el rumor o hablar directamente con Juan de forma cordial y transparente para verificar si existió tal declaración.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Rompes la cadena de comunicación indirecta mediante la verificación directa y la neutralización del chisme.",
+          "bookInsight": "La comunicación directa y abierta destruye los intentos de división táctica (Capítulo 8)."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "fc1",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Psicología Oscura",
+      "definition": "Estudio de la propensión humana a depredar a otros mediante la manipulación, coerción y el engaño sin remordimiento.",
+      "tacticalUse": "Identificar patrones depredadores ocultos en interacciones cotidianas y profesionales.",
+      "countermeasure": "Establecer límites estrictos y desarrollar conciencia situacional temprana."
+    },
+    {
+      "id": "fc2",
+      "bookNumber": 1,
+      "category": "Rasgos Oscuros",
+      "term": "Narcisismo Maligno",
+      "definition": "Variante extrema del narcisismo caracterizada por grandiosidad, falta de empatía, paranoia y agresión instrumental.",
+      "tacticalUse": "Reconocer líderes o compañeros tóxicos antes de entablar vínculos profundos.",
+      "countermeasure": "Evitar la validación pública y documentar cada interacción por escrito."
+    },
+    {
+      "id": "fc3",
+      "bookNumber": 1,
+      "category": "Rasgos Oscuros",
+      "term": "Maquiavelismo",
+      "definition": "Rasgo de personalidad centrado en la manipulación cínica, el cálculo frío y la creencia de que el fin justifica los medios.",
+      "tacticalUse": "Anticipar estrategias de negociación basadas en el engaño y el ocultamiento de intenciones.",
+      "countermeasure": "Exigir transparencia en los procesos y buscar incentivos desalineados con el engaño."
+    },
+    {
+      "id": "fc4",
+      "bookNumber": 1,
+      "category": "Rasgos Oscuros",
+      "term": "Psicopatía Integrada",
+      "definition": "Ausencia total de empatía y culpa combinada con un alto encanto superficial que permite operar con impunidad en la sociedad.",
+      "tacticalUse": "Detectar la desconexión emocional detrás de sonrisas ensayadas y discursos persuasivos.",
+      "countermeasure": "Confiar en las acciones consistentes a lo largo del tiempo por encima de las palabras."
+    },
+    {
+      "id": "fc5",
+      "bookNumber": 1,
+      "category": "Rasgos Oscuros",
+      "term": "Sadismo Cotidiano",
+      "definition": "Disfrute consciente del sufrimiento ajeno expresado a través de humillaciones sutiles y crueldad verbal encubierta.",
+      "tacticalUse": "Identificar burlas disfrazadas de chistes o 'críticas constructivas' malintencionadas.",
+      "countermeasure": "Aplicar la técnica del disco rayado o ignorar el refuerzo del drama."
+    },
+    {
+      "id": "fc6",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Forma de abuso psicológico sistemático destinado a hacer que la víctima dude de su propia percepción, memoria y juicio.",
+      "tacticalUse": "Reconocer alteraciones deliberadas de los hechos por parte de interlocutores.",
+      "countermeasure": "Mantener bitácoras de eventos, fechas y declaraciones exactas."
+    },
+    {
+      "id": "fc7",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Love Bombing",
+      "definition": "Inundación inicial de afecto, atención y promesas desmedidas para desarmar las defensas críticas de la víctima.",
+      "tacticalUse": "Desconfiar de la intensidad anormalmente rápida en relaciones de cualquier índole.",
+      "countermeasure": "Ralentizar deliberadamente el ritmo de la relación y exigir espacio."
+    },
+    {
+      "id": "fc8",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Triangulación",
+      "definition": "Introducción de un tercero en una relación bilateral para generar celos, rivalidad o inseguridad.",
+      "tacticalUse": "Detectar menciones manipuladoras sobre opiniones supuestas de terceros.",
+      "countermeasure": "Verificar directamente con la supuesta fuente sin alimentar el conflicto."
+    },
+    {
+      "id": "fc9",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Victimismo Instrumental",
+      "definition": "Uso estratégico de la vulnerabilidad fingida para evadir responsabilidades y manipular la compasión ajena.",
+      "tacticalUse": "Distinguir entre sufrimiento genuino y quejas repetitivas orientadas al control.",
+      "countermeasure": "Separar la validación emocional de la exigencia de rendición de cuentas."
+    },
+    {
+      "id": "fc10",
+      "bookNumber": 1,
+      "category": "Comportamiento",
+      "term": "Silencio Punitivo (The Silent Treatment)",
+      "definition": "Retirada abrupta de la comunicación como castigo psicológico para obligar a la sumisión.",
+      "tacticalUse": "Comprender que el silencio es un arma de control y no un reflejo de necesidad de espacio.",
+      "countermeasure": "Mantener la indiferencia táctica y no rogar por la reanudación del diálogo."
+    },
+    {
+      "id": "fc11",
+      "bookNumber": 1,
+      "category": "Comportamiento",
+      "term": "Proyección Oscura",
+      "definition": "Mecanismo de defensa donde el manipulador acusa a su víctima de los defectos o intenciones maliciosas que él mismo posee.",
+      "tacticalUse": "Analizar las acusaciones repentinas hacia tu persona como un espejo de la psique del emisor.",
+      "countermeasure": "No asumir culpas ajenas y desviar la acusación con preguntas objetivas."
+    },
+    {
+      "id": "fc12",
+      "bookNumber": 1,
+      "category": "Víctimas",
+      "term": "Hiperempatía Vulnerable",
+      "definition": "Exceso de empatía y tendencia a anteponer las necesidades ajenas a las propias, facilitando el abuso.",
+      "tacticalUse": "Reconocer la propia propensión a rescatar perfiles problemáticos.",
+      "countermeasure": "Desarrollar el autocuidado asertivo y la validación interna."
+    },
+    {
+      "id": "fc13",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Asertividad Inquebrantable",
+      "definition": "Habilidad para defender los propios derechos e intereses sin agresividad ni sumisión.",
+      "tacticalUse": "Bloquear intentos de invasión psicológica mediante respuestas claras y calmadas.",
+      "countermeasure": "Entrenar frases preestablecidas de límite firme."
+    },
+    {
+      "id": "fc14",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Indiferencia Táctica (Grey Rock)",
+      "definition": "Técnica de defensa que consiste en volverse aburrido, plano y carente de reacción emocional ante un manipulador.",
+      "tacticalUse": "Desalentar el acoso o la manipulación en entornos inevitables como el trabajo o exparejas.",
+      "countermeasure": "Responder con monosílabos y evitar compartir información personal."
+    },
+    {
+      "id": "fc15",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Bitácora de Evidencias",
+      "definition": "Registro cronológico y documentado de interacciones, fechas y declaraciones para contrarrestar distorsiones.",
+      "tacticalUse": "Neutralizar el gaslighting y la manipulación de la memoria.",
+      "countermeasure": "Guardar correos, mensajes y notas de forma segura e inalterable."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "t1",
+      "category": "Manipulación Cognitiva",
+      "name": "Gaslighting Sistemático",
+      "severity": "Crítica",
+      "icon": "fa-brain",
+      "howItWorks": "El agresor altera de forma metódica elementos del entorno o niega eventos pasados para que la víctima dude de su propia capacidad cognitiva y memoria.",
+      "redFlags": [
+        "Negación categórica de conversaciones previas con testigos ausentes.",
+        "Aserciones de que 'estás loco' o 'exageras todo'.",
+        "Cambios sutiles en objetos o documentos seguidos de incredulidad fingida."
+      ],
+      "counterScript": "Mis notas y registros indican exactamente lo contrario. Me fío de mis evidencias.",
+      "deepMechanism": "Erosión progresiva de la autoeficacia y dependencia de la realidad construida por el agresor."
+    },
+    {
+      "id": "t2",
+      "category": "Manipulación Afectiva",
+      "name": "Love Bombing Estratégico",
+      "severity": "Alta",
+      "icon": "fa-eye",
+      "howItWorks": "Sobrecarga de afecto y atención temprana para generar una deuda emocional artificial y acelerar la intimidad antes de desplegar conductas abusivas.",
+      "redFlags": [
+        "Declaraciones de amor o amistad eterna en plazos absurdamente cortos.",
+        "Regalos excesivos y desproporcionados sin ocasión justificada.",
+        "Presencia constante y asfixiante bajo la excusa de 'no poder vivir sin ti'."
+      ],
+      "counterScript": "Aprecio tu entusiasmo, pero prefiero que vayamos paso a paso y con calma.",
+      "deepMechanism": "Saturación de los circuitos de dopamina y anulación temporal del juicio crítico defensivo."
+    },
+    {
+      "id": "t3",
+      "category": "Manipulación Social",
+      "name": "Triangulación Inducida",
+      "severity": "Alta",
+      "icon": "fa-user-ninja",
+      "howItWorks": "Involucrar a un tercero para validar la postura del manipulador o generar rivalidad y celos artificiales entre dos personas.",
+      "redFlags": [
+        "Comentarios del tipo 'fulano dijo que no sirves para esto'.",
+        "Comparaciones constantes con exparejas o compañeros idealizados.",
+        "Creación deliberada de bandos o facciones en un entorno laboral o familiar."
+      ],
+      "counterScript": "Si fulano tiene algo que decirme, prefiero que hablemos directamente los dos.",
+      "deepMechanism": "Explotación del miedo al rechazo y la necesidad de validación social."
+    },
+    {
+      "id": "t4",
+      "category": "Coerción Emocional",
+      "name": "Chantaje de Victimismo Crónico",
+      "severity": "Media",
+      "icon": "fa-shield-halved",
+      "howItWorks": "Adoptar el rol perpetuo de víctima para culpabilizar a la contraparte por cualquier malestar, forzando la sumisión mediante la culpa.",
+      "redFlags": [
+        "Uso constante de frases como 'después de todo lo que he hecho por ti'.",
+        "Aparente fragilidad extrema que desaparece al conseguir lo que desea.",
+        "Incapacidad absoluta para asumir autocrítica o responsabilidad."
+      ],
+      "counterScript": "Lamento que te sientas así, pero mi decisión al respecto se mantiene firme.",
+      "deepMechanism": "Activación del sesgo de empatía y el deber moral de protección en la víctima."
+    },
+    {
+      "id": "t5",
+      "category": "Aislamiento Psicológico",
+      "name": "Silencio Punitivo",
+      "severity": "Alta",
+      "icon": "fa-skull",
+      "howItWorks": "Retirada intencional de la comunicación verbal y no verbal para castigar a la víctima y obligarla a pedir perdón por faltas inexistentes.",
+      "redFlags": [
+        "Negación absoluta a responder preguntas básicas tras un desacuerdo menor.",
+        "Actitud glacial e indiferente diseñada para generar ansiedad de abandono.",
+        "Reanudación del trato solo cuando la víctima se humilla o cede."
+      ],
+      "counterScript": "Entiendo que necesitas espacio. Cuando estés listo para hablar con respeto, aquí estaré.",
+      "deepMechanism": "Inducción de estrés por exclusión social y activación de la respuesta de amígdala cerebral."
+    },
+    {
+      "id": "t6",
+      "category": "Distorsión Comunicativa",
+      "name": "Proyección Inversa",
+      "severity": "Media",
+      "icon": "fa-brain",
+      "howItWorks": "Atribuir de forma inmediata los propios defectos, infidelidades o intenciones manipuladoras a la persona que se tiene enfrente.",
+      "redFlags": [
+        "Acusar de deshonestidad a quien acaba de descubrir una mentira del manipulador.",
+        "Celos infundados proyectados cuando el manipulador es quien coquetea.",
+        "Reacciones defensivas desproporcionadas basadas en acusaciones espejo."
+      ],
+      "counterScript": "Esa descripción no se ajusta a mis actos. Concentrémonos en el problema actual.",
+      "deepMechanism": "Mecanismo de defensa arcaico para proteger el ego frágil de la vergüenza y la culpa."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q1",
+      "bookNumber": 1,
+      "question": "Según el análisis de los 4 rasgos de la psicología oscura, ¿cuál de las siguientes opciones define mejor al Maquiavelismo?",
+      "options": [
+        "Un deseo incontrolable de causar dolor físico por puro placer sádico.",
+        "Una combinación de grandiosidad, paranoia y falta absoluta de remordimiento.",
+        "El cálculo frío, el cinismo y la manipulación estratégica donde el fin justifica los medios.",
+        "Una timidez patológica que impide la interacción social saludable."
+      ],
+      "correctIndex": 2,
+      "explanation": "El Maquiavelismo se caracteriza por la estrategia calculadora, la ausencia de escrúpulos morales y la instrumentalización de las personas para lograr objetivos propios (Capítulo 2)."
+    },
+    {
+      "id": "q2",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo psicológico principal de la técnica de manipulación conocida como Gaslighting?",
+      "options": [
+        "Conseguir dinero mediante préstamos rápidos no reembolsables.",
+        "Hacer que la víctima dude de su propia percepción, memoria y cordura.",
+        "Generar celos profesionales mediante la mención de terceros.",
+        "Acelerar el compromiso emocional en una nueva relación."
+      ],
+      "correctIndex": 1,
+      "explanation": "El Gaslighting socava deliberadamente la estabilidad cognitiva de la víctima para que dependa enteramente de la versión de la realidad que dicta el manipulador (Capítulo 3)."
+    },
+    {
+      "id": "q3",
+      "bookNumber": 1,
+      "question": "En el contexto de la manipulación emocional encubierta, ¿cómo actúa el fenómeno del 'Love Bombing'?",
+      "options": [
+        "A través de críticas destructivas constantes para bajar la autoestima.",
+        "Mediante el silencio prolongado para castigar desacuerdos.",
+        "Satirizando los logros de la víctima frente a sus superiores.",
+        "Inundando a la persona de afecto y atención extrema al inicio para desarmar sus defensas."
+      ],
+      "correctIndex": 3,
+      "explanation": "El Love Bombing utiliza la sobreestimulación afectiva inicial para crear una falsa sensación de seguridad y deuda emocional antes de iniciar el ciclo de abuso (Capítulo 5)."
+    },
+    {
+      "id": "q4",
+      "bookNumber": 1,
+      "question": "Según los patrones descritos sobre las víctimas de manipulación, ¿qué perfil suele ser el más vulnerado por personalidades oscuras?",
+      "options": [
+        "Personas altamente escépticas y con desconfianza crónica.",
+        "Individuos con hiperempatía y tendencia a justificar el mal comportamiento ajeno.",
+        "Sujetos con rasgos narcisistas dominantes.",
+        "Profesionales con entrenamiento avanzado en negociación táctica."
+      ],
+      "correctIndex": 1,
+      "explanation": "La hiperempatía y el deseo de rescatar o comprender al agresor son los puntos de entrada más comunes que explotan los manipuladores (Capítulo 7)."
+    },
+    {
+      "id": "q5",
+      "bookNumber": 1,
+      "question": "¿En qué consiste la técnica de defensa conocida como 'Indiferencia Táctica' o 'Grey Rock'?",
+      "options": [
+        "En confrontar al agresor con insultos públicos para humillarlo.",
+        "En volverse aburrido, plano y carente de reactividad emocional para desincentivar al manipulador.",
+        "En huir del país sin avisar a ningún conocido.",
+        "En aceptar todas las demandas del manipulador para evitar conflictos."
+      ],
+      "correctIndex": 1,
+      "explanation": "La técnica de la piedra gris elimina el suministro emocional que el manipulador busca, provocando que pierda interés en la víctima (Capítulo 8)."
+    },
+    {
+      "id": "q6",
+      "bookNumber": 1,
+      "question": "Cuando un manipulador utiliza la 'Triangulación', ¿qué táctica está empleando fundamentalmente?",
+      "options": [
+        "Introducir a un tercero para manipular percepciones, generar celos o fragmentar alianzas.",
+        "Firmar contratos en colaboración con tres empresas fantasma.",
+        "Hacer tres preguntas trampa en una sola frase.",
+        "Dividir su tiempo entre tres hogares diferentes."
+      ],
+      "correctIndex": 0,
+      "explanation": "La triangulación involucra a un mediador o tercero de forma artificial para desestabilizar la relación directa y ejercer control indirecto (Capítulo 6 y 8)."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "g1",
+      "term": "Psicología Oscura",
+      "category": "Teoría General",
+      "definition": "Marco de estudio centrado en las tácticas de coerción, engaño y manipulación empleadas por ciertos individuos sobre otros.",
+      "practicalExample": "Analizar las intenciones ocultas detrás de un cumplido excesivo en el trabajo."
+    },
+    {
+      "id": "g2",
+      "term": "Triada Oscura",
+      "category": "Rasgos de Personalidad",
+      "definition": "Conjunto de tres rasgos de personalidad socialmente aborrecibles: narcisismo, maquiavelismo y psicopatía.",
+      "practicalExample": "Identificar a un líder corporativo que carece de empatía y explota a sus subordinados."
+    },
+    {
+      "id": "g3",
+      "term": "Gaslighting",
+      "category": "Manipulación Cognitiva",
+      "definition": "Abuso psicológico que distorsiona la verdad para hacer dudar a la víctima de su memoria y juicio.",
+      "practicalExample": "Negar repetidamente haber dicho algo que consta en un mensaje escrito."
+    },
+    {
+      "id": "g4",
+      "term": "Love Bombing",
+      "category": "Manipulación Afectiva",
+      "definition": "Demostración abrumadora y prematura de afecto para acelerar la vulnerabilidad de la víctima.",
+      "practicalExample": "Prometer matrimonio a las dos semanas de conocerse y exigir exclusividad total."
+    },
+    {
+      "id": "g5",
+      "term": "Triangulación",
+      "category": "Manipulación Social",
+      "definition": "Uso de intermediarios o terceros para crear conflictos, celos o alianzas tóxicas.",
+      "practicalExample": "Comentarle a un compañero que otro ha criticado su trabajo sin pruebas."
+    },
+    {
+      "id": "g6",
+      "term": "Victimismo Instrumental",
+      "category": "Coerción",
+      "definition": "Adopción fingida del rol de víctima para eludir responsabilidades y manipular la compasión.",
+      "practicalExample": "Culpar a la pareja de una discusión propia argumentando que 'estás destruyendo su salud'."
+    },
+    {
+      "id": "g7",
+      "term": "Silencio Punitivo",
+      "category": "Comportamiento",
+      "definition": "Supresión deliberada de la comunicación para castigar y doblegar a la contraparte.",
+      "practicalExample": "Dejar de hablar a un familiar durante días por no aceptar una sugerencia menor."
+    },
+    {
+      "id": "g8",
+      "term": "Proyección",
+      "category": "Mecanismo Defensivo",
+      "definition": "Atribución de defectos o impulsos propios inaceptables hacia otra persona.",
+      "practicalExample": "Acusar de deshonestidad a quien te ha pedido cuentas claras."
+    },
+    {
+      "id": "g9",
+      "term": "Hiperempatía",
+      "category": "Perfil de Víctima",
+      "definition": "Empatía desmedida que lleva a justificar abusos y anteponer el bienestar del agresor al propio.",
+      "practicalExample": "Disculpar las agresiones verbales de un amigo porque 'tuvo una infancia difícil'."
+    },
+    {
+      "id": "g10",
+      "term": "Indiferencia Táctica",
+      "category": "Defensa",
+      "definition": "Técnica de la piedra gris para desincentivar el acoso volviéndose emocionalmente aburrido.",
+      "practicalExample": "Responder con frases monosilábicas y neutrales ante provocaciones malintencionadas."
+    },
+    {
+      "id": "g11",
+      "term": "Bitácora de Evidencias",
+      "category": "Defensa",
+      "definition": "Registro documental fidedigno de hechos y conversaciones para neutralizar distorsiones.",
+      "practicalExample": "Guardar capturas de pantalla de acuerdos y correos electrónicos importantes."
+    },
+    {
+      "id": "g12",
+      "term": "Asertividad",
+      "category": "Defensa",
+      "definition": "Habilidad para expresar límites y derechos de forma firme y respetuosa.",
+      "practicalExample": "Decir 'no' a una petición abusiva sin necesidad de dar excusas elaboradas."
+    },
+    {
+      "id": "g13",
+      "term": "Suministro Narcisista",
+      "category": "Psicología Oscura",
+      "definition": "Atención, admiración o reacción emocional que alimenta el ego de una persona narcisista.",
+      "practicalExample": "Discutir largamente con un narcisista porque eso le otorga la energía que busca."
+    },
+    {
+      "id": "g14",
+      "term": "Cognición Defensiva",
+      "category": "Defensa",
+      "definition": "Proceso mental crítico para evaluar situaciones de riesgo antes de comprometer confianza.",
+      "practicalExample": "Analizar la coherencia entre las promesas de un socio y sus acciones previas."
+    },
+    {
+      "id": "g15",
+      "term": "Aislamiento Social",
+      "category": "Táctica Oscura",
+      "definition": "Estrategia para cortar los vínculos de la víctima con su red de apoyo y dejarla indefensa.",
+      "practicalExample": "Criticar constantemente a los amigos de la pareja para lograr que dejen de verlos."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "bl1",
+      "category": "CALIBRACIÓN",
+      "title": "La Sonrisa Asimétrica Superficial",
+      "cue": "Movimiento unilateral de los labios sin participación de los músculos orbiculares alrededor de los ojos (ausencia de patas de gallo).",
+      "interpretation": "Indica insinceridad, desprecio encubierto o afecto fingido (característico en perfiles maquiavélicos o psicopáticos durante interacciones sociales).",
+      "practicalDrill": "Frente a un espejo, intenta sonreír usando solo la boca y luego involucrando los ojos; observa la diferencia en la percepción de autenticidad."
+    },
+    {
+      "id": "bl2",
+      "category": "DETECCIÓN",
+      "title": "Microexpresión de Desprecio",
+      "cue": "Elevación unilateral de un extremo de los labios por un breve lapso (menos de medio segundo) durante una conversación.",
+      "interpretation": "Señal inequívoca de superioridad y subestimación hacia la persona que está hablando, común en narcisistas.",
+      "practicalDrill": "Practica la observación en entrevistas grabadas en video para identificar este gesto fugaz en momentos clave de tensión."
+    },
+    {
+      "id": "bl3",
+      "category": "DEFENSA",
+      "title": "Postura de Anclaje y Bloqueo",
+      "cue": "Brazos cruzados firmemente con retroceso leve del torso ante una proposición invasiva o demasiado insistente.",
+      "interpretation": "Barrera física subconsciente que denota rechazo a la intromisión y protección del espacio personal.",
+      "practicalDrill": "Adopta esta postura al momento de recibir un cumplido sospechosamente rápido para frenar el ritmo de la interacción."
+    },
+    {
+      "id": "bl4",
+      "category": "CALIBRACIÓN",
+      "title": "Mirada Fija y Sostenida (The Stare)",
+      "cue": "Ausencia de parpadeo normal durante periodos prolongados, manteniendo los ojos clavados en el interlocutor.",
+      "interpretation": "Táctica intimidatoria empleada para buscar la sumisión de la víctima o evaluar su nivel de sumisión y miedo.",
+      "practicalDrill": "Mantén la calma y desvía la mirada hacia un punto neutral (como las manos del emisor) sin mostrar incomodidad ni bajar la cabeza."
+    },
+    {
+      "id": "bl5",
+      "category": "DETECCIÓN",
+      "title": "Incongruencia Gestual (Palabras vs. Cuerpo)",
+      "cue": "Afirmación verbal rotunda de seguridad o acuerdo acompañada de un leve movimiento lateral de negación con la cabeza.",
+      "interpretation": "Disociación entre lo que la persona dice conscientemente y lo que su subconsciente rechaza o desmiente.",
+      "practicalDrill": "Entrena tu atención periférica durante las negociaciones para detectar desajustes entre el discurso y la kinésica."
+    },
+    {
+      "id": "bl6",
+      "category": "DEFENSA",
+      "title": "Control del Ritmo Respiratorio y Vocal",
+      "cue": "Respiración abdominal pausada y tono de voz deliberadamente grave y estable ante provocaciones.",
+      "interpretation": "Envía señales de control absoluto a la propia amígdala y proyecta una barrera inquebrantable frente al manipulador.",
+      "practicalDrill": "Practica respiraciones de 4 segundos al inhalar y 4 al exhalar antes de responder a una crítica malintencionada."
     }
   ]
 };
