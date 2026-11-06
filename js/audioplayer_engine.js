@@ -133,7 +133,7 @@ const AudioPlayerEngine = {
     if (!('mediaSession' in navigator) || !this.currentTrack) return;
     navigator.mediaSession.metadata = new MediaMetadata({
       title: this.currentTrack.title,
-      artist: this.currentTrack.author || 'Psicología Estratégica',
+      artist: this.currentTrack.author || 'ZENIT CORTEX',
       album: 'Colección Psicología Oscura & Audiolibros',
       artwork: [
         { src: 'assets/img/psicologia_obscura_6en1/banners/hero_banner_brain.jpg', sizes: '512x512', type: 'image/jpeg' }

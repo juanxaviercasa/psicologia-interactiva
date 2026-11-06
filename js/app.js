@@ -1521,7 +1521,7 @@ const App = {
     if (book.fullTitle) book.fullTitle = this.curateTitle(book.fullTitle);
 
     // 1. Título de la pestaña
-    document.title = `${book.title} | Psicología Estratégica`;
+    document.title = `${book.title} | ZENIT CORTEX`;
 
     // 2. Hero Category Badge
     const heroCategory = document.getElementById('heroBookCategory');
