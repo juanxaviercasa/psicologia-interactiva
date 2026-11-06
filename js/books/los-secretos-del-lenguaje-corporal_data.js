@@ -590,93 +590,86 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Negociación Estratégica",
-      "title": "La Firma del Contrato de Distribución",
-      "difficulty": "Alta",
-      "badge": "Maestro del Lenguaje Corporal",
-      "scenarioDescription": "Estás liderando una reunión para cerrar un contrato clave. El director de la empresa contraparte afirma sonriendo: 'Estamos totalmente de acuerdo con la cláusula de exclusividad territorial'. Sin embargo, al pronunciar estas palabras, se cruza de brazos apretando los puños, presiona los labios firmemente y sus pies se orientan hacia la puerta de salida.",
+      "id": 1,
+      "category": "Detección de Engaño",
+      "title": "La Entrevista de Alta Presión",
+      "difficulty": "Avanzado",
+      "badge": "Analista Senior",
+      "scenarioDescription": "Un sospechoso niega haber estado en la escena, pero sus manos se entrelazan con fuerza y su parpadeo aumenta drásticamente al responder.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Pausar la negociación sobre ese punto y decir: 'Antes de continuar con la firma, me gustaría profundizar en las condiciones territoriales para asegurar que ambos nos sintamos 100% cómodos con los términos'.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Identificaste la incongruencia entre el canal verbal (afirmativo) y los canales no verbales (bloqueo corporal, labios comprimidos por tensión y fuga con los pies). Al abordar el tema de forma no acusatoria, abres espacio para resolver la objeción oculta antes de un colapso posterior.",
-          "bookInsight": "Cuando las palabras y el cuerpo entran en conflicto, la comunicación no verbal es casi siempre la que dice la verdad límbica."
+          "text": "Confrontar directamente sobre la contradicción.",
+          "outcome": "El sujeto se cierra defensivamente.",
+          "wisdomScore": 40,
+          "analysis": "La confrontación directa activa el sistema límbico de lucha o huida.",
+          "bookInsight": "El lenguaje corporal revela la verdad antes que las palabras."
         },
         {
-          "id": "opt2",
-          "text": "Proceder inmediatamente a la firma del documento aprovechando que el director expresó verbalmente su conformidad.",
-          "outcome": "Fallo",
-          "wisdomScore": 25,
-          "analysis": "Ignoraste las señales de tensión del sistema límbico. Aunque firme ahora por compromiso social, la resistencia no resuelta provocará incumplimientos o renegociaciones conflictivas muy pronto.",
-          "bookInsight": "Aceptar un 'sí' verbal cuando el cuerpo grita 'no' solo pospone el conflicto y destruye la confianza a largo plazo."
-        }
-      ]
-    },
-    {
-      "id": "cs2",
-      "category": "Gestión de Equipos y Crisis",
-      "title": "Evaluación del Progreso del Proyecto Crítico",
-      "difficulty": "Alta",
-      "badge": "Detector de Incongruencias",
-      "scenarioDescription": "Le preguntas al líder técnico de tu equipo si el desarrollo llegará a tiempo a la fecha límite sin errores. Él responde 'Sí, todo bajo control', mientras se toca repetidamente la fosa yugular, parpadea al doble de su ritmo habitual y da un paso atrás alejándose de la mesa.",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "Reconocer las señales de pacificación y estrés elevado; hacer una pausa en privado para explorar qué riesgos o bloqueos técnicos no detectados están generando esa tensión.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Identificaste señales claras de alta incomodidad corporal (pacificador en la yugular, aumento de parpadeo y distanciamiento físico). Esta intervención oportuna permite mitigar el riesgo real antes del desastre.",
-          "bookInsight": "El toque en el cuello combinado con el distanciamiento físico revela un intento desesperado del sistema nervioso por tranquilizarse ante una amenaza inminente."
-        },
-        {
-          "id": "opt2",
-          "text": "Dar por concluida la reunión y felicitar al equipo públicamente por cumplir los tiempos según la afirmación del líder técnico.",
-          "outcome": "Fallo",
-          "wisdomScore": 20,
-          "analysis": "Confiaste únicamente en la respuesta verbal estructurada para complacer. Pasaste por alto múltiples indicadores severos de estrés y evasión corporal, lo que conducirá a un fallo inminente en la entrega.",
-          "bookInsight": "La cortesía verbal a menudo enmascara el pánico no verbal; un líder analítico busca la coherencia postural antes de validar un informe."
+          "text": "Cambiar el tema y observar el retorno a la línea base.",
+          "outcome": "El sujeto se relaja, revelando su línea base real.",
+          "wisdomScore": 95,
+          "analysis": "La calibración requiere observar el comportamiento en estado neutro.",
+          "bookInsight": "La observación de la línea base es fundamental para detectar anomalías."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Línea Base (Baseline)",
-      "definition": "El comportamiento no verbal habitual de una persona en condiciones normales y sin estrés.",
-      "tacticalUse": "Observa a tu interlocutor en una charla informal previa para establecer su norma de parpadeo, tono y postura antes de abordar temas críticos.",
-      "countermeasure": "Evita calificar una conducta como señal de engaño sin antes comparar dicha señal contra su línea base individual."
-    },
+      "id": 1,
+      "bookNumber": 1,
+      "category": "Microexpresiones",
+      "term": "Desprecio",
+      "definition": "Elevación unilateral de la comisura de los labios.",
+      "tacticalUse": "Identificar superioridad percibida.",
+      "countermeasure": "Mantener neutralidad emocional."
+    }
+  ],
+  "tacticalMatrix": [
     {
-      "id": "fc2",
-      "term": "Comportamientos Pacificadores",
-      "definition": "Respuestas no verbales involuntarias que la mente utiliza para calmar el cuerpo tras una amenaza o incomodidad.",
-      "tacticalUse": "Identifica frotamiento de muslos, toques en el cuello o juguetear con objetos justo después de hacer una pregunta compleja para detectar el punto exacto de tensión.",
-      "countermeasure": "Si notas que estás usando pacificadores (como tocarte el reloj o la cara), apoya suavemente las manos abiertas sobre la mesa para proyectar aplomo."
-    },
+      "id": 1,
+      "category": "Psicología Oscura",
+      "name": "Espejo Inverso",
+      "severity": "Alta",
+      "icon": "mirror",
+      "howItWorks": "Reflejar sutilmente la postura del otro para generar confianza.",
+      "redFlags": "Uso excesivo que parece burla.",
+      "counterScript": "Cambiar de postura abruptamente para romper el rapport.",
+      "deepMechanism": "Activación de neuronas espejo."
+    }
+  ],
+  "quizzes": [
     {
-      "id": "fc3",
-      "term": "Bloqueo Ocular (Eye Blocking)",
-      "definition": "Gesto inconsciente de frotarse los ojos, taparse el rostro o cerrar los ojos prolongadamente al escuchar algo desagradable.",
-      "tacticalUse": "Detecta cuándo una propuesta genera rechazo instantáneo en la otra parte, incluso si verbalmente dicen estar de acuerdo.",
-      "countermeasure": "Si detectas bloqueo ocular en tu audiencia, haz una pausa y pregunta directamente: '¿Hay algún detalle de este punto que requiera aclaración?'."
-    },
+      "id": 1,
+      "bookNumber": 1,
+      "question": "¿Qué indica un encogimiento de hombros unilateral?",
+      "options": [
+        "Inseguridad",
+        "Falta de compromiso con lo dicho",
+        "Alegría",
+        "Ira"
+      ],
+      "correctIndex": 1,
+      "explanation": "El encogimiento unilateral sugiere que el sujeto no cree totalmente en sus propias palabras."
+    }
+  ],
+  "glossary": [
     {
-      "id": "fc4",
-      "term": "Espejamiento (Mirroring)",
-      "definition": "La imitación sutil e inconsciente de las posturas, gestos o ritmo de voz entre personas en plena sintonía.",
-      "tacticalUse": "Adopta deliberadamente una postura similar a la del cliente de forma sutil para acelerar la creación de rapport y confianza mutua.",
-      "countermeasure": "Si notas que alguien te espejea de forma exagerada y mecánica, cambia tu postura de forma abrupta para verificar si intenta manipularte."
-    },
+      "id": 1,
+      "term": "Kinésica",
+      "category": "Teoría",
+      "definition": "Estudio del movimiento corporal.",
+      "practicalExample": "Analizar la postura al sentarse."
+    }
+  ],
+  "bodyLanguageLab": [
     {
-      "id": "fc5",
-      "term": "Dirección de los Pies (Foot Direction)",
-      "definition": "Los pies señalan hacia donde la mente desea realmente ir, siendo los indicadores corporales más sinceros por ser los más lejanos al cerebro.",
-      "tacticalUse": "Verifica si los pies de tu interlocutor apuntan hacia ti o hacia la puerta para saber si realmente quiere continuar la conversación.",
-      "countermeasure": "Mantén la consciencia de tus pies en reuniones de alto nivel; orientar ambos pies hacia el interlocutor demuestra interés genuino y compromiso."
+      "id": 1,
+      "category": "Microexpresiones",
+      "title": "Detección de Miedo",
+      "cue": "Párpados superiores elevados y cejas contraídas.",
+      "interpretation": "Amenaza percibida o ansiedad.",
+      "practicalDrill": "Practicar frente al espejo manteniendo la mirada fija."
     }
   ]
 };

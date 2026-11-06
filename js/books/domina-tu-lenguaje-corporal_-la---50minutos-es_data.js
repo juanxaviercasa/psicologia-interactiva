@@ -880,93 +880,86 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Negociación de Negocios",
-      "title": "La barrera invisible en la mesa de reuniones",
-      "difficulty": "Alta",
-      "badge": "Maestro",
-      "scenarioDescription": "Estás presentando una propuesta comercial clave. El cliente potencial cruza los brazos, echa la espalda hacia atrás y apenas parpadea mientras mantienes tu discurso. ¿Cuál es la mejor estrategia no verbal para cambiar su actitud?",
+      "id": "CS-001",
+      "category": "Detección de Engaño",
+      "title": "La Entrevista de Alta Presión",
+      "difficulty": "Avanzado",
+      "badge": "Analista Maestro",
+      "scenarioDescription": "Un candidato a un puesto ejecutivo evita el contacto visual y se toca la nariz al hablar de su experiencia previa.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Pausar la presentación, ofrecerle una muestra física del producto o informe impreso en mano y hacer una pregunta abierta.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Al entregarle un objeto físico, obligas al cliente a romper su postura cerrada de brazos cruzados. La pregunta abierta desplaza la atención de su resistencia interna hacia una respuesta constructiva.",
-          "bookInsight": "Modificar el estado físico de un interlocutor (forzando un movimiento) rompe el bucle de retroalimentación postural que refuerza su actitud defensiva."
-        },
-        {
-          "id": "opt2",
-          "text": "Imitar inmediatamente su postura echándote hacia atrás y cruzando los brazos para generar Rapport por espejo.",
-          "outcome": "Fallo",
-          "wisdomScore": 25,
-          "analysis": "El reflejo (mirroring) de posturas defensivas o cerradas no genera Rapport, sino que consolida un ambiente de frialdad y distanciamiento mutuo.",
-          "bookInsight": "El espejismo solo debe aplicarse con posturas positivas o neutras; reflejar la negatividad refuerza el bloqueo comunicativo."
-        }
-      ]
-    },
-    {
-      "id": "cs2",
-      "category": "Liderazgo de Equipos",
-      "title": "Manejo de objeciones no verbales en una reunión",
-      "difficulty": "Alta",
-      "badge": "Maestro",
-      "scenarioDescription": "Durante la explicación de una nueva reestructuración de departamento, notas que un colaborador clave aprieta la mandíbula, toca frecuentemente la parte posterior de su cuello y desvía la mirada al suelo.",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "Pausar la explicación, adoptar una postura relajada con las palmas de las manos visibles y pedir directamente su opinión sobre los cambios.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Demostrar las palmas de las manos transmite honestidad y ausencia de amenaza. Invitar a hablar aborda directamente la incomodidad denotada por los gestos pacificadores (tocar el cuello).",
-          "bookInsight": "Las palmas visibles son el señalador no verbal más antiguo de paz e intenciones transparentes, lo que reduce la ansiedad del entorno."
-        },
-        {
-          "id": "opt2",
-          "text": "Aumentar el volumen del tono de voz y continuar la presentación sin pausas para transmitir firmeza y autoridad.",
-          "outcome": "Fallo",
+          "text": "Interrumpir y confrontar directamente sobre la mentira.",
+          "outcome": "El candidato se pone a la defensiva y cierra la comunicación.",
           "wisdomScore": 20,
-          "analysis": "Elevar la voz ante un colaborador estresado aumenta la percepción de amenaza y transforma la inquietud no verbal en resistencia pasivo-agresiva.",
-          "bookInsight": "Dominar el lenguaje corporal implica saber cuándo bajar la intensidad no verbal para calmar la tensión del grupo."
+          "analysis": "La confrontación directa destruye el rapport.",
+          "bookInsight": "El lenguaje corporal debe usarse para guiar la conversación, no para interrogar."
+        },
+        {
+          "text": "Cambiar el tema a un área neutral y observar si el gesto persiste.",
+          "outcome": "El candidato se relaja y recupera la postura abierta.",
+          "wisdomScore": 95,
+          "analysis": "La calibración requiere observar cambios en la línea base.",
+          "bookInsight": "Busca grupos de gestos, no señales aisladas."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Kinésica",
-      "definition": "Disciplina que estudia el significado de los movimientos corporales, la gesticulación y las posturas en la comunicación.",
-      "tacticalUse": "Observar la alineación del torso y pies de un interlocutor para evaluar su grado de interés real en la conversación.",
-      "countermeasure": "Evitar juzgar un solo gesto de forma aislada; evalúa siempre conjuntos o 'cúmulos' de gestos en contexto."
-    },
+      "id": "FC-001",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Gestos de Autoconsuelo",
+      "definition": "Acciones como tocarse el cuello o frotarse las manos para reducir el estrés.",
+      "tacticalUse": "Identificar ansiedad oculta en una negociación.",
+      "countermeasure": "Mantener las manos visibles y relajadas para proyectar calma."
+    }
+  ],
+  "tacticalMatrix": [
     {
-      "id": "fc2",
-      "term": "Proxémica",
-      "definition": "El estudio del uso que hacen las personas del espacio físico y las distancias interpersonales al comunicarse.",
-      "tacticalUse": "Respetar la distancia personal (de 45 cm a 1.2 m en entornos profesionales) para no generar incomodidad o amenaza.",
-      "countermeasure": "Si alguien invade tu espacio vital, da un paso atrás sutilmente o coloca un objeto (como una libreta) como barrera defensiva."
-    },
+      "id": "TM-001",
+      "category": "Psicología Oscura",
+      "name": "Espejo Táctico",
+      "severity": "Moderada",
+      "icon": "Mirror",
+      "howItWorks": "Imitar sutilmente la postura del interlocutor para generar confianza.",
+      "redFlags": "Si el otro nota la imitación, se siente manipulado.",
+      "counterScript": "Cambiar de postura abruptamente para romper el patrón.",
+      "deepMechanism": "Activa las neuronas espejo creando una falsa sensación de afinidad."
+    }
+  ],
+  "quizzes": [
     {
-      "id": "fc3",
-      "term": "Microexpresiones",
-      "definition": "Expresiones faciales ultrarrápidas e involuntarias que duran una fracción de segundo y revelan emociones genuinas.",
-      "tacticalUse": "Detectar incoherencias entre el discurso verbal y la verdadera emoción del interlocutor (miedo, desdén, sorpresa).",
-      "countermeasure": "No confrontar a la persona inmediatamente por una microexpresión; indaga sutilmente mediante preguntas de aclaración."
-    },
+      "id": "Q-001",
+      "bookNumber": 1,
+      "question": "¿Qué indica principalmente el cruce de brazos?",
+      "options": [
+        "Agresividad",
+        "Protección o incomodidad",
+        "Interés genuino",
+        "Superioridad"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aunque puede ser defensivo, a menudo es un mecanismo de autorregulación ante el estrés."
+    }
+  ],
+  "glossary": [
     {
-      "id": "fc4",
-      "term": "Gestos Adaptadores (o Pacificadores)",
-      "definition": "Movimientos de autorreflexión o contacto físico (como tocarse el cuello o frotarse las manos) para autorregular el estrés.",
-      "tacticalUse": "Identificar momentos de alta tensión o inseguridad en la otra persona durante una negociación.",
-      "countermeasure": "Sustituir los ademanes pacificadores por una postura de manos apoyadas o reposadas para proyectar aplomo."
-    },
+      "id": "GL-001",
+      "term": "Línea Base",
+      "category": "Metodología",
+      "definition": "Comportamiento natural de una persona cuando está relajada.",
+      "practicalExample": "Observar cómo habla alguien antes de hacerle una pregunta difícil."
+    }
+  ],
+  "bodyLanguageLab": [
     {
-      "id": "fc5",
-      "term": "Postura Abierta vs. Cerrada",
-      "definition": "Disposición corporal accesible (brazos relajados, torso descubierto) frente a la defensiva (brazos y piernas cruzados).",
-      "tacticalUse": "Adoptar una postura abierta para transmitir transparencia, empatía y predisposición al diálogo.",
-      "countermeasure": "Si tu interlocutor adopta una postura cerrada, entrégale un documento o una bebida para obligarlo a descruzar los brazos."
+      "id": "BLL-001",
+      "category": "Microexpresiones",
+      "title": "El Desprecio Fugaz",
+      "cue": "Elevación unilateral de una comisura labial.",
+      "interpretation": "Sentimiento de superioridad o falta de respeto.",
+      "practicalDrill": "Practicar frente al espejo elevando solo un lado del labio para reconocer la tensión muscular necesaria."
     }
   ]
 };

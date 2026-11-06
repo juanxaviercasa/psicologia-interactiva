@@ -3901,93 +3901,86 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Negociación Estratégica",
-      "title": "La Firma del Contrato de Distribución",
-      "difficulty": "Alta",
-      "badge": "Maestro de la Observación",
-      "scenarioDescription": "Estás liderando una mesa de negociación para un acuerdo clave. El representante de la contraparte dice con voz firme: 'Estamos totalmente satisfechos con los términos del precio y listos para firmar'. Sin embargo, observas que ha cruzado los brazos fuertemente apretando los puños, se ha reclinado hacia atrás y sus pies están apuntando hacia la puerta de salida.",
+      "id": "CS001",
+      "category": "Detección de Engaño",
+      "title": "La Reunión de Negocios",
+      "difficulty": "Intermedio",
+      "badge": "Analista Observador",
+      "scenarioDescription": "Un socio cruza los brazos y se toca la nariz mientras afirma que el presupuesto está bajo control.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Pausar el cierre inmediato, hacer una pregunta abierta sobre los detalles del acuerdo y ofrecer aclarar cualquier punto pendiente.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Identificaste correctamente la incongruencia entre su discurso verbal positivo y su postura no verbal claramente defensiva y de rechazo (barrera de brazos con puños cerrados y pies desalineados). Forzar la firma en este momento habría provocado una ruptura posterior o arrepentimiento del comprador.",
-          "bookInsight": "Cuando la palabra y el cuerpo entran en conflicto, la conducta no verbal es la que refleja la verdadera posición emocional de la persona."
-        },
-        {
-          "id": "opt2",
-          "text": "Entregarle de inmediato el bolígrafo y el contrato presionado para que firme rápido antes de que cambie de opinión.",
-          "outcome": "Fallo",
+          "text": "Ignorar el gesto y continuar con la presentación.",
+          "outcome": "Pérdida de control de la negociación.",
           "wisdomScore": 20,
-          "analysis": "Ignoraste las señales de tensión y rechazo interior. Al presionar físicamente a alguien que está a la defensiva, activas una respuesta de cierre definitivo o conflicto.",
-          "bookInsight": "Apresurar el cierre ignorando las señales pacificadoras y defensivas destruye la confianza y genera objeciones de último minuto."
-        }
-      ]
-    },
-    {
-      "id": "cs2",
-      "category": "Persuasión y Evaluación de Personal",
-      "title": "La Entrevista para un Puesto de Alta Presión",
-      "difficulty": "Media",
-      "badge": "Detector de Incongruencias",
-      "scenarioDescription": "Entrevistas a un candidato para la dirección de crisis. Al preguntarle sobre cómo maneja las situaciones de alto estrés, él responde sonriendo: 'Tengo un control absoluto bajo presión, nada me altera'. En ese preciso instante, notas que se toca repetidamente la fosa del cuello (muesca supraesternal) y comienza a ajustar compulsivamente el anillo de su mano izquierda.",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "Profundizar en un caso específico de fracaso pasado mientras observas si sus pacificadores aumentan o disminuyen.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Reconociste los comportamientos pacificadores (tocamiento de cuello y manipulación del anillo) como respuesta a la ansiedad inducida por la pregunta. Al profundizar con un caso práctico, podrás medir si logra recuperar su línea base o si colapsa bajo evaluación.",
-          "bookInsight": "Tocar el cuello o manipular joyas son gestos pacificadores clave para calmar la ansiedad súbita causada por un estímulo estresante."
+          "analysis": "El cruce de brazos es una barrera defensiva y el toque nasal es un indicador clásico de estrés o posible engaño.",
+          "bookInsight": "Capítulo 3: Los brazos actúan como escudo protector ante la incomodidad."
         },
         {
-          "id": "opt2",
-          "text": "Dar por buena su respuesta y pasar de inmediato al siguiente tema, felicitándolo por su autocontrol.",
-          "outcome": "Fallo",
-          "wisdomScore": 30,
-          "analysis": "Te dejaste engañar por la sonrisa y la afirmación verbal, ignorando las claras señales del sistema límbico intentando pacificar la ansiedad del candidato.",
-          "bookInsight": "La sonrisa es la máscara facial más fácil de impostar; debes buscar señales en el resto del cuerpo para validar la autenticidad."
+          "text": "Hacer una pausa y pedir aclaraciones sobre puntos específicos del presupuesto.",
+          "outcome": "El socio se relaja y revela una preocupación real.",
+          "wisdomScore": 95,
+          "analysis": "Al romper el patrón defensivo, obligas a la persona a salir de su zona de confort y ser más honesta.",
+          "bookInsight": "Capítulo 6: Consejos para descubrir engaños mediante la interrupción de patrones."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Línea Base (Baseline)",
-      "definition": "Patrón de comportamiento no verbal habitual de un individuo cuando se encuentra relajado y sin presión externa.",
-      "tacticalUse": "Observa a la persona en situaciones informales (saludos, charla trivial) para identificar su ritmo respiratorio, parpadeo y postura normal antes de iniciar temas críticos.",
-      "countermeasure": "Si notas que te están analizando, mantén un comportamiento pausado y uniforme desde el primer momento para no revelar alteraciones."
-    },
+      "id": "FC001",
+      "bookNumber": 3,
+      "category": "Brazos",
+      "term": "Brazos Cruzados",
+      "definition": "Postura defensiva que indica rechazo o inseguridad.",
+      "tacticalUse": "Detectar resistencia oculta en una propuesta.",
+      "countermeasure": "Entregar un objeto (bolígrafo, documento) para obligar a la persona a abrir los brazos."
+    }
+  ],
+  "tacticalMatrix": [
     {
-      "id": "fc2",
-      "term": "Comportamientos Pacificadores",
-      "definition": "Gestos inconscientes de tocamiento (cuello, cara, cabello, joyas) que realiza el cuerpo para autorregular el estrés o la ansiedad.",
-      "tacticalUse": "Detecta cuándo tu interlocutor se toca el cuello o ajusta su collar justo después de una propuesta; indica que la condición planteada le genera tensión.",
-      "countermeasure": "Sustituye los pacificadores visibles por una respiración diafragmática profunda o mantén las manos apoyadas con calma sobre la mesa."
-    },
+      "id": "TM001",
+      "category": "Persuasión",
+      "name": "Espejo Kinésico",
+      "severity": "Baja",
+      "icon": "mirror",
+      "howItWorks": "Imitar sutilmente la postura del interlocutor para generar confianza.",
+      "redFlags": "Si el otro nota la imitación, se sentirá manipulado.",
+      "counterScript": "Cambiar de postura abruptamente para romper el rapport.",
+      "deepMechanism": "Activación de neuronas espejo para crear empatía subconsciente."
+    }
+  ],
+  "quizzes": [
     {
-      "id": "fc3",
-      "term": "Manos en Ojiva (Steepled Hands)",
-      "definition": "Gesto donde las puntas de los dedos de ambas manos se unen formando una torre o triángulo, dejando las palmas separadas.",
-      "tacticalUse": "Utiliza este gesto al exponer un punto clave para proyectar alta confianza, dominio del tema y convicción sin parecer agresivo.",
-      "countermeasure": "Si un oponente usa este gesto para intimidar, interrumpe su postura entregándole un documento o un objeto para obligarle a romper la ojiva."
-    },
+      "id": "Q001",
+      "bookNumber": 2,
+      "question": "¿Qué indica generalmente mostrar las palmas de las manos?",
+      "options": [
+        "Agresividad",
+        "Honestidad y apertura",
+        "Sumisión total",
+        "Desinterés"
+      ],
+      "correctIndex": 1,
+      "explanation": "Las palmas abiertas son un gesto evolutivo de mostrar que no se portan armas, asociado a la transparencia."
+    }
+  ],
+  "glossary": [
     {
-      "id": "fc4",
-      "term": "Orientación de Huida en Pies",
-      "definition": "Desalineación del torso y los pies donde uno o ambos pies apuntan lejos de la persona que habla, dirigidos hacia una salida.",
-      "tacticalUse": "Identifica si la persona desea terminar la conversación aunque verbalmente diga que 'tiene tiempo'; aprovecha para cerrar la reunión antes de perder su atención.",
-      "countermeasure": "Si debes disimular tu prisa, reorienta conscientemente la punta de tus pies hacia tu interlocutor para proyectar compromiso total."
-    },
+      "id": "GL001",
+      "term": "Kinésica",
+      "category": "Teoría",
+      "definition": "Estudio del lenguaje corporal a través de los movimientos.",
+      "practicalExample": "Observar el movimiento de los pies hacia la salida durante una conversación aburrida."
+    }
+  ],
+  "bodyLanguageLab": [
     {
-      "id": "fc5",
-      "term": "Incongruencia Canalizada",
-      "definition": "Discrepancia evidente entre el mensaje verbal (lo que dice) y el canal no verbal (lo que muestra el cuerpo).",
-      "tacticalUse": "Si alguien dice 'Sí, estoy de acuerdo' mientras mueve levemente la cabeza de lado a lado (negación), haz una pausa e indaga en los detalles no resueltos.",
-      "countermeasure": "Asegúrate de alinear tus gestos con tus palabras practicando discursos frente al espejo o en video para eliminar contradicciones involuntarias."
+      "id": "BL001",
+      "category": "Microexpresiones",
+      "title": "El Desprecio Fugaz",
+      "cue": "Elevación unilateral de una comisura labial.",
+      "interpretation": "Sentimiento de superioridad o desdén hacia el interlocutor.",
+      "practicalDrill": "Practicar frente al espejo hasta identificar la asimetría muscular."
     }
   ]
 };

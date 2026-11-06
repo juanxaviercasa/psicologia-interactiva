@@ -3013,67 +3013,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Negociación Contractual de Alto Impacto",
-      "title": "El Silencio Detrás del Trato de Millones",
-      "difficulty": "Alta",
-      "badge": "Maestro del Comportamiento",
-      "scenarioDescription": "Te encuentras a cargo de la renovación de un contrato comercial clave. Tu contraparte, el Director General de una firma multinacional, asiente constantemente con la cabeza a cada una de tus propuestas financieras de manera verbal y rápida. Sin embargo, observas que mantiene los brazos cruzados con los pulgares ocultos debajo de las axilas, su torso está ligeramente desalineado (girado hacia la puerta) y frecuentemente se toca la base del cuello al escuchar tus condiciones de exclusividad. ¿Cómo actúas tácticamente aplicando la lectura corporal avanzada para salvar la negociación?",
+      "id": 1,
+      "category": "Handshake Analysis",
+      "title": "The Dominance Play",
+      "difficulty": "Beginner",
+      "badge": "Observer",
+      "scenarioDescription": "During a business meeting, your counterpart offers a handshake with the palm facing downward, forcing your hand to be underneath.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Pausas tu discurso, cambias a un tono empático y abordas las dudas ocultas diciendo: 'Me gustaría hacer una pausa aquí. Siento que la exclusividad es un punto que debemos ajustar para que ambos estemos 100% cómodos. ¿Qué condiciones les darían mayor tranquilidad?'",
-          "outcome": "Éxito Absoluto",
-          "wisdomScore": 100,
-          "analysis": "Identificaste que la velocidad de sus asentimientos verbales era una máscara social para ocultar su rechazo real (brazos cruzados, pulgares ocultos, pacificación en el cuello). Al leer sus gestos negativos en conjunto, detuviste la presión y abriste un canal de confianza donde él se sintió comprendido, permitiendo que bajara la guardia física.",
-          "bookInsight": "El libro nos enseña que el cuerpo nunca miente de la misma forma que la voz. Cuando hay incongruencia entre las palabras rápidas de aprobación y los gestos de pacificación y bloqueo corporal, siempre se debe priorizar la señal física no verbal para reconducir la interacción."
+          "text": "Accept the position to show respect.",
+          "outcome": "Submissive",
+          "wisdomScore": 20,
+          "analysis": "You have ceded control of the interaction.",
+          "bookInsight": "Chapter II emphasizes that the handshake sets the power dynamic."
         },
         {
-          "id": "opt2",
-          "text": "Asumes que sus asentimientos constantes y su tono verbal amable significan conformidad. Decides acelerar la presentación y pasar directo a la firma del contrato antes de que cambie de opinión, ignorando sus gestos de bloqueo para no perder tiempo.",
-          "outcome": "Fallo de Negociación",
-          "wisdomScore": 15,
-          "analysis": "Caíste en el error de ignorar las alertas rojas del cuerpo (bloqueo en brazos, desalineación ventral y pacificación en el cuello). El Director se sintió acorralado y presionado por tu insistencia ciega, lo que provocó que se levantara de la mesa posponiendo indefinidamente la firma del acuerdo comercial.",
-          "bookInsight": "Nunca trates de cerrar una venta o acuerdo mientras el cliente muestre gestos defensivos evidentes o pacificación por estrés. Ignorar estas señales sabotea la relación a largo plazo y anula de inmediato la confianza mutua."
+          "text": "Step forward and straighten the hand to neutral.",
+          "outcome": "Assertive",
+          "wisdomScore": 90,
+          "analysis": "You have neutralized the dominance attempt.",
+          "bookInsight": "Regalado suggests maintaining equality in physical contact."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Negative Emotions",
+      "title": "The Hidden Discomfort",
+      "difficulty": "Intermediate",
+      "badge": "Detector",
+      "scenarioDescription": "A client is nodding while you present, but their arms are tightly crossed and they are rubbing their neck.",
+      "options": [
+        {
+          "text": "Continue the pitch as they are nodding.",
+          "outcome": "Failure",
+          "wisdomScore": 10,
+          "analysis": "You ignored the pacifying behavior.",
+          "bookInsight": "Chapter IX warns that neck rubbing indicates stress or disagreement."
+        },
+        {
+          "text": "Pause and ask for their specific concerns.",
+          "outcome": "Success",
+          "wisdomScore": 95,
+          "analysis": "You addressed the incongruence between words and body.",
+          "bookInsight": "Always prioritize non-verbal cues over verbal agreement."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Leg Movement",
+      "title": "The Exit Strategy",
+      "difficulty": "Advanced",
+      "badge": "Profiler",
+      "scenarioDescription": "You are talking to a colleague. Their torso faces you, but their feet are pointed toward the door.",
+      "options": [
+        {
+          "text": "Keep talking, they are looking at me.",
+          "outcome": "Ignored",
+          "wisdomScore": 30,
+          "analysis": "The feet reveal the true intention to leave.",
+          "bookInsight": "Chapter VI states that feet are the most honest part of the body."
+        },
+        {
+          "text": "End the conversation gracefully.",
+          "outcome": "Professional",
+          "wisdomScore": 85,
+          "analysis": "You respected their non-verbal exit cue.",
+          "bookInsight": "Recognizing the 'exit signal' prevents social friction."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Arm Movements",
+      "title": "The Barrier Defense",
+      "difficulty": "Intermediate",
+      "badge": "Analyst",
+      "scenarioDescription": "A prospect holds a folder across their chest while you discuss pricing.",
+      "options": [
+        {
+          "text": "Ask them to put the folder down.",
+          "outcome": "Aggressive",
+          "wisdomScore": 40,
+          "analysis": "Forcing them to drop the barrier creates defensiveness.",
+          "bookInsight": "Chapter IV explains that barriers are often subconscious protection."
+        },
+        {
+          "text": "Hand them a pen or brochure to force them to open their arms.",
+          "outcome": "Strategic",
+          "wisdomScore": 95,
+          "analysis": "You used a 'distraction technique' to break the barrier.",
+          "bookInsight": "Physical engagement forces the body to open up."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Head Movements",
+      "title": "The Interest Gauge",
+      "difficulty": "Beginner",
+      "badge": "Observer",
+      "scenarioDescription": "The person you are interviewing tilts their head to the side while you speak.",
+      "options": [
+        {
+          "text": "Assume they are confused.",
+          "outcome": "Misinterpretation",
+          "wisdomScore": 20,
+          "analysis": "Head tilt is usually a sign of active listening and interest.",
+          "bookInsight": "Chapter V links head tilt to engagement."
+        },
+        {
+          "text": "Continue speaking with confidence.",
+          "outcome": "Effective",
+          "wisdomScore": 90,
+          "analysis": "You correctly identified their engagement.",
+          "bookInsight": "A tilted head exposes the neck, a sign of vulnerability and trust."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Walking Style",
+      "title": "The Power Walk",
+      "difficulty": "Advanced",
+      "badge": "Profiler",
+      "scenarioDescription": "You observe a candidate walking into the room with long strides and a slight bounce.",
+      "options": [
+        {
+          "text": "Dismiss them as arrogant.",
+          "outcome": "Bias",
+          "wisdomScore": 30,
+          "analysis": "This is a sign of high energy and confidence.",
+          "bookInsight": "Chapter III links stride length to personality traits."
+        },
+        {
+          "text": "Note their high energy and goal-oriented nature.",
+          "outcome": "Accurate",
+          "wisdomScore": 95,
+          "analysis": "You correctly profiled their personality.",
+          "bookInsight": "Walking style is a window into the subconscious drive."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Línea de Base (Baseline)",
-      "definition": "El espectro de comportamientos normales, gestos y posturas que adopta una persona cuando se encuentra en un estado relajado, seguro y libre de estrés.",
-      "tacticalUse": "Observa al sujeto durante los primeros minutos de charla casual para establecer su ritmo de parpadeo, tono de voz y postura normal antes de hacer preguntas complejas.",
-      "countermeasure": "Si sabes que te analizan, mantén conscientemente un patrón de gesticulación constante desde el inicio para evitar que detecten picos de estrés posteriores."
+      "id": 1,
+      "bookNumber": 2,
+      "category": "Handshake",
+      "term": "Dominant Handshake",
+      "definition": "Palm facing down.",
+      "tacticalUse": "Assert authority.",
+      "countermeasure": "Step into their space."
     },
     {
-      "id": "fc2",
-      "term": "Gestos Pacificadores (Adaptadores)",
-      "definition": "Comportamientos auto-dirigidos (como tocarse el cuello, frotarse los muslos o ajustarse la ropa) que el cuerpo realiza para mitigar la ansiedad estimulando los nervios sensoriales.",
-      "tacticalUse": "Identifica cuándo tu contraparte realiza estos gestos para descubrir con precisión qué tema o pregunta específica les causa incomodidad o vulnerabilidad.",
-      "countermeasure": "Cuando sientas deseos de tocarte el cuello bajo presión, respira profundo y ancla tus manos de manera relajada sobre tus piernas o la mesa de negociación."
+      "id": 2,
+      "bookNumber": 3,
+      "category": "Walking",
+      "term": "Long Stride",
+      "definition": "Large steps while walking.",
+      "tacticalUse": "Project confidence.",
+      "countermeasure": "Match pace to mirror."
     },
     {
-      "id": "fc3",
-      "term": "Efecto Espejo (Rapport no verbal)",
-      "definition": "La imitación sutil e inconsciente de los patrones corporales, ritmos respiratorios y posturas de la persona con la que nos estamos comunicando.",
-      "tacticalUse": "Adopta posturas similares a las de tu interlocutor de manera fluida y con un desfase de 10-15 segundos para generar confianza mutua profunda a nivel subconsciente.",
-      "countermeasure": "Si notas que alguien te imita de manera robótica, cambia abruptamente de postura para verificar si lo hace de forma calculada para manipularte."
+      "id": 3,
+      "bookNumber": 4,
+      "category": "Arms",
+      "term": "Crossed Arms",
+      "definition": "Arms folded over chest.",
+      "tacticalUse": "Self-protection.",
+      "countermeasure": "Give them an object."
     },
     {
-      "id": "fc4",
-      "term": "Congruencia Gestual",
-      "definition": "La alineación perfecta entre el contenido de las palabras expresadas verbalmente y las señales físicas no verbales que las acompañan de manera simultánea.",
-      "tacticalUse": "Busca contradicciones (ej. decir 'sí' moviendo la cabeza sutilmente hacia los lados) para detectar dudas, mentiras o reservas importantes en un testimonio.",
-      "countermeasure": "Antes de emitir un discurso, asegúrate de creer verdaderamente en lo que vas a decir para que tu cuerpo no revele micro-incongruencias delatoras."
+      "id": 4,
+      "bookNumber": 5,
+      "category": "Head",
+      "term": "Head Tilt",
+      "definition": "Inclining head to side.",
+      "tacticalUse": "Show empathy.",
+      "countermeasure": "Mirror the tilt."
     },
     {
-      "id": "fc5",
-      "term": "Dirección de los Pies",
-      "definition": "La brújula inconsciente del cuerpo humano. Los pies apuntan instintivamente hacia donde la mente desea ir (hacia el interés o hacia la vía de escape).",
-      "tacticalUse": "En una reunión, observa si los pies de tu interlocutor apuntan hacia la puerta de salida o hacia ti para medir el nivel real de engagement con tus propuestas.",
-      "countermeasure": "Mantén los pies alineados hacia tu interlocutor principal aun si tienes deseos de irte, proyectando respeto e interés pleno hasta el final del encuentro."
+      "id": 5,
+      "bookNumber": 6,
+      "category": "Legs",
+      "term": "Foot Direction",
+      "definition": "Where toes point.",
+      "tacticalUse": "Detect interest.",
+      "countermeasure": "Redirect conversation."
+    },
+    {
+      "id": 6,
+      "bookNumber": 9,
+      "category": "Negative",
+      "term": "Neck Rubbing",
+      "definition": "Touching the back of the neck.",
+      "tacticalUse": "Identify stress.",
+      "countermeasure": "Ask open questions."
+    },
+    {
+      "id": 7,
+      "bookNumber": 10,
+      "category": "Positive",
+      "term": "Steepling",
+      "definition": "Fingertips touching.",
+      "tacticalUse": "Show confidence.",
+      "countermeasure": "Break the steeple."
+    },
+    {
+      "id": 8,
+      "bookNumber": 2,
+      "category": "Handshake",
+      "term": "Dead Fish",
+      "definition": "Limp handshake.",
+      "tacticalUse": "Identify low energy.",
+      "countermeasure": "Maintain firm grip."
+    },
+    {
+      "id": 9,
+      "bookNumber": 4,
+      "category": "Arms",
+      "term": "Barrier",
+      "definition": "Object between people.",
+      "tacticalUse": "Create distance.",
+      "countermeasure": "Remove the barrier."
+    },
+    {
+      "id": 10,
+      "bookNumber": 5,
+      "category": "Head",
+      "term": "Chin Up",
+      "definition": "Elevated chin.",
+      "tacticalUse": "Show superiority.",
+      "countermeasure": "Lower your own chin."
+    },
+    {
+      "id": 11,
+      "bookNumber": 6,
+      "category": "Legs",
+      "term": "Leg Cross",
+      "definition": "One leg over another.",
+      "tacticalUse": "Assess comfort.",
+      "countermeasure": "Observe foot direction."
+    },
+    {
+      "id": 12,
+      "bookNumber": 9,
+      "category": "Negative",
+      "term": "Fidgeting",
+      "definition": "Repetitive small movements.",
+      "tacticalUse": "Detect anxiety.",
+      "countermeasure": "Calm the environment."
+    },
+    {
+      "id": 13,
+      "bookNumber": 10,
+      "category": "Positive",
+      "term": "Open Palms",
+      "definition": "Palms visible.",
+      "tacticalUse": "Build trust.",
+      "countermeasure": "Mirror the openness."
+    },
+    {
+      "id": 14,
+      "bookNumber": 8,
+      "category": "Upper Body",
+      "term": "Leaning In",
+      "definition": "Torso tilted forward.",
+      "tacticalUse": "Show interest.",
+      "countermeasure": "Lean back to test."
+    },
+    {
+      "id": 15,
+      "bookNumber": 7,
+      "category": "General",
+      "term": "Congruence",
+      "definition": "Words match body.",
+      "tacticalUse": "Verify truth.",
+      "countermeasure": "Look for micro-tells."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": 1,
+      "category": "Dominance",
+      "name": "The Power Grip",
+      "severity": "High",
+      "icon": "Hand",
+      "howItWorks": "Dominating the handshake space.",
+      "redFlags": "Palm down, firm grip.",
+      "counterScript": "I prefer a balanced approach.",
+      "deepMechanism": "Subconscious territorial claim."
+    },
+    {
+      "id": 2,
+      "category": "Deception",
+      "name": "The Pacifier",
+      "severity": "Medium",
+      "icon": "Neck",
+      "howItWorks": "Touching neck to soothe stress.",
+      "redFlags": "Repetitive rubbing.",
+      "counterScript": "You seem uneasy, is there a concern?",
+      "deepMechanism": "Self-soothing nervous system response."
+    },
+    {
+      "id": 3,
+      "category": "Interest",
+      "name": "The Foot Pivot",
+      "severity": "Low",
+      "icon": "Foot",
+      "howItWorks": "Feet pointing away from speaker.",
+      "redFlags": "Toes toward exit.",
+      "counterScript": "I see you're busy, let's wrap up.",
+      "deepMechanism": "The brain's 'flight' preparation."
+    },
+    {
+      "id": 4,
+      "category": "Confidence",
+      "name": "The Steeple",
+      "severity": "Medium",
+      "icon": "Hands",
+      "howItWorks": "Fingertips pressed together.",
+      "redFlags": "High chin, steady gaze.",
+      "counterScript": "Tell me more about that.",
+      "deepMechanism": "Projection of authority and certainty."
+    },
+    {
+      "id": 5,
+      "category": "Defensiveness",
+      "name": "The Barrier",
+      "severity": "Medium",
+      "icon": "Shield",
+      "howItWorks": "Holding objects to block torso.",
+      "redFlags": "Tight grip on items.",
+      "counterScript": "Could you hold this for a moment?",
+      "deepMechanism": "Physical protection of vital organs."
+    },
+    {
+      "id": 6,
+      "category": "Engagement",
+      "name": "The Mirroring",
+      "severity": "Low",
+      "icon": "Mirror",
+      "howItWorks": "Copying the other's posture.",
+      "redFlags": "Unconscious mimicry.",
+      "counterScript": "Change posture to test.",
+      "deepMechanism": "Building rapport through empathy."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "bookNumber": 2,
+      "question": "What does a palm-down handshake signify?",
+      "options": [
+        "Submission",
+        "Dominance",
+        "Friendship",
+        "Neutrality"
+      ],
+      "correctIndex": 1,
+      "explanation": "It forces the other person's hand underneath, asserting control."
+    },
+    {
+      "id": 2,
+      "bookNumber": 3,
+      "question": "What does a fast, bouncy walk suggest?",
+      "options": [
+        "Laziness",
+        "High energy/Confidence",
+        "Sadness",
+        "Confusion"
+      ],
+      "correctIndex": 1,
+      "explanation": "It indicates a goal-oriented and energetic personality."
+    },
+    {
+      "id": 3,
+      "bookNumber": 4,
+      "question": "Why do people cross their arms?",
+      "options": [
+        "To be cold",
+        "To protect themselves",
+        "To look cool",
+        "To show interest"
+      ],
+      "correctIndex": 1,
+      "explanation": "It is a defensive barrier against perceived threats."
+    },
+    {
+      "id": 4,
+      "bookNumber": 5,
+      "question": "What does a head tilt indicate?",
+      "options": [
+        "Disagreement",
+        "Interest/Listening",
+        "Anger",
+        "Boredom"
+      ],
+      "correctIndex": 1,
+      "explanation": "It shows the person is engaged and listening."
+    },
+    {
+      "id": 5,
+      "bookNumber": 6,
+      "question": "Which part of the body is most honest?",
+      "options": [
+        "Face",
+        "Hands",
+        "Feet",
+        "Eyes"
+      ],
+      "correctIndex": 2,
+      "explanation": "Feet are rarely controlled consciously."
+    },
+    {
+      "id": 6,
+      "bookNumber": 9,
+      "question": "What is a sign of negative emotion?",
+      "options": [
+        "Smiling",
+        "Neck rubbing",
+        "Leaning in",
+        "Open palms"
+      ],
+      "correctIndex": 1,
+      "explanation": "Neck rubbing is a classic pacifying gesture."
+    }
+  ],
+  "glossary": [
+    {
+      "id": 1,
+      "term": "Kinésica",
+      "category": "Theory",
+      "definition": "Study of body movement.",
+      "practicalExample": "Analyzing a handshake."
+    },
+    {
+      "id": 2,
+      "term": "Pacificador",
+      "category": "Behavior",
+      "definition": "Gesture to reduce stress.",
+      "practicalExample": "Rubbing the neck."
+    },
+    {
+      "id": 3,
+      "term": "Congruencia",
+      "category": "Analysis",
+      "definition": "Alignment of words and body.",
+      "practicalExample": "Smiling while saying yes."
+    },
+    {
+      "id": 4,
+      "term": "Barrera",
+      "category": "Defense",
+      "definition": "Physical block.",
+      "practicalExample": "Holding a bag."
+    },
+    {
+      "id": 5,
+      "term": "Steepling",
+      "category": "Gesture",
+      "definition": "Fingertips touching.",
+      "practicalExample": "Confident speaker."
+    },
+    {
+      "id": 6,
+      "term": "Microexpresión",
+      "category": "Emotion",
+      "definition": "Brief facial flash.",
+      "practicalExample": "Flicker of fear."
+    },
+    {
+      "id": 7,
+      "term": "Calibración",
+      "category": "Method",
+      "definition": "Establishing a baseline.",
+      "practicalExample": "Watching normal behavior."
+    },
+    {
+      "id": 8,
+      "term": "Espejo",
+      "category": "Rapport",
+      "definition": "Copying movements.",
+      "practicalExample": "Matching posture."
+    },
+    {
+      "id": 9,
+      "term": "Dominancia",
+      "category": "Power",
+      "definition": "Control of space.",
+      "practicalExample": "Taking up room."
+    },
+    {
+      "id": 10,
+      "term": "Sumisión",
+      "category": "Power",
+      "definition": "Yielding space.",
+      "practicalExample": "Shrinking posture."
+    },
+    {
+      "id": 11,
+      "term": "Incongruencia",
+      "category": "Deception",
+      "definition": "Mismatch of signals.",
+      "practicalExample": "Nodding while saying no."
+    },
+    {
+      "id": 12,
+      "term": "Proxémica",
+      "category": "Space",
+      "definition": "Use of personal space.",
+      "practicalExample": "Standing too close."
+    },
+    {
+      "id": 13,
+      "term": "Baseline",
+      "category": "Method",
+      "definition": "Normal state.",
+      "practicalExample": "Relaxed sitting."
+    },
+    {
+      "id": 14,
+      "term": "Exit Cue",
+      "category": "Movement",
+      "definition": "Sign of leaving.",
+      "practicalExample": "Feet pointing away."
+    },
+    {
+      "id": 15,
+      "term": "Engagement",
+      "category": "Interest",
+      "definition": "Active focus.",
+      "practicalExample": "Leaning forward."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": 1,
+      "category": "Handshake",
+      "title": "The Neutralizer",
+      "cue": "Palm down handshake",
+      "interpretation": "Attempt to dominate",
+      "practicalDrill": "Practice stepping forward to force a vertical palm."
+    },
+    {
+      "id": 2,
+      "category": "Arms",
+      "title": "Barrier Breaker",
+      "cue": "Crossed arms",
+      "interpretation": "Defensive",
+      "practicalDrill": "Offer a pen to force them to uncross."
+    },
+    {
+      "id": 3,
+      "category": "Head",
+      "title": "The Empathy Tilt",
+      "cue": "Head tilt",
+      "interpretation": "Interest",
+      "practicalDrill": "Tilt your head while listening to a friend."
+    },
+    {
+      "id": 4,
+      "category": "Legs",
+      "title": "The Exit Detector",
+      "cue": "Feet pointing away",
+      "interpretation": "Wanting to leave",
+      "practicalDrill": "Observe feet in a group conversation."
+    },
+    {
+      "id": 5,
+      "category": "Negative",
+      "title": "Stress Spotter",
+      "cue": "Neck rubbing",
+      "interpretation": "Anxiety",
+      "practicalDrill": "Identify this in a TV interview."
+    },
+    {
+      "id": 6,
+      "category": "Positive",
+      "title": "The Authority Steeple",
+      "cue": "Fingertips touching",
+      "interpretation": "Confidence",
+      "practicalDrill": "Use this in your next presentation."
     }
   ]
 };

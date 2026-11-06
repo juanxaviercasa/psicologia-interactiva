@@ -1,3 +1,4 @@
+// Contenido enriquecido para Lenguaje Corporal en 40 Días: Persuasión Silenciosa
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -2065,6 +2066,90 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS001",
+      "category": "Detección de Engaño",
+      "title": "La Entrevista de Negociación",
+      "difficulty": "Avanzado",
+      "badge": "Analista Senior",
+      "scenarioDescription": "Un cliente potencial evita el contacto visual y se toca la nariz al hablar de los términos de pago.",
+      "options": [
+        {
+          "text": "Interrumpir y confrontar directamente sobre la mentira.",
+          "outcome": "Defensividad inmediata",
+          "wisdomScore": 20,
+          "analysis": "La confrontación directa rompe el rapport.",
+          "bookInsight": "El lenguaje corporal debe usarse para calibrar, no para acusar."
+        },
+        {
+          "text": "Cambiar el tema a un punto neutral para observar el cambio de base.",
+          "outcome": "Calibración exitosa",
+          "wisdomScore": 95,
+          "analysis": "Establecer la línea base permite identificar desviaciones reales.",
+          "bookInsight": "La observación de cambios en la línea base es la clave de la detección."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Microexpresiones",
+      "term": "Desprecio",
+      "definition": "Elevación unilateral de una comisura labial.",
+      "tacticalUse": "Detectar superioridad percibida.",
+      "countermeasure": "Mantener neutralidad y desarmar con preguntas abiertas."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM001",
+      "category": "Psicología Oscura",
+      "name": "Espejo Táctico",
+      "severity": "Moderada",
+      "icon": "mirror",
+      "howItWorks": "Imitar sutilmente la postura del interlocutor.",
+      "redFlags": "Si el otro se siente incómodo, estás exagerando.",
+      "counterScript": "Cambiar de postura abruptamente para romper el vínculo.",
+      "deepMechanism": "Genera empatía inconsciente mediante neuronas espejo."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Qué indica el bloqueo de los ojos al escuchar una propuesta?",
+      "options": [
+        "Interés",
+        "Desacuerdo o rechazo",
+        "Fatiga",
+        "Concentración"
+      ],
+      "correctIndex": 1,
+      "explanation": "El bloqueo ocular es un mecanismo de defensa ante información que el cerebro rechaza."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G001",
+      "term": "Línea Base",
+      "category": "Metodología",
+      "definition": "Comportamiento natural de una persona en estado relajado.",
+      "practicalExample": "Observar cómo habla alguien antes de hacerle una pregunta difícil."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL001",
+      "category": "Microexpresiones",
+      "title": "Detección de Miedo",
+      "cue": "Párpados superiores elevados y cejas contraídas.",
+      "interpretation": "Amenaza percibida o ansiedad.",
+      "practicalDrill": "Practicar frente al espejo manteniendo la mirada fija sin parpadear."
     }
   ]
 };

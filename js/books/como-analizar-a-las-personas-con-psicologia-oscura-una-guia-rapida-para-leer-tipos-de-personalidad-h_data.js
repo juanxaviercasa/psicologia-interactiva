@@ -4313,67 +4313,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Negociación y Detección de Manipulación",
-      "title": "El Caballo de Troya Corporativo",
-      "difficulty": "Alta",
-      "badge": "Maestro",
-      "scenarioDescription": "Estás a cargo de una ronda crucial de inversión para tu startup. Rodrigo, un inversionista con excelente reputación pero fama de 'tiburón agresivo', te propone una alianza de financiamiento muy tentadora. Durante la cena de negocios, notas que cuando habla de 'respetar tu autonomía de decisión en la junta directiva', Rodrigo apoya su barbilla en su mano, pero sus dedos cubren sutilmente su boca, sus pies apuntan directamente hacia la puerta de salida y sus cejas muestran una elevación interna muy breve (microexpresión de tristeza o culpa) justo después de prometerte absoluta libertad comercial. ¿Cómo actúas basándote en el análisis conductual?",
+      "id": "CS001",
+      "category": "Detección de Engaño",
+      "title": "La Entrevista de Negocios",
+      "difficulty": "Intermedio",
+      "badge": "Analista Nivel 1",
+      "scenarioDescription": "Un candidato evita contacto visual y se toca la nariz al hablar de su experiencia previa.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aceptas amablemente sus halagos en el momento para no romper el ambiente, pero introduces cláusulas de protección legal extremadamente específicas y penalizaciones severas en el contrato relativas a la gobernanza y autonomía de la empresa, argumentando que es 'mera política estándar de tus asesores'.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Leíste con precisión las señales de incongruencia: los pies hacia la salida denotaban deseo de huida o rechazo físico al compromiso verbal, y taparse la boca sugería un filtro o falsedad consciente en su promesa. En lugar de confrontar agresivamente (lo que habría roto el trato o lo habría puesto a la defensiva de inmediato), canalizaste la inteligencia obtenida de manera táctica en el diseño del contrato impreso.",
-          "bookInsight": "El libro enseña que las palabras se usan para ocultar intenciones, pero el cuerpo revela la desconexión. La mejor autodefensa contra la psicología oscura no es la confrontación histriónica, sino el uso silencioso de salvaguardas y límites rígidos basados en los indicios del lenguaje no verbal."
+          "text": "Asumir que miente y confrontar.",
+          "outcome": "Error de juicio",
+          "wisdomScore": 20,
+          "analysis": "El toque nasal puede ser picazón o estrés, no solo engaño.",
+          "bookInsight": "El análisis requiere grupos de señales (clusters), no gestos aislados."
         },
         {
-          "id": "opt2",
-          "text": "Lo confrontas directamente en la mesa, acusándolo de ser falso basándote en la dirección de sus pies y en que se tapa la boca, exigiéndole que te confiese sus verdaderas intenciones si quiere continuar con la cena.",
-          "outcome": "Fallo",
+          "text": "Calibrar su línea base y observar otros gestos.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Establecer una línea base es fundamental antes de juzgar una desviación.",
+          "bookInsight": "La psicología oscura enseña que la línea base es el ancla de la verdad."
+        }
+      ]
+    },
+    {
+      "id": "CS002",
+      "category": "Inseguridad",
+      "title": "El Lenguaje de la Sumisión",
+      "difficulty": "Principiante",
+      "badge": "Observador",
+      "scenarioDescription": "Un interlocutor cruza los brazos y encoge los hombros mientras le das feedback.",
+      "options": [
+        {
+          "text": "Ignorar y seguir hablando.",
+          "outcome": "Desconexión",
+          "wisdomScore": 30,
+          "analysis": "Ignorar la postura defensiva impide la persuasión.",
+          "bookInsight": "Los brazos cruzados son una barrera física y psicológica."
+        },
+        {
+          "text": "Cambiar el tono y abrir la postura corporal.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "El efecto espejo ayuda a reducir la resistencia del otro.",
+          "bookInsight": "El lenguaje corporal es un diálogo bidireccional constante."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Psicología Oscura",
+      "title": "La Mirada de Poder",
+      "difficulty": "Avanzado",
+      "badge": "Maestro de la Lectura",
+      "scenarioDescription": "Tu oponente mantiene contacto visual prolongado sin parpadear.",
+      "options": [
+        {
+          "text": "Sostener la mirada hasta que él ceda.",
+          "outcome": "Conflicto",
+          "wisdomScore": 40,
+          "analysis": "Esto escala la tensión innecesariamente.",
+          "bookInsight": "La mirada fija es una táctica de dominación."
+        },
+        {
+          "text": "Romper la mirada lateralmente y sonreír.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Desactiva la táctica de intimidación sin mostrar sumisión.",
+          "bookInsight": "La neutralización es la mejor defensa contra la manipulación."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Análisis de Personalidad",
+      "title": "El Nerviosismo Oculto",
+      "difficulty": "Intermedio",
+      "badge": "Analista Nivel 2",
+      "scenarioDescription": "Alguien juega con su anillo mientras afirma estar seguro de su decisión.",
+      "options": [
+        {
+          "text": "Señalar el gesto inmediatamente.",
+          "outcome": "Defensividad",
+          "wisdomScore": 30,
+          "analysis": "La confrontación directa genera bloqueo.",
+          "bookInsight": "Los gestos de autoconfort indican ansiedad interna."
+        },
+        {
+          "text": "Hacer una pregunta abierta sobre sus dudas.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Permite que la persona verbalice su inseguridad.",
+          "bookInsight": "La psicología oscura utiliza la observación para guiar la conversación."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Detección de Engaño",
+      "title": "La Sonrisa Falsa",
+      "difficulty": "Avanzado",
+      "badge": "Experto en Microexpresiones",
+      "scenarioDescription": "Alguien sonríe pero sus ojos permanecen inexpresivos.",
+      "options": [
+        {
+          "text": "Creer en la sonrisa.",
+          "outcome": "Engaño",
+          "wisdomScore": 10,
+          "analysis": "La sonrisa social no involucra el músculo orbicular.",
+          "bookInsight": "La sonrisa de Duchenne es la única genuina."
+        },
+        {
+          "text": "Buscar incongruencias en su lenguaje verbal.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "La disonancia entre rostro y palabras revela ocultamiento.",
+          "bookInsight": "El cuerpo rara vez miente cuando la mente está bajo presión."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Inseguridad",
+      "title": "El Espacio Personal",
+      "difficulty": "Principiante",
+      "badge": "Observador",
+      "scenarioDescription": "Alguien invade tu espacio personal constantemente.",
+      "options": [
+        {
+          "text": "Retroceder cada vez.",
+          "outcome": "Sumisión",
           "wisdomScore": 20,
-          "analysis": "Hacer un diagnóstico de psicología popular en voz alta es un error fatal de aficionado. Rodrigo, al ser un negociador hábil y maquiavélico, usó tu acusación directa para hacerte lucir paranoico e inmaduro frente a los demás socios, jugando el rol de víctima ofendida y retirándose de la mesa con una ventaja reputacional sobre ti.",
-          "bookInsight": "El análisis de personalidad es un superpoder silencioso de observación. Revelar tus cartas y herramientas de análisis solo le da al manipulador la oportunidad de cambiar de táctica, corregir su lenguaje corporal o descalificar tu cordura."
+          "analysis": "Envías una señal de debilidad.",
+          "bookInsight": "El espacio personal es una extensión del ego."
+        },
+        {
+          "text": "Mantener tu posición y usar gestos expansivos.",
+          "outcome": "Éxito",
+          "wisdomScore": 85,
+          "analysis": "Reafirma tu territorio sin agresión.",
+          "bookInsight": "La ocupación del espacio comunica estatus."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "La Tríada Oscura",
-      "definition": "Conjunto de tres rasgos de personalidad malévolos y socialmente aversivos: Narcisismo (grandiosidad y falta de empatía), Maquiavelismo (manipulación cínica e instrumental) y Psicopatía (impulsividad y falta de remordimiento).",
-      "tacticalUse": "Se usa para categorizar y predecir comportamientos depredadores o altamente egoístas en entornos competitivos.",
-      "countermeasure": "Establecer límites estrictos, documentar interacciones por escrito y no apelar a su empatía, sino a sus intereses personales directos."
+      "id": "FC01",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Línea Base",
+      "definition": "Comportamiento normal de una persona.",
+      "tacticalUse": "Detectar anomalías.",
+      "countermeasure": "Observar en reposo."
     },
     {
-      "id": "fc2",
-      "term": "Línea Base (Baseline)",
-      "definition": "El espectro de comportamientos normales, gestos habituales, tono de voz y tics de una persona cuando no está bajo presión o estrés emocional.",
-      "tacticalUse": "Se observa discretamente al inicio de una conversación mediante preguntas casuales o seguras para luego contrastar variaciones ante temas sensibles.",
-      "countermeasure": "Mantén la calma y practica la autoconsciencia corporal para que tus reacciones normales no fluctúen violentamente bajo presión externa."
+      "id": "FC02",
+      "bookNumber": 1,
+      "category": "Ojos",
+      "term": "Mirada de Duchenne",
+      "definition": "Sonrisa que incluye ojos.",
+      "tacticalUse": "Verificar sinceridad.",
+      "countermeasure": "Mirar las patas de gallo."
     },
     {
-      "id": "fc3",
+      "id": "FC03",
+      "bookNumber": 1,
+      "category": "Gestos",
+      "term": "Autoconfort",
+      "definition": "Tocarse el cuello o cara.",
+      "tacticalUse": "Identificar estrés.",
+      "countermeasure": "Preguntar por el origen."
+    },
+    {
+      "id": "FC04",
+      "bookNumber": 1,
+      "category": "Postura",
+      "term": "Postura Expansiva",
+      "definition": "Ocupar mucho espacio.",
+      "tacticalUse": "Proyectar autoridad.",
+      "countermeasure": "Reducir espacio propio."
+    },
+    {
+      "id": "FC05",
+      "bookNumber": 1,
+      "category": "Gestos",
+      "term": "Barreras",
+      "definition": "Brazos o piernas cruzadas.",
+      "tacticalUse": "Detectar rechazo.",
+      "countermeasure": "Ofrecer un objeto."
+    },
+    {
+      "id": "FC06",
+      "bookNumber": 1,
+      "category": "Ojos",
+      "term": "Parpadeo rápido",
+      "definition": "Aumento en frecuencia.",
+      "tacticalUse": "Detectar ansiedad.",
+      "countermeasure": "Calmar el ambiente."
+    },
+    {
+      "id": "FC07",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Efecto Espejo",
+      "definition": "Copiar gestos ajenos.",
+      "tacticalUse": "Generar rapport.",
+      "countermeasure": "Cambiar postura."
+    },
+    {
+      "id": "FC08",
+      "bookNumber": 1,
+      "category": "Gestos",
+      "term": "Puntas de dedos",
+      "definition": "Unir yemas de dedos.",
+      "tacticalUse": "Mostrar confianza.",
+      "countermeasure": "Desafiar la idea."
+    },
+    {
+      "id": "FC09",
+      "bookNumber": 1,
+      "category": "Postura",
+      "term": "Inclinación",
+      "definition": "Hacia adelante o atrás.",
+      "tacticalUse": "Medir interés.",
+      "countermeasure": "Cambiar tema."
+    },
+    {
+      "id": "FC10",
+      "bookNumber": 1,
+      "category": "Gestos",
+      "term": "Manos ocultas",
+      "definition": "Manos en bolsillos.",
+      "tacticalUse": "Detectar ocultamiento.",
+      "countermeasure": "Pedir ver manos."
+    },
+    {
+      "id": "FC11",
+      "bookNumber": 1,
+      "category": "Ojos",
+      "term": "Mirada lateral",
+      "definition": "Mirar de reojo.",
+      "tacticalUse": "Detectar desconfianza.",
+      "countermeasure": "Aclarar dudas."
+    },
+    {
+      "id": "FC12",
+      "bookNumber": 1,
+      "category": "Kinésica",
       "term": "Microexpresiones",
-      "definition": "Movimientos musculares faciales involuntarios, ultrarrápidos (duran una fracción de segundo), que revelan la emoción real antes de que el filtro consciente pueda ocultarla.",
-      "tacticalUse": "Detectar discrepancias breves (ej. un destello de desprecio o ira en una cara que finge sonreír) para cuestionar la veracidad del discurso.",
-      "countermeasure": "Si necesitas mantener el control, enfoca tu mente en un pensamiento neutral o canaliza la emoción subyacente para evitar la fuga microexpresiva."
+      "definition": "Gestos de milisegundos.",
+      "tacticalUse": "Ver emoción real.",
+      "countermeasure": "Grabar video."
     },
     {
-      "id": "fc4",
-      "term": "Gestos Pacificadores",
-      "definition": "Acciones táctiles inconscientes (frotarse el cuello, masajearse las sienes, tocarse el pecho) utilizadas por el cuerpo para calmar la estimulación del sistema nervioso ante el estrés.",
-      "tacticalUse": "Identificar el momento exacto en que una pregunta o tema de conversación genera incomodidad, miedo o necesidad de auto-consuelo en el sujeto.",
-      "countermeasure": "Mantener las manos sobre la mesa o reposabrazos de forma relajada e imperturbable; si sientes el impulso, redirige la energía respirando de forma diafragmática."
+      "id": "FC13",
+      "bookNumber": 1,
+      "category": "Gestos",
+      "term": "Tocarse la nariz",
+      "definition": "Efecto Pinocho.",
+      "tacticalUse": "Detectar mentira.",
+      "countermeasure": "Cambiar contexto."
     },
     {
-      "id": "fc5",
-      "term": "Sobrecarga Cognitiva (en la Mentira)",
-      "definition": "La saturación del procesador mental del mentiroso, quien debe inventar hechos coherentes, recordar mentiras previas, leer al interlocutor y suprimir su lenguaje corporal delator al mismo tiempo.",
-      "tacticalUse": "Aumentar la carga cognitiva del sospechoso pidiéndole que cuente su historia al revés (orden cronológico inverso) o solicitando detalles espaciales imprevistos.",
-      "countermeasure": "Di la verdad siempre que sea posible; si debes retener información, limita tu narrativa al mínimo de detalles necesarios y jamás inventes variables complejas sobre la marcha."
+      "id": "FC14",
+      "bookNumber": 1,
+      "category": "Postura",
+      "term": "Pies hacia la puerta",
+      "definition": "Dirección de pies.",
+      "tacticalUse": "Detectar deseo de irse.",
+      "countermeasure": "Finalizar charla."
+    },
+    {
+      "id": "FC15",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Calibración",
+      "definition": "Ajuste de percepción.",
+      "tacticalUse": "Evitar errores.",
+      "countermeasure": "Reevaluar datos."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Dominación",
+      "name": "La Torre de Control",
+      "severity": "Alta",
+      "icon": "Torre",
+      "howItWorks": "Mantener manos elevadas y postura erguida.",
+      "redFlags": "Invasión de espacio personal.",
+      "counterScript": "Mantener distancia y postura relajada.",
+      "deepMechanism": "Señalización de estatus jerárquico."
+    },
+    {
+      "id": "TM02",
+      "category": "Persuasión",
+      "name": "Espejo Sutil",
+      "severity": "Baja",
+      "icon": "Espejo",
+      "howItWorks": "Imitar gestos del otro tras 3 segundos.",
+      "redFlags": "Imitación obvia y burlesca.",
+      "counterScript": "Cambiar postura bruscamente.",
+      "deepMechanism": "Generación de empatía inconsciente."
+    },
+    {
+      "id": "TM03",
+      "category": "Detección",
+      "name": "Cluster de Estrés",
+      "severity": "Media",
+      "icon": "Alerta",
+      "howItWorks": "Observar 3 gestos de ansiedad simultáneos.",
+      "redFlags": "Solo un gesto aislado.",
+      "counterScript": "Hacer una pausa en la charla.",
+      "deepMechanism": "Fuga de energía nerviosa."
+    },
+    {
+      "id": "TM04",
+      "category": "Defensa",
+      "name": "Escudo de Barreras",
+      "severity": "Media",
+      "icon": "Escudo",
+      "howItWorks": "Cruzar brazos para proteger el torso.",
+      "redFlags": "Postura rígida y tensa.",
+      "counterScript": "Entregar un objeto para abrir brazos.",
+      "deepMechanism": "Protección de órganos vitales."
+    },
+    {
+      "id": "TM05",
+      "category": "Detección",
+      "name": "Fuga de Pies",
+      "severity": "Alta",
+      "icon": "Pie",
+      "howItWorks": "Observar hacia dónde apuntan los pies.",
+      "redFlags": "Pies apuntando a la salida.",
+      "counterScript": "Preguntar si tienen prisa.",
+      "deepMechanism": "La intención real del cuerpo."
+    },
+    {
+      "id": "TM06",
+      "category": "Dominación",
+      "name": "Mirada de Poder",
+      "severity": "Alta",
+      "icon": "Ojo",
+      "howItWorks": "Contacto visual sin parpadeo excesivo.",
+      "redFlags": "Mirada vacía o agresiva.",
+      "counterScript": "Mirar al entrecejo.",
+      "deepMechanism": "Desafío de dominancia social."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Qué es la línea base en el análisis de personas?",
+      "options": [
+        "El comportamiento normal",
+        "La mentira",
+        "La postura de poder",
+        "El tono de voz"
+      ],
+      "correctIndex": 0,
+      "explanation": "La línea base es el estado conductual habitual de una persona."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 1,
+      "question": "¿Qué indica una sonrisa sin arrugas en los ojos?",
+      "options": [
+        "Felicidad",
+        "Sinceridad",
+        "Sonrisa social/falsa",
+        "Confianza"
+      ],
+      "correctIndex": 2,
+      "explanation": "La falta de contracción del orbicular indica una sonrisa no genuina."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 1,
+      "question": "¿Qué significa que los pies apunten a la salida?",
+      "options": [
+        "Interés",
+        "Deseo de irse",
+        "Sumisión",
+        "Agresión"
+      ],
+      "correctIndex": 1,
+      "explanation": "Los pies son la parte del cuerpo que menos controlamos y revelan la intención."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "¿Qué es el efecto espejo?",
+      "options": [
+        "Mirarse al espejo",
+        "Copiar gestos",
+        "Ocultar manos",
+        "Evitar contacto"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una técnica para generar rapport imitando al otro."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 1,
+      "question": "¿Qué es un gesto de autoconfort?",
+      "options": [
+        "Dominación",
+        "Ansiedad",
+        "Poder",
+        "Liderazgo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Son gestos para calmarse ante el estrés."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 1,
+      "question": "¿Qué es la psicología oscura?",
+      "options": [
+        "Magia",
+        "Manipulación y análisis",
+        "Ciencia ficción",
+        "Psicología clínica"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es el estudio de técnicas para influir y analizar a otros."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Kinésica",
+      "category": "Teoría",
+      "definition": "Estudio del movimiento corporal.",
+      "practicalExample": "Analizar gestos de manos."
+    },
+    {
+      "id": "G02",
+      "term": "Proxémica",
+      "category": "Teoría",
+      "definition": "Uso del espacio personal.",
+      "practicalExample": "Distancia en una charla."
+    },
+    {
+      "id": "G03",
+      "term": "Rapport",
+      "category": "Técnica",
+      "definition": "Sintonía con el otro.",
+      "practicalExample": "Usar efecto espejo."
+    },
+    {
+      "id": "G04",
+      "term": "Cluster",
+      "category": "Análisis",
+      "definition": "Grupo de señales.",
+      "practicalExample": "Ver 3 gestos juntos."
+    },
+    {
+      "id": "G05",
+      "term": "Disonancia",
+      "category": "Análisis",
+      "definition": "Contradicción verbal/no verbal.",
+      "practicalExample": "Decir sí moviendo la cabeza no."
+    },
+    {
+      "id": "G06",
+      "term": "Microexpresión",
+      "category": "Análisis",
+      "definition": "Gestos rápidos faciales.",
+      "practicalExample": "Miedo fugaz."
+    },
+    {
+      "id": "G07",
+      "term": "Línea Base",
+      "category": "Análisis",
+      "definition": "Conducta habitual.",
+      "practicalExample": "Observar antes de juzgar."
+    },
+    {
+      "id": "G08",
+      "term": "Sumisión",
+      "category": "Conducta",
+      "definition": "Postura de baja energía.",
+      "practicalExample": "Hombros caídos."
+    },
+    {
+      "id": "G09",
+      "term": "Dominancia",
+      "category": "Conducta",
+      "definition": "Postura de alta energía.",
+      "practicalExample": "Manos en caderas."
+    },
+    {
+      "id": "G10",
+      "term": "Autoconfort",
+      "category": "Conducta",
+      "definition": "Gestos de calma.",
+      "practicalExample": "Tocarse el cuello."
+    },
+    {
+      "id": "G11",
+      "term": "Oclusión",
+      "category": "Análisis",
+      "definition": "Cubrirse partes del cuerpo.",
+      "practicalExample": "Taparse la boca."
+    },
+    {
+      "id": "G12",
+      "term": "Calibración",
+      "category": "Técnica",
+      "definition": "Ajuste de observación.",
+      "practicalExample": "Ajustar expectativas."
+    },
+    {
+      "id": "G13",
+      "term": "Fuga",
+      "category": "Análisis",
+      "definition": "Movimiento involuntario.",
+      "practicalExample": "Pies inquietos."
+    },
+    {
+      "id": "G14",
+      "term": "Sincronía",
+      "category": "Técnica",
+      "definition": "Coincidencia de ritmos.",
+      "practicalExample": "Hablar al mismo ritmo."
+    },
+    {
+      "id": "G15",
+      "term": "Manipulación",
+      "category": "Psicología",
+      "definition": "Influencia oculta.",
+      "practicalExample": "Uso de lenguaje corporal."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Microexpresiones",
+      "title": "El Detector de Sorpresa",
+      "cue": "Cejas levantadas y ojos abiertos.",
+      "interpretation": "Reacción genuina ante algo inesperado.",
+      "practicalDrill": "Practicar frente al espejo por 2 minutos."
+    },
+    {
+      "id": "BL02",
+      "category": "Gestos",
+      "title": "La Torre de Confianza",
+      "cue": "Yemas de los dedos unidas.",
+      "interpretation": "Seguridad en lo que se dice.",
+      "practicalDrill": "Usar en la próxima reunión."
+    },
+    {
+      "id": "BL03",
+      "category": "Postura",
+      "title": "Postura de Poder",
+      "cue": "Pecho fuera, hombros atrás.",
+      "interpretation": "Dominancia y control.",
+      "practicalDrill": "Mantener 2 minutos antes de hablar."
+    },
+    {
+      "id": "BL04",
+      "category": "Ojos",
+      "title": "Contacto Visual Activo",
+      "cue": "Mirar triángulo ojos-nariz.",
+      "interpretation": "Interés y atención.",
+      "practicalDrill": "Contar parpadeos del interlocutor."
+    },
+    {
+      "id": "BL05",
+      "category": "Kinésica",
+      "title": "Espejo de Rapport",
+      "cue": "Copiar ritmo respiratorio.",
+      "interpretation": "Conexión profunda.",
+      "practicalDrill": "Sincronizar con un amigo."
+    },
+    {
+      "id": "BL06",
+      "category": "Detección",
+      "title": "Análisis de Pies",
+      "cue": "Dirección de las puntas.",
+      "interpretation": "Hacia dónde quiere ir la persona.",
+      "practicalDrill": "Observar pies en una charla grupal."
     }
   ]
 };

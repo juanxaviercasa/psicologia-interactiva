@@ -1,3 +1,4 @@
+// Contenido enriquecido para Domina tu Lenguaje Corporal: Tu Valioso Aliado
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_7.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>Índice El lenguaje corporal, ese valioso aliado El abecé del lenguaje corporal Las 3V de la comunicación Descifrar las señales corporales (no verbales y paraverbales) Intimidad a la medida El cuerpo políglota Evita las interpretaciones precipitadas Los mejores consejos Preguntas frecuentes ¿Cómo camuflar mi ansiedad para que parezca que confío en mí mismo? ¿Cómo eliminar los tics que captan inútilmente la atención de mi interlocutor? ¿Qué actitudes hay que evitar para hacer que un colega en una posición jerárquica inferior se sienta a gusto? ¿Cómo convencer a un cliente de que mi producto es el mejor? ¿Cómo presentar un proyecto delante de mis colegas? ¿Cómo descifrar el comportamiento de mi interlocutor? ¡Ahora es tu turno! Primer ejercicio: la vida más allá de los pies Segundo ejercicio: el observador no participante Tercer ejercicio: descubre tu distancia límite Para ir más allá EL LENGUAJE CORPORAL, ESE VALIOSO ALIADO ¿Problemática? ¿Cómo comunicar de manera coherente y convincente gracias a la fuerza de las palabras y del cuerpo? ¿Utilidad? Dado que el lenguaje corporal forma parte integrante de la comunicación diaria, gestionarlo bien permite expresar solo aquello que deseamos para ser lo más profesional posible en el trabajo. Asimismo, cuando comprendemos su mecanismo nos resulta más fácil descifrar el comportamiento de nuestros compañeros y escucharlos. ¿Contexto profesional? Entrevista de trabajo, presentación, negociación, gestión de la clientela, contactos sociales",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_3.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>Índice El lenguaje corporal, ese valioso aliado El abecé del lenguaje corporal Las 3V de la comunicación Descifrar las señales corporales (no verbales y paraverbales) Intimidad a la medida El cuerpo políglota Evita las interpretaciones precipitadas Los mejores consejos Preguntas frecuentes ¿Cómo camuflar mi ansiedad para que parezca que confío en mí mismo? ¿Cómo eliminar los tics que captan inútilmente la atención de mi interlocutor? ¿Qué actitudes hay que evitar para hacer que un colega en una posición jerárquica inferior se sienta a gusto? ¿Cómo convencer a un cliente de que mi producto es el mejor? ¿Cómo presentar un proyecto delante de mis colegas? ¿Cómo descifrar el comportamiento de mi interlocutor? ¡Ahora es tu turno! Primer ejercicio: la vida más allá de los pies Segundo ejercicio: el observador no participante Tercer ejercicio: descubre tu distancia límite Para ir más allá EL LENGUAJE CORPORAL, ESE VALIOSO ALIADO ¿Problemática? ¿Cómo comunicar de manera coherente y convincente gracias a la fuerza de las palabras y del cuerpo? ¿Utilidad? Dado que el lenguaje corporal forma parte integrante de la comunicación diaria, gestionarlo bien permite expresar solo aquello que deseamos para ser lo más profesional posible en el trabajo. Asimismo, cuando comprendemos su mecanismo nos resulta más fácil descifrar el comportamiento de nuestros compañeros y escucharlos. ¿Contexto profesional? Entrevista de trabajo, presentación, negociación, gestión de la clientela, contactos sociales",
           "interactiveChallenge": {
             "question": "Según el análisis del lenguaje corporal popularizado por Mehrabian y mencionado en las guías de comunicación, ¿qué porcentaje del impacto total de un mensaje transmitido cara a cara corresponde a la comunicación no verbal (expresiones y postura)?",
             "options": [
@@ -876,6 +877,90 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS-001",
+      "category": "Detección de Engaño",
+      "title": "La Entrevista de Alta Presión",
+      "difficulty": "Avanzado",
+      "badge": "Analista Maestro",
+      "scenarioDescription": "Un candidato a un puesto ejecutivo evita el contacto visual y se toca la nariz al hablar de su experiencia previa.",
+      "options": [
+        {
+          "text": "Interrumpir y confrontar directamente sobre la mentira.",
+          "outcome": "El candidato se pone a la defensiva y cierra la comunicación.",
+          "wisdomScore": 20,
+          "analysis": "La confrontación directa destruye el rapport.",
+          "bookInsight": "El lenguaje corporal debe usarse para guiar la conversación, no para interrogar."
+        },
+        {
+          "text": "Cambiar el tema a un área neutral y observar si el gesto persiste.",
+          "outcome": "El candidato se relaja y recupera la postura abierta.",
+          "wisdomScore": 95,
+          "analysis": "La calibración requiere observar cambios en la línea base.",
+          "bookInsight": "Busca grupos de gestos, no señales aisladas."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC-001",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Gestos de Autoconsuelo",
+      "definition": "Acciones como tocarse el cuello o frotarse las manos para reducir el estrés.",
+      "tacticalUse": "Identificar ansiedad oculta en una negociación.",
+      "countermeasure": "Mantener las manos visibles y relajadas para proyectar calma."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM-001",
+      "category": "Psicología Oscura",
+      "name": "Espejo Táctico",
+      "severity": "Moderada",
+      "icon": "Mirror",
+      "howItWorks": "Imitar sutilmente la postura del interlocutor para generar confianza.",
+      "redFlags": "Si el otro nota la imitación, se siente manipulado.",
+      "counterScript": "Cambiar de postura abruptamente para romper el patrón.",
+      "deepMechanism": "Activa las neuronas espejo creando una falsa sensación de afinidad."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q-001",
+      "bookNumber": 1,
+      "question": "¿Qué indica principalmente el cruce de brazos?",
+      "options": [
+        "Agresividad",
+        "Protección o incomodidad",
+        "Interés genuino",
+        "Superioridad"
+      ],
+      "correctIndex": 1,
+      "explanation": "Aunque puede ser defensivo, a menudo es un mecanismo de autorregulación ante el estrés."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "GL-001",
+      "term": "Línea Base",
+      "category": "Metodología",
+      "definition": "Comportamiento natural de una persona cuando está relajada.",
+      "practicalExample": "Observar cómo habla alguien antes de hacerle una pregunta difícil."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BLL-001",
+      "category": "Microexpresiones",
+      "title": "El Desprecio Fugaz",
+      "cue": "Elevación unilateral de una comisura labial.",
+      "interpretation": "Sentimiento de superioridad o falta de respeto.",
+      "practicalDrill": "Practicar frente al espejo elevando solo un lado del labio para reconocer la tensión muscular necesaria."
     }
   ]
 };

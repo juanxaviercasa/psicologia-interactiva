@@ -1,3 +1,4 @@
+// Contenido enriquecido para Cómo Analizar a las Personas: Comunicación Total
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_2.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>--- Table of Contents Introducción Capítulo Uno: ¿Cómo Puede Alguien Leer a las Personas? Capítulo Dos: Nuestros Cuerpos y la Manera en la que Hablan Capítulo Tres: Aspectos Básicos Capítulo Cuatro: Verbal vs. No verbal Capítulo Cinco: Tu Mente y la Manera en la que te Comunicas Capítulo Seis: Complejidades de la Cara Capítulo Siete: La Verdad y las Relaciones Capítulo Ocho: Confianza y Cómo se Muestra Capítulo Nueve: Cómo Fingir tu Lenguaje Corporal Conclusión ¡Descarga la versión audiolibro de este libro gratis! Si amas escuchar libros en el camino, tengo buenas noticias para ti. ¡Puedes descargar la versión audiolibro de este libro GRATIS solo al suscribirte a una prueba GRATIS por 30 días de Audible! ¡Lee abajo para más detalles! Beneficios de la Prueba de Audible Como cliente de Audible, recibirás los siguientes beneficios con tu prueba gratis de 30 días: Copia GRATIS en Audible de este libro Después de la prueba, recibirás 1 crédito cada mes para usar en cualquier audiolibro. Tus créditos se acumulan automáticamente para el siguiente mes si no los usas Elige más de 200.000 títulos en Audible Escucha donde sea con la aplicación Audible a través de múltiples dispositivos. Haz intercambios fáciles y sin trabas de cualquier audiolibro que no te guste. Mantienes para siempre tus audiolibros, incluso si cancelas tu membresía. Y mucho más ¡Haz clic en los enlaces de abajo para iniciar! Para Audible en EE.UU. Para Audible en el Reino Unido Para Audible en Francia Para Audible e",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Observación y Calibración en Entornos Reales\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/analizar_personas/cap_mod1_observador.webp\" alt=\"Observación y Calibración en Entornos Reales\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Table of Contents Introducción Capítulo Uno: ¿Cómo Puede Alguien Leer a las Personas? Capítulo Dos: Nuestros Cuerpos y la Manera en la que Hablan Capítulo Tres: Aspectos Básicos Capítulo Cuatro: Verbal vs. No verbal Capítulo Cinco: Tu Mente y la Manera en la que te Comunicas Capítulo Seis: Complejidades de la Cara Capítulo Siete: La Verdad y las Relaciones Capítulo Ocho: Confianza y Cómo se Muestra Capítulo Nueve: Cómo Fingir tu Lenguaje Corporal Conclusión ¡Descarga la versión audiolibro de este libro gratis! Si amas escuchar libros en el camino, tengo buenas noticias para ti. ¡Puedes descargar la versión audiolibro de este libro GRATIS solo al suscribirte a una prueba GRATIS por 30 días de Audible! ¡Lee abajo para más detalles! Beneficios de la Prueba de Audible Como cliente de Audible, recibirás los siguientes beneficios con tu prueba gratis de 30 días: Copia GRATIS en Audible de este libro Después de la prueba, recibirás 1 crédito cada mes para usar en cualquier audiolibro. Tus créditos se acumulan automáticamente para el siguiente mes si no los usas Elige más de 200.000 títulos en Audible Escucha donde sea con la aplicación Audible a través de múltiples dispositivos. Haz intercambios fáciles y sin trabas de cualquier audiolibro que no te guste. Mantienes para siempre tus audiolibros, incluso si cancelas tu membresía. Y mucho más ¡Haz clic en los enlaces de abajo para iniciar! Para Audible en EE.UU. Para Audible en el Reino Unido Para Audible en Francia Para Audible e",
           "interactiveChallenge": {
             "question": "¿Cuál es la norma fundamental recomendada en los preliminares e introducción para evitar sobreinterpretar un solo gesto?",
             "options": [
@@ -246,7 +247,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo Uno: ¿Cómo Puede Alguien Leer a las Personas? Si te pareces a mí, te encanta un buen misterio de detectives. Todos conocen al mejor detective de misterios de todos los tiempos: Sherlock Holmes, por supuesto. Sherlock Holmes es más conocido como el maestro del razonamiento deductivo y es muy común en círculos literarios. Este personaje es famoso por su capacidad innata de ver a una persona y saber su vida entera. Desde el desayuno que tuvieron esa mañana hasta algún evento traumático de su niñez, él puede adivinarlo con tan solo una mirada. Puedes estar pensando que esto es simplemente cosa de ficción; bueno, en su mayoría, estás en lo correcto. Sin embargo, podrías sorprenderte de lo poderoso que puede ser el entendimiento del lenguaje corporal propio. Un estudio reciente en MIT encontró que el resultado de las negociaciones podría ser predicho positivamente por solo el lenguaje corporal en aproximadamente el 87% de los casos. Puedes estar pensando: “Esto es increíble; ¡todos mis sueños se hacen realidad! ¡Sherlock Holmes es real!”. Bueno, no tan rápido. Sí, puedes saber más de una persona mediante su lenguaje corporal de lo que normalmente se piensa, pero se basa en un sistema mucho más diferente de lo que muchos piensan. La mayoría de las ideas comunes detrás del análisis de una persona mediante su lenguaje corporal están basadas solamente en mitos y malentendidos. La verdadera investigación detrás de la lectura del lenguaje corporal de una persona es bastante dife",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Entrevista Analítica y Establecimiento de Línea Base\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/analizar_personas/cap_mod2_lineabase.webp\" alt=\"Entrevista Analítica y Establecimiento de Línea Base\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo Uno: ¿Cómo Puede Alguien Leer a las Personas? Si te pareces a mí, te encanta un buen misterio de detectives. Todos conocen al mejor detective de misterios de todos los tiempos: Sherlock Holmes, por supuesto. Sherlock Holmes es más conocido como el maestro del razonamiento deductivo y es muy común en círculos literarios. Este personaje es famoso por su capacidad innata de ver a una persona y saber su vida entera. Desde el desayuno que tuvieron esa mañana hasta algún evento traumático de su niñez, él puede adivinarlo con tan solo una mirada. Puedes estar pensando que esto es simplemente cosa de ficción; bueno, en su mayoría, estás en lo correcto. Sin embargo, podrías sorprenderte de lo poderoso que puede ser el entendimiento del lenguaje corporal propio. Un estudio reciente en MIT encontró que el resultado de las negociaciones podría ser predicho positivamente por solo el lenguaje corporal en aproximadamente el 87% de los casos. Puedes estar pensando: “Esto es increíble; ¡todos mis sueños se hacen realidad! ¡Sherlock Holmes es real!”. Bueno, no tan rápido. Sí, puedes saber más de una persona mediante su lenguaje corporal de lo que normalmente se piensa, pero se basa en un sistema mucho más diferente de lo que muchos piensan. La mayoría de las ideas comunes detrás del análisis de una persona mediante su lenguaje corporal están basadas solamente en mitos y malentendidos. La verdadera investigación detrás de la lectura del lenguaje corporal de una persona es bastante dife",
           "interactiveChallenge": {
             "question": "En el Capítulo 1 sobre cómo leer a las personas, ¿qué significa establecer la 'línea base' (baseline) de un individuo?",
             "options": [
@@ -369,7 +370,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Capítulo Dos: Nuestros Cuerpos y la Manera en la que Hablan Estoy seguro de que todos hemos escuchado los clichés sobre cómo nuestros ojos son las ventanas hacia nuestra alma. Sin embargo, para poder leer apropiadamente a otra persona como si fuese un libro, tendrás que ver la foto completa. En otras palabras, tendrás que poder ver más que solo su cara, manos u ojos. Tendrás que poder leer cada pulgada de su cuerpo y entender lo que cada sección de su cuerpo está tratando de comunicarte, bien ellos lo sepan o no. Nuestras emociones son probablemente la cosa más fácil que podemos leer en el cuerpo. Esto es porque las emociones son algo que se siente inconscientemente, y nuestros cuerpos responden a ellas en maneras que no siempre podemos controlar o entender. Típicamente, ni siquiera notamos cuando nuestros cuerpos están haciendo cosas que podrían revelar nuestras más íntimas emociones. La razón por la que esto es tan difícil de notar y entender es que esto ocurre todo el tiempo sin pausa. El comportamiento corporal no verbal ocurre por todo nuestro cuerpo con más frecuencia de lo que notamos. Además, la interpretación y entendimiento de estas acciones corporales, colectivamente conocidas como nuestro lenguaje corporal, es algo que también ocurre simultáneamente. Al simplemente ver la postura que alguien tiene, podemos saber instantáneamente cómo ellos se están sintiendo o cómo se sienten hacia nosotros sin siquiera saber que ya hemos realizado ese juicio. Esta es una habi",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Anatomía de Posturas Abiertas vs Defensivas\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/analizar_personas/cap_mod3_posturas.webp\" alt=\"Anatomía de Posturas Abiertas vs Defensivas\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Capítulo Dos: Nuestros Cuerpos y la Manera en la que Hablan Estoy seguro de que todos hemos escuchado los clichés sobre cómo nuestros ojos son las ventanas hacia nuestra alma. Sin embargo, para poder leer apropiadamente a otra persona como si fuese un libro, tendrás que ver la foto completa. En otras palabras, tendrás que poder ver más que solo su cara, manos u ojos. Tendrás que poder leer cada pulgada de su cuerpo y entender lo que cada sección de su cuerpo está tratando de comunicarte, bien ellos lo sepan o no. Nuestras emociones son probablemente la cosa más fácil que podemos leer en el cuerpo. Esto es porque las emociones son algo que se siente inconscientemente, y nuestros cuerpos responden a ellas en maneras que no siempre podemos controlar o entender. Típicamente, ni siquiera notamos cuando nuestros cuerpos están haciendo cosas que podrían revelar nuestras más íntimas emociones. La razón por la que esto es tan difícil de notar y entender es que esto ocurre todo el tiempo sin pausa. El comportamiento corporal no verbal ocurre por todo nuestro cuerpo con más frecuencia de lo que notamos. Además, la interpretación y entendimiento de estas acciones corporales, colectivamente conocidas como nuestro lenguaje corporal, es algo que también ocurre simultáneamente. Al simplemente ver la postura que alguien tiene, podemos saber instantáneamente cómo ellos se están sintiendo o cómo se sienten hacia nosotros sin siquiera saber que ya hemos realizado ese juicio. Esta es una habi",
           "interactiveChallenge": {
             "question": "Según el Capítulo 2 (Nuestros cuerpos y cómo hablan), ¿qué suelen indicar los pies orientados hacia la salida durante una conversación?",
             "options": [
@@ -869,7 +870,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo Tres: Aspectos Básicos En el mundo moderno de política y negocios, muchas personas ahora entienden que todo gira en torno a la apariencia y el lenguaje en vez del mérito puro de una persona. Debido a esto, la amplia mayoría de políticos de alto perfil tienen a sus propios asesores de lenguaje corporal que les ayudan a parecer honestos, atentos y responsables. Desde la década de 1960, la evolución de nuestro lenguaje corporal ha sido estudiada y el público conoció el mundo del lenguaje corporal mediante un libro titulado “Body Language” (“Lenguaje Corporal”), el cual fue publicado en 1978. A pesar de esto, la mayoría de los individuos creen que el habla es nuestra forma principal de comunicación. Bueno, el habla es muy importante para comunicar nuestros pensamientos a nuestros semejantes. El habla evolucionaria ha estado con la raza humana por un corto periodo de tiempo. Antes del lenguaje moderno, podías entender lo que las personas querían decir o sentir hacia ti a través de su lenguaje corporal. Todavía somos capaces de esto hoy, pero se hace mucho más difícil debido al peso que se le tiene a la palabra hablada. Con un par de trucos y consejos simples, puedes comenzar los aspectos básicos de leer el lenguaje corporal de alguien como si fuese un segundo idioma. Lo primero que vamos a discutir es la necesidad de poder entender la condición emocional de una persona mientras escuchas lo que ellos están diciéndote y tomar eso en consideración con las circunstancias bajo",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> La Regla de Tres: Detección por Cúmulo de Gestos\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/analizar_personas/cap_mod4_cluster.webp\" alt=\"La Regla de Tres: Detección por Cúmulo de Gestos\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo Tres: Aspectos Básicos En el mundo moderno de política y negocios, muchas personas ahora entienden que todo gira en torno a la apariencia y el lenguaje en vez del mérito puro de una persona. Debido a esto, la amplia mayoría de políticos de alto perfil tienen a sus propios asesores de lenguaje corporal que les ayudan a parecer honestos, atentos y responsables. Desde la década de 1960, la evolución de nuestro lenguaje corporal ha sido estudiada y el público conoció el mundo del lenguaje corporal mediante un libro titulado “Body Language” (“Lenguaje Corporal”), el cual fue publicado en 1978. A pesar de esto, la mayoría de los individuos creen que el habla es nuestra forma principal de comunicación. Bueno, el habla es muy importante para comunicar nuestros pensamientos a nuestros semejantes. El habla evolucionaria ha estado con la raza humana por un corto periodo de tiempo. Antes del lenguaje moderno, podías entender lo que las personas querían decir o sentir hacia ti a través de su lenguaje corporal. Todavía somos capaces de esto hoy, pero se hace mucho más difícil debido al peso que se le tiene a la palabra hablada. Con un par de trucos y consejos simples, puedes comenzar los aspectos básicos de leer el lenguaje corporal de alguien como si fuese un segundo idioma. Lo primero que vamos a discutir es la necesidad de poder entender la condición emocional de una persona mientras escuchas lo que ellos están diciéndote y tomar eso en consideración con las circunstancias bajo",
           "interactiveChallenge": {
             "question": "En los aspectos básicos descritos en el Capítulo 3, ¿qué papel juega el principio de 'calibración'?",
             "options": [
@@ -1021,7 +1022,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo Cuatro: Verbal vs. No verbal El lenguaje es increíble. Como humanos, tenemos una capacidad mejorada de comunicarnos entre nosotros. Este nivel de comunicación es una parte de la razón por la cual hemos podido avanzar tanto en nuestra evolución. El avance de nuestra comunicación resulta en avances en nuestra sociedad. Dentro de este capítulo, discutiremos las maneras en la que nuestra comunicación es más avanzada y las complejidades detrás del comportamiento verbal y no verbal. Más importante, vamos a definir el comportamiento verbal y no verbal y daremos dos diferencias entre ellos y aprenderemos a analizar las afirmaciones que otros individuos hacen verbalmente. Más específicamente, aprenderemos cómo analizar estas afirmaciones verbales usando un lenguaje no verbal. También nos adentraremos en las complejidades de analizar el comportamiento no verbal a nuestro alrededor. Definiendo el Comportamiento No Verbal La comunicación o comportamiento no verbal es la emisión de ideas o emociones de forma consciente o inconsciente mediante movimientos físicos o una serie de gestos bien conocidos y comprendidos. Los mensajes pueden ser transferidos de forma no verbal mediante una variedad de señales y métodos. La primera de estas señales definitorias son métodos conocidos como proxemias. Las proxemias esencialmente significan la distancia entre dos individuos. La distancia entre dos individuos o proxemias conlleva mucho peso en términos de comunicación no verbal. El segundo mét",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Incongruencia Verbal vs Microfuga Corporal\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/analizar_personas/cap_mod5_incongruencia.webp\" alt=\"Incongruencia Verbal vs Microfuga Corporal\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo Cuatro: Verbal vs. No verbal El lenguaje es increíble. Como humanos, tenemos una capacidad mejorada de comunicarnos entre nosotros. Este nivel de comunicación es una parte de la razón por la cual hemos podido avanzar tanto en nuestra evolución. El avance de nuestra comunicación resulta en avances en nuestra sociedad. Dentro de este capítulo, discutiremos las maneras en la que nuestra comunicación es más avanzada y las complejidades detrás del comportamiento verbal y no verbal. Más importante, vamos a definir el comportamiento verbal y no verbal y daremos dos diferencias entre ellos y aprenderemos a analizar las afirmaciones que otros individuos hacen verbalmente. Más específicamente, aprenderemos cómo analizar estas afirmaciones verbales usando un lenguaje no verbal. También nos adentraremos en las complejidades de analizar el comportamiento no verbal a nuestro alrededor. Definiendo el Comportamiento No Verbal La comunicación o comportamiento no verbal es la emisión de ideas o emociones de forma consciente o inconsciente mediante movimientos físicos o una serie de gestos bien conocidos y comprendidos. Los mensajes pueden ser transferidos de forma no verbal mediante una variedad de señales y métodos. La primera de estas señales definitorias son métodos conocidos como proxemias. Las proxemias esencialmente significan la distancia entre dos individuos. La distancia entre dos individuos o proxemias conlleva mucho peso en términos de comunicación no verbal. El segundo mét",
           "interactiveChallenge": {
             "question": "De acuerdo con el Capítulo 4 (Verbal vs. No Verbal), cuando el canal verbal de una persona entra en conflicto con su canal no verbal, ¿cuál debe priorizarse?",
             "options": [
@@ -1231,7 +1232,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Capítulo Cinco: Tu Mente y la Manera en la que te Comunicas La mayor parte de la comunicación de un individuo no se basa solamente en lo que ellos activamente tratan de transmitir. Una mayor y mucho más activa parte de nuestra comunicación se basa en lo que no notamos que estamos transmitiendo al mundo. Nuestro cuerpo puede revelar nuestras emociones más profundas y sentimientos sin nosotros notarlo todo el tiempo. Esto no ocurre aleatoriamente, por supuesto. La manera en la que nuestra mente se comunica sin nosotros notarlo se basa en dos teorías principales de pensamiento. Estas son conocidas como la mente inconsciente y el cerebro límbico. En el siguiente capítulo, definiré y explicaré la importancia de la mente inconsciente y el cerebro límbico en nuestra comunicación. Mente Inconsciente La mente inconsciente se origina de la Teoría Psicoanalítica de la Personalidad de Freud. En esta teoría, Freud define la mente inconsciente como un pozo escondido de sentimientos, pensamientos, necesidades y recuerdos que están separados de nuestro conocimiento consciente sobre los sentimientos. El contenido de nuestra mente inconsciente tiende a ser desagradable o deprimente. Tiende a incluir sentimientos de dolor, ansiedad o conflicto. Es debido a estos sentimientos y emociones negativas que nuestra mente inconsciente se mantiene fuera de nuestro conocimiento consciente. Ya que, a nivel subconsciente no queremos recordar o sentir estos sentimientos, nosotros entonces tratamos de ig",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Vías Autónomas del Cerebro Límbico\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/analizar_personas/cap_mod6_cerebro_limbico.webp\" alt=\"Vías Autónomas del Cerebro Límbico\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Capítulo Cinco: Tu Mente y la Manera en la que te Comunicas La mayor parte de la comunicación de un individuo no se basa solamente en lo que ellos activamente tratan de transmitir. Una mayor y mucho más activa parte de nuestra comunicación se basa en lo que no notamos que estamos transmitiendo al mundo. Nuestro cuerpo puede revelar nuestras emociones más profundas y sentimientos sin nosotros notarlo todo el tiempo. Esto no ocurre aleatoriamente, por supuesto. La manera en la que nuestra mente se comunica sin nosotros notarlo se basa en dos teorías principales de pensamiento. Estas son conocidas como la mente inconsciente y el cerebro límbico. En el siguiente capítulo, definiré y explicaré la importancia de la mente inconsciente y el cerebro límbico en nuestra comunicación. Mente Inconsciente La mente inconsciente se origina de la Teoría Psicoanalítica de la Personalidad de Freud. En esta teoría, Freud define la mente inconsciente como un pozo escondido de sentimientos, pensamientos, necesidades y recuerdos que están separados de nuestro conocimiento consciente sobre los sentimientos. El contenido de nuestra mente inconsciente tiende a ser desagradable o deprimente. Tiende a incluir sentimientos de dolor, ansiedad o conflicto. Es debido a estos sentimientos y emociones negativas que nuestra mente inconsciente se mantiene fuera de nuestro conocimiento consciente. Ya que, a nivel subconsciente no queremos recordar o sentir estos sentimientos, nosotros entonces tratamos de ig",
           "interactiveChallenge": {
             "question": "En el Capítulo 5 (Tu mente y comunicación), ¿cómo influye el 'sesgo de confirmación' en el analista de lenguaje corporal?",
             "options": [
@@ -1412,7 +1413,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo Seis: Complejidades de la Cara Regresando a nuestros métodos de comunicación no verbal y la lectura del lenguaje corporal, llegamos a las complejidades y las complicaciones extremas de la comunicación facial. La cara es un enorme indicador de comunicación no verbal dentro del lenguaje corporal. La cara tiende a decirlo todo. La cara también es la más difícil de controlar cuando tratas de regular tu propio lenguaje corporal. Dentro de este capítulo, discutiremos el uso de la cara como un método de comunicación no verbal y cómo podemos leer fácilmente la nuestra. También analizaremos las partes expresivas de la cara y lo que ellas pueden decir en términos de comunicación no verbal. Muchas partes de la cara son las primeras cosas a considerar cuando vemos a una nueva persona. Debido a esto, mucho puede ser transmitido dentro de la cara de la persona. Esto es parcialmente un resultado evolutivo debido a que pasamos mucho tiempo mirando las caras de las personas que nos rodean al punto que hemos, con el tiempo, evolucionado para poder transmitir emociones y expresiones en nuestra cara de manera que nuestros semejantes no tienen que preguntar lo que sentimos. Existen algunos trucos para leer la cara de alguien más allá de una base simple para saber si están molestos contigo o no. La primera es mirar los ojos de una persona. Cuando comienzas a leer la cara de una persona, querrás empezar con sus ojos. Los ojos contienen la mayor expresión dentro de la cara de una persona. P",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Microexpresiones Faciales y Detección de Fugas Emocionales\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/analizar_personas/cap_mod7_microexpresiones.webp\" alt=\"Microexpresiones Faciales y Detección de Fugas Emocionales\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo Seis: Complejidades de la Cara Regresando a nuestros métodos de comunicación no verbal y la lectura del lenguaje corporal, llegamos a las complejidades y las complicaciones extremas de la comunicación facial. La cara es un enorme indicador de comunicación no verbal dentro del lenguaje corporal. La cara tiende a decirlo todo. La cara también es la más difícil de controlar cuando tratas de regular tu propio lenguaje corporal. Dentro de este capítulo, discutiremos el uso de la cara como un método de comunicación no verbal y cómo podemos leer fácilmente la nuestra. También analizaremos las partes expresivas de la cara y lo que ellas pueden decir en términos de comunicación no verbal. Muchas partes de la cara son las primeras cosas a considerar cuando vemos a una nueva persona. Debido a esto, mucho puede ser transmitido dentro de la cara de la persona. Esto es parcialmente un resultado evolutivo debido a que pasamos mucho tiempo mirando las caras de las personas que nos rodean al punto que hemos, con el tiempo, evolucionado para poder transmitir emociones y expresiones en nuestra cara de manera que nuestros semejantes no tienen que preguntar lo que sentimos. Existen algunos trucos para leer la cara de alguien más allá de una base simple para saber si están molestos contigo o no. La primera es mirar los ojos de una persona. Cuando comienzas a leer la cara de una persona, querrás empezar con sus ojos. Los ojos contienen la mayor expresión dentro de la cara de una persona. P",
           "interactiveChallenge": {
             "question": "Dentro del Capítulo 6 (Complejidades de la cara), ¿qué distingue a una sonrisa Duchenne (genuina) de una sonrisa falsa?",
             "options": [
@@ -2057,7 +2058,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo Siete: La Verdad y las Relaciones Las relaciones están llenas hasta el tope con señales extremadamente potentes de lenguaje corporal. Determinar cuáles de las señales son positivas o negativas depende de la relación. Desafortunadamente, las relaciones están también llenas de mentiras entre las personas. Para ayudarte a entender tu propia relación y la relación de otros, dentro de este capítulo, detallaremos cómo puedes analizar las relaciones en las que no estás y cómo saber si los individuos dentro de esa relación tienen conexiones buenas y positivas entre ellos. También aprenderás cómo juzgar si los individuos en una relación realmente aman a sus respectivas parejas. También aprenderás cómo saber si alguien te ama verdadera y completamente. También aprenderás señales comunes de cuándo una mujer está lista para salir en citas o salir en citas con un individuo. También aprenderás las señales similares para un hombre. Este capítulo será muy beneficioso para cualquiera que piense en estar en una relación o se encuentre actualmente en una relación a largo plazo. Mentir Poder saber si alguien le está mintiendo a otra persona es una habilidad muy importante y poderosa. Dentro de una relación, mentir es desafortunadamente muy común y se ve con frecuencia en la sociedad moderna. Poder saber cuándo una persona está mintiendo podría salvarte de una relación dolorosa y emocionalmente hiriente. Es más fácil detectar si alguien está mintiendo cuando estás fuera de la relación, p",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Dinámicas de la Verdad y la Mentira en Relaciones Interpersonales\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/analizar_personas/cap_mod8_verdad_relaciones.webp\" alt=\"Dinámicas de la Verdad y la Mentira en Relaciones Interpersonales\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo Siete: La Verdad y las Relaciones Las relaciones están llenas hasta el tope con señales extremadamente potentes de lenguaje corporal. Determinar cuáles de las señales son positivas o negativas depende de la relación. Desafortunadamente, las relaciones están también llenas de mentiras entre las personas. Para ayudarte a entender tu propia relación y la relación de otros, dentro de este capítulo, detallaremos cómo puedes analizar las relaciones en las que no estás y cómo saber si los individuos dentro de esa relación tienen conexiones buenas y positivas entre ellos. También aprenderás cómo juzgar si los individuos en una relación realmente aman a sus respectivas parejas. También aprenderás cómo saber si alguien te ama verdadera y completamente. También aprenderás señales comunes de cuándo una mujer está lista para salir en citas o salir en citas con un individuo. También aprenderás las señales similares para un hombre. Este capítulo será muy beneficioso para cualquiera que piense en estar en una relación o se encuentre actualmente en una relación a largo plazo. Mentir Poder saber si alguien le está mintiendo a otra persona es una habilidad muy importante y poderosa. Dentro de una relación, mentir es desafortunadamente muy común y se ve con frecuencia en la sociedad moderna. Poder saber cuándo una persona está mintiendo podría salvarte de una relación dolorosa y emocionalmente hiriente. Es más fácil detectar si alguien está mintiendo cuando estás fuera de la relación, p",
           "interactiveChallenge": {
             "question": "En el Capítulo 7 (La verdad y las relaciones), ¿qué indicador suele revelar una disminución del afecto o creciente distancia en la pareja?",
             "options": [
@@ -2673,7 +2674,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Capítulo Ocho: Confianza y Cómo se Muestra La confianza es una emoción muy poderosa en la sociedad de hoy. Un individuo que parece ser muy seguro de sí mismo puede llegar lejos en la vida. Al emanar confianza, una persona puede atraer a parejas apropiadas así como ser dado ascensos basados en sus percibidas capacidades de liderazgo. Debido a esto, la confianza se muestra muy comúnmente en diferentes formas. Sin embargo, la confianza también puede ser fingida en muchas otras ocasiones para poder lograr algo en la vida. Dentro de este capítulo, revisaremos las maneras comunes en la que la confianza se muestra mediante el lenguaje corporal. Adicionalmente, hablaremos sobre cómo puedes detectar la falta de confianza en un individuo. Mostrando Confianza Postura La postura es muy importante en la apariencia de confianza. La postura de un individuo puede decir mucho sobre su nivel percibido de confianza. Una postura llena de confianza está definida por piernas que están alineadas con los hombros de un individuo y pies aproximadamente de 4 a 6 pulgadas de separación. El peso está típicamente distribuido equitativamente en las dos piernas y los hombros están empujados hacia atrás ligeramente. Una espalda recta también es algo bastante típico de alguien con extrema confianza. Los individuos con este tipo de postura son considerados asertivos y tienden a proyectar confianza. Esto es debido a que un individuo con esta postura es visto como alguien que “camina derecho” sin importar su",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Proyección Kinésica de Seguridad, Presencia y Calibración Alfa\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/analizar_personas/cap_mod9_confianza_presencia.webp\" alt=\"Proyección Kinésica de Seguridad, Presencia y Calibración Alfa\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Capítulo Ocho: Confianza y Cómo se Muestra La confianza es una emoción muy poderosa en la sociedad de hoy. Un individuo que parece ser muy seguro de sí mismo puede llegar lejos en la vida. Al emanar confianza, una persona puede atraer a parejas apropiadas así como ser dado ascensos basados en sus percibidas capacidades de liderazgo. Debido a esto, la confianza se muestra muy comúnmente en diferentes formas. Sin embargo, la confianza también puede ser fingida en muchas otras ocasiones para poder lograr algo en la vida. Dentro de este capítulo, revisaremos las maneras comunes en la que la confianza se muestra mediante el lenguaje corporal. Adicionalmente, hablaremos sobre cómo puedes detectar la falta de confianza en un individuo. Mostrando Confianza Postura La postura es muy importante en la apariencia de confianza. La postura de un individuo puede decir mucho sobre su nivel percibido de confianza. Una postura llena de confianza está definida por piernas que están alineadas con los hombros de un individuo y pies aproximadamente de 4 a 6 pulgadas de separación. El peso está típicamente distribuido equitativamente en las dos piernas y los hombros están empujados hacia atrás ligeramente. Una espalda recta también es algo bastante típico de alguien con extrema confianza. Los individuos con este tipo de postura son considerados asertivos y tienden a proyectar confianza. Esto es debido a que un individuo con esta postura es visto como alguien que “camina derecho” sin importar su",
           "interactiveChallenge": {
             "question": "Según el Capítulo 8 (Confianza y cómo se muestra), ¿cuál de los siguientes gestos transmite de forma consistente alta confianza y seguridad?",
             "options": [
@@ -2854,7 +2855,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo Nueve: Cómo Fingir tu Lenguaje Corporal Dentro de este capítulo, detallaremos algunas de las maneras más fáciles de fingir tu lenguaje corporal para poder emanar diferentes emociones o expresiones a aquellos a tu alrededor. Estos métodos pueden ser beneficiosos en la vida diaria al igual que en el trabajo. Ellos también pueden servirte bien para comenzar relaciones. Estos métodos también harán un buen trabajo al ayudarte a sentir lo que quieres sentir. ¿Has oído la frase “finge hasta que se sienta real”? Bueno, en ciertos casos, esto es cierto. Al fingir sentir algunas de las emociones, podrás convencerte a ti mismo que realmente te sientes así. 1. Respirar Profundo Al amplificar el suministro de oxígeno dentro de nuestros pulmones, podemos recibir más poder y más capacidad de fingir nuestras emociones mediante el lenguaje corporal. Esto también nos da un momento para recuperar nuestra compostura y fingir estar calmados y pensativos. Adicionalmente, respirar profundamente tiende a estimular el sistema nervioso parasimpático, el cual puede desencadenar una respuesta de relajación. Esto es muy bueno, especialmente cuando tratas de engañar a aquellos a tu alrededor para que piensen que estás calmado en una situación. Respirar profundo es un truco muy bueno para una vida consciente, ya que te da más poder en tu cuerpo y tus reacciones a estímulos. 2. Controlar el movimiento de tus cejas Nuestras cejas pueden transmitir mucho sobre nuestros sentimientos internos. Mucho mo",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Máscaras Sociales, Camuflaje No Verbal y Autorregulación Conductual\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/analizar_personas/cap_mod10_fingir_mascaras.webp\" alt=\"Máscaras Sociales, Camuflaje No Verbal y Autorregulación Conductual\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo Nueve: Cómo Fingir tu Lenguaje Corporal Dentro de este capítulo, detallaremos algunas de las maneras más fáciles de fingir tu lenguaje corporal para poder emanar diferentes emociones o expresiones a aquellos a tu alrededor. Estos métodos pueden ser beneficiosos en la vida diaria al igual que en el trabajo. Ellos también pueden servirte bien para comenzar relaciones. Estos métodos también harán un buen trabajo al ayudarte a sentir lo que quieres sentir. ¿Has oído la frase “finge hasta que se sienta real”? Bueno, en ciertos casos, esto es cierto. Al fingir sentir algunas de las emociones, podrás convencerte a ti mismo que realmente te sientes así. 1. Respirar Profundo Al amplificar el suministro de oxígeno dentro de nuestros pulmones, podemos recibir más poder y más capacidad de fingir nuestras emociones mediante el lenguaje corporal. Esto también nos da un momento para recuperar nuestra compostura y fingir estar calmados y pensativos. Adicionalmente, respirar profundamente tiende a estimular el sistema nervioso parasimpático, el cual puede desencadenar una respuesta de relajación. Esto es muy bueno, especialmente cuando tratas de engañar a aquellos a tu alrededor para que piensen que estás calmado en una situación. Respirar profundo es un truco muy bueno para una vida consciente, ya que te da más poder en tu cuerpo y tus reacciones a estímulos. 2. Controlar el movimiento de tus cejas Nuestras cejas pueden transmitir mucho sobre nuestros sentimientos internos. Mucho mo",
           "interactiveChallenge": {
             "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿por qué es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
             "options": [
@@ -3056,6 +3057,594 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": 1,
+      "category": "Detección de Engaño",
+      "title": "La Entrevista de Alta Presión",
+      "difficulty": "Avanzado",
+      "badge": "Analista Senior",
+      "scenarioDescription": "Un sospechoso mantiene contacto visual constante pero sus pies apuntan hacia la salida. ¿Cómo procedes?",
+      "options": [
+        {
+          "text": "Confrontar sobre la dirección de sus pies.",
+          "outcome": "El sujeto se pone a la defensiva.",
+          "wisdomScore": 40,
+          "analysis": "La confrontación directa rompe el rapport.",
+          "bookInsight": "El cuerpo revela la intención de huida antes que la mente."
+        },
+        {
+          "text": "Cambiar el tema a algo neutral para observar el cambio de postura.",
+          "outcome": "El sujeto se relaja y sus pies se alinean.",
+          "wisdomScore": 95,
+          "analysis": "La calibración mediante cambio de estímulo es clave.",
+          "bookInsight": "La línea base se establece mediante la observación de cambios."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Negociación",
+      "title": "El Cierre del Trato",
+      "difficulty": "Intermedio",
+      "badge": "Negociador Maestro",
+      "scenarioDescription": "Tu contraparte cruza los brazos pero asiente con la cabeza. ¿Qué significa?",
+      "options": [
+        {
+          "text": "Está de acuerdo, el cruce es por frío.",
+          "outcome": "El trato fracasa.",
+          "wisdomScore": 30,
+          "analysis": "Ignorar la incongruencia es un error fatal.",
+          "bookInsight": "El lenguaje corporal debe leerse en grupos de tres."
+        },
+        {
+          "text": "Es una barrera defensiva; el asentimiento es cortesía social.",
+          "outcome": "Reajustas tu propuesta.",
+          "wisdomScore": 90,
+          "analysis": "Identificaste la disonancia cognitiva.",
+          "bookInsight": "Las palabras pueden mentir, el cuerpo rara vez lo hace."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Liderazgo",
+      "title": "La Reunión de Crisis",
+      "difficulty": "Experto",
+      "badge": "Líder Persuasivo",
+      "scenarioDescription": "Un empleado toca su nariz mientras explica un error. ¿Es mentira?",
+      "options": [
+        {
+          "text": "Es un gesto de engaño seguro.",
+          "outcome": "Acusación injusta.",
+          "wisdomScore": 20,
+          "analysis": "No hay gestos universales de mentira, solo indicadores de estrés.",
+          "bookInsight": "Busca grupos de gestos, no gestos aislados."
+        },
+        {
+          "text": "Es un indicador de estrés; investigo más.",
+          "outcome": "Descubres una presión externa.",
+          "wisdomScore": 95,
+          "analysis": "El gesto indica incomodidad, no necesariamente engaño.",
+          "bookInsight": "El contexto es el rey de la interpretación."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Relaciones",
+      "title": "La Cita Decisiva",
+      "difficulty": "Principiante",
+      "badge": "Observador Agudo",
+      "scenarioDescription": "Tu interlocutor imita tu postura (espejo). ¿Qué indica?",
+      "options": [
+        {
+          "text": "Está aburrido y copia por inercia.",
+          "outcome": "Pierdes la oportunidad.",
+          "wisdomScore": 10,
+          "analysis": "El espejeo es una señal de alta afinidad.",
+          "bookInsight": "El espejeo es la forma más pura de empatía no verbal."
+        },
+        {
+          "text": "Hay una conexión y sintonía emocional.",
+          "outcome": "La relación prospera.",
+          "wisdomScore": 100,
+          "analysis": "El espejeo confirma el rapport.",
+          "bookInsight": "La sincronía corporal precede a la verbal."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Detección de Engaño",
+      "title": "El Testigo Oculto",
+      "difficulty": "Avanzado",
+      "badge": "Detector de Mentiras",
+      "scenarioDescription": "El sujeto parpadea rápidamente al responder una pregunta clave.",
+      "options": [
+        {
+          "text": "Es una señal de mentira.",
+          "outcome": "Error de juicio.",
+          "wisdomScore": 30,
+          "analysis": "El parpadeo es estrés, no necesariamente engaño.",
+          "bookInsight": "La carga cognitiva aumenta el parpadeo."
+        },
+        {
+          "text": "Es un aumento de carga cognitiva.",
+          "outcome": "Profundizas en la pregunta.",
+          "wisdomScore": 90,
+          "analysis": "El cerebro está procesando información compleja.",
+          "bookInsight": "La mentira requiere más esfuerzo mental que la verdad."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Psicología Oscura",
+      "title": "El Manipulador",
+      "difficulty": "Experto",
+      "badge": "Maestro de la Mente",
+      "scenarioDescription": "Alguien intenta intimidarte invadiendo tu espacio personal.",
+      "options": [
+        {
+          "text": "Retroceder para mantener la paz.",
+          "outcome": "Pierdes el marco de poder.",
+          "wisdomScore": 20,
+          "analysis": "Ceder espacio es ceder autoridad.",
+          "bookInsight": "El espacio personal es una extensión del ego."
+        },
+        {
+          "text": "Mantener tu posición y usar contacto visual firme.",
+          "outcome": "El agresor se retira.",
+          "wisdomScore": 95,
+          "analysis": "Has establecido un límite infranqueable.",
+          "bookInsight": "La postura erguida comunica dominio."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": 1,
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Espejeo",
+      "definition": "Imitación inconsciente de la postura del otro.",
+      "tacticalUse": "Generar confianza rápida.",
+      "countermeasure": "Romper el patrón para evaluar la reacción."
+    },
+    {
+      "id": 2,
+      "bookNumber": 2,
+      "category": "Microexpresiones",
+      "term": "Desprecio",
+      "definition": "Labio superior elevado unilateralmente.",
+      "tacticalUse": "Detectar superioridad oculta.",
+      "countermeasure": "Mantener la calma y no reaccionar."
+    },
+    {
+      "id": 3,
+      "bookNumber": 3,
+      "category": "Proxémica",
+      "term": "Zona Íntima",
+      "definition": "Espacio menor a 45 cm.",
+      "tacticalUse": "Establecer dominancia o intimidad.",
+      "countermeasure": "Expandir los brazos para reclamar espacio."
+    },
+    {
+      "id": 4,
+      "bookNumber": 4,
+      "category": "Detección",
+      "term": "Línea Base",
+      "definition": "Comportamiento normal de una persona.",
+      "tacticalUse": "Detectar desviaciones.",
+      "countermeasure": "Hacer preguntas irrelevantes al inicio."
+    },
+    {
+      "id": 5,
+      "bookNumber": 5,
+      "category": "Gestos",
+      "term": "Autocontacto",
+      "definition": "Tocarse la cara o cuello.",
+      "tacticalUse": "Detectar ansiedad.",
+      "countermeasure": "Preguntar qué le preocupa."
+    },
+    {
+      "id": 6,
+      "bookNumber": 6,
+      "category": "Oculésica",
+      "term": "Contacto Visual",
+      "definition": "Mirada sostenida.",
+      "tacticalUse": "Demostrar seguridad.",
+      "countermeasure": "Mirar al entrecejo si es intimidante."
+    },
+    {
+      "id": 7,
+      "bookNumber": 7,
+      "category": "Postura",
+      "term": "Postura Abierta",
+      "definition": "Brazos y piernas sin cruzar.",
+      "tacticalUse": "Mostrar receptividad.",
+      "countermeasure": "Cruzar brazos para cerrar la comunicación."
+    },
+    {
+      "id": 8,
+      "bookNumber": 8,
+      "category": "Gestos",
+      "term": "Manos en la nuca",
+      "definition": "Gesto de relajación o superioridad.",
+      "tacticalUse": "Proyectar confianza.",
+      "countermeasure": "Pedir que se siente derecho."
+    },
+    {
+      "id": 9,
+      "bookNumber": 9,
+      "category": "Detección",
+      "term": "Incongruencia",
+      "definition": "Diferencia entre palabras y gestos.",
+      "tacticalUse": "Identificar mentiras.",
+      "countermeasure": "Señalar la contradicción suavemente."
+    },
+    {
+      "id": 10,
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Pies hacia la salida",
+      "definition": "Orientación de los pies hacia la puerta.",
+      "tacticalUse": "Detectar deseo de irse.",
+      "countermeasure": "Bloquear la salida o cambiar de tema."
+    },
+    {
+      "id": 11,
+      "bookNumber": 2,
+      "category": "Microexpresiones",
+      "term": "Miedo",
+      "definition": "Cejas levantadas y ojos muy abiertos.",
+      "tacticalUse": "Detectar vulnerabilidad.",
+      "countermeasure": "Ofrecer seguridad."
+    },
+    {
+      "id": 12,
+      "bookNumber": 3,
+      "category": "Proxémica",
+      "term": "Invasión de espacio",
+      "definition": "Entrar en la zona personal.",
+      "tacticalUse": "Intimidar.",
+      "countermeasure": "Dar un paso atrás para recuperar control."
+    },
+    {
+      "id": 13,
+      "bookNumber": 4,
+      "category": "Detección",
+      "term": "Carga Cognitiva",
+      "definition": "Esfuerzo mental al mentir.",
+      "tacticalUse": "Hacer preguntas complejas.",
+      "countermeasure": "Preparar la historia con antelación."
+    },
+    {
+      "id": 14,
+      "bookNumber": 5,
+      "category": "Gestos",
+      "term": "Palmas abiertas",
+      "definition": "Mostrar las manos sin armas.",
+      "tacticalUse": "Generar honestidad.",
+      "countermeasure": "Observar si hay tensión en los dedos."
+    },
+    {
+      "id": 15,
+      "bookNumber": 6,
+      "category": "Oculésica",
+      "term": "Mirada lateral",
+      "definition": "Mirar de reojo.",
+      "tacticalUse": "Detectar sospecha.",
+      "countermeasure": "Preguntar qué está observando."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": 1,
+      "category": "Dominancia",
+      "name": "La Postura de Poder",
+      "severity": "Alta",
+      "icon": "👑",
+      "howItWorks": "Ocupar el máximo espacio posible.",
+      "redFlags": "Invasión de espacio ajeno.",
+      "counterScript": "Reducir el espacio y mantener calma.",
+      "deepMechanism": "Aumenta la testosterona y reduce el cortisol."
+    },
+    {
+      "id": 2,
+      "category": "Rapport",
+      "name": "Espejeo Sincrónico",
+      "severity": "Baja",
+      "icon": "🪞",
+      "howItWorks": "Copiar gestos sutilmente.",
+      "redFlags": "Copiar demasiado rápido.",
+      "counterScript": "Cambiar de postura bruscamente.",
+      "deepMechanism": "Activa neuronas espejo."
+    },
+    {
+      "id": 3,
+      "category": "Detección",
+      "name": "Análisis de Incongruencia",
+      "severity": "Media",
+      "icon": "⚠️",
+      "howItWorks": "Comparar palabras vs gestos.",
+      "redFlags": "Gestos tardíos.",
+      "counterScript": "Pedir repetición de la historia.",
+      "deepMechanism": "El cerebro no puede controlar todo a la vez."
+    },
+    {
+      "id": 4,
+      "category": "Persuasión",
+      "name": "Palmas a la Vista",
+      "severity": "Baja",
+      "icon": "✋",
+      "howItWorks": "Mostrar manos al hablar.",
+      "redFlags": "Manos ocultas en bolsillos.",
+      "counterScript": "Pedir que muestren las manos.",
+      "deepMechanism": "Señal evolutiva de no agresión."
+    },
+    {
+      "id": 5,
+      "category": "Defensa",
+      "name": "Bloqueo de Zona",
+      "severity": "Alta",
+      "icon": "🛡️",
+      "howItWorks": "Cruzar brazos ante presión.",
+      "redFlags": "Cierre total.",
+      "counterScript": "Ofrecer un objeto para que lo sostenga.",
+      "deepMechanism": "Protección del torso y órganos vitales."
+    },
+    {
+      "id": 6,
+      "category": "Detección",
+      "name": "Calibración de Estrés",
+      "severity": "Media",
+      "icon": "📉",
+      "howItWorks": "Establecer línea base.",
+      "redFlags": "Cambios bruscos de conducta.",
+      "counterScript": "Mantener neutralidad.",
+      "deepMechanism": "El sistema límbico reacciona al estrés."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "bookNumber": 1,
+      "question": "¿Qué indica que los pies apunten a la salida?",
+      "options": [
+        "Interés",
+        "Deseo de irse",
+        "Dominancia",
+        "Aburrimiento"
+      ],
+      "correctIndex": 1,
+      "explanation": "Los pies son la parte del cuerpo más honesta y revelan la intención de huida."
+    },
+    {
+      "id": 2,
+      "bookNumber": 2,
+      "question": "¿Qué es el espejeo?",
+      "options": [
+        "Mirarse al espejo",
+        "Copiar gestos",
+        "Mentir",
+        "Gritar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es la imitación inconsciente de la postura para generar rapport."
+    },
+    {
+      "id": 3,
+      "bookNumber": 3,
+      "question": "¿Cuál es la zona íntima?",
+      "options": [
+        "Más de 2 metros",
+        "1 metro",
+        "Menos de 45 cm",
+        "5 metros"
+      ],
+      "correctIndex": 2,
+      "explanation": "La zona íntima es el espacio más cercano y privado."
+    },
+    {
+      "id": 4,
+      "bookNumber": 4,
+      "question": "¿Qué es la línea base?",
+      "options": [
+        "La verdad",
+        "El comportamiento normal",
+        "La mentira",
+        "El silencio"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es el comportamiento estándar de una persona antes de ser analizada."
+    },
+    {
+      "id": 5,
+      "bookNumber": 5,
+      "question": "¿Qué indica tocarse la nariz?",
+      "options": [
+        "Alergia",
+        "Estrés o engaño",
+        "Felicidad",
+        "Poder"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es un gesto de autoconsuelo ante el estrés o la carga cognitiva."
+    },
+    {
+      "id": 6,
+      "bookNumber": 6,
+      "question": "¿Qué es la incongruencia?",
+      "options": [
+        "Sincronía",
+        "Disonancia entre palabras y gestos",
+        "Verdad",
+        "Amistad"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ocurre cuando el lenguaje verbal y el no verbal no coinciden."
+    }
+  ],
+  "glossary": [
+    {
+      "id": 1,
+      "term": "Kinésica",
+      "category": "Teoría",
+      "definition": "Estudio del lenguaje corporal.",
+      "practicalExample": "Analizar la postura al sentarse."
+    },
+    {
+      "id": 2,
+      "term": "Proxémica",
+      "category": "Teoría",
+      "definition": "Estudio del uso del espacio.",
+      "practicalExample": "Mantener distancia en una entrevista."
+    },
+    {
+      "id": 3,
+      "term": "Oculésica",
+      "category": "Teoría",
+      "definition": "Estudio del contacto visual.",
+      "practicalExample": "Sostener la mirada al negociar."
+    },
+    {
+      "id": 4,
+      "term": "Rapport",
+      "category": "Psicología",
+      "definition": "Sintonía emocional.",
+      "practicalExample": "Lograr que el otro confíe."
+    },
+    {
+      "id": 5,
+      "term": "Microexpresión",
+      "category": "Emociones",
+      "definition": "Gesto facial fugaz.",
+      "practicalExample": "Un destello de ira al oír un nombre."
+    },
+    {
+      "id": 6,
+      "term": "Disonancia",
+      "category": "Psicología",
+      "definition": "Conflicto mental.",
+      "practicalExample": "Decir 'sí' moviendo la cabeza 'no'."
+    },
+    {
+      "id": 7,
+      "term": "Límbico",
+      "category": "Biología",
+      "definition": "Cerebro emocional.",
+      "practicalExample": "Reacción instintiva de huida."
+    },
+    {
+      "id": 8,
+      "term": "Calibración",
+      "category": "Análisis",
+      "definition": "Ajuste de lectura.",
+      "practicalExample": "Observar reacciones ante preguntas neutras."
+    },
+    {
+      "id": 9,
+      "term": "Gestos adaptadores",
+      "category": "Kinésica",
+      "definition": "Gestos de alivio de estrés.",
+      "practicalExample": "Ajustarse la corbata."
+    },
+    {
+      "id": 10,
+      "term": "Postura cerrada",
+      "category": "Kinésica",
+      "definition": "Protección corporal.",
+      "practicalExample": "Brazos cruzados."
+    },
+    {
+      "id": 11,
+      "term": "Postura abierta",
+      "category": "Kinésica",
+      "definition": "Receptividad.",
+      "practicalExample": "Brazos extendidos."
+    },
+    {
+      "id": 12,
+      "term": "Carga cognitiva",
+      "category": "Psicología",
+      "definition": "Esfuerzo mental.",
+      "practicalExample": "Dudar al responder una mentira."
+    },
+    {
+      "id": 13,
+      "term": "Dominancia",
+      "category": "Poder",
+      "definition": "Control del entorno.",
+      "practicalExample": "Ocupar más espacio en la mesa."
+    },
+    {
+      "id": 14,
+      "term": "Sumisión",
+      "category": "Poder",
+      "definition": "Ceder control.",
+      "practicalExample": "Encogerse de hombros."
+    },
+    {
+      "id": 15,
+      "term": "Empatía",
+      "category": "Psicología",
+      "definition": "Sentir lo del otro.",
+      "practicalExample": "Reflejar la tristeza del otro."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": 1,
+      "category": "Ojos",
+      "title": "El Poder de la Mirada",
+      "cue": "Contacto visual prolongado.",
+      "interpretation": "Dominancia o interés.",
+      "practicalDrill": "Mantener contacto visual 3 segundos extra."
+    },
+    {
+      "id": 2,
+      "category": "Manos",
+      "title": "La Apertura",
+      "cue": "Palmas visibles.",
+      "interpretation": "Honestidad.",
+      "practicalDrill": "Hablar gesticulando con palmas abiertas."
+    },
+    {
+      "id": 3,
+      "category": "Postura",
+      "title": "El Espejo",
+      "cue": "Postura idéntica.",
+      "interpretation": "Rapport.",
+      "practicalDrill": "Imitar sutilmente a un colega."
+    },
+    {
+      "id": 4,
+      "category": "Pies",
+      "title": "La Dirección",
+      "cue": "Pies hacia el interlocutor.",
+      "interpretation": "Atención total.",
+      "practicalDrill": "Observar pies en una reunión."
+    },
+    {
+      "id": 5,
+      "category": "Cara",
+      "title": "Micro-Detección",
+      "cue": "Cejas contraídas.",
+      "interpretation": "Enfado o confusión.",
+      "practicalDrill": "Identificar microexpresiones en videos."
+    },
+    {
+      "id": 6,
+      "category": "Proxémica",
+      "title": "Control de Espacio",
+      "cue": "Distancia personal.",
+      "interpretation": "Respeto o invasión.",
+      "practicalDrill": "Ajustar distancia según el contexto."
     }
   ]
 };

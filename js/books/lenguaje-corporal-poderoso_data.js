@@ -1235,93 +1235,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Presentaciones Ejecutivas",
-      "title": "El Discurso de Apertura ante el Consejo",
-      "difficulty": "Alta",
-      "badge": "Maestro",
-      "scenarioDescription": "Estás a punto de presentar la nueva estrategia corporativa ante un comité escéptico. Te encuentras de pie frente a ellos sin atril. Sientes tensión y notas que inconscientemente tus pies están casi pegados (a menos de 10 cm), lo que te hace sentir inestable.",
+      "id": "CS001",
+      "category": "Detección de Engaño",
+      "title": "La Reunión de Negocios",
+      "difficulty": "Avanzado",
+      "badge": "Analista Senior",
+      "scenarioDescription": "Un socio potencial mantiene los pies a 15 cm de distancia mientras afirma estar abierto a tu propuesta. ¿Cómo interpretas su postura?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Separas deliberadamente los pies entre 25 cm y 40 cm, distribuyendo el peso de forma equitativa en ambos talones antes de comenzar a hablar.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Al corregir tu base de soporte, envías una señal al cerebro que reduce el cortisol y le comunicas al auditorio que estás en total control y dominio de la situación.",
-          "bookInsight": "La estabilidad de la base física genera la percepción inmediata de autoridad y aplomo mental."
+          "text": "Está relajado y receptivo.",
+          "outcome": "Error de calibración",
+          "wisdomScore": 20,
+          "analysis": "La distancia estrecha indica tensión o cierre defensivo.",
+          "bookInsight": "La distancia entre los pies refleja el nivel de comodidad y apertura."
         },
         {
-          "id": "opt2",
-          "text": "Cruzas una pierna por delante de la otra para proyectar una imagen 'relajada' e informal ante la junta.",
-          "outcome": "Fallo",
-          "wisdomScore": 20,
-          "analysis": "Cruzar las piernas al estar de pie disminuye tu punto de apoyo y te vulnera físicamente, transmitiendo falta de profesionalismo o incomodidad disfrazada.",
-          "bookInsight": "Cruzar las piernas estando de pie destruye la postura de poder y te deja literalmente sin equilibrio."
+          "text": "Está ocultando información o se siente inseguro.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Los pies juntos limitan la base de sustentación, señalando incomodidad.",
+          "bookInsight": "Una postura cerrada es un indicador de baja confianza o estrés."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Negociación y Presión",
-      "title": "Intimidación Espacial en el Vestíbulo",
-      "difficulty": "Alta",
-      "badge": "Maestro",
-      "scenarioDescription": "Durante un receso, un negociador rival se acerca a ti de pie. Adopta una postura agresiva abriendo las piernas a casi 90 cm de distancia y cruzando los brazos, intentando hacerte retroceder emocionalmente.",
+      "id": "CS002",
+      "category": "Dominancia",
+      "title": "El Líder en la Sala",
+      "difficulty": "Intermedio",
+      "badge": "Observador",
+      "scenarioDescription": "Un interlocutor separa sus pies a 90 cm. ¿Qué comunica esta postura?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Mantienes tu postura firme con una distancia de pies de unos 35 cm, manteniendo el torso erguido sin dar un paso atrás ni exagerar tu propia apertura.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Al mantener tu base óptima sin ceder terreno ni reaccionar con agresión, neutralizas su táctica de intimidación y mantienes el control de la interacción.",
-          "bookInsight": "La firmeza serena desarma la hiper-dominancia; no necesitas sobre-expandirte para demostrar poder verdadero."
+          "text": "Inestabilidad emocional.",
+          "outcome": "Error",
+          "wisdomScore": 30,
+          "analysis": "Es una postura de ocupación de espacio.",
+          "bookInsight": "La apertura de pies proyecta autoridad y control territorial."
         },
         {
-          "id": "opt2",
-          "text": "Abre tus pies a más de 90 cm para responder con la misma postura de dominancia territorial.",
-          "outcome": "Fallo",
-          "wisdomScore": 30,
-          "analysis": "Entrar en una competencia de posturas extremas parece infantil y escala la interacción hacia un conflicto personal en lugar de una negociación profesional.",
-          "bookInsight": "Imitar la hiper-expansión reactiva muestra que la otra parte ha dictado el marco no verbal de la reunión."
+          "text": "Dominancia y seguridad.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Ocupar más espacio físico es una señal clara de estatus.",
+          "bookInsight": "La amplitud de la base es directamente proporcional a la percepción de poder."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Sincronía",
+      "title": "El Espejo Roto",
+      "difficulty": "Avanzado",
+      "badge": "Maestro del Rapport",
+      "scenarioDescription": "Tu cliente imita tu postura de pies a 45 cm. ¿Qué significa?",
+      "options": [
+        {
+          "text": "Está siendo sarcástico.",
+          "outcome": "Error",
+          "wisdomScore": 40,
+          "analysis": "El mirroring es una señal de empatía inconsciente.",
+          "bookInsight": "El reflejo corporal es la base de la conexión no verbal."
+        },
+        {
+          "text": "Existe un alto nivel de rapport.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "La sincronía indica alineación mental.",
+          "bookInsight": "El lenguaje corporal compartido facilita la persuasión."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Estrés",
+      "title": "El Testigo Nervioso",
+      "difficulty": "Intermedio",
+      "badge": "Detector de Mentiras",
+      "scenarioDescription": "El sujeto mueve sus pies constantemente mientras habla.",
+      "options": [
+        {
+          "text": "Es un tic sin importancia.",
+          "outcome": "Error",
+          "wisdomScore": 20,
+          "analysis": "El movimiento de pies suele ser una fuga de energía por estrés.",
+          "bookInsight": "Los pies son los primeros en revelar la ansiedad."
+        },
+        {
+          "text": "Está buscando una vía de escape.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "El movimiento inquieto indica deseo de huida.",
+          "bookInsight": "La kinésica de los pies es la más honesta del cuerpo."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Negociación",
+      "title": "El Cierre de Trato",
+      "difficulty": "Avanzado",
+      "badge": "Negociador",
+      "scenarioDescription": "Tu contraparte apunta sus pies hacia la puerta.",
+      "options": [
+        {
+          "text": "Está listo para irse.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "La dirección de los pies indica la intención de movimiento.",
+          "bookInsight": "Los pies apuntan hacia donde la mente quiere ir."
+        },
+        {
+          "text": "Está prestando atención.",
+          "outcome": "Error",
+          "wisdomScore": 10,
+          "analysis": "Si los pies no miran al interlocutor, el interés es bajo.",
+          "bookInsight": "La orientación de los pies es el indicador de interés real."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Poder",
+      "title": "La Postura de Poder",
+      "difficulty": "Intermedio",
+      "badge": "Líder",
+      "scenarioDescription": "Alguien se para con pies a la anchura de hombros y manos en la cintura.",
+      "options": [
+        {
+          "text": "Es una postura de sumisión.",
+          "outcome": "Error",
+          "wisdomScore": 0,
+          "analysis": "Es la postura clásica de poder (Wonder Woman).",
+          "bookInsight": "La expansión corporal aumenta la testosterona percibida."
+        },
+        {
+          "text": "Es una postura de autoridad.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "Ocupar espacio es una señal de dominancia.",
+          "bookInsight": "La postura abierta comunica seguridad y control."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Base de Soporte Ideal",
-      "definition": "Distancia entre pies alineada verticalmente con los hombros (aprox. 25 a 40 cm).",
-      "tacticalUse": "Utilízala durante presentaciones de pie o negociaciones para proyectar un centro de gravedad estable e inmovible.",
-      "countermeasure": "Si notas que estás juntando los pies por nerviosismo, reajusta conscientemente la apertura a la anchura de tus hombros."
+      "id": "F01",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Postura de pies juntos",
+      "definition": "Distancia menor a 20 cm.",
+      "tacticalUse": "Detectar inseguridad.",
+      "countermeasure": "Cambiar de tema."
     },
     {
-      "id": "fc2",
-      "term": "Postura Sumisa de Pies",
-      "definition": "Alineación con distancia menor a 15 cm entre pies o tobillos cruzados estando de pie.",
-      "tacticalUse": "Útil para mostrar deferencia deliberada en situaciones donde se requiere aplacar el ego del interlocutor.",
-      "countermeasure": "Si un rival adopta esta postura, aprovecha para tomar el liderazgo de la conversación guiando el ritmo."
+      "id": "F02",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Postura de pies abiertos",
+      "definition": "Distancia mayor a 60 cm.",
+      "tacticalUse": "Proyectar autoridad.",
+      "countermeasure": "Reducir espacio personal."
     },
     {
-      "id": "fc3",
-      "term": "Hiper-Expansión Territorial",
-      "definition": "Apertura de pies superior a 70-90 cm para reclamar espacio físico de forma exagerada.",
-      "tacticalUse": "Se usa para disuadir conductas invasivas o marcar territorio de forma tajante en entornos hostiles.",
-      "countermeasure": "No imites la apertura exagerada; mantén tu base sólida de 30 cm y no des un solo paso atrás."
+      "id": "F03",
+      "bookNumber": 1,
+      "category": "Análisis",
+      "term": "Mirroring",
+      "definition": "Imitación inconsciente.",
+      "tacticalUse": "Generar rapport.",
+      "countermeasure": "Romper el patrón."
     },
     {
-      "id": "fc4",
-      "term": "Dirección Focal de Puntas",
-      "definition": "La orientación espacial que toman las puntas de los pies durante la interacción.",
-      "tacticalUse": "Apunta ambos pies directamente al torso de la persona más importante para proyectar interés genuino.",
-      "countermeasure": "Si la punta del pie del interlocutor apunta hacia la puerta, concluye tu argumento pues ha perdido el interés."
+      "id": "F04",
+      "bookNumber": 1,
+      "category": "Detección",
+      "term": "Fuga de energía",
+      "definition": "Movimientos repetitivos.",
+      "tacticalUse": "Detectar estrés.",
+      "countermeasure": "Calmar al sujeto."
     },
     {
-      "id": "fc5",
-      "term": "Anclaje de Talones",
-      "definition": "Distribución uniforme del peso en ambos talones sin balancearse de puntas a talones.",
-      "tacticalUse": "Elimina la percepción de ansiedad o prisa durante discursos importantes.",
-      "countermeasure": "Si sientes el impulso de balancearte, presiona conscientemente los dedos de los pies contra la plantilla del calzado."
+      "id": "F05",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Orientación de pies",
+      "definition": "Hacia dónde apuntan.",
+      "tacticalUse": "Medir interés.",
+      "countermeasure": "Reorientar la atención."
+    },
+    {
+      "id": "F06",
+      "bookNumber": 1,
+      "category": "Análisis",
+      "term": "Postura de poder",
+      "definition": "Expansión corporal.",
+      "tacticalUse": "Ganar respeto.",
+      "countermeasure": "Adoptar postura similar."
+    },
+    {
+      "id": "F07",
+      "bookNumber": 1,
+      "category": "Detección",
+      "term": "Microexpresión",
+      "definition": "Gestos fugaces.",
+      "tacticalUse": "Ver emociones reales.",
+      "countermeasure": "Observar contexto."
+    },
+    {
+      "id": "F08",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Base de sustentación",
+      "definition": "Ancho de pies.",
+      "tacticalUse": "Evaluar confianza.",
+      "countermeasure": "Ajustar postura."
+    },
+    {
+      "id": "F09",
+      "bookNumber": 1,
+      "category": "Análisis",
+      "term": "Calibración",
+      "definition": "Establecer línea base.",
+      "tacticalUse": "Detectar anomalías.",
+      "countermeasure": "Hacer preguntas neutras."
+    },
+    {
+      "id": "F10",
+      "bookNumber": 1,
+      "category": "Detección",
+      "term": "Bloqueo",
+      "definition": "Poner objetos delante.",
+      "tacticalUse": "Detectar rechazo.",
+      "countermeasure": "Retirar barreras."
+    },
+    {
+      "id": "F11",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Inclinación",
+      "definition": "Ángulo del torso.",
+      "tacticalUse": "Mostrar interés.",
+      "countermeasure": "Enderezar postura."
+    },
+    {
+      "id": "F12",
+      "bookNumber": 1,
+      "category": "Análisis",
+      "term": "Contacto visual",
+      "definition": "Mirada sostenida.",
+      "tacticalUse": "Dominar la charla.",
+      "countermeasure": "Romper contacto."
+    },
+    {
+      "id": "F13",
+      "bookNumber": 1,
+      "category": "Detección",
+      "term": "Autocontacto",
+      "definition": "Tocar la cara/cuello.",
+      "tacticalUse": "Detectar mentira.",
+      "countermeasure": "Observar el momento."
+    },
+    {
+      "id": "F14",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Pies cruzados",
+      "definition": "Postura de cierre.",
+      "tacticalUse": "Detectar incomodidad.",
+      "countermeasure": "Abrir postura."
+    },
+    {
+      "id": "F15",
+      "bookNumber": 1,
+      "category": "Análisis",
+      "term": "Gestos ilustradores",
+      "definition": "Manos al hablar.",
+      "tacticalUse": "Aumentar credibilidad.",
+      "countermeasure": "Observar congruencia."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Dominancia",
+      "name": "La Base Amplia",
+      "severity": "Baja",
+      "icon": "expand",
+      "howItWorks": "Separar pies a 90cm.",
+      "redFlags": "Agresividad.",
+      "counterScript": "Reducir mi propia base.",
+      "deepMechanism": "Territorialidad."
+    },
+    {
+      "id": "TM02",
+      "category": "Engaño",
+      "name": "El Bloqueo de Pies",
+      "severity": "Alta",
+      "icon": "lock",
+      "howItWorks": "Pies hacia la salida.",
+      "redFlags": "Desinterés.",
+      "counterScript": "Cambiar de tema.",
+      "deepMechanism": "Instinto de huida."
+    },
+    {
+      "id": "TM03",
+      "category": "Rapport",
+      "name": "Sincronía de Pies",
+      "severity": "Baja",
+      "icon": "sync",
+      "howItWorks": "Copiar postura.",
+      "redFlags": "Forzado.",
+      "counterScript": "Variar postura.",
+      "deepMechanism": "Neuronas espejo."
+    },
+    {
+      "id": "TM04",
+      "category": "Estrés",
+      "name": "El Rebote de Talón",
+      "severity": "Media",
+      "icon": "bounce",
+      "howItWorks": "Talones inquietos.",
+      "redFlags": "Ansiedad.",
+      "counterScript": "Pedir calma.",
+      "deepMechanism": "Fuga de energía."
+    },
+    {
+      "id": "TM05",
+      "category": "Autoridad",
+      "name": "Postura de Poder",
+      "severity": "Media",
+      "icon": "star",
+      "howItWorks": "Manos en cintura.",
+      "redFlags": "Arrogancia.",
+      "counterScript": "Mantener neutralidad.",
+      "deepMechanism": "Estatus social."
+    },
+    {
+      "id": "TM06",
+      "category": "Detección",
+      "name": "Pies Cruzados",
+      "severity": "Alta",
+      "icon": "cross",
+      "howItWorks": "Cruzar tobillos.",
+      "redFlags": "Inseguridad.",
+      "counterScript": "Invitar a relajarse.",
+      "deepMechanism": "Protección."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Qué indica una distancia de pies de 15 cm?",
+      "options": [
+        "Confianza",
+        "Inseguridad",
+        "Dominancia",
+        "Neutralidad"
+      ],
+      "correctIndex": 1,
+      "explanation": "Indica una base inestable y cierre."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 1,
+      "question": "¿Qué significa que los pies apunten a la puerta?",
+      "options": [
+        "Interés",
+        "Deseo de irse",
+        "Respeto",
+        "Neutralidad"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una señal clara de intención de huida."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 1,
+      "question": "¿Cuál es la distancia ideal para proyectar autoridad?",
+      "options": [
+        "10 cm",
+        "30 cm",
+        "80 cm",
+        "5 cm"
+      ],
+      "correctIndex": 2,
+      "explanation": "Una base amplia proyecta control."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "¿Qué es el mirroring?",
+      "options": [
+        "Imitar gestos",
+        "Gritar",
+        "Correr",
+        "Saltar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Es la imitación inconsciente para crear rapport."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 1,
+      "question": "¿Qué revela el movimiento constante de pies?",
+      "options": [
+        "Felicidad",
+        "Estrés",
+        "Aburrimiento",
+        "Poder"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una fuga de energía por ansiedad."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 1,
+      "question": "¿Qué es la calibración?",
+      "options": [
+        "Medir pies",
+        "Línea base",
+        "Gritar",
+        "Correr"
+      ],
+      "correctIndex": 1,
+      "explanation": "Establecer el comportamiento normal del sujeto."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Kinésica",
+      "category": "Teoría",
+      "definition": "Estudio del movimiento.",
+      "practicalExample": "Analizar pasos."
+    },
+    {
+      "id": "G02",
+      "term": "Rapport",
+      "category": "Psicología",
+      "definition": "Conexión empática.",
+      "practicalExample": "Sincronía."
+    },
+    {
+      "id": "G03",
+      "term": "Base",
+      "category": "Kinésica",
+      "definition": "Ancho de pies.",
+      "practicalExample": "Postura amplia."
+    },
+    {
+      "id": "G04",
+      "term": "Fuga",
+      "category": "Detección",
+      "definition": "Energía nerviosa.",
+      "practicalExample": "Mover pies."
+    },
+    {
+      "id": "G05",
+      "term": "Mirroring",
+      "category": "Psicología",
+      "definition": "Reflejo corporal.",
+      "practicalExample": "Copiar postura."
+    },
+    {
+      "id": "G06",
+      "term": "Calibración",
+      "category": "Análisis",
+      "definition": "Línea base.",
+      "practicalExample": "Observar normalidad."
+    },
+    {
+      "id": "G07",
+      "term": "Dominancia",
+      "category": "Conducta",
+      "definition": "Control social.",
+      "practicalExample": "Ocupar espacio."
+    },
+    {
+      "id": "G08",
+      "term": "Sumisión",
+      "category": "Conducta",
+      "definition": "Bajo estatus.",
+      "practicalExample": "Pies juntos."
+    },
+    {
+      "id": "G09",
+      "term": "Microexpresión",
+      "category": "Detección",
+      "definition": "Gesto fugaz.",
+      "practicalExample": "Miedo rápido."
+    },
+    {
+      "id": "G10",
+      "term": "Bloqueo",
+      "category": "Kinésica",
+      "definition": "Barrera física.",
+      "practicalExample": "Cruzar brazos."
+    },
+    {
+      "id": "G11",
+      "term": "Postura",
+      "category": "Kinésica",
+      "definition": "Posición corporal.",
+      "practicalExample": "Estar de pie."
+    },
+    {
+      "id": "G12",
+      "term": "Intención",
+      "category": "Análisis",
+      "definition": "Propósito oculto.",
+      "practicalExample": "Pies a la puerta."
+    },
+    {
+      "id": "G13",
+      "term": "Congruencia",
+      "category": "Detección",
+      "definition": "Palabras vs gestos.",
+      "practicalExample": "Coherencia."
+    },
+    {
+      "id": "G14",
+      "term": "Territorialidad",
+      "category": "Conducta",
+      "definition": "Espacio propio.",
+      "practicalExample": "Postura abierta."
+    },
+    {
+      "id": "G15",
+      "term": "Ansiedad",
+      "category": "Psicología",
+      "definition": "Estado de alerta.",
+      "practicalExample": "Talones inquietos."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Pies",
+      "title": "El Test de la Base",
+      "cue": "Pies a 20cm vs 80cm",
+      "interpretation": "Inseguridad vs Poder",
+      "practicalDrill": "Practica ambas frente al espejo."
+    },
+    {
+      "id": "BL02",
+      "category": "Rapport",
+      "title": "Espejo Sutil",
+      "cue": "Imitar postura",
+      "interpretation": "Conexión",
+      "practicalDrill": "Imita a un amigo sutilmente."
+    },
+    {
+      "id": "BL03",
+      "category": "Detección",
+      "title": "Caza de Fugas",
+      "cue": "Movimiento de pies",
+      "interpretation": "Estrés",
+      "practicalDrill": "Observa a alguien en una fila."
+    },
+    {
+      "id": "BL04",
+      "category": "Dominancia",
+      "title": "Ocupación de Espacio",
+      "cue": "Manos en cintura",
+      "interpretation": "Autoridad",
+      "practicalDrill": "Mantén la postura 2 min."
+    },
+    {
+      "id": "BL05",
+      "category": "Interés",
+      "title": "Brújula de Pies",
+      "cue": "Dirección de pies",
+      "interpretation": "Interés real",
+      "practicalDrill": "Mira a dónde apuntan tus pies."
+    },
+    {
+      "id": "BL06",
+      "category": "Detección",
+      "title": "Detección de Bloqueo",
+      "cue": "Pies cruzados",
+      "interpretation": "Cierre",
+      "practicalDrill": "Identifica bloqueos en reuniones."
     }
   ]
 };

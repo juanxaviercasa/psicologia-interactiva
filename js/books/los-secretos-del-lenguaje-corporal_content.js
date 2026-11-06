@@ -1,3 +1,4 @@
+// Contenido enriquecido para Los Secretos del Lenguaje Corporal y Microexpresiones
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -586,6 +587,90 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": 1,
+      "category": "Detección de Engaño",
+      "title": "La Entrevista de Alta Presión",
+      "difficulty": "Avanzado",
+      "badge": "Analista Senior",
+      "scenarioDescription": "Un sospechoso niega haber estado en la escena, pero sus manos se entrelazan con fuerza y su parpadeo aumenta drásticamente al responder.",
+      "options": [
+        {
+          "text": "Confrontar directamente sobre la contradicción.",
+          "outcome": "El sujeto se cierra defensivamente.",
+          "wisdomScore": 40,
+          "analysis": "La confrontación directa activa el sistema límbico de lucha o huida.",
+          "bookInsight": "El lenguaje corporal revela la verdad antes que las palabras."
+        },
+        {
+          "text": "Cambiar el tema y observar el retorno a la línea base.",
+          "outcome": "El sujeto se relaja, revelando su línea base real.",
+          "wisdomScore": 95,
+          "analysis": "La calibración requiere observar el comportamiento en estado neutro.",
+          "bookInsight": "La observación de la línea base es fundamental para detectar anomalías."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": 1,
+      "bookNumber": 1,
+      "category": "Microexpresiones",
+      "term": "Desprecio",
+      "definition": "Elevación unilateral de la comisura de los labios.",
+      "tacticalUse": "Identificar superioridad percibida.",
+      "countermeasure": "Mantener neutralidad emocional."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": 1,
+      "category": "Psicología Oscura",
+      "name": "Espejo Inverso",
+      "severity": "Alta",
+      "icon": "mirror",
+      "howItWorks": "Reflejar sutilmente la postura del otro para generar confianza.",
+      "redFlags": "Uso excesivo que parece burla.",
+      "counterScript": "Cambiar de postura abruptamente para romper el rapport.",
+      "deepMechanism": "Activación de neuronas espejo."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "bookNumber": 1,
+      "question": "¿Qué indica un encogimiento de hombros unilateral?",
+      "options": [
+        "Inseguridad",
+        "Falta de compromiso con lo dicho",
+        "Alegría",
+        "Ira"
+      ],
+      "correctIndex": 1,
+      "explanation": "El encogimiento unilateral sugiere que el sujeto no cree totalmente en sus propias palabras."
+    }
+  ],
+  "glossary": [
+    {
+      "id": 1,
+      "term": "Kinésica",
+      "category": "Teoría",
+      "definition": "Estudio del movimiento corporal.",
+      "practicalExample": "Analizar la postura al sentarse."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": 1,
+      "category": "Microexpresiones",
+      "title": "Detección de Miedo",
+      "cue": "Párpados superiores elevados y cejas contraídas.",
+      "interpretation": "Amenaza percibida o ansiedad.",
+      "practicalDrill": "Practicar frente al espejo manteniendo la mirada fija."
     }
   ]
 };

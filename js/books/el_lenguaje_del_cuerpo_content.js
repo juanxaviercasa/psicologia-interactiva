@@ -1,3 +1,4 @@
+// Contenido enriquecido para El Lenguaje del Cuerpo: El Libro Clásico
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -12070,6 +12071,90 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS001",
+      "category": "Negotiation",
+      "title": "The Crossed Arms Paradox",
+      "difficulty": "Intermediate",
+      "badge": "Observer",
+      "scenarioDescription": "During a high-stakes negotiation, your counterpart crosses their arms tightly while nodding at your proposal.",
+      "options": [
+        {
+          "text": "Assume they are defensive and reject the offer.",
+          "outcome": "Failure",
+          "wisdomScore": 20,
+          "analysis": "You ignored the context of the nod.",
+          "bookInsight": "Crossed arms can be a self-comforting gesture in cold rooms or a sign of defensive posture."
+        },
+        {
+          "text": "Acknowledge the discomfort and offer a break.",
+          "outcome": "Success",
+          "wisdomScore": 90,
+          "analysis": "You addressed the underlying tension.",
+          "bookInsight": "Always look for clusters; the nod contradicts the closed arms, suggesting hidden disagreement."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Gestures",
+      "term": "Steepling",
+      "definition": "Fingertips touching in a pyramid shape.",
+      "tacticalUse": "Project confidence and authority.",
+      "countermeasure": "Break the steeple by handing them an object."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM001",
+      "category": "Deception",
+      "name": "Mouth Cover",
+      "severity": "High",
+      "icon": "hand-over-mouth",
+      "howItWorks": "The brain subconsciously tries to block the lie.",
+      "redFlags": "Hand near mouth while speaking.",
+      "counterScript": "Ask an open-ended question to force them to remove the hand.",
+      "deepMechanism": "Inhibition of deceptive speech."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "What does a palm-up gesture signify?",
+      "options": [
+        "Aggression",
+        "Submission/Honesty",
+        "Deception",
+        "Boredom"
+      ],
+      "correctIndex": 1,
+      "explanation": "The palm-up gesture is a non-threatening signal used throughout history to show lack of weapons."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G001",
+      "term": "Kinesics",
+      "category": "Theory",
+      "definition": "The study of body movement as a form of communication.",
+      "practicalExample": "Analyzing a person's gait to determine their mood."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL001",
+      "category": "Microexpressions",
+      "title": "The Fake Smile",
+      "cue": "Lack of crinkling at the corners of the eyes.",
+      "interpretation": "The smile is social, not genuine.",
+      "practicalDrill": "Practice Duchenne smiles in the mirror until the eyes engage."
     }
   ]
 };

@@ -1,3 +1,4 @@
+// Contenido enriquecido para Cómo Conocer a las Personas por su Lenguaje Corporal
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_2.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>Cómo conocer a las personas por su lenguaje corporalMás allá de las palabras, el cuerpo no miente Leonardo Ferrari Cómo conocer a las personas por su lenguaje corporal. L. Ferrari Cómo conocer a las personas por su lenguaje Corporal Mas allá de las palabras, el cuerpo no miente - Leonardo Ferrari - - 1 - Cómo conocer a las personas por su lenguaje corporal. L. Ferrari Índice Introducción................................................................................................... 3 ¿Has pensado que tu postura te hace transparente? ................................... 4 Ahora puedes entender los gestos.............................................................. 14 Descubre cómo funcionan los indicadores.................................................. 52 Digamos la verdad. Somos animales territoriales ....................................... 54 Cómo usar el lenguaje corporal en la negociación y en entrevistas de trabajo. ........................................................................................................ 64 Los secretos para imponer nuestra personalidad ....................................... 69 ¿Sabes que puedes detectar mentiras? ..................................................... 77 Cómo influir en las personas con la Programación Neuro-Lingüística ........ 84 Si te gusta seducir, esto te interesa .......................................................... 101 - 2 - Cómo conocer a las personas por su lenguaje corporal. L. Ferrari Introducción ¡Cui",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_10.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>Cómo conocer a las personas por su lenguaje corporalMás allá de las palabras, el cuerpo no miente Leonardo Ferrari Cómo conocer a las personas por su lenguaje corporal. L. Ferrari Cómo conocer a las personas por su lenguaje Corporal Mas allá de las palabras, el cuerpo no miente - Leonardo Ferrari - - 1 - Cómo conocer a las personas por su lenguaje corporal. L. Ferrari Índice Introducción................................................................................................... 3 ¿Has pensado que tu postura te hace transparente? ................................... 4 Ahora puedes entender los gestos.............................................................. 14 Descubre cómo funcionan los indicadores.................................................. 52 Digamos la verdad. Somos animales territoriales ....................................... 54 Cómo usar el lenguaje corporal en la negociación y en entrevistas de trabajo. ........................................................................................................ 64 Los secretos para imponer nuestra personalidad ....................................... 69 ¿Sabes que puedes detectar mentiras? ..................................................... 77 Cómo influir en las personas con la Programación Neuro-Lingüística ........ 84 Si te gusta seducir, esto te interesa .......................................................... 101 - 2 - Cómo conocer a las personas por su lenguaje corporal. L. Ferrari Introducción ¡Cui",
           "interactiveChallenge": {
             "question": "Según el libro de Leonardo Ferrari, ¿cuál es el principio fundamental al evaluar la sinceridad de una persona a través de su lenguaje corporal?",
             "options": [
@@ -2703,6 +2704,594 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS001",
+      "category": "Detección de Engaño",
+      "title": "La Entrevista de Negocios",
+      "difficulty": "Intermedio",
+      "badge": "Analista Nivel 1",
+      "scenarioDescription": "Un candidato a socio evita el contacto visual y se toca la nariz al hablar de sus resultados financieros pasados.",
+      "options": [
+        {
+          "text": "Interrumpir y confrontar directamente sobre la mentira.",
+          "outcome": "Defensividad inmediata.",
+          "wisdomScore": 20,
+          "analysis": "La confrontación directa cierra canales de comunicación.",
+          "bookInsight": "El lenguaje corporal debe usarse para investigar, no para acusar."
+        },
+        {
+          "text": "Cambiar el tema a un área neutral y observar si el gesto persiste.",
+          "outcome": "Calibración exitosa.",
+          "wisdomScore": 95,
+          "analysis": "El cambio de tema permite ver si el gesto es un tic o una respuesta al estrés.",
+          "bookInsight": "Busca grupos de gestos (clusters) en lugar de señales aisladas."
+        }
+      ]
+    },
+    {
+      "id": "CS002",
+      "category": "Poder y Dominancia",
+      "title": "La Reunión de Junta",
+      "difficulty": "Avanzado",
+      "badge": "Estratega",
+      "scenarioDescription": "Un colega invade tu espacio personal colocando sus carpetas sobre tu lado de la mesa.",
+      "options": [
+        {
+          "text": "Retirar las carpetas bruscamente.",
+          "outcome": "Escalada de conflicto.",
+          "wisdomScore": 30,
+          "analysis": "Reacción emocional que pierde autoridad.",
+          "bookInsight": "El espacio personal es una extensión del ego; defiéndelo con calma."
+        },
+        {
+          "text": "Inclinarte hacia atrás y mantener contacto visual relajado mientras hablas.",
+          "outcome": "Recuperación de control.",
+          "wisdomScore": 90,
+          "analysis": "La calma proyecta superioridad jerárquica.",
+          "bookInsight": "La postura expansiva comunica estatus sin necesidad de agresión."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Seducción y Rapport",
+      "title": "La Primera Cita",
+      "difficulty": "Principiante",
+      "badge": "Observador",
+      "scenarioDescription": "Tu interlocutor imita tu postura de brazos cruzados y luego se desabrocha la chaqueta.",
+      "options": [
+        {
+          "text": "Ignorar el gesto y seguir hablando.",
+          "outcome": "Pérdida de oportunidad.",
+          "wisdomScore": 40,
+          "analysis": "No aprovechar el rapport establecido.",
+          "bookInsight": "El espejo (mirroring) es la base de la conexión subconsciente."
+        },
+        {
+          "text": "Desabrochar tu propia chaqueta y relajar la postura.",
+          "outcome": "Sincronía total.",
+          "wisdomScore": 100,
+          "analysis": "El mirroring recíproco crea un vínculo de confianza instantáneo.",
+          "bookInsight": "La apertura física invita a la apertura mental."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Detección de Engaño",
+      "title": "El Interrogatorio de Ventas",
+      "difficulty": "Avanzado",
+      "badge": "Detector de Mentiras",
+      "scenarioDescription": "El cliente dice 'estoy muy interesado' mientras sus pies apuntan hacia la puerta.",
+      "options": [
+        {
+          "text": "Creer en sus palabras y cerrar la venta.",
+          "outcome": "Venta perdida.",
+          "wisdomScore": 10,
+          "analysis": "Las palabras mienten, el cuerpo revela la intención real.",
+          "bookInsight": "Los pies son la parte más honesta del cuerpo."
+        },
+        {
+          "text": "Hacer una pregunta abierta sobre sus dudas reales.",
+          "outcome": "Apertura de diálogo.",
+          "wisdomScore": 95,
+          "analysis": "Abordar la incongruencia permite descubrir la objeción oculta.",
+          "bookInsight": "La incongruencia entre lenguaje verbal y corporal es la clave del engaño."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Lenguaje de Poder",
+      "title": "Negociación Salarial",
+      "difficulty": "Intermedio",
+      "badge": "Negociador",
+      "scenarioDescription": "El reclutador mantiene las manos ocultas bajo la mesa durante toda la entrevista.",
+      "options": [
+        {
+          "text": "Sentirse cómodo y relajado.",
+          "outcome": "Desventaja informativa.",
+          "wisdomScore": 20,
+          "analysis": "No ver las manos impide leer la honestidad del interlocutor.",
+          "bookInsight": "Las manos ocultas generan desconfianza instintiva."
+        },
+        {
+          "text": "Hacer gestos abiertos y visibles para invitar a la reciprocidad.",
+          "outcome": "Influencia positiva.",
+          "wisdomScore": 85,
+          "analysis": "Liderar con transparencia obliga al otro a bajar sus defensas.",
+          "bookInsight": "La visibilidad de las manos es un disparador de confianza."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Psicología Social",
+      "title": "El Líder de Grupo",
+      "difficulty": "Intermedio",
+      "badge": "Líder",
+      "scenarioDescription": "Al entrar a una sala, todos los presentes se inclinan ligeramente hacia adelante.",
+      "options": [
+        {
+          "text": "Asumir que están de acuerdo con todo.",
+          "outcome": "Error de juicio.",
+          "wisdomScore": 30,
+          "analysis": "La inclinación puede ser curiosidad o preparación para atacar.",
+          "bookInsight": "El contexto es vital para interpretar la inclinación corporal."
+        },
+        {
+          "text": "Observar la dirección de sus miradas y la tensión en sus hombros.",
+          "outcome": "Lectura precisa.",
+          "wisdomScore": 95,
+          "analysis": "Analizar el conjunto revela si la inclinación es de apoyo o desafío.",
+          "bookInsight": "El análisis holístico evita errores de interpretación."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC01",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Mirroring",
+      "definition": "Imitación subconsciente de gestos.",
+      "tacticalUse": "Crear rapport.",
+      "countermeasure": "Cambiar postura conscientemente."
+    },
+    {
+      "id": "FC02",
+      "bookNumber": 1,
+      "category": "Detección",
+      "term": "Microexpresiones",
+      "definition": "Gestos faciales fugaces.",
+      "tacticalUse": "Detectar emociones ocultas.",
+      "countermeasure": "Control de respiración."
+    },
+    {
+      "id": "FC03",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Postura Expansiva",
+      "definition": "Ocupar más espacio físico.",
+      "tacticalUse": "Proyectar autoridad.",
+      "countermeasure": "Invadir su espacio personal."
+    },
+    {
+      "id": "FC04",
+      "bookNumber": 1,
+      "category": "Detección",
+      "term": "Autocontacto",
+      "definition": "Tocarse cara o cuello.",
+      "tacticalUse": "Detectar ansiedad.",
+      "countermeasure": "Mantener manos visibles."
+    },
+    {
+      "id": "FC05",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Pies hacia la salida",
+      "definition": "Pies apuntando a la puerta.",
+      "tacticalUse": "Detectar deseo de huir.",
+      "countermeasure": "Cambiar de tema."
+    },
+    {
+      "id": "FC06",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Contacto Visual",
+      "definition": "Mirada directa y sostenida.",
+      "tacticalUse": "Dominancia.",
+      "countermeasure": "Mirar al entrecejo."
+    },
+    {
+      "id": "FC07",
+      "bookNumber": 1,
+      "category": "Detección",
+      "term": "Incongruencia",
+      "definition": "Palabras vs cuerpo.",
+      "tacticalUse": "Detectar mentiras.",
+      "countermeasure": "Hacer preguntas abiertas."
+    },
+    {
+      "id": "FC08",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Brazos cruzados",
+      "definition": "Barrera defensiva.",
+      "tacticalUse": "Detectar resistencia.",
+      "countermeasure": "Entregar un objeto."
+    },
+    {
+      "id": "FC09",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Manos en la cintura",
+      "definition": "Postura de 'jarra'.",
+      "tacticalUse": "Mostrar disposición.",
+      "countermeasure": "Postura abierta."
+    },
+    {
+      "id": "FC10",
+      "bookNumber": 1,
+      "category": "Detección",
+      "term": "Parpadeo excesivo",
+      "definition": "Aumento de frecuencia.",
+      "tacticalUse": "Detectar estrés.",
+      "countermeasure": "Pausas largas."
+    },
+    {
+      "id": "FC11",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Inclinación lateral",
+      "definition": "Cabeza ladeada.",
+      "tacticalUse": "Mostrar interés.",
+      "countermeasure": "Enderezar postura."
+    },
+    {
+      "id": "FC12",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Palmas abiertas",
+      "definition": "Mostrar palmas.",
+      "tacticalUse": "Generar confianza.",
+      "countermeasure": "Ocultar manos."
+    },
+    {
+      "id": "FC13",
+      "bookNumber": 1,
+      "category": "Detección",
+      "term": "Frotarse los ojos",
+      "definition": "Bloqueo visual.",
+      "tacticalUse": "Detectar duda.",
+      "countermeasure": "Pedir aclaración."
+    },
+    {
+      "id": "FC14",
+      "bookNumber": 1,
+      "category": "Kinésica",
+      "term": "Postura de pirámide",
+      "definition": "Manos en punta.",
+      "tacticalUse": "Mostrar seguridad.",
+      "countermeasure": "Romper el gesto."
+    },
+    {
+      "id": "FC15",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Asentimiento",
+      "definition": "Mover cabeza arriba-abajo.",
+      "tacticalUse": "Inducir acuerdo.",
+      "countermeasure": "Preguntar 'por qué'."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Dominancia",
+      "name": "La Torre de Control",
+      "severity": "Alta",
+      "icon": "Tower",
+      "howItWorks": "Manos en pirámide y contacto visual firme.",
+      "redFlags": "Uso excesivo en situaciones informales.",
+      "counterScript": "Preguntar: '¿Qué te hace dudar de mi propuesta?'",
+      "deepMechanism": "Proyecta autoridad intelectual inamovible."
+    },
+    {
+      "id": "TM02",
+      "category": "Detección",
+      "name": "El Escáner de Pies",
+      "severity": "Media",
+      "icon": "Foot",
+      "howItWorks": "Observar hacia dónde apuntan los pies.",
+      "redFlags": "Ignorar el contexto social.",
+      "counterScript": "Girar el cuerpo hacia el interlocutor.",
+      "deepMechanism": "El sistema límbico dirige los pies hacia el objetivo real."
+    },
+    {
+      "id": "TM03",
+      "category": "Rapport",
+      "name": "Espejo Sutil",
+      "severity": "Baja",
+      "icon": "Mirror",
+      "howItWorks": "Copiar ritmo y postura tras 3 segundos.",
+      "redFlags": "Copia obvia y mecánica.",
+      "counterScript": "Cambiar de postura bruscamente.",
+      "deepMechanism": "Activa neuronas espejo para generar empatía."
+    },
+    {
+      "id": "TM04",
+      "category": "Defensa",
+      "name": "El Bloqueo de Barrera",
+      "severity": "Media",
+      "icon": "Shield",
+      "howItWorks": "Colocar objetos entre tú y el otro.",
+      "redFlags": "Uso constante en reuniones.",
+      "counterScript": "Retirar el objeto con naturalidad.",
+      "deepMechanism": "Crea una zona de seguridad psicológica."
+    },
+    {
+      "id": "TM05",
+      "category": "Influencia",
+      "name": "Apertura de Palmas",
+      "severity": "Baja",
+      "icon": "Hand",
+      "howItWorks": "Mostrar palmas al hablar.",
+      "redFlags": "Gestos exagerados.",
+      "counterScript": "Observar si hay tensión en los hombros.",
+      "deepMechanism": "Señal ancestral de 'no llevo armas'."
+    },
+    {
+      "id": "TM06",
+      "category": "Detección",
+      "name": "El Anclaje de Estrés",
+      "severity": "Alta",
+      "icon": "Lock",
+      "howItWorks": "Identificar el gesto de calma del sujeto.",
+      "redFlags": "Confundir tic con estrés.",
+      "counterScript": "Mantener la calma absoluta.",
+      "deepMechanism": "El cerebro busca consuelo táctil ante la mentira."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Qué parte del cuerpo es más difícil de controlar al mentir?",
+      "options": [
+        "Manos",
+        "Pies",
+        "Ojos",
+        "Boca"
+      ],
+      "correctIndex": 1,
+      "explanation": "Los pies están lejos del cerebro consciente y revelan la intención de huida."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 1,
+      "question": "¿Qué indica el gesto de tocarse la nariz?",
+      "options": [
+        "Picazón",
+        "Mentira o estrés",
+        "Frialdad",
+        "Aburrimiento"
+      ],
+      "correctIndex": 1,
+      "explanation": "El efecto Pinocho: el tejido eréctil de la nariz se inflama con el estrés de mentir."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 1,
+      "question": "¿Qué es el 'mirroring'?",
+      "options": [
+        "Mirarse al espejo",
+        "Imitar gestos",
+        "Hablar alto",
+        "Cruzar brazos"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es la técnica de imitar sutilmente al otro para generar confianza."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "¿Qué significa una postura expansiva?",
+      "options": [
+        "Sumisión",
+        "Dominancia",
+        "Miedo",
+        "Tristeza"
+      ],
+      "correctIndex": 1,
+      "explanation": "Ocupar espacio es una señal biológica de estatus y poder."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 1,
+      "question": "¿Cómo se detecta una sonrisa falsa?",
+      "options": [
+        "Por los dientes",
+        "Por las arrugas oculares",
+        "Por la boca",
+        "Por la nariz"
+      ],
+      "correctIndex": 1,
+      "explanation": "La sonrisa de Duchenne involucra los músculos orbiculares de los ojos."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 1,
+      "question": "¿Qué indica una mirada fija y sin parpadeo?",
+      "options": [
+        "Interés",
+        "Desafío o engaño",
+        "Amor",
+        "Cansancio"
+      ],
+      "correctIndex": 1,
+      "explanation": "El control consciente del parpadeo suele ser un intento de parecer honesto."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Kinésica",
+      "category": "Teoría",
+      "definition": "Estudio del movimiento corporal.",
+      "practicalExample": "Analizar la marcha de alguien."
+    },
+    {
+      "id": "G02",
+      "term": "Proxémica",
+      "category": "Teoría",
+      "definition": "Uso del espacio personal.",
+      "practicalExample": "Distancia en una conversación."
+    },
+    {
+      "id": "G03",
+      "term": "Cluster",
+      "category": "Análisis",
+      "definition": "Grupo de gestos coherentes.",
+      "practicalExample": "Brazos cruzados + ceño fruncido."
+    },
+    {
+      "id": "G04",
+      "term": "Calibración",
+      "category": "Análisis",
+      "definition": "Establecer línea base.",
+      "practicalExample": "Observar a alguien en reposo."
+    },
+    {
+      "id": "G05",
+      "term": "Línea Base",
+      "category": "Análisis",
+      "definition": "Comportamiento normal.",
+      "practicalExample": "Cómo habla alguien normalmente."
+    },
+    {
+      "id": "G06",
+      "term": "Emblema",
+      "category": "Gesto",
+      "definition": "Gesto con significado cultural.",
+      "practicalExample": "Pulgar arriba."
+    },
+    {
+      "id": "G07",
+      "term": "Ilustrador",
+      "category": "Gesto",
+      "definition": "Gesto que acompaña al habla.",
+      "practicalExample": "Señalar con el dedo."
+    },
+    {
+      "id": "G08",
+      "term": "Adaptador",
+      "category": "Gesto",
+      "definition": "Gesto de autorregulación.",
+      "practicalExample": "Morderse las uñas."
+    },
+    {
+      "id": "G09",
+      "term": "Regulador",
+      "category": "Gesto",
+      "definition": "Controla el flujo de habla.",
+      "practicalExample": "Asentir para que sigan."
+    },
+    {
+      "id": "G10",
+      "term": "Rapport",
+      "category": "Psicología",
+      "definition": "Sintonía emocional.",
+      "practicalExample": "Sentirse en confianza."
+    },
+    {
+      "id": "G11",
+      "term": "Microexpresión",
+      "category": "Facial",
+      "definition": "Gesto de 0.5 segundos.",
+      "practicalExample": "Miedo fugaz."
+    },
+    {
+      "id": "G12",
+      "term": "Oculesia",
+      "category": "Facial",
+      "definition": "Estudio de la mirada.",
+      "practicalExample": "Contacto visual."
+    },
+    {
+      "id": "G13",
+      "term": "Háptica",
+      "category": "Contacto",
+      "definition": "Estudio del tacto.",
+      "practicalExample": "Un apretón de manos."
+    },
+    {
+      "id": "G14",
+      "term": "Postura",
+      "category": "Kinésica",
+      "definition": "Posición del cuerpo.",
+      "practicalExample": "Estar erguido."
+    },
+    {
+      "id": "G15",
+      "term": "Incongruencia",
+      "category": "Análisis",
+      "definition": "Contradicción verbal-física.",
+      "practicalExample": "Decir 'sí' moviendo la cabeza 'no'."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BLL01",
+      "category": "Facial",
+      "title": "El Detector de Duchenne",
+      "cue": "Sonrisa sin arrugas en ojos.",
+      "interpretation": "Sonrisa social, no genuina.",
+      "practicalDrill": "Practica sonreír solo con la boca frente al espejo."
+    },
+    {
+      "id": "BLL02",
+      "category": "Kinésica",
+      "title": "El Test de la Silla",
+      "cue": "Inclinación hacia atrás.",
+      "interpretation": "Desinterés o superioridad.",
+      "practicalDrill": "Observa a otros en una cafetería y nota quién se inclina."
+    },
+    {
+      "id": "BLL03",
+      "category": "Detección",
+      "title": "El Bloqueo de Cuello",
+      "cue": "Tocarse el hueco del cuello.",
+      "interpretation": "Inseguridad o ansiedad.",
+      "practicalDrill": "Observa entrevistas políticas y busca este gesto."
+    },
+    {
+      "id": "BLL04",
+      "category": "Poder",
+      "title": "La Expansión de Espacio",
+      "cue": "Brazos abiertos en mesa.",
+      "interpretation": "Dominio del territorio.",
+      "practicalDrill": "En tu próxima reunión, ocupa un poco más de espacio."
+    },
+    {
+      "id": "BLL05",
+      "category": "Detección",
+      "title": "El Parpadeo de Estrés",
+      "cue": "Aumento de parpadeo.",
+      "interpretation": "Carga cognitiva alta.",
+      "practicalDrill": "Cuenta los parpadeos de alguien bajo presión."
+    },
+    {
+      "id": "BLL06",
+      "category": "Rapport",
+      "title": "Sincronía de Ritmo",
+      "cue": "Respiración acompasada.",
+      "interpretation": "Conexión profunda.",
+      "practicalDrill": "Intenta respirar al mismo ritmo que tu interlocutor."
     }
   ]
 };

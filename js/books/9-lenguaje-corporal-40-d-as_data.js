@@ -2069,67 +2069,86 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Negociación Estratégica",
-      "title": "La Firma del Acuerdo Bajo la Lupa",
-      "difficulty": "Alta",
-      "badge": "Maestro del Lenguaje No Verbal",
-      "scenarioDescription": "Estás en la fase final de una negociación crucial para tu empresa. Al presentar los términos finales de pago, tu contraparte asiente con la cabeza y dice con voz clara: 'Estamos completamente de acuerdo con estas condiciones'. Sin embargo, notas que mientras lo dice, sus pies se dirigen hacia la puerta de salida, cruza los brazos de forma compacta ocultando los pulgares y realiza una micro-caricia rápida en su cuello. ¿Cómo procedes estratégicamente aplicando los conceptos de 'Lenguaje Corporal en 40 Días'?",
+      "id": "CS001",
+      "category": "Detección de Engaño",
+      "title": "La Entrevista de Negociación",
+      "difficulty": "Avanzado",
+      "badge": "Analista Senior",
+      "scenarioDescription": "Un cliente potencial evita el contacto visual y se toca la nariz al hablar de los términos de pago.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Ignoras las señales físicas temporales dado que su confirmación verbal fue explícita y positiva, procediendo de inmediato a pasar el contrato físico para su firma inmediata.",
-          "outcome": "Fallo",
-          "wisdomScore": 15,
-          "analysis": "Confiar únicamente en el canal verbal cuando el canal no verbal muestra incongruencias extremas es un error grave. El bloqueo de pulgares y los gestos pacificadores en el cuello revelan un fuerte conflicto interno y alta probabilidad de arrepentimiento del comprador o problemas futuros con el contrato.",
-          "bookInsight": "El cuerpo rara vez miente cuando la mente está bajo presión. Un 'sí' verbal acompañado de múltiples gestos de huida y pacificación es en realidad un 'no' latente."
+          "text": "Interrumpir y confrontar directamente sobre la mentira.",
+          "outcome": "Defensividad inmediata",
+          "wisdomScore": 20,
+          "analysis": "La confrontación directa rompe el rapport.",
+          "bookInsight": "El lenguaje corporal debe usarse para calibrar, no para acusar."
         },
         {
-          "id": "opt2",
-          "text": "Haces una pausa táctica, evitas presionar con la firma y dices de manera empática: 'Noto que quizás hay algunos detalles logísticos sobre los que les gustaría reflexionar más. Revisemos juntos las cláusulas de tiempos para asegurarnos de que todo sea cómodo para ustedes'.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Al abordar la incomodidad no verbal sin confrontar directamente su mentira o contradicción verbal, demuestras empatía táctica. Esto reduce sus niveles de estrés (eliminando la necesidad de gestos pacificadores) y abre la puerta para resolver la objeción real antes de que saboteen el acuerdo en privado.",
-          "bookInsight": "La verdadera maestría no radica en exponer al mentiroso, sino en redirigir la interacción de manera sutil basándote en las señales ocultas que su cuerpo te regala."
+          "text": "Cambiar el tema a un punto neutral para observar el cambio de base.",
+          "outcome": "Calibración exitosa",
+          "wisdomScore": 95,
+          "analysis": "Establecer la línea base permite identificar desviaciones reales.",
+          "bookInsight": "La observación de cambios en la línea base es la clave de la detección."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "La Ojiva del Poder (Steeple)",
-      "definition": "Gesto que consiste en unir las yemas de los dedos de ambas manos apuntando hacia arriba, asemejando la aguja de una iglesia.",
-      "tacticalUse": "Se utiliza para proyectar autoridad, alta confianza en uno mismo y convicción absoluta en las propias palabras sin necesidad de emitir un sonido.",
-      "countermeasure": "Si tu interlocutor utiliza este gesto para imponer superioridad, puedes romper su postura entregándole físicamente un documento, un bolígrafo o forzándolo a cambiar de ángulo corporal."
-    },
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Microexpresiones",
+      "term": "Desprecio",
+      "definition": "Elevación unilateral de una comisura labial.",
+      "tacticalUse": "Detectar superioridad percibida.",
+      "countermeasure": "Mantener neutralidad y desarmar con preguntas abiertas."
+    }
+  ],
+  "tacticalMatrix": [
     {
-      "id": "fc2",
-      "term": "Gestos Pacificadores (Adaptadores)",
-      "definition": "Movimientos corporales repetitivos o de contacto (frotar el cuello, tocar el cabello, ajustar la ropa) que el cerebro ordena para liberar estrés estimulando terminales nerviosas.",
-      "tacticalUse": "Permiten detectar el momento exacto en que un tema de conversación, pregunta o palabra específica genera incomodidad, mentira o estrés en el emisor.",
-      "countermeasure": "Ante la detección de estos gestos en ti mismo, respira profundamente y ancla tus manos en una posición abierta o sobre los muslos para evitar transmitir debilidad o duda."
-    },
+      "id": "TM001",
+      "category": "Psicología Oscura",
+      "name": "Espejo Táctico",
+      "severity": "Moderada",
+      "icon": "mirror",
+      "howItWorks": "Imitar sutilmente la postura del interlocutor.",
+      "redFlags": "Si el otro se siente incómodo, estás exagerando.",
+      "counterScript": "Cambiar de postura abruptamente para romper el vínculo.",
+      "deepMechanism": "Genera empatía inconsciente mediante neuronas espejo."
+    }
+  ],
+  "quizzes": [
     {
-      "id": "fc3",
-      "term": "Microexpresiones de Desdén",
-      "definition": "Expresión facial asimétrica extremadamente rápida (menos de un segundo) caracterizada por la elevación unilateral de la comisura de los labios.",
-      "tacticalUse": "Identificar sentimientos subyacentes de superioridad, hostilidad pasiva o desacuerdo interno camuflados detrás de un discurso aparentemente cooperativo.",
-      "countermeasure": "Cuando detectes desdén sutil en una negociación, no confrontes directamente; en su lugar, haz preguntas abiertas y neutrales para obligar al otro a externalizar su verdadera postura."
-    },
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Qué indica el bloqueo de los ojos al escuchar una propuesta?",
+      "options": [
+        "Interés",
+        "Desacuerdo o rechazo",
+        "Fatiga",
+        "Concentración"
+      ],
+      "correctIndex": 1,
+      "explanation": "El bloqueo ocular es un mecanismo de defensa ante información que el cerebro rechaza."
+    }
+  ],
+  "glossary": [
     {
-      "id": "fc4",
-      "term": "Bloqueo Ocular",
-      "definition": "Gesto inconsciente que consiste en frotarse los párpados, entornar los ojos o cerrarlos por una fracción de segundo más larga que un parpadeo ordinario.",
-      "tacticalUse": "Revela que el cerebro del interlocutor acaba de procesar información visual u oral que le desagrada, le genera desconfianza o rechazo absoluto.",
-      "countermeasure": "Si tu propuesta genera un bloqueo ocular, detente de inmediato y cambia la dinámica de la presentación, usando soportes físicos atractivos o pidiendo su opinión directa."
-    },
+      "id": "G001",
+      "term": "Línea Base",
+      "category": "Metodología",
+      "definition": "Comportamiento natural de una persona en estado relajado.",
+      "practicalExample": "Observar cómo habla alguien antes de hacerle una pregunta difícil."
+    }
+  ],
+  "bodyLanguageLab": [
     {
-      "id": "fc5",
-      "term": "Dirección de los Pies",
-      "definition": "La orientación de las extremidades inferiores de una persona, las cuales apuntan de manera fidedigna hacia su verdadero foco de interés.",
-      "tacticalUse": "Evaluar el interés real de tu contraparte en un entorno grupal; si sus pies apuntan hacia la salida, su mente ya se ha retirado de la interacción.",
-      "countermeasure": "Si notas que los pies de tu cliente apuntan hacia la puerta, redefine el tono de la conversación o cierra el punto clave de inmediato para no perder su atención por completo."
+      "id": "BL001",
+      "category": "Microexpresiones",
+      "title": "Detección de Miedo",
+      "cue": "Párpados superiores elevados y cejas contraídas.",
+      "interpretation": "Amenaza percibida o ansiedad.",
+      "practicalDrill": "Practicar frente al espejo manteniendo la mirada fija sin parpadear."
     }
   ]
 };

@@ -2243,93 +2243,86 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Negociación Estratégica",
-      "title": "Detección de incongruencia no verbal en una oferta ejecutiva",
-      "difficulty": "Alta",
-      "badge": "Detector de Incongruencias",
-      "scenarioDescription": "Estás negociando la compra de un activo empresarial clave. El vendedor afirma verbalmente con firmeza: 'Esta es la oferta más baja que podemos aceptar y estamos completamente tranquilos con el valor'. Sin embargo, al pronunciar la frase, realiza un breve encogimiento asimétrico de un solo hombro, se toca suavemente la fosa suprasternal (base del cuello) y recuesta su torso ligeramente hacia atrás.",
+      "id": "CS-001",
+      "category": "Detección de Engaño",
+      "title": "La Negociación Incierta",
+      "difficulty": "Avanzado",
+      "badge": "Analista Senior",
+      "scenarioDescription": "Durante una videollamada, el interlocutor se toca la nariz y desvía la mirada al hablar de los términos financieros.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Mantener la calma, hacer una pausa en silencio observando fijamente al interlocutor y luego formular una pregunta abierta para explorar margen en las condiciones sin confrontar abiertamente.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "El encogimiento asimétrico de hombros indica falta de convicción personal en lo que acaba de decir, mientras que el toque en el cuello revela necesidad de pacificación ante el estrés. La pausa táctica aprovecha su inseguridad sin ponerlo a la defensiva.",
-          "bookInsight": "Los gestos de pacificación combinados con filtraciones de duda (como el encogimiento parcial de hombros) señalan una incongruencia directa entre el discurso verbal y la postura real del negociador."
+          "text": "Interrumpir para señalar la mentira",
+          "outcome": "Defensivo",
+          "wisdomScore": 40,
+          "analysis": "La confrontación directa rompe el rapport.",
+          "bookInsight": "El contacto nasal puede ser picor o estrés, no siempre engaño."
         },
         {
-          "id": "opt2",
-          "text": "Interrumpir de inmediato y confrontarlo diciendo: 'Sé que estás mintiendo porque te tocaste el cuello y encogiste el hombro al decir el precio'.",
-          "outcome": "Fallo",
-          "wisdomScore": 20,
-          "analysis": "Confrontar a alguien sobre sus indicadores no verbales genera un estado de alerta defensiva, destruye la empatía operacional y cierra la posibilidad de lograr concesiones de forma fluida.",
-          "bookInsight": "El lenguaje corporal nunca debe usarse como acusación directa en una negociación; debe servir como una guía invisible para ajustar tu propia estrategia."
-        }
-      ]
-    },
-    {
-      "id": "cs2",
-      "category": "Evaluación y Entrevistas",
-      "title": "Lectura de contención de estrés en un candidato directivo",
-      "difficulty": "Alta",
-      "badge": "Maestro de la Observación",
-      "scenarioDescription": "Durante una entrevista para una posición de alta responsabilidad, le preguntas al candidato sobre una quiebra previa en su historial laboral. El candidato responde sonriendo, pero sus ojos no muestran arrugas laterales (sonrisa de Duchenne ausente), inclina su torso hacia adelante, entrelaza sus dedos fuertemente sobre la mesa y cruza sus tobillos con rigidez debajo de la silla.",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "Reconocer el esfuerzo de autorregulación del candidato, validar la complejidad de la experiencia pasada con una frase empática y permitirle profundizar en los aprendizajes obtenidos.",
-          "outcome": "Éxito",
+          "text": "Cambiar el tema a uno neutral para observar el cambio de base",
+          "outcome": "Calibración Exitosa",
           "wisdomScore": 95,
-          "analysis": "La rigidez en las extremidades inferiores (tobillos cruzados) y las manos entrelazadas junto con la sonrisa social revelan una alta contención de estrés. Reducir la percepción de amenaza le permite al candidato relajarse y mostrar su capacidad analítica real.",
-          "bookInsight": "El entrecruzamiento rígido de tobillos y el bloqueo de extremidades indican intentos conscientes de autocontrol frente a un tema percibido como amenazante."
-        },
-        {
-          "id": "opt2",
-          "text": "Asumir que la sonrisa no sincera es un gesto deliberado de desprecio o cinismo y descartar de inmediato al candidato por falta de honestidad.",
-          "outcome": "Fallo",
-          "wisdomScore": 25,
-          "analysis": "Confundir una sonrisa social o de enmascaramiento con desprecio o cinismo es un error común de sobreinterpretación sin considerar la carga de estrés de la situación.",
-          "bookInsight": "Nunca se debe juzgar un gesto de forma aislada; la ausencia de movimiento periorbital en una sonrisa en contexto de entrevista suele indicar cortesía o intento de proyectar calma bajo estrés."
+          "analysis": "Establecer la línea base es vital antes de juzgar.",
+          "bookInsight": "Busca cambios en el comportamiento, no gestos aislados."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Microexpresión",
-      "definition": "Expresión facial ultrarrápida e involuntaria (dura una fracción de segundo) que revela la emoción genuina que la persona intenta ocultar conscientemente.",
-      "tacticalUse": "Observar el rostro inmediatamente después de realizar una pregunta clave para captar la emoción real antes de que el sujeto active sus filtros conscientes.",
-      "countermeasure": "Practicar la regulación emocional profunda mediante la respiración diafragmática para reducir la reactividad emocional involuntaria."
-    },
+      "id": "FC-001",
+      "bookNumber": 1,
+      "category": "Microexpresiones",
+      "term": "Desprecio",
+      "definition": "Elevación unilateral de la comisura labial.",
+      "tacticalUse": "Detectar superioridad percibida.",
+      "countermeasure": "Mantener neutralidad y desarmar con preguntas abiertas."
+    }
+  ],
+  "tacticalMatrix": [
     {
-      "id": "fc2",
-      "term": "Pacificadores (Adaptadores)",
-      "definition": "Comportamientos de auto-contacto (tocar el cuello, frotar las manos, arreglarse la ropa) destinados a calmar el estrés y autorregular el sistema nervioso.",
-      "tacticalUse": "Identificar el momento exacto en que surgen para aislar qué tema o pregunta específica causó incomodidad o ansiedad en el interlocutor.",
-      "countermeasure": "Sustituir pacificadores visibles por anclajes discretos e invisibles, como presionar suavemente un dedo del pie contra el suelo para disipar tensión sin proyectar nerviosismo."
-    },
+      "id": "TM-001",
+      "category": "Psicología Oscura",
+      "name": "Espejo Inverso",
+      "severity": "Alta",
+      "icon": "mirror",
+      "howItWorks": "Imitar sutilmente la postura del otro para generar confianza.",
+      "redFlags": "Si el otro se siente incómodo, el rapport se rompe.",
+      "counterScript": "Cambiar de postura drásticamente para romper el ciclo.",
+      "deepMechanism": "Activación de neuronas espejo."
+    }
+  ],
+  "quizzes": [
     {
-      "id": "fc3",
-      "term": "Ilustradores",
-      "definition": "Gestos realizados con las manos u otras partes del cuerpo que acompañan al discurso verbal para enfatizar, aclarar o acentuar el mensaje oral.",
-      "tacticalUse": "Evaluar la presencia y fluidez de los ilustradores para medir la seguridad, convicción y congruencia del hablante con lo que expresa verbalmente.",
-      "countermeasure": "Detectar si la persona congela repentinamente sus manos (pérdida de ilustradores), lo cual suele marcar un pico de carga cognitiva o un intento de ocultamiento."
-    },
+      "id": "Q-001",
+      "bookNumber": 1,
+      "question": "¿Qué indica el bloqueo de los ojos durante una conversación?",
+      "options": [
+        "Interés",
+        "Desacuerdo o incomodidad",
+        "Concentración",
+        "Felicidad"
+      ],
+      "correctIndex": 1,
+      "explanation": "El bloqueo ocular es un mecanismo de defensa ante información desagradable."
+    }
+  ],
+  "glossary": [
     {
-      "id": "fc4",
-      "term": "Bloqueo Ocular",
-      "definition": "Conducta no verbal (frotarse los ojos, parpadear en exceso, cerrar los ojos prolongadamente o mirar hacia otro lado) ejecutada inconscientemente para 'bloquear' estímulos visuales o pensamientos desagradables.",
-      "tacticalUse": "Detectar el momento preciso en que la contraparte rechaza internamente una propuesta antes de que lo exprese con palabras.",
-      "countermeasure": "Reorientar la propuesta de inmediato o realizar una pregunta abierta para abordar la resistencia oculta antes de que se convierta en un 'no' verbal."
-    },
+      "id": "GL-001",
+      "term": "Kinésica",
+      "category": "Teoría",
+      "definition": "Estudio del lenguaje corporal a través de los movimientos.",
+      "practicalExample": "Analizar el movimiento de manos al explicar un proyecto."
+    }
+  ],
+  "bodyLanguageLab": [
     {
-      "id": "fc5",
-      "term": "Proxémica",
-      "definition": "Estudio del uso del espacio personal y la distancia física entre las personas como indicador de relaciones, niveles de intimidad, estatus y confort.",
-      "tacticalUse": "Modular estratégicamente la proximidad física para generar rapport o aplicar presión sutil según el objetivo de la interacción.",
-      "countermeasure": "Utilizar elementos físicos del entorno (como carpetas, una mesa o una taza) como barreras sutiles si un interlocutor intenta invadir tu espacio personal para intimidar."
+      "id": "BL-001",
+      "category": "Microexpresiones",
+      "title": "Detección de Miedo",
+      "cue": "Párpados superiores elevados y cejas contraídas.",
+      "interpretation": "Amenaza percibida o ansiedad.",
+      "practicalDrill": "Observar videos a velocidad 0.5x buscando el parpadeo rápido."
     }
   ]
 };

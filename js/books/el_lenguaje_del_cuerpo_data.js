@@ -12074,93 +12074,86 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Negociación de Ventas",
-      "title": "El Cliente Defensivo en la Presentación",
-      "difficulty": "Alta",
-      "badge": "Observador Maestro",
-      "scenarioDescription": "Estás presentando una propuesta económica a un cliente clave. A mitad de tu explicación, el cliente cruza apretadamente los brazos, echa el torso hacia atrás y aprieta los puños, aunque verbalmente dice: 'Todo me parece correcto, continúe'.",
+      "id": "CS001",
+      "category": "Negotiation",
+      "title": "The Crossed Arms Paradox",
+      "difficulty": "Intermediate",
+      "badge": "Observer",
+      "scenarioDescription": "During a high-stakes negotiation, your counterpart crosses their arms tightly while nodding at your proposal.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Pausar la explicación verbal, entregarle un folleto o muestra física en la mano y formularle una pregunta abierta sobre sus prioridades.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Obligas físicamente al cliente a descruzar los brazos para sostener el objeto, lo que abre su postura y relaja su disposición psicológica al romper el bloqueo corporal.",
-          "bookInsight": "El cuerpo lidera a la mente: mientras una persona mantenga una postura física defensiva, su capacidad de absorción y acuerdo será extremadamente reducida."
-        },
-        {
-          "id": "opt2",
-          "text": "Ignorar la postura corporal ya que sus palabras fueron positivas y acelerar hacia el cierre del contrato inmediatamente.",
-          "outcome": "Fallo",
+          "text": "Assume they are defensive and reject the offer.",
+          "outcome": "Failure",
           "wisdomScore": 20,
-          "analysis": "Confiar únicamente en el canal verbal cuando el no verbal transmite un bloqueo defensivo claro suele conducir a un rechazo repentino al final de la reunión.",
-          "bookInsight": "Cuando las palabras y el lenguaje corporal entran en conflicto, el cuerpo casi siempre revela la verdad."
-        }
-      ]
-    },
-    {
-      "id": "cs2",
-      "category": "Entrevistas de Selección",
-      "title": "Evaluación del Candidato Gerencial",
-      "difficulty": "Alta",
-      "badge": "Detector de Incongruencias",
-      "scenarioDescription": "Estás entrevistando a un candidato para un puesto directivo. Afirma tener una personalidad altamente colaborativa y paciente, pero durante la entrevista cruza las piernas en forma de '4' (tobillo sobre la rodilla) sujetando rígidamente su pierna y da golpecitos constantes en la mesa.",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "Profundizar con preguntas sobre situaciones pasadas de conflicto o competencia para evaluar si su actitud real es más agresiva u obstinada de lo que declara.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Identificaste que la postura en '4' combinada con la fijación del tobillo señala una mentalidad competitiva, discutidora u obstinada, contradictoria con la 'paciente colaboración' declarada.",
-          "bookInsight": "La postura del '4' con agarre de pierna revela a un individuo inflexible y enfocado en ganar la discusión antes que en ceder o cooperar."
+          "analysis": "You ignored the context of the nod.",
+          "bookInsight": "Crossed arms can be a self-comforting gesture in cold rooms or a sign of defensive posture."
         },
         {
-          "id": "opt2",
-          "text": "Aceptar sus palabras como verdaderas y asumir que el movimiento de las piernas es simplemente un rasgo inofensivo de hiperactividad.",
-          "outcome": "Fallo",
-          "wisdomScore": 15,
-          "analysis": "Pasar por alto un conglomerado de señales de tensión y competitividad puede resultar en la contratación de un perfil conflictivo para el equipo.",
-          "bookInsight": "Los gestos no se deben interpretar aislados, sino agrupados en conjuntos de señales que confirman el verdadero estado de ánimo."
+          "text": "Acknowledge the discomfort and offer a break.",
+          "outcome": "Success",
+          "wisdomScore": 90,
+          "analysis": "You addressed the underlying tension.",
+          "bookInsight": "Always look for clusters; the nod contradicts the closed arms, suggesting hidden disagreement."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Palmas Abiertas",
-      "definition": "Gesto ancestral asociado con la honestidad, la sinceridad, la entrega y la ausencia de amenazas.",
-      "tacticalUse": "Mostrar las palmas descubiertas durante una negociación para generar confianza inmediata y rebajar la defensiva del interlocutor.",
-      "countermeasure": "Evitar forzar el gesto si las expresiones faciales muestran tensión, ya que puede percibirse como una falsa empatía o manipulación."
-    },
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Gestures",
+      "term": "Steepling",
+      "definition": "Fingertips touching in a pyramid shape.",
+      "tacticalUse": "Project confidence and authority.",
+      "countermeasure": "Break the steeple by handing them an object."
+    }
+  ],
+  "tacticalMatrix": [
     {
-      "id": "fc2",
-      "term": "Brazos Cruzados sobre el Pecho",
-      "definition": "Barrera física defensiva que intenta proteger los órganos vitales ante una amenaza percibida, desacuerdo o inseguridad.",
-      "tacticalUse": "Identificar cuándo un cliente o interlocutor ha cerrado su mente a la propuesta para cambiar de estrategia antes de intentar cerrar el trato.",
-      "countermeasure": "Entregar un objeto (un bolígrafo, una muestra o una taza) a la persona para obligarla físicamente a descruzar los brazos."
-    },
+      "id": "TM001",
+      "category": "Deception",
+      "name": "Mouth Cover",
+      "severity": "High",
+      "icon": "hand-over-mouth",
+      "howItWorks": "The brain subconsciously tries to block the lie.",
+      "redFlags": "Hand near mouth while speaking.",
+      "counterScript": "Ask an open-ended question to force them to remove the hand.",
+      "deepMechanism": "Inhibition of deceptive speech."
+    }
+  ],
+  "quizzes": [
     {
-      "id": "fc3",
-      "term": "Gesto de la Ojiva o Cúpula (Steepling)",
-      "definition": "Posición de las manos donde las yemas de los dedos se tocan formando un pico, indicando alta confianza, autocontrol y seguridad.",
-      "tacticalUse": "Adoptar esta postura al responder preguntas complejas para proyectar autoridad, maestría y compostura profesional.",
-      "countermeasure": "Si la contraparte la usa con arrogancia, romper su foco cambiando el ritmo o haciéndole una pregunta técnica inesperada."
-    },
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "What does a palm-up gesture signify?",
+      "options": [
+        "Aggression",
+        "Submission/Honesty",
+        "Deception",
+        "Boredom"
+      ],
+      "correctIndex": 1,
+      "explanation": "The palm-up gesture is a non-threatening signal used throughout history to show lack of weapons."
+    }
+  ],
+  "glossary": [
     {
-      "id": "fc4",
-      "term": "Tocarse la Nariz o el Cuello",
-      "definition": "Gestos de pacificación producidos por microrrespuestas fisiológicas de tensión o ansiedad al ocultar información o dudar.",
-      "tacticalUse": "Evaluar la credibilidad de una afirmación clave si el emisor realiza este gesto justo al responder a una pregunta crítica.",
-      "countermeasure": "Validar la información recibida solicitando datos concretos o evidencias adicionales sin acusar directamente de falsedad."
-    },
+      "id": "G001",
+      "term": "Kinesics",
+      "category": "Theory",
+      "definition": "The study of body movement as a form of communication.",
+      "practicalExample": "Analyzing a person's gait to determine their mood."
+    }
+  ],
+  "bodyLanguageLab": [
     {
-      "id": "fc5",
-      "term": "Bloqueo Ocular",
-      "definition": "Gesto inconsciente que consiste en frotarse los ojos, mirar hacia abajo o cerrar los párpados prolongadamente para 'borrar' lo que no gusta.",
-      "tacticalUse": "Detectar un rechazo interno severo hacia la idea presentada antes de que el interlocutor lo exprese con palabras.",
-      "countermeasure": "Hacer una pausa inmediata y preguntar directamente qué aspectos de la propuesta generan dudas."
+      "id": "BL001",
+      "category": "Microexpressions",
+      "title": "The Fake Smile",
+      "cue": "Lack of crinkling at the corners of the eyes.",
+      "interpretation": "The smile is social, not genuine.",
+      "practicalDrill": "Practice Duchenne smiles in the mirror until the eyes engage."
     }
   ]
 };

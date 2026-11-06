@@ -3871,93 +3871,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Negociación y Detección de Engaño",
-      "title": "La Evaluación del Nuevo Socio Comercial",
-      "difficulty": "Alta",
-      "badge": "Maestro Analista",
-      "scenarioDescription": "Estás en una reunión crucial para cerrar una alianza con Carlos, un potencial socio inversionista. Carlos afirma enfáticamente que su empresa previa 'se vendió por millones en excelentes términos' y que está completamente libre de litigios pendientes. Sin embargo, notas que justo al pronunciar la frase 'libre de litigios', se toca la hendidura del cuello (fosa yugular), carraspea y desvía la mirada hacia la puerta de salida, aunque inmediatamente recupera una sonrisa radiante.",
+      "id": "CS001",
+      "category": "Detección de Mentiras",
+      "title": "La Entrevista de Negocios",
+      "difficulty": "Intermedio",
+      "badge": "Analista Observador",
+      "scenarioDescription": "Un candidato evita el contacto visual y se toca la nariz al hablar de su experiencia previa.",
       "options": [
         {
-          "id": "opt1",
-          "text": "No confrontarlo inmediatamente. Registrar el 'cúmulo' de incomodidad (tocarse el cuello, carraspeo, mirada a la salida) y cambiar de tema estratégicamente para luego solicitar una auditoría legal detallada de sus empresas previas.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Identificaste un cúmulo claro de estrés (pacificadores y fuga no verbal) justo al tocar el tema de la situación legal. En lugar de generar defensividad acusándolo en el acto, utilizaste la observación para guiar tu proceso de verificación formal.",
-          "bookInsight": "Un solo gesto no confirma la mentira, pero un cúmulo de señales pacifiadoras al tocar un punto específico marca el área exacta donde debes investigar más a fondo."
+          "text": "Asumir que miente inmediatamente.",
+          "outcome": "Error de juicio",
+          "wisdomScore": 20,
+          "analysis": "El contacto visual evitado puede ser timidez o carga cognitiva.",
+          "bookInsight": "Capítulo 4: No juzgar por un solo gesto, buscar grupos de señales."
         },
         {
-          "id": "opt2",
-          "text": "Interrumpirlo al instante y decirle: 'Sé que estás mintiendo porque te tocaste el cuello y miraste la puerta, así que dime la verdad sobre tus demandas pendientes'.",
-          "outcome": "Fallo",
-          "wisdomScore": 25,
-          "analysis": "Acusar directamente basándote en un lenguaje corporal inicial destruye el rapport, pone al interlocutor a la defensiva y revela que estás buscando atraparlo, imposibilitando la recolección fluida de más información.",
-          "bookInsight": "El analista experto nunca revela su capacidad de lectura de forma agresiva; utiliza la información discretamente para tomar mejores decisiones tácticas."
+          "text": "Calibrar su línea base y observar otros gestos.",
+          "outcome": "Éxito",
+          "wisdomScore": 100,
+          "analysis": "La calibración es esencial antes de concluir engaño.",
+          "bookInsight": "Capítulo 7: Establecer la línea base es el primer paso."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Análisis Interpersonal y Relaciones",
-      "title": "Descifrando el Interés Real en un Equipo de Trabajo",
-      "difficulty": "Media",
-      "badge": "Estratega Conductual",
-      "scenarioDescription": "Le presentas una nueva estrategia de trabajo a tu equipo. Al observar a Elena, notas que dice verbalmente: 'Me parece una idea genial, estoy totalmente de acuerdo'. No obstante, mientras habla, inclina el torso levemente hacia atrás, mantiene los labios apretados en una línea fina y sus pies están apuntando directamente hacia el pasillo fuera de la sala de reuniones.",
+      "id": "CS002",
+      "category": "Lenguaje Corporal",
+      "title": "La Negociación Tensa",
+      "difficulty": "Avanzado",
+      "badge": "Maestro de la Kinésica",
+      "scenarioDescription": "Tu interlocutor cruza los brazos y se inclina hacia atrás al presentarle una oferta.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Reconocer la incongruencia entre sus palabras y su cuerpo. Abrir un espacio de diálogo seguro diciendo: 'Elena, me interesa mucho tu perspectiva técnica, ¿qué posibles desafíos o ajustes ves que podríamos considerar para este proyecto?'",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Detectaste la incongruencia no verbal (retirada de torso, labios apretados, orientación de pies) que revela dudas o desacuerdo no expresado. Le diste la oportunidad de expresar sus objeciones sin ponerla en evidencia.",
-          "bookInsight": "Los pies y la postura del torso revelan la verdadera actitud mental. Cuando la palabra dice 'sí' pero el cuerpo dice 'no', prevalece el lenguaje corporal."
+          "text": "Ignorar y seguir hablando.",
+          "outcome": "Fallo en la conexión",
+          "wisdomScore": 30,
+          "analysis": "Ignorar la resistencia física garantiza el rechazo.",
+          "bookInsight": "Capítulo 2: Los brazos cruzados indican barrera defensiva."
         },
         {
-          "id": "opt2",
-          "text": "Dar por sentado que Elena apoya plenamente la propuesta, ya que lo confirmó verbalmente delante de todos, e ignorar sus gestos por considerar que solo son tics sin importancia.",
-          "outcome": "Fallo",
-          "wisdomScore": 30,
-          "analysis": "Confiaste ciegamente en el canal verbal e ignoraste múltiples señales de resistencia e incomodidad, lo que probablemente causará falta de compromiso o sabotaje pasivo en la ejecución del proyecto.",
-          "bookInsight": "Las palabras son fáciles de manipular; el cuerpo requiere un esfuerzo consciente mucho mayor para fingir congruencia absoluta."
+          "text": "Cambiar el enfoque y buscar apertura.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Romper el patrón físico ayuda a reducir la resistencia mental.",
+          "bookInsight": "Capítulo 5: El lenguaje corporal es un espejo de la mente."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Análisis Conductual",
+      "title": "El Sospechoso Inquieto",
+      "difficulty": "Experto",
+      "badge": "Detector de Engaño",
+      "scenarioDescription": "Al preguntar por un hecho, el sujeto repite la pregunta antes de responder.",
+      "options": [
+        {
+          "text": "Presionar para que responda rápido.",
+          "outcome": "Bloqueo",
+          "wisdomScore": 40,
+          "analysis": "La presión excesiva genera respuestas defensivas.",
+          "bookInsight": "Capítulo 9: La repetición de preguntas es una táctica de dilación."
+        },
+        {
+          "text": "Observar la latencia de respuesta.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "La latencia es un indicador clave de procesamiento cognitivo.",
+          "bookInsight": "Capítulo 4: El tiempo de respuesta revela el esfuerzo mental."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Detección de Mentiras",
+      "title": "La Coartada Inconsistente",
+      "difficulty": "Intermedio",
+      "badge": "Analista de Patrones",
+      "scenarioDescription": "El sujeto cuenta una historia detallada pero sus pies apuntan hacia la salida.",
+      "options": [
+        {
+          "text": "Confiar en sus palabras.",
+          "outcome": "Engañado",
+          "wisdomScore": 10,
+          "analysis": "El cuerpo suele contradecir las palabras cuando hay engaño.",
+          "bookInsight": "Capítulo 6: Los pies son los indicadores más honestos."
+        },
+        {
+          "text": "Cuestionar la dirección de su atención.",
+          "outcome": "Éxito",
+          "wisdomScore": 85,
+          "analysis": "La incongruencia entre palabras y pies indica deseo de huida.",
+          "bookInsight": "Capítulo 6: La kinésica de los pies revela intenciones reales."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Lenguaje Corporal",
+      "title": "El Líder Dominante",
+      "difficulty": "Básico",
+      "badge": "Observador Agudo",
+      "scenarioDescription": "Alguien entra en la sala ocupando mucho espacio con sus brazos.",
+      "options": [
+        {
+          "text": "Imitar su postura para ganar respeto.",
+          "outcome": "Conflicto",
+          "wisdomScore": 50,
+          "analysis": "La imitación agresiva puede ser vista como desafío.",
+          "bookInsight": "Capítulo 2: El espacio personal define el estatus."
+        },
+        {
+          "text": "Mantener una postura abierta y neutral.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "La neutralidad permite analizar sin entrar en confrontación.",
+          "bookInsight": "Capítulo 3: Leer a las personas requiere objetividad."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Análisis Conductual",
+      "title": "El Microgesto Fugaz",
+      "difficulty": "Experto",
+      "badge": "Experto en Microexpresiones",
+      "scenarioDescription": "Ves un destello de desprecio en el rostro de tu interlocutor al mencionar un nombre.",
+      "options": [
+        {
+          "text": "Ignorarlo por ser un error visual.",
+          "outcome": "Fallo de percepción",
+          "wisdomScore": 20,
+          "analysis": "Las microexpresiones son fugaces pero reveladoras.",
+          "bookInsight": "Capítulo 9: Las emociones reales se filtran en microsegundos."
+        },
+        {
+          "text": "Tomar nota mental y cambiar el tema.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Detectar la emoción oculta te da ventaja estratégica.",
+          "bookInsight": "Capítulo 9: El desprecio es una señal de superioridad percibida."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Línea Base (Baseline)",
-      "definition": "El conjunto de patrones del comportamiento verbal y no verbal habituales de un individuo en un estado normal y libre de estrés.",
-      "tacticalUse": "Observa a la persona en una charla informal previa antes de hacer preguntas comprometedoras. Identifica su ritmo de habla, parpadeo y postura normal.",
-      "countermeasure": "Si sabes que te están evaluando, mantén consciente tu postura y tono para evitar que una alteración por nerviosismo normal sea malinterpretada."
+      "id": "FC01",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Línea Base",
+      "definition": "Comportamiento normal de una persona.",
+      "tacticalUse": "Comparar desviaciones.",
+      "countermeasure": "Observar en estado relajado."
     },
     {
-      "id": "fc2",
-      "term": "Microexpresiones",
-      "definition": "Expresiones faciales involuntarias y ultra rápidas (duran una fracción de segundo) que muestran la verdadera emoción sentida antes de ser reprimida.",
-      "tacticalUse": "Fíjate en las comisuras de los labios, el entrecejo o los ojos inmediatamente después de dar una noticia impactante o hacer una pregunta directa.",
-      "countermeasure": "Práctica la atención plena y el autocontrol emocional profundo, ya que las microexpresiones son casi imposibles de reprimir conscientemente."
+      "id": "FC02",
+      "bookNumber": 2,
+      "category": "Kinésica",
+      "term": "Barrera",
+      "definition": "Objetos o brazos entre personas.",
+      "tacticalUse": "Detectar rechazo.",
+      "countermeasure": "Ofrecer un objeto para romperla."
     },
     {
-      "id": "fc3",
-      "term": "Comportamientos Pacificadores",
-      "definition": "Acciones táctiles que realiza el cuerpo (tocarse el cuello, frotarse los muslos, acomodarse el reloj) para auto-calmarse ante picos de estrés.",
-      "tacticalUse": "Detecta cuándo la persona realiza estos gestos para identificar exactamente qué tema o pregunta detonó la incomodidad o el estrés.",
-      "countermeasure": "Sostén un objeto (como un bolígrafo o taza) o mantén las manos apoyadas firmemente sobre la mesa para evitar gestos involuntarios de apaciguamiento."
+      "id": "FC03",
+      "bookNumber": 4,
+      "category": "Mentiras",
+      "term": "Latencia",
+      "definition": "Tiempo de respuesta.",
+      "tacticalUse": "Detectar carga cognitiva.",
+      "countermeasure": "Hacer preguntas simples primero."
     },
     {
-      "id": "fc4",
-      "term": "Carga Cognitiva",
-      "definition": "El nivel de esfuerzo mental que el cerebro requiere para procesar una tarea o elaborar un discurso.",
-      "tacticalUse": "Haz que un sospechoso relate los hechos desde el final hacia el principio. Si el relato es inventado, colapsará al no poder sostener la mentira en orden inverso.",
-      "countermeasure": "Si debes dar una explicación verídica compleja bajo presión, tómate pausas deliberadas para organizar tus ideas antes de hablar."
+      "id": "FC04",
+      "bookNumber": 6,
+      "category": "Kinésica",
+      "term": "Orientación de pies",
+      "definition": "Dirección hacia donde apunta el cuerpo.",
+      "tacticalUse": "Detectar intención de huida.",
+      "countermeasure": "Bloquear la salida sutilmente."
     },
     {
-      "id": "fc5",
-      "term": "Incongruencia Canálica",
-      "definition": "Falta de armonía entre el canal verbal (palabras) y los canales no verbales (gestos, voz, postura).",
-      "tacticalUse": "Busca contradicciones directas, como alguien diciendo 'estoy muy entusiasmado' mientras mantiene los brazos cruzados y una voz apática.",
-      "countermeasure": "Asegúrate de que tu intención mental coincida verdaderamente con tus palabras para que tu cuerpo exprese el mensaje de forma natural e integrada."
+      "id": "FC05",
+      "bookNumber": 9,
+      "category": "Mentiras",
+      "term": "Microexpresión",
+      "definition": "Gestos faciales de <0.5s.",
+      "tacticalUse": "Ver emociones reales.",
+      "countermeasure": "Grabar y analizar en cámara lenta."
+    },
+    {
+      "id": "FC06",
+      "bookNumber": 2,
+      "category": "Kinésica",
+      "term": "Autoconfort",
+      "definition": "Tocarse el cuello o cara.",
+      "tacticalUse": "Detectar estrés.",
+      "countermeasure": "Preguntar qué le preocupa."
+    },
+    {
+      "id": "FC07",
+      "bookNumber": 3,
+      "category": "Lectura",
+      "term": "Calibración",
+      "definition": "Ajuste de lectura al sujeto.",
+      "tacticalUse": "Evitar errores de juicio.",
+      "countermeasure": "Hacer preguntas neutrales."
+    },
+    {
+      "id": "FC08",
+      "bookNumber": 5,
+      "category": "Lenguaje",
+      "term": "Espejo",
+      "definition": "Imitar posturas sutilmente.",
+      "tacticalUse": "Generar rapport.",
+      "countermeasure": "Cambiar postura para ver si sigue."
+    },
+    {
+      "id": "FC09",
+      "bookNumber": 7,
+      "category": "Mentiras",
+      "term": "Incongruencia",
+      "definition": "Palabras vs cuerpo.",
+      "tacticalUse": "Detectar engaño.",
+      "countermeasure": "Pedir que repita la historia."
+    },
+    {
+      "id": "FC10",
+      "bookNumber": 8,
+      "category": "Mentiras",
+      "term": "Mentiroso Patológico",
+      "definition": "Miente sin beneficio aparente.",
+      "tacticalUse": "No buscar lógica.",
+      "countermeasure": "Ignorar sus afirmaciones."
+    },
+    {
+      "id": "FC11",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Proxémica",
+      "definition": "Uso del espacio personal.",
+      "tacticalUse": "Medir nivel de confianza.",
+      "countermeasure": "Respetar la zona íntima."
+    },
+    {
+      "id": "FC12",
+      "bookNumber": 4,
+      "category": "Mentiras",
+      "term": "Bloqueo ocular",
+      "definition": "Cerrar ojos al hablar.",
+      "tacticalUse": "Detectar incomodidad.",
+      "countermeasure": "Cambiar el tema."
+    },
+    {
+      "id": "FC13",
+      "bookNumber": 6,
+      "category": "Kinésica",
+      "term": "Postura abierta",
+      "definition": "Pecho expuesto.",
+      "tacticalUse": "Detectar honestidad.",
+      "countermeasure": "Mantener postura similar."
+    },
+    {
+      "id": "FC14",
+      "bookNumber": 9,
+      "category": "Mentiras",
+      "term": "Fuga de manos",
+      "definition": "Movimientos nerviosos.",
+      "tacticalUse": "Detectar ansiedad.",
+      "countermeasure": "Pedir que sostenga algo."
+    },
+    {
+      "id": "FC15",
+      "bookNumber": 3,
+      "category": "Lectura",
+      "term": "Agrupamiento",
+      "definition": "Analizar 3+ señales.",
+      "tacticalUse": "Evitar falsos positivos.",
+      "countermeasure": "Buscar confirmación verbal."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Detección",
+      "name": "El Triángulo de la Verdad",
+      "severity": "Alta",
+      "icon": "triangle",
+      "howItWorks": "Observar ojos, boca y manos simultáneamente.",
+      "redFlags": "Desviación de mirada + manos inquietas.",
+      "counterScript": "Cuéntame más sobre eso.",
+      "deepMechanism": "Sobrecarga de procesamiento cognitivo."
+    },
+    {
+      "id": "TM02",
+      "category": "Influencia",
+      "name": "Espejo Sutil",
+      "severity": "Baja",
+      "icon": "mirror",
+      "howItWorks": "Copiar la postura del otro tras 30 segundos.",
+      "redFlags": "Resistencia al espejo.",
+      "counterScript": "Cambiar de posición bruscamente.",
+      "deepMechanism": "Neuronas espejo y empatía."
+    },
+    {
+      "id": "TM03",
+      "category": "Detección",
+      "name": "Análisis de Latencia",
+      "severity": "Media",
+      "icon": "clock",
+      "howItWorks": "Medir el tiempo entre pregunta y respuesta.",
+      "redFlags": "Respuesta demasiado rápida o lenta.",
+      "counterScript": "Repetir la pregunta con calma.",
+      "deepMechanism": "Tiempo de construcción de mentira."
+    },
+    {
+      "id": "TM04",
+      "category": "Defensa",
+      "name": "Escudo de Proxémica",
+      "severity": "Media",
+      "icon": "shield",
+      "howItWorks": "Mantener distancia de 1.2 metros.",
+      "redFlags": "Invasión de espacio.",
+      "counterScript": "Dar un paso atrás.",
+      "deepMechanism": "Reducción de amenaza física."
+    },
+    {
+      "id": "TM05",
+      "category": "Detección",
+      "name": "Detección de Incongruencia",
+      "severity": "Alta",
+      "icon": "warning",
+      "howItWorks": "Comparar palabras con gestos.",
+      "redFlags": "Decir 'sí' mientras niega con la cabeza.",
+      "counterScript": "Pareces dudar, ¿es así?",
+      "deepMechanism": "Disonancia cognitiva."
+    },
+    {
+      "id": "TM06",
+      "category": "Análisis",
+      "name": "Calibración de Línea Base",
+      "severity": "Baja",
+      "icon": "scale",
+      "howItWorks": "Hacer preguntas triviales al inicio.",
+      "redFlags": "Cambio drástico al tema central.",
+      "counterScript": "Volver a temas triviales.",
+      "deepMechanism": "Establecimiento de norma conductual."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Qué es la línea base?",
+      "options": [
+        "El comportamiento estándar",
+        "Una técnica de engaño",
+        "Un gesto de manos",
+        "La postura de los pies"
+      ],
+      "correctIndex": 0,
+      "explanation": "Es el comportamiento normal de una persona antes de detectar cambios."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 2,
+      "question": "¿Qué indican los brazos cruzados?",
+      "options": [
+        "Apertura",
+        "Defensa",
+        "Aburrimiento",
+        "Interés"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una barrera física que indica resistencia o protección."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 4,
+      "question": "¿Qué es el bloqueo ocular?",
+      "options": [
+        "Mirar fijamente",
+        "Cerrar los ojos",
+        "Parpadear rápido",
+        "Mirar a la derecha"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es un gesto de autoprotección ante información desagradable."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 6,
+      "question": "¿Qué parte del cuerpo es más honesta?",
+      "options": [
+        "Manos",
+        "Ojos",
+        "Pies",
+        "Boca"
+      ],
+      "correctIndex": 2,
+      "explanation": "Los pies son los menos controlados conscientemente."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 7,
+      "question": "¿Qué es la incongruencia?",
+      "options": [
+        "Hablar rápido",
+        "Contradicción verbal-gestual",
+        "Mirar al suelo",
+        "Sudoración"
+      ],
+      "correctIndex": 1,
+      "explanation": "Cuando el cuerpo dice lo contrario a las palabras."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 9,
+      "question": "¿Cuánto dura una microexpresión?",
+      "options": [
+        "5 segundos",
+        "1 minuto",
+        "Menos de 0.5 segundos",
+        "10 segundos"
+      ],
+      "correctIndex": 2,
+      "explanation": "Son fugaces y revelan emociones reprimidas."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Kinésica",
+      "category": "Teoría",
+      "definition": "Estudio del movimiento corporal.",
+      "practicalExample": "Analizar gestos de manos."
+    },
+    {
+      "id": "G02",
+      "term": "Proxémica",
+      "category": "Teoría",
+      "definition": "Uso del espacio.",
+      "practicalExample": "Distancia en una charla."
+    },
+    {
+      "id": "G03",
+      "term": "Rapport",
+      "category": "Psicología",
+      "definition": "Sintonía entre personas.",
+      "practicalExample": "Sentirse cómodo con alguien."
+    },
+    {
+      "id": "G04",
+      "term": "Microexpresión",
+      "category": "Facial",
+      "definition": "Gesto facial breve.",
+      "practicalExample": "Destello de ira."
+    },
+    {
+      "id": "G05",
+      "term": "Calibración",
+      "category": "Análisis",
+      "definition": "Ajuste de observación.",
+      "practicalExample": "Preguntar '¿cómo estás?'."
+    },
+    {
+      "id": "G06",
+      "term": "Incongruencia",
+      "category": "Detección",
+      "definition": "Contradicción gestual.",
+      "practicalExample": "Decir 'no' y asentir."
+    },
+    {
+      "id": "G07",
+      "term": "Latencia",
+      "category": "Análisis",
+      "definition": "Tiempo de respuesta.",
+      "practicalExample": "Pausa antes de hablar."
+    },
+    {
+      "id": "G08",
+      "term": "Autoconfort",
+      "category": "Kinésica",
+      "definition": "Gestos de calma.",
+      "practicalExample": "Frotarse las manos."
+    },
+    {
+      "id": "G09",
+      "term": "Bloqueo",
+      "category": "Kinésica",
+      "definition": "Barrera física.",
+      "practicalExample": "Cruzar brazos."
+    },
+    {
+      "id": "G10",
+      "term": "Línea Base",
+      "category": "Análisis",
+      "definition": "Conducta habitual.",
+      "practicalExample": "Observar a alguien relajado."
+    },
+    {
+      "id": "G11",
+      "term": "Fuga",
+      "category": "Kinésica",
+      "definition": "Movimiento de escape.",
+      "practicalExample": "Pies hacia la puerta."
+    },
+    {
+      "id": "G12",
+      "term": "Espejo",
+      "category": "Influencia",
+      "definition": "Imitación sutil.",
+      "practicalExample": "Copiar postura."
+    },
+    {
+      "id": "G13",
+      "term": "Disonancia",
+      "category": "Psicología",
+      "definition": "Conflicto mental.",
+      "practicalExample": "Mentir bajo presión."
+    },
+    {
+      "id": "G14",
+      "term": "Oculesia",
+      "category": "Facial",
+      "definition": "Lenguaje de ojos.",
+      "practicalExample": "Contacto visual."
+    },
+    {
+      "id": "G15",
+      "term": "Gestos",
+      "category": "Kinésica",
+      "definition": "Movimientos manuales.",
+      "practicalExample": "Señalar con dedo."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Facial",
+      "title": "Detección de Desprecio",
+      "cue": "Labio superior elevado unilateralmente.",
+      "interpretation": "Sentimiento de superioridad.",
+      "practicalDrill": "Practicar frente al espejo."
+    },
+    {
+      "id": "BL02",
+      "category": "Manos",
+      "title": "El Puente de Dedos",
+      "cue": "Puntas de dedos unidas.",
+      "interpretation": "Confianza y autoridad.",
+      "practicalDrill": "Usar en reuniones."
+    },
+    {
+      "id": "BL03",
+      "category": "Pies",
+      "title": "La Dirección de Salida",
+      "cue": "Pies apuntando a la puerta.",
+      "interpretation": "Deseo de terminar la charla.",
+      "practicalDrill": "Observar en grupos."
+    },
+    {
+      "id": "BL04",
+      "category": "Facial",
+      "title": "Parpadeo Excesivo",
+      "cue": "Parpadeo rápido.",
+      "interpretation": "Estrés o ansiedad.",
+      "practicalDrill": "Contar parpadeos en video."
+    },
+    {
+      "id": "BL05",
+      "category": "Postura",
+      "title": "Inclinación de Cabeza",
+      "cue": "Cabeza ladeada.",
+      "interpretation": "Interés y escucha activa.",
+      "practicalDrill": "Usar al escuchar."
+    },
+    {
+      "id": "BL06",
+      "category": "Manos",
+      "title": "Palmas Abiertas",
+      "cue": "Palmas visibles.",
+      "interpretation": "Honestidad y transparencia.",
+      "practicalDrill": "Mostrar manos al hablar."
     }
   ]
 };

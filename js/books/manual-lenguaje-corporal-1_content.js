@@ -1,3 +1,4 @@
+// Contenido enriquecido para Manual Práctico de Lenguaje Corporal y Videollamadas
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -2239,6 +2240,90 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS-001",
+      "category": "Detección de Engaño",
+      "title": "La Negociación Incierta",
+      "difficulty": "Avanzado",
+      "badge": "Analista Senior",
+      "scenarioDescription": "Durante una videollamada, el interlocutor se toca la nariz y desvía la mirada al hablar de los términos financieros.",
+      "options": [
+        {
+          "text": "Interrumpir para señalar la mentira",
+          "outcome": "Defensivo",
+          "wisdomScore": 40,
+          "analysis": "La confrontación directa rompe el rapport.",
+          "bookInsight": "El contacto nasal puede ser picor o estrés, no siempre engaño."
+        },
+        {
+          "text": "Cambiar el tema a uno neutral para observar el cambio de base",
+          "outcome": "Calibración Exitosa",
+          "wisdomScore": 95,
+          "analysis": "Establecer la línea base es vital antes de juzgar.",
+          "bookInsight": "Busca cambios en el comportamiento, no gestos aislados."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC-001",
+      "bookNumber": 1,
+      "category": "Microexpresiones",
+      "term": "Desprecio",
+      "definition": "Elevación unilateral de la comisura labial.",
+      "tacticalUse": "Detectar superioridad percibida.",
+      "countermeasure": "Mantener neutralidad y desarmar con preguntas abiertas."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM-001",
+      "category": "Psicología Oscura",
+      "name": "Espejo Inverso",
+      "severity": "Alta",
+      "icon": "mirror",
+      "howItWorks": "Imitar sutilmente la postura del otro para generar confianza.",
+      "redFlags": "Si el otro se siente incómodo, el rapport se rompe.",
+      "counterScript": "Cambiar de postura drásticamente para romper el ciclo.",
+      "deepMechanism": "Activación de neuronas espejo."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q-001",
+      "bookNumber": 1,
+      "question": "¿Qué indica el bloqueo de los ojos durante una conversación?",
+      "options": [
+        "Interés",
+        "Desacuerdo o incomodidad",
+        "Concentración",
+        "Felicidad"
+      ],
+      "correctIndex": 1,
+      "explanation": "El bloqueo ocular es un mecanismo de defensa ante información desagradable."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "GL-001",
+      "term": "Kinésica",
+      "category": "Teoría",
+      "definition": "Estudio del lenguaje corporal a través de los movimientos.",
+      "practicalExample": "Analizar el movimiento de manos al explicar un proyecto."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL-001",
+      "category": "Microexpresiones",
+      "title": "Detección de Miedo",
+      "cue": "Párpados superiores elevados y cejas contraídas.",
+      "interpretation": "Amenaza percibida o ansiedad.",
+      "practicalDrill": "Observar videos a velocidad 0.5x buscando el parpadeo rápido."
     }
   ]
 };
