@@ -11321,3 +11321,4 @@ const BOOK_CONTENT = {
     }
   ]
 };
+if (typeof window !== "undefined") { window.BOOK_CONTENT = BOOK_CONTENT; }

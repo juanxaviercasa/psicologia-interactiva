@@ -1788,35 +1788,44 @@
   <!-- Scripts Neural OS -->
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 
-  <!-- Enrutador Dinámico de Libros -->
+  <!-- Enrutador Dinámico de Libros con Sincronización Blindada y Fallback -->
   <script>
     (function() {
       const urlParams = new URLSearchParams(window.location.search);
       const bookId = urlParams.get('book');
       
-      const contentScript = document.createElement('script');
-      const dataScript = document.createElement('script');
+      const contentSrc = bookId ? ('js/books/' + bookId + '_content.js?v=7.4.0') : 'js/book_content.js?v=4.0';
+      const dataSrc = bookId ? ('js/books/' + bookId + '_data.js?v=7.4.0') : 'js/data_libros.js?v=4.0';
       
-      if (bookId) {
-        // Cargar desde la nueva estructura (Fase 3)
-        contentScript.src = 'js/books/' + bookId + '_content.js?v=7.0';
-        dataScript.src = 'js/books/' + bookId + '_data.js?v=7.0';
-      } else {
-        // Fallback al libro principal original para mantener retrocompatibilidad temporal
-        contentScript.src = 'js/book_content.js?v=4.0';
-        dataScript.src = 'js/data_libros.js?v=4.0';
+      function notifyDataReady() {
+        window.dispatchEvent(new CustomEvent('bookDataReady'));
+        if (window.App && typeof window.App.onBookDataReady === 'function') {
+          window.App.onBookDataReady();
+        } else if (typeof App !== 'undefined' && typeof App.renderDashboard === 'function') {
+          App.initActiveBook();
+          App.renderDashboard();
+          App.updateStats();
+        }
       }
-      
-      // Asegurar el orden de carga sincrónico falso
+
+      const contentScript = document.createElement('script');
+      contentScript.src = contentSrc;
       contentScript.async = false;
+      
+      const dataScript = document.createElement('script');
+      dataScript.src = dataSrc;
       dataScript.async = false;
       
       dataScript.onload = function() {
-        if (window.App && typeof window.App.renderDashboard === 'function') {
-          window.App.initActiveBook();
-          window.App.renderDashboard();
-          window.App.updateStats();
-        }
+        notifyDataReady();
+      };
+      
+      dataScript.onerror = function() {
+        console.warn('No se pudo cargar ' + dataSrc + ', activando fallback...');
+        const fbScript = document.createElement('script');
+        fbScript.src = 'js/data_libros.js?v=4.0';
+        fbScript.onload = function() { notifyDataReady(); };
+        document.head.appendChild(fbScript);
       };
 
       document.head.appendChild(contentScript);
@@ -1833,8 +1842,8 @@
   <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
   <!-- SweetAlert2 -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <!-- Main Application Logic (V7.3.0 Zenit Cortex) -->
-  <script src="js/app.js?v=7.3.0"></script>
+  <!-- Main Application Logic (V7.4.0 Zenit Cortex) -->
+  <script src="js/app.js?v=7.4.0"></script>
 
   <footer class="mt-16 py-8 border-t border-slate-800/60 bg-slate-950/50 text-center relative z-20">
     <div class="container mx-auto px-4">

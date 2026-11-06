@@ -12160,3 +12160,4 @@ const LIBROS_DATA = {
     }
   ]
 };
+if (typeof window !== "undefined") { window.LIBROS_DATA = LIBROS_DATA; }

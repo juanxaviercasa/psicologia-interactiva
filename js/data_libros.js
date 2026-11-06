@@ -1038,3 +1038,8 @@ Una vez establecida la Baseline, suelta la pregunta difícil. Si notas que de re
     { term: 'Síndrome de Abstinencia (Trauma Bond)', category: 'Recuperación', definition: 'Conjunto de síntomas físicos y emocionales (ansiedad, insomnio, anhelo intenso) al cortar el contacto con el narcisista. Confirma la desintoxicación en proceso.', example: 'Ansiedad intensa el Día 30 de Contacto Cero: no significa que debes volver, significa que el proceso funciona.' }
   ]
 };
+
+
+if (typeof window !== 'undefined') {
+  window.LIBROS_DATA = LIBROS_DATA;
+}

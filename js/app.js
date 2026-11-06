@@ -88,7 +88,30 @@ const App = {
       }
   },
 
+  getLibrosData() {
+    if (typeof LIBROS_DATA !== 'undefined' && LIBROS_DATA) return LIBROS_DATA;
+    if (typeof window !== 'undefined' && window.LIBROS_DATA) return window.LIBROS_DATA;
+    return null;
+  },
+
+  onBookDataReady() {
+    this.initActiveBook();
+    this.renderDashboard();
+    if (this.state.activeTab === 'learning') {
+      this.renderLearningPath();
+    }
+    this.loadFlashcards();
+    this.renderMatrixFilters();
+    this.filterMatrix('all');
+    this.renderSimulator();
+    this.renderBodyLab();
+    this.renderQuizzes();
+    this.renderGlossary();
+    this.updateStats();
+  },
+
   init() {
+      window.App = this;
       // Load theme
       if (localStorage.getItem('pso_theme') === 'light') {
           document.documentElement.classList.add('light-theme');
@@ -113,7 +136,25 @@ const App = {
 
     this.initActiveBook();
     this.loadProgress();
-    this.renderDashboard();
+
+    const data = this.getLibrosData();
+    if (data && data.modules && data.modules.length > 0) {
+      this.renderDashboard();
+    } else {
+      const container = document.getElementById('dashboardModulesGrid');
+      if (container) {
+        container.innerHTML = `
+          <div class="col-span-full py-16 text-center text-slate-400">
+            <i class="fa-solid fa-circle-notch fa-spin text-3xl text-cyan-400 mb-3"></i>
+            <p class="text-sm font-semibold text-slate-300">Cargando módulos de estudio de ZENIT CORTEX...</p>
+          </div>
+        `;
+      }
+      window.addEventListener('bookDataReady', () => {
+        this.onBookDataReady();
+      }, { once: true });
+    }
+
     this.loadFlashcards();
 
     document.addEventListener('keydown', (e) => {
@@ -1576,16 +1617,16 @@ const App = {
     if (learningSub) {
       learningSub.textContent = (book.fullTitle && book.fullTitle !== book.title) ? book.fullTitle : 'Domina este compendio mediante fragmentación cognitiva (chunking), lecciones estructuradas y evaluaciones diagnósticas.';
     }
+    const data = this.getLibrosData();
+    const count = (data && data.modules) ? data.modules.length : '';
     const learningModulesCount = document.getElementById('learningBannerModulesCount');
     if (learningModulesCount) {
-      const count = (typeof LIBROS_DATA !== 'undefined' && LIBROS_DATA.modules) ? LIBROS_DATA.modules.length : '';
       learningModulesCount.textContent = count ? `${count} Módulos Tácticos` : 'Ruta Formativa Completa';
     }
 
     // 6. Modules Section Heading
     const modulesHeading = document.getElementById('dashboardModulesHeading');
     if (modulesHeading) {
-      const count = (typeof LIBROS_DATA !== 'undefined' && LIBROS_DATA.modules) ? LIBROS_DATA.modules.length : '';
       modulesHeading.textContent = `Módulos de Estudio: ${book.title} ${count ? `(${count})` : ''}`;
     }
   },
@@ -1709,10 +1750,11 @@ const App = {
   // DASHBOARD
   // =============================================
   renderDashboard() {
-    if (typeof LIBROS_DATA === 'undefined') return;
+    const data = this.getLibrosData();
+    if (!data || !data.modules) return;
     const container = document.getElementById('dashboardModulesGrid');
     if (!container) return;
-    container.innerHTML = LIBROS_DATA.modules.map(m => {
+    container.innerHTML = data.modules.map(m => {
       let modCompletedCount = 0;
       m.keyPillars.forEach((_, pi) => {
         const nextId = pi + 1 < m.keyPillars.length ? `m${m.bookNumber}-${pi+1}` : `m${m.bookNumber+1}-0`;
@@ -1806,13 +1848,14 @@ const App = {
 
   renderLearningPath() {
     const container = document.getElementById('learningPathContainer');
-    if (!container || typeof LIBROS_DATA === 'undefined') return;
+    const data = this.getLibrosData();
+    if (!container || !data || !data.modules) return;
     if (!this.state.progress.unlockedLessons) this.state.progress.unlockedLessons = { 'm1-0': true };
 
     let html = '';
     let prevModCompleted = true;
 
-    LIBROS_DATA.modules.forEach((mod) => {
+    data.modules.forEach((mod) => {
       let modCompletedCount = 0;
       mod.keyPillars.forEach((_, pi) => {
         const nextId = pi + 1 < mod.keyPillars.length ? `m${mod.bookNumber}-${pi+1}` : `m${mod.bookNumber+1}-0`;
@@ -3690,4 +3733,5 @@ const App = {
   }
 };
 
+window.App = App;
 document.addEventListener('DOMContentLoaded', () => { App.init(); });
