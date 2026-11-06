@@ -111,6 +111,7 @@ const App = {
     }
 
 
+    this.initActiveBook();
     this.loadProgress();
     this.renderDashboard();
     this.loadFlashcards();
@@ -1469,6 +1470,103 @@ const App = {
   },
 
   // =============================================
+  // LIBRO ACTIVO & BRANDING DINÁMICO
+  // =============================================
+  initActiveBook() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const bookId = urlParams.get('book');
+    let book = null;
+
+    if (typeof COLECCION_DATA !== 'undefined' && COLECCION_DATA.books) {
+      if (bookId) {
+        book = COLECCION_DATA.books.find(b => b.id === bookId);
+        if (!book) {
+          const stripped = bookId.replace(/^[0-9]+-/, '');
+          book = COLECCION_DATA.books.find(b => b.id === stripped || b.id.includes(stripped) || stripped.includes(b.id));
+        }
+      }
+    }
+
+    if (!book && bookId) {
+      const cleanTitle = bookId
+        .replace(/^[0-9]+-/, '')
+        .replace(/-/g, ' ')
+        .replace(/\b\w/g, l => l.toUpperCase());
+      book = {
+        id: bookId,
+        title: cleanTitle,
+        fullTitle: cleanTitle,
+        author: '',
+        categoryName: 'Libro en Estudio',
+        categoryIcon: 'fa-book-open',
+        coverImage: ''
+      };
+    } else if (!book) {
+      book = {
+        id: 'psicologia-obscura-6-en-1',
+        title: 'Psicología Oscura (6 en 1)',
+        fullTitle: 'Psicología Oscura: 6 Libros en 1 - Compendio Maestro',
+        author: 'Benedict Goleman',
+        categoryName: 'Psicología Estratégica',
+        categoryIcon: 'fa-brain',
+        coverImage: 'assets/img/covers/cover_book_col-023.webp'
+      };
+    }
+
+    window.ACTIVE_BOOK_DATA = book;
+
+    // 1. Título de la pestaña
+    document.title = `${book.title} | Psicología Estratégica`;
+
+    // 2. Subtítulo en el Header
+    const headerTitle = document.getElementById('headerBookTitleText');
+    if (headerTitle) {
+      headerTitle.textContent = `${book.title}${book.author ? ` (${book.author})` : ''}`;
+    }
+
+    // 3. Hero Category Badge
+    const heroCategory = document.getElementById('heroBookCategory');
+    if (heroCategory) {
+      heroCategory.innerHTML = `<i class="fa-solid ${book.categoryIcon || 'fa-book-bookmark'} text-cyan-400"></i> ${book.categoryName ? book.categoryName.toUpperCase() : 'LIBRO EN ESTUDIO'}${book.timeEstimate ? ` • ${book.timeEstimate}` : ''}`;
+    }
+
+    // 4. Hero Title
+    const heroTitle = document.getElementById('heroBookTitle');
+    if (heroTitle) {
+      heroTitle.innerHTML = `<span class="text-white">${book.title}</span>`;
+    }
+
+    // 5. Hero Description & Author
+    const heroDesc = document.getElementById('heroBookDesc');
+    if (heroDesc) {
+      const authorHtml = book.author ? `<div class="flex items-center gap-2 text-cyan-300 font-semibold text-sm mb-1"><i class="fa-solid fa-pen-nib text-cyan-400"></i> Autor: ${book.author}</div>` : '';
+      const fullTitleHtml = (book.fullTitle && book.fullTitle !== book.title) ? `<p class="text-slate-300 text-xs sm:text-sm italic mb-2 leading-relaxed">${book.fullTitle}</p>` : '';
+      heroDesc.innerHTML = `${authorHtml}${fullTitleHtml}<p class="text-slate-400 text-xs sm:text-sm">Ecosistema interactivo de estudio: domina este libro mediante lecciones secuenciales, ilustraciones tácticas, flashcards y casos de simulación.</p>`;
+    }
+
+    // 6. Hero Cover
+    const heroCoverImg = document.getElementById('heroBookCoverImg');
+    const heroCoverContainer = document.getElementById('heroBookCoverContainer');
+    const heroAuthorText = document.getElementById('heroBookAuthorText');
+    if (heroCoverImg && heroCoverContainer) {
+      if (book.coverImage) {
+        heroCoverImg.src = book.coverImage;
+        heroCoverContainer.classList.remove('hidden');
+        if (heroAuthorText && book.author) heroAuthorText.textContent = book.author;
+      } else {
+        heroCoverContainer.classList.add('hidden');
+      }
+    }
+
+    // 7. Modules Section Heading
+    const modulesHeading = document.getElementById('dashboardModulesHeading');
+    if (modulesHeading) {
+      const count = (typeof LIBROS_DATA !== 'undefined' && LIBROS_DATA.modules) ? LIBROS_DATA.modules.length : '';
+      modulesHeading.textContent = `Módulos y Capítulos de Estudio ${count ? `(${count})` : ''}`;
+    }
+  },
+
+  // =============================================
   // DASHBOARD
   // =============================================
   renderDashboard() {
@@ -1484,11 +1582,31 @@ const App = {
       const modTotal = m.keyPillars.length;
       const modPct = Math.round((modCompletedCount / modTotal) * 100);
 
+      // Extraer ilustración real del módulo si existe
+      let modImg = '';
+      if (m.keyPillars && m.keyPillars.length > 0) {
+        for (const p of m.keyPillars) {
+          if (p.realExample) {
+            const match = p.realExample.match(/src=["']([^"']+\.webp)["']/);
+            if (match && match[1] && !match[1].includes('covers/')) {
+              modImg = match[1];
+              break;
+            }
+          }
+        }
+      }
+      if (!modImg && window.ACTIVE_BOOK_DATA && window.ACTIVE_BOOK_DATA.coverImage) {
+        modImg = window.ACTIVE_BOOK_DATA.coverImage;
+      }
+      if (!modImg) {
+        modImg = `assets/img/psicologia_obscura_6en1/covers/cover_mod${m.bookNumber}.jpg`;
+      }
+
       return `
       <div class="glass-card rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all cursor-pointer group flex flex-col overflow-hidden" onclick="App.goToModule(${m.bookNumber})">
         <!-- IMAGE THUMBNAIL - PROMINENT & VISIBLE — 16:9 ratio, no distortion -->
         <div class="relative w-full bg-slate-900 overflow-hidden" style="padding-top: 56.25%;">
-          <img src="assets/img/psicologia_obscura_6en1/covers/cover_mod${m.bookNumber}.jpg"
+          <img src="${modImg}"
                alt="${m.title}"
                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                onerror="this.style.display='none'">
