@@ -218,8 +218,8 @@ const BibliotecaEngine = {
             </button>
           </div>
 
-          <!-- Portada Táctica / Visual Preview -->
-          <div class="my-4 h-28 rounded-xl bg-slate-950/80 border border-slate-800 flex items-center justify-center relative overflow-hidden group-hover:border-cyan-500/40 transition-all">
+          <!-- Portada Táctica 16:9 Widescreen sin recortes -->
+          <div class="my-4 w-full relative rounded-xl bg-slate-950/80 border border-slate-800 flex items-center justify-center overflow-hidden group-hover:border-cyan-500/40 transition-all shadow-md" style="padding-top: 56.25%;">
             ${book.coverImage ? `
               <img src="${book.coverImage}" alt="${book.title}" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 z-0" onerror="this.remove()">
             ` : ''}

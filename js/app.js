@@ -1549,12 +1549,20 @@ const App = {
       heroDesc.innerHTML = `${authorHtml}${fullTitleHtml}<p class="text-slate-400 text-xs sm:text-sm">Explora este libro mediante lecciones secuenciales, ilustraciones tácticas HD 16:9, evaluaciones diagnósticas y simulador de toma de decisiones.</p>`;
     }
 
-    // 6. Portada de fondo 16:9 en el Hero Banner
+    // 6. Portada de fondo 16:9 en el Hero Banner y Banner de Academia
     const heroBannerBg = document.getElementById('heroBannerBg');
     if (heroBannerBg && book.coverImage) {
       heroBannerBg.src = book.coverImage;
       heroBannerBg.classList.remove('opacity-30', 'opacity-35');
       heroBannerBg.classList.add('opacity-45');
+    }
+    const learningImg = document.getElementById('learningBannerImg');
+    if (learningImg && book.coverImage) {
+      learningImg.src = book.coverImage;
+    }
+    const learningTitle = document.getElementById('learningBannerTitle');
+    if (learningTitle) {
+      learningTitle.textContent = `Academia de Estudio: ${book.title}`;
     }
 
     // 7. Modules Section Heading
@@ -1945,8 +1953,8 @@ const App = {
     let contentHtml = `
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
 
-        <!-- HEADER VISUAL ARCHITECTURE -->
-        <div class="lg:col-span-2 relative overflow-hidden rounded-2xl border border-slate-700 shadow-2xl" style="padding-top:28%;">
+        <!-- HEADER VISUAL ARCHITECTURE (16:9) -->
+        <div class="lg:col-span-2 relative overflow-hidden rounded-2xl border border-slate-700 shadow-2xl" style="padding-top: 56.25%;">
             <img src="assets/img/psicologia_obscura_6en1/headers/module_header_m${modNumber}.jpg"
                  alt="Módulo ${modNumber}"
                  class="absolute inset-0 w-full h-full object-cover"
@@ -2544,8 +2552,8 @@ const App = {
     if (!container || typeof LIBROS_DATA === 'undefined') return;
     container.innerHTML = LIBROS_DATA.quizzes.map((q, i) => `
       <div class="glass-card p-6 rounded-2xl border border-slate-800" id="quiz-block-${q.id}">
-        <!-- Quiz Scenario Image -->
-        <div class="relative w-full rounded-xl overflow-hidden mb-4 border border-slate-700 bg-slate-950 group" style="padding-top:50%;">
+        <!-- Quiz Scenario Image (16:9) -->
+        <div class="relative w-full rounded-xl overflow-hidden mb-4 border border-slate-700 bg-slate-950 group" style="padding-top:56.25%;">
           <img src="assets/img/psicologia_obscura_6en1/quizzes/quiz_${q.id}.jpg"
                alt="Escenario ${q.question.substring(0,40)}"
                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"

@@ -602,8 +602,8 @@ const AudioPlayerEngine = {
               </div>
             </div>
 
-            <!-- Portada Táctica de Audiolibro -->
-            <div class="my-3 h-28 rounded-xl bg-slate-950/80 border border-slate-800 flex items-center justify-center relative overflow-hidden group-hover:border-cyan-500/40 transition-all">
+            <!-- Portada Táctica de Audiolibro 16:9 sin recortes -->
+            <div class="my-3 w-full relative rounded-xl bg-slate-950/80 border border-slate-800 flex items-center justify-center overflow-hidden group-hover:border-cyan-500/40 transition-all shadow-md" style="padding-top: 56.25%;">
               ${item.coverImage ? `
                 <img src="${item.coverImage}" alt="${item.title}" class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105 z-0" onerror="this.remove()">
               ` : ''}

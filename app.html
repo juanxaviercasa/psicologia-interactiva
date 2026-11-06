@@ -325,9 +325,9 @@
     <!-- VISTA 1: DASHBOARD CENTRAL -->
     <section id="view-dashboard" class="space-y-8">
       
-      <!-- Hero Banner Didáctico (Formato 16:9 Integrado de Portada) -->
-      <div class="relative rounded-2xl bg-gradient-to-r from-slate-950 via-slate-900/95 to-slate-950/70 border border-slate-800 p-6 sm:p-10 overflow-hidden shadow-2xl min-h-[260px] flex items-center">
-        <img id="heroBannerBg" src="assets/img/psicologia_obscura_6en1/banners/hero_banner_brain.jpg" alt="Portada del Libro" class="absolute inset-0 w-full h-full object-cover object-right opacity-35 hover:opacity-50 transition-opacity duration-1000 preserve-color z-0">
+      <!-- Hero Banner Didáctico (Formato 16:9 HD sin recortes) -->
+      <div class="relative rounded-2xl bg-gradient-to-r from-slate-950 via-slate-900/95 to-slate-950/70 border border-slate-800 p-6 sm:p-10 overflow-hidden shadow-2xl min-h-[340px] md:min-h-[420px] flex items-center">
+        <img id="heroBannerBg" src="assets/img/psicologia_obscura_6en1/banners/hero_banner_brain.jpg" alt="Portada del Libro" class="absolute inset-0 w-full h-full object-cover object-center opacity-40 hover:opacity-60 transition-opacity duration-1000 preserve-color z-0">
         <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-950/85 to-transparent z-0"></div>
         <div class="absolute -right-10 -bottom-10 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
         
@@ -419,12 +419,20 @@
               catEl.innerHTML = `<i class="fa-solid ${book.categoryIcon || 'fa-book-bookmark'} text-cyan-400"></i> ${book.categoryName ? book.categoryName.toUpperCase() : 'LIBRO EN ESTUDIO'}${book.timeEstimate ? ' • ' + book.timeEstimate : ''}`;
             }
 
-            // 5. Portada 16:9 del Hero Banner
+            // 5. Portada 16:9 del Hero Banner y Banner de Academia
             const bgEl = document.getElementById('heroBannerBg');
             if (bgEl && book.coverImage) {
               bgEl.src = book.coverImage;
               bgEl.classList.remove('opacity-30', 'opacity-35');
               bgEl.classList.add('opacity-45');
+            }
+            const learningImg = document.getElementById('learningBannerImg');
+            if (learningImg && book.coverImage) {
+              learningImg.src = book.coverImage;
+            }
+            const learningTitle = document.getElementById('learningBannerTitle');
+            if (learningTitle) {
+              learningTitle.textContent = `Academia de Estudio: ${book.title}`;
             }
 
             // 6. Barra superior (header)
@@ -539,11 +547,18 @@
     <!-- VISTA 2: ACADEMIA DE DOMINIO -->
     <!-- VISTA 2: ACADEMIA (APRENDIZAJE PROGRESIVO NEURO-OPTIMIZADO) -->
   <section id="view-learning" class="hidden space-y-6 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
-      <!-- Section Banner -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-xl" style="padding-top:22%;">
-        <img src="assets/img/psicologia_obscura_6en1/banners/banner_academia.jpg" alt="Academia de Dominio" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-900/40 to-transparent"></div>
-        <div class="absolute bottom-4 left-6"><span class="text-white font-extrabold text-xl md:text-2xl drop-shadow-lg">Academia de Dominio</span></div>
+      <!-- Section Banner (Formato 16:9 Widescreen HD) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
+        <img id="learningBannerImg" src="assets/img/psicologia_obscura_6en1/banners/banner_academia.jpg" alt="Academia de Dominio" class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
+        <div class="absolute bottom-6 left-6 right-6 flex items-end justify-between">
+          <div>
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/90 border border-cyan-500/40 text-cyan-300 text-xs font-mono font-bold mb-2 shadow-sm">
+              <i class="fa-solid fa-graduation-cap"></i> RUTA FORMATIVA 16:9
+            </div>
+            <h2 id="learningBannerTitle" class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">Academia de Dominio</h2>
+          </div>
+        </div>
       </div>
     <div class="glass-card p-6 rounded-2xl border border-indigo-500/30 bg-indigo-950/10">
       <h2 class="text-xl font-bold text-white flex items-center gap-2">
@@ -593,11 +608,11 @@
   
   <!-- VISTA 3: MATRIZ TÁCTICA DE DEFENSA -->
     <section id="view-matrix" class="hidden space-y-6">
-      <!-- Section Banner -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-xl" style="padding-top:22%;">
+      <!-- Section Banner (16:9 Widescreen) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
         <img src="assets/img/psicologia_obscura_6en1/banners/banner_matriz.jpg" alt="Matriz de Defensa" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-900/40 to-transparent"></div>
-        <div class="absolute bottom-4 left-6"><span class="text-white font-extrabold text-xl md:text-2xl drop-shadow-lg">Matriz de Defensa</span></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
+        <div class="absolute bottom-6 left-6"><span class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">Matriz de Defensa</span></div>
       </div>
       
       <div class="glass-card p-6 rounded-2xl border border-slate-800">
@@ -629,11 +644,11 @@
 
     <!-- VISTA 4: SIMULADOR DE CASOS REALES -->
     <section id="view-simulator" class="hidden space-y-6">
-      <!-- Section Banner -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-xl" style="padding-top:22%;">
+      <!-- Section Banner (16:9 Widescreen) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
         <img src="assets/img/psicologia_obscura_6en1/banners/banner_simulador.jpg" alt="Simulador de Casos" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-900/40 to-transparent"></div>
-        <div class="absolute bottom-4 left-6"><span class="text-white font-extrabold text-xl md:text-2xl drop-shadow-lg">Simulador de Casos</span></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
+        <div class="absolute bottom-6 left-6"><span class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">Simulador de Casos</span></div>
       </div>
       
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -660,11 +675,11 @@
 
     <!-- VISTA 5: LABORATORIO DE LENGUAJE CORPORAL -->
     <section id="view-bodylab" class="hidden space-y-6">
-      <!-- Section Banner -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-xl" style="padding-top:22%;">
+      <!-- Section Banner (16:9 Widescreen) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
         <img src="assets/img/psicologia_obscura_6en1/banners/banner_noverbal.jpg" alt="No Verbal" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-900/40 to-transparent"></div>
-        <div class="absolute bottom-4 left-6"><span class="text-white font-extrabold text-xl md:text-2xl drop-shadow-lg">No Verbal</span></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
+        <div class="absolute bottom-6 left-6"><span class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">No Verbal</span></div>
       </div>
       
       <div class="glass-card p-6 rounded-2xl border border-slate-800">
@@ -684,11 +699,11 @@
 
     <!-- VISTA 6: FLASHCARDS ACTIVAS CON REPETICIÓN ESPACIADA -->
     <section id="view-flashcards" class="hidden space-y-6">
-      <!-- Section Banner -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-xl" style="padding-top:22%;">
+      <!-- Section Banner (16:9 Widescreen) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
         <img src="assets/img/psicologia_obscura_6en1/banners/banner_flashcards.jpg" alt="Flashcards" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-900/40 to-transparent"></div>
-        <div class="absolute bottom-4 left-6"><span class="text-white font-extrabold text-xl md:text-2xl drop-shadow-lg">Flashcards</span></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
+        <div class="absolute bottom-6 left-6"><span class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">Flashcards</span></div>
       </div>
       
       <div class="glass-card p-6 rounded-2xl border border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-4">
@@ -799,11 +814,11 @@
 
     <!-- VISTA 7: QUIZZES DIAGNÓSTICOS -->
     <section id="view-quizzes" class="hidden space-y-6">
-      <!-- Section Banner -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-xl" style="padding-top:22%;">
+      <!-- Section Banner (16:9 Widescreen) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
         <img src="assets/img/psicologia_obscura_6en1/banners/banner_quizzes.jpg" alt="Quizzes Tacticos" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-900/40 to-transparent"></div>
-        <div class="absolute bottom-4 left-6"><span class="text-white font-extrabold text-xl md:text-2xl drop-shadow-lg">Quizzes Tacticos</span></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
+        <div class="absolute bottom-6 left-6"><span class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">Quizzes Tácticos</span></div>
       </div>
       
       <div class="glass-card p-6 rounded-2xl border border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-4">
@@ -970,11 +985,11 @@
   
   <!-- VISTA: LABORATORIO TÁCTICO (PHASE 1 & 2) -->
   <section id="view-laboratory" class="hidden space-y-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
-      <!-- Section Banner -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-xl" style="padding-top:22%;">
-        <img src="assets/img/psicologia_obscura_6en1/banners/banner_laboratorio.jpg" alt="Laboratorio Tactico" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-900/40 to-transparent"></div>
-        <div class="absolute bottom-4 left-6"><span class="text-white font-extrabold text-xl md:text-2xl drop-shadow-lg">Laboratorio Tactico</span></div>
+      <!-- Section Banner (16:9 Widescreen) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
+        <img src="assets/img/psicologia_obscura_6en1/banners/banner_laboratorio.jpg" alt="Laboratorio Táctico" class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
+        <div class="absolute bottom-6 left-6"><span class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">Laboratorio Táctico</span></div>
       </div>
     
     <div class="glass-card p-6 rounded-2xl border border-indigo-500/30 bg-gradient-to-r from-slate-900 to-indigo-950/20">
@@ -1201,11 +1216,11 @@
 
   <!-- VISTA NUEVA: BIOMETRÍA (TRACKER FACIAL) -->
   <section id="view-biometrics" class="hidden space-y-6 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
-      <!-- Section Banner -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-xl" style="padding-top:22%;">
-        <img src="assets/img/psicologia_obscura_6en1/banners/banner_pdf.jpg" alt="Auditoria Biometrica" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/80 via-slate-900/40 to-transparent"></div>
-        <div class="absolute bottom-4 left-6"><span class="text-white font-extrabold text-xl md:text-2xl drop-shadow-lg">Auditoria Biometrica</span></div>
+      <!-- Section Banner (16:9 Widescreen) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
+        <img src="assets/img/psicologia_obscura_6en1/banners/banner_pdf.jpg" alt="Auditoría Biométrica" class="absolute inset-0 w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
+        <div class="absolute bottom-6 left-6"><span class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">Auditoría Biométrica</span></div>
       </div>
     <div class="glass-card p-6 rounded-2xl border border-cyan-500/30 bg-cyan-950/10 flex justify-between items-center">
       <div>
@@ -1647,8 +1662,8 @@
     })();
   </script>
   
-  <script src="js/audioplayer_engine.js?v=2.0"></script>
-  <script src="js/biblioteca_engine.js?v=2.0"></script>
+  <script src="js/audioplayer_engine.js?v=3.0"></script>
+  <script src="js/biblioteca_engine.js?v=3.0"></script>
   <script src="js/audio_engine.js?v=4.0"></script>
   <script src="js/cv_engine.js?v=4.0"></script>
   <script src="js/ai_engine.js?v=4.0"></script>
@@ -1656,7 +1671,7 @@
   <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
   <!-- SweetAlert2 -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="js/app.js?v=7.0.0"></script>
+  <script src="js/app.js?v=7.1.0"></script>
 
   <footer class="mt-16 py-8 border-t border-slate-800/60 bg-slate-950/50 text-center relative z-20">
     <div class="container mx-auto px-4">
