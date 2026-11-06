@@ -1,3 +1,4 @@
+// Contenido enriquecido para Manipulación Afectiva: Cuando el Amor se Enferma
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_4.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>Yo manipulo… Tú manipulas… Él manipula… Manipulación afectiva Cuando el amor se enferma Vitelleschi, Belén Manipulación afectiva / Belén Vitelleschi. 1. Manipulación. 2. Desarrollo Emocional. Corrección: Pablo Valle Diseño de interiores y de cubierta: Natalia Siri Todos los derechos reservados No se permite la reproducción parcial o total, el almacenamiento, el alquiler, la transmisión o la transformación de este libro, en cualquier forma o en cualquier medio, sea electrónico o mecánico, mediante fotocopias, digitalización u otros métodos, sin el permiso previo y escrito del editor. Mi especial agradecimiento a Maia Chavez, por iluminar la tapa con su arte, al Dr. Pablo Slemenson, por su generoso acompañamiento y aporte en la construcción de éste, y a los doctores David Moreno y Pablo Pereyra, por el estímulo motivacional constante para la producción de esta obra. Carta al lector “¿Qué sucede conmigo que cambié tanto sin darme cuenta?”. “¿Por qué termino haciendo cosas que no quiero?”. “Antes estaba siempre contento/a; ahora, no tengo ganas de nada”. “No logro entender cómo siempre me termina dando vuelta las cosas”. “Me desconozco, necesito tenerlo/a sino me siento vacío/a”. “No entiendo por qué me siento tan incómodo/a cada vez que estoy con él/ella”. “Tengo miedo de alejarme y no saber qué hacer después”. 4 7 Así como la diversidad sexual ha delimitado nuevos horizontes en las relaciones amorosas produciendo un rompimiento con los modelos tradicionales, los cambios en los",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Carta Al Lector Y Prologo\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/carta_al_lector_y_prologo.webp\" alt=\"Carta Al Lector Y Prologo\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Carta al Lector y Prólogo\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m1_prologo.webp\" alt=\"Carta al Lector y Prólogo\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Yo manipulo… Tú manipulas… Él manipula… Manipulación afectiva Cuando el amor se enferma Vitelleschi, Belén Manipulación afectiva / Belén Vitelleschi. 1. Manipulación. 2. Desarrollo Emocional. Corrección: Pablo Valle Diseño de interiores y de cubierta: Natalia Siri Todos los derechos reservados No se permite la reproducción parcial o total, el almacenamiento, el alquiler, la transmisión o la transformación de este libro, en cualquier forma o en cualquier medio, sea electrónico o mecánico, mediante fotocopias, digitalización u otros métodos, sin el permiso previo y escrito del editor. Mi especial agradecimiento a Maia Chavez, por iluminar la tapa con su arte, al Dr. Pablo Slemenson, por su generoso acompañamiento y aporte en la construcción de éste, y a los doctores David Moreno y Pablo Pereyra, por el estímulo motivacional constante para la producción de esta obra. Carta al lector “¿Qué sucede conmigo que cambié tanto sin darme cuenta?”. “¿Por qué termino haciendo cosas que no quiero?”. “Antes estaba siempre contento/a; ahora, no tengo ganas de nada”. “No logro entender cómo siempre me termina dando vuelta las cosas”. “Me desconozco, necesito tenerlo/a sino me siento vacío/a”. “No entiendo por qué me siento tan incómodo/a cada vez que estoy con él/ella”. “Tengo miedo de alejarme y no saber qué hacer después”. 4 7 Así como la diversidad sexual ha delimitado nuevos horizontes en las relaciones amorosas produciendo un rompimiento con los modelos tradicionales, los cambios en los",
           "interactiveChallenge": {
             "question": "¿Cuál es el propósito fundamental expuesto en la Carta al Lector y Prólogo por Belén Vitelleschi para visibilizar la manipulación afectiva?",
             "options": [
@@ -217,7 +218,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "de trastorno depresivo. Es que se ha corrido el eje de la normalidad y un sujeto que se preocupa por los demás y no está dispuesto a manipular a los otros es un “depresivo”, 11 14 un fracasado que requiere medicación. En cambio, un manipulador con rasgos hipomaníacos es un emprendedor exitoso y por lo tanto “normal”, a menos que fracase. Pero lo importante para el funcionamiento de este sistema es que la mayor parte de sus mecanismos queden ocultos, sean inconscientes. Tanto para el que los sufre como para el que los ejecuta. Nadie debe gritar —el rey está desnudo—. Si eso ocurre, desaparece la eficacia de la manipulación y, en último caso, sólo quedará la coerción para obligar al otro a hacer lo que a uno le conviene. Cosa desagradable, pero en última instancia, más honesta que el engaño y la mentira. Por esto es por lo que creo que este libro es especialmente importante. Estudia detalladamente todos y cada uno de los mecanismos de manipulación afectiva de nuestra vida cotidiana, haciéndolos conscientes, desnudándolos. Nos da herramientas para protegernos de lo que se ha transformado en moneda corriente en nuestra sociedad. E incluso nos ayuda a detectarlo en nosotros mismos. Tal vez pueda, así, ayudarnos a vivir un poco mejor, más honestamente, entre nosotros, los humanos. DR. PABLO SLEMENSON Médico psicoanalista, Miembro titular de la Asociación Psicoanalítica de Buenos Aires, Profesor de la Maestría en Psicoanálisis de la Universidad de La Matanza | Asociación Escuela Arg",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 01 Cultura Del Amor Incondicional\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_01_cultura_del_amor_incondicional.webp\" alt=\"Capitulo 01 Cultura Del Amor Incondicional\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 1 - Cultura del Amor Incondicional\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m2_amor_incondicional.webp\" alt=\"Cap 1 - Cultura del Amor Incondicional\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>de trastorno depresivo. Es que se ha corrido el eje de la normalidad y un sujeto que se preocupa por los demás y no está dispuesto a manipular a los otros es un “depresivo”, 11 14 un fracasado que requiere medicación. En cambio, un manipulador con rasgos hipomaníacos es un emprendedor exitoso y por lo tanto “normal”, a menos que fracase. Pero lo importante para el funcionamiento de este sistema es que la mayor parte de sus mecanismos queden ocultos, sean inconscientes. Tanto para el que los sufre como para el que los ejecuta. Nadie debe gritar —el rey está desnudo—. Si eso ocurre, desaparece la eficacia de la manipulación y, en último caso, sólo quedará la coerción para obligar al otro a hacer lo que a uno le conviene. Cosa desagradable, pero en última instancia, más honesta que el engaño y la mentira. Por esto es por lo que creo que este libro es especialmente importante. Estudia detalladamente todos y cada uno de los mecanismos de manipulación afectiva de nuestra vida cotidiana, haciéndolos conscientes, desnudándolos. Nos da herramientas para protegernos de lo que se ha transformado en moneda corriente en nuestra sociedad. E incluso nos ayuda a detectarlo en nosotros mismos. Tal vez pueda, así, ayudarnos a vivir un poco mejor, más honestamente, entre nosotros, los humanos. DR. PABLO SLEMENSON Médico psicoanalista, Miembro titular de la Asociación Psicoanalítica de Buenos Aires, Profesor de la Maestría en Psicoanálisis de la Universidad de La Matanza | Asociación Escuela Arg",
           "interactiveChallenge": {
             "question": "En el Capítulo 1 (Cultura Del Amor Incondicional), ¿qué peligro señala la autora sobre el mito del 'amor lo puede todo' en parejas adultas?",
             "options": [
@@ -659,7 +660,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- 33 El amor y los vínculos de pareja no resultan ajenos a este movimiento; y, por ello, más allá del tamiz con que se ejerza la manipulación, es otro ejemplo de la naturalización de este mecanismo. 30 34 CAPÍTULO 2 VULNERABLES ANTE EL AMOR “Cuanto más abiertos estemos a nuestros propios sentimientos, mejor podremos leer los de los demás”. DANIEL GOLEMAN 31 35 ANIMARNOS A SENTIR La llegada del amor a nuestra vida es un evento de alto impacto. Estamos acostumbrados a controlar nuestros ritmos, libertades y necesidades. Éstos se movilizan frente al contacto con aquel/lla que nos desea, e invita a nuevas emociones. Por definición, la vulnerabilidad se entiende como la capacidad de una persona o grupo para anticipar, sobrevivir, resistir y recuperarse del impacto de una amenaza específica en un momento determinado. Hemos mal aprendido que ser vulnerables es sinónimo de debilidad. La vulnerabilidad bien entendida es aquella que nos permite registrar y sentir lo que es y lo que hay. Es la puerta del aprendizaje para asumir quiénes somos. Si bien nos conecta con aquello íntimo que nos cuesta mostrar, implica también el poder apreciar la vida tal y como es, empezar a querernos tal y como somos, y a perder el miedo a equivocarnos. Somos humanos, y el equivocarnos es parte de nuestra condición. Aceptarlo en nosotros es el camino para aceptarlo en los demás. Dejarnos vulnerar implica bajar las defensas y permitir que alguien más toque nuestras vidas, esperando que su inclusión sea pos",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 02 Vulnerables Ante El Amor\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_02_vulnerables_ante_el_amor.webp\" alt=\"Capitulo 02 Vulnerables Ante El Amor\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 2 - Vulnerables Ante el Amor\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m3_vulnerables_amor.webp\" alt=\"Cap 2 - Vulnerables Ante el Amor\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- 33 El amor y los vínculos de pareja no resultan ajenos a este movimiento; y, por ello, más allá del tamiz con que se ejerza la manipulación, es otro ejemplo de la naturalización de este mecanismo. 30 34 CAPÍTULO 2 VULNERABLES ANTE EL AMOR “Cuanto más abiertos estemos a nuestros propios sentimientos, mejor podremos leer los de los demás”. DANIEL GOLEMAN 31 35 ANIMARNOS A SENTIR La llegada del amor a nuestra vida es un evento de alto impacto. Estamos acostumbrados a controlar nuestros ritmos, libertades y necesidades. Éstos se movilizan frente al contacto con aquel/lla que nos desea, e invita a nuevas emociones. Por definición, la vulnerabilidad se entiende como la capacidad de una persona o grupo para anticipar, sobrevivir, resistir y recuperarse del impacto de una amenaza específica en un momento determinado. Hemos mal aprendido que ser vulnerables es sinónimo de debilidad. La vulnerabilidad bien entendida es aquella que nos permite registrar y sentir lo que es y lo que hay. Es la puerta del aprendizaje para asumir quiénes somos. Si bien nos conecta con aquello íntimo que nos cuesta mostrar, implica también el poder apreciar la vida tal y como es, empezar a querernos tal y como somos, y a perder el miedo a equivocarnos. Somos humanos, y el equivocarnos es parte de nuestra condición. Aceptarlo en nosotros es el camino para aceptarlo en los demás. Dejarnos vulnerar implica bajar las defensas y permitir que alguien más toque nuestras vidas, esperando que su inclusión sea pos",
           "interactiveChallenge": {
             "question": "Según el Capítulo 2 (Vulnerables Ante El Amor), ¿cuál de los siguientes factores incrementa la vulnerabilidad de una persona ante un manipulador?",
             "options": [
@@ -1130,7 +1131,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "La desesperación y la ansiedad ante la vacilación vuelven intolerable la incertidumbre propia de un proceso de construcción personal. Y despierta la fantasía de que hay un otro que sabe mejor que uno cuál es el camino. Con este escenario, muchos son los riesgos. Es fácil ser influenciables al tener la creencia de que cualquier 52 56 otro puede, o tiene, mucho más que uno. Esa inseguridad nos vulnera, y afecta los vínculos porque conlleva la admiración o la envidia de aquellos que sí poseen lo que nosotros, no. Cuando creemos necesitar de otro para tener cierto estatus que no hemos alcanzado, o para identificarnos y poder imitarlo, se genera la asimetría vincular. Se intenta completar, equivocadamente, los vacíos personales con una supuesta excelencia ajena. La mejor forma de saber qué queremos es tomarnos el tiempo para pensarlo. ¿Quién mejor que uno para hablar de sí mismo? Detenerse a reflexionar sobre nuestros objetivos y nuestra personalidad puede provocar temor ante lo incierto. Pero, también, es el pasaporte para conocernos. Implica asumirnos, vernos en toda nuestra extensión, encontrar nuestras debilidades y tolerar la incertidumbre de nuestras preguntas. 53 57 VULNERABLES ANTE LA MANIPULACIÓN “De nuestros miedos nacen nuestros corajes, y en nuestras dudas viven nuestras certezas. Los sueños anuncian otra realidad posible, y los delirios otra razón. En los extravíos nos esperan los hallazgos porque es preciso perderse para volver a encontrarse”. EDUARDO GALEANO Los mie",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 03 El Mecanismo De La Manipulacion\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_03_el_mecanismo_de_la_manipulacion.webp\" alt=\"Capitulo 03 El Mecanismo De La Manipulacion\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 3 - El Mecanismo de la Manipulación\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m4_mecanismo_manipulacion.webp\" alt=\"Cap 3 - El Mecanismo de la Manipulación\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>La desesperación y la ansiedad ante la vacilación vuelven intolerable la incertidumbre propia de un proceso de construcción personal. Y despierta la fantasía de que hay un otro que sabe mejor que uno cuál es el camino. Con este escenario, muchos son los riesgos. Es fácil ser influenciables al tener la creencia de que cualquier 52 56 otro puede, o tiene, mucho más que uno. Esa inseguridad nos vulnera, y afecta los vínculos porque conlleva la admiración o la envidia de aquellos que sí poseen lo que nosotros, no. Cuando creemos necesitar de otro para tener cierto estatus que no hemos alcanzado, o para identificarnos y poder imitarlo, se genera la asimetría vincular. Se intenta completar, equivocadamente, los vacíos personales con una supuesta excelencia ajena. La mejor forma de saber qué queremos es tomarnos el tiempo para pensarlo. ¿Quién mejor que uno para hablar de sí mismo? Detenerse a reflexionar sobre nuestros objetivos y nuestra personalidad puede provocar temor ante lo incierto. Pero, también, es el pasaporte para conocernos. Implica asumirnos, vernos en toda nuestra extensión, encontrar nuestras debilidades y tolerar la incertidumbre de nuestras preguntas. 53 57 VULNERABLES ANTE LA MANIPULACIÓN “De nuestros miedos nacen nuestros corajes, y en nuestras dudas viven nuestras certezas. Los sueños anuncian otra realidad posible, y los delirios otra razón. En los extravíos nos esperan los hallazgos porque es preciso perderse para volver a encontrarse”. EDUARDO GALEANO Los mie",
           "interactiveChallenge": {
             "question": "De acuerdo con el Capítulo 3 (El Mecanismo De La Manipulación), ¿cuál es el engranaje principal con el que se instaura el control afectivo?",
             "options": [
@@ -1369,7 +1370,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "ciertos límites que puedan herir intencionalmente al otro para manipularlo u obtener algo de él o ella. Estas parejas transitan las crisis buscando juntos una resolución de ellas. Desarrollan paciencia y voluntad para tolerar los malos ratos en pos de la unión y el afecto implicado. Respetan la autonomía y los espacios individuales, así como espacios en común para compartir y proyectar. Este equilibrio permite que la pareja se oxigene, y se evite el empaste de volcar todo en un mismo lugar. 63 67 CAPÍTULO 4 LA COMUNICACIÓN, BASE DE TODAS LAS RELACIONES EL LUGAR DE LA PALABRA Desde que nacemos, nos insertamos en un mundo donde nos atraviesa la cultura y lo social. Somos seres culturales y, vía la palabra, podemos evolucionar a un plano más racional e independiente. El cachorro humano nace en un estado de dependencia inicial, al contar con recursos muy primarios para comunicarse. Luego, a lo largo del crecimiento, va convirtiéndose en un sujeto hablante capaz de desarrollar su autonomía y de constituirse como único y particular. Si ubicamos al ser humano en una línea de tiempo, desde el estado de indefensión/nacimiento, continuando por la aparición de los primeros balbuceos hasta el desarrollo de la palabra, encontramos que el/la niño/a va encontrando diferentes maneras de comunicarse, según la adaptación a la etapa evolutiva en la cual se encuentre. El/la niño/a va creciendo y haciendo sus primeros balbuceos. La escolaridad le permitirá ir dando un orden lógico a sus palabras,",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 04 La Comunicacion Base De Las Relaciones\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_04_la_comunicacion_base_de_las_relaciones.webp\" alt=\"Capitulo 04 La Comunicacion Base De Las Relaciones\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 4 - La Comunicación, Base de las Relaciones\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m5_comunicacion_relaciones.webp\" alt=\"Cap 4 - La Comunicación, Base de las Relaciones\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>ciertos límites que puedan herir intencionalmente al otro para manipularlo u obtener algo de él o ella. Estas parejas transitan las crisis buscando juntos una resolución de ellas. Desarrollan paciencia y voluntad para tolerar los malos ratos en pos de la unión y el afecto implicado. Respetan la autonomía y los espacios individuales, así como espacios en común para compartir y proyectar. Este equilibrio permite que la pareja se oxigene, y se evite el empaste de volcar todo en un mismo lugar. 63 67 CAPÍTULO 4 LA COMUNICACIÓN, BASE DE TODAS LAS RELACIONES EL LUGAR DE LA PALABRA Desde que nacemos, nos insertamos en un mundo donde nos atraviesa la cultura y lo social. Somos seres culturales y, vía la palabra, podemos evolucionar a un plano más racional e independiente. El cachorro humano nace en un estado de dependencia inicial, al contar con recursos muy primarios para comunicarse. Luego, a lo largo del crecimiento, va convirtiéndose en un sujeto hablante capaz de desarrollar su autonomía y de constituirse como único y particular. Si ubicamos al ser humano en una línea de tiempo, desde el estado de indefensión/nacimiento, continuando por la aparición de los primeros balbuceos hasta el desarrollo de la palabra, encontramos que el/la niño/a va encontrando diferentes maneras de comunicarse, según la adaptación a la etapa evolutiva en la cual se encuentre. El/la niño/a va creciendo y haciendo sus primeros balbuceos. La escolaridad le permitirá ir dando un orden lógico a sus palabras,",
           "interactiveChallenge": {
             "question": "En el Capítulo 4 (La Comunicación Base De Las Relaciones), ¿qué caracteriza a la comunicación manipuladora?",
             "options": [
@@ -1637,7 +1638,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "En la actualidad, el marketing y la política se sirven de este recurso para obtener mayor ganancia y adhesión a sus campañas. El marketing lo empleas especialmente para las ventas. Por ejemplo, el concepto de oferta o sale 76 81 favorece las compras, considerando que se perderá la promoción si no se adquiere el producto al momento. Otras veces, se contrata a profesionales o personas del medio con buena imagen social para sus propagandas. Creen que las personas suelen seguir aquello que nos sugieren personas con experiencia en el tema o que admiramos. En política, también se utiliza este recurso para convencer de una propuesta y conmover con la visión de país a la que se adhiere. La necesidad de anuencia del público para triunfar, convierte el operativo de campaña en un plan de acción insoslayable para convencer al pueblo de que adopte su idea. Es importante aclarar que convencer no es disuadir. La diferencia radica en que no se trata de insistir a alguien para que desista de sus propósitos, sino que acepte y cambie por aquello que le viene mejor. Por ejemplo, muchos recordamos a algún vendedor cuyo argumento nos convenció de tal modo que deseamos volver a encontrarnos con él ante una futura compra (persuasión). Pero hay otros que preferimos olvidar, ya que nos vendieron cosas con argumentos tales como “compralo porque así me ayudás a obtener la comisión” (manipulación). 77 82 El factor de que el cambio se realice de manera voluntaria y bajo convencimiento explica la diferenci",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 05 El Arte De La Manipulacion Afectiva\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_05_el_arte_de_la_manipulacion_afectiva.webp\" alt=\"Capitulo 05 El Arte De La Manipulacion Afectiva\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 5 - El Arte de la Manipulación Afectiva\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m6_arte_manipulacion_afectiva.webp\" alt=\"Cap 5 - El Arte de la Manipulación Afectiva\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>En la actualidad, el marketing y la política se sirven de este recurso para obtener mayor ganancia y adhesión a sus campañas. El marketing lo empleas especialmente para las ventas. Por ejemplo, el concepto de oferta o sale 76 81 favorece las compras, considerando que se perderá la promoción si no se adquiere el producto al momento. Otras veces, se contrata a profesionales o personas del medio con buena imagen social para sus propagandas. Creen que las personas suelen seguir aquello que nos sugieren personas con experiencia en el tema o que admiramos. En política, también se utiliza este recurso para convencer de una propuesta y conmover con la visión de país a la que se adhiere. La necesidad de anuencia del público para triunfar, convierte el operativo de campaña en un plan de acción insoslayable para convencer al pueblo de que adopte su idea. Es importante aclarar que convencer no es disuadir. La diferencia radica en que no se trata de insistir a alguien para que desista de sus propósitos, sino que acepte y cambie por aquello que le viene mejor. Por ejemplo, muchos recordamos a algún vendedor cuyo argumento nos convenció de tal modo que deseamos volver a encontrarnos con él ante una futura compra (persuasión). Pero hay otros que preferimos olvidar, ya que nos vendieron cosas con argumentos tales como “compralo porque así me ayudás a obtener la comisión” (manipulación). 77 82 El factor de que el cambio se realice de manera voluntaria y bajo convencimiento explica la diferenci",
           "interactiveChallenge": {
             "question": "Según el Capítulo 5 (El Arte De La Manipulación Afectiva), ¿qué es la técnica conocida como 'Love Bombing' o bombardeo de amor?",
             "options": [
@@ -2137,7 +2138,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "---~ “Con todo lo que te di, deberías poder hacer esto por mí”.~ “Pasé horas escuchando tus historias y ahora espero mínimamente que me prestes un rato de atención”.~ “No hiciste lo que te pedí, ¿ves que a vos no te importa nada?”.~ “Yo he confiado en vos desde el inicio, en serio ¿no vas a hacer esto por mi?”.~ “Si a vos no te cuesta nada”.Lo cierto es que más de uno de nosotros hemos implementado alguna vez esta estrategia, que no es sino una de las herramientas de nuestro repertorio que puede implementarse esporádicamente.Sin embargo, cuando se utiliza de manera sostenida y como único medio para conseguir los fines, la culpa es usada como una herramienta para manipular.El sentimiento de culpa puede llevar a realizar acciones que nunca hubiésemos imaginado con tal de no obrar en forma incorrecta. La angustia que se siente por trans-gredir lo que “es correcto” puede resultar persecutoria a la hora de querer valerse por uno mismo.102 108 Cuando se manipula a través de la culpa, uno siente que ya no se encuentra en un vínculo par. La sensación de estar sentado permanentemente en el banquillo de acusados acompaña la desazón de sentir que uno falla. Aquí no hay lugar para pensar distinto. Se nos acusará y hará sentir culpables por cosas que no creemos serlo, pero que otros sostienen como válidas. Se buscará generar duda en el propio sistema de valores, atentando así contra la seguridad personal y la libertad en las elecciones. El fin es lograr que se traicionen los propios valor",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 06 Los Multiples Disfraces De La Manipulacion\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_06_los_multiples_disfraces_de_la_manipulacion.webp\" alt=\"Capitulo 06 Los Multiples Disfraces De La Manipulacion\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 6 - Los Múltiples Disfraces de la Manipulación\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m7_multiples_disfraces.webp\" alt=\"Cap 6 - Los Múltiples Disfraces de la Manipulación\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>---~ “Con todo lo que te di, deberías poder hacer esto por mí”.~ “Pasé horas escuchando tus historias y ahora espero mínimamente que me prestes un rato de atención”.~ “No hiciste lo que te pedí, ¿ves que a vos no te importa nada?”.~ “Yo he confiado en vos desde el inicio, en serio ¿no vas a hacer esto por mi?”.~ “Si a vos no te cuesta nada”.Lo cierto es que más de uno de nosotros hemos implementado alguna vez esta estrategia, que no es sino una de las herramientas de nuestro repertorio que puede implementarse esporádicamente.Sin embargo, cuando se utiliza de manera sostenida y como único medio para conseguir los fines, la culpa es usada como una herramienta para manipular.El sentimiento de culpa puede llevar a realizar acciones que nunca hubiésemos imaginado con tal de no obrar en forma incorrecta. La angustia que se siente por trans-gredir lo que “es correcto” puede resultar persecutoria a la hora de querer valerse por uno mismo.102 108 Cuando se manipula a través de la culpa, uno siente que ya no se encuentra en un vínculo par. La sensación de estar sentado permanentemente en el banquillo de acusados acompaña la desazón de sentir que uno falla. Aquí no hay lugar para pensar distinto. Se nos acusará y hará sentir culpables por cosas que no creemos serlo, pero que otros sostienen como válidas. Se buscará generar duda en el propio sistema de valores, atentando así contra la seguridad personal y la libertad en las elecciones. El fin es lograr que se traicionen los propios valor",
           "interactiveChallenge": {
             "question": "En el Capítulo 6 (Los Múltiples Disfraces De La Manipulación), ¿cómo opera la manipulación bajo el disfraz de 'falso protector'?",
             "options": [
@@ -2579,7 +2580,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- “está claro que esto nos desfavorece a todos”. 122 128 Busca ganar aliados negativizando las situaciones que le convienen y así ir cambiando la forma de pensar de los demás. El oposicionista Mantiene una posición defensiva, todo el tiempo, y responde con el ataque aún cuando no es necesario. Siente que siempre lo/a agreden; para no mostrarse vulnerable construye un perfil opuesto. Posiblemente, vaya en contra de lo que otros opinan, incluso cuando pueda no estar en desacuerdo. Aparece siempre primero el “no” en sus respuestas, y sólo cuando está más relajado/a, o ante el esfuerzo de otros, puede llegar a cambiar de opinión. 123 129 CAPÍTULO 7 PERSONALIDADES NARCISISTAS ESPEJITO, ESPEJITO… ¿QUIÉN ES EL MÁS BELLO DEL REINO? El término “narcisista” proviene de la mitología griega; más específicamente del personaje de Narciso, un joven dotado de gran belleza pero, a la vez, lleno de orgullo y vanidad. 124 131 Narciso rechazaba y despreciaba a cuanta ninfa se enamorase de él. Hasta que un día Némesis, la diosa de la venganza, lo castigó haciendo que se enamore de su propia imagen reflejada en el agua de un estanque. Cuenta la leyenda que el joven, embelesado e incapaz de apartarse de su propia imagen, se arrojó al agua y murió ahogado. Salvando las distancias con la antigua Grecia y en un estilo discursivo más coloquial, el narcisismo remite al enamoramiento de sí mismo, o la vanidad por la propia imagen y ego. Si bien todas las personas, durante su infancia, experimentan una",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 07 Personalidades Narcisistas\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_07_personalidades_narcisistas.webp\" alt=\"Capitulo 07 Personalidades Narcisistas\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 7 - Personalidades Narcisistas\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m8_personalidades_narcisistas.webp\" alt=\"Cap 7 - Personalidades Narcisistas\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- “está claro que esto nos desfavorece a todos”. 122 128 Busca ganar aliados negativizando las situaciones que le convienen y así ir cambiando la forma de pensar de los demás. El oposicionista Mantiene una posición defensiva, todo el tiempo, y responde con el ataque aún cuando no es necesario. Siente que siempre lo/a agreden; para no mostrarse vulnerable construye un perfil opuesto. Posiblemente, vaya en contra de lo que otros opinan, incluso cuando pueda no estar en desacuerdo. Aparece siempre primero el “no” en sus respuestas, y sólo cuando está más relajado/a, o ante el esfuerzo de otros, puede llegar a cambiar de opinión. 123 129 CAPÍTULO 7 PERSONALIDADES NARCISISTAS ESPEJITO, ESPEJITO… ¿QUIÉN ES EL MÁS BELLO DEL REINO? El término “narcisista” proviene de la mitología griega; más específicamente del personaje de Narciso, un joven dotado de gran belleza pero, a la vez, lleno de orgullo y vanidad. 124 131 Narciso rechazaba y despreciaba a cuanta ninfa se enamorase de él. Hasta que un día Némesis, la diosa de la venganza, lo castigó haciendo que se enamore de su propia imagen reflejada en el agua de un estanque. Cuenta la leyenda que el joven, embelesado e incapaz de apartarse de su propia imagen, se arrojó al agua y murió ahogado. Salvando las distancias con la antigua Grecia y en un estilo discursivo más coloquial, el narcisismo remite al enamoramiento de sí mismo, o la vanidad por la propia imagen y ego. Si bien todas las personas, durante su infancia, experimentan una",
           "interactiveChallenge": {
             "question": "De acuerdo con el Capítulo 7 (Personalidades Narcisistas), ¿cuál es el rasgo definitorio de la dinámica relacional con un narcisista?",
             "options": [
@@ -3108,7 +3109,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- El respeto por nuestra propia persona y nuestras capacidades impulsa a saber poner límites. La conocida frase “los derechos de uno terminan donde inician los del otro” puede servirnos de brújula a la hora de evaluar si somos respetados. Animarse a soltar Cuando hemos estado mucho tiempo con una persona así, es esperable que, cuando se retire de nuestra vida, nos encontremos con un gran vacío. Si buscamos superarlo, deberemos aprender de lo que vivimos; pero sobre todo, enfrentarnos a nosotros mismos. Estas rupturas siempre regalan escenas desgarradoras para un corazón herido. Por lo general, el/la narcisista no 148 155 se aflige, sólo sigue adelante, hasta que, tal vez, un día, tenga que enfrentarse a sí mismo/a, mientras que uno/a queda allí, teniendo que aceptar que no nos amó. 149 156 CAPÍTULO 8 LA ERA DE LA TECNOLOGIA: ¿AMOR VIRTUAL? Internet y las nuevas tecnologías favorecen el desarrollo y ampliación de nuevos medios para comunicarse. Nos estamos distanciando de la época del teléfono fijo, las cartas y los encuentros presenciales. Hoy, la diversidad de redes sociales y programas de mensajería instantánea nos invitan a nuevos espacios virtuales de comunicación y encuentro. 150 157 Con el avance de las comunicaciones, se vive en una sociedad constantemente “conectada”, una sociedad “virtual”. El crecimiento de la industria de dispositivos móviles ( smartphones, tablets, notebooks), la mayor disponibilidad de espacios con redes WiFi y la constante evolución de las apl",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 08 La Era De La Tecnologia\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_08_la_era_de_la_tecnologia.webp\" alt=\"Capitulo 08 La Era De La Tecnologia\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 8 - La Era de la Tecnología\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m9_era_tecnologia.webp\" alt=\"Cap 8 - La Era de la Tecnología\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- El respeto por nuestra propia persona y nuestras capacidades impulsa a saber poner límites. La conocida frase “los derechos de uno terminan donde inician los del otro” puede servirnos de brújula a la hora de evaluar si somos respetados. Animarse a soltar Cuando hemos estado mucho tiempo con una persona así, es esperable que, cuando se retire de nuestra vida, nos encontremos con un gran vacío. Si buscamos superarlo, deberemos aprender de lo que vivimos; pero sobre todo, enfrentarnos a nosotros mismos. Estas rupturas siempre regalan escenas desgarradoras para un corazón herido. Por lo general, el/la narcisista no 148 155 se aflige, sólo sigue adelante, hasta que, tal vez, un día, tenga que enfrentarse a sí mismo/a, mientras que uno/a queda allí, teniendo que aceptar que no nos amó. 149 156 CAPÍTULO 8 LA ERA DE LA TECNOLOGIA: ¿AMOR VIRTUAL? Internet y las nuevas tecnologías favorecen el desarrollo y ampliación de nuevos medios para comunicarse. Nos estamos distanciando de la época del teléfono fijo, las cartas y los encuentros presenciales. Hoy, la diversidad de redes sociales y programas de mensajería instantánea nos invitan a nuevos espacios virtuales de comunicación y encuentro. 150 157 Con el avance de las comunicaciones, se vive en una sociedad constantemente “conectada”, una sociedad “virtual”. El crecimiento de la industria de dispositivos móviles ( smartphones, tablets, notebooks), la mayor disponibilidad de espacios con redes WiFi y la constante evolución de las apl",
           "interactiveChallenge": {
             "question": "En el Capítulo 8 (La Era De La Tecnología), ¿cómo se manifiestan las tácticas de manipulación en entornos digitales?",
             "options": [
@@ -3492,7 +3493,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "La virtualidad también puede resultar un campo facilitador de información, cuando la intención de quien la emplea es mantener controlada la mente del otro vía la dominación. Las palabras “Stalkear” o “Stalkeo” tienen su origen en el verbo inglés to stalk que, traducido al español, significa ‘acosar’ o ‘acechar’. Hoy se utiliza cotidianamente para referirse a la acción de revisar, visitar o espiar desmedidamente el perfil virtual de otra persona. Chequear la última hora de conexión de un chat, mirar dónde se encuentra el otro a través de alguna aplicación con GPS (del inglés, Global Positioning System), espiar qué se publica en las diferentes redes sociales, o si un contacto cambia las fotos o agrega nuevos amigos son algunas de las tantas situaciones que definen al stalkeo. Esta conducta de espiar compulsivamente un “estado virtual” puede pasar de ser un divertimento esporádico a abrir y cerrar la aplicación varias veces al día, despertando emociones que llevan a la reacción, a sacar conjeturas o a la angustia, como una verdadera adicción. A una persona insegura este “mal uso” puede generarle falsas especulaciones y provocarle sufrimiento. “A vos te gusta que te vean todos, sos una buscona. Publicás fotos en pollera y usando escote”. 165 172 “Le pusiste 3 Me gusta a las fotos de ese chico. ¿Qué tenés con él? Seguro me estás engañando”. “Me dijiste que te quedabas durmiendo y te vi conectada a las 3 am. ¿Con quién hablabas?”. Por otro lado, si lo que se busca es la dominación",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 09 Psicopatia Y Otras Yerbas\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_09_psicopatia_y_otras_yerbas.webp\" alt=\"Capitulo 09 Psicopatia Y Otras Yerbas\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 9 - Psicopatía y Otras Yerbas\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m10_psicopatia_relaciones.webp\" alt=\"Cap 9 - Psicopatía y Otras Yerbas\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>La virtualidad también puede resultar un campo facilitador de información, cuando la intención de quien la emplea es mantener controlada la mente del otro vía la dominación. Las palabras “Stalkear” o “Stalkeo” tienen su origen en el verbo inglés to stalk que, traducido al español, significa ‘acosar’ o ‘acechar’. Hoy se utiliza cotidianamente para referirse a la acción de revisar, visitar o espiar desmedidamente el perfil virtual de otra persona. Chequear la última hora de conexión de un chat, mirar dónde se encuentra el otro a través de alguna aplicación con GPS (del inglés, Global Positioning System), espiar qué se publica en las diferentes redes sociales, o si un contacto cambia las fotos o agrega nuevos amigos son algunas de las tantas situaciones que definen al stalkeo. Esta conducta de espiar compulsivamente un “estado virtual” puede pasar de ser un divertimento esporádico a abrir y cerrar la aplicación varias veces al día, despertando emociones que llevan a la reacción, a sacar conjeturas o a la angustia, como una verdadera adicción. A una persona insegura este “mal uso” puede generarle falsas especulaciones y provocarle sufrimiento. “A vos te gusta que te vean todos, sos una buscona. Publicás fotos en pollera y usando escote”. 165 172 “Le pusiste 3 Me gusta a las fotos de ese chico. ¿Qué tenés con él? Seguro me estás engañando”. “Me dijiste que te quedabas durmiendo y te vi conectada a las 3 am. ¿Con quién hablabas?”. Por otro lado, si lo que se busca es la dominación",
           "interactiveChallenge": {
             "question": "Respecto al Capítulo 9 (Psicopatía Y Otras Yerbas), ¿qué diferencia sustancial existe entre la psicopatía integrada y un rasgo narcisista leve?",
             "options": [
@@ -3760,7 +3761,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "La puerta de salida más cercana es decir basta y pedir ayuda. Estas personas no permitirán finalizar la relación de una manera calma. Cuando se sienten amenazadas con 177 185 perder su “pertenencia”, aumentarán el nivel de las agresiones. La ayuda terapéutica te hará sentir protegido/a y brindará las herramientas necesarias para guiarte en la ruptura. En el país, existen programas específicos, que consisten en la atención a los padecientes de abusos o malos tratos, causados por el ejercicio de violencias (cualquiera fuese su naturaleza), en un ámbito de contención, seguridad y garantía de sus derechos. Ellos te orientarán y asesorarán legalmente para dar fin a la violencia. 178 186 CAPÍTULO 10 DEFENSAS FRENTE A LA MANIPULACIÓN EMOCIONAL ¿POR QUÉ ALGUNAS VECES NO REACCIONAMOS? Te despertás angustiado/a, sin saber por qué; convivís con una presión continua en el pecho y tu estado de ánimo se altera sin motivo aparente; te cuesta conciliar el sueño; parecés en estado de alerta permanente. 179 187 Además, empezás a sentir inseguridad a la hora de tomar decisiones, y tenés una sensación de rareza sobre ciertos comportamientos que en otro momento no hubieses experimentado. También actuás con ansiedad frente a situaciones de simple resolución; estás más disperso/a que de costumbre, y te cuesta concentrarte en tus actividades… Estos cambios emocionales a veces se presentan como un síntoma de que algo malo sucede, pero no se logra evocar la causa. Cuando la manipulación se presenta de",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 10 Defensas Frente A La Manipulacion Emocional\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_10_defensas_frente_a_la_manipulacion_emocional.webp\" alt=\"Capitulo 10 Defensas Frente A La Manipulacion Emocional\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 10 - Defensas Frente a la Manipulación Emocional\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m11_defensas_frente_manipulacion.webp\" alt=\"Cap 10 - Defensas Frente a la Manipulación Emocional\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>La puerta de salida más cercana es decir basta y pedir ayuda. Estas personas no permitirán finalizar la relación de una manera calma. Cuando se sienten amenazadas con 177 185 perder su “pertenencia”, aumentarán el nivel de las agresiones. La ayuda terapéutica te hará sentir protegido/a y brindará las herramientas necesarias para guiarte en la ruptura. En el país, existen programas específicos, que consisten en la atención a los padecientes de abusos o malos tratos, causados por el ejercicio de violencias (cualquiera fuese su naturaleza), en un ámbito de contención, seguridad y garantía de sus derechos. Ellos te orientarán y asesorarán legalmente para dar fin a la violencia. 178 186 CAPÍTULO 10 DEFENSAS FRENTE A LA MANIPULACIÓN EMOCIONAL ¿POR QUÉ ALGUNAS VECES NO REACCIONAMOS? Te despertás angustiado/a, sin saber por qué; convivís con una presión continua en el pecho y tu estado de ánimo se altera sin motivo aparente; te cuesta conciliar el sueño; parecés en estado de alerta permanente. 179 187 Además, empezás a sentir inseguridad a la hora de tomar decisiones, y tenés una sensación de rareza sobre ciertos comportamientos que en otro momento no hubieses experimentado. También actuás con ansiedad frente a situaciones de simple resolución; estás más disperso/a que de costumbre, y te cuesta concentrarte en tus actividades… Estos cambios emocionales a veces se presentan como un síntoma de que algo malo sucede, pero no se logra evocar la causa. Cuando la manipulación se presenta de",
           "interactiveChallenge": {
             "question": "En el Capítulo 10 (Defensas Frente A La Manipulación Emocional), ¿cuál es la herramienta clave para contrarrestar los ataques emocionales sutiles?",
             "options": [
@@ -3970,7 +3971,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Por ejemplo, “Respeto que no pienses como yo, sin embargo éste es mi modo”. ~ Negarse a que haga cosas por vos. Explicale que, si opta por ello, lo haga sin esperar algo a cambio. ~ Si deseás transmitirle un mensaje, hacelo de manera impersonal. “Dicen que”, “algunos piensan”. De esta manera indirecta, si bien da la impresión de que se habla a otros, el mensaje puede emitirse. ~ Pedirle que, si te solicita algo, te de la opción de elegir si querés hacerlo. Si entra en discusión, da por finalizada la conversación. “Prefiero que lo retomemos en otro momento”. ~ No responder con agresiones. Mantener siempre la educación. 188 196 ~ Demostrar que tu decisión es inamovible, con firmeza pero sin soberbia. La mejor manera de negarse a un pedido es con una sonrisa. ~ Enseñarle a pedir afecto sin tener que emplear agresiones; que entendés su pedido y que con palabras es suficiente. Estos cambios deben iniciarse con un objetivo personal. Si no funcionan en esta relación, será una ganancia a futuro. Tené en cuenta que vos también tenés un límite y debés preservarte para no terminar mimetizado e intercambiando los roles. Si la frustración de un vínculo la actuamos en otro, corremos el riesgo de convertirnos en aquello que no deseamos. Por ello, dale un tiempo prudencial a esa relación. Si no ves un cambio de actitud de tu pareja, evaluá para qué continuar en este vínculo. 189 197 CAPÍTULO 11 CÓMO AMAR SIN MORIR EN EL INTENTO “Los japoneses creen que cuando algo ha sufrido un daño y tiene",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 11 Como Amar Sin Morir En El Intento\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_11_como_amar_sin_morir_en_el_intento.webp\" alt=\"Capitulo 11 Como Amar Sin Morir En El Intento\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 11 - Cómo Amar Sin Morir en el Intento\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m12_amar_sin_morir.webp\" alt=\"Cap 11 - Cómo Amar Sin Morir en el Intento\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Por ejemplo, “Respeto que no pienses como yo, sin embargo éste es mi modo”. ~ Negarse a que haga cosas por vos. Explicale que, si opta por ello, lo haga sin esperar algo a cambio. ~ Si deseás transmitirle un mensaje, hacelo de manera impersonal. “Dicen que”, “algunos piensan”. De esta manera indirecta, si bien da la impresión de que se habla a otros, el mensaje puede emitirse. ~ Pedirle que, si te solicita algo, te de la opción de elegir si querés hacerlo. Si entra en discusión, da por finalizada la conversación. “Prefiero que lo retomemos en otro momento”. ~ No responder con agresiones. Mantener siempre la educación. 188 196 ~ Demostrar que tu decisión es inamovible, con firmeza pero sin soberbia. La mejor manera de negarse a un pedido es con una sonrisa. ~ Enseñarle a pedir afecto sin tener que emplear agresiones; que entendés su pedido y que con palabras es suficiente. Estos cambios deben iniciarse con un objetivo personal. Si no funcionan en esta relación, será una ganancia a futuro. Tené en cuenta que vos también tenés un límite y debés preservarte para no terminar mimetizado e intercambiando los roles. Si la frustración de un vínculo la actuamos en otro, corremos el riesgo de convertirnos en aquello que no deseamos. Por ello, dale un tiempo prudencial a esa relación. Si no ves un cambio de actitud de tu pareja, evaluá para qué continuar en este vínculo. 189 197 CAPÍTULO 11 CÓMO AMAR SIN MORIR EN EL INTENTO “Los japoneses creen que cuando algo ha sufrido un daño y tiene",
           "interactiveChallenge": {
             "question": "Según el Capítulo 11 (Cómo Amar Sin Morir En El Intento), ¿qué pilar es indispensable para construir un amor saludable?",
             "options": [
@@ -4267,7 +4268,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Encontrar un pasatiempo, un deporte, actividades laborales o recreativas, libera nuestro capital creativo y lo potencia al armado de un nuevo proyecto. Mantenerse ocupado/a y capitalizando la energía en fines positivos nos hará sentir mejor y más completos/as. Conseguir logros y nuevas satisfacciones personales rearmará nuestro yo de una manera gratificante, y hará que volvamos a sentirnos bien. Aceptar que se puede superar el dolor pasajero, que el tiempo irá sellando la herida y reencontrarnos con nuestros espacios de una manera plena es parte del proceso. 202 211 Cuando realmente lo hayamos culminado, sentiremos que una nueva presencia será bienvenida. Volve-remos a sentirnos deseantes y no tendremos la sombra de aquello que ya no está. 203 212 CAPÍTULO 12 AMORES ENQUISTADOS Un amor enquistado es aquel que nos inmoviliza, que siendo actual o pasado nos retiene y aprisiona para no perderlo. Es aquel tipo de amor que, de ese sentimiento, sólo tiene el título, como inadecuada expresión de su esencia. Es ese amor que nos gusta en parte, no en todo, pero sabe tan bien cuando se tiene, es tan adrenalínico e intenso cuando se arriesga, que se niega todo lo que 204 213 pueda atentar esta unión. Nos entregamos, nos desco-nocemos y, más allá de revisar y saber que no la estamos pasando bien, nos mantiene activos y con poca capacidad de renuncia. Venía desarrollando aquellos vínculos donde en su particularidad se emplea la manipulación para introducir al otro en una relación asimétri",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 12 Amores Enquistados\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_12_amores_enquistados.webp\" alt=\"Capitulo 12 Amores Enquistados\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 12 - Amores Enquistados\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m13_amores_enquistados.webp\" alt=\"Cap 12 - Amores Enquistados\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Encontrar un pasatiempo, un deporte, actividades laborales o recreativas, libera nuestro capital creativo y lo potencia al armado de un nuevo proyecto. Mantenerse ocupado/a y capitalizando la energía en fines positivos nos hará sentir mejor y más completos/as. Conseguir logros y nuevas satisfacciones personales rearmará nuestro yo de una manera gratificante, y hará que volvamos a sentirnos bien. Aceptar que se puede superar el dolor pasajero, que el tiempo irá sellando la herida y reencontrarnos con nuestros espacios de una manera plena es parte del proceso. 202 211 Cuando realmente lo hayamos culminado, sentiremos que una nueva presencia será bienvenida. Volve-remos a sentirnos deseantes y no tendremos la sombra de aquello que ya no está. 203 212 CAPÍTULO 12 AMORES ENQUISTADOS Un amor enquistado es aquel que nos inmoviliza, que siendo actual o pasado nos retiene y aprisiona para no perderlo. Es aquel tipo de amor que, de ese sentimiento, sólo tiene el título, como inadecuada expresión de su esencia. Es ese amor que nos gusta en parte, no en todo, pero sabe tan bien cuando se tiene, es tan adrenalínico e intenso cuando se arriesga, que se niega todo lo que 204 213 pueda atentar esta unión. Nos entregamos, nos desco-nocemos y, más allá de revisar y saber que no la estamos pasando bien, nos mantiene activos y con poca capacidad de renuncia. Venía desarrollando aquellos vínculos donde en su particularidad se emplea la manipulación para introducir al otro en una relación asimétri",
           "interactiveChallenge": {
             "question": "En el Capítulo 12 (Amores Enquistados), ¿qué define a un 'amor enquistado' en la psicología de la manipulación?",
             "options": [
@@ -4564,7 +4565,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Comienza un proceso de cambio para recuperar la buena estima, fortalecer la autonomía y la seguridad personal, con el deseo de volver a sentirte bien con vos mismo/a. 217 226 CAPÍTULO 13 DESINTOXICAR EL PENSAMIENTO DE UN MAL AMOR “El secreto del cambio es enfocar toda tu energía, no en pelear contra lo viejo, sino en construir lo nuevo”. SÓCRATES Cuando un amor se enferma, nuestro pensamiento también lo hace. Ingresa en un estado de terapia intensiva donde el cuerpo y el alma duelen. 218 227 Quitar de nuestra cabeza a quien nos hizo daño es tan difícil como sacarlo de nuestro corazón. El pensamiento, cuando se enferma, se vuelve cíclico y rumiante, haciéndose presente durante muchas horas del día e, incluso, varios meses. Retiene en nuestra mente el recuerdo de las malas experiencias vividas, ya sea con imágenes o palabras, mortificándonos cada vez que aparece. Si este estilo de pensamiento se perpetúa, puede deteriorar nuestra salud física y emocional, ocasionándonos un profundo estado de tristeza y malestar. Cuando el amor se enferma, deja de ser amor. El proceso de sanación depende del deseo de recuperarse y de devolverle a la vida el valor por sobre cualquier relación. Te sugiero algunos ejercicios que pueden colaborar con este proceso. ~ Evitar nombrarlo. Cuando estamos dispuestos a superarlo, es importante acotar el tema. Elaborar no es repetir. Disminuir los espacios donde solés mencionarlo es una manera de ir despegándolo de tu vida diaria y dándole menos entidad. Es",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 13 Desintoxicar El Pensamiento De Un Mal Amor\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_13_desintoxicar_el_pensamiento_de_un_mal_amor.webp\" alt=\"Capitulo 13 Desintoxicar El Pensamiento De Un Mal Amor\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 13 - Desintoxicar el Pensamiento de un Mal Amor\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m14_desintoxicar_pensamiento.webp\" alt=\"Cap 13 - Desintoxicar el Pensamiento de un Mal Amor\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Comienza un proceso de cambio para recuperar la buena estima, fortalecer la autonomía y la seguridad personal, con el deseo de volver a sentirte bien con vos mismo/a. 217 226 CAPÍTULO 13 DESINTOXICAR EL PENSAMIENTO DE UN MAL AMOR “El secreto del cambio es enfocar toda tu energía, no en pelear contra lo viejo, sino en construir lo nuevo”. SÓCRATES Cuando un amor se enferma, nuestro pensamiento también lo hace. Ingresa en un estado de terapia intensiva donde el cuerpo y el alma duelen. 218 227 Quitar de nuestra cabeza a quien nos hizo daño es tan difícil como sacarlo de nuestro corazón. El pensamiento, cuando se enferma, se vuelve cíclico y rumiante, haciéndose presente durante muchas horas del día e, incluso, varios meses. Retiene en nuestra mente el recuerdo de las malas experiencias vividas, ya sea con imágenes o palabras, mortificándonos cada vez que aparece. Si este estilo de pensamiento se perpetúa, puede deteriorar nuestra salud física y emocional, ocasionándonos un profundo estado de tristeza y malestar. Cuando el amor se enferma, deja de ser amor. El proceso de sanación depende del deseo de recuperarse y de devolverle a la vida el valor por sobre cualquier relación. Te sugiero algunos ejercicios que pueden colaborar con este proceso. ~ Evitar nombrarlo. Cuando estamos dispuestos a superarlo, es importante acotar el tema. Elaborar no es repetir. Disminuir los espacios donde solés mencionarlo es una manera de ir despegándolo de tu vida diaria y dándole menos entidad. Es",
           "interactiveChallenge": {
             "question": "De acuerdo con el Capítulo 13 (Desintoxicar El Pensamiento De Un Mal Amor), ¿cuál es un paso crítico en el proceso de detox emocional?",
             "options": [
@@ -4658,7 +4659,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- 221 230 CAPÍTULO 14 YO MANIPULO. CUANDO UNO ES QUIEN MANIPULA Si durante la lectura de este libro te sentiste identificado/a con algún estilo, ¡sé valiente! El hecho de haber leído estas páginas deja entrever la intención de revisar lo que te está pasando. Animarse a la misión de descubrir por qué usas este recurso para obtener lo que querés, requiere un proceso de introspección, aceptación y deseo de cambiar. Tu primer paso ya lo diste. 222 231 ~ Seré honesta: es imprescindible ELEGIR recorrer este camino para la superación. Como en todo proceso, los primeros ratos serán tensos, al tener que tolerar asumir tus debilidades, escucharlas y no ceder al impulso de volverlas a acallar. Esto implicará paciencia, esfuerzo y luchar contra las resistencias para tolerar las sensaciones de ansiedad o de angustia que se despiertan al no contar aún con herramientas para modificar. ~ Los riesgos de continuar empleando este recurso son negativos. Es normal que, ante las señales de que algo no anda bien, quieras borrar esa impresión por temor a la angustia. El darte cuenta de que hay mucho por resolver te desalienta. Pero debés entender que continuar así también tiene riesgos, y mayores, para vos. La sociedad actual predica que la manipulación es un valor asociado al éxito. Es más valioso quien dirige que aquel que realiza el trabajo. Sin embargo, en algún momento, sentís que a largo plazo esta maniobra te deja solo, con sentimientos de vacío, desesperanza y abandono. Todo es superficial",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 14 Yo Manipulo Tu Manipulas El Manipula\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_14_yo_manipulo_tu_manipulas_el_manipula.webp\" alt=\"Capitulo 14 Yo Manipulo Tu Manipulas El Manipula\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 14 - Yo Manipulo, Tú Manipulas, Él Manipula\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m15_yo_manipulo.webp\" alt=\"Cap 14 - Yo Manipulo, Tú Manipulas, Él Manipula\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- 221 230 CAPÍTULO 14 YO MANIPULO. CUANDO UNO ES QUIEN MANIPULA Si durante la lectura de este libro te sentiste identificado/a con algún estilo, ¡sé valiente! El hecho de haber leído estas páginas deja entrever la intención de revisar lo que te está pasando. Animarse a la misión de descubrir por qué usas este recurso para obtener lo que querés, requiere un proceso de introspección, aceptación y deseo de cambiar. Tu primer paso ya lo diste. 222 231 ~ Seré honesta: es imprescindible ELEGIR recorrer este camino para la superación. Como en todo proceso, los primeros ratos serán tensos, al tener que tolerar asumir tus debilidades, escucharlas y no ceder al impulso de volverlas a acallar. Esto implicará paciencia, esfuerzo y luchar contra las resistencias para tolerar las sensaciones de ansiedad o de angustia que se despiertan al no contar aún con herramientas para modificar. ~ Los riesgos de continuar empleando este recurso son negativos. Es normal que, ante las señales de que algo no anda bien, quieras borrar esa impresión por temor a la angustia. El darte cuenta de que hay mucho por resolver te desalienta. Pero debés entender que continuar así también tiene riesgos, y mayores, para vos. La sociedad actual predica que la manipulación es un valor asociado al éxito. Es más valioso quien dirige que aquel que realiza el trabajo. Sin embargo, en algún momento, sentís que a largo plazo esta maniobra te deja solo, con sentimientos de vacío, desesperanza y abandono. Todo es superficial",
           "interactiveChallenge": {
             "question": "En el Capítulo 14 (Yo Manipulo Tú Manipulas Él Manipula), ¿qué reflexión propone la autora sobre la propia conducta?",
             "options": [
@@ -4810,7 +4811,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- CAPÍTULO 15 EXISTE UN AMOR SANO, UN AMOR POSIBLE “El amor nace del deseo repentino de hacer eterno lo pasajero”. RAMÓN GÓMEZ DE LA SERNA Al observar a una pareja de enamorados, es frecuente deslumbrarnos con el furor y la cantidad de cosas que realizan en conjunto. 229 239 Salidas, proyectos, encuentros, desarrollos, idas y vueltas, más vueltas que idas, son síntoma de un movimiento esperanzador que se despierta al sentirse enamorado. Este sentimiento potencia las energías y la capacidad de soñar, y nos hace creer que podemos construir un castillo aunque sólo tengamos lápiz y papel. Cómo olvidarlo si uno se ha sentido así en algún momento. Posiblemente, al leer estos párrafos, se esbozó la mueca placentera de una sonrisa dedicada al vuelo de tu cabeza hacia algún rincón de los recuerdos, o a uno actual si lo estás viviendo. Con el tiempo, en la pareja comienza a aparecer el deseo de proyectos mayores, que requieren nueva energía y dedicación. Las ganas de comprarse un auto, convivir, irse de viaje son sólo el principio de lo que luego se proyectará aún más, en la fantasía de tener hijos, formar una familia o comprar una casa. Uno se pregunta: ¿de dónde sacan tanta fuerza los enamorados? Da la sensación de que todo lo que se consigue en esos tiempos es más de lo que se hace en el transcurso de toda una vida. Cuando una pareja comienza a formarse, hay un período de enamoramiento normal. En cada enamorado, se produce un redireccionamiento de la energía que antes se dedicaba",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capitulo 15 Existe Un Amor Sano Un Amor Posible\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/capitulo_15_existe_un_amor_sano_un_amor_posible.webp\" alt=\"Capitulo 15 Existe Un Amor Sano Un Amor Posible\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 15 - Existe un Amor Sano, un Amor Posible\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m16_amor_sano_posible.webp\" alt=\"Cap 15 - Existe un Amor Sano, un Amor Posible\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- CAPÍTULO 15 EXISTE UN AMOR SANO, UN AMOR POSIBLE “El amor nace del deseo repentino de hacer eterno lo pasajero”. RAMÓN GÓMEZ DE LA SERNA Al observar a una pareja de enamorados, es frecuente deslumbrarnos con el furor y la cantidad de cosas que realizan en conjunto. 229 239 Salidas, proyectos, encuentros, desarrollos, idas y vueltas, más vueltas que idas, son síntoma de un movimiento esperanzador que se despierta al sentirse enamorado. Este sentimiento potencia las energías y la capacidad de soñar, y nos hace creer que podemos construir un castillo aunque sólo tengamos lápiz y papel. Cómo olvidarlo si uno se ha sentido así en algún momento. Posiblemente, al leer estos párrafos, se esbozó la mueca placentera de una sonrisa dedicada al vuelo de tu cabeza hacia algún rincón de los recuerdos, o a uno actual si lo estás viviendo. Con el tiempo, en la pareja comienza a aparecer el deseo de proyectos mayores, que requieren nueva energía y dedicación. Las ganas de comprarse un auto, convivir, irse de viaje son sólo el principio de lo que luego se proyectará aún más, en la fantasía de tener hijos, formar una familia o comprar una casa. Uno se pregunta: ¿de dónde sacan tanta fuerza los enamorados? Da la sensación de que todo lo que se consigue en esos tiempos es más de lo que se hace en el transcurso de toda una vida. Cuando una pareja comienza a formarse, hay un período de enamoramiento normal. En cada enamorado, se produce un redireccionamiento de la energía que antes se dedicaba",
           "interactiveChallenge": {
             "question": "En el Capítulo 15 (Existe Un Amor Sano Un Amor Posible), ¿cuáles son los pilares clave del amor maduro y consciente?",
             "options": [
@@ -4962,7 +4963,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Verhaeghe, Pail (2001), El amor en los tiempos de soledad. Tres ensayos sobre el deseo y la pulsión, Buenos Aires, Paidós. Zygmunt, Bauman (2013), Amor líquido. Acerca de la fragilidad de los vínculos humanos, Buenos Aires, Fondo de Cultura Económica. 235 246 ÍNDICE Carta al lector............................................................................. 4 Prólogo ......................................................................................... 10 CAPÍTULO 1 Cultura del amor incondicional ................................. 13 A la conquista del amor .................................................. 16 Enamoramiento, no somos uno sin el otro......... 17 Amor no correspondido .............................................. 18 Amor platónico .............................................................. 18 Más allá del enamoramiento, ¿cómo amar sin dejar de ser uno mismo? .............. 19 Rompiendo mitos .............................................................. 21 236 La nueva cultura de la satisfacción inmediata................................................................................ 24 La manipulación como moneda corriente ............ 28 CAPÍTULO 2 Vulnerables ante el amor ................................................ 31 Animarnos a sentir ............................................................ 32 Cuando el miedo condiciona al amor ..................... 35 Miedo a involucrarnos y salir lastimados............... 37 Miedo al rechazo ..............",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Indice Y Bibliografia\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen_vitelleschi/indice_y_bibliografia.webp\" alt=\"Indice Y Bibliografia\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Índice y Bibliografía\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_afectiva_belen/afectiva_m17_bibliografia_cierre.webp\" alt=\"Índice y Bibliografía\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Verhaeghe, Pail (2001), El amor en los tiempos de soledad. Tres ensayos sobre el deseo y la pulsión, Buenos Aires, Paidós. Zygmunt, Bauman (2013), Amor líquido. Acerca de la fragilidad de los vínculos humanos, Buenos Aires, Fondo de Cultura Económica. 235 246 ÍNDICE Carta al lector............................................................................. 4 Prólogo ......................................................................................... 10 CAPÍTULO 1 Cultura del amor incondicional ................................. 13 A la conquista del amor .................................................. 16 Enamoramiento, no somos uno sin el otro......... 17 Amor no correspondido .............................................. 18 Amor platónico .............................................................. 18 Más allá del enamoramiento, ¿cómo amar sin dejar de ser uno mismo? .............. 19 Rompiendo mitos .............................................................. 21 236 La nueva cultura de la satisfacción inmediata................................................................................ 24 La manipulación como moneda corriente ............ 28 CAPÍTULO 2 Vulnerables ante el amor ................................................ 31 Animarnos a sentir ............................................................ 32 Cuando el miedo condiciona al amor ..................... 35 Miedo a involucrarnos y salir lastimados............... 37 Miedo al rechazo ..............",
           "interactiveChallenge": {
             "question": "En la sección de Índice Y Bibliografía, ¿qué valor aporta la fundamentación conceptual de la obra para el lector?",
             "options": [
@@ -5164,6 +5165,594 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS01",
+      "category": "Manipulación Afectiva",
+      "title": "El Bombardeo de Amor",
+      "difficulty": "Intermedio",
+      "badge": "Detector de Narcisismo",
+      "scenarioDescription": "Tu nueva pareja te inunda de atención, regalos y promesas de futuro a las dos semanas de conocerse. Sientes que es demasiado bueno para ser real.",
+      "options": [
+        {
+          "text": "Aceptar la intensidad como una señal de amor verdadero.",
+          "outcome": "Vulnerabilidad extrema",
+          "wisdomScore": 20,
+          "analysis": "El exceso de intensidad inicial suele ser una técnica de seducción para anular el juicio crítico.",
+          "bookInsight": "Capítulo 02: Vulnerables ante el amor."
+        },
+        {
+          "text": "Establecer límites claros y ralentizar el ritmo de la relación.",
+          "outcome": "Protección psicológica",
+          "wisdomScore": 95,
+          "analysis": "Mantener el control sobre el ritmo permite observar la reacción del otro ante la frustración de sus deseos.",
+          "bookInsight": "Capítulo 03: El mecanismo de la manipulación."
+        }
+      ]
+    },
+    {
+      "id": "CS02",
+      "category": "Comunicación",
+      "title": "El Gaslighting Sutil",
+      "difficulty": "Avanzado",
+      "badge": "Escudo Cognitivo",
+      "scenarioDescription": "Tu pareja niega haber dicho algo que escuchaste claramente, haciéndote dudar de tu memoria.",
+      "options": [
+        {
+          "text": "Discutir intensamente hasta que admita la verdad.",
+          "outcome": "Trampa de validación",
+          "wisdomScore": 30,
+          "analysis": "Intentar ganar una discusión con un manipulador es una pérdida de energía; ellos reescriben la realidad.",
+          "bookInsight": "Capítulo 04: La comunicación base de las relaciones."
+        },
+        {
+          "text": "Registrar hechos y confiar en tu percepción sin buscar su validación.",
+          "outcome": "Autonomía mental",
+          "wisdomScore": 90,
+          "analysis": "La validación interna es la única defensa contra la erosión de la realidad propia.",
+          "bookInsight": "Capítulo 06: Los múltiples disfraces de la manipulación."
+        }
+      ]
+    },
+    {
+      "id": "CS03",
+      "category": "Tecnología",
+      "title": "El Control Digital",
+      "difficulty": "Intermedio",
+      "badge": "Ciber-Resiliencia",
+      "scenarioDescription": "Tu pareja exige tus contraseñas bajo el pretexto de 'transparencia total' en la relación.",
+      "options": [
+        {
+          "text": "Entregar las contraseñas para demostrar confianza.",
+          "outcome": "Dependencia digital",
+          "wisdomScore": 10,
+          "analysis": "La privacidad es un derecho, no una falta de confianza. La exigencia es una forma de control.",
+          "bookInsight": "Capítulo 08: La era de la tecnología."
+        },
+        {
+          "text": "Explicar que la confianza se basa en acciones, no en el acceso a la privacidad.",
+          "outcome": "Límite saludable",
+          "wisdomScore": 85,
+          "analysis": "Establecer límites digitales es crucial en la era moderna para evitar el acoso y control.",
+          "bookInsight": "Capítulo 08: La era de la tecnología."
+        }
+      ]
+    },
+    {
+      "id": "CS04",
+      "category": "Personalidad",
+      "title": "El Triángulo Narcisista",
+      "difficulty": "Avanzado",
+      "badge": "Analista de Patrones",
+      "scenarioDescription": "Tu pareja menciona constantemente a un 'ex' o a un amigo para compararte y hacerte sentir insuficiente.",
+      "options": [
+        {
+          "text": "Esforzarte más para ser mejor que la otra persona.",
+          "outcome": "Competencia tóxica",
+          "wisdomScore": 15,
+          "analysis": "El triángulo es una herramienta para bajar tu autoestima y mantenerte en estado de alerta.",
+          "bookInsight": "Capítulo 07: Personalidades narcisistas."
+        },
+        {
+          "text": "Señalar la conducta y retirarte de la conversación si continúa.",
+          "outcome": "Desactivación del juego",
+          "wisdomScore": 95,
+          "analysis": "No participar en el juego de comparación neutraliza el poder del manipulador.",
+          "bookInsight": "Capítulo 05: El arte de la manipulación afectiva."
+        }
+      ]
+    },
+    {
+      "id": "CS05",
+      "category": "Psicopatía",
+      "title": "La Víctima Eterna",
+      "difficulty": "Avanzado",
+      "badge": "Detector de Empatía Falsa",
+      "scenarioDescription": "Tu pareja siempre es la víctima de todas sus relaciones pasadas y de su entorno laboral.",
+      "options": [
+        {
+          "text": "Ofrecer apoyo incondicional y consuelo constante.",
+          "outcome": "Suministro narcisista",
+          "wisdomScore": 25,
+          "analysis": "El rol de víctima es una estrategia para capturar tu empatía y explotarla.",
+          "bookInsight": "Capítulo 09: Psicopatía y otras yerbas."
+        },
+        {
+          "text": "Observar la falta de responsabilidad personal en sus relatos.",
+          "outcome": "Evaluación objetiva",
+          "wisdomScore": 80,
+          "analysis": "La incapacidad de asumir errores es un indicador clave de perfiles manipuladores.",
+          "bookInsight": "Capítulo 09: Psicopatía y otras yerbas."
+        }
+      ]
+    },
+    {
+      "id": "CS06",
+      "category": "Cultura",
+      "title": "El Mito del Amor Incondicional",
+      "difficulty": "Básico",
+      "badge": "Pensador Crítico",
+      "scenarioDescription": "Te dicen que 'si me amas, debes perdonar todo lo que hago'.",
+      "options": [
+        {
+          "text": "Aceptar el perdón como prueba de amor.",
+          "outcome": "Abuso normalizado",
+          "wisdomScore": 5,
+          "analysis": "El amor incondicional no significa ausencia de límites o tolerancia al abuso.",
+          "bookInsight": "Capítulo 01: Cultura del amor incondicional."
+        },
+        {
+          "text": "Rechazar la premisa y definir qué comportamientos son inaceptables.",
+          "outcome": "Integridad personal",
+          "wisdomScore": 100,
+          "analysis": "El amor sano requiere respeto mutuo y límites claros, no sumisión.",
+          "bookInsight": "Capítulo 01: Cultura del amor incondicional."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC01",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Amor Incondicional",
+      "definition": "Creencia de que el amor justifica cualquier sacrificio.",
+      "tacticalUse": "Usado para manipular la culpa.",
+      "countermeasure": "Establecer límites innegociables."
+    },
+    {
+      "id": "FC02",
+      "bookNumber": 3,
+      "category": "Mecanismos",
+      "term": "Gaslighting",
+      "definition": "Manipulación para hacer dudar a la víctima de su realidad.",
+      "tacticalUse": "Desestabilizar la confianza propia.",
+      "countermeasure": "Diario de hechos objetivos."
+    },
+    {
+      "id": "FC03",
+      "bookNumber": 7,
+      "category": "Personalidad",
+      "term": "Narcisismo",
+      "definition": "Necesidad excesiva de admiración y falta de empatía.",
+      "tacticalUse": "Explotar la empatía ajena.",
+      "countermeasure": "Contacto cero o piedra gris."
+    },
+    {
+      "id": "FC04",
+      "bookNumber": 5,
+      "category": "Técnicas",
+      "term": "Love Bombing",
+      "definition": "Exceso de afecto inicial para crear dependencia.",
+      "tacticalUse": "Seducción rápida.",
+      "countermeasure": "Mantener el ritmo lento."
+    },
+    {
+      "id": "FC05",
+      "bookNumber": 9,
+      "category": "Psicopatía",
+      "term": "Psicopatía",
+      "definition": "Ausencia de remordimiento y conducta depredadora.",
+      "tacticalUse": "Uso de otros como objetos.",
+      "countermeasure": "Distanciamiento total."
+    },
+    {
+      "id": "FC06",
+      "bookNumber": 4,
+      "category": "Comunicación",
+      "term": "Doble Vínculo",
+      "definition": "Mensajes contradictorios que paralizan.",
+      "tacticalUse": "Generar confusión mental.",
+      "countermeasure": "Identificar la contradicción."
+    },
+    {
+      "id": "FC07",
+      "bookNumber": 6,
+      "category": "Disfraces",
+      "term": "Victimización",
+      "definition": "Adoptar el rol de víctima para manipular.",
+      "tacticalUse": "Provocar culpa.",
+      "countermeasure": "No ofrecer validación emocional."
+    },
+    {
+      "id": "FC08",
+      "bookNumber": 8,
+      "category": "Tecnología",
+      "term": "Cyber-Stalking",
+      "definition": "Monitoreo digital constante.",
+      "tacticalUse": "Controlar la vida privada.",
+      "countermeasure": "Privacidad y seguridad digital."
+    },
+    {
+      "id": "FC09",
+      "bookNumber": 3,
+      "category": "Mecanismos",
+      "term": "Triangulación",
+      "definition": "Introducir a un tercero para generar inseguridad.",
+      "tacticalUse": "Competencia por atención.",
+      "countermeasure": "No entrar en el juego."
+    },
+    {
+      "id": "FC10",
+      "bookNumber": 2,
+      "category": "Vulnerabilidad",
+      "term": "Dependencia Afectiva",
+      "definition": "Necesidad extrema del otro para existir.",
+      "tacticalUse": "Controlar mediante el miedo al abandono.",
+      "countermeasure": "Fortalecer la autoestima."
+    },
+    {
+      "id": "FC11",
+      "bookNumber": 5,
+      "category": "Técnicas",
+      "term": "Silent Treatment",
+      "definition": "Castigo mediante el silencio.",
+      "tacticalUse": "Forzar la sumisión.",
+      "countermeasure": "Indiferencia estratégica."
+    },
+    {
+      "id": "FC12",
+      "bookNumber": 7,
+      "category": "Personalidad",
+      "term": "Suministro Narcisista",
+      "definition": "Atención que el narcisista necesita para validarse.",
+      "tacticalUse": "Provocar reacciones.",
+      "countermeasure": "No reaccionar."
+    },
+    {
+      "id": "FC13",
+      "bookNumber": 4,
+      "category": "Comunicación",
+      "term": "Proyección",
+      "definition": "Atribuir al otro los defectos propios.",
+      "tacticalUse": "Evadir responsabilidad.",
+      "countermeasure": "Devolver la responsabilidad."
+    },
+    {
+      "id": "FC14",
+      "bookNumber": 6,
+      "category": "Disfraces",
+      "term": "Falsa Generosidad",
+      "definition": "Dar para obligar a devolver.",
+      "tacticalUse": "Crear deuda emocional.",
+      "countermeasure": "Rechazar regalos no solicitados."
+    },
+    {
+      "id": "FC15",
+      "bookNumber": 9,
+      "category": "Psicopatía",
+      "term": "Encanto Superficial",
+      "definition": "Habilidad para parecer inofensivo.",
+      "tacticalUse": "Bajar defensas.",
+      "countermeasure": "Observar acciones, no palabras."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Defensa",
+      "name": "Piedra Gris",
+      "severity": "Baja",
+      "icon": "🪨",
+      "howItWorks": "Volverse aburrido y predecible para el manipulador.",
+      "redFlags": "Cuando el manipulador intenta provocarte más.",
+      "counterScript": "No tengo opinión sobre eso.",
+      "deepMechanism": "Eliminar el suministro emocional."
+    },
+    {
+      "id": "TM02",
+      "category": "Defensa",
+      "name": "Contacto Cero",
+      "severity": "Alta",
+      "icon": "🚫",
+      "howItWorks": "Eliminar toda comunicación con el agresor.",
+      "redFlags": "Intentos de contacto por terceros.",
+      "counterScript": "No hay respuesta.",
+      "deepMechanism": "Corte total de la fuente de suministro."
+    },
+    {
+      "id": "TM03",
+      "category": "Defensa",
+      "name": "Validación Interna",
+      "severity": "Media",
+      "icon": "🧠",
+      "howItWorks": "Confiar en tu juicio sobre el del otro.",
+      "redFlags": "Dudar de tu propia memoria.",
+      "counterScript": "Yo recuerdo lo que sucedió.",
+      "deepMechanism": "Reconstrucción de la realidad propia."
+    },
+    {
+      "id": "TM04",
+      "category": "Defensa",
+      "name": "Establecimiento de Límites",
+      "severity": "Media",
+      "icon": "🛡️",
+      "howItWorks": "Definir qué conductas no tolerarás.",
+      "redFlags": "Violación sistemática de límites.",
+      "counterScript": "Si haces X, yo haré Y.",
+      "deepMechanism": "Restauración de la jerarquía personal."
+    },
+    {
+      "id": "TM05",
+      "category": "Defensa",
+      "name": "Desapego Emocional",
+      "severity": "Alta",
+      "icon": "❄️",
+      "howItWorks": "Observar al manipulador como un objeto de estudio.",
+      "redFlags": "Sentir culpa por no sentir.",
+      "counterScript": "Entiendo tu punto.",
+      "deepMechanism": "Desactivación de la empatía reactiva."
+    },
+    {
+      "id": "TM06",
+      "category": "Defensa",
+      "name": "Verificación de Hechos",
+      "severity": "Baja",
+      "icon": "🔍",
+      "howItWorks": "Documentar eventos para evitar gaslighting.",
+      "redFlags": "El manipulador niega la evidencia.",
+      "counterScript": "Aquí están las pruebas.",
+      "deepMechanism": "Anclaje a la realidad objetiva."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 3,
+      "question": "¿Cuál es el objetivo principal del gaslighting?",
+      "options": [
+        "Hacerte reír",
+        "Hacerte dudar de tu realidad",
+        "Ayudarte a mejorar",
+        "Darte espacio"
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting busca desestabilizar la percepción de la víctima para ganar control."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 5,
+      "question": "¿Qué es el 'Love Bombing'?",
+      "options": [
+        "Un regalo sorpresa",
+        "Un ataque de ira",
+        "Exceso de afecto para manipular",
+        "Una técnica de comunicación"
+      ],
+      "correctIndex": 2,
+      "explanation": "Es una táctica de seducción intensa para crear dependencia rápida."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 7,
+      "question": "¿Qué busca un narcisista en una relación?",
+      "options": [
+        "Amor puro",
+        "Suministro narcisista",
+        "Crecimiento mutuo",
+        "Amistad"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buscan atención y validación constante para alimentar su ego."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "¿Por qué el mito del amor incondicional es peligroso?",
+      "options": [
+        "Porque es aburrido",
+        "Porque justifica el abuso",
+        "Porque es muy caro",
+        "Porque no existe"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se usa para manipular a la víctima a tolerar comportamientos inaceptables."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 9,
+      "question": "¿Qué caracteriza a un psicópata en una relación?",
+      "options": [
+        "Mucha empatía",
+        "Falta de remordimiento",
+        "Timidez",
+        "Exceso de llanto"
+      ],
+      "correctIndex": 1,
+      "explanation": "La falta de remordimiento es un rasgo central de la psicopatía."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 4,
+      "question": "¿Qué es la triangulación?",
+      "options": [
+        "Un triángulo amoroso",
+        "Usar a un tercero para manipular",
+        "Una forma de comunicación",
+        "Un juego de mesa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es introducir a un tercero para generar inseguridad y competencia."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Manipulación",
+      "category": "General",
+      "definition": "Influencia oculta para beneficio propio.",
+      "practicalExample": "Hacer sentir culpable a alguien para que haga lo que quieres."
+    },
+    {
+      "id": "G02",
+      "term": "Narcisismo",
+      "category": "Personalidad",
+      "definition": "Trastorno caracterizado por egocentrismo.",
+      "practicalExample": "Hablar solo de uno mismo en una cita."
+    },
+    {
+      "id": "G03",
+      "term": "Gaslighting",
+      "category": "Mecanismo",
+      "definition": "Abuso psicológico de negación de hechos.",
+      "practicalExample": "Decir 'eso nunca pasó' cuando sí pasó."
+    },
+    {
+      "id": "G04",
+      "term": "Suministro",
+      "category": "Psicología",
+      "definition": "Atención que busca el narcisista.",
+      "practicalExample": "Provocar una pelea para ver tu reacción."
+    },
+    {
+      "id": "G05",
+      "term": "Triangulación",
+      "category": "Táctica",
+      "definition": "Uso de terceros para controlar.",
+      "practicalExample": "Comparar a tu pareja con un ex."
+    },
+    {
+      "id": "G06",
+      "term": "Contacto Cero",
+      "category": "Defensa",
+      "definition": "Corte total de comunicación.",
+      "practicalExample": "Bloquear en todas las redes sociales."
+    },
+    {
+      "id": "G07",
+      "term": "Piedra Gris",
+      "category": "Defensa",
+      "definition": "Volverse aburrido para el manipulador.",
+      "practicalExample": "Responder con monosílabos."
+    },
+    {
+      "id": "G08",
+      "term": "Love Bombing",
+      "category": "Táctica",
+      "definition": "Seducción intensa inicial.",
+      "practicalExample": "Decir 'te amo' a la semana de conocerse."
+    },
+    {
+      "id": "G09",
+      "term": "Doble Vínculo",
+      "category": "Comunicación",
+      "definition": "Mensajes contradictorios.",
+      "practicalExample": "Decir 'haz lo que quieras' con tono de enojo."
+    },
+    {
+      "id": "G10",
+      "term": "Proyección",
+      "category": "Mecanismo",
+      "definition": "Atribuir defectos propios a otros.",
+      "practicalExample": "Llamar 'mentiroso' a quien te descubrió mintiendo."
+    },
+    {
+      "id": "G11",
+      "term": "Psicopatía",
+      "category": "Personalidad",
+      "definition": "Trastorno de conducta antisocial.",
+      "practicalExample": "Engañar sin sentir culpa."
+    },
+    {
+      "id": "G12",
+      "term": "Vulnerabilidad",
+      "category": "Psicología",
+      "definition": "Estado de apertura emocional.",
+      "practicalExample": "Compartir miedos profundos."
+    },
+    {
+      "id": "G13",
+      "term": "Límite",
+      "category": "Defensa",
+      "definition": "Regla de comportamiento personal.",
+      "practicalExample": "No permitir gritos en casa."
+    },
+    {
+      "id": "G14",
+      "term": "Empatía",
+      "category": "Psicología",
+      "definition": "Capacidad de sentir lo del otro.",
+      "practicalExample": "Entender el dolor ajeno."
+    },
+    {
+      "id": "G15",
+      "term": "Dependencia",
+      "category": "Afectiva",
+      "definition": "Necesidad de otro para funcionar.",
+      "practicalExample": "No poder tomar decisiones solo."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Detección",
+      "title": "La Mirada Fija",
+      "cue": "Contacto visual prolongado sin parpadeo.",
+      "interpretation": "Intento de intimidación o dominación.",
+      "practicalDrill": "Mantén la mirada 3 segundos y desvía la vista naturalmente."
+    },
+    {
+      "id": "BL02",
+      "category": "Detección",
+      "title": "La Sonrisa Falsa",
+      "cue": "Sonrisa que no llega a los ojos.",
+      "interpretation": "Falta de sinceridad o manipulación emocional.",
+      "practicalDrill": "Observa si las arrugas de los ojos se activan al sonreír."
+    },
+    {
+      "id": "BL03",
+      "category": "Detección",
+      "title": "Incongruencia Gestual",
+      "cue": "Decir 'sí' mientras se niega con la cabeza.",
+      "interpretation": "Disonancia cognitiva o mentira.",
+      "practicalDrill": "Presta atención a la contradicción entre palabras y gestos."
+    },
+    {
+      "id": "BL04",
+      "category": "Detección",
+      "title": "Invasión del Espacio",
+      "cue": "Acercarse demasiado al hablar.",
+      "interpretation": "Intento de control y dominación territorial.",
+      "practicalDrill": "Da un paso atrás para recuperar tu espacio personal."
+    },
+    {
+      "id": "BL05",
+      "category": "Detección",
+      "title": "Micro-expresiones de Desprecio",
+      "cue": "Labio superior elevado de un solo lado.",
+      "interpretation": "Sentimiento de superioridad sobre el otro.",
+      "practicalDrill": "Identifica este gesto en conversaciones tensas."
+    },
+    {
+      "id": "BL06",
+      "category": "Detección",
+      "title": "Postura Defensiva",
+      "cue": "Brazos cruzados y cuerpo rígido.",
+      "interpretation": "Cierre emocional o preparación para atacar.",
+      "practicalDrill": "Observa si la postura cambia cuando tocas temas sensibles."
     }
   ]
 };

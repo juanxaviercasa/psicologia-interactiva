@@ -5168,109 +5168,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Desmontando el Chantaje Emocional y Victimización",
-      "title": "La encrucijada del chantaje mediante el victimismo",
-      "difficulty": "Alta",
-      "badge": "Detector de Manipulación",
-      "scenarioDescription": "Llevas 8 meses con Marcos. Tras notar conductas de control e incomodidad, decides comunicarle que irás al cumpleaños de tu grupo de amistades del colegio sin él, ya que es una reunión de viejos amigos. Marcos cambia repentinamente su tono: se muestra profundamente triste, suspira, se toma la cabeza y te dice: 'Después de todo lo que he sacrificado por ti, me excluyes. Mi depresión empeorará si me dejas solo esta noche. Pensé que me amabas incondicionalmente, pero veo que prefieres divertirte mientras yo sufro'.",
+      "id": "CS01",
+      "category": "Manipulación Afectiva",
+      "title": "El Bombardeo de Amor",
+      "difficulty": "Intermedio",
+      "badge": "Detector de Narcisismo",
+      "scenarioDescription": "Tu nueva pareja te inunda de atención, regalos y promesas de futuro a las dos semanas de conocerse. Sientes que es demasiado bueno para ser real.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Cancelar tu salida, quedarte a acompañarlo y pedirle disculpas por haber sido insensible ante su estado de ánimo.",
-          "outcome": "Fallo",
-          "wisdomScore": 15,
-          "analysis": "Al ceder, estás validando el chantaje emocional y reforzando el refuerzo negativo. Marcos ha aprendido que amenazar con su estado de ánimo o culparte da resultados directos para someter tus decisiones.",
-          "bookInsight": "Belén Vitelleschi enfatiza que ceder ante el chantaje camuflado de victimismo perpetúa el ciclo de anulación personal y erosiona la autoestima de quien cede."
+          "text": "Aceptar la intensidad como una señal de amor verdadero.",
+          "outcome": "Vulnerabilidad extrema",
+          "wisdomScore": 20,
+          "analysis": "El exceso de intensidad inicial suele ser una técnica de seducción para anular el juicio crítico.",
+          "bookInsight": "Capítulo 02: Vulnerables ante el amor."
         },
         {
-          "id": "opt2",
-          "text": "Ofrecerte a llevarlo al evento a pesar de que tenías ganas de ir a solas, tratando de buscar un punto medio para que no sufra.",
-          "outcome": "Fallo de Transgresión de Límites",
-          "wisdomScore": 40,
-          "analysis": "Aunque parece una solución negociada, en realidad traicionaste tu espacio personal genuino para evitar la incomodidad de la culpa inducida.",
-          "bookInsight": "Negociar tus propios espacios vitales sanos frente al drama manipulador es una forma de autolimitación destructiva descrita en el libro."
-        },
-        {
-          "id": "opt3",
-          "text": "Expresar empatía por su sentir sin modificar tu plan: 'Lamento que te sientas así, pero mi decisión de ir a esta reunión se mantiene. Si estás pasando por un momento depresivo grave, podemos buscar ayuda profesional juntos mañana, pero mi salida de hoy no cambia'.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Desvinculas con firmeza tu libertad de su chantaje afectivo. Ofreces ayuda responsable (profesional) para su malestar real o fingido, pero rechazas asumir la culpa o cancelar tu vida independiente.",
-          "bookInsight": "Como enseña 'Manipulación Afectiva', marcar un límite asertivo implica separar la responsabilidad afectiva propia del chantaje o la inestabilidad del otro."
+          "text": "Establecer límites claros y ralentizar el ritmo de la relación.",
+          "outcome": "Protección psicológica",
+          "wisdomScore": 95,
+          "analysis": "Mantener el control sobre el ritmo permite observar la reacción del otro ante la frustración de sus deseos.",
+          "bookInsight": "Capítulo 03: El mecanismo de la manipulación."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Salida de Vínculos Narcisistas y Disonancia Cognitiva",
-      "title": "El ciclo de desintoxicación y el intento de 'Hoovering'",
-      "difficulty": "Alta",
-      "badge": "Maestro de la Desintoxicación",
-      "scenarioDescription": "Lograste finalizar una relación de dos años con Laura, una persona con marcados rasgos narcisistas que ejercía gaslighting y descalificaciones continuas. Llevas tres semanas en 'Contacto Cero'. De pronto, recibes una carta extensa y flores en tu lugar de trabajo. En la carta escribe: 'Reconocí todos mis errores. Fui a terapia y el psicólogo me hizo ver que mi conducta se debía al trauma de mi infancia. Eres el amor de mi vida, sin ti no tengo motivos para seguir. Por favor, hablemos solo 10 minutos para darme un cierre'. Sientes una fuerte punzada de duda y nostalgia.",
+      "id": "CS02",
+      "category": "Comunicación",
+      "title": "El Gaslighting Sutil",
+      "difficulty": "Avanzado",
+      "badge": "Escudo Cognitivo",
+      "scenarioDescription": "Tu pareja niega haber dicho algo que escuchaste claramente, haciéndote dudar de tu memoria.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Responder la carta o aceptar la reunión de 10 minutos en un lugar público únicamente para escuchar sus explicaciones y constatar su 'cambio'.",
-          "outcome": "Fallo",
+          "text": "Discutir intensamente hasta que admita la verdad.",
+          "outcome": "Trampa de validación",
+          "wisdomScore": 30,
+          "analysis": "Intentar ganar una discusión con un manipulador es una pérdida de energía; ellos reescriben la realidad.",
+          "bookInsight": "Capítulo 04: La comunicación base de las relaciones."
+        },
+        {
+          "text": "Registrar hechos y confiar en tu percepción sin buscar su validación.",
+          "outcome": "Autonomía mental",
+          "wisdomScore": 90,
+          "analysis": "La validación interna es la única defensa contra la erosión de la realidad propia.",
+          "bookInsight": "Capítulo 06: Los múltiples disfraces de la manipulación."
+        }
+      ]
+    },
+    {
+      "id": "CS03",
+      "category": "Tecnología",
+      "title": "El Control Digital",
+      "difficulty": "Intermedio",
+      "badge": "Ciber-Resiliencia",
+      "scenarioDescription": "Tu pareja exige tus contraseñas bajo el pretexto de 'transparencia total' en la relación.",
+      "options": [
+        {
+          "text": "Entregar las contraseñas para demostrar confianza.",
+          "outcome": "Dependencia digital",
+          "wisdomScore": 10,
+          "analysis": "La privacidad es un derecho, no una falta de confianza. La exigencia es una forma de control.",
+          "bookInsight": "Capítulo 08: La era de la tecnología."
+        },
+        {
+          "text": "Explicar que la confianza se basa en acciones, no en el acceso a la privacidad.",
+          "outcome": "Límite saludable",
+          "wisdomScore": 85,
+          "analysis": "Establecer límites digitales es crucial en la era moderna para evitar el acoso y control.",
+          "bookInsight": "Capítulo 08: La era de la tecnología."
+        }
+      ]
+    },
+    {
+      "id": "CS04",
+      "category": "Personalidad",
+      "title": "El Triángulo Narcisista",
+      "difficulty": "Avanzado",
+      "badge": "Analista de Patrones",
+      "scenarioDescription": "Tu pareja menciona constantemente a un 'ex' o a un amigo para compararte y hacerte sentir insuficiente.",
+      "options": [
+        {
+          "text": "Esforzarte más para ser mejor que la otra persona.",
+          "outcome": "Competencia tóxica",
+          "wisdomScore": 15,
+          "analysis": "El triángulo es una herramienta para bajar tu autoestima y mantenerte en estado de alerta.",
+          "bookInsight": "Capítulo 07: Personalidades narcisistas."
+        },
+        {
+          "text": "Señalar la conducta y retirarte de la conversación si continúa.",
+          "outcome": "Desactivación del juego",
+          "wisdomScore": 95,
+          "analysis": "No participar en el juego de comparación neutraliza el poder del manipulador.",
+          "bookInsight": "Capítulo 05: El arte de la manipulación afectiva."
+        }
+      ]
+    },
+    {
+      "id": "CS05",
+      "category": "Psicopatía",
+      "title": "La Víctima Eterna",
+      "difficulty": "Avanzado",
+      "badge": "Detector de Empatía Falsa",
+      "scenarioDescription": "Tu pareja siempre es la víctima de todas sus relaciones pasadas y de su entorno laboral.",
+      "options": [
+        {
+          "text": "Ofrecer apoyo incondicional y consuelo constante.",
+          "outcome": "Suministro narcisista",
           "wisdomScore": 25,
-          "analysis": "Caes en la trampa del 'Hoovering' (aspiradora). Los 10 minutos son la brecha que el manipulador necesita para apelar a la nostalgia, reabrir la disonancia cognitiva y engancharte de nuevo.",
-          "bookInsight": "El libro advierte que las epifanías repentinas tras rupturas en perfiles narcisistas suelen ser maniobras desesperadas de reconexión para no perder la fuente de suministro."
+          "analysis": "El rol de víctima es una estrategia para capturar tu empatía y explotarla.",
+          "bookInsight": "Capítulo 09: Psicopatía y otras yerbas."
         },
         {
-          "id": "opt2",
-          "text": "Mantener el Contacto Cero absoluto: no responder la carta, desechar las flores, bloquear canales residuales y reforzar tu red de apoyo sin dar acuse de recibo.",
-          "outcome": "Éxito",
+          "text": "Observar la falta de responsabilidad personal en sus relatos.",
+          "outcome": "Evaluación objetiva",
+          "wisdomScore": 80,
+          "analysis": "La incapacidad de asumir errores es un indicador clave de perfiles manipuladores.",
+          "bookInsight": "Capítulo 09: Psicopatía y otras yerbas."
+        }
+      ]
+    },
+    {
+      "id": "CS06",
+      "category": "Cultura",
+      "title": "El Mito del Amor Incondicional",
+      "difficulty": "Básico",
+      "badge": "Pensador Crítico",
+      "scenarioDescription": "Te dicen que 'si me amas, debes perdonar todo lo que hago'.",
+      "options": [
+        {
+          "text": "Aceptar el perdón como prueba de amor.",
+          "outcome": "Abuso normalizado",
+          "wisdomScore": 5,
+          "analysis": "El amor incondicional no significa ausencia de límites o tolerancia al abuso.",
+          "bookInsight": "Capítulo 01: Cultura del amor incondicional."
+        },
+        {
+          "text": "Rechazar la premisa y definir qué comportamientos son inaceptables.",
+          "outcome": "Integridad personal",
           "wisdomScore": 100,
-          "analysis": "Protegerte a ti mismo es la prioridad. Entiendes que cualquier respuesta (positiva o negativa) destruye la desintoxicación cognitiva que iniciaste y alimenta el juego del manipulador.",
-          "bookInsight": "Desintoxicar el pensamiento de un mal amor exige cortar toda retroalimentación y mantener una mirada factual sobre los hechos del pasado por sobre las promesas vacías."
-        },
-        {
-          "id": "opt3",
-          "text": "Escribirle un mensaje largo explicándole detalladamente por qué no le crees su cambio y recriminándole el daño que te hizo.",
-          "outcome": "Fallo por Involucramiento Emocional",
-          "wisdomScore": 45,
-          "analysis": "Aunque estés diciendo 'no', le estás dando la reacción emocional y la atención que busca. Al responder con recriminaciones le demuestras que sigue teniendo impacto en ti.",
-          "bookInsight": "El manipulador se nutre tanto de la devoción como del drama. La verdadera defensa radica en la indiferencia firme mediante la piedra gris y el contacto cero."
+          "analysis": "El amor sano requiere respeto mutuo y límites claros, no sumisión.",
+          "bookInsight": "Capítulo 01: Cultura del amor incondicional."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Gaslighting (Luz de Gas)",
-      "definition": "Técnica de manipulación orientada a sembrar dudas en la víctima sobre su propia memoria, percepción o cordura, mediante el negamiento de hechos reales o la distorsión sutil de lo ocurrido.",
-      "tacticalUse": "El manipulador afirma frases como: 'Eso jamás pasó', 'Estás demente', 'Todo lo inventas en tu cabeza' para desestabilizar la seguridad del otro.",
-      "countermeasure": "Confiar en el propio registro factual, anotar eventos en un diario de hechos de forma objetiva y rechazar debates sobre recuerdos constatados con datos objetivos."
+      "id": "FC01",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Amor Incondicional",
+      "definition": "Creencia de que el amor justifica cualquier sacrificio.",
+      "tacticalUse": "Usado para manipular la culpa.",
+      "countermeasure": "Establecer límites innegociables."
     },
     {
-      "id": "fc2",
-      "term": "Love Bombing (Bombardeo de Amor)",
-      "definition": "Estrategia de cortejo caracterizada por la hiperatención, afecto sofocante, elogios desmedidos y promesas apresuradas de futuro al inicio del vínculo.",
-      "tacticalUse": "Generar una fuerte deuda emocional y acelerar la dependencia y la vulnerabilidad de la víctima antes de mostrar las conductas de control.",
-      "countermeasure": "Mantener un ritmo pausado en la relación, observar el comportamiento a lo largo del tiempo y evaluar la coherencia entre palabras grandilocuentes y acciones constantes."
+      "id": "FC02",
+      "bookNumber": 3,
+      "category": "Mecanismos",
+      "term": "Gaslighting",
+      "definition": "Manipulación para hacer dudar a la víctima de su realidad.",
+      "tacticalUse": "Desestabilizar la confianza propia.",
+      "countermeasure": "Diario de hechos objetivos."
     },
     {
-      "id": "fc3",
-      "term": "Refuerzo Intermitente",
-      "definition": "Patrón afectivo de alternancia impredecible entre muestras de afecto/premios y castigos/indiferencia, que genera adicción biológica y psicológica a la aprobación del manipulador.",
-      "tacticalUse": "Mantener a la víctima en un estado de alerta y sumisión constante, buscando desesperadamente regresar a la 'fase buena'.",
-      "countermeasure": "Reconocer el ciclo de adicción emocional, cortar el flujo de atención y sostener el Contacto Cero definitivo."
+      "id": "FC03",
+      "bookNumber": 7,
+      "category": "Personalidad",
+      "term": "Narcisismo",
+      "definition": "Necesidad excesiva de admiración y falta de empatía.",
+      "tacticalUse": "Explotar la empatía ajena.",
+      "countermeasure": "Contacto cero o piedra gris."
     },
     {
-      "id": "fc4",
-      "term": "Triangulación Afectiva",
-      "definition": "Inclusión deliberada de una tercera persona (ex, amigo, pretendiente real o ficticio) en la dinámica de la pareja para infundir celos, inseguridad y competencia.",
-      "tacticalUse": "Hacer sentir a la víctima reemplazable y forzarla a competir por el afecto y validación del manipulador.",
-      "countermeasure": "Negarse a competir por la atención de alguien. Establecer la regla interna de que el afecto maduro no exige ganar pruebas frente a terceros."
+      "id": "FC04",
+      "bookNumber": 5,
+      "category": "Técnicas",
+      "term": "Love Bombing",
+      "definition": "Exceso de afecto inicial para crear dependencia.",
+      "tacticalUse": "Seducción rápida.",
+      "countermeasure": "Mantener el ritmo lento."
     },
     {
-      "id": "fc5",
-      "term": "Técnica de la Piedra Gris",
-      "definition": "Estrategia conductual defensiva que consiste en responder al manipulador de forma neutral, monótona, aburrida y desprovista de reacción emocional.",
-      "tacticalUse": "Cortar el 'suministro' emocional del manipulador (que busca desesperación, rabia o explicaciones) para que pierda interés en provocar a la víctima.",
-      "countermeasure": "Usar respuestas breves ('Entiendo', 'Está bien', 'Es tu opinión'), no justificarse jamás y mantener una postura imperturbable."
+      "id": "FC05",
+      "bookNumber": 9,
+      "category": "Psicopatía",
+      "term": "Psicopatía",
+      "definition": "Ausencia de remordimiento y conducta depredadora.",
+      "tacticalUse": "Uso de otros como objetos.",
+      "countermeasure": "Distanciamiento total."
+    },
+    {
+      "id": "FC06",
+      "bookNumber": 4,
+      "category": "Comunicación",
+      "term": "Doble Vínculo",
+      "definition": "Mensajes contradictorios que paralizan.",
+      "tacticalUse": "Generar confusión mental.",
+      "countermeasure": "Identificar la contradicción."
+    },
+    {
+      "id": "FC07",
+      "bookNumber": 6,
+      "category": "Disfraces",
+      "term": "Victimización",
+      "definition": "Adoptar el rol de víctima para manipular.",
+      "tacticalUse": "Provocar culpa.",
+      "countermeasure": "No ofrecer validación emocional."
+    },
+    {
+      "id": "FC08",
+      "bookNumber": 8,
+      "category": "Tecnología",
+      "term": "Cyber-Stalking",
+      "definition": "Monitoreo digital constante.",
+      "tacticalUse": "Controlar la vida privada.",
+      "countermeasure": "Privacidad y seguridad digital."
+    },
+    {
+      "id": "FC09",
+      "bookNumber": 3,
+      "category": "Mecanismos",
+      "term": "Triangulación",
+      "definition": "Introducir a un tercero para generar inseguridad.",
+      "tacticalUse": "Competencia por atención.",
+      "countermeasure": "No entrar en el juego."
+    },
+    {
+      "id": "FC10",
+      "bookNumber": 2,
+      "category": "Vulnerabilidad",
+      "term": "Dependencia Afectiva",
+      "definition": "Necesidad extrema del otro para existir.",
+      "tacticalUse": "Controlar mediante el miedo al abandono.",
+      "countermeasure": "Fortalecer la autoestima."
+    },
+    {
+      "id": "FC11",
+      "bookNumber": 5,
+      "category": "Técnicas",
+      "term": "Silent Treatment",
+      "definition": "Castigo mediante el silencio.",
+      "tacticalUse": "Forzar la sumisión.",
+      "countermeasure": "Indiferencia estratégica."
+    },
+    {
+      "id": "FC12",
+      "bookNumber": 7,
+      "category": "Personalidad",
+      "term": "Suministro Narcisista",
+      "definition": "Atención que el narcisista necesita para validarse.",
+      "tacticalUse": "Provocar reacciones.",
+      "countermeasure": "No reaccionar."
+    },
+    {
+      "id": "FC13",
+      "bookNumber": 4,
+      "category": "Comunicación",
+      "term": "Proyección",
+      "definition": "Atribuir al otro los defectos propios.",
+      "tacticalUse": "Evadir responsabilidad.",
+      "countermeasure": "Devolver la responsabilidad."
+    },
+    {
+      "id": "FC14",
+      "bookNumber": 6,
+      "category": "Disfraces",
+      "term": "Falsa Generosidad",
+      "definition": "Dar para obligar a devolver.",
+      "tacticalUse": "Crear deuda emocional.",
+      "countermeasure": "Rechazar regalos no solicitados."
+    },
+    {
+      "id": "FC15",
+      "bookNumber": 9,
+      "category": "Psicopatía",
+      "term": "Encanto Superficial",
+      "definition": "Habilidad para parecer inofensivo.",
+      "tacticalUse": "Bajar defensas.",
+      "countermeasure": "Observar acciones, no palabras."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Defensa",
+      "name": "Piedra Gris",
+      "severity": "Baja",
+      "icon": "🪨",
+      "howItWorks": "Volverse aburrido y predecible para el manipulador.",
+      "redFlags": "Cuando el manipulador intenta provocarte más.",
+      "counterScript": "No tengo opinión sobre eso.",
+      "deepMechanism": "Eliminar el suministro emocional."
+    },
+    {
+      "id": "TM02",
+      "category": "Defensa",
+      "name": "Contacto Cero",
+      "severity": "Alta",
+      "icon": "🚫",
+      "howItWorks": "Eliminar toda comunicación con el agresor.",
+      "redFlags": "Intentos de contacto por terceros.",
+      "counterScript": "No hay respuesta.",
+      "deepMechanism": "Corte total de la fuente de suministro."
+    },
+    {
+      "id": "TM03",
+      "category": "Defensa",
+      "name": "Validación Interna",
+      "severity": "Media",
+      "icon": "🧠",
+      "howItWorks": "Confiar en tu juicio sobre el del otro.",
+      "redFlags": "Dudar de tu propia memoria.",
+      "counterScript": "Yo recuerdo lo que sucedió.",
+      "deepMechanism": "Reconstrucción de la realidad propia."
+    },
+    {
+      "id": "TM04",
+      "category": "Defensa",
+      "name": "Establecimiento de Límites",
+      "severity": "Media",
+      "icon": "🛡️",
+      "howItWorks": "Definir qué conductas no tolerarás.",
+      "redFlags": "Violación sistemática de límites.",
+      "counterScript": "Si haces X, yo haré Y.",
+      "deepMechanism": "Restauración de la jerarquía personal."
+    },
+    {
+      "id": "TM05",
+      "category": "Defensa",
+      "name": "Desapego Emocional",
+      "severity": "Alta",
+      "icon": "❄️",
+      "howItWorks": "Observar al manipulador como un objeto de estudio.",
+      "redFlags": "Sentir culpa por no sentir.",
+      "counterScript": "Entiendo tu punto.",
+      "deepMechanism": "Desactivación de la empatía reactiva."
+    },
+    {
+      "id": "TM06",
+      "category": "Defensa",
+      "name": "Verificación de Hechos",
+      "severity": "Baja",
+      "icon": "🔍",
+      "howItWorks": "Documentar eventos para evitar gaslighting.",
+      "redFlags": "El manipulador niega la evidencia.",
+      "counterScript": "Aquí están las pruebas.",
+      "deepMechanism": "Anclaje a la realidad objetiva."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 3,
+      "question": "¿Cuál es el objetivo principal del gaslighting?",
+      "options": [
+        "Hacerte reír",
+        "Hacerte dudar de tu realidad",
+        "Ayudarte a mejorar",
+        "Darte espacio"
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting busca desestabilizar la percepción de la víctima para ganar control."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 5,
+      "question": "¿Qué es el 'Love Bombing'?",
+      "options": [
+        "Un regalo sorpresa",
+        "Un ataque de ira",
+        "Exceso de afecto para manipular",
+        "Una técnica de comunicación"
+      ],
+      "correctIndex": 2,
+      "explanation": "Es una táctica de seducción intensa para crear dependencia rápida."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 7,
+      "question": "¿Qué busca un narcisista en una relación?",
+      "options": [
+        "Amor puro",
+        "Suministro narcisista",
+        "Crecimiento mutuo",
+        "Amistad"
+      ],
+      "correctIndex": 1,
+      "explanation": "Buscan atención y validación constante para alimentar su ego."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "¿Por qué el mito del amor incondicional es peligroso?",
+      "options": [
+        "Porque es aburrido",
+        "Porque justifica el abuso",
+        "Porque es muy caro",
+        "Porque no existe"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se usa para manipular a la víctima a tolerar comportamientos inaceptables."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 9,
+      "question": "¿Qué caracteriza a un psicópata en una relación?",
+      "options": [
+        "Mucha empatía",
+        "Falta de remordimiento",
+        "Timidez",
+        "Exceso de llanto"
+      ],
+      "correctIndex": 1,
+      "explanation": "La falta de remordimiento es un rasgo central de la psicopatía."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 4,
+      "question": "¿Qué es la triangulación?",
+      "options": [
+        "Un triángulo amoroso",
+        "Usar a un tercero para manipular",
+        "Una forma de comunicación",
+        "Un juego de mesa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es introducir a un tercero para generar inseguridad y competencia."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Manipulación",
+      "category": "General",
+      "definition": "Influencia oculta para beneficio propio.",
+      "practicalExample": "Hacer sentir culpable a alguien para que haga lo que quieres."
+    },
+    {
+      "id": "G02",
+      "term": "Narcisismo",
+      "category": "Personalidad",
+      "definition": "Trastorno caracterizado por egocentrismo.",
+      "practicalExample": "Hablar solo de uno mismo en una cita."
+    },
+    {
+      "id": "G03",
+      "term": "Gaslighting",
+      "category": "Mecanismo",
+      "definition": "Abuso psicológico de negación de hechos.",
+      "practicalExample": "Decir 'eso nunca pasó' cuando sí pasó."
+    },
+    {
+      "id": "G04",
+      "term": "Suministro",
+      "category": "Psicología",
+      "definition": "Atención que busca el narcisista.",
+      "practicalExample": "Provocar una pelea para ver tu reacción."
+    },
+    {
+      "id": "G05",
+      "term": "Triangulación",
+      "category": "Táctica",
+      "definition": "Uso de terceros para controlar.",
+      "practicalExample": "Comparar a tu pareja con un ex."
+    },
+    {
+      "id": "G06",
+      "term": "Contacto Cero",
+      "category": "Defensa",
+      "definition": "Corte total de comunicación.",
+      "practicalExample": "Bloquear en todas las redes sociales."
+    },
+    {
+      "id": "G07",
+      "term": "Piedra Gris",
+      "category": "Defensa",
+      "definition": "Volverse aburrido para el manipulador.",
+      "practicalExample": "Responder con monosílabos."
+    },
+    {
+      "id": "G08",
+      "term": "Love Bombing",
+      "category": "Táctica",
+      "definition": "Seducción intensa inicial.",
+      "practicalExample": "Decir 'te amo' a la semana de conocerse."
+    },
+    {
+      "id": "G09",
+      "term": "Doble Vínculo",
+      "category": "Comunicación",
+      "definition": "Mensajes contradictorios.",
+      "practicalExample": "Decir 'haz lo que quieras' con tono de enojo."
+    },
+    {
+      "id": "G10",
+      "term": "Proyección",
+      "category": "Mecanismo",
+      "definition": "Atribuir defectos propios a otros.",
+      "practicalExample": "Llamar 'mentiroso' a quien te descubrió mintiendo."
+    },
+    {
+      "id": "G11",
+      "term": "Psicopatía",
+      "category": "Personalidad",
+      "definition": "Trastorno de conducta antisocial.",
+      "practicalExample": "Engañar sin sentir culpa."
+    },
+    {
+      "id": "G12",
+      "term": "Vulnerabilidad",
+      "category": "Psicología",
+      "definition": "Estado de apertura emocional.",
+      "practicalExample": "Compartir miedos profundos."
+    },
+    {
+      "id": "G13",
+      "term": "Límite",
+      "category": "Defensa",
+      "definition": "Regla de comportamiento personal.",
+      "practicalExample": "No permitir gritos en casa."
+    },
+    {
+      "id": "G14",
+      "term": "Empatía",
+      "category": "Psicología",
+      "definition": "Capacidad de sentir lo del otro.",
+      "practicalExample": "Entender el dolor ajeno."
+    },
+    {
+      "id": "G15",
+      "term": "Dependencia",
+      "category": "Afectiva",
+      "definition": "Necesidad de otro para funcionar.",
+      "practicalExample": "No poder tomar decisiones solo."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Detección",
+      "title": "La Mirada Fija",
+      "cue": "Contacto visual prolongado sin parpadeo.",
+      "interpretation": "Intento de intimidación o dominación.",
+      "practicalDrill": "Mantén la mirada 3 segundos y desvía la vista naturalmente."
+    },
+    {
+      "id": "BL02",
+      "category": "Detección",
+      "title": "La Sonrisa Falsa",
+      "cue": "Sonrisa que no llega a los ojos.",
+      "interpretation": "Falta de sinceridad o manipulación emocional.",
+      "practicalDrill": "Observa si las arrugas de los ojos se activan al sonreír."
+    },
+    {
+      "id": "BL03",
+      "category": "Detección",
+      "title": "Incongruencia Gestual",
+      "cue": "Decir 'sí' mientras se niega con la cabeza.",
+      "interpretation": "Disonancia cognitiva o mentira.",
+      "practicalDrill": "Presta atención a la contradicción entre palabras y gestos."
+    },
+    {
+      "id": "BL04",
+      "category": "Detección",
+      "title": "Invasión del Espacio",
+      "cue": "Acercarse demasiado al hablar.",
+      "interpretation": "Intento de control y dominación territorial.",
+      "practicalDrill": "Da un paso atrás para recuperar tu espacio personal."
+    },
+    {
+      "id": "BL05",
+      "category": "Detección",
+      "title": "Micro-expresiones de Desprecio",
+      "cue": "Labio superior elevado de un solo lado.",
+      "interpretation": "Sentimiento de superioridad sobre el otro.",
+      "practicalDrill": "Identifica este gesto en conversaciones tensas."
+    },
+    {
+      "id": "BL06",
+      "category": "Detección",
+      "title": "Postura Defensiva",
+      "cue": "Brazos cruzados y cuerpo rígido.",
+      "interpretation": "Cierre emocional o preparación para atacar.",
+      "practicalDrill": "Observa si la postura cambia cuando tocas temas sensibles."
     }
   ]
 };

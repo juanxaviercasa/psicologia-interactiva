@@ -3495,93 +3495,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Relaciones Interpersonales",
-      "title": "Caso Práctico: Capitulo 2 Entendiendo Al Persuasivo Y Al Manipulador Parte 2",
-      "difficulty": "Media",
-      "badge": "Experto en Vínculos",
-      "scenarioDescription": "Durante una situación relacionada con \"Capitulo 2 Entendiendo Al Persuasivo Y Al Manipulador Parte 2\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS001",
+      "category": "Persuasion",
+      "title": "El Vendedor de Presión",
+      "difficulty": "Intermediate",
+      "badge": "Analista Táctico",
+      "scenarioDescription": "Un colega utiliza la técnica de escasez para que aceptes un proyecto extra. Te dice que si no lo haces hoy, el equipo perderá el bono.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Capitulo 2 Entendiendo Al Persuasivo Y Al Manipulador Parte 2\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Aceptar inmediatamente por miedo a perder el bono.",
+          "outcome": "Manipulado",
+          "wisdomScore": 20,
+          "analysis": "Has caído en la urgencia artificial.",
+          "bookInsight": "La psicología oscura utiliza la urgencia para anular el pensamiento crítico."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Pedir datos concretos sobre el bono y posponer la decisión.",
+          "outcome": "Neutralizado",
+          "wisdomScore": 90,
+          "analysis": "Has recuperado el control mediante la lógica.",
+          "bookInsight": "El análisis de los hechos es el antídoto contra la manipulación emocional."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Aplicación Ética de Principios",
-      "title": "Caso Práctico: Capitulo 3 Caracteristicas De La Psicologia Oscura",
-      "difficulty": "Alta",
-      "badge": "Maestro de Influencia",
-      "scenarioDescription": "Durante una situación relacionada con \"Capitulo 3 Caracteristicas De La Psicologia Oscura\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS002",
+      "category": "Psicología Oscura",
+      "title": "El Triangulador",
+      "difficulty": "Advanced",
+      "badge": "Detector de Sombras",
+      "scenarioDescription": "Tu jefe compara constantemente tu desempeño con el de un compañero para 'motivarte'.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Capitulo 3 Caracteristicas De La Psicologia Oscura\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Intentar superar al compañero para ganar aprobación.",
+          "outcome": "Manipulado",
+          "wisdomScore": 30,
+          "analysis": "Estás jugando bajo sus reglas de competencia tóxica.",
+          "bookInsight": "La triangulación busca crear inseguridad para controlar al sujeto."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Solicitar una reunión de feedback basada solo en tus KPIs.",
+          "outcome": "Neutralizado",
+          "wisdomScore": 95,
+          "analysis": "Has redirigido la conversación a la objetividad.",
+          "bookInsight": "La objetividad desmantela las tácticas de comparación emocional."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Persuasión",
+      "title": "El Falso Amigo",
+      "difficulty": "Beginner",
+      "badge": "Observador",
+      "scenarioDescription": "Alguien te hace un favor pequeño sin que lo pidas y luego te pide un favor grande.",
+      "options": [
+        {
+          "text": "Acceder por reciprocidad.",
+          "outcome": "Manipulado",
+          "wisdomScore": 40,
+          "analysis": "La deuda de gratitud es una trampa común.",
+          "bookInsight": "La reciprocidad es un arma de persuasión poderosa."
+        },
+        {
+          "text": "Agradecer el favor pero declinar la petición grande.",
+          "outcome": "Neutralizado",
+          "wisdomScore": 85,
+          "analysis": "Has roto el ciclo de deuda.",
+          "bookInsight": "Reconocer la táctica permite rechazar la obligación impuesta."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Psicología Oscura",
+      "title": "El Gaslighting Sutil",
+      "difficulty": "Advanced",
+      "badge": "Escudo Mental",
+      "scenarioDescription": "Tu pareja insiste en que nunca dijiste algo que tú recuerdas perfectamente haber dicho.",
+      "options": [
+        {
+          "text": "Dudar de tu memoria y pedir disculpas.",
+          "outcome": "Manipulado",
+          "wisdomScore": 10,
+          "analysis": "Estás perdiendo tu realidad.",
+          "bookInsight": "El gaslighting erosiona la confianza en uno mismo."
+        },
+        {
+          "text": "Mantener tu postura y sugerir revisar registros o hechos.",
+          "outcome": "Neutralizado",
+          "wisdomScore": 100,
+          "analysis": "Has protegido tu integridad cognitiva.",
+          "bookInsight": "La validación interna es la defensa contra la distorsión externa."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Persuasión",
+      "title": "El Anclaje de Precios",
+      "difficulty": "Intermediate",
+      "badge": "Negociador",
+      "scenarioDescription": "Un vendedor te ofrece un producto a un precio altísimo para luego bajarlo a la mitad.",
+      "options": [
+        {
+          "text": "Comprar porque parece una gran oferta.",
+          "outcome": "Manipulado",
+          "wisdomScore": 35,
+          "analysis": "Has caído en el anclaje.",
+          "bookInsight": "El primer número establece el marco de referencia."
+        },
+        {
+          "text": "Investigar el valor real del mercado antes de decidir.",
+          "outcome": "Neutralizado",
+          "wisdomScore": 90,
+          "analysis": "Has roto el ancla.",
+          "bookInsight": "La investigación independiente neutraliza el anclaje."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Psicología Oscura",
+      "title": "El Bombardeo de Amor",
+      "difficulty": "Advanced",
+      "badge": "Centinela",
+      "scenarioDescription": "Alguien que acabas de conocer te llena de halagos y atención excesiva en pocos días.",
+      "options": [
+        {
+          "text": "Entregarte a la relación rápidamente.",
+          "outcome": "Manipulado",
+          "wisdomScore": 20,
+          "analysis": "Estás siendo condicionado.",
+          "bookInsight": "El exceso de afecto inicial suele ser una técnica de captura."
+        },
+        {
+          "text": "Establecer límites y observar el comportamiento a largo plazo.",
+          "outcome": "Neutralizado",
+          "wisdomScore": 95,
+          "analysis": "Has mantenido el control emocional.",
+          "bookInsight": "La paciencia revela la verdadera intención detrás del afecto."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Prueba social",
-      "definition": "Técnica psicológica estudiada en \"Preliminares E Indice\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Tomarse tiempo antes de responder a demandas urgentes fabricadas."
+      "id": "FC01",
+      "bookNumber": 1,
+      "category": "Concepto",
+      "term": "Psicología Oscura",
+      "definition": "Uso de tácticas para manipular, coaccionar o influir en otros.",
+      "tacticalUse": "Entender la intención ajena.",
+      "countermeasure": "Conciencia crítica."
     },
     {
-      "id": "fc2",
-      "term": "Love bombing",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 1 Introduccion A La Psicologia Oscura\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Desarrollar independencia emocional mediante mindfulness diario."
+      "id": "FC02",
+      "bookNumber": 2,
+      "category": "Táctica",
+      "term": "Gaslighting",
+      "definition": "Hacer dudar a alguien de su propia percepción.",
+      "tacticalUse": "Controlar la realidad del otro.",
+      "countermeasure": "Diario de hechos."
     },
     {
-      "id": "fc3",
-      "term": "Rapport forzado",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 2 Entendiendo Al Persuasivo Y Al Manipulador Parte 1\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
-    },
-    {
-      "id": "fc4",
-      "term": "Consistencia cognitiva",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 2 Entendiendo Al Persuasivo Y Al Manipulador Parte 2\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Consultar perspectivas externas de confianza antes de decidir."
-    },
-    {
-      "id": "fc5",
+      "id": "FC03",
+      "bookNumber": 3,
+      "category": "Táctica",
       "term": "Triangulación",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 3 Caracteristicas De La Psicologia Oscura\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Practicar la técnica del \"disco rayado\" ante presión persistente."
+      "definition": "Introducir a un tercero para crear conflicto.",
+      "tacticalUse": "Desestabilizar vínculos.",
+      "countermeasure": "Comunicación directa."
+    },
+    {
+      "id": "FC04",
+      "bookNumber": 5,
+      "category": "Persuasión",
+      "term": "Reciprocidad",
+      "definition": "Sentir la obligación de devolver un favor.",
+      "tacticalUse": "Generar deuda emocional.",
+      "countermeasure": "Rechazar favores no solicitados."
+    },
+    {
+      "id": "FC05",
+      "bookNumber": 6,
+      "category": "Táctica",
+      "term": "Bombardeo de Amor",
+      "definition": "Exceso de afecto para ganar confianza.",
+      "tacticalUse": "Crear dependencia rápida.",
+      "countermeasure": "Mantener límites personales."
+    },
+    {
+      "id": "FC06",
+      "bookNumber": 2,
+      "category": "Perfil",
+      "term": "Manipulador",
+      "definition": "Persona que busca beneficio propio a costa de otros.",
+      "tacticalUse": "Identificar patrones.",
+      "countermeasure": "Distanciamiento emocional."
+    },
+    {
+      "id": "FC07",
+      "bookNumber": 3,
+      "category": "Concepto",
+      "term": "Narcisismo",
+      "definition": "Necesidad de admiración y falta de empatía.",
+      "tacticalUse": "Apelar al ego.",
+      "countermeasure": "No alimentar el ego."
+    },
+    {
+      "id": "FC08",
+      "bookNumber": 5,
+      "category": "Persuasión",
+      "term": "Escasez",
+      "definition": "Crear sensación de pérdida inminente.",
+      "tacticalUse": "Acelerar decisiones.",
+      "countermeasure": "Analizar la necesidad real."
+    },
+    {
+      "id": "FC09",
+      "bookNumber": 6,
+      "category": "Táctica",
+      "term": "Proyección",
+      "definition": "Atribuir defectos propios a los demás.",
+      "tacticalUse": "Desviar culpas.",
+      "countermeasure": "Reflexión objetiva."
+    },
+    {
+      "id": "FC10",
+      "bookNumber": 4,
+      "category": "Análisis",
+      "term": "Lenguaje Corporal",
+      "definition": "Señales no verbales que revelan intenciones.",
+      "tacticalUse": "Detectar mentiras.",
+      "countermeasure": "Observar incongruencias."
+    },
+    {
+      "id": "FC11",
+      "bookNumber": 3,
+      "category": "Concepto",
+      "term": "Maquiavelismo",
+      "definition": "El fin justifica los medios.",
+      "tacticalUse": "Estrategia fría.",
+      "countermeasure": "Ética innegociable."
+    },
+    {
+      "id": "FC12",
+      "bookNumber": 5,
+      "category": "Persuasión",
+      "term": "Anclaje",
+      "definition": "Uso de un valor inicial como referencia.",
+      "tacticalUse": "Influir en percepciones.",
+      "countermeasure": "Investigación previa."
+    },
+    {
+      "id": "FC13",
+      "bookNumber": 6,
+      "category": "Táctica",
+      "term": "Silencio",
+      "definition": "Uso del silencio para incomodar.",
+      "tacticalUse": "Forzar confesiones.",
+      "countermeasure": "Mantener la calma."
+    },
+    {
+      "id": "FC14",
+      "bookNumber": 2,
+      "category": "Perfil",
+      "term": "Persuasivo",
+      "definition": "Capacidad de convencer sin dañar.",
+      "tacticalUse": "Negociación ética.",
+      "countermeasure": "Evaluación de intenciones."
+    },
+    {
+      "id": "FC15",
+      "bookNumber": 4,
+      "category": "Análisis",
+      "term": "Microexpresiones",
+      "definition": "Gestos faciales breves que revelan emociones.",
+      "tacticalUse": "Leer la verdad.",
+      "countermeasure": "Entrenamiento de observación."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Manipulación",
+      "name": "Gaslighting",
+      "severity": "Alta",
+      "icon": "🌫️",
+      "howItWorks": "Niega la realidad del sujeto sistemáticamente.",
+      "redFlags": "Dudas constantes sobre tu memoria.",
+      "counterScript": "Confío en mi percepción de los hechos.",
+      "deepMechanism": "Erosión de la identidad."
+    },
+    {
+      "id": "TM02",
+      "category": "Persuasión",
+      "name": "Escasez",
+      "severity": "Media",
+      "icon": "⏳",
+      "howItWorks": "Limita el tiempo o disponibilidad.",
+      "redFlags": "Presión por decidir ya.",
+      "counterScript": "Necesito tiempo para evaluar.",
+      "deepMechanism": "Miedo a la pérdida."
+    },
+    {
+      "id": "TM03",
+      "category": "Manipulación",
+      "name": "Triangulación",
+      "severity": "Alta",
+      "icon": "🔺",
+      "howItWorks": "Involucra a un tercero para generar inseguridad.",
+      "redFlags": "Comparaciones constantes.",
+      "counterScript": "Hablemos solo de nosotros dos.",
+      "deepMechanism": "Inseguridad relacional."
+    },
+    {
+      "id": "TM04",
+      "category": "Persuasión",
+      "name": "Reciprocidad",
+      "severity": "Baja",
+      "icon": "🤝",
+      "howItWorks": "Da algo pequeño para recibir algo grande.",
+      "redFlags": "Favores no solicitados.",
+      "counterScript": "Gracias, pero no puedo aceptarlo.",
+      "deepMechanism": "Deuda social."
+    },
+    {
+      "id": "TM05",
+      "category": "Manipulación",
+      "name": "Bombardeo de Amor",
+      "severity": "Alta",
+      "icon": "❤️",
+      "howItWorks": "Sobrecarga de afecto inicial.",
+      "redFlags": "Intensidad desproporcionada.",
+      "counterScript": "Prefiero ir más despacio.",
+      "deepMechanism": "Dependencia emocional."
+    },
+    {
+      "id": "TM06",
+      "category": "Persuasión",
+      "name": "Anclaje",
+      "severity": "Media",
+      "icon": "⚓",
+      "howItWorks": "Establece un punto de referencia alto.",
+      "redFlags": "Precios o exigencias extremas.",
+      "counterScript": "Mi presupuesto es X.",
+      "deepMechanism": "Sesgo cognitivo."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal de la psicología oscura?",
+      "options": [
+        "Ayudar a otros",
+        "Controlar y manipular",
+        "Mejorar la comunicación",
+        "Entender la historia"
+      ],
+      "correctIndex": 1,
+      "explanation": "La psicología oscura se centra en el uso de tácticas para influir o controlar a otros."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 2,
+      "question": "¿Qué es la triangulación?",
+      "options": [
+        "Un método de estudio",
+        "Involucrar a un tercero",
+        "Una técnica de venta",
+        "Un tipo de terapia"
+      ],
+      "correctIndex": 1,
+      "explanation": "La triangulación busca desestabilizar a una persona mediante la inclusión de un tercero."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 3,
+      "question": "¿Qué caracteriza a un manipulador?",
+      "options": [
+        "Empatía total",
+        "Búsqueda de beneficio propio",
+        "Honestidad radical",
+        "Altruismo"
+      ],
+      "correctIndex": 1,
+      "explanation": "El manipulador prioriza su beneficio sobre el bienestar ajeno."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 5,
+      "question": "¿Por qué funciona la escasez?",
+      "options": [
+        "Porque es barata",
+        "Porque genera miedo a perder",
+        "Porque es lógica",
+        "Porque es divertida"
+      ],
+      "correctIndex": 1,
+      "explanation": "La escasez activa el miedo a la pérdida, anulando la reflexión."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 6,
+      "question": "¿Qué es el gaslighting?",
+      "options": [
+        "Iluminar una habitación",
+        "Hacer dudar de la realidad",
+        "Un tipo de halago",
+        "Una técnica de negociación"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una forma de abuso psicológico donde se distorsiona la realidad del otro."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 4,
+      "question": "¿Por qué analizar a las personas?",
+      "options": [
+        "Para juzgarlas",
+        "Para entender sus intenciones",
+        "Para criticarlas",
+        "Para ignorarlas"
+      ],
+      "correctIndex": 1,
+      "explanation": "El análisis permite identificar intenciones y protegerse de manipulaciones."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Manipulación",
+      "category": "Psicología",
+      "definition": "Control ejercido sobre alguien.",
+      "practicalExample": "Hacer sentir culpa para obtener algo."
+    },
+    {
+      "id": "G02",
+      "term": "Persuasión",
+      "category": "Comunicación",
+      "definition": "Convencer mediante argumentos.",
+      "practicalExample": "Vender una idea con beneficios claros."
+    },
+    {
+      "id": "G03",
+      "term": "Gaslighting",
+      "category": "Psicología Oscura",
+      "definition": "Distorsión de la realidad.",
+      "practicalExample": "Decir 'eso nunca pasó'."
+    },
+    {
+      "id": "G04",
+      "term": "Triangulación",
+      "category": "Psicología Oscura",
+      "definition": "Uso de terceros.",
+      "practicalExample": "Comparar con un ex."
+    },
+    {
+      "id": "G05",
+      "term": "Anclaje",
+      "category": "Persuasión",
+      "definition": "Referencia inicial.",
+      "practicalExample": "Precio inicial alto."
+    },
+    {
+      "id": "G06",
+      "term": "Escasez",
+      "category": "Persuasión",
+      "definition": "Limitación artificial.",
+      "practicalExample": "Oferta por tiempo limitado."
+    },
+    {
+      "id": "G07",
+      "term": "Reciprocidad",
+      "category": "Persuasión",
+      "definition": "Devolver favores.",
+      "practicalExample": "Regalar algo pequeño."
+    },
+    {
+      "id": "G08",
+      "term": "Bombardeo de Amor",
+      "category": "Psicología Oscura",
+      "definition": "Exceso de afecto.",
+      "practicalExample": "Halagos constantes al inicio."
+    },
+    {
+      "id": "G09",
+      "term": "Proyección",
+      "category": "Psicología",
+      "definition": "Atribuir defectos propios.",
+      "practicalExample": "Llamar mentiroso al otro."
+    },
+    {
+      "id": "G10",
+      "term": "Maquiavelismo",
+      "category": "Psicología",
+      "definition": "Frialdad estratégica.",
+      "practicalExample": "Mentir para ascender."
+    },
+    {
+      "id": "G11",
+      "term": "Narcisismo",
+      "category": "Psicología",
+      "definition": "Ego desmedido.",
+      "practicalExample": "Exigir atención constante."
+    },
+    {
+      "id": "G12",
+      "term": "Microexpresiones",
+      "category": "Análisis",
+      "definition": "Gestos breves.",
+      "practicalExample": "Fruncir el ceño al mentir."
+    },
+    {
+      "id": "G13",
+      "term": "Lenguaje Corporal",
+      "category": "Análisis",
+      "definition": "Comunicación no verbal.",
+      "practicalExample": "Cruzar los brazos."
+    },
+    {
+      "id": "G14",
+      "term": "Coerción",
+      "category": "Psicología Oscura",
+      "definition": "Uso de la fuerza o amenaza.",
+      "practicalExample": "Amenazar con despedir."
+    },
+    {
+      "id": "G15",
+      "term": "Empatía",
+      "category": "Psicología",
+      "definition": "Capacidad de sentir al otro.",
+      "practicalExample": "Entender el dolor ajeno."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Detección",
+      "title": "Incongruencia Verbal",
+      "cue": "Decir 'sí' mientras se niega con la cabeza.",
+      "interpretation": "Duda o mentira.",
+      "practicalDrill": "Observa entrevistas y detecta el desfase."
+    },
+    {
+      "id": "BL02",
+      "category": "Defensa",
+      "title": "Barreras Físicas",
+      "cue": "Brazos cruzados o manos en bolsillos.",
+      "interpretation": "Defensividad o cierre.",
+      "practicalDrill": "Mantén postura abierta en reuniones."
+    },
+    {
+      "id": "BL03",
+      "category": "Detección",
+      "title": "Contacto Visual",
+      "cue": "Mirada fija excesiva o evasión total.",
+      "interpretation": "Intento de intimidación o culpa.",
+      "practicalDrill": "Practica mantener contacto natural."
+    },
+    {
+      "id": "BL04",
+      "category": "Detección",
+      "title": "Microexpresiones",
+      "cue": "Movimiento rápido de labios o cejas.",
+      "interpretation": "Emoción reprimida.",
+      "practicalDrill": "Mira videos en cámara lenta."
+    },
+    {
+      "id": "BL05",
+      "category": "Defensa",
+      "title": "Postura de Poder",
+      "cue": "Ocupar espacio, hombros atrás.",
+      "interpretation": "Seguridad y control.",
+      "practicalDrill": "Adopta postura erguida antes de negociar."
+    },
+    {
+      "id": "BL06",
+      "category": "Detección",
+      "title": "Gestos de Autoconsuelo",
+      "cue": "Tocar el cuello o la cara.",
+      "interpretation": "Ansiedad o estrés.",
+      "practicalDrill": "Identifica cuándo alguien se toca la cara al hablar."
     }
   ]
 };

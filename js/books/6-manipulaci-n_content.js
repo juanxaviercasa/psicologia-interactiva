@@ -1,3 +1,4 @@
+// Contenido enriquecido para Manipulación Mental: Secretos del Control Mental
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_3.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>--- MANIPULACIÓN MENTAL Descubra los secretos oscuros de la psicología del control mental para analizar, influir y manipular a las personas con técnicas de programación neurológica, hipnosis y lenguaje corporal. Incluye manipulación mental para principiantes, PNL y psicología oscura. Introducción 45 métodos de manipulación más compartidos empleados por los depredadores Un poco de otras 10 técnicas utilizadas por los manipuladores (junto con la forma de luchar contra ellos) Estrategias de manipulación: ¿por qué son realmente muy importantes para los vendedores? Persuasión vs. Manipulación Comportamientos y manipulación. Casos de manipuladores en segundo plano. Sociedad y control mental A continuación, se enumeran un par de procedimientos de control mental corporal de los que debe ser escéptico. Capítulo uno Técnicas FITD Comprender por qué las pruebas de guías de “trabajo de pie en la puerta” FITD funciona muy bien cuando: Cuando el pie en la puerta podría no funcionar La forma en que se aplicaba el pie en la puerta Así es como es posible utilizar FITD en los ingresos en línea. Donde se aplica el pie en la puerta Capítulo dos Técnicas DITF (conocidas como puerta en la cara) Capítulo tres Otras técnicas para tomar nota Las 6 mejores técnicas persuasivas que puedes usar para mejorar tu impacto ¿Cómo se utiliza la psicología para controlar y afectar a las personas en su vida cotidiana? Capítulo cuatro Manipulación en la relación Los enfoques del manipulador Algunas reglas básicas",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Introducción e Índice (Tratado Táctico)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/arte_manipulacion_metodos/artmet_m1_introduccion_indice.webp\" alt=\"Introducción e Índice (Tratado Táctico)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- MANIPULACIÓN MENTAL Descubra los secretos oscuros de la psicología del control mental para analizar, influir y manipular a las personas con técnicas de programación neurológica, hipnosis y lenguaje corporal. Incluye manipulación mental para principiantes, PNL y psicología oscura. Introducción 45 métodos de manipulación más compartidos empleados por los depredadores Un poco de otras 10 técnicas utilizadas por los manipuladores (junto con la forma de luchar contra ellos) Estrategias de manipulación: ¿por qué son realmente muy importantes para los vendedores? Persuasión vs. Manipulación Comportamientos y manipulación. Casos de manipuladores en segundo plano. Sociedad y control mental A continuación, se enumeran un par de procedimientos de control mental corporal de los que debe ser escéptico. Capítulo uno Técnicas FITD Comprender por qué las pruebas de guías de “trabajo de pie en la puerta” FITD funciona muy bien cuando: Cuando el pie en la puerta podría no funcionar La forma en que se aplicaba el pie en la puerta Así es como es posible utilizar FITD en los ingresos en línea. Donde se aplica el pie en la puerta Capítulo dos Técnicas DITF (conocidas como puerta en la cara) Capítulo tres Otras técnicas para tomar nota Las 6 mejores técnicas persuasivas que puedes usar para mejorar tu impacto ¿Cómo se utiliza la psicología para controlar y afectar a las personas en su vida cotidiana? Capítulo cuatro Manipulación en la relación Los enfoques del manipulador Algunas reglas básicas",
           "interactiveChallenge": {
             "question": "¿Cuál es el propósito principal declarado en la Introducción e Índice del libro para estructurar y categorizar estos métodos de manipulación?",
             "options": [
@@ -159,7 +160,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Hemos escuchado el arte de la explotación desde que éramos bebés. Si un bebé llora si su madre la acuesta, es un método de manipulación para recibir su camino. La manipulación está en el núcleo de cada individuo. Con el enorme conocimiento, nos hemos reunido hasta hoy en día y utilizando la creciente tecnología que hace que la información sea fácil de obtener, aprender la capacidad de persuadir a los demás está al alcance de la mano. Las técnicas de manipulación ahora son útiles con todo el aumento de la red. Muchos hombres y mujeres pueden examinar y examinar las opiniones y aventuras de todas esas personas en todo el mundo. Aprender técnicas de aplicación elevar su auto general. La comunicación y las habilidades de comunicación que son un componente importante en nuestra interacción y conexión individual pueden traer éxito a su individuo. Para aquellos que están pretendiendo estar familiarizado con la capacidad, pero en realidad no entienden cómo se aplica, obviamente comienzan siendo ineficaces. Por lo tanto, comprender los fundamentos sobre los cuales podría hacer o deshacer su propio plan es una estrategia importante, para empezar. Se utilizan varias técnicas cuando tiene que ver con la manipulación. Algunos individuos pueden usar algunos trucos sucios para controlar a otros. Incluso a cambio, también tendrían la dificultad de tener exactamente el karma idéntico que ejercen intencionalmente. Hay un par de métodos de manipulación que no implican gestos engañosos o engaños",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Introducción - El Arte de la Explotación\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/arte_manipulacion_metodos/artmet_m2_arte_explotacion.webp\" alt=\"Introducción - El Arte de la Explotación\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Hemos escuchado el arte de la explotación desde que éramos bebés. Si un bebé llora si su madre la acuesta, es un método de manipulación para recibir su camino. La manipulación está en el núcleo de cada individuo. Con el enorme conocimiento, nos hemos reunido hasta hoy en día y utilizando la creciente tecnología que hace que la información sea fácil de obtener, aprender la capacidad de persuadir a los demás está al alcance de la mano. Las técnicas de manipulación ahora son útiles con todo el aumento de la red. Muchos hombres y mujeres pueden examinar y examinar las opiniones y aventuras de todas esas personas en todo el mundo. Aprender técnicas de aplicación elevar su auto general. La comunicación y las habilidades de comunicación que son un componente importante en nuestra interacción y conexión individual pueden traer éxito a su individuo. Para aquellos que están pretendiendo estar familiarizado con la capacidad, pero en realidad no entienden cómo se aplica, obviamente comienzan siendo ineficaces. Por lo tanto, comprender los fundamentos sobre los cuales podría hacer o deshacer su propio plan es una estrategia importante, para empezar. Se utilizan varias técnicas cuando tiene que ver con la manipulación. Algunos individuos pueden usar algunos trucos sucios para controlar a otros. Incluso a cambio, también tendrían la dificultad de tener exactamente el karma idéntico que ejercen intencionalmente. Hay un par de métodos de manipulación que no implican gestos engañosos o engaños",
           "interactiveChallenge": {
             "question": "En el módulo 'El Arte De La Explotacion', ¿cómo se conceptualiza la vulnerabilidad del objetivo dentro de la dinámica de poder?",
             "options": [
@@ -253,7 +254,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "45 métodos de manipulación más compartidos empleados por los depredadores Los enfoques de manipulación son un instrumento frecuente que los psicópatas, sociópatas, narcisistas y otras variedades de depredadores utilizan para ejercer control sobre sus víctimas. La mayoría de nosotros utilizamos la manipulación en una determinada etapa de nuestras propias vidas, ya sea decir una pequeña mentira piadosa para escapar de una circunstancia o usar adulación para obtener lo que deseamos. Para muchas personas, sin embargo, emplear la manipulación es un método de vida, y también su primera arma en un arsenal de métodos para conquistar a sus víctimas. ¿Quién está en peligro en el depredador? Los depredadores utilizan una variedad de métodos de manipulación para restringir a sus víctimas, sin embargo, con frecuencia se dirigen a tipos particulares de personajes. Eso es sólo porque están interesados en estar en una posición para manipular fácilmente un n individual y vulnerabilidades especiales a alguien le dan a un uso indebido. Usted está más inclinado a la larga convertirse en una víctima de un depredador en caso de que no tienes - autoestima, son ingenuos, fácil de complacer, a continuación, una ausencia n asertivo nativa y tienen cero confianza en sí mismo. Aquí hay 20 de los métodos de manipulación más comunes: 1. Mentir. Los depredadores siempre mienten prácticamente todo en su propia vida. Lo hacen para maltratar a sus presas y confundirlas. Mentir es solo uno de los métodos de ma",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> 45 Métodos de Manipulación (Parte 1)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/arte_manipulacion_metodos/artmet_m3_45_metodos_p1.webp\" alt=\"45 Métodos de Manipulación (Parte 1)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>45 métodos de manipulación más compartidos empleados por los depredadores Los enfoques de manipulación son un instrumento frecuente que los psicópatas, sociópatas, narcisistas y otras variedades de depredadores utilizan para ejercer control sobre sus víctimas. La mayoría de nosotros utilizamos la manipulación en una determinada etapa de nuestras propias vidas, ya sea decir una pequeña mentira piadosa para escapar de una circunstancia o usar adulación para obtener lo que deseamos. Para muchas personas, sin embargo, emplear la manipulación es un método de vida, y también su primera arma en un arsenal de métodos para conquistar a sus víctimas. ¿Quién está en peligro en el depredador? Los depredadores utilizan una variedad de métodos de manipulación para restringir a sus víctimas, sin embargo, con frecuencia se dirigen a tipos particulares de personajes. Eso es sólo porque están interesados en estar en una posición para manipular fácilmente un n individual y vulnerabilidades especiales a alguien le dan a un uso indebido. Usted está más inclinado a la larga convertirse en una víctima de un depredador en caso de que no tienes - autoestima, son ingenuos, fácil de complacer, a continuación, una ausencia n asertivo nativa y tienen cero confianza en sí mismo. Aquí hay 20 de los métodos de manipulación más comunes: 1. Mentir. Los depredadores siempre mienten prácticamente todo en su propia vida. Lo hacen para maltratar a sus presas y confundirlas. Mentir es solo uno de los métodos de ma",
           "interactiveChallenge": {
             "question": "Dentro de '45 Metodos De Manipulacion Parte 1', ¿en qué consiste la técnica de la 'Triangulación'?",
             "options": [
@@ -463,7 +464,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "---Sonrisa afiliativa: presionar suavemente los labios y al mismo tiempo hacer pequeños hoyuelos en la cara del área de la boca. Signo de gusto y amistad.Sonrisa de dominio: el brillo del labio superior aumenta y los labios se empujan hacia arriba, la nariz se hincha, la hendidura entre la boca y la nariz se profundiza y aumenta los párpados superiores.26. No huyas de una pequeña discusión.Tal vez te sientas incómodo con una pequeña charla. Pero, podría proporcionarle la capacidad de acostumbrarse al otro individuo.Las pequeñas charlas lo ayudarán a descubrir cómo alguien se comporta en escenarios comunes. Después de eso, puede utilizarlo como referencia para identificar con precisión cualquier comportamiento que provenga del estándar.27. Escanee el comportamiento total de la persona.A veces suponemos que cuando se completa una actividad específica, por ejemplo, mirar un piso en un diálogo, esto indica que el hombre o la mujer están ansiosos o nerviosos.Sin embargo, si ya está bien informado sobre un individuo, aprenderá si el individuo evita el contacto visual solo es relajante si se parece a un piso.Basado en LaRae Quy, un ex agente de contrainteligencia para el FBI, \"las personas tienen varias peculiaridades y patrones de comportamiento\", además de algunos de estos comportamientos \"solo podrían ser gestos\".Esto es exactamente por qué ayudarlo a hacer una puntuación del comportamiento ordinario de los demás.Descubra detectar cualquier desviación en el comportamiento habitua",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> 45 Métodos de Manipulación (Parte 2 - Urgencia)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/arte_manipulacion_metodos/artmet_m4_45_metodos_p2.webp\" alt=\"45 Métodos de Manipulación (Parte 2 - Urgencia)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>---Sonrisa afiliativa: presionar suavemente los labios y al mismo tiempo hacer pequeños hoyuelos en la cara del área de la boca. Signo de gusto y amistad.Sonrisa de dominio: el brillo del labio superior aumenta y los labios se empujan hacia arriba, la nariz se hincha, la hendidura entre la boca y la nariz se profundiza y aumenta los párpados superiores.26. No huyas de una pequeña discusión.Tal vez te sientas incómodo con una pequeña charla. Pero, podría proporcionarle la capacidad de acostumbrarse al otro individuo.Las pequeñas charlas lo ayudarán a descubrir cómo alguien se comporta en escenarios comunes. Después de eso, puede utilizarlo como referencia para identificar con precisión cualquier comportamiento que provenga del estándar.27. Escanee el comportamiento total de la persona.A veces suponemos que cuando se completa una actividad específica, por ejemplo, mirar un piso en un diálogo, esto indica que el hombre o la mujer están ansiosos o nerviosos.Sin embargo, si ya está bien informado sobre un individuo, aprenderá si el individuo evita el contacto visual solo es relajante si se parece a un piso.Basado en LaRae Quy, un ex agente de contrainteligencia para el FBI, \"las personas tienen varias peculiaridades y patrones de comportamiento\", además de algunos de estos comportamientos \"solo podrían ser gestos\".Esto es exactamente por qué ayudarlo a hacer una puntuación del comportamiento ordinario de los demás.Descubra detectar cualquier desviación en el comportamiento habitua",
           "interactiveChallenge": {
             "question": "En '45 Metodos De Manipulacion Parte 2', ¿cómo opera el método de 'Mover los Postes de la Portería' (Moving the Goalposts)?",
             "options": [
@@ -731,7 +732,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- ¿Cuáles serán los comportamientos de los individuos cuando estén relajados? Poniéndolo en conjunto Como siempre, las sugerencias de LaRae me hacen creer. Como ella admite, requiere algo de tiempo entender para aprender bien a las personas. Y no hace falta decir que hay excepciones a cada regla. Pero mantener esos principios en mente mientras desarrolla sus propios poderes de monitoreo aumentará en gran medida su capacidad para explorar a los demás, comprender su pensamiento y hablar sin esfuerzo. 46. Ignorar el contexto: Los brazos cruzados no significan incluso cuando la habitación aún está fría o incluso el asiento donde están sentados no tiene reposabrazos. Todo lo necesario para pasar la evaluación de sentido frecuente dado que el medio ambiente. Por lo tanto, piense: \"¿Si alguien en este ejemplo está actuando así?\" 47. Tal vez no intente encontrar clústeres: Uno de los errores más grandes que crea es la búsqueda de un solo aviso. Eso es increíble en las películas para jugadores de póker, en realidad es realmente un grupo frecuente de actividades (transpiración, tocar la superficie, también tartamudear) que te explicará algo. Por lo tanto, preguntarse a sí mismo: \"¿Son casi todos los comportamientos de los individuos vinculados con X”? 48. Quizás no obtenga una línea de base: Cuando alguien está constantemente nervioso, la nerviosidad no le dirá nada de eso. Si alguien está constantemente sobrevendido y, por lo tanto, inesperadamente dejan de moverse, HOLA. Por lo tan",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> 45 Métodos de Manipulación (Parte 3 - Frío y Calor)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/arte_manipulacion_metodos/artmet_m5_45_metodos_p3.webp\" alt=\"45 Métodos de Manipulación (Parte 3 - Frío y Calor)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- ¿Cuáles serán los comportamientos de los individuos cuando estén relajados? Poniéndolo en conjunto Como siempre, las sugerencias de LaRae me hacen creer. Como ella admite, requiere algo de tiempo entender para aprender bien a las personas. Y no hace falta decir que hay excepciones a cada regla. Pero mantener esos principios en mente mientras desarrolla sus propios poderes de monitoreo aumentará en gran medida su capacidad para explorar a los demás, comprender su pensamiento y hablar sin esfuerzo. 46. Ignorar el contexto: Los brazos cruzados no significan incluso cuando la habitación aún está fría o incluso el asiento donde están sentados no tiene reposabrazos. Todo lo necesario para pasar la evaluación de sentido frecuente dado que el medio ambiente. Por lo tanto, piense: \"¿Si alguien en este ejemplo está actuando así?\" 47. Tal vez no intente encontrar clústeres: Uno de los errores más grandes que crea es la búsqueda de un solo aviso. Eso es increíble en las películas para jugadores de póker, en realidad es realmente un grupo frecuente de actividades (transpiración, tocar la superficie, también tartamudear) que te explicará algo. Por lo tanto, preguntarse a sí mismo: \"¿Son casi todos los comportamientos de los individuos vinculados con X”? 48. Quizás no obtenga una línea de base: Cuando alguien está constantemente nervioso, la nerviosidad no le dirá nada de eso. Si alguien está constantemente sobrevendido y, por lo tanto, inesperadamente dejan de moverse, HOLA. Por lo tan",
           "interactiveChallenge": {
             "question": "En '45 Metodos De Manipulacion Parte 3', ¿cuál es el núcleo estratégico de la 'Incompetencia Táctica o Instrumental'?",
             "options": [
@@ -999,7 +1000,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Estrategias de manipulación: ¿por qué son realmente muy importantes para los vendedores? Hemos sido motivados por los líderes de ganancias de los años anteriores que conocemos como profesionales de ganancias. A través de las estrategias de ventas estándar, han alcanzado considerablemente, y que estos métodos son nuestros testimonios. Sin embargo, la verdad es que las estrategias de manipulación extraen su origen de los métodos de venta estándar. Primero, es imperativo ser consciente de cuáles son los métodos psicológicos de manipulación. En segundo lugar, teniendo en cuenta estos factores, también es muy importante prevenirlos, ya que es un delito utilizar métodos manipuladores para ambos prospectos. Estrategia de ingresos tradicional versus moderna. Gran parte del cambio en el comportamiento de compra del cliente debido a la globalización, por ejemplo, los clientes adjuntan valores a la conexión. Los clientes potenciales desean comprar opciones para el uso presente y futuro, luego los vendedores manipuladores se comportan como si descontaran el principio contemporáneo. Por lo tanto, el estrés de vender independientemente vincula a los vendedores con los métodos de cierre convencionales y contemporáneos. Junto con también la parte confusa aquí es si utilizar ambas estrategias de venta o seleccionar una sobre otra. No todas las ventas convencionales STRATEG y son a la baja, pero la parte fundamental es la auto-disposición de identificar cuáles son los requisitos. Persuasió",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Estrategias de Manipulación vs Persuasión\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/arte_manipulacion_metodos/artmet_m6_estrategias_persuasion_vs_manipulacion.webp\" alt=\"Estrategias de Manipulación vs Persuasión\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Estrategias de manipulación: ¿por qué son realmente muy importantes para los vendedores? Hemos sido motivados por los líderes de ganancias de los años anteriores que conocemos como profesionales de ganancias. A través de las estrategias de ventas estándar, han alcanzado considerablemente, y que estos métodos son nuestros testimonios. Sin embargo, la verdad es que las estrategias de manipulación extraen su origen de los métodos de venta estándar. Primero, es imperativo ser consciente de cuáles son los métodos psicológicos de manipulación. En segundo lugar, teniendo en cuenta estos factores, también es muy importante prevenirlos, ya que es un delito utilizar métodos manipuladores para ambos prospectos. Estrategia de ingresos tradicional versus moderna. Gran parte del cambio en el comportamiento de compra del cliente debido a la globalización, por ejemplo, los clientes adjuntan valores a la conexión. Los clientes potenciales desean comprar opciones para el uso presente y futuro, luego los vendedores manipuladores se comportan como si descontaran el principio contemporáneo. Por lo tanto, el estrés de vender independientemente vincula a los vendedores con los métodos de cierre convencionales y contemporáneos. Junto con también la parte confusa aquí es si utilizar ambas estrategias de venta o seleccionar una sobre otra. No todas las ventas convencionales STRATEG y son a la baja, pero la parte fundamental es la auto-disposición de identificar cuáles son los requisitos. Persuasió",
           "interactiveChallenge": {
             "question": "En el módulo 'Estrategias De Manipulacion Y Persuasion Vs Manipulacion', ¿cuál es la línea divisoria clave entre ambos conceptos?",
             "options": [
@@ -1296,7 +1297,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Si bien los esfuerzos para controlar el comportamiento humano son viejos, es solo recientemente que los científicos han comenzado a estudiar métodos por los cuales ocurre una manipulación efectiva. La investigación sobre el control del comportamiento a través de la privación sensorial, el condicionamiento y la amabilidad es estándar de lo que realizan los psicólogos interesados en la manipulación del comportamiento. A la luz del estudio, los científicos, especialmente las personas que son cristianas, deben enfrentar varias preguntas que son pertinentes. ¿Se puede manipular realmente el comportamiento? ¿Conoces los riesgos de la capacidad del hombre para controlar y controlar? ¿El odio impide que las personas deshonestas utilicen este conocimiento para su beneficio personal? ¿Usamos esos métodos de explotación de la iglesia? Este documento proporciona algunas respuestas provisionales a esas consultas. El correo electrónico contemporáneo es un tipo controlado. Aunque debido a la libertad individual, su comportamiento y pensamiento serán controlados, a veces sutilmente, por anunciantes, líderes políticos, funcionarios gubernamentales y líderes militares, asesores, empleadores, predicadores, medios de información, normas sociales y progreso financiero en el planeta. Publicar hogares e investigar organizaciones de financiación controlan al autor y al investigador en su propio trabajo. Los padres controlan a sus hijos, y los niños pronto se vuelven competentes para restringir a",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Comportamientos y Manipulación\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/arte_manipulacion_metodos/artmet_m7_comportamientos_manipulacion.webp\" alt=\"Comportamientos y Manipulación\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Si bien los esfuerzos para controlar el comportamiento humano son viejos, es solo recientemente que los científicos han comenzado a estudiar métodos por los cuales ocurre una manipulación efectiva. La investigación sobre el control del comportamiento a través de la privación sensorial, el condicionamiento y la amabilidad es estándar de lo que realizan los psicólogos interesados en la manipulación del comportamiento. A la luz del estudio, los científicos, especialmente las personas que son cristianas, deben enfrentar varias preguntas que son pertinentes. ¿Se puede manipular realmente el comportamiento? ¿Conoces los riesgos de la capacidad del hombre para controlar y controlar? ¿El odio impide que las personas deshonestas utilicen este conocimiento para su beneficio personal? ¿Usamos esos métodos de explotación de la iglesia? Este documento proporciona algunas respuestas provisionales a esas consultas. El correo electrónico contemporáneo es un tipo controlado. Aunque debido a la libertad individual, su comportamiento y pensamiento serán controlados, a veces sutilmente, por anunciantes, líderes políticos, funcionarios gubernamentales y líderes militares, asesores, empleadores, predicadores, medios de información, normas sociales y progreso financiero en el planeta. Publicar hogares e investigar organizaciones de financiación controlan al autor y al investigador en su propio trabajo. Los padres controlan a sus hijos, y los niños pronto se vuelven competentes para restringir a",
           "interactiveChallenge": {
             "question": "En 'Comportamientos Y Manipulacion', ¿qué patrón conductual revela que un sujeto tiene un 'Locus de Control Externo' explotable?",
             "options": [
@@ -1593,7 +1594,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Casos de manipuladores en segundo plano. 1. Madalyn Murray de pelo Lo que Walter Martin fue para el cristianismo, este activista de temperamento feroz y constantemente extraño fuera de Pittsburgh ha sido al ateísmo. Un personaje mordaz que apreciaba una pelea fantástica si ella organizaba una, particularmente contraria a cualquier cristiano con el que se pusiera en contacto, su cabello se convirtió en una de sus mujeres más odiadas en los EE. UU. en las universidades públicas. (En realidad, O'House estuvo entre los muchos demandantes que registraron desafíos similares en este momento; el suyo aparentemente solo fue el primero en llegar antes del expediente). Se convirtió en su sorprendente e inesperada popularidad como consecuencia de este todavía polémico 1963. La decisión de una plataforma de lanzamiento para crearse entre los defensores más fervientes de esta separación del estado y la iglesia junto con los mejores enemigos de la fe en estos días. Abrasiva tanto en privado como en público, con opiniones que la ponen en desacuerdo con casi todo el mundo, lo que la dejó no contenciosa pero, a los ojos de la mayoría de las personas, tan perversa también fueron sus comentarios en relación con la novedad (a modo de ejemplo, ella se llamó sensual \"libertaria\" que pronunció experimentación sexual por niños de tan solo doce años). Aunque esto puede haber sido un problema para la mayoría de las personas, a ella realmente parecía gustarle la notoriedad que la atraía (a pesar de que",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Casos de Manipuladores en Segundo Plano\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/arte_manipulacion_metodos/artmet_m8_manipuladores_segundo_plano.webp\" alt=\"Casos de Manipuladores en Segundo Plano\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Casos de manipuladores en segundo plano. 1. Madalyn Murray de pelo Lo que Walter Martin fue para el cristianismo, este activista de temperamento feroz y constantemente extraño fuera de Pittsburgh ha sido al ateísmo. Un personaje mordaz que apreciaba una pelea fantástica si ella organizaba una, particularmente contraria a cualquier cristiano con el que se pusiera en contacto, su cabello se convirtió en una de sus mujeres más odiadas en los EE. UU. en las universidades públicas. (En realidad, O'House estuvo entre los muchos demandantes que registraron desafíos similares en este momento; el suyo aparentemente solo fue el primero en llegar antes del expediente). Se convirtió en su sorprendente e inesperada popularidad como consecuencia de este todavía polémico 1963. La decisión de una plataforma de lanzamiento para crearse entre los defensores más fervientes de esta separación del estado y la iglesia junto con los mejores enemigos de la fe en estos días. Abrasiva tanto en privado como en público, con opiniones que la ponen en desacuerdo con casi todo el mundo, lo que la dejó no contenciosa pero, a los ojos de la mayoría de las personas, tan perversa también fueron sus comentarios en relación con la novedad (a modo de ejemplo, ella se llamó sensual \"libertaria\" que pronunció experimentación sexual por niños de tan solo doce años). Aunque esto puede haber sido un problema para la mayoría de las personas, a ella realmente parecía gustarle la notoriedad que la atraía (a pesar de que",
           "interactiveChallenge": {
             "question": "En 'Casos De Manipuladores En Segundo Plano', ¿cómo opera el perfil del manipulador que actúa en las sombras (el titiritero)?",
             "options": [
@@ -1861,7 +1862,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- 1. Promoción y propaganda. El efecto de los medios sobre el público ha llevado a las autoridades a combinar fuerzas con grandes empresas. Los anunciantes usan mensajes subliminales para dirigir un mensaje idéntico en cualquier lugar donde pueda identificar si una persona comienza a escuchar. 2. Educación La instrucción es un instrumento primordial para controlar y controlar subliminalmente a las generaciones futuras. Los dictadores pueden usar el método educativo para ralentizar intencionalmente a sus ciudadanos y hacerlos sumisos para frenar. 3. Deportes, fe y política. Aunque los temas del deporte, la fe y la política como enfoques de control mental podrían ser insultantes para algunos, es difícil negar que esos 3 temas se emplean para funciones de control mental. El deporte se utiliza para desviarse de ocasiones de verdadero significado. La religión es generalmente una parte de la lógica detrás de cada guerra. La política sería el secreto de la opresión controlada. Estas 3 formas de control mental pueden pasarse por alto, pero están ahí. 4. Programación predictiva. Sin embargo, algunos rechazan esa programación predictiva. Incluso existe, pero si inspecciona la documentación reunida por Alan Watt, entonces puede ser difícil llegar a otra decisión. Eche un vistazo a las novelas y películas que generalmente consideraría exageradas, y luego examínelas hoy. Si inspecciona la prueba de la programación predictiva, entonces el llamado \"entretenimiento\" se convertirá en un pro",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Sociedad y Control Mental\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/arte_manipulacion_metodos/artmet_m9_sociedad_control_mental.webp\" alt=\"Sociedad y Control Mental\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- 1. Promoción y propaganda. El efecto de los medios sobre el público ha llevado a las autoridades a combinar fuerzas con grandes empresas. Los anunciantes usan mensajes subliminales para dirigir un mensaje idéntico en cualquier lugar donde pueda identificar si una persona comienza a escuchar. 2. Educación La instrucción es un instrumento primordial para controlar y controlar subliminalmente a las generaciones futuras. Los dictadores pueden usar el método educativo para ralentizar intencionalmente a sus ciudadanos y hacerlos sumisos para frenar. 3. Deportes, fe y política. Aunque los temas del deporte, la fe y la política como enfoques de control mental podrían ser insultantes para algunos, es difícil negar que esos 3 temas se emplean para funciones de control mental. El deporte se utiliza para desviarse de ocasiones de verdadero significado. La religión es generalmente una parte de la lógica detrás de cada guerra. La política sería el secreto de la opresión controlada. Estas 3 formas de control mental pueden pasarse por alto, pero están ahí. 4. Programación predictiva. Sin embargo, algunos rechazan esa programación predictiva. Incluso existe, pero si inspecciona la documentación reunida por Alan Watt, entonces puede ser difícil llegar a otra decisión. Eche un vistazo a las novelas y películas que generalmente consideraría exageradas, y luego examínelas hoy. Si inspecciona la prueba de la programación predictiva, entonces el llamado \"entretenimiento\" se convertirá en un pro",
           "interactiveChallenge": {
             "question": "En el módulo 'Sociedad Y Control Mental', ¿cuál es el objetivo del uso sistemático del sesgo de 'Disonancia Cognitiva' a gran escala?",
             "options": [
@@ -2129,7 +2130,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- simple que negarla arriesgando una confrontación. Al otorgar la petición, creemos que hemos hecho un favor para obtener al hombre o la mujer que creó la petición, lo que da como resultado la autopercepción de que somos caritativos. Cuando se crea la petición más grande, nos sentimos presionados a cumplir con esto, incluso si no es el juicio más lógico. Los temas establecidos en un escenario de pie en la puerta eran propensos a dar su consentimiento a una petición mayor si no hubieran sido compensados por la primera petición, en comparación con un grupo pagado, lo que fomenta esta noción de autopercepción. Además, tendemos a estar de acuerdo con las preguntas más grandes del segundo pie en la puerta para exhibir un comportamiento que sea consistente con esta percepción favorable de estos. Esto debería comportarse de manera consistente con el comportamiento pasado se evidencia en un experimento en el que un equipo de participantes recibió preguntas sobre sus creencias espirituales. Las personas a quienes se les ha recordado los comportamientos anteriores relacionados con la religión antes de cuestionar las creencias informadas que eran consistentes con sus actividades anteriores, en comparación con un conjunto de control. Software Incluso si las experiencias con vendedores de puerta en puerta son un fenómeno más raro en comparación con la década de 1960 cuando se investigó inicialmente el procedimiento de \"pie en la puerta\", todavía es un proceso frecuente de persuasión, y",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Técnica FITD (Pie en la Puerta)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/arte_manipulacion_metodos/artmet_m10_fitd_pie_en_puerta.webp\" alt=\"Técnica FITD (Pie en la Puerta)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- simple que negarla arriesgando una confrontación. Al otorgar la petición, creemos que hemos hecho un favor para obtener al hombre o la mujer que creó la petición, lo que da como resultado la autopercepción de que somos caritativos. Cuando se crea la petición más grande, nos sentimos presionados a cumplir con esto, incluso si no es el juicio más lógico. Los temas establecidos en un escenario de pie en la puerta eran propensos a dar su consentimiento a una petición mayor si no hubieran sido compensados por la primera petición, en comparación con un grupo pagado, lo que fomenta esta noción de autopercepción. Además, tendemos a estar de acuerdo con las preguntas más grandes del segundo pie en la puerta para exhibir un comportamiento que sea consistente con esta percepción favorable de estos. Esto debería comportarse de manera consistente con el comportamiento pasado se evidencia en un experimento en el que un equipo de participantes recibió preguntas sobre sus creencias espirituales. Las personas a quienes se les ha recordado los comportamientos anteriores relacionados con la religión antes de cuestionar las creencias informadas que eran consistentes con sus actividades anteriores, en comparación con un conjunto de control. Software Incluso si las experiencias con vendedores de puerta en puerta son un fenómeno más raro en comparación con la década de 1960 cuando se investigó inicialmente el procedimiento de \"pie en la puerta\", todavía es un proceso frecuente de persuasión, y",
           "interactiveChallenge": {
             "question": "En el 'Capitulo 1 Tecnicas Fitd Pie En La Puerta', ¿cuál es el principio psicológico que garantiza que una persona acceda a una petición grande tras haber aceptado una pequeña?",
             "options": [
@@ -2484,7 +2485,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "El persuasor intenta convencer al entrevistado para que honre presentando una petición masiva de que el encuestado probablemente rechazará, similar a un golpe metafórico de un portazo en la cara del persuasor. El demandado está más inclinado a aceptar otra petición más realista que si la solicitud idéntica exacta se crea de forma aislada. El método DITF podría compararse con todos los procedimientos de \"pie en la puerta\", donde un persuasor comienza con una pequeña solicitud y aumenta lentamente los requisitos de cada petición. Tanto el enfoque de campo como el de DITF aumentan la probabilidad de que un demandado consienta en la próxima petición. Un olor desde la cara es un enfoque persuasivo basado en pedir originalmente una solicitud en exceso y reducirla. El método de esta puerta desde la cara se puede llamar DITF o rechazo después de la retirada. La estrategia de la puerta en la cara es comúnmente empleada tanto por los medios como por los políticos, vendedores y compradores. Consiste en crear una primera petición excesiva (o anuncio en el caso de una prensa) que es muy probable que no sea aceptada. Luego, la petición se reduce a un razonable para encontrar un \"sí \". Puerta en la cara (DITF): rechazo conquista XX un n sea un trato real. DITF funciona al obtener un no por la petición irrazonable y luego convertirse en un sí a la siguiente, lo que parece ser muy razonable en comparación con el original. Los empresarios manipuladores utilizan esto al proporcionar un trato a",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Técnica DITF (Puerta en la Cara)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/arte_manipulacion_metodos/artmet_m11_ditf_puerta_en_cara.webp\" alt=\"Técnica DITF (Puerta en la Cara)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>El persuasor intenta convencer al entrevistado para que honre presentando una petición masiva de que el encuestado probablemente rechazará, similar a un golpe metafórico de un portazo en la cara del persuasor. El demandado está más inclinado a aceptar otra petición más realista que si la solicitud idéntica exacta se crea de forma aislada. El método DITF podría compararse con todos los procedimientos de \"pie en la puerta\", donde un persuasor comienza con una pequeña solicitud y aumenta lentamente los requisitos de cada petición. Tanto el enfoque de campo como el de DITF aumentan la probabilidad de que un demandado consienta en la próxima petición. Un olor desde la cara es un enfoque persuasivo basado en pedir originalmente una solicitud en exceso y reducirla. El método de esta puerta desde la cara se puede llamar DITF o rechazo después de la retirada. La estrategia de la puerta en la cara es comúnmente empleada tanto por los medios como por los políticos, vendedores y compradores. Consiste en crear una primera petición excesiva (o anuncio en el caso de una prensa) que es muy probable que no sea aceptada. Luego, la petición se reduce a un razonable para encontrar un \"sí \". Puerta en la cara (DITF): rechazo conquista XX un n sea un trato real. DITF funciona al obtener un no por la petición irrazonable y luego convertirse en un sí a la siguiente, lo que parece ser muy razonable en comparación con el original. Los empresarios manipuladores utilizan esto al proporcionar un trato a",
           "interactiveChallenge": {
             "question": "En el 'Capitulo 2 Tecnicas Ditf Puerta En La Cara', ¿qué fenómeno psicológico explica el éxito de esta técnica basada en el rechazo inicial?",
             "options": [
@@ -2636,7 +2637,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo tres Otras técnicas para tomar nota Hay un mar de diferencia entre persuasión y manipulación. La persuasión es la ciencia y el arte de influenciar a alguien para que influya favorablemente hacia un resultado útil, para el individuo afectado. La manipulación, por otro lado, es un engaño, frecuentemente oculto como un dominio hábil. Naturalmente, se están celebrando algunos seminarios en la mayoría de las áreas de la India. Algunas de estas conferencias tienen varios oradores que se presentan en el escenario durante aproximadamente una hora y, en conclusión, presentan su propia oferta. Normalmente, otro artículo, conferencia o incluso un programa de continuidad a un precio mayor. Tales ocasiones de múltiples hablantes, frecuentemente disfrazadas de convenciones, se denominan \"fiestas de tono\". Obviamente, hay emprendedores reales que ofrecen suministros muy útiles y valiosos, pero además, hay bastantes \" manipuladores maestros \" al acecho, que no tienen miedo de utilizar trucos mentales para ganar hombres y mujeres vulnerables. suministra mucho si no los desea y hace que cubran todos esos suministros con todo el dinero que no tienen. Hay especialmente 7 \"trucos\" tan excepcionalmente engañosos que algunos especialistas en marketing sin escrúpulos (y a menudo desesperados) usan para engañar a las personas para que compren sus cosas. En la teoría del comportamiento y la psicología, todos estos se denominan colectivamente \"preguntas secuenciales\". Algunas de las sugerencia",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Otras Técnicas y Persuasión\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/arte_manipulacion_metodos/artmet_m12_otras_tecnicas_persuasion.webp\" alt=\"Otras Técnicas y Persuasión\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo tres Otras técnicas para tomar nota Hay un mar de diferencia entre persuasión y manipulación. La persuasión es la ciencia y el arte de influenciar a alguien para que influya favorablemente hacia un resultado útil, para el individuo afectado. La manipulación, por otro lado, es un engaño, frecuentemente oculto como un dominio hábil. Naturalmente, se están celebrando algunos seminarios en la mayoría de las áreas de la India. Algunas de estas conferencias tienen varios oradores que se presentan en el escenario durante aproximadamente una hora y, en conclusión, presentan su propia oferta. Normalmente, otro artículo, conferencia o incluso un programa de continuidad a un precio mayor. Tales ocasiones de múltiples hablantes, frecuentemente disfrazadas de convenciones, se denominan \"fiestas de tono\". Obviamente, hay emprendedores reales que ofrecen suministros muy útiles y valiosos, pero además, hay bastantes \" manipuladores maestros \" al acecho, que no tienen miedo de utilizar trucos mentales para ganar hombres y mujeres vulnerables. suministra mucho si no los desea y hace que cubran todos esos suministros con todo el dinero que no tienen. Hay especialmente 7 \"trucos\" tan excepcionalmente engañosos que algunos especialistas en marketing sin escrúpulos (y a menudo desesperados) usan para engañar a las personas para que compren sus cosas. En la teoría del comportamiento y la psicología, todos estos se denominan colectivamente \"preguntas secuenciales\". Algunas de las sugerencia",
           "interactiveChallenge": {
             "question": "En el 'Capitulo 3 Otras Tecnicas Y Persuasion', ¿cómo se ejecuta la técnica del 'Amago' o 'Bola Baja' (Low-Ball Technique)?",
             "options": [
@@ -2875,7 +2876,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "dijeron que el gasto aumentó en un 12 por ciento. Pero cuando se les proporciona a los comensales un regalo personalizado de algo de comida, en este caso avena, su pago aumentó en un 24 por ciento. Gusto La adulación te lleva a cualquier parte. La mayoría de nosotros hacemos cosas para hombres y mujeres que disfrutamos (y que pensamos como personas). A pesar de que empleas la capacidad de disfrutar todo el tiempo junto con amigos, ¿cómo logras que alguien te quiera una vez que solo te conoces? La gente señala dos métodos que pueden hacer que la gente lo disfrute de inmediato: enfatizar las similitudes y proporcionar cumplidos. Puede resaltar las similitudes ajustando el tono o el lenguaje corporal de otro hombre, o simplemente descubriendo puntos en común, por ejemplo, intereses compartidos o ciudad natal compartida. Los cumplidos también hacen milagros. Notablemente de individuos que acabamos de conocer. En un análisis realizado en la calvicie debido a las propinas de los cumplidos, si los estilistas complementaran a los clientes con el término \" cualquier peinado se vería genial para ti\", sus pistas aumentaron en un 37 por ciento. Prueba social La evidencia social es un fuerte persuasor. ¿Alguna vez puede ver que cuando está comprando en línea, en amazon.com u otro sitio, echa un vistazo a las cosas más conocidas cuando decide hacer una compra? En caso de que lo haya hecho, está empleando el principio de evidencia social para afectar su elección. Las personas afirman que la",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Principios de Persuasión y Conclusión\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/arte_manipulacion_metodos/artmet_m13_principios_conclusion.webp\" alt=\"Principios de Persuasión y Conclusión\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>dijeron que el gasto aumentó en un 12 por ciento. Pero cuando se les proporciona a los comensales un regalo personalizado de algo de comida, en este caso avena, su pago aumentó en un 24 por ciento. Gusto La adulación te lleva a cualquier parte. La mayoría de nosotros hacemos cosas para hombres y mujeres que disfrutamos (y que pensamos como personas). A pesar de que empleas la capacidad de disfrutar todo el tiempo junto con amigos, ¿cómo logras que alguien te quiera una vez que solo te conoces? La gente señala dos métodos que pueden hacer que la gente lo disfrute de inmediato: enfatizar las similitudes y proporcionar cumplidos. Puede resaltar las similitudes ajustando el tono o el lenguaje corporal de otro hombre, o simplemente descubriendo puntos en común, por ejemplo, intereses compartidos o ciudad natal compartida. Los cumplidos también hacen milagros. Notablemente de individuos que acabamos de conocer. En un análisis realizado en la calvicie debido a las propinas de los cumplidos, si los estilistas complementaran a los clientes con el término \" cualquier peinado se vería genial para ti\", sus pistas aumentaron en un 37 por ciento. Prueba social La evidencia social es un fuerte persuasor. ¿Alguna vez puede ver que cuando está comprando en línea, en amazon.com u otro sitio, echa un vistazo a las cosas más conocidas cuando decide hacer una compra? En caso de que lo haya hecho, está empleando el principio de evidencia social para afectar su elección. Las personas afirman que la",
           "interactiveChallenge": {
             "question": "Según el módulo 'Principios De Persuasion Gestos Y Conclusion', ¿qué revela la microexpresión asimétrica unilateral de la comisura labial (desdén/desprecio) en una interacción persuasiva?",
             "options": [
@@ -3077,6 +3078,588 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS-001",
+      "category": "Foot-in-the-Door",
+      "title": "La pequeña petición",
+      "difficulty": "Easy",
+      "badge": "Novato",
+      "scenarioDescription": "Un colega te pide un favor insignificante. Sabes que es el inicio de una técnica FITD.",
+      "options": [
+        {
+          "text": "Aceptar el favor pequeño",
+          "outcome": "Vulnerable",
+          "wisdomScore": 20,
+          "analysis": "Al ceder, activas el compromiso de coherencia.",
+          "bookInsight": "El capítulo 1 detalla cómo el primer paso abre la puerta a peticiones mayores."
+        },
+        {
+          "text": "Rechazar cortésmente",
+          "outcome": "Seguro",
+          "wisdomScore": 90,
+          "analysis": "Mantienes tus límites intactos.",
+          "bookInsight": "La asertividad es el escudo contra la manipulación gradual."
+        }
+      ]
+    },
+    {
+      "id": "CS-002",
+      "category": "Persuasión",
+      "title": "El dilema del vendedor",
+      "difficulty": "Medium",
+      "badge": "Analista",
+      "scenarioDescription": "Un vendedor usa presión temporal para que compres un servicio.",
+      "options": [
+        {
+          "text": "Comprar bajo presión",
+          "outcome": "Manipulado",
+          "wisdomScore": 30,
+          "analysis": "La urgencia artificial es una técnica de control.",
+          "bookInsight": "La persuasión vs manipulación radica en la libertad de elección."
+        },
+        {
+          "text": "Pedir tiempo para pensar",
+          "outcome": "Empoderado",
+          "wisdomScore": 85,
+          "analysis": "Rompes el ciclo de urgencia.",
+          "bookInsight": "El control mental requiere que la víctima no piense racionalmente."
+        }
+      ]
+    },
+    {
+      "id": "CS-003",
+      "category": "Control Social",
+      "title": "La presión de grupo",
+      "difficulty": "Hard",
+      "badge": "Estratega",
+      "scenarioDescription": "Tus amigos insisten en una decisión que va contra tus valores.",
+      "options": [
+        {
+          "text": "Ceder para encajar",
+          "outcome": "Sometido",
+          "wisdomScore": 10,
+          "analysis": "La necesidad de pertenencia es usada en tu contra.",
+          "bookInsight": "La sociedad utiliza el control mental para estandarizar conductas."
+        },
+        {
+          "text": "Mantener tu postura",
+          "outcome": "Independiente",
+          "wisdomScore": 95,
+          "analysis": "La integridad es la mayor defensa.",
+          "bookInsight": "El individuo consciente es inmune a la manipulación masiva."
+        }
+      ]
+    },
+    {
+      "id": "CS-004",
+      "category": "Explotación",
+      "title": "El falso experto",
+      "difficulty": "Medium",
+      "badge": "Escéptico",
+      "scenarioDescription": "Alguien usa jerga técnica para convencerte de algo dudoso.",
+      "options": [
+        {
+          "text": "Creer ciegamente",
+          "outcome": "Engañado",
+          "wisdomScore": 25,
+          "analysis": "La autoridad percibida anula el juicio crítico.",
+          "bookInsight": "El arte de la explotación se basa en la asimetría de información."
+        },
+        {
+          "text": "Verificar las fuentes",
+          "outcome": "Protegido",
+          "wisdomScore": 90,
+          "analysis": "La validación externa rompe la ilusión.",
+          "bookInsight": "La información es el antídoto contra la manipulación."
+        }
+      ]
+    },
+    {
+      "id": "CS-005",
+      "category": "Comportamiento",
+      "title": "El manipulador emocional",
+      "difficulty": "Hard",
+      "badge": "Psicólogo",
+      "scenarioDescription": "Tu pareja usa la culpa para que hagas algo que no quieres.",
+      "options": [
+        {
+          "text": "Disculparte y ceder",
+          "outcome": "Víctima",
+          "wisdomScore": 15,
+          "analysis": "Refuerzas el comportamiento manipulador.",
+          "bookInsight": "Los comportamientos manipuladores se alimentan de la culpa."
+        },
+        {
+          "text": "Establecer un límite claro",
+          "outcome": "Resiliente",
+          "wisdomScore": 95,
+          "analysis": "Cortas el ciclo de manipulación emocional.",
+          "bookInsight": "La comunicación asertiva neutraliza la culpa."
+        }
+      ]
+    },
+    {
+      "id": "CS-006",
+      "category": "Estrategias",
+      "title": "El doble mensaje",
+      "difficulty": "Hard",
+      "badge": "Maestro",
+      "scenarioDescription": "Un superior te da instrucciones contradictorias para confundirte.",
+      "options": [
+        {
+          "text": "Intentar adivinar qué quiere",
+          "outcome": "Confundido",
+          "wisdomScore": 20,
+          "analysis": "La confusión es una herramienta de control.",
+          "bookInsight": "La ambigüedad es una técnica de manipulación avanzada."
+        },
+        {
+          "text": "Solicitar aclaración por escrito",
+          "outcome": "Seguro",
+          "wisdomScore": 95,
+          "analysis": "La documentación elimina la ambigüedad.",
+          "bookInsight": "La transparencia es el enemigo del manipulador."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC-01",
+      "bookNumber": 1,
+      "category": "Técnica",
+      "term": "FITD",
+      "definition": "Pie en la puerta",
+      "tacticalUse": "Lograr un sí grande tras un sí pequeño",
+      "countermeasure": "Identificar la escalada"
+    },
+    {
+      "id": "FC-02",
+      "bookNumber": 2,
+      "category": "Concepto",
+      "term": "Explotación",
+      "definition": "Uso de debilidades ajenas",
+      "tacticalUse": "Obtener beneficio personal",
+      "countermeasure": "Autoconocimiento"
+    },
+    {
+      "id": "FC-03",
+      "bookNumber": 3,
+      "category": "Técnica",
+      "term": "Gaslighting",
+      "definition": "Hacer dudar de la realidad",
+      "tacticalUse": "Controlar la percepción",
+      "countermeasure": "Diario de hechos"
+    },
+    {
+      "id": "FC-04",
+      "bookNumber": 4,
+      "category": "Técnica",
+      "term": "Love Bombing",
+      "definition": "Exceso de afecto inicial",
+      "tacticalUse": "Generar dependencia",
+      "countermeasure": "Ritmo lento"
+    },
+    {
+      "id": "FC-05",
+      "bookNumber": 5,
+      "category": "Técnica",
+      "term": "Triangulación",
+      "definition": "Involucrar a un tercero",
+      "tacticalUse": "Crear inseguridad",
+      "countermeasure": "Comunicación directa"
+    },
+    {
+      "id": "FC-06",
+      "bookNumber": 6,
+      "category": "Concepto",
+      "term": "Persuasión",
+      "definition": "Influencia ética",
+      "tacticalUse": "Convencer con lógica",
+      "countermeasure": "Análisis crítico"
+    },
+    {
+      "id": "FC-07",
+      "bookNumber": 7,
+      "category": "Técnica",
+      "term": "Proyección",
+      "definition": "Atribuir culpas propias",
+      "tacticalUse": "Evadir responsabilidad",
+      "countermeasure": "No internalizar"
+    },
+    {
+      "id": "FC-08",
+      "bookNumber": 8,
+      "category": "Concepto",
+      "term": "Control Mental",
+      "definition": "Anulación del juicio",
+      "tacticalUse": "Sometimiento total",
+      "countermeasure": "Pensamiento crítico"
+    },
+    {
+      "id": "FC-09",
+      "bookNumber": 9,
+      "category": "Técnica",
+      "term": "Aislamiento",
+      "definition": "Separar del entorno",
+      "tacticalUse": "Eliminar apoyos",
+      "countermeasure": "Mantener redes sociales"
+    },
+    {
+      "id": "FC-10",
+      "bookNumber": 10,
+      "category": "Técnica",
+      "term": "Cebo",
+      "definition": "Atraer con beneficios",
+      "tacticalUse": "Captación",
+      "countermeasure": "Evaluar el costo real"
+    },
+    {
+      "id": "FC-11",
+      "bookNumber": 11,
+      "category": "Concepto",
+      "term": "Disonancia",
+      "definition": "Conflicto de creencias",
+      "tacticalUse": "Forzar cambio de opinión",
+      "countermeasure": "Revisar valores"
+    },
+    {
+      "id": "FC-12",
+      "bookNumber": 12,
+      "category": "Técnica",
+      "term": "Silencio",
+      "definition": "Retirada de atención",
+      "tacticalUse": "Castigo emocional",
+      "countermeasure": "Indiferencia táctica"
+    },
+    {
+      "id": "FC-13",
+      "bookNumber": 13,
+      "category": "Concepto",
+      "term": "Autoridad",
+      "definition": "Poder percibido",
+      "tacticalUse": "Obediencia ciega",
+      "countermeasure": "Cuestionar el cargo"
+    },
+    {
+      "id": "FC-14",
+      "bookNumber": 14,
+      "category": "Técnica",
+      "term": "Miedo",
+      "definition": "Uso de amenazas",
+      "tacticalUse": "Parálisis",
+      "countermeasure": "Evaluar riesgos reales"
+    },
+    {
+      "id": "FC-15",
+      "bookNumber": 15,
+      "category": "Concepto",
+      "term": "Reciprocidad",
+      "definition": "Deuda moral",
+      "tacticalUse": "Forzar favores",
+      "countermeasure": "No aceptar regalos"
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM-01",
+      "category": "Psicología",
+      "name": "FITD",
+      "severity": "Baja",
+      "icon": "door",
+      "howItWorks": "Petición pequeña seguida de grande",
+      "redFlags": "Peticiones constantes",
+      "counterScript": "No puedo ayudarte con eso",
+      "deepMechanism": "Coherencia cognitiva"
+    },
+    {
+      "id": "TM-02",
+      "category": "Psicología",
+      "name": "Love Bombing",
+      "severity": "Alta",
+      "icon": "heart",
+      "howItWorks": "Sobrecarga de afecto",
+      "redFlags": "Intensidad inusual",
+      "counterScript": "Vamos más despacio",
+      "deepMechanism": "Dependencia dopaminérgica"
+    },
+    {
+      "id": "TM-03",
+      "category": "Psicología",
+      "name": "Gaslighting",
+      "severity": "Crítica",
+      "icon": "eye",
+      "howItWorks": "Negación de la realidad",
+      "redFlags": "Dudas sobre tu memoria",
+      "counterScript": "Yo recuerdo lo que pasó",
+      "deepMechanism": "Erosión de la identidad"
+    },
+    {
+      "id": "TM-04",
+      "category": "Psicología",
+      "name": "Triangulación",
+      "severity": "Media",
+      "icon": "triangle",
+      "howItWorks": "Uso de terceros",
+      "redFlags": "Comparaciones constantes",
+      "counterScript": "Hablemos solo nosotros",
+      "deepMechanism": "Inseguridad relacional"
+    },
+    {
+      "id": "TM-05",
+      "category": "Psicología",
+      "name": "Aislamiento",
+      "severity": "Crítica",
+      "icon": "lock",
+      "howItWorks": "Corte de lazos sociales",
+      "redFlags": "Críticas a amigos",
+      "counterScript": "Valoro mis amistades",
+      "deepMechanism": "Dependencia total"
+    },
+    {
+      "id": "TM-06",
+      "category": "Psicología",
+      "name": "Proyección",
+      "severity": "Media",
+      "icon": "mirror",
+      "howItWorks": "Culpar al otro",
+      "redFlags": "Acusaciones sin base",
+      "counterScript": "Eso es tu percepción",
+      "deepMechanism": "Mecanismo de defensa"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q-01",
+      "bookNumber": 1,
+      "question": "¿Qué es la técnica FITD?",
+      "options": [
+        "Pie en la puerta",
+        "Fuerza en la toma de decisiones",
+        "Falsa identidad"
+      ],
+      "correctIndex": 0,
+      "explanation": "FITD significa Foot-in-the-door."
+    },
+    {
+      "id": "Q-02",
+      "bookNumber": 2,
+      "question": "¿Cuál es el objetivo del Love Bombing?",
+      "options": [
+        "Generar miedo",
+        "Crear dependencia",
+        "Mejorar la comunicación"
+      ],
+      "correctIndex": 1,
+      "explanation": "Busca crear un vínculo de dependencia rápida."
+    },
+    {
+      "id": "Q-03",
+      "bookNumber": 3,
+      "question": "¿Cómo se combate el Gaslighting?",
+      "options": [
+        "Aceptando la culpa",
+        "Llevando un registro de hechos",
+        "Ignorando al otro"
+      ],
+      "correctIndex": 1,
+      "explanation": "El registro objetivo es la prueba contra la distorsión."
+    },
+    {
+      "id": "Q-04",
+      "bookNumber": 4,
+      "question": "¿Qué es la triangulación?",
+      "options": [
+        "Un triángulo amoroso",
+        "Involucrar a un tercero",
+        "Un método de venta"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se usa para desestabilizar a la víctima."
+    },
+    {
+      "id": "Q-05",
+      "bookNumber": 5,
+      "question": "¿Qué busca el aislamiento?",
+      "options": [
+        "Privacidad",
+        "Eliminar apoyos externos",
+        "Mejorar la concentración"
+      ],
+      "correctIndex": 1,
+      "explanation": "Al aislar, el manipulador se vuelve la única fuente de verdad."
+    },
+    {
+      "id": "Q-06",
+      "bookNumber": 6,
+      "question": "¿La persuasión es igual a manipulación?",
+      "options": [
+        "Sí",
+        "No, depende de la intención",
+        "Solo en ventas"
+      ],
+      "correctIndex": 1,
+      "explanation": "La persuasión respeta la autonomía, la manipulación no."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G-01",
+      "term": "Manipulación",
+      "category": "General",
+      "definition": "Control oculto",
+      "practicalExample": "Mentir para obtener algo"
+    },
+    {
+      "id": "G-02",
+      "term": "Persuasión",
+      "category": "General",
+      "definition": "Influencia ética",
+      "practicalExample": "Argumentar con datos"
+    },
+    {
+      "id": "G-03",
+      "term": "Disonancia",
+      "category": "Psicología",
+      "definition": "Conflicto mental",
+      "practicalExample": "Hacer algo que odias"
+    },
+    {
+      "id": "G-04",
+      "term": "Asertividad",
+      "category": "Defensa",
+      "definition": "Límites claros",
+      "practicalExample": "Decir no sin culpa"
+    },
+    {
+      "id": "G-05",
+      "term": "Sesgo",
+      "category": "Cognitivo",
+      "definition": "Error de juicio",
+      "practicalExample": "Creer en la autoridad"
+    },
+    {
+      "id": "G-06",
+      "term": "Coerción",
+      "category": "Control",
+      "definition": "Uso de fuerza",
+      "practicalExample": "Amenazas directas"
+    },
+    {
+      "id": "G-07",
+      "term": "Inducción",
+      "category": "Técnica",
+      "definition": "Guiar pensamientos",
+      "practicalExample": "Hacer preguntas dirigidas"
+    },
+    {
+      "id": "G-08",
+      "term": "Vulnerabilidad",
+      "category": "Psicología",
+      "definition": "Punto débil",
+      "practicalExample": "Necesidad de aprobación"
+    },
+    {
+      "id": "G-09",
+      "term": "Resiliencia",
+      "category": "Defensa",
+      "definition": "Capacidad de recuperación",
+      "practicalExample": "Superar un engaño"
+    },
+    {
+      "id": "G-10",
+      "term": "Empatía",
+      "category": "Social",
+      "definition": "Entender al otro",
+      "practicalExample": "Escucha activa"
+    },
+    {
+      "id": "G-11",
+      "term": "Sometimiento",
+      "category": "Control",
+      "definition": "Pérdida de voluntad",
+      "practicalExample": "Obediencia total"
+    },
+    {
+      "id": "G-12",
+      "term": "Estrategia",
+      "category": "Táctica",
+      "definition": "Plan de acción",
+      "practicalExample": "Preparar una respuesta"
+    },
+    {
+      "id": "G-13",
+      "term": "Percepción",
+      "category": "Cognitivo",
+      "definition": "Interpretación",
+      "practicalExample": "Ver lo que quieren"
+    },
+    {
+      "id": "G-14",
+      "term": "Integridad",
+      "category": "Defensa",
+      "definition": "Valores firmes",
+      "practicalExample": "No traicionarse"
+    },
+    {
+      "id": "G-15",
+      "term": "Validación",
+      "category": "Social",
+      "definition": "Confirmación",
+      "practicalExample": "Buscar apoyo externo"
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL-01",
+      "category": "Defensa",
+      "title": "Contacto visual",
+      "cue": "Mirada fija y prolongada",
+      "interpretation": "Intento de intimidación",
+      "practicalDrill": "Mantener mirada relajada"
+    },
+    {
+      "id": "BL-02",
+      "category": "Detección",
+      "title": "Microexpresiones",
+      "cue": "Desprecio fugaz",
+      "interpretation": "Superioridad oculta",
+      "practicalDrill": "Observar labios"
+    },
+    {
+      "id": "BL-03",
+      "category": "Defensa",
+      "title": "Postura",
+      "cue": "Invasión de espacio",
+      "interpretation": "Dominancia",
+      "practicalDrill": "Retroceder un paso"
+    },
+    {
+      "id": "BL-04",
+      "category": "Detección",
+      "title": "Gestos",
+      "cue": "Tocarse la nariz",
+      "interpretation": "Posible engaño",
+      "practicalDrill": "Analizar contexto"
+    },
+    {
+      "id": "BL-05",
+      "category": "Defensa",
+      "title": "Manos",
+      "cue": "Manos ocultas",
+      "interpretation": "Ocultamiento",
+      "practicalDrill": "Pedir ver las manos"
+    },
+    {
+      "id": "BL-06",
+      "category": "Detección",
+      "title": "Voz",
+      "cue": "Cambio de tono",
+      "interpretation": "Incomodidad",
+      "practicalDrill": "Escuchar pausas"
     }
   ]
 };

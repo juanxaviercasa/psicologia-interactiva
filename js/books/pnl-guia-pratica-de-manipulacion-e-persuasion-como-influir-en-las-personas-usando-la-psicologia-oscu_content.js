@@ -1,3 +1,4 @@
+// Contenido enriquecido para PNL: Guía Práctica de Manipulación y Persuasión
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_4.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>Copyright 2020 por el Doctor Claudio Artolozzi, todos los derechos reservados. El uso de este documento está sujeto a los siguientes términos y condiciones: la compra y utilización del documento implica la aceptación de todos los términos, condiciones y advertencias, sin excepción. No está permitido modificar, reutilizar, copiar, distribuir, transmitir, publicar, licenciar, crear obras derivadas, ceder o vender o utilizar de otro modo para cualquier fin comercial la información contenida en este libro, excepto en los casos previstos en estas Condiciones Generales o en las leyes vigentes en la materia. Esta limitación implica, entre otras cosas, la prohibición de duplicar las páginas de este documento en su sitio web o, en cualquier caso, de crear páginas que puedan inducir a error. Este libro tiene por objeto proporcionar información que el autor considera exacta sobre el tema tratado, pero se comercializa con la conciencia de que el autor no es médico y de que los ejercicios y metodologías utilizados en el libro no tienen por objeto sustituir ningún tipo de terapia o tratar trastornos. Descargo de responsabilidad El autor declina toda responsabilidad en caso de daños de cualquier naturaleza o mal uso de este libro. Todas las marcas comerciales y marcas en este libro son sólo para fines de aclaración y son propiedad de los mismos propietarios, no afiliadas a este documento. PNL: Guía práctica de Manipulación e Persuasión: cómo Influir en las Personas usando la Psicología Oscu",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Arquitectura Mental de la PNL\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/pnl_persuasion/pnl_m1_preliminares.webp\" alt=\"Arquitectura Mental de la PNL\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Copyright 2020 por el Doctor Claudio Artolozzi, todos los derechos reservados. El uso de este documento está sujeto a los siguientes términos y condiciones: la compra y utilización del documento implica la aceptación de todos los términos, condiciones y advertencias, sin excepción. No está permitido modificar, reutilizar, copiar, distribuir, transmitir, publicar, licenciar, crear obras derivadas, ceder o vender o utilizar de otro modo para cualquier fin comercial la información contenida en este libro, excepto en los casos previstos en estas Condiciones Generales o en las leyes vigentes en la materia. Esta limitación implica, entre otras cosas, la prohibición de duplicar las páginas de este documento en su sitio web o, en cualquier caso, de crear páginas que puedan inducir a error. Este libro tiene por objeto proporcionar información que el autor considera exacta sobre el tema tratado, pero se comercializa con la conciencia de que el autor no es médico y de que los ejercicios y metodologías utilizados en el libro no tienen por objeto sustituir ningún tipo de terapia o tratar trastornos. Descargo de responsabilidad El autor declina toda responsabilidad en caso de daños de cualquier naturaleza o mal uso de este libro. Todas las marcas comerciales y marcas en este libro son sólo para fines de aclaración y son propiedad de los mismos propietarios, no afiliadas a este documento. PNL: Guía práctica de Manipulación e Persuasión: cómo Influir en las Personas usando la Psicología Oscu",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la reciprocidad en el contexto de \"Preliminares E Indice\"?",
             "options": [
@@ -72,7 +73,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- INTRODUCCIÓN ¿Qué es la programación neurolingüística? ¿Alguna vez habéis deseado saber más sobre vosotros mismos y vuestras reales potencialidades? ¿Aprender a usar la comunicación de manera efectiva en cualquier situación que enfrentéis? ¿Crear relaciones profundas, íntimas y satisfactorias? ¿Conseguir vuestros objetivos? Hay técnicas que os pueden ayudar en este camino. Aquí comienza nuestro viaje hacia la comunicación, el PNL y los nuevos temas. Este libro está concebido como un verdadero Curso de Entrenamiento que permitirá acercaros cada vez más a este nuevo mundo. Este curso quiere guiaros para que aprendáis nuevas técnicas para mejorarte a vosotros mismos y a vuestra comunicación. Esta guía tiene como objetivo presentaros un conocimiento que pueda acompañaros para siempre, una experiencia personal para fortalecer vuestra mente lógica y emocional y aumentar vuestra conciencia comunicativa. Cada uno de nosotros merece lo mejor; y es importante que tomemos decisiones en este sentido. Lo extraordinario es que podemos elegir entre vivir real o simplemente existir dejándonos llevar por los acontecimientos. Las disciplinas aquí presentadas están diseñadas para ayudar a convertiros en la persona que siempre quisisteis ser y lograr vuestros objetivos sociales y comunicativos. ¡Feliz lectura! Todo lo que tienes que saber sobre la pnl comunicativa En la sigla PNL se hace hincapié en la relación entre la lingüística y las actitudes de comportamiento, es decir, en la forma en",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Fundamentos de la Programación Neurolingüística\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/pnl_persuasion/pnl_m2_que_es_pnl.webp\" alt=\"Fundamentos de la Programación Neurolingüística\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- INTRODUCCIÓN ¿Qué es la programación neurolingüística? ¿Alguna vez habéis deseado saber más sobre vosotros mismos y vuestras reales potencialidades? ¿Aprender a usar la comunicación de manera efectiva en cualquier situación que enfrentéis? ¿Crear relaciones profundas, íntimas y satisfactorias? ¿Conseguir vuestros objetivos? Hay técnicas que os pueden ayudar en este camino. Aquí comienza nuestro viaje hacia la comunicación, el PNL y los nuevos temas. Este libro está concebido como un verdadero Curso de Entrenamiento que permitirá acercaros cada vez más a este nuevo mundo. Este curso quiere guiaros para que aprendáis nuevas técnicas para mejorarte a vosotros mismos y a vuestra comunicación. Esta guía tiene como objetivo presentaros un conocimiento que pueda acompañaros para siempre, una experiencia personal para fortalecer vuestra mente lógica y emocional y aumentar vuestra conciencia comunicativa. Cada uno de nosotros merece lo mejor; y es importante que tomemos decisiones en este sentido. Lo extraordinario es que podemos elegir entre vivir real o simplemente existir dejándonos llevar por los acontecimientos. Las disciplinas aquí presentadas están diseñadas para ayudar a convertiros en la persona que siempre quisisteis ser y lograr vuestros objetivos sociales y comunicativos. ¡Feliz lectura! Todo lo que tienes que saber sobre la pnl comunicativa En la sigla PNL se hace hincapié en la relación entre la lingüística y las actitudes de comportamiento, es decir, en la forma en",
           "interactiveChallenge": {
             "question": "Ante una situación de la simpatía fabricada en el contexto de \"Introduccion Y Que Es La Pnl\"?",
             "options": [
@@ -456,7 +457,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- esa voz sea atractiva, incluso sexy. Este truco puede despojar a vuestra voz interior del poder de causar miedo y ansiedad, facilitando la realización de acciones que os dan miedo. Ese control también puede ser usado para derrotar la tristeza. La depresión en forma moderada no debe ser inevitable. Una forma de evitar que se tome el control es preguntarse: ¿Qué pensamientos pasan por mi mente y qué sucede en mi fisiología para crear la sensación de depresión? Ser conscientes de cómo se crean dentro de ti mismo las sensaciones más bajas y negativas puede ayudarte a recuperar el control sobre ellas. Los pensamientos negativos suelen desencadenar o acompañar a la depresión. Podéis considerar vosotros mismos como unos inútiles, feos o fracasados, o que os digáis cosas desalentadoras en tono triste con la cabeza gacha, por ejemplo. Prestando atención a estos pensamientos y sentimientos, podéis entender cuál de ellos desencadenan vuestra tristeza y atraparlos antes de os superen. Recordad a vosotros mismos que sois buena persona, hermosos, y no un fracaso, y tomad el control de vuestra voz interior. Con estas herramientas, descubriréis que tenéis el poder de aliviar vuestra depresión. Conseguir cualquier cosa a través del proceso de modelización en cinco fases ¿Alguna vez habéis admirado a alguien y habéis pensado, \"No hay manera de que pueda ser tan bueno en mi trabajo como ellos\"? Bueno, no te subestimes, hay formas concretas de lograr cualquier objetivo. Emulando las estrateg",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Calibración de Modelos Lingüísticos\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/pnl_persuasion/pnl_m3_modelos_linguisticos.webp\" alt=\"Calibración de Modelos Lingüísticos\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- esa voz sea atractiva, incluso sexy. Este truco puede despojar a vuestra voz interior del poder de causar miedo y ansiedad, facilitando la realización de acciones que os dan miedo. Ese control también puede ser usado para derrotar la tristeza. La depresión en forma moderada no debe ser inevitable. Una forma de evitar que se tome el control es preguntarse: ¿Qué pensamientos pasan por mi mente y qué sucede en mi fisiología para crear la sensación de depresión? Ser conscientes de cómo se crean dentro de ti mismo las sensaciones más bajas y negativas puede ayudarte a recuperar el control sobre ellas. Los pensamientos negativos suelen desencadenar o acompañar a la depresión. Podéis considerar vosotros mismos como unos inútiles, feos o fracasados, o que os digáis cosas desalentadoras en tono triste con la cabeza gacha, por ejemplo. Prestando atención a estos pensamientos y sentimientos, podéis entender cuál de ellos desencadenan vuestra tristeza y atraparlos antes de os superen. Recordad a vosotros mismos que sois buena persona, hermosos, y no un fracaso, y tomad el control de vuestra voz interior. Con estas herramientas, descubriréis que tenéis el poder de aliviar vuestra depresión. Conseguir cualquier cosa a través del proceso de modelización en cinco fases ¿Alguna vez habéis admirado a alguien y habéis pensado, \"No hay manera de que pueda ser tan bueno en mi trabajo como ellos\"? Bueno, no te subestimes, hay formas concretas de lograr cualquier objetivo. Emulando las estrateg",
           "interactiveChallenge": {
             "question": "El concepto central de la love bombing en el contexto de \"Modelos Linguisticos Y Comunicacion\"?",
             "options": [
@@ -898,7 +899,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- limitado de impulsos y necesidades humanas profundamente arraigadas, y lo hace de manera predecible. En otras palabras, la persuasión se rige por principios fundamentales que pueden ser enseñados, aprendidos y aplicados. Al dominar estos principios, los gerentes, comunicadores, comercializadores, o la gente común como nosotros, que queremos mejorar todas nuestras habilidades psicológicas, pueden aportar rigor científico a la actividad de obtener consensos, hacer tratos, obtener concesiones, persuadir e influir. En las siguientes páginas describo seis principios ABSOLUTOS y fundamentales de la persuasión y sugiero algunas formas en que nosotros, los meros mortales, podemos aplicarlos en las más diversas y variadas situaciones que surgen durante nuestras vidas. El principio del placer: A la gente le gustan los que muestran interés. La aplicación: Descubrir las verdaderas similitudes o notas comunes y ofrecer un verdadero elogio. El fenómeno de la venta al por menor conocido como la \"fiesta Tupperware\" es una ilustración vívida de este principio en acción. La fiesta de demostración de Tupperware es organizada por una persona, casi siempre una mujer, que invita a varios amigos, vecinos y parientes a su casa. El afecto de los invitados por su anfitriona les predispone a comprar de ella, una dinámica que fue confirmada por un estudio de 1990 sobre las decisiones de compra tomadas durante las fiestas de demostración. Los investigadores Jonathan Frenzen y Harry Davis, escribiendo",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Patrones Milton y Lenguaje Hipnótico\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/pnl_persuasion/pnl_m4_patrones_lenguaje.webp\" alt=\"Patrones Milton y Lenguaje Hipnótico\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- limitado de impulsos y necesidades humanas profundamente arraigadas, y lo hace de manera predecible. En otras palabras, la persuasión se rige por principios fundamentales que pueden ser enseñados, aprendidos y aplicados. Al dominar estos principios, los gerentes, comunicadores, comercializadores, o la gente común como nosotros, que queremos mejorar todas nuestras habilidades psicológicas, pueden aportar rigor científico a la actividad de obtener consensos, hacer tratos, obtener concesiones, persuadir e influir. En las siguientes páginas describo seis principios ABSOLUTOS y fundamentales de la persuasión y sugiero algunas formas en que nosotros, los meros mortales, podemos aplicarlos en las más diversas y variadas situaciones que surgen durante nuestras vidas. El principio del placer: A la gente le gustan los que muestran interés. La aplicación: Descubrir las verdaderas similitudes o notas comunes y ofrecer un verdadero elogio. El fenómeno de la venta al por menor conocido como la \"fiesta Tupperware\" es una ilustración vívida de este principio en acción. La fiesta de demostración de Tupperware es organizada por una persona, casi siempre una mujer, que invita a varios amigos, vecinos y parientes a su casa. El afecto de los invitados por su anfitriona les predispone a comprar de ella, una dinámica que fue confirmada por un estudio de 1990 sobre las decisiones de compra tomadas durante las fiestas de demostración. Los investigadores Jonathan Frenzen y Harry Davis, escribiendo",
           "interactiveChallenge": {
             "question": "¿Cómo reconoce un observador entrenado la lenguaje corporal dominante en el contexto de \"Patrones Del Lenguaje Y Estrategias\"?",
             "options": [
@@ -1601,7 +1602,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- INFLUENCIA Y PERSUASIÓN Aprovechar la ciencia de la persuasión Desafortunadamente, sólo unos pocos afortunados las tienen, la mayoría de nosotros no. Un puñado de \"naturistas\" innatos están dotados de ellas y simplemente saben cómo captar un público, influir en los indecisos y convertir a la oposición. Ver a estos maestros de la persuasión trabajando con su magia es a la vez impresionante y frustrante. Lo que es chocante no es sólo la simple manera en que usan el carisma y la elocuencia para convencer a otros de hacer lo que piden, sino también la manera en que otros están ansiosos de hacer lo que se les pide, como si la persuasión misma fuera un favor que no pueden esperar a devolver. La parte frustrante de la experiencia es que estos persuasores, a menudo son incapaces de darse cuenta de su notable capacidad o de transmitirla a otros. Su forma de tratar con la gente es un arte, y los artistas suelen ser mucho mejores en hacerlo que en explicarlo. La mayoría de ellos no pueden ofrecer mucha ayuda a aquellos de nosotros que no poseemos nada más que el cociente ordinario de carisma y elocuencia, pero aun así tenemos que luchar con el desafío fundamental del liderazgo: aprender, practicar y hacer las cosas a través de otros. Este desafío es dolorosamente familiar para los líderes empresariales, que deben entender cada día cómo motivar y dirigir una fuerza de trabajo altamente individualista. Jugar la carta de \"Por qué soy el jefe\" está fuera de discusión. Aunque no fuera hu",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Anclaje Subconsciente e Influencia\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/pnl_persuasion/pnl_m5_influencia_persuasion.webp\" alt=\"Anclaje Subconsciente e Influencia\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- INFLUENCIA Y PERSUASIÓN Aprovechar la ciencia de la persuasión Desafortunadamente, sólo unos pocos afortunados las tienen, la mayoría de nosotros no. Un puñado de \"naturistas\" innatos están dotados de ellas y simplemente saben cómo captar un público, influir en los indecisos y convertir a la oposición. Ver a estos maestros de la persuasión trabajando con su magia es a la vez impresionante y frustrante. Lo que es chocante no es sólo la simple manera en que usan el carisma y la elocuencia para convencer a otros de hacer lo que piden, sino también la manera en que otros están ansiosos de hacer lo que se les pide, como si la persuasión misma fuera un favor que no pueden esperar a devolver. La parte frustrante de la experiencia es que estos persuasores, a menudo son incapaces de darse cuenta de su notable capacidad o de transmitirla a otros. Su forma de tratar con la gente es un arte, y los artistas suelen ser mucho mejores en hacerlo que en explicarlo. La mayoría de ellos no pueden ofrecer mucha ayuda a aquellos de nosotros que no poseemos nada más que el cociente ordinario de carisma y elocuencia, pero aun así tenemos que luchar con el desafío fundamental del liderazgo: aprender, practicar y hacer las cosas a través de otros. Este desafío es dolorosamente familiar para los líderes empresariales, que deben entender cada día cómo motivar y dirigir una fuerza de trabajo altamente individualista. Jugar la carta de \"Por qué soy el jefe\" está fuera de discusión. Aunque no fuera hu",
           "interactiveChallenge": {
             "question": "Según este módulo, ¿cuál es el mecanismo principal de la reciprocidad en el contexto de \"Influencia Y Persuasion\"?",
             "options": [
@@ -1666,7 +1667,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Imita tu objetivo El término \"Mirroring\", que se refiere a la imitación del cuerpo, es otra poderosa técnica de manipulación, razón por la cual los organismos de represión la utilizan ampliamente durante los interrogatorios y las negociaciones. El \"Mirroring\" hace uso del \"narcisista interior\" que está dentro de todos nosotros, incluso de ti. Esto es lo que hace que el mirroring sea una herramienta tan poderosa, porque puedes usarlo en cualquiera si estás suficientemente preparado. Una vez que sepáis cómo reflejar a otras personas de manera efectiva, también podéis usar vuestro conocimiento para evitar que otras personas, especialmente los narcisistas, usen esta técnica en vuestra contra. podéis usar el espejismo imitando conscientemente, cóanola otra personalidia con vosotros; esto significa que copiarás cómo se sienta, cómo posiciona sus manos, cómo sostiene su cabeza, y si sois realmente buenos, también podéis sincronizar vuestra respiración con la suya. También podéis usar un acento falso o un patrón de habla falso para imitar el de la otra persona, si es posible. Sed precisos en la imitación y hacedlo de la forma más natural posible, la velocidad y el tono de la voz también tienen un efecto poderoso, usad los 5 sentidos para mejorarlo. Recordad siempre los principios y técnicas explicadas en detalle en el capítulo anterior, para obtener los máximos resultados, garantizados. 4 pasos para una imitación efectiva Cuando se hace correctamente, el mirroring puede construir",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Sincronización Neural y Rapport Profundo\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/pnl_persuasion/pnl_m6_rapport_principios.webp\" alt=\"Sincronización Neural y Rapport Profundo\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Imita tu objetivo El término \"Mirroring\", que se refiere a la imitación del cuerpo, es otra poderosa técnica de manipulación, razón por la cual los organismos de represión la utilizan ampliamente durante los interrogatorios y las negociaciones. El \"Mirroring\" hace uso del \"narcisista interior\" que está dentro de todos nosotros, incluso de ti. Esto es lo que hace que el mirroring sea una herramienta tan poderosa, porque puedes usarlo en cualquiera si estás suficientemente preparado. Una vez que sepáis cómo reflejar a otras personas de manera efectiva, también podéis usar vuestro conocimiento para evitar que otras personas, especialmente los narcisistas, usen esta técnica en vuestra contra. podéis usar el espejismo imitando conscientemente, cóanola otra personalidia con vosotros; esto significa que copiarás cómo se sienta, cómo posiciona sus manos, cómo sostiene su cabeza, y si sois realmente buenos, también podéis sincronizar vuestra respiración con la suya. También podéis usar un acento falso o un patrón de habla falso para imitar el de la otra persona, si es posible. Sed precisos en la imitación y hacedlo de la forma más natural posible, la velocidad y el tono de la voz también tienen un efecto poderoso, usad los 5 sentidos para mejorarlo. Recordad siempre los principios y técnicas explicadas en detalle en el capítulo anterior, para obtener los máximos resultados, garantizados. 4 pasos para una imitación efectiva Cuando se hace correctamente, el mirroring puede construir",
           "interactiveChallenge": {
             "question": "¿Qué distingue a un experto en la simpatía fabricada en el contexto de \"Principios De Persuasion Y Rapport\"?",
             "options": [
@@ -2224,7 +2225,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- MANIPULACIÓN: INFLUENCIAR A LA GENTE CON PERSUASIÓN, CONTROL MENTAL Y PNL Este capítulo contiene pasos y estrategias probadas sobre cómo manipular y dirigir las acciones del comportamiento humano a través de la psicología. Manipular puede parecer una palabra mala, pero en realidad, además de lo que puede utilizar en la vida cotidiana, es una acción que practicamos constantemente sin darnos cuenta. Incluso las personas con buenas intenciones usan la manipulación para cambiar el comportamiento de los demás. Los psiquiatras usan la manipulación todos los días, e incluso la policía la usa cuando responden en relación con la resolución de algún tipo de delito. De hecho, puede que no os deis cuenta, pero otras personas pueden manipularos también. Aprendiendo a manipular a los demás, no sólo podéis mejorar vuestra calidad de vida, sino que también aprendéis a contrarrestar las mismas técnicas cuando se usan contra nosotros mismos. Las técnicas que aprenderéis en este libro incluyen (pero no se limitan a), cómo manipular las emociones de la gente, cómo hacer que la gente se sienta tan cómoda a su alrededor que con gusto harán cualquier cosa para vosotros, y muchas más. Por supuesto, a medida que aprendéis a implementar estas técnicas de manipulación, podéis fácilmente detectar cuando otras personas las están usando en vuestra contra y luego darle la vuelta a la situación. Tened en cuenta que este libro no fue escrito con malas intenciones. Lo que hagáis con la información que apr",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Reprogramación Mental y Desestructuración\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/pnl_persuasion/pnl_m7_manipulacion_control.webp\" alt=\"Reprogramación Mental y Desestructuración\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- MANIPULACIÓN: INFLUENCIAR A LA GENTE CON PERSUASIÓN, CONTROL MENTAL Y PNL Este capítulo contiene pasos y estrategias probadas sobre cómo manipular y dirigir las acciones del comportamiento humano a través de la psicología. Manipular puede parecer una palabra mala, pero en realidad, además de lo que puede utilizar en la vida cotidiana, es una acción que practicamos constantemente sin darnos cuenta. Incluso las personas con buenas intenciones usan la manipulación para cambiar el comportamiento de los demás. Los psiquiatras usan la manipulación todos los días, e incluso la policía la usa cuando responden en relación con la resolución de algún tipo de delito. De hecho, puede que no os deis cuenta, pero otras personas pueden manipularos también. Aprendiendo a manipular a los demás, no sólo podéis mejorar vuestra calidad de vida, sino que también aprendéis a contrarrestar las mismas técnicas cuando se usan contra nosotros mismos. Las técnicas que aprenderéis en este libro incluyen (pero no se limitan a), cómo manipular las emociones de la gente, cómo hacer que la gente se sienta tan cómoda a su alrededor que con gusto harán cualquier cosa para vosotros, y muchas más. Por supuesto, a medida que aprendéis a implementar estas técnicas de manipulación, podéis fácilmente detectar cuando otras personas las están usando en vuestra contra y luego darle la vuelta a la situación. Tened en cuenta que este libro no fue escrito con malas intenciones. Lo que hagáis con la información que apr",
           "interactiveChallenge": {
             "question": "¿Cuál de las siguientes afirmaciones sobre la love bombing en el contexto de \"Manipulacion Control Mental Y Pnl\"?",
             "options": [
@@ -2289,7 +2290,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "alguien nuevo y desconocido. Algunas de las formas más comunes en que las personas copian el lenguaje corporal son cruzando las piernas cuando la otra persona lo hace, inclinándose hacia adelante o hacia atrás en la silla, colocando las manos sobre la mesa, sonriendo, frunciendo el ceño o bostezando. Después de analizar brevemente el tema de pies a cabeza, es hora de observarlo un poco más de cerca y con más detalle. Observad sus expresiones faciales, prestando especial atención a sus ojos. Las emociones se pueden ver con gran detalle simplemente mirando a los ojos de alguien. Al hacerlo, podéis saber si la sonrisa de alguien es genuina, y también puedes saber si está enfadado, triste o herido. Si los ojos de alguien cruzan la habitación rápidamente, pueden estar nerviosos o incómodos. Como mínimo, alguien que no mira a la persona con la que está hablando probablemente no esté interesado en la conversación actual. Si sus ojos son estrechos, no se siente cómodo con la otra persona, o duda de lo que la otra persona está diciendo. En el lado opuesto del espectro, si el oyente mira al orador con una expresión neutra, ojos enfocados, se interesa por el orador y su argumento. Bajando de los ojos, el siguiente punto de enfoque debe ser la boca y/o la sonrisa del sujeto. Una sonrisa es un signo universal de felicidad y buen humor. Una persona sonriente suele estar de buen humor y feliz de participar en una conversación, como mínimo, y es muy probable que esté interesada en lo que el",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Reencuadre Cognitivo Estratégico\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/pnl_persuasion/pnl_m8_tecnicas_influencia.webp\" alt=\"Reencuadre Cognitivo Estratégico\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>alguien nuevo y desconocido. Algunas de las formas más comunes en que las personas copian el lenguaje corporal son cruzando las piernas cuando la otra persona lo hace, inclinándose hacia adelante o hacia atrás en la silla, colocando las manos sobre la mesa, sonriendo, frunciendo el ceño o bostezando. Después de analizar brevemente el tema de pies a cabeza, es hora de observarlo un poco más de cerca y con más detalle. Observad sus expresiones faciales, prestando especial atención a sus ojos. Las emociones se pueden ver con gran detalle simplemente mirando a los ojos de alguien. Al hacerlo, podéis saber si la sonrisa de alguien es genuina, y también puedes saber si está enfadado, triste o herido. Si los ojos de alguien cruzan la habitación rápidamente, pueden estar nerviosos o incómodos. Como mínimo, alguien que no mira a la persona con la que está hablando probablemente no esté interesado en la conversación actual. Si sus ojos son estrechos, no se siente cómodo con la otra persona, o duda de lo que la otra persona está diciendo. En el lado opuesto del espectro, si el oyente mira al orador con una expresión neutra, ojos enfocados, se interesa por el orador y su argumento. Bajando de los ojos, el siguiente punto de enfoque debe ser la boca y/o la sonrisa del sujeto. Una sonrisa es un signo universal de felicidad y buen humor. Una persona sonriente suele estar de buen humor y feliz de participar en una conversación, como mínimo, y es muy probable que esté interesada en lo que el",
           "interactiveChallenge": {
             "question": "Al aplicar los principios de la lenguaje corporal dominante en el contexto de \"Tecnicas De Manipulacion E Influencia\"?",
             "options": [
@@ -3021,7 +3022,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "CÓMO ANALIZAR A LA GENTE: DOMINAR EL ARTE DE LEER A LA GENTE A TRAVÉS DE LA PSICOLOGÍA HUMANA Las señales no verbales son una parte importante de cómo nos comunicamos con los que nos rodean. Es algo que todo el mundo usa comúnmente en situaciones sociales, siempre, sean conscientes de ello o no. Sin embargo, la mayoría de la gente sólo tiene una comprensión básica y subconsciente del lenguaje corporal y de cómo funciona. Afortunadamente, esta habilidad no es innata y se puede interiorizar de forma natural, incluso es posible simplemente mejorar vuestras habilidades existentes, hay información específica que se puede estudiar e interiorizar para ser prácticos en este campo. La teoría por desgracia, sobre todo en este sector no es suficiente, debe ir acompañada de una continua aplicación práctica, el lado positivo es que cada día hay muchas situaciones, ¡notenéis excusas! Aquí hay algunos beneficios derivados de estas habilidades sociales y de comunicación: - Construir la confianza: Cuando se sabe leer a la gente con precisión, hay mucha menos confusión. Sabéis lo que intentan deciros y sabéis exactamente cómo responder. Cuando se puede descifrar con precisión qué estímulos de lenguaje corporal envía la gente, o entenderlos a un nivel más profundo en función del tipo de personalidad que caracteriza a la persona, también se pueden ajustar cuidadosamente las señales no verbales para que sean apropiadas para la ocasión, logrando el mejor resultado posible. - Mejoría de las relacio",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Lectura Kinésica y Calibración\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/pnl_persuasion/pnl_m9_analizar_gente.webp\" alt=\"Lectura Kinésica y Calibración\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>CÓMO ANALIZAR A LA GENTE: DOMINAR EL ARTE DE LEER A LA GENTE A TRAVÉS DE LA PSICOLOGÍA HUMANA Las señales no verbales son una parte importante de cómo nos comunicamos con los que nos rodean. Es algo que todo el mundo usa comúnmente en situaciones sociales, siempre, sean conscientes de ello o no. Sin embargo, la mayoría de la gente sólo tiene una comprensión básica y subconsciente del lenguaje corporal y de cómo funciona. Afortunadamente, esta habilidad no es innata y se puede interiorizar de forma natural, incluso es posible simplemente mejorar vuestras habilidades existentes, hay información específica que se puede estudiar e interiorizar para ser prácticos en este campo. La teoría por desgracia, sobre todo en este sector no es suficiente, debe ir acompañada de una continua aplicación práctica, el lado positivo es que cada día hay muchas situaciones, ¡notenéis excusas! Aquí hay algunos beneficios derivados de estas habilidades sociales y de comunicación: - Construir la confianza: Cuando se sabe leer a la gente con precisión, hay mucha menos confusión. Sabéis lo que intentan deciros y sabéis exactamente cómo responder. Cuando se puede descifrar con precisión qué estímulos de lenguaje corporal envía la gente, o entenderlos a un nivel más profundo en función del tipo de personalidad que caracteriza a la persona, también se pueden ajustar cuidadosamente las señales no verbales para que sean apropiadas para la ocasión, logrando el mejor resultado posible. - Mejoría de las relacio",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la reciprocidad en el contexto de \"Como Analizar A La Gente Y Lenguaje Corporal\"?",
             "options": [
@@ -3289,7 +3290,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "BREVE INTRODUCCIÓN A LOS PRINCIPALES SISTEMAS DE ANÁLISIS INTRAPERSONAL: SISTEMA VISUAL Las siguientes características son típicas de los tipos visuales, o de las personas que acceden al canal visual: La postura corporal y el tono muscular Porte recto (la cabeza en las nubes). Hombros levantados y cuello extendido. Tensión muscular en los hombros, en el cuello y a menudo en el abdomen. Posición de la cabeza Arriba Gestualidad Movimientos amplios y alejados del cuerpo (gestos centrífugos) y generalmente dirigidos hacia arriba. La persona puede tocarse los ojos diciendo frases como \"Me he dado cuenta de tu decepción\" o frotarse los ojos y la parte de atrás de la nariz diciendo frases como \"déjame ver\". Movimientos de los ojos Los ojos se mueven hacia arriba. Si se mueven a la izquierda, la persona está visualizando una imagen conocida o una experiencia pasada (visual recordada). Si se mueven a la derecha, están construyendo una imagen mental (visual construida). Características de la voz Tono alto, nasal y/o tenso. Tono alto. Ritmo de habla rápido. Ráfagas repentinas de palabras. Tipo de respiración Elevada (torácico) y superficial, de pecho. Arrestos cortos. Tez de la piel Palidez SISTEMA AUDITIVO La postura del cuerpo y el tono muscular Tendencia a llevar el cuerpo a un lado mientras los hombros van hacia atrás, aunque un poco doblados. Ligera y casi uniforme tensión muscular. Movimientos rítmicos Posición de la cabeza Movimientos de la cabeza en horizontal. Gestualidad Movim",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Autocontrol y Análisis Intrapersonal\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/pnl_persuasion/pnl_m10_analisis_intrapersonal.webp\" alt=\"Autocontrol y Análisis Intrapersonal\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>BREVE INTRODUCCIÓN A LOS PRINCIPALES SISTEMAS DE ANÁLISIS INTRAPERSONAL: SISTEMA VISUAL Las siguientes características son típicas de los tipos visuales, o de las personas que acceden al canal visual: La postura corporal y el tono muscular Porte recto (la cabeza en las nubes). Hombros levantados y cuello extendido. Tensión muscular en los hombros, en el cuello y a menudo en el abdomen. Posición de la cabeza Arriba Gestualidad Movimientos amplios y alejados del cuerpo (gestos centrífugos) y generalmente dirigidos hacia arriba. La persona puede tocarse los ojos diciendo frases como \"Me he dado cuenta de tu decepción\" o frotarse los ojos y la parte de atrás de la nariz diciendo frases como \"déjame ver\". Movimientos de los ojos Los ojos se mueven hacia arriba. Si se mueven a la izquierda, la persona está visualizando una imagen conocida o una experiencia pasada (visual recordada). Si se mueven a la derecha, están construyendo una imagen mental (visual construida). Características de la voz Tono alto, nasal y/o tenso. Tono alto. Ritmo de habla rápido. Ráfagas repentinas de palabras. Tipo de respiración Elevada (torácico) y superficial, de pecho. Arrestos cortos. Tez de la piel Palidez SISTEMA AUDITIVO La postura del cuerpo y el tono muscular Tendencia a llevar el cuerpo a un lado mientras los hombros van hacia atrás, aunque un poco doblados. Ligera y casi uniforme tensión muscular. Movimientos rítmicos Posición de la cabeza Movimientos de la cabeza en horizontal. Gestualidad Movim",
           "interactiveChallenge": {
             "question": "Ante una situación de la simpatía fabricada en el contexto de \"Sistemas De Analisis Intrapersonal\"?",
             "options": [
@@ -3673,7 +3674,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Puntos clave y conclusión GRACIAS por llegar al final de este libro. Espero realmente que esta lectura haya sido útil e informativa, proporcionándoos todas las herramientas que necesitáis para alcanzar vuestros objetivos, sean cuales sean. El siguiente paso es poner en práctica algunas de las lecciones aprendidas en este libro. Al observar y analizar a las personas y utilizar las habilidades que habéis aprendido para comprender mejor las causas, las emociones y las conductas, se os facilitarán las relaciones sociales y podréis crear intimidad, confianza y construir buenas relaciones con compañeros y amigos con los que no siempre estaréis en armonía. También recordad que siempre debéis estudiar a vosotros mismos, nunca se deja de conocerse. Por último, podréis saber si alguien os está mintiendo, y podréis usar su comportamiento para determinar si las mentiras son aceptables como pequeñas mentiras blancas, o mentiras arraigadas y potencialmente dañinas y elaboradas que pueden ser perjudiciales para una relación. Teniendo en cuenta la personalidad de alguien y los rasgos de personalidad que le son propios, se puede comprender mejor cómo se pueden manifestar sus acciones, y si son auténticas o el resultado de mentiras o alteraciones de la verdad. Después de leer este libro, espero que os sintáis más en sintonía con las diversas personalidades que os rodean y con las que os encontráis a diario, ya que ahora dispondréis de las herramientas necesarias para comprender mejor las i",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Maestría Ética de la Comunicación\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/pnl_persuasion/pnl_m11_conclusion.webp\" alt=\"Maestría Ética de la Comunicación\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Puntos clave y conclusión GRACIAS por llegar al final de este libro. Espero realmente que esta lectura haya sido útil e informativa, proporcionándoos todas las herramientas que necesitáis para alcanzar vuestros objetivos, sean cuales sean. El siguiente paso es poner en práctica algunas de las lecciones aprendidas en este libro. Al observar y analizar a las personas y utilizar las habilidades que habéis aprendido para comprender mejor las causas, las emociones y las conductas, se os facilitarán las relaciones sociales y podréis crear intimidad, confianza y construir buenas relaciones con compañeros y amigos con los que no siempre estaréis en armonía. También recordad que siempre debéis estudiar a vosotros mismos, nunca se deja de conocerse. Por último, podréis saber si alguien os está mintiendo, y podréis usar su comportamiento para determinar si las mentiras son aceptables como pequeñas mentiras blancas, o mentiras arraigadas y potencialmente dañinas y elaboradas que pueden ser perjudiciales para una relación. Teniendo en cuenta la personalidad de alguien y los rasgos de personalidad que le son propios, se puede comprender mejor cómo se pueden manifestar sus acciones, y si son auténticas o el resultado de mentiras o alteraciones de la verdad. Después de leer este libro, espero que os sintáis más en sintonía con las diversas personalidades que os rodean y con las que os encontráis a diario, ya que ahora dispondréis de las herramientas necesarias para comprender mejor las i",
           "interactiveChallenge": {
             "question": "El concepto central de la love bombing en el contexto de \"Puntos Clave Y Conclusion\"?",
             "options": [
@@ -3730,6 +3731,584 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS-001",
+      "category": "Persuasion",
+      "title": "The Negotiation Pivot",
+      "difficulty": "Intermediate",
+      "badge": "Influencer",
+      "scenarioDescription": "A client refuses your proposal citing budget constraints. How do you reframe the conversation?",
+      "options": [
+        {
+          "text": "Acknowledge the budget and offer a discount immediately.",
+          "outcome": "Loss of leverage",
+          "wisdomScore": 20,
+          "analysis": "You surrendered your value proposition too early.",
+          "bookInsight": "Use linguistic reframing to shift focus from price to value."
+        },
+        {
+          "text": "Use a presupposition: 'Assuming we solve the budget, what is the primary outcome you need?'",
+          "outcome": "Successful Pivot",
+          "wisdomScore": 95,
+          "analysis": "You bypassed the objection by presupposing the solution.",
+          "bookInsight": "Presuppositions are core linguistic patterns in PNL."
+        }
+      ]
+    },
+    {
+      "id": "CS-002",
+      "category": "Rapport",
+      "title": "The Mirroring Trap",
+      "difficulty": "Beginner",
+      "badge": "Observer",
+      "scenarioDescription": "You are in a high-stakes meeting. Your counterpart is aggressive and closed off.",
+      "options": [
+        {
+          "text": "Mirror their closed posture to show dominance.",
+          "outcome": "Escalation",
+          "wisdomScore": 30,
+          "analysis": "Direct mirroring of negative states creates friction.",
+          "bookInsight": "Rapport requires pacing before leading."
+        },
+        {
+          "text": "Adopt a neutral posture and match their breathing rhythm.",
+          "outcome": "Subtle Rapport",
+          "wisdomScore": 90,
+          "analysis": "Matching physiological states builds unconscious trust.",
+          "bookInsight": "Pacing is the foundation of influence."
+        }
+      ]
+    },
+    {
+      "id": "CS-003",
+      "category": "Manipulation",
+      "title": "The Double Bind",
+      "difficulty": "Advanced",
+      "badge": "Strategist",
+      "scenarioDescription": "You need a colleague to finish a report by Friday, but they are busy.",
+      "options": [
+        {
+          "text": "Ask: 'Can you finish this by Friday?'",
+          "outcome": "Rejection",
+          "wisdomScore": 40,
+          "analysis": "You gave them a binary choice to say no.",
+          "bookInsight": "Use double binds to limit the choice to two favorable outcomes."
+        },
+        {
+          "text": "Ask: 'Would you prefer to finish the report on Thursday afternoon or Friday morning?'",
+          "outcome": "Compliance",
+          "wisdomScore": 98,
+          "analysis": "You framed the completion as a given, focusing on the timing.",
+          "bookInsight": "The double bind forces the brain to accept the premise."
+        }
+      ]
+    },
+    {
+      "id": "CS-004",
+      "category": "Body Language",
+      "title": "The Deception Detection",
+      "difficulty": "Intermediate",
+      "badge": "Profiler",
+      "scenarioDescription": "During a conversation, your partner touches their nose while denying a request.",
+      "options": [
+        {
+          "text": "Call them out immediately for lying.",
+          "outcome": "Defensiveness",
+          "wisdomScore": 30,
+          "analysis": "Accusations destroy rapport.",
+          "bookInsight": "Analyze clusters, not isolated gestures."
+        },
+        {
+          "text": "Note the gesture and ask a clarifying question to observe further clusters.",
+          "outcome": "Data Gathering",
+          "wisdomScore": 92,
+          "analysis": "You are gathering baseline data before drawing conclusions.",
+          "bookInsight": "Body language must be read in context."
+        }
+      ]
+    },
+    {
+      "id": "CS-005",
+      "category": "Linguistic Patterns",
+      "title": "The Milton Model",
+      "difficulty": "Advanced",
+      "badge": "Hypnotist",
+      "scenarioDescription": "You want to influence a group's mood without being directive.",
+      "options": [
+        {
+          "text": "Tell them: 'You must be happy now.'",
+          "outcome": "Resistance",
+          "wisdomScore": 20,
+          "analysis": "Direct commands trigger the critical factor.",
+          "bookInsight": "Use vague language to allow the listener to fill in the blanks."
+        },
+        {
+          "text": "Say: 'As you sit here, you might notice how easy it is to feel a sense of calm.'",
+          "outcome": "Influence",
+          "wisdomScore": 95,
+          "analysis": "You used embedded commands and pacing.",
+          "bookInsight": "The Milton Model uses ambiguity to bypass resistance."
+        }
+      ]
+    },
+    {
+      "id": "CS-006",
+      "category": "Intrapersonal",
+      "title": "State Management",
+      "difficulty": "Intermediate",
+      "badge": "Master",
+      "scenarioDescription": "You feel anxious before a presentation.",
+      "options": [
+        {
+          "text": "Try to suppress the anxiety.",
+          "outcome": "Increased Stress",
+          "wisdomScore": 30,
+          "analysis": "Suppression consumes cognitive resources.",
+          "bookInsight": "Change your physiology to change your state."
+        },
+        {
+          "text": "Change your posture, breathe deeply, and recall a peak performance memory.",
+          "outcome": "State Shift",
+          "wisdomScore": 95,
+          "analysis": "Anchoring and physiology change your internal state.",
+          "bookInsight": "Anchoring is a powerful tool for self-mastery."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC-001",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Rapport",
+      "definition": "The state of harmony and responsiveness.",
+      "tacticalUse": "Build trust quickly.",
+      "countermeasure": "Maintain emotional distance."
+    },
+    {
+      "id": "FC-002",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Anchoring",
+      "definition": "Associating a stimulus with a state.",
+      "tacticalUse": "Trigger desired emotions.",
+      "countermeasure": "Identify the trigger."
+    },
+    {
+      "id": "FC-003",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Pacing",
+      "definition": "Matching the subject's reality.",
+      "tacticalUse": "Establish connection.",
+      "countermeasure": "Break the pattern."
+    },
+    {
+      "id": "FC-004",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Leading",
+      "definition": "Guiding the subject after pacing.",
+      "tacticalUse": "Direct behavior.",
+      "countermeasure": "Assert independence."
+    },
+    {
+      "id": "FC-005",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Milton Model",
+      "definition": "Vague, hypnotic language.",
+      "tacticalUse": "Bypass critical thinking.",
+      "countermeasure": "Ask for specifics."
+    },
+    {
+      "id": "FC-006",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Meta Model",
+      "definition": "Challenging vague language.",
+      "tacticalUse": "Clarify information.",
+      "countermeasure": "Keep language vague."
+    },
+    {
+      "id": "FC-007",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Double Bind",
+      "definition": "Choice between two options.",
+      "tacticalUse": "Force compliance.",
+      "countermeasure": "Reject both options."
+    },
+    {
+      "id": "FC-008",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Reframing",
+      "definition": "Changing the meaning of an event.",
+      "tacticalUse": "Shift perspective.",
+      "countermeasure": "Stick to facts."
+    },
+    {
+      "id": "FC-009",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Presupposition",
+      "definition": "Assuming a fact is true.",
+      "tacticalUse": "Subtle suggestion.",
+      "countermeasure": "Challenge the premise."
+    },
+    {
+      "id": "FC-010",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "VAK",
+      "definition": "Visual, Auditory, Kinesthetic.",
+      "tacticalUse": "Tailor communication.",
+      "countermeasure": "Vary your own style."
+    },
+    {
+      "id": "FC-011",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Embedded Command",
+      "definition": "Hidden instruction in a sentence.",
+      "tacticalUse": "Subconscious influence.",
+      "countermeasure": "Listen for tone shifts."
+    },
+    {
+      "id": "FC-012",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Mirroring",
+      "definition": "Copying body language.",
+      "tacticalUse": "Create unconscious rapport.",
+      "countermeasure": "Change your posture."
+    },
+    {
+      "id": "FC-013",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Calibration",
+      "definition": "Reading subtle cues.",
+      "tacticalUse": "Detect internal states.",
+      "countermeasure": "Control micro-expressions."
+    },
+    {
+      "id": "FC-014",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "State",
+      "definition": "Internal emotional condition.",
+      "tacticalUse": "Manage performance.",
+      "countermeasure": "Disrupt the state."
+    },
+    {
+      "id": "FC-015",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Submodalities",
+      "definition": "Internal sensory qualities.",
+      "tacticalUse": "Change memory impact.",
+      "countermeasure": "Focus on the present."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM-01",
+      "category": "Influence",
+      "name": "The Pacing-Leading Loop",
+      "severity": "Medium",
+      "icon": "🔄",
+      "howItWorks": "Match current state, then shift.",
+      "redFlags": "Feeling suddenly compliant.",
+      "counterScript": "Why are you asking me that?",
+      "deepMechanism": "Neurological entrainment."
+    },
+    {
+      "id": "TM-02",
+      "category": "Manipulation",
+      "name": "The False Choice",
+      "severity": "High",
+      "icon": "⚖️",
+      "howItWorks": "Presenting two options that both benefit you.",
+      "redFlags": "Feeling trapped.",
+      "counterScript": "I'd prefer a third option.",
+      "deepMechanism": "Cognitive closure."
+    },
+    {
+      "id": "TM-03",
+      "category": "Persuasion",
+      "name": "Presupposition Loading",
+      "severity": "Medium",
+      "icon": "🧠",
+      "howItWorks": "Embedding the desired outcome as a fact.",
+      "redFlags": "Assuming the premise is true.",
+      "counterScript": "That is not necessarily true.",
+      "deepMechanism": "Linguistic priming."
+    },
+    {
+      "id": "TM-04",
+      "category": "Manipulation",
+      "name": "Gaslighting Lite",
+      "severity": "Extreme",
+      "icon": "🌫️",
+      "howItWorks": "Questioning the subject's perception.",
+      "redFlags": "Self-doubt.",
+      "counterScript": "I trust my memory of events.",
+      "deepMechanism": "Reality distortion."
+    },
+    {
+      "id": "TM-05",
+      "category": "Influence",
+      "name": "Anchoring",
+      "severity": "Medium",
+      "icon": "⚓",
+      "howItWorks": "Linking a gesture to a feeling.",
+      "redFlags": "Sudden mood shifts.",
+      "counterScript": "Why did you touch your arm?",
+      "deepMechanism": "Classical conditioning."
+    },
+    {
+      "id": "TM-06",
+      "category": "Persuasion",
+      "name": "The Yes-Set",
+      "severity": "Low",
+      "icon": "✅",
+      "howItWorks": "Getting small agreements first.",
+      "redFlags": "Series of easy questions.",
+      "counterScript": "I disagree with that point.",
+      "deepMechanism": "Consistency bias."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q-01",
+      "bookNumber": 1,
+      "question": "What is the primary goal of Pacing?",
+      "options": [
+        "To dominate",
+        "To build rapport",
+        "To confuse",
+        "To lie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pacing aligns your communication with the other person's reality."
+    },
+    {
+      "id": "Q-02",
+      "bookNumber": 1,
+      "question": "What is a Double Bind?",
+      "options": [
+        "A physical restraint",
+        "A choice between two options",
+        "A type of lie",
+        "A breathing technique"
+      ],
+      "correctIndex": 1,
+      "explanation": "It forces a decision within a controlled framework."
+    },
+    {
+      "id": "Q-03",
+      "bookNumber": 1,
+      "question": "What is the Milton Model?",
+      "options": [
+        "A rigid structure",
+        "Vague, hypnotic language",
+        "A way to analyze data",
+        "A body language technique"
+      ],
+      "correctIndex": 1,
+      "explanation": "It uses ambiguity to bypass critical filters."
+    },
+    {
+      "id": "Q-04",
+      "bookNumber": 1,
+      "question": "What is an Anchor?",
+      "options": [
+        "A heavy object",
+        "A stimulus-response link",
+        "A type of question",
+        "A posture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anchoring links a specific trigger to an emotional state."
+    },
+    {
+      "id": "Q-05",
+      "bookNumber": 1,
+      "question": "What is the Meta Model used for?",
+      "options": [
+        "Hypnosis",
+        "Clarifying vague language",
+        "Deception",
+        "Mirroring"
+      ],
+      "correctIndex": 1,
+      "explanation": "It challenges generalizations and deletions."
+    },
+    {
+      "id": "Q-06",
+      "bookNumber": 1,
+      "question": "Why is calibration important?",
+      "options": [
+        "To look smart",
+        "To read subtle cues",
+        "To hide emotions",
+        "To speak faster"
+      ],
+      "correctIndex": 1,
+      "explanation": "Calibration allows you to detect changes in the subject's state."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G-01",
+      "term": "PNL",
+      "category": "Theory",
+      "definition": "Programación Neurolingüística.",
+      "practicalExample": "Using language to change brain patterns."
+    },
+    {
+      "id": "G-02",
+      "term": "Rapport",
+      "category": "Social",
+      "definition": "Sintonía emocional.",
+      "practicalExample": "Matching the tone of a client."
+    },
+    {
+      "id": "G-03",
+      "term": "Anclaje",
+      "category": "Psychology",
+      "definition": "Estímulo condicionado.",
+      "practicalExample": "Touching your wrist to feel calm."
+    },
+    {
+      "id": "G-04",
+      "term": "Reframing",
+      "category": "Linguistic",
+      "definition": "Reencuadre de significado.",
+      "practicalExample": "Seeing a problem as an opportunity."
+    },
+    {
+      "id": "G-05",
+      "term": "Double Bind",
+      "category": "Manipulation",
+      "definition": "Doble vínculo.",
+      "practicalExample": "Do you want to pay now or later?"
+    },
+    {
+      "id": "G-06",
+      "term": "Pacing",
+      "definition": "Acompasamiento.",
+      "practicalExample": "Matching the speed of speech."
+    },
+    {
+      "id": "G-07",
+      "term": "Leading",
+      "definition": "Liderazgo de estado.",
+      "practicalExample": "Changing your tone to calm others."
+    },
+    {
+      "id": "G-08",
+      "term": "Calibration",
+      "definition": "Calibración.",
+      "practicalExample": "Noticing a blink when lying."
+    },
+    {
+      "id": "G-09",
+      "term": "VAK",
+      "definition": "Sistemas representacionales.",
+      "practicalExample": "Using visual words for visual people."
+    },
+    {
+      "id": "G-10",
+      "term": "Meta Model",
+      "definition": "Modelo de precisión.",
+      "practicalExample": "Asking 'Who specifically?'"
+    },
+    {
+      "id": "G-11",
+      "term": "Milton Model",
+      "definition": "Modelo de ambigüedad.",
+      "practicalExample": "Using 'some people feel...'."
+    },
+    {
+      "id": "G-12",
+      "term": "Submodalities",
+      "definition": "Cualidades sensoriales.",
+      "practicalExample": "Making a bad memory smaller."
+    },
+    {
+      "id": "G-13",
+      "term": "State",
+      "definition": "Estado interno.",
+      "practicalExample": "Entering a 'confident' state."
+    },
+    {
+      "id": "G-14",
+      "term": "Presupposition",
+      "definition": "Presuposición.",
+      "practicalExample": "Assuming they will agree."
+    },
+    {
+      "id": "G-15",
+      "term": "Mirroring",
+      "definition": "Espejo.",
+      "practicalExample": "Matching posture."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL-01",
+      "category": "Detection",
+      "title": "Micro-expression Scan",
+      "cue": "Rapid facial flicker",
+      "interpretation": "Suppressed emotion",
+      "practicalDrill": "Watch slow-motion videos."
+    },
+    {
+      "id": "BL-02",
+      "category": "Rapport",
+      "title": "The Posture Match",
+      "cue": "Matching torso angle",
+      "interpretation": "High rapport",
+      "practicalDrill": "Practice in casual conversation."
+    },
+    {
+      "id": "BL-03",
+      "category": "Deception",
+      "title": "The Nose Touch",
+      "cue": "Touching nose/mouth",
+      "interpretation": "Potential stress/deception",
+      "practicalDrill": "Observe in interviews."
+    },
+    {
+      "id": "BL-04",
+      "category": "Dominance",
+      "title": "The Stance Check",
+      "cue": "Feet spread wide",
+      "interpretation": "Territoriality",
+      "practicalDrill": "Adjust stance in meetings."
+    },
+    {
+      "id": "BL-05",
+      "category": "Engagement",
+      "title": "The Lean In",
+      "cue": "Leaning forward",
+      "interpretation": "Interest",
+      "practicalDrill": "Lean in when listening."
+    },
+    {
+      "id": "BL-06",
+      "category": "Defensiveness",
+      "title": "The Barrier Test",
+      "cue": "Crossed arms",
+      "interpretation": "Closed off",
+      "practicalDrill": "Offer an object to break the barrier."
     }
   ]
 };

@@ -6187,93 +6187,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Manipulación Laboral",
-      "title": "El Jefe Narcisista y el Robo de Crédito",
-      "difficulty": "Alta",
-      "badge": "Estratega Corporativo",
-      "scenarioDescription": "Trabajas en una consultora de alto nivel. Tu director de departamento, conocido por su encanto inicial y ataques de ira repentinos, ha presentado tu proyecto de innovación ante el comité ejecutivo como si fuera 100% idea suya. Cuando le comentas respetuosamente en privado que te hubiese gustado figurar en la presentación, sonríe y te dice: 'No seas infantil. Yo reestructuré todo tu borrador para que fuera viable. Además, si insistes en pelear por esto, la dirección pensará que no sabes trabajar en equipo'. ¿Cómo respondes estratégicamente?",
+      "id": "CS001",
+      "category": "Gaslighting",
+      "title": "La distorsión de la realidad",
+      "difficulty": "Hard",
+      "badge": "Mental Shield",
+      "scenarioDescription": "Un colega insiste en que nunca te envió un correo crítico, a pesar de que tienes la notificación. Te hace dudar de tu memoria.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Mantienes la calma, no reaccionas emocionalmente (Piedra Gris) y documentas por escrito tus contribuciones futuras dejando copia digital con sello de tiempo antes de enviarlas al director.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Has neutralizado el intento de provocación emocional y evitado el chantaje de 'trabajo en equipo'. Al establecer trazabilidad documental indiscutible para el futuro, proteges tu trabajo sin entrar en una guerra de descalificaciones que el narcisista ganaría en la arena política.",
-          "bookInsight": "Frente a un manipulador con poder jerárquico, la confrontación visceral abre el flanco al desprestigio; la trazabilidad e inexpresividad emocional protegen tu carrera."
+          "text": "Discutir agresivamente para probar que miente.",
+          "outcome": "Escalada emocional",
+          "wisdomScore": 20,
+          "analysis": "La confrontación directa alimenta el juego del manipulador.",
+          "bookInsight": "Mantén la calma y documenta sin entrar en su narrativa."
         },
         {
-          "id": "opt2",
-          "text": "Irrumppes en la siguiente reunión del comité ejecutivo para denunciar públicamente al director mostrando los archivos originales.",
-          "outcome": "Fallo Táctico",
-          "wisdomScore": 25,
-          "analysis": "El comité verá tu interrupción como un acto impulsivo y poco profesional. El director usará su empatía cognitiva para victimizarse y etiquetarte como 'problemático' o 'no apto para trabajar bajo presión'.",
-          "bookInsight": "El manipulador domina el entorno político; atacar de forma reactiva sin aliados previo acuerdo destruye tu credibilidad."
+          "text": "Presentar la evidencia de forma neutral y retirarse.",
+          "outcome": "Neutralización",
+          "wisdomScore": 95,
+          "analysis": "La evidencia objetiva rompe el ciclo de duda.",
+          "bookInsight": "La verdad es el antídoto contra la distorsión."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Relaciones Interpersonales",
-      "title": "El Ciclo de Devaluación y Gaslighting",
-      "difficulty": "Alta",
-      "badge": "Escudo Emocional",
-      "scenarioDescription": "Llevas 6 meses con una pareja que al inicio te colmó de atenciones (Love Bombing). Últimamente ha empezado a criticar tu forma de vestir y a llegar tarde a sus citas sin avisar. Ayer, cuando le recriminaste haber cancelado una cena importante a última hora, te respondió enfadado/a: 'Eres extremadamente neurótico/a y controlador/a. Yo nunca dije que iríamos a cenar hoy, te lo inventaste como siempre. Tienes serios problemas de memoria'. Tienes la certeza de que guardas los mensajes confirmando la cita. ¿Qué decisión tomas?",
+      "id": "CS002",
+      "category": "Love Bombing",
+      "title": "El exceso de afecto",
+      "difficulty": "Medium",
+      "badge": "Emotional Guard",
+      "scenarioDescription": "Alguien que acabas de conocer te colma de regalos y promesas de futuro en la primera semana.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Reconoces la táctica de Gaslighting, evitas enredarte en una discusión para 'demostrar' los mensajes, y comienzas a planificar el distanciamiento con Contacto Cero definitivo.",
-          "outcome": "Éxito Defensivo",
-          "wisdomScore": 100,
-          "analysis": "Has comprendido que mostrar las capturas no hará que el manipulador admita la verdad, solo cambiará de estrategia de ataque. Aceptas la realidad del abuso y proteges tu cordura mediante el alejamiento.",
-          "bookInsight": "El objetivo del Gaslighting no es ganar un debate sobre la verdad, sino destruir tu confianza en tu propia mente. Intentar convencer al manipulador es una trampa."
+          "text": "Aceptar el afecto y acelerar la relación.",
+          "outcome": "Vulnerabilidad",
+          "wisdomScore": 10,
+          "analysis": "La velocidad es una herramienta de control.",
+          "bookInsight": "El ritmo acelerado es una bandera roja de manipulación."
         },
         {
-          "id": "opt2",
-          "text": "Le muestras el teléfono con los mensajes impresos, exigiéndole que admita su mentira y pida disculpas para poder perdonarle.",
-          "outcome": "Fallo por Enganche",
+          "text": "Establecer límites de tiempo y espacio personal.",
+          "outcome": "Estabilización",
+          "wisdomScore": 90,
+          "analysis": "Los límites filtran las intenciones reales.",
+          "bookInsight": "La autenticidad requiere tiempo, no intensidad."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Triangulación",
+      "title": "El tercero en discordia",
+      "difficulty": "Hard",
+      "badge": "Strategic Insight",
+      "scenarioDescription": "Tu jefe menciona constantemente a otro empleado como 'ejemplo a seguir' para hacerte sentir insuficiente.",
+      "options": [
+        {
+          "text": "Intentar superar al compañero para ganar aprobación.",
+          "outcome": "Dependencia",
+          "wisdomScore": 15,
+          "analysis": "Entras en la competencia que el manipulador diseñó.",
+          "bookInsight": "No compitas en juegos donde las reglas las pone el agresor."
+        },
+        {
+          "text": "Ignorar la comparación y centrarse en los KPIs propios.",
+          "outcome": "Autonomía",
+          "wisdomScore": 85,
+          "analysis": "Desactivas el poder de la comparación.",
+          "bookInsight": "Tu valor no depende de la opinión del manipulador."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Proyección",
+      "title": "El espejo invertido",
+      "difficulty": "Medium",
+      "badge": "Perception Master",
+      "scenarioDescription": "Alguien te acusa de ser 'manipulador' justo cuando cuestionas sus acciones.",
+      "options": [
+        {
+          "text": "Defenderte explicando por qué no eres manipulador.",
+          "outcome": "Trampa defensiva",
           "wisdomScore": 30,
-          "analysis": "Al mostrar la prueba, el manipulador cambiará la discusión a: '¿Me estás espiando/guardando mensajes para atacarme? ¡Qué falta de confianza!'. Terminarás pidiendo disculpas tú por la forma en que gestionaste la prueba.",
-          "bookInsight": "Las evidencias objetivas no desarman el Gaslighting en la intimidad; la única respuesta eficaz es desengancharse de la dinámica."
+          "analysis": "Justificarse es aceptar la premisa del atacante.",
+          "bookInsight": "No te expliques ante quien busca confundirte."
+        },
+        {
+          "text": "Observar la acusación como una confesión de sus propios actos.",
+          "outcome": "Claridad",
+          "wisdomScore": 95,
+          "analysis": "La proyección revela la sombra del otro.",
+          "bookInsight": "Lo que te critican suele ser lo que ellos practican."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Silent Treatment",
+      "title": "El muro de hielo",
+      "difficulty": "Medium",
+      "badge": "Stoic Shield",
+      "scenarioDescription": "Tu pareja deja de hablarte tras un desacuerdo menor para castigarte.",
+      "options": [
+        {
+          "text": "Rogar por una explicación y disculparse.",
+          "outcome": "Sometimiento",
+          "wisdomScore": 5,
+          "analysis": "Refuerzas el castigo como método de control.",
+          "bookInsight": "El silencio es un arma; no le des poder."
+        },
+        {
+          "text": "Continuar con tu vida normal sin mostrar afectación.",
+          "outcome": "Desactivación",
+          "wisdomScore": 80,
+          "analysis": "Si el castigo no duele, pierde su utilidad.",
+          "bookInsight": "La indiferencia es la respuesta más táctica."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Victimización",
+      "title": "El mártir profesional",
+      "difficulty": "Easy",
+      "badge": "Empathy Filter",
+      "scenarioDescription": "Un conocido siempre tiene una crisis que requiere tu ayuda inmediata y constante.",
+      "options": [
+        {
+          "text": "Ayudar siempre para evitar que sufra.",
+          "outcome": "Agotamiento",
+          "wisdomScore": 20,
+          "analysis": "Te conviertes en un recurso, no en un amigo.",
+          "bookInsight": "La ayuda sin límites es una forma de esclavitud."
+        },
+        {
+          "text": "Ofrecer apoyo limitado y fomentar su autonomía.",
+          "outcome": "Límite sano",
+          "wisdomScore": 85,
+          "analysis": "Fomentas la responsabilidad del otro.",
+          "bookInsight": "El verdadero apoyo no crea dependencia."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Gaslighting (Luz de Gas)",
-      "definition": "Forma sistemática de manipulación que lleva a la víctima a dudar de su percepción, memoria o cordura.",
-      "tacticalUse": "El manipulador niega hechos reales, distorsiona evidencias y usa frases como 'eso nunca pasó' o 'estás loco/a'.",
-      "countermeasure": "Llevar registros escritos (diario de hechos), confiar en evidencias externas sólidas y aplicar el Contacto Cero."
+      "id": "F01",
+      "bookNumber": 1,
+      "category": "Gaslighting",
+      "term": "Gaslighting",
+      "definition": "Hacer dudar a alguien de su propia percepción.",
+      "tacticalUse": "Desestabilizar la confianza.",
+      "countermeasure": "Registro escrito de hechos."
     },
     {
-      "id": "fc2",
-      "term": "Técnica de la Piedra Gris (Gray Rock)",
-      "definition": "Estrategia de defensa conductual que consiste en volverse lo más inexpresivo, aburrido y neutral posible.",
-      "tacticalUse": "Dar respuestas cortas ('sí', 'no', 'está bien'), mantener tono plano y no reaccionar ante provocaciones.",
-      "countermeasure": "Útil cuando no se puede cortar contacto de inmediato (compañeros de trabajo, copaternidad)."
+      "id": "F02",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Love Bombing",
+      "definition": "Exceso de afecto inicial.",
+      "tacticalUse": "Crear deuda emocional.",
+      "countermeasure": "Mantener ritmo lento."
     },
     {
-      "id": "fc3",
-      "term": "Refuerzo Intermitente",
-      "definition": "Patrón de entrega aleatoria e impredecible de recompensas afectivas y castigos fríos.",
-      "tacticalUse": "Alternar el amor desmedido con la indiferencia repentina para generar adicción dopaminérgica y angustia.",
-      "countermeasure": "Reconocer que la inconsistencia es una táctica deliberada; buscar estabilidad en vez de picos emocionales."
+      "id": "F03",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Proyección",
+      "definition": "Atribuir defectos propios a otros.",
+      "tacticalUse": "Desviar la culpa.",
+      "countermeasure": "Análisis objetivo."
     },
     {
-      "id": "fc4",
-      "term": "Bombardeo de Amor (Love Bombing)",
-      "definition": "Exceso de atenciones, elogios y regalos al inicio de una relación para crear dependencia rápida.",
-      "tacticalUse": "Avasallar con declaraciones prematuras de 'alma gemela' para romper los límites y defensas del objetivo.",
-      "countermeasure": "Establecer pausas, verificar que el ritmo del vínculo sea saludable y dudar de compromisos apresurados."
+      "id": "F04",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Triangulación",
+      "definition": "Introducir a un tercero.",
+      "tacticalUse": "Generar inseguridad.",
+      "countermeasure": "Comunicación directa."
     },
     {
-      "id": "fc5",
-      "term": "Triada Oscura",
-      "definition": "Constelación de tres rasgos de personalidad antisociales: Narcisismo, Maquiavelismo y Psicopatía.",
-      "tacticalUse": "Comprender la combinación de egocentrismo grandioso, cálculo estratégico amoral y falta de empatía.",
-      "countermeasure": "Identificar patrones tempranos de explotación, falta de remordimiento y mantener límites inquebrantables."
+      "id": "F05",
+      "bookNumber": 1,
+      "category": "Control",
+      "term": "Silent Treatment",
+      "definition": "Castigo mediante el silencio.",
+      "tacticalUse": "Forzar sumisión.",
+      "countermeasure": "Indiferencia táctica."
+    },
+    {
+      "id": "F06",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Victimización",
+      "definition": "Adoptar rol de mártir.",
+      "tacticalUse": "Manipular culpa.",
+      "countermeasure": "Establecer límites."
+    },
+    {
+      "id": "F07",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Anclaje",
+      "definition": "Fijar una idea inicial.",
+      "tacticalUse": "Influir en decisiones.",
+      "countermeasure": "Cuestionar el origen."
+    },
+    {
+      "id": "F08",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Piedra Gris",
+      "definition": "Volverse aburrido.",
+      "tacticalUse": "Evitar conflicto.",
+      "countermeasure": "No reaccionar."
+    },
+    {
+      "id": "F09",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Disonancia",
+      "definition": "Conflicto de creencias.",
+      "tacticalUse": "Romper voluntad.",
+      "countermeasure": "Claridad mental."
+    },
+    {
+      "id": "F10",
+      "bookNumber": 1,
+      "category": "Control",
+      "term": "Aislamiento",
+      "definition": "Separar del entorno.",
+      "tacticalUse": "Control total.",
+      "countermeasure": "Mantener redes."
+    },
+    {
+      "id": "F11",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Bombardeo de culpa",
+      "definition": "Hacer sentir culpable.",
+      "tacticalUse": "Obtener favores.",
+      "countermeasure": "Rechazar la culpa."
+    },
+    {
+      "id": "F12",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Límites",
+      "definition": "Barreras personales.",
+      "tacticalUse": "Autoprotección.",
+      "countermeasure": "Asertividad."
+    },
+    {
+      "id": "F13",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Sesgo",
+      "definition": "Error de juicio.",
+      "tacticalUse": "Explotar debilidades.",
+      "countermeasure": "Pensamiento crítico."
+    },
+    {
+      "id": "F14",
+      "bookNumber": 1,
+      "category": "Control",
+      "term": "Intermitencia",
+      "definition": "Refuerzo variable.",
+      "tacticalUse": "Crear adicción.",
+      "countermeasure": "Reconocer el patrón."
+    },
+    {
+      "id": "F15",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Autoconocimiento",
+      "definition": "Conocerse a sí mismo.",
+      "tacticalUse": "Blindaje mental.",
+      "countermeasure": "Introspección."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Defensa",
+      "name": "Piedra Gris",
+      "severity": "Baja",
+      "icon": "rock",
+      "howItWorks": "Actuar de forma aburrida y sin emoción.",
+      "redFlags": "El manipulador busca drama.",
+      "counterScript": "Entiendo. Ya veo. Interesante.",
+      "deepMechanism": "Elimina el refuerzo emocional."
+    },
+    {
+      "id": "TM02",
+      "category": "Defensa",
+      "name": "Límites Asertivos",
+      "severity": "Media",
+      "icon": "shield",
+      "howItWorks": "Establecer reglas claras de interacción.",
+      "redFlags": "Invasión de espacio personal.",
+      "counterScript": "No me siento cómodo con esto.",
+      "deepMechanism": "Reafirma la soberanía personal."
+    },
+    {
+      "id": "TM03",
+      "category": "Defensa",
+      "name": "Documentación",
+      "severity": "Alta",
+      "icon": "file",
+      "howItWorks": "Registrar hechos y fechas.",
+      "redFlags": "Negación de eventos pasados.",
+      "counterScript": "Aquí tengo el registro de lo ocurrido.",
+      "deepMechanism": "Anula la distorsión de realidad."
+    },
+    {
+      "id": "TM04",
+      "category": "Defensa",
+      "name": "Distanciamiento",
+      "severity": "Alta",
+      "icon": "exit",
+      "howItWorks": "Reducir contacto físico y digital.",
+      "redFlags": "Intento de control constante.",
+      "counterScript": "Necesito espacio ahora mismo.",
+      "deepMechanism": "Corta el suministro de control."
+    },
+    {
+      "id": "TM05",
+      "category": "Defensa",
+      "name": "Validación Interna",
+      "severity": "Media",
+      "icon": "brain",
+      "howItWorks": "Confiar en el propio juicio.",
+      "redFlags": "Duda constante sobre uno mismo.",
+      "counterScript": "Yo sé lo que viví.",
+      "deepMechanism": "Fortalece el ego frente al ataque."
+    },
+    {
+      "id": "TM06",
+      "category": "Defensa",
+      "name": "Desapego",
+      "severity": "Baja",
+      "icon": "cloud",
+      "howItWorks": "Observar sin involucrarse.",
+      "redFlags": "Intentos de provocación.",
+      "counterScript": "Esa es tu opinión.",
+      "deepMechanism": "Neutraliza la carga emocional."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Qué es el Gaslighting?",
+      "options": [
+        "Un tipo de luz",
+        "Manipulación de la realidad",
+        "Un juego de azar",
+        "Una técnica de ventas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una forma de abuso donde se hace dudar a la víctima de su percepción."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo del Love Bombing?",
+      "options": [
+        "Amistad sincera",
+        "Crear dependencia",
+        "Ahorrar dinero",
+        "Mejorar la comunicación"
+      ],
+      "correctIndex": 1,
+      "explanation": "Busca crear una deuda emocional rápida."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 1,
+      "question": "¿Qué técnica es ideal contra el drama?",
+      "options": [
+        "Piedra Gris",
+        "Triangulación",
+        "Proyección",
+        "Gritos"
+      ],
+      "correctIndex": 0,
+      "explanation": "La Piedra Gris elimina el refuerzo que el manipulador busca."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "¿Qué es la proyección?",
+      "options": [
+        "Ver el futuro",
+        "Atribuir defectos propios a otros",
+        "Un tipo de cine",
+        "Una técnica de relajación"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es un mecanismo de defensa para desviar la culpa."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 1,
+      "question": "¿Por qué se usa el aislamiento?",
+      "options": [
+        "Para proteger",
+        "Para controlar",
+        "Para ahorrar",
+        "Para viajar"
+      ],
+      "correctIndex": 1,
+      "explanation": "El aislamiento elimina las redes de apoyo de la víctima."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 1,
+      "question": "¿Qué es la triangulación?",
+      "options": [
+        "Un triángulo amoroso",
+        "Introducir a un tercero",
+        "Una forma de geometría",
+        "Un tipo de dieta"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se usa para generar inseguridad mediante la comparación."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Manipulación",
+      "category": "Concepto",
+      "definition": "Influencia oculta.",
+      "practicalExample": "Mentir para obtener algo."
+    },
+    {
+      "id": "G02",
+      "term": "Gaslighting",
+      "category": "Táctica",
+      "definition": "Duda inducida.",
+      "practicalExample": "Decir 'eso nunca pasó'."
+    },
+    {
+      "id": "G03",
+      "term": "Love Bombing",
+      "category": "Táctica",
+      "definition": "Afecto excesivo.",
+      "practicalExample": "Regalos constantes al inicio."
+    },
+    {
+      "id": "G04",
+      "term": "Proyección",
+      "category": "Psicología",
+      "definition": "Reflejo de sombras.",
+      "practicalExample": "Acusar de celos siendo celoso."
+    },
+    {
+      "id": "G05",
+      "term": "Triangulación",
+      "category": "Táctica",
+      "definition": "Uso de terceros.",
+      "practicalExample": "Comparar con un ex."
+    },
+    {
+      "id": "G06",
+      "term": "Piedra Gris",
+      "category": "Defensa",
+      "definition": "Neutralidad total.",
+      "practicalExample": "Responder con monosílabos."
+    },
+    {
+      "id": "G07",
+      "term": "Aislamiento",
+      "category": "Táctica",
+      "definition": "Corte social.",
+      "practicalExample": "Criticar a los amigos."
+    },
+    {
+      "id": "G08",
+      "term": "Disonancia",
+      "category": "Psicología",
+      "definition": "Conflicto mental.",
+      "practicalExample": "Creer en alguien que miente."
+    },
+    {
+      "id": "G09",
+      "term": "Asertividad",
+      "category": "Defensa",
+      "definition": "Comunicación clara.",
+      "practicalExample": "Decir 'no' sin culpa."
+    },
+    {
+      "id": "G10",
+      "term": "Intermitencia",
+      "category": "Táctica",
+      "definition": "Refuerzo variable.",
+      "practicalExample": "Dar y quitar atención."
+    },
+    {
+      "id": "G11",
+      "term": "Victimización",
+      "category": "Táctica",
+      "definition": "Rol de mártir.",
+      "practicalExample": "Culpar a otros de su vida."
+    },
+    {
+      "id": "G12",
+      "term": "Límites",
+      "category": "Defensa",
+      "definition": "Reglas de trato.",
+      "practicalExample": "No permitir gritos."
+    },
+    {
+      "id": "G13",
+      "term": "Sesgo",
+      "category": "Psicología",
+      "definition": "Error cognitivo.",
+      "practicalExample": "Creer solo lo que gusta."
+    },
+    {
+      "id": "G14",
+      "term": "Autodefensa",
+      "category": "Defensa",
+      "definition": "Protección mental.",
+      "practicalExample": "Analizar antes de actuar."
+    },
+    {
+      "id": "G15",
+      "term": "Sombra",
+      "category": "Psicología",
+      "definition": "Lado oculto.",
+      "practicalExample": "Negar defectos propios."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Detección",
+      "title": "Microexpresiones de desprecio",
+      "cue": "Labio superior elevado unilateralmente.",
+      "interpretation": "Sentimiento de superioridad o burla.",
+      "practicalDrill": "Observar entrevistas y buscar el gesto."
+    },
+    {
+      "id": "BL02",
+      "category": "Detección",
+      "title": "Bloqueo ocular",
+      "cue": "Cerrar los ojos al escuchar una pregunta.",
+      "interpretation": "Intento de borrar la realidad o mentir.",
+      "practicalDrill": "Hacer preguntas difíciles y observar."
+    },
+    {
+      "id": "BL03",
+      "category": "Detección",
+      "title": "Incongruencia verbal",
+      "cue": "Decir 'sí' mientras se niega con la cabeza.",
+      "interpretation": "Duda interna o engaño.",
+      "practicalDrill": "Practicar la escucha activa."
+    },
+    {
+      "id": "BL04",
+      "category": "Detección",
+      "title": "Barreras físicas",
+      "cue": "Cruzar brazos o sostener objetos frente al pecho.",
+      "interpretation": "Defensa o rechazo de ideas.",
+      "practicalDrill": "Observar posturas en reuniones."
+    },
+    {
+      "id": "BL05",
+      "category": "Detección",
+      "title": "Contacto visual excesivo",
+      "cue": "Mirada fija sin parpadeo.",
+      "interpretation": "Intento de intimidación o control.",
+      "practicalDrill": "Mantener mirada natural sin forzar."
+    },
+    {
+      "id": "BL06",
+      "category": "Detección",
+      "title": "Orientación del torso",
+      "cue": "Torso alejado del interlocutor.",
+      "interpretation": "Deseo de finalizar la interacción.",
+      "practicalDrill": "Observar la dirección de los pies."
     }
   ]
 };

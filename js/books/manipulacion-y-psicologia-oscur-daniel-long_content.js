@@ -1,3 +1,4 @@
+// Contenido enriquecido para Manipulación y Psicología Oscura: Guerra Psicológica
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_4.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>--- MANIPULACIÓN Y PSICOLOGÍA OSCURA GUÍA ESENCIAL SOBRE MANIPULACIÓN, ENGAÑO, PERSUASIÓN Y GUERRA PSICOLÓGICA. CÓMO RECONOCER LAS TÉCNICAS DE CONTROL MENTAL Y APRENDER A DEFENDERSE. © Copyright 2021. Todos los derechos reservados. Este documento está orientado a proporcionar información exacta y fiable en relación con el tema y la cuestión tratados. De una Declaración de Principios que fue aceptada y aprobada igualmente por un Comité de la Asociación Americana de Abogados y un Comité de Editores y Asociaciones. En ningún caso es legal la reproducción, duplicación o transmisión de cualquier parte de este documento ni en medios electrónicos ni en formato impreso. Todos los derechos están reservados. La información proporcionada en este documento se declara veraz y coherente, por lo que cualquier responsabilidad, en términos de falta de atención o de otro tipo, por cualquier uso o abuso de cualquier política, proceso o instrucciones contenidas en el mismo es responsabilidad única y absoluta del lector receptor. Bajo ninguna circunstancia se podrá responsabilizar legalmente al editor por cualquier reparación, daño o pérdida monetaria debida a la información aquí contenida, ya sea directa o indirectamente. Los autores respectivos son propietarios de todos los derechos de autor que no son propiedad del editor. La información aquí contenida se ofrece únicamente con fines informativos y es universal como tal. La presentación de la información es sin contrato ni ningún tipo de garant",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Mapa Táctico de Navegación Psicológica\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_daniel_long/long_m1_preliminares.webp\" alt=\"Mapa Táctico de Navegación Psicológica\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- MANIPULACIÓN Y PSICOLOGÍA OSCURA GUÍA ESENCIAL SOBRE MANIPULACIÓN, ENGAÑO, PERSUASIÓN Y GUERRA PSICOLÓGICA. CÓMO RECONOCER LAS TÉCNICAS DE CONTROL MENTAL Y APRENDER A DEFENDERSE. © Copyright 2021. Todos los derechos reservados. Este documento está orientado a proporcionar información exacta y fiable en relación con el tema y la cuestión tratados. De una Declaración de Principios que fue aceptada y aprobada igualmente por un Comité de la Asociación Americana de Abogados y un Comité de Editores y Asociaciones. En ningún caso es legal la reproducción, duplicación o transmisión de cualquier parte de este documento ni en medios electrónicos ni en formato impreso. Todos los derechos están reservados. La información proporcionada en este documento se declara veraz y coherente, por lo que cualquier responsabilidad, en términos de falta de atención o de otro tipo, por cualquier uso o abuso de cualquier política, proceso o instrucciones contenidas en el mismo es responsabilidad única y absoluta del lector receptor. Bajo ninguna circunstancia se podrá responsabilizar legalmente al editor por cualquier reparación, daño o pérdida monetaria debida a la información aquí contenida, ya sea directa o indirectamente. Los autores respectivos son propietarios de todos los derechos de autor que no son propiedad del editor. La información aquí contenida se ofrece únicamente con fines informativos y es universal como tal. La presentación de la información es sin contrato ni ningún tipo de garant",
           "interactiveChallenge": {
             "question": "¿Qué distingue a un experto en la aislamiento progresivo en el contexto de \"Preliminares E Introduccion\"?",
             "options": [
@@ -188,7 +189,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- CAPÍTULO 1. PSICOLOGÍA DE LA MANIPULACIÓN La psicología de la manipulación es el campo de la psicología que estudia las diferentes formas en que se puede manipular a los seres humanos. Se trata de todo tipo de trucos y técnicas que utilizan las personas para convencer a otras de que hagan algo. En este capítulo, hablaremos de cómo funcionan los manipuladores y de cómo puedes evitar ser manipulado. También tendremos una lista de los mejores libros sobre psicología de la manipulación después de esta sección. ¿Qué es la Psicología de la Manipulación? La palabra “manipulación” suele tener una connotación negativa. Sin embargo, no toda la manipulación es mala o ineficaz. Hay algunos tipos de persuasión que utilizamos a diario y que no se consideran manipuladores. Por ejemplo, cuando tu pareja te pide algo como amigo, no te sentirías ofendido si utilizara la misma técnica que utilizan los manipuladores contigo. Entonces, ¿cuál es la diferencia? En lo que respecta a la psicología de la manipulación, la principal diferencia entre la persuasión normal y la manipulación es la intención. Cuando alguien utiliza la persuasión, puedes estar seguro de que su única intención es que ambas partes salgan contentas. Sin embargo, en el caso de los manipuladores, sus intenciones no siempre son honorables. Sólo les importa conseguir lo que quieren. Los manipuladores utilizan muchas de las técnicas que tú y yo utilizamos a diario. La diferencia es su intención, así como el momento. Saben cuándo",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Palancas y Presiones del Comportamiento Humano\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_daniel_long/long_m2_psicologia_manipulacion.webp\" alt=\"Palancas y Presiones del Comportamiento Humano\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- CAPÍTULO 1. PSICOLOGÍA DE LA MANIPULACIÓN La psicología de la manipulación es el campo de la psicología que estudia las diferentes formas en que se puede manipular a los seres humanos. Se trata de todo tipo de trucos y técnicas que utilizan las personas para convencer a otras de que hagan algo. En este capítulo, hablaremos de cómo funcionan los manipuladores y de cómo puedes evitar ser manipulado. También tendremos una lista de los mejores libros sobre psicología de la manipulación después de esta sección. ¿Qué es la Psicología de la Manipulación? La palabra “manipulación” suele tener una connotación negativa. Sin embargo, no toda la manipulación es mala o ineficaz. Hay algunos tipos de persuasión que utilizamos a diario y que no se consideran manipuladores. Por ejemplo, cuando tu pareja te pide algo como amigo, no te sentirías ofendido si utilizara la misma técnica que utilizan los manipuladores contigo. Entonces, ¿cuál es la diferencia? En lo que respecta a la psicología de la manipulación, la principal diferencia entre la persuasión normal y la manipulación es la intención. Cuando alguien utiliza la persuasión, puedes estar seguro de que su única intención es que ambas partes salgan contentas. Sin embargo, en el caso de los manipuladores, sus intenciones no siempre son honorables. Sólo les importa conseguir lo que quieren. Los manipuladores utilizan muchas de las técnicas que tú y yo utilizamos a diario. La diferencia es su intención, así como el momento. Saben cuándo",
           "interactiveChallenge": {
             "question": "¿Cuál de las siguientes afirmaciones sobre la hipnosis ericksoniana en el contexto de \"Capitulo 1 Psicologia De La Manipulacion\"?",
             "options": [
@@ -543,7 +544,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Cómo Saber que te Están Manipulando? ¿Alguna vez te has preguntado por qué alguien está tratando de manipularte? A veces la gente puede ser tan increíblemente manipuladora, que puede ser difícil averiguar lo que están haciendo. La gente puede decirte que algo no es cierto o decir que ven la situación a tu manera, cuando en realidad es lo contrario. Así que aquí hay algunas formas en que la gente podría tratar de manipularte para explicar cómo saben que son blanco de los manipuladores: 1) Es sólo cuestión de tiempo antes de que todos los demás descubran sus intenciones para dirigirse a ellos y tendrán un gran problema con ellos debido a esto. 2) Reciben presiones de alguien importante en su vida, como amigos o pareja, etc., para que dejen de hacerlo. 3) Ya han hecho mucho por ti y se han esforzado por ayudarte; simplemente no quieren herir tus sentimientos ahora diciéndote la verdad. 4) Pareces una persona completamente diferente a la que eras antes de empezar esta nueva andadura. Parece que el cambio se produjo de la noche a la mañana y es un poco raro. 5) El manipulador es tan bueno en lo que hace, que puede ser difícil saber que está manipulando a alguien. Esto se debe a que son buenos para ocultar sus verdaderas intenciones de querer manipular a alguien hasta que es demasiado tarde. ¿Cómo Lidiar con un Manipulador? Los manipuladores son maestros de la manipulación. En su mayor parte, saben cómo presionar nuestros botones y cómo hacernos enojar tanto que arremetamos con",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Detección Temprana de Incongruencias y Trampas\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_daniel_long/long_m3_como_saber_manipulan.webp\" alt=\"Detección Temprana de Incongruencias y Trampas\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Cómo Saber que te Están Manipulando? ¿Alguna vez te has preguntado por qué alguien está tratando de manipularte? A veces la gente puede ser tan increíblemente manipuladora, que puede ser difícil averiguar lo que están haciendo. La gente puede decirte que algo no es cierto o decir que ven la situación a tu manera, cuando en realidad es lo contrario. Así que aquí hay algunas formas en que la gente podría tratar de manipularte para explicar cómo saben que son blanco de los manipuladores: 1) Es sólo cuestión de tiempo antes de que todos los demás descubran sus intenciones para dirigirse a ellos y tendrán un gran problema con ellos debido a esto. 2) Reciben presiones de alguien importante en su vida, como amigos o pareja, etc., para que dejen de hacerlo. 3) Ya han hecho mucho por ti y se han esforzado por ayudarte; simplemente no quieren herir tus sentimientos ahora diciéndote la verdad. 4) Pareces una persona completamente diferente a la que eras antes de empezar esta nueva andadura. Parece que el cambio se produjo de la noche a la mañana y es un poco raro. 5) El manipulador es tan bueno en lo que hace, que puede ser difícil saber que está manipulando a alguien. Esto se debe a que son buenos para ocultar sus verdaderas intenciones de querer manipular a alguien hasta que es demasiado tarde. ¿Cómo Lidiar con un Manipulador? Los manipuladores son maestros de la manipulación. En su mayor parte, saben cómo presionar nuestros botones y cómo hacernos enojar tanto que arremetamos con",
           "interactiveChallenge": {
             "question": "Al aplicar los principios de la prueba social en el contexto de \"Capitulo 1 Como Saber Que Te Estan Manipulando\"?",
             "options": [
@@ -753,7 +754,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Técnicas Avanzadas de Manipulación Mental El “Gaslighting” Esta técnica intenta hacer que la víctima dude de su propia memoria, de su percepción de la realidad y de su sentido del yo. Crea desconfianza en la víctima sugiriendo que sus pensamientos son confusos o poco fiables. El agresor suele utilizar la negación, la contradicción y la mentira para hacer que las víctimas se cuestionen indebidamente. La Estafa Prolongada Esta técnica está diseñada para manipular a una persona durante un extenso periodo de tiempo. Esta técnica funciona mejor cuando la víctima no cree que está siendo manipulada, pero poco a poco verá que el manipulador ha tenido el control de las cosas todo el tiempo. La Reciprocidad Este punto es el más básico de estas técnicas, pero hay que destacarlo porque se puede utilizar junto con los otros dos puntos. Básicamente se trata de condicionar a alguien a través del refuerzo positivo y la desensibilización hacia lo que quieras de ellos. Funciona reforzando el comportamiento deseado o exponiendo a alguien a algo una y otra vez hasta que deja de tener miedo. Esta técnica también puede incluir el uso de frases como “si” o “cuando” para influir en el comportamiento, esta es una forma avanzada de manipulación mental que por lo general toma mucho más tiempo y esfuerzo por parte del manipulador, pero puede producir resultados más altos en general si se aplica correctamente. Ejemplo: “Cuando hagas cosas por mí, te recompensaré” o “Si te digo que te quiero, ¿me ayudarás",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Laberintos Cognitivos y Desorientación Mental\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_daniel_long/long_m4_tecnicas_avanzadas.webp\" alt=\"Laberintos Cognitivos y Desorientación Mental\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Técnicas Avanzadas de Manipulación Mental El “Gaslighting” Esta técnica intenta hacer que la víctima dude de su propia memoria, de su percepción de la realidad y de su sentido del yo. Crea desconfianza en la víctima sugiriendo que sus pensamientos son confusos o poco fiables. El agresor suele utilizar la negación, la contradicción y la mentira para hacer que las víctimas se cuestionen indebidamente. La Estafa Prolongada Esta técnica está diseñada para manipular a una persona durante un extenso periodo de tiempo. Esta técnica funciona mejor cuando la víctima no cree que está siendo manipulada, pero poco a poco verá que el manipulador ha tenido el control de las cosas todo el tiempo. La Reciprocidad Este punto es el más básico de estas técnicas, pero hay que destacarlo porque se puede utilizar junto con los otros dos puntos. Básicamente se trata de condicionar a alguien a través del refuerzo positivo y la desensibilización hacia lo que quieras de ellos. Funciona reforzando el comportamiento deseado o exponiendo a alguien a algo una y otra vez hasta que deja de tener miedo. Esta técnica también puede incluir el uso de frases como “si” o “cuando” para influir en el comportamiento, esta es una forma avanzada de manipulación mental que por lo general toma mucho más tiempo y esfuerzo por parte del manipulador, pero puede producir resultados más altos en general si se aplica correctamente. Ejemplo: “Cuando hagas cosas por mí, te recompensaré” o “Si te digo que te quiero, ¿me ayudarás",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la framing narrativo en el contexto de \"Capitulo 1 Tecnicas Avanzadas De Manipulacion Mental\"?",
             "options": [
@@ -1282,7 +1283,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Técnicas de Manipulación para Controlar las Mentes La mayoría de las personas quieren tener el control de sus mentes y no que otros las controlen. Sin embargo, en nuestra sociedad, hay personas con poder que quieren controlar las mentes de otras personas. La forma en que lo hacen es mediante el uso de técnicas de manipulación que también utilizan las sectas, los criminales y los políticos corruptos. Estas técnicas de manipulación pueden ser aprendidas por cualquier persona y pueden ser usadas con cualquiera, ¡incluso tú! Vale la pena conocer estas técnicas de manipulación para evitar ser víctima de ellas: “Gaslighting”: Esta técnica consiste en mentir sobre hechos objetivos, negar algo que la víctima sabe que es cierto o afirmar que las víctimas son demasiado sensibles cuando se quejan del comportamiento del “gaslighter” hacia ellas. Este comportamiento pretende hacer que la víctima dude de su propia memoria y percepción de la realidad. Proyección: Esta técnica consiste en acusar falsamente a los demás de los mismos pecados que alguien comete. Se trata de una forma habitual de psiquiatría alternativa utilizada por los profesionales de la salud mental, especialmente en el ámbito forense, para evitar las consecuencias de sus propias acciones o comportamientos poco éticos. Desvalorización: Esta técnica de manipulación se ha utilizado en mí muchas veces porque yo puedo ser bastante crítico y conflictivo a veces cuando necesito despertar a esa persona, pero simplemente ésta no qui",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Inoculación de Ideas y Sugestión Subliminal\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_daniel_long/long_m5_ideas_implantadas.webp\" alt=\"Inoculación de Ideas y Sugestión Subliminal\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Técnicas de Manipulación para Controlar las Mentes La mayoría de las personas quieren tener el control de sus mentes y no que otros las controlen. Sin embargo, en nuestra sociedad, hay personas con poder que quieren controlar las mentes de otras personas. La forma en que lo hacen es mediante el uso de técnicas de manipulación que también utilizan las sectas, los criminales y los políticos corruptos. Estas técnicas de manipulación pueden ser aprendidas por cualquier persona y pueden ser usadas con cualquiera, ¡incluso tú! Vale la pena conocer estas técnicas de manipulación para evitar ser víctima de ellas: “Gaslighting”: Esta técnica consiste en mentir sobre hechos objetivos, negar algo que la víctima sabe que es cierto o afirmar que las víctimas son demasiado sensibles cuando se quejan del comportamiento del “gaslighter” hacia ellas. Este comportamiento pretende hacer que la víctima dude de su propia memoria y percepción de la realidad. Proyección: Esta técnica consiste en acusar falsamente a los demás de los mismos pecados que alguien comete. Se trata de una forma habitual de psiquiatría alternativa utilizada por los profesionales de la salud mental, especialmente en el ámbito forense, para evitar las consecuencias de sus propias acciones o comportamientos poco éticos. Desvalorización: Esta técnica de manipulación se ha utilizado en mí muchas veces porque yo puedo ser bastante crítico y conflictivo a veces cuando necesito despertar a esa persona, pero simplemente ésta no qui",
           "interactiveChallenge": {
             "question": "Ante una situación de la aislamiento progresivo en el contexto de \"Capitulo 1 Control Mental Con Ideas Implantadas\"?",
             "options": [
@@ -1724,7 +1725,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "---,,persona. El término “lavado cerebral” ha sido utilizado por los medios de comunicación sensacionalistas y por Hollywood en películas (como El candidato de Manchuria) para crear una descripción exagerada de técnicas siniestras que no existen Pero, ¿cuáles son algunas técnicas para evitar el lavado de cerebro? Pues bien, a continuación, se ofrecen varios consejos para protegerse del lavado de cerebro:,Sé consciente: La conciencia es un elemento clave para evitar el lavado de cerebro, ya que te permite reconocer el aspecto de la manipulación desde el principio. Al ser consciente de lo que ocurre, puedes tomar la decisión de dejar de ser víctima.,Tener apoyo: Tener un sistema de apoyo sólido puede ayudarte a evitar ser víctima del lavado cerebral. Si tienes un grupo sólido de amigos y familiares a tu alrededor, es probable que puedan proporcionarte el apoyo necesario en situaciones difíciles. En épocas anteriores, el lavado de cerebro era utilizado tanto por los gobiernos totalitarios como por las sectas. Aunque ya no es así en los países desarrollados, tener un sistema de apoyo fuerte puede ayudar a evitar que te laven el cerebro.,Conoce tus valores: Tener valores es algo que a mucha gente le resulta difícil porque se necesita tiempo para desarrollarlos. Los valores son los pilares del carácter de cada uno y ayudan a definir quién es como persona. Conocer tus valores puede evitar que hagas cosas que normalmente considerarías incorrectas sin saber por qué.,,,Ser racional:,Se",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Desprogramación y Reseteo Cognitivo Sistemático\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_daniel_long/long_m6_lavado_cerebral.webp\" alt=\"Desprogramación y Reseteo Cognitivo Sistemático\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>---,,persona. El término “lavado cerebral” ha sido utilizado por los medios de comunicación sensacionalistas y por Hollywood en películas (como El candidato de Manchuria) para crear una descripción exagerada de técnicas siniestras que no existen Pero, ¿cuáles son algunas técnicas para evitar el lavado de cerebro? Pues bien, a continuación, se ofrecen varios consejos para protegerse del lavado de cerebro:,Sé consciente: La conciencia es un elemento clave para evitar el lavado de cerebro, ya que te permite reconocer el aspecto de la manipulación desde el principio. Al ser consciente de lo que ocurre, puedes tomar la decisión de dejar de ser víctima.,Tener apoyo: Tener un sistema de apoyo sólido puede ayudarte a evitar ser víctima del lavado cerebral. Si tienes un grupo sólido de amigos y familiares a tu alrededor, es probable que puedan proporcionarte el apoyo necesario en situaciones difíciles. En épocas anteriores, el lavado de cerebro era utilizado tanto por los gobiernos totalitarios como por las sectas. Aunque ya no es así en los países desarrollados, tener un sistema de apoyo fuerte puede ayudar a evitar que te laven el cerebro.,Conoce tus valores: Tener valores es algo que a mucha gente le resulta difícil porque se necesita tiempo para desarrollarlos. Los valores son los pilares del carácter de cada uno y ayudan a definir quién es como persona. Conocer tus valores puede evitar que hagas cosas que normalmente considerarías incorrectas sin saber por qué.,,,Ser racional:,Se",
           "interactiveChallenge": {
             "question": "El concepto central de la hipnosis ericksoniana en el contexto de \"Capitulo 1 Que Es El Lavado Cerebral\"?",
             "options": [
@@ -1934,7 +1935,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Rasgos de comportamiento y carácter de los manipuladores Hay un número de rasgos de comportamiento y de carácter de los manipuladores. La mayoría de los manipuladores tienen los siguientes rasgos: son engañosos, manipuladores, atrayentes, agresivos y atentos. Engañosos: Se sabe que los manipuladores mienten sobre su pasado o dicen verdades parciales para parecer más creíbles. Incluso pueden borrar sus cuentas en las redes sociales para dar una falsa impresión de quiénes son en realidad. Esto les permite engañar a los demás para que confíen en ellos en el futuro porque, al fin y al cabo, nadie confiaría en un mentiroso poco fiable para nada importante. Los psicólogos especializados en manipulación afirman que cuando los manipuladores hablan de su pasado para presentarse de forma positiva, con frecuencia lo hacen a costa de otra persona (sus víctimas). Manipuladores: Las personas manipuladoras pueden ser muy persuasivas y quieren que los demás a su alrededor sigan sus deseos. Los psicólogos especializados en manipulación creen que los manipuladores tienden a ser muy persuasivos. Con frecuencia son convincentes al manipular a sus víctimas para que les den dinero, regalos o incluso sexo. Atrayentes: Los manipuladores suelen tener una sensación de carisma y encanto que atrae a los demás y les hace sentirse a gusto de inmediato. Por eso, la gente suele ser manipulada a primera vista por un manipulador encantador con buena apariencia y una sonrisa agradable. Agresivos: Los manip",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Manipulación de Masas y Magnetismo Colectivo\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_daniel_long/long_m7_rasgos_masas.webp\" alt=\"Manipulación de Masas y Magnetismo Colectivo\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Rasgos de comportamiento y carácter de los manipuladores Hay un número de rasgos de comportamiento y de carácter de los manipuladores. La mayoría de los manipuladores tienen los siguientes rasgos: son engañosos, manipuladores, atrayentes, agresivos y atentos. Engañosos: Se sabe que los manipuladores mienten sobre su pasado o dicen verdades parciales para parecer más creíbles. Incluso pueden borrar sus cuentas en las redes sociales para dar una falsa impresión de quiénes son en realidad. Esto les permite engañar a los demás para que confíen en ellos en el futuro porque, al fin y al cabo, nadie confiaría en un mentiroso poco fiable para nada importante. Los psicólogos especializados en manipulación afirman que cuando los manipuladores hablan de su pasado para presentarse de forma positiva, con frecuencia lo hacen a costa de otra persona (sus víctimas). Manipuladores: Las personas manipuladoras pueden ser muy persuasivas y quieren que los demás a su alrededor sigan sus deseos. Los psicólogos especializados en manipulación creen que los manipuladores tienden a ser muy persuasivos. Con frecuencia son convincentes al manipular a sus víctimas para que les den dinero, regalos o incluso sexo. Atrayentes: Los manipuladores suelen tener una sensación de carisma y encanto que atrae a los demás y les hace sentirse a gusto de inmediato. Por eso, la gente suele ser manipulada a primera vista por un manipulador encantador con buena apariencia y una sonrisa agradable. Agresivos: Los manip",
           "interactiveChallenge": {
             "question": "¿Cómo reconoce un observador entrenado la prueba social en el contexto de \"Capitulo 1 Rasgos De Los Manipuladores Y Manipulacion De Masas\"?",
             "options": [
@@ -2463,7 +2464,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- CAPÍTULO 2. LA SEDUCCIÓN OSCURA La seducción oscura es una guía breve pero informativa y detallada sobre cómo manipular a las personas con la psicología oscura. La seducción es una forma de arte que se basa en la manipulación de los desencadenantes sociales y cognitivos para influir, excitar y cumplir. La seducción oscura tiene un mayor atractivo que la persuasión tradicional porque está profundamente arraigada en las emociones humanas en lugar de en la racionalidad lógica. Explota ese impulso tan primario que hay en los seres humanos de crear orden, armonía, belleza y un sentimiento de pertenencia. Al utilizar este enfoque único de la seducción, uno puede entrar rápidamente en una profunda intimidad con alguien, así como construir una verdadera confianza dentro de la relación en la que están seduciendo. La seducción oscura tiene una perspectiva única y emocionante sobre la mayoría de los estilos convencionales de seducción y manipulación. El enfoque principal no es la efectividad, sino el proceso de seducción en sí mismo. La seducción oscura no trata únicamente de cómo manipular a las personas para obtener un objetivo o resultado. En cambio, se centra más en el sentimiento y la emoción que se desprenden del proceso de seducción, más que en su resultado final. La seducción es una forma de arte ancestral que comenzó como una técnica de supervivencia incivilizada que evolucionó hasta convertirse en sofisticadas formas multidimensionales de manipulación social que siguen exi",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Atmósferas Íntimas y Seducción Psicológica\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_daniel_long/long_m8_seduccion_oscura.webp\" alt=\"Atmósferas Íntimas y Seducción Psicológica\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- CAPÍTULO 2. LA SEDUCCIÓN OSCURA La seducción oscura es una guía breve pero informativa y detallada sobre cómo manipular a las personas con la psicología oscura. La seducción es una forma de arte que se basa en la manipulación de los desencadenantes sociales y cognitivos para influir, excitar y cumplir. La seducción oscura tiene un mayor atractivo que la persuasión tradicional porque está profundamente arraigada en las emociones humanas en lugar de en la racionalidad lógica. Explota ese impulso tan primario que hay en los seres humanos de crear orden, armonía, belleza y un sentimiento de pertenencia. Al utilizar este enfoque único de la seducción, uno puede entrar rápidamente en una profunda intimidad con alguien, así como construir una verdadera confianza dentro de la relación en la que están seduciendo. La seducción oscura tiene una perspectiva única y emocionante sobre la mayoría de los estilos convencionales de seducción y manipulación. El enfoque principal no es la efectividad, sino el proceso de seducción en sí mismo. La seducción oscura no trata únicamente de cómo manipular a las personas para obtener un objetivo o resultado. En cambio, se centra más en el sentimiento y la emoción que se desprenden del proceso de seducción, más que en su resultado final. La seducción es una forma de arte ancestral que comenzó como una técnica de supervivencia incivilizada que evolucionó hasta convertirse en sofisticadas formas multidimensionales de manipulación social que siguen exi",
           "interactiveChallenge": {
             "question": "Según este módulo, ¿cuál es el mecanismo principal de la framing narrativo en el contexto de \"Capitulo 2 La Seduccion Oscura\"?",
             "options": [
@@ -2760,7 +2761,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- CAPÍTULO 3. EL PAPEL DE LA DEFENSA La defensa es el acto de defenderse a sí mismo, a sus bienes o a sus derechos de los daños físicos o mentales causados por un ataque. La defensa es un derecho natural que tienen todas las personas para protegerse a sí mismas y a sus bienes. La pregunta entonces es “¿por qué” las personas tienen derecho a defenderse? La defensa es un derecho natural y siempre debe ser defendida sin importar las consecuencias que se produzcan. Otra razón por la que la defensa es importante es porque todos tienen el deber de protegerse a sí mismos, a sus bienes o a sus derechos a toda costa. Los hombres están “dotados por su Creador de ciertos derechos inalienables, incluyendo la vida, la libertad y la búsqueda de la felicidad”. Los que violan los derechos de otra persona deben ser castigados por su delito. El gobierno tiene la responsabilidad de proteger a los ciudadanos de cualquier daño que puedan sufrir. Si esta protección falla, se deben imponer castigos más severos a los que violan los derechos de los demás. Este castigo puede ir desde multas, prisión, castigos corporales, etc. Otra razón por la que la defensa es importante es porque es un derecho constitucional. La Constitución otorga a los ciudadanos el derecho a portar armas para protegerse de cualquier ejército extranjero que pueda invadir su propiedad y perjudicarlos. Hay muchos otros ejemplos como: La defensa es importante porque permite a los ciudadanos estar preparados para cualquier cosa que",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Escudo Cristalino de Autoprotección Psicológica\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_daniel_long/long_m9_papel_defensa.webp\" alt=\"Escudo Cristalino de Autoprotección Psicológica\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- CAPÍTULO 3. EL PAPEL DE LA DEFENSA La defensa es el acto de defenderse a sí mismo, a sus bienes o a sus derechos de los daños físicos o mentales causados por un ataque. La defensa es un derecho natural que tienen todas las personas para protegerse a sí mismas y a sus bienes. La pregunta entonces es “¿por qué” las personas tienen derecho a defenderse? La defensa es un derecho natural y siempre debe ser defendida sin importar las consecuencias que se produzcan. Otra razón por la que la defensa es importante es porque todos tienen el deber de protegerse a sí mismos, a sus bienes o a sus derechos a toda costa. Los hombres están “dotados por su Creador de ciertos derechos inalienables, incluyendo la vida, la libertad y la búsqueda de la felicidad”. Los que violan los derechos de otra persona deben ser castigados por su delito. El gobierno tiene la responsabilidad de proteger a los ciudadanos de cualquier daño que puedan sufrir. Si esta protección falla, se deben imponer castigos más severos a los que violan los derechos de los demás. Este castigo puede ir desde multas, prisión, castigos corporales, etc. Otra razón por la que la defensa es importante es porque es un derecho constitucional. La Constitución otorga a los ciudadanos el derecho a portar armas para protegerse de cualquier ejército extranjero que pueda invadir su propiedad y perjudicarlos. Hay muchos otros ejemplos como: La defensa es importante porque permite a los ciudadanos estar preparados para cualquier cosa que",
           "interactiveChallenge": {
             "question": "¿Qué distingue a un experto en la aislamiento progresivo en el contexto de \"Capitulo 3 El Papel De La Defensa\"?",
             "options": [
@@ -2970,7 +2971,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "CONCLUSIÓN Los estudios demuestran que la Psicología oscura es uno de los métodos más eficaces para manipular a las personas. Las técnicas de manipulación psicológica pueden utilizarse tanto en línea como fuera de ella. Esta forma de manipulación puede hacer que las personas hagan lo que tú quieres que hagan, cuando tú quieres que lo hagan, incluso si no les gusta hacerlo. Aunque algunas estrategias psicológicas oscuras son ilegales, hay muchos cursos y libros en línea que enseñan varias formas de esta práctica que te ayudan a aprender los trucos y el lenguaje de estas tácticas. La manipulación psicológica es un proceso en el que las emociones, los pensamientos, las motivaciones o el comportamiento de una persona son moldeados intencionalmente por otra persona o por un grupo de personas con el fin de beneficiarse a costa de la otra persona. Aunque esta palabra suena bastante siniestra y tiene una mala connotación, no es más que una descripción adecuada de la mayoría de las técnicas de manipulación. Por ejemplo, cuando los medios de comunicación presentan noticias o imágenes que influyen en las personas para que piensen y se comporten de forma beneficiosa para ellos, lo hacen mediante la manipulación psicológica. Como resultado, estas ideas pueden arraigar tanto en la mente de la gente que ésta no se da cuenta de que ha sido manipulada. Cuando se usa la coerción psicológica (o persuasión coercitiva), las propias creencias, valores y emociones de la víctima sobre sí misma o su",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Autonomía Mental y Claridad Triunfante\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manipulacion_daniel_long/long_m10_conclusion.webp\" alt=\"Autonomía Mental y Claridad Triunfante\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>CONCLUSIÓN Los estudios demuestran que la Psicología oscura es uno de los métodos más eficaces para manipular a las personas. Las técnicas de manipulación psicológica pueden utilizarse tanto en línea como fuera de ella. Esta forma de manipulación puede hacer que las personas hagan lo que tú quieres que hagan, cuando tú quieres que lo hagan, incluso si no les gusta hacerlo. Aunque algunas estrategias psicológicas oscuras son ilegales, hay muchos cursos y libros en línea que enseñan varias formas de esta práctica que te ayudan a aprender los trucos y el lenguaje de estas tácticas. La manipulación psicológica es un proceso en el que las emociones, los pensamientos, las motivaciones o el comportamiento de una persona son moldeados intencionalmente por otra persona o por un grupo de personas con el fin de beneficiarse a costa de la otra persona. Aunque esta palabra suena bastante siniestra y tiene una mala connotación, no es más que una descripción adecuada de la mayoría de las técnicas de manipulación. Por ejemplo, cuando los medios de comunicación presentan noticias o imágenes que influyen en las personas para que piensen y se comporten de forma beneficiosa para ellos, lo hacen mediante la manipulación psicológica. Como resultado, estas ideas pueden arraigar tanto en la mente de la gente que ésta no se da cuenta de que ha sido manipulada. Cuando se usa la coerción psicológica (o persuasión coercitiva), las propias creencias, valores y emociones de la víctima sobre sí misma o su",
           "interactiveChallenge": {
             "question": "¿Cuál de las siguientes afirmaciones sobre la hipnosis ericksoniana en el contexto de \"Conclusion\"?",
             "options": [
@@ -3085,6 +3086,594 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS-001",
+      "category": "Manipulación",
+      "title": "El Aislamiento Gradual",
+      "difficulty": "Intermedio",
+      "badge": "Analista de Patrones",
+      "scenarioDescription": "Un colega comienza a criticar sutilmente a tus amigos cercanos, sugiriendo que 'no te valoran como él'. ¿Cómo respondes?",
+      "options": [
+        {
+          "text": "Aceptar su perspectiva y alejarte de tus amigos.",
+          "outcome": "Vulnerabilidad",
+          "wisdomScore": 20,
+          "analysis": "Has caído en la trampa del aislamiento.",
+          "bookInsight": "El manipulador busca romper tus redes de apoyo para ser tu única fuente de validación."
+        },
+        {
+          "text": "Establecer un límite firme y cuestionar sus motivos.",
+          "outcome": "Resiliencia",
+          "wisdomScore": 95,
+          "analysis": "Has detectado la táctica de triangulación.",
+          "bookInsight": "La defensa requiere identificar la intención de dividir para reinar."
+        }
+      ]
+    },
+    {
+      "id": "CS-002",
+      "category": "Seducción Oscura",
+      "title": "El Espejo Emocional",
+      "difficulty": "Avanzado",
+      "badge": "Detector de Narcisistas",
+      "scenarioDescription": "Alguien nuevo en tu vida parece compartir todos tus gustos y valores de forma sospechosamente rápida.",
+      "options": [
+        {
+          "text": "Sentir una conexión profunda y confiar plenamente.",
+          "outcome": "Engaño",
+          "wisdomScore": 30,
+          "analysis": "Estás siendo víctima de 'mirroring'.",
+          "bookInsight": "La seducción oscura utiliza la imitación para generar una falsa sensación de alma gemela."
+        },
+        {
+          "text": "Introducir inconsistencias deliberadas para probar su autenticidad.",
+          "outcome": "Detección",
+          "wisdomScore": 90,
+          "analysis": "Has expuesto la falta de profundidad del manipulador.",
+          "bookInsight": "El manipulador no puede mantener la máscara si se le fuerza a improvisar fuera de su guion."
+        }
+      ]
+    },
+    {
+      "id": "CS-003",
+      "category": "Control Mental",
+      "title": "La Implantación de Ideas",
+      "difficulty": "Avanzado",
+      "badge": "Arquitecto Cognitivo",
+      "scenarioDescription": "Un superior insiste en que una idea tuya fue originalmente suya, repitiéndolo hasta que empiezas a dudar.",
+      "options": [
+        {
+          "text": "Ceder para evitar conflictos laborales.",
+          "outcome": "Sumisión",
+          "wisdomScore": 10,
+          "analysis": "Has permitido la reescritura de tu realidad.",
+          "bookInsight": "La repetición constante es la base del lavado cerebral y la implantación de ideas."
+        },
+        {
+          "text": "Documentar cronológicamente tus aportes y presentarlos con calma.",
+          "outcome": "Protección",
+          "wisdomScore": 95,
+          "analysis": "Has neutralizado el gaslighting.",
+          "bookInsight": "La evidencia objetiva es el antídoto contra la manipulación de la memoria."
+        }
+      ]
+    },
+    {
+      "id": "CS-004",
+      "category": "Manipulación de Masas",
+      "title": "El Pánico Colectivo",
+      "difficulty": "Intermedio",
+      "badge": "Estratega Social",
+      "scenarioDescription": "En un grupo, todos empiezan a atacar a una persona por un rumor no verificado.",
+      "options": [
+        {
+          "text": "Unirte al grupo para no ser el siguiente objetivo.",
+          "outcome": "Complicidad",
+          "wisdomScore": 15,
+          "analysis": "Has sucumbido a la presión de grupo.",
+          "bookInsight": "La manipulación de masas se basa en el miedo al ostracismo."
+        },
+        {
+          "text": "Pedir pruebas concretas antes de emitir un juicio.",
+          "outcome": "Liderazgo",
+          "wisdomScore": 90,
+          "analysis": "Has roto el ciclo de la histeria colectiva.",
+          "bookInsight": "El pensamiento crítico es la mayor amenaza para los manipuladores de masas."
+        }
+      ]
+    },
+    {
+      "id": "CS-005",
+      "category": "Defensa",
+      "title": "La Técnica del Disco Rayado",
+      "difficulty": "Básico",
+      "badge": "Escudo Humano",
+      "scenarioDescription": "Un vendedor intenta presionarte para comprar algo que no quieres.",
+      "options": [
+        {
+          "text": "Explicar detalladamente por qué no puedes comprarlo.",
+          "outcome": "Debilidad",
+          "wisdomScore": 40,
+          "analysis": "Dar explicaciones da al manipulador más material para rebatir.",
+          "bookInsight": "No justifiques tus límites; solo mantén tu postura."
+        },
+        {
+          "text": "Repetir 'No estoy interesado' sin añadir más información.",
+          "outcome": "Victoria",
+          "wisdomScore": 95,
+          "analysis": "Has mantenido el control de la interacción.",
+          "bookInsight": "La brevedad es una herramienta de defensa poderosa."
+        }
+      ]
+    },
+    {
+      "id": "CS-006",
+      "category": "Lavado Cerebral",
+      "title": "La Fatiga Cognitiva",
+      "difficulty": "Avanzado",
+      "badge": "Resistente Mental",
+      "scenarioDescription": "Te mantienen en una reunión interminable, sin descanso, para que aceptes condiciones desfavorables.",
+      "options": [
+        {
+          "text": "Aceptar para terminar la reunión cuanto antes.",
+          "outcome": "Derrota",
+          "wisdomScore": 20,
+          "analysis": "La privación de descanso es una táctica de agotamiento.",
+          "bookInsight": "Nunca tomes decisiones importantes bajo fatiga extrema."
+        },
+        {
+          "text": "Solicitar un receso obligatorio para revisar los puntos con claridad.",
+          "outcome": "Control",
+          "wisdomScore": 90,
+          "analysis": "Has recuperado tu capacidad de juicio.",
+          "bookInsight": "El manipulador necesita tu agotamiento para anular tu voluntad."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC-001",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Hacer que alguien dude de su propia percepción de la realidad.",
+      "tacticalUse": "Desestabilizar la confianza del objetivo.",
+      "countermeasure": "Mantener un diario de hechos objetivos."
+    },
+    {
+      "id": "FC-002",
+      "bookNumber": 1,
+      "category": "Seducción",
+      "term": "Love Bombing",
+      "definition": "Bombardeo de afecto y atención al inicio de una relación.",
+      "tacticalUse": "Crear dependencia emocional rápida.",
+      "countermeasure": "Mantener el ritmo lento y observar acciones, no palabras."
+    },
+    {
+      "id": "FC-003",
+      "bookNumber": 1,
+      "category": "Control",
+      "term": "Triangulación",
+      "definition": "Introducir a una tercera persona para generar inseguridad.",
+      "tacticalUse": "Provocar competencia y celos.",
+      "countermeasure": "Comunicación directa con la persona involucrada."
+    },
+    {
+      "id": "FC-004",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Proyección",
+      "definition": "Atribuir a otros los defectos propios.",
+      "tacticalUse": "Desviar la culpa y limpiar la imagen propia.",
+      "countermeasure": "No aceptar críticas que no corresponden a tu conducta."
+    },
+    {
+      "id": "FC-005",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Aislamiento",
+      "definition": "Separar al objetivo de su red de apoyo.",
+      "tacticalUse": "Hacer al objetivo vulnerable y dependiente.",
+      "countermeasure": "Mantener vínculos fuertes con familia y amigos."
+    },
+    {
+      "id": "FC-006",
+      "bookNumber": 1,
+      "category": "Control",
+      "term": "Refuerzo Intermitente",
+      "definition": "Dar premios de forma aleatoria para crear adicción.",
+      "tacticalUse": "Mantener al objetivo esperando una recompensa.",
+      "countermeasure": "Reconocer el patrón de comportamiento errático."
+    },
+    {
+      "id": "FC-007",
+      "bookNumber": 1,
+      "category": "Seducción",
+      "term": "Mirroring",
+      "definition": "Imitar gestos y lenguaje del objetivo.",
+      "tacticalUse": "Generar una falsa sensación de afinidad.",
+      "countermeasure": "Observar si la imitación es exagerada o forzada."
+    },
+    {
+      "id": "FC-008",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Piedra Gris",
+      "definition": "Volverse aburrido y poco reactivo ante el manipulador.",
+      "tacticalUse": "Desalentar al manipulador al no obtener reacción.",
+      "countermeasure": "Limitar la información personal compartida."
+    },
+    {
+      "id": "FC-009",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Culpabilización",
+      "definition": "Hacer sentir al otro responsable de las emociones del manipulador.",
+      "tacticalUse": "Controlar el comportamiento mediante la culpa.",
+      "countermeasure": "Asumir responsabilidad solo por tus actos."
+    },
+    {
+      "id": "FC-010",
+      "bookNumber": 1,
+      "category": "Control",
+      "term": "Sobrecarga Cognitiva",
+      "definition": "Bombardear con información para nublar el juicio.",
+      "tacticalUse": "Forzar decisiones apresuradas.",
+      "countermeasure": "Pedir tiempo para procesar la información."
+    },
+    {
+      "id": "FC-011",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Sesgo de Autoridad",
+      "definition": "Tendencia a obedecer a figuras de poder.",
+      "tacticalUse": "Imponer ideas sin cuestionamiento.",
+      "countermeasure": "Evaluar la lógica, no el cargo de la persona."
+    },
+    {
+      "id": "FC-012",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Victimización",
+      "definition": "Presentarse como víctima para obtener favores.",
+      "tacticalUse": "Manipular la empatía del objetivo.",
+      "countermeasure": "Observar si el patrón de victimización es constante."
+    },
+    {
+      "id": "FC-013",
+      "bookNumber": 1,
+      "category": "Control",
+      "term": "Implantación de Ideas",
+      "definition": "Sembrar pensamientos como si fueran propios del objetivo.",
+      "tacticalUse": "Dirigir decisiones sin parecer autoritario.",
+      "countermeasure": "Analizar el origen de tus pensamientos recientes."
+    },
+    {
+      "id": "FC-014",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Límites",
+      "definition": "Reglas claras sobre lo que permites y no permites.",
+      "tacticalUse": "Proteger la integridad psicológica.",
+      "countermeasure": "Comunicar consecuencias claras ante violaciones."
+    },
+    {
+      "id": "FC-015",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Disonancia Cognitiva",
+      "definition": "Conflicto interno al tener creencias contradictorias.",
+      "tacticalUse": "Forzar al objetivo a cambiar sus valores.",
+      "countermeasure": "Alinear acciones con valores fundamentales."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM-001",
+      "category": "Manipulación",
+      "name": "Gaslighting",
+      "severity": "Alta",
+      "icon": "Niebla",
+      "howItWorks": "Niega hechos pasados para que la víctima dude de su memoria.",
+      "redFlags": "Frases como 'eso nunca pasó' o 'estás loco'.",
+      "counterScript": "Mi memoria es clara sobre este evento, no acepto tu versión.",
+      "deepMechanism": "Destrucción de la base de realidad del individuo."
+    },
+    {
+      "id": "TM-002",
+      "category": "Seducción",
+      "name": "Love Bombing",
+      "severity": "Media",
+      "icon": "Corazón",
+      "howItWorks": "Exceso de atención para crear deuda emocional.",
+      "redFlags": "Promesas de futuro prematuras y halagos excesivos.",
+      "counterScript": "Aprecio el gesto, pero prefiero ir más despacio.",
+      "deepMechanism": "Activación del sistema de recompensa dopaminérgico."
+    },
+    {
+      "id": "TM-003",
+      "category": "Control",
+      "name": "Triangulación",
+      "severity": "Alta",
+      "icon": "Triángulo",
+      "howItWorks": "Involucrar a un tercero para validar al manipulador.",
+      "redFlags": "Comparaciones constantes con otros.",
+      "counterScript": "No voy a discutir sobre terceros, hablemos de nosotros.",
+      "deepMechanism": "Generación de inseguridad y competencia por validación."
+    },
+    {
+      "id": "TM-004",
+      "category": "Manipulación",
+      "name": "Proyección",
+      "severity": "Media",
+      "icon": "Espejo",
+      "howItWorks": "El manipulador acusa al otro de lo que él mismo hace.",
+      "redFlags": "Acusaciones que no tienen sentido con tu conducta.",
+      "counterScript": "Eso suena más a una descripción de tu comportamiento que del mío.",
+      "deepMechanism": "Mecanismo de defensa para evitar la culpa propia."
+    },
+    {
+      "id": "TM-005",
+      "category": "Control",
+      "name": "Refuerzo Intermitente",
+      "severity": "Alta",
+      "icon": "Interruptor",
+      "howItWorks": "Alternar entre afecto y frialdad.",
+      "redFlags": "Comportamiento impredecible y errático.",
+      "counterScript": "No acepto este trato inconsistente.",
+      "deepMechanism": "Creación de adicción psicológica al refuerzo."
+    },
+    {
+      "id": "TM-006",
+      "category": "Defensa",
+      "name": "Piedra Gris",
+      "severity": "Baja",
+      "icon": "Roca",
+      "howItWorks": "Volverse aburrido para el manipulador.",
+      "redFlags": "N/A",
+      "counterScript": "Entiendo. Ya veo. Interesante.",
+      "deepMechanism": "Eliminación del estímulo que alimenta al manipulador."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q-001",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal del 'Love Bombing'?",
+      "options": [
+        "Generar amor genuino",
+        "Crear dependencia emocional",
+        "Mejorar la comunicación",
+        "Ahorrar dinero"
+      ],
+      "correctIndex": 1,
+      "explanation": "El love bombing busca crear una dependencia rápida mediante la saturación de afecto."
+    },
+    {
+      "id": "Q-002",
+      "bookNumber": 1,
+      "question": "¿Qué técnica utiliza la negación de la realidad para desestabilizar?",
+      "options": [
+        "Proyección",
+        "Gaslighting",
+        "Triangulación",
+        "Espejo"
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting es la forma más efectiva de hacer que la víctima dude de su propia percepción."
+    },
+    {
+      "id": "Q-003",
+      "bookNumber": 1,
+      "question": "¿Qué es la 'Piedra Gris'?",
+      "options": [
+        "Una técnica de ataque",
+        "Una forma de seducción",
+        "Una técnica de defensa",
+        "Un tipo de lavado cerebral"
+      ],
+      "correctIndex": 2,
+      "explanation": "Es una técnica de defensa que consiste en no dar reacciones emocionales al manipulador."
+    },
+    {
+      "id": "Q-004",
+      "bookNumber": 1,
+      "question": "¿Por qué el aislamiento es peligroso?",
+      "options": [
+        "Porque pierdes dinero",
+        "Porque te hace más fuerte",
+        "Porque te deja sin apoyo externo",
+        "Porque es divertido"
+      ],
+      "correctIndex": 2,
+      "explanation": "El aislamiento elimina las perspectivas externas que podrían alertar a la víctima."
+    },
+    {
+      "id": "Q-005",
+      "bookNumber": 1,
+      "question": "¿Qué mecanismo utiliza la proyección?",
+      "options": [
+        "La honestidad",
+        "La transferencia de culpa",
+        "La empatía",
+        "La lógica"
+      ],
+      "correctIndex": 1,
+      "explanation": "La proyección traslada los defectos propios hacia la otra persona para evitar la responsabilidad."
+    },
+    {
+      "id": "Q-006",
+      "bookNumber": 1,
+      "question": "¿Cuál es el efecto del refuerzo intermitente?",
+      "options": [
+        "Indiferencia",
+        "Adicción psicológica",
+        "Claridad mental",
+        "Paz"
+      ],
+      "correctIndex": 1,
+      "explanation": "La incertidumbre del premio genera una búsqueda constante de validación."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G-001",
+      "term": "Manipulación",
+      "category": "General",
+      "definition": "Influencia ejercida sobre alguien para que actúe según los intereses del manipulador.",
+      "practicalExample": "Un jefe que te hace sentir culpable para que trabajes horas extra gratis."
+    },
+    {
+      "id": "G-002",
+      "term": "Gaslighting",
+      "category": "Psicología",
+      "definition": "Abuso psicológico que hace dudar de la propia cordura.",
+      "practicalExample": "Alguien escondiendo tus llaves y luego diciendo que tú las perdiste."
+    },
+    {
+      "id": "G-003",
+      "term": "Triangulación",
+      "category": "Relaciones",
+      "definition": "Uso de una tercera persona para manipular una relación.",
+      "practicalExample": "Un padre que compara a un hijo con otro para generar rivalidad."
+    },
+    {
+      "id": "G-004",
+      "term": "Love Bombing",
+      "category": "Seducción",
+      "definition": "Exceso de afecto inicial para ganar confianza.",
+      "practicalExample": "Recibir regalos costosos y promesas de amor en la primera cita."
+    },
+    {
+      "id": "G-005",
+      "term": "Proyección",
+      "category": "Psicología",
+      "definition": "Atribuir rasgos propios negativos a otros.",
+      "practicalExample": "Alguien infiel acusando a su pareja de ser infiel."
+    },
+    {
+      "id": "G-006",
+      "term": "Piedra Gris",
+      "category": "Defensa",
+      "definition": "Técnica de volverse aburrido ante un manipulador.",
+      "practicalExample": "Responder con monosílabos a alguien que busca pelea."
+    },
+    {
+      "id": "G-007",
+      "term": "Refuerzo Intermitente",
+      "category": "Control",
+      "definition": "Recompensas aleatorias para crear dependencia.",
+      "practicalExample": "Un apostador que sigue jugando porque a veces gana."
+    },
+    {
+      "id": "G-008",
+      "term": "Aislamiento",
+      "category": "Control",
+      "definition": "Separación de la víctima de su entorno social.",
+      "practicalExample": "Un manipulador que critica a todos tus amigos para que los dejes."
+    },
+    {
+      "id": "G-009",
+      "term": "Disonancia Cognitiva",
+      "category": "Psicología",
+      "definition": "Conflicto interno por creencias contradictorias.",
+      "practicalExample": "Saber que alguien es malo pero seguir justificándolo."
+    },
+    {
+      "id": "G-010",
+      "term": "Lavado Cerebral",
+      "category": "Control",
+      "definition": "Reestructuración de creencias mediante presión.",
+      "practicalExample": "Grupos sectarios que controlan la información que recibes."
+    },
+    {
+      "id": "G-011",
+      "term": "Seducción Oscura",
+      "category": "Seducción",
+      "definition": "Uso de tácticas manipuladoras para atraer a alguien.",
+      "practicalExample": "Hacerse el difícil para aumentar el deseo del otro."
+    },
+    {
+      "id": "G-012",
+      "term": "Sesgo de Autoridad",
+      "category": "Psicología",
+      "definition": "Tendencia a seguir a quien tiene poder.",
+      "practicalExample": "Creer algo solo porque lo dijo un experto, sin pruebas."
+    },
+    {
+      "id": "G-013",
+      "term": "Victimización",
+      "category": "Manipulación",
+      "definition": "Hacerse pasar por víctima para obtener beneficios.",
+      "practicalExample": "Llorar para evitar una consecuencia por un error propio."
+    },
+    {
+      "id": "G-014",
+      "term": "Límites",
+      "category": "Defensa",
+      "definition": "Barreras personales para proteger la integridad.",
+      "practicalExample": "Decir 'no' a una petición que cruza tus valores."
+    },
+    {
+      "id": "G-015",
+      "term": "Implantación de Ideas",
+      "category": "Control",
+      "definition": "Sembrar pensamientos en otros como si fueran propios.",
+      "practicalExample": "Hacer preguntas sugerentes para que el otro llegue a tu conclusión."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BLL-001",
+      "category": "Detección",
+      "title": "Microexpresiones de Desprecio",
+      "cue": "Labio superior elevado ligeramente en un lado.",
+      "interpretation": "Indica superioridad o falta de respeto oculta.",
+      "practicalDrill": "Observa entrevistas y busca este gesto cuando el sujeto habla de otros."
+    },
+    {
+      "id": "BLL-002",
+      "category": "Detección",
+      "title": "Bloqueo Ocular",
+      "cue": "Cerrar los ojos o cubrirse la cara al escuchar algo.",
+      "interpretation": "El cerebro intenta bloquear una información que no quiere procesar.",
+      "practicalDrill": "Haz una pregunta difícil y observa si la persona se toca los ojos."
+    },
+    {
+      "id": "BLL-003",
+      "category": "Detección",
+      "title": "Incongruencia Gestual",
+      "cue": "Decir 'sí' con la boca mientras se niega con la cabeza.",
+      "interpretation": "Conflicto interno o mentira.",
+      "practicalDrill": "Practica decir frases positivas con lenguaje corporal negativo."
+    },
+    {
+      "id": "BLL-004",
+      "category": "Detección",
+      "title": "Exposición de la Garganta",
+      "cue": "Inclinar la cabeza hacia atrás al hablar.",
+      "interpretation": "Señal de confianza extrema o arrogancia.",
+      "practicalDrill": "Observa a líderes en discursos y nota quién expone su cuello."
+    },
+    {
+      "id": "BLL-005",
+      "category": "Detección",
+      "title": "Barreras Físicas",
+      "cue": "Cruzar brazos o colocar objetos entre tú y el otro.",
+      "interpretation": "Defensa o rechazo a la comunicación.",
+      "practicalDrill": "Observa cómo cambia la postura cuando introduces un tema incómodo."
+    },
+    {
+      "id": "BLL-006",
+      "category": "Detección",
+      "title": "Pies Orientados",
+      "cue": "Pies apuntando hacia la salida.",
+      "interpretation": "Deseo subconsciente de abandonar la conversación.",
+      "practicalDrill": "En una reunión, mira hacia dónde apuntan los pies de los participantes."
     }
   ]
 };

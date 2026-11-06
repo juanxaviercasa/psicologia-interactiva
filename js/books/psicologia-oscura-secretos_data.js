@@ -3929,93 +3929,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Defensa Personal Psicológica",
-      "title": "Caso Práctico: Cap Tulo 3 El Abc Del Lavado De Cerebro",
-      "difficulty": "Media",
-      "badge": "Guardián Mental",
-      "scenarioDescription": "Durante una situación relacionada con \"Cap Tulo 3 El Abc Del Lavado De Cerebro\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS001",
+      "category": "Persuasion",
+      "title": "The False Urgency Trap",
+      "difficulty": "Intermediate",
+      "badge": "Negotiator",
+      "scenarioDescription": "A colleague insists you sign a contract immediately, claiming a limited-time offer that expires in an hour.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Cap Tulo 3 El Abc Del Lavado De Cerebro\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Sign immediately to avoid losing the deal.",
+          "outcome": "Manipulated",
+          "wisdomScore": 20,
+          "analysis": "You fell for the scarcity principle.",
+          "bookInsight": "Persuasion often relies on artificial time pressure."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Request a 24-hour review period.",
+          "outcome": "Resilient",
+          "wisdomScore": 95,
+          "analysis": "You neutralized the pressure tactic.",
+          "bookInsight": "True opportunities rarely require immediate, blind commitment."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Detección en Entorno Laboral",
-      "title": "Caso Práctico: Cap Tulo 4 La Verdad Sobre La Hipnosis",
-      "difficulty": "Alta",
-      "badge": "Detective Social",
-      "scenarioDescription": "Durante una situación relacionada con \"Cap Tulo 4 La Verdad Sobre La Hipnosis\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS002",
+      "category": "Dark Triad",
+      "title": "The Narcissistic Mirror",
+      "difficulty": "Hard",
+      "badge": "Profiler",
+      "scenarioDescription": "A new acquaintance mirrors your interests perfectly and praises your unique qualities excessively.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Cap Tulo 4 La Verdad Sobre La Hipnosis\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Accept the flattery and deepen the bond.",
+          "outcome": "Vulnerable",
+          "wisdomScore": 30,
+          "analysis": "You are being love-bombed.",
+          "bookInsight": "The Dark Triad uses mirroring to build false intimacy."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Introduce a conflicting opinion to test their reaction.",
+          "outcome": "Analytical",
+          "wisdomScore": 90,
+          "analysis": "You exposed the lack of genuine connection.",
+          "bookInsight": "Narcissists react poorly to non-compliance."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Brainwashing",
+      "title": "The Isolation Phase",
+      "difficulty": "Hard",
+      "badge": "Resilient",
+      "scenarioDescription": "A group leader suggests you distance yourself from 'negative' friends who don't understand your growth.",
+      "options": [
+        {
+          "text": "Cut ties to focus on the group's vision.",
+          "outcome": "Compromised",
+          "wisdomScore": 10,
+          "analysis": "You are entering the isolation stage of indoctrination.",
+          "bookInsight": "Isolation is the primary tool for cognitive restructuring."
+        },
+        {
+          "text": "Maintain external relationships to keep perspective.",
+          "outcome": "Protected",
+          "wisdomScore": 100,
+          "analysis": "You preserved your support network.",
+          "bookInsight": "External validation is the antidote to cult-like influence."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Hypnosis",
+      "title": "The Conversational Trance",
+      "difficulty": "Intermediate",
+      "badge": "Observer",
+      "scenarioDescription": "A speaker uses rhythmic speech and repetitive storytelling to make you feel 'relaxed' and 'open'.",
+      "options": [
+        {
+          "text": "Relax and let the message sink in.",
+          "outcome": "Suggestible",
+          "wisdomScore": 40,
+          "analysis": "You are entering a hypnotic state.",
+          "bookInsight": "Rhythm and repetition bypass critical thinking."
+        },
+        {
+          "text": "Focus on the logical validity of the claims.",
+          "outcome": "Alert",
+          "wisdomScore": 85,
+          "analysis": "You broke the hypnotic pattern.",
+          "bookInsight": "Critical analysis is the enemy of hypnotic suggestion."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Predatory Behavior",
+      "title": "The Victimhood Gambit",
+      "difficulty": "Easy",
+      "badge": "Skeptic",
+      "scenarioDescription": "Someone constantly shares tragic stories to gain your sympathy and favors.",
+      "options": [
+        {
+          "text": "Offer help and resources immediately.",
+          "outcome": "Enabler",
+          "wisdomScore": 35,
+          "analysis": "You are being exploited through empathy.",
+          "bookInsight": "Predators use victimhood to lower defenses."
+        },
+        {
+          "text": "Set firm boundaries on what you can provide.",
+          "outcome": "Assertive",
+          "wisdomScore": 90,
+          "analysis": "You stopped the emotional drain.",
+          "bookInsight": "Boundaries are the ultimate defense against emotional vampires."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Persuasion",
+      "title": "The Foot-in-the-Door",
+      "difficulty": "Easy",
+      "badge": "Strategist",
+      "scenarioDescription": "A stranger asks for a small favor, then immediately asks for a much larger one.",
+      "options": [
+        {
+          "text": "Agree to both to be polite.",
+          "outcome": "Manipulated",
+          "wisdomScore": 25,
+          "analysis": "You fell for the consistency principle.",
+          "bookInsight": "Small concessions lead to larger ones."
+        },
+        {
+          "text": "Refuse the second request politely.",
+          "outcome": "Assertive",
+          "wisdomScore": 95,
+          "analysis": "You recognized the escalation pattern.",
+          "bookInsight": "Consistency is a trap when used against you."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Simpatía fabricada",
-      "definition": "Técnica psicológica estudiada en \"Introduccion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Practicar la técnica del \"disco rayado\" ante presión persistente."
+      "id": "F01",
+      "bookNumber": 1,
+      "category": "Dark Triad",
+      "term": "Machiavellianism",
+      "definition": "Manipulation and exploitation of others.",
+      "tacticalUse": "Strategic deception.",
+      "countermeasure": "Transparency."
     },
     {
-      "id": "fc2",
-      "term": "DARVO",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo 5 El Arte De La Persuasi N Y El Enga O Los Principios De La Persuasi N Consejos De Persuasi\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Aplicar el protocolo JADE-never: no Justifiques, Argumentes, Defiendas ni Expliques."
+      "id": "F02",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Scarcity",
+      "definition": "Perceived value increases with rarity.",
+      "tacticalUse": "Creating urgency.",
+      "countermeasure": "Wait 24 hours."
     },
     {
-      "id": "fc3",
-      "term": "Programación neurolingüística",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo 1 Psicolog A De La Oscuridad 101 Identificar Un Depredador Humano Son Incre Blemente Encant\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Documentar patrones de comportamiento para identificar manipulación."
+      "id": "F03",
+      "bookNumber": 1,
+      "category": "Brainwashing",
+      "term": "Isolation",
+      "definition": "Cutting off external support.",
+      "tacticalUse": "Total control.",
+      "countermeasure": "Maintain social ties."
     },
     {
-      "id": "fc4",
-      "term": "Anclaje emocional",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo 3 El Abc Del Lavado De Cerebro Los Diez Pasos Del Lavado De Cerebro Segunda Etapa Colgando \": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Usar el \"test de la silla vacía\": ¿qué le dirías a un amigo en tu situación?"
+      "id": "F04",
+      "bookNumber": 1,
+      "category": "Hypnosis",
+      "term": "Pacing",
+      "definition": "Matching the subject's reality.",
+      "tacticalUse": "Building rapport.",
+      "countermeasure": "Disrupt the pattern."
     },
     {
-      "id": "fc5",
-      "term": "Aislamiento progresivo",
-      "definition": "Técnica psicológica estudiada en \"Cap Tulo 5 El Arte De La Persuasi N Y El Enga O Los Principios De La Persuasi N Consejos De Persuasi\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Reconocer los 7 signos de la Tríada Oscura en contactos cercanos."
+      "id": "F05",
+      "bookNumber": 1,
+      "category": "Dark Triad",
+      "term": "Narcissism",
+      "definition": "Excessive need for admiration.",
+      "tacticalUse": "Exploiting ego.",
+      "countermeasure": "Indifference."
+    },
+    {
+      "id": "F06",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Reciprocity",
+      "definition": "Obligation to return favors.",
+      "tacticalUse": "Forced debt.",
+      "countermeasure": "Refuse initial gifts."
+    },
+    {
+      "id": "F07",
+      "bookNumber": 1,
+      "category": "Brainwashing",
+      "term": "Repetition",
+      "definition": "Constant message reinforcement.",
+      "tacticalUse": "Belief formation.",
+      "countermeasure": "Critical questioning."
+    },
+    {
+      "id": "F08",
+      "bookNumber": 1,
+      "category": "Hypnosis",
+      "term": "Leading",
+      "definition": "Directing thoughts after pacing.",
+      "tacticalUse": "Suggestion.",
+      "countermeasure": "Maintain skepticism."
+    },
+    {
+      "id": "F09",
+      "bookNumber": 1,
+      "category": "Dark Triad",
+      "term": "Psychopathy",
+      "definition": "Lack of empathy.",
+      "tacticalUse": "Ruthless decision making.",
+      "countermeasure": "Avoid emotional engagement."
+    },
+    {
+      "id": "F10",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Authority",
+      "definition": "Using status to influence.",
+      "tacticalUse": "Blind compliance.",
+      "countermeasure": "Verify credentials."
+    },
+    {
+      "id": "F11",
+      "bookNumber": 1,
+      "category": "Brainwashing",
+      "term": "Guilt",
+      "definition": "Inducing shame for control.",
+      "tacticalUse": "Compliance.",
+      "countermeasure": "Objective self-assessment."
+    },
+    {
+      "id": "F12",
+      "bookNumber": 1,
+      "category": "Hypnosis",
+      "term": "Trance",
+      "definition": "Altered state of focus.",
+      "tacticalUse": "Bypassing logic.",
+      "countermeasure": "Grounding techniques."
+    },
+    {
+      "id": "F13",
+      "bookNumber": 1,
+      "category": "Dark Triad",
+      "term": "Gaslighting",
+      "definition": "Making others doubt reality.",
+      "tacticalUse": "Dominance.",
+      "countermeasure": "Keep a journal."
+    },
+    {
+      "id": "F14",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Social Proof",
+      "definition": "Following the crowd.",
+      "tacticalUse": "Group pressure.",
+      "countermeasure": "Independent thinking."
+    },
+    {
+      "id": "F15",
+      "bookNumber": 1,
+      "category": "Brainwashing",
+      "term": "Love Bombing",
+      "definition": "Excessive affection.",
+      "tacticalUse": "Dependency.",
+      "countermeasure": "Slow down pace."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Persuasion",
+      "name": "The Scarcity Hook",
+      "severity": "Medium",
+      "icon": "⏳",
+      "howItWorks": "Limits availability to trigger fear of loss.",
+      "redFlags": "Artificial deadlines.",
+      "counterScript": "I am comfortable waiting.",
+      "deepMechanism": "Loss aversion bias."
+    },
+    {
+      "id": "TM02",
+      "category": "Dark Triad",
+      "name": "Gaslighting",
+      "severity": "High",
+      "icon": "🌫️",
+      "howItWorks": "Denying past events to destabilize memory.",
+      "redFlags": "You are crazy/forgetful.",
+      "counterScript": "I have documented the facts.",
+      "deepMechanism": "Reality distortion."
+    },
+    {
+      "id": "TM03",
+      "category": "Brainwashing",
+      "name": "Isolation",
+      "severity": "Critical",
+      "icon": "⛓️",
+      "howItWorks": "Removing external feedback loops.",
+      "redFlags": "Us vs. Them mentality.",
+      "counterScript": "I value my other connections.",
+      "deepMechanism": "Dependency creation."
+    },
+    {
+      "id": "TM04",
+      "category": "Hypnosis",
+      "name": "Rhythmic Pacing",
+      "severity": "Medium",
+      "icon": "🌀",
+      "howItWorks": "Using speech patterns to induce trance.",
+      "redFlags": "Monotone, repetitive speech.",
+      "counterScript": "Can you clarify that point?",
+      "deepMechanism": "Critical factor bypass."
+    },
+    {
+      "id": "TM05",
+      "category": "Dark Triad",
+      "name": "Love Bombing",
+      "severity": "High",
+      "icon": "❤️",
+      "howItWorks": "Overwhelming with affection to create debt.",
+      "redFlags": "Moving too fast.",
+      "counterScript": "Let's take this slowly.",
+      "deepMechanism": "Dopamine addiction."
+    },
+    {
+      "id": "TM06",
+      "category": "Persuasion",
+      "name": "Reciprocity Trap",
+      "severity": "Low",
+      "icon": "🎁",
+      "howItWorks": "Giving small gifts to force compliance.",
+      "redFlags": "Unsolicited favors.",
+      "counterScript": "I cannot accept this.",
+      "deepMechanism": "Social obligation."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "What is the primary goal of the Dark Triad?",
+      "options": [
+        "Self-improvement",
+        "Exploitation",
+        "Altruism",
+        "Social harmony"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Dark Triad (Narcissism, Machiavellianism, Psychopathy) is defined by self-serving, exploitative behavior."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 1,
+      "question": "Which stage of brainwashing involves cutting off support?",
+      "options": [
+        "Love Bombing",
+        "Isolation",
+        "Hypnosis",
+        "Reciprocity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isolation is essential to remove external reality checks."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 1,
+      "question": "What is the main defense against gaslighting?",
+      "options": [
+        "Agreeing",
+        "Documentation",
+        "Ignoring",
+        "Fighting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Keeping a record of events prevents the manipulator from rewriting your reality."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "Why does scarcity work?",
+      "options": [
+        "It is logical",
+        "Loss aversion",
+        "It is free",
+        "It is fun"
+      ],
+      "correctIndex": 1,
+      "explanation": "Humans are hardwired to fear losing opportunities more than gaining them."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 1,
+      "question": "What is the purpose of pacing in hypnosis?",
+      "options": [
+        "To annoy",
+        "To build rapport",
+        "To save time",
+        "To confuse"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pacing aligns the speaker with the listener's reality to gain trust."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 1,
+      "question": "What is the 'Foot-in-the-door' technique?",
+      "options": [
+        "A door lock",
+        "Small request leads to large",
+        "Physical violence",
+        "A greeting"
+      ],
+      "correctIndex": 1,
+      "explanation": "It relies on the human desire to remain consistent with previous actions."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Dark Triad",
+      "category": "Psychology",
+      "definition": "Three personality traits: Narcissism, Machiavellianism, Psychopathy.",
+      "practicalExample": "A boss who exploits staff for personal gain."
+    },
+    {
+      "id": "G02",
+      "term": "Gaslighting",
+      "category": "Manipulation",
+      "definition": "Psychological abuse making victims doubt their sanity.",
+      "practicalExample": "Denying a conversation ever happened."
+    },
+    {
+      "id": "G03",
+      "term": "Love Bombing",
+      "category": "Manipulation",
+      "definition": "Excessive affection to gain control.",
+      "practicalExample": "A partner saying 'I love you' on the first date."
+    },
+    {
+      "id": "G04",
+      "term": "Reciprocity",
+      "category": "Persuasion",
+      "definition": "The urge to return a favor.",
+      "practicalExample": "Buying a drink to get a business deal."
+    },
+    {
+      "id": "G05",
+      "term": "Isolation",
+      "category": "Brainwashing",
+      "definition": "Removing social support systems.",
+      "practicalExample": "Forbidding contact with family."
+    },
+    {
+      "id": "G06",
+      "term": "Hypnosis",
+      "category": "Influence",
+      "definition": "Altered state of suggestibility.",
+      "practicalExample": "Using rhythmic speech to calm a crowd."
+    },
+    {
+      "id": "G07",
+      "term": "Scarcity",
+      "category": "Persuasion",
+      "definition": "Value based on limited supply.",
+      "practicalExample": "Only 2 items left in stock."
+    },
+    {
+      "id": "G08",
+      "term": "Pacing",
+      "category": "Hypnosis",
+      "definition": "Matching the subject's current state.",
+      "practicalExample": "Agreeing with a client's complaints."
+    },
+    {
+      "id": "G09",
+      "term": "Leading",
+      "category": "Hypnosis",
+      "definition": "Directing the subject after pacing.",
+      "practicalExample": "Suggesting a solution after agreeing."
+    },
+    {
+      "id": "G10",
+      "term": "Social Proof",
+      "category": "Persuasion",
+      "definition": "Following the behavior of others.",
+      "practicalExample": "Buying a product because it's a bestseller."
+    },
+    {
+      "id": "G11",
+      "term": "Consistency",
+      "category": "Persuasion",
+      "definition": "Desire to act in line with past choices.",
+      "practicalExample": "Signing a petition then donating money."
+    },
+    {
+      "id": "G12",
+      "term": "Authority",
+      "category": "Persuasion",
+      "definition": "Compliance based on perceived status.",
+      "practicalExample": "Wearing a uniform to gain trust."
+    },
+    {
+      "id": "G13",
+      "term": "Predator",
+      "category": "Psychology",
+      "definition": "Individual who exploits others.",
+      "practicalExample": "A scammer targeting the elderly."
+    },
+    {
+      "id": "G14",
+      "term": "Trance",
+      "category": "Hypnosis",
+      "definition": "State of focused attention.",
+      "practicalExample": "Being absorbed in a movie."
+    },
+    {
+      "id": "G15",
+      "term": "Indoctrination",
+      "category": "Brainwashing",
+      "definition": "Teaching a set of beliefs.",
+      "practicalExample": "Cult recruitment sessions."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Deception",
+      "title": "The Micro-Expression Check",
+      "cue": "Brief flash of contempt.",
+      "interpretation": "Hidden superiority or dislike.",
+      "practicalDrill": "Watch interviews and pause at 0.5s intervals."
+    },
+    {
+      "id": "BL02",
+      "category": "Dominance",
+      "title": "The Stare Down",
+      "cue": "Lack of blinking.",
+      "interpretation": "Attempt to intimidate or control.",
+      "practicalDrill": "Maintain soft gaze without staring."
+    },
+    {
+      "id": "BL03",
+      "category": "Rapport",
+      "title": "Mirroring",
+      "cue": "Copying posture.",
+      "interpretation": "Building false intimacy.",
+      "practicalDrill": "Observe if they match your movements."
+    },
+    {
+      "id": "BL04",
+      "category": "Anxiety",
+      "title": "Self-Soothing",
+      "cue": "Touching the neck.",
+      "interpretation": "Feeling threatened or lying.",
+      "practicalDrill": "Identify neck touching during high-stress questions."
+    },
+    {
+      "id": "BL05",
+      "category": "Confidence",
+      "title": "Steepling",
+      "cue": "Fingertips touching.",
+      "interpretation": "High confidence or arrogance.",
+      "practicalDrill": "Note when a speaker uses this during a pitch."
+    },
+    {
+      "id": "BL06",
+      "category": "Defensiveness",
+      "title": "The Barrier",
+      "cue": "Crossed arms.",
+      "interpretation": "Closed to new information.",
+      "practicalDrill": "Try to open their posture with an open-ended question."
     }
   ]
 };

@@ -2980,93 +2980,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Entorno Laboral",
-      "title": "El Colega Maquiavélico y la Pérdida de Crédito",
-      "difficulty": "Alta",
-      "badge": "Estratega Defensivo",
-      "scenarioDescription": "Llevas tres meses liderando un proyecto clave. Tu colega, Marcos, se muestra extremadamente servicial en privado y te aconseja omitir ciertos detalles técnicos en las presentaciones directas al director para 'no aburrirlo'. Confías en él. En la reunión general, el director pregunta precisamente por esos detalles técnicos omitidos. Marcos interrumpe rápidamente diciendo: 'Se lo advertí a mi compañero la semana pasada, pero prefirió ignorarlo. Aquí tengo los datos completos que yo mismo preparé por si acaso'. Te das cuenta de que fue una emboscada planificada.",
+      "id": "CS001",
+      "category": "Manipulación Emocional",
+      "title": "El Triangulador en la Oficina",
+      "difficulty": "Intermedio",
+      "badge": "Analista de Dinámicas",
+      "scenarioDescription": "Un colega sugiere constantemente que tu jefe prefiere a otro compañero, creando inseguridad.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Mantener la calma, agradecer el aporte de datos de Marcos sin engancharte en la confrontación verbal, y presentar de inmediato tu análisis técnico respaldado por los documentos originales con fechas.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Al mantener la ecuanimidad no muestras desestabilización emocional (que es lo que el manipulador busca). Mostrar evidencias documentadas neutralmente desmonta la narrativa de Marcos sin caer en un ataque histérico.",
-          "bookInsight": "El manipulador se alimenta del caos emocional y la reacción impulsiva de la víctima. Responder con datos fríos y serenidad desactiva la trampa."
+          "text": "Confrontar al colega directamente.",
+          "outcome": "Escalada de conflicto",
+          "wisdomScore": 40,
+          "analysis": "La confrontación directa alimenta la narrativa del manipulador.",
+          "bookInsight": "Los manipuladores buscan reacciones emocionales para validar su control."
         },
         {
-          "id": "opt2",
-          "text": "Enfrentar a Marcos frente al director inmediatamente, llamándolo mentiroso y exponiendo cómo él te dijo en privado que omitieras esa información.",
-          "outcome": "Fallo",
-          "wisdomScore": 25,
-          "analysis": "Sin pruebas por escrito de las conversaciones privadas, quedas ante la dirección como una persona poco profesional, inestable y que busca excusar su descuido culpando a otros.",
-          "bookInsight": "Las conversaciones privadas no documentadas no tienen valor frente a un manipulador experto; acusar sin pruebas valida su narrativa de que eres poco profesional."
+          "text": "Verificar la información con el jefe y mantener neutralidad.",
+          "outcome": "Neutralización",
+          "wisdomScore": 95,
+          "analysis": "La validación externa rompe el ciclo de triangulación.",
+          "bookInsight": "La transparencia es el antídoto contra la manipulación encubierta."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Relaciones Personales",
-      "title": "El Ciclo de Manipulación en la Pareja",
-      "difficulty": "Alta",
-      "badge": "Guardian Emocional",
-      "scenarioDescription": "Tu pareja, al inicio de la relación, te trataba como su prioridad absoluta. Sin embargo, en los últimos meses ha empezado a criticar a tus amigos y familiares, afirmando que 'ellos no entienden nuestro amor y solo quieren separarnos'. Ayer, tras declinar una invitación a salir con tus amigos para no provocar una pelea, tu pareja te dice: 'Ves, no tienes vida propia, te la pasas amargado/a en casa y me haces sentir culpable de tus decisiones'.",
+      "id": "CS002",
+      "category": "Psicología Oscura",
+      "title": "El Encanto del Narcisista",
+      "difficulty": "Avanzado",
+      "badge": "Detector de Depredadores",
+      "scenarioDescription": "Alguien nuevo en tu círculo social te colma de halagos excesivos y busca intimidad inmediata.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Reconocer la táctica de aislamiento y culpabilización encubierta, establecer un límite firme restableciendo el contacto con tus redes de apoyo y considerar ayuda profesional o la salida de la relación.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Identificaste correctamente la paradoja del manipulador: te aísla y luego te culpa por estar aislado. Romper la burbuja reconectando con el exterior es el único modo de recuperar el juicio objetivo.",
-          "bookInsight": "El aislamiento es la primera fase para aumentar la dependencia de la víctima. Recuperar la red de apoyo externa destruye la palanca de control del abusador."
+          "text": "Aceptar los halagos y profundizar la relación.",
+          "outcome": "Vulnerabilidad",
+          "wisdomScore": 20,
+          "analysis": "El 'love bombing' es una técnica clásica de captura.",
+          "bookInsight": "La velocidad en la creación de vínculos es una señal de alerta."
         },
         {
-          "id": "opt2",
-          "text": "Pedir disculpas por haberte mostrado amargado/a, y planear una cena romántica para demostrarle que estás feliz a su lado y que valoras la relación.",
-          "outcome": "Fallo",
+          "text": "Establecer límites de tiempo y espacio personal.",
+          "outcome": "Protección",
+          "wisdomScore": 90,
+          "analysis": "Los límites fuerzan al manipulador a revelar su verdadera intención.",
+          "bookInsight": "Los rasgos oscuros se frustran ante la falta de acceso inmediato."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Gaslighting",
+      "title": "La Memoria Alterada",
+      "difficulty": "Experto",
+      "badge": "Escudo Cognitivo",
+      "scenarioDescription": "Tu pareja insiste en que nunca dijo algo que tú recuerdas claramente haber escuchado.",
+      "options": [
+        {
+          "text": "Dudar de tu propia memoria y pedir disculpas.",
+          "outcome": "Sometimiento",
+          "wisdomScore": 10,
+          "analysis": "Esto refuerza el control del manipulador sobre tu realidad.",
+          "bookInsight": "El gaslighting busca erosionar la confianza en el juicio propio."
+        },
+        {
+          "text": "Mantener tu postura y documentar hechos futuros.",
+          "outcome": "Resiliencia",
+          "wisdomScore": 85,
+          "analysis": "Mantener la realidad propia es vital para la salud mental.",
+          "bookInsight": "La documentación es la defensa contra la distorsión de la realidad."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Rasgos Oscuros",
+      "title": "El Maquiavélico en el Proyecto",
+      "difficulty": "Intermedio",
+      "badge": "Estratega",
+      "scenarioDescription": "Un compañero propone una idea tuya como suya ante el equipo.",
+      "options": [
+        {
+          "text": "Exponerlo agresivamente frente a todos.",
+          "outcome": "Daño reputacional",
+          "wisdomScore": 30,
+          "analysis": "Te hace ver como alguien inestable o conflictivo.",
+          "bookInsight": "El maquiavelismo prospera en el caos emocional."
+        },
+        {
+          "text": "Añadir detalles técnicos que solo tú conoces durante la reunión.",
+          "outcome": "Recuperación de autoridad",
+          "wisdomScore": 95,
+          "analysis": "Demuestras dominio sin necesidad de conflicto abierto.",
+          "bookInsight": "La competencia técnica es la mejor defensa contra el robo de ideas."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Manipulación Encubierta",
+      "title": "La Víctima Profesional",
+      "difficulty": "Intermedio",
+      "badge": "Empático Táctico",
+      "scenarioDescription": "Un amigo siempre tiene una crisis que requiere tu ayuda inmediata, ignorando tus necesidades.",
+      "options": [
+        {
+          "text": "Ayudar siempre para evitar que se sienta mal.",
+          "outcome": "Agotamiento",
+          "wisdomScore": 25,
+          "analysis": "Estás siendo utilizado como fuente de energía emocional.",
+          "bookInsight": "La manipulación por victimismo es una forma de vampirismo emocional."
+        },
+        {
+          "text": "Ofrecer apoyo limitado y sugerir ayuda profesional.",
+          "outcome": "Establecimiento de límites",
+          "wisdomScore": 80,
+          "analysis": "Rediriges la responsabilidad al lugar correcto.",
+          "bookInsight": "No eres responsable de resolver los problemas de los manipuladores."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Psicología Oscura",
+      "title": "El Silencio Castigador",
+      "difficulty": "Avanzado",
+      "badge": "Resistencia Psicológica",
+      "scenarioDescription": "Alguien deja de hablarte tras un desacuerdo menor para forzarte a ceder.",
+      "options": [
+        {
+          "text": "Rogar por una explicación y pedir perdón.",
+          "outcome": "Dependencia",
           "wisdomScore": 15,
-          "analysis": "Disculparte valida la manipulación y refuerza la dinámica donde tú eres el único responsable de la insatisfacción en la relación, cediendo más terreno de tu autonomía.",
-          "bookInsight": "Ceder a la culpa impuesta por un manipulador encubierto solo acelera la devaluación y consolida su dominio psicológico."
+          "analysis": "El silencio es una herramienta de control; al ceder, validas el castigo.",
+          "bookInsight": "El 'trato de silencio' busca generar ansiedad para obtener sumisión."
+        },
+        {
+          "text": "Continuar con tu vida normal sin mostrar afectación.",
+          "outcome": "Neutralización",
+          "wisdomScore": 90,
+          "analysis": "Al quitarle el poder al silencio, el manipulador pierde su herramienta.",
+          "bookInsight": "La indiferencia estratégica es el arma más poderosa contra el castigo emocional."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Gaslighting (Luz de Gas)",
-      "definition": "Forma severa de manipulación donde se niegan hechos reales, conversaciones o acuerdos previos para hacer que la víctima dude de su propia memoria y cordura.",
-      "tacticalUse": "Se usa mediante frases como 'eso nunca pasó', 'estás imaginando cosas' o 'estás loco/a', debilitando la autoconfianza del objetivo.",
-      "countermeasure": "Llevar un registro escrito/escrito de hechos clave, confiar en la propia percepción y validar la realidad con observadores externos neutrales."
-    },
-    {
-      "id": "fc2",
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
       "term": "Triada Oscura",
-      "definition": "Sustrato de personalidad compuesto por tres rasgos desadaptativos interrelacionados: Narcisismo, Maquiavelismo y Psicopatía.",
-      "tacticalUse": "Permite al individuo actuar de manera egoísta, utilitaria e insensible sin experimentar remordimiento o culpa moral.",
-      "countermeasure": "Identificar patrones de falta de empatía y explotación temprana; mantener distancia emocional y establecer barreras infranqueables."
+      "definition": "Conjunto de rasgos: Narcisismo, Maquiavelismo y Psicopatía.",
+      "tacticalUse": "Identificar perfiles de riesgo.",
+      "countermeasure": "Mantener distancia emocional."
     },
     {
-      "id": "fc3",
-      "term": "Love Bombing (Bombardeo de Amor)",
-      "definition": "Demostración abrumadora de afecto, atención y halagos al principio de una relación para crear apego rápido y dependencia emocional.",
-      "tacticalUse": "Desarma las defensas de la víctima, generando una falsa sensación de alma gemela antes de iniciar el ciclo de devaluación.",
-      "countermeasure": "Mantener la prudencia frente al afecto desproporcionado o apresurado; evaluar a las personas por su consistencia a lo largo del tiempo."
+      "id": "FC002",
+      "bookNumber": 2,
+      "category": "Manipulación",
+      "term": "Love Bombing",
+      "definition": "Sobrecarga de afecto para ganar confianza rápida.",
+      "tacticalUse": "Detectar falsas intenciones.",
+      "countermeasure": "Ralentizar el ritmo de la relación."
     },
     {
-      "id": "fc4",
-      "term": "Chantaje Emocional (FOG: Fear, Obligation, Guilt)",
-      "definition": "Táctica donde el manipulador utiliza el Miedo, la Obligación y la Culpa para forzar el cumplimiento de la víctima.",
-      "tacticalUse": "Hacer sentir a la víctima responsable de la infelicidad, ira o bienestar del manipulador si no cede a sus demandas.",
-      "countermeasure": "Reconocer las señales de culpa injustificada; aplicar la pausa estratégica diciendo 'necesito tiempo para pensar en tu petición'."
+      "id": "FC003",
+      "bookNumber": 3,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Hacer dudar a la víctima de su propia percepción.",
+      "tacticalUse": "Reconocer la distorsión.",
+      "countermeasure": "Llevar un diario de hechos."
     },
     {
-      "id": "fc5",
-      "term": "Método de la Piedra Gris",
-      "definition": "Estrategia de comportamiento defensivo donde la persona responde de forma neutra, monótona y poco interesante ante el manipulador.",
-      "tacticalUse": "Elimina el 'suministro emocional' (atención, drama, rabia) que el manipulador necesita para alimentar su juego.",
-      "countermeasure": "Responder con respuestas breves ('ya veo', 'está bien'), mantener tono plano y evitar dar detalles personales o emocionales."
+      "id": "FC004",
+      "bookNumber": 4,
+      "category": "Comportamiento",
+      "term": "Proyección",
+      "definition": "Atribuir a otros los defectos propios.",
+      "tacticalUse": "Entender la psicología del atacante.",
+      "countermeasure": "No internalizar la crítica."
+    },
+    {
+      "id": "FC005",
+      "bookNumber": 5,
+      "category": "Manipulación",
+      "term": "Triangulación",
+      "definition": "Introducir a un tercero para generar inseguridad.",
+      "tacticalUse": "Detectar juegos de poder.",
+      "countermeasure": "Comunicación directa con el tercero."
+    },
+    {
+      "id": "FC006",
+      "bookNumber": 6,
+      "category": "Psicología Oscura",
+      "term": "Maquiavelismo",
+      "definition": "Manipulación cínica para beneficio personal.",
+      "tacticalUse": "Prever movimientos estratégicos.",
+      "countermeasure": "Transparencia forzada."
+    },
+    {
+      "id": "FC007",
+      "bookNumber": 7,
+      "category": "Comportamiento",
+      "term": "Victimismo",
+      "definition": "Uso de la vulnerabilidad para manipular.",
+      "tacticalUse": "Identificar el chantaje emocional.",
+      "countermeasure": "Establecer límites claros."
+    },
+    {
+      "id": "FC008",
+      "bookNumber": 8,
+      "category": "Manipulación",
+      "term": "Refuerzo Intermitente",
+      "definition": "Dar premios de forma aleatoria para crear adicción.",
+      "tacticalUse": "Entender la dependencia.",
+      "countermeasure": "Reconocer el patrón de recompensa."
+    },
+    {
+      "id": "FC009",
+      "bookNumber": 9,
+      "category": "Psicología Oscura",
+      "term": "Psicopatía",
+      "definition": "Falta de empatía y remordimiento.",
+      "tacticalUse": "Evaluar riesgos de seguridad.",
+      "countermeasure": "Contacto cero."
+    },
+    {
+      "id": "FC010",
+      "bookNumber": 10,
+      "category": "Comportamiento",
+      "term": "Narcisismo",
+      "definition": "Necesidad excesiva de admiración.",
+      "tacticalUse": "Gestionar egos.",
+      "countermeasure": "No alimentar su necesidad de atención."
+    },
+    {
+      "id": "FC011",
+      "bookNumber": 11,
+      "category": "Manipulación",
+      "term": "Chantaje Emocional",
+      "definition": "Uso de miedo, obligación o culpa.",
+      "tacticalUse": "Detectar la presión.",
+      "countermeasure": "Decir 'no' sin justificación."
+    },
+    {
+      "id": "FC012",
+      "bookNumber": 12,
+      "category": "Psicología Oscura",
+      "term": "Indiferencia Estratégica",
+      "definition": "No reaccionar ante provocaciones.",
+      "tacticalUse": "Desarmar al manipulador.",
+      "countermeasure": "Mantener la calma."
+    },
+    {
+      "id": "FC013",
+      "bookNumber": 13,
+      "category": "Comportamiento",
+      "term": "Sesgo de Confirmación",
+      "definition": "Ver solo lo que refuerza nuestras creencias.",
+      "tacticalUse": "Evitar ser engañados.",
+      "countermeasure": "Buscar evidencia contraria."
+    },
+    {
+      "id": "FC014",
+      "bookNumber": 14,
+      "category": "Manipulación",
+      "term": "Aislamiento",
+      "definition": "Separar a la víctima de su red de apoyo.",
+      "tacticalUse": "Detectar control social.",
+      "countermeasure": "Mantener vínculos externos."
+    },
+    {
+      "id": "FC015",
+      "bookNumber": 15,
+      "category": "Psicología Oscura",
+      "term": "Falsa Vulnerabilidad",
+      "definition": "Simular debilidad para obtener ayuda.",
+      "tacticalUse": "Evaluar la autenticidad.",
+      "countermeasure": "Observar acciones, no palabras."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM001",
+      "category": "Manipulación",
+      "name": "Love Bombing",
+      "severity": "Alta",
+      "icon": "Corazón roto",
+      "howItWorks": "Inundar a la víctima con afecto para crear dependencia.",
+      "redFlags": "Intensidad desproporcionada, prisa por comprometerse.",
+      "counterScript": "Aprecio tu entusiasmo, pero prefiero ir más despacio.",
+      "deepMechanism": "Activación del sistema de recompensa dopaminérgica."
+    },
+    {
+      "id": "TM002",
+      "category": "Psicología Oscura",
+      "name": "Gaslighting",
+      "severity": "Crítica",
+      "icon": "Espejo distorsionado",
+      "howItWorks": "Negar hechos para hacer dudar a la víctima.",
+      "redFlags": "Frases como 'estás loco' o 'nunca dije eso'.",
+      "counterScript": "Mi memoria es clara sobre este evento, no acepto tu versión.",
+      "deepMechanism": "Erosión de la confianza en la propia cognición."
+    },
+    {
+      "id": "TM003",
+      "category": "Manipulación",
+      "name": "Triangulación",
+      "severity": "Media",
+      "icon": "Triángulo",
+      "howItWorks": "Involucrar a un tercero para generar celos o inseguridad.",
+      "redFlags": "Comparaciones constantes con otros.",
+      "counterScript": "No voy a discutir sobre terceros, hablemos de nosotros.",
+      "deepMechanism": "Creación de una jerarquía de valor artificial."
+    },
+    {
+      "id": "TM004",
+      "category": "Comportamiento",
+      "name": "Victimismo",
+      "severity": "Media",
+      "icon": "Máscara triste",
+      "howItWorks": "Usar la culpa para obtener favores.",
+      "redFlags": "Siempre son los otros los culpables de sus problemas.",
+      "counterScript": "Lamento tu situación, ¿qué pasos vas a tomar para resolverlo?",
+      "deepMechanism": "Transferencia de responsabilidad emocional."
+    },
+    {
+      "id": "TM005",
+      "category": "Psicología Oscura",
+      "name": "Silencio Castigador",
+      "severity": "Alta",
+      "icon": "Boca cerrada",
+      "howItWorks": "Retirar la comunicación para forzar la sumisión.",
+      "redFlags": "Ausencia de respuesta ante conflictos.",
+      "counterScript": "Entiendo que necesitas espacio, avísame cuando quieras hablar.",
+      "deepMechanism": "Activación del miedo al abandono."
+    },
+    {
+      "id": "TM006",
+      "category": "Manipulación",
+      "name": "Proyección",
+      "severity": "Alta",
+      "icon": "Proyector",
+      "howItWorks": "Acusar al otro de lo que uno mismo hace.",
+      "redFlags": "Críticas que parecen una confesión.",
+      "counterScript": "Eso suena más a una descripción de tu comportamiento que del mío.",
+      "deepMechanism": "Defensa del ego mediante el desplazamiento."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal del 'Love Bombing'?",
+      "options": [
+        "Generar amor genuino",
+        "Crear dependencia emocional",
+        "Mejorar la comunicación",
+        "Ahorrar tiempo"
+      ],
+      "correctIndex": 1,
+      "explanation": "El love bombing busca crear una adicción emocional rápida para controlar a la víctima."
+    },
+    {
+      "id": "Q002",
+      "bookNumber": 2,
+      "question": "¿Qué rasgo de la Triada Oscura se caracteriza por la falta de remordimiento?",
+      "options": [
+        "Narcisismo",
+        "Maquiavelismo",
+        "Psicopatía",
+        "Empatía"
+      ],
+      "correctIndex": 2,
+      "explanation": "La psicopatía se define por la ausencia de empatía y remordimiento."
+    },
+    {
+      "id": "Q003",
+      "bookNumber": 3,
+      "question": "¿Cómo se llama la técnica de negar la realidad de la víctima?",
+      "options": [
+        "Triangulación",
+        "Gaslighting",
+        "Proyección",
+        "Refuerzo"
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting es la distorsión sistemática de la realidad."
+    },
+    {
+      "id": "Q004",
+      "bookNumber": 4,
+      "question": "¿Qué es la triangulación?",
+      "options": [
+        "Un método de terapia",
+        "Involucrar a un tercero para manipular",
+        "Un tipo de comunicación clara",
+        "Una técnica de relajación"
+      ],
+      "correctIndex": 1,
+      "explanation": "La triangulación usa a terceros para desestabilizar a la víctima."
+    },
+    {
+      "id": "Q005",
+      "bookNumber": 5,
+      "question": "¿Qué es la indiferencia estratégica?",
+      "options": [
+        "Ignorar a todos",
+        "No reaccionar ante provocaciones",
+        "Ser grosero",
+        "Ser muy emocional"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es la capacidad de no dar al manipulador la reacción que busca."
+    },
+    {
+      "id": "Q006",
+      "bookNumber": 6,
+      "question": "¿Por qué los manipuladores usan el victimismo?",
+      "options": [
+        "Porque son débiles",
+        "Para evadir responsabilidad",
+        "Para ser más felices",
+        "Para aprender"
+      ],
+      "correctIndex": 1,
+      "explanation": "El victimismo es una herramienta para evitar la rendición de cuentas."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G001",
+      "term": "Manipulación",
+      "category": "General",
+      "definition": "Influencia ejercida para beneficio propio.",
+      "practicalExample": "Hacer sentir culpable a alguien para que haga un favor."
+    },
+    {
+      "id": "G002",
+      "term": "Narcisismo",
+      "category": "Psicología",
+      "definition": "Amor excesivo hacia uno mismo.",
+      "practicalExample": "Necesitar validación constante en redes sociales."
+    },
+    {
+      "id": "G003",
+      "term": "Maquiavelismo",
+      "category": "Psicología",
+      "definition": "El fin justifica los medios.",
+      "practicalExample": "Mentir para obtener un ascenso."
+    },
+    {
+      "id": "G004",
+      "term": "Psicopatía",
+      "category": "Psicología",
+      "definition": "Trastorno de personalidad antisocial.",
+      "practicalExample": "Engañar sin sentir culpa."
+    },
+    {
+      "id": "G005",
+      "term": "Gaslighting",
+      "category": "Manipulación",
+      "definition": "Abuso psicológico de distorsión.",
+      "practicalExample": "Decir 'tú nunca dijiste eso'."
+    },
+    {
+      "id": "G006",
+      "term": "Triangulación",
+      "category": "Manipulación",
+      "definition": "Uso de terceros en un conflicto.",
+      "practicalExample": "Decir 'a tu hermano le gusta más mi idea'."
+    },
+    {
+      "id": "G007",
+      "term": "Proyección",
+      "category": "Psicología",
+      "definition": "Atribuir rasgos propios a otros.",
+      "practicalExample": "Llamar mentiroso a alguien cuando tú mientes."
+    },
+    {
+      "id": "G008",
+      "term": "Love Bombing",
+      "category": "Manipulación",
+      "definition": "Exceso de afecto inicial.",
+      "practicalExample": "Regalos caros al conocerse."
+    },
+    {
+      "id": "G009",
+      "term": "Victimismo",
+      "category": "Manipulación",
+      "definition": "Simulación de ser la parte afectada.",
+      "practicalExample": "Llorar para no asumir un error."
+    },
+    {
+      "id": "G010",
+      "term": "Refuerzo Intermitente",
+      "category": "Psicología",
+      "definition": "Premios aleatorios.",
+      "practicalExample": "Ser amable un día y frío el siguiente."
+    },
+    {
+      "id": "G011",
+      "term": "Aislamiento",
+      "category": "Manipulación",
+      "definition": "Corte de redes sociales.",
+      "practicalExample": "Criticar a los amigos de la pareja."
+    },
+    {
+      "id": "G012",
+      "term": "Empatía",
+      "category": "Psicología",
+      "definition": "Capacidad de sentir lo del otro.",
+      "practicalExample": "Entender el dolor ajeno."
+    },
+    {
+      "id": "G013",
+      "term": "Límites",
+      "category": "Defensa",
+      "definition": "Reglas de conducta personal.",
+      "practicalExample": "Decir 'no' a peticiones irrazonables."
+    },
+    {
+      "id": "G014",
+      "term": "Indiferencia",
+      "category": "Defensa",
+      "definition": "Falta de reacción emocional.",
+      "practicalExample": "No responder a un insulto."
+    },
+    {
+      "id": "G015",
+      "term": "Chantaje",
+      "category": "Manipulación",
+      "definition": "Presión para obtener algo.",
+      "practicalExample": "Amenazar con irse si no haces lo que quiero."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL001",
+      "category": "Detección",
+      "title": "La Mirada Fija",
+      "cue": "Contacto visual prolongado sin parpadeo.",
+      "interpretation": "Intento de intimidación o dominio.",
+      "practicalDrill": "Mantén la mirada 2 segundos y desvía hacia un lado."
+    },
+    {
+      "id": "BL002",
+      "category": "Detección",
+      "title": "Sonrisa Falsa",
+      "cue": "La boca sonríe pero los ojos no se arrugan.",
+      "interpretation": "Falta de sinceridad o manipulación.",
+      "practicalDrill": "Observa si los músculos orbiculares se activan."
+    },
+    {
+      "id": "BL003",
+      "category": "Detección",
+      "title": "Microexpresiones",
+      "cue": "Movimientos faciales rápidos de desprecio.",
+      "interpretation": "Sentimiento de superioridad oculto.",
+      "practicalDrill": "Practica identificar el labio superior levantado."
+    },
+    {
+      "id": "BL004",
+      "category": "Detección",
+      "title": "Postura Cerrada",
+      "cue": "Brazos cruzados y cuerpo alejado.",
+      "interpretation": "Defensividad o falta de apertura.",
+      "practicalDrill": "Observa si la persona se inclina hacia atrás."
+    },
+    {
+      "id": "BL005",
+      "category": "Detección",
+      "title": "Inquietud Motora",
+      "cue": "Golpeteo de dedos o pies.",
+      "interpretation": "Ansiedad o impaciencia por controlar.",
+      "practicalDrill": "Nota el ritmo del movimiento en una conversación."
+    },
+    {
+      "id": "BL006",
+      "category": "Detección",
+      "title": "Inclinación de Cabeza",
+      "cue": "Cabeza ladeada al escuchar.",
+      "interpretation": "A veces es empatía, a veces es 'caza'.",
+      "practicalDrill": "Evalúa si la inclinación coincide con el tono de voz."
     }
   ]
 };

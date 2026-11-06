@@ -1,3 +1,4 @@
+// Contenido enriquecido para Secretos de la Psicología Oscura 101
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_1.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>Índice Capítulo 1: Psicología de la Oscuridad 101 Identificar un depredador humano Son increíblemente encantadores El derecho está a la orden del día Les encanta tener el control Sus emociones no son auténticas Les gusta ser las víctimas Fundamentos para defenderse de los depredadores humanos Capítulo 2: Una inmersión profunda en la Tríada Oscura Desembalando la Tríada Oscura: Narcisismo ¿Cómo controlan los narcisistas a los demás? Desembalando la Tríada Oscura: Maquiavelo Características de los High Machs Desembalando la Tríada Oscura: Psicopatía La prueba de la tríada oscura Tratar con personalidades de la tríada oscura Capítulo 3: El ABC del lavado de cerebro Los diez pasos del lavado de cerebro Segunda etapa: Colgando la zanahoria de la salvación Tercera Etapa: La reconstrucción del yo lavado de cerebro ¿Qué hace que una persona sea susceptible al lavado de cerebro? Protegiéndose contra los lavados de cerebro Capítulo 4: La verdad sobre la hipnosis Romper los mitos sobre la hipnosis y la manipulación Cómo hipnotizar a alguien sin que lo sepa Protegiéndose contra la hipnosis ¿Qué hay de la hipnoterapia?",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Introducción (Tratado Oculto)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_secretos/oscurasec_m1_introduccion.webp\" alt=\"Introducción (Tratado Oculto)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Índice Capítulo 1: Psicología de la Oscuridad 101 Identificar un depredador humano Son increíblemente encantadores El derecho está a la orden del día Les encanta tener el control Sus emociones no son auténticas Les gusta ser las víctimas Fundamentos para defenderse de los depredadores humanos Capítulo 2: Una inmersión profunda en la Tríada Oscura Desembalando la Tríada Oscura: Narcisismo ¿Cómo controlan los narcisistas a los demás? Desembalando la Tríada Oscura: Maquiavelo Características de los High Machs Desembalando la Tríada Oscura: Psicopatía La prueba de la tríada oscura Tratar con personalidades de la tríada oscura Capítulo 3: El ABC del lavado de cerebro Los diez pasos del lavado de cerebro Segunda etapa: Colgando la zanahoria de la salvación Tercera Etapa: La reconstrucción del yo lavado de cerebro ¿Qué hace que una persona sea susceptible al lavado de cerebro? Protegiéndose contra los lavados de cerebro Capítulo 4: La verdad sobre la hipnosis Romper los mitos sobre la hipnosis y la manipulación Cómo hipnotizar a alguien sin que lo sepa Protegiéndose contra la hipnosis ¿Qué hay de la hipnoterapia?",
           "interactiveChallenge": {
             "question": "¿Qué distingue a un experto en la simpatía fabricada en el contexto de \"Introduccion\"?",
             "options": [
@@ -43,7 +44,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 5: El arte de la persuasión y el engaño Los principios de la persuasión Consejos de persuasión para el uso diario Tipos de engaño y cómo mejorarlos todos Capítulo 6: Defenderse de la psicología oscura Factores que te hacen más fácil de manipular Estrategias simples que puede adoptar para protegerse Capítulo 7: Mitos y conceptos erróneos sobre la Psicología Oscura Mito #1: Los psicópatas y sociópatas son una y la misma cosa Mito #2: Los psicópatas se hacen y no nacen Mito #3: Los sociópatas nacen Mito #4: Las mujeres no pueden ser psicópatas Mito #5: Los psicópatas están obsesionados con el asesinato. Mito #6: La psicopatía es una enfermedad mental que puede ser curada. Mito #7: Puedes cambiar a una persona de la tríada oscura amándola correctamente. Mito #8: La gente que obtiene un alto puntaje en la tríada oscura es más atractiva. Mito # 9: Los psicópatas cambian cuando tienen hijos. Mito # 10: Usted está o no en la tríada oscura Mito #11: Tu jefe es un psicópata Mito #12: Tu ex es un psicópata Capítulo 8: Famosas personalidades de la tríada oscura Alejandro Magno Napoleón Bonaparte Adolf Hitler Charles Manson Albert DeSalvo Jeffrey Dahmer Amy Bishop Cómo hablar con su hijo sobre la psicología oscura Haga de su casa un refugio seguro para su hijo Esté atento a lo que su hijo está viendo y escuchando... No endulzar las verdades Ser el padre Manténgase a la cabeza del juego ¿Qué pasa si el problema es su hijo? Conclusión Referencias Secretos de psicología oscura Apren",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 5 - El Arte de la Persuasión y el Engaño\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_secretos/oscurasec_m2_arte_persuasion_engano.webp\" alt=\"Cap 5 - El Arte de la Persuasión y el Engaño\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 5: El arte de la persuasión y el engaño Los principios de la persuasión Consejos de persuasión para el uso diario Tipos de engaño y cómo mejorarlos todos Capítulo 6: Defenderse de la psicología oscura Factores que te hacen más fácil de manipular Estrategias simples que puede adoptar para protegerse Capítulo 7: Mitos y conceptos erróneos sobre la Psicología Oscura Mito #1: Los psicópatas y sociópatas son una y la misma cosa Mito #2: Los psicópatas se hacen y no nacen Mito #3: Los sociópatas nacen Mito #4: Las mujeres no pueden ser psicópatas Mito #5: Los psicópatas están obsesionados con el asesinato. Mito #6: La psicopatía es una enfermedad mental que puede ser curada. Mito #7: Puedes cambiar a una persona de la tríada oscura amándola correctamente. Mito #8: La gente que obtiene un alto puntaje en la tríada oscura es más atractiva. Mito # 9: Los psicópatas cambian cuando tienen hijos. Mito # 10: Usted está o no en la tríada oscura Mito #11: Tu jefe es un psicópata Mito #12: Tu ex es un psicópata Capítulo 8: Famosas personalidades de la tríada oscura Alejandro Magno Napoleón Bonaparte Adolf Hitler Charles Manson Albert DeSalvo Jeffrey Dahmer Amy Bishop Cómo hablar con su hijo sobre la psicología oscura Haga de su casa un refugio seguro para su hijo Esté atento a lo que su hijo está viendo y escuchando... No endulzar las verdades Ser el padre Manténgase a la cabeza del juego ¿Qué pasa si el problema es su hijo? Conclusión Referencias Secretos de psicología oscura Apren",
           "interactiveChallenge": {
             "question": "¿Cuál de las siguientes afirmaciones sobre la love bombing en el contexto de \"Cap Tulo 5 El Arte De La Persuasi N Y El Enga O Los Principios De La Persuasi N Consejos De Persuasi\"?",
             "options": [
@@ -137,7 +138,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 1: Psicología de la Oscuridad 101 Identificar un depredador humano Son increíblemente encantadores El derecho está a la orden del día Les encanta tener el control Sus emociones no son auténticas Les gusta ser las víctimas Fundamentos para defenderse de los depredadores humanos Capítulo 2: Una inmersión profunda en la Tríada Oscura Desembalando la Tríada Oscura: Narcisismo ¿Cómo controlan los narcisistas a los demás? Desembalando la Tríada Oscura: Maquiavelo Características de los High Machs Desembalando la Tríada Oscura: Psicopatía La prueba de la tríada oscura Tratar con personalidades de la tríada oscura",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 1 - Psicología Oscura 101 (Depredadores)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_secretos/oscurasec_m3_identificar_depredador.webp\" alt=\"Cap 1 - Psicología Oscura 101 (Depredadores)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 1: Psicología de la Oscuridad 101 Identificar un depredador humano Son increíblemente encantadores El derecho está a la orden del día Les encanta tener el control Sus emociones no son auténticas Les gusta ser las víctimas Fundamentos para defenderse de los depredadores humanos Capítulo 2: Una inmersión profunda en la Tríada Oscura Desembalando la Tríada Oscura: Narcisismo ¿Cómo controlan los narcisistas a los demás? Desembalando la Tríada Oscura: Maquiavelo Características de los High Machs Desembalando la Tríada Oscura: Psicopatía La prueba de la tríada oscura Tratar con personalidades de la tríada oscura",
           "interactiveChallenge": {
             "question": "Al aplicar los principios de la lenguaje corporal dominante en el contexto de \"Cap Tulo 1 Psicolog A De La Oscuridad 101 Identificar Un Depredador Humano Son Incre Blemente Encant\"?",
             "options": [
@@ -173,7 +174,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 3: El ABC del lavado de cerebro Los diez pasos del lavado de cerebro Segunda etapa: Colgando la zanahoria de la salvación Tercera Etapa: La reconstrucción del yo lavado de cerebro ¿Qué hace que una persona sea susceptible al lavado de cerebro? Protegiéndose contra los lavados de cerebro Capítulo 4: La verdad sobre la hipnosis Romper los mitos sobre la hipnosis y la manipulación Cómo hipnotizar a alguien sin que lo sepa Protegiéndose contra la hipnosis ¿Qué hay de la hipnoterapia?",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 3 - El ABC del Lavado de Cerebro (Desestabilización)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_secretos/oscurasec_m4_lavado_cerebro_etapas.webp\" alt=\"Cap 3 - El ABC del Lavado de Cerebro (Desestabilización)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 3: El ABC del lavado de cerebro Los diez pasos del lavado de cerebro Segunda etapa: Colgando la zanahoria de la salvación Tercera Etapa: La reconstrucción del yo lavado de cerebro ¿Qué hace que una persona sea susceptible al lavado de cerebro? Protegiéndose contra los lavados de cerebro Capítulo 4: La verdad sobre la hipnosis Romper los mitos sobre la hipnosis y la manipulación Cómo hipnotizar a alguien sin que lo sepa Protegiéndose contra la hipnosis ¿Qué hay de la hipnoterapia?",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la reciprocidad en el contexto de \"Cap Tulo 3 El Abc Del Lavado De Cerebro Los Diez Pasos Del Lavado De Cerebro Segunda Etapa Colgando \"?",
             "options": [
@@ -209,7 +210,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 5: El arte de la persuasión y el engaño Los principios de la persuasión Consejos de persuasión para el uso diario Tipos de engaño y cómo mejorarlos todos Capítulo 6: Defenderse de la psicología oscura Factores que te hacen más fácil de manipular Estrategias simples que puede adoptar para protegerse Capítulo 7: Mitos y conceptos erróneos sobre la Psicología Oscura Mito #1: Los psicópatas y sociópatas son una y la misma cosa Mito #2: Los psicópatas se hacen y no nacen Mito #3: Los sociópatas nacen Mito #4: Las mujeres no pueden ser psicópatas Mito #5: Los psicópatas están obsesionados con el asesinato. Mito #6: La psicopatía es una enfermedad mental que puede ser curada. Mito #7: Puedes cambiar a una persona de la tríada oscura amándola correctamente. Mito #8: La gente que obtiene un alto puntaje en la tríada oscura es más atractiva. Mito # 9: Los psicópatas cambian cuando tienen hijos. Mito # 10: Usted está o no en la tríada oscura Mito #11: Tu jefe es un psicópata Mito #12: Tu ex es un psicópata Capítulo 8: Famosas personalidades de la tríada oscura Alejandro Magno Napoleón Bonaparte Adolf Hitler Charles Manson Albert DeSalvo Jeffrey Dahmer Amy Bishop Cómo hablar con su hijo sobre la psicología oscura Haga de su casa un refugio seguro para su hijo Esté atento a lo que su hijo está viendo y escuchando... No endulzar las verdades Ser el padre Manténgase a la cabeza del juego ¿Qué pasa si el problema es su hijo? Conclusión Referencias",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 5 - Principios y Consejos de Persuasión\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_secretos/oscurasec_m5_consejos_persuasion.webp\" alt=\"Cap 5 - Principios y Consejos de Persuasión\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 5: El arte de la persuasión y el engaño Los principios de la persuasión Consejos de persuasión para el uso diario Tipos de engaño y cómo mejorarlos todos Capítulo 6: Defenderse de la psicología oscura Factores que te hacen más fácil de manipular Estrategias simples que puede adoptar para protegerse Capítulo 7: Mitos y conceptos erróneos sobre la Psicología Oscura Mito #1: Los psicópatas y sociópatas son una y la misma cosa Mito #2: Los psicópatas se hacen y no nacen Mito #3: Los sociópatas nacen Mito #4: Las mujeres no pueden ser psicópatas Mito #5: Los psicópatas están obsesionados con el asesinato. Mito #6: La psicopatía es una enfermedad mental que puede ser curada. Mito #7: Puedes cambiar a una persona de la tríada oscura amándola correctamente. Mito #8: La gente que obtiene un alto puntaje en la tríada oscura es más atractiva. Mito # 9: Los psicópatas cambian cuando tienen hijos. Mito # 10: Usted está o no en la tríada oscura Mito #11: Tu jefe es un psicópata Mito #12: Tu ex es un psicópata Capítulo 8: Famosas personalidades de la tríada oscura Alejandro Magno Napoleón Bonaparte Adolf Hitler Charles Manson Albert DeSalvo Jeffrey Dahmer Amy Bishop Cómo hablar con su hijo sobre la psicología oscura Haga de su casa un refugio seguro para su hijo Esté atento a lo que su hijo está viendo y escuchando... No endulzar las verdades Ser el padre Manténgase a la cabeza del juego ¿Qué pasa si el problema es su hijo? Conclusión Referencias",
           "interactiveChallenge": {
             "question": "Ante una situación de la simpatía fabricada en el contexto de \"Cap Tulo 5 El Arte De La Persuasi N Y El Enga O Los Principios De La Persuasi N Consejos De Persuasi\"?",
             "options": [
@@ -245,7 +246,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 1: Psicología de la Oscuridad 101 En un mundo utópico, todos los seres humanos se cuidarían los unos a los otros. Los vecinos serían amigos, los colegas en el mundo corporativo no serían despiadados en su competitividad, y los extraños serían todos amables. No habría robos, secuestros o incluso asesinatos. Sólo habría perfecta felicidad y armonía. Podrías hacer tus negocios sin preocuparte de que alguien se aproveche de ti. Podrías dejar tus tarjetas bancarias desatendidas porque nadie trataría de robarte. Dormir con las ventanas y puertas abiertas sería la norma. El robo de identidad no existiría. Las cárceles se volverían obsoletas y las mujeres podrían caminar en la oscuridad sin preocuparse de ser atacadas. Desafortunadamente, este no es el tipo de mundo en el que vivimos. En el mundo real, la gente usa y abusa de los demás todo el tiempo. Casi parece que siempre hay alguien esperando para aprovecharse de ti en cada momento. En el mundo actual, donde las fronteras físicas han sido borradas por Internet y otras numerosas tecnologías, corres un riesgo aún mayor de ser presa de otros humanos. No sólo estás siendo presa de las personas con las que interactúas en el mundo físico, sino que también existe la amenaza adicional de los depredadores virtuales. Basta con decir que los humanos se han vuelto incluso más depredadores que los animales salvajes. La mayoría de la gente prefiere creer lo mejor de todos los que conoce hasta que se demuestre lo contrario. Piénsalo. C",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 1 - Fundamentos y Raíces Oscuras\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_secretos/oscurasec_m6_raices_mecanismos.webp\" alt=\"Cap 1 - Fundamentos y Raíces Oscuras\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 1: Psicología de la Oscuridad 101 En un mundo utópico, todos los seres humanos se cuidarían los unos a los otros. Los vecinos serían amigos, los colegas en el mundo corporativo no serían despiadados en su competitividad, y los extraños serían todos amables. No habría robos, secuestros o incluso asesinatos. Sólo habría perfecta felicidad y armonía. Podrías hacer tus negocios sin preocuparte de que alguien se aproveche de ti. Podrías dejar tus tarjetas bancarias desatendidas porque nadie trataría de robarte. Dormir con las ventanas y puertas abiertas sería la norma. El robo de identidad no existiría. Las cárceles se volverían obsoletas y las mujeres podrían caminar en la oscuridad sin preocuparse de ser atacadas. Desafortunadamente, este no es el tipo de mundo en el que vivimos. En el mundo real, la gente usa y abusa de los demás todo el tiempo. Casi parece que siempre hay alguien esperando para aprovecharse de ti en cada momento. En el mundo actual, donde las fronteras físicas han sido borradas por Internet y otras numerosas tecnologías, corres un riesgo aún mayor de ser presa de otros humanos. No sólo estás siendo presa de las personas con las que interactúas en el mundo físico, sino que también existe la amenaza adicional de los depredadores virtuales. Basta con decir que los humanos se han vuelto incluso más depredadores que los animales salvajes. La mayoría de la gente prefiere creer lo mejor de todos los que conoce hasta que se demuestre lo contrario. Piénsalo. C",
           "interactiveChallenge": {
             "question": "El concepto central de la love bombing en el contexto de \"Cap Tulo 1 Psicolog A De La Oscuridad 101\"?",
             "options": [
@@ -658,7 +659,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 2: Una inmersión profunda en la Tríada Oscura En el campo de la psicología, existe un fenómeno conocido como la tríada oscura. La tríada oscura es un conjunto de tres rasgos de personalidad, a saber, el narcisismo, el maquiavelismo y la psicopatía. Este conjunto de tres se denomina oscura debido a los comportamientos típicamente malignos asociados a estos rasgos. El marcado contraste de la tríada oscura es la tríada clara, que en sí misma es un tema y discusión para otro libro. Aunque los tres rasgos representados en la tríada oscura son distintos en sus propios estudios, se demuestra que en realidad a menudo se superponen. Lo que esto significa es que una persona que obtiene una alta puntuación en la prueba de la tríada oscura probablemente tendrá todos estos rasgos presentes con límites borrosos. Por ejemplo, podría ser difícil decir dónde termina el narcisismo y dónde comienza la psicopatía. Los debates sobre el concepto de la tríada oscura fueron iniciados inicialmente en 1998 por tres expertos en psicología (se incluirán los nombres) que sostuvieron que el narcisismo, el maquiavelismo y la psicopatía se producían de manera superpuesta en muestras normales. Más tarde, en 2002, dos psicólogos llamados Paulhus y Williams acuñarían un nombre para este concepto: la tríada oscura. Al tratar de comprender las personalidades de la tríada oscura, a menudo se han producido discusiones y debates sobre el papel que juegan la naturaleza y el En pocas palabras, los científico",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 2 - Una Inmersión Profunda en la Tríada Oscura\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_secretos/oscurasec_m7_triada_oscura.webp\" alt=\"Cap 2 - Una Inmersión Profunda en la Tríada Oscura\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 2: Una inmersión profunda en la Tríada Oscura En el campo de la psicología, existe un fenómeno conocido como la tríada oscura. La tríada oscura es un conjunto de tres rasgos de personalidad, a saber, el narcisismo, el maquiavelismo y la psicopatía. Este conjunto de tres se denomina oscura debido a los comportamientos típicamente malignos asociados a estos rasgos. El marcado contraste de la tríada oscura es la tríada clara, que en sí misma es un tema y discusión para otro libro. Aunque los tres rasgos representados en la tríada oscura son distintos en sus propios estudios, se demuestra que en realidad a menudo se superponen. Lo que esto significa es que una persona que obtiene una alta puntuación en la prueba de la tríada oscura probablemente tendrá todos estos rasgos presentes con límites borrosos. Por ejemplo, podría ser difícil decir dónde termina el narcisismo y dónde comienza la psicopatía. Los debates sobre el concepto de la tríada oscura fueron iniciados inicialmente en 1998 por tres expertos en psicología (se incluirán los nombres) que sostuvieron que el narcisismo, el maquiavelismo y la psicopatía se producían de manera superpuesta en muestras normales. Más tarde, en 2002, dos psicólogos llamados Paulhus y Williams acuñarían un nombre para este concepto: la tríada oscura. Al tratar de comprender las personalidades de la tríada oscura, a menudo se han producido discusiones y debates sobre el papel que juegan la naturaleza y el En pocas palabras, los científico",
           "interactiveChallenge": {
             "question": "¿Cómo reconoce un observador entrenado la lenguaje corporal dominante en el contexto de \"Cap Tulo 2 Una Inmersi N Profunda En La Tr Ada Oscura\"?",
             "options": [
@@ -1187,7 +1188,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 3: El ABC del lavado de cerebro El lavado de cerebro es quizás una de las formas más intensas de influencia social, ya que exige un gran compromiso por parte del cerebro y de la víctima. El lavado de cerebro, también conocido como control mental, reforma del pensamiento o persuasión coercitiva, no es una técnica que se pueda aplicar una sola vez con resultados. Requiere la aportación constante del manipulador hasta el punto de que sea capaz de descomponer a la víctima hasta obtener los resultados deseados. Lo más probable es que hayas oído describir a alguien como un lavado de cerebro. Incluso puede que usted mismo haya utilizado el término para referirse a alguien que expresó opiniones que parecían demasiado descaradas para ser verdad, que obviamente no son las suyas. Aunque muchas personas suelen utilizar este término de forma poco estricta en la conversación diaria, el alcance total de este método de manipulación es algo que sólo puede entenderse después de reconocer todos los hechos sobre el mismo. Lo primero es lo primero: muchos métodos de manipulación, o métodos de influencia social si se prefiere, se basan en enfoques particulares para lograr los resultados previstos. Existe el enfoque de cumplimiento, en el que se hace que un sujeto haga algo sin importarle realmente sus ideas o creencias subyacentes. Luego está el enfoque de la persuasión que parece hacer que alguien haga algo apuntando a sus creencias o actitudes. Por ejemplo, un manipulador podría tratar",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 3 - El ABC del Lavado de Cerebro (Reseteo)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_secretos/oscurasec_m8_lavado_cerebro_reseteo.webp\" alt=\"Cap 3 - El ABC del Lavado de Cerebro (Reseteo)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 3: El ABC del lavado de cerebro El lavado de cerebro es quizás una de las formas más intensas de influencia social, ya que exige un gran compromiso por parte del cerebro y de la víctima. El lavado de cerebro, también conocido como control mental, reforma del pensamiento o persuasión coercitiva, no es una técnica que se pueda aplicar una sola vez con resultados. Requiere la aportación constante del manipulador hasta el punto de que sea capaz de descomponer a la víctima hasta obtener los resultados deseados. Lo más probable es que hayas oído describir a alguien como un lavado de cerebro. Incluso puede que usted mismo haya utilizado el término para referirse a alguien que expresó opiniones que parecían demasiado descaradas para ser verdad, que obviamente no son las suyas. Aunque muchas personas suelen utilizar este término de forma poco estricta en la conversación diaria, el alcance total de este método de manipulación es algo que sólo puede entenderse después de reconocer todos los hechos sobre el mismo. Lo primero es lo primero: muchos métodos de manipulación, o métodos de influencia social si se prefiere, se basan en enfoques particulares para lograr los resultados previstos. Existe el enfoque de cumplimiento, en el que se hace que un sujeto haga algo sin importarle realmente sus ideas o creencias subyacentes. Luego está el enfoque de la persuasión que parece hacer que alguien haga algo apuntando a sus creencias o actitudes. Por ejemplo, un manipulador podría tratar",
           "interactiveChallenge": {
             "question": "Según este módulo, ¿cuál es el mecanismo principal de la reciprocidad en el contexto de \"Cap Tulo 3 El Abc Del Lavado De Cerebro\"?",
             "options": [
@@ -1832,7 +1833,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 4: La verdad sobre la hipnosis ¿Qué es lo primero que te viene a la mente cuando escuchas el término hipnosis? Para mucha gente, la respuesta es esta: una película de Hollywood con una escena terriblemente ejecutada completa con un hipnotizador y su mítico reloj oscilante. A través del hipnotizador está el pobre individuo que está a punto de ser enviado a algún lugar de su mente que no ha visitado en más de veinte años. La verdad es que en el mundo real, la hipnosis es menos dramática. En los términos más simples, la hipnosis es una forma de manipulación que implica reducir la conciencia de una persona de su entorno externo y aumentar su atención interna. Cuando un individuo está bajo hipnosis, responde a las sugerencias más favorablemente porque su pensamiento crítico se ve afectado. Por eso las películas mostrarán a un sujeto respondiendo incuestionablemente a las órdenes de un hipnotizador. Hay algo de ciencia detrás de la hipnosis, y se trata de entender cómo funciona la mente humana. El cerebro humano está estructurado de tal manera que existe la mente consciente que controla el pensamiento crítico y la mente subconsciente donde se almacenan los recuerdos. La mente crítica es la que le dice que cruzar una carretera concurrida sin mirar es peligroso y estúpido; mientras que la mente subconsciente es probable que le diga que perder peso es difícil porque en ella se almacenan los recuerdos de la última vez que intentó (sin éxito) perder peso. La hipnosis funciona a",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 4 - La Verdad Sobre la Hipnosis\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_secretos/oscurasec_m9_verdad_hipnosis.webp\" alt=\"Cap 4 - La Verdad Sobre la Hipnosis\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 4: La verdad sobre la hipnosis ¿Qué es lo primero que te viene a la mente cuando escuchas el término hipnosis? Para mucha gente, la respuesta es esta: una película de Hollywood con una escena terriblemente ejecutada completa con un hipnotizador y su mítico reloj oscilante. A través del hipnotizador está el pobre individuo que está a punto de ser enviado a algún lugar de su mente que no ha visitado en más de veinte años. La verdad es que en el mundo real, la hipnosis es menos dramática. En los términos más simples, la hipnosis es una forma de manipulación que implica reducir la conciencia de una persona de su entorno externo y aumentar su atención interna. Cuando un individuo está bajo hipnosis, responde a las sugerencias más favorablemente porque su pensamiento crítico se ve afectado. Por eso las películas mostrarán a un sujeto respondiendo incuestionablemente a las órdenes de un hipnotizador. Hay algo de ciencia detrás de la hipnosis, y se trata de entender cómo funciona la mente humana. El cerebro humano está estructurado de tal manera que existe la mente consciente que controla el pensamiento crítico y la mente subconsciente donde se almacenan los recuerdos. La mente crítica es la que le dice que cruzar una carretera concurrida sin mirar es peligroso y estúpido; mientras que la mente subconsciente es probable que le diga que perder peso es difícil porque en ella se almacenan los recuerdos de la última vez que intentó (sin éxito) perder peso. La hipnosis funciona a",
           "interactiveChallenge": {
             "question": "¿Qué distingue a un experto en la simpatía fabricada en el contexto de \"Cap Tulo 4 La Verdad Sobre La Hipnosis\"?",
             "options": [
@@ -2216,7 +2217,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 5: El arte de la persuasión y el engaño Merriam-Webster define la persuasión como la capacidad de persuadir, mientras que la persuasión se define además como el movimiento por medio de argumentos, súplicas o exposturas hacia una creencia, posición o curso de acción. En menos palabras, persuadir a alguien es convencer a alguien de hacer algo. La persuasión es una forma de arte que debe ser dominada por cualquiera que quiera conseguir que la gente haga algo. Es una herramienta increíble para tener, especialmente si estás constantemente rodeado de gente que necesita un poco de estímulo de vez en cuando. El engaño, por otro lado, se define como el acto de hacer creer a alguien que algo que es falso o inválido es, de hecho, verdadero y válido. El engaño es una forma de manipulación en sí misma y también una herramienta a través de la cual se pueden lograr los objetivos de persuasión. Aquí es probablemente donde las cosas se ponen borrosas en lo que respecta a la persuasión. Durante mucho tiempo, ha habido debates sobre la delgada línea entre la manipulación y la persuasión. Hay campos que están completamente convencidos de la maldad de la persuasión, mientras que otros creen que la persuasión es una forma totalmente inofensiva de obtener lo que quieres de la gente. El tema de la manipulación en sí mismo es una zona gris para mucha gente. La moralidad es subjetiva dependiendo de las métricas establecidas por las diferentes sociedades y culturas. La pregunta de si la manipu",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 5 - Persuasión y Desvío Estratégico\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_secretos/oscurasec_m10_persuasion_desvio.webp\" alt=\"Cap 5 - Persuasión y Desvío Estratégico\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 5: El arte de la persuasión y el engaño Merriam-Webster define la persuasión como la capacidad de persuadir, mientras que la persuasión se define además como el movimiento por medio de argumentos, súplicas o exposturas hacia una creencia, posición o curso de acción. En menos palabras, persuadir a alguien es convencer a alguien de hacer algo. La persuasión es una forma de arte que debe ser dominada por cualquiera que quiera conseguir que la gente haga algo. Es una herramienta increíble para tener, especialmente si estás constantemente rodeado de gente que necesita un poco de estímulo de vez en cuando. El engaño, por otro lado, se define como el acto de hacer creer a alguien que algo que es falso o inválido es, de hecho, verdadero y válido. El engaño es una forma de manipulación en sí misma y también una herramienta a través de la cual se pueden lograr los objetivos de persuasión. Aquí es probablemente donde las cosas se ponen borrosas en lo que respecta a la persuasión. Durante mucho tiempo, ha habido debates sobre la delgada línea entre la manipulación y la persuasión. Hay campos que están completamente convencidos de la maldad de la persuasión, mientras que otros creen que la persuasión es una forma totalmente inofensiva de obtener lo que quieres de la gente. El tema de la manipulación en sí mismo es una zona gris para mucha gente. La moralidad es subjetiva dependiendo de las métricas establecidas por las diferentes sociedades y culturas. La pregunta de si la manipu",
           "interactiveChallenge": {
             "question": "¿Cuál de las siguientes afirmaciones sobre la love bombing en el contexto de \"Cap Tulo 5 El Arte De La Persuasi N Y El Enga O\"?",
             "options": [
@@ -2745,7 +2746,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 6: Defenderse de la psicología oscura Por mucho que quieras creer en lo mejor de todos, la verdad es que todos somos blancos fáciles en lo que respecta a la manipulación. Hay gente en este mundo que sale de sus casas con las peores intenciones. Sus intenciones son lastimar a otros y obtener lo máximo que puedan de otras personas sin dar nada a cambio. El conocimiento de la psicología oscura presentado en este libro no está destinado a ser utilizado para causar daño a los demás. Más bien, el objetivo principal es ayudar a reconocer la manipulación en sus diversas formas por lo que es y, si es necesario, a cambiar las tornas para protegerse. Si puedes manipular a un manipulador antes de que saque lo mejor de ti, entonces eso es una victoria para ti y para el resto de la humanidad. Factores que te hacen más fácil de manipular Además de saber cómo identificar a un depredador, también ayuda a entender qué es lo que hace a una persona más vulnerable a los ataques psicológicos. En pocas palabras, hay patos sentados que están más cerca de la línea de fuego que otros. En el capítulo 3: El ABC del lavado de cerebro, exploramos algunos de los factores que hacen a una persona más susceptible al lavado de cerebro. Sin embargo, ahora sabemos que el lavado de cerebro es sólo una de las formas en que se manipula a las personas. Entonces, ¿qué es lo que hace a una persona vulnerable a todos los tipos de control y manipulación mental que existen? Usted es inteligente Probablemente est",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 6 - Defenderse de la Psicología Oscura\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_secretos/oscurasec_m11_defensa_psicologia_oscura.webp\" alt=\"Cap 6 - Defenderse de la Psicología Oscura\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 6: Defenderse de la psicología oscura Por mucho que quieras creer en lo mejor de todos, la verdad es que todos somos blancos fáciles en lo que respecta a la manipulación. Hay gente en este mundo que sale de sus casas con las peores intenciones. Sus intenciones son lastimar a otros y obtener lo máximo que puedan de otras personas sin dar nada a cambio. El conocimiento de la psicología oscura presentado en este libro no está destinado a ser utilizado para causar daño a los demás. Más bien, el objetivo principal es ayudar a reconocer la manipulación en sus diversas formas por lo que es y, si es necesario, a cambiar las tornas para protegerse. Si puedes manipular a un manipulador antes de que saque lo mejor de ti, entonces eso es una victoria para ti y para el resto de la humanidad. Factores que te hacen más fácil de manipular Además de saber cómo identificar a un depredador, también ayuda a entender qué es lo que hace a una persona más vulnerable a los ataques psicológicos. En pocas palabras, hay patos sentados que están más cerca de la línea de fuego que otros. En el capítulo 3: El ABC del lavado de cerebro, exploramos algunos de los factores que hacen a una persona más susceptible al lavado de cerebro. Sin embargo, ahora sabemos que el lavado de cerebro es sólo una de las formas en que se manipula a las personas. Entonces, ¿qué es lo que hace a una persona vulnerable a todos los tipos de control y manipulación mental que existen? Usted es inteligente Probablemente est",
           "interactiveChallenge": {
             "question": "Al aplicar los principios de la lenguaje corporal dominante en el contexto de \"Cap Tulo 6 Defenderse De La Psicolog A Oscura\"?",
             "options": [
@@ -3042,7 +3043,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 7: Mitos y conceptos erróneos sobre la Psicología Oscura Hay numerosos temas que son seguros para la conversación de la cena. La psicología oscura no es uno de ellos. Lo último que quieres preguntar durante el Día de Acción de Gracias es cómo se anota el tío Joe en cuanto a su orientación maquiavélica. Debido a la malevolencia que rodea a la psicología oscura, normalmente hay muy pocas discusiones abiertas sobre el tema. Hagamos la prueba de la tríada oscura, por ejemplo. ¿Piensas hacerla? Si es así, ¿piensa compartir sus resultados con alguien? Lo más probable es que si respondiste sí a la primera pregunta, probablemente responderás no a la segunda. A la mayoría de los seres humanos les gusta pensar que son buenas personas. Lo que es más, les gusta que otras personas piensen en ellos como buenas personas. Poner tu prueba de la tríada oscura en exhibición para que todos la vean podría no servir exactamente para este propósito. Debido a todo este silencio que rodea a la psicología oscura, hay, por lo tanto, un montón de ideas falsas y mitos sobre los rasgos de la personalidad que son los recipientes clave de la psicología oscura. Este",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 7 - Mitos y Conceptos Erróneos\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_secretos/oscurasec_m12_mitos_conceptos_erroneos.webp\" alt=\"Cap 7 - Mitos y Conceptos Erróneos\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 7: Mitos y conceptos erróneos sobre la Psicología Oscura Hay numerosos temas que son seguros para la conversación de la cena. La psicología oscura no es uno de ellos. Lo último que quieres preguntar durante el Día de Acción de Gracias es cómo se anota el tío Joe en cuanto a su orientación maquiavélica. Debido a la malevolencia que rodea a la psicología oscura, normalmente hay muy pocas discusiones abiertas sobre el tema. Hagamos la prueba de la tríada oscura, por ejemplo. ¿Piensas hacerla? Si es así, ¿piensa compartir sus resultados con alguien? Lo más probable es que si respondiste sí a la primera pregunta, probablemente responderás no a la segunda. A la mayoría de los seres humanos les gusta pensar que son buenas personas. Lo que es más, les gusta que otras personas piensen en ellos como buenas personas. Poner tu prueba de la tríada oscura en exhibición para que todos la vean podría no servir exactamente para este propósito. Debido a todo este silencio que rodea a la psicología oscura, hay, por lo tanto, un montón de ideas falsas y mitos sobre los rasgos de la personalidad que son los recipientes clave de la psicología oscura. Este",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la reciprocidad en el contexto de \"Cap Tulo 7 Mitos Y Conceptos Err Neos Sobre La Psicolog A Oscura\"?",
             "options": [
@@ -3078,7 +3079,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "capítulo explora estos mitos y conceptos erróneos mientras que arroja algo de luz sobre los mismos. Mito #1: Los psicópatas y sociópatas son una y la misma cosa Verdad: La psicopatía y la sociopatía son dos tipos diferentes de trastornos de personalidad antisocial El término psicópata y sociópata se utilizan indistintamente en la conversación cotidiana. Sin embargo, los dos rasgos son significativamente diferentes el uno del otro. Dicho esto, estos dos trastornos de personalidad comparten algunas similitudes. Los expertos consideran que la sociopatía es un trastorno menos grave que la psicopatía. La siguiente tabla muestra algunas de las características que distinguen a un psicópata de un sociópata. Psicópata Sociópata No tiene conciencia Tiene una conciencia débil Son capaces de mezclarse siendo encantadores y por lo tanto son más difíciles de detectar No tienen intención de mezclarse y a menudo son fáciles de detectar. Estarán principalmente interesados en ellos mismos solamente Frío de corazón y calculador Cabeza caliente y salta sin mirar Mito #2: Los psicópatas se hacen y no nacen Verdad: Los psicópatas nacen así La psicopatía es un trastorno de la personalidad muy complicado en el sentido de que los psicópatas nacen más a menudo que se hacen. Un psicópata sale del útero con un cableado diferente al de la mayoría de la gente. Como resultado, se desvían de la tangente de lo que es normal y a menudo se encuentran en posiciones en las que cualquier otra persona \"normal\" no",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 7 - Explorando Mitos y Realidades\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_secretos/oscurasec_m13_explorando_mitos.webp\" alt=\"Cap 7 - Explorando Mitos y Realidades\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>capítulo explora estos mitos y conceptos erróneos mientras que arroja algo de luz sobre los mismos. Mito #1: Los psicópatas y sociópatas son una y la misma cosa Verdad: La psicopatía y la sociopatía son dos tipos diferentes de trastornos de personalidad antisocial El término psicópata y sociópata se utilizan indistintamente en la conversación cotidiana. Sin embargo, los dos rasgos son significativamente diferentes el uno del otro. Dicho esto, estos dos trastornos de personalidad comparten algunas similitudes. Los expertos consideran que la sociopatía es un trastorno menos grave que la psicopatía. La siguiente tabla muestra algunas de las características que distinguen a un psicópata de un sociópata. Psicópata Sociópata No tiene conciencia Tiene una conciencia débil Son capaces de mezclarse siendo encantadores y por lo tanto son más difíciles de detectar No tienen intención de mezclarse y a menudo son fáciles de detectar. Estarán principalmente interesados en ellos mismos solamente Frío de corazón y calculador Cabeza caliente y salta sin mirar Mito #2: Los psicópatas se hacen y no nacen Verdad: Los psicópatas nacen así La psicopatía es un trastorno de la personalidad muy complicado en el sentido de que los psicópatas nacen más a menudo que se hacen. Un psicópata sale del útero con un cableado diferente al de la mayoría de la gente. Como resultado, se desvían de la tangente de lo que es normal y a menudo se encuentran en posiciones en las que cualquier otra persona \"normal\" no",
           "interactiveChallenge": {
             "question": "Ante una situación de la simpatía fabricada en el contexto de \"Cap Tulo Explora Estos Mitos Y Conceptos Err Neos Mientras Que Arroja Algo De Luz Sobre Los Mismos\"?",
             "options": [
@@ -3375,7 +3376,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 8: Famosas personalidades de la tríada oscura No basta con leer sobre los rasgos que encarnan las personalidades de la tríada oscura; también hay que reconocer que las personas de la tríada oscura tienen nombres y han vivido entre nosotros ya sea en nuestro tiempo o antes. En toda la historia, ha habido personas que han actuado tan escandalosamente en toda su gloria de tríada oscura para que todos lo vean. Este capítulo está dedicado a aquellos individuos que han dejado, o continúan dejando, su oscura marca en el mundo. Alejandro Magno Hijo de Felipe II de Macedonia y Olimpia, Alejandro Magno fue un rey del antiguo reino griego conocido como Macedonia y también un furioso narcisista. Alejandro creía que estaba destinado a la grandeza y que todo lo que existía en su imaginación era alcanzable en la vida real, sin importar el gasto. Su madre no mejoró las cosas para él... tenía grandes ambiciones para él. Él buscó realizar estas ambiciones toda su vida, y no es de extrañar que terminara siendo nombrado \"el Grande\" en reconocimiento de su feroz logro como un comandante militar sin rival. Tal vez la mayor indicación de que Alejandro era un narcisista es el hecho de que se consideraba una deidad. En otras palabras, se creía un dios. De nuevo, su madre le había hecho creer que era hijo de Zeus, el rey de los dioses griegos. Además, a Alejandro le gustaba restar importancia a los logros de su padre ante sus amigos. A sus ojos, estos logros no importaban, y las únicas victor",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 8 - Famosas Personalidades y Conclusión\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_secretos/oscurasec_m14_famosas_personalidades_conclusion.webp\" alt=\"Cap 8 - Famosas Personalidades y Conclusión\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 8: Famosas personalidades de la tríada oscura No basta con leer sobre los rasgos que encarnan las personalidades de la tríada oscura; también hay que reconocer que las personas de la tríada oscura tienen nombres y han vivido entre nosotros ya sea en nuestro tiempo o antes. En toda la historia, ha habido personas que han actuado tan escandalosamente en toda su gloria de tríada oscura para que todos lo vean. Este capítulo está dedicado a aquellos individuos que han dejado, o continúan dejando, su oscura marca en el mundo. Alejandro Magno Hijo de Felipe II de Macedonia y Olimpia, Alejandro Magno fue un rey del antiguo reino griego conocido como Macedonia y también un furioso narcisista. Alejandro creía que estaba destinado a la grandeza y que todo lo que existía en su imaginación era alcanzable en la vida real, sin importar el gasto. Su madre no mejoró las cosas para él... tenía grandes ambiciones para él. Él buscó realizar estas ambiciones toda su vida, y no es de extrañar que terminara siendo nombrado \"el Grande\" en reconocimiento de su feroz logro como un comandante militar sin rival. Tal vez la mayor indicación de que Alejandro era un narcisista es el hecho de que se consideraba una deidad. En otras palabras, se creía un dios. De nuevo, su madre le había hecho creer que era hijo de Zeus, el rey de los dioses griegos. Además, a Alejandro le gustaba restar importancia a los logros de su padre ante sus amigos. A sus ojos, estos logros no importaban, y las únicas victor",
           "interactiveChallenge": {
             "question": "El concepto central de la love bombing en el contexto de \"Cap Tulo 8 Famosas Personalidades De La Tr Ada Oscura\"?",
             "options": [
@@ -3925,6 +3926,594 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS001",
+      "category": "Persuasion",
+      "title": "The False Urgency Trap",
+      "difficulty": "Intermediate",
+      "badge": "Negotiator",
+      "scenarioDescription": "A colleague insists you sign a contract immediately, claiming a limited-time offer that expires in an hour.",
+      "options": [
+        {
+          "text": "Sign immediately to avoid losing the deal.",
+          "outcome": "Manipulated",
+          "wisdomScore": 20,
+          "analysis": "You fell for the scarcity principle.",
+          "bookInsight": "Persuasion often relies on artificial time pressure."
+        },
+        {
+          "text": "Request a 24-hour review period.",
+          "outcome": "Resilient",
+          "wisdomScore": 95,
+          "analysis": "You neutralized the pressure tactic.",
+          "bookInsight": "True opportunities rarely require immediate, blind commitment."
+        }
+      ]
+    },
+    {
+      "id": "CS002",
+      "category": "Dark Triad",
+      "title": "The Narcissistic Mirror",
+      "difficulty": "Hard",
+      "badge": "Profiler",
+      "scenarioDescription": "A new acquaintance mirrors your interests perfectly and praises your unique qualities excessively.",
+      "options": [
+        {
+          "text": "Accept the flattery and deepen the bond.",
+          "outcome": "Vulnerable",
+          "wisdomScore": 30,
+          "analysis": "You are being love-bombed.",
+          "bookInsight": "The Dark Triad uses mirroring to build false intimacy."
+        },
+        {
+          "text": "Introduce a conflicting opinion to test their reaction.",
+          "outcome": "Analytical",
+          "wisdomScore": 90,
+          "analysis": "You exposed the lack of genuine connection.",
+          "bookInsight": "Narcissists react poorly to non-compliance."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Brainwashing",
+      "title": "The Isolation Phase",
+      "difficulty": "Hard",
+      "badge": "Resilient",
+      "scenarioDescription": "A group leader suggests you distance yourself from 'negative' friends who don't understand your growth.",
+      "options": [
+        {
+          "text": "Cut ties to focus on the group's vision.",
+          "outcome": "Compromised",
+          "wisdomScore": 10,
+          "analysis": "You are entering the isolation stage of indoctrination.",
+          "bookInsight": "Isolation is the primary tool for cognitive restructuring."
+        },
+        {
+          "text": "Maintain external relationships to keep perspective.",
+          "outcome": "Protected",
+          "wisdomScore": 100,
+          "analysis": "You preserved your support network.",
+          "bookInsight": "External validation is the antidote to cult-like influence."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Hypnosis",
+      "title": "The Conversational Trance",
+      "difficulty": "Intermediate",
+      "badge": "Observer",
+      "scenarioDescription": "A speaker uses rhythmic speech and repetitive storytelling to make you feel 'relaxed' and 'open'.",
+      "options": [
+        {
+          "text": "Relax and let the message sink in.",
+          "outcome": "Suggestible",
+          "wisdomScore": 40,
+          "analysis": "You are entering a hypnotic state.",
+          "bookInsight": "Rhythm and repetition bypass critical thinking."
+        },
+        {
+          "text": "Focus on the logical validity of the claims.",
+          "outcome": "Alert",
+          "wisdomScore": 85,
+          "analysis": "You broke the hypnotic pattern.",
+          "bookInsight": "Critical analysis is the enemy of hypnotic suggestion."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Predatory Behavior",
+      "title": "The Victimhood Gambit",
+      "difficulty": "Easy",
+      "badge": "Skeptic",
+      "scenarioDescription": "Someone constantly shares tragic stories to gain your sympathy and favors.",
+      "options": [
+        {
+          "text": "Offer help and resources immediately.",
+          "outcome": "Enabler",
+          "wisdomScore": 35,
+          "analysis": "You are being exploited through empathy.",
+          "bookInsight": "Predators use victimhood to lower defenses."
+        },
+        {
+          "text": "Set firm boundaries on what you can provide.",
+          "outcome": "Assertive",
+          "wisdomScore": 90,
+          "analysis": "You stopped the emotional drain.",
+          "bookInsight": "Boundaries are the ultimate defense against emotional vampires."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Persuasion",
+      "title": "The Foot-in-the-Door",
+      "difficulty": "Easy",
+      "badge": "Strategist",
+      "scenarioDescription": "A stranger asks for a small favor, then immediately asks for a much larger one.",
+      "options": [
+        {
+          "text": "Agree to both to be polite.",
+          "outcome": "Manipulated",
+          "wisdomScore": 25,
+          "analysis": "You fell for the consistency principle.",
+          "bookInsight": "Small concessions lead to larger ones."
+        },
+        {
+          "text": "Refuse the second request politely.",
+          "outcome": "Assertive",
+          "wisdomScore": 95,
+          "analysis": "You recognized the escalation pattern.",
+          "bookInsight": "Consistency is a trap when used against you."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "F01",
+      "bookNumber": 1,
+      "category": "Dark Triad",
+      "term": "Machiavellianism",
+      "definition": "Manipulation and exploitation of others.",
+      "tacticalUse": "Strategic deception.",
+      "countermeasure": "Transparency."
+    },
+    {
+      "id": "F02",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Scarcity",
+      "definition": "Perceived value increases with rarity.",
+      "tacticalUse": "Creating urgency.",
+      "countermeasure": "Wait 24 hours."
+    },
+    {
+      "id": "F03",
+      "bookNumber": 1,
+      "category": "Brainwashing",
+      "term": "Isolation",
+      "definition": "Cutting off external support.",
+      "tacticalUse": "Total control.",
+      "countermeasure": "Maintain social ties."
+    },
+    {
+      "id": "F04",
+      "bookNumber": 1,
+      "category": "Hypnosis",
+      "term": "Pacing",
+      "definition": "Matching the subject's reality.",
+      "tacticalUse": "Building rapport.",
+      "countermeasure": "Disrupt the pattern."
+    },
+    {
+      "id": "F05",
+      "bookNumber": 1,
+      "category": "Dark Triad",
+      "term": "Narcissism",
+      "definition": "Excessive need for admiration.",
+      "tacticalUse": "Exploiting ego.",
+      "countermeasure": "Indifference."
+    },
+    {
+      "id": "F06",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Reciprocity",
+      "definition": "Obligation to return favors.",
+      "tacticalUse": "Forced debt.",
+      "countermeasure": "Refuse initial gifts."
+    },
+    {
+      "id": "F07",
+      "bookNumber": 1,
+      "category": "Brainwashing",
+      "term": "Repetition",
+      "definition": "Constant message reinforcement.",
+      "tacticalUse": "Belief formation.",
+      "countermeasure": "Critical questioning."
+    },
+    {
+      "id": "F08",
+      "bookNumber": 1,
+      "category": "Hypnosis",
+      "term": "Leading",
+      "definition": "Directing thoughts after pacing.",
+      "tacticalUse": "Suggestion.",
+      "countermeasure": "Maintain skepticism."
+    },
+    {
+      "id": "F09",
+      "bookNumber": 1,
+      "category": "Dark Triad",
+      "term": "Psychopathy",
+      "definition": "Lack of empathy.",
+      "tacticalUse": "Ruthless decision making.",
+      "countermeasure": "Avoid emotional engagement."
+    },
+    {
+      "id": "F10",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Authority",
+      "definition": "Using status to influence.",
+      "tacticalUse": "Blind compliance.",
+      "countermeasure": "Verify credentials."
+    },
+    {
+      "id": "F11",
+      "bookNumber": 1,
+      "category": "Brainwashing",
+      "term": "Guilt",
+      "definition": "Inducing shame for control.",
+      "tacticalUse": "Compliance.",
+      "countermeasure": "Objective self-assessment."
+    },
+    {
+      "id": "F12",
+      "bookNumber": 1,
+      "category": "Hypnosis",
+      "term": "Trance",
+      "definition": "Altered state of focus.",
+      "tacticalUse": "Bypassing logic.",
+      "countermeasure": "Grounding techniques."
+    },
+    {
+      "id": "F13",
+      "bookNumber": 1,
+      "category": "Dark Triad",
+      "term": "Gaslighting",
+      "definition": "Making others doubt reality.",
+      "tacticalUse": "Dominance.",
+      "countermeasure": "Keep a journal."
+    },
+    {
+      "id": "F14",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Social Proof",
+      "definition": "Following the crowd.",
+      "tacticalUse": "Group pressure.",
+      "countermeasure": "Independent thinking."
+    },
+    {
+      "id": "F15",
+      "bookNumber": 1,
+      "category": "Brainwashing",
+      "term": "Love Bombing",
+      "definition": "Excessive affection.",
+      "tacticalUse": "Dependency.",
+      "countermeasure": "Slow down pace."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Persuasion",
+      "name": "The Scarcity Hook",
+      "severity": "Medium",
+      "icon": "⏳",
+      "howItWorks": "Limits availability to trigger fear of loss.",
+      "redFlags": "Artificial deadlines.",
+      "counterScript": "I am comfortable waiting.",
+      "deepMechanism": "Loss aversion bias."
+    },
+    {
+      "id": "TM02",
+      "category": "Dark Triad",
+      "name": "Gaslighting",
+      "severity": "High",
+      "icon": "🌫️",
+      "howItWorks": "Denying past events to destabilize memory.",
+      "redFlags": "You are crazy/forgetful.",
+      "counterScript": "I have documented the facts.",
+      "deepMechanism": "Reality distortion."
+    },
+    {
+      "id": "TM03",
+      "category": "Brainwashing",
+      "name": "Isolation",
+      "severity": "Critical",
+      "icon": "⛓️",
+      "howItWorks": "Removing external feedback loops.",
+      "redFlags": "Us vs. Them mentality.",
+      "counterScript": "I value my other connections.",
+      "deepMechanism": "Dependency creation."
+    },
+    {
+      "id": "TM04",
+      "category": "Hypnosis",
+      "name": "Rhythmic Pacing",
+      "severity": "Medium",
+      "icon": "🌀",
+      "howItWorks": "Using speech patterns to induce trance.",
+      "redFlags": "Monotone, repetitive speech.",
+      "counterScript": "Can you clarify that point?",
+      "deepMechanism": "Critical factor bypass."
+    },
+    {
+      "id": "TM05",
+      "category": "Dark Triad",
+      "name": "Love Bombing",
+      "severity": "High",
+      "icon": "❤️",
+      "howItWorks": "Overwhelming with affection to create debt.",
+      "redFlags": "Moving too fast.",
+      "counterScript": "Let's take this slowly.",
+      "deepMechanism": "Dopamine addiction."
+    },
+    {
+      "id": "TM06",
+      "category": "Persuasion",
+      "name": "Reciprocity Trap",
+      "severity": "Low",
+      "icon": "🎁",
+      "howItWorks": "Giving small gifts to force compliance.",
+      "redFlags": "Unsolicited favors.",
+      "counterScript": "I cannot accept this.",
+      "deepMechanism": "Social obligation."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "What is the primary goal of the Dark Triad?",
+      "options": [
+        "Self-improvement",
+        "Exploitation",
+        "Altruism",
+        "Social harmony"
+      ],
+      "correctIndex": 1,
+      "explanation": "The Dark Triad (Narcissism, Machiavellianism, Psychopathy) is defined by self-serving, exploitative behavior."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 1,
+      "question": "Which stage of brainwashing involves cutting off support?",
+      "options": [
+        "Love Bombing",
+        "Isolation",
+        "Hypnosis",
+        "Reciprocity"
+      ],
+      "correctIndex": 1,
+      "explanation": "Isolation is essential to remove external reality checks."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 1,
+      "question": "What is the main defense against gaslighting?",
+      "options": [
+        "Agreeing",
+        "Documentation",
+        "Ignoring",
+        "Fighting"
+      ],
+      "correctIndex": 1,
+      "explanation": "Keeping a record of events prevents the manipulator from rewriting your reality."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "Why does scarcity work?",
+      "options": [
+        "It is logical",
+        "Loss aversion",
+        "It is free",
+        "It is fun"
+      ],
+      "correctIndex": 1,
+      "explanation": "Humans are hardwired to fear losing opportunities more than gaining them."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 1,
+      "question": "What is the purpose of pacing in hypnosis?",
+      "options": [
+        "To annoy",
+        "To build rapport",
+        "To save time",
+        "To confuse"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pacing aligns the speaker with the listener's reality to gain trust."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 1,
+      "question": "What is the 'Foot-in-the-door' technique?",
+      "options": [
+        "A door lock",
+        "Small request leads to large",
+        "Physical violence",
+        "A greeting"
+      ],
+      "correctIndex": 1,
+      "explanation": "It relies on the human desire to remain consistent with previous actions."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Dark Triad",
+      "category": "Psychology",
+      "definition": "Three personality traits: Narcissism, Machiavellianism, Psychopathy.",
+      "practicalExample": "A boss who exploits staff for personal gain."
+    },
+    {
+      "id": "G02",
+      "term": "Gaslighting",
+      "category": "Manipulation",
+      "definition": "Psychological abuse making victims doubt their sanity.",
+      "practicalExample": "Denying a conversation ever happened."
+    },
+    {
+      "id": "G03",
+      "term": "Love Bombing",
+      "category": "Manipulation",
+      "definition": "Excessive affection to gain control.",
+      "practicalExample": "A partner saying 'I love you' on the first date."
+    },
+    {
+      "id": "G04",
+      "term": "Reciprocity",
+      "category": "Persuasion",
+      "definition": "The urge to return a favor.",
+      "practicalExample": "Buying a drink to get a business deal."
+    },
+    {
+      "id": "G05",
+      "term": "Isolation",
+      "category": "Brainwashing",
+      "definition": "Removing social support systems.",
+      "practicalExample": "Forbidding contact with family."
+    },
+    {
+      "id": "G06",
+      "term": "Hypnosis",
+      "category": "Influence",
+      "definition": "Altered state of suggestibility.",
+      "practicalExample": "Using rhythmic speech to calm a crowd."
+    },
+    {
+      "id": "G07",
+      "term": "Scarcity",
+      "category": "Persuasion",
+      "definition": "Value based on limited supply.",
+      "practicalExample": "Only 2 items left in stock."
+    },
+    {
+      "id": "G08",
+      "term": "Pacing",
+      "category": "Hypnosis",
+      "definition": "Matching the subject's current state.",
+      "practicalExample": "Agreeing with a client's complaints."
+    },
+    {
+      "id": "G09",
+      "term": "Leading",
+      "category": "Hypnosis",
+      "definition": "Directing the subject after pacing.",
+      "practicalExample": "Suggesting a solution after agreeing."
+    },
+    {
+      "id": "G10",
+      "term": "Social Proof",
+      "category": "Persuasion",
+      "definition": "Following the behavior of others.",
+      "practicalExample": "Buying a product because it's a bestseller."
+    },
+    {
+      "id": "G11",
+      "term": "Consistency",
+      "category": "Persuasion",
+      "definition": "Desire to act in line with past choices.",
+      "practicalExample": "Signing a petition then donating money."
+    },
+    {
+      "id": "G12",
+      "term": "Authority",
+      "category": "Persuasion",
+      "definition": "Compliance based on perceived status.",
+      "practicalExample": "Wearing a uniform to gain trust."
+    },
+    {
+      "id": "G13",
+      "term": "Predator",
+      "category": "Psychology",
+      "definition": "Individual who exploits others.",
+      "practicalExample": "A scammer targeting the elderly."
+    },
+    {
+      "id": "G14",
+      "term": "Trance",
+      "category": "Hypnosis",
+      "definition": "State of focused attention.",
+      "practicalExample": "Being absorbed in a movie."
+    },
+    {
+      "id": "G15",
+      "term": "Indoctrination",
+      "category": "Brainwashing",
+      "definition": "Teaching a set of beliefs.",
+      "practicalExample": "Cult recruitment sessions."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Deception",
+      "title": "The Micro-Expression Check",
+      "cue": "Brief flash of contempt.",
+      "interpretation": "Hidden superiority or dislike.",
+      "practicalDrill": "Watch interviews and pause at 0.5s intervals."
+    },
+    {
+      "id": "BL02",
+      "category": "Dominance",
+      "title": "The Stare Down",
+      "cue": "Lack of blinking.",
+      "interpretation": "Attempt to intimidate or control.",
+      "practicalDrill": "Maintain soft gaze without staring."
+    },
+    {
+      "id": "BL03",
+      "category": "Rapport",
+      "title": "Mirroring",
+      "cue": "Copying posture.",
+      "interpretation": "Building false intimacy.",
+      "practicalDrill": "Observe if they match your movements."
+    },
+    {
+      "id": "BL04",
+      "category": "Anxiety",
+      "title": "Self-Soothing",
+      "cue": "Touching the neck.",
+      "interpretation": "Feeling threatened or lying.",
+      "practicalDrill": "Identify neck touching during high-stress questions."
+    },
+    {
+      "id": "BL05",
+      "category": "Confidence",
+      "title": "Steepling",
+      "cue": "Fingertips touching.",
+      "interpretation": "High confidence or arrogance.",
+      "practicalDrill": "Note when a speaker uses this during a pitch."
+    },
+    {
+      "id": "BL06",
+      "category": "Defensiveness",
+      "title": "The Barrier",
+      "cue": "Crossed arms.",
+      "interpretation": "Closed to new information.",
+      "practicalDrill": "Try to open their posture with an open-ended question."
     }
   ]
 };

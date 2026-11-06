@@ -1,3 +1,4 @@
+// Contenido enriquecido para Manual Operativo de Gestión y Calidad
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_8.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>--- 1 3 Autoridades Nacionales: Ministro de Turismo de la Nación: Dn. Carlos Enrique Meyer Secretario de Turismo de la Nación: Dn. Daniel Aguilera Director Nacional de Gestión de Calidad Turística: Dn. Gonzalo Casanova Ferro Autoridades Provinciales: Secretario de Turismo de Entre Ríos: Dn. Adrián Stur Director de Planeamiento y Estrategias Turísticas: Dn. Sebastián Piloni Equipo técnico: Coordinador técnico: Rodrigo Báez Por Secretaría de Turismo de Entre Ríos Rodrigo Báez María Julia Andrés Por Asociación de Celíacos de Entre Ríos Cecilia Pautaso María de los Ángeles Jenkins Alejandra Blanc S. Carina Sione Por Ministerio de Turismo de la Nación Edición: Silvina Estévez Diseño: Nadia Soledad Auton 4 5 Dn. Enrique Meyer Ministro de Turismo Presidencia de la Nación El Turismo en la Argentina ha comenzado a experimentar una gran transformación en los últimos años. La incorporación de nuevas ofertas, el desarrollo de emprendimientos de diversa índole, las expectativas y necesidades de los clientes, cada vez más conocedores y exigentes, hace que los distintos actores del turismo se interioricen y practiquen en el día a día, lo que exigen las normas y lo que por ética, en los negocios, exige la actividad con la que estamos comprometidos. He aquí nuestro compromiso con la calidad en la prestación de los servicios turísticos para que el turista pueda obtener un pleno disfrute de los destinos turísticos nacionales. Este es el origen de la participación, junto a la Secretaría de Turis",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Marco Institucional Y Turismo Gastronomico\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manual_de_manipulacion/marco_institucional_y_turismo_gastronomico.webp\" alt=\"Marco Institucional Y Turismo Gastronomico\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_8.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>--- 1 3 Autoridades Nacionales: Ministro de Turismo de la Nación: Dn. Carlos Enrique Meyer Secretario de Turismo de la Nación: Dn. Daniel Aguilera Director Nacional de Gestión de Calidad Turística: Dn. Gonzalo Casanova Ferro Autoridades Provinciales: Secretario de Turismo de Entre Ríos: Dn. Adrián Stur Director de Planeamiento y Estrategias Turísticas: Dn. Sebastián Piloni Equipo técnico: Coordinador técnico: Rodrigo Báez Por Secretaría de Turismo de Entre Ríos Rodrigo Báez María Julia Andrés Por Asociación de Celíacos de Entre Ríos Cecilia Pautaso María de los Ángeles Jenkins Alejandra Blanc S. Carina Sione Por Ministerio de Turismo de la Nación Edición: Silvina Estévez Diseño: Nadia Soledad Auton 4 5 Dn. Enrique Meyer Ministro de Turismo Presidencia de la Nación El Turismo en la Argentina ha comenzado a experimentar una gran transformación en los últimos años. La incorporación de nuevas ofertas, el desarrollo de emprendimientos de diversa índole, las expectativas y necesidades de los clientes, cada vez más conocedores y exigentes, hace que los distintos actores del turismo se interioricen y practiquen en el día a día, lo que exigen las normas y lo que por ética, en los negocios, exige la actividad con la que estamos comprometidos. He aquí nuestro compromiso con la calidad en la prestación de los servicios turísticos para que el turista pueda obtener un pleno disfrute de los destinos turísticos nacionales. Este es el origen de la participación, junto a la Secretaría de Turis",
           "interactiveChallenge": {
             "question": "Ante una situación de la rapport forzado en el contexto de \"Marco Institucional Y Turismo Gastronomico\"?",
             "options": [
@@ -217,7 +218,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- 16 La Enfermedad Celíaca es una inmunoenteropatía causada por la sensibilidad permanente al gluten en individuos genéticamente predispuestos. Es la intolerancia alimentaria tratable más frecuente en la especie humana, y la prevalencia en la población Argentina se estima en 1 cada 100 habitantes.3 Se presenta a través de una intolerancia alimentaria permanente al gluten, un conjunto de proteínas presentes en el trigo, avena, cebada y centeno (TACC), en los derivados de estos cuatro cereales y en la mayoría de los productos industriales que los contienen a través de los almidones, aglutinantes y estabilizantes. El sistema de defensa de los celíacos reconocería al gluten como “extraño” y produciría anticuerpos o ‘defensas’ contra el mismo. Estos anticuerpos provocarían la lesión del intestino con destrucción o atrofia de su mucosa (capa interior del intestino), produciéndose una alteración en la absorción de los alimentos”4. 1. Inmunidad: en Biología y Medicina, estado de resistencia, natural o adquisición, que poseen ciertos individuos o especies frente a determinadas acciones patógenas de microorganismos o sustancias extrañas. Respuesta específica de un organismo a la acción de los antígenos. Real Academia Española. www.rae.es/rae. Consulta: 10/05/2011 2. En medicina, alteración patológica producida en el tracto digestivo www.rae.es/rae. Consulta: 10/05/2011 3. Aporte de la Dra. Marta Wagener (Mat.2207), Jefa del Servicio de Gastroenterología del Hospital de Niños Dr. O. A",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> La Enfermedad Celiaca Y Su Diagnostico\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manual_de_manipulacion/la_enfermedad_celiaca_y_su_diagnostico.webp\" alt=\"La Enfermedad Celiaca Y Su Diagnostico\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- 16 La Enfermedad Celíaca es una inmunoenteropatía causada por la sensibilidad permanente al gluten en individuos genéticamente predispuestos. Es la intolerancia alimentaria tratable más frecuente en la especie humana, y la prevalencia en la población Argentina se estima en 1 cada 100 habitantes.3 Se presenta a través de una intolerancia alimentaria permanente al gluten, un conjunto de proteínas presentes en el trigo, avena, cebada y centeno (TACC), en los derivados de estos cuatro cereales y en la mayoría de los productos industriales que los contienen a través de los almidones, aglutinantes y estabilizantes. El sistema de defensa de los celíacos reconocería al gluten como “extraño” y produciría anticuerpos o ‘defensas’ contra el mismo. Estos anticuerpos provocarían la lesión del intestino con destrucción o atrofia de su mucosa (capa interior del intestino), produciéndose una alteración en la absorción de los alimentos”4. 1. Inmunidad: en Biología y Medicina, estado de resistencia, natural o adquisición, que poseen ciertos individuos o especies frente a determinadas acciones patógenas de microorganismos o sustancias extrañas. Respuesta específica de un organismo a la acción de los antígenos. Real Academia Española. www.rae.es/rae. Consulta: 10/05/2011 2. En medicina, alteración patológica producida en el tracto digestivo www.rae.es/rae. Consulta: 10/05/2011 3. Aporte de la Dra. Marta Wagener (Mat.2207), Jefa del Servicio de Gastroenterología del Hospital de Niños Dr. O. A",
           "interactiveChallenge": {
             "question": "El concepto central de la autoridad proyectada en el contexto de \"La Enfermedad Celiaca Y Su Diagnostico\"?",
             "options": [
@@ -311,7 +312,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- 20 En el año 2004 se incorporó al Código Alimentario Argentino la definición de los Alimentos Libres de Gluten, entendiéndose como tales aquellos que están preparados únicamente con ingredientes que, por su origen natural y por la aplicación de buenas prácticas en su elaboración, estén libres de harina de trigo, avena, cebada y centeno. El Código Alimentario Argentino establece también la siguiente rotulación con la leyenda “Libre de Gluten - Sin TACC” en los productos. La condición “libre de gluten” incluye la presentación ante el Instituto Nacional de Alimentos (INAL), de un análisis que avale esta condición. Tal declaración es expedida por laboratorios oficiales. Es de vital importancia para el celíaco la rápida identificación de los alimentos que sean aptos para su consumo. Por esta razón tanto desde el INAL como de los distintos organismos vinculados a la celiaquía promueven la utilización de un símbolo al efecto de facilitar la detección de la aptitud del producto al momento de adquirirlo. En este sentido, la normativa nacional recientemente incorporó el siguiente logo para la individualización de los productos aptos: Además se acordó reemplazar en el símbolo oficial, la leyenda “Libre de gluten” por la leyenda “Sin TACC”. Por otro lado, cabe mencionar que la Asociación Celíaca Argentina incentiva a que, además de la leyenda y el nuevo logo, se utilice conjuntamente el siguiente símbolo que puede observarse en una gran variedad de productos ‘aptos para celíacos’: Es",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Alimentos Libres De Gluten Y Legislacion\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manual_de_manipulacion/alimentos_libres_de_gluten_y_legislacion.webp\" alt=\"Alimentos Libres De Gluten Y Legislacion\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- 20 En el año 2004 se incorporó al Código Alimentario Argentino la definición de los Alimentos Libres de Gluten, entendiéndose como tales aquellos que están preparados únicamente con ingredientes que, por su origen natural y por la aplicación de buenas prácticas en su elaboración, estén libres de harina de trigo, avena, cebada y centeno. El Código Alimentario Argentino establece también la siguiente rotulación con la leyenda “Libre de Gluten - Sin TACC” en los productos. La condición “libre de gluten” incluye la presentación ante el Instituto Nacional de Alimentos (INAL), de un análisis que avale esta condición. Tal declaración es expedida por laboratorios oficiales. Es de vital importancia para el celíaco la rápida identificación de los alimentos que sean aptos para su consumo. Por esta razón tanto desde el INAL como de los distintos organismos vinculados a la celiaquía promueven la utilización de un símbolo al efecto de facilitar la detección de la aptitud del producto al momento de adquirirlo. En este sentido, la normativa nacional recientemente incorporó el siguiente logo para la individualización de los productos aptos: Además se acordó reemplazar en el símbolo oficial, la leyenda “Libre de gluten” por la leyenda “Sin TACC”. Por otro lado, cabe mencionar que la Asociación Celíaca Argentina incentiva a que, además de la leyenda y el nuevo logo, se utilice conjuntamente el siguiente símbolo que puede observarse en una gran variedad de productos ‘aptos para celíacos’: Es",
           "interactiveChallenge": {
             "question": "¿Cómo reconoce un observador entrenado la disonancia cognitiva inducida en el contexto de \"Alimentos Libres De Gluten Y Legislacion\"?",
             "options": [
@@ -434,7 +435,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- 25 26 Un celíaco puede comer una importante variedad de alimentos, sin restricción los naturales y los envasados que tengan el logo. Sin embargo, en el momento de la preparación de la comida, puede existir contaminación en los alimentos por errores en la manipulación (preparación fraccionamiento, envasado, presentación). Por ejemplo, los cereales libres de gluten, pueden contaminarse con otros granos. Esto sucede cuando las empresas usan materias primas de aquellos productores que no tienen implementadas las prácticas adecuadas para la minimización del riesgo. En la industria de la panadería, los productos libres de gluten son muy susceptibles de contaminación cruzada si en el mismo establecimiento se producen, procesan y/o se fraccionan alimentos que contienen gluten. Las maquinarias, utensilios, higiene de manos, indumentaria del personal, elementos de limpieza, esponjas, rejillas, y específicamente el polvo de harina en suspensión, pueden provocar contaminación en la producción. En la cocina diaria, la contaminación puede producirse de manera muy corriente y sin advertirlo por contacto entre un alimento sin gluten con otro que sí lo contiene. Por ejemplo, cuando se utiliza el mismo aceite con el que se había cocinado alimentos rebozados con pan rallado tradicional de trigo; o se hierve arroz utilizando el mismo líquido en el que antes se había cocinado fideos a base de harina de trigo, o la misma olla sin antes proceder a la limpieza intensiva. Es por todo esto que se",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Clasificacion De Alimentos Y Contaminacion Cruzada\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manual_de_manipulacion/clasificacion_de_alimentos_y_contaminacion_cruzada.webp\" alt=\"Clasificacion De Alimentos Y Contaminacion Cruzada\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- 25 26 Un celíaco puede comer una importante variedad de alimentos, sin restricción los naturales y los envasados que tengan el logo. Sin embargo, en el momento de la preparación de la comida, puede existir contaminación en los alimentos por errores en la manipulación (preparación fraccionamiento, envasado, presentación). Por ejemplo, los cereales libres de gluten, pueden contaminarse con otros granos. Esto sucede cuando las empresas usan materias primas de aquellos productores que no tienen implementadas las prácticas adecuadas para la minimización del riesgo. En la industria de la panadería, los productos libres de gluten son muy susceptibles de contaminación cruzada si en el mismo establecimiento se producen, procesan y/o se fraccionan alimentos que contienen gluten. Las maquinarias, utensilios, higiene de manos, indumentaria del personal, elementos de limpieza, esponjas, rejillas, y específicamente el polvo de harina en suspensión, pueden provocar contaminación en la producción. En la cocina diaria, la contaminación puede producirse de manera muy corriente y sin advertirlo por contacto entre un alimento sin gluten con otro que sí lo contiene. Por ejemplo, cuando se utiliza el mismo aceite con el que se había cocinado alimentos rebozados con pan rallado tradicional de trigo; o se hierve arroz utilizando el mismo líquido en el que antes se había cocinado fideos a base de harina de trigo, o la misma olla sin antes proceder a la limpieza intensiva. Es por todo esto que se",
           "interactiveChallenge": {
             "question": "Según este módulo, ¿cuál es el mecanismo principal de la DARVO en el contexto de \"Clasificacion De Alimentos Y Contaminacion Cruzada\"?",
             "options": [
@@ -528,7 +529,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "34 Con el objeto de dar cumplimiento al Manual de Manipulación de Alimentos para Celíacos, se buscó una herramienta operativa capaz de orientar al prestador del servicio gastronómico en los procesos adecuados para las buenas prácticas en los alimentos para celíacos. Este proceso está compuesto por actividades ligadas entre sí, las cuales deben realizarse de manera sistemática y sin desviaciones, para tener como resultado un plato capaz de ser consumido por las personas con celiaquía sin ningún tipo de contaminación. Con este propósito se crea una Guía de Autoevaluación, permitiendo adquirir nuevos aprendizajes e identificar las mejoras necesarias para contar con un menú apto para celíacos. Pautas para el tratamiento de Alimentos para Celíacos La aplicación de las pautas de tratamiento para los alimentos constituye una herramienta fundamental para la obtención de alimentos libres de gluten. El gluten puede ser agregado de manera no intencional a los alimentos como resultado de malas prácticas (contaminación cruzada), formulación inadecuada, superficies contaminadas, errores humanos o por utilizar materia prima con gluten. La identificación de riesgos, los puntos críticos de control y las medidas preventivas resultan fundamentales en la manipulación de los alimentos libres de gluten, desde las materias primas hasta que el mozo lleva el plato al comensal. La inocuidad y calidad de los alimentos se consiguen mediante las Buenas Prácticas en la producción de los mismos. Para la el",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Buenas Practicas De Manipulacion Y Checklist\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/manual_de_manipulacion/buenas_practicas_de_manipulacion_y_checklist.webp\" alt=\"Buenas Practicas De Manipulacion Y Checklist\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>34 Con el objeto de dar cumplimiento al Manual de Manipulación de Alimentos para Celíacos, se buscó una herramienta operativa capaz de orientar al prestador del servicio gastronómico en los procesos adecuados para las buenas prácticas en los alimentos para celíacos. Este proceso está compuesto por actividades ligadas entre sí, las cuales deben realizarse de manera sistemática y sin desviaciones, para tener como resultado un plato capaz de ser consumido por las personas con celiaquía sin ningún tipo de contaminación. Con este propósito se crea una Guía de Autoevaluación, permitiendo adquirir nuevos aprendizajes e identificar las mejoras necesarias para contar con un menú apto para celíacos. Pautas para el tratamiento de Alimentos para Celíacos La aplicación de las pautas de tratamiento para los alimentos constituye una herramienta fundamental para la obtención de alimentos libres de gluten. El gluten puede ser agregado de manera no intencional a los alimentos como resultado de malas prácticas (contaminación cruzada), formulación inadecuada, superficies contaminadas, errores humanos o por utilizar materia prima con gluten. La identificación de riesgos, los puntos críticos de control y las medidas preventivas resultan fundamentales en la manipulación de los alimentos libres de gluten, desde las materias primas hasta que el mozo lleva el plato al comensal. La inocuidad y calidad de los alimentos se consiguen mediante las Buenas Prácticas en la producción de los mismos. Para la el",
           "interactiveChallenge": {
             "question": "¿Qué distingue a un experto en la rapport forzado en el contexto de \"Buenas Practicas De Manipulacion Y Checklist\"?",
             "options": [
@@ -701,6 +702,594 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS-001",
+      "category": "Manipulación",
+      "title": "El dilema del proveedor",
+      "difficulty": "Hard",
+      "badge": "Estratega de Calidad",
+      "scenarioDescription": "Un proveedor insiste en que su harina 'sin gluten' no necesita certificación oficial para ahorrar costos. ¿Cómo manejas la presión?",
+      "options": [
+        {
+          "text": "Aceptar bajo promesa verbal para mantener la cadena de suministro.",
+          "outcome": "Fallo crítico de seguridad.",
+          "wisdomScore": 10,
+          "analysis": "La confianza sin validación es negligencia.",
+          "bookInsight": "La legislación exige trazabilidad absoluta."
+        },
+        {
+          "text": "Exigir documentación técnica y rechazar el lote sin certificación.",
+          "outcome": "Protección institucional garantizada.",
+          "wisdomScore": 95,
+          "analysis": "La rigidez normativa es tu mejor escudo.",
+          "bookInsight": "La seguridad alimentaria no admite excepciones."
+        }
+      ]
+    },
+    {
+      "id": "CS-002",
+      "category": "Manipulación",
+      "title": "Contaminación invisible",
+      "difficulty": "Medium",
+      "badge": "Vigilante",
+      "scenarioDescription": "Un cocinero utiliza la misma tabla para pan común y sin gluten tras una limpieza rápida.",
+      "options": [
+        {
+          "text": "Permitir la operación por urgencia de servicio.",
+          "outcome": "Riesgo de salud pública.",
+          "wisdomScore": 20,
+          "analysis": "La urgencia es la excusa de la incompetencia.",
+          "bookInsight": "La contaminación cruzada es invisible pero letal."
+        },
+        {
+          "text": "Detener la línea y aplicar protocolo de desinfección.",
+          "outcome": "Cumplimiento de BPM.",
+          "wisdomScore": 90,
+          "analysis": "La disciplina operativa previene crisis.",
+          "bookInsight": "Las Buenas Prácticas son innegociables."
+        }
+      ]
+    },
+    {
+      "id": "CS-003",
+      "category": "Manipulación",
+      "title": "El cliente escéptico",
+      "difficulty": "Easy",
+      "badge": "Comunicador",
+      "scenarioDescription": "Un cliente duda de la seguridad de un plato sin gluten en un entorno compartido.",
+      "options": [
+        {
+          "text": "Minimizar el riesgo diciendo que 'es solo un poco'.",
+          "outcome": "Pérdida de credibilidad.",
+          "wisdomScore": 30,
+          "analysis": "La minimización es una forma de manipulación peligrosa.",
+          "bookInsight": "La transparencia es la base de la confianza."
+        },
+        {
+          "text": "Explicar el protocolo de segregación y trazabilidad.",
+          "outcome": "Confianza ganada.",
+          "wisdomScore": 85,
+          "analysis": "La educación es la herramienta de control más efectiva.",
+          "bookInsight": "El conocimiento del proceso genera autoridad."
+        }
+      ]
+    },
+    {
+      "id": "CS-004",
+      "category": "Manipulación",
+      "title": "Presión de tiempos",
+      "difficulty": "Hard",
+      "badge": "Líder de Crisis",
+      "scenarioDescription": "El equipo de cocina está bajo presión extrema y sugiere saltarse el checklist para acelerar.",
+      "options": [
+        {
+          "text": "Autorizar el salto del checklist.",
+          "outcome": "Desastre operativo.",
+          "wisdomScore": 5,
+          "analysis": "La presión externa no justifica la ruptura de estándares.",
+          "bookInsight": "El checklist es el guardián de la calidad."
+        },
+        {
+          "text": "Priorizar la calidad sobre la velocidad.",
+          "outcome": "Operación segura.",
+          "wisdomScore": 95,
+          "analysis": "La calidad es un hábito, no un acto.",
+          "bookInsight": "La gestión de calidad es la prioridad número uno."
+        }
+      ]
+    },
+    {
+      "id": "CS-005",
+      "category": "Manipulación",
+      "title": "Etiquetado ambiguo",
+      "difficulty": "Medium",
+      "badge": "Analista",
+      "scenarioDescription": "Recibes un producto con etiqueta borrosa sobre alérgenos.",
+      "options": [
+        {
+          "text": "Usarlo asumiendo que es seguro.",
+          "outcome": "Riesgo legal y sanitario.",
+          "wisdomScore": 15,
+          "analysis": "La ambigüedad es un riesgo inaceptable.",
+          "bookInsight": "La legislación exige claridad total."
+        },
+        {
+          "text": "Devolver el producto inmediatamente.",
+          "outcome": "Prevención de riesgos.",
+          "wisdomScore": 90,
+          "analysis": "La precaución es la mejor defensa.",
+          "bookInsight": "La trazabilidad comienza en la recepción."
+        }
+      ]
+    },
+    {
+      "id": "CS-006",
+      "category": "Manipulación",
+      "title": "El error del compañero",
+      "difficulty": "Medium",
+      "badge": "Ética Profesional",
+      "scenarioDescription": "Ves a un compañero omitir el lavado de manos antes de manipular alimentos sin gluten.",
+      "options": [
+        {
+          "text": "Ignorarlo para evitar conflictos.",
+          "outcome": "Cultura de negligencia.",
+          "wisdomScore": 25,
+          "analysis": "El silencio es complicidad.",
+          "bookInsight": "La cultura de calidad es colectiva."
+        },
+        {
+          "text": "Corregir al compañero y reportar el incidente.",
+          "outcome": "Mejora continua.",
+          "wisdomScore": 85,
+          "analysis": "La responsabilidad compartida es la clave.",
+          "bookInsight": "Las BPM son responsabilidad de todos."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC-001",
+      "bookNumber": 1,
+      "category": "Legislación",
+      "term": "Trazabilidad",
+      "definition": "Capacidad de seguir el rastro de un alimento.",
+      "tacticalUse": "Auditoría rápida.",
+      "countermeasure": "Documentación digital."
+    },
+    {
+      "id": "FC-002",
+      "bookNumber": 1,
+      "category": "Salud",
+      "term": "Enfermedad Celíaca",
+      "definition": "Intolerancia permanente al gluten.",
+      "tacticalUse": "Diseño de menús.",
+      "countermeasure": "Protocolos estrictos."
+    },
+    {
+      "id": "FC-003",
+      "bookNumber": 1,
+      "category": "Seguridad",
+      "term": "Contaminación Cruzada",
+      "definition": "Transferencia de alérgenos.",
+      "tacticalUse": "Segregación de áreas.",
+      "countermeasure": "Limpieza profunda."
+    },
+    {
+      "id": "FC-004",
+      "bookNumber": 1,
+      "category": "Gestión",
+      "term": "Checklist",
+      "definition": "Lista de verificación operativa.",
+      "tacticalUse": "Control de procesos.",
+      "countermeasure": "Auditoría sorpresa."
+    },
+    {
+      "id": "FC-005",
+      "bookNumber": 1,
+      "category": "Legislación",
+      "term": "Alimento Libre de Gluten",
+      "definition": "Producto con menos de 10ppm de gluten.",
+      "tacticalUse": "Certificación de producto.",
+      "countermeasure": "Análisis de laboratorio."
+    },
+    {
+      "id": "FC-006",
+      "bookNumber": 1,
+      "category": "BPM",
+      "term": "Higiene",
+      "definition": "Prácticas de limpieza personal.",
+      "tacticalUse": "Prevención de riesgos.",
+      "countermeasure": "Capacitación continua."
+    },
+    {
+      "id": "FC-007",
+      "bookNumber": 1,
+      "category": "Gestión",
+      "term": "Marco Institucional",
+      "definition": "Normas que rigen la entidad.",
+      "tacticalUse": "Alineación estratégica.",
+      "countermeasure": "Revisión normativa."
+    },
+    {
+      "id": "FC-008",
+      "bookNumber": 1,
+      "category": "Salud",
+      "term": "Diagnóstico",
+      "definition": "Identificación médica de la celiaquía.",
+      "tacticalUse": "Concientización.",
+      "countermeasure": "Información veraz."
+    },
+    {
+      "id": "FC-009",
+      "bookNumber": 1,
+      "category": "BPM",
+      "term": "Manipulación",
+      "definition": "Contacto directo con alimentos.",
+      "tacticalUse": "Control de calidad.",
+      "countermeasure": "Uso de guantes."
+    },
+    {
+      "id": "FC-010",
+      "bookNumber": 1,
+      "category": "Gestión",
+      "term": "Calidad",
+      "definition": "Cumplimiento de estándares.",
+      "tacticalUse": "Ventaja competitiva.",
+      "countermeasure": "Mejora continua."
+    },
+    {
+      "id": "FC-011",
+      "bookNumber": 1,
+      "category": "Turismo",
+      "term": "Gastronomía",
+      "definition": "Arte culinario y cultura.",
+      "tacticalUse": "Marketing inclusivo.",
+      "countermeasure": "Menús adaptados."
+    },
+    {
+      "id": "FC-012",
+      "bookNumber": 1,
+      "category": "Legislación",
+      "term": "Normativa",
+      "definition": "Conjunto de leyes vigentes.",
+      "tacticalUse": "Cumplimiento legal.",
+      "countermeasure": "Asesoría jurídica."
+    },
+    {
+      "id": "FC-013",
+      "bookNumber": 1,
+      "category": "Seguridad",
+      "term": "Riesgo",
+      "definition": "Probabilidad de daño.",
+      "tacticalUse": "Evaluación de impacto.",
+      "countermeasure": "Mitigación."
+    },
+    {
+      "id": "FC-014",
+      "bookNumber": 1,
+      "category": "BPM",
+      "term": "Desinfección",
+      "definition": "Eliminación de patógenos.",
+      "tacticalUse": "Sanitización.",
+      "countermeasure": "Protocolo químico."
+    },
+    {
+      "id": "FC-015",
+      "bookNumber": 1,
+      "category": "Gestión",
+      "term": "Auditoría",
+      "definition": "Verificación de procesos.",
+      "tacticalUse": "Control de gestión.",
+      "countermeasure": "Acciones correctivas."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM-001",
+      "category": "Manipulación",
+      "name": "Aislamiento de Flujo",
+      "severity": "High",
+      "icon": "Shield",
+      "howItWorks": "Separar físicamente las áreas de producción.",
+      "redFlags": "Uso compartido de utensilios.",
+      "counterScript": "El protocolo exige segregación total.",
+      "deepMechanism": "Eliminación de vectores de contacto."
+    },
+    {
+      "id": "TM-002",
+      "category": "Manipulación",
+      "name": "Verificación de Trazabilidad",
+      "severity": "Medium",
+      "icon": "Search",
+      "howItWorks": "Rastrear cada insumo desde el origen.",
+      "redFlags": "Proveedores sin certificación.",
+      "counterScript": "Sin trazabilidad, no hay ingreso.",
+      "deepMechanism": "Control de la cadena de suministro."
+    },
+    {
+      "id": "TM-003",
+      "category": "Manipulación",
+      "name": "Checklist de Blindaje",
+      "severity": "High",
+      "icon": "Check",
+      "howItWorks": "Validación paso a paso de cada tarea.",
+      "redFlags": "Omisión de pasos por prisa.",
+      "counterScript": "El checklist es innegociable.",
+      "deepMechanism": "Reducción de error humano."
+    },
+    {
+      "id": "TM-004",
+      "category": "Manipulación",
+      "name": "Auditoría de Campo",
+      "severity": "Medium",
+      "icon": "Eye",
+      "howItWorks": "Observación directa sin previo aviso.",
+      "redFlags": "Cambios de conducta ante supervisión.",
+      "counterScript": "La calidad es constante.",
+      "deepMechanism": "Efecto Hawthorne positivo."
+    },
+    {
+      "id": "TM-005",
+      "category": "Manipulación",
+      "name": "Blindaje Informativo",
+      "severity": "Low",
+      "icon": "Book",
+      "howItWorks": "Capacitación constante del personal.",
+      "redFlags": "Desconocimiento de normas.",
+      "counterScript": "El conocimiento es seguridad.",
+      "deepMechanism": "Internalización de estándares."
+    },
+    {
+      "id": "TM-006",
+      "category": "Manipulación",
+      "name": "Respuesta de Emergencia",
+      "severity": "High",
+      "icon": "Alert",
+      "howItWorks": "Protocolo de contención ante incidentes.",
+      "redFlags": "Pánico o desorganización.",
+      "counterScript": "Siga el protocolo de crisis.",
+      "deepMechanism": "Gestión de riesgos críticos."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q-001",
+      "bookNumber": 1,
+      "question": "¿Qué define a un alimento como 'Libre de Gluten'?",
+      "options": [
+        "Cualquier alimento natural",
+        "Menos de 10ppm de gluten",
+        "Alimento sin trigo",
+        "Alimento procesado"
+      ],
+      "correctIndex": 1,
+      "explanation": "La legislación establece límites estrictos de partes por millón."
+    },
+    {
+      "id": "Q-002",
+      "bookNumber": 1,
+      "question": "¿Cuál es el principal riesgo en una cocina compartida?",
+      "options": [
+        "Falta de personal",
+        "Contaminación cruzada",
+        "Costo de insumos",
+        "Tiempo de cocción"
+      ],
+      "correctIndex": 1,
+      "explanation": "La transferencia de trazas es el mayor peligro para celíacos."
+    },
+    {
+      "id": "Q-003",
+      "bookNumber": 1,
+      "question": "¿Qué herramienta garantiza el cumplimiento de BPM?",
+      "options": [
+        "Manual de estilo",
+        "Checklist",
+        "Recetario",
+        "Contrato laboral"
+      ],
+      "correctIndex": 1,
+      "explanation": "El checklist es la herramienta de control operativo por excelencia."
+    },
+    {
+      "id": "Q-004",
+      "bookNumber": 1,
+      "question": "¿Qué es la trazabilidad?",
+      "options": [
+        "Seguir el rastro del alimento",
+        "Limpiar la cocina",
+        "Cocinar rápido",
+        "Atender clientes"
+      ],
+      "correctIndex": 0,
+      "explanation": "La trazabilidad permite identificar el origen y destino de los productos."
+    },
+    {
+      "id": "Q-005",
+      "bookNumber": 1,
+      "question": "¿Qué es la enfermedad celíaca?",
+      "options": [
+        "Alergia al azúcar",
+        "Intolerancia permanente al gluten",
+        "Gripe estacional",
+        "Problema digestivo leve"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una condición autoinmune crónica ante el gluten."
+    },
+    {
+      "id": "Q-006",
+      "bookNumber": 1,
+      "question": "¿Cuál es la prioridad en la gestión de calidad?",
+      "options": [
+        "Ganancia económica",
+        "Seguridad del consumidor",
+        "Velocidad de servicio",
+        "Estética del plato"
+      ],
+      "correctIndex": 1,
+      "explanation": "La seguridad del consumidor es el pilar fundamental."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G-001",
+      "term": "BPM",
+      "category": "Gestión",
+      "definition": "Buenas Prácticas de Manufactura.",
+      "practicalExample": "Lavado de manos frecuente."
+    },
+    {
+      "id": "G-002",
+      "term": "Gluten",
+      "category": "Salud",
+      "definition": "Proteína presente en cereales.",
+      "practicalExample": "Trigo, cebada, centeno."
+    },
+    {
+      "id": "G-003",
+      "term": "Trazabilidad",
+      "category": "Gestión",
+      "definition": "Historial de un producto.",
+      "practicalExample": "Registro de lotes."
+    },
+    {
+      "id": "G-004",
+      "term": "Contaminación",
+      "category": "Seguridad",
+      "definition": "Presencia de agentes nocivos.",
+      "practicalExample": "Uso de cuchillo sucio."
+    },
+    {
+      "id": "G-005",
+      "term": "Celíaco",
+      "category": "Salud",
+      "definition": "Persona con intolerancia al gluten.",
+      "practicalExample": "Cliente que requiere menú especial."
+    },
+    {
+      "id": "G-006",
+      "term": "Checklist",
+      "category": "Gestión",
+      "definition": "Lista de verificación.",
+      "practicalExample": "Control de apertura de cocina."
+    },
+    {
+      "id": "G-007",
+      "term": "Legislación",
+      "category": "Legal",
+      "definition": "Normas vigentes.",
+      "practicalExample": "Ley de etiquetado."
+    },
+    {
+      "id": "G-008",
+      "term": "Inocuidad",
+      "category": "Seguridad",
+      "definition": "Garantía de no daño.",
+      "practicalExample": "Alimento seguro para consumir."
+    },
+    {
+      "id": "G-009",
+      "term": "Auditoría",
+      "category": "Gestión",
+      "definition": "Revisión de procesos.",
+      "practicalExample": "Inspección de calidad."
+    },
+    {
+      "id": "G-010",
+      "term": "Alérgeno",
+      "category": "Salud",
+      "definition": "Sustancia que causa alergia.",
+      "practicalExample": "Gluten, frutos secos."
+    },
+    {
+      "id": "G-011",
+      "term": "Desinfección",
+      "category": "BPM",
+      "definition": "Reducción de microorganismos.",
+      "practicalExample": "Uso de cloro diluido."
+    },
+    {
+      "id": "G-012",
+      "term": "Protocolo",
+      "category": "Gestión",
+      "definition": "Pasos a seguir.",
+      "practicalExample": "Manual de procedimientos."
+    },
+    {
+      "id": "G-013",
+      "term": "Certificación",
+      "category": "Legal",
+      "definition": "Aval oficial.",
+      "practicalExample": "Sello sin gluten."
+    },
+    {
+      "id": "G-014",
+      "term": "Manipulador",
+      "category": "BPM",
+      "definition": "Persona que toca alimentos.",
+      "practicalExample": "Cocinero o camarero."
+    },
+    {
+      "id": "G-015",
+      "term": "Calidad",
+      "category": "Gestión",
+      "definition": "Grado de excelencia.",
+      "practicalExample": "Cumplimiento de estándares."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL-001",
+      "category": "Manipulación",
+      "title": "Detección de Inseguridad",
+      "cue": "Evitar contacto visual al hablar de protocolos.",
+      "interpretation": "El empleado no domina el proceso.",
+      "practicalDrill": "Preguntar sobre el checklist y observar la mirada."
+    },
+    {
+      "id": "BL-002",
+      "category": "Manipulación",
+      "title": "Señales de Prisa",
+      "cue": "Movimientos erráticos y rápidos.",
+      "interpretation": "Riesgo inminente de error por descuido.",
+      "practicalDrill": "Observar el ritmo de trabajo en hora pico."
+    },
+    {
+      "id": "BL-003",
+      "category": "Manipulación",
+      "title": "Defensividad",
+      "cue": "Brazos cruzados ante una corrección.",
+      "interpretation": "Resistencia al cambio de hábitos.",
+      "practicalDrill": "Corregir un error menor y observar la postura."
+    },
+    {
+      "id": "BL-004",
+      "category": "Manipulación",
+      "title": "Confianza Real",
+      "cue": "Postura erguida y contacto visual firme.",
+      "interpretation": "Dominio total de las normas de seguridad.",
+      "practicalDrill": "Pedir que explique el protocolo de limpieza."
+    },
+    {
+      "id": "BL-005",
+      "category": "Manipulación",
+      "title": "Duda Operativa",
+      "cue": "Tocarse la cara o cuello al preguntar por BPM.",
+      "interpretation": "Incertidumbre sobre el procedimiento.",
+      "practicalDrill": "Hacer una pregunta técnica inesperada."
+    },
+    {
+      "id": "BL-006",
+      "category": "Manipulación",
+      "title": "Atención Plena",
+      "cue": "Asentir y tomar notas durante la capacitación.",
+      "interpretation": "Compromiso con la calidad.",
+      "practicalDrill": "Evaluar la reacción ante nuevas instrucciones."
     }
   ]
 };

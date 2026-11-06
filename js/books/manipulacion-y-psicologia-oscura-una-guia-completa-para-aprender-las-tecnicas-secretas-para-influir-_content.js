@@ -1,3 +1,4 @@
+// Contenido enriquecido para Manipulación y Psicología Oscura: Guía Completa
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_10.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>--- Manipulación y Psicología Oscura Una Guía Completa para Aprender las Técnicas Secretas para Influir en las Personas con Persuasión, Engaño, Control Mental, PNL, Lavado de Cerebro y Lenguaje Corporal Eduardo Sandoval © Derechos de Autor 2019 – Todos los derechos reservados. El contenido de este libro no puede ser reproducido, duplicado o transmitido sin el permiso escrito del autor o del editor. Bajo ninguna circunstancia se podrá culpar o responsabilizar legalmente al editor, o al autor, por cualquier daño, reparación o pérdida monetaria debido a la información contenida en este libro, ya sea directa o indirectamente. Aviso Legal: Este libro está protegido por derechos de autor. Es sólo para uso personal. No se puede enmendar, distribuir, vender, usar, citar o parafrasear ninguna parte, o el contenido dentro de este libro sin el consentimiento del autor o editor. Aviso de Exención de Responsabilidad: Por favor, tenga en cuenta que la información contenida en este documento es sólo para fines educativos y de entretenimiento. Se ha hecho todo lo posible por presentar una información precisa, actualizada, confiable y completa. No se declaran ni se implican garantías de ningún tipo. Los lectores reconocen que el autor no se compromete a dar consejos legales, financieros, médicos o profesionales. El contenido de este libro se ha obtenido de varias fuentes. Por favor, consulte a un profesional autorizado antes de intentar cualquier técnica descrita en este libro. Al leer este d",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Preliminares e Índice (Compendio Táctico)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/guia_completa_manipulacion/guiacompleta_m1_preliminares.webp\" alt=\"Preliminares e Índice (Compendio Táctico)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Manipulación y Psicología Oscura Una Guía Completa para Aprender las Técnicas Secretas para Influir en las Personas con Persuasión, Engaño, Control Mental, PNL, Lavado de Cerebro y Lenguaje Corporal Eduardo Sandoval © Derechos de Autor 2019 – Todos los derechos reservados. El contenido de este libro no puede ser reproducido, duplicado o transmitido sin el permiso escrito del autor o del editor. Bajo ninguna circunstancia se podrá culpar o responsabilizar legalmente al editor, o al autor, por cualquier daño, reparación o pérdida monetaria debido a la información contenida en este libro, ya sea directa o indirectamente. Aviso Legal: Este libro está protegido por derechos de autor. Es sólo para uso personal. No se puede enmendar, distribuir, vender, usar, citar o parafrasear ninguna parte, o el contenido dentro de este libro sin el consentimiento del autor o editor. Aviso de Exención de Responsabilidad: Por favor, tenga en cuenta que la información contenida en este documento es sólo para fines educativos y de entretenimiento. Se ha hecho todo lo posible por presentar una información precisa, actualizada, confiable y completa. No se declaran ni se implican garantías de ningún tipo. Los lectores reconocen que el autor no se compromete a dar consejos legales, financieros, médicos o profesionales. El contenido de este libro se ha obtenido de varias fuentes. Por favor, consulte a un profesional autorizado antes de intentar cualquier técnica descrita en este libro. Al leer este d",
           "interactiveChallenge": {
             "question": "¿Cómo reconoce un observador entrenado la prueba social en el contexto de \"Preliminares E Indice\"?",
             "options": [
@@ -72,7 +73,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 1 – Introducción a la Psicología Oscura Definición la Psicología Oscura ¿Todos Tenemos un Lado Oscuro? Comprensión de la Manipulación de la Mente Los Beneficios y el Valor de Persuadir a Otros Capítulo 2 – Entendiendo al Persuasivo y al Manipulador Quiénes Son Estos Individuos El Objetivo de los Manipuladores El Objetivo de los Influyentes Los Tipos de Manipuladores de la Mente Narcisista Psicópata y Sociópata Aquellos Que Son Comúnmente Influenciados Síntomas de la Psicología Oscura Capítulo 3 – Características de la Psicología Oscura El Lenguaje Corporal de los Manipuladores Imitando el Lenguaje Corporal Miradas Fijas Frecuentes Hablar Rápido y Movimientos de Manos Tácticas de Persuasión Utilizadas Usando Tus Emociones en tu Contra Encantador y Bombardeo de Amor Compartir en Exceso y Luego Revertir Confusión e Incomodidad Tácticas de PNL Capítulo 4 – Razones Para Analizar a las Personas ¿Por Qué Usar la Manipulación? Cómo Protegerte Tu Mismo Contra la Persuasiónto Inteligencia Emocionalonal Síntomas del Lavado de Cerebro Capítulo 5 – El Arte de la manipulación y la Persuasión Engaño y Mentiras Control Mental y Lavado de Cerebro Comprensión del Lenguaje Corporal Cómo Predecir a los Demás Capítulo 6 – Pasos de la Psicología Oscura Victimización Miedo y Alivio Simpatía y Coqueteo Preparación de la Persuasión Conocer Su Línea Base Capítulo 7 – Casos de Estudios de la Psicología Oscura El Experimento Milgram ¿Eres Un Narcisista? El Experimento de Manipulación Secreta de",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 1 - Introducción a la Psicología Oscura\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/guia_completa_manipulacion/guiacompleta_m2_intro_psicologia_oscura.webp\" alt=\"Cap 1 - Introducción a la Psicología Oscura\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 1 – Introducción a la Psicología Oscura Definición la Psicología Oscura ¿Todos Tenemos un Lado Oscuro? Comprensión de la Manipulación de la Mente Los Beneficios y el Valor de Persuadir a Otros Capítulo 2 – Entendiendo al Persuasivo y al Manipulador Quiénes Son Estos Individuos El Objetivo de los Manipuladores El Objetivo de los Influyentes Los Tipos de Manipuladores de la Mente Narcisista Psicópata y Sociópata Aquellos Que Son Comúnmente Influenciados Síntomas de la Psicología Oscura Capítulo 3 – Características de la Psicología Oscura El Lenguaje Corporal de los Manipuladores Imitando el Lenguaje Corporal Miradas Fijas Frecuentes Hablar Rápido y Movimientos de Manos Tácticas de Persuasión Utilizadas Usando Tus Emociones en tu Contra Encantador y Bombardeo de Amor Compartir en Exceso y Luego Revertir Confusión e Incomodidad Tácticas de PNL Capítulo 4 – Razones Para Analizar a las Personas ¿Por Qué Usar la Manipulación? Cómo Protegerte Tu Mismo Contra la Persuasiónto Inteligencia Emocionalonal Síntomas del Lavado de Cerebro Capítulo 5 – El Arte de la manipulación y la Persuasión Engaño y Mentiras Control Mental y Lavado de Cerebro Comprensión del Lenguaje Corporal Cómo Predecir a los Demás Capítulo 6 – Pasos de la Psicología Oscura Victimización Miedo y Alivio Simpatía y Coqueteo Preparación de la Persuasión Conocer Su Línea Base Capítulo 7 – Casos de Estudios de la Psicología Oscura El Experimento Milgram ¿Eres Un Narcisista? El Experimento de Manipulación Secreta de",
           "interactiveChallenge": {
             "question": "Según este módulo, ¿cuál es el mecanismo principal de la framing narrativo en el contexto de \"Capitulo 1 Introduccion A La Psicologia Oscura\"?",
             "options": [
@@ -659,7 +660,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 2 – Entendiendo al Persuasivo y al Manipulador Hay señales que puedes ver para determinar si eres el manipulador o el que está siendo manipulado. A veces, en ese momento cuando estás bajo el control de alguien, puede que no seas capaz de notar que estás siendo manipulado, pero a medida que avanzas en tu vida y te haces más consciente de tus propios sentimientos y de las emociones de los demás, se hace mucho más fácil empezar a ver la dinámica de tu relación. Puede que no seas capaz de darte cuenta de lo que está sucediendo hasta mucho más tarde en la vida después de haber sido completamente apartado de la situación. Por eso es tan crucial que seamos conscientes de la manipulación y de la forma en que nos afecta ahora más que nunca. Si no tenemos cuidado, se vuelve increíblemente fácil caer bajo el control de alguien más. Es importante entender que no todas las influencias son necesariamente malas. Hay muchas personas en el mundo que necesitan seriamente una guía. Tal vez ya estaban en una relación abusiva en la que ellos eran los manipuladores. No es como si los que son abusivos lo hicieran siempre porque los hace felices. La influencia positiva puede ayudar a las personas a darse cuenta de que lo que están haciendo está mal porque a menudo están en situaciones en las que piensan que lo que están haciendo es lo correcto. La influencia también puede ayudar a esas personas a darse cuenta de que pueden estar en el extremo receptor de este abuso. Las mujeres que han esca",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 2 - Entendiendo al Persuasivo y Manipulador (Parte 1)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/guia_completa_manipulacion/guiacompleta_m3_persuasivo_manipulador_p1.webp\" alt=\"Cap 2 - Entendiendo al Persuasivo y Manipulador (Parte 1)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 2 – Entendiendo al Persuasivo y al Manipulador Hay señales que puedes ver para determinar si eres el manipulador o el que está siendo manipulado. A veces, en ese momento cuando estás bajo el control de alguien, puede que no seas capaz de notar que estás siendo manipulado, pero a medida que avanzas en tu vida y te haces más consciente de tus propios sentimientos y de las emociones de los demás, se hace mucho más fácil empezar a ver la dinámica de tu relación. Puede que no seas capaz de darte cuenta de lo que está sucediendo hasta mucho más tarde en la vida después de haber sido completamente apartado de la situación. Por eso es tan crucial que seamos conscientes de la manipulación y de la forma en que nos afecta ahora más que nunca. Si no tenemos cuidado, se vuelve increíblemente fácil caer bajo el control de alguien más. Es importante entender que no todas las influencias son necesariamente malas. Hay muchas personas en el mundo que necesitan seriamente una guía. Tal vez ya estaban en una relación abusiva en la que ellos eran los manipuladores. No es como si los que son abusivos lo hicieran siempre porque los hace felices. La influencia positiva puede ayudar a las personas a darse cuenta de que lo que están haciendo está mal porque a menudo están en situaciones en las que piensan que lo que están haciendo es lo correcto. La influencia también puede ayudar a esas personas a darse cuenta de que pueden estar en el extremo receptor de este abuso. Las mujeres que han esca",
           "interactiveChallenge": {
             "question": "¿Qué distingue a un experto en la aislamiento progresivo en el contexto de \"Capitulo 2 Entendiendo Al Persuasivo Y Al Manipulador Parte 1\"?",
             "options": [
@@ -1101,7 +1102,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "demasiadas suposiciones. Cuando empiezas a asumir demasiado sobre una persona, esto puede llevarte a pasar por alto detalles importantes que realmente cuentan. Sin embargo, conocer estas similitudes sólo te ayudarán a crecer como persona. Hay algunas cosas que todos los manipuladores tienen en común. Estos no son necesariamente patrones que han sido aprendidos, sino más bien, una solución mental para obtener las cosas que podrían desear. En lugar de ser enseñados a ser manipuladores, a veces puede ser un simple camino que su cerebro sigue para tratar de ayudarles a conseguir las cosas que más desean de otras personas. Todos los manipuladores normalmente buscan tu mayor debilidad para usarla en tu contra. Descubrirán cuál es tu mayor inseguridad y tratarán de encontrar formas de usarla para ganar poder sobre ti. Podrían intentar descubrir qué eres malo para que puedan enfatizar este rasgo en ti y hacerte sentir como si fueras una mala persona en general debido a esto. A menudo hablarán de tus debilidades y tus defectos y se asegurarán de señalarlos a los demás siempre que puedan en un intento de humillarte. Una vez que son capaces de hacer esto, se hace mucho más fácil ejercer poder sobre ti. A menudo tratarán de empezar competiciones contigo. Incluso en las cosas más pequeñas que no requiere absolutamente ninguna competencia, buscarán formas de probarse a sí mismos y “ganar”. Con un manipulador, un argumento nunca será algo que ayude a ambas personas a crecer y aprender. En c",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 2 - Entendiendo al Persuasivo y Manipulador (Parte 2 - Suposiciones)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/guia_completa_manipulacion/guiacompleta_m4_persuasivo_manipulador_p2.webp\" alt=\"Cap 2 - Entendiendo al Persuasivo y Manipulador (Parte 2 - Suposiciones)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>demasiadas suposiciones. Cuando empiezas a asumir demasiado sobre una persona, esto puede llevarte a pasar por alto detalles importantes que realmente cuentan. Sin embargo, conocer estas similitudes sólo te ayudarán a crecer como persona. Hay algunas cosas que todos los manipuladores tienen en común. Estos no son necesariamente patrones que han sido aprendidos, sino más bien, una solución mental para obtener las cosas que podrían desear. En lugar de ser enseñados a ser manipuladores, a veces puede ser un simple camino que su cerebro sigue para tratar de ayudarles a conseguir las cosas que más desean de otras personas. Todos los manipuladores normalmente buscan tu mayor debilidad para usarla en tu contra. Descubrirán cuál es tu mayor inseguridad y tratarán de encontrar formas de usarla para ganar poder sobre ti. Podrían intentar descubrir qué eres malo para que puedan enfatizar este rasgo en ti y hacerte sentir como si fueras una mala persona en general debido a esto. A menudo hablarán de tus debilidades y tus defectos y se asegurarán de señalarlos a los demás siempre que puedan en un intento de humillarte. Una vez que son capaces de hacer esto, se hace mucho más fácil ejercer poder sobre ti. A menudo tratarán de empezar competiciones contigo. Incluso en las cosas más pequeñas que no requiere absolutamente ninguna competencia, buscarán formas de probarse a sí mismos y “ganar”. Con un manipulador, un argumento nunca será algo que ayude a ambas personas a crecer y aprender. En c",
           "interactiveChallenge": {
             "question": "¿Cuál de las siguientes afirmaciones sobre la hipnosis ericksoniana en el contexto de \"Capitulo 2 Entendiendo Al Persuasivo Y Al Manipulador Parte 2\"?",
             "options": [
@@ -1485,7 +1486,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 3 – Características de la Psicología Oscura Ahora que reconoces lo que es un manipulador, puedes empezar a entender mejor algunas de las tácticas reales que utilizan. Puede ser más fácil para algunos empezar a entender lo que constituye un manipulador y las señales comunes que son fáciles de detectar. Sin embargo, ¿qué es lo que realmente hacen para ganar poder? ¿Con qué métodos van a trabajar para mantenernos atrapados bajo su control todo este tiempo? Cada uno tendrá sus propios métodos para ejercer control sobre otras personas. Dependerá de los aspectos naturalmente poderosos que ya tienen, junto con el estatus que tienen en la vida. Estas tácticas se convertirán en parte de su personalidad y serán la forma en que están acostumbrados a reaccionar naturalmente a diferentes situaciones. Recuerda no dejar que estas señales causen paranoia. Hacer algo una vez no significa que ellos sean manipuladores. A veces podemos entrar en pánico, y esto puede hacer que nos sintamos como si tuviéramos que hacer algo rápido para tratar de ganar control sobre una situación. Cuando reaccionamos por instinto, a veces puede ser porque no siempre pensamos con claridad, así que tal vez exista la posibilidad de haber hecho algo ligeramente manipulador en el pasado. Estas buscando un patrón de comportamiento manipulador. No es sólo una instancia de manipulación que debería hacerte sentir como si tuvieras que huir de una persona que intenta ser controladora. De lo que debes ser más cautelos",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 3 - Características de la Psicología Oscura\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/guia_completa_manipulacion/guiacompleta_m5_caracteristicas_oscuras.webp\" alt=\"Cap 3 - Características de la Psicología Oscura\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 3 – Características de la Psicología Oscura Ahora que reconoces lo que es un manipulador, puedes empezar a entender mejor algunas de las tácticas reales que utilizan. Puede ser más fácil para algunos empezar a entender lo que constituye un manipulador y las señales comunes que son fáciles de detectar. Sin embargo, ¿qué es lo que realmente hacen para ganar poder? ¿Con qué métodos van a trabajar para mantenernos atrapados bajo su control todo este tiempo? Cada uno tendrá sus propios métodos para ejercer control sobre otras personas. Dependerá de los aspectos naturalmente poderosos que ya tienen, junto con el estatus que tienen en la vida. Estas tácticas se convertirán en parte de su personalidad y serán la forma en que están acostumbrados a reaccionar naturalmente a diferentes situaciones. Recuerda no dejar que estas señales causen paranoia. Hacer algo una vez no significa que ellos sean manipuladores. A veces podemos entrar en pánico, y esto puede hacer que nos sintamos como si tuviéramos que hacer algo rápido para tratar de ganar control sobre una situación. Cuando reaccionamos por instinto, a veces puede ser porque no siempre pensamos con claridad, así que tal vez exista la posibilidad de haber hecho algo ligeramente manipulador en el pasado. Estas buscando un patrón de comportamiento manipulador. No es sólo una instancia de manipulación que debería hacerte sentir como si tuvieras que huir de una persona que intenta ser controladora. De lo que debes ser más cautelos",
           "interactiveChallenge": {
             "question": "Al aplicar los principios de la prueba social en el contexto de \"Capitulo 3 Caracteristicas De La Psicologia Oscura\"?",
             "options": [
@@ -2014,7 +2015,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 4 – Razones Para Analizar a las Personas Todos deberíamos tener un cierto nivel de cognición social que nos permita comprender mejor y ayudar a la gente que nos rodea. Como somos animales de grupo que necesitamos a otros para sobrevivir, es importante que sepamos cómo encajar en este mundo. No es algo fácil de hacer, pero puede ser útil para nuestra supervivencia conocer a otras personas como nosotros y hacer conexiones más profundas con aquellos con los que nos podemos relacionar. Cuando se utilizan tácticas para intentar comprender mejor cómo funciona la gente, es más fácil predecir lo que pueden hacer o cómo pueden actuar. En lugar de tratar de adivinar tu camino en esta vida, preguntándote siempre cómo se sienten los demás, puedes empezar a hacerte cargo y comprender mejor incluso a las personas más complejas que conoces. Esto te ayudará a lo largo de tu vida, pero también te permitirá ayudar a los demás. Todos tenemos seres queridos que pueden estar luchando y a los que desearíamos poder ayudar más, pero eso a veces puede ser difícil. Si comienzas a analizar a las personas y a comprender mejor de dónde vienen, te das la oportunidad de buscar formas de ayudarlas. Puede que haya propósitos evolutivos de por qué nosotros, como humanos, nos aseguramos de poder tomar y aprender del comportamiento de otras personas. Un leopardo no enseña a su cachorro a cazar sentándolo y hablándole de los pasos que debe seguir. La mejor manera de que estos animales aprendan es empeza",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 4 - Razones Para Analizar a las Personas\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/guia_completa_manipulacion/guiacompleta_m6_razones_analizar.webp\" alt=\"Cap 4 - Razones Para Analizar a las Personas\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 4 – Razones Para Analizar a las Personas Todos deberíamos tener un cierto nivel de cognición social que nos permita comprender mejor y ayudar a la gente que nos rodea. Como somos animales de grupo que necesitamos a otros para sobrevivir, es importante que sepamos cómo encajar en este mundo. No es algo fácil de hacer, pero puede ser útil para nuestra supervivencia conocer a otras personas como nosotros y hacer conexiones más profundas con aquellos con los que nos podemos relacionar. Cuando se utilizan tácticas para intentar comprender mejor cómo funciona la gente, es más fácil predecir lo que pueden hacer o cómo pueden actuar. En lugar de tratar de adivinar tu camino en esta vida, preguntándote siempre cómo se sienten los demás, puedes empezar a hacerte cargo y comprender mejor incluso a las personas más complejas que conoces. Esto te ayudará a lo largo de tu vida, pero también te permitirá ayudar a los demás. Todos tenemos seres queridos que pueden estar luchando y a los que desearíamos poder ayudar más, pero eso a veces puede ser difícil. Si comienzas a analizar a las personas y a comprender mejor de dónde vienen, te das la oportunidad de buscar formas de ayudarlas. Puede que haya propósitos evolutivos de por qué nosotros, como humanos, nos aseguramos de poder tomar y aprender del comportamiento de otras personas. Un leopardo no enseña a su cachorro a cazar sentándolo y hablándole de los pasos que debe seguir. La mejor manera de que estos animales aprendan es empeza",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la framing narrativo en el contexto de \"Capitulo 4 Razones Para Analizar A Las Personas\"?",
             "options": [
@@ -2311,7 +2312,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 5 – El Arte de la manipulación y la Persuasión La manipulación es el lado oscuro de la persuasión. No vamos a decirte cómo ser manipulador porque eso no le va a hacer ningún bien al mundo. Podrías ser capaz de conseguir lo que quieres, pero lastimarías a la gente en el camino. Nada que valga la pena se ganará tomándolo primero de otras personas. Si realmente quieres una influencia duradera, tienes que empezar a ganar formas de ser más persuasivo. No persuadas a los individuos que no van a ser capaces de saber más. Si alguien no es muy inteligente y realmente tiene problemas para entender los conceptos básicos, entonces no es una buena idea tratar de manipularlos. Sólo debes ayudar a inspirar a otros a pensar las cosas que serían capaces de hacer por sí mismos, sólo con un poco de orientación. Inspirar a alguien es darle una buena idea que influya en sus propios patrones de pensamiento. No implica plantar una idea en su cabeza y engañarlos para que piensen algo que nunca hubieran pensado por sí mismos. Nunca convenzas a alguien de que haga algo que no harías tú mismo, si estuvieras en la misma situación. Si no estás dispuesto a hacerlo, entonces es una apuesta segura, y no es moralmente correcto esperar que alguien más lo haga tampoco. La persuasión no debe implicar que le quites a la otra persona. No deberías tomar algo de ellos que los deje sin nada. Si les quitas algo, entonces deberías darles algo de igual o mayor valor en el proceso. Es una experiencia compartida",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 5 - El Arte de la Manipulación y la Persuasión\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/guia_completa_manipulacion/guiacompleta_m7_arte_manipulacion_persuasion.webp\" alt=\"Cap 5 - El Arte de la Manipulación y la Persuasión\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 5 – El Arte de la manipulación y la Persuasión La manipulación es el lado oscuro de la persuasión. No vamos a decirte cómo ser manipulador porque eso no le va a hacer ningún bien al mundo. Podrías ser capaz de conseguir lo que quieres, pero lastimarías a la gente en el camino. Nada que valga la pena se ganará tomándolo primero de otras personas. Si realmente quieres una influencia duradera, tienes que empezar a ganar formas de ser más persuasivo. No persuadas a los individuos que no van a ser capaces de saber más. Si alguien no es muy inteligente y realmente tiene problemas para entender los conceptos básicos, entonces no es una buena idea tratar de manipularlos. Sólo debes ayudar a inspirar a otros a pensar las cosas que serían capaces de hacer por sí mismos, sólo con un poco de orientación. Inspirar a alguien es darle una buena idea que influya en sus propios patrones de pensamiento. No implica plantar una idea en su cabeza y engañarlos para que piensen algo que nunca hubieran pensado por sí mismos. Nunca convenzas a alguien de que haga algo que no harías tú mismo, si estuvieras en la misma situación. Si no estás dispuesto a hacerlo, entonces es una apuesta segura, y no es moralmente correcto esperar que alguien más lo haga tampoco. La persuasión no debe implicar que le quites a la otra persona. No deberías tomar algo de ellos que los deje sin nada. Si les quitas algo, entonces deberías darles algo de igual o mayor valor en el proceso. Es una experiencia compartida",
           "interactiveChallenge": {
             "question": "Ante una situación de la aislamiento progresivo en el contexto de \"Capitulo 5 El Arte De La Manipulacion Y La Persuasion\"?",
             "options": [
@@ -2666,7 +2667,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 6 – Pasos de la Psicología Oscura Ahora que tienes un nivel básico de comprensión de cómo funciona la manipulación y la persuasión, es crucial que empieces a entender los métodos más intermedios que algunos podrían usar en ti para hacerte caer en sus mayores engaños. Estos nunca son para que los uses ti mismo. Sólo los compartimos contigo para que puedas ver realmente los métodos más acostumbrados que otros manipuladores usaran para mantenerte bajo su control. Cuanto más consciente y preparado estés de estos pasos de la psicología oscura, más fácil será evitar que esta manipulación te controle y tome tu vida en cualquier otra dirección que no sea la que tú quieres. Cuando empieces a abrir tu mentalidad y la de los demás, será más fácil captar pequeñas señales a medida que avanzas. Recuerda que siempre será una práctica. Al principio, puedes pensar que puedes hacer suposiciones fáciles y que lo tienes todo resuelto. Siempre habrá capas en todas las verdades que estés descubriendo. Podrías haberte dado cuenta de que alguien te estaba manipulando, pero mira más profundamente. ¿Por qué lo hacían? ¿Cómo te afectó esto? ¿Qué puedes hacer para recuperarte? Todavía hay algunos pasos que puedes entender para evitar ser manipulado, y, si decides, usarlos para tus propios propósitos. Eso no es aconsejable, pero de nuevo, no podemos manipularte para que no seas un manipulador. Podemos recordarte que hacer estas cosas nunca te da lo que quieres. Puede parecer así al principio, pe",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 6 - Pasos de la Psicología Oscura\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/guia_completa_manipulacion/guiacompleta_m8_pasos_psicologia_oscura.webp\" alt=\"Cap 6 - Pasos de la Psicología Oscura\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 6 – Pasos de la Psicología Oscura Ahora que tienes un nivel básico de comprensión de cómo funciona la manipulación y la persuasión, es crucial que empieces a entender los métodos más intermedios que algunos podrían usar en ti para hacerte caer en sus mayores engaños. Estos nunca son para que los uses ti mismo. Sólo los compartimos contigo para que puedas ver realmente los métodos más acostumbrados que otros manipuladores usaran para mantenerte bajo su control. Cuanto más consciente y preparado estés de estos pasos de la psicología oscura, más fácil será evitar que esta manipulación te controle y tome tu vida en cualquier otra dirección que no sea la que tú quieres. Cuando empieces a abrir tu mentalidad y la de los demás, será más fácil captar pequeñas señales a medida que avanzas. Recuerda que siempre será una práctica. Al principio, puedes pensar que puedes hacer suposiciones fáciles y que lo tienes todo resuelto. Siempre habrá capas en todas las verdades que estés descubriendo. Podrías haberte dado cuenta de que alguien te estaba manipulando, pero mira más profundamente. ¿Por qué lo hacían? ¿Cómo te afectó esto? ¿Qué puedes hacer para recuperarte? Todavía hay algunos pasos que puedes entender para evitar ser manipulado, y, si decides, usarlos para tus propios propósitos. Eso no es aconsejable, pero de nuevo, no podemos manipularte para que no seas un manipulador. Podemos recordarte que hacer estas cosas nunca te da lo que quieres. Puede parecer así al principio, pe",
           "interactiveChallenge": {
             "question": "El concepto central de la hipnosis ericksoniana en el contexto de \"Capitulo 6 Pasos De La Psicologia Oscura\"?",
             "options": [
@@ -2992,7 +2993,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 7 – Casos de Estudios de la Psicología Oscura ¿Qué significa todo lo que hemos discutido hasta ahora? ¿Hay algo sustancial que se pueda sacar de esta información? Puede que todo esto empiece a tener sentido en tu mundo personal, pero quizás te preguntes si hay otras situaciones en el mundo que puedan ayudarte a entender mejor lo que todo esto significa en tu mundo. Puede ser fácil sentirse aislado y tener problemas para relacionarse con otras personas, pero hay situaciones científicas que nos ayudan a comprender mejor las complejidades de nuestras relaciones y emociones. Tenemos tres casos de estudio que te ayudarán a comprender mejor qué es lo que existe en nuestro interior como personas que podrían llevarnos a querer manipular a los demás. Cuando estudiamos a otros humanos, los miramos en un ambiente controlado. Esto ayuda porque a menudo, lo más que sabemos está basado en nuestras propias experiencias personales. Puede llevarnos a preguntarnos, “¿soy sólo yo, o es todo el mundo?” Casos de estudios como estos nos ayudan a entender la condición humana y no sólo a nosotros mismos como individuos. El primer estudio que veremos nos da una pequeña visión del comportamiento humano. En tiempos en los que un líder puede convencer a millones de personas de creer en las cosas que hacen, es importante que entendamos lo poderosas que pueden ser algunas figuras de autoridad. Cuanto mejor puedas identificar a los que pueden intentar manipularte, más fácil será protegerte a largo",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 7 - Casos de Estudios de la Psicología Oscura\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/guia_completa_manipulacion/guiacompleta_m9_casos_estudio.webp\" alt=\"Cap 7 - Casos de Estudios de la Psicología Oscura\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 7 – Casos de Estudios de la Psicología Oscura ¿Qué significa todo lo que hemos discutido hasta ahora? ¿Hay algo sustancial que se pueda sacar de esta información? Puede que todo esto empiece a tener sentido en tu mundo personal, pero quizás te preguntes si hay otras situaciones en el mundo que puedan ayudarte a entender mejor lo que todo esto significa en tu mundo. Puede ser fácil sentirse aislado y tener problemas para relacionarse con otras personas, pero hay situaciones científicas que nos ayudan a comprender mejor las complejidades de nuestras relaciones y emociones. Tenemos tres casos de estudio que te ayudarán a comprender mejor qué es lo que existe en nuestro interior como personas que podrían llevarnos a querer manipular a los demás. Cuando estudiamos a otros humanos, los miramos en un ambiente controlado. Esto ayuda porque a menudo, lo más que sabemos está basado en nuestras propias experiencias personales. Puede llevarnos a preguntarnos, “¿soy sólo yo, o es todo el mundo?” Casos de estudios como estos nos ayudan a entender la condición humana y no sólo a nosotros mismos como individuos. El primer estudio que veremos nos da una pequeña visión del comportamiento humano. En tiempos en los que un líder puede convencer a millones de personas de creer en las cosas que hacen, es importante que entendamos lo poderosas que pueden ser algunas figuras de autoridad. Cuanto mejor puedas identificar a los que pueden intentar manipularte, más fácil será protegerte a largo",
           "interactiveChallenge": {
             "question": "¿Cómo reconoce un observador entrenado la prueba social en el contexto de \"Capitulo 7 Casos De Estudios De La Psicologia Oscura\"?",
             "options": [
@@ -3289,7 +3290,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 8 – Consejo Final Sobre la Psicología Oscura Antes de terminar el libro, hay algunas cosas que debes recordar mientras continúas este viaje. Te tomará algún tiempo acostumbrarse a ti mismo. Si te estás recuperando de la manipulación, entonces es probable que este sea un proceso que va a tomar algún tiempo. Tendrás que volver a entrenar tu cerebro para tener la voz de tu abusador bajo control. También, tendrás que llegar a conocer y entender realmente a las personas. No sólo querrás concentrarte en entenderte a ti mismo y las cosas que componen lo que eres. Es crucial que prestes atención a los demás y cómo se comportan también. Deja que cada experiencia que tengas de ver a otros humanos te dé una pequeña visión de lo que hace que una persona decida actuar en cierta manera. Mira en internet los diferentes documentales disponibles que podrían ayudarte a comprender un poco más cómo y por qué alguien podría actuar de cierta manera. Incluso ciertos reality shows pueden ser una forma de entender cómo actúan otras personas. El mundo es una biblioteca. Lo Que Haces Volverá Puede ser muy fácil manipular negativamente a alguien, y hacer persuasión positiva puede ser un poco más difícil. La manipulación negativa sólo implica reacciones emocionales y un control descarado. La persuasión positiva es más lenta y lleva tiempo dominarla. Sin embargo, este es también el método que va a ser más exitoso en general. Cualquier energía que pongas en el mundo volverá a ti. No importa si cre",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 8 - Consejo Final y Conclusión\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/guia_completa_manipulacion/guiacompleta_m10_consejo_final_conclusion.webp\" alt=\"Cap 8 - Consejo Final y Conclusión\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 8 – Consejo Final Sobre la Psicología Oscura Antes de terminar el libro, hay algunas cosas que debes recordar mientras continúas este viaje. Te tomará algún tiempo acostumbrarse a ti mismo. Si te estás recuperando de la manipulación, entonces es probable que este sea un proceso que va a tomar algún tiempo. Tendrás que volver a entrenar tu cerebro para tener la voz de tu abusador bajo control. También, tendrás que llegar a conocer y entender realmente a las personas. No sólo querrás concentrarte en entenderte a ti mismo y las cosas que componen lo que eres. Es crucial que prestes atención a los demás y cómo se comportan también. Deja que cada experiencia que tengas de ver a otros humanos te dé una pequeña visión de lo que hace que una persona decida actuar en cierta manera. Mira en internet los diferentes documentales disponibles que podrían ayudarte a comprender un poco más cómo y por qué alguien podría actuar de cierta manera. Incluso ciertos reality shows pueden ser una forma de entender cómo actúan otras personas. El mundo es una biblioteca. Lo Que Haces Volverá Puede ser muy fácil manipular negativamente a alguien, y hacer persuasión positiva puede ser un poco más difícil. La manipulación negativa sólo implica reacciones emocionales y un control descarado. La persuasión positiva es más lenta y lleva tiempo dominarla. Sin embargo, este es también el método que va a ser más exitoso en general. Cualquier energía que pongas en el mundo volverá a ti. No importa si cre",
           "interactiveChallenge": {
             "question": "Según este módulo, ¿cuál es el mecanismo principal de la framing narrativo en el contexto de \"Capitulo 8 Consejo Final Sobre La Psicologia Oscura\"?",
             "options": [
@@ -3491,6 +3492,594 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS001",
+      "category": "Persuasion",
+      "title": "El Vendedor de Presión",
+      "difficulty": "Intermediate",
+      "badge": "Analista Táctico",
+      "scenarioDescription": "Un colega utiliza la técnica de escasez para que aceptes un proyecto extra. Te dice que si no lo haces hoy, el equipo perderá el bono.",
+      "options": [
+        {
+          "text": "Aceptar inmediatamente por miedo a perder el bono.",
+          "outcome": "Manipulado",
+          "wisdomScore": 20,
+          "analysis": "Has caído en la urgencia artificial.",
+          "bookInsight": "La psicología oscura utiliza la urgencia para anular el pensamiento crítico."
+        },
+        {
+          "text": "Pedir datos concretos sobre el bono y posponer la decisión.",
+          "outcome": "Neutralizado",
+          "wisdomScore": 90,
+          "analysis": "Has recuperado el control mediante la lógica.",
+          "bookInsight": "El análisis de los hechos es el antídoto contra la manipulación emocional."
+        }
+      ]
+    },
+    {
+      "id": "CS002",
+      "category": "Psicología Oscura",
+      "title": "El Triangulador",
+      "difficulty": "Advanced",
+      "badge": "Detector de Sombras",
+      "scenarioDescription": "Tu jefe compara constantemente tu desempeño con el de un compañero para 'motivarte'.",
+      "options": [
+        {
+          "text": "Intentar superar al compañero para ganar aprobación.",
+          "outcome": "Manipulado",
+          "wisdomScore": 30,
+          "analysis": "Estás jugando bajo sus reglas de competencia tóxica.",
+          "bookInsight": "La triangulación busca crear inseguridad para controlar al sujeto."
+        },
+        {
+          "text": "Solicitar una reunión de feedback basada solo en tus KPIs.",
+          "outcome": "Neutralizado",
+          "wisdomScore": 95,
+          "analysis": "Has redirigido la conversación a la objetividad.",
+          "bookInsight": "La objetividad desmantela las tácticas de comparación emocional."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Persuasión",
+      "title": "El Falso Amigo",
+      "difficulty": "Beginner",
+      "badge": "Observador",
+      "scenarioDescription": "Alguien te hace un favor pequeño sin que lo pidas y luego te pide un favor grande.",
+      "options": [
+        {
+          "text": "Acceder por reciprocidad.",
+          "outcome": "Manipulado",
+          "wisdomScore": 40,
+          "analysis": "La deuda de gratitud es una trampa común.",
+          "bookInsight": "La reciprocidad es un arma de persuasión poderosa."
+        },
+        {
+          "text": "Agradecer el favor pero declinar la petición grande.",
+          "outcome": "Neutralizado",
+          "wisdomScore": 85,
+          "analysis": "Has roto el ciclo de deuda.",
+          "bookInsight": "Reconocer la táctica permite rechazar la obligación impuesta."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Psicología Oscura",
+      "title": "El Gaslighting Sutil",
+      "difficulty": "Advanced",
+      "badge": "Escudo Mental",
+      "scenarioDescription": "Tu pareja insiste en que nunca dijiste algo que tú recuerdas perfectamente haber dicho.",
+      "options": [
+        {
+          "text": "Dudar de tu memoria y pedir disculpas.",
+          "outcome": "Manipulado",
+          "wisdomScore": 10,
+          "analysis": "Estás perdiendo tu realidad.",
+          "bookInsight": "El gaslighting erosiona la confianza en uno mismo."
+        },
+        {
+          "text": "Mantener tu postura y sugerir revisar registros o hechos.",
+          "outcome": "Neutralizado",
+          "wisdomScore": 100,
+          "analysis": "Has protegido tu integridad cognitiva.",
+          "bookInsight": "La validación interna es la defensa contra la distorsión externa."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Persuasión",
+      "title": "El Anclaje de Precios",
+      "difficulty": "Intermediate",
+      "badge": "Negociador",
+      "scenarioDescription": "Un vendedor te ofrece un producto a un precio altísimo para luego bajarlo a la mitad.",
+      "options": [
+        {
+          "text": "Comprar porque parece una gran oferta.",
+          "outcome": "Manipulado",
+          "wisdomScore": 35,
+          "analysis": "Has caído en el anclaje.",
+          "bookInsight": "El primer número establece el marco de referencia."
+        },
+        {
+          "text": "Investigar el valor real del mercado antes de decidir.",
+          "outcome": "Neutralizado",
+          "wisdomScore": 90,
+          "analysis": "Has roto el ancla.",
+          "bookInsight": "La investigación independiente neutraliza el anclaje."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Psicología Oscura",
+      "title": "El Bombardeo de Amor",
+      "difficulty": "Advanced",
+      "badge": "Centinela",
+      "scenarioDescription": "Alguien que acabas de conocer te llena de halagos y atención excesiva en pocos días.",
+      "options": [
+        {
+          "text": "Entregarte a la relación rápidamente.",
+          "outcome": "Manipulado",
+          "wisdomScore": 20,
+          "analysis": "Estás siendo condicionado.",
+          "bookInsight": "El exceso de afecto inicial suele ser una técnica de captura."
+        },
+        {
+          "text": "Establecer límites y observar el comportamiento a largo plazo.",
+          "outcome": "Neutralizado",
+          "wisdomScore": 95,
+          "analysis": "Has mantenido el control emocional.",
+          "bookInsight": "La paciencia revela la verdadera intención detrás del afecto."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC01",
+      "bookNumber": 1,
+      "category": "Concepto",
+      "term": "Psicología Oscura",
+      "definition": "Uso de tácticas para manipular, coaccionar o influir en otros.",
+      "tacticalUse": "Entender la intención ajena.",
+      "countermeasure": "Conciencia crítica."
+    },
+    {
+      "id": "FC02",
+      "bookNumber": 2,
+      "category": "Táctica",
+      "term": "Gaslighting",
+      "definition": "Hacer dudar a alguien de su propia percepción.",
+      "tacticalUse": "Controlar la realidad del otro.",
+      "countermeasure": "Diario de hechos."
+    },
+    {
+      "id": "FC03",
+      "bookNumber": 3,
+      "category": "Táctica",
+      "term": "Triangulación",
+      "definition": "Introducir a un tercero para crear conflicto.",
+      "tacticalUse": "Desestabilizar vínculos.",
+      "countermeasure": "Comunicación directa."
+    },
+    {
+      "id": "FC04",
+      "bookNumber": 5,
+      "category": "Persuasión",
+      "term": "Reciprocidad",
+      "definition": "Sentir la obligación de devolver un favor.",
+      "tacticalUse": "Generar deuda emocional.",
+      "countermeasure": "Rechazar favores no solicitados."
+    },
+    {
+      "id": "FC05",
+      "bookNumber": 6,
+      "category": "Táctica",
+      "term": "Bombardeo de Amor",
+      "definition": "Exceso de afecto para ganar confianza.",
+      "tacticalUse": "Crear dependencia rápida.",
+      "countermeasure": "Mantener límites personales."
+    },
+    {
+      "id": "FC06",
+      "bookNumber": 2,
+      "category": "Perfil",
+      "term": "Manipulador",
+      "definition": "Persona que busca beneficio propio a costa de otros.",
+      "tacticalUse": "Identificar patrones.",
+      "countermeasure": "Distanciamiento emocional."
+    },
+    {
+      "id": "FC07",
+      "bookNumber": 3,
+      "category": "Concepto",
+      "term": "Narcisismo",
+      "definition": "Necesidad de admiración y falta de empatía.",
+      "tacticalUse": "Apelar al ego.",
+      "countermeasure": "No alimentar el ego."
+    },
+    {
+      "id": "FC08",
+      "bookNumber": 5,
+      "category": "Persuasión",
+      "term": "Escasez",
+      "definition": "Crear sensación de pérdida inminente.",
+      "tacticalUse": "Acelerar decisiones.",
+      "countermeasure": "Analizar la necesidad real."
+    },
+    {
+      "id": "FC09",
+      "bookNumber": 6,
+      "category": "Táctica",
+      "term": "Proyección",
+      "definition": "Atribuir defectos propios a los demás.",
+      "tacticalUse": "Desviar culpas.",
+      "countermeasure": "Reflexión objetiva."
+    },
+    {
+      "id": "FC10",
+      "bookNumber": 4,
+      "category": "Análisis",
+      "term": "Lenguaje Corporal",
+      "definition": "Señales no verbales que revelan intenciones.",
+      "tacticalUse": "Detectar mentiras.",
+      "countermeasure": "Observar incongruencias."
+    },
+    {
+      "id": "FC11",
+      "bookNumber": 3,
+      "category": "Concepto",
+      "term": "Maquiavelismo",
+      "definition": "El fin justifica los medios.",
+      "tacticalUse": "Estrategia fría.",
+      "countermeasure": "Ética innegociable."
+    },
+    {
+      "id": "FC12",
+      "bookNumber": 5,
+      "category": "Persuasión",
+      "term": "Anclaje",
+      "definition": "Uso de un valor inicial como referencia.",
+      "tacticalUse": "Influir en percepciones.",
+      "countermeasure": "Investigación previa."
+    },
+    {
+      "id": "FC13",
+      "bookNumber": 6,
+      "category": "Táctica",
+      "term": "Silencio",
+      "definition": "Uso del silencio para incomodar.",
+      "tacticalUse": "Forzar confesiones.",
+      "countermeasure": "Mantener la calma."
+    },
+    {
+      "id": "FC14",
+      "bookNumber": 2,
+      "category": "Perfil",
+      "term": "Persuasivo",
+      "definition": "Capacidad de convencer sin dañar.",
+      "tacticalUse": "Negociación ética.",
+      "countermeasure": "Evaluación de intenciones."
+    },
+    {
+      "id": "FC15",
+      "bookNumber": 4,
+      "category": "Análisis",
+      "term": "Microexpresiones",
+      "definition": "Gestos faciales breves que revelan emociones.",
+      "tacticalUse": "Leer la verdad.",
+      "countermeasure": "Entrenamiento de observación."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Manipulación",
+      "name": "Gaslighting",
+      "severity": "Alta",
+      "icon": "🌫️",
+      "howItWorks": "Niega la realidad del sujeto sistemáticamente.",
+      "redFlags": "Dudas constantes sobre tu memoria.",
+      "counterScript": "Confío en mi percepción de los hechos.",
+      "deepMechanism": "Erosión de la identidad."
+    },
+    {
+      "id": "TM02",
+      "category": "Persuasión",
+      "name": "Escasez",
+      "severity": "Media",
+      "icon": "⏳",
+      "howItWorks": "Limita el tiempo o disponibilidad.",
+      "redFlags": "Presión por decidir ya.",
+      "counterScript": "Necesito tiempo para evaluar.",
+      "deepMechanism": "Miedo a la pérdida."
+    },
+    {
+      "id": "TM03",
+      "category": "Manipulación",
+      "name": "Triangulación",
+      "severity": "Alta",
+      "icon": "🔺",
+      "howItWorks": "Involucra a un tercero para generar inseguridad.",
+      "redFlags": "Comparaciones constantes.",
+      "counterScript": "Hablemos solo de nosotros dos.",
+      "deepMechanism": "Inseguridad relacional."
+    },
+    {
+      "id": "TM04",
+      "category": "Persuasión",
+      "name": "Reciprocidad",
+      "severity": "Baja",
+      "icon": "🤝",
+      "howItWorks": "Da algo pequeño para recibir algo grande.",
+      "redFlags": "Favores no solicitados.",
+      "counterScript": "Gracias, pero no puedo aceptarlo.",
+      "deepMechanism": "Deuda social."
+    },
+    {
+      "id": "TM05",
+      "category": "Manipulación",
+      "name": "Bombardeo de Amor",
+      "severity": "Alta",
+      "icon": "❤️",
+      "howItWorks": "Sobrecarga de afecto inicial.",
+      "redFlags": "Intensidad desproporcionada.",
+      "counterScript": "Prefiero ir más despacio.",
+      "deepMechanism": "Dependencia emocional."
+    },
+    {
+      "id": "TM06",
+      "category": "Persuasión",
+      "name": "Anclaje",
+      "severity": "Media",
+      "icon": "⚓",
+      "howItWorks": "Establece un punto de referencia alto.",
+      "redFlags": "Precios o exigencias extremas.",
+      "counterScript": "Mi presupuesto es X.",
+      "deepMechanism": "Sesgo cognitivo."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal de la psicología oscura?",
+      "options": [
+        "Ayudar a otros",
+        "Controlar y manipular",
+        "Mejorar la comunicación",
+        "Entender la historia"
+      ],
+      "correctIndex": 1,
+      "explanation": "La psicología oscura se centra en el uso de tácticas para influir o controlar a otros."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 2,
+      "question": "¿Qué es la triangulación?",
+      "options": [
+        "Un método de estudio",
+        "Involucrar a un tercero",
+        "Una técnica de venta",
+        "Un tipo de terapia"
+      ],
+      "correctIndex": 1,
+      "explanation": "La triangulación busca desestabilizar a una persona mediante la inclusión de un tercero."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 3,
+      "question": "¿Qué caracteriza a un manipulador?",
+      "options": [
+        "Empatía total",
+        "Búsqueda de beneficio propio",
+        "Honestidad radical",
+        "Altruismo"
+      ],
+      "correctIndex": 1,
+      "explanation": "El manipulador prioriza su beneficio sobre el bienestar ajeno."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 5,
+      "question": "¿Por qué funciona la escasez?",
+      "options": [
+        "Porque es barata",
+        "Porque genera miedo a perder",
+        "Porque es lógica",
+        "Porque es divertida"
+      ],
+      "correctIndex": 1,
+      "explanation": "La escasez activa el miedo a la pérdida, anulando la reflexión."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 6,
+      "question": "¿Qué es el gaslighting?",
+      "options": [
+        "Iluminar una habitación",
+        "Hacer dudar de la realidad",
+        "Un tipo de halago",
+        "Una técnica de negociación"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una forma de abuso psicológico donde se distorsiona la realidad del otro."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 4,
+      "question": "¿Por qué analizar a las personas?",
+      "options": [
+        "Para juzgarlas",
+        "Para entender sus intenciones",
+        "Para criticarlas",
+        "Para ignorarlas"
+      ],
+      "correctIndex": 1,
+      "explanation": "El análisis permite identificar intenciones y protegerse de manipulaciones."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Manipulación",
+      "category": "Psicología",
+      "definition": "Control ejercido sobre alguien.",
+      "practicalExample": "Hacer sentir culpa para obtener algo."
+    },
+    {
+      "id": "G02",
+      "term": "Persuasión",
+      "category": "Comunicación",
+      "definition": "Convencer mediante argumentos.",
+      "practicalExample": "Vender una idea con beneficios claros."
+    },
+    {
+      "id": "G03",
+      "term": "Gaslighting",
+      "category": "Psicología Oscura",
+      "definition": "Distorsión de la realidad.",
+      "practicalExample": "Decir 'eso nunca pasó'."
+    },
+    {
+      "id": "G04",
+      "term": "Triangulación",
+      "category": "Psicología Oscura",
+      "definition": "Uso de terceros.",
+      "practicalExample": "Comparar con un ex."
+    },
+    {
+      "id": "G05",
+      "term": "Anclaje",
+      "category": "Persuasión",
+      "definition": "Referencia inicial.",
+      "practicalExample": "Precio inicial alto."
+    },
+    {
+      "id": "G06",
+      "term": "Escasez",
+      "category": "Persuasión",
+      "definition": "Limitación artificial.",
+      "practicalExample": "Oferta por tiempo limitado."
+    },
+    {
+      "id": "G07",
+      "term": "Reciprocidad",
+      "category": "Persuasión",
+      "definition": "Devolver favores.",
+      "practicalExample": "Regalar algo pequeño."
+    },
+    {
+      "id": "G08",
+      "term": "Bombardeo de Amor",
+      "category": "Psicología Oscura",
+      "definition": "Exceso de afecto.",
+      "practicalExample": "Halagos constantes al inicio."
+    },
+    {
+      "id": "G09",
+      "term": "Proyección",
+      "category": "Psicología",
+      "definition": "Atribuir defectos propios.",
+      "practicalExample": "Llamar mentiroso al otro."
+    },
+    {
+      "id": "G10",
+      "term": "Maquiavelismo",
+      "category": "Psicología",
+      "definition": "Frialdad estratégica.",
+      "practicalExample": "Mentir para ascender."
+    },
+    {
+      "id": "G11",
+      "term": "Narcisismo",
+      "category": "Psicología",
+      "definition": "Ego desmedido.",
+      "practicalExample": "Exigir atención constante."
+    },
+    {
+      "id": "G12",
+      "term": "Microexpresiones",
+      "category": "Análisis",
+      "definition": "Gestos breves.",
+      "practicalExample": "Fruncir el ceño al mentir."
+    },
+    {
+      "id": "G13",
+      "term": "Lenguaje Corporal",
+      "category": "Análisis",
+      "definition": "Comunicación no verbal.",
+      "practicalExample": "Cruzar los brazos."
+    },
+    {
+      "id": "G14",
+      "term": "Coerción",
+      "category": "Psicología Oscura",
+      "definition": "Uso de la fuerza o amenaza.",
+      "practicalExample": "Amenazar con despedir."
+    },
+    {
+      "id": "G15",
+      "term": "Empatía",
+      "category": "Psicología",
+      "definition": "Capacidad de sentir al otro.",
+      "practicalExample": "Entender el dolor ajeno."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Detección",
+      "title": "Incongruencia Verbal",
+      "cue": "Decir 'sí' mientras se niega con la cabeza.",
+      "interpretation": "Duda o mentira.",
+      "practicalDrill": "Observa entrevistas y detecta el desfase."
+    },
+    {
+      "id": "BL02",
+      "category": "Defensa",
+      "title": "Barreras Físicas",
+      "cue": "Brazos cruzados o manos en bolsillos.",
+      "interpretation": "Defensividad o cierre.",
+      "practicalDrill": "Mantén postura abierta en reuniones."
+    },
+    {
+      "id": "BL03",
+      "category": "Detección",
+      "title": "Contacto Visual",
+      "cue": "Mirada fija excesiva o evasión total.",
+      "interpretation": "Intento de intimidación o culpa.",
+      "practicalDrill": "Practica mantener contacto natural."
+    },
+    {
+      "id": "BL04",
+      "category": "Detección",
+      "title": "Microexpresiones",
+      "cue": "Movimiento rápido de labios o cejas.",
+      "interpretation": "Emoción reprimida.",
+      "practicalDrill": "Mira videos en cámara lenta."
+    },
+    {
+      "id": "BL05",
+      "category": "Defensa",
+      "title": "Postura de Poder",
+      "cue": "Ocupar espacio, hombros atrás.",
+      "interpretation": "Seguridad y control.",
+      "practicalDrill": "Adopta postura erguida antes de negociar."
+    },
+    {
+      "id": "BL06",
+      "category": "Detección",
+      "title": "Gestos de Autoconsuelo",
+      "cue": "Tocar el cuello o la cara.",
+      "interpretation": "Ansiedad o estrés.",
+      "practicalDrill": "Identifica cuándo alguien se toca la cara al hablar."
     }
   ]
 };

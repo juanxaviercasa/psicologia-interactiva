@@ -3089,93 +3089,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Defensa Personal Psicológica",
-      "title": "Caso Práctico: Capitulo 1 Tecnicas Avanzadas De Manipulacion Mental",
-      "difficulty": "Media",
-      "badge": "Guardián Mental",
-      "scenarioDescription": "Durante una situación relacionada con \"Capitulo 1 Tecnicas Avanzadas De Manipulacion Mental\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS-001",
+      "category": "Manipulación",
+      "title": "El Aislamiento Gradual",
+      "difficulty": "Intermedio",
+      "badge": "Analista de Patrones",
+      "scenarioDescription": "Un colega comienza a criticar sutilmente a tus amigos cercanos, sugiriendo que 'no te valoran como él'. ¿Cómo respondes?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Capitulo 1 Tecnicas Avanzadas De Manipulacion Mental\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Aceptar su perspectiva y alejarte de tus amigos.",
+          "outcome": "Vulnerabilidad",
+          "wisdomScore": 20,
+          "analysis": "Has caído en la trampa del aislamiento.",
+          "bookInsight": "El manipulador busca romper tus redes de apoyo para ser tu única fuente de validación."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Establecer un límite firme y cuestionar sus motivos.",
+          "outcome": "Resiliencia",
+          "wisdomScore": 95,
+          "analysis": "Has detectado la táctica de triangulación.",
+          "bookInsight": "La defensa requiere identificar la intención de dividir para reinar."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Detección en Entorno Laboral",
-      "title": "Caso Práctico: Capitulo 1 Control Mental Con Ideas Implantadas",
-      "difficulty": "Alta",
-      "badge": "Detective Social",
-      "scenarioDescription": "Durante una situación relacionada con \"Capitulo 1 Control Mental Con Ideas Implantadas\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS-002",
+      "category": "Seducción Oscura",
+      "title": "El Espejo Emocional",
+      "difficulty": "Avanzado",
+      "badge": "Detector de Narcisistas",
+      "scenarioDescription": "Alguien nuevo en tu vida parece compartir todos tus gustos y valores de forma sospechosamente rápida.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Capitulo 1 Control Mental Con Ideas Implantadas\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Sentir una conexión profunda y confiar plenamente.",
+          "outcome": "Engaño",
+          "wisdomScore": 30,
+          "analysis": "Estás siendo víctima de 'mirroring'.",
+          "bookInsight": "La seducción oscura utiliza la imitación para generar una falsa sensación de alma gemela."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
+          "text": "Introducir inconsistencias deliberadas para probar su autenticidad.",
+          "outcome": "Detección",
+          "wisdomScore": 90,
+          "analysis": "Has expuesto la falta de profundidad del manipulador.",
+          "bookInsight": "El manipulador no puede mantener la máscara si se le fuerza a improvisar fuera de su guion."
+        }
+      ]
+    },
+    {
+      "id": "CS-003",
+      "category": "Control Mental",
+      "title": "La Implantación de Ideas",
+      "difficulty": "Avanzado",
+      "badge": "Arquitecto Cognitivo",
+      "scenarioDescription": "Un superior insiste en que una idea tuya fue originalmente suya, repitiéndolo hasta que empiezas a dudar.",
+      "options": [
+        {
+          "text": "Ceder para evitar conflictos laborales.",
+          "outcome": "Sumisión",
+          "wisdomScore": 10,
+          "analysis": "Has permitido la reescritura de tu realidad.",
+          "bookInsight": "La repetición constante es la base del lavado cerebral y la implantación de ideas."
+        },
+        {
+          "text": "Documentar cronológicamente tus aportes y presentarlos con calma.",
+          "outcome": "Protección",
+          "wisdomScore": 95,
+          "analysis": "Has neutralizado el gaslighting.",
+          "bookInsight": "La evidencia objetiva es el antídoto contra la manipulación de la memoria."
+        }
+      ]
+    },
+    {
+      "id": "CS-004",
+      "category": "Manipulación de Masas",
+      "title": "El Pánico Colectivo",
+      "difficulty": "Intermedio",
+      "badge": "Estratega Social",
+      "scenarioDescription": "En un grupo, todos empiezan a atacar a una persona por un rumor no verificado.",
+      "options": [
+        {
+          "text": "Unirte al grupo para no ser el siguiente objetivo.",
+          "outcome": "Complicidad",
           "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "analysis": "Has sucumbido a la presión de grupo.",
+          "bookInsight": "La manipulación de masas se basa en el miedo al ostracismo."
+        },
+        {
+          "text": "Pedir pruebas concretas antes de emitir un juicio.",
+          "outcome": "Liderazgo",
+          "wisdomScore": 90,
+          "analysis": "Has roto el ciclo de la histeria colectiva.",
+          "bookInsight": "El pensamiento crítico es la mayor amenaza para los manipuladores de masas."
+        }
+      ]
+    },
+    {
+      "id": "CS-005",
+      "category": "Defensa",
+      "title": "La Técnica del Disco Rayado",
+      "difficulty": "Básico",
+      "badge": "Escudo Humano",
+      "scenarioDescription": "Un vendedor intenta presionarte para comprar algo que no quieres.",
+      "options": [
+        {
+          "text": "Explicar detalladamente por qué no puedes comprarlo.",
+          "outcome": "Debilidad",
+          "wisdomScore": 40,
+          "analysis": "Dar explicaciones da al manipulador más material para rebatir.",
+          "bookInsight": "No justifiques tus límites; solo mantén tu postura."
+        },
+        {
+          "text": "Repetir 'No estoy interesado' sin añadir más información.",
+          "outcome": "Victoria",
+          "wisdomScore": 95,
+          "analysis": "Has mantenido el control de la interacción.",
+          "bookInsight": "La brevedad es una herramienta de defensa poderosa."
+        }
+      ]
+    },
+    {
+      "id": "CS-006",
+      "category": "Lavado Cerebral",
+      "title": "La Fatiga Cognitiva",
+      "difficulty": "Avanzado",
+      "badge": "Resistente Mental",
+      "scenarioDescription": "Te mantienen en una reunión interminable, sin descanso, para que aceptes condiciones desfavorables.",
+      "options": [
+        {
+          "text": "Aceptar para terminar la reunión cuanto antes.",
+          "outcome": "Derrota",
+          "wisdomScore": 20,
+          "analysis": "La privación de descanso es una táctica de agotamiento.",
+          "bookInsight": "Nunca tomes decisiones importantes bajo fatiga extrema."
+        },
+        {
+          "text": "Solicitar un receso obligatorio para revisar los puntos con claridad.",
+          "outcome": "Control",
+          "wisdomScore": 90,
+          "analysis": "Has recuperado tu capacidad de juicio.",
+          "bookInsight": "El manipulador necesita tu agotamiento para anular tu voluntad."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Aislamiento progresivo",
-      "definition": "Técnica psicológica estudiada en \"Preliminares E Introduccion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Tomarse tiempo antes de responder a demandas urgentes fabricadas."
+      "id": "FC-001",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Hacer que alguien dude de su propia percepción de la realidad.",
+      "tacticalUse": "Desestabilizar la confianza del objetivo.",
+      "countermeasure": "Mantener un diario de hechos objetivos."
     },
     {
-      "id": "fc2",
-      "term": "Reciprocidad",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 1 Psicologia De La Manipulacion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Desarrollar independencia emocional mediante mindfulness diario."
+      "id": "FC-002",
+      "bookNumber": 1,
+      "category": "Seducción",
+      "term": "Love Bombing",
+      "definition": "Bombardeo de afecto y atención al inicio de una relación.",
+      "tacticalUse": "Crear dependencia emocional rápida.",
+      "countermeasure": "Mantener el ritmo lento y observar acciones, no palabras."
     },
     {
-      "id": "fc3",
-      "term": "Disonancia cognitiva inducida",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 1 Como Saber Que Te Estan Manipulando\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
+      "id": "FC-003",
+      "bookNumber": 1,
+      "category": "Control",
+      "term": "Triangulación",
+      "definition": "Introducir a una tercera persona para generar inseguridad.",
+      "tacticalUse": "Provocar competencia y celos.",
+      "countermeasure": "Comunicación directa con la persona involucrada."
     },
     {
-      "id": "fc4",
-      "term": "Reencuadre perceptual",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 1 Tecnicas Avanzadas De Manipulacion Mental\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Consultar perspectivas externas de confianza antes de decidir."
+      "id": "FC-004",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Proyección",
+      "definition": "Atribuir a otros los defectos propios.",
+      "tacticalUse": "Desviar la culpa y limpiar la imagen propia.",
+      "countermeasure": "No aceptar críticas que no corresponden a tu conducta."
     },
     {
-      "id": "fc5",
-      "term": "Escasez artificial",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 1 Control Mental Con Ideas Implantadas\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Practicar la técnica del \"disco rayado\" ante presión persistente."
+      "id": "FC-005",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Aislamiento",
+      "definition": "Separar al objetivo de su red de apoyo.",
+      "tacticalUse": "Hacer al objetivo vulnerable y dependiente.",
+      "countermeasure": "Mantener vínculos fuertes con familia y amigos."
+    },
+    {
+      "id": "FC-006",
+      "bookNumber": 1,
+      "category": "Control",
+      "term": "Refuerzo Intermitente",
+      "definition": "Dar premios de forma aleatoria para crear adicción.",
+      "tacticalUse": "Mantener al objetivo esperando una recompensa.",
+      "countermeasure": "Reconocer el patrón de comportamiento errático."
+    },
+    {
+      "id": "FC-007",
+      "bookNumber": 1,
+      "category": "Seducción",
+      "term": "Mirroring",
+      "definition": "Imitar gestos y lenguaje del objetivo.",
+      "tacticalUse": "Generar una falsa sensación de afinidad.",
+      "countermeasure": "Observar si la imitación es exagerada o forzada."
+    },
+    {
+      "id": "FC-008",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Piedra Gris",
+      "definition": "Volverse aburrido y poco reactivo ante el manipulador.",
+      "tacticalUse": "Desalentar al manipulador al no obtener reacción.",
+      "countermeasure": "Limitar la información personal compartida."
+    },
+    {
+      "id": "FC-009",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Culpabilización",
+      "definition": "Hacer sentir al otro responsable de las emociones del manipulador.",
+      "tacticalUse": "Controlar el comportamiento mediante la culpa.",
+      "countermeasure": "Asumir responsabilidad solo por tus actos."
+    },
+    {
+      "id": "FC-010",
+      "bookNumber": 1,
+      "category": "Control",
+      "term": "Sobrecarga Cognitiva",
+      "definition": "Bombardear con información para nublar el juicio.",
+      "tacticalUse": "Forzar decisiones apresuradas.",
+      "countermeasure": "Pedir tiempo para procesar la información."
+    },
+    {
+      "id": "FC-011",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Sesgo de Autoridad",
+      "definition": "Tendencia a obedecer a figuras de poder.",
+      "tacticalUse": "Imponer ideas sin cuestionamiento.",
+      "countermeasure": "Evaluar la lógica, no el cargo de la persona."
+    },
+    {
+      "id": "FC-012",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Victimización",
+      "definition": "Presentarse como víctima para obtener favores.",
+      "tacticalUse": "Manipular la empatía del objetivo.",
+      "countermeasure": "Observar si el patrón de victimización es constante."
+    },
+    {
+      "id": "FC-013",
+      "bookNumber": 1,
+      "category": "Control",
+      "term": "Implantación de Ideas",
+      "definition": "Sembrar pensamientos como si fueran propios del objetivo.",
+      "tacticalUse": "Dirigir decisiones sin parecer autoritario.",
+      "countermeasure": "Analizar el origen de tus pensamientos recientes."
+    },
+    {
+      "id": "FC-014",
+      "bookNumber": 1,
+      "category": "Defensa",
+      "term": "Límites",
+      "definition": "Reglas claras sobre lo que permites y no permites.",
+      "tacticalUse": "Proteger la integridad psicológica.",
+      "countermeasure": "Comunicar consecuencias claras ante violaciones."
+    },
+    {
+      "id": "FC-015",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Disonancia Cognitiva",
+      "definition": "Conflicto interno al tener creencias contradictorias.",
+      "tacticalUse": "Forzar al objetivo a cambiar sus valores.",
+      "countermeasure": "Alinear acciones con valores fundamentales."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM-001",
+      "category": "Manipulación",
+      "name": "Gaslighting",
+      "severity": "Alta",
+      "icon": "Niebla",
+      "howItWorks": "Niega hechos pasados para que la víctima dude de su memoria.",
+      "redFlags": "Frases como 'eso nunca pasó' o 'estás loco'.",
+      "counterScript": "Mi memoria es clara sobre este evento, no acepto tu versión.",
+      "deepMechanism": "Destrucción de la base de realidad del individuo."
+    },
+    {
+      "id": "TM-002",
+      "category": "Seducción",
+      "name": "Love Bombing",
+      "severity": "Media",
+      "icon": "Corazón",
+      "howItWorks": "Exceso de atención para crear deuda emocional.",
+      "redFlags": "Promesas de futuro prematuras y halagos excesivos.",
+      "counterScript": "Aprecio el gesto, pero prefiero ir más despacio.",
+      "deepMechanism": "Activación del sistema de recompensa dopaminérgico."
+    },
+    {
+      "id": "TM-003",
+      "category": "Control",
+      "name": "Triangulación",
+      "severity": "Alta",
+      "icon": "Triángulo",
+      "howItWorks": "Involucrar a un tercero para validar al manipulador.",
+      "redFlags": "Comparaciones constantes con otros.",
+      "counterScript": "No voy a discutir sobre terceros, hablemos de nosotros.",
+      "deepMechanism": "Generación de inseguridad y competencia por validación."
+    },
+    {
+      "id": "TM-004",
+      "category": "Manipulación",
+      "name": "Proyección",
+      "severity": "Media",
+      "icon": "Espejo",
+      "howItWorks": "El manipulador acusa al otro de lo que él mismo hace.",
+      "redFlags": "Acusaciones que no tienen sentido con tu conducta.",
+      "counterScript": "Eso suena más a una descripción de tu comportamiento que del mío.",
+      "deepMechanism": "Mecanismo de defensa para evitar la culpa propia."
+    },
+    {
+      "id": "TM-005",
+      "category": "Control",
+      "name": "Refuerzo Intermitente",
+      "severity": "Alta",
+      "icon": "Interruptor",
+      "howItWorks": "Alternar entre afecto y frialdad.",
+      "redFlags": "Comportamiento impredecible y errático.",
+      "counterScript": "No acepto este trato inconsistente.",
+      "deepMechanism": "Creación de adicción psicológica al refuerzo."
+    },
+    {
+      "id": "TM-006",
+      "category": "Defensa",
+      "name": "Piedra Gris",
+      "severity": "Baja",
+      "icon": "Roca",
+      "howItWorks": "Volverse aburrido para el manipulador.",
+      "redFlags": "N/A",
+      "counterScript": "Entiendo. Ya veo. Interesante.",
+      "deepMechanism": "Eliminación del estímulo que alimenta al manipulador."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q-001",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal del 'Love Bombing'?",
+      "options": [
+        "Generar amor genuino",
+        "Crear dependencia emocional",
+        "Mejorar la comunicación",
+        "Ahorrar dinero"
+      ],
+      "correctIndex": 1,
+      "explanation": "El love bombing busca crear una dependencia rápida mediante la saturación de afecto."
+    },
+    {
+      "id": "Q-002",
+      "bookNumber": 1,
+      "question": "¿Qué técnica utiliza la negación de la realidad para desestabilizar?",
+      "options": [
+        "Proyección",
+        "Gaslighting",
+        "Triangulación",
+        "Espejo"
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting es la forma más efectiva de hacer que la víctima dude de su propia percepción."
+    },
+    {
+      "id": "Q-003",
+      "bookNumber": 1,
+      "question": "¿Qué es la 'Piedra Gris'?",
+      "options": [
+        "Una técnica de ataque",
+        "Una forma de seducción",
+        "Una técnica de defensa",
+        "Un tipo de lavado cerebral"
+      ],
+      "correctIndex": 2,
+      "explanation": "Es una técnica de defensa que consiste en no dar reacciones emocionales al manipulador."
+    },
+    {
+      "id": "Q-004",
+      "bookNumber": 1,
+      "question": "¿Por qué el aislamiento es peligroso?",
+      "options": [
+        "Porque pierdes dinero",
+        "Porque te hace más fuerte",
+        "Porque te deja sin apoyo externo",
+        "Porque es divertido"
+      ],
+      "correctIndex": 2,
+      "explanation": "El aislamiento elimina las perspectivas externas que podrían alertar a la víctima."
+    },
+    {
+      "id": "Q-005",
+      "bookNumber": 1,
+      "question": "¿Qué mecanismo utiliza la proyección?",
+      "options": [
+        "La honestidad",
+        "La transferencia de culpa",
+        "La empatía",
+        "La lógica"
+      ],
+      "correctIndex": 1,
+      "explanation": "La proyección traslada los defectos propios hacia la otra persona para evitar la responsabilidad."
+    },
+    {
+      "id": "Q-006",
+      "bookNumber": 1,
+      "question": "¿Cuál es el efecto del refuerzo intermitente?",
+      "options": [
+        "Indiferencia",
+        "Adicción psicológica",
+        "Claridad mental",
+        "Paz"
+      ],
+      "correctIndex": 1,
+      "explanation": "La incertidumbre del premio genera una búsqueda constante de validación."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G-001",
+      "term": "Manipulación",
+      "category": "General",
+      "definition": "Influencia ejercida sobre alguien para que actúe según los intereses del manipulador.",
+      "practicalExample": "Un jefe que te hace sentir culpable para que trabajes horas extra gratis."
+    },
+    {
+      "id": "G-002",
+      "term": "Gaslighting",
+      "category": "Psicología",
+      "definition": "Abuso psicológico que hace dudar de la propia cordura.",
+      "practicalExample": "Alguien escondiendo tus llaves y luego diciendo que tú las perdiste."
+    },
+    {
+      "id": "G-003",
+      "term": "Triangulación",
+      "category": "Relaciones",
+      "definition": "Uso de una tercera persona para manipular una relación.",
+      "practicalExample": "Un padre que compara a un hijo con otro para generar rivalidad."
+    },
+    {
+      "id": "G-004",
+      "term": "Love Bombing",
+      "category": "Seducción",
+      "definition": "Exceso de afecto inicial para ganar confianza.",
+      "practicalExample": "Recibir regalos costosos y promesas de amor en la primera cita."
+    },
+    {
+      "id": "G-005",
+      "term": "Proyección",
+      "category": "Psicología",
+      "definition": "Atribuir rasgos propios negativos a otros.",
+      "practicalExample": "Alguien infiel acusando a su pareja de ser infiel."
+    },
+    {
+      "id": "G-006",
+      "term": "Piedra Gris",
+      "category": "Defensa",
+      "definition": "Técnica de volverse aburrido ante un manipulador.",
+      "practicalExample": "Responder con monosílabos a alguien que busca pelea."
+    },
+    {
+      "id": "G-007",
+      "term": "Refuerzo Intermitente",
+      "category": "Control",
+      "definition": "Recompensas aleatorias para crear dependencia.",
+      "practicalExample": "Un apostador que sigue jugando porque a veces gana."
+    },
+    {
+      "id": "G-008",
+      "term": "Aislamiento",
+      "category": "Control",
+      "definition": "Separación de la víctima de su entorno social.",
+      "practicalExample": "Un manipulador que critica a todos tus amigos para que los dejes."
+    },
+    {
+      "id": "G-009",
+      "term": "Disonancia Cognitiva",
+      "category": "Psicología",
+      "definition": "Conflicto interno por creencias contradictorias.",
+      "practicalExample": "Saber que alguien es malo pero seguir justificándolo."
+    },
+    {
+      "id": "G-010",
+      "term": "Lavado Cerebral",
+      "category": "Control",
+      "definition": "Reestructuración de creencias mediante presión.",
+      "practicalExample": "Grupos sectarios que controlan la información que recibes."
+    },
+    {
+      "id": "G-011",
+      "term": "Seducción Oscura",
+      "category": "Seducción",
+      "definition": "Uso de tácticas manipuladoras para atraer a alguien.",
+      "practicalExample": "Hacerse el difícil para aumentar el deseo del otro."
+    },
+    {
+      "id": "G-012",
+      "term": "Sesgo de Autoridad",
+      "category": "Psicología",
+      "definition": "Tendencia a seguir a quien tiene poder.",
+      "practicalExample": "Creer algo solo porque lo dijo un experto, sin pruebas."
+    },
+    {
+      "id": "G-013",
+      "term": "Victimización",
+      "category": "Manipulación",
+      "definition": "Hacerse pasar por víctima para obtener beneficios.",
+      "practicalExample": "Llorar para evitar una consecuencia por un error propio."
+    },
+    {
+      "id": "G-014",
+      "term": "Límites",
+      "category": "Defensa",
+      "definition": "Barreras personales para proteger la integridad.",
+      "practicalExample": "Decir 'no' a una petición que cruza tus valores."
+    },
+    {
+      "id": "G-015",
+      "term": "Implantación de Ideas",
+      "category": "Control",
+      "definition": "Sembrar pensamientos en otros como si fueran propios.",
+      "practicalExample": "Hacer preguntas sugerentes para que el otro llegue a tu conclusión."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BLL-001",
+      "category": "Detección",
+      "title": "Microexpresiones de Desprecio",
+      "cue": "Labio superior elevado ligeramente en un lado.",
+      "interpretation": "Indica superioridad o falta de respeto oculta.",
+      "practicalDrill": "Observa entrevistas y busca este gesto cuando el sujeto habla de otros."
+    },
+    {
+      "id": "BLL-002",
+      "category": "Detección",
+      "title": "Bloqueo Ocular",
+      "cue": "Cerrar los ojos o cubrirse la cara al escuchar algo.",
+      "interpretation": "El cerebro intenta bloquear una información que no quiere procesar.",
+      "practicalDrill": "Haz una pregunta difícil y observa si la persona se toca los ojos."
+    },
+    {
+      "id": "BLL-003",
+      "category": "Detección",
+      "title": "Incongruencia Gestual",
+      "cue": "Decir 'sí' con la boca mientras se niega con la cabeza.",
+      "interpretation": "Conflicto interno o mentira.",
+      "practicalDrill": "Practica decir frases positivas con lenguaje corporal negativo."
+    },
+    {
+      "id": "BLL-004",
+      "category": "Detección",
+      "title": "Exposición de la Garganta",
+      "cue": "Inclinar la cabeza hacia atrás al hablar.",
+      "interpretation": "Señal de confianza extrema o arrogancia.",
+      "practicalDrill": "Observa a líderes en discursos y nota quién expone su cuello."
+    },
+    {
+      "id": "BLL-005",
+      "category": "Detección",
+      "title": "Barreras Físicas",
+      "cue": "Cruzar brazos o colocar objetos entre tú y el otro.",
+      "interpretation": "Defensa o rechazo a la comunicación.",
+      "practicalDrill": "Observa cómo cambia la postura cuando introduces un tema incómodo."
+    },
+    {
+      "id": "BLL-006",
+      "category": "Detección",
+      "title": "Pies Orientados",
+      "cue": "Pies apuntando hacia la salida.",
+      "interpretation": "Deseo subconsciente de abandonar la conversación.",
+      "practicalDrill": "En una reunión, mira hacia dónde apuntan los pies de los participantes."
     }
   ]
 };

@@ -705,93 +705,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Defensa Personal Psicológica",
-      "title": "Caso Práctico: Alimentos Libres De Gluten Y Legislacion",
-      "difficulty": "Media",
-      "badge": "Guardián Mental",
-      "scenarioDescription": "Durante una situación relacionada con \"Alimentos Libres De Gluten Y Legislacion\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS-001",
+      "category": "Manipulación",
+      "title": "El dilema del proveedor",
+      "difficulty": "Hard",
+      "badge": "Estratega de Calidad",
+      "scenarioDescription": "Un proveedor insiste en que su harina 'sin gluten' no necesita certificación oficial para ahorrar costos. ¿Cómo manejas la presión?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Alimentos Libres De Gluten Y Legislacion\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Aceptar bajo promesa verbal para mantener la cadena de suministro.",
+          "outcome": "Fallo crítico de seguridad.",
+          "wisdomScore": 10,
+          "analysis": "La confianza sin validación es negligencia.",
+          "bookInsight": "La legislación exige trazabilidad absoluta."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Exigir documentación técnica y rechazar el lote sin certificación.",
+          "outcome": "Protección institucional garantizada.",
+          "wisdomScore": 95,
+          "analysis": "La rigidez normativa es tu mejor escudo.",
+          "bookInsight": "La seguridad alimentaria no admite excepciones."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Detección en Entorno Laboral",
-      "title": "Caso Práctico: Clasificacion De Alimentos Y Contaminacion Cruzada",
-      "difficulty": "Alta",
-      "badge": "Detective Social",
-      "scenarioDescription": "Durante una situación relacionada con \"Clasificacion De Alimentos Y Contaminacion Cruzada\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS-002",
+      "category": "Manipulación",
+      "title": "Contaminación invisible",
+      "difficulty": "Medium",
+      "badge": "Vigilante",
+      "scenarioDescription": "Un cocinero utiliza la misma tabla para pan común y sin gluten tras una limpieza rápida.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Clasificacion De Alimentos Y Contaminacion Cruzada\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Permitir la operación por urgencia de servicio.",
+          "outcome": "Riesgo de salud pública.",
+          "wisdomScore": 20,
+          "analysis": "La urgencia es la excusa de la incompetencia.",
+          "bookInsight": "La contaminación cruzada es invisible pero letal."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
+          "text": "Detener la línea y aplicar protocolo de desinfección.",
+          "outcome": "Cumplimiento de BPM.",
+          "wisdomScore": 90,
+          "analysis": "La disciplina operativa previene crisis.",
+          "bookInsight": "Las Buenas Prácticas son innegociables."
+        }
+      ]
+    },
+    {
+      "id": "CS-003",
+      "category": "Manipulación",
+      "title": "El cliente escéptico",
+      "difficulty": "Easy",
+      "badge": "Comunicador",
+      "scenarioDescription": "Un cliente duda de la seguridad de un plato sin gluten en un entorno compartido.",
+      "options": [
+        {
+          "text": "Minimizar el riesgo diciendo que 'es solo un poco'.",
+          "outcome": "Pérdida de credibilidad.",
+          "wisdomScore": 30,
+          "analysis": "La minimización es una forma de manipulación peligrosa.",
+          "bookInsight": "La transparencia es la base de la confianza."
+        },
+        {
+          "text": "Explicar el protocolo de segregación y trazabilidad.",
+          "outcome": "Confianza ganada.",
+          "wisdomScore": 85,
+          "analysis": "La educación es la herramienta de control más efectiva.",
+          "bookInsight": "El conocimiento del proceso genera autoridad."
+        }
+      ]
+    },
+    {
+      "id": "CS-004",
+      "category": "Manipulación",
+      "title": "Presión de tiempos",
+      "difficulty": "Hard",
+      "badge": "Líder de Crisis",
+      "scenarioDescription": "El equipo de cocina está bajo presión extrema y sugiere saltarse el checklist para acelerar.",
+      "options": [
+        {
+          "text": "Autorizar el salto del checklist.",
+          "outcome": "Desastre operativo.",
+          "wisdomScore": 5,
+          "analysis": "La presión externa no justifica la ruptura de estándares.",
+          "bookInsight": "El checklist es el guardián de la calidad."
+        },
+        {
+          "text": "Priorizar la calidad sobre la velocidad.",
+          "outcome": "Operación segura.",
+          "wisdomScore": 95,
+          "analysis": "La calidad es un hábito, no un acto.",
+          "bookInsight": "La gestión de calidad es la prioridad número uno."
+        }
+      ]
+    },
+    {
+      "id": "CS-005",
+      "category": "Manipulación",
+      "title": "Etiquetado ambiguo",
+      "difficulty": "Medium",
+      "badge": "Analista",
+      "scenarioDescription": "Recibes un producto con etiqueta borrosa sobre alérgenos.",
+      "options": [
+        {
+          "text": "Usarlo asumiendo que es seguro.",
+          "outcome": "Riesgo legal y sanitario.",
           "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "analysis": "La ambigüedad es un riesgo inaceptable.",
+          "bookInsight": "La legislación exige claridad total."
+        },
+        {
+          "text": "Devolver el producto inmediatamente.",
+          "outcome": "Prevención de riesgos.",
+          "wisdomScore": 90,
+          "analysis": "La precaución es la mejor defensa.",
+          "bookInsight": "La trazabilidad comienza en la recepción."
+        }
+      ]
+    },
+    {
+      "id": "CS-006",
+      "category": "Manipulación",
+      "title": "El error del compañero",
+      "difficulty": "Medium",
+      "badge": "Ética Profesional",
+      "scenarioDescription": "Ves a un compañero omitir el lavado de manos antes de manipular alimentos sin gluten.",
+      "options": [
+        {
+          "text": "Ignorarlo para evitar conflictos.",
+          "outcome": "Cultura de negligencia.",
+          "wisdomScore": 25,
+          "analysis": "El silencio es complicidad.",
+          "bookInsight": "La cultura de calidad es colectiva."
+        },
+        {
+          "text": "Corregir al compañero y reportar el incidente.",
+          "outcome": "Mejora continua.",
+          "wisdomScore": 85,
+          "analysis": "La responsabilidad compartida es la clave.",
+          "bookInsight": "Las BPM son responsabilidad de todos."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Rapport forzado",
-      "definition": "Técnica psicológica estudiada en \"Marco Institucional Y Turismo Gastronomico\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Reconocer los 7 signos de la Tríada Oscura en contactos cercanos."
+      "id": "FC-001",
+      "bookNumber": 1,
+      "category": "Legislación",
+      "term": "Trazabilidad",
+      "definition": "Capacidad de seguir el rastro de un alimento.",
+      "tacticalUse": "Auditoría rápida.",
+      "countermeasure": "Documentación digital."
     },
     {
-      "id": "fc2",
-      "term": "Consistencia cognitiva",
-      "definition": "Técnica psicológica estudiada en \"La Enfermedad Celiaca Y Su Diagnostico\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Establecer límites claros y comunicarlos asertivamente."
+      "id": "FC-002",
+      "bookNumber": 1,
+      "category": "Salud",
+      "term": "Enfermedad Celíaca",
+      "definition": "Intolerancia permanente al gluten.",
+      "tacticalUse": "Diseño de menús.",
+      "countermeasure": "Protocolos estrictos."
     },
     {
-      "id": "fc3",
-      "term": "Triangulación",
-      "definition": "Técnica psicológica estudiada en \"Alimentos Libres De Gluten Y Legislacion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Tomarse tiempo antes de responder a demandas urgentes fabricadas."
+      "id": "FC-003",
+      "bookNumber": 1,
+      "category": "Seguridad",
+      "term": "Contaminación Cruzada",
+      "definition": "Transferencia de alérgenos.",
+      "tacticalUse": "Segregación de áreas.",
+      "countermeasure": "Limpieza profunda."
     },
     {
-      "id": "fc4",
-      "term": "Hipnosis ericksoniana",
-      "definition": "Técnica psicológica estudiada en \"Clasificacion De Alimentos Y Contaminacion Cruzada\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Desarrollar independencia emocional mediante mindfulness diario."
+      "id": "FC-004",
+      "bookNumber": 1,
+      "category": "Gestión",
+      "term": "Checklist",
+      "definition": "Lista de verificación operativa.",
+      "tacticalUse": "Control de procesos.",
+      "countermeasure": "Auditoría sorpresa."
     },
     {
-      "id": "fc5",
-      "term": "Simpatía fabricada",
-      "definition": "Técnica psicológica estudiada en \"Buenas Practicas De Manipulacion Y Checklist\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
+      "id": "FC-005",
+      "bookNumber": 1,
+      "category": "Legislación",
+      "term": "Alimento Libre de Gluten",
+      "definition": "Producto con menos de 10ppm de gluten.",
+      "tacticalUse": "Certificación de producto.",
+      "countermeasure": "Análisis de laboratorio."
+    },
+    {
+      "id": "FC-006",
+      "bookNumber": 1,
+      "category": "BPM",
+      "term": "Higiene",
+      "definition": "Prácticas de limpieza personal.",
+      "tacticalUse": "Prevención de riesgos.",
+      "countermeasure": "Capacitación continua."
+    },
+    {
+      "id": "FC-007",
+      "bookNumber": 1,
+      "category": "Gestión",
+      "term": "Marco Institucional",
+      "definition": "Normas que rigen la entidad.",
+      "tacticalUse": "Alineación estratégica.",
+      "countermeasure": "Revisión normativa."
+    },
+    {
+      "id": "FC-008",
+      "bookNumber": 1,
+      "category": "Salud",
+      "term": "Diagnóstico",
+      "definition": "Identificación médica de la celiaquía.",
+      "tacticalUse": "Concientización.",
+      "countermeasure": "Información veraz."
+    },
+    {
+      "id": "FC-009",
+      "bookNumber": 1,
+      "category": "BPM",
+      "term": "Manipulación",
+      "definition": "Contacto directo con alimentos.",
+      "tacticalUse": "Control de calidad.",
+      "countermeasure": "Uso de guantes."
+    },
+    {
+      "id": "FC-010",
+      "bookNumber": 1,
+      "category": "Gestión",
+      "term": "Calidad",
+      "definition": "Cumplimiento de estándares.",
+      "tacticalUse": "Ventaja competitiva.",
+      "countermeasure": "Mejora continua."
+    },
+    {
+      "id": "FC-011",
+      "bookNumber": 1,
+      "category": "Turismo",
+      "term": "Gastronomía",
+      "definition": "Arte culinario y cultura.",
+      "tacticalUse": "Marketing inclusivo.",
+      "countermeasure": "Menús adaptados."
+    },
+    {
+      "id": "FC-012",
+      "bookNumber": 1,
+      "category": "Legislación",
+      "term": "Normativa",
+      "definition": "Conjunto de leyes vigentes.",
+      "tacticalUse": "Cumplimiento legal.",
+      "countermeasure": "Asesoría jurídica."
+    },
+    {
+      "id": "FC-013",
+      "bookNumber": 1,
+      "category": "Seguridad",
+      "term": "Riesgo",
+      "definition": "Probabilidad de daño.",
+      "tacticalUse": "Evaluación de impacto.",
+      "countermeasure": "Mitigación."
+    },
+    {
+      "id": "FC-014",
+      "bookNumber": 1,
+      "category": "BPM",
+      "term": "Desinfección",
+      "definition": "Eliminación de patógenos.",
+      "tacticalUse": "Sanitización.",
+      "countermeasure": "Protocolo químico."
+    },
+    {
+      "id": "FC-015",
+      "bookNumber": 1,
+      "category": "Gestión",
+      "term": "Auditoría",
+      "definition": "Verificación de procesos.",
+      "tacticalUse": "Control de gestión.",
+      "countermeasure": "Acciones correctivas."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM-001",
+      "category": "Manipulación",
+      "name": "Aislamiento de Flujo",
+      "severity": "High",
+      "icon": "Shield",
+      "howItWorks": "Separar físicamente las áreas de producción.",
+      "redFlags": "Uso compartido de utensilios.",
+      "counterScript": "El protocolo exige segregación total.",
+      "deepMechanism": "Eliminación de vectores de contacto."
+    },
+    {
+      "id": "TM-002",
+      "category": "Manipulación",
+      "name": "Verificación de Trazabilidad",
+      "severity": "Medium",
+      "icon": "Search",
+      "howItWorks": "Rastrear cada insumo desde el origen.",
+      "redFlags": "Proveedores sin certificación.",
+      "counterScript": "Sin trazabilidad, no hay ingreso.",
+      "deepMechanism": "Control de la cadena de suministro."
+    },
+    {
+      "id": "TM-003",
+      "category": "Manipulación",
+      "name": "Checklist de Blindaje",
+      "severity": "High",
+      "icon": "Check",
+      "howItWorks": "Validación paso a paso de cada tarea.",
+      "redFlags": "Omisión de pasos por prisa.",
+      "counterScript": "El checklist es innegociable.",
+      "deepMechanism": "Reducción de error humano."
+    },
+    {
+      "id": "TM-004",
+      "category": "Manipulación",
+      "name": "Auditoría de Campo",
+      "severity": "Medium",
+      "icon": "Eye",
+      "howItWorks": "Observación directa sin previo aviso.",
+      "redFlags": "Cambios de conducta ante supervisión.",
+      "counterScript": "La calidad es constante.",
+      "deepMechanism": "Efecto Hawthorne positivo."
+    },
+    {
+      "id": "TM-005",
+      "category": "Manipulación",
+      "name": "Blindaje Informativo",
+      "severity": "Low",
+      "icon": "Book",
+      "howItWorks": "Capacitación constante del personal.",
+      "redFlags": "Desconocimiento de normas.",
+      "counterScript": "El conocimiento es seguridad.",
+      "deepMechanism": "Internalización de estándares."
+    },
+    {
+      "id": "TM-006",
+      "category": "Manipulación",
+      "name": "Respuesta de Emergencia",
+      "severity": "High",
+      "icon": "Alert",
+      "howItWorks": "Protocolo de contención ante incidentes.",
+      "redFlags": "Pánico o desorganización.",
+      "counterScript": "Siga el protocolo de crisis.",
+      "deepMechanism": "Gestión de riesgos críticos."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q-001",
+      "bookNumber": 1,
+      "question": "¿Qué define a un alimento como 'Libre de Gluten'?",
+      "options": [
+        "Cualquier alimento natural",
+        "Menos de 10ppm de gluten",
+        "Alimento sin trigo",
+        "Alimento procesado"
+      ],
+      "correctIndex": 1,
+      "explanation": "La legislación establece límites estrictos de partes por millón."
+    },
+    {
+      "id": "Q-002",
+      "bookNumber": 1,
+      "question": "¿Cuál es el principal riesgo en una cocina compartida?",
+      "options": [
+        "Falta de personal",
+        "Contaminación cruzada",
+        "Costo de insumos",
+        "Tiempo de cocción"
+      ],
+      "correctIndex": 1,
+      "explanation": "La transferencia de trazas es el mayor peligro para celíacos."
+    },
+    {
+      "id": "Q-003",
+      "bookNumber": 1,
+      "question": "¿Qué herramienta garantiza el cumplimiento de BPM?",
+      "options": [
+        "Manual de estilo",
+        "Checklist",
+        "Recetario",
+        "Contrato laboral"
+      ],
+      "correctIndex": 1,
+      "explanation": "El checklist es la herramienta de control operativo por excelencia."
+    },
+    {
+      "id": "Q-004",
+      "bookNumber": 1,
+      "question": "¿Qué es la trazabilidad?",
+      "options": [
+        "Seguir el rastro del alimento",
+        "Limpiar la cocina",
+        "Cocinar rápido",
+        "Atender clientes"
+      ],
+      "correctIndex": 0,
+      "explanation": "La trazabilidad permite identificar el origen y destino de los productos."
+    },
+    {
+      "id": "Q-005",
+      "bookNumber": 1,
+      "question": "¿Qué es la enfermedad celíaca?",
+      "options": [
+        "Alergia al azúcar",
+        "Intolerancia permanente al gluten",
+        "Gripe estacional",
+        "Problema digestivo leve"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una condición autoinmune crónica ante el gluten."
+    },
+    {
+      "id": "Q-006",
+      "bookNumber": 1,
+      "question": "¿Cuál es la prioridad en la gestión de calidad?",
+      "options": [
+        "Ganancia económica",
+        "Seguridad del consumidor",
+        "Velocidad de servicio",
+        "Estética del plato"
+      ],
+      "correctIndex": 1,
+      "explanation": "La seguridad del consumidor es el pilar fundamental."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G-001",
+      "term": "BPM",
+      "category": "Gestión",
+      "definition": "Buenas Prácticas de Manufactura.",
+      "practicalExample": "Lavado de manos frecuente."
+    },
+    {
+      "id": "G-002",
+      "term": "Gluten",
+      "category": "Salud",
+      "definition": "Proteína presente en cereales.",
+      "practicalExample": "Trigo, cebada, centeno."
+    },
+    {
+      "id": "G-003",
+      "term": "Trazabilidad",
+      "category": "Gestión",
+      "definition": "Historial de un producto.",
+      "practicalExample": "Registro de lotes."
+    },
+    {
+      "id": "G-004",
+      "term": "Contaminación",
+      "category": "Seguridad",
+      "definition": "Presencia de agentes nocivos.",
+      "practicalExample": "Uso de cuchillo sucio."
+    },
+    {
+      "id": "G-005",
+      "term": "Celíaco",
+      "category": "Salud",
+      "definition": "Persona con intolerancia al gluten.",
+      "practicalExample": "Cliente que requiere menú especial."
+    },
+    {
+      "id": "G-006",
+      "term": "Checklist",
+      "category": "Gestión",
+      "definition": "Lista de verificación.",
+      "practicalExample": "Control de apertura de cocina."
+    },
+    {
+      "id": "G-007",
+      "term": "Legislación",
+      "category": "Legal",
+      "definition": "Normas vigentes.",
+      "practicalExample": "Ley de etiquetado."
+    },
+    {
+      "id": "G-008",
+      "term": "Inocuidad",
+      "category": "Seguridad",
+      "definition": "Garantía de no daño.",
+      "practicalExample": "Alimento seguro para consumir."
+    },
+    {
+      "id": "G-009",
+      "term": "Auditoría",
+      "category": "Gestión",
+      "definition": "Revisión de procesos.",
+      "practicalExample": "Inspección de calidad."
+    },
+    {
+      "id": "G-010",
+      "term": "Alérgeno",
+      "category": "Salud",
+      "definition": "Sustancia que causa alergia.",
+      "practicalExample": "Gluten, frutos secos."
+    },
+    {
+      "id": "G-011",
+      "term": "Desinfección",
+      "category": "BPM",
+      "definition": "Reducción de microorganismos.",
+      "practicalExample": "Uso de cloro diluido."
+    },
+    {
+      "id": "G-012",
+      "term": "Protocolo",
+      "category": "Gestión",
+      "definition": "Pasos a seguir.",
+      "practicalExample": "Manual de procedimientos."
+    },
+    {
+      "id": "G-013",
+      "term": "Certificación",
+      "category": "Legal",
+      "definition": "Aval oficial.",
+      "practicalExample": "Sello sin gluten."
+    },
+    {
+      "id": "G-014",
+      "term": "Manipulador",
+      "category": "BPM",
+      "definition": "Persona que toca alimentos.",
+      "practicalExample": "Cocinero o camarero."
+    },
+    {
+      "id": "G-015",
+      "term": "Calidad",
+      "category": "Gestión",
+      "definition": "Grado de excelencia.",
+      "practicalExample": "Cumplimiento de estándares."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL-001",
+      "category": "Manipulación",
+      "title": "Detección de Inseguridad",
+      "cue": "Evitar contacto visual al hablar de protocolos.",
+      "interpretation": "El empleado no domina el proceso.",
+      "practicalDrill": "Preguntar sobre el checklist y observar la mirada."
+    },
+    {
+      "id": "BL-002",
+      "category": "Manipulación",
+      "title": "Señales de Prisa",
+      "cue": "Movimientos erráticos y rápidos.",
+      "interpretation": "Riesgo inminente de error por descuido.",
+      "practicalDrill": "Observar el ritmo de trabajo en hora pico."
+    },
+    {
+      "id": "BL-003",
+      "category": "Manipulación",
+      "title": "Defensividad",
+      "cue": "Brazos cruzados ante una corrección.",
+      "interpretation": "Resistencia al cambio de hábitos.",
+      "practicalDrill": "Corregir un error menor y observar la postura."
+    },
+    {
+      "id": "BL-004",
+      "category": "Manipulación",
+      "title": "Confianza Real",
+      "cue": "Postura erguida y contacto visual firme.",
+      "interpretation": "Dominio total de las normas de seguridad.",
+      "practicalDrill": "Pedir que explique el protocolo de limpieza."
+    },
+    {
+      "id": "BL-005",
+      "category": "Manipulación",
+      "title": "Duda Operativa",
+      "cue": "Tocarse la cara o cuello al preguntar por BPM.",
+      "interpretation": "Incertidumbre sobre el procedimiento.",
+      "practicalDrill": "Hacer una pregunta técnica inesperada."
+    },
+    {
+      "id": "BL-006",
+      "category": "Manipulación",
+      "title": "Atención Plena",
+      "cue": "Asentir y tomar notas durante la capacitación.",
+      "interpretation": "Compromiso con la calidad.",
+      "practicalDrill": "Evaluar la reacción ante nuevas instrucciones."
     }
   ]
 };

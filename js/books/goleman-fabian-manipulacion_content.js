@@ -1,3 +1,4 @@
+// Contenido enriquecido para Manipulación: Técnicas de Persuasión y Negociación
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -6061,6 +6062,594 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS001",
+      "category": "Manipulación Emocional",
+      "title": "El Triángulo de Culpa",
+      "difficulty": "Intermedio",
+      "badge": "Estratega",
+      "scenarioDescription": "Tu pareja utiliza constantemente el pasado para invalidar tus opiniones actuales, haciéndote sentir responsable de su infelicidad.",
+      "options": [
+        {
+          "text": "Pedir disculpas para calmar la situación.",
+          "outcome": "Refuerzo negativo",
+          "wisdomScore": 20,
+          "analysis": "Cedes el control emocional.",
+          "bookInsight": "La dependencia emocional se alimenta de la culpa."
+        },
+        {
+          "text": "Establecer límites claros sobre temas pasados.",
+          "outcome": "Neutralización",
+          "wisdomScore": 90,
+          "analysis": "Rompes el ciclo de manipulación.",
+          "bookInsight": "La asertividad es el antídoto contra la manipulación."
+        }
+      ]
+    },
+    {
+      "id": "CS002",
+      "category": "Persuasión",
+      "title": "La Oferta Irresistible",
+      "difficulty": "Básico",
+      "badge": "Observador",
+      "scenarioDescription": "Un vendedor presiona con una oferta que 'expira en 5 minutos'.",
+      "options": [
+        {
+          "text": "Comprar inmediatamente por miedo a perder.",
+          "outcome": "Víctima de urgencia",
+          "wisdomScore": 10,
+          "analysis": "Caíste en el sesgo de escasez.",
+          "bookInsight": "La urgencia artificial es una técnica de presión."
+        },
+        {
+          "text": "Retirarse y evaluar la oferta en frío.",
+          "outcome": "Control total",
+          "wisdomScore": 95,
+          "analysis": "Recuperas la autonomía de decisión.",
+          "bookInsight": "La pausa es la mejor herramienta de negociación."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Conducta Humana",
+      "title": "El Jefe Narcisista",
+      "difficulty": "Avanzado",
+      "badge": "Maestro",
+      "scenarioDescription": "Tu superior se atribuye tus logros en una reunión pública.",
+      "options": [
+        {
+          "text": "Confrontarlo agresivamente frente a todos.",
+          "outcome": "Escalada de conflicto",
+          "wisdomScore": 30,
+          "analysis": "Pierdes la ventaja táctica.",
+          "bookInsight": "El manipulador prospera en el caos emocional."
+        },
+        {
+          "text": "Documentar y presentar datos en privado.",
+          "outcome": "Victoria estratégica",
+          "wisdomScore": 85,
+          "analysis": "Mantienes la profesionalidad y la verdad.",
+          "bookInsight": "La evidencia es la base del poder real."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Manipulación Mental",
+      "title": "El Gaslighting Sutil",
+      "difficulty": "Avanzado",
+      "badge": "Analista",
+      "scenarioDescription": "Un colega niega haber dicho algo que escuchaste claramente.",
+      "options": [
+        {
+          "text": "Dudar de tu propia memoria.",
+          "outcome": "Sumisión",
+          "wisdomScore": 0,
+          "analysis": "El manipulador ha logrado su objetivo.",
+          "bookInsight": "El gaslighting busca destruir la confianza propia."
+        },
+        {
+          "text": "Mantener tu postura con calma y firmeza.",
+          "outcome": "Resistencia",
+          "wisdomScore": 90,
+          "analysis": "No permites la distorsión de la realidad.",
+          "bookInsight": "La realidad es innegociable."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Estudios Científicos",
+      "title": "El Efecto Halo",
+      "difficulty": "Intermedio",
+      "badge": "Psicólogo",
+      "scenarioDescription": "Alguien muy atractivo y carismático te pide un favor poco ético.",
+      "options": [
+        {
+          "text": "Aceptar por su apariencia confiable.",
+          "outcome": "Sesgo cognitivo",
+          "wisdomScore": 15,
+          "analysis": "Confundes belleza con integridad.",
+          "bookInsight": "El efecto halo nubla el juicio crítico."
+        },
+        {
+          "text": "Analizar la petición independientemente de quién la hace.",
+          "outcome": "Pensamiento crítico",
+          "wisdomScore": 95,
+          "analysis": "Separas la forma del fondo.",
+          "bookInsight": "La lógica debe prevalecer sobre la estética."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Dependencia Emocional",
+      "title": "El Aislamiento Progresivo",
+      "difficulty": "Avanzado",
+      "badge": "Protector",
+      "scenarioDescription": "Un amigo sugiere que tu familia 'no te entiende' y que solo él está ahí para ti.",
+      "options": [
+        {
+          "text": "Alejarte de tu familia.",
+          "outcome": "Aislamiento",
+          "wisdomScore": 5,
+          "analysis": "Estás cayendo en una trampa de control.",
+          "bookInsight": "El aislamiento es la fase previa a la dominación."
+        },
+        {
+          "text": "Mantener tus vínculos sociales externos.",
+          "outcome": "Autonomía",
+          "wisdomScore": 100,
+          "analysis": "Preservas tu red de apoyo.",
+          "bookInsight": "La libertad depende de la diversidad de vínculos."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "F01",
+      "bookNumber": 1,
+      "category": "Definición",
+      "term": "Manipulación",
+      "definition": "Influencia oculta para beneficio propio.",
+      "tacticalUse": "Obtener ventaja.",
+      "countermeasure": "Transparencia."
+    },
+    {
+      "id": "F02",
+      "bookNumber": 2,
+      "category": "Ciencia",
+      "term": "Efecto Halo",
+      "definition": "Sesgo por apariencia.",
+      "tacticalUse": "Generar confianza.",
+      "countermeasure": "Análisis objetivo."
+    },
+    {
+      "id": "F03",
+      "bookNumber": 3,
+      "category": "Tipos",
+      "term": "Love Bombing",
+      "definition": "Exceso de afecto inicial.",
+      "tacticalUse": "Crear deuda emocional.",
+      "countermeasure": "Ritmo lento."
+    },
+    {
+      "id": "F04",
+      "bookNumber": 4,
+      "category": "Conducta",
+      "term": "Refuerzo Intermitente",
+      "definition": "Premios aleatorios.",
+      "tacticalUse": "Generar adicción.",
+      "countermeasure": "Reconocimiento del patrón."
+    },
+    {
+      "id": "F05",
+      "bookNumber": 5,
+      "category": "Persuasión",
+      "term": "Reciprocidad",
+      "definition": "Devolver favores.",
+      "tacticalUse": "Forzar concesiones.",
+      "countermeasure": "Evaluar el costo real."
+    },
+    {
+      "id": "F06",
+      "bookNumber": 6,
+      "category": "Historia",
+      "term": "Maquiavelismo",
+      "definition": "El fin justifica los medios.",
+      "tacticalUse": "Estrategia fría.",
+      "countermeasure": "Ética innegociable."
+    },
+    {
+      "id": "F07",
+      "bookNumber": 7,
+      "category": "Casos",
+      "term": "Triangulación",
+      "definition": "Involucrar a terceros.",
+      "tacticalUse": "Crear inseguridad.",
+      "countermeasure": "Comunicación directa."
+    },
+    {
+      "id": "F08",
+      "bookNumber": 8,
+      "category": "Emocional",
+      "term": "Gaslighting",
+      "definition": "Dudar de la realidad.",
+      "tacticalUse": "Control mental.",
+      "countermeasure": "Diario de hechos."
+    },
+    {
+      "id": "F09",
+      "bookNumber": 9,
+      "category": "Dependencia",
+      "term": "Vínculo Traumático",
+      "definition": "Apego al agresor.",
+      "tacticalUse": "Retención.",
+      "countermeasure": "Contacto cero."
+    },
+    {
+      "id": "F10",
+      "bookNumber": 1,
+      "category": "Concepto",
+      "term": "Persuasión",
+      "definition": "Influencia abierta.",
+      "tacticalUse": "Negociación ética.",
+      "countermeasure": "Análisis de intención."
+    },
+    {
+      "id": "F11",
+      "bookNumber": 2,
+      "category": "Ciencia",
+      "term": "Sesgo de Confirmación",
+      "definition": "Ver lo que queremos.",
+      "tacticalUse": "Reforzar creencias.",
+      "countermeasure": "Buscar contra-evidencia."
+    },
+    {
+      "id": "F12",
+      "bookNumber": 3,
+      "category": "Tipos",
+      "term": "Proyección",
+      "definition": "Atribuir culpas propias.",
+      "tacticalUse": "Desviar atención.",
+      "countermeasure": "Espejo de realidad."
+    },
+    {
+      "id": "F13",
+      "bookNumber": 4,
+      "category": "Conducta",
+      "term": "Anclaje",
+      "definition": "Primer dato recibido.",
+      "tacticalUse": "Definir precios.",
+      "countermeasure": "Investigación previa."
+    },
+    {
+      "id": "F14",
+      "bookNumber": 5,
+      "category": "Persuasión",
+      "term": "Autoridad",
+      "definition": "Seguir al experto.",
+      "tacticalUse": "Obediencia ciega.",
+      "countermeasure": "Verificar credenciales."
+    },
+    {
+      "id": "F15",
+      "bookNumber": 8,
+      "category": "Emocional",
+      "term": "Victimización",
+      "definition": "Hacerse la víctima.",
+      "tacticalUse": "Manipular empatía.",
+      "countermeasure": "Enfoque en hechos."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Manipulación",
+      "name": "Love Bombing",
+      "severity": "Alta",
+      "icon": "❤️",
+      "howItWorks": "Sobrecarga de atención.",
+      "redFlags": "Intensidad inusual.",
+      "counterScript": "Necesito espacio.",
+      "deepMechanism": "Dopamina."
+    },
+    {
+      "id": "TM02",
+      "category": "Manipulación",
+      "name": "Gaslighting",
+      "severity": "Crítica",
+      "icon": "🌫️",
+      "howItWorks": "Negación de hechos.",
+      "redFlags": "Confusión constante.",
+      "counterScript": "Yo recuerdo esto así.",
+      "deepMechanism": "Disonancia cognitiva."
+    },
+    {
+      "id": "TM03",
+      "category": "Persuasión",
+      "name": "Anclaje",
+      "severity": "Baja",
+      "icon": "⚓",
+      "howItWorks": "Primer número como base.",
+      "redFlags": "Oferta inicial alta.",
+      "counterScript": "Tengo otro presupuesto.",
+      "deepMechanism": "Sesgo de ajuste."
+    },
+    {
+      "id": "TM04",
+      "category": "Manipulación",
+      "name": "Triangulación",
+      "severity": "Media",
+      "icon": "🔺",
+      "howItWorks": "Uso de terceros.",
+      "redFlags": "Comparaciones constantes.",
+      "counterScript": "Hablemos solo nosotros.",
+      "deepMechanism": "Inseguridad."
+    },
+    {
+      "id": "TM05",
+      "category": "Persuasión",
+      "name": "Reciprocidad",
+      "severity": "Baja",
+      "icon": "🤝",
+      "howItWorks": "Regalo previo.",
+      "redFlags": "Favores no pedidos.",
+      "counterScript": "No puedo aceptarlo.",
+      "deepMechanism": "Norma social."
+    },
+    {
+      "id": "TM06",
+      "category": "Manipulación",
+      "name": "Proyección",
+      "severity": "Media",
+      "icon": "🪞",
+      "howItWorks": "Culpar al otro.",
+      "redFlags": "Acusaciones sin base.",
+      "counterScript": "Eso es tu percepción.",
+      "deepMechanism": "Defensa del ego."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Cuál es la diferencia clave entre persuasión y manipulación?",
+      "options": [
+        "La intención",
+        "El volumen de voz",
+        "El lugar",
+        "La edad"
+      ],
+      "correctIndex": 0,
+      "explanation": "La persuasión es abierta y ética; la manipulación es oculta y egoísta."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 2,
+      "question": "¿Qué es el efecto halo?",
+      "options": [
+        "Luz brillante",
+        "Sesgo por apariencia",
+        "Un tipo de contrato",
+        "Una técnica de venta"
+      ],
+      "correctIndex": 1,
+      "explanation": "Tendencia a atribuir rasgos positivos por la apariencia física."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 3,
+      "question": "¿Qué busca el Love Bombing?",
+      "options": [
+        "Amor real",
+        "Dependencia emocional",
+        "Amistad",
+        "Negocios"
+      ],
+      "correctIndex": 1,
+      "explanation": "Busca crear una deuda emocional rápida."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 4,
+      "question": "¿Cómo contrarrestar el gaslighting?",
+      "options": [
+        "Gritar",
+        "Documentar hechos",
+        "Aceptar todo",
+        "Ignorar"
+      ],
+      "correctIndex": 1,
+      "explanation": "La evidencia objetiva rompe la distorsión."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 5,
+      "question": "¿Qué es el refuerzo intermitente?",
+      "options": [
+        "Premios constantes",
+        "Premios aleatorios",
+        "Castigos",
+        "Nada"
+      ],
+      "correctIndex": 1,
+      "explanation": "La aleatoriedad genera mayor adicción conductual."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 8,
+      "question": "¿Qué es la triangulación?",
+      "options": [
+        "Geometría",
+        "Involucrar a terceros",
+        "Un juego",
+        "Un contrato"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se usa para generar inseguridad mediante terceros."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Sesgo",
+      "category": "Cognitivo",
+      "definition": "Error de juicio.",
+      "practicalExample": "Creer que todo lo caro es mejor."
+    },
+    {
+      "id": "G02",
+      "term": "Asertividad",
+      "category": "Habilidad",
+      "definition": "Expresión clara.",
+      "practicalExample": "Decir 'no' sin culpa."
+    },
+    {
+      "id": "G03",
+      "term": "Disonancia",
+      "category": "Psicología",
+      "definition": "Conflicto mental.",
+      "practicalExample": "Hacer algo que odias."
+    },
+    {
+      "id": "G04",
+      "term": "Empatía",
+      "category": "Emocional",
+      "definition": "Sentir al otro.",
+      "practicalExample": "Entender un dolor ajeno."
+    },
+    {
+      "id": "G05",
+      "term": "Límite",
+      "category": "Defensa",
+      "definition": "Frontera personal.",
+      "practicalExample": "No permitir insultos."
+    },
+    {
+      "id": "G06",
+      "term": "Dopamina",
+      "category": "Biología",
+      "definition": "Neurotransmisor.",
+      "practicalExample": "Sentir placer al ganar."
+    },
+    {
+      "id": "G07",
+      "term": "Narcisismo",
+      "category": "Personalidad",
+      "definition": "Amor excesivo al yo.",
+      "practicalExample": "Necesidad de admiración."
+    },
+    {
+      "id": "G08",
+      "term": "Contacto Cero",
+      "category": "Táctica",
+      "definition": "Corte total.",
+      "practicalExample": "Bloquear a un tóxico."
+    },
+    {
+      "id": "G09",
+      "term": "Persuasión",
+      "category": "Influencia",
+      "definition": "Convencer abiertamente.",
+      "practicalExample": "Vender una idea."
+    },
+    {
+      "id": "G10",
+      "term": "Manipulación",
+      "category": "Influencia",
+      "definition": "Convencer ocultamente.",
+      "practicalExample": "Mentir para ganar."
+    },
+    {
+      "id": "G11",
+      "term": "Ego",
+      "category": "Psicología",
+      "definition": "Identidad.",
+      "practicalExample": "Defender tu imagen."
+    },
+    {
+      "id": "G12",
+      "term": "Vulnerabilidad",
+      "category": "Emocional",
+      "definition": "Punto débil.",
+      "practicalExample": "Contar un secreto."
+    },
+    {
+      "id": "G13",
+      "term": "Resiliencia",
+      "category": "Habilidad",
+      "definition": "Adaptación.",
+      "practicalExample": "Superar un trauma."
+    },
+    {
+      "id": "G14",
+      "term": "Negociación",
+      "category": "Estrategia",
+      "definition": "Acuerdo mutuo.",
+      "practicalExample": "Pactar un salario."
+    },
+    {
+      "id": "G15",
+      "term": "Ética",
+      "category": "Valores",
+      "definition": "Rectitud moral.",
+      "practicalExample": "Decir la verdad."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Defensa",
+      "title": "Contacto Visual",
+      "cue": "Sostenido y firme",
+      "interpretation": "Seguridad y honestidad",
+      "practicalDrill": "Mantener mirada 3 seg."
+    },
+    {
+      "id": "BL02",
+      "category": "Detección",
+      "title": "Microexpresiones",
+      "cue": "Desprecio unilateral",
+      "interpretation": "Superioridad oculta",
+      "practicalDrill": "Observar labios."
+    },
+    {
+      "id": "BL03",
+      "category": "Defensa",
+      "title": "Postura Abierta",
+      "cue": "Brazos sin cruzar",
+      "interpretation": "Receptividad",
+      "practicalDrill": "Relajar hombros."
+    },
+    {
+      "id": "BL04",
+      "category": "Detección",
+      "title": "Incongruencia",
+      "cue": "Decir sí, mover no",
+      "interpretation": "Mentira o duda",
+      "practicalDrill": "Detectar gestos."
+    },
+    {
+      "id": "BL05",
+      "category": "Defensa",
+      "title": "Espejo",
+      "cue": "Imitar postura",
+      "interpretation": "Crear afinidad",
+      "practicalDrill": "Sincronizar ritmo."
+    },
+    {
+      "id": "BL06",
+      "category": "Detección",
+      "title": "Bloqueo",
+      "cue": "Tocar cuello",
+      "interpretation": "Inseguridad/Estrés",
+      "practicalDrill": "Observar manos."
     }
   ]
 };

@@ -3734,93 +3734,580 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Detección en Entorno Laboral",
-      "title": "Caso Práctico: Patrones Del Lenguaje Y Estrategias",
-      "difficulty": "Alta",
-      "badge": "Detective Social",
-      "scenarioDescription": "Durante una situación relacionada con \"Patrones Del Lenguaje Y Estrategias\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS-001",
+      "category": "Persuasion",
+      "title": "The Negotiation Pivot",
+      "difficulty": "Intermediate",
+      "badge": "Influencer",
+      "scenarioDescription": "A client refuses your proposal citing budget constraints. How do you reframe the conversation?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Patrones Del Lenguaje Y Estrategias\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Acknowledge the budget and offer a discount immediately.",
+          "outcome": "Loss of leverage",
+          "wisdomScore": 20,
+          "analysis": "You surrendered your value proposition too early.",
+          "bookInsight": "Use linguistic reframing to shift focus from price to value."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Use a presupposition: 'Assuming we solve the budget, what is the primary outcome you need?'",
+          "outcome": "Successful Pivot",
+          "wisdomScore": 95,
+          "analysis": "You bypassed the objection by presupposing the solution.",
+          "bookInsight": "Presuppositions are core linguistic patterns in PNL."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Relaciones Interpersonales",
-      "title": "Caso Práctico: Influencia Y Persuasion",
-      "difficulty": "Media",
-      "badge": "Experto en Vínculos",
-      "scenarioDescription": "Durante una situación relacionada con \"Influencia Y Persuasion\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS-002",
+      "category": "Rapport",
+      "title": "The Mirroring Trap",
+      "difficulty": "Beginner",
+      "badge": "Observer",
+      "scenarioDescription": "You are in a high-stakes meeting. Your counterpart is aggressive and closed off.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Influencia Y Persuasion\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Mirror their closed posture to show dominance.",
+          "outcome": "Escalation",
+          "wisdomScore": 30,
+          "analysis": "Direct mirroring of negative states creates friction.",
+          "bookInsight": "Rapport requires pacing before leading."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Adopt a neutral posture and match their breathing rhythm.",
+          "outcome": "Subtle Rapport",
+          "wisdomScore": 90,
+          "analysis": "Matching physiological states builds unconscious trust.",
+          "bookInsight": "Pacing is the foundation of influence."
+        }
+      ]
+    },
+    {
+      "id": "CS-003",
+      "category": "Manipulation",
+      "title": "The Double Bind",
+      "difficulty": "Advanced",
+      "badge": "Strategist",
+      "scenarioDescription": "You need a colleague to finish a report by Friday, but they are busy.",
+      "options": [
+        {
+          "text": "Ask: 'Can you finish this by Friday?'",
+          "outcome": "Rejection",
+          "wisdomScore": 40,
+          "analysis": "You gave them a binary choice to say no.",
+          "bookInsight": "Use double binds to limit the choice to two favorable outcomes."
+        },
+        {
+          "text": "Ask: 'Would you prefer to finish the report on Thursday afternoon or Friday morning?'",
+          "outcome": "Compliance",
+          "wisdomScore": 98,
+          "analysis": "You framed the completion as a given, focusing on the timing.",
+          "bookInsight": "The double bind forces the brain to accept the premise."
+        }
+      ]
+    },
+    {
+      "id": "CS-004",
+      "category": "Body Language",
+      "title": "The Deception Detection",
+      "difficulty": "Intermediate",
+      "badge": "Profiler",
+      "scenarioDescription": "During a conversation, your partner touches their nose while denying a request.",
+      "options": [
+        {
+          "text": "Call them out immediately for lying.",
+          "outcome": "Defensiveness",
+          "wisdomScore": 30,
+          "analysis": "Accusations destroy rapport.",
+          "bookInsight": "Analyze clusters, not isolated gestures."
+        },
+        {
+          "text": "Note the gesture and ask a clarifying question to observe further clusters.",
+          "outcome": "Data Gathering",
+          "wisdomScore": 92,
+          "analysis": "You are gathering baseline data before drawing conclusions.",
+          "bookInsight": "Body language must be read in context."
+        }
+      ]
+    },
+    {
+      "id": "CS-005",
+      "category": "Linguistic Patterns",
+      "title": "The Milton Model",
+      "difficulty": "Advanced",
+      "badge": "Hypnotist",
+      "scenarioDescription": "You want to influence a group's mood without being directive.",
+      "options": [
+        {
+          "text": "Tell them: 'You must be happy now.'",
+          "outcome": "Resistance",
+          "wisdomScore": 20,
+          "analysis": "Direct commands trigger the critical factor.",
+          "bookInsight": "Use vague language to allow the listener to fill in the blanks."
+        },
+        {
+          "text": "Say: 'As you sit here, you might notice how easy it is to feel a sense of calm.'",
+          "outcome": "Influence",
+          "wisdomScore": 95,
+          "analysis": "You used embedded commands and pacing.",
+          "bookInsight": "The Milton Model uses ambiguity to bypass resistance."
+        }
+      ]
+    },
+    {
+      "id": "CS-006",
+      "category": "Intrapersonal",
+      "title": "State Management",
+      "difficulty": "Intermediate",
+      "badge": "Master",
+      "scenarioDescription": "You feel anxious before a presentation.",
+      "options": [
+        {
+          "text": "Try to suppress the anxiety.",
+          "outcome": "Increased Stress",
+          "wisdomScore": 30,
+          "analysis": "Suppression consumes cognitive resources.",
+          "bookInsight": "Change your physiology to change your state."
+        },
+        {
+          "text": "Change your posture, breathe deeply, and recall a peak performance memory.",
+          "outcome": "State Shift",
+          "wisdomScore": 95,
+          "analysis": "Anchoring and physiology change your internal state.",
+          "bookInsight": "Anchoring is a powerful tool for self-mastery."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Reciprocidad",
-      "definition": "Técnica psicológica estudiada en \"Preliminares E Indice\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Establecer límites claros y comunicarlos asertivamente."
+      "id": "FC-001",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Rapport",
+      "definition": "The state of harmony and responsiveness.",
+      "tacticalUse": "Build trust quickly.",
+      "countermeasure": "Maintain emotional distance."
     },
     {
-      "id": "fc2",
-      "term": "Disonancia cognitiva inducida",
-      "definition": "Técnica psicológica estudiada en \"Introduccion Y Que Es La Pnl\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Tomarse tiempo antes de responder a demandas urgentes fabricadas."
+      "id": "FC-002",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Anchoring",
+      "definition": "Associating a stimulus with a state.",
+      "tacticalUse": "Trigger desired emotions.",
+      "countermeasure": "Identify the trigger."
     },
     {
-      "id": "fc3",
-      "term": "Reencuadre perceptual",
-      "definition": "Técnica psicológica estudiada en \"Modelos Linguisticos Y Comunicacion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Desarrollar independencia emocional mediante mindfulness diario."
+      "id": "FC-003",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Pacing",
+      "definition": "Matching the subject's reality.",
+      "tacticalUse": "Establish connection.",
+      "countermeasure": "Break the pattern."
     },
     {
-      "id": "fc4",
-      "term": "Escasez artificial",
-      "definition": "Técnica psicológica estudiada en \"Patrones Del Lenguaje Y Estrategias\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
+      "id": "FC-004",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Leading",
+      "definition": "Guiding the subject after pacing.",
+      "tacticalUse": "Direct behavior.",
+      "countermeasure": "Assert independence."
     },
     {
-      "id": "fc5",
-      "term": "Framing narrativo",
-      "definition": "Técnica psicológica estudiada en \"Influencia Y Persuasion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Consultar perspectivas externas de confianza antes de decidir."
+      "id": "FC-005",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Milton Model",
+      "definition": "Vague, hypnotic language.",
+      "tacticalUse": "Bypass critical thinking.",
+      "countermeasure": "Ask for specifics."
+    },
+    {
+      "id": "FC-006",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Meta Model",
+      "definition": "Challenging vague language.",
+      "tacticalUse": "Clarify information.",
+      "countermeasure": "Keep language vague."
+    },
+    {
+      "id": "FC-007",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Double Bind",
+      "definition": "Choice between two options.",
+      "tacticalUse": "Force compliance.",
+      "countermeasure": "Reject both options."
+    },
+    {
+      "id": "FC-008",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Reframing",
+      "definition": "Changing the meaning of an event.",
+      "tacticalUse": "Shift perspective.",
+      "countermeasure": "Stick to facts."
+    },
+    {
+      "id": "FC-009",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Presupposition",
+      "definition": "Assuming a fact is true.",
+      "tacticalUse": "Subtle suggestion.",
+      "countermeasure": "Challenge the premise."
+    },
+    {
+      "id": "FC-010",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "VAK",
+      "definition": "Visual, Auditory, Kinesthetic.",
+      "tacticalUse": "Tailor communication.",
+      "countermeasure": "Vary your own style."
+    },
+    {
+      "id": "FC-011",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Embedded Command",
+      "definition": "Hidden instruction in a sentence.",
+      "tacticalUse": "Subconscious influence.",
+      "countermeasure": "Listen for tone shifts."
+    },
+    {
+      "id": "FC-012",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Mirroring",
+      "definition": "Copying body language.",
+      "tacticalUse": "Create unconscious rapport.",
+      "countermeasure": "Change your posture."
+    },
+    {
+      "id": "FC-013",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Calibration",
+      "definition": "Reading subtle cues.",
+      "tacticalUse": "Detect internal states.",
+      "countermeasure": "Control micro-expressions."
+    },
+    {
+      "id": "FC-014",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "State",
+      "definition": "Internal emotional condition.",
+      "tacticalUse": "Manage performance.",
+      "countermeasure": "Disrupt the state."
+    },
+    {
+      "id": "FC-015",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Submodalities",
+      "definition": "Internal sensory qualities.",
+      "tacticalUse": "Change memory impact.",
+      "countermeasure": "Focus on the present."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM-01",
+      "category": "Influence",
+      "name": "The Pacing-Leading Loop",
+      "severity": "Medium",
+      "icon": "🔄",
+      "howItWorks": "Match current state, then shift.",
+      "redFlags": "Feeling suddenly compliant.",
+      "counterScript": "Why are you asking me that?",
+      "deepMechanism": "Neurological entrainment."
+    },
+    {
+      "id": "TM-02",
+      "category": "Manipulation",
+      "name": "The False Choice",
+      "severity": "High",
+      "icon": "⚖️",
+      "howItWorks": "Presenting two options that both benefit you.",
+      "redFlags": "Feeling trapped.",
+      "counterScript": "I'd prefer a third option.",
+      "deepMechanism": "Cognitive closure."
+    },
+    {
+      "id": "TM-03",
+      "category": "Persuasion",
+      "name": "Presupposition Loading",
+      "severity": "Medium",
+      "icon": "🧠",
+      "howItWorks": "Embedding the desired outcome as a fact.",
+      "redFlags": "Assuming the premise is true.",
+      "counterScript": "That is not necessarily true.",
+      "deepMechanism": "Linguistic priming."
+    },
+    {
+      "id": "TM-04",
+      "category": "Manipulation",
+      "name": "Gaslighting Lite",
+      "severity": "Extreme",
+      "icon": "🌫️",
+      "howItWorks": "Questioning the subject's perception.",
+      "redFlags": "Self-doubt.",
+      "counterScript": "I trust my memory of events.",
+      "deepMechanism": "Reality distortion."
+    },
+    {
+      "id": "TM-05",
+      "category": "Influence",
+      "name": "Anchoring",
+      "severity": "Medium",
+      "icon": "⚓",
+      "howItWorks": "Linking a gesture to a feeling.",
+      "redFlags": "Sudden mood shifts.",
+      "counterScript": "Why did you touch your arm?",
+      "deepMechanism": "Classical conditioning."
+    },
+    {
+      "id": "TM-06",
+      "category": "Persuasion",
+      "name": "The Yes-Set",
+      "severity": "Low",
+      "icon": "✅",
+      "howItWorks": "Getting small agreements first.",
+      "redFlags": "Series of easy questions.",
+      "counterScript": "I disagree with that point.",
+      "deepMechanism": "Consistency bias."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q-01",
+      "bookNumber": 1,
+      "question": "What is the primary goal of Pacing?",
+      "options": [
+        "To dominate",
+        "To build rapport",
+        "To confuse",
+        "To lie"
+      ],
+      "correctIndex": 1,
+      "explanation": "Pacing aligns your communication with the other person's reality."
+    },
+    {
+      "id": "Q-02",
+      "bookNumber": 1,
+      "question": "What is a Double Bind?",
+      "options": [
+        "A physical restraint",
+        "A choice between two options",
+        "A type of lie",
+        "A breathing technique"
+      ],
+      "correctIndex": 1,
+      "explanation": "It forces a decision within a controlled framework."
+    },
+    {
+      "id": "Q-03",
+      "bookNumber": 1,
+      "question": "What is the Milton Model?",
+      "options": [
+        "A rigid structure",
+        "Vague, hypnotic language",
+        "A way to analyze data",
+        "A body language technique"
+      ],
+      "correctIndex": 1,
+      "explanation": "It uses ambiguity to bypass critical filters."
+    },
+    {
+      "id": "Q-04",
+      "bookNumber": 1,
+      "question": "What is an Anchor?",
+      "options": [
+        "A heavy object",
+        "A stimulus-response link",
+        "A type of question",
+        "A posture"
+      ],
+      "correctIndex": 1,
+      "explanation": "Anchoring links a specific trigger to an emotional state."
+    },
+    {
+      "id": "Q-05",
+      "bookNumber": 1,
+      "question": "What is the Meta Model used for?",
+      "options": [
+        "Hypnosis",
+        "Clarifying vague language",
+        "Deception",
+        "Mirroring"
+      ],
+      "correctIndex": 1,
+      "explanation": "It challenges generalizations and deletions."
+    },
+    {
+      "id": "Q-06",
+      "bookNumber": 1,
+      "question": "Why is calibration important?",
+      "options": [
+        "To look smart",
+        "To read subtle cues",
+        "To hide emotions",
+        "To speak faster"
+      ],
+      "correctIndex": 1,
+      "explanation": "Calibration allows you to detect changes in the subject's state."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G-01",
+      "term": "PNL",
+      "category": "Theory",
+      "definition": "Programación Neurolingüística.",
+      "practicalExample": "Using language to change brain patterns."
+    },
+    {
+      "id": "G-02",
+      "term": "Rapport",
+      "category": "Social",
+      "definition": "Sintonía emocional.",
+      "practicalExample": "Matching the tone of a client."
+    },
+    {
+      "id": "G-03",
+      "term": "Anclaje",
+      "category": "Psychology",
+      "definition": "Estímulo condicionado.",
+      "practicalExample": "Touching your wrist to feel calm."
+    },
+    {
+      "id": "G-04",
+      "term": "Reframing",
+      "category": "Linguistic",
+      "definition": "Reencuadre de significado.",
+      "practicalExample": "Seeing a problem as an opportunity."
+    },
+    {
+      "id": "G-05",
+      "term": "Double Bind",
+      "category": "Manipulation",
+      "definition": "Doble vínculo.",
+      "practicalExample": "Do you want to pay now or later?"
+    },
+    {
+      "id": "G-06",
+      "term": "Pacing",
+      "definition": "Acompasamiento.",
+      "practicalExample": "Matching the speed of speech."
+    },
+    {
+      "id": "G-07",
+      "term": "Leading",
+      "definition": "Liderazgo de estado.",
+      "practicalExample": "Changing your tone to calm others."
+    },
+    {
+      "id": "G-08",
+      "term": "Calibration",
+      "definition": "Calibración.",
+      "practicalExample": "Noticing a blink when lying."
+    },
+    {
+      "id": "G-09",
+      "term": "VAK",
+      "definition": "Sistemas representacionales.",
+      "practicalExample": "Using visual words for visual people."
+    },
+    {
+      "id": "G-10",
+      "term": "Meta Model",
+      "definition": "Modelo de precisión.",
+      "practicalExample": "Asking 'Who specifically?'"
+    },
+    {
+      "id": "G-11",
+      "term": "Milton Model",
+      "definition": "Modelo de ambigüedad.",
+      "practicalExample": "Using 'some people feel...'."
+    },
+    {
+      "id": "G-12",
+      "term": "Submodalities",
+      "definition": "Cualidades sensoriales.",
+      "practicalExample": "Making a bad memory smaller."
+    },
+    {
+      "id": "G-13",
+      "term": "State",
+      "definition": "Estado interno.",
+      "practicalExample": "Entering a 'confident' state."
+    },
+    {
+      "id": "G-14",
+      "term": "Presupposition",
+      "definition": "Presuposición.",
+      "practicalExample": "Assuming they will agree."
+    },
+    {
+      "id": "G-15",
+      "term": "Mirroring",
+      "definition": "Espejo.",
+      "practicalExample": "Matching posture."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL-01",
+      "category": "Detection",
+      "title": "Micro-expression Scan",
+      "cue": "Rapid facial flicker",
+      "interpretation": "Suppressed emotion",
+      "practicalDrill": "Watch slow-motion videos."
+    },
+    {
+      "id": "BL-02",
+      "category": "Rapport",
+      "title": "The Posture Match",
+      "cue": "Matching torso angle",
+      "interpretation": "High rapport",
+      "practicalDrill": "Practice in casual conversation."
+    },
+    {
+      "id": "BL-03",
+      "category": "Deception",
+      "title": "The Nose Touch",
+      "cue": "Touching nose/mouth",
+      "interpretation": "Potential stress/deception",
+      "practicalDrill": "Observe in interviews."
+    },
+    {
+      "id": "BL-04",
+      "category": "Dominance",
+      "title": "The Stance Check",
+      "cue": "Feet spread wide",
+      "interpretation": "Territoriality",
+      "practicalDrill": "Adjust stance in meetings."
+    },
+    {
+      "id": "BL-05",
+      "category": "Engagement",
+      "title": "The Lean In",
+      "cue": "Leaning forward",
+      "interpretation": "Interest",
+      "practicalDrill": "Lean in when listening."
+    },
+    {
+      "id": "BL-06",
+      "category": "Defensiveness",
+      "title": "The Barrier Test",
+      "cue": "Crossed arms",
+      "interpretation": "Closed off",
+      "practicalDrill": "Offer an object to break the barrier."
     }
   ]
 };

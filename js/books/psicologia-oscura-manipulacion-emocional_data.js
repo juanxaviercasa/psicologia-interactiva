@@ -2980,93 +2980,86 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Defensa Personal Psicológica",
-      "title": "Caso Práctico: Conclusion Y Epilogo",
-      "difficulty": "Media",
-      "badge": "Guardián Mental",
-      "scenarioDescription": "Durante una situación relacionada con \"Conclusion Y Epilogo\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS-001",
+      "category": "Manipulación Emocional",
+      "title": "El Triangulador en la Oficina",
+      "difficulty": "Intermedio",
+      "badge": "Analista de Poder",
+      "scenarioDescription": "Un colega sugiere sutilmente que tu jefe está descontento con tu desempeño, mientras alaba a otro compañero frente a ti.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Conclusion Y Epilogo\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Confrontar al colega directamente sobre sus intenciones.",
+          "outcome": "Escalada de conflicto",
+          "wisdomScore": 40,
+          "analysis": "La confrontación directa suele ser la trampa que el manipulador espera para victimizarse.",
+          "bookInsight": "Capítulo 3: La manipulación prospera en el caos emocional."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
-        }
-      ]
-    },
-    {
-      "id": "cs2",
-      "category": "Detección en Entorno Laboral",
-      "title": "Caso Práctico: Preliminares E Introduccion",
-      "difficulty": "Alta",
-      "badge": "Detective Social",
-      "scenarioDescription": "Durante una situación relacionada con \"Preliminares E Introduccion\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Preliminares E Introduccion\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
-        },
-        {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Verificar la información con el jefe y mantener distancia profesional.",
+          "outcome": "Neutralización",
+          "wisdomScore": 95,
+          "analysis": "Validar la fuente elimina el poder de la triangulación.",
+          "bookInsight": "Capítulo 5: Las armas de manipulación se desactivan con la verdad objetiva."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Gaslighting sutil",
-      "definition": "Técnica psicológica estudiada en \"Preliminares E Introduccion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
-    },
+      "id": "FC-001",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Gaslighting",
+      "definition": "Táctica para hacer que la víctima dude de su propia percepción.",
+      "tacticalUse": "Desestabilizar la confianza de un objetivo.",
+      "countermeasure": "Mantener un registro escrito de los hechos."
+    }
+  ],
+  "tacticalMatrix": [
     {
-      "id": "fc2",
-      "term": "Microexpresiones",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 1 Psicologia Oscura\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Consultar perspectivas externas de confianza antes de decidir."
-    },
+      "id": "TM-001",
+      "category": "Tácticas de Poder",
+      "name": "Love Bombing",
+      "severity": "Alta",
+      "icon": "Corazón con candado",
+      "howItWorks": "Sobrecarga de afecto para crear dependencia.",
+      "redFlags": "Intensidad desproporcionada en poco tiempo.",
+      "counterScript": "Necesito espacio para procesar esta relación a un ritmo más lento.",
+      "deepMechanism": "Activación del sistema de recompensa dopaminérgica."
+    }
+  ],
+  "quizzes": [
     {
-      "id": "fc3",
-      "term": "Prueba social",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 2 Tacticas De Psicologia Oscura Parte 1\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Practicar la técnica del \"disco rayado\" ante presión persistente."
-    },
+      "id": "Q-001",
+      "bookNumber": 2,
+      "question": "¿Cuál es el objetivo principal de la manipulación emocional?",
+      "options": [
+        "Mejorar la comunicación",
+        "Obtener control sobre la conducta ajena",
+        "Fomentar la empatía",
+        "Resolver conflictos"
+      ],
+      "correctIndex": 1,
+      "explanation": "La manipulación busca subyugar la voluntad del otro para beneficio propio."
+    }
+  ],
+  "glossary": [
     {
-      "id": "fc4",
-      "term": "Love bombing",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 2 Tacticas De Psicologia Oscura Parte 2\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Aplicar el protocolo JADE-never: no Justifiques, Argumentes, Defiendas ni Expliques."
-    },
+      "id": "GL-001",
+      "term": "Narcisismo",
+      "category": "Rasgos de Personalidad",
+      "definition": "Patrón de grandiosidad y falta de empatía.",
+      "practicalExample": "Alguien que siempre redirige la conversación hacia sus logros."
+    }
+  ],
+  "bodyLanguageLab": [
     {
-      "id": "fc5",
-      "term": "Rapport forzado",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 2 Tacticas De Psicologia Oscura Parte 3\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Documentar patrones de comportamiento para identificar manipulación."
+      "id": "BL-001",
+      "category": "Detección de Engaño",
+      "title": "Microexpresiones de Desprecio",
+      "cue": "Elevación unilateral de una comisura labial.",
+      "interpretation": "Sentimiento de superioridad o desdén oculto.",
+      "practicalDrill": "Observar entrevistas grabadas buscando esta asimetría facial."
     }
   ]
 };

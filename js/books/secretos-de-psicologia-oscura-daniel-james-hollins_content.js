@@ -1,3 +1,4 @@
+// Contenido enriquecido para Secretos de la Psicología Oscura: Guía Maestra
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_6.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>Índice Capítulo 1: ¿Qué es la Psicología Oscura? ¿Cómo se usa la psicología oscura hoy en día?",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Introduccion\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_de_psicologia_oscura_daniel_james_hollins/introduccion.webp\" alt=\"Introduccion\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Introducción\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_psicologia_hollins/hollins_m1_introduccion.webp\" alt=\"Introducción\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Índice Capítulo 1: ¿Qué es la Psicología Oscura? ¿Cómo se usa la psicología oscura hoy en día?",
           "interactiveChallenge": {
             "question": "Según este módulo, ¿cuál es el mecanismo principal de la microexpresiones en el contexto de \"Introduccion\"?",
             "options": [
@@ -43,7 +44,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 2 - Los fundamentos de la situación emocional encubierta y las manipulaciones ¿Qué es la manipulación encubierta? Propaganda Programación Neuro-Lingüística Técnicas de los artistas que se defienden de las tácticas de manipulación encubiertas Capítulo 3: Análisis de la Psicología Oscura Capítulo 4: Manipulación Dirigiendo la atención El ciclo forzado del problema, la reacción y la solución Gradación de los cambios Aplazamiento de los cambios Dirección en el idioma de los niños Reemplazar la reflexión por las emociones Promover la ignorancia Propagación de la mediocridad Darle a la resistencia una mala conciencia Saber más sobre las personas de lo que se conocen a sí mismas Capítulo 5: Hipnosis Hipnosis en etapa de autohipnosis ¿En qué se diferencia la autohipnosis de la hipnosis en etapas? Tipos de hipnosis Mensaje subliminal Capítulo 6: Persuasión ¿Qué es la persuasión? ¿Cómo difiere la persuasión hoy en día? Métodos modernos de persuasión",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 2 - Fundamentos de la Situación Emocional Encubierta\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_psicologia_hollins/hollins_m2_fundamentos_encubierta.webp\" alt=\"Cap 2 - Fundamentos de la Situación Emocional Encubierta\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 2 - Los fundamentos de la situación emocional encubierta y las manipulaciones ¿Qué es la manipulación encubierta? Propaganda Programación Neuro-Lingüística Técnicas de los artistas que se defienden de las tácticas de manipulación encubiertas Capítulo 3: Análisis de la Psicología Oscura Capítulo 4: Manipulación Dirigiendo la atención El ciclo forzado del problema, la reacción y la solución Gradación de los cambios Aplazamiento de los cambios Dirección en el idioma de los niños Reemplazar la reflexión por las emociones Promover la ignorancia Propagación de la mediocridad Darle a la resistencia una mala conciencia Saber más sobre las personas de lo que se conocen a sí mismas Capítulo 5: Hipnosis Hipnosis en etapa de autohipnosis ¿En qué se diferencia la autohipnosis de la hipnosis en etapas? Tipos de hipnosis Mensaje subliminal Capítulo 6: Persuasión ¿Qué es la persuasión? ¿Cómo difiere la persuasión hoy en día? Métodos modernos de persuasión",
           "interactiveChallenge": {
             "question": "¿Qué distingue a un experto en la escasez artificial en el contexto de \"Cap Tulo 2   Los Fundamentos De La Situaci N Emocional Encubierta Y Las Manipulaciones Qu Es La Mani\"?",
             "options": [
@@ -79,7 +80,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 7: Engaño ¿Qué en el engaño? Estudios de casos",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 7 - Engaño y Estudios de Casos\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_psicologia_hollins/hollins_m3_estudios_engano.webp\" alt=\"Cap 7 - Engaño y Estudios de Casos\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 7: Engaño ¿Qué en el engaño? Estudios de casos",
           "interactiveChallenge": {
             "question": "¿Cuál de las siguientes afirmaciones sobre la anclaje emocional en el contexto de \"Cap Tulo 7 Enga O Qu En El Enga O\"?",
             "options": [
@@ -115,7 +116,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 8: Formas de protegerse de la manipulación emocional No caiga en su trampa Manténgase alejado siempre que sea posible Llámelos por su comportamiento Ignore todo lo que hagan y diga Golpee su centro de gravedad Confíe en su juicio Trate de no encajar Deje de comprometerse Nunca pida permiso Cree un mayor sentido de propósito Siga aprovechando las nuevas oportunidades Deje de ser un bebé Apueste por usted mismo Evitar el apego emocional con ellos Meditar a menudo Inspíralos Diles \"Tienes razón\" Dejar ir las relaciones dañinas desarrollar una fuerte mentalidad Dése una charla positiva sobre sí mismo durante el día Daniel James Hollins Secretos de psicología oscura La guía esencial de la persuasión, la manipulación emocional, el engaño, el control mental, el comportamiento humano, la PNL y la hipnosis, cómo dejar de ser manipulado y defender la mente. Copyright © 2019 Daniel James Hollins Todos los derechos reservados. Ninguna parte de esta publicación puede ser reproducida o transmitida de ninguna forma o por ningún medio, mecánico o electrónico, incluyendo fotocopias o grabaciones, o por ningún sistema de almacenamiento y recuperación de información, o transmitida por correo electrónico sin permiso escrito del editor. La adhesión a todas las leyes y reglamentos aplicables, incluidas las licencias profesionales internacionales, federales, estatales y locales, las prácticas comerciales, la publicidad y todos los demás aspectos de la actividad comercial en los Estados Uni",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 8 - Protegerse de la Manipulación Emocional (Parte 1)\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_psicologia_hollins/hollins_m4_protegerse_p1.webp\" alt=\"Cap 8 - Protegerse de la Manipulación Emocional (Parte 1)\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 8: Formas de protegerse de la manipulación emocional No caiga en su trampa Manténgase alejado siempre que sea posible Llámelos por su comportamiento Ignore todo lo que hagan y diga Golpee su centro de gravedad Confíe en su juicio Trate de no encajar Deje de comprometerse Nunca pida permiso Cree un mayor sentido de propósito Siga aprovechando las nuevas oportunidades Deje de ser un bebé Apueste por usted mismo Evitar el apego emocional con ellos Meditar a menudo Inspíralos Diles \"Tienes razón\" Dejar ir las relaciones dañinas desarrollar una fuerte mentalidad Dése una charla positiva sobre sí mismo durante el día Daniel James Hollins Secretos de psicología oscura La guía esencial de la persuasión, la manipulación emocional, el engaño, el control mental, el comportamiento humano, la PNL y la hipnosis, cómo dejar de ser manipulado y defender la mente. Copyright © 2019 Daniel James Hollins Todos los derechos reservados. Ninguna parte de esta publicación puede ser reproducida o transmitida de ninguna forma o por ningún medio, mecánico o electrónico, incluyendo fotocopias o grabaciones, o por ningún sistema de almacenamiento y recuperación de información, o transmitida por correo electrónico sin permiso escrito del editor. La adhesión a todas las leyes y reglamentos aplicables, incluidas las licencias profesionales internacionales, federales, estatales y locales, las prácticas comerciales, la publicidad y todos los demás aspectos de la actividad comercial en los Estados Uni",
           "interactiveChallenge": {
             "question": "Al aplicar los principios de la triangulación en el contexto de \"Cap Tulo 8 Formas De Protegerse De La Manipulaci N Emocional No\"?",
             "options": [
@@ -180,7 +181,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 2 - Los fundamentos de la situación emocional encubierta y las manipulaciones ¿Qué es la manipulación encubierta? Propaganda Programación Neuro-Lingüística Técnicas de los artistas que se defienden de las tácticas de manipulación encubiertas Capítulo 3: Análisis de la Psicología Oscura Capítulo 4: Manipulación Dirigiendo la atención El ciclo forzado del problema, la reacción y la solución Gradación de los cambios Aplazamiento de los cambios Dirección en el idioma de los niños Reemplazar la reflexión por las emociones Promover la ignorancia Propagación de la mediocridad Darle a la resistencia una mala conciencia Saber más sobre las personas de lo que se conocen a sí mismas Capítulo 5: Hipnosis Hipnosis en fase de ¿En qué se diferencia la autohipnosis de la hipnosis en etapas? Tipos de hipnosis Mensaje subliminal Capítulo 6: Persuasión ¿Qué es la persuasión? ¿Cómo difiere la persuasión hoy en día? Métodos modernos de persuasión Capítulo 7: Engaño ¿Qué en el engaño? Estudios de casos",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 2 - Propaganda y Programación\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_psicologia_hollins/hollins_m5_propaganda_programacion.webp\" alt=\"Cap 2 - Propaganda y Programación\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 2 - Los fundamentos de la situación emocional encubierta y las manipulaciones ¿Qué es la manipulación encubierta? Propaganda Programación Neuro-Lingüística Técnicas de los artistas que se defienden de las tácticas de manipulación encubiertas Capítulo 3: Análisis de la Psicología Oscura Capítulo 4: Manipulación Dirigiendo la atención El ciclo forzado del problema, la reacción y la solución Gradación de los cambios Aplazamiento de los cambios Dirección en el idioma de los niños Reemplazar la reflexión por las emociones Promover la ignorancia Propagación de la mediocridad Darle a la resistencia una mala conciencia Saber más sobre las personas de lo que se conocen a sí mismas Capítulo 5: Hipnosis Hipnosis en fase de ¿En qué se diferencia la autohipnosis de la hipnosis en etapas? Tipos de hipnosis Mensaje subliminal Capítulo 6: Persuasión ¿Qué es la persuasión? ¿Cómo difiere la persuasión hoy en día? Métodos modernos de persuasión Capítulo 7: Engaño ¿Qué en el engaño? Estudios de casos",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la microexpresiones en el contexto de \"Cap Tulo 2   Los Fundamentos De La Situaci N Emocional Encubierta Y Las\"?",
             "options": [
@@ -216,7 +217,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 8: Formas de protegerse de la manipulación emocional No caigas en su trampa Mantente alejado siempre que sea posible Llámalos por su comportamiento Ignora todo lo que hagan y di Golpea su centro de gravedad Confía en tu juicio Trata de no encajar Deja de comprometerte Nunca pidas permiso Crea un mayor sentido de propósito Sigue tomando nuevas oportunidades Deja de ser un bebé Apuesta por ti mismo Evitar el apego emocional con ellos Meditar a menudo Inspíralos Diles \"Tienes razón\" Dejar ir las relaciones dañinas desarrollar una fuerte mentalidad Dése una charla positiva sobre sí mismo durante el día",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 8 - Límites y Rechazo de Trampas\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_psicologia_hollins/hollins_m6_rechazo_trampas.webp\" alt=\"Cap 8 - Límites y Rechazo de Trampas\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 8: Formas de protegerse de la manipulación emocional No caigas en su trampa Mantente alejado siempre que sea posible Llámalos por su comportamiento Ignora todo lo que hagan y di Golpea su centro de gravedad Confía en tu juicio Trata de no encajar Deja de comprometerte Nunca pidas permiso Crea un mayor sentido de propósito Sigue tomando nuevas oportunidades Deja de ser un bebé Apuesta por ti mismo Evitar el apego emocional con ellos Meditar a menudo Inspíralos Diles \"Tienes razón\" Dejar ir las relaciones dañinas desarrollar una fuerte mentalidad Dése una charla positiva sobre sí mismo durante el día",
           "interactiveChallenge": {
             "question": "Ante una situación de la escasez artificial en el contexto de \"Cap Tulo 8 Formas De Protegerse De La Manipulaci N Emocional\"?",
             "options": [
@@ -252,7 +253,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 1: ¿Qué es la Psicología Oscura? En los últimos años la psicología ha tratado de elevar el espíritu humano con muchos términos populares de psicología como \"Psicología Positiva\" o los numerosos libros publicados para decirle a las masas cómo comportarse para llevar una vida satisfactoria y exitosa, desde hablar de paracaídas, diez pasos hacia algo, el atascamiento de títulos de \"cómo\" y mucho más. La mayoría no son más que un error de la psiquiatría pop o una moda pasajera del momento. ¿Puede la vida ser tan fácil como leer el libro correcto y seguir algunos conceptos básicos y todo va a estar bien para ti y para mí? Este artículo es diferente, exploraremos el lado \"oscuro\" de la mente humana - esa parte que ve la desconexión, la destrucción, los actos viles como parte de la psique humana cotidiana que emerge en todos nosotros de vez en cuando - esa parte que encuentra excitación, alegría y placer en la parte disfuncional de nuestra existencia. ¿Cómo puede la sociedad reconciliarse con su lado oscuro? Utilizo la palabra loco para referirme a aquellos en la sociedad que se oponen a la norma social. La Psicología Oscura es tanto el estudio del comportamiento criminal y desviado como un marco conceptual para descifrar el potencial de maldad dentro de todos los seres humanos. La Psicología Oscura es el estudio de la condición humana en lo que se refiere a la naturaleza psicológica de las personas para cazar a otras personas motivadas por impulsos criminales y/o desviados",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 1 - Qué es la Psicología Oscura\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_psicologia_hollins/hollins_m7_que_es_psicologia_oscura.webp\" alt=\"Cap 1 - Qué es la Psicología Oscura\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 1: ¿Qué es la Psicología Oscura? En los últimos años la psicología ha tratado de elevar el espíritu humano con muchos términos populares de psicología como \"Psicología Positiva\" o los numerosos libros publicados para decirle a las masas cómo comportarse para llevar una vida satisfactoria y exitosa, desde hablar de paracaídas, diez pasos hacia algo, el atascamiento de títulos de \"cómo\" y mucho más. La mayoría no son más que un error de la psiquiatría pop o una moda pasajera del momento. ¿Puede la vida ser tan fácil como leer el libro correcto y seguir algunos conceptos básicos y todo va a estar bien para ti y para mí? Este artículo es diferente, exploraremos el lado \"oscuro\" de la mente humana - esa parte que ve la desconexión, la destrucción, los actos viles como parte de la psique humana cotidiana que emerge en todos nosotros de vez en cuando - esa parte que encuentra excitación, alegría y placer en la parte disfuncional de nuestra existencia. ¿Cómo puede la sociedad reconciliarse con su lado oscuro? Utilizo la palabra loco para referirme a aquellos en la sociedad que se oponen a la norma social. La Psicología Oscura es tanto el estudio del comportamiento criminal y desviado como un marco conceptual para descifrar el potencial de maldad dentro de todos los seres humanos. La Psicología Oscura es el estudio de la condición humana en lo que se refiere a la naturaleza psicológica de las personas para cazar a otras personas motivadas por impulsos criminales y/o desviados",
           "interactiveChallenge": {
             "question": "El concepto central de la anclaje emocional en el contexto de \"Cap Tulo 1 Qu Es La Psicolog A Oscura\"?",
             "options": [
@@ -781,7 +782,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 2 - Los fundamentos de la situación emocional encubierta y las manipulaciones ¿Qué es la manipulación encubierta? Algunas formas de manipulación encubierta, probablemente han existido durante miles de años. Sin embargo, los nuevos y organizados métodos de manipulación encubierta, como la programación neurolingüística y las técnicas de \"pick-up\", han cobrado importancia en los últimos 15 años más o menos con la llegada de Internet. Es probable que más personas promedio estén ahora participando en la manipulación encubierta que nunca antes. Encubierto es un adjetivo que significa cubierto, oculto o disfrazado. La manipulación es el acto de mover algo con la mano, o el acto de controlar por medios artísticos, injustos o insidiosos, especialmente para su propio beneficio. Es importante señalar que no todas las técnicas de manipulación encubierta son esencialmente dañinas, y no todas las personas que utilizan estas tácticas las usan con la intención de dañar, dominar o ser más astutos. Sin embargo, el término manipulación encubierta es un descriptor preciso de todos los métodos que se examinan a continuación, independientemente de la intención del usuario. Para bien o para mal, el objetivo es persuadir o dirigir sutilmente a otros sin revelar una agenda oculta. La manipulación emocional encubierta es el proceso en el que uno obtiene el control sobre la mente del otro sin su conocimiento, simplemente haciendo conversaciones por la mente subconsciente del oyente. El objetiv",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 2 - Formas de Manipulación Encubierta\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_psicologia_hollins/hollins_m8_formas_manipulacion.webp\" alt=\"Cap 2 - Formas de Manipulación Encubierta\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 2 - Los fundamentos de la situación emocional encubierta y las manipulaciones ¿Qué es la manipulación encubierta? Algunas formas de manipulación encubierta, probablemente han existido durante miles de años. Sin embargo, los nuevos y organizados métodos de manipulación encubierta, como la programación neurolingüística y las técnicas de \"pick-up\", han cobrado importancia en los últimos 15 años más o menos con la llegada de Internet. Es probable que más personas promedio estén ahora participando en la manipulación encubierta que nunca antes. Encubierto es un adjetivo que significa cubierto, oculto o disfrazado. La manipulación es el acto de mover algo con la mano, o el acto de controlar por medios artísticos, injustos o insidiosos, especialmente para su propio beneficio. Es importante señalar que no todas las técnicas de manipulación encubierta son esencialmente dañinas, y no todas las personas que utilizan estas tácticas las usan con la intención de dañar, dominar o ser más astutos. Sin embargo, el término manipulación encubierta es un descriptor preciso de todos los métodos que se examinan a continuación, independientemente de la intención del usuario. Para bien o para mal, el objetivo es persuadir o dirigir sutilmente a otros sin revelar una agenda oculta. La manipulación emocional encubierta es el proceso en el que uno obtiene el control sobre la mente del otro sin su conocimiento, simplemente haciendo conversaciones por la mente subconsciente del oyente. El objetiv",
           "interactiveChallenge": {
             "question": "¿Cómo reconoce un observador entrenado la triangulación en el contexto de \"Cap Tulo 2   Los Fundamentos De La Situaci N Emocional Encubierta Y Las Manipulaciones\"?",
             "options": [
@@ -1078,7 +1079,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 3: Análisis de la psicología de la oscuridad La Psicología Oscura postula que toda la humanidad tiene un reservorio de intenciones malévolas hacia los demás, que van desde pensamientos mínimamente molestos y fugaces hasta comportamientos desviados puramente psicopáticos sin ninguna racionalidad cohesiva. Esto se llama el Continuo Oscuro. Los factores atenuantes que actúan como aceleradores y/o atrayentes para acercarse a la Singularidad Oscura, y donde las acciones atroces de una persona caen en el Continuo Oscuro, es lo que la Psicología Oscura llama Factor Oscuro. La Psicología Oscura es un concepto con el que este escritor ha luchado durante quince años. Sólo recientemente ha conceptualizado finalmente la definición, la filosofía y la psicología de este aspecto de la condición humana. La Psicología Oscura abarca todo lo que nos hace ser lo que somos en relación con nuestro lado oscuro. Todas las culturas, todas las creencias y toda la humanidad tienen este proverbial cáncer. Desde el momento en que nacemos hasta el momento de la muerte, hay un lado acechando dentro de nosotros que algunos han llamado malvado y otros han definido como criminal, desviado y patológico. La Psicología Oscura introduce un tercer constructo filosófico que ve estos comportamientos diferentes de los dogmas religiosos y las teorías de las ciencias sociales contemporáneas. La Psicología Oscura asume que hay personas que cometen estos mismos actos y no lo hacen por poder, dinero, sexo, retrib",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 3 - Análisis de la Psicología de la Oscuridad\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_psicologia_hollins/hollins_m9_analisis_oscuridad.webp\" alt=\"Cap 3 - Análisis de la Psicología de la Oscuridad\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 3: Análisis de la psicología de la oscuridad La Psicología Oscura postula que toda la humanidad tiene un reservorio de intenciones malévolas hacia los demás, que van desde pensamientos mínimamente molestos y fugaces hasta comportamientos desviados puramente psicopáticos sin ninguna racionalidad cohesiva. Esto se llama el Continuo Oscuro. Los factores atenuantes que actúan como aceleradores y/o atrayentes para acercarse a la Singularidad Oscura, y donde las acciones atroces de una persona caen en el Continuo Oscuro, es lo que la Psicología Oscura llama Factor Oscuro. La Psicología Oscura es un concepto con el que este escritor ha luchado durante quince años. Sólo recientemente ha conceptualizado finalmente la definición, la filosofía y la psicología de este aspecto de la condición humana. La Psicología Oscura abarca todo lo que nos hace ser lo que somos en relación con nuestro lado oscuro. Todas las culturas, todas las creencias y toda la humanidad tienen este proverbial cáncer. Desde el momento en que nacemos hasta el momento de la muerte, hay un lado acechando dentro de nosotros que algunos han llamado malvado y otros han definido como criminal, desviado y patológico. La Psicología Oscura introduce un tercer constructo filosófico que ve estos comportamientos diferentes de los dogmas religiosos y las teorías de las ciencias sociales contemporáneas. La Psicología Oscura asume que hay personas que cometen estos mismos actos y no lo hacen por poder, dinero, sexo, retrib",
           "interactiveChallenge": {
             "question": "Según este módulo, ¿cuál es el mecanismo principal de la microexpresiones en el contexto de \"Cap Tulo 3 An Lisis De La Psicolog A De La Oscuridad\"?",
             "options": [
@@ -1317,7 +1318,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 4: Manipulación El renombrado crítico y siempre lingüista del MIT Noam Chomsky, una de las voces clásicas de la disidencia intelectual en la última década, ha compilado una lista de las diez estrategias más comunes y efectivas a las que recurren las agendas \"ocultas\" para establecer una manipulación de la población a través de los medios de comunicación. Históricamente, los medios de comunicación han demostrado ser muy eficientes para moldear la opinión pública. Gracias a la parafernalia y la propaganda mediática se han creado o destruido movimientos sociales, justificado guerras, templado crisis financieras, estimulado algunas otras corrientes ideológicas e incluso dado el fenómeno de los medios de comunicación como productores de realidad dentro de la psique colectiva. La manipulación de los medios de comunicación es parte de nuestra vida cotidiana. Cada evento es presentado por los medios de comunicación de una manera que es conveniente para cada uno de ellos. El concepto erróneo de la realidad creada por los medios de comunicación en la audiencia puede llevar a una evaluación y comportamiento erróneo en los humanos. Los medios de comunicación no sólo tienen un papel social, sino que son herramientas para controlar la temperatura del público. La manipulación de los medios consiste en la forma en que se presentan las noticias y depende de cómo la gente entenderá un proceso y cómo reaccionará a él. Los medios de comunicación tienen un papel social en diversos grados",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 4 - Manipulación\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_psicologia_hollins/hollins_m10_manipulacion_chomsky.webp\" alt=\"Cap 4 - Manipulación\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 4: Manipulación El renombrado crítico y siempre lingüista del MIT Noam Chomsky, una de las voces clásicas de la disidencia intelectual en la última década, ha compilado una lista de las diez estrategias más comunes y efectivas a las que recurren las agendas \"ocultas\" para establecer una manipulación de la población a través de los medios de comunicación. Históricamente, los medios de comunicación han demostrado ser muy eficientes para moldear la opinión pública. Gracias a la parafernalia y la propaganda mediática se han creado o destruido movimientos sociales, justificado guerras, templado crisis financieras, estimulado algunas otras corrientes ideológicas e incluso dado el fenómeno de los medios de comunicación como productores de realidad dentro de la psique colectiva. La manipulación de los medios de comunicación es parte de nuestra vida cotidiana. Cada evento es presentado por los medios de comunicación de una manera que es conveniente para cada uno de ellos. El concepto erróneo de la realidad creada por los medios de comunicación en la audiencia puede llevar a una evaluación y comportamiento erróneo en los humanos. Los medios de comunicación no sólo tienen un papel social, sino que son herramientas para controlar la temperatura del público. La manipulación de los medios consiste en la forma en que se presentan las noticias y depende de cómo la gente entenderá un proceso y cómo reaccionará a él. Los medios de comunicación tienen un papel social en diversos grados",
           "interactiveChallenge": {
             "question": "¿Qué distingue a un experto en la escasez artificial en el contexto de \"Cap Tulo 4 Manipulaci N\"?",
             "options": [
@@ -1730,7 +1731,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 5: Hipnosis Autohipnosis En el mundo actual, siempre cambiante, a veces necesitamos ayuda para deshacernos de los hábitos y calmar nuestros miedos. Podemos recurrir a los métodos tradicionales: médicos, agencias gubernamentales y medicamentos sin receta. Podemos hablar con terapeutas y psicólogos. Incluso podemos irnos solos. A veces, sin embargo, cuando parece que nada de lo que hacemos ayuda a nuestra situación, necesitamos un poco de ayuda que esté fuera de la caja. Es hora de considerar la autohipnosis. Puede funcionar donde todos los demás métodos nos han fallado. La autohipnosis es un pariente de la hipnosis. Simplemente reemplaza a un hipnoterapeuta u otro individuo calificado con el cliente. En otras palabras, el hipnotizador es también el cliente. La autohipnosis, al igual que la hipnosis, es una herramienta de autodescubrimiento y conciencia. Es un medio a través del cual cualquiera puede acceder a la mente subconsciente. Lo haces deliberadamente con la intención de alterar el patrón de pensamiento actual del subconsciente. Al hacerlo, comienzas a sentar las bases para el cambio. El propósito de la autohipnosis varía de acuerdo con las necesidades del individuo. La función básica de esta técnica es ayudar a un individuo a llegar a lo más profundo de su subconsciente. Al hacerlo, puede volver a entrenarlo para que refleje y abrace lo que desea lograr. Algunos propósitos típicos de la autohipnosis incluyen: • Para dejar de fumar • Para ayudar con una dieta •",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 5 - Hipnosis\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_psicologia_hollins/hollins_m11_hipnosis.webp\" alt=\"Cap 5 - Hipnosis\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 5: Hipnosis Autohipnosis En el mundo actual, siempre cambiante, a veces necesitamos ayuda para deshacernos de los hábitos y calmar nuestros miedos. Podemos recurrir a los métodos tradicionales: médicos, agencias gubernamentales y medicamentos sin receta. Podemos hablar con terapeutas y psicólogos. Incluso podemos irnos solos. A veces, sin embargo, cuando parece que nada de lo que hacemos ayuda a nuestra situación, necesitamos un poco de ayuda que esté fuera de la caja. Es hora de considerar la autohipnosis. Puede funcionar donde todos los demás métodos nos han fallado. La autohipnosis es un pariente de la hipnosis. Simplemente reemplaza a un hipnoterapeuta u otro individuo calificado con el cliente. En otras palabras, el hipnotizador es también el cliente. La autohipnosis, al igual que la hipnosis, es una herramienta de autodescubrimiento y conciencia. Es un medio a través del cual cualquiera puede acceder a la mente subconsciente. Lo haces deliberadamente con la intención de alterar el patrón de pensamiento actual del subconsciente. Al hacerlo, comienzas a sentar las bases para el cambio. El propósito de la autohipnosis varía de acuerdo con las necesidades del individuo. La función básica de esta técnica es ayudar a un individuo a llegar a lo más profundo de su subconsciente. Al hacerlo, puede volver a entrenarlo para que refleje y abrace lo que desea lograr. Algunos propósitos típicos de la autohipnosis incluyen: • Para dejar de fumar • Para ayudar con una dieta •",
           "interactiveChallenge": {
             "question": "¿Cuál de las siguientes afirmaciones sobre la anclaje emocional en el contexto de \"Cap Tulo 5 Hipnosis\"?",
             "options": [
@@ -2201,7 +2202,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 6: Persuasión ¿Qué es la Persuasión? Cuando piensas en la persuasión, ¿qué te viene a la mente? Algunas personas pueden pensar en mensajes publicitarios que instan a los espectadores a comprar un producto en particular, mientras que otras pueden pensar en un candidato político que intenta convencer a los votantes para que elijan su nombre en las urnas. La persuasión es una fuerza poderosa en la vida diaria y tiene una gran influencia en la sociedad y en el conjunto. La política, las decisiones legales, los medios de comunicación, las noticias y la publicidad se ven influidas por el poder de la persuasión y nos influyen a su vez. A veces nos gusta creer que somos inmunes a la persuasión. Que tenemos una habilidad natural para ver a través del discurso de venta, comprender la verdad en una situación y llegar a conclusiones por nuestra cuenta. Esto puede ser cierto en algunos escenarios, pero la persuasión no es sólo un vendedor agresivo que trata de venderle un coche, o un anuncio de televisión que le incita a comprar el último y mejor producto. La persuasión puede ser sutil, y la forma en que respondemos a tales influencias puede depender de una variedad de factores. Cuando pensamos en la persuasión, los ejemplos negativos son a menudo los primeros que nos vienen a la mente, pero la persuasión también puede ser utilizada como una fuerza positiva. Las campañas de servicio público que instan a la gente a reciclar o a dejar de fumar son grandes ejemplos de persuasión uti",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 6 - Persuasión\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_psicologia_hollins/hollins_m12_persuasion.webp\" alt=\"Cap 6 - Persuasión\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 6: Persuasión ¿Qué es la Persuasión? Cuando piensas en la persuasión, ¿qué te viene a la mente? Algunas personas pueden pensar en mensajes publicitarios que instan a los espectadores a comprar un producto en particular, mientras que otras pueden pensar en un candidato político que intenta convencer a los votantes para que elijan su nombre en las urnas. La persuasión es una fuerza poderosa en la vida diaria y tiene una gran influencia en la sociedad y en el conjunto. La política, las decisiones legales, los medios de comunicación, las noticias y la publicidad se ven influidas por el poder de la persuasión y nos influyen a su vez. A veces nos gusta creer que somos inmunes a la persuasión. Que tenemos una habilidad natural para ver a través del discurso de venta, comprender la verdad en una situación y llegar a conclusiones por nuestra cuenta. Esto puede ser cierto en algunos escenarios, pero la persuasión no es sólo un vendedor agresivo que trata de venderle un coche, o un anuncio de televisión que le incita a comprar el último y mejor producto. La persuasión puede ser sutil, y la forma en que respondemos a tales influencias puede depender de una variedad de factores. Cuando pensamos en la persuasión, los ejemplos negativos son a menudo los primeros que nos vienen a la mente, pero la persuasión también puede ser utilizada como una fuerza positiva. Las campañas de servicio público que instan a la gente a reciclar o a dejar de fumar son grandes ejemplos de persuasión uti",
           "interactiveChallenge": {
             "question": "Al aplicar los principios de la triangulación en el contexto de \"Cap Tulo 6 Persuasi N\"?",
             "options": [
@@ -2469,7 +2470,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 7: Engaño ¿Qué es el Engaño? El engaño se refiere al acto -grande o pequeño, cruel o bonificado- de hacer que alguien crea algo que no es cierto. Incluso las personas más honestas practican el engaño, con varios estudios que muestran que la persona promedio miente varias veces al día. Algunas de esas mentiras son grandes (\"¡Nunca te he engañado!\") pero, más a menudo, son pequeñas mentiras blancas (\"Ese vestido se ve bien\") que se despliegan para evitar situaciones incómodas o para no herir los sentimientos de alguien. El engaño no siempre es un acto de cara al exterior. También están las mentiras que la gente se dice a sí misma, por razones que van desde el mantenimiento saludable de la autoestima hasta delirios graves fuera de su control. Aunque mentirse a sí mismo se percibe generalmente como algo perjudicial, algunos expertos sostienen que hay ciertos tipos de autoengaño, como creer que uno puede lograr un objetivo difícil aunque existan pruebas de lo contrario, que pueden tener un efecto positivo en el bienestar general. Los investigadores han buscado durante mucho tiempo formas de detectar definitivamente cuando alguien está mintiendo. Una de las más conocidas, la prueba del polígrafo, ha sido durante mucho tiempo controvertida, y la evidencia sugiere que aquellos con ciertos trastornos psiquiátricos como el Trastorno de Personalidad Antisocial no pueden ser medidos con precisión mediante polígrafos u otros métodos de detección de mentiras comúnmente utilizados.",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 7 - Engaño\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_psicologia_hollins/hollins_m13_engano_mentira.webp\" alt=\"Cap 7 - Engaño\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 7: Engaño ¿Qué es el Engaño? El engaño se refiere al acto -grande o pequeño, cruel o bonificado- de hacer que alguien crea algo que no es cierto. Incluso las personas más honestas practican el engaño, con varios estudios que muestran que la persona promedio miente varias veces al día. Algunas de esas mentiras son grandes (\"¡Nunca te he engañado!\") pero, más a menudo, son pequeñas mentiras blancas (\"Ese vestido se ve bien\") que se despliegan para evitar situaciones incómodas o para no herir los sentimientos de alguien. El engaño no siempre es un acto de cara al exterior. También están las mentiras que la gente se dice a sí misma, por razones que van desde el mantenimiento saludable de la autoestima hasta delirios graves fuera de su control. Aunque mentirse a sí mismo se percibe generalmente como algo perjudicial, algunos expertos sostienen que hay ciertos tipos de autoengaño, como creer que uno puede lograr un objetivo difícil aunque existan pruebas de lo contrario, que pueden tener un efecto positivo en el bienestar general. Los investigadores han buscado durante mucho tiempo formas de detectar definitivamente cuando alguien está mintiendo. Una de las más conocidas, la prueba del polígrafo, ha sido durante mucho tiempo controvertida, y la evidencia sugiere que aquellos con ciertos trastornos psiquiátricos como el Trastorno de Personalidad Antisocial no pueden ser medidos con precisión mediante polígrafos u otros métodos de detección de mentiras comúnmente utilizados.",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la microexpresiones en el contexto de \"Cap Tulo 7 Enga O\"?",
             "options": [
@@ -2795,7 +2796,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 8: Formas de protegerse de la manipulación emocional Todos disfrutamos persiguiendo al otro sexo de vez en cuando, tanto hombres como mujeres. Es divertido y un buen deporte, siempre y cuando seamos honestos y tengamos en cuenta que no tiene nada que ver con el amor. ¿Por qué? Porque perseguir es una manipulación y el amor no puede ser manipulado - no encontramos el amor, el amor nos encuentra a nosotros. Por consiguiente, debemos tratar una relación amorosa como un terreno sagrado. Desafortunadamente, demasiada gente cree en la manipulación, tanto en las relaciones como en los negocios. Leí algo a principios de mis veinte años que se quedó atascado en mi subconsciente para siempre: si puedes alinearte con el cosmos, el éxito viene fácil. ¿Qué significa eso para este tema? Significa que al final del día las manipulaciones son inútiles. Las manipulaciones pueden ayudar a conseguir una ventaja a corto plazo, pero a largo plazo inevitablemente tendrán repercusiones, porque el cosmos se opone a las manipulaciones. Pero si en lugar de eso seguimos el flujo cósmico, gravitaremos hacia nuestro objetivo, más o menos sin esfuerzo. ¿Demasiado bueno para ser verdad? Cada uno de nosotros juega un papel en el juego cósmico. Sólo tenemos que conocer nuestro papel en el esquema de las cosas y dejar que se desarrolle. Por eso Jesús dijo que su cruz es tan ligera como una pluma. Por supuesto, esto significa renunciar a muchos deseos que no son parte de nuestro cameo; sin embargo, nue",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cap 8 - Protección Emocional Definitiva\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/secretos_psicologia_hollins/hollins_m14_proteccion_definitiva.webp\" alt=\"Cap 8 - Protección Emocional Definitiva\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 8: Formas de protegerse de la manipulación emocional Todos disfrutamos persiguiendo al otro sexo de vez en cuando, tanto hombres como mujeres. Es divertido y un buen deporte, siempre y cuando seamos honestos y tengamos en cuenta que no tiene nada que ver con el amor. ¿Por qué? Porque perseguir es una manipulación y el amor no puede ser manipulado - no encontramos el amor, el amor nos encuentra a nosotros. Por consiguiente, debemos tratar una relación amorosa como un terreno sagrado. Desafortunadamente, demasiada gente cree en la manipulación, tanto en las relaciones como en los negocios. Leí algo a principios de mis veinte años que se quedó atascado en mi subconsciente para siempre: si puedes alinearte con el cosmos, el éxito viene fácil. ¿Qué significa eso para este tema? Significa que al final del día las manipulaciones son inútiles. Las manipulaciones pueden ayudar a conseguir una ventaja a corto plazo, pero a largo plazo inevitablemente tendrán repercusiones, porque el cosmos se opone a las manipulaciones. Pero si en lugar de eso seguimos el flujo cósmico, gravitaremos hacia nuestro objetivo, más o menos sin esfuerzo. ¿Demasiado bueno para ser verdad? Cada uno de nosotros juega un papel en el juego cósmico. Sólo tenemos que conocer nuestro papel en el esquema de las cosas y dejar que se desarrolle. Por eso Jesús dijo que su cruz es tan ligera como una pluma. Por supuesto, esto significa renunciar a muchos deseos que no son parte de nuestro cameo; sin embargo, nue",
           "interactiveChallenge": {
             "question": "Ante una situación de la escasez artificial en el contexto de \"Cap Tulo 8 Formas De Protegerse De La Manipulaci N Emocional\"?",
             "options": [
@@ -3577,6 +3578,594 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS001",
+      "category": "Manipulación Emocional",
+      "title": "El Triangulador en la Oficina",
+      "difficulty": "Intermedio",
+      "badge": "Analista de Poder",
+      "scenarioDescription": "Un colega sugiere que tu jefe está descontento con tu trabajo, citando comentarios que nunca ocurrieron para generar inseguridad.",
+      "options": [
+        {
+          "text": "Confrontar al jefe inmediatamente.",
+          "outcome": "Riesgo de parecer paranoico.",
+          "wisdomScore": 40,
+          "analysis": "La reacción impulsiva valida el juego del manipulador.",
+          "bookInsight": "La manipulación prospera en la falta de verificación de hechos."
+        },
+        {
+          "text": "Mantener la calma y pedir detalles específicos al colega.",
+          "outcome": "El manipulador se retrae.",
+          "wisdomScore": 95,
+          "analysis": "La presión de la evidencia desmantela la narrativa falsa.",
+          "bookInsight": "La transparencia es el antídoto contra la ambigüedad emocional."
+        }
+      ]
+    },
+    {
+      "id": "CS002",
+      "category": "Engaño",
+      "title": "La Falsa Vulnerabilidad",
+      "difficulty": "Avanzado",
+      "badge": "Detector de Mentiras",
+      "scenarioDescription": "Alguien que apenas conoces te cuenta un trauma profundo para ganar tu confianza inmediata.",
+      "options": [
+        {
+          "text": "Abrirte emocionalmente para conectar.",
+          "outcome": "Vulnerabilidad explotada.",
+          "wisdomScore": 20,
+          "analysis": "La sobreexposición prematura es una debilidad táctica.",
+          "bookInsight": "El engaño utiliza la empatía como caballo de Troya."
+        },
+        {
+          "text": "Escuchar activamente sin revelar información personal.",
+          "outcome": "Control de la dinámica.",
+          "wisdomScore": 90,
+          "analysis": "Mantener el marco de referencia protege tu integridad.",
+          "bookInsight": "La distancia emocional es una barrera defensiva necesaria."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Psicología Oscura",
+      "title": "El Bombardeo de Amor",
+      "difficulty": "Intermedio",
+      "badge": "Escudo Psicológico",
+      "scenarioDescription": "Una nueva pareja te llena de elogios y regalos excesivos en la primera semana.",
+      "options": [
+        {
+          "text": "Aceptar y disfrutar el afecto.",
+          "outcome": "Dependencia creada.",
+          "wisdomScore": 30,
+          "analysis": "El exceso es una señal de alerta de control.",
+          "bookInsight": "El bombardeo de amor busca anular el juicio crítico."
+        },
+        {
+          "text": "Establecer límites de tiempo y espacio.",
+          "outcome": "El manipulador se frustra.",
+          "wisdomScore": 95,
+          "analysis": "Los límites exponen la verdadera intención del otro.",
+          "bookInsight": "La resistencia a los límites revela la naturaleza del manipulador."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Manipulación",
+      "title": "La Técnica del Pie en la Puerta",
+      "difficulty": "Principiante",
+      "badge": "Observador",
+      "scenarioDescription": "Un conocido te pide un favor pequeño y trivial, seguido de una petición mucho mayor.",
+      "options": [
+        {
+          "text": "Acceder a ambos para ser amable.",
+          "outcome": "Manipulación exitosa.",
+          "wisdomScore": 40,
+          "analysis": "La consistencia es usada en tu contra.",
+          "bookInsight": "La psicología humana tiende a ser consistente con actos previos."
+        },
+        {
+          "text": "Evaluar la segunda petición independientemente.",
+          "outcome": "Independencia preservada.",
+          "wisdomScore": 85,
+          "analysis": "Romper el patrón de compromiso evita la escalada.",
+          "bookInsight": "La conciencia del proceso es la mejor defensa."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Protección",
+      "title": "Gaslighting Sutil",
+      "difficulty": "Avanzado",
+      "badge": "Maestro de la Verdad",
+      "scenarioDescription": "Tu pareja insiste en que nunca dijiste algo que claramente recuerdas haber dicho.",
+      "options": [
+        {
+          "text": "Discutir hasta que admita la verdad.",
+          "outcome": "Desgaste emocional.",
+          "wisdomScore": 30,
+          "analysis": "El gaslighting se alimenta de la duda que generas en ti mismo.",
+          "bookInsight": "No busques validación en quien intenta distorsionar tu realidad."
+        },
+        {
+          "text": "Documentar hechos y confiar en tu memoria.",
+          "outcome": "Claridad mental.",
+          "wisdomScore": 95,
+          "analysis": "La validación interna es superior a la externa.",
+          "bookInsight": "La realidad objetiva es tu ancla."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Psicología Oscura",
+      "title": "El Silencio Castigador",
+      "difficulty": "Intermedio",
+      "badge": "Resiliencia",
+      "scenarioDescription": "Un amigo deja de hablarte repentinamente tras un desacuerdo menor.",
+      "options": [
+        {
+          "text": "Pedir perdón para restaurar la paz.",
+          "outcome": "Refuerzo del comportamiento.",
+          "wisdomScore": 35,
+          "analysis": "Ceder ante el silencio premia la manipulación.",
+          "bookInsight": "El silencio es un arma de control emocional."
+        },
+        {
+          "text": "Continuar con tu vida normal sin buscarlo.",
+          "outcome": "Neutralización del poder.",
+          "wisdomScore": 90,
+          "analysis": "Al quitarle el poder al silencio, este pierde su efecto.",
+          "bookInsight": "La indiferencia es la respuesta más poderosa."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "F01",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Psicología Oscura",
+      "definition": "Uso de tácticas para influir en otros para beneficio propio.",
+      "tacticalUse": "Identificar patrones de control.",
+      "countermeasure": "Conciencia crítica."
+    },
+    {
+      "id": "F02",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Hacer dudar a alguien de su propia percepción.",
+      "tacticalUse": "Desestabilizar la confianza.",
+      "countermeasure": "Mantener registros escritos."
+    },
+    {
+      "id": "F03",
+      "bookNumber": 1,
+      "category": "Engaño",
+      "term": "Triangulación",
+      "definition": "Introducir a un tercero para crear conflicto.",
+      "tacticalUse": "Dividir y vencer.",
+      "countermeasure": "Comunicación directa."
+    },
+    {
+      "id": "F04",
+      "bookNumber": 1,
+      "category": "Protección",
+      "term": "Límites",
+      "definition": "Barreras personales para proteger la integridad.",
+      "tacticalUse": "Establecer autoridad.",
+      "countermeasure": "Asertividad."
+    },
+    {
+      "id": "F05",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Bombardeo de Amor",
+      "definition": "Exceso de afecto para ganar control.",
+      "tacticalUse": "Crear dependencia.",
+      "countermeasure": "Ritmo lento."
+    },
+    {
+      "id": "F06",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Situación Encubierta",
+      "definition": "Contexto donde la intención real está oculta.",
+      "tacticalUse": "Ocultar motivos.",
+      "countermeasure": "Análisis de contexto."
+    },
+    {
+      "id": "F07",
+      "bookNumber": 1,
+      "category": "Engaño",
+      "term": "Falsa Vulnerabilidad",
+      "definition": "Simular debilidad para obtener empatía.",
+      "tacticalUse": "Bajar defensas.",
+      "countermeasure": "Observar acciones."
+    },
+    {
+      "id": "F08",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Pie en la Puerta",
+      "definition": "Pedir algo pequeño para luego pedir algo grande.",
+      "tacticalUse": "Aumentar compromiso.",
+      "countermeasure": "Evaluar cada petición."
+    },
+    {
+      "id": "F09",
+      "bookNumber": 1,
+      "category": "Protección",
+      "term": "Indiferencia",
+      "definition": "Retirar la respuesta emocional esperada.",
+      "tacticalUse": "Desactivar manipuladores.",
+      "countermeasure": "Autocontrol."
+    },
+    {
+      "id": "F10",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Análisis de Oscuridad",
+      "definition": "Estudio de las motivaciones ocultas.",
+      "tacticalUse": "Predecir conductas.",
+      "countermeasure": "Pensamiento analítico."
+    },
+    {
+      "id": "F11",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Proyección",
+      "definition": "Atribuir defectos propios a otros.",
+      "tacticalUse": "Desviar culpas.",
+      "countermeasure": "Autoconocimiento."
+    },
+    {
+      "id": "F12",
+      "bookNumber": 1,
+      "category": "Engaño",
+      "term": "Mentira por Omisión",
+      "definition": "Ocultar información clave.",
+      "tacticalUse": "Manipular la verdad.",
+      "countermeasure": "Hacer preguntas abiertas."
+    },
+    {
+      "id": "F13",
+      "bookNumber": 1,
+      "category": "Protección",
+      "term": "Asertividad",
+      "definition": "Expresar necesidades sin agredir.",
+      "tacticalUse": "Mantener el marco.",
+      "countermeasure": "Comunicación clara."
+    },
+    {
+      "id": "F14",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Culpabilización",
+      "definition": "Hacer sentir responsable al otro.",
+      "tacticalUse": "Controlar conductas.",
+      "countermeasure": "Analizar responsabilidad."
+    },
+    {
+      "id": "F15",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Resiliencia",
+      "definition": "Capacidad de recuperarse de la manipulación.",
+      "tacticalUse": "Fortaleza mental.",
+      "countermeasure": "Autocuidado."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Manipulación",
+      "name": "Triangulación",
+      "severity": "Alta",
+      "icon": "triangle",
+      "howItWorks": "Involucra a un tercero para validar una mentira.",
+      "redFlags": "Comparaciones constantes.",
+      "counterScript": "Prefiero hablar de esto contigo directamente.",
+      "deepMechanism": "Inseguridad inducida."
+    },
+    {
+      "id": "TM02",
+      "category": "Engaño",
+      "name": "Gaslighting",
+      "severity": "Crítica",
+      "icon": "fog",
+      "howItWorks": "Niega la realidad del sujeto.",
+      "redFlags": "Dudas sobre tu memoria.",
+      "counterScript": "Mis recuerdos son claros y no están sujetos a debate.",
+      "deepMechanism": "Erosión de la identidad."
+    },
+    {
+      "id": "TM03",
+      "category": "Manipulación",
+      "name": "Bombardeo de Amor",
+      "severity": "Media",
+      "icon": "heart",
+      "howItWorks": "Sobrecarga de afecto inicial.",
+      "redFlags": "Intensidad desproporcionada.",
+      "counterScript": "Vamos a tomarnos esto con calma.",
+      "deepMechanism": "Adicción dopaminérgica."
+    },
+    {
+      "id": "TM04",
+      "category": "Engaño",
+      "name": "Falsa Vulnerabilidad",
+      "severity": "Media",
+      "icon": "mask",
+      "howItWorks": "Simula dolor para obtener confianza.",
+      "redFlags": "Historias trágicas rápidas.",
+      "counterScript": "Lamento que pases por eso, pero no puedo ayudarte.",
+      "deepMechanism": "Explotación de la empatía."
+    },
+    {
+      "id": "TM05",
+      "category": "Manipulación",
+      "name": "Culpabilización",
+      "severity": "Alta",
+      "icon": "scales",
+      "howItWorks": "Invierte la responsabilidad.",
+      "redFlags": "Frases como 'tú me obligaste'.",
+      "counterScript": "Yo soy responsable de mis actos, tú de los tuyos.",
+      "deepMechanism": "Control por deuda moral."
+    },
+    {
+      "id": "TM06",
+      "category": "Protección",
+      "name": "Indiferencia Estratégica",
+      "severity": "Baja",
+      "icon": "shield",
+      "howItWorks": "Niega el refuerzo emocional.",
+      "redFlags": "N/A",
+      "counterScript": "Entiendo tu punto, pero no me afecta.",
+      "deepMechanism": "Extinción de conducta."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Qué es la psicología oscura?",
+      "options": [
+        "Estudio de la mente",
+        "Uso de tácticas para influir",
+        "Psicología clínica",
+        "Estudio de sueños"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se enfoca en la influencia y manipulación."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 1,
+      "question": "¿Cuál es el fin del gaslighting?",
+      "options": [
+        "Ayudar",
+        "Desestabilizar",
+        "Educar",
+        "Entretener"
+      ],
+      "correctIndex": 1,
+      "explanation": "Busca que la víctima dude de su realidad."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 1,
+      "question": "¿Qué es la triangulación?",
+      "options": [
+        "Geometría",
+        "Uso de terceros",
+        "Comunicación directa",
+        "Honestidad"
+      ],
+      "correctIndex": 1,
+      "explanation": "Involucra a terceros para manipular."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "¿Cómo protegerse del bombardeo de amor?",
+      "options": [
+        "Aceptar todo",
+        "Ir lento",
+        "Dar más",
+        "Ignorar"
+      ],
+      "correctIndex": 1,
+      "explanation": "El ritmo lento permite ver intenciones."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 1,
+      "question": "¿Qué es la proyección?",
+      "options": [
+        "Ver el futuro",
+        "Atribuir defectos propios",
+        "Ser honesto",
+        "Ser amable"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es un mecanismo de defensa y manipulación."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 1,
+      "question": "¿Cuál es la mejor defensa ante la manipulación?",
+      "options": [
+        "Ignorar",
+        "Conciencia y límites",
+        "Gritar",
+        "Huir"
+      ],
+      "correctIndex": 1,
+      "explanation": "La conciencia permite establecer límites."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Manipulación",
+      "category": "Psicología",
+      "definition": "Influencia oculta.",
+      "practicalExample": "Hacer sentir culpable a alguien."
+    },
+    {
+      "id": "G02",
+      "term": "Gaslighting",
+      "category": "Manipulación",
+      "definition": "Duda inducida.",
+      "practicalExample": "Negar hechos pasados."
+    },
+    {
+      "id": "G03",
+      "term": "Triangulación",
+      "category": "Manipulación",
+      "definition": "Uso de terceros.",
+      "practicalExample": "Comparar con un ex."
+    },
+    {
+      "id": "G04",
+      "term": "Bombardeo de Amor",
+      "category": "Manipulación",
+      "definition": "Afecto excesivo.",
+      "practicalExample": "Regalos constantes al inicio."
+    },
+    {
+      "id": "G05",
+      "term": "Proyección",
+      "category": "Psicología",
+      "definition": "Reflejo de defectos.",
+      "practicalExample": "Llamar mentiroso al otro."
+    },
+    {
+      "id": "G06",
+      "term": "Límites",
+      "category": "Protección",
+      "definition": "Barreras personales.",
+      "practicalExample": "Decir no a peticiones."
+    },
+    {
+      "id": "G07",
+      "term": "Asertividad",
+      "category": "Comunicación",
+      "definition": "Expresión clara.",
+      "practicalExample": "Hablar con firmeza."
+    },
+    {
+      "id": "G08",
+      "term": "Engaño",
+      "category": "Psicología",
+      "definition": "Falsedad intencional.",
+      "practicalExample": "Ocultar la verdad."
+    },
+    {
+      "id": "G09",
+      "term": "Resiliencia",
+      "category": "Psicología",
+      "definition": "Recuperación.",
+      "practicalExample": "Superar una relación tóxica."
+    },
+    {
+      "id": "G10",
+      "term": "Indiferencia",
+      "category": "Protección",
+      "definition": "Falta de reacción.",
+      "practicalExample": "No responder a provocaciones."
+    },
+    {
+      "id": "G11",
+      "term": "Situación Encubierta",
+      "category": "Concepto",
+      "definition": "Contexto oculto.",
+      "practicalExample": "Una reunión con doble agenda."
+    },
+    {
+      "id": "G12",
+      "term": "Culpabilización",
+      "category": "Manipulación",
+      "definition": "Transferencia de culpa.",
+      "practicalExample": "Culpar al otro de tu enojo."
+    },
+    {
+      "id": "G13",
+      "term": "Falsa Vulnerabilidad",
+      "category": "Engaño",
+      "definition": "Simulación de dolor.",
+      "practicalExample": "Llorar para obtener algo."
+    },
+    {
+      "id": "G14",
+      "term": "Análisis",
+      "category": "Metodología",
+      "definition": "Estudio crítico.",
+      "practicalExample": "Evaluar intenciones."
+    },
+    {
+      "id": "G15",
+      "term": "Poder",
+      "category": "Psicología",
+      "definition": "Capacidad de control.",
+      "practicalExample": "Dominar una conversación."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Detección",
+      "title": "Microexpresiones de Engaño",
+      "cue": "Parpadeo rápido o desvío de mirada.",
+      "interpretation": "Incomodidad o mentira.",
+      "practicalDrill": "Observar entrevistas en TV."
+    },
+    {
+      "id": "BL02",
+      "category": "Defensa",
+      "title": "Postura de Poder",
+      "cue": "Hombros atrás, contacto visual.",
+      "interpretation": "Seguridad y límites.",
+      "practicalDrill": "Practicar frente al espejo."
+    },
+    {
+      "id": "BL03",
+      "category": "Detección",
+      "title": "Incongruencia",
+      "cue": "Decir sí mientras se niega con la cabeza.",
+      "interpretation": "Disonancia cognitiva.",
+      "practicalDrill": "Analizar conversaciones."
+    },
+    {
+      "id": "BL04",
+      "category": "Defensa",
+      "title": "Espacio Personal",
+      "cue": "Invadir el espacio del otro.",
+      "interpretation": "Intento de dominación.",
+      "practicalDrill": "Mantener distancia física."
+    },
+    {
+      "id": "BL05",
+      "category": "Detección",
+      "title": "Gestos de Autocalmado",
+      "cue": "Tocar el cuello o la cara.",
+      "interpretation": "Ansiedad o estrés.",
+      "practicalDrill": "Observar manos en reuniones."
+    },
+    {
+      "id": "BL06",
+      "category": "Defensa",
+      "title": "Espejo Inverso",
+      "cue": "No imitar al manipulador.",
+      "interpretation": "Romper la conexión forzada.",
+      "practicalDrill": "Cambiar postura al notar imitación."
     }
   ]
 };

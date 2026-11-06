@@ -6647,93 +6647,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Defensa Personal Psicológica",
-      "title": "Caso Práctico: Conclusion",
-      "difficulty": "Media",
-      "badge": "Guardián Mental",
-      "scenarioDescription": "Durante una situación relacionada con \"Conclusion\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS001",
+      "category": "Manipulación de la Memoria",
+      "title": "El Falso Testigo",
+      "difficulty": "Avanzado",
+      "badge": "Arquitecto de Recuerdos",
+      "scenarioDescription": "Un colega insiste en que dijiste algo que no ocurrió durante una reunión. ¿Cómo respondes?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Conclusion\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Aceptar la duda para no generar conflicto.",
+          "outcome": "Vulnerabilidad",
+          "wisdomScore": 20,
+          "analysis": "Ceder ante una falsa premisa permite que el manipulador reescriba tu narrativa.",
+          "bookInsight": "La memoria es maleable; si no defiendes tu realidad, otros la editarán."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Solicitar evidencia externa y mantener tu versión con calma.",
+          "outcome": "Resiliencia",
+          "wisdomScore": 95,
+          "analysis": "Mantener la firmeza sin agresividad neutraliza la gaslighting.",
+          "bookInsight": "La manipulación de la memoria requiere que la víctima dude de sí misma."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Detección en Entorno Laboral",
-      "title": "Caso Práctico: Introduccion Y Sumario",
-      "difficulty": "Alta",
-      "badge": "Detective Social",
-      "scenarioDescription": "Durante una situación relacionada con \"Introduccion Y Sumario\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS002",
+      "category": "Manipulación de Palabras",
+      "title": "El Doble Sentido",
+      "difficulty": "Intermedio",
+      "badge": "Analista Lingüístico",
+      "scenarioDescription": "Tu interlocutor usa una frase ambigua que parece un cumplido pero suena a insulto.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Introduccion Y Sumario\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Pedir una aclaración directa sobre el significado.",
+          "outcome": "Control",
+          "wisdomScore": 90,
+          "analysis": "Obligar al manipulador a explicar su 'broma' destruye el efecto psicológico.",
+          "bookInsight": "La manipulación de palabras depende de la ambigüedad no cuestionada."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
+          "text": "Ignorar el comentario para mantener la paz.",
+          "outcome": "Sumisión",
+          "wisdomScore": 30,
+          "analysis": "El silencio valida la agresión pasiva.",
+          "bookInsight": "El lenguaje es el arma principal del manipulador social."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Personalidad Manipuladora",
+      "title": "El Encantador de Serpientes",
+      "difficulty": "Experto",
+      "badge": "Detector de Psicopatía",
+      "scenarioDescription": "Alguien nuevo en tu círculo es excesivamente amable y busca favores inmediatos.",
+      "options": [
+        {
+          "text": "Corresponder con favores para crear una alianza.",
+          "outcome": "Trampa",
+          "wisdomScore": 10,
+          "analysis": "Estás cayendo en la ley de reciprocidad forzada.",
+          "bookInsight": "La personalidad manipuladora usa la generosidad como cebo."
+        },
+        {
+          "text": "Establecer límites claros y observar su reacción ante el 'no'.",
+          "outcome": "Seguridad",
+          "wisdomScore": 100,
+          "analysis": "La reacción ante el límite revela la verdadera naturaleza del individuo.",
+          "bookInsight": "La personalidad manipuladora no tolera la pérdida de control."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Auto Manipulación",
+      "title": "El Espejo Roto",
+      "difficulty": "Intermedio",
+      "badge": "Autoconocimiento",
+      "scenarioDescription": "Te descubres justificando una mala decisión propia con excusas externas.",
+      "options": [
+        {
+          "text": "Aceptar la justificación para reducir la culpa.",
+          "outcome": "Autoengaño",
           "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "analysis": "La auto-manipulación impide el crecimiento personal.",
+          "bookInsight": "El arte de la auto-manipulación es el mecanismo de defensa más peligroso."
+        },
+        {
+          "text": "Analizar el sesgo cognitivo detrás de la excusa.",
+          "outcome": "Integridad",
+          "wisdomScore": 95,
+          "analysis": "La introspección honesta rompe el ciclo de auto-engaño.",
+          "bookInsight": "Solo quien se conoce puede evitar ser manipulado por sí mismo."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Moralidad de la Manipulación",
+      "title": "El Dilema Ético",
+      "difficulty": "Avanzado",
+      "badge": "Filósofo Táctico",
+      "scenarioDescription": "Puedes manipular a un superior para evitar un despido injusto de un compañero.",
+      "options": [
+        {
+          "text": "Usar la manipulación por un 'bien mayor'.",
+          "outcome": "Corrupción",
+          "wisdomScore": 40,
+          "analysis": "El fin no justifica el uso de herramientas oscuras sin costo moral.",
+          "bookInsight": "La moralidad de la manipulación es un terreno resbaladizo."
+        },
+        {
+          "text": "Buscar una solución basada en hechos y negociación transparente.",
+          "outcome": "Ética",
+          "wisdomScore": 90,
+          "analysis": "Preservar la integridad es la mejor defensa a largo plazo.",
+          "bookInsight": "La manipulación es una herramienta, pero su uso define al usuario."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Manipulación de la Memoria",
+      "title": "La Sugestión Post-Evento",
+      "difficulty": "Experto",
+      "badge": "Escudo Cognitivo",
+      "scenarioDescription": "Alguien te cuenta una versión distorsionada de un evento que ambos vivieron.",
+      "options": [
+        {
+          "text": "Corregir cada detalle inmediatamente.",
+          "outcome": "Confrontación",
+          "wisdomScore": 50,
+          "analysis": "La confrontación directa puede escalar el conflicto innecesariamente.",
+          "bookInsight": "La memoria se manipula mejor cuando se siembra la duda, no la negación."
+        },
+        {
+          "text": "Registrar tu versión por escrito y mantener la calma.",
+          "outcome": "Protección",
+          "wisdomScore": 95,
+          "analysis": "La documentación es el antídoto contra la manipulación de la memoria.",
+          "bookInsight": "La verdad documentada es inmune a la sugestión."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Rapport forzado",
-      "definition": "Técnica psicológica estudiada en \"Introduccion Y Sumario\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Reconocer los 7 signos de la Tríada Oscura en contactos cercanos."
+      "id": "F01",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Manipulación",
+      "definition": "Influencia deliberada sobre las decisiones de otros.",
+      "tacticalUse": "Obtener ventaja.",
+      "countermeasure": "Conciencia crítica."
     },
     {
-      "id": "fc2",
-      "term": "Consistencia cognitiva",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 1 Que Es La Manipulacion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Establecer límites claros y comunicarlos asertivamente."
+      "id": "F02",
+      "bookNumber": 2,
+      "category": "Personalidad",
+      "term": "Triada Oscura",
+      "definition": "Narcisismo, Maquiavelismo y Psicopatía.",
+      "tacticalUse": "Identificar perfiles.",
+      "countermeasure": "Distanciamiento."
     },
     {
-      "id": "fc3",
-      "term": "Triangulación",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 2 La Personalidad Manipuladora\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Tomarse tiempo antes de responder a demandas urgentes fabricadas."
+      "id": "F03",
+      "bookNumber": 3,
+      "category": "Moral",
+      "term": "Utilitarismo Oscuro",
+      "definition": "El fin justifica los medios.",
+      "tacticalUse": "Justificar acciones.",
+      "countermeasure": "Ética deontológica."
     },
     {
-      "id": "fc4",
-      "term": "Hipnosis ericksoniana",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 3 La Moralidad De La Manipulacion Parte 1\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Desarrollar independencia emocional mediante mindfulness diario."
+      "id": "F04",
+      "bookNumber": 4,
+      "category": "Auto",
+      "term": "Auto-engaño",
+      "definition": "Mentirse a uno mismo para evitar dolor.",
+      "tacticalUse": "Reducción de culpa.",
+      "countermeasure": "Introspección radical."
     },
     {
-      "id": "fc5",
-      "term": "Simpatía fabricada",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 3 La Moralidad De La Manipulacion Parte 2\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
+      "id": "F05",
+      "bookNumber": 5,
+      "category": "Memoria",
+      "term": "Gaslighting",
+      "definition": "Hacer dudar a alguien de su realidad.",
+      "tacticalUse": "Control total.",
+      "countermeasure": "Bitácora de hechos."
+    },
+    {
+      "id": "F06",
+      "bookNumber": 6,
+      "category": "Lenguaje",
+      "term": "Ambigüedad",
+      "definition": "Uso de palabras con doble sentido.",
+      "tacticalUse": "Evasión de responsabilidad.",
+      "countermeasure": "Pedir aclaración."
+    },
+    {
+      "id": "F07",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Sugestión",
+      "definition": "Introducir ideas en la mente ajena.",
+      "tacticalUse": "Cambio de opinión.",
+      "countermeasure": "Pensamiento crítico."
+    },
+    {
+      "id": "F08",
+      "bookNumber": 2,
+      "category": "Personalidad",
+      "term": "Encanto Superficial",
+      "definition": "Simulación de empatía.",
+      "tacticalUse": "Ganar confianza.",
+      "countermeasure": "Observar acciones."
+    },
+    {
+      "id": "F09",
+      "bookNumber": 3,
+      "category": "Moral",
+      "term": "Disonancia Cognitiva",
+      "definition": "Conflicto entre creencias y actos.",
+      "tacticalUse": "Forzar cambios.",
+      "countermeasure": "Reconocimiento."
+    },
+    {
+      "id": "F10",
+      "bookNumber": 4,
+      "category": "Auto",
+      "term": "Sesgo de Confirmación",
+      "definition": "Ver solo lo que refuerza tu idea.",
+      "tacticalUse": "Auto-validación.",
+      "countermeasure": "Buscar evidencia contraria."
+    },
+    {
+      "id": "F11",
+      "bookNumber": 5,
+      "category": "Memoria",
+      "term": "Falsos Recuerdos",
+      "definition": "Crear eventos que no ocurrieron.",
+      "tacticalUse": "Cambiar la historia.",
+      "countermeasure": "Verificación externa."
+    },
+    {
+      "id": "F12",
+      "bookNumber": 6,
+      "category": "Lenguaje",
+      "term": "Carga Emocional",
+      "definition": "Palabras que disparan emociones.",
+      "tacticalUse": "Anular la lógica.",
+      "countermeasure": "Desapego emocional."
+    },
+    {
+      "id": "F13",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Influencia",
+      "definition": "Poder de cambiar conductas.",
+      "tacticalUse": "Liderazgo.",
+      "countermeasure": "Autonomía."
+    },
+    {
+      "id": "F14",
+      "bookNumber": 2,
+      "category": "Personalidad",
+      "term": "Frialdad",
+      "definition": "Ausencia de respuesta emocional.",
+      "tacticalUse": "Intimidación.",
+      "countermeasure": "No reaccionar."
+    },
+    {
+      "id": "F15",
+      "bookNumber": 6,
+      "category": "Lenguaje",
+      "term": "Silencio Táctico",
+      "definition": "No responder para generar presión.",
+      "tacticalUse": "Forzar confesiones.",
+      "countermeasure": "Mantener la calma."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Lenguaje",
+      "name": "Doble Vínculo",
+      "severity": "Alta",
+      "icon": "🔗",
+      "howItWorks": "Dar dos opciones que llevan al mismo resultado.",
+      "redFlags": "Sensación de falta de elección.",
+      "counterScript": "No elijo ninguna de las dos.",
+      "deepMechanism": "Anulación de la voluntad."
+    },
+    {
+      "id": "TM02",
+      "category": "Memoria",
+      "name": "Reescritura de Historia",
+      "severity": "Crítica",
+      "icon": "📖",
+      "howItWorks": "Cambiar detalles de eventos pasados.",
+      "redFlags": "Dudas sobre tu propia memoria.",
+      "counterScript": "Tengo pruebas de lo contrario.",
+      "deepMechanism": "Desestabilización cognitiva."
+    },
+    {
+      "id": "TM03",
+      "category": "Personalidad",
+      "name": "Love Bombing",
+      "severity": "Media",
+      "icon": "❤️",
+      "howItWorks": "Exceso de afecto inicial.",
+      "redFlags": "Intensidad desproporcionada.",
+      "counterScript": "Vamos más despacio.",
+      "deepMechanism": "Dependencia emocional."
+    },
+    {
+      "id": "TM04",
+      "category": "Auto",
+      "name": "Justificación Racional",
+      "severity": "Baja",
+      "icon": "🧠",
+      "howItWorks": "Crear lógica para errores.",
+      "redFlags": "Excusas constantes.",
+      "counterScript": "Asumo mi responsabilidad.",
+      "deepMechanism": "Protección del ego."
+    },
+    {
+      "id": "TM05",
+      "category": "Lenguaje",
+      "name": "Carga de Culpa",
+      "severity": "Alta",
+      "icon": "⚖️",
+      "howItWorks": "Hacer sentir al otro responsable.",
+      "redFlags": "Sentimiento de deuda.",
+      "counterScript": "No soy responsable de eso.",
+      "deepMechanism": "Manipulación moral."
+    },
+    {
+      "id": "TM06",
+      "category": "Personalidad",
+      "name": "Aislamiento",
+      "severity": "Crítica",
+      "icon": "🚫",
+      "howItWorks": "Separar a la víctima de su red.",
+      "redFlags": "Críticas a tus amigos.",
+      "counterScript": "Valoro mis relaciones.",
+      "deepMechanism": "Control de entorno."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Qué define principalmente a la manipulación?",
+      "options": [
+        "Ayuda desinteresada",
+        "Influencia deliberada",
+        "Comunicación clara",
+        "Honestidad"
+      ],
+      "correctIndex": 1,
+      "explanation": "La manipulación requiere intención de influir para beneficio propio."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 2,
+      "question": "¿Cuál es un rasgo de la personalidad manipuladora?",
+      "options": [
+        "Empatía real",
+        "Frialdad emocional",
+        "Honestidad radical",
+        "Altruismo"
+      ],
+      "correctIndex": 1,
+      "explanation": "La frialdad permite manipular sin remordimientos."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 3,
+      "question": "¿Qué es la moralidad en la manipulación?",
+      "options": [
+        "Siempre es mala",
+        "Depende del uso",
+        "Es irrelevante",
+        "Es obligatoria"
+      ],
+      "correctIndex": 1,
+      "explanation": "La moralidad es subjetiva y depende de la intención y el impacto."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 4,
+      "question": "¿Qué es la auto-manipulación?",
+      "options": [
+        "Mentirse a uno mismo",
+        "Crecimiento personal",
+        "Disciplina",
+        "Meditación"
+      ],
+      "correctIndex": 0,
+      "explanation": "Es el proceso de engañarse para evitar enfrentar la realidad."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 5,
+      "question": "¿Cómo se manipula la memoria?",
+      "options": [
+        "Con hechos",
+        "Con sugestión",
+        "Con verdad",
+        "Con lógica"
+      ],
+      "correctIndex": 1,
+      "explanation": "La sugestión altera la percepción de los recuerdos."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 6,
+      "question": "¿Cuál es el fin de la manipulación de palabras?",
+      "options": [
+        "Claridad",
+        "Confusión",
+        "Verdad",
+        "Educación"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se busca confundir para tomar el control de la narrativa."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Gaslighting",
+      "category": "Memoria",
+      "definition": "Abuso psicológico que hace dudar de la realidad.",
+      "practicalExample": "Decir 'eso nunca pasó'."
+    },
+    {
+      "id": "G02",
+      "term": "Triada Oscura",
+      "category": "Personalidad",
+      "definition": "Rasgos de narcisismo, maquiavelismo y psicopatía.",
+      "practicalExample": "Un jefe que explota a otros sin culpa."
+    },
+    {
+      "id": "G03",
+      "term": "Sugestión",
+      "category": "Conceptos",
+      "definition": "Influencia indirecta.",
+      "practicalExample": "Sugerir una idea como si fuera del otro."
+    },
+    {
+      "id": "G04",
+      "term": "Disonancia",
+      "category": "Auto",
+      "definition": "Conflicto mental.",
+      "practicalExample": "Hacer algo que odias por dinero."
+    },
+    {
+      "id": "G05",
+      "term": "Reciprocidad",
+      "category": "Conceptos",
+      "definition": "Sentir deuda por un favor.",
+      "practicalExample": "Regalar algo para pedir un favor."
+    },
+    {
+      "id": "G06",
+      "term": "Ambigüedad",
+      "category": "Lenguaje",
+      "definition": "Falta de claridad.",
+      "practicalExample": "Frases con doble sentido."
+    },
+    {
+      "id": "G07",
+      "term": "Proyección",
+      "category": "Auto",
+      "definition": "Atribuir defectos propios a otros.",
+      "practicalExample": "Llamar mentiroso a quien te descubrió."
+    },
+    {
+      "id": "G08",
+      "term": "Aislamiento",
+      "category": "Personalidad",
+      "definition": "Separar a la víctima.",
+      "practicalExample": "Hablar mal de la familia de la víctima."
+    },
+    {
+      "id": "G09",
+      "term": "Carga Emocional",
+      "category": "Lenguaje",
+      "definition": "Palabras que disparan emociones.",
+      "practicalExample": "Usar palabras como 'traición'."
+    },
+    {
+      "id": "G10",
+      "term": "Manipulación",
+      "category": "Conceptos",
+      "definition": "Control de conducta.",
+      "practicalExample": "Forzar una decisión."
+    },
+    {
+      "id": "G11",
+      "term": "Frialdad",
+      "category": "Personalidad",
+      "definition": "Ausencia de empatía.",
+      "practicalExample": "No reaccionar al llanto."
+    },
+    {
+      "id": "G12",
+      "term": "Auto-engaño",
+      "category": "Auto",
+      "definition": "Mentira interna.",
+      "practicalExample": "Creer que eres perfecto."
+    },
+    {
+      "id": "G13",
+      "term": "Silencio",
+      "category": "Lenguaje",
+      "definition": "Pausa táctica.",
+      "practicalExample": "Callar tras una pregunta."
+    },
+    {
+      "id": "G14",
+      "term": "Ética",
+      "category": "Moral",
+      "definition": "Principios morales.",
+      "practicalExample": "No manipular por respeto."
+    },
+    {
+      "id": "G15",
+      "term": "Memoria",
+      "category": "Memoria",
+      "definition": "Capacidad de recordar.",
+      "practicalExample": "Recordar un evento pasado."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Lenguaje",
+      "title": "Micro-expresiones de Engaño",
+      "cue": "Tocar la nariz al hablar.",
+      "interpretation": "Posible incomodidad o mentira.",
+      "practicalDrill": "Observar entrevistas en TV."
+    },
+    {
+      "id": "BL02",
+      "category": "Personalidad",
+      "title": "Postura de Poder",
+      "cue": "Invadir espacio personal.",
+      "interpretation": "Intento de dominación.",
+      "practicalDrill": "Mantener tu espacio personal."
+    },
+    {
+      "id": "BL03",
+      "category": "Memoria",
+      "title": "Mirada Evasiva",
+      "cue": "Mirar hacia arriba a la izquierda.",
+      "interpretation": "Posible construcción de historia.",
+      "practicalDrill": "Analizar patrones oculares."
+    },
+    {
+      "id": "BL04",
+      "category": "Auto",
+      "title": "Tensión en Mandíbula",
+      "cue": "Apretar los dientes.",
+      "interpretation": "Represión de emociones.",
+      "practicalDrill": "Relajar la cara al hablar."
+    },
+    {
+      "id": "BL05",
+      "category": "Lenguaje",
+      "title": "Gestos Incongruentes",
+      "cue": "Decir sí mientras niega con la cabeza.",
+      "interpretation": "Disonancia interna.",
+      "practicalDrill": "Detectar contradicciones."
+    },
+    {
+      "id": "BL06",
+      "category": "Personalidad",
+      "title": "Barreras Físicas",
+      "cue": "Cruzar brazos ante una pregunta.",
+      "interpretation": "Defensividad.",
+      "practicalDrill": "Observar reacciones ante críticas."
     }
   ]
 };

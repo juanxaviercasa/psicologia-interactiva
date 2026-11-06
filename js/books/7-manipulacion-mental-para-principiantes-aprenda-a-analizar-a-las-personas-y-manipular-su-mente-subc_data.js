@@ -6647,67 +6647,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Aplicación del Tema",
-      "title": "El Sabotaje Corporativo de Silvano",
-      "difficulty": "Alta",
-      "badge": "Maestro de la Claridad",
-      "scenarioDescription": "Trabajas en una consultora de prestigio. Tu astuto colega Silvano quiere quedarse con la dirección del nuevo proyecto tecnológico. En la última reunión general del comité, Silvano se atribuyó de manera sutil tus ideas de optimización de costos mediante presuposiciones refinadas frente al director ejecutivo, y comenzó a insinuar sutilmente que tu memoria está fallando ('Como recordarás, yo propuse esa solución de base de datos la semana pasada y tú me dijiste que era inviable'). El director ejecutivo te mira esperando tu reacción instantánea. Si te alteras, confirmarás la narrativa de que estás inestable; si callas, perderás tu idea y tu reputación.",
+      "id": "CS001",
+      "category": "Manipulación de Palabras",
+      "title": "El Marco de la Negociación",
+      "difficulty": "Intermedio",
+      "badge": "Estratega Verbal",
+      "scenarioDescription": "Un colega intenta cambiar el enfoque de una reunión usando lenguaje ambiguo para culparte de un error compartido.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Mantener la calma, sonreír ligeramente, redirigir la conversación cuestionando la presuposición y apelando a los registros objetivos de inmediato.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Al responder de manera asertiva, calmada y técnica ('Silvano, me alegra que ahora apoyes la idea. Si revisamos el correo enviado el martes a las 9:00 AM, verás la propuesta de base de datos detallada de mi puño y letra. Sigamos con la implementación...'), desarmas el Gaslighting al instante con hechos duros e impides que se instale la duda sobre tu competencia profesional.",
-          "bookInsight": "El libro enseña que la mejor defensa contra la manipulación relacional y el abuso de la memoria es la validación con registros objetivos, manteniendo un control estricto del estado emocional propio para evitar el gancho de la ira."
+          "text": "Aceptar la culpa para mantener la paz.",
+          "outcome": "Derrota estratégica",
+          "wisdomScore": 20,
+          "analysis": "La sumisión refuerza el comportamiento del manipulador.",
+          "bookInsight": "La manipulación de palabras busca redefinir la realidad a favor del emisor."
         },
         {
-          "id": "opt2",
-          "text": "Confrontarlo agresivamente diciendo: '¡Eso es mentira! Tú sabes perfectamente que esa idea es mía y me la estás robando en mi cara, eres un mentiroso'.",
-          "outcome": "Fallo",
-          "wisdomScore": 20,
-          "analysis": "Caer en la trampa emocional de la ira te hace ver impulsivo, poco profesional e inestable ante la junta directiva. Silvano puede usar tu reacción histérica como 'prueba' de tu inestabilidad emocional previa, validando indirectamente sus insinuaciones sobre tu pérdida de memoria o criterio.",
-          "bookInsight": "En la manipulación, el que se enoja y pierde el control del marco conversacional, le otorga al manipulador el poder absoluto de moldear la percepción del resto del grupo."
+          "text": "Reformular la frase usando hechos objetivos.",
+          "outcome": "Victoria táctica",
+          "wisdomScore": 95,
+          "analysis": "Desmontar el marco verbal neutraliza la intención manipuladora.",
+          "bookInsight": "El control del lenguaje es el control de la percepción."
+        }
+      ]
+    },
+    {
+      "id": "CS002",
+      "category": "Manipulación de la Memoria",
+      "title": "El Gaslighting Sutil",
+      "difficulty": "Avanzado",
+      "badge": "Detector de Ilusiones",
+      "scenarioDescription": "Alguien insiste en que dijiste algo que nunca ocurrió para hacerte dudar de tu juicio.",
+      "options": [
+        {
+          "text": "Cuestionar tu propia memoria intensamente.",
+          "outcome": "Vulnerabilidad extrema",
+          "wisdomScore": 10,
+          "analysis": "Dudar de uno mismo es el objetivo principal del manipulador.",
+          "bookInsight": "La manipulación de la memoria erosiona la confianza en la propia identidad."
+        },
+        {
+          "text": "Mantener un registro escrito y confrontar con calma.",
+          "outcome": "Resiliencia cognitiva",
+          "wisdomScore": 90,
+          "analysis": "La evidencia externa es el antídoto contra la distorsión de la memoria.",
+          "bookInsight": "La memoria es maleable; protegerla es proteger la autonomía."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Personalidad Manipuladora",
+      "title": "El Encanto del Narcisista",
+      "difficulty": "Intermedio",
+      "badge": "Analista de Perfiles",
+      "scenarioDescription": "Una persona nueva en tu círculo social te halaga excesivamente desde el primer día.",
+      "options": [
+        {
+          "text": "Aceptar el halago y confiar plenamente.",
+          "outcome": "Trampa de seducción",
+          "wisdomScore": 30,
+          "analysis": "El halago excesivo suele ser una herramienta de entrada.",
+          "bookInsight": "La personalidad manipuladora utiliza el refuerzo positivo para crear dependencia."
+        },
+        {
+          "text": "Mantener distancia y observar patrones de comportamiento.",
+          "outcome": "Protección de límites",
+          "wisdomScore": 85,
+          "analysis": "La observación objetiva revela la verdadera naturaleza del individuo.",
+          "bookInsight": "La personalidad manipuladora se revela a través de la inconsistencia."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Auto Manipulación",
+      "title": "La Justificación Moral",
+      "difficulty": "Avanzado",
+      "badge": "Maestro de la Introspección",
+      "scenarioDescription": "Te encuentras racionalizando una acción poco ética para obtener un beneficio personal.",
+      "options": [
+        {
+          "text": "Continuar con la justificación para evitar la culpa.",
+          "outcome": "Corrupción interna",
+          "wisdomScore": 15,
+          "analysis": "La auto-manipulación es la forma más peligrosa de engaño.",
+          "bookInsight": "El arte de la auto-manipulación permite ignorar la brújula moral."
+        },
+        {
+          "text": "Analizar el sesgo cognitivo detrás de tu decisión.",
+          "outcome": "Integridad recuperada",
+          "wisdomScore": 95,
+          "analysis": "La autoconciencia es la única defensa contra la auto-manipulación.",
+          "bookInsight": "La verdadera maestría comienza con la honestidad radical hacia uno mismo."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Moralidad de la Manipulación",
+      "title": "El Dilema del Fin Justifica los Medios",
+      "difficulty": "Intermedio",
+      "badge": "Filósofo Táctico",
+      "scenarioDescription": "Tienes la oportunidad de manipular a alguien para evitar que cometa un error grave.",
+      "options": [
+        {
+          "text": "Manipular para evitar el daño mayor.",
+          "outcome": "Dilema ético",
+          "wisdomScore": 50,
+          "analysis": "El fin no siempre justifica los medios, incluso con buenas intenciones.",
+          "bookInsight": "La moralidad de la manipulación es un terreno gris que requiere gran responsabilidad."
+        },
+        {
+          "text": "Comunicar la verdad y dejar que la persona decida.",
+          "outcome": "Respeto a la autonomía",
+          "wisdomScore": 90,
+          "analysis": "La transparencia es la base de las relaciones saludables.",
+          "bookInsight": "La manipulación, incluso por el bien, altera la dinámica de poder."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Manipulación de Palabras",
+      "title": "El Doble Sentido",
+      "difficulty": "Principiante",
+      "badge": "Escudo Lingüístico",
+      "scenarioDescription": "Alguien usa términos técnicos para confundirte y hacerte aceptar un contrato desfavorable.",
+      "options": [
+        {
+          "text": "Firmar para no parecer ignorante.",
+          "outcome": "Víctima de engaño",
+          "wisdomScore": 10,
+          "analysis": "El miedo a la ignorancia es una puerta abierta para el manipulador.",
+          "bookInsight": "La jerga técnica es a menudo un velo para la manipulación."
+        },
+        {
+          "text": "Pedir una explicación en lenguaje sencillo.",
+          "outcome": "Claridad estratégica",
+          "wisdomScore": 95,
+          "analysis": "Forzar la simplicidad rompe la técnica de confusión.",
+          "bookInsight": "La claridad es el enemigo natural de la manipulación verbal."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Gaslighting (Abuso de Memoria)",
-      "definition": "Táctica de manipulación sistemática donde el perpetrador hace que la víctima cuestione su propia memoria, percepción de la realidad o cordura.",
-      "tacticalUse": "Se siembran dudas constantes sobre hechos pasados diciendo frases como 'Yo nunca dije eso', 'Estás imaginando cosas' o 'Tu memoria siempre falla'.",
-      "countermeasure": "Llevar registros escritos independientes, correos de confirmación y confiar en la propia percepción sin debatir los hechos con el manipulador."
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Gaslighting",
+      "definition": "Hacer dudar a alguien de su propia percepción.",
+      "tacticalUse": "Desestabilizar la confianza.",
+      "countermeasure": "Mantener registros objetivos."
     },
     {
-      "id": "fc2",
-      "term": "Anclaje Emocional",
-      "definition": "Asociación neurológica establecida entre un estímulo sensorial externo (un sonido, tacto, palabra) y un estado emocional interno específico.",
-      "tacticalUse": "Tocar el hombro de alguien repetidamente justo cuando se está riendo y experimentando máxima felicidad, para luego usar ese mismo toque cuando esté triste para reconfortarlo/influenciarlo.",
-      "countermeasure": "Detectar patrones físicos inusuales repetitivos en conversaciones tensas y romper el patrón interrumpiendo el contacto visual o cambiando de postura."
+      "id": "FC002",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Encuadre",
+      "definition": "Presentar información bajo una luz específica.",
+      "tacticalUse": "Influir en la toma de decisiones.",
+      "countermeasure": "Reencuadrar con hechos."
     },
     {
-      "id": "fc3",
-      "term": "Doble Vínculo (Double Bind)",
-      "definition": "Estructura lingüística de control que presenta dos opciones alternativas como únicas vías, ocultando que ambas opciones favorecen los intereses de quien las propone.",
-      "tacticalUse": "Preguntar: '¿Prefieres que discutamos tu aumento el lunes a primera hora o el viernes por la tarde?', impidiendo que la persona elija no discutir el tema o aplazarlo indefinidamente.",
-      "countermeasure": "Identificar la falsa dicotomía del dilema planteado y responder saliéndose de los parámetros sugeridos: 'Ninguno de esos días me va bien, propongo el miércoles'."
+      "id": "FC003",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Auto-manipulación",
+      "definition": "Engañarse a uno mismo para justificar actos.",
+      "tacticalUse": "Reducción de disonancia cognitiva.",
+      "countermeasure": "Introspección radical."
     },
     {
-      "id": "fc4",
-      "term": "Presuposición Lingüística",
-      "definition": "Herramienta que inserta de manera implícita una premisa dentro de una frase, de modo que el oyente deba aceptarla subconscientemente como verdadera para responder.",
-      "tacticalUse": "Decir '¿Cómo planeas solucionar tu evidente falta de compromiso con el equipo?' da por sentado que la persona no está comprometida, colocándola a la defensiva.",
-      "countermeasure": "Cuestionar directamente la premisa implícita antes de responder al resto de la pregunta: 'Primero, rechazo la idea de que no estoy comprometido con el equipo; mi historial demuestra lo contrario'."
+      "id": "FC004",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Refuerzo Intermitente",
+      "definition": "Premiar de forma inconsistente.",
+      "tacticalUse": "Crear adicción emocional.",
+      "countermeasure": "Reconocimiento del patrón."
     },
     {
-      "id": "fc5",
+      "id": "FC005",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Proyección",
+      "definition": "Atribuir rasgos propios a otros.",
+      "tacticalUse": "Desviar la culpa.",
+      "countermeasure": "Análisis de la fuente."
+    },
+    {
+      "id": "FC006",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Ambigüedad",
+      "definition": "Uso de lenguaje con múltiples sentidos.",
+      "tacticalUse": "Evitar compromisos claros.",
+      "countermeasure": "Solicitar definiciones precisas."
+    },
+    {
+      "id": "FC007",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Sesgo de Confirmación",
+      "definition": "Buscar solo lo que valida tus creencias.",
+      "tacticalUse": "Reforzar la visión del manipulador.",
+      "countermeasure": "Buscar evidencia contraria."
+    },
+    {
+      "id": "FC008",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Disonancia Cognitiva",
+      "definition": "Conflicto entre creencias y acciones.",
+      "tacticalUse": "Forzar cambios de opinión.",
+      "countermeasure": "Aceptar la incomodidad."
+    },
+    {
+      "id": "FC009",
+      "bookNumber": 1,
+      "category": "Conceptos",
       "term": "Triangulación",
-      "definition": "Maniobra que introduce la presencia real o sugerida de una tercera persona dentro de una relación de dos, con el fin de instigar dinámicas de celos y rivalidad.",
-      "tacticalUse": "Mencionar constantemente las virtudes de un competidor laboral o una expareja para mermar la autoestima de la víctima y hacer que esta se esfuerce el doble por agradar.",
-      "countermeasure": "Reconocer el juego de comparación y negarse a competir. Validar las propias capacidades sin caer en la trampa de buscar igualar los estándares del tercero introducido."
+      "definition": "Involucrar a un tercero para controlar.",
+      "tacticalUse": "Generar inseguridad.",
+      "countermeasure": "Comunicación directa."
+    },
+    {
+      "id": "FC010",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Bombardeo de amor",
+      "definition": "Exceso de afecto inicial.",
+      "tacticalUse": "Crear dependencia rápida.",
+      "countermeasure": "Establecer límites lentos."
+    },
+    {
+      "id": "FC011",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Victimización",
+      "definition": "Hacerse pasar por víctima.",
+      "tacticalUse": "Manipular la empatía.",
+      "countermeasure": "Evaluar hechos, no emociones."
+    },
+    {
+      "id": "FC012",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Silencio punitivo",
+      "definition": "Dejar de hablar para castigar.",
+      "tacticalUse": "Controlar mediante ansiedad.",
+      "countermeasure": "No reaccionar al silencio."
+    },
+    {
+      "id": "FC013",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Culpabilización",
+      "definition": "Hacer sentir responsable al otro.",
+      "tacticalUse": "Controlar el comportamiento.",
+      "countermeasure": "Analizar la responsabilidad real."
+    },
+    {
+      "id": "FC014",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Falsa urgencia",
+      "definition": "Crear presión de tiempo artificial.",
+      "tacticalUse": "Evitar el pensamiento crítico.",
+      "countermeasure": "Pausar la decisión."
+    },
+    {
+      "id": "FC015",
+      "bookNumber": 1,
+      "category": "Conceptos",
+      "term": "Lenguaje corporal",
+      "definition": "Señales no verbales.",
+      "tacticalUse": "Transmitir autoridad falsa.",
+      "countermeasure": "Observar incongruencias."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM001",
+      "category": "Verbal",
+      "name": "La Técnica del Eco",
+      "severity": "Baja",
+      "icon": "echo",
+      "howItWorks": "Repetir las últimas palabras del otro.",
+      "redFlags": "Sentir que hablas demasiado.",
+      "counterScript": "Hacer una pausa y preguntar por qué repiten.",
+      "deepMechanism": "Genera confianza artificial."
+    },
+    {
+      "id": "TM002",
+      "category": "Cognitiva",
+      "name": "Sobrecarga de Información",
+      "severity": "Alta",
+      "icon": "brain",
+      "howItWorks": "Bombardear con datos irrelevantes.",
+      "redFlags": "Confusión mental.",
+      "counterScript": "Pedir un resumen de un punto.",
+      "deepMechanism": "Agota la capacidad analítica."
+    },
+    {
+      "id": "TM003",
+      "category": "Emocional",
+      "name": "Inducción de Culpa",
+      "severity": "Media",
+      "icon": "heart-break",
+      "howItWorks": "Recordar favores pasados.",
+      "redFlags": "Sentimiento de deuda.",
+      "counterScript": "Agradecer y establecer límites.",
+      "deepMechanism": "Activa el instinto de reciprocidad."
+    },
+    {
+      "id": "TM004",
+      "category": "Verbal",
+      "name": "Suposición de Acuerdo",
+      "severity": "Baja",
+      "icon": "check",
+      "howItWorks": "Asumir que el otro está de acuerdo.",
+      "redFlags": "Sentir presión social.",
+      "counterScript": "Clarificar que no se ha decidido.",
+      "deepMechanism": "Aprovecha la inercia social."
+    },
+    {
+      "id": "TM005",
+      "category": "Cognitiva",
+      "name": "Falsa Elección",
+      "severity": "Media",
+      "icon": "choice",
+      "howItWorks": "Dar dos opciones que convienen.",
+      "redFlags": "Sentir falta de alternativas.",
+      "counterScript": "Proponer una tercera opción.",
+      "deepMechanism": "Limita el marco de decisión."
+    },
+    {
+      "id": "TM006",
+      "category": "Emocional",
+      "name": "Aislamiento",
+      "severity": "Muy Alta",
+      "icon": "lock",
+      "howItWorks": "Separar a la víctima de su red.",
+      "redFlags": "Dependencia exclusiva.",
+      "counterScript": "Mantener contacto externo.",
+      "deepMechanism": "Elimina fuentes de validación."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal de la manipulación de la memoria?",
+      "options": [
+        "Ayudar a recordar",
+        "Dudar de la propia percepción",
+        "Mejorar la creatividad",
+        "Ninguna"
+      ],
+      "correctIndex": 1,
+      "explanation": "El objetivo es erosionar la confianza en el juicio propio."
+    },
+    {
+      "id": "Q002",
+      "bookNumber": 1,
+      "question": "¿Qué es el bombardeo de amor?",
+      "options": [
+        "Un ataque militar",
+        "Exceso de afecto inicial",
+        "Un tipo de regalo",
+        "Una técnica de ventas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una táctica para crear dependencia emocional rápida."
+    },
+    {
+      "id": "Q003",
+      "bookNumber": 1,
+      "question": "¿Cómo se combate la falsa urgencia?",
+      "options": [
+        "Corriendo",
+        "Pausando la decisión",
+        "Aceptando de inmediato",
+        "Gritando"
+      ],
+      "correctIndex": 1,
+      "explanation": "La pausa permite recuperar el pensamiento crítico."
+    },
+    {
+      "id": "Q004",
+      "bookNumber": 1,
+      "question": "¿Qué es la auto-manipulación?",
+      "options": [
+        "Engañarse a uno mismo",
+        "Ayudarse a estudiar",
+        "Hacer ejercicio",
+        "Meditar"
+      ],
+      "correctIndex": 0,
+      "explanation": "Es el proceso de justificar actos propios mediante engaño interno."
+    },
+    {
+      "id": "Q005",
+      "bookNumber": 1,
+      "question": "¿Qué es la triangulación?",
+      "options": [
+        "Un triángulo amoroso",
+        "Involucrar a un tercero",
+        "Dibujar formas",
+        "Un deporte"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se usa para generar inseguridad mediante un tercero."
+    },
+    {
+      "id": "Q006",
+      "bookNumber": 1,
+      "question": "¿Por qué el manipulador usa jerga técnica?",
+      "options": [
+        "Para enseñar",
+        "Para confundir",
+        "Para ser elegante",
+        "Para divertirse"
+      ],
+      "correctIndex": 1,
+      "explanation": "La jerga técnica actúa como un velo para ocultar intenciones."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G001",
+      "term": "Manipulación",
+      "category": "General",
+      "definition": "Influencia oculta sobre otros.",
+      "practicalExample": "Convencer a alguien sin que lo note."
+    },
+    {
+      "id": "G002",
+      "term": "Gaslighting",
+      "category": "Psicología",
+      "definition": "Distorsión de la realidad ajena.",
+      "practicalExample": "Decir 'eso nunca pasó'."
+    },
+    {
+      "id": "G003",
+      "term": "Narcisismo",
+      "category": "Personalidad",
+      "definition": "Necesidad de admiración excesiva.",
+      "practicalExample": "Hablar solo de uno mismo."
+    },
+    {
+      "id": "G004",
+      "term": "Disonancia",
+      "category": "Cognitiva",
+      "definition": "Conflicto de creencias.",
+      "practicalExample": "Hacer algo que odias."
+    },
+    {
+      "id": "G005",
+      "term": "Sesgo",
+      "category": "Cognitiva",
+      "definition": "Error sistemático de juicio.",
+      "practicalExample": "Ver solo lo que quieres."
+    },
+    {
+      "id": "G006",
+      "term": "Encuadre",
+      "category": "Verbal",
+      "definition": "Contexto de una idea.",
+      "practicalExample": "Presentar un costo como inversión."
+    },
+    {
+      "id": "G007",
+      "term": "Proyección",
+      "category": "Psicología",
+      "definition": "Atribuir defectos propios.",
+      "practicalExample": "Llamar mentiroso al otro."
+    },
+    {
+      "id": "G008",
+      "term": "Triangulación",
+      "category": "Social",
+      "definition": "Uso de terceros.",
+      "practicalExample": "Comparar con otra persona."
+    },
+    {
+      "id": "G009",
+      "term": "Reciprocidad",
+      "category": "Social",
+      "definition": "Deuda moral.",
+      "practicalExample": "Hacer un favor para cobrarlo."
+    },
+    {
+      "id": "G010",
+      "term": "Autoridad",
+      "category": "Social",
+      "definition": "Poder percibido.",
+      "practicalExample": "Usar uniforme para influir."
+    },
+    {
+      "id": "G011",
+      "term": "Empatía",
+      "category": "Psicología",
+      "definition": "Capacidad de sentir al otro.",
+      "practicalExample": "Usada como arma por manipuladores."
+    },
+    {
+      "id": "G012",
+      "term": "Límites",
+      "category": "Personal",
+      "definition": "Barreras de respeto.",
+      "practicalExample": "Decir 'no' claramente."
+    },
+    {
+      "id": "G013",
+      "term": "Introspección",
+      "category": "Personal",
+      "definition": "Mirar hacia adentro.",
+      "practicalExample": "Analizar tus motivos."
+    },
+    {
+      "id": "G014",
+      "term": "Asertividad",
+      "category": "Verbal",
+      "definition": "Expresión clara.",
+      "practicalExample": "Defenderse sin agredir."
+    },
+    {
+      "id": "G015",
+      "term": "Resiliencia",
+      "category": "Psicología",
+      "definition": "Capacidad de recuperación.",
+      "practicalExample": "Superar un engaño."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL001",
+      "category": "Defensa",
+      "title": "Postura Cerrada",
+      "cue": "Brazos cruzados",
+      "interpretation": "Resistencia o inseguridad.",
+      "practicalDrill": "Descruzar brazos al hablar."
+    },
+    {
+      "id": "BL002",
+      "category": "Detección",
+      "title": "Contacto Visual",
+      "cue": "Mirada fija excesiva",
+      "interpretation": "Intento de intimidación.",
+      "practicalDrill": "Romper contacto visual brevemente."
+    },
+    {
+      "id": "BL003",
+      "category": "Defensa",
+      "title": "Microexpresiones",
+      "cue": "Desprecio unilateral",
+      "interpretation": "Superioridad oculta.",
+      "practicalDrill": "Observar la comisura labial."
+    },
+    {
+      "id": "BL004",
+      "category": "Detección",
+      "title": "Incongruencia",
+      "cue": "Decir sí con la cabeza y no con palabras",
+      "interpretation": "Duda o mentira.",
+      "practicalDrill": "Preguntar para confirmar."
+    },
+    {
+      "id": "BL005",
+      "category": "Defensa",
+      "title": "Espacio Personal",
+      "cue": "Invasión del espacio",
+      "interpretation": "Dominancia física.",
+      "practicalDrill": "Dar un paso atrás."
+    },
+    {
+      "id": "BL006",
+      "category": "Detección",
+      "title": "Gestos de Autocalmado",
+      "cue": "Tocarse el cuello",
+      "interpretation": "Ansiedad o engaño.",
+      "practicalDrill": "Observar el momento del gesto."
     }
   ]
 };

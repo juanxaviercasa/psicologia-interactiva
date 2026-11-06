@@ -3081,67 +3081,584 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Contramanipulación en el Ámbito Corporativo",
-      "title": "El Enigma del Socio en la Sombra",
-      "difficulty": "Alta",
-      "badge": "Maestro en Contramanipulación",
-      "scenarioDescription": "Trabajas como director de proyectos en una firma tecnológica. Un colega del mismo rango, Julián, desea quedarse con la dirección del nuevo departamento de Inteligencia Artificial. En lugar de competir abiertamente, Julián ha comenzado a aplicar manipulación en segundo plano: utiliza la 'Incompetencia Instrumental' retrasando la entrega de datos críticos de su área que tú necesitas para tu presentación, mientras aplica 'Triangulación' comentándole sutilmente al Director General que 'te nota sumamente estresado y sobrecargado con las nuevas metodologías'. El Director General, influenciado, te sugiere en una charla informal delegar la presentación final a Julián para 'aliviar tu carga'. ¿Cómo desarmas esta estrategia sin parecer agresivo ni victimizarte?",
+      "id": "CS-001",
+      "category": "Foot-in-the-Door",
+      "title": "La pequeña petición",
+      "difficulty": "Easy",
+      "badge": "Novato",
+      "scenarioDescription": "Un colega te pide un favor insignificante. Sabes que es el inicio de una técnica FITD.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aceptar la sugerencia formalmente pero blindando el proceso: Documentar los retrasos de Julián con métricas frías, solicitar una reunión tripartita con el Director y Julián para 'sincronizar el flujo de trabajo del que Julián tiene dificultades de entrega', y presentar un borrador impecable demostrando dominio absoluto para desmentir la supuesta sobrecarga.",
-          "outcome": "Éxito rotundo",
-          "wisdomScore": 100,
-          "analysis": "Esta opción desarma la triangulación al forzar la comunicación directa cara a cara (reunión tripartita), lo cual expone de inmediato las mentiras del manipulador en segundo plano. Al usar métricas frías de entrega, la supuesta 'incompetencia' de Julián deja de ser un escudo táctico y pasa a ser un problema de rendimiento documentado ante la dirección, anulando su falsa preocupación por tu carga de trabajo.",
-          "bookInsight": "El libro enseña que los manipuladores en segundo plano colapsan cuando se les quita la máscara del anonimato o de la intermediación, y se les expone a la luz de los datos duros, la rendición de cuentas pública y la comunicación directa."
+          "text": "Aceptar el favor pequeño",
+          "outcome": "Vulnerable",
+          "wisdomScore": 20,
+          "analysis": "Al ceder, activas el compromiso de coherencia.",
+          "bookInsight": "El capítulo 1 detalla cómo el primer paso abre la puerta a peticiones mayores."
         },
         {
-          "id": "opt2",
-          "text": "Confrontar a Julián airadamente en la oficina para exigirle que te entregue los datos y enviarle un correo electrónico con copia al Director General acusándolo directamente de sabotaje, manipulación sistemática y de querer robarse tu puesto.",
-          "outcome": "Fallo táctico grave",
+          "text": "Rechazar cortésmente",
+          "outcome": "Seguro",
+          "wisdomScore": 90,
+          "analysis": "Mantienes tus límites intactos.",
+          "bookInsight": "La asertividad es el escudo contra la manipulación gradual."
+        }
+      ]
+    },
+    {
+      "id": "CS-002",
+      "category": "Persuasión",
+      "title": "El dilema del vendedor",
+      "difficulty": "Medium",
+      "badge": "Analista",
+      "scenarioDescription": "Un vendedor usa presión temporal para que compres un servicio.",
+      "options": [
+        {
+          "text": "Comprar bajo presión",
+          "outcome": "Manipulado",
+          "wisdomScore": 30,
+          "analysis": "La urgencia artificial es una técnica de control.",
+          "bookInsight": "La persuasión vs manipulación radica en la libertad de elección."
+        },
+        {
+          "text": "Pedir tiempo para pensar",
+          "outcome": "Empoderado",
+          "wisdomScore": 85,
+          "analysis": "Rompes el ciclo de urgencia.",
+          "bookInsight": "El control mental requiere que la víctima no piense racionalmente."
+        }
+      ]
+    },
+    {
+      "id": "CS-003",
+      "category": "Control Social",
+      "title": "La presión de grupo",
+      "difficulty": "Hard",
+      "badge": "Estratega",
+      "scenarioDescription": "Tus amigos insisten en una decisión que va contra tus valores.",
+      "options": [
+        {
+          "text": "Ceder para encajar",
+          "outcome": "Sometido",
+          "wisdomScore": 10,
+          "analysis": "La necesidad de pertenencia es usada en tu contra.",
+          "bookInsight": "La sociedad utiliza el control mental para estandarizar conductas."
+        },
+        {
+          "text": "Mantener tu postura",
+          "outcome": "Independiente",
+          "wisdomScore": 95,
+          "analysis": "La integridad es la mayor defensa.",
+          "bookInsight": "El individuo consciente es inmune a la manipulación masiva."
+        }
+      ]
+    },
+    {
+      "id": "CS-004",
+      "category": "Explotación",
+      "title": "El falso experto",
+      "difficulty": "Medium",
+      "badge": "Escéptico",
+      "scenarioDescription": "Alguien usa jerga técnica para convencerte de algo dudoso.",
+      "options": [
+        {
+          "text": "Creer ciegamente",
+          "outcome": "Engañado",
+          "wisdomScore": 25,
+          "analysis": "La autoridad percibida anula el juicio crítico.",
+          "bookInsight": "El arte de la explotación se basa en la asimetría de información."
+        },
+        {
+          "text": "Verificar las fuentes",
+          "outcome": "Protegido",
+          "wisdomScore": 90,
+          "analysis": "La validación externa rompe la ilusión.",
+          "bookInsight": "La información es el antídoto contra la manipulación."
+        }
+      ]
+    },
+    {
+      "id": "CS-005",
+      "category": "Comportamiento",
+      "title": "El manipulador emocional",
+      "difficulty": "Hard",
+      "badge": "Psicólogo",
+      "scenarioDescription": "Tu pareja usa la culpa para que hagas algo que no quieres.",
+      "options": [
+        {
+          "text": "Disculparte y ceder",
+          "outcome": "Víctima",
           "wisdomScore": 15,
-          "analysis": "Al reaccionar de forma reactiva y emocional, validas perfectamente la narrativa manipuladora de Julián: el Director General confirmará visual y emocionalmente que estás 'sumamente estresado, desequilibrado y paranoico'. Julián adoptará instantáneamente el rol de víctima pacífica de tus 'ataques de ira inexplicables', consolidando su posición para heredar el proyecto.",
-          "bookInsight": "Reaccionar emocionalmente ante una táctica de difamación pasiva es exactamente lo que el manipulador busca. Al perder el autocontrol, le regalas el control de la situación y confirmas las sospechas que él sembró de manera preventiva."
+          "analysis": "Refuerzas el comportamiento manipulador.",
+          "bookInsight": "Los comportamientos manipuladores se alimentan de la culpa."
+        },
+        {
+          "text": "Establecer un límite claro",
+          "outcome": "Resiliente",
+          "wisdomScore": 95,
+          "analysis": "Cortas el ciclo de manipulación emocional.",
+          "bookInsight": "La comunicación asertiva neutraliza la culpa."
+        }
+      ]
+    },
+    {
+      "id": "CS-006",
+      "category": "Estrategias",
+      "title": "El doble mensaje",
+      "difficulty": "Hard",
+      "badge": "Maestro",
+      "scenarioDescription": "Un superior te da instrucciones contradictorias para confundirte.",
+      "options": [
+        {
+          "text": "Intentar adivinar qué quiere",
+          "outcome": "Confundido",
+          "wisdomScore": 20,
+          "analysis": "La confusión es una herramienta de control.",
+          "bookInsight": "La ambigüedad es una técnica de manipulación avanzada."
+        },
+        {
+          "text": "Solicitar aclaración por escrito",
+          "outcome": "Seguro",
+          "wisdomScore": 95,
+          "analysis": "La documentación elimina la ambigüedad.",
+          "bookInsight": "La transparencia es el enemigo del manipulador."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Gaslighting (Luz de Gas)",
-      "definition": "Patrón sistemático de manipulación psicológica donde el agresor busca sembrar la duda en el objetivo sobre su propia memoria, percepción y cordura.",
-      "tacticalUse": "Se alteran sutilmente detalles del entorno físico o de conversaciones pasadas y se niegan con total convicción ('Eso jamás pasó', 'Estás imaginando cosas'), forzando a la víctima a depender del criterio de realidad del manipulador.",
-      "countermeasure": "Mantener registros escritos objetivos, grabaciones (si es legal), bitácoras de eventos clave y externalizar la situación con un tercero de confianza neutral para validar la propia percepción."
+      "id": "FC-01",
+      "bookNumber": 1,
+      "category": "Técnica",
+      "term": "FITD",
+      "definition": "Pie en la puerta",
+      "tacticalUse": "Lograr un sí grande tras un sí pequeño",
+      "countermeasure": "Identificar la escalada"
     },
     {
-      "id": "fc2",
-      "term": "Refuerzo Intermitente",
-      "definition": "Entrega de recompensas, validación o afecto de manera impredecible y esporádica tras ciertas conductas del objetivo.",
-      "tacticalUse": "Alternar periodos de extrema frialdad y desprecio con muestras súbitas de afecto o aprobación. Esto genera una adicción bioquímica (picos de dopamina) y psicológica intensa en el objetivo, manteniéndolo ansioso por agradar.",
-      "countermeasure": "Reconocer el patrón de inconstancia y abstenerse de buscar la aprobación de quien condiciona su trato. Establecer límites basados en la consistencia conductual y no en arranques emocionales."
+      "id": "FC-02",
+      "bookNumber": 2,
+      "category": "Concepto",
+      "term": "Explotación",
+      "definition": "Uso de debilidades ajenas",
+      "tacticalUse": "Obtener beneficio personal",
+      "countermeasure": "Autoconocimiento"
     },
     {
-      "id": "fc3",
-      "term": "Proyección Culposa",
-      "definition": "Mecanismo de defensa y ataque donde el manipulador atribuye al objetivo sus propios defectos, intenciones maliciosas, errores o comportamientos reprobables.",
-      "tacticalUse": "Acusar a la pareja de infidelidad cuando el manipulador está siendo infiel, o acusar a un colega de conspirar cuando el manipulador es quien sabotea. Desvía la atención y pone al objetivo a la defensiva.",
-      "countermeasure": "No morder el anzuelo defensivo. Evitar gastar energía desmintiendo la acusación absurda; en su lugar, señalar la falta de pruebas y redirigir el foco de atención hacia los hechos tangibles del proyector."
+      "id": "FC-03",
+      "bookNumber": 3,
+      "category": "Técnica",
+      "term": "Gaslighting",
+      "definition": "Hacer dudar de la realidad",
+      "tacticalUse": "Controlar la percepción",
+      "countermeasure": "Diario de hechos"
     },
     {
-      "id": "fc4",
-      "term": "Doble Vínculo (Double Bind)",
-      "definition": "Situación comunicativa en la que una persona recibe mensajes contradictorios donde cualquier elección que tome resultará en un fallo o castigo.",
-      "tacticalUse": "Decir 'Sé más independiente' y, cuando el objetivo toma una decisión autónoma, castigarlo con frialdad por 'no tener en cuenta al equipo'. Paraliza la capacidad de acción del sujeto.",
-      "countermeasure": "Metacomunicación: señalar explícitamente la contradicción del mensaje. Exponer la paradoja de forma clara e imparcial, forzando al manipulador a definir un único estándar viable."
+      "id": "FC-04",
+      "bookNumber": 4,
+      "category": "Técnica",
+      "term": "Love Bombing",
+      "definition": "Exceso de afecto inicial",
+      "tacticalUse": "Generar dependencia",
+      "countermeasure": "Ritmo lento"
     },
     {
-      "id": "fc5",
-      "term": "Indefensión Aprendida",
-      "definition": "Estado psicológico en el que un sujeto se siente incapaz de modificar una situación dolorosa o restrictiva, aun cuando existan vías de escape reales.",
-      "tacticalUse": "Bloquear o castigar sistemáticamente todas las iniciativas autónomas del objetivo durante un periodo prolongado, hasta que este asuma que no tiene control sobre su destino y deje de intentar resistirse.",
-      "countermeasure": "Reconstruir la agencia personal mediante micro-decisiones exitosas y de bajo riesgo. Tomar control de aspectos pequeños y cotidianos para reactivar la percepción de competencia y autonomía."
+      "id": "FC-05",
+      "bookNumber": 5,
+      "category": "Técnica",
+      "term": "Triangulación",
+      "definition": "Involucrar a un tercero",
+      "tacticalUse": "Crear inseguridad",
+      "countermeasure": "Comunicación directa"
+    },
+    {
+      "id": "FC-06",
+      "bookNumber": 6,
+      "category": "Concepto",
+      "term": "Persuasión",
+      "definition": "Influencia ética",
+      "tacticalUse": "Convencer con lógica",
+      "countermeasure": "Análisis crítico"
+    },
+    {
+      "id": "FC-07",
+      "bookNumber": 7,
+      "category": "Técnica",
+      "term": "Proyección",
+      "definition": "Atribuir culpas propias",
+      "tacticalUse": "Evadir responsabilidad",
+      "countermeasure": "No internalizar"
+    },
+    {
+      "id": "FC-08",
+      "bookNumber": 8,
+      "category": "Concepto",
+      "term": "Control Mental",
+      "definition": "Anulación del juicio",
+      "tacticalUse": "Sometimiento total",
+      "countermeasure": "Pensamiento crítico"
+    },
+    {
+      "id": "FC-09",
+      "bookNumber": 9,
+      "category": "Técnica",
+      "term": "Aislamiento",
+      "definition": "Separar del entorno",
+      "tacticalUse": "Eliminar apoyos",
+      "countermeasure": "Mantener redes sociales"
+    },
+    {
+      "id": "FC-10",
+      "bookNumber": 10,
+      "category": "Técnica",
+      "term": "Cebo",
+      "definition": "Atraer con beneficios",
+      "tacticalUse": "Captación",
+      "countermeasure": "Evaluar el costo real"
+    },
+    {
+      "id": "FC-11",
+      "bookNumber": 11,
+      "category": "Concepto",
+      "term": "Disonancia",
+      "definition": "Conflicto de creencias",
+      "tacticalUse": "Forzar cambio de opinión",
+      "countermeasure": "Revisar valores"
+    },
+    {
+      "id": "FC-12",
+      "bookNumber": 12,
+      "category": "Técnica",
+      "term": "Silencio",
+      "definition": "Retirada de atención",
+      "tacticalUse": "Castigo emocional",
+      "countermeasure": "Indiferencia táctica"
+    },
+    {
+      "id": "FC-13",
+      "bookNumber": 13,
+      "category": "Concepto",
+      "term": "Autoridad",
+      "definition": "Poder percibido",
+      "tacticalUse": "Obediencia ciega",
+      "countermeasure": "Cuestionar el cargo"
+    },
+    {
+      "id": "FC-14",
+      "bookNumber": 14,
+      "category": "Técnica",
+      "term": "Miedo",
+      "definition": "Uso de amenazas",
+      "tacticalUse": "Parálisis",
+      "countermeasure": "Evaluar riesgos reales"
+    },
+    {
+      "id": "FC-15",
+      "bookNumber": 15,
+      "category": "Concepto",
+      "term": "Reciprocidad",
+      "definition": "Deuda moral",
+      "tacticalUse": "Forzar favores",
+      "countermeasure": "No aceptar regalos"
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM-01",
+      "category": "Psicología",
+      "name": "FITD",
+      "severity": "Baja",
+      "icon": "door",
+      "howItWorks": "Petición pequeña seguida de grande",
+      "redFlags": "Peticiones constantes",
+      "counterScript": "No puedo ayudarte con eso",
+      "deepMechanism": "Coherencia cognitiva"
+    },
+    {
+      "id": "TM-02",
+      "category": "Psicología",
+      "name": "Love Bombing",
+      "severity": "Alta",
+      "icon": "heart",
+      "howItWorks": "Sobrecarga de afecto",
+      "redFlags": "Intensidad inusual",
+      "counterScript": "Vamos más despacio",
+      "deepMechanism": "Dependencia dopaminérgica"
+    },
+    {
+      "id": "TM-03",
+      "category": "Psicología",
+      "name": "Gaslighting",
+      "severity": "Crítica",
+      "icon": "eye",
+      "howItWorks": "Negación de la realidad",
+      "redFlags": "Dudas sobre tu memoria",
+      "counterScript": "Yo recuerdo lo que pasó",
+      "deepMechanism": "Erosión de la identidad"
+    },
+    {
+      "id": "TM-04",
+      "category": "Psicología",
+      "name": "Triangulación",
+      "severity": "Media",
+      "icon": "triangle",
+      "howItWorks": "Uso de terceros",
+      "redFlags": "Comparaciones constantes",
+      "counterScript": "Hablemos solo nosotros",
+      "deepMechanism": "Inseguridad relacional"
+    },
+    {
+      "id": "TM-05",
+      "category": "Psicología",
+      "name": "Aislamiento",
+      "severity": "Crítica",
+      "icon": "lock",
+      "howItWorks": "Corte de lazos sociales",
+      "redFlags": "Críticas a amigos",
+      "counterScript": "Valoro mis amistades",
+      "deepMechanism": "Dependencia total"
+    },
+    {
+      "id": "TM-06",
+      "category": "Psicología",
+      "name": "Proyección",
+      "severity": "Media",
+      "icon": "mirror",
+      "howItWorks": "Culpar al otro",
+      "redFlags": "Acusaciones sin base",
+      "counterScript": "Eso es tu percepción",
+      "deepMechanism": "Mecanismo de defensa"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q-01",
+      "bookNumber": 1,
+      "question": "¿Qué es la técnica FITD?",
+      "options": [
+        "Pie en la puerta",
+        "Fuerza en la toma de decisiones",
+        "Falsa identidad"
+      ],
+      "correctIndex": 0,
+      "explanation": "FITD significa Foot-in-the-door."
+    },
+    {
+      "id": "Q-02",
+      "bookNumber": 2,
+      "question": "¿Cuál es el objetivo del Love Bombing?",
+      "options": [
+        "Generar miedo",
+        "Crear dependencia",
+        "Mejorar la comunicación"
+      ],
+      "correctIndex": 1,
+      "explanation": "Busca crear un vínculo de dependencia rápida."
+    },
+    {
+      "id": "Q-03",
+      "bookNumber": 3,
+      "question": "¿Cómo se combate el Gaslighting?",
+      "options": [
+        "Aceptando la culpa",
+        "Llevando un registro de hechos",
+        "Ignorando al otro"
+      ],
+      "correctIndex": 1,
+      "explanation": "El registro objetivo es la prueba contra la distorsión."
+    },
+    {
+      "id": "Q-04",
+      "bookNumber": 4,
+      "question": "¿Qué es la triangulación?",
+      "options": [
+        "Un triángulo amoroso",
+        "Involucrar a un tercero",
+        "Un método de venta"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se usa para desestabilizar a la víctima."
+    },
+    {
+      "id": "Q-05",
+      "bookNumber": 5,
+      "question": "¿Qué busca el aislamiento?",
+      "options": [
+        "Privacidad",
+        "Eliminar apoyos externos",
+        "Mejorar la concentración"
+      ],
+      "correctIndex": 1,
+      "explanation": "Al aislar, el manipulador se vuelve la única fuente de verdad."
+    },
+    {
+      "id": "Q-06",
+      "bookNumber": 6,
+      "question": "¿La persuasión es igual a manipulación?",
+      "options": [
+        "Sí",
+        "No, depende de la intención",
+        "Solo en ventas"
+      ],
+      "correctIndex": 1,
+      "explanation": "La persuasión respeta la autonomía, la manipulación no."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G-01",
+      "term": "Manipulación",
+      "category": "General",
+      "definition": "Control oculto",
+      "practicalExample": "Mentir para obtener algo"
+    },
+    {
+      "id": "G-02",
+      "term": "Persuasión",
+      "category": "General",
+      "definition": "Influencia ética",
+      "practicalExample": "Argumentar con datos"
+    },
+    {
+      "id": "G-03",
+      "term": "Disonancia",
+      "category": "Psicología",
+      "definition": "Conflicto mental",
+      "practicalExample": "Hacer algo que odias"
+    },
+    {
+      "id": "G-04",
+      "term": "Asertividad",
+      "category": "Defensa",
+      "definition": "Límites claros",
+      "practicalExample": "Decir no sin culpa"
+    },
+    {
+      "id": "G-05",
+      "term": "Sesgo",
+      "category": "Cognitivo",
+      "definition": "Error de juicio",
+      "practicalExample": "Creer en la autoridad"
+    },
+    {
+      "id": "G-06",
+      "term": "Coerción",
+      "category": "Control",
+      "definition": "Uso de fuerza",
+      "practicalExample": "Amenazas directas"
+    },
+    {
+      "id": "G-07",
+      "term": "Inducción",
+      "category": "Técnica",
+      "definition": "Guiar pensamientos",
+      "practicalExample": "Hacer preguntas dirigidas"
+    },
+    {
+      "id": "G-08",
+      "term": "Vulnerabilidad",
+      "category": "Psicología",
+      "definition": "Punto débil",
+      "practicalExample": "Necesidad de aprobación"
+    },
+    {
+      "id": "G-09",
+      "term": "Resiliencia",
+      "category": "Defensa",
+      "definition": "Capacidad de recuperación",
+      "practicalExample": "Superar un engaño"
+    },
+    {
+      "id": "G-10",
+      "term": "Empatía",
+      "category": "Social",
+      "definition": "Entender al otro",
+      "practicalExample": "Escucha activa"
+    },
+    {
+      "id": "G-11",
+      "term": "Sometimiento",
+      "category": "Control",
+      "definition": "Pérdida de voluntad",
+      "practicalExample": "Obediencia total"
+    },
+    {
+      "id": "G-12",
+      "term": "Estrategia",
+      "category": "Táctica",
+      "definition": "Plan de acción",
+      "practicalExample": "Preparar una respuesta"
+    },
+    {
+      "id": "G-13",
+      "term": "Percepción",
+      "category": "Cognitivo",
+      "definition": "Interpretación",
+      "practicalExample": "Ver lo que quieren"
+    },
+    {
+      "id": "G-14",
+      "term": "Integridad",
+      "category": "Defensa",
+      "definition": "Valores firmes",
+      "practicalExample": "No traicionarse"
+    },
+    {
+      "id": "G-15",
+      "term": "Validación",
+      "category": "Social",
+      "definition": "Confirmación",
+      "practicalExample": "Buscar apoyo externo"
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL-01",
+      "category": "Defensa",
+      "title": "Contacto visual",
+      "cue": "Mirada fija y prolongada",
+      "interpretation": "Intento de intimidación",
+      "practicalDrill": "Mantener mirada relajada"
+    },
+    {
+      "id": "BL-02",
+      "category": "Detección",
+      "title": "Microexpresiones",
+      "cue": "Desprecio fugaz",
+      "interpretation": "Superioridad oculta",
+      "practicalDrill": "Observar labios"
+    },
+    {
+      "id": "BL-03",
+      "category": "Defensa",
+      "title": "Postura",
+      "cue": "Invasión de espacio",
+      "interpretation": "Dominancia",
+      "practicalDrill": "Retroceder un paso"
+    },
+    {
+      "id": "BL-04",
+      "category": "Detección",
+      "title": "Gestos",
+      "cue": "Tocarse la nariz",
+      "interpretation": "Posible engaño",
+      "practicalDrill": "Analizar contexto"
+    },
+    {
+      "id": "BL-05",
+      "category": "Defensa",
+      "title": "Manos",
+      "cue": "Manos ocultas",
+      "interpretation": "Ocultamiento",
+      "practicalDrill": "Pedir ver las manos"
+    },
+    {
+      "id": "BL-06",
+      "category": "Detección",
+      "title": "Voz",
+      "cue": "Cambio de tono",
+      "interpretation": "Incomodidad",
+      "practicalDrill": "Escuchar pausas"
     }
   ]
 };
