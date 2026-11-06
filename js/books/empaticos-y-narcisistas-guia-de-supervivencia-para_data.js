@@ -10889,93 +10889,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Intervención en Dinámica Laboral Tóxica",
-      "title": "El Jefe Narcisista y el Proyecto Robado",
-      "difficulty": "Alta",
-      "badge": "Defensor de la Verdad",
-      "scenarioDescription": "Trabajas en una consultora y tu líder de equipo, un perfil marcadamente narcisista, ha presentado una propuesta estratégica elaborada por ti como si fuera 100% de su autoría ante la dirección. Cuando lo confrontas en privado, sonríe suavemente y te dice: 'No te confundas, te ayudé a estructurar esas ideas difusas. Debes ser más humilde y aprender a trabajar en equipo si quieres durar aquí. Nadie te creerá si dices que fue tuyo'. Sientes ira y una fuerte tentación de reaccionar impulsivamente.",
+      "id": "CS001",
+      "category": "Manipulación",
+      "title": "El dilema del líder",
+      "difficulty": "Hard",
+      "badge": "Maquiavelo",
+      "scenarioDescription": "Un colega intenta usar anclaje emocional para que aceptes un proyecto inviable. ¿Cómo respondes?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Documentar meticulosamente los metadatos de los archivos, correos y versiones previas, manteniendo una actitud neutral de 'Piedra Gris' ante el jefe, y presentar las evidencias de manera profesional a RRHH o Dirección Estratégica mostrando el beneficio del trabajo real.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Has evitado la trampa emocional de la confrontación impulsiva. Los narcisistas buscan que la víctima estalle para tildarla de 'inestable' o 'poco profesional'. La evidencia objetiva desmantela el Gaslighting.",
-          "bookInsight": "Ante un manipulador, la ira es combustible. Los datos concretos y el control emocional son las únicas armas invulnerables."
+          "text": "Aceptar para mantener la paz",
+          "outcome": "Manipulado",
+          "wisdomScore": 20,
+          "analysis": "Ceder ante la presión emocional es el primer paso hacia la subordinación.",
+          "bookInsight": "La vulnerabilidad ante la psicología oscura nace de la falta de límites claros."
         },
         {
-          "id": "opt2",
-          "text": "Enfrentarlo públicamente en la próxima reunión general de equipo gritando que es un ladrón de ideas, confiando en que tus compañeros de trabajo te respaldarán apasionadamente por empatía.",
-          "outcome": "Fallo",
-          "wisdomScore": 20,
-          "analysis": "Caíste en la trampa reactiva. El manipulador utilizará tu exabrupto emocional para victimizarse, tacharte de conflictivo/a y aislarte del resto del grupo, quienes probablemente se mantendrán al margen por miedo.",
-          "bookInsight": "Nunca inicies una guerra abierta contra un depredador sin antes asegurar las evidencias y sin el control estricto de tus emociones."
+          "text": "Desarticular el anclaje con preguntas lógicas",
+          "outcome": "Empoderado",
+          "wisdomScore": 95,
+          "analysis": "Romper el patrón emocional obliga al manipulador a exponer su lógica fallida.",
+          "bookInsight": "La PNL se neutraliza cuando se hace consciente el proceso subconsciente."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Límites Afectivos y Manipulación Familiar",
-      "title": "La Chantajista Emocional y la Culpa Colectiva",
-      "difficulty": "Alta",
-      "badge": "Soberanía Emocional",
-      "scenarioDescription": "Tu pareja tiene un familiar con rasgos de manipulación oscura. Este familiar decide organizar una reunión en una fecha en la que sabes que tienes compromisos laborales inamovibles. Al avisarle amablemente que no asistirás, responde en el grupo familiar: 'Está bien, veo que el trabajo es más importante que la familia que tanto ha sacrificado por ti. Tu abuela lloró al enterarse, pero no te preocupes, ya estamos acostumbrados a tus desaires'. Varios familiares comienzan a enviarte mensajes pidiéndote que ' cedas para mantener la paz'.",
+      "id": "CS002",
+      "category": "Persuasión",
+      "title": "Negociación de alto riesgo",
+      "difficulty": "Medium",
+      "badge": "Estratega",
+      "scenarioDescription": "Tu contraparte usa lenguaje corporal cerrado para intimidarte. ¿Qué haces?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Usar el Modelo Meta de PNL para responder de forma serena y pública en el grupo: 'Lamento que se interprete así. Mi compromiso laboral no cambia mi afecto por la familia. Los veré en la siguiente oportunidad', manteniendo tu decisión firme sin justificaciones excesivas.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Neutralizas la distorsión del chantaje ('trabajo = no amar a la familia') sin engancharte en discusiones culpabilizadoras. Al mantener el límite firme, le quitas efectividad a la triangulación familiar.",
-          "bookInsight": "El chantaje emocional solo funciona si aceptas la premisa de culpa que el manipulador intenta imponerte. Mantén tu postura con calma y claridad."
+          "text": "Imitar su postura para generar rapport",
+          "outcome": "Neutralizado",
+          "wisdomScore": 85,
+          "analysis": "El mirroring es una técnica de PNL efectiva para ganar confianza.",
+          "bookInsight": "El lenguaje corporal es el idioma del subconsciente."
         },
         {
-          "id": "opt2",
-          "text": "Cancelar inmediatamente tus compromisos laborales de alta importancia, disculparte profusamente en el grupo de chat y llevar un regalo costoso a la reunión para limpiar tu imagen.",
-          "outcome": "Fallo",
+          "text": "Ignorarlo y hablar más fuerte",
+          "outcome": "Fracaso",
+          "wisdomScore": 30,
+          "analysis": "La agresividad directa suele activar mecanismos de defensa en el otro.",
+          "bookInsight": "La persuasión requiere sutileza, no fuerza bruta."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Control Mental",
+      "title": "La trampa de la autoridad",
+      "difficulty": "Hard",
+      "badge": "Mentalista",
+      "scenarioDescription": "Alguien intenta usar autoridad fingida para que reveles información confidencial.",
+      "options": [
+        {
+          "text": "Verificar credenciales y mantener silencio",
+          "outcome": "Seguro",
+          "wisdomScore": 100,
+          "analysis": "La validación externa es la mejor defensa contra la ingeniería social.",
+          "bookInsight": "El control mental se basa en la asunción de autoridad no cuestionada."
+        },
+        {
+          "text": "Revelar poco para ganar su confianza",
+          "outcome": "Comprometido",
+          "wisdomScore": 10,
+          "analysis": "Has caído en la técnica de reciprocidad forzada.",
+          "bookInsight": "La información es poder; no la regales por cortesía."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Psicología Oscura",
+      "title": "El gaslighting sutil",
+      "difficulty": "Hard",
+      "badge": "Observador",
+      "scenarioDescription": "Un superior cuestiona tu memoria sobre un acuerdo previo.",
+      "options": [
+        {
+          "text": "Dudar de ti mismo",
+          "outcome": "Vulnerable",
+          "wisdomScore": 0,
+          "analysis": "El gaslighting busca destruir tu realidad para controlarte.",
+          "bookInsight": "La autoconfianza es el escudo contra la manipulación psicológica."
+        },
+        {
+          "text": "Presentar evidencia escrita",
+          "outcome": "Resiliente",
+          "wisdomScore": 90,
+          "analysis": "La objetividad es el antídoto contra la distorsión de la realidad.",
+          "bookInsight": "La psicología oscura prospera en la ambigüedad."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Persuasión",
+      "title": "Venta bajo presión",
+      "difficulty": "Medium",
+      "badge": "Persuasor",
+      "scenarioDescription": "Un vendedor usa la técnica de escasez para presionarte.",
+      "options": [
+        {
+          "text": "Comprar por miedo a perder",
+          "outcome": "Manipulado",
           "wisdomScore": 15,
-          "analysis": "Has recompensado y reforzado la conducta de manipulación mediante la culpa. Has demostrado al manipulador que para someterte solo necesita involucrar a otros e infundir vergüenza pública.",
-          "bookInsight": "Ceder ante el chantaje emocional para 'mantener la paz' solo garantiza la pérdida permanente de tu autonomía y el incremento del abuso."
+          "analysis": "El miedo es el disparador emocional más básico.",
+          "bookInsight": "La escasez es una construcción mental, no una realidad."
+        },
+        {
+          "text": "Pausar la decisión 24 horas",
+          "outcome": "Controlado",
+          "wisdomScore": 95,
+          "analysis": "El tiempo desactiva la urgencia artificial.",
+          "bookInsight": "La pausa es la herramienta más poderosa del negociador."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Control Mental",
+      "title": "La influencia del grupo",
+      "difficulty": "Medium",
+      "badge": "Líder",
+      "scenarioDescription": "El grupo presiona para una decisión que consideras poco ética.",
+      "options": [
+        {
+          "text": "Seguir al grupo para encajar",
+          "outcome": "Seguidor",
+          "wisdomScore": 25,
+          "analysis": "La presión de grupo anula el pensamiento crítico.",
+          "bookInsight": "El individuo pierde su poder cuando se disuelve en la masa."
+        },
+        {
+          "text": "Cuestionar la ética públicamente",
+          "outcome": "Líder",
+          "wisdomScore": 90,
+          "analysis": "Romper el consenso es un acto de poder individual.",
+          "bookInsight": "La independencia mental es la base de la verdadera influencia."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Gaslighting (Luz de Gas)",
-      "definition": "Técnica de manipulación psicológica donde el agresor distorsiona la realidad para hacer que la víctima dude de su propia memoria, percepción o cordura.",
-      "tacticalUse": "Usado para invalidar los reclamos de la víctima mediante frases como 'eso nunca pasó', 'estás exagerando' o 'estás loca/o'.",
-      "countermeasure": "Llevar un diario de registro escrito de hechos, verificar la realidad con observadores externos neutrales y no debatir sobre la propia percepción con el manipulador."
+      "id": "F01",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Anclaje",
+      "definition": "Asociar un estímulo externo con un estado emocional.",
+      "tacticalUse": "Crear estados de confianza en otros.",
+      "countermeasure": "Identificar el estímulo y romper la asociación."
     },
     {
-      "id": "fc2",
+      "id": "F02",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Hacer dudar a alguien de su propia percepción.",
+      "tacticalUse": "Desestabilizar la confianza del objetivo.",
+      "countermeasure": "Mantener registros objetivos y buscar validación externa."
+    },
+    {
+      "id": "F03",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Reciprocidad",
+      "definition": "Sentir la obligación de devolver un favor.",
+      "tacticalUse": "Dar algo pequeño para obtener algo grande.",
+      "countermeasure": "Aceptar el regalo sin sentir deuda moral."
+    },
+    {
+      "id": "F04",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Mirroring",
+      "definition": "Imitar gestos y lenguaje del otro.",
+      "tacticalUse": "Generar rapport instantáneo.",
+      "countermeasure": "Observar si el otro imita tus movimientos."
+    },
+    {
+      "id": "F05",
+      "bookNumber": 2,
+      "category": "Control Mental",
+      "term": "Aislamiento",
+      "definition": "Separar al sujeto de sus fuentes de apoyo.",
+      "tacticalUse": "Hacer al sujeto dependiente del manipulador.",
+      "countermeasure": "Mantener redes sociales y familiares fuertes."
+    },
+    {
+      "id": "F06",
+      "bookNumber": 2,
+      "category": "Psicología Oscura",
+      "term": "Love Bombing",
+      "definition": "Exceso de afecto para ganar control.",
+      "tacticalUse": "Crear dependencia emocional rápida.",
+      "countermeasure": "Establecer límites de tiempo y espacio."
+    },
+    {
+      "id": "F07",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Escasez",
+      "definition": "Crear urgencia mediante la limitación.",
+      "tacticalUse": "Forzar una decisión rápida.",
+      "countermeasure": "Evaluar el valor real sin la presión del tiempo."
+    },
+    {
+      "id": "F08",
+      "bookNumber": 2,
+      "category": "Control Mental",
+      "term": "Hipnosis",
+      "definition": "Estado de sugestión profunda.",
+      "tacticalUse": "Insertar ideas en el subconsciente.",
+      "countermeasure": "Mantener pensamiento crítico activo."
+    },
+    {
+      "id": "F09",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Calibración",
+      "definition": "Leer señales sutiles del cuerpo.",
+      "tacticalUse": "Detectar mentiras o estados internos.",
+      "countermeasure": "Controlar microexpresiones faciales."
+    },
+    {
+      "id": "F10",
+      "bookNumber": 2,
+      "category": "Psicología Oscura",
       "term": "Triangulación",
-      "definition": "Estrategia donde el manipulador introduce a una tercera persona en la dinámica relacional para crear celos, competencia e inseguridad en la víctima.",
-      "tacticalUse": "El narcisista elogia constantemente a una expareja o compañero de trabajo frente a su pareja actual para mantenerla desestabilizada y buscando su aprobación.",
-      "countermeasure": "Reconocer el patrón de comparación ficticia, rehusarse a competir por la validación del manipulador y mantener la atención en los propios límites."
+      "definition": "Introducir a un tercero para crear conflicto.",
+      "tacticalUse": "Desestabilizar una relación.",
+      "countermeasure": "Comunicación directa con el afectado."
     },
     {
-      "id": "fc3",
-      "term": "Modelo Meta (PNL)",
-      "definition": "Conjunto de herramientas lingüísticas estructuradas en preguntas precisas para identificar y aclarar generalizaciones, distorsiones u omisiones en el lenguaje.",
-      "tacticalUse": "Desarmar afirmaciones manipuladoras vagas como 'nadie te quiere en esta oficina' mediante la pregunta '¿Quién específicamente no me quiere?'.",
-      "countermeasure": "Cuestionar amablemente las afirmaciones globales demanding evidencias concretas y especificación."
+      "id": "F11",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Autoridad",
+      "definition": "Usar símbolos de poder para influir.",
+      "tacticalUse": "Obtener obediencia ciega.",
+      "countermeasure": "Cuestionar la fuente de la autoridad."
     },
     {
-      "id": "fc4",
-      "term": "Estrategia de la Piedra Gris (Grey Rock)",
-      "definition": "Método de protección conductual donde la persona se vuelve tan inexpresiva, aburrida e indiferente emocionalmente como una piedra.",
-      "tacticalUse": "Respuestas cortas, neutras y desprovistas de carga emocional ('sí', 'no', 'está bien') cuando no es posible el Contacto Cero por motivos laborales o de custodia.",
-      "countermeasure": "Privar al narcisista del suministro emocional (dramatismo, enojo, llanto) para que pierda el interés y busque otra fuente."
+      "id": "F12",
+      "bookNumber": 2,
+      "category": "Control Mental",
+      "term": "Repetición",
+      "definition": "Repetir mensajes para normalizarlos.",
+      "tacticalUse": "Cambiar creencias a largo plazo.",
+      "countermeasure": "Analizar la fuente y el propósito del mensaje."
     },
     {
-      "id": "fc5",
-      "term": "Anclaje Emocional Desintegrador",
-      "definition": "Técnica de PNL que consistente en asociar un estímulo sensorial específico (un toque, un sonido, una mirada) a un estado de angustia o culpa acumulada.",
-      "tacticalUse": "El manipulador frunce el ceño o aclara la garganta de cierta forma justo antes de desatar un ataque verbal, logrando que el simple gesto condicione el miedo en la víctima.",
-      "countermeasure": "Tomar conciencia del patrón estímulo-respuesta, romper el estado fisiológico al detectar la señal y colapsar el anclaje mediante un pensamiento o postura de poder contrastante."
+      "id": "F13",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Reencuadre",
+      "definition": "Cambiar el contexto de una situación.",
+      "tacticalUse": "Transformar una debilidad en fortaleza.",
+      "countermeasure": "Analizar los hechos desde múltiples ángulos."
+    },
+    {
+      "id": "F14",
+      "bookNumber": 2,
+      "category": "Psicología Oscura",
+      "term": "Culpabilización",
+      "definition": "Hacer sentir responsable al otro.",
+      "tacticalUse": "Obtener concesiones por remordimiento.",
+      "countermeasure": "Analizar la responsabilidad real objetiva."
+    },
+    {
+      "id": "F15",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Consenso",
+      "definition": "Usar la presión social para influir.",
+      "tacticalUse": "Hacer que el sujeto siga a la mayoría.",
+      "countermeasure": "Evaluar la decisión independientemente."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Persuasión",
+      "name": "Anclaje Emocional",
+      "severity": "Medium",
+      "icon": "Anchor",
+      "howItWorks": "Vincula un estado emocional a un gesto físico.",
+      "redFlags": "Cambios bruscos de humor tras un gesto.",
+      "counterScript": "Eso es interesante, pero no veo la conexión lógica.",
+      "deepMechanism": "Condicionamiento clásico pavloviano."
+    },
+    {
+      "id": "TM02",
+      "category": "Manipulación",
+      "name": "Gaslighting",
+      "severity": "High",
+      "icon": "Cloud",
+      "howItWorks": "Niega la realidad del otro sistemáticamente.",
+      "redFlags": "Dudas constantes sobre tu propia memoria.",
+      "counterScript": "Mis registros indican algo distinto, revisemos.",
+      "deepMechanism": "Erosión de la identidad y realidad propia."
+    },
+    {
+      "id": "TM03",
+      "category": "Control Mental",
+      "name": "Aislamiento",
+      "severity": "Critical",
+      "icon": "Lock",
+      "howItWorks": "Corta lazos con el entorno del sujeto.",
+      "redFlags": "Críticas constantes a tus amigos/familia.",
+      "counterScript": "Valoro mis relaciones externas, no son negociables.",
+      "deepMechanism": "Dependencia total del manipulador."
+    },
+    {
+      "id": "TM04",
+      "category": "Persuasión",
+      "name": "Reciprocidad",
+      "severity": "Low",
+      "icon": "Handshake",
+      "howItWorks": "Ofrece algo pequeño para recibir algo grande.",
+      "redFlags": "Favores no solicitados.",
+      "counterScript": "Gracias, pero no puedo aceptar este compromiso.",
+      "deepMechanism": "Norma social de deuda."
+    },
+    {
+      "id": "TM05",
+      "category": "Psicología Oscura",
+      "name": "Love Bombing",
+      "severity": "High",
+      "icon": "Heart",
+      "howItWorks": "Sobrecarga de afecto inicial.",
+      "redFlags": "Intensidad desproporcionada al tiempo de conocerse.",
+      "counterScript": "Prefiero ir más despacio para conocernos bien.",
+      "deepMechanism": "Dopamina y validación externa."
+    },
+    {
+      "id": "TM06",
+      "category": "Control Mental",
+      "name": "Sugestión Hipnótica",
+      "severity": "High",
+      "icon": "Eye",
+      "howItWorks": "Uso de lenguaje vago para inducir trance.",
+      "redFlags": "Somnolencia o pérdida de foco en la conversación.",
+      "counterScript": "Podrías ser más específico con eso?",
+      "deepMechanism": "Acceso directo al sistema límbico."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Cuál es la diferencia principal entre persuasión y manipulación?",
+      "options": [
+        "La intención",
+        "El resultado",
+        "El lenguaje usado",
+        "La velocidad"
+      ],
+      "correctIndex": 0,
+      "explanation": "La persuasión busca un beneficio mutuo, la manipulación busca el beneficio propio a costa del otro."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 1,
+      "question": "¿Qué es el anclaje en PNL?",
+      "options": [
+        "Un tipo de barco",
+        "Un estímulo que dispara una respuesta",
+        "Una técnica de ventas",
+        "Un ejercicio físico"
+      ],
+      "correctIndex": 1,
+      "explanation": "El anclaje vincula un estímulo externo con una respuesta interna específica."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 2,
+      "question": "¿Qué busca el gaslighting?",
+      "options": [
+        "Ayudar a la memoria",
+        "Desestabilizar la realidad del otro",
+        "Mejorar la comunicación",
+        "Aumentar la confianza"
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting es una forma de abuso psicológico para que la víctima dude de su juicio."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "¿Qué técnica usa la escasez?",
+      "options": [
+        "Abundancia",
+        "Urgencia",
+        "Lógica pura",
+        "Empatía"
+      ],
+      "correctIndex": 1,
+      "explanation": "La escasez crea urgencia al limitar el acceso a un recurso."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 2,
+      "question": "¿Qué es el love bombing?",
+      "options": [
+        "Un ataque militar",
+        "Un exceso de afecto para manipular",
+        "Una técnica de marketing",
+        "Un tipo de terapia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una táctica para crear dependencia emocional rápida mediante afecto desmedido."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 1,
+      "question": "¿Qué es el mirroring?",
+      "options": [
+        "Mirarse al espejo",
+        "Imitar el lenguaje corporal del otro",
+        "Hablar solo",
+        "Escribir un diario"
+      ],
+      "correctIndex": 1,
+      "explanation": "El mirroring es una técnica de PNL para generar rapport y confianza."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "PNL",
+      "category": "Teoría",
+      "definition": "Programación Neurolingüística.",
+      "practicalExample": "Usar lenguaje para reprogramar patrones mentales."
+    },
+    {
+      "id": "G02",
+      "term": "Rapport",
+      "category": "Persuasión",
+      "definition": "Sintonía con otra persona.",
+      "practicalExample": "Lograr que el otro se sienta cómodo contigo."
+    },
+    {
+      "id": "G03",
+      "term": "Subconsciente",
+      "category": "Psicología",
+      "definition": "Parte de la mente fuera de la conciencia.",
+      "practicalExample": "Donde residen los sesgos y hábitos."
+    },
+    {
+      "id": "G04",
+      "term": "Sesgo",
+      "category": "Psicología",
+      "definition": "Error sistemático de pensamiento.",
+      "practicalExample": "Sesgo de confirmación al buscar datos."
+    },
+    {
+      "id": "G05",
+      "term": "Ingeniería Social",
+      "category": "Manipulación",
+      "definition": "Manipular personas para obtener datos.",
+      "practicalExample": "Hacerse pasar por técnico para obtener claves."
+    },
+    {
+      "id": "G06",
+      "term": "Trance",
+      "category": "Control Mental",
+      "definition": "Estado de atención focalizada.",
+      "practicalExample": "Inducido por hipnosis o lenguaje repetitivo."
+    },
+    {
+      "id": "G07",
+      "term": "Microexpresión",
+      "category": "Lenguaje Corporal",
+      "definition": "Gestos faciales breves.",
+      "practicalExample": "Detectar una mentira por un gesto de un segundo."
+    },
+    {
+      "id": "G08",
+      "term": "Sugestión",
+      "category": "Persuasión",
+      "definition": "Influencia indirecta.",
+      "practicalExample": "Sugerir una idea como si fuera del otro."
+    },
+    {
+      "id": "G09",
+      "term": "Patrón",
+      "category": "PNL",
+      "definition": "Secuencia de comportamiento.",
+      "practicalExample": "Romper un patrón de respuesta automática."
+    },
+    {
+      "id": "G10",
+      "term": "Límbico",
+      "category": "Psicología",
+      "definition": "Sistema emocional del cerebro.",
+      "practicalExample": "Donde se activan las respuestas de lucha o huida."
+    },
+    {
+      "id": "G11",
+      "term": "Asertividad",
+      "category": "Defensa",
+      "definition": "Comunicación directa y respetuosa.",
+      "practicalExample": "Decir no sin sentirse culpable."
+    },
+    {
+      "id": "G12",
+      "term": "Condicionamiento",
+      "category": "Psicología",
+      "definition": "Aprendizaje por asociación.",
+      "practicalExample": "Recompensar una conducta para repetirla."
+    },
+    {
+      "id": "G13",
+      "term": "Influencia",
+      "category": "Persuasión",
+      "definition": "Capacidad de cambiar opiniones.",
+      "practicalExample": "Convencer a un equipo de una nueva estrategia."
+    },
+    {
+      "id": "G14",
+      "term": "Vulnerabilidad",
+      "category": "Psicología",
+      "definition": "Estado de exposición.",
+      "practicalExample": "Ser vulnerable ante un manipulador experto."
+    },
+    {
+      "id": "G15",
+      "term": "Ética",
+      "category": "Filosofía",
+      "definition": "Principios de conducta.",
+      "practicalExample": "Usar la persuasión para el bien común."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Presencia",
+      "title": "Postura de Poder",
+      "cue": "Hombros atrás y barbilla elevada.",
+      "interpretation": "Dominancia y seguridad.",
+      "practicalDrill": "Mantener esta postura durante 2 minutos antes de una reunión."
+    },
+    {
+      "id": "BL02",
+      "category": "Persuasión",
+      "title": "Contacto Visual",
+      "cue": "Mantener la mirada el 70% del tiempo.",
+      "interpretation": "Confianza y honestidad.",
+      "practicalDrill": "Practicar con un espejo hasta que se sienta natural."
+    },
+    {
+      "id": "BL03",
+      "category": "Defensa",
+      "title": "Manos Abiertas",
+      "cue": "Palmas visibles al hablar.",
+      "interpretation": "Transparencia y falta de amenaza.",
+      "practicalDrill": "Usar gestos abiertos en presentaciones."
+    },
+    {
+      "id": "BL04",
+      "category": "Detección",
+      "title": "Bloqueo de cuello",
+      "cue": "Tocar el cuello o la nuca.",
+      "interpretation": "Inseguridad o estrés.",
+      "practicalDrill": "Observar este gesto en otros durante una negociación."
+    },
+    {
+      "id": "BL05",
+      "category": "Persuasión",
+      "title": "Inclinación leve",
+      "cue": "Inclinar la cabeza al escuchar.",
+      "interpretation": "Interés genuino y escucha activa.",
+      "practicalDrill": "Inclinar la cabeza ligeramente al recibir feedback."
+    },
+    {
+      "id": "BL06",
+      "category": "Control",
+      "title": "Control de parpadeo",
+      "cue": "Parpadeo lento y controlado.",
+      "interpretation": "Control emocional y calma.",
+      "practicalDrill": "Practicar parpadeo consciente en situaciones de estrés."
     }
   ]
 };

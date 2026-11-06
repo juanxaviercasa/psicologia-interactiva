@@ -1486,93 +1486,79 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Negociación Estratégica de Alto Perfil",
-      "title": "El Cliente Corporativo Escéptico",
-      "difficulty": "Alta",
-      "badge": "Maestro de la Persuasión",
-      "scenarioDescription": "Estás en una reunión crucial con el Director de Finanzas de una importante firma. El cliente es frío, analítico y ha rechazado previamente a tres competidores directos. Afirma que todas las soluciones en el mercado son 'demasiado caras y prometen más de lo que cumplen'. Tu objetivo es cerrar un acuerdo sin bajar tu precio original.",
+      "id": "CS-001",
+      "category": "Persuasion in Sales",
+      "title": "The Reluctant Prospect",
+      "difficulty": "Hard",
+      "badge": "Master Negotiator",
+      "scenarioDescription": "A high-value client is hesitant to sign a contract due to 'budget concerns'. You know they have the funds.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar persuasión elegante y bajo perfil: Escuchar activamente sus objeciones, validar su escepticismo, usar preguntas mayéuticas sobre los costos de no resolver el problema y utilizar anclaje de valor con un reencuadre del ROI.",
-          "outcome": "Éxito Absoluto",
-          "wisdomScore": 100,
-          "analysis": "Al validar su postura en lugar de discutir, desarmas su reactancia. Las preguntas estratégicas hacen que él mismo concluya que tu solución es rentable, manteniendo la elegancia y la autoridad.",
-          "bookInsight": "La persuasión de perfil bajo y elegancia evita el choque frontal con el ego del interlocutor, permitiendo que la persona sientan que la decisión de compra fue 100% suya."
-        },
-        {
-          "id": "opt2",
-          "text": "Utilizar persuasión agresiva e intimidación: Decirle que si no firma hoy perderá la oportunidad, acusar a su empresa de quedarse obsoleta y ofrecer un descuento desesperado del 30%.",
-          "outcome": "Fallo Estrepitoso",
-          "wisdomScore": 15,
-          "analysis": "La agresividad hacia un perfil analítico de alto estatus activa una postura defensiva e inmediata expulsión de la reunión. La bajada de precio desesperada destruye la credibilidad del producto.",
-          "bookInsight": "Forzar la persuasión de alto impacto en perfiles racionales y defensivos genera una fuerte reactancia psicológica y destruye el pilar fundamental de la confianza."
-        }
-      ]
-    },
-    {
-      "id": "cs2",
-      "category": "Ventas Directas y Cierre",
-      "title": "La Indecisión en el Cierre de Promoción",
-      "difficulty": "Media-Alta",
-      "badge": "Estratega de Cierre",
-      "scenarioDescription": "Un cliente potencial lleva dos semanas haciendo preguntas sobre tu programa de consultoría premium. Admite que lo necesita y que le encanta el contenido, pero sigue postergando la decisión diciendo 'lo voy a pensar un par de meses más'. Sabes que la ventana de cupos limitados cierra hoy.",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "Combinar los Principios Universales de Escasez y Reactancia (Psicología Inversa): Informarle amablemente que las inscripciones cierran hoy y sugerirle que tal vez este programa exige un compromiso que él aún no está listo para asumir.",
-          "outcome": "Éxito Cierre Inmediato",
+          "text": "Apply the Scarcity Principle by mentioning a limited-time offer.",
+          "outcome": "Client signs immediately.",
           "wisdomScore": 95,
-          "analysis": "Al desafiar sutilmente su capacidad de tomar acción (psicología inversa) y sumar el límite real de tiempo (escasez), el cliente siente el impulso subconsciente de demostrar que sí es capaz y decide actuar hoy.",
-          "bookInsight": "Cuando la indecisión paraliza, la escasez auténtica combinada con un leve desafío al ego elimina el hábito de postergar."
-        },
-        {
-          "id": "opt2",
-          "text": "Enviar un e-mail genérico diciendo 'por favor avísame cuándo estés listo' y esperar pasivamente a que responda cuando él quiera.",
-          "outcome": "Pérdida de la Venta",
-          "wisdomScore": 25,
-          "analysis": "La pasividad total transmite falta de liderazgo persuasivo y permite que la urgencia del cliente se disipe por completo con el paso del tiempo.",
-          "bookInsight": "El público rara vez toma decisiones difíciles sin un marco de urgencia o un guía persuasivo que marque el ritmo del cierre."
+          "analysis": "Scarcity triggers the fear of missing out (FOMO), overriding logical budget objections.",
+          "bookInsight": "Refer to 'Los Tres Principios Universales De La Persuasion'."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Efecto Halo Táctico",
-      "definition": "Sesgo cognitivo por el cual una percepción positiva de un rasgo (ej. estatus, vestimenta, elocuencia) influye favorablemente en la evaluación de otros rasgos de la persona.",
-      "tacticalUse": "Optimizar la presencia física, lenguaje corporal e introducción inicial para elevar el estatus percibido antes de presentar la propuesta.",
-      "countermeasure": "Separar conscientemente la imagen o carisma del ponente de la validez real de sus datos y argumentos."
-    },
+      "id": "FC-001",
+      "bookNumber": 1,
+      "category": "Influence",
+      "term": "Reciprocity",
+      "definition": "The obligation to return a favor.",
+      "tacticalUse": "Give a small gift before asking for a request.",
+      "countermeasure": "Recognize the gift as a compliance tactic and detach emotionally."
+    }
+  ],
+  "tacticalMatrix": [
     {
-      "id": "fc2",
-      "term": "Reactancia Psicológica",
-      "definition": "Reacción emocional negativa que ocurre cuando una persona siente que su libertad o capacidad de elección está siendo restringida.",
-      "tacticalUse": "Utilizar la psicología inversa o la frase 'eres libre de rechazar esto' para reducir la resistencia y aumentar el deseo de aceptar.",
-      "countermeasure": "Mantener la calma al detectar limitaciones percibidas y evaluar si el impulso de actuar nace de una necesidad real o del miedo a perder el control."
-    },
+      "id": "TM-001",
+      "category": "Dark Psychology",
+      "name": "Gaslighting",
+      "severity": "High",
+      "icon": "Shadow",
+      "howItWorks": "Systematically undermining a target's perception of reality.",
+      "redFlags": "Constant confusion, self-doubt, and reliance on the manipulator.",
+      "counterScript": "I trust my memory of the events; let's stick to the facts.",
+      "deepMechanism": "Erosion of the target's cognitive autonomy."
+    }
+  ],
+  "quizzes": [
     {
-      "id": "fc3",
-      "term": "Comandos Encubiertos",
-      "definition": "Instrucciones directas dirigidas al subconsciente dentro de un contexto narrativo o frase aparentemente neutral, enfatizadas mediante tonalidad o pausas.",
-      "tacticalUse": "Incrustar órdenes sutiles como 'cuando *decidas tomar acción*, te darás cuenta...' para influir sin generar alerta consciente.",
-      "countermeasure": "Prestar atención a los cambios de tono, pausas inusuales y estructuras gramaticales de la otra persona para identificar sugestiones ocultas."
-    },
+      "id": "Q-001",
+      "bookNumber": 2,
+      "question": "What is the primary goal of the 'Base and Pillar' of persuasion?",
+      "options": [
+        "Manipulation",
+        "Building Trust",
+        "Financial Gain",
+        "Social Status"
+      ],
+      "correctIndex": 1,
+      "explanation": "Trust is the foundational pillar upon which all influence is built."
+    }
+  ],
+  "glossary": [
     {
-      "id": "fc4",
-      "term": "Anclaje de Valor",
-      "definition": "Estrategia donde se establece un precio o expectativa inicial elevada para que las opciones posteriores parezcan significativamente más razonables.",
-      "tacticalUse": "Presentar primero el paquete más completo y costoso antes de mostrar la opción principal que se desea vender.",
-      "countermeasure": "Investigar el valor real de mercado con antelación para no dejar que la primera cifra condicione la percepción de justo precio."
-    },
+      "id": "G-001",
+      "term": "Anchoring",
+      "category": "Negotiation",
+      "definition": "The tendency to rely on the first piece of information offered.",
+      "practicalExample": "Setting a high initial price to make subsequent discounts seem like a bargain."
+    }
+  ],
+  "bodyLanguageLab": [
     {
-      "id": "fc5",
-      "term": "Empatía Táctica (Rapport)",
-      "definition": "Proceso de alineación consciente con el mapa mental, gestos, ritmo respiratorio y vocabulario del interlocutor para generar confianza subconsciente.",
-      "tacticalUse": "Sincronizar el tono de voz y postura (espejeo) durante los primeros minutos de una negociación difícil.",
-      "countermeasure": "Observar si el interlocutor está imitando tus movimientos de forma artificial para detectar intentos deliberados de manipulación de confianza."
+      "id": "BLL-001",
+      "category": "Presence",
+      "title": "The Power Stance",
+      "cue": "Expanding physical space.",
+      "interpretation": "Signals dominance and high testosterone levels.",
+      "practicalDrill": "Maintain an open posture during meetings to project authority."
     }
   ]
 };

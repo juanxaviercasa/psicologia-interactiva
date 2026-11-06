@@ -1,3 +1,4 @@
+// Contenido enriquecido para Principios de Persuasión y Oratoria Efectiva
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_8.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>--- Sesión No. 9 01-04-2022 La Persuasión Principios de persuasión y lenguaje corporal El lenguaje persuasivo y el corporal forman parte de la oratoria. Actualmente es muy importante saber hablar en público, es importante tener habilidades para poder comunicar a un receptor cualquiera el mensaje que el orador desee. Además, en la era de la comunicación es necesario poder convencer al oyente, ya no es suficiente comunicarle el mensaje, hay que lograr que entienda que tu mensaje es el mejor y esto lo logra el lenguaje persuasivo. Pamela Jean, Presidenta y coach de Lenguaje Persuasivo: magia orgánica, considera que “ser un buen orador/comunicador no radica sólo en saber articular palabras y hacerlo de manera elocuente, radica en saber verdaderamente comunicar el mensaje en forma y fondo” Contextualización Para comprender por qué el lenguaje persuasivo funciona debemos acudir a la biología. El cerebro humano está dividido en tres partes: el cerebro reptiliano, el cerebro límbico y el neocórtex o cerebro racional. El primero de ellos, el cerebro reptiliano, es el más antiguo de todos y lo compartimos con los reptiles. Este es el responsable del deseo de estabilidad del ser humano, al cerebro reptiliano no le gustan los cambios. Es por esto que cuando, por ejemplo, tenemos ya trazado un camino para acudir a la facultad desde nuestra casa siempre realizamos el mismo camino, rara vez modificamos el trazo. Esto ocurre porque ese camino lo conocemos y, por ello, nos hace sentirnos segu",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Principios Y Cerebro Triuno\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_persuasion/principios_y_cerebro_triuno.webp\" alt=\"Principios Y Cerebro Triuno\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_8.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>--- Sesión No. 9 01-04-2022 La Persuasión Principios de persuasión y lenguaje corporal El lenguaje persuasivo y el corporal forman parte de la oratoria. Actualmente es muy importante saber hablar en público, es importante tener habilidades para poder comunicar a un receptor cualquiera el mensaje que el orador desee. Además, en la era de la comunicación es necesario poder convencer al oyente, ya no es suficiente comunicarle el mensaje, hay que lograr que entienda que tu mensaje es el mejor y esto lo logra el lenguaje persuasivo. Pamela Jean, Presidenta y coach de Lenguaje Persuasivo: magia orgánica, considera que “ser un buen orador/comunicador no radica sólo en saber articular palabras y hacerlo de manera elocuente, radica en saber verdaderamente comunicar el mensaje en forma y fondo” Contextualización Para comprender por qué el lenguaje persuasivo funciona debemos acudir a la biología. El cerebro humano está dividido en tres partes: el cerebro reptiliano, el cerebro límbico y el neocórtex o cerebro racional. El primero de ellos, el cerebro reptiliano, es el más antiguo de todos y lo compartimos con los reptiles. Este es el responsable del deseo de estabilidad del ser humano, al cerebro reptiliano no le gustan los cambios. Es por esto que cuando, por ejemplo, tenemos ya trazado un camino para acudir a la facultad desde nuestra casa siempre realizamos el mismo camino, rara vez modificamos el trazo. Esto ocurre porque ese camino lo conocemos y, por ello, nos hace sentirnos segu",
           "interactiveChallenge": {
             "question": "¿Cuál es la función determinante del cerebro reptil en la toma de decisiones según la teoría del Cerebro Triuno aplicada a la persuasión?",
             "options": [
@@ -72,7 +73,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "### Universales de la Comunicación Muchas son las cosas que nos separan a los seres humanos. Nadie duda que las diferencias culturales hacen que seamos distintos. A pesar de esto, siguen existiendo universales en la comunicación, es decir, siguen existiendo ideas innatas que se encuentran en el cerebro de todos los seres humanos, indistintamente de su procedencia y de su cultura. Entre estos universales podemos resaltar la existencia de expresiones faciales y corporales compartidas por toda la especie humana. A esta conclusión llegó Marta García, que realizó un estudio en veintitrés países diferentes de culturas europeas, asiáticas, americanas, oceánicas y africanas, en el cual mostraba a los encuestados casi cien gestos diferentes, logrando idénticas respuestas por parte de los informantes en la mayoría de los gestos, independientemente de su cultura. Del mismo modo existe un universal en cuanto a la percepción humana, es decir, percibimos los objetos de la misma manera de forma innata. Así, generalmente, para decidir el tamaño de un objeto tomamos como punto de partida aquellos objetos que se encuentran a su alrededor, considerándolo un todo (como puede demostrarse a través de la ilusión Müller-Lyer). Además, tendemos a percibir antes los rasgos oscuros de una imagen antes que los claros (como se puede extraer de la copa de Rubin). ### Destinatarios de los mensajes persuasivos Si hablamos de una campaña publicitaria, los destinatarios pueden ser muy diferentes. Esto se debe",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Universales De La Comunicacion\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_persuasion/universales_de_la_comunicacion.webp\" alt=\"Universales De La Comunicacion\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>### Universales de la Comunicación Muchas son las cosas que nos separan a los seres humanos. Nadie duda que las diferencias culturales hacen que seamos distintos. A pesar de esto, siguen existiendo universales en la comunicación, es decir, siguen existiendo ideas innatas que se encuentran en el cerebro de todos los seres humanos, indistintamente de su procedencia y de su cultura. Entre estos universales podemos resaltar la existencia de expresiones faciales y corporales compartidas por toda la especie humana. A esta conclusión llegó Marta García, que realizó un estudio en veintitrés países diferentes de culturas europeas, asiáticas, americanas, oceánicas y africanas, en el cual mostraba a los encuestados casi cien gestos diferentes, logrando idénticas respuestas por parte de los informantes en la mayoría de los gestos, independientemente de su cultura. Del mismo modo existe un universal en cuanto a la percepción humana, es decir, percibimos los objetos de la misma manera de forma innata. Así, generalmente, para decidir el tamaño de un objeto tomamos como punto de partida aquellos objetos que se encuentran a su alrededor, considerándolo un todo (como puede demostrarse a través de la ilusión Müller-Lyer). Además, tendemos a percibir antes los rasgos oscuros de una imagen antes que los claros (como se puede extraer de la copa de Rubin). ### Destinatarios de los mensajes persuasivos Si hablamos de una campaña publicitaria, los destinatarios pueden ser muy diferentes. Esto se debe",
           "interactiveChallenge": {
             "question": "En el marco de los Universales de la Comunicación, ¿cómo actúa el principio de la 'Prueba Social' en la mente del receptor?",
             "options": [
@@ -253,7 +254,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "### Lenguaje Corporal Todos los mecanismos anteriormente explicados no sirven absolutamente de nada si el orador no posee un buen lenguaje corporal. El lenguaje corporal es la primera fuente de comunicación que poseemos, forma parte de los universales de la comunicación. Si no controlamos nuestro lenguaje corporal, podemos dar un mensaje contradictorio, es decir, podemos decir algo con nuestras palabras y que nuestros gestos o postura diga justo lo contrario. En las ocasiones en las que esto ocurre el receptor tiende a confiar más en los gestos que en las palabras que emite el orador. El lenguaje corporal supone más del 50% del impacto de una comunicación directa. ### La Interpretación Gestual Un gesto no significa siempre lo mismo. Muchos han sido los llamados especialistas en lenguaje corporal que se han atrevido a confundir al público dando una suerte de tabla mágica en la que por cada gesto existía una única interpretación posible. Esto no existe, es un imposible. Un mismo gesto puede tener infinidad de interpretaciones posibles. Por ejemplo, tiende a decirse que cuando una persona está cruzada de brazos se encuentra en una posición defensiva, ¿siempre es así? La respuesta es clara: no. Cruzar los brazos puede significar sentirse atacado, claro está, o encontrarse nervioso, pero también puede significar, simplemente, tener frío. Por esto, la única forma de interpretar correctamente el lenguaje corporal de una persona es viendo los gestos como un todo, no como un conjunto",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Lenguaje Corporal Y Oratoria\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_persuasion/lenguaje_corporal_y_oratoria.webp\" alt=\"Lenguaje Corporal Y Oratoria\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>### Lenguaje Corporal Todos los mecanismos anteriormente explicados no sirven absolutamente de nada si el orador no posee un buen lenguaje corporal. El lenguaje corporal es la primera fuente de comunicación que poseemos, forma parte de los universales de la comunicación. Si no controlamos nuestro lenguaje corporal, podemos dar un mensaje contradictorio, es decir, podemos decir algo con nuestras palabras y que nuestros gestos o postura diga justo lo contrario. En las ocasiones en las que esto ocurre el receptor tiende a confiar más en los gestos que en las palabras que emite el orador. El lenguaje corporal supone más del 50% del impacto de una comunicación directa. ### La Interpretación Gestual Un gesto no significa siempre lo mismo. Muchos han sido los llamados especialistas en lenguaje corporal que se han atrevido a confundir al público dando una suerte de tabla mágica en la que por cada gesto existía una única interpretación posible. Esto no existe, es un imposible. Un mismo gesto puede tener infinidad de interpretaciones posibles. Por ejemplo, tiende a decirse que cuando una persona está cruzada de brazos se encuentra en una posición defensiva, ¿siempre es así? La respuesta es clara: no. Cruzar los brazos puede significar sentirse atacado, claro está, o encontrarse nervioso, pero también puede significar, simplemente, tener frío. Por esto, la única forma de interpretar correctamente el lenguaje corporal de una persona es viendo los gestos como un todo, no como un conjunto",
           "interactiveChallenge": {
             "question": "Durante un discurso de alta persuasión (Oratoria), ¿qué impacto tiene el uso estratégico de pausas o silencios consciente en el lenguaje corporal y vocal?",
             "options": [
@@ -310,6 +311,594 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": 1,
+      "category": "Cerebro Triuno",
+      "title": "La Negociación de Crisis",
+      "difficulty": "Hard",
+      "badge": "Maestro Reptiliano",
+      "scenarioDescription": "Un inversor está furioso y amenaza con retirar fondos. Debes calmar su cerebro reptiliano antes de apelar a su lógica.",
+      "options": [
+        {
+          "text": "Presentar datos financieros detallados inmediatamente.",
+          "outcome": "Fracaso",
+          "wisdomScore": 20,
+          "analysis": "El cerebro reptiliano ignora la lógica bajo amenaza.",
+          "bookInsight": "Primero asegura la supervivencia y calma el instinto."
+        },
+        {
+          "text": "Validar su frustración con lenguaje corporal abierto y tono pausado.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Al reducir la amenaza, el cerebro reptiliano cede el control al neocórtex.",
+          "bookInsight": "La seguridad es la base de la persuasión."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Oratoria",
+      "title": "El Discurso de Poder",
+      "difficulty": "Medium",
+      "badge": "Orador Estratégico",
+      "scenarioDescription": "Debes convencer a una audiencia escéptica de un cambio radical.",
+      "options": [
+        {
+          "text": "Usar un tono monótono y técnico para parecer experto.",
+          "outcome": "Fracaso",
+          "wisdomScore": 30,
+          "analysis": "La falta de modulación apaga el sistema límbico.",
+          "bookInsight": "La emoción es el vehículo del mensaje."
+        },
+        {
+          "text": "Variar el ritmo y usar pausas dramáticas para enfatizar puntos clave.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Las pausas generan expectativa y autoridad.",
+          "bookInsight": "El silencio es una herramienta de poder."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Lenguaje Corporal",
+      "title": "El Espejo de la Influencia",
+      "difficulty": "Medium",
+      "badge": "Camaleón Social",
+      "scenarioDescription": "Estás en una entrevista de alto nivel y quieres generar confianza instantánea.",
+      "options": [
+        {
+          "text": "Mantener una postura rígida y contacto visual intenso.",
+          "outcome": "Fracaso",
+          "wisdomScore": 40,
+          "analysis": "La rigidez se percibe como agresión.",
+          "bookInsight": "La confianza nace de la sintonía no verbal."
+        },
+        {
+          "text": "Reflejar sutilmente la postura y ritmo respiratorio del interlocutor.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "El mirroring crea una conexión subconsciente.",
+          "bookInsight": "El cerebro busca similitud para reducir el riesgo."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Universales de la Comunicación",
+      "title": "El Marco de la Autoridad",
+      "difficulty": "Hard",
+      "badge": "Arquitecto de Realidad",
+      "scenarioDescription": "Alguien intenta interrumpirte constantemente en una reunión.",
+      "options": [
+        {
+          "text": "Elevar la voz para imponerse.",
+          "outcome": "Fracaso",
+          "wisdomScore": 25,
+          "analysis": "Gritar demuestra pérdida de control.",
+          "bookInsight": "El poder real es silencioso."
+        },
+        {
+          "text": "Hacer una pausa, mirar a los ojos y continuar con calma.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "La calma bajo presión proyecta dominio absoluto.",
+          "bookInsight": "El control del espacio es control de la conversación."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Cerebro Triuno",
+      "title": "Venta Emocional",
+      "difficulty": "Medium",
+      "badge": "Psicólogo de Ventas",
+      "scenarioDescription": "El cliente duda por el precio.",
+      "options": [
+        {
+          "text": "Explicar los costos de producción.",
+          "outcome": "Fracaso",
+          "wisdomScore": 35,
+          "analysis": "El cerebro límbico no compra costos, compra beneficios emocionales.",
+          "bookInsight": "Vende el sentimiento, justifica con la lógica."
+        },
+        {
+          "text": "Describir cómo el producto cambiará su estatus y bienestar.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Apelar al sistema límbico activa el deseo.",
+          "bookInsight": "La emoción precede a la decisión."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Oratoria",
+      "title": "Manejo de Objeciones",
+      "difficulty": "Hard",
+      "badge": "Negociador de Elite",
+      "scenarioDescription": "Un oponente ataca tu credibilidad frente a todos.",
+      "options": [
+        {
+          "text": "Defenderse agresivamente con hechos.",
+          "outcome": "Fracaso",
+          "wisdomScore": 40,
+          "analysis": "La defensa defensiva te hace ver culpable.",
+          "bookInsight": "Nunca te defiendas, redirige."
+        },
+        {
+          "text": "Agradecer la pregunta y reformularla hacia un terreno donde tú dominas.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "El reencuadre es la técnica suprema de control.",
+          "bookInsight": "Quien controla el marco, controla la realidad."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": 1,
+      "bookNumber": 1,
+      "category": "Cerebro Triuno",
+      "term": "Cerebro Reptiliano",
+      "definition": "Instinto de supervivencia y control de funciones básicas.",
+      "tacticalUse": "Apelar a la seguridad y urgencia.",
+      "countermeasure": "Identificar cuando alguien intenta inducir miedo."
+    },
+    {
+      "id": 2,
+      "bookNumber": 1,
+      "category": "Cerebro Triuno",
+      "term": "Sistema Límbico",
+      "definition": "Centro de las emociones y la memoria.",
+      "tacticalUse": "Crear conexiones emocionales profundas.",
+      "countermeasure": "Separar la emoción de la decisión racional."
+    },
+    {
+      "id": 3,
+      "bookNumber": 1,
+      "category": "Cerebro Triuno",
+      "term": "Neocórtex",
+      "definition": "Centro de la lógica, lenguaje y análisis.",
+      "tacticalUse": "Justificar decisiones tomadas emocionalmente.",
+      "countermeasure": "Cuestionar la lógica detrás de argumentos complejos."
+    },
+    {
+      "id": 4,
+      "bookNumber": 2,
+      "category": "Universales",
+      "term": "Reciprocidad",
+      "definition": "Tendencia a devolver favores.",
+      "tacticalUse": "Dar algo pequeño para recibir algo grande.",
+      "countermeasure": "Reconocer la deuda como una táctica de manipulación."
+    },
+    {
+      "id": 5,
+      "bookNumber": 2,
+      "category": "Universales",
+      "term": "Escasez",
+      "definition": "Valorar más lo que es difícil de obtener.",
+      "tacticalUse": "Limitar disponibilidad para aumentar deseo.",
+      "countermeasure": "Evaluar el objeto sin la presión del tiempo."
+    },
+    {
+      "id": 6,
+      "bookNumber": 2,
+      "category": "Universales",
+      "term": "Autoridad",
+      "definition": "Tendencia a obedecer a figuras de poder.",
+      "tacticalUse": "Proyectar símbolos de estatus y conocimiento.",
+      "countermeasure": "Verificar la competencia real detrás del título."
+    },
+    {
+      "id": 7,
+      "bookNumber": 2,
+      "category": "Universales",
+      "term": "Consistencia",
+      "definition": "Deseo de ser coherente con compromisos previos.",
+      "tacticalUse": "Obtener un 'sí' pequeño antes del grande.",
+      "countermeasure": "No sentirse obligado por compromisos pasados."
+    },
+    {
+      "id": 8,
+      "bookNumber": 2,
+      "category": "Universales",
+      "term": "Simpatía",
+      "definition": "Tendencia a decir sí a quienes nos agradan.",
+      "tacticalUse": "Construir rapport mediante similitudes.",
+      "countermeasure": "Separar a la persona de la propuesta."
+    },
+    {
+      "id": 9,
+      "bookNumber": 2,
+      "category": "Universales",
+      "term": "Prueba Social",
+      "definition": "Seguir la conducta de la mayoría.",
+      "tacticalUse": "Mostrar testimonios y validación externa.",
+      "countermeasure": "Pensar de forma independiente al grupo."
+    },
+    {
+      "id": 10,
+      "bookNumber": 3,
+      "category": "Lenguaje Corporal",
+      "term": "Postura Expansiva",
+      "definition": "Ocupar espacio físico para proyectar poder.",
+      "tacticalUse": "Dominar una sala antes de hablar.",
+      "countermeasure": "No dejarse intimidar por el espacio ajeno."
+    },
+    {
+      "id": 11,
+      "bookNumber": 3,
+      "category": "Lenguaje Corporal",
+      "term": "Contacto Visual",
+      "definition": "Mantener la mirada para establecer dominio o conexión.",
+      "tacticalUse": "Sostener la mirada en momentos clave.",
+      "countermeasure": "Romper el contacto visual si se siente invasivo."
+    },
+    {
+      "id": 12,
+      "bookNumber": 3,
+      "category": "Lenguaje Corporal",
+      "term": "Microexpresiones",
+      "definition": "Gestos faciales fugaces que revelan emociones reales.",
+      "tacticalUse": "Detectar mentiras o dudas ocultas.",
+      "countermeasure": "Controlar la respuesta facial ante estímulos."
+    },
+    {
+      "id": 13,
+      "bookNumber": 3,
+      "category": "Oratoria",
+      "term": "Pausa Dramática",
+      "definition": "Silencio estratégico antes o después de una idea.",
+      "tacticalUse": "Generar tensión y autoridad.",
+      "countermeasure": "No llenar el silencio con nerviosismo."
+    },
+    {
+      "id": 14,
+      "bookNumber": 3,
+      "category": "Oratoria",
+      "term": "Tono de Voz",
+      "definition": "Variación en la frecuencia para transmitir emoción.",
+      "tacticalUse": "Usar tonos graves para autoridad.",
+      "countermeasure": "Analizar el tono, no solo el contenido."
+    },
+    {
+      "id": 15,
+      "bookNumber": 3,
+      "category": "Oratoria",
+      "term": "Gestos Ilustradores",
+      "definition": "Movimientos de manos que acompañan el discurso.",
+      "tacticalUse": "Aumentar la claridad y credibilidad.",
+      "countermeasure": "Observar si los gestos coinciden con las palabras."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": 1,
+      "category": "Persuasión",
+      "name": "Reencuadre (Reframing)",
+      "severity": "Alta",
+      "icon": "🔄",
+      "howItWorks": "Cambia el contexto de una situación para alterar su significado.",
+      "redFlags": "Cuando alguien intenta cambiar el tema constantemente.",
+      "counterScript": "Volvamos al punto original, ¿por qué intentas cambiar el enfoque?",
+      "deepMechanism": "Manipula la percepción cognitiva del receptor."
+    },
+    {
+      "id": 2,
+      "category": "Poder",
+      "name": "Anclaje",
+      "severity": "Media",
+      "icon": "⚓",
+      "howItWorks": "Establece un valor o idea inicial que sirve de referencia.",
+      "redFlags": "Cuando alguien lanza una cifra o idea extrema primero.",
+      "counterScript": "Esa cifra es arbitraria, analicemos los datos reales.",
+      "deepMechanism": "Sesgo de disponibilidad y ajuste."
+    },
+    {
+      "id": 3,
+      "category": "Persuasión",
+      "name": "Doble Vínculo",
+      "severity": "Alta",
+      "icon": "⛓️",
+      "howItWorks": "Ofrece dos opciones que llevan al mismo resultado deseado.",
+      "redFlags": "Cuando sientes que no tienes una opción real.",
+      "counterScript": "Ninguna de esas opciones me sirve, propongo una tercera.",
+      "deepMechanism": "Ilusión de elección."
+    },
+    {
+      "id": 4,
+      "category": "Poder",
+      "name": "Silencio Táctico",
+      "severity": "Media",
+      "icon": "🤫",
+      "howItWorks": "Callar después de una pregunta para forzar al otro a hablar.",
+      "redFlags": "Cuando el silencio se vuelve incómodo y quieres llenarlo.",
+      "counterScript": "Es una pregunta interesante, ¿qué opinas tú al respecto?",
+      "deepMechanism": "Presión social por la reciprocidad comunicativa."
+    },
+    {
+      "id": 5,
+      "category": "Persuasión",
+      "name": "Validación Emocional",
+      "severity": "Baja",
+      "icon": "🤝",
+      "howItWorks": "Reconocer la emoción del otro para desarmar su resistencia.",
+      "redFlags": "Cuando se usa para manipular sin intención real.",
+      "counterScript": "Gracias por entender, pero sigo esperando una solución.",
+      "deepMechanism": "Reducción de la respuesta de lucha o huida."
+    },
+    {
+      "id": 6,
+      "category": "Poder",
+      "name": "Autoridad Proyectada",
+      "severity": "Alta",
+      "icon": "👑",
+      "howItWorks": "Uso de lenguaje técnico, vestimenta y tono para imponer respeto.",
+      "redFlags": "Cuando la forma supera al contenido.",
+      "counterScript": "Más allá de las credenciales, ¿cuál es el argumento central?",
+      "deepMechanism": "Heurística de autoridad."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "bookNumber": 1,
+      "question": "¿Cuál es la función principal del cerebro reptiliano en la persuasión?",
+      "options": [
+        "Razonar",
+        "Sentir",
+        "Sobrevivir",
+        "Analizar"
+      ],
+      "correctIndex": 2,
+      "explanation": "El cerebro reptiliano se enfoca en la supervivencia y la seguridad."
+    },
+    {
+      "id": 2,
+      "bookNumber": 2,
+      "question": "¿Qué principio explica por qué valoramos más lo escaso?",
+      "options": [
+        "Reciprocidad",
+        "Escasez",
+        "Consistencia",
+        "Simpatía"
+      ],
+      "correctIndex": 1,
+      "explanation": "La escasez activa el miedo a perder una oportunidad."
+    },
+    {
+      "id": 3,
+      "bookNumber": 3,
+      "question": "¿Qué es el 'mirroring' en lenguaje corporal?",
+      "options": [
+        "Mirarse al espejo",
+        "Imitar sutilmente al otro",
+        "Evitar contacto",
+        "Gesticular mucho"
+      ],
+      "correctIndex": 1,
+      "explanation": "El mirroring crea afinidad subconsciente."
+    },
+    {
+      "id": 4,
+      "bookNumber": 1,
+      "question": "¿Qué parte del cerebro procesa las emociones?",
+      "options": [
+        "Neocórtex",
+        "Reptiliano",
+        "Límbico",
+        "Cerebelo"
+      ],
+      "correctIndex": 2,
+      "explanation": "El sistema límbico es el centro emocional."
+    },
+    {
+      "id": 5,
+      "bookNumber": 2,
+      "question": "¿Qué técnica busca obtener un 'sí' pequeño antes de uno grande?",
+      "options": [
+        "Anclaje",
+        "Consistencia",
+        "Autoridad",
+        "Escasez"
+      ],
+      "correctIndex": 1,
+      "explanation": "La consistencia nos obliga a mantener una línea de acción."
+    },
+    {
+      "id": 6,
+      "bookNumber": 3,
+      "question": "¿Cuál es el propósito de la pausa en la oratoria?",
+      "options": [
+        "Descansar",
+        "Generar autoridad",
+        "Ocultar errores",
+        "Beber agua"
+      ],
+      "correctIndex": 1,
+      "explanation": "La pausa genera expectativa y demuestra control."
+    }
+  ],
+  "glossary": [
+    {
+      "id": 1,
+      "term": "Rapport",
+      "category": "Comunicación",
+      "definition": "Sintonía y conexión entre personas.",
+      "practicalExample": "Usar el nombre de la persona y reflejar su energía."
+    },
+    {
+      "id": 2,
+      "term": "Sesgo",
+      "category": "Psicología",
+      "definition": "Error sistemático en el pensamiento.",
+      "practicalExample": "Creer que alguien es inteligente solo por usar gafas."
+    },
+    {
+      "id": 3,
+      "term": "Oratoria",
+      "category": "Comunicación",
+      "definition": "Arte de hablar en público con elocuencia.",
+      "practicalExample": "Un discurso bien estructurado y con tono variado."
+    },
+    {
+      "id": 4,
+      "term": "Persuasión",
+      "category": "Psicología",
+      "definition": "Influir en las creencias o acciones de otros.",
+      "practicalExample": "Convencer a un cliente de comprar un producto."
+    },
+    {
+      "id": 5,
+      "term": "Lenguaje Corporal",
+      "category": "Comunicación",
+      "definition": "Comunicación no verbal mediante gestos.",
+      "practicalExample": "Cruzarse de brazos como señal de defensa."
+    },
+    {
+      "id": 6,
+      "term": "Cerebro Triuno",
+      "category": "Neurociencia",
+      "definition": "Modelo de las tres capas evolutivas del cerebro.",
+      "practicalExample": "Entender que el miedo activa el cerebro reptiliano."
+    },
+    {
+      "id": 7,
+      "term": "Heurística",
+      "category": "Psicología",
+      "definition": "Atajo mental para tomar decisiones rápidas.",
+      "practicalExample": "Elegir el producto más caro asumiendo que es mejor."
+    },
+    {
+      "id": 8,
+      "term": "Asertividad",
+      "category": "Comunicación",
+      "definition": "Expresar opiniones con firmeza y respeto.",
+      "practicalExample": "Decir 'no' sin sentirse culpable."
+    },
+    {
+      "id": 9,
+      "term": "Empatía",
+      "category": "Psicología",
+      "definition": "Capacidad de sentir lo que el otro siente.",
+      "practicalExample": "Validar el dolor de un cliente antes de ofrecer ayuda."
+    },
+    {
+      "id": 10,
+      "term": "Influencia",
+      "category": "Poder",
+      "definition": "Capacidad de modificar la conducta ajena.",
+      "practicalExample": "Un líder que inspira a su equipo a trabajar más."
+    },
+    {
+      "id": 11,
+      "term": "Elocuencia",
+      "category": "Oratoria",
+      "definition": "Facilidad para hablar con eficacia.",
+      "practicalExample": "Un orador que cautiva sin usar notas."
+    },
+    {
+      "id": 12,
+      "term": "Dominio",
+      "category": "Poder",
+      "definition": "Control sobre una situación o grupo.",
+      "practicalExample": "Mantener la calma en una crisis."
+    },
+    {
+      "id": 13,
+      "term": "Sutileza",
+      "category": "Persuasión",
+      "definition": "Capacidad de influir sin ser detectado.",
+      "practicalExample": "Hacer una pregunta que guía al otro a tu conclusión."
+    },
+    {
+      "id": 14,
+      "term": "Credibilidad",
+      "category": "Comunicación",
+      "definition": "Cualidad de ser creíble.",
+      "practicalExample": "Hablar con datos y honestidad."
+    },
+    {
+      "id": 15,
+      "term": "Manipulación",
+      "category": "Psicología Oscura",
+      "definition": "Influencia con fines egoístas y ocultos.",
+      "practicalExample": "Usar la culpa para obtener un beneficio."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": 1,
+      "category": "Presencia",
+      "title": "La Postura de Poder",
+      "cue": "Hombros atrás, pecho abierto, barbilla paralela al suelo.",
+      "interpretation": "Proyecta confianza y dominio.",
+      "practicalDrill": "Mantén esta postura durante 2 minutos antes de una reunión."
+    },
+    {
+      "id": 2,
+      "category": "Conexión",
+      "title": "El Triángulo Visual",
+      "cue": "Mirar alternativamente entre los dos ojos y la frente.",
+      "interpretation": "Crea una conexión profesional y seria.",
+      "practicalDrill": "Practica con un espejo manteniendo el foco en el triángulo."
+    },
+    {
+      "id": 3,
+      "category": "Influencia",
+      "title": "Gestos de Apertura",
+      "cue": "Palmas de las manos visibles al hablar.",
+      "interpretation": "Indica honestidad y falta de amenaza.",
+      "practicalDrill": "Habla durante 5 minutos usando solo gestos con palmas abiertas."
+    },
+    {
+      "id": 4,
+      "category": "Dominio",
+      "title": "El Control del Espacio",
+      "cue": "Colocar objetos personales en la mesa para delimitar territorio.",
+      "interpretation": "Establece autoridad sobre el entorno.",
+      "practicalDrill": "Observa cómo reacciona la gente cuando ocupas tu espacio."
+    },
+    {
+      "id": 5,
+      "category": "Sintonía",
+      "title": "Espejo de Ritmo",
+      "cue": "Acompasar tu velocidad al hablar con la del otro.",
+      "interpretation": "Genera una sensación de familiaridad.",
+      "practicalDrill": "En una conversación, ajusta tu ritmo al del interlocutor."
+    },
+    {
+      "id": 6,
+      "category": "Autoridad",
+      "title": "La Pausa de Poder",
+      "cue": "Hacer una pausa de 3 segundos antes de responder.",
+      "interpretation": "Demuestra que no eres reactivo y tienes el control.",
+      "practicalDrill": "Cuenta mentalmente hasta 3 antes de contestar cualquier pregunta."
     }
   ]
 };

@@ -7851,93 +7851,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Defensa Personal Psicológica",
-      "title": "Caso Práctico: Capitulo 10 Inteligencia Emocional Y La Sociedad",
-      "difficulty": "Media",
-      "badge": "Guardián Mental",
-      "scenarioDescription": "Durante una situación relacionada con \"Capitulo 10 Inteligencia Emocional Y La Sociedad\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS001",
+      "category": "Manipulación",
+      "title": "El dilema del subordinado",
+      "difficulty": "Hard",
+      "badge": "Maquiavelo",
+      "scenarioDescription": "Tu superior utiliza el aislamiento social para obligarte a aceptar un proyecto no remunerado. ¿Cómo respondes?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Capitulo 10 Inteligencia Emocional Y La Sociedad\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Aceptar para ganar confianza",
+          "outcome": "Dependencia",
+          "wisdomScore": 20,
+          "analysis": "Cedes tu autonomía bajo presión.",
+          "bookInsight": "La manipulación prospera donde hay miedo al rechazo."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Negociar límites con asertividad emocional",
+          "outcome": "Respeto",
+          "wisdomScore": 90,
+          "analysis": "Utilizas la inteligencia emocional para neutralizar la táctica.",
+          "bookInsight": "La inteligencia emocional es el escudo contra la psicología oscura."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Detección en Entorno Laboral",
-      "title": "Caso Práctico: Capitulo 11 Signos De Inteligencia Emocional",
-      "difficulty": "Alta",
-      "badge": "Detective Social",
-      "scenarioDescription": "Durante una situación relacionada con \"Capitulo 11 Signos De Inteligencia Emocional\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS002",
+      "category": "Persuasión Oscura",
+      "title": "La venta bajo presión",
+      "difficulty": "Medium",
+      "badge": "Persuasor",
+      "scenarioDescription": "Un cliente usa la técnica de escasez artificial para forzarte a cerrar un trato hoy.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Capitulo 11 Signos De Inteligencia Emocional\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Cerrar el trato inmediatamente",
+          "outcome": "Vulnerabilidad",
+          "wisdomScore": 30,
+          "analysis": "Caes en el sesgo de urgencia.",
+          "bookInsight": "La urgencia artificial es una herramienta de control mental."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Pausar y validar la oferta",
+          "outcome": "Control",
+          "wisdomScore": 85,
+          "analysis": "Recuperas el marco de poder.",
+          "bookInsight": "El control mental se rompe con la pausa reflexiva."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Control Mental",
+      "title": "El gaslighting sutil",
+      "difficulty": "Hard",
+      "badge": "Estratega",
+      "scenarioDescription": "Un colega cuestiona tu memoria sobre una reunión pasada para desestabilizarte.",
+      "options": [
+        {
+          "text": "Dudar de tu versión",
+          "outcome": "Sumisión",
+          "wisdomScore": 10,
+          "analysis": "Permites que alteren tu realidad.",
+          "bookInsight": "El control mental comienza con la erosión de la confianza propia."
+        },
+        {
+          "text": "Documentar y confrontar con datos",
+          "outcome": "Dominio",
+          "wisdomScore": 95,
+          "analysis": "Neutralizas la distorsión cognitiva.",
+          "bookInsight": "La verdad objetiva es el antídoto contra la manipulación."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Empatía",
+      "title": "La trampa de la empatía",
+      "difficulty": "Medium",
+      "badge": "Empático",
+      "scenarioDescription": "Alguien comparte una historia triste para pedirte un favor que va contra tus intereses.",
+      "options": [
+        {
+          "text": "Ayudar por lástima",
+          "outcome": "Explotación",
+          "wisdomScore": 40,
+          "analysis": "Tu empatía es usada como palanca.",
+          "bookInsight": "La empatía sin límites es una debilidad táctica."
+        },
+        {
+          "text": "Separar emoción de decisión",
+          "outcome": "Integridad",
+          "wisdomScore": 80,
+          "analysis": "Mantienes el equilibrio emocional.",
+          "bookInsight": "La inteligencia emocional permite sentir sin ser manipulado."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Psicología Oscura",
+      "title": "El líder carismático",
+      "difficulty": "Medium",
+      "badge": "Observador",
+      "scenarioDescription": "Un líder usa halagos excesivos para pedirte lealtad ciega.",
+      "options": [
+        {
+          "text": "Aceptar el halago",
+          "outcome": "Seducción",
+          "wisdomScore": 35,
+          "analysis": "El ego te hace vulnerable.",
+          "bookInsight": "El halago es el cebo de la psicología oscura."
+        },
+        {
+          "text": "Mantener distancia crítica",
+          "outcome": "Autonomía",
+          "wisdomScore": 85,
+          "analysis": "Evalúas la intención detrás del gesto.",
+          "bookInsight": "La observación desapegada revela la intención oculta."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Inteligencia Emocional",
+      "title": "La crisis de equipo",
+      "difficulty": "Hard",
+      "badge": "Líder",
+      "scenarioDescription": "Tu equipo está bajo estrés y alguien intenta dividir al grupo para ganar poder.",
+      "options": [
+        {
+          "text": "Ignorar la división",
+          "outcome": "Caos",
+          "wisdomScore": 20,
+          "analysis": "La falta de acción permite la manipulación.",
+          "bookInsight": "El control mental prospera en el desorden."
+        },
+        {
+          "text": "Unificar mediante transparencia",
+          "outcome": "Cohesión",
+          "wisdomScore": 95,
+          "analysis": "La inteligencia emocional restaura el orden.",
+          "bookInsight": "La transparencia es la mayor amenaza para la psicología oscura."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Simpatía fabricada",
-      "definition": "Técnica psicológica estudiada en \"Preliminares\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Practicar la técnica del \"disco rayado\" ante presión persistente."
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Gaslighting",
+      "definition": "Manipulación para hacer dudar a la víctima de su propia percepción.",
+      "tacticalUse": "Desestabilizar la confianza.",
+      "countermeasure": "Mantener registros escritos."
     },
     {
-      "id": "fc2",
-      "term": "DARVO",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 1 Que Es La Psicologia Oscura\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Aplicar el protocolo JADE-never: no Justifiques, Argumentes, Defiendas ni Expliques."
+      "id": "FC002",
+      "bookNumber": 2,
+      "category": "Técnicas",
+      "term": "Love Bombing",
+      "definition": "Afecto excesivo para crear dependencia.",
+      "tacticalUse": "Ganar lealtad rápida.",
+      "countermeasure": "Establecer límites temporales."
     },
     {
-      "id": "fc3",
-      "term": "Programación neurolingüística",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 2 Tecnicas De La Psicologia Oscura\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Documentar patrones de comportamiento para identificar manipulación."
+      "id": "FC003",
+      "bookNumber": 3,
+      "category": "Manipulación",
+      "term": "Triangulación",
+      "definition": "Involucrar a un tercero para crear conflicto.",
+      "tacticalUse": "Dividir y vencer.",
+      "countermeasure": "Comunicación directa."
     },
     {
-      "id": "fc4",
-      "term": "Anclaje emocional",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 3 Manipulacion En La Psicologia Oscura\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Usar el \"test de la silla vacía\": ¿qué le dirías a un amigo en tu situación?"
+      "id": "FC004",
+      "bookNumber": 4,
+      "category": "Persuasión",
+      "term": "Anclaje",
+      "definition": "Usar la primera información como referencia.",
+      "tacticalUse": "Influir en negociaciones.",
+      "countermeasure": "Investigar valores de mercado."
     },
     {
-      "id": "fc5",
-      "term": "Aislamiento progresivo",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 4 Persuasion Oscura\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Reconocer los 7 signos de la Tríada Oscura en contactos cercanos."
+      "id": "FC005",
+      "bookNumber": 5,
+      "category": "Control Mental",
+      "term": "Aislamiento",
+      "definition": "Separar a la víctima de sus apoyos.",
+      "tacticalUse": "Control total.",
+      "countermeasure": "Mantener redes sociales externas."
+    },
+    {
+      "id": "FC006",
+      "bookNumber": 6,
+      "category": "Empatía",
+      "term": "Empatía Cognitiva",
+      "definition": "Entender al otro sin sentir su dolor.",
+      "tacticalUse": "Predecir reacciones.",
+      "countermeasure": "Mantener distancia emocional."
+    },
+    {
+      "id": "FC007",
+      "bookNumber": 7,
+      "category": "Psicología Oscura",
+      "term": "Proyección",
+      "definition": "Atribuir defectos propios a otros.",
+      "tacticalUse": "Desviar culpas.",
+      "countermeasure": "Análisis objetivo de hechos."
+    },
+    {
+      "id": "FC008",
+      "bookNumber": 8,
+      "category": "Inteligencia Emocional",
+      "term": "Autoconciencia",
+      "definition": "Conocer las propias emociones.",
+      "tacticalUse": "Evitar ser manipulado.",
+      "countermeasure": "Práctica de mindfulness."
+    },
+    {
+      "id": "FC009",
+      "bookNumber": 9,
+      "category": "Inteligencia Emocional",
+      "term": "Autorregulación",
+      "definition": "Controlar impulsos.",
+      "tacticalUse": "Mantener la calma bajo presión.",
+      "countermeasure": "Técnicas de respiración."
+    },
+    {
+      "id": "FC010",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Victimización",
+      "definition": "Hacerse pasar por víctima para obtener beneficios.",
+      "tacticalUse": "Manipular la culpa.",
+      "countermeasure": "Pedir pruebas concretas."
+    },
+    {
+      "id": "FC011",
+      "bookNumber": 2,
+      "category": "Técnicas",
+      "term": "Reciprocidad",
+      "definition": "Dar para recibir más a cambio.",
+      "tacticalUse": "Crear deuda moral.",
+      "countermeasure": "Rechazar favores no solicitados."
+    },
+    {
+      "id": "FC012",
+      "bookNumber": 3,
+      "category": "Manipulación",
+      "term": "Silencio",
+      "definition": "Uso del vacío para generar ansiedad.",
+      "tacticalUse": "Forzar confesiones.",
+      "countermeasure": "Esperar con paciencia."
+    },
+    {
+      "id": "FC013",
+      "bookNumber": 4,
+      "category": "Persuasión",
+      "term": "Escasez",
+      "definition": "Limitar la disponibilidad.",
+      "tacticalUse": "Acelerar decisiones.",
+      "countermeasure": "Evaluar la necesidad real."
+    },
+    {
+      "id": "FC014",
+      "bookNumber": 5,
+      "category": "Control Mental",
+      "term": "Repetición",
+      "definition": "Insistir en una idea hasta que sea aceptada.",
+      "tacticalUse": "Cambiar creencias.",
+      "countermeasure": "Cuestionar la fuente."
+    },
+    {
+      "id": "FC015",
+      "bookNumber": 6,
+      "category": "Empatía",
+      "term": "Espejo",
+      "definition": "Imitar gestos para generar confianza.",
+      "tacticalUse": "Crear rapport rápido.",
+      "countermeasure": "Observar patrones de imitación."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM001",
+      "category": "Persuasión",
+      "name": "La Técnica del Pie en la Puerta",
+      "severity": "Low",
+      "icon": "door",
+      "howItWorks": "Pedir un favor pequeño para luego pedir uno grande.",
+      "redFlags": "Peticiones triviales constantes.",
+      "counterScript": "No estoy disponible para compromisos mayores.",
+      "deepMechanism": "Consistencia cognitiva."
+    },
+    {
+      "id": "TM002",
+      "category": "Manipulación",
+      "name": "Triangulación",
+      "severity": "High",
+      "icon": "triangle",
+      "howItWorks": "Introducir a un tercero para validar una mentira.",
+      "redFlags": "Rumores constantes.",
+      "counterScript": "Prefiero hablar con la persona directamente.",
+      "deepMechanism": "Inseguridad relacional."
+    },
+    {
+      "id": "TM003",
+      "category": "Control Mental",
+      "name": "Sobrecarga Sensorial",
+      "severity": "Extreme",
+      "icon": "brain",
+      "howItWorks": "Bombardear con información para anular el juicio.",
+      "redFlags": "Ritmo frenético.",
+      "counterScript": "Necesito tiempo para procesar esto.",
+      "deepMechanism": "Fatiga cognitiva."
+    },
+    {
+      "id": "TM004",
+      "category": "Persuasión",
+      "name": "Anclaje de Precios",
+      "severity": "Medium",
+      "icon": "anchor",
+      "howItWorks": "Establecer un valor alto inicial.",
+      "redFlags": "Ofertas desproporcionadas.",
+      "counterScript": "Mi presupuesto es X, independientemente de eso.",
+      "deepMechanism": "Sesgo de ajuste."
+    },
+    {
+      "id": "TM005",
+      "category": "Manipulación",
+      "name": "Inducción de Culpa",
+      "severity": "Medium",
+      "icon": "heart-broken",
+      "howItWorks": "Recordar favores pasados para exigir lealtad.",
+      "redFlags": "Recuerdos constantes de ayuda.",
+      "counterScript": "Agradezco tu ayuda, pero esto es distinto.",
+      "deepMechanism": "Deuda emocional."
+    },
+    {
+      "id": "TM006",
+      "category": "Control Mental",
+      "name": "Refuerzo Intermitente",
+      "severity": "High",
+      "icon": "switch",
+      "howItWorks": "Alternar premios y castigos.",
+      "redFlags": "Comportamiento errático.",
+      "counterScript": "No acepto este trato inconsistente.",
+      "deepMechanism": "Adicción dopaminérgica."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Qué define principalmente a la psicología oscura?",
+      "options": [
+        "Ayudar a otros",
+        "Manipulación para beneficio propio",
+        "Psicología clínica",
+        "Estudio de sueños"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se basa en el uso de tácticas para influir en otros sin su consentimiento."
+    },
+    {
+      "id": "Q002",
+      "bookNumber": 3,
+      "question": "¿Cuál es el objetivo del gaslighting?",
+      "options": [
+        "Mejorar la comunicación",
+        "Hacer dudar a la víctima",
+        "Aumentar la autoestima",
+        "Resolver conflictos"
+      ],
+      "correctIndex": 1,
+      "explanation": "Busca erosionar la realidad de la víctima para controlarla."
+    },
+    {
+      "id": "Q003",
+      "bookNumber": 8,
+      "question": "¿Qué es la inteligencia emocional?",
+      "options": [
+        "Capacidad de cálculo",
+        "Gestión de emociones propias y ajenas",
+        "Fuerza física",
+        "Memoria fotográfica"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es la habilidad clave para detectar y neutralizar manipulaciones."
+    },
+    {
+      "id": "Q004",
+      "bookNumber": 4,
+      "question": "¿Qué es la persuasión oscura?",
+      "options": [
+        "Persuasión ética",
+        "Uso de tácticas ocultas para influir",
+        "Un tipo de terapia",
+        "Marketing honesto"
+      ],
+      "correctIndex": 1,
+      "explanation": "Implica ocultar la intención real para obtener ventaja."
+    },
+    {
+      "id": "Q005",
+      "bookNumber": 6,
+      "question": "¿Por qué la empatía puede ser un riesgo?",
+      "options": [
+        "Porque es mala",
+        "Porque puede ser usada para manipular",
+        "Porque no existe",
+        "Porque es aburrida"
+      ],
+      "correctIndex": 1,
+      "explanation": "La empatía sin límites permite que otros exploten tus emociones."
+    },
+    {
+      "id": "Q006",
+      "bookNumber": 9,
+      "question": "¿Qué efecto tiene la autorregulación?",
+      "options": [
+        "Impulsividad",
+        "Control sobre reacciones automáticas",
+        "Aislamiento",
+        "Falta de sentimientos"
+      ],
+      "correctIndex": 1,
+      "explanation": "Permite mantener la calma y el juicio crítico ante ataques."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G001",
+      "term": "Rapport",
+      "category": "Persuasión",
+      "definition": "Sintonía con otra persona.",
+      "practicalExample": "Espejar el lenguaje corporal."
+    },
+    {
+      "id": "G002",
+      "term": "Sesgo",
+      "category": "Psicología",
+      "definition": "Error sistemático de juicio.",
+      "practicalExample": "Sesgo de confirmación."
+    },
+    {
+      "id": "G003",
+      "term": "Asertividad",
+      "category": "Inteligencia Emocional",
+      "definition": "Expresar límites claramente.",
+      "practicalExample": "Decir 'no' sin culpa."
+    },
+    {
+      "id": "G004",
+      "term": "Disonancia",
+      "category": "Psicología",
+      "definition": "Conflicto entre creencias.",
+      "practicalExample": "Justificar una mala decisión."
+    },
+    {
+      "id": "G005",
+      "term": "Influencia",
+      "category": "Persuasión",
+      "definition": "Capacidad de cambiar opiniones.",
+      "practicalExample": "Argumentación lógica."
+    },
+    {
+      "id": "G006",
+      "term": "Manipulación",
+      "category": "Psicología Oscura",
+      "definition": "Control oculto.",
+      "practicalExample": "Mentiras piadosas."
+    },
+    {
+      "id": "G007",
+      "term": "Empatía",
+      "category": "Inteligencia Emocional",
+      "definition": "Entender al otro.",
+      "practicalExample": "Escucha activa."
+    },
+    {
+      "id": "G008",
+      "term": "Resiliencia",
+      "category": "Psicología",
+      "definition": "Capacidad de recuperación.",
+      "practicalExample": "Superar un fracaso."
+    },
+    {
+      "id": "G009",
+      "term": "Carisma",
+      "category": "Persuasión",
+      "definition": "Atractivo personal.",
+      "practicalExample": "Hablar con seguridad."
+    },
+    {
+      "id": "G010",
+      "term": "Estrategia",
+      "category": "Poder",
+      "definition": "Plan de acción.",
+      "practicalExample": "Preparar una negociación."
+    },
+    {
+      "id": "G011",
+      "term": "Poder",
+      "category": "Poder",
+      "definition": "Capacidad de mando.",
+      "practicalExample": "Liderazgo de equipo."
+    },
+    {
+      "id": "G012",
+      "term": "Intuición",
+      "category": "Psicología",
+      "definition": "Conocimiento inmediato.",
+      "practicalExample": "Sentir una amenaza."
+    },
+    {
+      "id": "G013",
+      "term": "Validación",
+      "category": "Inteligencia Emocional",
+      "definition": "Reconocer emociones.",
+      "practicalExample": "Decir 'entiendo tu punto'."
+    },
+    {
+      "id": "G014",
+      "term": "Coerción",
+      "category": "Psicología Oscura",
+      "definition": "Uso de la fuerza.",
+      "practicalExample": "Amenazas directas."
+    },
+    {
+      "id": "G015",
+      "term": "Marco",
+      "category": "Persuasión",
+      "definition": "Contexto de la interacción.",
+      "practicalExample": "Definir las reglas."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL001",
+      "category": "Presencia",
+      "title": "Contacto Visual Sostenido",
+      "cue": "Mirada fija sin parpadear.",
+      "interpretation": "Intento de dominación o intimidación.",
+      "practicalDrill": "Mantener mirada 3 segundos y romperla suavemente."
+    },
+    {
+      "id": "BL002",
+      "category": "Defensa",
+      "title": "Postura Cerrada",
+      "cue": "Brazos cruzados.",
+      "interpretation": "Resistencia o falta de apertura.",
+      "practicalDrill": "Abrir postura al hablar para invitar al diálogo."
+    },
+    {
+      "id": "BL003",
+      "category": "Persuasión",
+      "title": "Espejo Corporal",
+      "cue": "Imitar la postura del otro.",
+      "interpretation": "Creación de confianza subconsciente.",
+      "practicalDrill": "Adoptar la postura del interlocutor tras 5 minutos."
+    },
+    {
+      "id": "BL004",
+      "category": "Detección",
+      "title": "Microexpresiones",
+      "cue": "Gestos faciales rápidos.",
+      "interpretation": "Emociones ocultas.",
+      "practicalDrill": "Observar el rostro en videos a cámara lenta."
+    },
+    {
+      "id": "BL005",
+      "category": "Poder",
+      "title": "Ocupación de Espacio",
+      "cue": "Extender brazos y piernas.",
+      "interpretation": "Dominancia y seguridad.",
+      "practicalDrill": "Sentarse con espalda recta y brazos relajados."
+    },
+    {
+      "id": "BL006",
+      "category": "Engaño",
+      "title": "Tocarse la cara",
+      "cue": "Manos cerca de nariz o boca.",
+      "interpretation": "Posible ansiedad o falta de honestidad.",
+      "practicalDrill": "Mantener manos visibles durante una negociación."
     }
   ]
 };

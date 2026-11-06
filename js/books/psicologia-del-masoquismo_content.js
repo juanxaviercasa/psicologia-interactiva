@@ -1,3 +1,4 @@
+// Contenido enriquecido para Psicología del Masoquismo: Dimensiones Clínicas
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -419,6 +420,83 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS001",
+      "category": "Maquiavelismo",
+      "title": "La Trampa de la Sumisión Estratégica",
+      "difficulty": "Hard",
+      "badge": "Master Manipulator",
+      "scenarioDescription": "Un subordinado parece disfrutar de la sobrecarga de trabajo y la crítica constante. ¿Cómo utilizas esto para tu beneficio?",
+      "options": [
+        {
+          "text": "Aumentar la carga para probar su lealtad",
+          "outcome": "Dependencia total",
+          "wisdomScore": 85,
+          "analysis": "El masoquismo clínico puede ser instrumentalizado para crear una lealtad incondicional mediante el refuerzo de la entrega.",
+          "bookInsight": "La entrega es una forma de control sobre el otro."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Maquiavelismo",
+      "term": "Entrega Instrumental",
+      "definition": "Uso de la sumisión como herramienta para desarmar al oponente.",
+      "tacticalUse": "Fingir debilidad para obtener información.",
+      "countermeasure": "Identificar el beneficio oculto tras la sumisión."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM001",
+      "category": "Maquiavelismo",
+      "name": "Refuerzo de Fantasía",
+      "severity": "High",
+      "icon": "🎭",
+      "howItWorks": "Alimentar la narrativa interna del sujeto para dirigir su voluntad.",
+      "redFlags": "Obsesión con el rol asignado.",
+      "counterScript": "Cuestionar la realidad de la narrativa.",
+      "deepMechanism": "La fantasía es el motor de la conducta masoquista."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Qué papel juega la fantasía en la estructura del masoquismo?",
+      "options": [
+        "Es un escape",
+        "Es un mecanismo de control",
+        "Es irrelevante",
+        "Es una patología"
+      ],
+      "correctIndex": 1,
+      "explanation": "La fantasía permite al sujeto estructurar su realidad para mantener el control a través de la entrega."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G001",
+      "term": "Masoquismo Clínico",
+      "category": "Psicología",
+      "definition": "Tendencia a buscar el dolor o la sumisión como gratificación.",
+      "practicalExample": "Aceptar tareas humillantes para ganar favor."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL001",
+      "category": "Poder",
+      "title": "La Postura de la Entrega",
+      "cue": "Inclinación de cabeza y mirada baja.",
+      "interpretation": "Señal de sumisión que puede ser fingida para manipular.",
+      "practicalDrill": "Practicar la mirada baja seguida de un contacto visual súbito y firme."
     }
   ]
 };

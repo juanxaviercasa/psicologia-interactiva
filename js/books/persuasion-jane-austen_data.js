@@ -15373,93 +15373,86 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Defensa Personal Psicológica",
-      "title": "Caso Práctico: Vol1 Capitulo 02",
-      "difficulty": "Media",
-      "badge": "Guardián Mental",
-      "scenarioDescription": "Durante una situación relacionada con \"Vol1 Capitulo 02\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS001",
+      "category": "Persuasión",
+      "title": "La influencia de la reputación",
+      "difficulty": "Hard",
+      "badge": "Maquiavelo",
+      "scenarioDescription": "Tu interlocutor tiene una opinión formada sobre ti basada en errores pasados. ¿Cómo cambias su percepción sin parecer desesperado?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Vol1 Capitulo 02\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Explicar detalladamente tus razones pasadas.",
+          "outcome": "Fracaso",
+          "wisdomScore": 20,
+          "analysis": "La justificación excesiva debilita tu posición.",
+          "bookInsight": "Anne Elliot aprende que el silencio y la dignidad son más persuasivos que la defensa propia."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
-        }
-      ]
-    },
-    {
-      "id": "cs2",
-      "category": "Detección en Entorno Laboral",
-      "title": "Caso Práctico: Vol1 Capitulo 03",
-      "difficulty": "Alta",
-      "badge": "Detective Social",
-      "scenarioDescription": "Durante una situación relacionada con \"Vol1 Capitulo 03\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Vol1 Capitulo 03\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
-        },
-        {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Mantener una conducta impecable y dejar que los hechos hablen.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "La consistencia es la forma más alta de persuasión.",
+          "bookInsight": "La paciencia de Anne frente al desdén de su familia demuestra el poder del autocontrol."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Rapport forzado",
-      "definition": "Técnica psicológica estudiada en \"Estudio Introductorio Parte 1\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Reconocer los 7 signos de la Tríada Oscura en contactos cercanos."
-    },
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Persuasión Pasiva",
+      "definition": "Influir en otros mediante la propia transformación personal.",
+      "tacticalUse": "Cuando no puedes convencer con palabras, cambia tu entorno y tu presencia.",
+      "countermeasure": "Identificar si el cambio es genuino o una máscara estratégica."
+    }
+  ],
+  "tacticalMatrix": [
     {
-      "id": "fc2",
-      "term": "Consistencia cognitiva",
-      "definition": "Técnica psicológica estudiada en \"Estudio Introductorio Parte 2\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Establecer límites claros y comunicarlos asertivamente."
-    },
+      "id": "TM001",
+      "category": "Poder",
+      "name": "El Silencio Estratégico",
+      "severity": "Alta",
+      "icon": "🤐",
+      "howItWorks": "Retener información o respuesta para generar ansiedad en el otro.",
+      "redFlags": "Uso excesivo para manipular la inseguridad ajena.",
+      "counterScript": "Mantener la calma y preguntar directamente: '¿Hay algo que desees añadir?'",
+      "deepMechanism": "El vacío comunicativo obliga al otro a revelar sus intenciones."
+    }
+  ],
+  "quizzes": [
     {
-      "id": "fc3",
-      "term": "Triangulación",
-      "definition": "Técnica psicológica estudiada en \"Estudio Introductorio Parte 3\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Tomarse tiempo antes de responder a demandas urgentes fabricadas."
-    },
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Cuál es la clave de la persuasión en la obra de Austen?",
+      "options": [
+        "La elocuencia",
+        "La constancia y el carácter",
+        "La riqueza",
+        "La manipulación directa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Austen demuestra que el carácter inquebrantable es la herramienta de persuasión más duradera."
+    }
+  ],
+  "glossary": [
     {
-      "id": "fc4",
-      "term": "Hipnosis ericksoniana",
-      "definition": "Técnica psicológica estudiada en \"Apendice Recuerdos Y Notas Parte 1\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Desarrollar independencia emocional mediante mindfulness diario."
-    },
+      "id": "G001",
+      "term": "Influencia Social",
+      "category": "Persuasión",
+      "definition": "El peso de la opinión ajena en la toma de decisiones.",
+      "practicalExample": "Cómo la familia de Anne intenta dirigir su matrimonio."
+    }
+  ],
+  "bodyLanguageLab": [
     {
-      "id": "fc5",
-      "term": "Simpatía fabricada",
-      "definition": "Técnica psicológica estudiada en \"Apendice Recuerdos Y Notas Parte 2\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
+      "id": "BL001",
+      "category": "Presencia",
+      "title": "La mirada de desapego",
+      "cue": "Mantener contacto visual sin parpadeo excesivo.",
+      "interpretation": "Indica control emocional y falta de necesidad de aprobación.",
+      "practicalDrill": "Practica mantener la mirada durante 3 segundos más de lo habitual en una conversación casual."
     }
   ]
 };

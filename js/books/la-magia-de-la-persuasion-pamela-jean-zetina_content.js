@@ -1,3 +1,4 @@
+// Contenido enriquecido para La Magia de la Persuasión: El Arte de Conectar
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_10.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>--- SÍGUENOS EN @Ebooks @megustaleermex Para mis padrinos, Rafa y Patacha. Quienes en vida fueron mis guías, mis maestros, mis porristas, mis cómplices y me amaron “sin cuenta”, a quienes me encomendé más de una vez al escribir estas líneas y quienes hoy desde el cielo colaboran para que este libro llegue solamente a las manos de quienes estén dispuestos a contribuir con amor para construir una mejor sociedad, empezando por ellos mismos y sus hogares. Gracias por su infinito apoyo e inspiración. Imprescindibles. ADVERTENCIA ¿Cuál es la diferencia entre las personas que consiguen todo lo que quieren y las que jamás lo logran? ¿Por qué hay personas que son el alma de la fiesta y otras para las que su mejor compañero en la reunión son los cacahuates? ¿Cuál es el truco de los vendedores que venden hasta a su mamá y los que no concretan ni una cita? ¿Por qué hay personas que siempre consiguen un aumento, mejores puestos y siempre tienen dinero y otras que no completan ni para la tanda? ¿Cuál es la diferencia entre las mamás que tienen una gran relación con sus hijos y las que casi los tienen en arresto domiciliario? ¿Qué hacen las personas que siempre tienen una feliz pareja a diferencia de las que siempre están solas y no por elección? ¿Por qué hay jefes que son queridos y respetados y otros a quienes todos odian? ¡La respuesta la tienes en tus manos!, pero no sólo tienes la respuesta, tienes la fórmula para elegir qué persona quieres ser tú. Durante más de 20 años he tenido la o",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Preliminares Y Advertencia\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/preliminares_y_advertencia.webp\" alt=\"Preliminares Y Advertencia\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Alquimia y Ética de la Verdadera Persuasión\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m1_preliminares.webp\" alt=\"Alquimia y Ética de la Verdadera Persuasión\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- SÍGUENOS EN @Ebooks @megustaleermex Para mis padrinos, Rafa y Patacha. Quienes en vida fueron mis guías, mis maestros, mis porristas, mis cómplices y me amaron “sin cuenta”, a quienes me encomendé más de una vez al escribir estas líneas y quienes hoy desde el cielo colaboran para que este libro llegue solamente a las manos de quienes estén dispuestos a contribuir con amor para construir una mejor sociedad, empezando por ellos mismos y sus hogares. Gracias por su infinito apoyo e inspiración. Imprescindibles. ADVERTENCIA ¿Cuál es la diferencia entre las personas que consiguen todo lo que quieren y las que jamás lo logran? ¿Por qué hay personas que son el alma de la fiesta y otras para las que su mejor compañero en la reunión son los cacahuates? ¿Cuál es el truco de los vendedores que venden hasta a su mamá y los que no concretan ni una cita? ¿Por qué hay personas que siempre consiguen un aumento, mejores puestos y siempre tienen dinero y otras que no completan ni para la tanda? ¿Cuál es la diferencia entre las mamás que tienen una gran relación con sus hijos y las que casi los tienen en arresto domiciliario? ¿Qué hacen las personas que siempre tienen una feliz pareja a diferencia de las que siempre están solas y no por elección? ¿Por qué hay jefes que son queridos y respetados y otros a quienes todos odian? ¡La respuesta la tienes en tus manos!, pero no sólo tienes la respuesta, tienes la fórmula para elegir qué persona quieres ser tú. Durante más de 20 años he tenido la o",
           "interactiveChallenge": {
             "question": "En el módulo 'Preliminares Y Advertencia', ¿cuál es el principio ético fundamental al aprender la magia de la persuasión?",
             "options": [
@@ -130,7 +131,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "1 LA MAGA DE LA PERSUASIÓN: PA SERVIRLE A USTÉ Yo no quería escribir este libro En serio. Tampoco quería dar cursos ni conferencias. No quería ser especialista en comunicación asertiva ni persuasión. No quería dar asesoría en comunicación estratégica ni entrenar oradores. Es más, no quería ir como invitada a programas de televisión y radio como especialista en el tema. Suena cool , ¿verdad? Pero yo no quería… Yo quería ser maga… Desde los siete años era fan de David Copperfield, sin duda uno de los ilusionistas más talentosos que han existido. La primera vez que vi su show en el Auditorio Nacional de la Ciudad de México decidí que quería ser como él cuando creciera: una versión femenina y región 4 del maestro del ilusionismo. Estaba decidida. Quería dedicarme a reproducir por doquier la cara de sorpresa y desconcierto de cada persona de la audiencia que había dejado a un lado, por un par de horas, todo razonamiento científico para entregarse a la magia. Tan sólo durante dos horas lo que subía no tenía que bajar, la materia se creaba y destruía en lugar de transformarse, dos cuerpos podían ocupar el mismo espacio al mismo tiempo y no existían las leyes de la gravedad. ¿Así o más maravilloso? Hubieran visto la cara de mis papás cuando se los comuniqué con tanta formalidad, como si hubiera tomado la decisión más importante de mi vida… y en parte lo era. Ellos pensaron lo que todo padre pensaría de una niña de siete años que comunica algo similar: “Ya se le pasará…”, pero como me",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> La Maga De La Persuasion Parte 1\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/la_maga_de_la_persuasion_parte_1.webp\" alt=\"La Maga De La Persuasion Parte 1\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> El Destello del Carisma Magnético\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m2_maga_persuasion_p1.webp\" alt=\"El Destello del Carisma Magnético\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>1 LA MAGA DE LA PERSUASIÓN: PA SERVIRLE A USTÉ Yo no quería escribir este libro En serio. Tampoco quería dar cursos ni conferencias. No quería ser especialista en comunicación asertiva ni persuasión. No quería dar asesoría en comunicación estratégica ni entrenar oradores. Es más, no quería ir como invitada a programas de televisión y radio como especialista en el tema. Suena cool , ¿verdad? Pero yo no quería… Yo quería ser maga… Desde los siete años era fan de David Copperfield, sin duda uno de los ilusionistas más talentosos que han existido. La primera vez que vi su show en el Auditorio Nacional de la Ciudad de México decidí que quería ser como él cuando creciera: una versión femenina y región 4 del maestro del ilusionismo. Estaba decidida. Quería dedicarme a reproducir por doquier la cara de sorpresa y desconcierto de cada persona de la audiencia que había dejado a un lado, por un par de horas, todo razonamiento científico para entregarse a la magia. Tan sólo durante dos horas lo que subía no tenía que bajar, la materia se creaba y destruía en lugar de transformarse, dos cuerpos podían ocupar el mismo espacio al mismo tiempo y no existían las leyes de la gravedad. ¿Así o más maravilloso? Hubieran visto la cara de mis papás cuando se los comuniqué con tanta formalidad, como si hubiera tomado la decisión más importante de mi vida… y en parte lo era. Ellos pensaron lo que todo padre pensaría de una niña de siete años que comunica algo similar: “Ya se le pasará…”, pero como me",
           "interactiveChallenge": {
             "question": "Según 'La Maga De La Persuasión Parte 1', ¿por qué se metaforiza la persuasión como un acto de 'magia'?",
             "options": [
@@ -630,7 +631,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "¡Y qué bueno!, porque en cada esfuerzo, en cada intento, fui descubriendo o comprendiendo algo que después pude estudiar y experimentar para fundamentarlo y comprobarlo. Cada experiencia, cada persona a lo largo de mi carrera, sembró semillas que hoy dan frutos que puedo compartir contigo. Un método como el que tienes hoy en tus manos no nació de la noche a la mañana, es consecuencia de un cúmulo de aventuras, esfuerzos y también tropezones de los cuales pude levantarme y logré capitalizar. Porque lo bailado nadie nos lo quita, ¿cierto? Y estaba cada vez más cerca de descubrir mi vocación. Quesque dice que ahora sí quiere enseñar Ahí, en medio del enojo y la frustración, recibí la llamada de Jorge Hidalgo, un querido maestro de la Universidad Anáhuac. —Pam, estamos por abrir una nueva carrera para todos los que quieren dedicarse a la industria del entretenimiento como managers de personajes públicos, productores de espectáculos, editorialistas, creadores de videojuegos, etcétera; se llama Dirección de Empresas de Entretenimiento. Necesitamos a alguien que sea de nuestra confianza y que conozca bien la industria musical en nuestro país. Pensamos en ti. Me mandó el temario para impartir la materia de Mercado Musical e Industria Discográfica. —¿Te sentirías cómoda impartiendo esos temas? ¿Los conoces bien? —me preguntó. Wow, claro que los conocía. Y cuando empecé en esta industria me hubiera encantado que alguien me enseñara por las buenas en seis meses lo que yo tuve que aprend",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> La Maga De La Persuasion Parte 2\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/la_maga_de_la_persuasion_parte_2.webp\" alt=\"La Maga De La Persuasion Parte 2\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Arquitectura de la Transformación Decisional\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m3_maga_persuasion_p2.webp\" alt=\"Arquitectura de la Transformación Decisional\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>¡Y qué bueno!, porque en cada esfuerzo, en cada intento, fui descubriendo o comprendiendo algo que después pude estudiar y experimentar para fundamentarlo y comprobarlo. Cada experiencia, cada persona a lo largo de mi carrera, sembró semillas que hoy dan frutos que puedo compartir contigo. Un método como el que tienes hoy en tus manos no nació de la noche a la mañana, es consecuencia de un cúmulo de aventuras, esfuerzos y también tropezones de los cuales pude levantarme y logré capitalizar. Porque lo bailado nadie nos lo quita, ¿cierto? Y estaba cada vez más cerca de descubrir mi vocación. Quesque dice que ahora sí quiere enseñar Ahí, en medio del enojo y la frustración, recibí la llamada de Jorge Hidalgo, un querido maestro de la Universidad Anáhuac. —Pam, estamos por abrir una nueva carrera para todos los que quieren dedicarse a la industria del entretenimiento como managers de personajes públicos, productores de espectáculos, editorialistas, creadores de videojuegos, etcétera; se llama Dirección de Empresas de Entretenimiento. Necesitamos a alguien que sea de nuestra confianza y que conozca bien la industria musical en nuestro país. Pensamos en ti. Me mandó el temario para impartir la materia de Mercado Musical e Industria Discográfica. —¿Te sentirías cómoda impartiendo esos temas? ¿Los conoces bien? —me preguntó. Wow, claro que los conocía. Y cuando empecé en esta industria me hubiera encantado que alguien me enseñara por las buenas en seis meses lo que yo tuve que aprend",
           "interactiveChallenge": {
             "question": "En 'La Maga De La Persuasión Parte 2', ¿cuál es la diferencia entre imponer una idea y permitir que la otra persona la descubra?",
             "options": [
@@ -1014,7 +1015,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "2 PERSUASIÓN VS. MANIPULACIÓN: MAGIA BLANCA Y MAGIA NEGRA —Pam, ¿nos vas a enseñar a manipular a la gente? —es la pregunta con la que me topo más frecuentemente cuando estoy por empezar un curso. —Mmm, nop. Sería una pérdida de tiempo, porque mira, manipular es algo que ya sabes hacer desde que eras bebé. De hecho, los seres humanos solamente sabemos conseguir lo que queremos ya sea manipulando o persuadiendo, y mientras no sepas persuadir, lo que harás será manipular — suelo responderles. Me gusta comparar la manipulación con la magia negra… Imagínate. Tienes un objetivo al cual quieres llegar a costa de cualquier persona o situación, supongamos que ese objetivo es enamorar a alguna “víctima”. Pero no tienes habilidades porque no has leído los libros sobre seducción del “Efecto Leopi”, entonces decides que te vale un cacahuate si a la otra persona le interesa o le conviene estar contigo, tú decidiste que ese ser humano tiene que rendirse a tus pies, y ante tu desesperación acudes a un mercado, por ejemplo el famoso Mercado de Sonora en la Ciudad de México. Ahí te encuentras a alguna bruja vendiendo magia negra, y te ofrece toloache, amarres, té de amor y hasta un muñequito de vudú. “¡Así seguro cae!, va a perderse de amor por ti y no va a saber cómo ni a qué hora ni por qué; tú confía, marchantito”, te dice la bruja. Entonces la magia surte efecto, tu víctima cae en tus garras, pero tarde o temprano se da cuenta de que no eres el tipo de persona que necesita a su lado, que n",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Persuasion Vs Manipulacion\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/persuasion_vs_manipulacion.webp\" alt=\"Persuasion Vs Manipulacion\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Persuasión Luminosa vs Manipulación Oscura\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m4_persuasion_vs_manipulacion.webp\" alt=\"Persuasión Luminosa vs Manipulación Oscura\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>2 PERSUASIÓN VS. MANIPULACIÓN: MAGIA BLANCA Y MAGIA NEGRA —Pam, ¿nos vas a enseñar a manipular a la gente? —es la pregunta con la que me topo más frecuentemente cuando estoy por empezar un curso. —Mmm, nop. Sería una pérdida de tiempo, porque mira, manipular es algo que ya sabes hacer desde que eras bebé. De hecho, los seres humanos solamente sabemos conseguir lo que queremos ya sea manipulando o persuadiendo, y mientras no sepas persuadir, lo que harás será manipular — suelo responderles. Me gusta comparar la manipulación con la magia negra… Imagínate. Tienes un objetivo al cual quieres llegar a costa de cualquier persona o situación, supongamos que ese objetivo es enamorar a alguna “víctima”. Pero no tienes habilidades porque no has leído los libros sobre seducción del “Efecto Leopi”, entonces decides que te vale un cacahuate si a la otra persona le interesa o le conviene estar contigo, tú decidiste que ese ser humano tiene que rendirse a tus pies, y ante tu desesperación acudes a un mercado, por ejemplo el famoso Mercado de Sonora en la Ciudad de México. Ahí te encuentras a alguna bruja vendiendo magia negra, y te ofrece toloache, amarres, té de amor y hasta un muñequito de vudú. “¡Así seguro cae!, va a perderse de amor por ti y no va a saber cómo ni a qué hora ni por qué; tú confía, marchantito”, te dice la bruja. Entonces la magia surte efecto, tu víctima cae en tus garras, pero tarde o temprano se da cuenta de que no eres el tipo de persona que necesita a su lado, que n",
           "interactiveChallenge": {
             "question": "En 'Persuasión Vs Manipulación', ¿cuál es la línea divisoria clave entre ambos conceptos según el libro?",
             "options": [
@@ -1282,7 +1283,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "3 LAS HABILIDADES DEL MAGO Magia: La que por medios naturales obra efectos que parecen sobrenaturales. Para convertirte en un mago de la persuasión no pretendo que salgas corriendo a comprarte guantes ni una capa ni un sombrero, ni siquiera una varita mágica; en realidad ya tienes todo lo que necesitas para lograrlo: tu cuerpo, tu voz, tu mente, tus emociones, tus ojos y tu energía vital son lo único necesario. La diferencia es que ahora aprenderás a convertir todos esos medios naturales u ordinarios en algo extraordinario para generar resultados que parecen magia. ¿Cómo? A través de dos habilidades y un método que consta de cinco pasos; cada paso tiene sus propias revelaciones y trucos. PRESTIDIGITACIÓN Se trata de la habilidad del mago de la persuasión para dirigir la atención de la gente hacia donde le conviene a través de su cuerpo (pases mágicos) y sus palabras (palabras mágicas). En la magia o en el ilusionismo, a través de la práctica el mago combina una serie de movimientos o pases mágicos con una serie de palabras mágicas para dirigir tu atención a una mano mientras prepara el truco en la otra, y así obtener resultados que parecen sobrenaturales, mágicos. A esos pases ágiles se les llama en inglés sleight of hand y sleight of mouth . En español les llamamos prestidigitación. ¡En la comunicación ocurre igual! Debemos combinar nuestro lenguaje verbal y no verbal de manera integrada y congruente para obtener resultados que parecen sobrenaturales o mágicos. Debemos saber",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Las Habilidades Del Mago\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/las_habilidades_del_mago.webp\" alt=\"Las Habilidades Del Mago\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Presencia, Tono y Maestría del Comunicador\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m5_habilidades_mago.webp\" alt=\"Presencia, Tono y Maestría del Comunicador\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>3 LAS HABILIDADES DEL MAGO Magia: La que por medios naturales obra efectos que parecen sobrenaturales. Para convertirte en un mago de la persuasión no pretendo que salgas corriendo a comprarte guantes ni una capa ni un sombrero, ni siquiera una varita mágica; en realidad ya tienes todo lo que necesitas para lograrlo: tu cuerpo, tu voz, tu mente, tus emociones, tus ojos y tu energía vital son lo único necesario. La diferencia es que ahora aprenderás a convertir todos esos medios naturales u ordinarios en algo extraordinario para generar resultados que parecen magia. ¿Cómo? A través de dos habilidades y un método que consta de cinco pasos; cada paso tiene sus propias revelaciones y trucos. PRESTIDIGITACIÓN Se trata de la habilidad del mago de la persuasión para dirigir la atención de la gente hacia donde le conviene a través de su cuerpo (pases mágicos) y sus palabras (palabras mágicas). En la magia o en el ilusionismo, a través de la práctica el mago combina una serie de movimientos o pases mágicos con una serie de palabras mágicas para dirigir tu atención a una mano mientras prepara el truco en la otra, y así obtener resultados que parecen sobrenaturales, mágicos. A esos pases ágiles se les llama en inglés sleight of hand y sleight of mouth . En español les llamamos prestidigitación. ¡En la comunicación ocurre igual! Debemos combinar nuestro lenguaje verbal y no verbal de manera integrada y congruente para obtener resultados que parecen sobrenaturales o mágicos. Debemos saber",
           "interactiveChallenge": {
             "question": "En 'Las Habilidades Del Mago', ¿qué cualidad es indispensable para ajustar la estrategia en tiempo real?",
             "options": [
@@ -1637,7 +1638,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- 4 EL MÉTODO DEL MAGO Y SUS TRUCOS En este capítulo encontrarás cinco pasos que conforman el método que te permitirá persuadir a quien quieras, siempre y cuando lo lleves a cabo en orden. Así como en la cocina el orden es importante y los tiempos de cada paso también (es muy sabido que sacar un pastel del horno antes de tiempo solamente hará que éste no se cocine ni se esponje como debería); pues aquí el orden y el timing son también fundamentales, ya que responden a los procesos fisiológicos, emocionales y mentales a través de los cuales la persona va conformando una opinión que, poco a poco, deriva en una decisión. En pocas palabras, no saqué el método de un sombrero ni me lo saqué de la manga, no es porque aquí mis chicharrones truenan y es mi libro y hago con él lo que yo quiera; no no, para nada, mi estimado chato. Este método está pensado, estructurado y planteado así, como resultado de un proceso de mucho estudio, análisis y experimentación a través de mis víctimas… ehem , perdón, quise decir clientes, amigos, familiares, seguidores y, por supuesto, de mi propia necesidad por mejorar mis relaciones, la percepción que la gente tiene de mí y mi manera de pedir lo que necesito para conseguirlo. Ya te iré contando sobre mis retos, limitaciones y sobre cómo, con ayuda de este método, las he ido venciendo. Porque no soy monedita de oro, pero le he echado ganas pa no sacar el cobre tan seguido. Mira, la cosa está así, si quieres influir en las decisiones de alguien: + Prim",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Paso 1 Cautiva Primera Impresion\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/paso_1_cautiva_primera_impresion.webp\" alt=\"Paso 1 Cautiva Primera Impresion\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> El Impacto Decisivo de la Primera Impresión\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m6_cautiva_primera_impresion.webp\" alt=\"El Impacto Decisivo de la Primera Impresión\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- 4 EL MÉTODO DEL MAGO Y SUS TRUCOS En este capítulo encontrarás cinco pasos que conforman el método que te permitirá persuadir a quien quieras, siempre y cuando lo lleves a cabo en orden. Así como en la cocina el orden es importante y los tiempos de cada paso también (es muy sabido que sacar un pastel del horno antes de tiempo solamente hará que éste no se cocine ni se esponje como debería); pues aquí el orden y el timing son también fundamentales, ya que responden a los procesos fisiológicos, emocionales y mentales a través de los cuales la persona va conformando una opinión que, poco a poco, deriva en una decisión. En pocas palabras, no saqué el método de un sombrero ni me lo saqué de la manga, no es porque aquí mis chicharrones truenan y es mi libro y hago con él lo que yo quiera; no no, para nada, mi estimado chato. Este método está pensado, estructurado y planteado así, como resultado de un proceso de mucho estudio, análisis y experimentación a través de mis víctimas… ehem , perdón, quise decir clientes, amigos, familiares, seguidores y, por supuesto, de mi propia necesidad por mejorar mis relaciones, la percepción que la gente tiene de mí y mi manera de pedir lo que necesito para conseguirlo. Ya te iré contando sobre mis retos, limitaciones y sobre cómo, con ayuda de este método, las he ido venciendo. Porque no soy monedita de oro, pero le he echado ganas pa no sacar el cobre tan seguido. Mira, la cosa está así, si quieres influir en las decisiones de alguien: + Prim",
           "interactiveChallenge": {
             "question": "En el 'Paso 1 Cautiva Primera Impresión', ¿qué factor influye decisivamente en los primeros segundos de interacción?",
             "options": [
@@ -2543,7 +2544,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- [Texto original sin alteraciones sustanciales, corregidos solo errores tipográficos evidentes si los hubiera] ---",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Paso 1 Cautiva Imagen Vocal Y Corporal\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/paso_1_cautiva_imagen_vocal_y_corporal.webp\" alt=\"Paso 1 Cautiva Imagen Vocal Y Corporal\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Resonancia Vocal y Postura Armónica\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m7_imagen_vocal_corporal.webp\" alt=\"Resonancia Vocal y Postura Armónica\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- [Texto original sin alteraciones sustanciales, corregidos solo errores tipográficos evidentes si los hubiera] ---",
           "interactiveChallenge": {
             "question": "En 'Paso 1 Cautiva Imagen Vocal Y Corporal', ¿qué combinación vocal proyecta autoridad y accesibilidad simultáneamente?",
             "options": [
@@ -2579,7 +2580,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "2) Puntuación: Procura puntuar mientras hablas para dotar al discurso de espacios e intenciones emocionales. RETO PUNTUACIÓN Para mejorar tu habilidad de puntuación al hablar y ser más claro, empieza por poner más atención a tu manera de escribir. Toma un curso de redacción, compra un libro sobre el tema, utiliza los signos de puntuación de forma consciente. Ten presente que la pausa que se genera tras una “coma” no es igual que la que acompaña a un “punto y coma” o a un “punto y seguido”. El trabajar con ello te ayudará a expresarte mejor tanto al escribir como al hablar, y transmitirás la imagen de una persona inteligente, culta y preparada. ¡Muchos pájaros de un tiro! 3) Fraseo: haz frases cortas, fáciles de asimilar y comprender. No pongas siempre las pausas en el mismo lugar. RETO FRASEO Piensa antes de hablar. Habla más lento y estructura tus ideas. Expón un argumento, haz una pausa para permitir que tu interlocutor lo asimile, espera a notar una breve retroalimentación verbal o no verbal por su parte que te haga saber que te está siguiendo, y continúa con la siguiente idea. ¡No hables como merolico! Ten presente que el que te escucha va dos pasitos atrás que tú pues tiene que llevar a cabo todo un proceso para interpretar tu mensaje: oír, decodificar, conceptualizar, dotar de significado, contextualizar y comprender cada frase. Segundo componente de la imagen vocal: Modulación Si piensas que tus comentarios son importantes, bien argumentados y fundamentados, estructura",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Paso 1 Cautiva Lenguaje Corporal Y Reputacion\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/paso_1_cautiva_lenguaje_corporal_y_reputacion.webp\" alt=\"Paso 1 Cautiva Lenguaje Corporal Y Reputacion\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Construcción de Reputación y Porte Social\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m8_corporal_reputacion.webp\" alt=\"Construcción de Reputación y Porte Social\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>2) Puntuación: Procura puntuar mientras hablas para dotar al discurso de espacios e intenciones emocionales. RETO PUNTUACIÓN Para mejorar tu habilidad de puntuación al hablar y ser más claro, empieza por poner más atención a tu manera de escribir. Toma un curso de redacción, compra un libro sobre el tema, utiliza los signos de puntuación de forma consciente. Ten presente que la pausa que se genera tras una “coma” no es igual que la que acompaña a un “punto y coma” o a un “punto y seguido”. El trabajar con ello te ayudará a expresarte mejor tanto al escribir como al hablar, y transmitirás la imagen de una persona inteligente, culta y preparada. ¡Muchos pájaros de un tiro! 3) Fraseo: haz frases cortas, fáciles de asimilar y comprender. No pongas siempre las pausas en el mismo lugar. RETO FRASEO Piensa antes de hablar. Habla más lento y estructura tus ideas. Expón un argumento, haz una pausa para permitir que tu interlocutor lo asimile, espera a notar una breve retroalimentación verbal o no verbal por su parte que te haga saber que te está siguiendo, y continúa con la siguiente idea. ¡No hables como merolico! Ten presente que el que te escucha va dos pasitos atrás que tú pues tiene que llevar a cabo todo un proceso para interpretar tu mensaje: oír, decodificar, conceptualizar, dotar de significado, contextualizar y comprender cada frase. Segundo componente de la imagen vocal: Modulación Si piensas que tus comentarios son importantes, bien argumentados y fundamentados, estructura",
           "interactiveChallenge": {
             "question": "En 'Paso 1 Cautiva Lenguaje Corporal Y Reputación', ¿qué señal corporal destruye la percepción de apertura?",
             "options": [
@@ -3572,7 +3573,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "¿Notas la diferencia? El primer párrafo está enfocado en exponer y exaltar las cualidades del producto o servicio que se ofrece, lo cual no está mal. Es lo que comúnmente vemos. El segundo párrafo te engancha porque está completamente enfocado en decirle al lector, incluso hablándole de manera directa, cómo es que el producto o servicio influirá en hacer su vida mejor a corto, mediano o largo plazos. Pero lograrlo no es tan sencillo como parece, porque para ofrecerle a alguien algo que en verdad valore y por lo cual se sienta motivado primero tenemos que comprender a ese alguien a profundidad. Por ello, en este segundo paso del método aprenderemos a mirar al otro para saber cómo hablarle, qué ofrecerle, cómo conquistar su voluntad y cómo persuadirlo para lograr un ganar-ganar. ESCUCHA Revelación: Para comunicar, primero hay que saber escuchar No se me ocurre mejor manera de empezar este segundo paso del método que haciéndote una revelación: buen conversador mata carita, cartera y competencia. Déjame contarte una anécdota… Una vez salí con un individuo que parecía tenerlo todo: inteligente, guapérrimo, exitoso, hombre de valores, luchón, le gustaban los animales (básico, digo yo)… ¡y moría por mí! Claro, yo como pavorreal pensaba: “¡De aquí soy!”, pero ante la gran sorpresa de mis amigas, cuando llegó la hora de la verdad, can can can… le dije que no. ¿Por qué, Pam? ¿Qué le faltó? ¿En dónde vive? ¡Pásame su teléfono! (tranquilas, chatas, esto fue hace mucho, ya está casado, ot",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Paso 2 Comprende Empatia Y Personalidades\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/paso_2_comprende_empatia_y_personalidades.webp\" alt=\"Paso 2 Comprende Empatia Y Personalidades\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Empatía Táctica y Conexión de Personalidades\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m9_empatia_personalidades.webp\" alt=\"Empatía Táctica y Conexión de Personalidades\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>¿Notas la diferencia? El primer párrafo está enfocado en exponer y exaltar las cualidades del producto o servicio que se ofrece, lo cual no está mal. Es lo que comúnmente vemos. El segundo párrafo te engancha porque está completamente enfocado en decirle al lector, incluso hablándole de manera directa, cómo es que el producto o servicio influirá en hacer su vida mejor a corto, mediano o largo plazos. Pero lograrlo no es tan sencillo como parece, porque para ofrecerle a alguien algo que en verdad valore y por lo cual se sienta motivado primero tenemos que comprender a ese alguien a profundidad. Por ello, en este segundo paso del método aprenderemos a mirar al otro para saber cómo hablarle, qué ofrecerle, cómo conquistar su voluntad y cómo persuadirlo para lograr un ganar-ganar. ESCUCHA Revelación: Para comunicar, primero hay que saber escuchar No se me ocurre mejor manera de empezar este segundo paso del método que haciéndote una revelación: buen conversador mata carita, cartera y competencia. Déjame contarte una anécdota… Una vez salí con un individuo que parecía tenerlo todo: inteligente, guapérrimo, exitoso, hombre de valores, luchón, le gustaban los animales (básico, digo yo)… ¡y moría por mí! Claro, yo como pavorreal pensaba: “¡De aquí soy!”, pero ante la gran sorpresa de mis amigas, cuando llegó la hora de la verdad, can can can… le dije que no. ¿Por qué, Pam? ¿Qué le faltó? ¿En dónde vive? ¡Pásame su teléfono! (tranquilas, chatas, esto fue hace mucho, ya está casado, ot",
           "interactiveChallenge": {
             "question": "En 'Paso 2 Comprende Empatía Y Personalidades', ¿por qué es fundamental identificar el estilo de personalidad del otro?",
             "options": [
@@ -4710,7 +4711,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- alternativa y se apresuran a diagnosticar y sugerir la operación, a veces ni me escuchan bien; siento que lo que quieren es cubrir con la cuota de intervenciones quirúrgicas que una vez me dijeron que les exige el hospital o que necesitan sacar para pagar la renta o algo así. Y, bueno, mi prima me dijo que usted era más prudente, que le gustaba empezar probando por lo menos invasivo y solamente operaba si era absolutamente necesario”. Entonces el doctor te auscultaría con meticulosidad, sin apresurarse, haciendo preguntas y escuchándote con atención porque sabría que la falta de este tipo de atención fue lo que te causó desconfianza en los otros médicos. Después de analizar tu caso minuciosamente ofrecería alternativas (si es que las hubiera), empezando por lo menos invasivo. Sin embargo, si identificara que operar es la única solución, podría decirte algo como: “Ya revisé tus síntomas, tanto los que identifico como los que detalladamente me explicaste, he tenido varios casos similares, conozco bien tu padecimiento y lo he tratado de diversas maneras. Sin embargo, como te mencionó Fernanda, operar es para mí la última alternativa, la prioridad es que mis pacientes estén bien y que su enfermedad sea atendida de manera honesta y eficaz. Podría ofrecerte estos dos tratamientos a base de terapia o inyecciones, pero por la evolución del cuadro pienso que gastarías mucho tiempo, esfuerzo y dinero en ello sin poder garantizar resultados. Sé que te hubiera gustado escuchar que es",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Paso 2 Comprende Inputs Y Necesidades\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/paso_2_comprende_inputs_y_necesidades.webp\" alt=\"Paso 2 Comprende Inputs Y Necesidades\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Escucha Profunda y Detección de Necesidades\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m10_inputs_necesidades.webp\" alt=\"Escucha Profunda y Detección de Necesidades\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- alternativa y se apresuran a diagnosticar y sugerir la operación, a veces ni me escuchan bien; siento que lo que quieren es cubrir con la cuota de intervenciones quirúrgicas que una vez me dijeron que les exige el hospital o que necesitan sacar para pagar la renta o algo así. Y, bueno, mi prima me dijo que usted era más prudente, que le gustaba empezar probando por lo menos invasivo y solamente operaba si era absolutamente necesario”. Entonces el doctor te auscultaría con meticulosidad, sin apresurarse, haciendo preguntas y escuchándote con atención porque sabría que la falta de este tipo de atención fue lo que te causó desconfianza en los otros médicos. Después de analizar tu caso minuciosamente ofrecería alternativas (si es que las hubiera), empezando por lo menos invasivo. Sin embargo, si identificara que operar es la única solución, podría decirte algo como: “Ya revisé tus síntomas, tanto los que identifico como los que detalladamente me explicaste, he tenido varios casos similares, conozco bien tu padecimiento y lo he tratado de diversas maneras. Sin embargo, como te mencionó Fernanda, operar es para mí la última alternativa, la prioridad es que mis pacientes estén bien y que su enfermedad sea atendida de manera honesta y eficaz. Podría ofrecerte estos dos tratamientos a base de terapia o inyecciones, pero por la evolución del cuadro pienso que gastarías mucho tiempo, esfuerzo y dinero en ello sin poder garantizar resultados. Sé que te hubiera gustado escuchar que es",
           "interactiveChallenge": {
             "question": "En 'Paso 2 Comprende Inputs Y Necesidades', ¿qué es un 'input' motivacional?",
             "options": [
@@ -5703,7 +5704,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "PASO 3: conecta Truco 1. Genera TU estado interno propicio. Cuida lo que te comunicas a ti mismo a través de tus cinco sentidos, tu voz interior y tu cuerpo. Visualiza, usa posturas de poder, sé consciente de cómo interpretas la realidad, cambia tu estado dirigiendo tu atención de forma inteligente. Truco 2. Genera SU estado interno propicio. Llega a su mente a través del corazón. Toma en cuenta el momento, permítele hablar de algo que disfruta, sé empático, escucha con atención, reconócelo. Sé prudente y sutil. Truco 3. Usa el rapport no verbal. Similar es bueno. Si te percibe similar, sentirá que puedes comprenderlo, y sólo si puedes comprenderlo podrás ayudarlo. Mamá, papá, pipí, popó, güa güa, leche, chupón… Son algunas de las palabras que primero decimos cuando aprendemos a hablar, y una vez que nos soltamos como tarabillas y logramos que la gente nos entienda y haga lo que le pedimos, aprendemos a comunicarnos. Pero poco a poco los cachetitos sonrojados, gorditos y graciosos se nos van, también nuestras llantitas de niño Michelin, desaparece el tonito aniñado que derrite a cualquiera de ternura, y con él se va la sonrisa chimuela tan simpática que nos vuelve por demás elocuentes. Y entonces la cosa se pone buena, ¡ya no resulta tan fácil conquistar la voluntad de la gente con el simple hecho de hablar y exigir lo que necesitamos! Así que empezamos a vernos en la obligación de realmente comunicarnos. Y esa palabra implica muchas cosas. Me gusta pensar en la comunicación",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Paso 3 Conecta Rapport Y Emociones Parte 1\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/paso_3_conecta_rapport_y_emociones_parte_1.webp\" alt=\"Paso 3 Conecta Rapport Y Emociones Parte 1\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Sintonía Inmediata y Espejo Emocional\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m11_rapport_emociones_p1.webp\" alt=\"Sintonía Inmediata y Espejo Emocional\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>PASO 3: conecta Truco 1. Genera TU estado interno propicio. Cuida lo que te comunicas a ti mismo a través de tus cinco sentidos, tu voz interior y tu cuerpo. Visualiza, usa posturas de poder, sé consciente de cómo interpretas la realidad, cambia tu estado dirigiendo tu atención de forma inteligente. Truco 2. Genera SU estado interno propicio. Llega a su mente a través del corazón. Toma en cuenta el momento, permítele hablar de algo que disfruta, sé empático, escucha con atención, reconócelo. Sé prudente y sutil. Truco 3. Usa el rapport no verbal. Similar es bueno. Si te percibe similar, sentirá que puedes comprenderlo, y sólo si puedes comprenderlo podrás ayudarlo. Mamá, papá, pipí, popó, güa güa, leche, chupón… Son algunas de las palabras que primero decimos cuando aprendemos a hablar, y una vez que nos soltamos como tarabillas y logramos que la gente nos entienda y haga lo que le pedimos, aprendemos a comunicarnos. Pero poco a poco los cachetitos sonrojados, gorditos y graciosos se nos van, también nuestras llantitas de niño Michelin, desaparece el tonito aniñado que derrite a cualquiera de ternura, y con él se va la sonrisa chimuela tan simpática que nos vuelve por demás elocuentes. Y entonces la cosa se pone buena, ¡ya no resulta tan fácil conquistar la voluntad de la gente con el simple hecho de hablar y exigir lo que necesitamos! Así que empezamos a vernos en la obligación de realmente comunicarnos. Y esa palabra implica muchas cosas. Me gusta pensar en la comunicación",
           "interactiveChallenge": {
             "question": "En 'Paso 3 Conecta Rapport Y Emociones Parte 1', ¿cuál es la técnica fundamental para construir Rapport?",
             "options": [
@@ -6435,7 +6436,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "---+ siempre llegas tarde.+ ningún pretexto me hará cambiar de opinión.+ a todas las personas les gusta el helado de vainilla.8. Restarle importancia a los sentimientos o argumentos de la otra persona:+ Estás demasiado alterado para pensar con claridad.+ Cuando estés más tranquila hablamos.+ Estás exagerando.+ Seguro es porque estás en tus días.Hay mucha gente que tiene la tendencia a repetir, sin sentido, a manera de muletilla, la frase “Te voy a ser muy sincero…” antes de empezar a hablar.¡Aguas! Podrían pensar que regularmente no lo eres.9. Frases del estilo: “¡¿Pero cómo se te ocurre hacer eso?!” o “¡¿Cómo?, ¿no se te ocurrió que podía pasar esto?!”: mejor dile directamente: “Eres un estúpido”, porque finalmente obtendrás el mismo resultado.10. El chantaje emocional manipulativo de cualquier tipo:+ Si realmente te importara, harías…+ Claro, pero a tu mamá sí le cuentas todo…+ No te preocupes, yo aquí ceno solo…+ La típica de las mamás: No te preocupes, mijito, ya se comerá el perro el pollo que cociné toooooda la mañana .11. Yo, Mí, Mío: Son tres de las palabras que aprendemos a decir primero, las implementamos en nuestro vocabulario desde muy pequeñitos, en el instante en que nos damos cuenta de que somos individuos diferentes y separados de los demás. Sin embargo, ya más grandes nuestro interés (curiosamente) es pertenecer, formar alianzas, armar equipos y grupos. Pero esto a veces se nos dificulta pues seguimos pensando como niños y nos convertimos en un personaje muy",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Paso 3 Conecta Rapport Y Emociones Parte 2\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/paso_3_conecta_rapport_y_emociones_parte_2.webp\" alt=\"Paso 3 Conecta Rapport Y Emociones Parte 2\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Puentes de Confianza y Resonancia Afectiva\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m12_rapport_emociones_p2.webp\" alt=\"Puentes de Confianza y Resonancia Afectiva\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>---+ siempre llegas tarde.+ ningún pretexto me hará cambiar de opinión.+ a todas las personas les gusta el helado de vainilla.8. Restarle importancia a los sentimientos o argumentos de la otra persona:+ Estás demasiado alterado para pensar con claridad.+ Cuando estés más tranquila hablamos.+ Estás exagerando.+ Seguro es porque estás en tus días.Hay mucha gente que tiene la tendencia a repetir, sin sentido, a manera de muletilla, la frase “Te voy a ser muy sincero…” antes de empezar a hablar.¡Aguas! Podrían pensar que regularmente no lo eres.9. Frases del estilo: “¡¿Pero cómo se te ocurre hacer eso?!” o “¡¿Cómo?, ¿no se te ocurrió que podía pasar esto?!”: mejor dile directamente: “Eres un estúpido”, porque finalmente obtendrás el mismo resultado.10. El chantaje emocional manipulativo de cualquier tipo:+ Si realmente te importara, harías…+ Claro, pero a tu mamá sí le cuentas todo…+ No te preocupes, yo aquí ceno solo…+ La típica de las mamás: No te preocupes, mijito, ya se comerá el perro el pollo que cociné toooooda la mañana .11. Yo, Mí, Mío: Son tres de las palabras que aprendemos a decir primero, las implementamos en nuestro vocabulario desde muy pequeñitos, en el instante en que nos damos cuenta de que somos individuos diferentes y separados de los demás. Sin embargo, ya más grandes nuestro interés (curiosamente) es pertenecer, formar alianzas, armar equipos y grupos. Pero esto a veces se nos dificulta pues seguimos pensando como niños y nos convertimos en un personaje muy",
           "interactiveChallenge": {
             "question": "En 'Paso 3 Conecta Rapport Y Emociones Parte 2', ¿por qué la emoción influye más que la lógica pura en la toma de decisiones?",
             "options": [
@@ -7022,7 +7023,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "PASO 4: comunica Truco 1. Sé asertivo: ni pasivo ni agresivo. Toma en cuenta QUÉ, QUIÉN, CUÁNDO, DÓNDE y CÓMO comunicar lo que quieres. No es lo mismo hablar que comunicar. Haz de tu comunicación un verdadero arte. Truco 2. Cuida los sentimientos del otro o perderás su disposición. Usa el Mensaje Yo y evita las 11 frases o palabras peligrosas. Truco 3. Claridad mata carita. Sé específico, preciso y conciso al comunicar. Truco 4. Construye argumentos poderosos. Hazlos relevantes, interesantes y memorables. Truco 5. Usa el rapport verbal. Similar es bueno también al hablar. Ésa es la realidad, si la persona que tienes enfrente se da cuenta de que está siendo persuadida, se sentirá manipulada. Lo que pasa es que tendemos a desconfiar, a pensar que el de enfrente no busca nuestro beneficio sino sólo el propio. En México hay un refrán muy conocido que dice: “La mula no era arisca, los palos la hicieron”. Y quiere decir que nos hemos vuelto desconfiados gracias a la experiencia. Porque, como platicábamos hace ratito, tendemos a ser manipuladores desde chiquitos y a perseguir nuestros propios objetivos a costa de los demás, hasta que abres un libro que te dice que vale más la pena ser persuasivo y buscar un ganar-ganar porque así cuidas tu credibilidad, tu reputación y tus relaciones, y piensas: ¡ojalá todo mundo tuviera este libro, así este mundo sería un mejor lugar! Entonces ya sabes qué regalarles a todos tus seres queridos de cumpleaños (y a los no tan queridos pero que buena f",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Paso 4 Comunica Asertividad Y Argumentos\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/paso_4_comunica_asertividad_y_argumentos.webp\" alt=\"Paso 4 Comunica Asertividad Y Argumentos\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Asertividad Serena y Claridad Argumentativa\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m13_asertividad_argumentos.webp\" alt=\"Asertividad Serena y Claridad Argumentativa\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>PASO 4: comunica Truco 1. Sé asertivo: ni pasivo ni agresivo. Toma en cuenta QUÉ, QUIÉN, CUÁNDO, DÓNDE y CÓMO comunicar lo que quieres. No es lo mismo hablar que comunicar. Haz de tu comunicación un verdadero arte. Truco 2. Cuida los sentimientos del otro o perderás su disposición. Usa el Mensaje Yo y evita las 11 frases o palabras peligrosas. Truco 3. Claridad mata carita. Sé específico, preciso y conciso al comunicar. Truco 4. Construye argumentos poderosos. Hazlos relevantes, interesantes y memorables. Truco 5. Usa el rapport verbal. Similar es bueno también al hablar. Ésa es la realidad, si la persona que tienes enfrente se da cuenta de que está siendo persuadida, se sentirá manipulada. Lo que pasa es que tendemos a desconfiar, a pensar que el de enfrente no busca nuestro beneficio sino sólo el propio. En México hay un refrán muy conocido que dice: “La mula no era arisca, los palos la hicieron”. Y quiere decir que nos hemos vuelto desconfiados gracias a la experiencia. Porque, como platicábamos hace ratito, tendemos a ser manipuladores desde chiquitos y a perseguir nuestros propios objetivos a costa de los demás, hasta que abres un libro que te dice que vale más la pena ser persuasivo y buscar un ganar-ganar porque así cuidas tu credibilidad, tu reputación y tus relaciones, y piensas: ¡ojalá todo mundo tuviera este libro, así este mundo sería un mejor lugar! Entonces ya sabes qué regalarles a todos tus seres queridos de cumpleaños (y a los no tan queridos pero que buena f",
           "interactiveChallenge": {
             "question": "En 'Paso 4 Comunica Asertividad Y Argumentos', ¿cómo se define un mensaje estructurado con asertividad?",
             "options": [
@@ -7754,7 +7755,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "PASO 5: convence Truco 1. Separa el ego del objetivo: hazlo pensar que fue su idea y conquista su voluntad. Lo importante no es a quién se le ocurrió, sino que todos contribuyan con el 111% de su capacidad y compromiso a hacerla posible. El otro pensará: “Voy a demostrarle que fue una gran idea” y tú obtendrás resultados. Truco 2. No pidas, ofrece: deja claro desde el principio quién gana qué, cómo esto es conveniente para el otro. Cambia la perspectiva. Da primero. 1 Dale Carnegie, How to Win Friends and Influence People, Simon & Schuster, Estados Unidos, 1936. 2 Harry Beckwith y Christine Clifford, You, Inc., The Art of Selling Yourself, Warner Business Books, Nueva York, 2006. 3 Reginald Roberts, Psicología del color, Lectorum, México, 1949. 4 Georgina Ortiz, Usos, aplicaciones y creencias acerca del color, Trillas, México, 2014; Víctor Gordoa, El poder de la imagen pública, Grijalbo, México, 2006; Josep Viñals, La energía del color, CUAM, México, 2012, y Reginald Roberts, Psicología del color: curso de formación en psicología y terapia del color, Prana, México, 1949. 5 C. Jackson, El color de tu belleza, Juan Garnica, Barcelona, 1984. 6 A. Descamps M., Psicología de la moda, FCE, México, 1986. 7 Fundador y director de International Vocal Training, www.vocaltraining.com.mx, 8 https://cnnespanol.cnn.com/2018/03/15/paises-mas-felices-2018-informelatinoamerica/, recuperado el 14 de noviembre de 2018. 9 Antonio Coque, Inteligencia verbal: Defensa verbal y persuasión, Edaf, Mad",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Paso 5 Convence Y Cierre\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/paso_5_convence_y_cierre.webp\" alt=\"Paso 5 Convence Y Cierre\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> El Cierre Triunfante y el Acuerdo Duradero\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m14_convence_cierre.webp\" alt=\"El Cierre Triunfante y el Acuerdo Duradero\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>PASO 5: convence Truco 1. Separa el ego del objetivo: hazlo pensar que fue su idea y conquista su voluntad. Lo importante no es a quién se le ocurrió, sino que todos contribuyan con el 111% de su capacidad y compromiso a hacerla posible. El otro pensará: “Voy a demostrarle que fue una gran idea” y tú obtendrás resultados. Truco 2. No pidas, ofrece: deja claro desde el principio quién gana qué, cómo esto es conveniente para el otro. Cambia la perspectiva. Da primero. 1 Dale Carnegie, How to Win Friends and Influence People, Simon & Schuster, Estados Unidos, 1936. 2 Harry Beckwith y Christine Clifford, You, Inc., The Art of Selling Yourself, Warner Business Books, Nueva York, 2006. 3 Reginald Roberts, Psicología del color, Lectorum, México, 1949. 4 Georgina Ortiz, Usos, aplicaciones y creencias acerca del color, Trillas, México, 2014; Víctor Gordoa, El poder de la imagen pública, Grijalbo, México, 2006; Josep Viñals, La energía del color, CUAM, México, 2012, y Reginald Roberts, Psicología del color: curso de formación en psicología y terapia del color, Prana, México, 1949. 5 C. Jackson, El color de tu belleza, Juan Garnica, Barcelona, 1984. 6 A. Descamps M., Psicología de la moda, FCE, México, 1986. 7 Fundador y director de International Vocal Training, www.vocaltraining.com.mx, 8 https://cnnespanol.cnn.com/2018/03/15/paises-mas-felices-2018-informelatinoamerica/, recuperado el 14 de noviembre de 2018. 9 Antonio Coque, Inteligencia verbal: Defensa verbal y persuasión, Edaf, Mad",
           "interactiveChallenge": {
             "question": "En 'Paso 5 Convence Y Cierre', ¿cuál es el objetivo central en la fase de cierre persuasivo?",
             "options": [
@@ -8080,7 +8081,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "---El libro que tienes frente a tus ojos es fantástico por varias razones. Además de ser genuina, experta, divertida y accesible, Pamela hace algo que la gran mayoría de escritores de libros acerca de la persuasión no quiere hacer:implicar que, para convertirte en un mago de la persuasión, es necesario aprender varios tipos de cosas.Piénsalo: es mucho más fácil vender un libro titulado Lo único que tienes que hacer para adelgazar que uno titulado Las 14 cosas que debes tomar en cuenta para adelgazar. Muchos objetivos en la vida, no sólo el de adelgazar, requieren la consideración de diversos elementos para su pleno cumplimiento. Por la clase de habilidad que es la persuasión, no debería ser sorpresa que esté determinada por una amplia variedad de destrezas que te conviene practicar y desarrollar.Sé que todo esto ahora lo sabes bien, y con esto en la mente considera lo siguiente:Cada una de estas áreas de tu comunicación cuenta, al menos potencialmente, y el asunto es que no podemos saber cuánto cuenta.Me explico:¿Cuánto cuenta la manera en la que suena tu voz? Hay contextos en los que su efecto es nulo (como cuando envías un mensaje escrito por WhatsApp) y hay contextos en los que es abrumador (como cuando envías un mensaje de audio por WhatsApp). Pero ¿cuánto cuenta para tu interlocutor el sonido de tu voz cuando envías un mensaje de audio o respondes a una llamada telefónica o dices “buenos días”? No puedes saberlo con certeza.¿Cuánto cuenta tu habilidad para poner atención",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Resumen General Y Conclusiones\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/la_magia_de_la_persuasion_pamela_jean_zetina/resumen_general_y_conclusiones.webp\" alt=\"Resumen General Y Conclusiones\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Maestría Persuasiva para la Vida Real\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/magia_persuasion/magia_m15_conclusiones.webp\" alt=\"Maestría Persuasiva para la Vida Real\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>---El libro que tienes frente a tus ojos es fantástico por varias razones. Además de ser genuina, experta, divertida y accesible, Pamela hace algo que la gran mayoría de escritores de libros acerca de la persuasión no quiere hacer:implicar que, para convertirte en un mago de la persuasión, es necesario aprender varios tipos de cosas.Piénsalo: es mucho más fácil vender un libro titulado Lo único que tienes que hacer para adelgazar que uno titulado Las 14 cosas que debes tomar en cuenta para adelgazar. Muchos objetivos en la vida, no sólo el de adelgazar, requieren la consideración de diversos elementos para su pleno cumplimiento. Por la clase de habilidad que es la persuasión, no debería ser sorpresa que esté determinada por una amplia variedad de destrezas que te conviene practicar y desarrollar.Sé que todo esto ahora lo sabes bien, y con esto en la mente considera lo siguiente:Cada una de estas áreas de tu comunicación cuenta, al menos potencialmente, y el asunto es que no podemos saber cuánto cuenta.Me explico:¿Cuánto cuenta la manera en la que suena tu voz? Hay contextos en los que su efecto es nulo (como cuando envías un mensaje escrito por WhatsApp) y hay contextos en los que es abrumador (como cuando envías un mensaje de audio por WhatsApp). Pero ¿cuánto cuenta para tu interlocutor el sonido de tu voz cuando envías un mensaje de audio o respondes a una llamada telefónica o dices “buenos días”? No puedes saberlo con certeza.¿Cuánto cuenta tu habilidad para poner atención",
           "interactiveChallenge": {
             "question": "En 'Resumen General Y Conclusiones', ¿qué consolida a un individuo como un verdadero 'mago de la persuasión'?",
             "options": [
@@ -8456,6 +8457,581 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS001",
+      "category": "Persuasión",
+      "title": "El dilema de la primera impresión",
+      "difficulty": "Intermedio",
+      "badge": "Maestro de la Imagen",
+      "scenarioDescription": "Debes convencer a un inversor escéptico en 30 segundos. Tu lenguaje corporal es tenso y tu voz es monótona.",
+      "options": [
+        {
+          "text": "Ajustar postura, sonreír y modular el tono de voz antes de hablar.",
+          "outcome": "Éxito: El inversor muestra apertura inmediata.",
+          "wisdomScore": 95,
+          "analysis": "La primera impresión es el anclaje psicológico más fuerte.",
+          "bookInsight": "Basado en 'Paso 1 Cautiva: Imagen Vocal y Corporal'."
+        },
+        {
+          "text": "Ir directo a los números sin cambiar tu postura.",
+          "outcome": "Fracaso: El inversor se desconecta por falta de confianza.",
+          "wisdomScore": 30,
+          "analysis": "La lógica sin presencia es ignorada.",
+          "bookInsight": "La reputación se construye antes de la primera palabra."
+        }
+      ]
+    },
+    {
+      "id": "CS002",
+      "category": "Psicología Oscura",
+      "title": "La trampa de la empatía",
+      "difficulty": "Avanzado",
+      "badge": "Estratega Empático",
+      "scenarioDescription": "Un colega intenta manipularte usando una historia triste para obtener información confidencial.",
+      "options": [
+        {
+          "text": "Validar su emoción pero mantener el límite de información.",
+          "outcome": "Éxito: Mantienes el control sin parecer frío.",
+          "wisdomScore": 90,
+          "analysis": "La empatía táctica permite conectar sin ser vulnerable.",
+          "bookInsight": "Basado en 'Paso 2 Comprende: Empatía y Personalidades'."
+        },
+        {
+          "text": "Ignorar su historia y cambiar de tema bruscamente.",
+          "outcome": "Fracaso: Generas resentimiento y sospecha.",
+          "wisdomScore": 40,
+          "analysis": "La frialdad excesiva cierra puertas de influencia.",
+          "bookInsight": "La empatía es una herramienta de lectura, no solo de sentimiento."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Persuasión",
+      "title": "El poder de la reputación",
+      "difficulty": "Intermedio",
+      "badge": "Arquitecto de Marca",
+      "scenarioDescription": "Te enfrentas a un rumor falso sobre tu ética profesional en una reunión importante.",
+      "options": [
+        {
+          "text": "Abordar el tema con calma, citando hechos y manteniendo contacto visual firme.",
+          "outcome": "Éxito: Neutralizas el rumor con autoridad.",
+          "wisdomScore": 85,
+          "analysis": "La reputación se defiende con presencia, no con excusas.",
+          "bookInsight": "Basado en 'Paso 1 Cautiva: Lenguaje Corporal y Reputación'."
+        },
+        {
+          "text": "Negar todo agresivamente y atacar al acusador.",
+          "outcome": "Fracaso: Pareces culpable y pierdes credibilidad.",
+          "wisdomScore": 20,
+          "analysis": "La defensiva es una señal de debilidad.",
+          "bookInsight": "La reputación es el escudo del mago."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Psicología Oscura",
+      "title": "Identificando inputs",
+      "difficulty": "Avanzado",
+      "badge": "Lector de Mentes",
+      "scenarioDescription": "Tu interlocutor tiene una personalidad dominante y necesita sentirse en control.",
+      "options": [
+        {
+          "text": "Presentar opciones que le permitan elegir, dándole la ilusión de control.",
+          "outcome": "Éxito: Acepta tu propuesta creyendo que fue suya.",
+          "wisdomScore": 95,
+          "analysis": "Satisfacer necesidades ocultas es la clave de la persuasión.",
+          "bookInsight": "Basado en 'Paso 2 Comprende: Inputs y Necesidades'."
+        },
+        {
+          "text": "Imponer tu autoridad para demostrar quién manda.",
+          "outcome": "Fracaso: Se genera una lucha de poder innecesaria.",
+          "wisdomScore": 35,
+          "analysis": "El choque de egos destruye la influencia.",
+          "bookInsight": "El mago no compite, el mago dirige."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Persuasión",
+      "title": "Persuasión vs Manipulación",
+      "difficulty": "Básico",
+      "badge": "Ética del Poder",
+      "scenarioDescription": "Quieres que un cliente compre un producto que realmente no necesita.",
+      "options": [
+        {
+          "text": "Enfocarte en los beneficios reales que sí le sirven.",
+          "outcome": "Éxito: Generas confianza a largo plazo.",
+          "wisdomScore": 100,
+          "analysis": "La persuasión ética crea lealtad.",
+          "bookInsight": "Basado en 'Persuasión vs Manipulación'."
+        },
+        {
+          "text": "Usar técnicas de miedo para forzar la venta.",
+          "outcome": "Fracaso: El cliente se sentirá engañado y no volverá.",
+          "wisdomScore": 10,
+          "analysis": "La manipulación es cortoplacista y destructiva.",
+          "bookInsight": "La diferencia radica en la intención."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Persuasión",
+      "title": "El lenguaje del mago",
+      "difficulty": "Intermedio",
+      "badge": "Maestro de la Comunicación",
+      "scenarioDescription": "Tu audiencia está aburrida durante una presentación técnica.",
+      "options": [
+        {
+          "text": "Cambiar el ritmo, usar historias y variar el tono de voz.",
+          "outcome": "Éxito: Recuperas la atención y el interés.",
+          "wisdomScore": 88,
+          "analysis": "La variedad es el antídoto contra el desinterés.",
+          "bookInsight": "Basado en 'Las Habilidades del Mago'."
+        },
+        {
+          "text": "Hablar más fuerte para que presten atención.",
+          "outcome": "Fracaso: La audiencia se siente agredida y se desconecta más.",
+          "wisdomScore": 25,
+          "analysis": "El volumen no reemplaza al carisma.",
+          "bookInsight": "El mago cautiva, no impone."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Anclaje",
+      "definition": "La primera información recibida que condiciona el juicio.",
+      "tacticalUse": "Establecer el tono inicial.",
+      "countermeasure": "Cuestionar la fuente del dato."
+    },
+    {
+      "id": "FC002",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Empatía Táctica",
+      "definition": "Entender la perspectiva del otro para influir.",
+      "tacticalUse": "Desarmar defensas.",
+      "countermeasure": "Mantener distancia emocional."
+    },
+    {
+      "id": "FC003",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Imagen Vocal",
+      "definition": "El uso del tono y ritmo para proyectar autoridad.",
+      "tacticalUse": "Proyectar seguridad.",
+      "countermeasure": "Analizar el contenido, no el tono."
+    },
+    {
+      "id": "FC004",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Inputs",
+      "definition": "Las necesidades y deseos ocultos del interlocutor.",
+      "tacticalUse": "Personalizar el mensaje.",
+      "countermeasure": "Ocultar vulnerabilidades."
+    },
+    {
+      "id": "FC005",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Manipulación",
+      "definition": "Influencia con intención de engaño.",
+      "tacticalUse": "Obtener beneficio propio.",
+      "countermeasure": "Detectar la falta de ética."
+    },
+    {
+      "id": "FC006",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Reputación",
+      "definition": "El activo intangible que precede a tu llegada.",
+      "tacticalUse": "Generar confianza previa.",
+      "countermeasure": "Investigar antecedentes."
+    },
+    {
+      "id": "FC007",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Lenguaje Corporal",
+      "definition": "Comunicación no verbal que valida el mensaje.",
+      "tacticalUse": "Reforzar la autoridad.",
+      "countermeasure": "Observar incongruencias."
+    },
+    {
+      "id": "FC008",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Personalidad",
+      "definition": "Patrones de comportamiento predecibles.",
+      "tacticalUse": "Adaptar el estilo de comunicación.",
+      "countermeasure": "Variar el comportamiento."
+    },
+    {
+      "id": "FC009",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Mago",
+      "definition": "Aquel que domina la persuasión con maestría.",
+      "tacticalUse": "Liderar situaciones.",
+      "countermeasure": "No dejarse deslumbrar."
+    },
+    {
+      "id": "FC010",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Primera Impresión",
+      "definition": "El juicio instantáneo que forma el cerebro.",
+      "tacticalUse": "Controlar el inicio.",
+      "countermeasure": "Reevaluar tras el tiempo."
+    },
+    {
+      "id": "FC011",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Necesidades",
+      "definition": "Motores ocultos de la conducta humana.",
+      "tacticalUse": "Ofrecer soluciones.",
+      "countermeasure": "Identificar el interés propio."
+    },
+    {
+      "id": "FC012",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Presencia",
+      "definition": "La capacidad de ocupar el espacio mental del otro.",
+      "tacticalUse": "Dominar la sala.",
+      "countermeasure": "Centrarse en uno mismo."
+    },
+    {
+      "id": "FC013",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Escucha Activa",
+      "definition": "Oír más allá de las palabras.",
+      "tacticalUse": "Obtener información clave.",
+      "countermeasure": "Hablar poco."
+    },
+    {
+      "id": "FC014",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Sesgo de Confirmación",
+      "definition": "Tendencia a buscar lo que refuerza nuestras ideas.",
+      "tacticalUse": "Alinear el mensaje.",
+      "countermeasure": "Buscar opiniones contrarias."
+    },
+    {
+      "id": "FC015",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Autoridad",
+      "definition": "Poder percibido basado en la competencia.",
+      "tacticalUse": "Influir sin esfuerzo.",
+      "countermeasure": "Pedir pruebas."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM001",
+      "category": "Persuasión",
+      "name": "Espejo (Mirroring)",
+      "severity": "Baja",
+      "icon": "Reflejo",
+      "howItWorks": "Imitar sutilmente gestos del otro.",
+      "redFlags": "Imitación obvia o burlesca.",
+      "counterScript": "Cambiar de postura repentinamente.",
+      "deepMechanism": "Crea afinidad subconsciente."
+    },
+    {
+      "id": "TM002",
+      "category": "Psicología Oscura",
+      "name": "Ilusión de Elección",
+      "severity": "Alta",
+      "icon": "Laberinto",
+      "howItWorks": "Dar dos opciones que llevan al mismo resultado.",
+      "redFlags": "Sentir que no hay salida.",
+      "counterScript": "Proponer una tercera opción.",
+      "deepMechanism": "Reduce la resistencia al control."
+    },
+    {
+      "id": "TM003",
+      "category": "Persuasión",
+      "name": "Anclaje de Valor",
+      "severity": "Media",
+      "icon": "Ancla",
+      "howItWorks": "Establecer un precio o valor alto primero.",
+      "redFlags": "Cifras desproporcionadas.",
+      "counterScript": "Ignorar el ancla y negociar desde cero.",
+      "deepMechanism": "Sesgo cognitivo de referencia."
+    },
+    {
+      "id": "TM004",
+      "category": "Psicología Oscura",
+      "name": "Bombardeo de Empatía",
+      "severity": "Alta",
+      "icon": "Corazón",
+      "howItWorks": "Exceso de validación emocional para bajar defensas.",
+      "redFlags": "Intimidad forzada muy rápido.",
+      "counterScript": "Mantener temas profesionales.",
+      "deepMechanism": "Genera deuda emocional."
+    },
+    {
+      "id": "TM005",
+      "category": "Persuasión",
+      "name": "Validación de Autoridad",
+      "severity": "Media",
+      "icon": "Corona",
+      "howItWorks": "Citar expertos o logros para ganar confianza.",
+      "redFlags": "Nombres sin contexto.",
+      "counterScript": "Pedir evidencia directa.",
+      "deepMechanism": "Apela al instinto de seguir al líder."
+    },
+    {
+      "id": "TM006",
+      "category": "Psicología Oscura",
+      "name": "Silencio Táctico",
+      "severity": "Alta",
+      "icon": "BocaCerrada",
+      "howItWorks": "Callar tras una pregunta para forzar al otro a hablar.",
+      "redFlags": "Incomodidad extrema.",
+      "counterScript": "Mantener el silencio hasta que el otro hable.",
+      "deepMechanism": "El cerebro humano odia el vacío social."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Cuál es el componente más importante de la primera impresión?",
+      "options": [
+        "La ropa",
+        "El lenguaje corporal y la voz",
+        "El currículum",
+        "La edad"
+      ],
+      "correctIndex": 1,
+      "explanation": "La ciencia demuestra que el impacto no verbal supera al contenido verbal."
+    },
+    {
+      "id": "Q002",
+      "bookNumber": 1,
+      "question": "¿Qué diferencia a la persuasión de la manipulación?",
+      "options": [
+        "El volumen de voz",
+        "La intención y el beneficio mutuo",
+        "La rapidez del proceso",
+        "El uso de tecnología"
+      ],
+      "correctIndex": 1,
+      "explanation": "La persuasión busca el beneficio mutuo; la manipulación es egoísta."
+    },
+    {
+      "id": "Q003",
+      "bookNumber": 1,
+      "question": "¿Qué es un 'Input' en el contexto de la persuasión?",
+      "options": [
+        "Un dato técnico",
+        "Una necesidad o deseo del otro",
+        "Un error de comunicación",
+        "Un tipo de saludo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Los inputs son las claves que mueven la voluntad del interlocutor."
+    },
+    {
+      "id": "Q004",
+      "bookNumber": 1,
+      "question": "¿Por qué es vital la reputación?",
+      "options": [
+        "Porque es obligatoria",
+        "Porque actúa como un escudo y carta de presentación",
+        "Porque es fácil de cambiar",
+        "Porque no importa"
+      ],
+      "correctIndex": 1,
+      "explanation": "La reputación precede a tus acciones y facilita la influencia."
+    },
+    {
+      "id": "Q005",
+      "bookNumber": 1,
+      "question": "¿Qué técnica ayuda a entender personalidades?",
+      "options": [
+        "La empatía",
+        "El juicio rápido",
+        "La ignorancia",
+        "La agresividad"
+      ],
+      "correctIndex": 0,
+      "explanation": "La empatía permite leer los patrones de comportamiento del otro."
+    },
+    {
+      "id": "Q006",
+      "bookNumber": 1,
+      "question": "¿Qué es la 'Imagen Vocal'?",
+      "options": [
+        "Cantar bien",
+        "El uso del tono, ritmo y volumen",
+        "Hablar muy rápido",
+        "El uso de micrófonos"
+      ],
+      "correctIndex": 1,
+      "explanation": "La voz es una herramienta de poder que proyecta seguridad."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G001",
+      "term": "Mago",
+      "category": "Persuasión",
+      "definition": "Persona que domina el arte de conectar.",
+      "practicalExample": "Alguien que logra acuerdos sin esfuerzo."
+    },
+    {
+      "id": "G002",
+      "term": "Input",
+      "category": "Psicología",
+      "definition": "Necesidad oculta del interlocutor.",
+      "practicalExample": "Detectar que alguien busca reconocimiento."
+    },
+    {
+      "id": "G003",
+      "term": "Anclaje",
+      "definition": "Punto de referencia inicial.",
+      "practicalExample": "Mencionar un precio alto primero."
+    },
+    {
+      "id": "G004",
+      "term": "Empatía",
+      "definition": "Capacidad de sentir lo que el otro siente.",
+      "practicalExample": "Validar la frustración de un cliente."
+    },
+    {
+      "id": "G005",
+      "term": "Manipulación",
+      "definition": "Influencia con fines ocultos.",
+      "practicalExample": "Mentir para obtener una venta."
+    },
+    {
+      "id": "G006",
+      "term": "Reputación",
+      "definition": "Percepción pública de tu valor.",
+      "practicalExample": "Ser conocido por cumplir promesas."
+    },
+    {
+      "id": "G007",
+      "term": "Lenguaje Corporal",
+      "definition": "Señales no verbales.",
+      "practicalExample": "Mantener contacto visual firme."
+    },
+    {
+      "id": "G008",
+      "term": "Imagen Vocal",
+      "definition": "Uso estratégico de la voz.",
+      "practicalExample": "Bajar el tono para dar seriedad."
+    },
+    {
+      "id": "G009",
+      "term": "Persuasión",
+      "definition": "Arte de convencer éticamente.",
+      "practicalExample": "Lograr que el equipo trabaje unido."
+    },
+    {
+      "id": "G010",
+      "term": "Sesgo",
+      "definition": "Error de juicio sistemático.",
+      "practicalExample": "Creer que alguien es bueno por su apariencia."
+    },
+    {
+      "id": "G011",
+      "term": "Presencia",
+      "definition": "Impacto físico y mental.",
+      "practicalExample": "Entrar a una sala y captar la atención."
+    },
+    {
+      "id": "G012",
+      "term": "Necesidad",
+      "definition": "Carencia que motiva la acción.",
+      "practicalExample": "La necesidad de seguridad."
+    },
+    {
+      "id": "G013",
+      "term": "Estrategia",
+      "definition": "Plan para alcanzar un objetivo.",
+      "practicalExample": "Preparar el discurso antes de la reunión."
+    },
+    {
+      "id": "G014",
+      "term": "Conexión",
+      "definition": "Vínculo emocional entre dos personas.",
+      "practicalExample": "Encontrar un interés común."
+    },
+    {
+      "id": "G015",
+      "term": "Autoridad",
+      "definition": "Poder legítimo o percibido.",
+      "practicalExample": "Hablar con conocimiento de causa."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL001",
+      "category": "Presencia",
+      "title": "Postura de Poder",
+      "cue": "Hombros atrás, pecho abierto.",
+      "interpretation": "Seguridad y dominio.",
+      "practicalDrill": "Mantener 2 minutos frente al espejo."
+    },
+    {
+      "id": "BL002",
+      "category": "Conexión",
+      "title": "Contacto Visual",
+      "cue": "Mirada directa al triángulo facial.",
+      "interpretation": "Honestidad y atención.",
+      "practicalDrill": "Sostener la mirada 3 segundos más de lo habitual."
+    },
+    {
+      "id": "BL003",
+      "category": "Persuasión",
+      "title": "Gestos Abiertos",
+      "cue": "Palmas de las manos visibles.",
+      "interpretation": "Transparencia y apertura.",
+      "practicalDrill": "Evitar cruzar los brazos al hablar."
+    },
+    {
+      "id": "BL004",
+      "category": "Psicología",
+      "title": "Inclinación de Cabeza",
+      "cue": "Ligeramente hacia un lado.",
+      "interpretation": "Escucha activa y receptividad.",
+      "practicalDrill": "Hacerlo mientras alguien explica un problema."
+    },
+    {
+      "id": "BL005",
+      "category": "Poder",
+      "title": "Ritmo Vocal",
+      "cue": "Pausas estratégicas.",
+      "interpretation": "Control y reflexión.",
+      "practicalDrill": "Hacer una pausa de 2 segundos antes de responder."
+    },
+    {
+      "id": "BL006",
+      "category": "Conexión",
+      "title": "Sonrisa Duchenne",
+      "cue": "Sonrisa que alcanza los ojos.",
+      "interpretation": "Sinceridad y calidez.",
+      "practicalDrill": "Practicar la sonrisa genuina en el espejo."
     }
   ]
 };

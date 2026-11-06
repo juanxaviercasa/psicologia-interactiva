@@ -632,93 +632,548 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Relaciones Interpersonales",
-      "title": "Caso Práctico: Introduccion Y Principios Basicos",
-      "difficulty": "Media",
-      "badge": "Experto en Vínculos",
-      "scenarioDescription": "Durante una situación relacionada con \"Introduccion Y Principios Basicos\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": 1,
+      "category": "Reciprocidad",
+      "title": "El favor estratégico",
+      "difficulty": "Medium",
+      "badge": "Diplomático",
+      "scenarioDescription": "Un colega influyente te pide un favor menor. Sabes que pronto necesitarás su apoyo para un proyecto crítico.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Introduccion Y Principios Basicos\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
-        },
-        {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Hacer el favor sin pedir nada a cambio inmediatamente.",
+          "outcome": "Generas una deuda psicológica.",
+          "wisdomScore": 85,
+          "analysis": "La reciprocidad crea una obligación social tácita.",
+          "bookInsight": "La técnica de reciprocidad es el cimiento de la influencia a largo plazo."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Aplicación Ética de Principios",
-      "title": "Caso Práctico: Tecnica 1 Reciprocidad",
-      "difficulty": "Alta",
-      "badge": "Maestro de Influencia",
-      "scenarioDescription": "Durante una situación relacionada con \"Tecnica 1 Reciprocidad\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": 2,
+      "category": "Consistencia",
+      "title": "El compromiso público",
+      "difficulty": "Hard",
+      "badge": "Estratega",
+      "scenarioDescription": "Quieres que tu equipo acepte una nueva política impopular.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Tecnica 1 Reciprocidad\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
-        },
+          "text": "Hacer que acepten un pequeño cambio primero.",
+          "outcome": "Aumentas la probabilidad de aceptación total.",
+          "wisdomScore": 90,
+          "analysis": "La gente tiende a ser consistente con sus compromisos previos.",
+          "bookInsight": "La consistencia es la clave para la adhesión a largo plazo."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Aprobación Social",
+      "title": "El efecto manada",
+      "difficulty": "Easy",
+      "badge": "Influencer",
+      "scenarioDescription": "Necesitas convencer a un cliente indeciso.",
+      "options": [
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Mostrar testimonios de clientes similares.",
+          "outcome": "Reduces la incertidumbre del cliente.",
+          "wisdomScore": 80,
+          "analysis": "La validación social reduce el riesgo percibido.",
+          "bookInsight": "La aprobación social es un atajo mental para la toma de decisiones."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Empatía",
+      "title": "El espejo emocional",
+      "difficulty": "Medium",
+      "badge": "Negociador",
+      "scenarioDescription": "Un cliente está furioso por un error de la empresa.",
+      "options": [
+        {
+          "text": "Validar sus sentimientos antes de ofrecer soluciones.",
+          "outcome": "Desescalas el conflicto.",
+          "wisdomScore": 95,
+          "analysis": "La empatía táctica desarma la resistencia defensiva.",
+          "bookInsight": "La empatía es la herramienta más poderosa para la persuasión."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Autoridad",
+      "title": "El sello de experto",
+      "difficulty": "Hard",
+      "badge": "Líder",
+      "scenarioDescription": "Debes presentar una propuesta ante una junta directiva escéptica.",
+      "options": [
+        {
+          "text": "Citar datos de expertos reconocidos y tu trayectoria.",
+          "outcome": "Ganas credibilidad inmediata.",
+          "wisdomScore": 88,
+          "analysis": "La autoridad percibida minimiza el cuestionamiento.",
+          "bookInsight": "La autoridad es un atajo cognitivo hacia la confianza."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Escasez",
+      "title": "La ventana de oportunidad",
+      "difficulty": "Medium",
+      "badge": "Cerrador",
+      "scenarioDescription": "Un cliente está postergando la compra de un servicio.",
+      "options": [
+        {
+          "text": "Informar sobre la disponibilidad limitada de la oferta.",
+          "outcome": "Generas urgencia.",
+          "wisdomScore": 82,
+          "analysis": "La escasez activa el miedo a la pérdida.",
+          "bookInsight": "La escasez es el motor de la acción inmediata."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Programación neurolingüística",
-      "definition": "Técnica psicológica estudiada en \"Introduccion Y Principios Basicos\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
+      "id": 1,
+      "bookNumber": 1,
+      "category": "Reciprocidad",
+      "term": "Deuda Social",
+      "definition": "Obligación interna de devolver un favor.",
+      "tacticalUse": "Dar algo pequeño para recibir algo grande.",
+      "countermeasure": "Reconocer el regalo como una táctica."
     },
     {
-      "id": "fc2",
-      "term": "Anclaje emocional",
-      "definition": "Técnica psicológica estudiada en \"Tecnica 1 Reciprocidad\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Consultar perspectivas externas de confianza antes de decidir."
+      "id": 2,
+      "bookNumber": 2,
+      "category": "Consistencia",
+      "term": "Compromiso",
+      "definition": "Tendencia a actuar según decisiones previas.",
+      "tacticalUse": "Obtener un 'sí' pequeño primero.",
+      "countermeasure": "Evaluar cada decisión de forma aislada."
     },
     {
-      "id": "fc3",
-      "term": "Aislamiento progresivo",
-      "definition": "Técnica psicológica estudiada en \"Tecnica 2 La Consistencia\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Practicar la técnica del \"disco rayado\" ante presión persistente."
+      "id": 3,
+      "bookNumber": 3,
+      "category": "Aprobación Social",
+      "term": "Prueba Social",
+      "definition": "Mirar a otros para decidir qué es correcto.",
+      "tacticalUse": "Mostrar que otros ya lo hacen.",
+      "countermeasure": "Pensar de forma independiente."
     },
     {
-      "id": "fc4",
+      "id": 4,
+      "bookNumber": 4,
+      "category": "Empatía",
+      "term": "Escucha Activa",
+      "definition": "Entender la perspectiva del otro.",
+      "tacticalUse": "Reflejar emociones del interlocutor.",
+      "countermeasure": "Mantener límites emocionales."
+    },
+    {
+      "id": 5,
+      "bookNumber": 5,
+      "category": "Autoridad",
+      "term": "Sesgo de Autoridad",
+      "definition": "Seguir a figuras de poder.",
+      "tacticalUse": "Usar títulos y símbolos de estatus.",
+      "countermeasure": "Cuestionar la fuente de la autoridad."
+    },
+    {
+      "id": 6,
+      "bookNumber": 6,
+      "category": "Escasez",
+      "term": "Aversión a la pérdida",
+      "definition": "Valorar más lo que se puede perder.",
+      "tacticalUse": "Limitar el tiempo o cantidad.",
+      "countermeasure": "Preguntar si realmente lo necesito."
+    },
+    {
+      "id": 7,
+      "bookNumber": 1,
+      "category": "Reciprocidad",
+      "term": "Concesión",
+      "definition": "Ceder en algo para que el otro ceda.",
+      "tacticalUse": "Empezar con una petición alta.",
+      "countermeasure": "No sentirse obligado a ceder."
+    },
+    {
+      "id": 8,
+      "bookNumber": 2,
+      "category": "Consistencia",
+      "term": "Disonancia Cognitiva",
+      "definition": "Incomodidad por actuar contra creencias.",
+      "tacticalUse": "Alinear la acción con la identidad.",
+      "countermeasure": "Aceptar cambiar de opinión."
+    },
+    {
+      "id": 9,
+      "bookNumber": 3,
+      "category": "Aprobación Social",
+      "term": "Efecto Manada",
+      "definition": "Seguir la conducta de la mayoría.",
+      "tacticalUse": "Usar testimonios masivos.",
+      "countermeasure": "Analizar datos objetivos."
+    },
+    {
+      "id": 10,
+      "bookNumber": 4,
+      "category": "Empatía",
+      "term": "Rapport",
+      "definition": "Sintonía emocional con el otro.",
+      "tacticalUse": "Imitar sutilmente el lenguaje corporal.",
+      "countermeasure": "Observar la intención del otro."
+    },
+    {
+      "id": 11,
+      "bookNumber": 5,
+      "category": "Autoridad",
+      "term": "Símbolos de Poder",
+      "definition": "Objetos que denotan estatus.",
+      "tacticalUse": "Vestimenta y entorno profesional.",
+      "countermeasure": "Separar el mensaje del mensajero."
+    },
+    {
+      "id": 12,
+      "bookNumber": 6,
+      "category": "Escasez",
+      "term": "Urgencia Artificial",
+      "definition": "Crear límites temporales falsos.",
+      "tacticalUse": "Ofertas por tiempo limitado.",
+      "countermeasure": "Ignorar la presión temporal."
+    },
+    {
+      "id": 13,
+      "bookNumber": 1,
+      "category": "Reciprocidad",
+      "term": "Regalo Inesperado",
+      "definition": "Dar sin que lo pidan.",
+      "tacticalUse": "Generar gratitud inmediata.",
+      "countermeasure": "No aceptar regalos con segundas."
+    },
+    {
+      "id": 14,
+      "bookNumber": 2,
+      "category": "Consistencia",
+      "term": "Etiquetado",
+      "definition": "Definir al otro para que actúe igual.",
+      "tacticalUse": "Llamar a alguien 'generoso'.",
+      "countermeasure": "No aceptar etiquetas externas."
+    },
+    {
+      "id": 15,
+      "bookNumber": 3,
+      "category": "Aprobación Social",
+      "term": "Validación",
+      "definition": "Confirmación externa de una idea.",
+      "tacticalUse": "Citar expertos.",
+      "countermeasure": "Verificar la validez de la fuente."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": 1,
+      "category": "Reciprocidad",
+      "name": "La técnica del portazo en la cara",
+      "severity": "Alta",
+      "icon": "door",
+      "howItWorks": "Pedir algo grande para que acepten algo pequeño.",
+      "redFlags": "Sentir presión repentina por ceder.",
+      "counterScript": "No estoy obligado a aceptar tu segunda oferta.",
+      "deepMechanism": "Contraste perceptivo y alivio."
+    },
+    {
+      "id": 2,
+      "category": "Consistencia",
+      "name": "Pie en la puerta",
+      "severity": "Media",
+      "icon": "foot",
+      "howItWorks": "Pedir un compromiso mínimo para luego escalar.",
+      "redFlags": "Peticiones que crecen gradualmente.",
+      "counterScript": "Prefiero no comprometerme a nada más.",
+      "deepMechanism": "Necesidad de coherencia interna."
+    },
+    {
+      "id": 3,
+      "category": "Aprobación Social",
+      "name": "Efecto de consenso",
+      "severity": "Baja",
+      "icon": "group",
+      "howItWorks": "Demostrar que la mayoría ya lo hace.",
+      "redFlags": "Presión por encajar en el grupo.",
+      "counterScript": "Mi decisión se basa en mis propios criterios.",
+      "deepMechanism": "Miedo al aislamiento social."
+    },
+    {
+      "id": 4,
+      "category": "Empatía",
+      "name": "Espejo (Mirroring)",
+      "severity": "Baja",
+      "icon": "mirror",
+      "howItWorks": "Repetir las últimas palabras del otro.",
+      "redFlags": "Sentir que el otro te entiende demasiado bien.",
+      "counterScript": "Entiendo que intentas conectar, pero vamos al punto.",
+      "deepMechanism": "Generación de confianza subconsciente."
+    },
+    {
+      "id": 5,
+      "category": "Autoridad",
+      "name": "Apelación a la jerarquía",
+      "severity": "Alta",
+      "icon": "crown",
+      "howItWorks": "Usar títulos para validar una idea.",
+      "redFlags": "Argumentos basados solo en quién lo dice.",
+      "counterScript": "¿Qué evidencia respalda esa afirmación?",
+      "deepMechanism": "Obediencia aprendida."
+    },
+    {
+      "id": 6,
+      "category": "Escasez",
+      "name": "Exclusividad",
+      "severity": "Media",
+      "icon": "diamond",
+      "howItWorks": "Limitar el acceso a un recurso.",
+      "redFlags": "Sentir ansiedad por perder una oportunidad.",
+      "counterScript": "No necesito esto con urgencia.",
+      "deepMechanism": "Activación del instinto de posesión."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "bookNumber": 1,
+      "question": "¿Qué es la reciprocidad?",
+      "options": [
+        "Dar para recibir",
+        "Ignorar al otro",
+        "Competir",
+        "Nada"
+      ],
+      "correctIndex": 0,
+      "explanation": "La reciprocidad es la tendencia a devolver favores."
+    },
+    {
+      "id": 2,
+      "bookNumber": 2,
+      "question": "¿Por qué funciona la consistencia?",
+      "options": [
+        "Por miedo",
+        "Por coherencia interna",
+        "Por dinero",
+        "Por azar"
+      ],
+      "correctIndex": 1,
+      "explanation": "El cerebro busca coherencia entre actos y creencias."
+    },
+    {
+      "id": 3,
+      "bookNumber": 3,
+      "question": "¿Qué es la aprobación social?",
+      "options": [
+        "Validación externa",
+        "Ego",
+        "Poder",
+        "Dinero"
+      ],
+      "correctIndex": 0,
+      "explanation": "Usamos a otros como guía de conducta."
+    },
+    {
+      "id": 4,
+      "bookNumber": 4,
+      "question": "¿Qué logra la empatía?",
+      "options": [
+        "Desarmar defensas",
+        "Atacar",
+        "Ignorar",
+        "Confundir"
+      ],
+      "correctIndex": 0,
+      "explanation": "La empatía reduce la resistencia del interlocutor."
+    },
+    {
+      "id": 5,
+      "bookNumber": 5,
+      "question": "¿Qué es la autoridad?",
+      "options": [
+        "Poder real",
+        "Símbolos de estatus",
+        "Fuerza",
+        "Amistad"
+      ],
+      "correctIndex": 1,
+      "explanation": "La autoridad se percibe a través de símbolos."
+    },
+    {
+      "id": 6,
+      "bookNumber": 6,
+      "question": "¿Qué activa la escasez?",
+      "options": [
+        "Aversión a la pérdida",
+        "Alegría",
+        "Calma",
+        "Indiferencia"
+      ],
+      "correctIndex": 0,
+      "explanation": "El miedo a perder algo motiva la acción."
+    }
+  ],
+  "glossary": [
+    {
+      "id": 1,
+      "term": "Persuasión",
+      "category": "General",
+      "definition": "Influir en la voluntad ajena.",
+      "practicalExample": "Convencer a un socio."
+    },
+    {
+      "id": 2,
       "term": "Reciprocidad",
-      "definition": "Técnica psicológica estudiada en \"Tecnica 3 La Aprobacion Social\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Aplicar el protocolo JADE-never: no Justifiques, Argumentes, Defiendas ni Expliques."
+      "category": "Técnica",
+      "definition": "Intercambio de favores.",
+      "practicalExample": "Regalar algo antes de pedir."
     },
     {
-      "id": "fc5",
-      "term": "Disonancia cognitiva inducida",
-      "definition": "Técnica psicológica estudiada en \"Tecnica 4 La Empatia\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Documentar patrones de comportamiento para identificar manipulación."
+      "id": 3,
+      "term": "Consistencia",
+      "category": "Técnica",
+      "definition": "Coherencia con actos pasados.",
+      "practicalExample": "Firmar una petición."
+    },
+    {
+      "id": 4,
+      "term": "Aprobación Social",
+      "category": "Técnica",
+      "definition": "Validación por la mayoría.",
+      "practicalExample": "Reseñas de clientes."
+    },
+    {
+      "id": 5,
+      "term": "Empatía",
+      "category": "Técnica",
+      "definition": "Conexión emocional.",
+      "practicalExample": "Escuchar activamente."
+    },
+    {
+      "id": 6,
+      "term": "Autoridad",
+      "category": "Técnica",
+      "definition": "Influencia por estatus.",
+      "practicalExample": "Usar uniforme."
+    },
+    {
+      "id": 7,
+      "term": "Escasez",
+      "category": "Técnica",
+      "definition": "Valor por limitación.",
+      "practicalExample": "Oferta limitada."
+    },
+    {
+      "id": 8,
+      "term": "Rapport",
+      "category": "Psicología",
+      "definition": "Sintonía.",
+      "practicalExample": "Sonreír al saludar."
+    },
+    {
+      "id": 9,
+      "term": "Disonancia",
+      "category": "Psicología",
+      "definition": "Conflicto mental.",
+      "practicalExample": "Cambiar de opinión."
+    },
+    {
+      "id": 10,
+      "term": "Sesgo",
+      "category": "Psicología",
+      "definition": "Error de juicio.",
+      "practicalExample": "Efecto halo."
+    },
+    {
+      "id": 11,
+      "term": "Influencia",
+      "category": "General",
+      "definition": "Capacidad de cambiar conductas.",
+      "practicalExample": "Liderazgo."
+    },
+    {
+      "id": 12,
+      "term": "Negociación",
+      "category": "General",
+      "definition": "Acuerdo mutuo.",
+      "practicalExample": "Cierre de ventas."
+    },
+    {
+      "id": 13,
+      "term": "Retórica",
+      "category": "General",
+      "definition": "Arte de hablar bien.",
+      "practicalExample": "Discurso público."
+    },
+    {
+      "id": 14,
+      "term": "Poder",
+      "category": "General",
+      "definition": "Capacidad de mando.",
+      "practicalExample": "Toma de decisiones."
+    },
+    {
+      "id": 15,
+      "term": "Estrategia",
+      "category": "General",
+      "definition": "Plan de acción.",
+      "practicalExample": "Táctica de ventas."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": 1,
+      "category": "Presencia",
+      "title": "Contacto visual firme",
+      "cue": "Mantener mirada 70% del tiempo",
+      "interpretation": "Seguridad y autoridad",
+      "practicalDrill": "Practicar en espejo"
+    },
+    {
+      "id": 2,
+      "category": "Empatía",
+      "title": "Inclinación leve",
+      "cue": "Inclinar torso hacia el otro",
+      "interpretation": "Interés genuino",
+      "practicalDrill": "Observar reacción en reunión"
+    },
+    {
+      "id": 3,
+      "category": "Autoridad",
+      "title": "Postura abierta",
+      "cue": "Manos visibles, pecho erguido",
+      "interpretation": "Dominio y transparencia",
+      "practicalDrill": "Evitar cruzar brazos"
+    },
+    {
+      "id": 4,
+      "category": "Rapport",
+      "title": "Espejeo sutil",
+      "cue": "Copiar ritmo de respiración",
+      "interpretation": "Conexión subconsciente",
+      "practicalDrill": "Sincronizar con un amigo"
+    },
+    {
+      "id": 5,
+      "category": "Confianza",
+      "title": "Gesto de manos",
+      "cue": "Palmas hacia arriba",
+      "interpretation": "Honestidad y apertura",
+      "practicalDrill": "Usar al explicar ideas"
+    },
+    {
+      "id": 6,
+      "category": "Control",
+      "title": "Pausas tácticas",
+      "cue": "Silencio antes de responder",
+      "interpretation": "Control de la situación",
+      "practicalDrill": "Contar 3 segundos antes de hablar"
     }
   ]
 };

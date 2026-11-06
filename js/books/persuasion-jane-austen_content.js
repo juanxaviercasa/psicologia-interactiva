@@ -1,3 +1,4 @@
+// Contenido enriquecido para Persuasión (Clásico de la Literatura Universal)
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -15369,6 +15370,90 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS001",
+      "category": "Persuasión",
+      "title": "La influencia de la reputación",
+      "difficulty": "Hard",
+      "badge": "Maquiavelo",
+      "scenarioDescription": "Tu interlocutor tiene una opinión formada sobre ti basada en errores pasados. ¿Cómo cambias su percepción sin parecer desesperado?",
+      "options": [
+        {
+          "text": "Explicar detalladamente tus razones pasadas.",
+          "outcome": "Fracaso",
+          "wisdomScore": 20,
+          "analysis": "La justificación excesiva debilita tu posición.",
+          "bookInsight": "Anne Elliot aprende que el silencio y la dignidad son más persuasivos que la defensa propia."
+        },
+        {
+          "text": "Mantener una conducta impecable y dejar que los hechos hablen.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "La consistencia es la forma más alta de persuasión.",
+          "bookInsight": "La paciencia de Anne frente al desdén de su familia demuestra el poder del autocontrol."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Persuasión Pasiva",
+      "definition": "Influir en otros mediante la propia transformación personal.",
+      "tacticalUse": "Cuando no puedes convencer con palabras, cambia tu entorno y tu presencia.",
+      "countermeasure": "Identificar si el cambio es genuino o una máscara estratégica."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM001",
+      "category": "Poder",
+      "name": "El Silencio Estratégico",
+      "severity": "Alta",
+      "icon": "🤐",
+      "howItWorks": "Retener información o respuesta para generar ansiedad en el otro.",
+      "redFlags": "Uso excesivo para manipular la inseguridad ajena.",
+      "counterScript": "Mantener la calma y preguntar directamente: '¿Hay algo que desees añadir?'",
+      "deepMechanism": "El vacío comunicativo obliga al otro a revelar sus intenciones."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Cuál es la clave de la persuasión en la obra de Austen?",
+      "options": [
+        "La elocuencia",
+        "La constancia y el carácter",
+        "La riqueza",
+        "La manipulación directa"
+      ],
+      "correctIndex": 1,
+      "explanation": "Austen demuestra que el carácter inquebrantable es la herramienta de persuasión más duradera."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G001",
+      "term": "Influencia Social",
+      "category": "Persuasión",
+      "definition": "El peso de la opinión ajena en la toma de decisiones.",
+      "practicalExample": "Cómo la familia de Anne intenta dirigir su matrimonio."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL001",
+      "category": "Presencia",
+      "title": "La mirada de desapego",
+      "cue": "Mantener contacto visual sin parpadeo excesivo.",
+      "interpretation": "Indica control emocional y falta de necesidad de aprobación.",
+      "practicalDrill": "Practica mantener la mirada durante 3 segundos más de lo habitual en una conversación casual."
     }
   ]
 };

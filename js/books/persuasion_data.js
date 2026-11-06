@@ -1298,93 +1298,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Relaciones Interpersonales",
-      "title": "Caso Práctico: Chapter 2 Global Human Drives",
-      "difficulty": "Media",
-      "badge": "Experto en Vínculos",
-      "scenarioDescription": "Durante una situación relacionada con \"Chapter 2 Global Human Drives\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS001",
+      "category": "Psychic Influence",
+      "title": "The Heart Center Connection",
+      "difficulty": "Hard",
+      "badge": "Master Manipulator",
+      "scenarioDescription": "You are negotiating a high-stakes merger. Your counterpart is cold and logical. How do you break their defense?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Chapter 2 Global Human Drives\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Appeal to their ego with flattery.",
+          "outcome": "Failure",
+          "wisdomScore": 20,
+          "analysis": "Flattery is transparent and triggers defensive skepticism.",
+          "bookInsight": "Chapter 6: Psychic Influence from the Heart Center requires authentic emotional resonance, not superficial praise."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Mirror their values and demonstrate genuine empathy for their vision.",
+          "outcome": "Success",
+          "wisdomScore": 95,
+          "analysis": "By aligning with their core values, you bypass the logical filter and establish trust.",
+          "bookInsight": "Chapter 6 emphasizes that influence flows from the heart, creating a bridge that logic cannot build."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Aplicación Ética de Principios",
-      "title": "Caso Práctico: Chapter 3 Individual Needs",
-      "difficulty": "Alta",
-      "badge": "Maestro de Influencia",
-      "scenarioDescription": "Durante una situación relacionada con \"Chapter 3 Individual Needs\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS002",
+      "category": "Covert Persuasion",
+      "title": "The Hidden Agenda",
+      "difficulty": "Medium",
+      "badge": "Shadow Strategist",
+      "scenarioDescription": "You need a colleague to support a project they initially opposed.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Chapter 3 Individual Needs\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Present a list of logical benefits.",
+          "outcome": "Neutral",
+          "wisdomScore": 40,
+          "analysis": "Logic rarely changes a mind already made up.",
+          "bookInsight": "Chapter 9: The Covert Way To Persuade People suggests planting the idea so they believe it is their own."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Ask for their advice on a 'problem' that your project solves.",
+          "outcome": "Success",
+          "wisdomScore": 90,
+          "analysis": "By asking for advice, you trigger the Benjamin Franklin effect.",
+          "bookInsight": "Chapter 9 teaches that covert persuasion works best when the target feels they are the architect of the solution."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Target Analysis",
+      "title": "The Profiler's Dilemma",
+      "difficulty": "Medium",
+      "badge": "Observer",
+      "scenarioDescription": "You are meeting a new client. You have 5 minutes to profile them.",
+      "options": [
+        {
+          "text": "Focus on their job title and status.",
+          "outcome": "Failure",
+          "wisdomScore": 30,
+          "analysis": "Status is a mask, not the core driver.",
+          "bookInsight": "Chapter 4: Studying Your Target emphasizes looking for individual needs beyond the professional facade."
+        },
+        {
+          "text": "Observe their reaction to small talk and identify their primary emotional driver.",
+          "outcome": "Success",
+          "wisdomScore": 85,
+          "analysis": "Emotional drivers dictate behavior more than professional titles.",
+          "bookInsight": "Chapter 4 teaches that understanding the target's internal landscape is the prerequisite for influence."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Human Drives",
+      "title": "The Motivation Trigger",
+      "difficulty": "Hard",
+      "badge": "Psychology Expert",
+      "scenarioDescription": "Your team is unmotivated. You need to boost performance without increasing pay.",
+      "options": [
+        {
+          "text": "Threaten consequences for low performance.",
+          "outcome": "Failure",
+          "wisdomScore": 10,
+          "analysis": "Fear creates resentment, not sustainable drive.",
+          "bookInsight": "Chapter 8: People Are Motivated By This highlights that intrinsic drives are more powerful than external pressure."
+        },
+        {
+          "text": "Align the project goals with their personal growth and sense of belonging.",
+          "outcome": "Success",
+          "wisdomScore": 95,
+          "analysis": "Connecting work to personal identity creates internal motivation.",
+          "bookInsight": "Chapter 8 explains that people are motivated by the fulfillment of their deepest human drives."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Likeability",
+      "title": "The Likability Trap",
+      "difficulty": "Easy",
+      "badge": "Charismatic",
+      "scenarioDescription": "You are perceived as too aggressive in meetings.",
+      "options": [
+        {
+          "text": "Apologize and become passive.",
+          "outcome": "Failure",
+          "wisdomScore": 20,
+          "analysis": "Passivity destroys authority.",
+          "bookInsight": "Chapter 5: Persuade People To Like You focuses on warmth combined with competence."
+        },
+        {
+          "text": "Practice active listening and validate others' contributions before stating your own.",
+          "outcome": "Success",
+          "wisdomScore": 90,
+          "analysis": "Validation makes people feel seen, increasing your likability without sacrificing power.",
+          "bookInsight": "Chapter 5 teaches that likability is a tool of influence, not a weakness."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Thinking Alignment",
+      "title": "The Consensus Builder",
+      "difficulty": "Hard",
+      "badge": "Diplomat",
+      "scenarioDescription": "You need to change a deeply held belief of a stakeholder.",
+      "options": [
+        {
+          "text": "Debate them until they admit they are wrong.",
+          "outcome": "Failure",
+          "wisdomScore": 0,
+          "analysis": "Debate triggers the backfire effect.",
+          "bookInsight": "Chapter 7: Persuade People To Your Way Of Thinking warns against direct confrontation."
+        },
+        {
+          "text": "Find common ground and lead them through a series of small agreements.",
+          "outcome": "Success",
+          "wisdomScore": 95,
+          "analysis": "The 'Yes-Set' technique builds momentum toward your conclusion.",
+          "bookInsight": "Chapter 7 explains that persuasion is a journey of shared discovery, not a battle."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Programación neurolingüística",
-      "definition": "Técnica psicológica estudiada en \"Preliminaries And Table Of Contents\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
+      "id": "FC001",
+      "bookNumber": 2,
+      "category": "Human Drives",
+      "term": "Global Human Drives",
+      "definition": "Universal motivations like survival, status, and connection.",
+      "tacticalUse": "Identify which drive is currently unfulfilled in your target.",
+      "countermeasure": "Recognize when someone is exploiting your basic needs."
     },
     {
-      "id": "fc2",
-      "term": "Anclaje emocional",
-      "definition": "Técnica psicológica estudiada en \"Chapter 1 The Need To Persuade\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Consultar perspectivas externas de confianza antes de decidir."
+      "id": "FC002",
+      "bookNumber": 3,
+      "category": "Individual Needs",
+      "term": "Individual Needs",
+      "definition": "Specific psychological gaps unique to a person's history.",
+      "tacticalUse": "Tailor your pitch to fill their specific void.",
+      "countermeasure": "Maintain self-awareness of your own emotional triggers."
     },
     {
-      "id": "fc3",
-      "term": "Aislamiento progresivo",
-      "definition": "Técnica psicológica estudiada en \"Chapter 2 Global Human Drives\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Practicar la técnica del \"disco rayado\" ante presión persistente."
+      "id": "FC003",
+      "bookNumber": 5,
+      "category": "Likability",
+      "term": "The Likability Factor",
+      "definition": "The degree to which someone trusts and enjoys your presence.",
+      "tacticalUse": "Use warmth to lower defenses before introducing a request.",
+      "countermeasure": "Separate the person's charm from the validity of their argument."
     },
     {
-      "id": "fc4",
-      "term": "Reciprocidad",
-      "definition": "Técnica psicológica estudiada en \"Chapter 3 Individual Needs\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Aplicar el protocolo JADE-never: no Justifiques, Argumentes, Defiendas ni Expliques."
+      "id": "FC004",
+      "bookNumber": 6,
+      "category": "Psychic Influence",
+      "term": "Heart Center Influence",
+      "definition": "Persuasion rooted in emotional resonance rather than logic.",
+      "tacticalUse": "Create a shared emotional experience.",
+      "countermeasure": "Analyze the emotional appeal for logical fallacies."
     },
     {
-      "id": "fc5",
-      "term": "Disonancia cognitiva inducida",
-      "definition": "Técnica psicológica estudiada en \"Chapter 4 Studying Your Target\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Documentar patrones de comportamiento para identificar manipulación."
+      "id": "FC005",
+      "bookNumber": 7,
+      "category": "Persuasion",
+      "term": "Yes-Set",
+      "definition": "A series of small, agreeable statements to build momentum.",
+      "tacticalUse": "Get the target to agree to minor points before the big ask.",
+      "countermeasure": "Pause and evaluate the direction of the conversation."
+    },
+    {
+      "id": "FC006",
+      "bookNumber": 8,
+      "category": "Motivation",
+      "term": "Intrinsic Motivation",
+      "definition": "Drive coming from internal satisfaction.",
+      "tacticalUse": "Frame your request as a path to their personal mastery.",
+      "countermeasure": "Ensure your goals remain aligned with your own values."
+    },
+    {
+      "id": "FC007",
+      "bookNumber": 9,
+      "category": "Covert Persuasion",
+      "term": "Planting",
+      "definition": "Introducing an idea so subtly the target thinks it's theirs.",
+      "tacticalUse": "Ask leading questions that guide them to your conclusion.",
+      "countermeasure": "Trace the origin of your ideas during decision making."
+    },
+    {
+      "id": "FC008",
+      "bookNumber": 4,
+      "category": "Target Analysis",
+      "term": "Target Profiling",
+      "definition": "Systematic observation of a person's behavioral patterns.",
+      "tacticalUse": "Predict reactions to specific stimuli.",
+      "countermeasure": "Vary your behavior to avoid being predictable."
+    },
+    {
+      "id": "FC009",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "The Need to Persuade",
+      "definition": "The fundamental requirement for social navigation.",
+      "tacticalUse": "Frame persuasion as a collaborative necessity.",
+      "countermeasure": "Identify if the persuasion is for mutual or singular benefit."
+    },
+    {
+      "id": "FC010",
+      "bookNumber": 7,
+      "category": "Persuasion",
+      "term": "Reframing",
+      "definition": "Changing the context of a situation to alter perception.",
+      "tacticalUse": "Turn a negative constraint into a positive challenge.",
+      "countermeasure": "Ask 'What else could this mean?' to break the frame."
+    },
+    {
+      "id": "FC011",
+      "bookNumber": 6,
+      "category": "Psychic Influence",
+      "term": "Emotional Mirroring",
+      "definition": "Subtly reflecting the target's emotional state.",
+      "tacticalUse": "Build instant rapport through empathy.",
+      "countermeasure": "Maintain your own emotional center."
+    },
+    {
+      "id": "FC012",
+      "bookNumber": 8,
+      "category": "Motivation",
+      "term": "Incentive Alignment",
+      "definition": "Matching your request to the target's self-interest.",
+      "tacticalUse": "Highlight the 'What's in it for them' factor.",
+      "countermeasure": "Check if the incentive is sustainable."
+    },
+    {
+      "id": "FC013",
+      "bookNumber": 9,
+      "category": "Covert Persuasion",
+      "term": "Indirect Suggestion",
+      "definition": "Using stories or metaphors to bypass critical thinking.",
+      "tacticalUse": "Tell a story that mirrors the target's situation.",
+      "countermeasure": "Identify the moral or lesson being pushed."
+    },
+    {
+      "id": "FC014",
+      "bookNumber": 4,
+      "category": "Target Analysis",
+      "term": "Baseline Behavior",
+      "definition": "The normal state of a person before being influenced.",
+      "tacticalUse": "Detect deviations to identify hidden reactions.",
+      "countermeasure": "Keep your baseline neutral and calm."
+    },
+    {
+      "id": "FC015",
+      "bookNumber": 5,
+      "category": "Likability",
+      "term": "Validation",
+      "definition": "Acknowledging the validity of another's perspective.",
+      "tacticalUse": "Use to disarm aggressive opponents.",
+      "countermeasure": "Ensure validation doesn't imply total agreement."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM001",
+      "category": "Covert",
+      "name": "The Socratic Trap",
+      "severity": "High",
+      "icon": "QuestionMark",
+      "howItWorks": "Asking questions that force the target to agree with your premise.",
+      "redFlags": "Feeling like you are being led to a conclusion.",
+      "counterScript": "I notice you are asking many questions; what is your ultimate goal here?",
+      "deepMechanism": "Cognitive consistency; people hate contradicting their own previous answers."
+    },
+    {
+      "id": "TM002",
+      "category": "Emotional",
+      "name": "Heart-Center Resonance",
+      "severity": "Medium",
+      "icon": "Heart",
+      "howItWorks": "Aligning your emotional frequency with the target's core values.",
+      "redFlags": "Feeling an uncharacteristic sense of trust or intimacy.",
+      "counterScript": "I appreciate the sentiment, but let's look at the facts.",
+      "deepMechanism": "Limbic system synchronization bypasses the prefrontal cortex."
+    },
+    {
+      "id": "TM003",
+      "category": "Psychological",
+      "name": "The Benjamin Franklin Effect",
+      "severity": "Low",
+      "icon": "Handshake",
+      "howItWorks": "Asking for a small favor to increase the target's liking for you.",
+      "redFlags": "Being asked for favors by someone you don't know well.",
+      "counterScript": "I'm unable to help with that right now, but I appreciate the request.",
+      "deepMechanism": "Cognitive dissonance reduction; 'I helped them, therefore I must like them'."
+    },
+    {
+      "id": "TM004",
+      "category": "Covert",
+      "name": "The Illusion of Choice",
+      "severity": "Medium",
+      "icon": "Fork",
+      "howItWorks": "Presenting two options that both lead to your desired outcome.",
+      "redFlags": "Feeling like you have limited options in a negotiation.",
+      "counterScript": "Are there any other alternatives outside of these two?",
+      "deepMechanism": "Autonomy bias; people prefer to choose rather than be told."
+    },
+    {
+      "id": "TM005",
+      "category": "Social",
+      "name": "Validation Mirroring",
+      "severity": "Low",
+      "icon": "Mirror",
+      "howItWorks": "Reflecting the target's feelings back to them to build rapport.",
+      "redFlags": "Feeling like the person 'gets you' too quickly.",
+      "counterScript": "That's an interesting observation, but let's focus on the task.",
+      "deepMechanism": "Validation triggers dopamine and lowers defensive barriers."
+    },
+    {
+      "id": "TM006",
+      "category": "Psychological",
+      "name": "Goal Alignment",
+      "severity": "High",
+      "icon": "Target",
+      "howItWorks": "Framing your agenda as the key to the target's personal success.",
+      "redFlags": "Someone showing an intense interest in your personal goals.",
+      "counterScript": "How does this benefit you as well?",
+      "deepMechanism": "Self-interest bias; people prioritize their own advancement."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "bookNumber": 6,
+      "question": "What is the primary purpose of the 'Heart Center' in persuasion?",
+      "options": [
+        "To manipulate emotions for profit",
+        "To create authentic resonance and trust",
+        "To hide logical flaws",
+        "To intimidate the target"
+      ],
+      "correctIndex": 1,
+      "explanation": "Chapter 6 emphasizes that true influence comes from emotional connection, not just logic."
+    },
+    {
+      "id": "Q002",
+      "bookNumber": 9,
+      "question": "Why is covert persuasion often more effective than direct persuasion?",
+      "options": [
+        "It is faster",
+        "It avoids triggering the target's resistance",
+        "It requires less preparation",
+        "It is more ethical"
+      ],
+      "correctIndex": 1,
+      "explanation": "Covert methods bypass the critical filter by making the target feel they are in control."
+    },
+    {
+      "id": "Q003",
+      "bookNumber": 4,
+      "question": "What is the first step in studying your target?",
+      "options": [
+        "Asking for their opinion",
+        "Observing their baseline behavior",
+        "Researching their social media",
+        "Testing their limits"
+      ],
+      "correctIndex": 1,
+      "explanation": "Establishing a baseline is essential to detect meaningful changes in behavior."
+    },
+    {
+      "id": "Q004",
+      "bookNumber": 8,
+      "question": "What is the most powerful motivator according to the book?",
+      "options": [
+        "Financial reward",
+        "Fear of failure",
+        "Fulfillment of deep human drives",
+        "Social status"
+      ],
+      "correctIndex": 2,
+      "explanation": "Intrinsic drives related to human needs are the most sustainable motivators."
+    },
+    {
+      "id": "Q005",
+      "bookNumber": 7,
+      "question": "What is the 'Yes-Set' technique?",
+      "options": [
+        "Agreeing with everything the target says",
+        "Asking questions that lead to a series of 'yes' answers",
+        "Forcing the target to say yes",
+        "Ignoring the target's objections"
+      ],
+      "correctIndex": 1,
+      "explanation": "Building momentum through small agreements makes the final 'yes' more likely."
+    },
+    {
+      "id": "Q006",
+      "bookNumber": 5,
+      "question": "How does likability function as a tool of power?",
+      "options": [
+        "It makes people fear you",
+        "It lowers defenses and increases influence",
+        "It is a sign of weakness",
+        "It is irrelevant to power"
+      ],
+      "correctIndex": 1,
+      "explanation": "Likability is a strategic asset that facilitates cooperation and reduces friction."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G001",
+      "term": "Psychic Influence",
+      "category": "Psychology",
+      "definition": "The ability to affect another's state of mind through emotional connection.",
+      "practicalExample": "Using empathy to calm an angry client."
+    },
+    {
+      "id": "G002",
+      "term": "Covert Persuasion",
+      "category": "Strategy",
+      "definition": "Influencing someone without them realizing they are being influenced.",
+      "practicalExample": "Framing a suggestion as a question."
+    },
+    {
+      "id": "G003",
+      "term": "Baseline",
+      "category": "Analysis",
+      "definition": "The normal, relaxed behavioral state of an individual.",
+      "practicalExample": "Noting how a person speaks when they are comfortable."
+    },
+    {
+      "id": "G004",
+      "term": "Yes-Set",
+      "category": "Persuasion",
+      "definition": "A sequence of statements designed to elicit agreement.",
+      "practicalExample": "Getting three 'yes' answers before asking for a sale."
+    },
+    {
+      "id": "G005",
+      "term": "Heart Center",
+      "category": "Psychology",
+      "definition": "The emotional core where trust and rapport are established.",
+      "practicalExample": "Sharing a vulnerable story to build connection."
+    },
+    {
+      "id": "G006",
+      "term": "Human Drives",
+      "category": "Psychology",
+      "definition": "Fundamental needs that dictate human behavior.",
+      "practicalExample": "Appealing to someone's need for status."
+    },
+    {
+      "id": "G007",
+      "term": "Reframing",
+      "category": "Strategy",
+      "definition": "Changing the perspective of a situation.",
+      "practicalExample": "Calling a 'problem' a 'learning opportunity'."
+    },
+    {
+      "id": "G008",
+      "term": "Mirroring",
+      "category": "Behavior",
+      "definition": "Subtly mimicking the target's body language or tone.",
+      "practicalExample": "Matching the pace of someone's speech."
+    },
+    {
+      "id": "G009",
+      "term": "Validation",
+      "category": "Communication",
+      "definition": "Acknowledging the legitimacy of another's feelings.",
+      "practicalExample": "Saying 'I understand why you feel that way'."
+    },
+    {
+      "id": "G010",
+      "term": "Target Profiling",
+      "category": "Analysis",
+      "definition": "Identifying the psychological needs of a person.",
+      "practicalExample": "Determining if someone values security or risk."
+    },
+    {
+      "id": "G011",
+      "term": "Intrinsic Motivation",
+      "category": "Psychology",
+      "definition": "Internal drive to perform an action.",
+      "practicalExample": "Working on a project because you love the challenge."
+    },
+    {
+      "id": "G012",
+      "term": "Cognitive Dissonance",
+      "category": "Psychology",
+      "definition": "Mental discomfort from holding conflicting beliefs.",
+      "practicalExample": "Changing an opinion to match an action taken."
+    },
+    {
+      "id": "G013",
+      "term": "Rapport",
+      "category": "Communication",
+      "definition": "A state of harmonious understanding.",
+      "practicalExample": "Finding common interests with a stranger."
+    },
+    {
+      "id": "G014",
+      "term": "Influence",
+      "category": "Strategy",
+      "definition": "The capacity to have an effect on someone's character or behavior.",
+      "practicalExample": "Convincing a team to adopt a new strategy."
+    },
+    {
+      "id": "G015",
+      "term": "Backfire Effect",
+      "category": "Psychology",
+      "definition": "When evidence against a belief makes the person hold it stronger.",
+      "practicalExample": "Arguing with a fanatic."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL001",
+      "category": "Presence",
+      "title": "The Power Stance",
+      "cue": "Open chest, shoulders back, steady eye contact.",
+      "interpretation": "Signals confidence and high status.",
+      "practicalDrill": "Hold this posture for 2 minutes before a meeting to lower cortisol."
+    },
+    {
+      "id": "BL002",
+      "category": "Rapport",
+      "title": "Subtle Mirroring",
+      "cue": "Matching the target's posture or breathing rate.",
+      "interpretation": "Creates subconscious comfort and trust.",
+      "practicalDrill": "In a conversation, wait 5 seconds then mirror the target's hand gestures."
+    },
+    {
+      "id": "BL003",
+      "category": "Persuasion",
+      "title": "The Affirmative Nod",
+      "cue": "Slow, deliberate nodding while listening.",
+      "interpretation": "Encourages the speaker to continue and agree with you.",
+      "practicalDrill": "Nod three times when the target makes a point you want them to expand on."
+    },
+    {
+      "id": "BL004",
+      "category": "Presence",
+      "title": "The Focused Gaze",
+      "cue": "Maintaining eye contact for 80% of the conversation.",
+      "interpretation": "Signals honesty and intense interest.",
+      "practicalDrill": "Practice holding eye contact until you notice the color of their eyes."
+    },
+    {
+      "id": "BL005",
+      "category": "Rapport",
+      "title": "Open Palms",
+      "cue": "Exposing palms during speech.",
+      "interpretation": "Signals transparency and lack of hidden weapons/intentions.",
+      "practicalDrill": "Use open-palm gestures when explaining your core values."
+    },
+    {
+      "id": "BL006",
+      "category": "Persuasion",
+      "title": "The Lean-In",
+      "cue": "Slightly leaning forward when the target speaks.",
+      "interpretation": "Shows engagement and values the target's input.",
+      "practicalDrill": "Lean in when the target mentions something they are passionate about."
     }
   ]
 };

@@ -3879,93 +3879,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Relaciones Interpersonales",
-      "title": "Caso Práctico: Que Es La Manipulacion",
-      "difficulty": "Media",
-      "badge": "Experto en Vínculos",
-      "scenarioDescription": "Durante una situación relacionada con \"Que Es La Manipulacion\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS001",
+      "category": "Manipulación",
+      "title": "El dilema del subordinado",
+      "difficulty": "Hard",
+      "badge": "Maquiavelo Estratega",
+      "scenarioDescription": "Un colega intenta usar gaslighting para hacerte dudar de un informe que presentaste. ¿Cómo respondes?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Que Es La Manipulacion\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Confrontar agresivamente frente al equipo.",
+          "outcome": "Pérdida de control emocional.",
+          "wisdomScore": 20,
+          "analysis": "La agresividad expone tu vulnerabilidad.",
+          "bookInsight": "El poder requiere frialdad, no explosividad."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Documentar evidencias y responder con datos fríos.",
+          "outcome": "Victoria estratégica.",
+          "wisdomScore": 95,
+          "analysis": "La neutralidad desactiva la manipulación.",
+          "bookInsight": "La verdad es el arma más potente contra el gaslighting."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Aplicación Ética de Principios",
-      "title": "Caso Práctico: Manipulacion Y Personalidad",
-      "difficulty": "Alta",
-      "badge": "Maestro de Influencia",
-      "scenarioDescription": "Durante una situación relacionada con \"Manipulacion Y Personalidad\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS002",
+      "category": "Persuasión",
+      "title": "Negociación de alto riesgo",
+      "difficulty": "Medium",
+      "badge": "Influenciador",
+      "scenarioDescription": "Tu oponente usa el silencio para presionarte a hablar de más.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Manipulacion Y Personalidad\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Romper el silencio con una oferta mejorada.",
+          "outcome": "Debilidad percibida.",
+          "wisdomScore": 30,
+          "analysis": "Ceder ante el silencio es una derrota táctica.",
+          "bookInsight": "El silencio es una herramienta de poder; quien habla primero, pierde."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
+          "text": "Mantener el contacto visual y esperar en silencio.",
+          "outcome": "Dominio del espacio.",
+          "wisdomScore": 90,
+          "analysis": "El silencio compartido transfiere la presión al otro.",
+          "bookInsight": "El control del tiempo es el control de la negociación."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Intimidación",
+      "title": "El jefe autoritario",
+      "difficulty": "Hard",
+      "badge": "Resiliencia",
+      "scenarioDescription": "Tu superior utiliza el bombardeo de amor seguido de críticas destructivas.",
+      "options": [
+        {
+          "text": "Aceptar la crítica para mejorar la relación.",
+          "outcome": "Ciclo de abuso reforzado.",
+          "wisdomScore": 10,
+          "analysis": "Validar el ciclo solo te hace más dependiente.",
+          "bookInsight": "El bombardeo de amor es el anzuelo; la crítica es el castigo."
+        },
+        {
+          "text": "Establecer límites claros sobre la comunicación profesional.",
+          "outcome": "Reajuste de poder.",
+          "wisdomScore": 85,
+          "analysis": "Los límites rompen la dinámica de manipulación.",
+          "bookInsight": "La distancia emocional es la mejor defensa."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Influencia",
+      "title": "La alianza estratégica",
+      "difficulty": "Medium",
+      "badge": "Diplomático",
+      "scenarioDescription": "Necesitas convencer a un rival de colaborar sin revelar tus verdaderas intenciones.",
+      "options": [
+        {
+          "text": "Revelar tu plan completo para generar confianza.",
+          "outcome": "Vulnerabilidad extrema.",
           "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "analysis": "La transparencia total es un error táctico.",
+          "bookInsight": "Nunca reveles tus cartas hasta que el juego esté ganado."
+        },
+        {
+          "text": "Presentar una propuesta que beneficie sus intereses inmediatos.",
+          "outcome": "Cooperación lograda.",
+          "wisdomScore": 95,
+          "analysis": "La persuasión efectiva se basa en el interés propio del otro.",
+          "bookInsight": "Haz que el otro crea que tu plan es su idea."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Evasión",
+      "title": "La trampa de la culpa",
+      "difficulty": "Medium",
+      "badge": "Psicólogo",
+      "scenarioDescription": "Alguien intenta manipularte apelando a tu sentido de culpa por un error pasado.",
+      "options": [
+        {
+          "text": "Disculparte profusamente y aceptar sus condiciones.",
+          "outcome": "Sometimiento.",
+          "wisdomScore": 20,
+          "analysis": "La culpa es una herramienta de control.",
+          "bookInsight": "No permitas que el pasado dicte tu presente."
+        },
+        {
+          "text": "Reconocer el error brevemente y cambiar el enfoque al futuro.",
+          "outcome": "Control de la narrativa.",
+          "wisdomScore": 80,
+          "analysis": "Desviar la atención neutraliza la culpa.",
+          "bookInsight": "Quien controla la narrativa, controla el resultado."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Poder",
+      "title": "La gestión de la imagen",
+      "difficulty": "Hard",
+      "badge": "Maquiavélico",
+      "scenarioDescription": "Se difunde un rumor falso sobre ti en la oficina.",
+      "options": [
+        {
+          "text": "Desmentir el rumor con furia ante todos.",
+          "outcome": "Validación del rumor.",
+          "wisdomScore": 25,
+          "analysis": "La defensa apasionada parece una confesión.",
+          "bookInsight": "La indiferencia es la respuesta más elegante."
+        },
+        {
+          "text": "Ignorar el rumor y actuar con total normalidad.",
+          "outcome": "El rumor muere por falta de combustible.",
+          "wisdomScore": 90,
+          "analysis": "La falta de reacción deslegitima el ataque.",
+          "bookInsight": "Tu reputación se defiende con hechos, no con palabras."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Programación neurolingüística",
-      "definition": "Técnica psicológica estudiada en \"Preliminares\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
+      "id": "F01",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Hacer dudar a alguien de su propia percepción.",
+      "tacticalUse": "Desestabilizar la confianza del oponente.",
+      "countermeasure": "Mantener registros escritos."
     },
     {
-      "id": "fc2",
-      "term": "Anclaje emocional",
-      "definition": "Técnica psicológica estudiada en \"Que Es La Manipulacion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Consultar perspectivas externas de confianza antes de decidir."
-    },
-    {
-      "id": "fc3",
-      "term": "Aislamiento progresivo",
-      "definition": "Técnica psicológica estudiada en \"Manipulacion Y Personalidad\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Practicar la técnica del \"disco rayado\" ante presión persistente."
-    },
-    {
-      "id": "fc4",
+      "id": "F02",
+      "bookNumber": 1,
+      "category": "Persuasión",
       "term": "Reciprocidad",
-      "definition": "Técnica psicológica estudiada en \"Rasgos De La Persona Manipulada\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Aplicar el protocolo JADE-never: no Justifiques, Argumentes, Defiendas ni Expliques."
+      "definition": "Sentir la obligación de devolver un favor.",
+      "tacticalUse": "Dar algo pequeño para pedir algo grande.",
+      "countermeasure": "Evaluar el favor sin carga emocional."
     },
     {
-      "id": "fc5",
-      "term": "Disonancia cognitiva inducida",
-      "definition": "Técnica psicológica estudiada en \"Psicologia Y Principios De Persuasion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Documentar patrones de comportamiento para identificar manipulación."
+      "id": "F03",
+      "bookNumber": 1,
+      "category": "Intimidación",
+      "term": "Bombardeo de amor",
+      "definition": "Exceso de afecto para crear dependencia.",
+      "tacticalUse": "Ganar lealtad rápida.",
+      "countermeasure": "Mantener distancia crítica."
+    },
+    {
+      "id": "F04",
+      "bookNumber": 1,
+      "category": "Influencia",
+      "term": "Anclaje",
+      "definition": "Usar la primera información para sesgar juicios.",
+      "tacticalUse": "Establecer el precio inicial.",
+      "countermeasure": "Investigar el valor real antes de negociar."
+    },
+    {
+      "id": "F05",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Ley del Silencio",
+      "definition": "Usar el silencio para generar incomodidad.",
+      "tacticalUse": "Forzar al otro a hablar de más.",
+      "countermeasure": "Aceptar el silencio con calma."
+    },
+    {
+      "id": "F06",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Proyección",
+      "definition": "Atribuir defectos propios a otros.",
+      "tacticalUse": "Desviar la culpa.",
+      "countermeasure": "Analizar la conducta del acusador."
+    },
+    {
+      "id": "F07",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Prueba Social",
+      "definition": "Seguir la conducta de la mayoría.",
+      "tacticalUse": "Crear una falsa sensación de consenso.",
+      "countermeasure": "Pensar de forma independiente."
+    },
+    {
+      "id": "F08",
+      "bookNumber": 1,
+      "category": "Intimidación",
+      "term": "Triangulación",
+      "definition": "Involucrar a un tercero para crear conflicto.",
+      "tacticalUse": "Dividir y vencer.",
+      "countermeasure": "Comunicación directa con las partes."
+    },
+    {
+      "id": "F09",
+      "bookNumber": 1,
+      "category": "Influencia",
+      "term": "Escasez",
+      "definition": "Valorar más lo que es difícil de obtener.",
+      "tacticalUse": "Crear urgencia artificial.",
+      "countermeasure": "Evaluar la necesidad real."
+    },
+    {
+      "id": "F10",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Autoridad",
+      "definition": "Influencia basada en el estatus percibido.",
+      "tacticalUse": "Imponer decisiones sin debate.",
+      "countermeasure": "Cuestionar la fuente de autoridad."
+    },
+    {
+      "id": "F11",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Refuerzo intermitente",
+      "definition": "Premiar de forma aleatoria.",
+      "tacticalUse": "Generar adicción conductual.",
+      "countermeasure": "Identificar el patrón de recompensa."
+    },
+    {
+      "id": "F12",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Encuadre",
+      "definition": "Presentar la información bajo una luz específica.",
+      "tacticalUse": "Dirigir la conclusión del otro.",
+      "countermeasure": "Cambiar el marco de referencia."
+    },
+    {
+      "id": "F13",
+      "bookNumber": 1,
+      "category": "Intimidación",
+      "term": "Aislamiento",
+      "definition": "Separar a la víctima de su red de apoyo.",
+      "tacticalUse": "Hacer a la víctima dependiente.",
+      "countermeasure": "Mantener redes sociales externas."
+    },
+    {
+      "id": "F14",
+      "bookNumber": 1,
+      "category": "Influencia",
+      "term": "Compromiso",
+      "definition": "Lograr un pequeño sí para obtener un gran sí.",
+      "tacticalUse": "Escalar la obediencia.",
+      "countermeasure": "Negarse a compromisos pequeños."
+    },
+    {
+      "id": "F15",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Deshumanización",
+      "definition": "Ver al otro como un objeto.",
+      "tacticalUse": "Eliminar la empatía en la toma de decisiones.",
+      "countermeasure": "Reafirmar la humanidad propia."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Persuasión",
+      "name": "La Técnica del Pie en la Puerta",
+      "severity": "Low",
+      "icon": "door",
+      "howItWorks": "Pedir un favor pequeño para luego pedir uno grande.",
+      "redFlags": "Peticiones que escalan rápidamente.",
+      "counterScript": "No puedo comprometerme con eso ahora.",
+      "deepMechanism": "Consistencia cognitiva."
+    },
+    {
+      "id": "TM02",
+      "category": "Manipulación",
+      "name": "Gaslighting",
+      "severity": "High",
+      "icon": "cloud",
+      "howItWorks": "Negar hechos para confundir a la víctima.",
+      "redFlags": "Sentir que te vuelves loco.",
+      "counterScript": "Tengo pruebas de lo que ocurrió.",
+      "deepMechanism": "Erosión de la realidad."
+    },
+    {
+      "id": "TM03",
+      "category": "Influencia",
+      "name": "Anclaje de Precios",
+      "severity": "Medium",
+      "icon": "anchor",
+      "howItWorks": "Lanzar una cifra alta para que la real parezca baja.",
+      "redFlags": "Ofertas iniciales desproporcionadas.",
+      "counterScript": "Mi presupuesto es X, ignoremos esa cifra.",
+      "deepMechanism": "Sesgo de ajuste."
+    },
+    {
+      "id": "TM04",
+      "category": "Intimidación",
+      "name": "Silencio Táctico",
+      "severity": "Medium",
+      "icon": "mute",
+      "howItWorks": "Callar para que el otro llene el vacío.",
+      "redFlags": "Incomodidad forzada.",
+      "counterScript": "Parece que necesitas tiempo para pensar.",
+      "deepMechanism": "Ansiedad social."
+    },
+    {
+      "id": "TM05",
+      "category": "Poder",
+      "name": "Triangulación",
+      "severity": "High",
+      "icon": "triangle",
+      "howItWorks": "Usar a terceros para validar una mentira.",
+      "redFlags": "Historias contradictorias.",
+      "counterScript": "Hablemos todos juntos sobre esto.",
+      "deepMechanism": "División de lealtades."
+    },
+    {
+      "id": "TM06",
+      "category": "Persuasión",
+      "name": "Reciprocidad Forzada",
+      "severity": "Low",
+      "icon": "gift",
+      "howItWorks": "Dar algo no solicitado para cobrar un favor.",
+      "redFlags": "Regalos inesperados.",
+      "counterScript": "Gracias, pero no puedo aceptarlo.",
+      "deepMechanism": "Deuda psicológica."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Qué es el gaslighting?",
+      "options": [
+        "Un tipo de iluminación",
+        "Manipulación de la realidad",
+        "Un truco de magia",
+        "Una técnica de ventas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una forma de abuso psicológico donde se hace dudar a la víctima de su percepción."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 1,
+      "question": "¿Por qué el silencio es una herramienta de poder?",
+      "options": [
+        "Porque ahorra energía",
+        "Porque intimida al interlocutor",
+        "Porque es educado",
+        "Porque evita errores"
+      ],
+      "correctIndex": 1,
+      "explanation": "El silencio genera presión en el otro para que revele información."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 1,
+      "question": "¿Qué es el bombardeo de amor?",
+      "options": [
+        "Un ataque militar",
+        "Un exceso de afecto inicial",
+        "Un regalo costoso",
+        "Una técnica de marketing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se usa para crear una dependencia emocional rápida."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "¿Qué busca la triangulación?",
+      "options": [
+        "Unir equipos",
+        "Crear conflicto entre terceros",
+        "Mejorar la comunicación",
+        "Ahorrar tiempo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Busca dividir para mantener el control."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 1,
+      "question": "¿Qué es el anclaje?",
+      "options": [
+        "Un barco",
+        "Un sesgo cognitivo de referencia",
+        "Una técnica de escritura",
+        "Un tipo de contrato"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es usar la primera información como base de juicio."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 1,
+      "question": "¿Cuál es la mejor defensa contra la manipulación?",
+      "options": [
+        "La ignorancia",
+        "La distancia emocional y límites",
+        "La venganza",
+        "La sumisión"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mantener límites claros evita que la manipulación sea efectiva."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Maquiavelismo",
+      "category": "Teoría",
+      "definition": "Uso de la astucia y el engaño en política.",
+      "practicalExample": "Ocultar intenciones en una negociación."
+    },
+    {
+      "id": "G02",
+      "term": "Manipulación",
+      "category": "Técnica",
+      "definition": "Controlar a otros para beneficio propio.",
+      "practicalExample": "Hacer sentir culpable a alguien."
+    },
+    {
+      "id": "G03",
+      "term": "Persuasión",
+      "category": "Técnica",
+      "definition": "Convencer mediante argumentos.",
+      "practicalExample": "Vender una idea con beneficios claros."
+    },
+    {
+      "id": "G04",
+      "term": "Gaslighting",
+      "category": "Psicología",
+      "definition": "Negación de la realidad del otro.",
+      "practicalExample": "Decir 'eso nunca pasó'."
+    },
+    {
+      "id": "G05",
+      "term": "Triangulación",
+      "category": "Poder",
+      "definition": "Involucrar a terceros en conflictos.",
+      "practicalExample": "Hablar mal de A con B."
+    },
+    {
+      "id": "G06",
+      "term": "Refuerzo",
+      "category": "Psicología",
+      "definition": "Premio para repetir conducta.",
+      "practicalExample": "Elogiar solo cuando hacen lo que quieres."
+    },
+    {
+      "id": "G07",
+      "term": "Intimidación",
+      "category": "Poder",
+      "definition": "Uso del miedo para controlar.",
+      "practicalExample": "Mirada fija y tono autoritario."
+    },
+    {
+      "id": "G08",
+      "term": "Evasión",
+      "category": "Técnica",
+      "definition": "Evitar responder directamente.",
+      "practicalExample": "Cambiar de tema ante una pregunta difícil."
+    },
+    {
+      "id": "G09",
+      "term": "Anclaje",
+      "category": "Influencia",
+      "definition": "Sesgo de referencia inicial.",
+      "practicalExample": "Pedir 100 para aceptar 50."
+    },
+    {
+      "id": "G10",
+      "term": "Reciprocidad",
+      "category": "Persuasión",
+      "definition": "Deuda moral por un favor.",
+      "practicalExample": "Invitar un café para pedir un favor."
+    },
+    {
+      "id": "G11",
+      "term": "Escasez",
+      "category": "Influencia",
+      "definition": "Valorar lo limitado.",
+      "practicalExample": "Decir 'es la última unidad'."
+    },
+    {
+      "id": "G12",
+      "term": "Proyección",
+      "category": "Psicología",
+      "definition": "Atribuir culpas propias.",
+      "practicalExample": "Llamar mentiroso al que te descubrió."
+    },
+    {
+      "id": "G13",
+      "term": "Aislamiento",
+      "category": "Poder",
+      "definition": "Cortar apoyos sociales.",
+      "practicalExample": "Criticar a los amigos de la víctima."
+    },
+    {
+      "id": "G14",
+      "term": "Encuadre",
+      "category": "Persuasión",
+      "definition": "Contextualizar la información.",
+      "practicalExample": "Presentar un riesgo como una oportunidad."
+    },
+    {
+      "id": "G15",
+      "term": "Resiliencia",
+      "category": "Psicología",
+      "definition": "Capacidad de resistir manipulación.",
+      "practicalExample": "Mantener la calma ante ataques."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Poder",
+      "title": "Contacto Visual Sostenido",
+      "cue": "Mirar sin parpadear excesivamente.",
+      "interpretation": "Dominio y falta de miedo.",
+      "practicalDrill": "Mantener la mirada 3 segundos más de lo normal."
+    },
+    {
+      "id": "BL02",
+      "category": "Persuasión",
+      "title": "Postura Abierta",
+      "cue": "Brazos sin cruzar y pecho expuesto.",
+      "interpretation": "Confianza y transparencia.",
+      "practicalDrill": "Practicar hablar con manos visibles."
+    },
+    {
+      "id": "BL03",
+      "category": "Intimidación",
+      "title": "Invasión del Espacio Personal",
+      "cue": "Acercarse más de lo habitual.",
+      "interpretation": "Intento de dominación física.",
+      "practicalDrill": "Dar un paso atrás para recuperar espacio."
+    },
+    {
+      "id": "BL04",
+      "category": "Manipulación",
+      "title": "Microexpresiones",
+      "cue": "Gestos faciales rápidos de desprecio.",
+      "interpretation": "Ocultamiento de sentimientos reales.",
+      "practicalDrill": "Observar videos en cámara lenta."
+    },
+    {
+      "id": "BL05",
+      "category": "Influencia",
+      "title": "Espejo (Mirroring)",
+      "cue": "Imitar sutilmente la postura del otro.",
+      "interpretation": "Crear afinidad y confianza.",
+      "practicalDrill": "Copiar el ritmo de respiración del otro."
+    },
+    {
+      "id": "BL06",
+      "category": "Poder",
+      "title": "La Pausa de Autoridad",
+      "cue": "Hacer silencio antes de responder.",
+      "interpretation": "Control del tiempo y seguridad.",
+      "practicalDrill": "Contar hasta 2 antes de hablar."
     }
   ]
 };

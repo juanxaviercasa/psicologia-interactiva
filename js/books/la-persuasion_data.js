@@ -314,93 +314,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Aplicación del Tema",
-      "title": "Cierre de Negociación con un Cliente Defensivo",
-      "difficulty": "Alta",
-      "badge": "Maestro",
-      "scenarioDescription": "Estás presentando una propuesta de reestructuración operativa a un director financiero muy analítico y escéptico. El cliente cruza los brazos, mantiene el ceño fruncido y objeta que el costo es demasiado elevado. ¿Cómo aplicas el cerebro triuno y los universales de la comunicación para dar la vuelta al escenario?",
+      "id": 1,
+      "category": "Cerebro Triuno",
+      "title": "La Negociación de Crisis",
+      "difficulty": "Hard",
+      "badge": "Maestro Reptiliano",
+      "scenarioDescription": "Un inversor está furioso y amenaza con retirar fondos. Debes calmar su cerebro reptiliano antes de apelar a su lógica.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Acompasas levemente su postura severa, validas su preocupación por la seguridad financiera (cerebro reptil) y enmarcas el costo como una protección contra pérdidas mayores demostrando la prueba social del sector.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Al acompasar no confrontas; al hablar de prevención de pérdidas calmas al cerebro reptil, y con prueba social satisfaces al neocórtex con validación de mercado.",
-          "bookInsight": "Primero se pacifica la amenaza percibida por el cerebro instintivo; solo entonces el receptor abre la puerta al análisis de valor."
+          "text": "Presentar datos financieros detallados inmediatamente.",
+          "outcome": "Fracaso",
+          "wisdomScore": 20,
+          "analysis": "El cerebro reptiliano ignora la lógica bajo amenaza.",
+          "bookInsight": "Primero asegura la supervivencia y calma el instinto."
         },
         {
-          "id": "opt2",
-          "text": "Ignoras su postura, abres una hoja de cálculo con 50 columnas de datos para abrumar su escepticismo y le pides que no interrumpa hasta que termines la explicación matemática.",
-          "outcome": "Fallo",
-          "wisdomScore": 20,
-          "analysis": "Saturalo de datos sin calmar su estado defensivo activa el cerebro reptil en modo huida o ataque, haciendo irrecuperable el rapport.",
-          "bookInsight": "El exceso de lógica sobre una mente a la defensiva solo incrementa la resistencia y la desconfianza."
+          "text": "Validar su frustración con lenguaje corporal abierto y tono pausado.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Al reducir la amenaza, el cerebro reptiliano cede el control al neocórtex.",
+          "bookInsight": "La seguridad es la base de la persuasión."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Aplicación del Tema",
-      "title": "Discurso de Gestión de Crisis ante una Audiencia Hostil",
-      "difficulty": "Alta",
-      "badge": "Maestro",
-      "scenarioDescription": "Debes dar un discurso público ante cientos de empleados preocupados por un rumor de reestructuración masiva. Hay tensión en el aire y murmullos continuos. ¿Cómo utilizas la oratoria y el lenguaje corporal para tomar el control de la sala?",
+      "id": 2,
+      "category": "Oratoria",
+      "title": "El Discurso de Poder",
+      "difficulty": "Medium",
+      "badge": "Orador Estratégico",
+      "scenarioDescription": "Debes convencer a una audiencia escéptica de un cambio radical.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Entras con firmeza, te ubicas en el centro del escenario con postura abierta, haces una pausa en silencio mirando a la audiencia hasta que cesen los murmullos, y comienzas reconociendo su emoción principal con voz pausada y grave.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "El silencio demuestra alta autoridad e invoca el cerebro reptil del grupo para prestar atención. Reconocer la emoción genera empatía límbica inmediata.",
-          "bookInsight": "La presencia kinésica firme combinada con el silencio estratégico transmite más control que el intento de hablar por encima del ruido."
+          "text": "Usar un tono monótono y técnico para parecer experto.",
+          "outcome": "Fracaso",
+          "wisdomScore": 30,
+          "analysis": "La falta de modulación apaga el sistema límbico.",
+          "bookInsight": "La emoción es el vehículo del mensaje."
         },
         {
-          "id": "opt2",
-          "text": "Inicias a hablar inmediatamente a alto volumen para acallar a la multitud, moviéndote rápidamente de lado a lado en el escenario y leyendo las diapositivas detalladas sin mirar a los ojos.",
-          "outcome": "Fallo",
+          "text": "Variar el ritmo y usar pausas dramáticas para enfatizar puntos clave.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Las pausas generan expectativa y autoridad.",
+          "bookInsight": "El silencio es una herramienta de poder."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Lenguaje Corporal",
+      "title": "El Espejo de la Influencia",
+      "difficulty": "Medium",
+      "badge": "Camaleón Social",
+      "scenarioDescription": "Estás en una entrevista de alto nivel y quieres generar confianza instantánea.",
+      "options": [
+        {
+          "text": "Mantener una postura rígida y contacto visual intenso.",
+          "outcome": "Fracaso",
+          "wisdomScore": 40,
+          "analysis": "La rigidez se percibe como agresión.",
+          "bookInsight": "La confianza nace de la sintonía no verbal."
+        },
+        {
+          "text": "Reflejar sutilmente la postura y ritmo respiratorio del interlocutor.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "El mirroring crea una conexión subconsciente.",
+          "bookInsight": "El cerebro busca similitud para reducir el riesgo."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "Universales de la Comunicación",
+      "title": "El Marco de la Autoridad",
+      "difficulty": "Hard",
+      "badge": "Arquitecto de Realidad",
+      "scenarioDescription": "Alguien intenta interrumpirte constantemente en una reunión.",
+      "options": [
+        {
+          "text": "Elevar la voz para imponerse.",
+          "outcome": "Fracaso",
           "wisdomScore": 25,
-          "analysis": "El movimiento errático transmite nerviosismo; competir en volumen proyecta desesperación y leer diapositivas destruye el contacto visual necesario para la confianza.",
-          "bookInsight": "La agitación motora y vocal destruye la autoridad del orador y confirma los miedos del auditorio."
+          "analysis": "Gritar demuestra pérdida de control.",
+          "bookInsight": "El poder real es silencioso."
+        },
+        {
+          "text": "Hacer una pausa, mirar a los ojos y continuar con calma.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "La calma bajo presión proyecta dominio absoluto.",
+          "bookInsight": "El control del espacio es control de la conversación."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Cerebro Triuno",
+      "title": "Venta Emocional",
+      "difficulty": "Medium",
+      "badge": "Psicólogo de Ventas",
+      "scenarioDescription": "El cliente duda por el precio.",
+      "options": [
+        {
+          "text": "Explicar los costos de producción.",
+          "outcome": "Fracaso",
+          "wisdomScore": 35,
+          "analysis": "El cerebro límbico no compra costos, compra beneficios emocionales.",
+          "bookInsight": "Vende el sentimiento, justifica con la lógica."
+        },
+        {
+          "text": "Describir cómo el producto cambiará su estatus y bienestar.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "Apelar al sistema límbico activa el deseo.",
+          "bookInsight": "La emoción precede a la decisión."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Oratoria",
+      "title": "Manejo de Objeciones",
+      "difficulty": "Hard",
+      "badge": "Negociador de Elite",
+      "scenarioDescription": "Un oponente ataca tu credibilidad frente a todos.",
+      "options": [
+        {
+          "text": "Defenderse agresivamente con hechos.",
+          "outcome": "Fracaso",
+          "wisdomScore": 40,
+          "analysis": "La defensa defensiva te hace ver culpable.",
+          "bookInsight": "Nunca te defiendas, redirige."
+        },
+        {
+          "text": "Agradecer la pregunta y reformularla hacia un terreno donde tú dominas.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "El reencuadre es la técnica suprema de control.",
+          "bookInsight": "Quien controla el marco, controla la realidad."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Cerebro Límbico",
-      "definition": "Estructura cerebral responsable del procesamiento de las emociones, la memoria afectiva y los juicios de valor intuitivos.",
-      "tacticalUse": "Conectar la propuesta con deseos, miedos o valores profundos antes de presenting razones lógicas.",
-      "countermeasure": "Identificar cuando una propuesta apela exclusivamente al entusiasmo emocional desprovisto de viabilidad real."
+      "id": 1,
+      "bookNumber": 1,
+      "category": "Cerebro Triuno",
+      "term": "Cerebro Reptiliano",
+      "definition": "Instinto de supervivencia y control de funciones básicas.",
+      "tacticalUse": "Apelar a la seguridad y urgencia.",
+      "countermeasure": "Identificar cuando alguien intenta inducir miedo."
     },
     {
-      "id": "fc2",
-      "term": "Principio de Reciprocidad",
-      "definition": "Universal de la comunicación que establece la necesidad psicológica involuntaria de devolver un beneficio o gesto recibido previa e incondicionalmente.",
-      "tacticalUse": "Ofrecer valor, información o concesiones de forma genuina y anticipada para aperturar la disposición del interlocutor.",
-      "countermeasure": "Reconocer las 'concesiones calculadas' para no sentirse obligado a ceder en aspectos críticos de una negociación."
+      "id": 2,
+      "bookNumber": 1,
+      "category": "Cerebro Triuno",
+      "term": "Sistema Límbico",
+      "definition": "Centro de las emociones y la memoria.",
+      "tacticalUse": "Crear conexiones emocionales profundas.",
+      "countermeasure": "Separar la emoción de la decisión racional."
     },
     {
-      "id": "fc3",
-      "term": "Acompasamiento (Mirroring)",
-      "definition": "Técnica de lenguaje corporal que consiste en reflejar de manera sutil la postura, tono de voz o ritmo respiratorio del interlocutor para generar rapport.",
-      "tacticalUse": "Construir confianza implícita a nivel subconsciente reduciendo las barreras defensivas del receptor.",
-      "countermeasure": "Estar atento a movimientos demasiado simétricos o forzados que busquen manipular la percepción de afinidad."
+      "id": 3,
+      "bookNumber": 1,
+      "category": "Cerebro Triuno",
+      "term": "Neocórtex",
+      "definition": "Centro de la lógica, lenguaje y análisis.",
+      "tacticalUse": "Justificar decisiones tomadas emocionalmente.",
+      "countermeasure": "Cuestionar la lógica detrás de argumentos complejos."
     },
     {
-      "id": "fc4",
-      "term": "Encuadre de Escasez",
-      "definition": "Sesgo mediante el cual las personas asignan un mayor valor subjetivo a las oportunidades que perciben como limitadas en tiempo o cantidad.",
-      "tacticalUse": "Resaltar lo que el interlocutor perderá si no actúa inmediatamente, activando el instinto de aversión a la pérdida.",
-      "countermeasure": "Cuestionar si el límite de tiempo o disponibilidad es real o simplemente una presión artificial para forzar el cierre."
+      "id": 4,
+      "bookNumber": 2,
+      "category": "Universales",
+      "term": "Reciprocidad",
+      "definition": "Tendencia a devolver favores.",
+      "tacticalUse": "Dar algo pequeño para recibir algo grande.",
+      "countermeasure": "Reconocer la deuda como una táctica de manipulación."
     },
     {
-      "id": "fc5",
-      "term": "Anclaje de Autoridad",
-      "definition": "Demostración kinésica y discursiva de estatus que predispone al público a aceptar el mensaje con menor resistencia crítica.",
-      "tacticalUse": "Mantener postura erguida, contacto visual directo, volumen firme y citar credenciales o resultados probados al iniciar.",
-      "countermeasure": "Separar el carisma y la presencia física del orador de la validez sustancial de sus argumentos."
+      "id": 5,
+      "bookNumber": 2,
+      "category": "Universales",
+      "term": "Escasez",
+      "definition": "Valorar más lo que es difícil de obtener.",
+      "tacticalUse": "Limitar disponibilidad para aumentar deseo.",
+      "countermeasure": "Evaluar el objeto sin la presión del tiempo."
+    },
+    {
+      "id": 6,
+      "bookNumber": 2,
+      "category": "Universales",
+      "term": "Autoridad",
+      "definition": "Tendencia a obedecer a figuras de poder.",
+      "tacticalUse": "Proyectar símbolos de estatus y conocimiento.",
+      "countermeasure": "Verificar la competencia real detrás del título."
+    },
+    {
+      "id": 7,
+      "bookNumber": 2,
+      "category": "Universales",
+      "term": "Consistencia",
+      "definition": "Deseo de ser coherente con compromisos previos.",
+      "tacticalUse": "Obtener un 'sí' pequeño antes del grande.",
+      "countermeasure": "No sentirse obligado por compromisos pasados."
+    },
+    {
+      "id": 8,
+      "bookNumber": 2,
+      "category": "Universales",
+      "term": "Simpatía",
+      "definition": "Tendencia a decir sí a quienes nos agradan.",
+      "tacticalUse": "Construir rapport mediante similitudes.",
+      "countermeasure": "Separar a la persona de la propuesta."
+    },
+    {
+      "id": 9,
+      "bookNumber": 2,
+      "category": "Universales",
+      "term": "Prueba Social",
+      "definition": "Seguir la conducta de la mayoría.",
+      "tacticalUse": "Mostrar testimonios y validación externa.",
+      "countermeasure": "Pensar de forma independiente al grupo."
+    },
+    {
+      "id": 10,
+      "bookNumber": 3,
+      "category": "Lenguaje Corporal",
+      "term": "Postura Expansiva",
+      "definition": "Ocupar espacio físico para proyectar poder.",
+      "tacticalUse": "Dominar una sala antes de hablar.",
+      "countermeasure": "No dejarse intimidar por el espacio ajeno."
+    },
+    {
+      "id": 11,
+      "bookNumber": 3,
+      "category": "Lenguaje Corporal",
+      "term": "Contacto Visual",
+      "definition": "Mantener la mirada para establecer dominio o conexión.",
+      "tacticalUse": "Sostener la mirada en momentos clave.",
+      "countermeasure": "Romper el contacto visual si se siente invasivo."
+    },
+    {
+      "id": 12,
+      "bookNumber": 3,
+      "category": "Lenguaje Corporal",
+      "term": "Microexpresiones",
+      "definition": "Gestos faciales fugaces que revelan emociones reales.",
+      "tacticalUse": "Detectar mentiras o dudas ocultas.",
+      "countermeasure": "Controlar la respuesta facial ante estímulos."
+    },
+    {
+      "id": 13,
+      "bookNumber": 3,
+      "category": "Oratoria",
+      "term": "Pausa Dramática",
+      "definition": "Silencio estratégico antes o después de una idea.",
+      "tacticalUse": "Generar tensión y autoridad.",
+      "countermeasure": "No llenar el silencio con nerviosismo."
+    },
+    {
+      "id": 14,
+      "bookNumber": 3,
+      "category": "Oratoria",
+      "term": "Tono de Voz",
+      "definition": "Variación en la frecuencia para transmitir emoción.",
+      "tacticalUse": "Usar tonos graves para autoridad.",
+      "countermeasure": "Analizar el tono, no solo el contenido."
+    },
+    {
+      "id": 15,
+      "bookNumber": 3,
+      "category": "Oratoria",
+      "term": "Gestos Ilustradores",
+      "definition": "Movimientos de manos que acompañan el discurso.",
+      "tacticalUse": "Aumentar la claridad y credibilidad.",
+      "countermeasure": "Observar si los gestos coinciden con las palabras."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": 1,
+      "category": "Persuasión",
+      "name": "Reencuadre (Reframing)",
+      "severity": "Alta",
+      "icon": "🔄",
+      "howItWorks": "Cambia el contexto de una situación para alterar su significado.",
+      "redFlags": "Cuando alguien intenta cambiar el tema constantemente.",
+      "counterScript": "Volvamos al punto original, ¿por qué intentas cambiar el enfoque?",
+      "deepMechanism": "Manipula la percepción cognitiva del receptor."
+    },
+    {
+      "id": 2,
+      "category": "Poder",
+      "name": "Anclaje",
+      "severity": "Media",
+      "icon": "⚓",
+      "howItWorks": "Establece un valor o idea inicial que sirve de referencia.",
+      "redFlags": "Cuando alguien lanza una cifra o idea extrema primero.",
+      "counterScript": "Esa cifra es arbitraria, analicemos los datos reales.",
+      "deepMechanism": "Sesgo de disponibilidad y ajuste."
+    },
+    {
+      "id": 3,
+      "category": "Persuasión",
+      "name": "Doble Vínculo",
+      "severity": "Alta",
+      "icon": "⛓️",
+      "howItWorks": "Ofrece dos opciones que llevan al mismo resultado deseado.",
+      "redFlags": "Cuando sientes que no tienes una opción real.",
+      "counterScript": "Ninguna de esas opciones me sirve, propongo una tercera.",
+      "deepMechanism": "Ilusión de elección."
+    },
+    {
+      "id": 4,
+      "category": "Poder",
+      "name": "Silencio Táctico",
+      "severity": "Media",
+      "icon": "🤫",
+      "howItWorks": "Callar después de una pregunta para forzar al otro a hablar.",
+      "redFlags": "Cuando el silencio se vuelve incómodo y quieres llenarlo.",
+      "counterScript": "Es una pregunta interesante, ¿qué opinas tú al respecto?",
+      "deepMechanism": "Presión social por la reciprocidad comunicativa."
+    },
+    {
+      "id": 5,
+      "category": "Persuasión",
+      "name": "Validación Emocional",
+      "severity": "Baja",
+      "icon": "🤝",
+      "howItWorks": "Reconocer la emoción del otro para desarmar su resistencia.",
+      "redFlags": "Cuando se usa para manipular sin intención real.",
+      "counterScript": "Gracias por entender, pero sigo esperando una solución.",
+      "deepMechanism": "Reducción de la respuesta de lucha o huida."
+    },
+    {
+      "id": 6,
+      "category": "Poder",
+      "name": "Autoridad Proyectada",
+      "severity": "Alta",
+      "icon": "👑",
+      "howItWorks": "Uso de lenguaje técnico, vestimenta y tono para imponer respeto.",
+      "redFlags": "Cuando la forma supera al contenido.",
+      "counterScript": "Más allá de las credenciales, ¿cuál es el argumento central?",
+      "deepMechanism": "Heurística de autoridad."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "bookNumber": 1,
+      "question": "¿Cuál es la función principal del cerebro reptiliano en la persuasión?",
+      "options": [
+        "Razonar",
+        "Sentir",
+        "Sobrevivir",
+        "Analizar"
+      ],
+      "correctIndex": 2,
+      "explanation": "El cerebro reptiliano se enfoca en la supervivencia y la seguridad."
+    },
+    {
+      "id": 2,
+      "bookNumber": 2,
+      "question": "¿Qué principio explica por qué valoramos más lo escaso?",
+      "options": [
+        "Reciprocidad",
+        "Escasez",
+        "Consistencia",
+        "Simpatía"
+      ],
+      "correctIndex": 1,
+      "explanation": "La escasez activa el miedo a perder una oportunidad."
+    },
+    {
+      "id": 3,
+      "bookNumber": 3,
+      "question": "¿Qué es el 'mirroring' en lenguaje corporal?",
+      "options": [
+        "Mirarse al espejo",
+        "Imitar sutilmente al otro",
+        "Evitar contacto",
+        "Gesticular mucho"
+      ],
+      "correctIndex": 1,
+      "explanation": "El mirroring crea afinidad subconsciente."
+    },
+    {
+      "id": 4,
+      "bookNumber": 1,
+      "question": "¿Qué parte del cerebro procesa las emociones?",
+      "options": [
+        "Neocórtex",
+        "Reptiliano",
+        "Límbico",
+        "Cerebelo"
+      ],
+      "correctIndex": 2,
+      "explanation": "El sistema límbico es el centro emocional."
+    },
+    {
+      "id": 5,
+      "bookNumber": 2,
+      "question": "¿Qué técnica busca obtener un 'sí' pequeño antes de uno grande?",
+      "options": [
+        "Anclaje",
+        "Consistencia",
+        "Autoridad",
+        "Escasez"
+      ],
+      "correctIndex": 1,
+      "explanation": "La consistencia nos obliga a mantener una línea de acción."
+    },
+    {
+      "id": 6,
+      "bookNumber": 3,
+      "question": "¿Cuál es el propósito de la pausa en la oratoria?",
+      "options": [
+        "Descansar",
+        "Generar autoridad",
+        "Ocultar errores",
+        "Beber agua"
+      ],
+      "correctIndex": 1,
+      "explanation": "La pausa genera expectativa y demuestra control."
+    }
+  ],
+  "glossary": [
+    {
+      "id": 1,
+      "term": "Rapport",
+      "category": "Comunicación",
+      "definition": "Sintonía y conexión entre personas.",
+      "practicalExample": "Usar el nombre de la persona y reflejar su energía."
+    },
+    {
+      "id": 2,
+      "term": "Sesgo",
+      "category": "Psicología",
+      "definition": "Error sistemático en el pensamiento.",
+      "practicalExample": "Creer que alguien es inteligente solo por usar gafas."
+    },
+    {
+      "id": 3,
+      "term": "Oratoria",
+      "category": "Comunicación",
+      "definition": "Arte de hablar en público con elocuencia.",
+      "practicalExample": "Un discurso bien estructurado y con tono variado."
+    },
+    {
+      "id": 4,
+      "term": "Persuasión",
+      "category": "Psicología",
+      "definition": "Influir en las creencias o acciones de otros.",
+      "practicalExample": "Convencer a un cliente de comprar un producto."
+    },
+    {
+      "id": 5,
+      "term": "Lenguaje Corporal",
+      "category": "Comunicación",
+      "definition": "Comunicación no verbal mediante gestos.",
+      "practicalExample": "Cruzarse de brazos como señal de defensa."
+    },
+    {
+      "id": 6,
+      "term": "Cerebro Triuno",
+      "category": "Neurociencia",
+      "definition": "Modelo de las tres capas evolutivas del cerebro.",
+      "practicalExample": "Entender que el miedo activa el cerebro reptiliano."
+    },
+    {
+      "id": 7,
+      "term": "Heurística",
+      "category": "Psicología",
+      "definition": "Atajo mental para tomar decisiones rápidas.",
+      "practicalExample": "Elegir el producto más caro asumiendo que es mejor."
+    },
+    {
+      "id": 8,
+      "term": "Asertividad",
+      "category": "Comunicación",
+      "definition": "Expresar opiniones con firmeza y respeto.",
+      "practicalExample": "Decir 'no' sin sentirse culpable."
+    },
+    {
+      "id": 9,
+      "term": "Empatía",
+      "category": "Psicología",
+      "definition": "Capacidad de sentir lo que el otro siente.",
+      "practicalExample": "Validar el dolor de un cliente antes de ofrecer ayuda."
+    },
+    {
+      "id": 10,
+      "term": "Influencia",
+      "category": "Poder",
+      "definition": "Capacidad de modificar la conducta ajena.",
+      "practicalExample": "Un líder que inspira a su equipo a trabajar más."
+    },
+    {
+      "id": 11,
+      "term": "Elocuencia",
+      "category": "Oratoria",
+      "definition": "Facilidad para hablar con eficacia.",
+      "practicalExample": "Un orador que cautiva sin usar notas."
+    },
+    {
+      "id": 12,
+      "term": "Dominio",
+      "category": "Poder",
+      "definition": "Control sobre una situación o grupo.",
+      "practicalExample": "Mantener la calma en una crisis."
+    },
+    {
+      "id": 13,
+      "term": "Sutileza",
+      "category": "Persuasión",
+      "definition": "Capacidad de influir sin ser detectado.",
+      "practicalExample": "Hacer una pregunta que guía al otro a tu conclusión."
+    },
+    {
+      "id": 14,
+      "term": "Credibilidad",
+      "category": "Comunicación",
+      "definition": "Cualidad de ser creíble.",
+      "practicalExample": "Hablar con datos y honestidad."
+    },
+    {
+      "id": 15,
+      "term": "Manipulación",
+      "category": "Psicología Oscura",
+      "definition": "Influencia con fines egoístas y ocultos.",
+      "practicalExample": "Usar la culpa para obtener un beneficio."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": 1,
+      "category": "Presencia",
+      "title": "La Postura de Poder",
+      "cue": "Hombros atrás, pecho abierto, barbilla paralela al suelo.",
+      "interpretation": "Proyecta confianza y dominio.",
+      "practicalDrill": "Mantén esta postura durante 2 minutos antes de una reunión."
+    },
+    {
+      "id": 2,
+      "category": "Conexión",
+      "title": "El Triángulo Visual",
+      "cue": "Mirar alternativamente entre los dos ojos y la frente.",
+      "interpretation": "Crea una conexión profesional y seria.",
+      "practicalDrill": "Practica con un espejo manteniendo el foco en el triángulo."
+    },
+    {
+      "id": 3,
+      "category": "Influencia",
+      "title": "Gestos de Apertura",
+      "cue": "Palmas de las manos visibles al hablar.",
+      "interpretation": "Indica honestidad y falta de amenaza.",
+      "practicalDrill": "Habla durante 5 minutos usando solo gestos con palmas abiertas."
+    },
+    {
+      "id": 4,
+      "category": "Dominio",
+      "title": "El Control del Espacio",
+      "cue": "Colocar objetos personales en la mesa para delimitar territorio.",
+      "interpretation": "Establece autoridad sobre el entorno.",
+      "practicalDrill": "Observa cómo reacciona la gente cuando ocupas tu espacio."
+    },
+    {
+      "id": 5,
+      "category": "Sintonía",
+      "title": "Espejo de Ritmo",
+      "cue": "Acompasar tu velocidad al hablar con la del otro.",
+      "interpretation": "Genera una sensación de familiaridad.",
+      "practicalDrill": "En una conversación, ajusta tu ritmo al del interlocutor."
+    },
+    {
+      "id": 6,
+      "category": "Autoridad",
+      "title": "La Pausa de Poder",
+      "cue": "Hacer una pausa de 3 segundos antes de responder.",
+      "interpretation": "Demuestra que no eres reactivo y tienes el control.",
+      "practicalDrill": "Cuenta mentalmente hasta 3 antes de contestar cualquier pregunta."
     }
   ]
 };

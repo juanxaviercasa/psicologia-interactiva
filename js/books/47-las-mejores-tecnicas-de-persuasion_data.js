@@ -654,66 +654,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Negociación y Persuasión Comercial",
-      "title": "El Cierre de la Consultoría Tecnológica",
-      "difficulty": "Alta",
-      "badge": "Maestro Persuasor",
-      "scenarioDescription": "Eres un consultor senior que presenta una propuesta de reestructuración tecnológica de $50,000 USD a una empresa mediana. El Director General está muy interesado en tus soluciones de automatización pero afirma tajantemente: 'Me encanta tu visión, pero nuestro presupuesto máximo absoluto aprobado para este año fiscal es de $35,000 USD. No puedo gastar un centavo más'. ¿Cómo manejas esta objeción de presupuesto usando tus herramientas de persuasión?",
+      "id": 1,
+      "category": "Negociación",
+      "title": "El dilema del anclaje",
+      "difficulty": "Intermedio",
+      "badge": "Estratega",
+      "scenarioDescription": "Estás negociando un contrato de alto valor. Tu contraparte lanza una cifra inicial muy baja. ¿Cómo respondes?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar la técnica de 'Reducción de Alcance con Reciprocidad Concesiva': Acepta el límite de $35,000 USD pero reduce proporcionalmente las características del servicio entregable. Hazle ver que, para mantener la calidad que garantiza el éxito, debes retirar los módulos secundarios, presentándolo como un ajuste técnico lógico.",
-          "outcome": "Éxito rotundo",
-          "wisdomScore": 100,
-          "analysis": "Al negarte a bajar el precio por el mismo trabajo, defiendes el valor intrínseco de tu servicio (evitando que piensen que tu precio inicial estaba inflado). Al ajustar el alcance para adaptarte a sus $35,000, respetas su límite pero demuestras que cada dólar tiene un entregable directo, lo que suele motivar al cliente a buscar presupuesto extra o aceptar el trato respetando tu tarifa por hora.",
-          "bookInsight": "El libro enseña que bajar los precios sin reducir el valor entregado destruye la credibilidad. Al usar reciprocidad concesiva, se intercambia una concesión económica por una concesión en alcance, manteniendo intacto el valor percibido."
+          "text": "Aceptar la cifra para mantener la relación",
+          "outcome": "Derrota estratégica",
+          "wisdomScore": 20,
+          "analysis": "Has permitido que el anclaje del otro defina el marco de la negociación.",
+          "bookInsight": "La persuasión requiere controlar el marco de referencia desde el inicio."
         },
         {
-          "id": "opt2",
-          "text": "Ofrecer un descuento inmediato del 30% para cerrar el trato en la mesa diciendo: 'Por ser ustedes, haré una excepción única y se los dejaré en $35,000 USD para comenzar a trabajar de inmediato'.",
-          "outcome": "Fallo comercial y pérdida de autoridad",
+          "text": "Re-anclar con una cifra superior basada en valor",
+          "outcome": "Victoria táctica",
+          "wisdomScore": 95,
+          "analysis": "Has neutralizado el anclaje inicial y redirigido la conversación hacia tus términos.",
+          "bookInsight": "El principio de autoridad y contraste es fundamental en la persuasión."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Influencia",
+      "title": "La presión de grupo",
+      "difficulty": "Avanzado",
+      "badge": "Maquiavélico",
+      "scenarioDescription": "Tu equipo se inclina por una decisión arriesgada. Sabes que es un error, pero todos están de acuerdo.",
+      "options": [
+        {
+          "text": "Guardar silencio para no generar conflicto",
+          "outcome": "Falla de liderazgo",
           "wisdomScore": 30,
-          "analysis": "Un descuento inmediato y masivo de $15,000 USD sin cambios en el alcance demerita tu trabajo al instante. El Director General pensará que tu precio original era arbitrario o directamente un intento de estafa, perdiendo la confianza técnica y debilitando tu posición para futuras fases del proyecto.",
-          "bookInsight": "La reducción drástica de precio sin justificación viola el principio de coherencia y devalúa drásticamente el posicionamiento del persuasor, transformando un servicio de valor en un 'commodity' barato."
+          "analysis": "El pensamiento grupal ha anulado tu capacidad crítica.",
+          "bookInsight": "La persuasión efectiva requiere valentía para desafiar el consenso."
+        },
+        {
+          "text": "Usar la técnica del abogado del diablo con empatía",
+          "outcome": "Influencia positiva",
+          "wisdomScore": 90,
+          "analysis": "Has introducido duda sin alienar al grupo.",
+          "bookInsight": "La persuasión es el arte de guiar el pensamiento ajeno sin imponerlo."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "Poder",
+      "title": "El uso de la escasez",
+      "difficulty": "Intermedio",
+      "badge": "Persuasor",
+      "scenarioDescription": "Quieres que un cliente cierre un trato hoy mismo, aunque no tiene prisa.",
+      "options": [
+        {
+          "text": "Ofrecer un descuento agresivo",
+          "outcome": "Pérdida de valor",
+          "wisdomScore": 40,
+          "analysis": "Has devaluado tu oferta al mostrar desesperación.",
+          "bookInsight": "La escasez debe ser real o percibida, no basada en la bajada de precio."
+        },
+        {
+          "text": "Informar sobre la limitación de recursos o tiempo",
+          "outcome": "Cierre exitoso",
+          "wisdomScore": 95,
+          "analysis": "Has activado el principio de escasez de Cialdini.",
+          "bookInsight": "Las personas valoran más lo que perciben como limitado."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "PNL",
+      "title": "El espejo sutil",
+      "difficulty": "Principiante",
+      "badge": "Empático",
+      "scenarioDescription": "Tu interlocutor está a la defensiva y con los brazos cruzados.",
+      "options": [
+        {
+          "text": "Cruzar los brazos también para mostrar firmeza",
+          "outcome": "Bloqueo comunicativo",
+          "wisdomScore": 10,
+          "analysis": "Has creado una barrera física y psicológica.",
+          "bookInsight": "La PNL enseña que el rapport se construye mediante la sintonía, no la confrontación."
+        },
+        {
+          "text": "Adoptar una postura abierta y reflejar sutilmente su ritmo respiratorio",
+          "outcome": "Rapport establecido",
+          "wisdomScore": 85,
+          "analysis": "Has bajado sus defensas inconscientes.",
+          "bookInsight": "El mirroring es la herramienta más poderosa para generar confianza."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "Persuasión",
+      "title": "La reciprocidad",
+      "difficulty": "Intermedio",
+      "badge": "Estratega",
+      "scenarioDescription": "Necesitas un favor importante de un colega que no te debe nada.",
+      "options": [
+        {
+          "text": "Pedir el favor directamente",
+          "outcome": "Probabilidad baja",
+          "wisdomScore": 35,
+          "analysis": "Dependes de su buena voluntad sin incentivo.",
+          "bookInsight": "La reciprocidad es un motor psicológico universal."
+        },
+        {
+          "text": "Hacer un pequeño favor primero sin pedir nada a cambio",
+          "outcome": "Deuda psicológica",
+          "wisdomScore": 90,
+          "analysis": "Has activado la norma social de reciprocidad.",
+          "bookInsight": "Dar primero es la forma más sutil de recibir después."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "Poder",
+      "title": "La autoridad percibida",
+      "difficulty": "Avanzado",
+      "badge": "Líder",
+      "scenarioDescription": "Debes convencer a una audiencia escéptica sobre un nuevo proyecto.",
+      "options": [
+        {
+          "text": "Hablar de tus sentimientos personales",
+          "outcome": "Falta de credibilidad",
+          "wisdomScore": 25,
+          "analysis": "La audiencia busca competencia, no vulnerabilidad.",
+          "bookInsight": "La autoridad se construye con datos y presencia."
+        },
+        {
+          "text": "Citar expertos y resultados previos",
+          "outcome": "Autoridad consolidada",
+          "wisdomScore": 95,
+          "analysis": "Has utilizado el principio de autoridad para validar tu propuesta.",
+          "bookInsight": "La gente sigue a quienes percibe como expertos."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Anclaje (Anchoring)",
-      "definition": "Sesgo cognitivo donde la mente humana tiende a depender en exceso de la primera pieza de información recibida (el 'ancla') al tomar decisiones o estimaciones posteriores.",
-      "tacticalUse": "Al negociar un precio o presupuesto, propón la primera cifra (alta pero defendible) para establecer el marco de referencia alrededor del cual orbitará toda la discusión posterior.",
-      "countermeasure": "Si la otra parte lanza el ancla primero, descarta mental y explícitamente esa cifra inmediatamente. Introduce tu propio contra-anclaje basado en datos objetivos antes de continuar debatiendo."
+      "id": 1,
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Reciprocidad",
+      "definition": "Tendencia a devolver favores.",
+      "tacticalUse": "Hacer concesiones pequeñas.",
+      "countermeasure": "Reconocer el regalo como táctica."
     },
     {
-      "id": "fc2",
+      "id": 2,
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Escasez",
+      "definition": "Valorar más lo limitado.",
+      "tacticalUse": "Limitar disponibilidad.",
+      "countermeasure": "Evaluar el valor real."
+    },
+    {
+      "id": 3,
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Autoridad",
+      "definition": "Influencia por estatus.",
+      "tacticalUse": "Mostrar credenciales.",
+      "countermeasure": "Verificar la fuente."
+    },
+    {
+      "id": 4,
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Consistencia",
+      "definition": "Coherencia con actos previos.",
+      "tacticalUse": "Pedir compromisos pequeños.",
+      "countermeasure": "No ser esclavo del pasado."
+    },
+    {
+      "id": 5,
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Simpatía",
+      "definition": "Influencia por afinidad.",
+      "tacticalUse": "Encontrar puntos comunes.",
+      "countermeasure": "Separar persona de propuesta."
+    },
+    {
+      "id": 6,
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Prueba Social",
+      "definition": "Seguir a la mayoría.",
+      "tacticalUse": "Mostrar testimonios.",
+      "countermeasure": "Pensamiento crítico independiente."
+    },
+    {
+      "id": 7,
+      "bookNumber": 1,
+      "category": "PNL",
       "term": "Rapport",
-      "definition": "Estado de conexión, confianza mutua y sintonía armónica entre dos o más personas, donde la comunicación fluye sin fricciones ni defensas.",
-      "tacticalUse": "Utiliza la técnica de 'espejeo sutil' (mirroring) igualando la postura, ritmo de respiración, velocidad del habla y palabras clave del interlocutor sin llegar a la imitación evidente.",
-      "countermeasure": "Monitorea tu propia comodidad física y emocional. Si notas que estás adoptando posturas incómodas o asintiendo a todo sin pensar, haz una pausa consciente, cambia de postura y recupera tu centro lógico."
+      "definition": "Sintonía comunicativa.",
+      "tacticalUse": "Espejo corporal.",
+      "countermeasure": "Mantener distancia emocional."
     },
     {
-      "id": "fc3",
-      "term": "Principio de Escasez",
-      "definition": "Tendencia psicológica a valorar más las oportunidades, recursos o bienes que percibimos como limitados, difíciles de conseguir o que están a punto de agotarse.",
-      "tacticalUse": "Presenta tu propuesta comercial destacando los plazos límites específicos de la oferta, los cupos limitados reales de tu servicio o las ventajas exclusivas que se perderán si no actúan ahora.",
-      "countermeasure": "Pregúntate: ¿Quiero este producto/servicio por su utilidad real o puramente por el miedo a perder la oportunidad de tenerlo? Separa el valor de uso de la prisa por poseerlo."
+      "id": 8,
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Anclaje",
+      "definition": "Asociación estímulo-respuesta.",
+      "tacticalUse": "Vincular emociones a gestos.",
+      "countermeasure": "Identificar el disparador."
     },
     {
-      "id": "fc4",
-      "term": "Efecto Encuadre (Framing)",
-      "definition": "Fenómeno por el cual las personas reaccionan de manera diferente a una elección dependiendo de si se presenta como una ganancia potencial o como una pérdida potencial.",
-      "tacticalUse": "En lugar de decir 'Esta inversión te costará $100 al mes', encuádralo positivamente: 'Por solo el valor de un café al día ($3.30), asegurarás la protección completa de tu negocio'."
+      "id": 9,
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Calibración",
+      "definition": "Leer señales no verbales.",
+      "tacticalUse": "Detectar incongruencias.",
+      "countermeasure": "Controlar microexpresiones."
     },
     {
-      "id": "fc5",
-      "term": "Prueba Social (Social Proof)",
-      "definition": "Mecanismo por el cual las personas asumen que los comportamientos o decisiones de la mayoría (o de un grupo de referencia) son los correctos en una situación dada.",
-      "tacticalUse": "Soporta tus argumentos de venta con testimonios específicos, casos de éxito cuantificables de clientes similares o estadísticas que muestren la alta adopción de tu solución.",
-      "countermeasure": "Analiza críticamente si el comportamiento de la masa se adapta realmente a tu contexto particular. Recuerda que un error colectivo sigue siendo un error."
+      "id": 10,
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Encuadre",
+      "definition": "Definir el contexto.",
+      "tacticalUse": "Controlar la narrativa.",
+      "countermeasure": "Reencuadrar la situación."
+    },
+    {
+      "id": 11,
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Silencio Táctico",
+      "definition": "Pausa para presionar.",
+      "tacticalUse": "Forzar al otro a hablar.",
+      "countermeasure": "Mantener la calma."
+    },
+    {
+      "id": 12,
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Contraste",
+      "definition": "Comparar con algo peor.",
+      "tacticalUse": "Presentar opción cara primero.",
+      "countermeasure": "Analizar valor absoluto."
+    },
+    {
+      "id": 13,
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Compromiso",
+      "definition": "Involucramiento gradual.",
+      "tacticalUse": "Técnica del pie en la puerta.",
+      "countermeasure": "Evaluar cada paso."
+    },
+    {
+      "id": 14,
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Predicados",
+      "definition": "Lenguaje sensorial.",
+      "tacticalUse": "Adaptar el canal visual/auditivo.",
+      "countermeasure": "Escuchar el lenguaje del otro."
+    },
+    {
+      "id": 15,
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Legitimidad",
+      "definition": "Apelar a normas.",
+      "tacticalUse": "Usar reglas a favor.",
+      "countermeasure": "Cuestionar la norma."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": 1,
+      "category": "Persuasión",
+      "name": "Pie en la puerta",
+      "severity": "Baja",
+      "icon": "🚪",
+      "howItWorks": "Pedir algo pequeño para luego pedir algo grande.",
+      "redFlags": "Solicitudes que escalan rápido.",
+      "counterScript": "No estoy listo para comprometerme más.",
+      "deepMechanism": "Necesidad psicológica de coherencia."
+    },
+    {
+      "id": 2,
+      "category": "Poder",
+      "name": "Anclaje",
+      "severity": "Alta",
+      "icon": "⚓",
+      "howItWorks": "Establecer el primer número como referencia.",
+      "redFlags": "Cifras arbitrarias al inicio.",
+      "counterScript": "Esa cifra no refleja el mercado.",
+      "deepMechanism": "Sesgo de ajuste."
+    },
+    {
+      "id": 3,
+      "category": "PNL",
+      "name": "Espejo",
+      "severity": "Baja",
+      "icon": "🪞",
+      "howItWorks": "Imitar gestos sutilmente.",
+      "redFlags": "Imitación obvia.",
+      "counterScript": "Cambiar de postura bruscamente.",
+      "deepMechanism": "Neuronas espejo."
+    },
+    {
+      "id": 4,
+      "category": "Persuasión",
+      "name": "Escasez",
+      "severity": "Media",
+      "icon": "⏳",
+      "howItWorks": "Crear urgencia artificial.",
+      "redFlags": "Presión de tiempo injustificada.",
+      "counterScript": "Puedo esperar a que haya más stock.",
+      "deepMechanism": "Miedo a la pérdida."
+    },
+    {
+      "id": 5,
+      "category": "Poder",
+      "name": "Autoridad",
+      "severity": "Alta",
+      "icon": "👑",
+      "howItWorks": "Usar títulos o uniformes.",
+      "redFlags": "Apelación constante a expertos.",
+      "counterScript": "¿Qué datos respaldan esa afirmación?",
+      "deepMechanism": "Obediencia aprendida."
+    },
+    {
+      "id": 6,
+      "category": "Persuasión",
+      "name": "Reciprocidad",
+      "severity": "Media",
+      "icon": "🤝",
+      "howItWorks": "Dar algo para recibir más.",
+      "redFlags": "Regalos no solicitados.",
+      "counterScript": "Agradezco el gesto, pero no puedo devolverlo.",
+      "deepMechanism": "Norma social de deuda."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": 1,
+      "bookNumber": 1,
+      "question": "¿Qué principio explica por qué valoramos más lo difícil de conseguir?",
+      "options": [
+        "Reciprocidad",
+        "Escasez",
+        "Simpatía",
+        "Autoridad"
+      ],
+      "correctIndex": 1,
+      "explanation": "La escasez aumenta el valor percibido."
+    },
+    {
+      "id": 2,
+      "bookNumber": 1,
+      "question": "¿Qué es el 'mirroring' en PNL?",
+      "options": [
+        "Mirarse al espejo",
+        "Imitar gestos",
+        "Hablar solo",
+        "Criticar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es la imitación sutil para generar rapport."
+    },
+    {
+      "id": 3,
+      "bookNumber": 1,
+      "question": "¿Qué técnica usa la coherencia interna?",
+      "options": [
+        "Escasez",
+        "Consistencia",
+        "Contraste",
+        "Miedo"
+      ],
+      "correctIndex": 1,
+      "explanation": "La gente quiere ser coherente con sus actos previos."
+    },
+    {
+      "id": 4,
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo del anclaje?",
+      "options": [
+        "Fijar un precio",
+        "Controlar el marco",
+        "Ambas",
+        "Ninguna"
+      ],
+      "correctIndex": 2,
+      "explanation": "El anclaje define el marco de referencia."
+    },
+    {
+      "id": 5,
+      "bookNumber": 1,
+      "question": "¿Qué es la prueba social?",
+      "options": [
+        "Verificar datos",
+        "Seguir a la mayoría",
+        "Probar un producto",
+        "Debatir"
+      ],
+      "correctIndex": 1,
+      "explanation": "Validación a través de otros."
+    },
+    {
+      "id": 6,
+      "bookNumber": 1,
+      "question": "¿Qué es el silencio táctico?",
+      "options": [
+        "Ignorar",
+        "Pausa estratégica",
+        "Miedo",
+        "Debilidad"
+      ],
+      "correctIndex": 1,
+      "explanation": "El silencio presiona al otro a revelar información."
+    }
+  ],
+  "glossary": [
+    {
+      "id": 1,
+      "term": "Rapport",
+      "category": "PNL",
+      "definition": "Sintonía emocional.",
+      "practicalExample": "Acompasar el tono de voz."
+    },
+    {
+      "id": 2,
+      "term": "Anclaje",
+      "category": "Psicología",
+      "definition": "Punto de referencia inicial.",
+      "practicalExample": "Lanzar el precio alto primero."
+    },
+    {
+      "id": 3,
+      "term": "Sesgo",
+      "category": "Psicología",
+      "definition": "Error de juicio.",
+      "practicalExample": "Sesgo de confirmación."
+    },
+    {
+      "id": 4,
+      "term": "Persuasión",
+      "category": "General",
+      "definition": "Influencia voluntaria.",
+      "practicalExample": "Vender una idea."
+    },
+    {
+      "id": 5,
+      "term": "PNL",
+      "category": "PNL",
+      "definition": "Programación Neurolingüística.",
+      "practicalExample": "Cambiar creencias limitantes."
+    },
+    {
+      "id": 6,
+      "term": "Escasez",
+      "category": "Persuasión",
+      "definition": "Limitación de oferta.",
+      "practicalExample": "Oferta por tiempo limitado."
+    },
+    {
+      "id": 7,
+      "term": "Reciprocidad",
+      "category": "Persuasión",
+      "definition": "Intercambio de favores.",
+      "practicalExample": "Dar una muestra gratis."
+    },
+    {
+      "id": 8,
+      "term": "Autoridad",
+      "category": "Poder",
+      "definition": "Poder legítimo.",
+      "practicalExample": "Citar a un doctor."
+    },
+    {
+      "id": 9,
+      "term": "Consistencia",
+      "category": "Psicología",
+      "definition": "Coherencia de actos.",
+      "practicalExample": "Firmar un compromiso."
+    },
+    {
+      "id": 10,
+      "term": "Simpatía",
+      "category": "Persuasión",
+      "definition": "Atracción personal.",
+      "practicalExample": "Hacer cumplidos sinceros."
+    },
+    {
+      "id": 11,
+      "term": "Calibración",
+      "category": "PNL",
+      "definition": "Lectura no verbal.",
+      "practicalExample": "Notar tensión en la mandíbula."
+    },
+    {
+      "id": 12,
+      "term": "Encuadre",
+      "category": "Poder",
+      "definition": "Marco de referencia.",
+      "practicalExample": "Presentar un problema como reto."
+    },
+    {
+      "id": 13,
+      "term": "Contraste",
+      "category": "Persuasión",
+      "definition": "Comparación relativa.",
+      "practicalExample": "Mostrar lo caro antes de lo barato."
+    },
+    {
+      "id": 14,
+      "term": "Asertividad",
+      "category": "Habilidades",
+      "definition": "Comunicación directa.",
+      "practicalExample": "Decir no sin culpa."
+    },
+    {
+      "id": 15,
+      "term": "Influencia",
+      "category": "Poder",
+      "definition": "Capacidad de cambiar.",
+      "practicalExample": "Liderar un equipo."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": 1,
+      "category": "Presencia",
+      "title": "Postura de Poder",
+      "cue": "Pecho abierto, manos visibles.",
+      "interpretation": "Dominancia y confianza.",
+      "practicalDrill": "Mantener 2 min antes de una reunión."
+    },
+    {
+      "id": 2,
+      "category": "Rapport",
+      "title": "Contacto Visual",
+      "cue": "Mirada al triángulo facial.",
+      "interpretation": "Interés y honestidad.",
+      "practicalDrill": "Sostener mirada 3 segundos."
+    },
+    {
+      "id": 3,
+      "category": "Defensa",
+      "title": "Barreras Físicas",
+      "cue": "Brazos cruzados.",
+      "interpretation": "Defensiva o rechazo.",
+      "practicalDrill": "Desbloquear brazos al hablar."
+    },
+    {
+      "id": 4,
+      "category": "Persuasión",
+      "title": "Inclinación",
+      "cue": "Inclinarse hacia el otro.",
+      "interpretation": "Atención y acuerdo.",
+      "practicalDrill": "Inclinar torso al escuchar."
+    },
+    {
+      "id": 5,
+      "category": "PNL",
+      "title": "Acompasamiento",
+      "cue": "Ritmo de habla similar.",
+      "interpretation": "Sintonía.",
+      "practicalDrill": "Igualar velocidad de habla."
+    },
+    {
+      "id": 6,
+      "category": "Poder",
+      "title": "Gestos con manos",
+      "cue": "Palmas hacia arriba.",
+      "interpretation": "Transparencia y apertura.",
+      "practicalDrill": "Usar manos al explicar."
     }
   ]
 };

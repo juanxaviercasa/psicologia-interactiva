@@ -423,93 +423,79 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Relaciones Interpersonales",
-      "title": "Caso Práctico: La Necesidad De Fantasia Y Conclusiones",
-      "difficulty": "Media",
-      "badge": "Experto en Vínculos",
-      "scenarioDescription": "Durante una situación relacionada con \"La Necesidad De Fantasia Y Conclusiones\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS001",
+      "category": "Maquiavelismo",
+      "title": "La Trampa de la Sumisión Estratégica",
+      "difficulty": "Hard",
+      "badge": "Master Manipulator",
+      "scenarioDescription": "Un subordinado parece disfrutar de la sobrecarga de trabajo y la crítica constante. ¿Cómo utilizas esto para tu beneficio?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"La Necesidad De Fantasia Y Conclusiones\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
-        },
-        {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
-        }
-      ]
-    },
-    {
-      "id": "cs2",
-      "category": "Aplicación Ética de Principios",
-      "title": "Caso Práctico: Dimensiones Psicologicas De La Entrega",
-      "difficulty": "Alta",
-      "badge": "Maestro de Influencia",
-      "scenarioDescription": "Durante una situación relacionada con \"Dimensiones Psicologicas De La Entrega\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Dimensiones Psicologicas De La Entrega\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
-        },
-        {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Aumentar la carga para probar su lealtad",
+          "outcome": "Dependencia total",
+          "wisdomScore": 85,
+          "analysis": "El masoquismo clínico puede ser instrumentalizado para crear una lealtad incondicional mediante el refuerzo de la entrega.",
+          "bookInsight": "La entrega es una forma de control sobre el otro."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Prueba social",
-      "definition": "Técnica psicológica estudiada en \"Dimensiones Psicologicas De La Entrega\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Tomarse tiempo antes de responder a demandas urgentes fabricadas."
-    },
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Maquiavelismo",
+      "term": "Entrega Instrumental",
+      "definition": "Uso de la sumisión como herramienta para desarmar al oponente.",
+      "tacticalUse": "Fingir debilidad para obtener información.",
+      "countermeasure": "Identificar el beneficio oculto tras la sumisión."
+    }
+  ],
+  "tacticalMatrix": [
     {
-      "id": "fc2",
-      "term": "Love bombing",
-      "definition": "Técnica psicológica estudiada en \"La Necesidad De Fantasia Y Conclusiones\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Desarrollar independencia emocional mediante mindfulness diario."
-    },
+      "id": "TM001",
+      "category": "Maquiavelismo",
+      "name": "Refuerzo de Fantasía",
+      "severity": "High",
+      "icon": "🎭",
+      "howItWorks": "Alimentar la narrativa interna del sujeto para dirigir su voluntad.",
+      "redFlags": "Obsesión con el rol asignado.",
+      "counterScript": "Cuestionar la realidad de la narrativa.",
+      "deepMechanism": "La fantasía es el motor de la conducta masoquista."
+    }
+  ],
+  "quizzes": [
     {
-      "id": "fc3",
-      "term": "Rapport forzado",
-      "definition": "Técnica psicológica estudiada en \"Dimensiones Psicologicas De La Entrega\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
-    },
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Qué papel juega la fantasía en la estructura del masoquismo?",
+      "options": [
+        "Es un escape",
+        "Es un mecanismo de control",
+        "Es irrelevante",
+        "Es una patología"
+      ],
+      "correctIndex": 1,
+      "explanation": "La fantasía permite al sujeto estructurar su realidad para mantener el control a través de la entrega."
+    }
+  ],
+  "glossary": [
     {
-      "id": "fc4",
-      "term": "Consistencia cognitiva",
-      "definition": "Técnica psicológica estudiada en \"La Necesidad De Fantasia Y Conclusiones\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Consultar perspectivas externas de confianza antes de decidir."
-    },
+      "id": "G001",
+      "term": "Masoquismo Clínico",
+      "category": "Psicología",
+      "definition": "Tendencia a buscar el dolor o la sumisión como gratificación.",
+      "practicalExample": "Aceptar tareas humillantes para ganar favor."
+    }
+  ],
+  "bodyLanguageLab": [
     {
-      "id": "fc5",
-      "term": "Triangulación",
-      "definition": "Técnica psicológica estudiada en \"Dimensiones Psicologicas De La Entrega\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Practicar la técnica del \"disco rayado\" ante presión persistente."
+      "id": "BL001",
+      "category": "Poder",
+      "title": "La Postura de la Entrega",
+      "cue": "Inclinación de cabeza y mirada baja.",
+      "interpretation": "Señal de sumisión que puede ser fingida para manipular.",
+      "practicalDrill": "Practicar la mirada baja seguida de un contacto visual súbito y firme."
     }
   ]
 };

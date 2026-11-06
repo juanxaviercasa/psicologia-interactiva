@@ -3813,93 +3813,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Detección en Entorno Laboral",
-      "title": "Caso Práctico: Tecnicas Poderosas De Pnl",
-      "difficulty": "Alta",
-      "badge": "Detective Social",
-      "scenarioDescription": "Durante una situación relacionada con \"Tecnicas Poderosas De Pnl\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS001",
+      "category": "Psicología Oscura",
+      "title": "El Dilema del Ego",
+      "difficulty": "Hard",
+      "badge": "Maestro de la Sombra",
+      "scenarioDescription": "Un colega arrogante intenta desacreditar tu trabajo frente a la junta directiva. ¿Cómo respondes?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Tecnicas Poderosas De Pnl\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Atacar su credibilidad exponiendo sus errores pasados.",
+          "outcome": "Escalada de conflicto",
+          "wisdomScore": 20,
+          "analysis": "El ataque directo activa el mecanismo de defensa del ego del oponente.",
+          "bookInsight": "Tu ego puede impedirle persuadir si reaccionas emocionalmente."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Validar su punto parcialmente y redirigir hacia los datos objetivos.",
+          "outcome": "Control de la narrativa",
+          "wisdomScore": 95,
+          "analysis": "La validación desarma la hostilidad y permite retomar el control.",
+          "bookInsight": "Las formas amables son más eficaces que la confrontación directa."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Relaciones Interpersonales",
-      "title": "Caso Práctico: Tecnicas Muy Eficaces De Control Mental",
-      "difficulty": "Media",
-      "badge": "Experto en Vínculos",
-      "scenarioDescription": "Durante una situación relacionada con \"Tecnicas Muy Eficaces De Control Mental\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS002",
+      "category": "Persuasión",
+      "title": "La Negociación Silenciosa",
+      "difficulty": "Medium",
+      "badge": "Estratega",
+      "scenarioDescription": "Necesitas que un cliente acepte un precio más alto sin que se sienta presionado.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Tecnicas Muy Eficaces De Control Mental\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Usar el principio de escasez enfatizando la alta demanda.",
+          "outcome": "Cierre exitoso",
+          "wisdomScore": 85,
+          "analysis": "La escasez crea urgencia psicológica.",
+          "bookInsight": "Utiliza principios de persuasión probados para guiar la decisión."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Explicar detalladamente por qué el precio es justo.",
+          "outcome": "Resistencia del cliente",
+          "wisdomScore": 40,
+          "analysis": "Demasiada lógica genera sospecha.",
+          "bookInsight": "No digas nunca demasiado; la brevedad es poder."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Psicología Oscura",
+      "title": "El Espejo de Bruce Lee",
+      "difficulty": "Expert",
+      "badge": "Adaptabilidad",
+      "scenarioDescription": "Tu oponente es rígido y agresivo en la negociación.",
+      "options": [
+        {
+          "text": "Mantenerte firme y no ceder ni un milímetro.",
+          "outcome": "Bloqueo total",
+          "wisdomScore": 30,
+          "analysis": "La rigidez contra la rigidez solo produce colisión.",
+          "bookInsight": "Sé como el agua; adáptate a la forma de tu oponente."
+        },
+        {
+          "text": "Fluir con su energía, cediendo en puntos menores para ganar el control total.",
+          "outcome": "Victoria estratégica",
+          "wisdomScore": 98,
+          "analysis": "La adaptabilidad es la forma más alta de poder.",
+          "bookInsight": "Bruce Lee fue el más sabio al entender la fluidez."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Manipulación",
+      "title": "El Poder del Silencio",
+      "difficulty": "Medium",
+      "badge": "Controlador",
+      "scenarioDescription": "Estás en una entrevista de trabajo y te hacen una pregunta incómoda.",
+      "options": [
+        {
+          "text": "Responder inmediatamente para evitar el silencio incómodo.",
+          "outcome": "Pérdida de autoridad",
+          "wisdomScore": 35,
+          "analysis": "La prisa por hablar denota inseguridad.",
+          "bookInsight": "Lo que no debes decir nunca incluye las justificaciones innecesarias."
+        },
+        {
+          "text": "Hacer una pausa, mirar a los ojos y sonreír antes de responder.",
+          "outcome": "Dominio de la situación",
+          "wisdomScore": 90,
+          "analysis": "El silencio proyecta confianza y superioridad.",
+          "bookInsight": "El control del tiempo es una estrategia de manipulación secreta."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Psicología Oscura",
+      "title": "La Trampa de la Empatía",
+      "difficulty": "Hard",
+      "badge": "Manipulador Ético",
+      "scenarioDescription": "Alguien intenta manipularte usando una historia triste.",
+      "options": [
+        {
+          "text": "Mostrar empatía total y ceder a sus demandas.",
+          "outcome": "Manipulación exitosa sobre ti",
+          "wisdomScore": 10,
+          "analysis": "La empatía sin límites es una vulnerabilidad.",
+          "bookInsight": "La psicología oscura utiliza las emociones como palanca."
+        },
+        {
+          "text": "Reconocer su situación pero mantener los límites profesionales.",
+          "outcome": "Protección de intereses",
+          "wisdomScore": 88,
+          "analysis": "La distancia emocional es necesaria para la toma de decisiones.",
+          "bookInsight": "Entender la conducta humana es la mejor defensa."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Persuasión",
+      "title": "El Arte de la Sugestión",
+      "difficulty": "Medium",
+      "badge": "Influenciador",
+      "scenarioDescription": "Quieres que tu equipo adopte una nueva metodología.",
+      "options": [
+        {
+          "text": "Imponer la metodología mediante órdenes directas.",
+          "outcome": "Resistencia pasiva",
+          "wisdomScore": 25,
+          "analysis": "La imposición genera resentimiento.",
+          "bookInsight": "La persuasión real requiere que ellos crean que fue su idea."
+        },
+        {
+          "text": "Plantear preguntas que los lleven a concluir que la metodología es necesaria.",
+          "outcome": "Adopción entusiasta",
+          "wisdomScore": 92,
+          "analysis": "La persuasión socrática es la más efectiva.",
+          "bookInsight": "Las formas amables pero eficaces logran cambios profundos."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Consistencia cognitiva",
-      "definition": "Técnica psicológica estudiada en \"Preliminares\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Usar el \"test de la silla vacía\": ¿qué le dirías a un amigo en tu situación?"
+      "id": "F01",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Ego",
+      "definition": "La barrera principal que impide la escucha activa.",
+      "tacticalUse": "Identificar el ego del otro para adularlo.",
+      "countermeasure": "Desapego emocional."
     },
     {
-      "id": "fc2",
+      "id": "F02",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Espejo",
+      "definition": "Reflejar el lenguaje corporal del otro.",
+      "tacticalUse": "Crear rapport instantáneo.",
+      "countermeasure": "Observar patrones de imitación."
+    },
+    {
+      "id": "F03",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Escasez",
+      "definition": "El valor percibido aumenta cuando algo es limitado.",
+      "tacticalUse": "Crear urgencia en la decisión.",
+      "countermeasure": "Evaluar la necesidad real."
+    },
+    {
+      "id": "F04",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Silencio Táctico",
+      "definition": "Pausa deliberada tras una pregunta.",
+      "tacticalUse": "Forzar al otro a revelar información.",
+      "countermeasure": "Mantener la calma y esperar."
+    },
+    {
+      "id": "F05",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Validación",
+      "definition": "Reconocer la validez de la opinión ajena.",
+      "tacticalUse": "Desarmar la resistencia.",
+      "countermeasure": "No confundir validación con acuerdo."
+    },
+    {
+      "id": "F06",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Anclaje",
+      "definition": "Establecer un punto de referencia inicial.",
+      "tacticalUse": "Influir en la percepción del valor.",
+      "countermeasure": "Investigar precios de mercado."
+    },
+    {
+      "id": "F07",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Reciprocidad",
+      "definition": "Necesidad de devolver un favor.",
+      "tacticalUse": "Dar algo pequeño para recibir algo grande.",
+      "countermeasure": "Aceptar regalos sin compromiso."
+    },
+    {
+      "id": "F08",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Proyección",
+      "definition": "Atribuir rasgos propios a otros.",
+      "tacticalUse": "Identificar debilidades del oponente.",
+      "countermeasure": "Autoconocimiento profundo."
+    },
+    {
+      "id": "F09",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Autoridad",
+      "definition": "Influencia basada en el estatus percibido.",
+      "tacticalUse": "Usar símbolos de poder.",
+      "countermeasure": "Cuestionar la fuente."
+    },
+    {
+      "id": "F10",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Gaslighting",
+      "definition": "Hacer dudar a alguien de su realidad.",
+      "tacticalUse": "Desestabilizar al oponente.",
+      "countermeasure": "Documentar hechos."
+    },
+    {
+      "id": "F11",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Consistencia",
+      "definition": "Deseo de ser coherente con acciones pasadas.",
+      "tacticalUse": "Lograr un 'sí' pequeño primero.",
+      "countermeasure": "Evaluar cada decisión por separado."
+    },
+    {
+      "id": "F12",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
       "term": "Triangulación",
-      "definition": "Técnica psicológica estudiada en \"Introduccion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Reconocer los 7 signos de la Tríada Oscura en contactos cercanos."
+      "definition": "Involucrar a un tercero para crear conflicto.",
+      "tacticalUse": "Dividir y vencer.",
+      "countermeasure": "Comunicación directa."
     },
     {
-      "id": "fc3",
-      "term": "Hipnosis ericksoniana",
-      "definition": "Técnica psicológica estudiada en \"Por Que Es Importante Entender La Persuasion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Establecer límites claros y comunicarlos asertivamente."
+      "id": "F13",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Encuadre",
+      "definition": "Presentar la información bajo una luz específica.",
+      "tacticalUse": "Cambiar la percepción de un problema.",
+      "countermeasure": "Reformular el encuadre."
     },
     {
-      "id": "fc4",
-      "term": "Simpatía fabricada",
-      "definition": "Técnica psicológica estudiada en \"Por Que Su Ego Puede Impedirle Persuadir\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Tomarse tiempo antes de responder a demandas urgentes fabricadas."
+      "id": "F14",
+      "bookNumber": 1,
+      "category": "Psicología Oscura",
+      "term": "Ambigüedad",
+      "definition": "No ser claro para mantener opciones abiertas.",
+      "tacticalUse": "Evitar compromisos.",
+      "countermeasure": "Pedir clarificación específica."
     },
     {
-      "id": "fc5",
-      "term": "DARVO",
-      "definition": "Técnica psicológica estudiada en \"Que No Decir Nunca\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Desarrollar independencia emocional mediante mindfulness diario."
+      "id": "F15",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Prueba Social",
+      "definition": "Seguir lo que otros hacen.",
+      "tacticalUse": "Mostrar consenso.",
+      "countermeasure": "Pensamiento crítico independiente."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Persuasión",
+      "name": "La Técnica del 'Sí' Sucesivo",
+      "severity": "Low",
+      "icon": "✅",
+      "howItWorks": "Lograr acuerdos pequeños para facilitar uno grande.",
+      "redFlags": "Sentirse presionado a decir sí.",
+      "counterScript": "Prefiero pensarlo antes de comprometerme.",
+      "deepMechanism": "Sesgo de consistencia."
+    },
+    {
+      "id": "TM02",
+      "category": "Psicología Oscura",
+      "name": "El Espejo de Bruce Lee",
+      "severity": "Medium",
+      "icon": "🌊",
+      "howItWorks": "Adaptarse a la energía del oponente para neutralizarla.",
+      "redFlags": "Sentir que el otro te imita demasiado.",
+      "counterScript": "Noto que estamos muy alineados, ¿qué opinas de esto?",
+      "deepMechanism": "Rapport inconsciente."
+    },
+    {
+      "id": "TM03",
+      "category": "Manipulación",
+      "name": "La Falsa Elección",
+      "severity": "High",
+      "icon": "⚖️",
+      "howItWorks": "Dar dos opciones que ambas benefician al manipulador.",
+      "redFlags": "Sentir que no tienes opciones reales.",
+      "counterScript": "Propongo una tercera alternativa.",
+      "deepMechanism": "Ilusión de control."
+    },
+    {
+      "id": "TM04",
+      "category": "Persuasión",
+      "name": "El Poder de la Escasez",
+      "severity": "Medium",
+      "icon": "⏳",
+      "howItWorks": "Limitar el tiempo o la disponibilidad.",
+      "redFlags": "Urgencia artificial.",
+      "counterScript": "Puedo esperar a que haya más disponibilidad.",
+      "deepMechanism": "Miedo a la pérdida."
+    },
+    {
+      "id": "TM05",
+      "category": "Psicología Oscura",
+      "name": "El Silencio Incómodo",
+      "severity": "High",
+      "icon": "🤐",
+      "howItWorks": "Callar tras una pregunta para que el otro hable de más.",
+      "redFlags": "Sentir ansiedad por llenar el silencio.",
+      "counterScript": "Es una pregunta compleja, ¿qué opinas tú?",
+      "deepMechanism": "Necesidad de aliviar tensión."
+    },
+    {
+      "id": "TM06",
+      "category": "Persuasión",
+      "name": "La Técnica del 'Por Qué'",
+      "severity": "Low",
+      "icon": "❓",
+      "howItWorks": "Justificar una petición con una razón, aunque sea simple.",
+      "redFlags": "Razones sin sustento real.",
+      "counterScript": "¿Podrías profundizar en esa razón?",
+      "deepMechanism": "Sesgo de justificación."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Cuál es el mayor obstáculo para persuadir a otros?",
+      "options": [
+        "La falta de información",
+        "El ego del persuasor",
+        "La inteligencia del oponente",
+        "El entorno"
+      ],
+      "correctIndex": 1,
+      "explanation": "El ego propio impide escuchar y entender las necesidades del otro."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 1,
+      "question": "¿Qué significa ser como el agua según Bruce Lee?",
+      "options": [
+        "Ser débil",
+        "Ser adaptable y fluido",
+        "Ser transparente",
+        "Ser frío"
+      ],
+      "correctIndex": 1,
+      "explanation": "La adaptabilidad permite superar cualquier resistencia."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 1,
+      "question": "¿Qué no debes decir nunca en una negociación?",
+      "options": [
+        "Tu opinión",
+        "Justificaciones innecesarias",
+        "Datos técnicos",
+        "Preguntas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Las justificaciones denotan inseguridad y debilidad."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo de la psicología oscura?",
+      "options": [
+        "Ayudar a otros",
+        "Controlar la conducta humana",
+        "Aprender historia",
+        "Mejorar la memoria"
+      ],
+      "correctIndex": 1,
+      "explanation": "Busca influir en la conducta mediante mecanismos ocultos."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 1,
+      "question": "¿Por qué la escasez es efectiva?",
+      "options": [
+        "Porque es barata",
+        "Porque activa el miedo a la pérdida",
+        "Porque es lógica",
+        "Porque es divertida"
+      ],
+      "correctIndex": 1,
+      "explanation": "El cerebro humano valora más lo que cree que puede perder."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 1,
+      "question": "¿Qué es el 'anclaje'?",
+      "options": [
+        "Un tipo de barco",
+        "Establecer un punto de referencia inicial",
+        "Una técnica de relajación",
+        "Un error de cálculo"
+      ],
+      "correctIndex": 1,
+      "explanation": "El primer número mencionado suele definir el rango de la negociación."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Persuasión",
+      "category": "General",
+      "definition": "Influir en las creencias o acciones de otros.",
+      "practicalExample": "Convencer a un cliente de comprar un producto."
+    },
+    {
+      "id": "G02",
+      "term": "Manipulación",
+      "category": "Psicología Oscura",
+      "definition": "Influencia oculta para beneficio propio.",
+      "practicalExample": "Hacer sentir culpable a alguien para obtener un favor."
+    },
+    {
+      "id": "G03",
+      "term": "Ego",
+      "category": "Psicología",
+      "definition": "La imagen propia que bloquea la realidad.",
+      "practicalExample": "Negarse a admitir un error en una reunión."
+    },
+    {
+      "id": "G04",
+      "term": "Rapport",
+      "category": "Persuasión",
+      "definition": "Sintonía emocional con otra persona.",
+      "practicalExample": "Imitar sutilmente la postura del interlocutor."
+    },
+    {
+      "id": "G05",
+      "term": "Escasez",
+      "category": "Persuasión",
+      "definition": "Percepción de valor por limitación.",
+      "practicalExample": "Decir que solo quedan dos unidades."
+    },
+    {
+      "id": "G06",
+      "term": "Psicología Oscura",
+      "category": "Psicología",
+      "definition": "Estudio de las tácticas de control mental.",
+      "practicalExample": "Usar el miedo para influir en decisiones."
+    },
+    {
+      "id": "G07",
+      "term": "Anclaje",
+      "category": "Negociación",
+      "definition": "Punto de referencia inicial.",
+      "practicalExample": "Pedir un precio alto para que el real parezca bajo."
+    },
+    {
+      "id": "G08",
+      "term": "Reciprocidad",
+      "category": "Persuasión",
+      "definition": "Deuda social creada por un favor.",
+      "practicalExample": "Dar una muestra gratis antes de vender."
+    },
+    {
+      "id": "G09",
+      "term": "Gaslighting",
+      "category": "Psicología Oscura",
+      "definition": "Manipulación de la realidad ajena.",
+      "practicalExample": "Decir 'eso nunca pasó' para confundir."
+    },
+    {
+      "id": "G10",
+      "term": "Consistencia",
+      "category": "Psicología",
+      "definition": "Deseo de actuar según compromisos previos.",
+      "practicalExample": "Pedir un pequeño compromiso inicial."
+    },
+    {
+      "id": "G11",
+      "term": "Encuadre",
+      "category": "Persuasión",
+      "definition": "Presentación de la información.",
+      "practicalExample": "Decir '90% libre de grasa' en vez de '10% grasa'."
+    },
+    {
+      "id": "G12",
+      "term": "Triangulación",
+      "category": "Psicología Oscura",
+      "definition": "Uso de terceros para manipular.",
+      "practicalExample": "Decir 'todos piensan que estás mal'."
+    },
+    {
+      "id": "G13",
+      "term": "Ambigüedad",
+      "category": "Psicología Oscura",
+      "definition": "Falta de claridad intencionada.",
+      "practicalExample": "Responder con evasivas a una pregunta directa."
+    },
+    {
+      "id": "G14",
+      "term": "Prueba Social",
+      "category": "Persuasión",
+      "definition": "Influencia de la mayoría.",
+      "practicalExample": "Mostrar testimonios de otros clientes."
+    },
+    {
+      "id": "G15",
+      "term": "Autoridad",
+      "category": "Persuasión",
+      "definition": "Poder basado en estatus.",
+      "practicalExample": "Usar uniforme o títulos académicos."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Presencia",
+      "title": "Contacto Visual Sostenido",
+      "cue": "Mantener la mirada 80% del tiempo.",
+      "interpretation": "Denota confianza y dominio.",
+      "practicalDrill": "Practica mantener la mirada en un espejo sin parpadear excesivamente."
+    },
+    {
+      "id": "BL02",
+      "category": "Persuasión",
+      "title": "Postura Abierta",
+      "cue": "Brazos sin cruzar y pecho expuesto.",
+      "interpretation": "Indica honestidad y receptividad.",
+      "practicalDrill": "En una reunión, mantén las manos visibles sobre la mesa."
+    },
+    {
+      "id": "BL03",
+      "category": "Psicología Oscura",
+      "title": "Inclinación de Cabeza",
+      "cue": "Inclinar la cabeza ligeramente al escuchar.",
+      "interpretation": "Muestra interés falso o real para ganar confianza.",
+      "practicalDrill": "Úsalo para que el otro hable más tiempo."
+    },
+    {
+      "id": "BL04",
+      "category": "Presencia",
+      "title": "El Silencio Corporal",
+      "cue": "Evitar movimientos nerviosos o tics.",
+      "interpretation": "Proyecta control absoluto sobre el entorno.",
+      "practicalDrill": "Grábate hablando y elimina todo movimiento innecesario."
+    },
+    {
+      "id": "BL05",
+      "category": "Persuasión",
+      "title": "Espejo Sutil",
+      "cue": "Copiar la velocidad del habla del otro.",
+      "interpretation": "Crea una conexión subconsciente profunda.",
+      "practicalDrill": "Iguala el ritmo respiratorio de tu interlocutor."
+    },
+    {
+      "id": "BL06",
+      "category": "Psicología Oscura",
+      "title": "La Mirada de Poder",
+      "cue": "Mirar al entrecejo en lugar de a los ojos.",
+      "interpretation": "Genera incomodidad y sensación de autoridad.",
+      "practicalDrill": "Úsalo solo en situaciones de alta tensión para desestabilizar."
     }
   ]
 };

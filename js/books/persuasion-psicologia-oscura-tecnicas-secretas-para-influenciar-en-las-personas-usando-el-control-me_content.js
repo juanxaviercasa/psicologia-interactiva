@@ -1,3 +1,4 @@
+// Contenido enriquecido para Persuasión y Psicología Oscura: Control Mental y Engaño
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_3.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>Persuasión Psicología Oscura Técnicas secretas para influenciar en las personas usando el control mental, la manipulación y el engaño Copyright 2020 por R.J. Anderson - Todos los derechos reservados. El siguiente libro se reproduce con el objetivo de proporcionar información lo más precisa y fiable posible. Sin embargo, la compra de este Libro puede ser vista como un consentimiento al hecho de que tanto el editor como el autor de este libro no son de ninguna manera expertos en los temas tratados en él y que cualquier recomendación o sugerencia que se haga aquí es sólo para fines de entretenimiento. Los profesionales deben ser consultados según sea necesario antes de llevar a cabo cualquiera de las acciones aquí respaldadas. Esta declaración es considerada justa y válida tanto por la Asociación Americana de Abogados como por el Comité de la Asociación de Editores y es legalmente vinculante en todo el territorio de los Estados Unidos. Además, la transmisión, duplicación o reproducción de cualquiera de las siguientes obras, incluida la información específica, se considerará un acto ilegal, independientemente de que se realice electrónicamente o en forma impresa. Esto se extiende a la creación de una copia secundaria o terciaria de la obra o una copia registrada y sólo se permite con el consentimiento expreso y por escrito del Editor. Se reservan todos los derechos adicionales. La información que figura en las siguientes páginas se considera en general una exposición veraz y exac",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Tratado Secreto de Persuasión y Control Mental\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/persuasion_control_mental/mental_m1_introduccion.webp\" alt=\"Tratado Secreto de Persuasión y Control Mental\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Persuasión Psicología Oscura Técnicas secretas para influenciar en las personas usando el control mental, la manipulación y el engaño Copyright 2020 por R.J. Anderson - Todos los derechos reservados. El siguiente libro se reproduce con el objetivo de proporcionar información lo más precisa y fiable posible. Sin embargo, la compra de este Libro puede ser vista como un consentimiento al hecho de que tanto el editor como el autor de este libro no son de ninguna manera expertos en los temas tratados en él y que cualquier recomendación o sugerencia que se haga aquí es sólo para fines de entretenimiento. Los profesionales deben ser consultados según sea necesario antes de llevar a cabo cualquiera de las acciones aquí respaldadas. Esta declaración es considerada justa y válida tanto por la Asociación Americana de Abogados como por el Comité de la Asociación de Editores y es legalmente vinculante en todo el territorio de los Estados Unidos. Además, la transmisión, duplicación o reproducción de cualquiera de las siguientes obras, incluida la información específica, se considerará un acto ilegal, independientemente de que se realice electrónicamente o en forma impresa. Esto se extiende a la creación de una copia secundaria o terciaria de la obra o una copia registrada y sólo se permite con el consentimiento expreso y por escrito del Editor. Se reservan todos los derechos adicionales. La información que figura en las siguientes páginas se considera en general una exposición veraz y exac",
           "interactiveChallenge": {
             "question": "¿Cómo reconoce un observador entrenado la prueba social en el contexto de \"Introduccion\"?",
             "options": [
@@ -101,7 +102,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 1: Consejos e información para sobresalir en la persuasión La persuasión es realmente un tipo de arte. Tienes que trabajar duro y lo suficientemente fuerte para progresar, pero no tan fuerte como para parecer agresivo. Una vez que avances en tus habilidades de persuasión, serás capaz de lograr este equilibrio cada vez sin un esfuerzo intenso. En pocas palabras, con la práctica, serás una persona más persuasiva. Hay varias técnicas que puedes usar para persuadir a los demás. Sólo tienes que analizar la situación y decidir cuál va a funcionar para conseguir lo que quieres. Conocer estas técnicas hace que sea mucho más fácil ponerlas en acción. De pequeño a grande Con esta técnica, necesitas a alguien que te haga un gran favor, pero esencialmente debes prepararlo primero. Inicialmente, pide un pequeño favor. Una vez que están de acuerdo con esto, esencialmente se sienten comprometidos a hacer lo que necesitas. Luego, cuando llegas y pides el favor más grande, se sienten obligados a aceptarlo. Por ejemplo, has estado faltando a clase durante todo el semestre y necesitas notas por todo ello. Sin embargo, primero le pides a un compañero de clase sólo las notas más recientes de la clase. Una vez que están de acuerdo, vienes y pides los apuntes del semestre. De grande a pequeño Esto es básicamente lo contrario de lo expuesto anteriormente. Cuando necesitas que alguien te haga un pequeño favor y crees que no lo hará, hazlo a lo grande. Por ejemplo, necesitas que te presten 25",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Maestría Vocal, Cadencia y Porte Escénico\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/persuasion_control_mental/mental_m2_sobresalir_persuasion.webp\" alt=\"Maestría Vocal, Cadencia y Porte Escénico\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 1: Consejos e información para sobresalir en la persuasión La persuasión es realmente un tipo de arte. Tienes que trabajar duro y lo suficientemente fuerte para progresar, pero no tan fuerte como para parecer agresivo. Una vez que avances en tus habilidades de persuasión, serás capaz de lograr este equilibrio cada vez sin un esfuerzo intenso. En pocas palabras, con la práctica, serás una persona más persuasiva. Hay varias técnicas que puedes usar para persuadir a los demás. Sólo tienes que analizar la situación y decidir cuál va a funcionar para conseguir lo que quieres. Conocer estas técnicas hace que sea mucho más fácil ponerlas en acción. De pequeño a grande Con esta técnica, necesitas a alguien que te haga un gran favor, pero esencialmente debes prepararlo primero. Inicialmente, pide un pequeño favor. Una vez que están de acuerdo con esto, esencialmente se sienten comprometidos a hacer lo que necesitas. Luego, cuando llegas y pides el favor más grande, se sienten obligados a aceptarlo. Por ejemplo, has estado faltando a clase durante todo el semestre y necesitas notas por todo ello. Sin embargo, primero le pides a un compañero de clase sólo las notas más recientes de la clase. Una vez que están de acuerdo, vienes y pides los apuntes del semestre. De grande a pequeño Esto es básicamente lo contrario de lo expuesto anteriormente. Cuando necesitas que alguien te haga un pequeño favor y crees que no lo hará, hazlo a lo grande. Por ejemplo, necesitas que te presten 25",
           "interactiveChallenge": {
             "question": "Según este módulo, ¿cuál es el mecanismo principal de la framing narrativo en el contexto de \"Consejos Para Sobresalir En La Persuasion\"?",
             "options": [
@@ -282,7 +283,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 2: Cómo utilizar la manipulación La manipulación es una técnica utilizada por todos en algún momento de la vida. Si lo piensas, empiezas a aprender a manipular cuando eres un niño pequeño. Por ejemplo, empiezas a hacer tareas extras y una semana o dos después, pides un nuevo juguete. Tus padres se sienten obligados a dártelo ya que has ayudado mucho. Esta misma estrategia funciona también en la edad adulta. De hecho, hay numerosos beneficios financieros y emocionales que vienen con el uso adecuado de las diferentes técnicas de manipulación. La manipulación juega esencialmente con las emociones de la gente. Sin embargo, para ser efectivo, necesitas ser capaz de hacer esto con éxito y ser capaz de leer a la gente. Hay varias técnicas que te permitirán hacer ambas cosas. Una vez que seas bueno en ambas, encontrarás mucho más fácil conseguir lo que quieres cada vez que necesites algo. Miedo y alivio Esta es una técnica de manipulación común que has usado en algún momento sin darte cuenta. Esto implica usar los miedos de otra persona para que haga algo por ti. Esencialmente causas algún tipo de miedo y lo dejas crecer. Una vez que la persona está llegando a la cima de su emoción, alivias ese miedo. En este punto, son vulnerables y es mucho más probable que hagan algo por ti. Esta es una técnica que es utilizada por los empleadores de manera regular. Hacen parecer que una persona puede perder su trabajo, eventualmente le dan seguridad y luego le piden a ese empleado que ha",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Alineación Táctica de Motivaciones Humanas\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/persuasion_control_mental/mental_m3_como_utilizar_manipulacion.webp\" alt=\"Alineación Táctica de Motivaciones Humanas\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 2: Cómo utilizar la manipulación La manipulación es una técnica utilizada por todos en algún momento de la vida. Si lo piensas, empiezas a aprender a manipular cuando eres un niño pequeño. Por ejemplo, empiezas a hacer tareas extras y una semana o dos después, pides un nuevo juguete. Tus padres se sienten obligados a dártelo ya que has ayudado mucho. Esta misma estrategia funciona también en la edad adulta. De hecho, hay numerosos beneficios financieros y emocionales que vienen con el uso adecuado de las diferentes técnicas de manipulación. La manipulación juega esencialmente con las emociones de la gente. Sin embargo, para ser efectivo, necesitas ser capaz de hacer esto con éxito y ser capaz de leer a la gente. Hay varias técnicas que te permitirán hacer ambas cosas. Una vez que seas bueno en ambas, encontrarás mucho más fácil conseguir lo que quieres cada vez que necesites algo. Miedo y alivio Esta es una técnica de manipulación común que has usado en algún momento sin darte cuenta. Esto implica usar los miedos de otra persona para que haga algo por ti. Esencialmente causas algún tipo de miedo y lo dejas crecer. Una vez que la persona está llegando a la cima de su emoción, alivias ese miedo. En este punto, son vulnerables y es mucho más probable que hagan algo por ti. Esta es una técnica que es utilizada por los empleadores de manera regular. Hacen parecer que una persona puede perder su trabajo, eventualmente le dan seguridad y luego le piden a ese empleado que ha",
           "interactiveChallenge": {
             "question": "¿Qué distingue a un experto en la aislamiento progresivo en el contexto de \"Como Utilizar La Manipulacion\"?",
             "options": [
@@ -434,7 +435,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 3: Aprender la hipnosis y cómo usarla Has oído hablar de la hipnosis. Seguramente lo has visto en la televisión donde el hipnotizador le dice a la persona que se está durmiendo. Usualmente balancean algún tipo de péndulo frente a ellos y luego la persona se duerme, completamente bajo el control del hipnotizador. Aunque ocurre de forma un poco diferente en la vida real, el resultado final es el mismo. Una vez que eres capaz de hipnotizar con éxito a las personas, eres capaz de controlar lo que hacen y piensan. Una vez que una persona está bajo hipnosis, puede hacer sugerencias. Por ejemplo, quieres que una persona te compre algo. Los hipnotizas y les sugieres que te lo compren. Una vez que salen de la hipnosis, es probable que te consigan lo que sugeriste en un futuro muy cercano. Ahora, cuando se usa la hipnosis de esta manera, se debe hacer sin que la persona sepa que se la está usando. No balancearás un péndulo frente a su cara para inducir el estado de trance. Etapas de la hipnosis Hay cuatro etapas por las que toda la gente pasa cuando trabaja para llegar a su mente inconsciente: Etapa uno: Tienes que asegurarte de que tienes su atención total. Etapa dos: Tienes que llevarlos a estado de cumplimiento. Etapa tres: Tienes que activar su respuesta inconsciente. Paso cuatro: Ahora están bajo tu control y sólo tienes que llevarlos al resultado que deseas. Ser poderoso Puedes crear un estado hipnótico para las personas simplemente ejerciendo poder sobre los demás. Mira",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Inducción Hipnótica y Foco Rítmico\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/persuasion_control_mental/mental_m4_aprender_hipnosis.webp\" alt=\"Inducción Hipnótica y Foco Rítmico\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 3: Aprender la hipnosis y cómo usarla Has oído hablar de la hipnosis. Seguramente lo has visto en la televisión donde el hipnotizador le dice a la persona que se está durmiendo. Usualmente balancean algún tipo de péndulo frente a ellos y luego la persona se duerme, completamente bajo el control del hipnotizador. Aunque ocurre de forma un poco diferente en la vida real, el resultado final es el mismo. Una vez que eres capaz de hipnotizar con éxito a las personas, eres capaz de controlar lo que hacen y piensan. Una vez que una persona está bajo hipnosis, puede hacer sugerencias. Por ejemplo, quieres que una persona te compre algo. Los hipnotizas y les sugieres que te lo compren. Una vez que salen de la hipnosis, es probable que te consigan lo que sugeriste en un futuro muy cercano. Ahora, cuando se usa la hipnosis de esta manera, se debe hacer sin que la persona sepa que se la está usando. No balancearás un péndulo frente a su cara para inducir el estado de trance. Etapas de la hipnosis Hay cuatro etapas por las que toda la gente pasa cuando trabaja para llegar a su mente inconsciente: Etapa uno: Tienes que asegurarte de que tienes su atención total. Etapa dos: Tienes que llevarlos a estado de cumplimiento. Etapa tres: Tienes que activar su respuesta inconsciente. Paso cuatro: Ahora están bajo tu control y sólo tienes que llevarlos al resultado que deseas. Ser poderoso Puedes crear un estado hipnótico para las personas simplemente ejerciendo poder sobre los demás. Mira",
           "interactiveChallenge": {
             "question": "¿Cuál de las siguientes afirmaciones sobre la hipnosis ericksoniana en el contexto de \"Aprender La Hipnosis Y Como Usarla\"?",
             "options": [
@@ -615,7 +616,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 4: Conoce los hechos sobre la programación neurolingüística La programación neurolingüística (PNL) utiliza una combinación de lenguaje, neurología y programación. Es esencialmente una escuela de pensamiento pragmático. Mirarás lo que hace la gente exitosa y luego lo usarás para lograr algo. En el caso de la persuasión, verás los comportamientos de las personas más persuasivas y comenzarás a adoptarlos. Los elementos claves de esto incluyen la acción, el modelado y la comunicación efectiva. La premisa de la PNL es que si una persona puede entender cómo hizo algo, puede copiar su proceso y lograrlo también. Esta técnica fue creada inicialmente para ayudar a la gente a encontrar el éxito en el mundo de los negocios. Sin embargo, desde sus inicios en la década de 1970, se ha adaptado para trabajar en una serie de campos, incluyendo la ayuda a la gente para ser más persuasiva. Seguramente conoces a gente que es naturalmente más persuasiva que otros. También habrás visto en los medios de comunicación personas que pueden persuadir fácilmente a la gente a hacer cosas. Por supuesto, el marketing y la publicidad también utilizan la PNL para promover sus servicios y productos. Así que, ves esta técnica en acción diariamente. La gente toma lo que funciona y lo usa. Tan simple como eso. Para que la PNL funcione para ti y tu capacidad de persuasión, tienes que saber qué es lo que hace la gente más persuasiva. Una vez que aprendas sobre los rasgos y técnicas que usan las personas p",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Ondas Lingüísticas y Anclajes de PNL\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/persuasion_control_mental/mental_m5_hechos_pnl.webp\" alt=\"Ondas Lingüísticas y Anclajes de PNL\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 4: Conoce los hechos sobre la programación neurolingüística La programación neurolingüística (PNL) utiliza una combinación de lenguaje, neurología y programación. Es esencialmente una escuela de pensamiento pragmático. Mirarás lo que hace la gente exitosa y luego lo usarás para lograr algo. En el caso de la persuasión, verás los comportamientos de las personas más persuasivas y comenzarás a adoptarlos. Los elementos claves de esto incluyen la acción, el modelado y la comunicación efectiva. La premisa de la PNL es que si una persona puede entender cómo hizo algo, puede copiar su proceso y lograrlo también. Esta técnica fue creada inicialmente para ayudar a la gente a encontrar el éxito en el mundo de los negocios. Sin embargo, desde sus inicios en la década de 1970, se ha adaptado para trabajar en una serie de campos, incluyendo la ayuda a la gente para ser más persuasiva. Seguramente conoces a gente que es naturalmente más persuasiva que otros. También habrás visto en los medios de comunicación personas que pueden persuadir fácilmente a la gente a hacer cosas. Por supuesto, el marketing y la publicidad también utilizan la PNL para promover sus servicios y productos. Así que, ves esta técnica en acción diariamente. La gente toma lo que funciona y lo usa. Tan simple como eso. Para que la PNL funcione para ti y tu capacidad de persuasión, tienes que saber qué es lo que hace la gente más persuasiva. Una vez que aprendas sobre los rasgos y técnicas que usan las personas p",
           "interactiveChallenge": {
             "question": "Al aplicar los principios de la prueba social en el contexto de \"Hechos Sobre La Programacion Neurolinguistica\"?",
             "options": [
@@ -796,7 +797,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 5: El arte del engaño Cuando escuchas la palabra \"engaño\" es automático pensar en ella en un contexto negativo. Sin embargo, es una técnica que la gente usa diariamente por todo tipo de razones. Una forma común de engaño son las mentiras blancas. Por ejemplo, tu amigo pregunta si su ropa se ve bien. No te parece que sea así, pero le dices \"sí\" para que se sienta bien. Lo has engañado, pero al mismo tiempo, lo has hecho para bien. Hay varias técnicas de engaño que puedes usar para mejorar tu capacidad de persuasión. Mentiras La gente miente por varias razones. De hecho, todos los humanos mienten sobre algo una vez al día. Esta podría ser la mentira blanca, como el ejemplo anterior, o mentiras más oscuras y sustanciales. Independientemente del razonamiento, saber mentir te permite engañar sin ser atrapado. Lo siguiente es lo que necesitas hacer para mentir de manera efectiva y sin ser detectado: Asegúrate de que tienes una buena razón para mentir. No esperes a que te obliguen a mentir para hacerlo, en su lugar, sienta las bases. Usa un enfoque engañoso cuando digas la verdad. Cuando declares tus hechos, ya sean verdaderos o falsos, asegúrate de mantenerlos claros. Conoce a la persona a la que le estás mintiendo y lee su lenguaje corporal. Asegúrate de que te concentras en lo que dices o la persona a la que le mientes puede pillarte fácilmente en tu mentira. Añade algo de presión si crees que la persona a la que estás mintiendo empieza a sospechar. Asegúrate de que tu p",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> El Arte Teatral del Desvío de Atención\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/persuasion_control_mental/mental_m6_arte_engano.webp\" alt=\"El Arte Teatral del Desvío de Atención\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 5: El arte del engaño Cuando escuchas la palabra \"engaño\" es automático pensar en ella en un contexto negativo. Sin embargo, es una técnica que la gente usa diariamente por todo tipo de razones. Una forma común de engaño son las mentiras blancas. Por ejemplo, tu amigo pregunta si su ropa se ve bien. No te parece que sea así, pero le dices \"sí\" para que se sienta bien. Lo has engañado, pero al mismo tiempo, lo has hecho para bien. Hay varias técnicas de engaño que puedes usar para mejorar tu capacidad de persuasión. Mentiras La gente miente por varias razones. De hecho, todos los humanos mienten sobre algo una vez al día. Esta podría ser la mentira blanca, como el ejemplo anterior, o mentiras más oscuras y sustanciales. Independientemente del razonamiento, saber mentir te permite engañar sin ser atrapado. Lo siguiente es lo que necesitas hacer para mentir de manera efectiva y sin ser detectado: Asegúrate de que tienes una buena razón para mentir. No esperes a que te obliguen a mentir para hacerlo, en su lugar, sienta las bases. Usa un enfoque engañoso cuando digas la verdad. Cuando declares tus hechos, ya sean verdaderos o falsos, asegúrate de mantenerlos claros. Conoce a la persona a la que le estás mintiendo y lee su lenguaje corporal. Asegúrate de que te concentras en lo que dices o la persona a la que le mientes puede pillarte fácilmente en tu mentira. Añade algo de presión si crees que la persona a la que estás mintiendo empieza a sospechar. Asegúrate de que tu p",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la framing narrativo en el contexto de \"El Arte Del Engano\"?",
             "options": [
@@ -948,7 +949,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 6: Explorando el concepto de los juegos mentales Has oído hablar de los juegos mentales. Seguramente ya los ha jugado antes y han jugado contigo. Puedes usar los juegos mentales como una herramienta de persuasión efectiva cuando sabes qué hacer y cuándo hacerlo. Hay numerosas técnicas que son efectivas, y no son tan difíciles de aprender. Esto significa que una vez que sabes cuáles son, puedes empezar a utilizar los juegos mentales de inmediato para empezar a obtener lo que quieres. Pateame Esto probablemente te recuerda a ese juego de cuando eras niño donde ponías un letrero en la espalda de alguien que decía \"patéame\". Esto es similar. Quieres hacerte ver como alguien que merece compasión. Una vez que recibes lástima de alguien, es más fácil conseguir que haga lo que tú quieres. Puedes usar esto para cualquier cosa en la vida, desde conseguir que alguien te permita disculparte hasta conseguir que un jefe te dé un ascenso una vez que seas realmente bueno en ello. Ahora que te tengo Este es un juego que usarás cuando quieras mostrarle a una persona que estás ganando. También puedes usarlo cuando estés enfadado y quieras justificarte. Por ejemplo, tu amigo tuvo una fiesta, pero no te invitó. Así que decides organizar una fiesta el fin de semana siguiente con la intención de no invitarlo. Este juego básicamente te hace trabajar con otra persona para que se rinda y te dé lo que quieres. Me hiciste hacerlo Este es otro juego que usaste durante la infancia y probablemente",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Ajedrez Psicológico y Juegos Mentales\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/persuasion_control_mental/mental_m7_juegos_mentales.webp\" alt=\"Ajedrez Psicológico y Juegos Mentales\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 6: Explorando el concepto de los juegos mentales Has oído hablar de los juegos mentales. Seguramente ya los ha jugado antes y han jugado contigo. Puedes usar los juegos mentales como una herramienta de persuasión efectiva cuando sabes qué hacer y cuándo hacerlo. Hay numerosas técnicas que son efectivas, y no son tan difíciles de aprender. Esto significa que una vez que sabes cuáles son, puedes empezar a utilizar los juegos mentales de inmediato para empezar a obtener lo que quieres. Pateame Esto probablemente te recuerda a ese juego de cuando eras niño donde ponías un letrero en la espalda de alguien que decía \"patéame\". Esto es similar. Quieres hacerte ver como alguien que merece compasión. Una vez que recibes lástima de alguien, es más fácil conseguir que haga lo que tú quieres. Puedes usar esto para cualquier cosa en la vida, desde conseguir que alguien te permita disculparte hasta conseguir que un jefe te dé un ascenso una vez que seas realmente bueno en ello. Ahora que te tengo Este es un juego que usarás cuando quieras mostrarle a una persona que estás ganando. También puedes usarlo cuando estés enfadado y quieras justificarte. Por ejemplo, tu amigo tuvo una fiesta, pero no te invitó. Así que decides organizar una fiesta el fin de semana siguiente con la intención de no invitarlo. Este juego básicamente te hace trabajar con otra persona para que se rinda y te dé lo que quieres. Me hiciste hacerlo Este es otro juego que usaste durante la infancia y probablemente",
           "interactiveChallenge": {
             "question": "Ante una situación de la aislamiento progresivo en el contexto de \"Concepto De Los Juegos Mentales\"?",
             "options": [
@@ -1100,7 +1101,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "---... (markdown omitido por brevedad en este ejemplo, pero incluido el JSON válido) ...---",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Sugestión Imperceptible y Modulación Ambiental\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/persuasion_control_mental/mental_m8_control_mental_indetectable.webp\" alt=\"Sugestión Imperceptible y Modulación Ambiental\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>---... (markdown omitido por brevedad en este ejemplo, pero incluido el JSON válido) ...---",
           "interactiveChallenge": {
             "question": "El concepto central de la hipnosis ericksoniana en el contexto de \"Control Mental Indetectable\"?",
             "options": [
@@ -1136,7 +1137,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "---%0ACapítulo 8: Influencia a través de la seducción El objetivo de la seducción es hacer que alguien te quiera. El motivo suele ser hacer que alguien se sienta sexualmente atraído por ti. La seducción es una de las técnicas de persuasión más poderosas porque estás persuadiendo a alguien para que se entregue por completo a ti. Hay múltiples consejos y técnicas de seducción que puedes usar. No importa quién seas o quién es la persona que estás tratando de seducir, estos métodos funcionarán. Lo ideal es que no requieren mucha preparación, así que puedes empezar a usarlos ahora mismo.%0AElije la persona adecuada Puedes seducir a cualquiera, pero te esforzarás menos si eliges sabiamente.%0ABusca a una persona que tienda a ser tímida y reservada. Tienden a ser más vulnerables y a necesitar la atención de una persona. Cuando empiezas a prestarle atención, es fácil seducirla para que pase al siguiente nivel.%0AEnviar señales mixtas Esta es una técnica de seducción tan antigua como el tiempo. La gente se siente desafiada cuando recibe señales contradictorias. Un desafío automáticamente hace que una persona esté más interesada en ganar el premio, que en este caso eres tú.%0ACrear una necesidad Llega a donde la persona que intentas seducir hazla sentir que te necesita.%0APuedes hacer que esta necesidad sea puramente sexual o hacerla más profunda que eso. Cuando creas una necesidad, se crea un sentimiento de descontento y ansiedad, ambos son más probables de hacer que una persona siga",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Seducción Social y Atracción Magnética\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/persuasion_control_mental/mental_m9_influencia_seduccion.webp\" alt=\"Seducción Social y Atracción Magnética\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>---%0ACapítulo 8: Influencia a través de la seducción El objetivo de la seducción es hacer que alguien te quiera. El motivo suele ser hacer que alguien se sienta sexualmente atraído por ti. La seducción es una de las técnicas de persuasión más poderosas porque estás persuadiendo a alguien para que se entregue por completo a ti. Hay múltiples consejos y técnicas de seducción que puedes usar. No importa quién seas o quién es la persona que estás tratando de seducir, estos métodos funcionarán. Lo ideal es que no requieren mucha preparación, así que puedes empezar a usarlos ahora mismo.%0AElije la persona adecuada Puedes seducir a cualquiera, pero te esforzarás menos si eliges sabiamente.%0ABusca a una persona que tienda a ser tímida y reservada. Tienden a ser más vulnerables y a necesitar la atención de una persona. Cuando empiezas a prestarle atención, es fácil seducirla para que pase al siguiente nivel.%0AEnviar señales mixtas Esta es una técnica de seducción tan antigua como el tiempo. La gente se siente desafiada cuando recibe señales contradictorias. Un desafío automáticamente hace que una persona esté más interesada en ganar el premio, que en este caso eres tú.%0ACrear una necesidad Llega a donde la persona que intentas seducir hazla sentir que te necesita.%0APuedes hacer que esta necesidad sea puramente sexual o hacerla más profunda que eso. Cuando creas una necesidad, se crea un sentimiento de descontento y ansiedad, ambos son más probables de hacer que una persona siga",
           "interactiveChallenge": {
             "question": "¿Cómo reconoce un observador entrenado la prueba social en el contexto de \"Influencia A Traves De La Seduccion\"?",
             "options": [
@@ -1259,7 +1260,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Capítulo 9: Lograr una óptima persuasión con la psicología subliminal Cuando puedes utilizar de forma experta las profundidades del subconsciente de una persona, tu control sobre ellas es fácil y vasto. La psicología subliminal es una de las formas más efectivas de hacerlo. Ahora, esta es una técnica avanzada, así que no esperes ser efectivo de la noche a la mañana, pero debes saber que con tiempo y dedicación, serás capaz de empezar a poner mensajes subliminales en las mentes de aquellos que te rodean. Una vez que puedas hacer esto, serás capaz de controlar lo que piensan y las acciones que toman. Esencialmente, te conviertes casi en un maestro titiritero para los que te rodean. ¿Qué es un mensaje subliminal? Se trata de un tipo de mensaje o afirmación que se presenta de forma visual o auditiva y que se envía de una manera que está por debajo de lo que se considera normal para la percepción visual o auditiva humana. Por ejemplo, un disco puede sonar repetidamente, pero no se puede escuchar realmente con la mente consciente. Sin embargo, en lo profundo del subconsciente, estás escuchando y registrando completamente todo lo que está diciendo. En la mayoría de los casos, los mensajes utilizados están destinados a controlarte de alguna manera o a sugerirte que hagas algo. Por ejemplo, los mensajes subliminales se utilizan comúnmente en el mundo actual para promover el abandono del tabaco o la pérdida de peso. En general, se escuchan cintas grabadas con un mensaje específico cuan",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Estímulos Subliminales y Percepción Inconsciente\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/persuasion_control_mental/mental_m10_persuasion_subliminal.webp\" alt=\"Estímulos Subliminales y Percepción Inconsciente\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo 9: Lograr una óptima persuasión con la psicología subliminal Cuando puedes utilizar de forma experta las profundidades del subconsciente de una persona, tu control sobre ellas es fácil y vasto. La psicología subliminal es una de las formas más efectivas de hacerlo. Ahora, esta es una técnica avanzada, así que no esperes ser efectivo de la noche a la mañana, pero debes saber que con tiempo y dedicación, serás capaz de empezar a poner mensajes subliminales en las mentes de aquellos que te rodean. Una vez que puedas hacer esto, serás capaz de controlar lo que piensan y las acciones que toman. Esencialmente, te conviertes casi en un maestro titiritero para los que te rodean. ¿Qué es un mensaje subliminal? Se trata de un tipo de mensaje o afirmación que se presenta de forma visual o auditiva y que se envía de una manera que está por debajo de lo que se considera normal para la percepción visual o auditiva humana. Por ejemplo, un disco puede sonar repetidamente, pero no se puede escuchar realmente con la mente consciente. Sin embargo, en lo profundo del subconsciente, estás escuchando y registrando completamente todo lo que está diciendo. En la mayoría de los casos, los mensajes utilizados están destinados a controlarte de alguna manera o a sugerirte que hagas algo. Por ejemplo, los mensajes subliminales se utilizan comúnmente en el mundo actual para promover el abandono del tabaco o la pérdida de peso. En general, se escuchan cintas grabadas con un mensaje específico cuan",
           "interactiveChallenge": {
             "question": "Según este módulo, ¿cuál es el mecanismo principal de la framing narrativo en el contexto de \"Optima Persuasion Con Psicologia Subliminal\"?",
             "options": [
@@ -1382,7 +1383,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "Conclusión Gracias por llegar hasta el final de este libro, espero que haya sido informativo y capaz de proporcionarte todas las herramientas que necesitas para alcanzar tus objetivos, sean cuales sean. El siguiente paso es sentarte y evaluar tus habilidades de persuasión. Una vez que sepas dónde estás con tus habilidades, será mucho más fácil asegurarte de que eres capaz de llevar rápidamente tus habilidades al nivel deseado. ¿En qué capítulos de este libro necesitas trabajar más para asegurarte de que eres lo más persuasivo posible? Realiza algunas notas y vuelve a los capítulos en los que necesitas mejorar. Utiliza los consejos y la información para asegurarte de que estás obteniendo más de lo que quieres. A medida que lees los capítulos, puedes ver lo poderosa que es la persuasión. También pudiste ver cómo te persuaden para tomar ciertas decisiones sin siquiera darte cuenta. Cuando dominas el arte de la persuasión, puedes ser la persona que persuade a otros sin que se den cuenta. ¿Sientes que mereces un ascenso? Usa la información aquí descrita para persuadir a tu jefe de que te lo dé. Es realmente asombroso el impacto positivo que puede tener en tu vida el ser bueno en la persuasión. Cuando obtienes más de lo que quieres, te da una ventaja en todas las áreas de tu vida. ¡Gracias! Antes de que te vayas, sólo quería darte las gracias por comprar mi libro. Podrías haber elegido entre docenas de otros libros sobre el mismo tema, pero te arriesgaste y elegiste este. Así que,",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Maestría Total de la Persuasión Estratégica\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/persuasion_control_mental/mental_m11_conclusion.webp\" alt=\"Maestría Total de la Persuasión Estratégica\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Conclusión Gracias por llegar hasta el final de este libro, espero que haya sido informativo y capaz de proporcionarte todas las herramientas que necesitas para alcanzar tus objetivos, sean cuales sean. El siguiente paso es sentarte y evaluar tus habilidades de persuasión. Una vez que sepas dónde estás con tus habilidades, será mucho más fácil asegurarte de que eres capaz de llevar rápidamente tus habilidades al nivel deseado. ¿En qué capítulos de este libro necesitas trabajar más para asegurarte de que eres lo más persuasivo posible? Realiza algunas notas y vuelve a los capítulos en los que necesitas mejorar. Utiliza los consejos y la información para asegurarte de que estás obteniendo más de lo que quieres. A medida que lees los capítulos, puedes ver lo poderosa que es la persuasión. También pudiste ver cómo te persuaden para tomar ciertas decisiones sin siquiera darte cuenta. Cuando dominas el arte de la persuasión, puedes ser la persona que persuade a otros sin que se den cuenta. ¿Sientes que mereces un ascenso? Usa la información aquí descrita para persuadir a tu jefe de que te lo dé. Es realmente asombroso el impacto positivo que puede tener en tu vida el ser bueno en la persuasión. Cuando obtienes más de lo que quieres, te da una ventaja en todas las áreas de tu vida. ¡Gracias! Antes de que te vayas, sólo quería darte las gracias por comprar mi libro. Podrías haber elegido entre docenas de otros libros sobre el mismo tema, pero te arriesgaste y elegiste este. Así que,",
           "interactiveChallenge": {
             "question": "¿Qué distingue a un experto en la aislamiento progresivo en el contexto de \"Conclusion\"?",
             "options": [
@@ -1439,6 +1440,594 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS001",
+      "category": "Manipulación",
+      "title": "El dilema del subordinado",
+      "difficulty": "Hard",
+      "badge": "Maquiavelo",
+      "scenarioDescription": "Tu jefe utiliza el aislamiento social para que dependas solo de su criterio. ¿Cómo respondes?",
+      "options": [
+        {
+          "text": "Aceptar la dependencia para ganar confianza.",
+          "outcome": "Pérdida de autonomía",
+          "wisdomScore": 20,
+          "analysis": "La dependencia es una trampa de control.",
+          "bookInsight": "El control mental indetectable comienza con el aislamiento."
+        },
+        {
+          "text": "Crear alianzas externas discretas.",
+          "outcome": "Resiliencia estratégica",
+          "wisdomScore": 90,
+          "analysis": "Diversificar fuentes de poder neutraliza el control.",
+          "bookInsight": "La influencia requiere redes de apoyo fuera del alcance del manipulador."
+        }
+      ]
+    },
+    {
+      "id": "CS002",
+      "category": "Seducción",
+      "title": "El espejo emocional",
+      "difficulty": "Medium",
+      "badge": "Seductor",
+      "scenarioDescription": "Alguien intenta usar PNL para reflejar tus gestos y ganar tu confianza inmediata.",
+      "options": [
+        {
+          "text": "Espejar de vuelta para igualar el ritmo.",
+          "outcome": "Sincronía forzada",
+          "wisdomScore": 50,
+          "analysis": "Entras en su juego de espejos.",
+          "bookInsight": "La PNL es una herramienta de doble filo."
+        },
+        {
+          "text": "Romper el patrón con un gesto inesperado.",
+          "outcome": "Dominio del marco",
+          "wisdomScore": 95,
+          "analysis": "Romper el rapport desestabiliza al manipulador.",
+          "bookInsight": "El control mental se rompe cuando el sujeto cambia el ritmo."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Engaño",
+      "title": "La mentira piadosa",
+      "difficulty": "Medium",
+      "badge": "Estratega",
+      "scenarioDescription": "Un colega usa una verdad a medias para ocultar un error grave.",
+      "options": [
+        {
+          "text": "Confrontar directamente con pruebas.",
+          "outcome": "Conflicto abierto",
+          "wisdomScore": 40,
+          "analysis": "La confrontación directa suele activar defensas.",
+          "bookInsight": "El arte del engaño se protege con la negación plausible."
+        },
+        {
+          "text": "Hacer preguntas abiertas que revelen la inconsistencia.",
+          "outcome": "Revelación sutil",
+          "wisdomScore": 90,
+          "analysis": "La técnica socrática expone la mentira sin atacar.",
+          "bookInsight": "La persuasión subliminal utiliza la duda como arma."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Hipnosis",
+      "title": "La sugestión en grupo",
+      "difficulty": "Hard",
+      "badge": "Mentalista",
+      "scenarioDescription": "Un orador usa patrones de lenguaje hipnótico para vender una idea impopular.",
+      "options": [
+        {
+          "text": "Cuestionar la lógica de los argumentos.",
+          "outcome": "Resistencia lógica",
+          "wisdomScore": 60,
+          "analysis": "La lógica no combate la sugestión emocional.",
+          "bookInsight": "La hipnosis elude el factor crítico de la mente."
+        },
+        {
+          "text": "Identificar el patrón y señalarlo con humor.",
+          "outcome": "Neutralización",
+          "wisdomScore": 95,
+          "analysis": "El humor rompe el trance hipnótico.",
+          "bookInsight": "La risa es el antídoto contra la sugestión."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Juegos Mentales",
+      "title": "El doble vínculo",
+      "difficulty": "Hard",
+      "badge": "Psicólogo Oscuro",
+      "scenarioDescription": "Te presentan una elección donde ambas opciones te perjudican.",
+      "options": [
+        {
+          "text": "Elegir la opción menos mala.",
+          "outcome": "Derrota aceptada",
+          "wisdomScore": 30,
+          "analysis": "Has caído en la trampa del marco limitado.",
+          "bookInsight": "Los juegos mentales funcionan limitando tus opciones."
+        },
+        {
+          "text": "Rechazar el marco y proponer una tercera vía.",
+          "outcome": "Victoria estratégica",
+          "wisdomScore": 100,
+          "analysis": "Romper el marco es la clave del poder.",
+          "bookInsight": "Quien define el marco, controla el resultado."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Persuasión",
+      "title": "La autoridad impuesta",
+      "difficulty": "Easy",
+      "badge": "Líder",
+      "scenarioDescription": "Alguien usa ropa y lenguaje técnico para intimidarte.",
+      "options": [
+        {
+          "text": "Asentir para evitar problemas.",
+          "outcome": "Sumisión",
+          "wisdomScore": 10,
+          "analysis": "La autoridad visual es una ilusión.",
+          "bookInsight": "La persuasión a menudo se disfraza de autoridad."
+        },
+        {
+          "text": "Pedir aclaraciones sobre puntos específicos.",
+          "outcome": "Igualdad de condiciones",
+          "wisdomScore": 85,
+          "analysis": "La precisión desmantela la fachada.",
+          "bookInsight": "El conocimiento es el escudo contra la persuasión vacía."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Anclaje",
+      "definition": "Asociación de un estímulo externo con un estado emocional.",
+      "tacticalUse": "Crear una respuesta positiva al tocar un objeto.",
+      "countermeasure": "Identificar el estímulo y desasociarlo conscientemente."
+    },
+    {
+      "id": "FC002",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Hacer que alguien dude de su propia percepción.",
+      "tacticalUse": "Desestabilizar la confianza de un oponente.",
+      "countermeasure": "Mantener un registro escrito de los hechos."
+    },
+    {
+      "id": "FC003",
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Inducción",
+      "definition": "Proceso de llevar a alguien a un estado de sugestión.",
+      "tacticalUse": "Preparar el terreno para una petición.",
+      "countermeasure": "Mantener el pensamiento crítico activo."
+    },
+    {
+      "id": "FC004",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Reciprocidad",
+      "definition": "Necesidad de devolver un favor recibido.",
+      "tacticalUse": "Dar algo pequeño para obtener algo grande.",
+      "countermeasure": "Evaluar el valor real del favor antes de aceptar."
+    },
+    {
+      "id": "FC005",
+      "bookNumber": 1,
+      "category": "Engaño",
+      "term": "Verdad a medias",
+      "definition": "Ocultar información clave para alterar la percepción.",
+      "tacticalUse": "Manipular la toma de decisiones ajena.",
+      "countermeasure": "Hacer preguntas de seguimiento profundas."
+    },
+    {
+      "id": "FC006",
+      "bookNumber": 1,
+      "category": "Juegos Mentales",
+      "term": "Doble vínculo",
+      "definition": "Presentar dos opciones que llevan al mismo resultado.",
+      "tacticalUse": "Forzar una elección que parece libre.",
+      "countermeasure": "Rechazar ambas opciones y proponer una nueva."
+    },
+    {
+      "id": "FC007",
+      "bookNumber": 1,
+      "category": "Seducción",
+      "term": "Espejo",
+      "definition": "Imitar sutilmente el lenguaje corporal del otro.",
+      "tacticalUse": "Generar rapport instantáneo.",
+      "countermeasure": "Cambiar de postura para romper el patrón."
+    },
+    {
+      "id": "FC008",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Sesgo de confirmación",
+      "definition": "Tendencia a buscar información que confirma lo que ya creemos.",
+      "tacticalUse": "Reforzar las creencias del objetivo.",
+      "countermeasure": "Buscar activamente opiniones contrarias."
+    },
+    {
+      "id": "FC009",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Escasez",
+      "definition": "Crear la ilusión de que algo es limitado.",
+      "tacticalUse": "Acelerar la toma de decisiones.",
+      "countermeasure": "Preguntarse si realmente se necesita el objeto."
+    },
+    {
+      "id": "FC010",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Calibración",
+      "definition": "Observar cambios sutiles en la fisiología del otro.",
+      "tacticalUse": "Detectar mentiras o estados emocionales.",
+      "countermeasure": "Controlar las microexpresiones faciales."
+    },
+    {
+      "id": "FC011",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Aislamiento",
+      "definition": "Separar al objetivo de su red de apoyo.",
+      "tacticalUse": "Aumentar la dependencia emocional.",
+      "countermeasure": "Mantener vínculos sociales fuertes."
+    },
+    {
+      "id": "FC012",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Autoridad",
+      "definition": "Uso de símbolos de poder para influir.",
+      "tacticalUse": "Ganar obediencia sin cuestionamientos.",
+      "countermeasure": "Separar el mensaje del mensajero."
+    },
+    {
+      "id": "FC013",
+      "bookNumber": 1,
+      "category": "Engaño",
+      "term": "Distracción",
+      "definition": "Desviar la atención hacia un punto irrelevante.",
+      "tacticalUse": "Ocultar la intención real.",
+      "countermeasure": "Enfocarse en el objetivo principal."
+    },
+    {
+      "id": "FC014",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Proyección",
+      "definition": "Atribuir a otros los propios defectos.",
+      "tacticalUse": "Desviar la culpa.",
+      "countermeasure": "Analizar si la crítica es objetiva."
+    },
+    {
+      "id": "FC015",
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Sugestión",
+      "definition": "Introducir una idea en la mente subconsciente.",
+      "tacticalUse": "Cambiar la conducta del objetivo.",
+      "countermeasure": "Cuestionar el origen de los pensamientos propios."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM001",
+      "category": "Persuasión",
+      "name": "La Técnica del Pie en la Puerta",
+      "severity": "Low",
+      "icon": "🚪",
+      "howItWorks": "Pedir un favor pequeño para luego pedir uno grande.",
+      "redFlags": "Peticiones constantes de favores triviales.",
+      "counterScript": "No estoy en posición de comprometerme con nada más hoy.",
+      "deepMechanism": "Consistencia cognitiva."
+    },
+    {
+      "id": "TM002",
+      "category": "Manipulación",
+      "name": "Triangulación",
+      "severity": "High",
+      "icon": "🔺",
+      "howItWorks": "Introducir a una tercera persona para crear conflicto.",
+      "redFlags": "Rumores sobre terceros constantes.",
+      "counterScript": "Prefiero hablar directamente con la persona involucrada.",
+      "deepMechanism": "Inseguridad y competencia."
+    },
+    {
+      "id": "TM003",
+      "category": "Engaño",
+      "name": "La Falsa Elección",
+      "severity": "Medium",
+      "icon": "⚖️",
+      "howItWorks": "Dar dos opciones que parecen libres pero ambas benefician al manipulador.",
+      "redFlags": "Presión para decidir rápido.",
+      "counterScript": "Ninguna de esas opciones me convence, busquemos otra.",
+      "deepMechanism": "Ilusión de control."
+    },
+    {
+      "id": "TM004",
+      "category": "Hipnosis",
+      "name": "Lenguaje Vago (Milton Model)",
+      "severity": "Medium",
+      "icon": "🌀",
+      "howItWorks": "Usar frases ambiguas que el cerebro completa con sus propios significados.",
+      "redFlags": "Frases que suenan profundas pero no dicen nada concreto.",
+      "counterScript": "¿Podrías ser más específico sobre lo que quieres decir?",
+      "deepMechanism": "Proyección subconsciente."
+    },
+    {
+      "id": "TM005",
+      "category": "Seducción",
+      "name": "Push and Pull",
+      "severity": "Low",
+      "icon": "🧲",
+      "howItWorks": "Alternar entre interés y desinterés para generar tensión.",
+      "redFlags": "Comportamiento errático y confuso.",
+      "counterScript": "No me gusta este juego de ida y vuelta, seamos claros.",
+      "deepMechanism": "Deseo por lo inalcanzable."
+    },
+    {
+      "id": "TM006",
+      "category": "Psicología",
+      "name": "Aislamiento de Información",
+      "severity": "High",
+      "icon": "🔒",
+      "howItWorks": "Controlar el flujo de datos que recibe el objetivo.",
+      "redFlags": "Te dicen que 'nadie más te entenderá como yo'.",
+      "counterScript": "Voy a consultar otras fuentes para tener una visión completa.",
+      "deepMechanism": "Dependencia cognitiva."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal de la PNL en la persuasión?",
+      "options": [
+        "Controlar el clima",
+        "Modelar patrones de pensamiento y lenguaje",
+        "Adivinar el futuro",
+        "Mejorar la memoria"
+      ],
+      "correctIndex": 1,
+      "explanation": "La PNL busca entender cómo el lenguaje afecta el sistema nervioso para influir en el comportamiento."
+    },
+    {
+      "id": "Q002",
+      "bookNumber": 1,
+      "question": "¿Qué es el 'Gaslighting'?",
+      "options": [
+        "Una técnica de venta",
+        "Un tipo de hipnosis",
+        "Manipulación para hacer dudar de la realidad",
+        "Un método de seducción"
+      ],
+      "correctIndex": 2,
+      "explanation": "Es una forma de abuso psicológico donde se distorsiona la realidad del otro."
+    },
+    {
+      "id": "Q003",
+      "bookNumber": 1,
+      "question": "¿Por qué funciona la técnica de la escasez?",
+      "options": [
+        "Porque nos gusta el lujo",
+        "Porque el miedo a perder es mayor que el deseo de ganar",
+        "Porque es más barato",
+        "Porque es una ley física"
+      ],
+      "correctIndex": 1,
+      "explanation": "La psicología humana valora más lo que es difícil de obtener."
+    },
+    {
+      "id": "Q004",
+      "bookNumber": 1,
+      "question": "¿Qué es un anclaje en psicología?",
+      "options": [
+        "Un tipo de barco",
+        "Una técnica de relajación",
+        "Un estímulo que dispara una respuesta emocional",
+        "Un método de castigo"
+      ],
+      "correctIndex": 2,
+      "explanation": "El anclaje vincula un estímulo externo con un estado interno específico."
+    },
+    {
+      "id": "Q005",
+      "bookNumber": 1,
+      "question": "¿Qué es el 'Doble Vínculo'?",
+      "options": [
+        "Un contrato legal",
+        "Una situación donde cualquier elección es negativa",
+        "Un tipo de matrimonio",
+        "Una técnica de negociación ganar-ganar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una trampa lógica donde el sujeto pierde sin importar qué elija."
+    },
+    {
+      "id": "Q006",
+      "bookNumber": 1,
+      "question": "¿Cuál es la mejor defensa contra la manipulación?",
+      "options": [
+        "Aislarse de todos",
+        "Atacar primero",
+        "Pensamiento crítico y autoconocimiento",
+        "Ignorar a los demás"
+      ],
+      "correctIndex": 2,
+      "explanation": "La conciencia de los propios sesgos y el pensamiento crítico son las mejores defensas."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G001",
+      "term": "Rapport",
+      "category": "Persuasión",
+      "definition": "Estado de armonía y conexión con otra persona.",
+      "practicalExample": "Igualar el tono de voz para generar confianza."
+    },
+    {
+      "id": "G002",
+      "term": "Sugestión",
+      "category": "Hipnosis",
+      "definition": "Idea introducida en la mente sin resistencia.",
+      "practicalExample": "Decir 'imagina que esto ya es tuyo' durante una venta."
+    },
+    {
+      "id": "G003",
+      "term": "Marco",
+      "category": "Psicología",
+      "definition": "El contexto o perspectiva desde la cual se ve una situación.",
+      "practicalExample": "Presentar un problema como una oportunidad de aprendizaje."
+    },
+    {
+      "id": "G004",
+      "term": "Microexpresión",
+      "category": "Psicología",
+      "definition": "Expresión facial involuntaria que dura una fracción de segundo.",
+      "practicalExample": "Detectar miedo cuando alguien dice estar seguro."
+    },
+    {
+      "id": "G005",
+      "term": "Sesgo",
+      "category": "Psicología",
+      "definition": "Error sistemático en el pensamiento.",
+      "practicalExample": "Creer que algo es bueno solo porque es caro."
+    },
+    {
+      "id": "G006",
+      "term": "Inducción",
+      "category": "Hipnosis",
+      "definition": "Proceso de guiar a alguien hacia un estado alterado.",
+      "practicalExample": "Usar una voz monótona y lenta para relajar."
+    },
+    {
+      "id": "G007",
+      "term": "Empatía táctica",
+      "category": "Persuasión",
+      "definition": "Usar la empatía como herramienta de negociación.",
+      "practicalExample": "Validar los sentimientos del otro para bajar sus defensas."
+    },
+    {
+      "id": "G008",
+      "term": "Disonancia cognitiva",
+      "category": "Psicología",
+      "definition": "Tensión al tener dos creencias contradictorias.",
+      "practicalExample": "Cambiar de opinión para justificar una mala compra."
+    },
+    {
+      "id": "G009",
+      "term": "Autoridad",
+      "category": "Poder",
+      "definition": "Capacidad de influir basada en el estatus percibido.",
+      "practicalExample": "Usar un uniforme para obtener obediencia."
+    },
+    {
+      "id": "G010",
+      "term": "Condicionamiento",
+      "category": "Psicología",
+      "definition": "Aprendizaje mediante refuerzos.",
+      "practicalExample": "Premiar una conducta para que se repita."
+    },
+    {
+      "id": "G011",
+      "term": "Persuasión subliminal",
+      "category": "Persuasión",
+      "definition": "Influencia que ocurre por debajo del umbral consciente.",
+      "practicalExample": "Uso de colores específicos en publicidad."
+    },
+    {
+      "id": "G012",
+      "term": "Engaño",
+      "category": "Manipulación",
+      "definition": "Acción de ocultar la verdad para beneficio propio.",
+      "practicalExample": "Omitir datos negativos en un informe."
+    },
+    {
+      "id": "G013",
+      "term": "Seducción",
+      "category": "Seducción",
+      "definition": "Arte de atraer a alguien hacia tus deseos.",
+      "practicalExample": "Hacer que la otra persona se sienta especial."
+    },
+    {
+      "id": "G014",
+      "term": "Programación",
+      "category": "PNL",
+      "definition": "Conjunto de hábitos mentales.",
+      "practicalExample": "Cambiar una creencia limitante por una potenciadora."
+    },
+    {
+      "id": "G015",
+      "term": "Control mental",
+      "category": "Manipulación",
+      "definition": "Influencia extrema sobre la voluntad ajena.",
+      "practicalExample": "Aislamiento y repetición de ideas."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL001",
+      "category": "Presencia",
+      "title": "La postura de poder",
+      "cue": "Pecho abierto, hombros hacia atrás, contacto visual firme.",
+      "interpretation": "Transmite confianza y dominio del entorno.",
+      "practicalDrill": "Mantener la postura durante 2 minutos antes de una reunión."
+    },
+    {
+      "id": "BL002",
+      "category": "Persuasión",
+      "title": "El contacto visual sostenido",
+      "cue": "Mirar al triángulo entre los ojos y la frente.",
+      "interpretation": "Crea una sensación de autoridad y seriedad.",
+      "practicalDrill": "Practicar con un espejo hasta no parpadear en exceso."
+    },
+    {
+      "id": "BL003",
+      "category": "Seducción",
+      "title": "El gesto de apertura",
+      "cue": "Palmas de las manos visibles y brazos relajados.",
+      "interpretation": "Indica honestidad y falta de amenaza.",
+      "practicalDrill": "Hablar con las manos abiertas durante una conversación."
+    },
+    {
+      "id": "BL004",
+      "category": "Manipulación",
+      "title": "El silencio estratégico",
+      "cue": "Hacer una pausa larga después de una pregunta.",
+      "interpretation": "Presiona al otro para que hable y revele información.",
+      "practicalDrill": "Contar hasta 5 mentalmente tras una respuesta."
+    },
+    {
+      "id": "BL005",
+      "category": "Presencia",
+      "title": "El asentimiento triple",
+      "cue": "Asentir tres veces seguidas mientras el otro habla.",
+      "interpretation": "Induce al otro a seguir hablando y a estar de acuerdo.",
+      "practicalDrill": "Usarlo en una charla casual para ver la reacción."
+    },
+    {
+      "id": "BL006",
+      "category": "Persuasión",
+      "title": "La inclinación de escucha",
+      "cue": "Inclinar ligeramente la cabeza hacia el interlocutor.",
+      "interpretation": "Muestra interés genuino y aumenta la receptividad.",
+      "practicalDrill": "Inclinar la cabeza al escuchar una queja."
     }
   ]
 };

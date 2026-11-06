@@ -14649,93 +14649,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Aplicación Ética de Principios",
-      "title": "Caso Práctico: Capitulo 01 Propaganda Y Comunicacion Parte 1",
-      "difficulty": "Alta",
-      "badge": "Maestro de Influencia",
-      "scenarioDescription": "Durante una situación relacionada con \"Capitulo 01 Propaganda Y Comunicacion Parte 1\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS001",
+      "category": "Propaganda",
+      "title": "El Dilema del Mensaje Masivo",
+      "difficulty": "Hard",
+      "badge": "Manipulador Estratégico",
+      "scenarioDescription": "Debes convencer a una audiencia escéptica sobre una política impopular. ¿Qué enfoque eliges?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Capitulo 01 Propaganda Y Comunicacion Parte 1\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Apelar a la lógica pura y datos estadísticos.",
+          "outcome": "Fracaso",
+          "wisdomScore": 20,
+          "analysis": "La lógica rara vez vence a las creencias preexistentes.",
+          "bookInsight": "Brown enfatiza que la propaganda efectiva ignora la lógica en favor de la emoción."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Utilizar símbolos emocionales y simplificación extrema.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "La simplificación permite que el mensaje penetre sin resistencia crítica.",
+          "bookInsight": "La propaganda requiere la reducción de problemas complejos a consignas simples."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Defensa Personal Psicológica",
-      "title": "Caso Práctico: Capitulo 01 Propaganda Y Comunicacion Parte 2",
-      "difficulty": "Media",
-      "badge": "Guardián Mental",
-      "scenarioDescription": "Durante una situación relacionada con \"Capitulo 01 Propaganda Y Comunicacion Parte 2\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS002",
+      "category": "Cambio de Actitudes",
+      "title": "La Disonancia Cognitiva",
+      "difficulty": "Medium",
+      "badge": "Arquitecto de Creencias",
+      "scenarioDescription": "Un aliado tiene una creencia opuesta a tu objetivo. ¿Cómo procedes?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Capitulo 01 Propaganda Y Comunicacion Parte 2\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Atacar su creencia frontalmente.",
+          "outcome": "Rechazo",
+          "wisdomScore": 30,
+          "analysis": "Provoca el efecto contraproducente (backfire effect).",
+          "bookInsight": "El cambio de actitud requiere evitar la amenaza directa al ego."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Introducir información que cree una leve disonancia.",
+          "outcome": "Éxito",
+          "wisdomScore": 85,
+          "analysis": "La mente busca reducir la disonancia por sí misma.",
+          "bookInsight": "El cambio ocurre cuando el sujeto debe reconciliar contradicciones internas."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Guerra Psicológica",
+      "title": "El Aislamiento del Objetivo",
+      "difficulty": "Expert",
+      "badge": "Maestro de la Influencia",
+      "scenarioDescription": "Necesitas que un individuo cambie su lealtad en un entorno grupal.",
+      "options": [
+        {
+          "text": "Aislarlo físicamente y bombardearlo con información.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "El aislamiento elimina los puntos de referencia sociales.",
+          "bookInsight": "El lavado de cerebro depende de la ruptura de los lazos sociales previos."
+        },
+        {
+          "text": "Debatir con él frente a sus amigos.",
+          "outcome": "Fracaso",
+          "wisdomScore": 10,
+          "analysis": "El grupo refuerza su identidad original.",
+          "bookInsight": "La presión de grupo es el mayor obstáculo para el cambio de actitud."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Formación de Actitudes",
+      "title": "El Condicionamiento Temprano",
+      "difficulty": "Medium",
+      "badge": "Ingeniero Social",
+      "scenarioDescription": "Quieres instaurar una nueva norma en un equipo de trabajo.",
+      "options": [
+        {
+          "text": "Imponer la norma mediante castigos.",
+          "outcome": "Resistencia",
+          "wisdomScore": 40,
+          "analysis": "Genera resentimiento y cumplimiento superficial.",
+          "bookInsight": "La coerción externa no forma actitudes duraderas."
+        },
+        {
+          "text": "Asociar la norma con recompensas y prestigio social.",
+          "outcome": "Éxito",
+          "wisdomScore": 80,
+          "analysis": "La internalización ocurre cuando la norma se asocia con el beneficio.",
+          "bookInsight": "Las actitudes se forman mediante la asociación repetida de estímulos."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Propaganda",
+      "title": "El Uso de la Repetición",
+      "difficulty": "Easy",
+      "badge": "Comunicador Persuasivo",
+      "scenarioDescription": "Tienes un mensaje corto para una campaña de 30 días.",
+      "options": [
+        {
+          "text": "Variar el mensaje cada día para mantener el interés.",
+          "outcome": "Confusión",
+          "wisdomScore": 25,
+          "analysis": "La falta de consistencia debilita el impacto.",
+          "bookInsight": "La repetición monótona es la base de la sugestión."
+        },
+        {
+          "text": "Repetir el mismo mensaje exacto diariamente.",
+          "outcome": "Éxito",
+          "wisdomScore": 95,
+          "analysis": "La familiaridad genera aceptación automática.",
+          "bookInsight": "La repetición constante crea la ilusión de verdad."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Guerra Psicológica",
+      "title": "La Gestión del Miedo",
+      "difficulty": "Hard",
+      "badge": "Estratega de Poder",
+      "scenarioDescription": "Tu audiencia está en pánico. ¿Cómo aprovechas la situación?",
+      "options": [
+        {
+          "text": "Calmarlos con datos objetivos.",
+          "outcome": "Ineficaz",
+          "wisdomScore": 35,
+          "analysis": "El miedo bloquea el procesamiento racional.",
+          "bookInsight": "En estados de miedo, la sugestibilidad aumenta drásticamente."
+        },
+        {
+          "text": "Ofrecerte como la única solución al miedo.",
+          "outcome": "Éxito",
+          "wisdomScore": 90,
+          "analysis": "Te conviertes en el salvador y líder incuestionable.",
+          "bookInsight": "La propaganda utiliza el miedo para dirigir la conducta hacia un líder."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Autoridad proyectada",
-      "definition": "Técnica psicológica estudiada en \"Preliminares\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Consultar perspectivas externas de confianza antes de decidir."
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Propaganda",
+      "term": "Sugestibilidad",
+      "definition": "Capacidad de ser influenciado sin crítica.",
+      "tacticalUse": "Aumentar mediante fatiga.",
+      "countermeasure": "Pensamiento crítico."
     },
     {
-      "id": "fc2",
-      "term": "Gaslighting sutil",
-      "definition": "Técnica psicológica estudiada en \"Prologo\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Practicar la técnica del \"disco rayado\" ante presión persistente."
+      "id": "FC002",
+      "bookNumber": 1,
+      "category": "Propaganda",
+      "term": "Efecto de Mera Exposición",
+      "definition": "Preferir algo por familiaridad.",
+      "tacticalUse": "Repetición constante.",
+      "countermeasure": "Diversidad de fuentes."
     },
     {
-      "id": "fc3",
-      "term": "Microexpresiones",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 01 Propaganda Y Comunicacion Parte 1\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Aplicar el protocolo JADE-never: no Justifiques, Argumentes, Defiendas ni Expliques."
+      "id": "FC003",
+      "bookNumber": 2,
+      "category": "Actitudes",
+      "term": "Disonancia Cognitiva",
+      "definition": "Tensión por ideas contradictorias.",
+      "tacticalUse": "Forzar elección difícil.",
+      "countermeasure": "Reconocimiento de sesgos."
     },
     {
-      "id": "fc4",
-      "term": "Prueba social",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 01 Propaganda Y Comunicacion Parte 2\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Documentar patrones de comportamiento para identificar manipulación."
+      "id": "FC004",
+      "bookNumber": 2,
+      "category": "Actitudes",
+      "term": "Internalización",
+      "definition": "Adoptar una idea como propia.",
+      "tacticalUse": "Refuerzo positivo.",
+      "countermeasure": "Análisis de origen."
     },
     {
-      "id": "fc5",
-      "term": "Love bombing",
-      "definition": "Técnica psicológica estudiada en \"Capitulo 02 Formacion De Actitudes Parte 1\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Usar el \"test de la silla vacía\": ¿qué le dirías a un amigo en tu situación?"
+      "id": "FC005",
+      "bookNumber": 3,
+      "category": "Cambio",
+      "term": "Lavado de Cerebro",
+      "definition": "Reestructuración forzada de creencias.",
+      "tacticalUse": "Aislamiento total.",
+      "countermeasure": "Mantener redes sociales."
+    },
+    {
+      "id": "FC006",
+      "bookNumber": 3,
+      "category": "Cambio",
+      "term": "Conversión",
+      "definition": "Cambio radical de postura.",
+      "tacticalUse": "Crisis emocional.",
+      "countermeasure": "Estabilidad emocional."
+    },
+    {
+      "id": "FC007",
+      "bookNumber": 4,
+      "category": "Guerra",
+      "term": "Desmoralización",
+      "definition": "Destrucción de la voluntad.",
+      "tacticalUse": "Difusión de rumores.",
+      "countermeasure": "Cohesión grupal."
+    },
+    {
+      "id": "FC008",
+      "bookNumber": 4,
+      "category": "Guerra",
+      "term": "Guerra Psicológica",
+      "definition": "Uso de propaganda como arma.",
+      "tacticalUse": "Desinformación.",
+      "countermeasure": "Verificación de hechos."
+    },
+    {
+      "id": "FC009",
+      "bookNumber": 1,
+      "category": "Propaganda",
+      "term": "Simplificación",
+      "definition": "Reducir complejidad a blanco/negro.",
+      "tacticalUse": "Crear enemigos claros.",
+      "countermeasure": "Análisis de matices."
+    },
+    {
+      "id": "FC010",
+      "bookNumber": 2,
+      "category": "Actitudes",
+      "term": "Conformidad",
+      "definition": "Ceder a la presión grupal.",
+      "tacticalUse": "Crear falsa mayoría.",
+      "countermeasure": "Independencia de criterio."
+    },
+    {
+      "id": "FC011",
+      "bookNumber": 3,
+      "category": "Cambio",
+      "term": "Sugestión Post-hipnótica",
+      "definition": "Orden ejecutada tras el trance.",
+      "tacticalUse": "Anclaje emocional.",
+      "countermeasure": "Conciencia plena."
+    },
+    {
+      "id": "FC012",
+      "bookNumber": 4,
+      "category": "Guerra",
+      "term": "Chivo Expiatorio",
+      "definition": "Culpar a otros de los males.",
+      "tacticalUse": "Unificar al grupo.",
+      "countermeasure": "Responsabilidad individual."
+    },
+    {
+      "id": "FC013",
+      "bookNumber": 1,
+      "category": "Propaganda",
+      "term": "Transferencia",
+      "definition": "Asociar prestigio a una idea.",
+      "tacticalUse": "Uso de figuras de autoridad.",
+      "countermeasure": "Separar mensaje de emisor."
+    },
+    {
+      "id": "FC014",
+      "bookNumber": 2,
+      "category": "Actitudes",
+      "term": "Sesgo de Confirmación",
+      "definition": "Buscar lo que valida lo propio.",
+      "tacticalUse": "Alimentar prejuicios.",
+      "countermeasure": "Buscar evidencia contraria."
+    },
+    {
+      "id": "FC015",
+      "bookNumber": 3,
+      "category": "Cambio",
+      "term": "Catarsis",
+      "definition": "Liberación emocional intensa.",
+      "tacticalUse": "Provocar colapso emocional.",
+      "countermeasure": "Autocontrol."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM001",
+      "category": "Persuasión",
+      "name": "La Técnica del Pie en la Puerta",
+      "severity": "Low",
+      "icon": "door",
+      "howItWorks": "Pedir un favor pequeño antes del grande.",
+      "redFlags": "Peticiones escalonadas.",
+      "counterScript": "No acepto compromisos sin ver el panorama completo.",
+      "deepMechanism": "Consistencia cognitiva."
+    },
+    {
+      "id": "TM002",
+      "category": "Poder",
+      "name": "Aislamiento Sensorial",
+      "severity": "High",
+      "icon": "lock",
+      "howItWorks": "Eliminar estímulos externos para aumentar sugestión.",
+      "redFlags": "Entornos controlados.",
+      "counterScript": "Necesito tiempo a solas y contacto externo.",
+      "deepMechanism": "Dependencia de la fuente."
+    },
+    {
+      "id": "TM003",
+      "category": "Persuasión",
+      "name": "Apelación al Miedo",
+      "severity": "Medium",
+      "icon": "alert",
+      "howItWorks": "Crear amenaza y ofrecer solución.",
+      "redFlags": "Mensajes alarmistas.",
+      "counterScript": "¿Qué evidencia real respalda este miedo?",
+      "deepMechanism": "Instinto de supervivencia."
+    },
+    {
+      "id": "TM004",
+      "category": "Poder",
+      "name": "Repetición de Consignas",
+      "severity": "Low",
+      "icon": "repeat",
+      "howItWorks": "Frases cortas repetidas hasta la saciedad.",
+      "redFlags": "Eslóganes constantes.",
+      "counterScript": "Analicemos el significado real de esa frase.",
+      "deepMechanism": "Familiaridad automática."
+    },
+    {
+      "id": "TM005",
+      "category": "Persuasión",
+      "name": "Creación de Enemigo Común",
+      "severity": "High",
+      "icon": "sword",
+      "howItWorks": "Unificar grupo contra un tercero.",
+      "redFlags": "Lenguaje de 'nosotros vs ellos'.",
+      "counterScript": "¿Cuáles son los intereses reales detrás de esta división?",
+      "deepMechanism": "Cohesión grupal."
+    },
+    {
+      "id": "TM006",
+      "category": "Poder",
+      "name": "Fatiga del Objetivo",
+      "severity": "Medium",
+      "icon": "clock",
+      "howItWorks": "Mantener al sujeto ocupado para reducir juicio.",
+      "redFlags": "Horarios agotadores.",
+      "counterScript": "Necesito un descanso para pensar con claridad.",
+      "deepMechanism": "Agotamiento de recursos cognitivos."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal de la propaganda según Brown?",
+      "options": [
+        "Educar",
+        "Manipular actitudes",
+        "Informar",
+        "Entretener"
+      ],
+      "correctIndex": 1,
+      "explanation": "La propaganda busca influir en las actitudes de las masas."
+    },
+    {
+      "id": "Q002",
+      "bookNumber": 2,
+      "question": "¿Qué reduce la disonancia cognitiva?",
+      "options": [
+        "Más información",
+        "Cambio de actitud",
+        "Ignorar el problema",
+        "Todas las anteriores"
+      ],
+      "correctIndex": 3,
+      "explanation": "La mente busca coherencia mediante diversos mecanismos."
+    },
+    {
+      "id": "Q003",
+      "bookNumber": 3,
+      "question": "¿Qué es fundamental en el lavado de cerebro?",
+      "options": [
+        "Aislamiento",
+        "Diálogo",
+        "Libertad",
+        "Lógica"
+      ],
+      "correctIndex": 0,
+      "explanation": "El aislamiento rompe los marcos de referencia previos."
+    },
+    {
+      "id": "Q004",
+      "bookNumber": 4,
+      "question": "¿Qué papel juega el miedo en la guerra psicológica?",
+      "options": [
+        "Aumenta la resistencia",
+        "Aumenta la sugestibilidad",
+        "No tiene efecto",
+        "Mejora la lógica"
+      ],
+      "correctIndex": 1,
+      "explanation": "El miedo bloquea la crítica y aumenta la sugestión."
+    },
+    {
+      "id": "Q005",
+      "bookNumber": 1,
+      "question": "¿Por qué funciona la repetición?",
+      "options": [
+        "Por aburrimiento",
+        "Por familiaridad",
+        "Por lógica",
+        "Por miedo"
+      ],
+      "correctIndex": 1,
+      "explanation": "La familiaridad se confunde con la verdad."
+    },
+    {
+      "id": "Q006",
+      "bookNumber": 2,
+      "question": "¿Qué es la conformidad?",
+      "options": [
+        "Liderazgo",
+        "Ceder a la presión",
+        "Independencia",
+        "Creatividad"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es la tendencia a seguir la norma del grupo."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G001",
+      "term": "Propaganda",
+      "category": "Persuasión",
+      "definition": "Difusión de ideas para influir.",
+      "practicalExample": "Campañas políticas."
+    },
+    {
+      "id": "G002",
+      "term": "Actitud",
+      "category": "Psicología",
+      "definition": "Predisposición a actuar.",
+      "practicalExample": "Prejuicios."
+    },
+    {
+      "id": "G003",
+      "term": "Sugestión",
+      "category": "Psicología",
+      "definition": "Influencia sin crítica.",
+      "practicalExample": "Publicidad."
+    },
+    {
+      "id": "G004",
+      "term": "Disonancia",
+      "category": "Psicología",
+      "definition": "Conflicto interno.",
+      "practicalExample": "Fumar sabiendo que hace daño."
+    },
+    {
+      "id": "G005",
+      "term": "Coerción",
+      "category": "Poder",
+      "definition": "Uso de la fuerza.",
+      "practicalExample": "Amenazas."
+    },
+    {
+      "id": "G006",
+      "term": "Lavado de cerebro",
+      "category": "Psicología",
+      "definition": "Reeducación forzada.",
+      "practicalExample": "Cultos."
+    },
+    {
+      "id": "G007",
+      "term": "Guerra Psicológica",
+      "category": "Estrategia",
+      "definition": "Uso de la mente como arma.",
+      "practicalExample": "Guerra fría."
+    },
+    {
+      "id": "G008",
+      "term": "Conformidad",
+      "category": "Psicología",
+      "definition": "Seguir al grupo.",
+      "practicalExample": "Modas."
+    },
+    {
+      "id": "G009",
+      "term": "Sesgo",
+      "category": "Psicología",
+      "definition": "Error de juicio.",
+      "practicalExample": "Confirmación."
+    },
+    {
+      "id": "G010",
+      "term": "Catarsis",
+      "category": "Psicología",
+      "definition": "Purga emocional.",
+      "practicalExample": "Confesión."
+    },
+    {
+      "id": "G011",
+      "term": "Anclaje",
+      "category": "Persuasión",
+      "definition": "Primer dato que guía.",
+      "practicalExample": "Precios iniciales."
+    },
+    {
+      "id": "G012",
+      "term": "Chivo expiatorio",
+      "category": "Sociología",
+      "definition": "Culpar a un inocente.",
+      "practicalExample": "Caza de brujas."
+    },
+    {
+      "id": "G013",
+      "term": "Internalización",
+      "category": "Psicología",
+      "definition": "Hacer propio lo externo.",
+      "practicalExample": "Valores."
+    },
+    {
+      "id": "G014",
+      "term": "Desmoralización",
+      "category": "Estrategia",
+      "definition": "Quitar la voluntad.",
+      "practicalExample": "Derrotismo."
+    },
+    {
+      "id": "G015",
+      "term": "Transferencia",
+      "category": "Psicología",
+      "definition": "Proyectar emociones.",
+      "practicalExample": "Admiración al líder."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL001",
+      "category": "Presencia",
+      "title": "Contacto Visual Sostenido",
+      "cue": "Mirada fija sin parpadeo excesivo.",
+      "interpretation": "Dominio y falta de miedo.",
+      "practicalDrill": "Mantener mirada 3 segundos más de lo normal."
+    },
+    {
+      "id": "BL002",
+      "category": "Persuasión",
+      "title": "Espejo (Mirroring)",
+      "cue": "Imitar sutilmente la postura del otro.",
+      "interpretation": "Genera empatía y confianza.",
+      "practicalDrill": "Adoptar la misma inclinación que el interlocutor."
+    },
+    {
+      "id": "BL003",
+      "category": "Poder",
+      "title": "Postura Expansiva",
+      "cue": "Ocupar espacio, hombros abiertos.",
+      "interpretation": "Alta testosterona y autoridad.",
+      "practicalDrill": "Sentarse con brazos extendidos en la mesa."
+    },
+    {
+      "id": "BL004",
+      "category": "Persuasión",
+      "title": "Asentimiento Rítmico",
+      "cue": "Mover la cabeza al hablar.",
+      "interpretation": "Induce al otro a decir que sí.",
+      "practicalDrill": "Asentir mientras haces una pregunta clave."
+    },
+    {
+      "id": "BL005",
+      "category": "Presencia",
+      "title": "Gestos de Manos Abiertas",
+      "cue": "Palmas visibles.",
+      "interpretation": "Honestidad percibida.",
+      "practicalDrill": "Evitar esconder las manos bajo la mesa."
+    },
+    {
+      "id": "BL006",
+      "category": "Poder",
+      "title": "Silencio Estratégico",
+      "cue": "Pausar tras una pregunta.",
+      "interpretation": "Control del ritmo de la interacción.",
+      "practicalDrill": "Contar 3 segundos antes de responder."
     }
   ]
 };

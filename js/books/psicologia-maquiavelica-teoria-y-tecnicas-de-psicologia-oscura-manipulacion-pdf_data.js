@@ -3908,93 +3908,86 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Detección en Entorno Laboral",
-      "title": "Caso Práctico: Tecnicas De Presion Y Refuerzos",
-      "difficulty": "Alta",
-      "badge": "Detective Social",
-      "scenarioDescription": "Durante una situación relacionada con \"Tecnicas De Presion Y Refuerzos\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS-001",
+      "category": "Gaslighting",
+      "title": "La duda sembrada",
+      "difficulty": "Hard",
+      "badge": "Maquiavelo",
+      "scenarioDescription": "Un colega insiste en que nunca te dio una instrucción específica que causó un error. Sabes que miente, pero él tiene testigos.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Tecnicas De Presion Y Refuerzos\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Confrontarlo agresivamente frente a todos.",
+          "outcome": "Perdida de credibilidad",
+          "wisdomScore": 20,
+          "analysis": "La confrontación emocional te hace ver inestable.",
+          "bookInsight": "La calma es el arma del estratega."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
-        }
-      ]
-    },
-    {
-      "id": "cs2",
-      "category": "Relaciones Interpersonales",
-      "title": "Caso Práctico: Bombardeo De Amor Silencio E Intimidacion",
-      "difficulty": "Media",
-      "badge": "Experto en Vínculos",
-      "scenarioDescription": "Durante una situación relacionada con \"Bombardeo De Amor Silencio E Intimidacion\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
-      "options": [
-        {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Bombardeo De Amor Silencio E Intimidacion\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
-        },
-        {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Documentar el incidente y buscar pruebas indirectas.",
+          "outcome": "Control de daños",
+          "wisdomScore": 95,
+          "analysis": "La evidencia silenciosa vence a la narrativa ruidosa.",
+          "bookInsight": "La verdad es una herramienta, no un fin."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Reciprocidad",
-      "definition": "Técnica psicológica estudiada en \"Preliminares\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Establecer límites claros y comunicarlos asertivamente."
-    },
+      "id": "FC-001",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Bombardeo de amor",
+      "definition": "Exceso de afecto para crear dependencia.",
+      "tacticalUse": "Ganar confianza rápida.",
+      "countermeasure": "Establecer límites temporales."
+    }
+  ],
+  "tacticalMatrix": [
     {
-      "id": "fc2",
-      "term": "Disonancia cognitiva inducida",
-      "definition": "Técnica psicológica estudiada en \"Que Es La Manipulacion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Tomarse tiempo antes de responder a demandas urgentes fabricadas."
-    },
+      "id": "TM-001",
+      "category": "Influencia",
+      "name": "Principio de Reciprocidad",
+      "severity": "Low",
+      "icon": "Handshake",
+      "howItWorks": "Dar algo pequeño para obligar a una concesión mayor.",
+      "redFlags": "Sentimiento de deuda injustificada.",
+      "counterScript": "Acepto el regalo, pero no me siento obligado a devolver el favor.",
+      "deepMechanism": "El cerebro busca equilibrar la balanza social."
+    }
+  ],
+  "quizzes": [
     {
-      "id": "fc3",
-      "term": "Reencuadre perceptual",
-      "definition": "Técnica psicológica estudiada en \"Manipulacion Y Personalidad\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Desarrollar independencia emocional mediante mindfulness diario."
-    },
+      "id": "Q-001",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal del Gaslighting?",
+      "options": [
+        "Hacer sentir bien al otro",
+        "Dudar de la propia percepción",
+        "Ahorrar tiempo",
+        "Mejorar la comunicación"
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting busca desestabilizar la realidad de la víctima."
+    }
+  ],
+  "glossary": [
     {
-      "id": "fc4",
-      "term": "Escasez artificial",
-      "definition": "Técnica psicológica estudiada en \"Rasgos De La Persona Manipulada\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
-    },
+      "id": "G-001",
+      "term": "Evasión",
+      "category": "Tácticas",
+      "definition": "Evitar responder directamente para mantener el control.",
+      "practicalExample": "Cambiar de tema cuando se pregunta por un error."
+    }
+  ],
+  "bodyLanguageLab": [
     {
-      "id": "fc5",
-      "term": "Framing narrativo",
-      "definition": "Técnica psicológica estudiada en \"Psicologia Y Principios De Persuasion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Consultar perspectivas externas de confianza antes de decidir."
+      "id": "BLL-001",
+      "category": "Presencia",
+      "title": "El Silencio Estratégico",
+      "cue": "Mantener contacto visual sin parpadear tras una pregunta.",
+      "interpretation": "Indica dominio y falta de miedo al juicio ajeno.",
+      "practicalDrill": "Practica 5 segundos de silencio antes de responder en una reunión."
     }
   ]
 };

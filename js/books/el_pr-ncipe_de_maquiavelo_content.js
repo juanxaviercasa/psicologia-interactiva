@@ -1,3 +1,4 @@
+// Contenido enriquecido para El Príncipe (Tratado Político y de Poder)
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -14458,6 +14459,594 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS-001",
+      "category": "Maquiavelismo",
+      "title": "La lealtad del subordinado",
+      "difficulty": "Hard",
+      "badge": "Estratega",
+      "scenarioDescription": "Un subordinado clave ha ganado demasiada influencia. ¿Debes eliminarlo, integrarlo o ignorarlo?",
+      "options": [
+        {
+          "text": "Eliminarlo para evitar competencia",
+          "outcome": "Pérdida de eficiencia operativa",
+          "wisdomScore": 40,
+          "analysis": "La eliminación sin causa genera miedo y desconfianza en el resto.",
+          "bookInsight": "Es mejor ser temido que amado, pero nunca odiado."
+        },
+        {
+          "text": "Integrarlo mediante beneficios",
+          "outcome": "Lealtad asegurada y estabilidad",
+          "wisdomScore": 95,
+          "analysis": "La integración convierte a un rival potencial en un activo leal.",
+          "bookInsight": "El príncipe debe hacerse amar y temer, evitando el odio."
+        }
+      ]
+    },
+    {
+      "id": "CS-002",
+      "category": "Poder",
+      "title": "La crisis de reputación",
+      "difficulty": "Medium",
+      "badge": "Diplomático",
+      "scenarioDescription": "Un error público amenaza tu imagen. ¿Admites el error o culpas a un subordinado?",
+      "options": [
+        {
+          "text": "Culpar al subordinado",
+          "outcome": "Desmoralización del equipo",
+          "wisdomScore": 30,
+          "analysis": "El líder que no asume responsabilidad pierde autoridad moral.",
+          "bookInsight": "Un príncipe debe evitar ser despreciado."
+        },
+        {
+          "text": "Asumir y corregir rápidamente",
+          "outcome": "Fortalecimiento de la autoridad",
+          "wisdomScore": 85,
+          "analysis": "La acción decisiva restaura la confianza.",
+          "bookInsight": "La virtud es la capacidad de adaptarse a la fortuna."
+        }
+      ]
+    },
+    {
+      "id": "CS-003",
+      "category": "Persuasión",
+      "title": "Negociación con aliados",
+      "difficulty": "Hard",
+      "badge": "Maquiavélico",
+      "scenarioDescription": "Un aliado pide un favor que debilita tu posición. ¿Cedes o rechazas?",
+      "options": [
+        {
+          "text": "Ceder para mantener la paz",
+          "outcome": "Debilitamiento progresivo",
+          "wisdomScore": 20,
+          "analysis": "La debilidad invita a la agresión.",
+          "bookInsight": "Nunca dejes que un problema crezca para evitar una guerra."
+        },
+        {
+          "text": "Negociar condiciones estrictas",
+          "outcome": "Equilibrio de poder",
+          "wisdomScore": 90,
+          "analysis": "La reciprocidad es la base de las alianzas sólidas.",
+          "bookInsight": "Los hombres olvidan antes la muerte de su padre que la pérdida de su patrimonio."
+        }
+      ]
+    },
+    {
+      "id": "CS-004",
+      "category": "Maquiavelismo",
+      "title": "El ascenso al poder",
+      "difficulty": "Medium",
+      "badge": "Visionario",
+      "scenarioDescription": "Tienes la oportunidad de tomar el control mediante un acto moralmente cuestionable.",
+      "options": [
+        {
+          "text": "Actuar con rigor",
+          "outcome": "Control total",
+          "wisdomScore": 75,
+          "analysis": "El fin justifica los medios en contextos de supervivencia.",
+          "bookInsight": "El príncipe debe saber entrar en el mal si es necesario."
+        },
+        {
+          "text": "Esperar una oportunidad ética",
+          "outcome": "Pérdida de la oportunidad",
+          "wisdomScore": 10,
+          "analysis": "La ética rígida es un lujo que el poder no siempre permite.",
+          "bookInsight": "Quien quiera hacer profesión de bondad en todo, labrará su ruina."
+        }
+      ]
+    },
+    {
+      "id": "CS-005",
+      "category": "Poder",
+      "title": "La gestión de la fortuna",
+      "difficulty": "Hard",
+      "badge": "Estoico",
+      "scenarioDescription": "Un evento inesperado cambia las reglas del juego. ¿Qué haces?",
+      "options": [
+        {
+          "text": "Mantener el plan original",
+          "outcome": "Fracaso inminente",
+          "wisdomScore": 5,
+          "analysis": "La rigidez ante la fortuna es fatal.",
+          "bookInsight": "La fortuna es mujer y hay que dominarla."
+        },
+        {
+          "text": "Adaptar la estrategia",
+          "outcome": "Supervivencia y éxito",
+          "wisdomScore": 95,
+          "analysis": "La flexibilidad es la mayor virtud del gobernante.",
+          "bookInsight": "El hombre prudente se adapta a los tiempos."
+        }
+      ]
+    },
+    {
+      "id": "CS-006",
+      "category": "Persuasión",
+      "title": "El uso de la apariencia",
+      "difficulty": "Medium",
+      "badge": "Ilusionista",
+      "scenarioDescription": "Debes convencer a la multitud de una decisión impopular.",
+      "options": [
+        {
+          "text": "Explicar la verdad técnica",
+          "outcome": "Rechazo masivo",
+          "wisdomScore": 15,
+          "analysis": "La verdad técnica no persuade a las masas.",
+          "bookInsight": "La mayoría se guía por las apariencias."
+        },
+        {
+          "text": "Presentar una narrativa de beneficio común",
+          "outcome": "Aceptación pública",
+          "wisdomScore": 80,
+          "analysis": "La percepción es la realidad en política.",
+          "bookInsight": "Todos ven lo que pareces, pocos sienten lo que eres."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "FC-001",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Virtù",
+      "definition": "Capacidad de adaptación y fuerza de voluntad.",
+      "tacticalUse": "Actuar con decisión ante la crisis.",
+      "countermeasure": "No confundir con virtud moral."
+    },
+    {
+      "id": "FC-002",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Fortuna",
+      "definition": "El azar o las circunstancias externas.",
+      "tacticalUse": "Prepararse para lo inesperado.",
+      "countermeasure": "Construir diques antes de la inundación."
+    },
+    {
+      "id": "FC-003",
+      "bookNumber": 2,
+      "category": "Persuasión",
+      "term": "Apariencia",
+      "definition": "La imagen proyectada ante los demás.",
+      "tacticalUse": "Parecer piadoso y justo.",
+      "countermeasure": "Analizar acciones, no palabras."
+    },
+    {
+      "id": "FC-004",
+      "bookNumber": 2,
+      "category": "Maquiavelismo",
+      "term": "Crueldad bien usada",
+      "definition": "Acción severa ejecutada de una sola vez.",
+      "tacticalUse": "Eliminar oposición rápidamente.",
+      "countermeasure": "Evitar ser el blanco de la purga."
+    },
+    {
+      "id": "FC-005",
+      "bookNumber": 3,
+      "category": "Poder",
+      "term": "Ejércitos propios",
+      "definition": "Depender de la propia fuerza.",
+      "tacticalUse": "No delegar la seguridad.",
+      "countermeasure": "Diversificar fuentes de poder."
+    },
+    {
+      "id": "FC-006",
+      "bookNumber": 3,
+      "category": "Persuasión",
+      "term": "Zorro y León",
+      "definition": "Combinación de astucia y fuerza.",
+      "tacticalUse": "Engañar y dominar.",
+      "countermeasure": "Identificar la trampa antes de la fuerza."
+    },
+    {
+      "id": "FC-007",
+      "bookNumber": 4,
+      "category": "Maquiavelismo",
+      "term": "Liberalidad",
+      "definition": "Generosidad con dinero ajeno.",
+      "tacticalUse": "Ganar apoyo sin costo propio.",
+      "countermeasure": "Cuestionar el origen de los recursos."
+    },
+    {
+      "id": "FC-008",
+      "bookNumber": 4,
+      "category": "Poder",
+      "term": "Neutralidad",
+      "definition": "No tomar partido en conflictos.",
+      "tacticalUse": "Evitar desgaste.",
+      "countermeasure": "Forzar al neutral a definirse."
+    },
+    {
+      "id": "FC-009",
+      "bookNumber": 5,
+      "category": "Persuasión",
+      "term": "Aduladores",
+      "definition": "Personas que dicen lo que quieres oír.",
+      "tacticalUse": "Identificar debilidades ajenas.",
+      "countermeasure": "Rodearse de críticos honestos."
+    },
+    {
+      "id": "FC-010",
+      "bookNumber": 5,
+      "category": "Maquiavelismo",
+      "term": "Estado",
+      "definition": "La estructura de poder a mantener.",
+      "tacticalUse": "Priorizar la estabilidad sobre la moral.",
+      "countermeasure": "Cuestionar el propósito del sistema."
+    },
+    {
+      "id": "FC-011",
+      "bookNumber": 6,
+      "category": "Poder",
+      "term": "Necesidad",
+      "definition": "La fuerza que obliga a actuar.",
+      "tacticalUse": "Justificar medidas extremas.",
+      "countermeasure": "Evaluar si la necesidad es real."
+    },
+    {
+      "id": "FC-012",
+      "bookNumber": 6,
+      "category": "Persuasión",
+      "term": "Reputación",
+      "definition": "El capital social del líder.",
+      "tacticalUse": "Gestionar la percepción pública.",
+      "countermeasure": "Desacreditar la fuente de la reputación."
+    },
+    {
+      "id": "FC-013",
+      "bookNumber": 7,
+      "category": "Maquiavelismo",
+      "term": "Pueblo",
+      "definition": "La base del poder real.",
+      "tacticalUse": "Ganar el favor de la mayoría.",
+      "countermeasure": "No confiar ciegamente en la masa."
+    },
+    {
+      "id": "FC-014",
+      "bookNumber": 7,
+      "category": "Poder",
+      "term": "Nobles",
+      "definition": "La élite que compite por el poder.",
+      "tacticalUse": "Mantenerlos divididos.",
+      "countermeasure": "Unirse a otros para equilibrar."
+    },
+    {
+      "id": "FC-015",
+      "bookNumber": 8,
+      "category": "Persuasión",
+      "term": "Tiempo",
+      "definition": "El factor que todo lo cambia.",
+      "tacticalUse": "Esperar el momento oportuno.",
+      "countermeasure": "Actuar antes de que el tiempo madure."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM-01",
+      "category": "Persuasión",
+      "name": "La Máscara de la Virtud",
+      "severity": "Medium",
+      "icon": "🎭",
+      "howItWorks": "Proyectar valores morales para ocultar intenciones pragmáticas.",
+      "redFlags": "Exceso de retórica moralista.",
+      "counterScript": "¿Qué beneficio obtienes realmente de esta acción?",
+      "deepMechanism": "Sesgo de confirmación moral."
+    },
+    {
+      "id": "TM-02",
+      "category": "Poder",
+      "name": "División Estratégica",
+      "severity": "High",
+      "icon": "⚔️",
+      "howItWorks": "Mantener a los rivales enfrentados entre sí.",
+      "redFlags": "Rumores constantes entre aliados.",
+      "counterScript": "Propongo una alianza transparente.",
+      "deepMechanism": "Divide et impera."
+    },
+    {
+      "id": "TM-03",
+      "category": "Maquiavelismo",
+      "name": "El Golpe de Gracia",
+      "severity": "Extreme",
+      "icon": "⚡",
+      "howItWorks": "Eliminar la amenaza de forma rápida y total.",
+      "redFlags": "Aislamiento repentino.",
+      "counterScript": "Mantener redes de apoyo externas.",
+      "deepMechanism": "Eliminación de la disidencia."
+    },
+    {
+      "id": "TM-04",
+      "category": "Persuasión",
+      "name": "El Regalo Envenenado",
+      "severity": "Medium",
+      "icon": "🎁",
+      "howItWorks": "Dar algo que crea una deuda impagable.",
+      "redFlags": "Favores no solicitados.",
+      "counterScript": "Rechazar el favor o pagar el precio inmediato.",
+      "deepMechanism": "Reciprocidad forzada."
+    },
+    {
+      "id": "TM-05",
+      "category": "Poder",
+      "name": "La Retirada Táctica",
+      "severity": "Low",
+      "icon": "🛡️",
+      "howItWorks": "Ceder terreno para ganar ventaja futura.",
+      "redFlags": "Pérdida aparente sin lucha.",
+      "counterScript": "No perseguir al enemigo en su terreno.",
+      "deepMechanism": "Gestión de la energía."
+    },
+    {
+      "id": "TM-06",
+      "category": "Maquiavelismo",
+      "name": "El Silencio Selectivo",
+      "severity": "Low",
+      "icon": "🤐",
+      "howItWorks": "Ocultar información para controlar el flujo de poder.",
+      "redFlags": "Información incompleta.",
+      "counterScript": "Hacer preguntas abiertas y directas.",
+      "deepMechanism": "Asimetría informativa."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q-01",
+      "bookNumber": 1,
+      "question": "¿Cuál es la mejor defensa de un príncipe?",
+      "options": [
+        "Fortalezas",
+        "Ejércitos propios",
+        "Alianzas",
+        "Dinero"
+      ],
+      "correctIndex": 1,
+      "explanation": "Maquiavelo sostiene que las armas propias son la única garantía real."
+    },
+    {
+      "id": "Q-02",
+      "bookNumber": 2,
+      "question": "¿Es mejor ser amado o temido?",
+      "options": [
+        "Amado",
+        "Temido",
+        "Ambos",
+        "Ninguno"
+      ],
+      "correctIndex": 2,
+      "explanation": "Lo ideal es ambos, pero si hay que elegir, es más seguro ser temido."
+    },
+    {
+      "id": "Q-03",
+      "bookNumber": 3,
+      "question": "¿Qué debe hacer un príncipe con los aduladores?",
+      "options": [
+        "Escucharlos",
+        "Ignorarlos",
+        "Rodearse de ellos",
+        "Castigarlos"
+      ],
+      "correctIndex": 1,
+      "explanation": "Deben ser evitados para no perder la objetividad."
+    },
+    {
+      "id": "Q-04",
+      "bookNumber": 4,
+      "question": "¿Cómo debe actuar un príncipe ante la fortuna?",
+      "options": [
+        "Aceptarla",
+        "Dominarla",
+        "Ignorarla",
+        "Temerla"
+      ],
+      "correctIndex": 1,
+      "explanation": "La fortuna debe ser dominada mediante la virtud."
+    },
+    {
+      "id": "Q-05",
+      "bookNumber": 5,
+      "question": "¿Qué es la 'virtù' en Maquiavelo?",
+      "options": [
+        "Bondad",
+        "Habilidad política",
+        "Religiosidad",
+        "Riqueza"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es la capacidad de actuar eficazmente según la necesidad."
+    },
+    {
+      "id": "Q-06",
+      "bookNumber": 6,
+      "question": "¿Por qué un príncipe debe parecer piadoso?",
+      "options": [
+        "Por fe",
+        "Por estrategia",
+        "Por ley",
+        "Por miedo"
+      ],
+      "correctIndex": 1,
+      "explanation": "La apariencia de virtud es una herramienta de control social."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G-01",
+      "term": "Estado",
+      "category": "Poder",
+      "definition": "Organización política soberana.",
+      "practicalExample": "Mantener el control de la empresa."
+    },
+    {
+      "id": "G-02",
+      "term": "Virtud",
+      "category": "Maquiavelismo",
+      "definition": "Excelencia en la acción.",
+      "practicalExample": "Tomar decisiones difíciles con calma."
+    },
+    {
+      "id": "G-03",
+      "term": "Fortuna",
+      "category": "Poder",
+      "definition": "Azar impredecible.",
+      "practicalExample": "Crisis económica inesperada."
+    },
+    {
+      "id": "G-04",
+      "term": "Zorro",
+      "category": "Persuasión",
+      "definition": "Astucia para evitar trampas.",
+      "practicalExample": "Detectar una mentira en una negociación."
+    },
+    {
+      "id": "G-05",
+      "term": "León",
+      "category": "Poder",
+      "definition": "Fuerza para espantar lobos.",
+      "practicalExample": "Imponer autoridad ante un conflicto."
+    },
+    {
+      "id": "G-06",
+      "term": "Liberalidad",
+      "category": "Maquiavelismo",
+      "definition": "Generosidad excesiva.",
+      "practicalExample": "Gastar presupuesto en imagen."
+    },
+    {
+      "id": "G-07",
+      "term": "Parsimonia",
+      "category": "Poder",
+      "definition": "Ahorro prudente.",
+      "practicalExample": "No malgastar recursos clave."
+    },
+    {
+      "id": "G-08",
+      "term": "Crueldad",
+      "category": "Maquiavelismo",
+      "definition": "Uso de la fuerza necesaria.",
+      "practicalExample": "Despido disciplinario ejemplar."
+    },
+    {
+      "id": "G-09",
+      "term": "Piedad",
+      "category": "Persuasión",
+      "definition": "Apariencia de bondad.",
+      "practicalExample": "Donaciones públicas estratégicas."
+    },
+    {
+      "id": "G-10",
+      "term": "Neutralidad",
+      "category": "Poder",
+      "definition": "No tomar partido.",
+      "practicalExample": "Mantenerse al margen de chismes."
+    },
+    {
+      "id": "G-11",
+      "term": "Adulación",
+      "category": "Persuasión",
+      "definition": "Elogio interesado.",
+      "practicalExample": "Empleado que siempre da la razón."
+    },
+    {
+      "id": "G-12",
+      "term": "Ejército",
+      "category": "Poder",
+      "definition": "Fuerza de apoyo.",
+      "practicalExample": "Equipo de trabajo leal."
+    },
+    {
+      "id": "G-13",
+      "term": "Reputación",
+      "category": "Persuasión",
+      "definition": "Opinión pública.",
+      "practicalExample": "Marca personal sólida."
+    },
+    {
+      "id": "G-14",
+      "term": "Necesidad",
+      "category": "Maquiavelismo",
+      "definition": "Imperativo de acción.",
+      "practicalExample": "Cambio de estrategia por quiebra."
+    },
+    {
+      "id": "G-15",
+      "term": "Príncipe",
+      "category": "Poder",
+      "definition": "El líder o gobernante.",
+      "practicalExample": "CEO o gerente general."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL-01",
+      "category": "Persuasión",
+      "title": "El contacto visual dominante",
+      "cue": "Mantener la mirada sin parpadear excesivamente.",
+      "interpretation": "Seguridad y control sobre el interlocutor.",
+      "practicalDrill": "Practicar en espejo hasta no sentir incomodidad."
+    },
+    {
+      "id": "BL-02",
+      "category": "Poder",
+      "title": "Postura expansiva",
+      "cue": "Ocupar espacio con brazos y piernas.",
+      "interpretation": "Autoridad y estatus elevado.",
+      "practicalDrill": "Sentarse con los brazos abiertos en reuniones."
+    },
+    {
+      "id": "BL-03",
+      "category": "Persuasión",
+      "title": "El asentimiento lento",
+      "cue": "Asentir pausadamente mientras escuchas.",
+      "interpretation": "Control de la conversación y validación calculada.",
+      "practicalDrill": "Contar tres segundos antes de asentir."
+    },
+    {
+      "id": "BL-04",
+      "category": "Maquiavelismo",
+      "title": "La inexpresividad (Poker Face)",
+      "cue": "Mantener el rostro neutro ante noticias impactantes.",
+      "interpretation": "Ocultamiento de intenciones y emociones.",
+      "practicalDrill": "Practicar reacciones neutras ante estímulos."
+    },
+    {
+      "id": "BL-05",
+      "category": "Poder",
+      "title": "El gesto de la pirámide",
+      "cue": "Unir las puntas de los dedos de ambas manos.",
+      "interpretation": "Confianza intelectual y superioridad.",
+      "practicalDrill": "Usar este gesto al explicar una estrategia."
+    },
+    {
+      "id": "BL-06",
+      "category": "Persuasión",
+      "title": "Inclinación sutil",
+      "cue": "Inclinar el cuerpo ligeramente hacia el otro.",
+      "interpretation": "Falsa cercanía para generar confianza.",
+      "practicalDrill": "Inclinar el torso al pedir un favor."
     }
   ]
 };

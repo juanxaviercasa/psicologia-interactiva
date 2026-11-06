@@ -1,3 +1,4 @@
+// Contenido enriquecido para Psicología Maquiavélica: Teoría y Técnicas Oscuras
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_1.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>Psicología maquiavélica Teoría y técnicas de psicología oscura, manipulación e influencia Giovanni Barone Galatea Ediciones Psicología maquiavélica. Teoría y técnicas de psicología oscura, manipulación e influencia, por Giovanni Barone. © Giovanni Barone 2021 © Galatea Ediciones 2021 © Todos los derechos reservados. Este documento está orientado a proporcionar información exacta y confiable respecto al tema en cuestión. La publicación es vendida con la idea de que el editor no está obligado a prestar servicios calificados, oficialmente permitidos o rendir cuentas de otra manera. Si algún asesoramiento es necesario, ya sea legal o profesional, debe ser ordenado a una persona con experiencia en la profesión. Gracias por descargar este libro electrónico. El copyright es propiedad exclusiva del autor. De ninguna manera es legal reproducir, duplicar, o transmitir cualquier parte de este documento, ya sea por medios electrónicos o en formato impreso con fines comerciales o sin ánimos de lucro. La grabación de esta publicación está estrictamente prohibida y cualquier almacenamiento de este documento no está permitido a menos que tenga el permiso por escrito del editor. Me ayudan mucho las calificaciones en Amazon. Si encuentras placentera la lectura de este libro, escribe tu opinión sincera acerca de él aquí. Los comentarios me ayudan a mejorar y las buenas calificaciones contribuyen a incrementar las ventas del libro, algo que me permite dedicarle un poco más de tiempo a la escritu",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Tratado Táctico de Estrategia Maquiavélica\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_maquiavelica/maquiavelo_m1_preliminares.webp\" alt=\"Tratado Táctico de Estrategia Maquiavélica\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Psicología maquiavélica Teoría y técnicas de psicología oscura, manipulación e influencia Giovanni Barone Galatea Ediciones Psicología maquiavélica. Teoría y técnicas de psicología oscura, manipulación e influencia, por Giovanni Barone. © Giovanni Barone 2021 © Galatea Ediciones 2021 © Todos los derechos reservados. Este documento está orientado a proporcionar información exacta y confiable respecto al tema en cuestión. La publicación es vendida con la idea de que el editor no está obligado a prestar servicios calificados, oficialmente permitidos o rendir cuentas de otra manera. Si algún asesoramiento es necesario, ya sea legal o profesional, debe ser ordenado a una persona con experiencia en la profesión. Gracias por descargar este libro electrónico. El copyright es propiedad exclusiva del autor. De ninguna manera es legal reproducir, duplicar, o transmitir cualquier parte de este documento, ya sea por medios electrónicos o en formato impreso con fines comerciales o sin ánimos de lucro. La grabación de esta publicación está estrictamente prohibida y cualquier almacenamiento de este documento no está permitido a menos que tenga el permiso por escrito del editor. Me ayudan mucho las calificaciones en Amazon. Si encuentras placentera la lectura de este libro, escribe tu opinión sincera acerca de él aquí. Los comentarios me ayudan a mejorar y las buenas calificaciones contribuyen a incrementar las ventas del libro, algo que me permite dedicarle un poco más de tiempo a la escritu",
           "interactiveChallenge": {
             "question": "Al aplicar los principios de la programación neurolingüística en el contexto de \"Preliminares\"?",
             "options": [
@@ -101,7 +102,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- ¿QUÉ ES LA MANIPULACIÓN? ¿QUÉ SIGNIFICA MANIPULAR? Situar a las personas en planos interiores al que les corresponde por su rango natural es una forma de manipulación agresiva que colabora a generar los modos de violencia registrados en la sociedad actual. Alfonso López Quintás La definición más sencilla de manipulación tal vez sea esta: manipular es manejar a las personas a voluntad para lograr nuestros objetivos. El manipulador es un artista del lenguaje y la apariencia, conoce lo que se podría llamar, psicología maquiavélica. Sus palabras y sus actos aparentan honestidad y generosidad, pero sus intenciones son otras y quedan ocultas. La víctima se debate entre la realidad y la ficción que su manipulador creó para ella. Cuando se trata de seres humanos, se supone que la forma de relacionarnos entre unos y otros es de igual a igual, respetando las capacidades y la posibilidad de tener iniciativa. El filósofo Immanuel Kant afirmaba que a las personas siempre hay que tratarlas como fines en sí mismas, nunca como medios para nuestros fines egoístas. Quien desobedece esta máxima kantiana es un manipulador. Cuando te relacionas con una persona, si en lugar de hacerlo desde una posición de igualdad la tomas como un ser susceptible de ser manejado a tu antojo, estás rebajando a la persona al nivel de objeto. Esta situación se conoce con el nombre de sadismo. Ser una persona que aplica el sadismo no significa ser alguien que actúa con crueldad sobre el otro (que es lo que habitu",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Naturaleza y Definición de la Manipulación\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_maquiavelica/maquiavelo_m2_que_es_manipulacion.webp\" alt=\"Naturaleza y Definición de la Manipulación\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- ¿QUÉ ES LA MANIPULACIÓN? ¿QUÉ SIGNIFICA MANIPULAR? Situar a las personas en planos interiores al que les corresponde por su rango natural es una forma de manipulación agresiva que colabora a generar los modos de violencia registrados en la sociedad actual. Alfonso López Quintás La definición más sencilla de manipulación tal vez sea esta: manipular es manejar a las personas a voluntad para lograr nuestros objetivos. El manipulador es un artista del lenguaje y la apariencia, conoce lo que se podría llamar, psicología maquiavélica. Sus palabras y sus actos aparentan honestidad y generosidad, pero sus intenciones son otras y quedan ocultas. La víctima se debate entre la realidad y la ficción que su manipulador creó para ella. Cuando se trata de seres humanos, se supone que la forma de relacionarnos entre unos y otros es de igual a igual, respetando las capacidades y la posibilidad de tener iniciativa. El filósofo Immanuel Kant afirmaba que a las personas siempre hay que tratarlas como fines en sí mismas, nunca como medios para nuestros fines egoístas. Quien desobedece esta máxima kantiana es un manipulador. Cuando te relacionas con una persona, si en lugar de hacerlo desde una posición de igualdad la tomas como un ser susceptible de ser manejado a tu antojo, estás rebajando a la persona al nivel de objeto. Esta situación se conoce con el nombre de sadismo. Ser una persona que aplica el sadismo no significa ser alguien que actúa con crueldad sobre el otro (que es lo que habitu",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la consistencia cognitiva en el contexto de \"Que Es La Manipulacion\"?",
             "options": [
@@ -282,7 +283,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "MANIPULACIÓN Y PERSONALIDAD ¿CÓMO ES UNA PERSONA MANIPULADORA? Cuando se logra tomar conciencia de lo simple que puede ser manipular, se aprecia el verdadero alcance que tiene la manipulación emocional. Las estrategias de manipulación son una derivación de los métodos ya existentes de control. Por lo general, la persona no es consciente de lo que le está ocurriendo. Los manipuladores más peligrosos y hábiles son aquellos que planifican con frialdad y sin considerar las implicancias que puedan tener para la otra persona. Carecen de empatía y el único interés que persiguen es su propio beneficio. Son personas agresivas, oportunistas, insensibles que solamente piensan en ellas mismas. Son lobos disfrazados de corderos que en apariencias se mueven en el mundo de manera inofensiva, pero en algunos momentos manifiestan lo que son en realidad. A veces, tienen serios trastornos psicológicos. Cuando estas personas poseedoras de una psiquis normal ejercen la manipulación, no tienen excusas para mantener esta actitud. Aquellos con trastornos psicológicos puedan fundamentar su accionar en sus problemas mentales. Se pueden diferenciar dos tipos básicos de manipulación: aquella persona que manipula eventualmente y aquella que manipula constantemente con un comportamiento que podría considerarse patológico. El manipulador patológico no conoce otra forma de relacionarse con el resto del mundo. Mientras, quien manipula de vez en cuando, tiene otras formas de relación además de la que supone u",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Tipologías de Personalidad y Vulnerabilidad\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_maquiavelica/maquiavelo_m3_personalidad.webp\" alt=\"Tipologías de Personalidad y Vulnerabilidad\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>MANIPULACIÓN Y PERSONALIDAD ¿CÓMO ES UNA PERSONA MANIPULADORA? Cuando se logra tomar conciencia de lo simple que puede ser manipular, se aprecia el verdadero alcance que tiene la manipulación emocional. Las estrategias de manipulación son una derivación de los métodos ya existentes de control. Por lo general, la persona no es consciente de lo que le está ocurriendo. Los manipuladores más peligrosos y hábiles son aquellos que planifican con frialdad y sin considerar las implicancias que puedan tener para la otra persona. Carecen de empatía y el único interés que persiguen es su propio beneficio. Son personas agresivas, oportunistas, insensibles que solamente piensan en ellas mismas. Son lobos disfrazados de corderos que en apariencias se mueven en el mundo de manera inofensiva, pero en algunos momentos manifiestan lo que son en realidad. A veces, tienen serios trastornos psicológicos. Cuando estas personas poseedoras de una psiquis normal ejercen la manipulación, no tienen excusas para mantener esta actitud. Aquellos con trastornos psicológicos puedan fundamentar su accionar en sus problemas mentales. Se pueden diferenciar dos tipos básicos de manipulación: aquella persona que manipula eventualmente y aquella que manipula constantemente con un comportamiento que podría considerarse patológico. El manipulador patológico no conoce otra forma de relacionarse con el resto del mundo. Mientras, quien manipula de vez en cuando, tiene otras formas de relación además de la que supone u",
           "interactiveChallenge": {
             "question": "Ante una situación de la gaslighting sutil en el contexto de \"Manipulacion Y Personalidad\"?",
             "options": [
@@ -521,7 +522,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "¿CUÁLES SON LOS RASGOS MÁS COMUNES DE LA PERSONA MANIPULADA? Cada persona tiene sus rasgos y características que la hacen única. En ocasiones, estos aspectos la vuelven más susceptible a ser manipulada. Los manipuladores conocen en profundidad cuáles son los rasgos que tienen que buscar para que su accionar sea ciento por ciento efectivo. Características psicológicas de las personas vulnerables a la manipulación: ● Inseguridad y fragilidad emocional. ● Sensibilidad. ● Empatía. ● Miedo a la soledad. ● Miedo a decepcionar a otros. ● Trastornos dependientes de la personalidad y dependencia emocional. Inseguridad y fragilidad emocional Estas son las víctimas favoritas y, lamentablemente, son muy fáciles de identificar por lo que, también, son fáciles de encontrar, incluso para los extraños. El comportamiento que identifica a este tipo de personas es que tienen la tendencia a estar a la defensiva ante el más mínimo ataque o cuando se encuentran bajo presión. Esto lleva a que en reuniones sociales enseguida sean detectadas con facilidad. El manipulador no necesita interactuar en profundidad para medir su grado de inseguridad. Hará un intento por provocar a sus posibles objetivos en forma inocente y sutil, analizando cómo reaccionan. Si responde a la defensiva, estas personas serán clasificadas como inseguras o frágiles en lo emocional y el manipulador comenzará a tenerlas en su mira. Otras personas demostrarán ansiedad social lo que lleva a concluir que, en el fondo, también son em",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Disonancia Cognitiva en la Víctima\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_maquiavelica/maquiavelo_m4_persona_manipulada.webp\" alt=\"Disonancia Cognitiva en la Víctima\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>¿CUÁLES SON LOS RASGOS MÁS COMUNES DE LA PERSONA MANIPULADA? Cada persona tiene sus rasgos y características que la hacen única. En ocasiones, estos aspectos la vuelven más susceptible a ser manipulada. Los manipuladores conocen en profundidad cuáles son los rasgos que tienen que buscar para que su accionar sea ciento por ciento efectivo. Características psicológicas de las personas vulnerables a la manipulación: ● Inseguridad y fragilidad emocional. ● Sensibilidad. ● Empatía. ● Miedo a la soledad. ● Miedo a decepcionar a otros. ● Trastornos dependientes de la personalidad y dependencia emocional. Inseguridad y fragilidad emocional Estas son las víctimas favoritas y, lamentablemente, son muy fáciles de identificar por lo que, también, son fáciles de encontrar, incluso para los extraños. El comportamiento que identifica a este tipo de personas es que tienen la tendencia a estar a la defensiva ante el más mínimo ataque o cuando se encuentran bajo presión. Esto lleva a que en reuniones sociales enseguida sean detectadas con facilidad. El manipulador no necesita interactuar en profundidad para medir su grado de inseguridad. Hará un intento por provocar a sus posibles objetivos en forma inocente y sutil, analizando cómo reaccionan. Si responde a la defensiva, estas personas serán clasificadas como inseguras o frágiles en lo emocional y el manipulador comenzará a tenerlas en su mira. Otras personas demostrarán ansiedad social lo que lleva a concluir que, en el fondo, también son em",
           "interactiveChallenge": {
             "question": "El concepto central de la reencuadre perceptual en el contexto de \"Rasgos De La Persona Manipulada\"?",
             "options": [
@@ -702,7 +703,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- PERSUASIÓN Ser consciente de uno mismo y tener el control de cada aspecto de cómo piensas y cómo respondes, te proporcionará las habilidades necesarias para emplear técnicas persuasivas para tu beneficio. Debes ser consciente de que todos pueden ser manipulados mentalmente y nadie está a salvo de esas tácticas persuasivas. S.L. Moore PSICOLOGÍA DE LA PERSUASIÓN Actualmente, se puede apreciar que la psicología maquiavélica está instalada en cada aspecto de la vida del ser humano. Se encuentra en los anuncios publicitarios, en la comunicación habitual, en los lugares de trabajo, en los discursos políticos, también en los religiosos y, a veces, en las relaciones con los seres queridos. Una forma de definir la persuasión es como la habilidad de la que dispone una persona para convencer al receptor a cambiar su punto de vista, sus creencias o su comportamiento a través de la comunicación verbal. Las estrategias de la persuasión están orientadas a las emociones como puerta de ingresos hacia sus pensamientos. La persuasión no es una forma de control mental, es una manera de manipular la mente del otro. Es una técnica que ha sido estudiada desde la antigüedad, siendo los primeros en hablar de ella los filósofos griegos. Ellos estudiaron de qué forma los oradores utilizaban el lenguaje para enfocar de diferentes formas lo que querían comunicar. Aristóteles fue uno de los filósofos que estudió la persuasión y la dividió en tres partes: ethos, logos y pathos. Llamó ethos a la credib",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Los Pilares de la Persuasión Estratégica\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_maquiavelica/maquiavelo_m5_principios_persuasion.webp\" alt=\"Los Pilares de la Persuasión Estratégica\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- PERSUASIÓN Ser consciente de uno mismo y tener el control de cada aspecto de cómo piensas y cómo respondes, te proporcionará las habilidades necesarias para emplear técnicas persuasivas para tu beneficio. Debes ser consciente de que todos pueden ser manipulados mentalmente y nadie está a salvo de esas tácticas persuasivas. S.L. Moore PSICOLOGÍA DE LA PERSUASIÓN Actualmente, se puede apreciar que la psicología maquiavélica está instalada en cada aspecto de la vida del ser humano. Se encuentra en los anuncios publicitarios, en la comunicación habitual, en los lugares de trabajo, en los discursos políticos, también en los religiosos y, a veces, en las relaciones con los seres queridos. Una forma de definir la persuasión es como la habilidad de la que dispone una persona para convencer al receptor a cambiar su punto de vista, sus creencias o su comportamiento a través de la comunicación verbal. Las estrategias de la persuasión están orientadas a las emociones como puerta de ingresos hacia sus pensamientos. La persuasión no es una forma de control mental, es una manera de manipular la mente del otro. Es una técnica que ha sido estudiada desde la antigüedad, siendo los primeros en hablar de ella los filósofos griegos. Ellos estudiaron de qué forma los oradores utilizaban el lenguaje para enfocar de diferentes formas lo que querían comunicar. Aristóteles fue uno de los filósofos que estudió la persuasión y la dividió en tres partes: ethos, logos y pathos. Llamó ethos a la credib",
           "interactiveChallenge": {
             "question": "¿Cómo reconoce un observador entrenado la programación neurolingüística en el contexto de \"Psicologia Y Principios De Persuasion\"?",
             "options": [
@@ -1231,7 +1232,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- FORMAS DE MANIPULACIÓN PSICOLÓGICA, DE LAS MÁS NOBLES A LAS MÁS MAQUIAVÉLICAS LA IMPORTANCIA DE LA MIRADA Evitar la influencia de la mirada humana es algo que pocas personas pueden realizar. Algunas de ellas tienen una forma de mirar que atrae naturalmente, en especial, aquellas que son capaces de mantener la mirada sin pestañear por un período de tiempo razonable. Esa mirada tiene que ser la proyección del pensamiento que intenta transmitirse. Algunos animales, también, saben ejercer esta fascinación en sus presas, las inmovilizan con el solo efecto de una mirada intensa. Para convencer a alguien es importante mirarlo a los ojos pero de una manera que el otro no la entienda como un desafío. La mirada desafiante podría resultar molesta a tal punto que la otra persona necesite desviar la suya. En este caso, no se lograría el contacto necesario para alcanzar la fascinación que el discurso necesita. La forma más sutil de iniciar la fascinación con la mirada sería utilizarla para lograr una influencia al hablar de temas que no tienen mucha trascendencia. En esta etapa, no se debe mostrar apuro ni impaciencia y se debe escuchar lo que el otro tiene para decir. Así como es necesario evitar la prisa, también es necesario evitar la timidez, la falsa modestia para lograr una mirada directa que denote franqueza y se dirija hacia la base de su nariz más que a los ojos directamente. Dará la sensación de que va dirigida a los ojos y será menos intensa y, por lo tanto, no generará mole",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Canalización Encubierta de Conductas\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_maquiavelica/maquiavelo_m6_formas_manipulacion.webp\" alt=\"Canalización Encubierta de Conductas\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- FORMAS DE MANIPULACIÓN PSICOLÓGICA, DE LAS MÁS NOBLES A LAS MÁS MAQUIAVÉLICAS LA IMPORTANCIA DE LA MIRADA Evitar la influencia de la mirada humana es algo que pocas personas pueden realizar. Algunas de ellas tienen una forma de mirar que atrae naturalmente, en especial, aquellas que son capaces de mantener la mirada sin pestañear por un período de tiempo razonable. Esa mirada tiene que ser la proyección del pensamiento que intenta transmitirse. Algunos animales, también, saben ejercer esta fascinación en sus presas, las inmovilizan con el solo efecto de una mirada intensa. Para convencer a alguien es importante mirarlo a los ojos pero de una manera que el otro no la entienda como un desafío. La mirada desafiante podría resultar molesta a tal punto que la otra persona necesite desviar la suya. En este caso, no se lograría el contacto necesario para alcanzar la fascinación que el discurso necesita. La forma más sutil de iniciar la fascinación con la mirada sería utilizarla para lograr una influencia al hablar de temas que no tienen mucha trascendencia. En esta etapa, no se debe mostrar apuro ni impaciencia y se debe escuchar lo que el otro tiene para decir. Así como es necesario evitar la prisa, también es necesario evitar la timidez, la falsa modestia para lograr una mirada directa que denote franqueza y se dirija hacia la base de su nariz más que a los ojos directamente. Dará la sensación de que va dirigida a los ojos y será menos intensa y, por lo tanto, no generará mole",
           "interactiveChallenge": {
             "question": "Según este módulo, ¿cuál es el mecanismo principal de la consistencia cognitiva en el contexto de \"Formas De Manipulacion E Influencia\"?",
             "options": [
@@ -1760,7 +1761,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- CÓMO CAMBIAR EL TEMA O LA DIRECCIÓN DE LA CONVERSACIÓN Cambiar el tema o la dirección de una conversación o de una disertación es otra de las habilidades que debe adquirir un buen orador o disertante. En esta técnica, se estará cambiando la dirección de los pensamientos de las personas con las que se está interactuando, dirigiéndolos de manera sutil hacia el lugar que se busca. También, esta técnica se utiliza para llevar la conversación o disertación de un tema al siguiente que se desea abordar. Es decir, al observar que la persona o el grupo están dando vueltas sobre una idea y no se llega a ningún lado con ello, el disertante aplica esta técnica para desviar el tema y llevar la conversación o disertación hacia el lado que le conviene. Este tipo de técnicas puede ser aplicada en diversas situaciones. Desde la vida cotidiana a la vida laboral, sin olvidar todas las oportunidades sociales en las que, por momentos, conviene cambiar el foco de la conversación que se está llevando adelante. Imagina cuántas veces habrás querido desviar la conversación y no supiste cómo hacerlo. Recuerda algunos momentos de tu vida en el que esta técnica hubiese sido utilizada por ti como una herramienta indispensable y los beneficios que hubieras obtenido de haberla hecho. De ahora en más, cada vez que te enfrentes a una situación similar, estarás en condiciones de utilizar esta técnica y así superar los escollos de una conversación. La forma de hacer este cambio es a través del siguiente esq",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Bucles de Influencia y Cadencia Hipnótica\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_maquiavelica/maquiavelo_m7_trucos_influencia.webp\" alt=\"Bucles de Influencia y Cadencia Hipnótica\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- CÓMO CAMBIAR EL TEMA O LA DIRECCIÓN DE LA CONVERSACIÓN Cambiar el tema o la dirección de una conversación o de una disertación es otra de las habilidades que debe adquirir un buen orador o disertante. En esta técnica, se estará cambiando la dirección de los pensamientos de las personas con las que se está interactuando, dirigiéndolos de manera sutil hacia el lugar que se busca. También, esta técnica se utiliza para llevar la conversación o disertación de un tema al siguiente que se desea abordar. Es decir, al observar que la persona o el grupo están dando vueltas sobre una idea y no se llega a ningún lado con ello, el disertante aplica esta técnica para desviar el tema y llevar la conversación o disertación hacia el lado que le conviene. Este tipo de técnicas puede ser aplicada en diversas situaciones. Desde la vida cotidiana a la vida laboral, sin olvidar todas las oportunidades sociales en las que, por momentos, conviene cambiar el foco de la conversación que se está llevando adelante. Imagina cuántas veces habrás querido desviar la conversación y no supiste cómo hacerlo. Recuerda algunos momentos de tu vida en el que esta técnica hubiese sido utilizada por ti como una herramienta indispensable y los beneficios que hubieras obtenido de haberla hecho. De ahora en más, cada vez que te enfrentes a una situación similar, estarás en condiciones de utilizar esta técnica y así superar los escollos de una conversación. La forma de hacer este cambio es a través del siguiente esq",
           "interactiveChallenge": {
             "question": "¿Qué distingue a un experto en la gaslighting sutil en el contexto de \"Trucos De Influencia Y Patrones\"?",
             "options": [
@@ -2202,7 +2203,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "MENTIRA POR COMISIÓN, MENTIRA POR OMISIÓN Y NEGACIÓN Ser capaz de darse cuenta cuándo están tratando de manipularte es una habilidad que colabora con la supervivencia dentro de la sociedad actual. Cada una de las personas del entorno en el que te desarrollas tiene sus propios intereses y es importante poder determinar en qué medida dichos intereses pueden perjudicarte. Las personas manipuladoras cuentan con años de práctica en psicología maquiavélica y muchas técnicas muy buenas y variadas, además de tener rasgos que los caracterizan y por los cuales se los puede llegar a identificar. Uno de los rasgos más típicos es el hecho de mentir. Se puede mentir por comisión o por omisión. Por comisión es lo que se conoce como mentira clásica, simplemente se está diciendo algo que no es cierto. Es una acción deliberada cuya finalidad es engañar o confundir obteniendo ventaja en ello. En general, este tipo de mentiras se hace con la intención de salir de un apuro o porque explicar la verdad llevaría tiempo y esfuerzo. Puede que no sea malintencionada, aunque no deja de ser una mentira. Un manipulador se caracteriza por mentir todo el tiempo porque ya lo tiene tan incorporado que decir la verdad no está en sus costumbres. La mentira por omisión también se la conoce como “detalles excluyentes”. En este caso, se dice parte de la verdad, pero se omiten a propósito ciertos detalles. Estas mentiras tienen un poco más de sofisticación que la anterior. La persona que la dice puede salir airosa",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Gaslighting, Distorsión y Laberintos de Evasión\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_maquiavelica/maquiavelo_m8_gaslighting_evasion.webp\" alt=\"Gaslighting, Distorsión y Laberintos de Evasión\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>MENTIRA POR COMISIÓN, MENTIRA POR OMISIÓN Y NEGACIÓN Ser capaz de darse cuenta cuándo están tratando de manipularte es una habilidad que colabora con la supervivencia dentro de la sociedad actual. Cada una de las personas del entorno en el que te desarrollas tiene sus propios intereses y es importante poder determinar en qué medida dichos intereses pueden perjudicarte. Las personas manipuladoras cuentan con años de práctica en psicología maquiavélica y muchas técnicas muy buenas y variadas, además de tener rasgos que los caracterizan y por los cuales se los puede llegar a identificar. Uno de los rasgos más típicos es el hecho de mentir. Se puede mentir por comisión o por omisión. Por comisión es lo que se conoce como mentira clásica, simplemente se está diciendo algo que no es cierto. Es una acción deliberada cuya finalidad es engañar o confundir obteniendo ventaja en ello. En general, este tipo de mentiras se hace con la intención de salir de un apuro o porque explicar la verdad llevaría tiempo y esfuerzo. Puede que no sea malintencionada, aunque no deja de ser una mentira. Un manipulador se caracteriza por mentir todo el tiempo porque ya lo tiene tan incorporado que decir la verdad no está en sus costumbres. La mentira por omisión también se la conoce como “detalles excluyentes”. En este caso, se dice parte de la verdad, pero se omiten a propósito ciertos detalles. Estas mentiras tienen un poco más de sofisticación que la anterior. La persona que la dice puede salir airosa",
           "interactiveChallenge": {
             "question": "¿Cuál de las siguientes afirmaciones sobre la reencuadre perceptual en el contexto de \"Tacticas Mentiras Gaslighting Y Evasion\"?",
             "options": [
@@ -2760,7 +2761,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- SACAR A RELUCIR EL PASADO Me gusta usar dos palabras en particular cuando estoy sacando a relucir el pasado. Harías bien en fijarte en estas palabras ya que son indicadores clave de que estoy aplicando esta técnica de manipulación. Estas dos palabras son “siempre” y “nunca”. De este modo, te recuerdo de una cosa buena que solías hacer en el pasado pero que ya no estás haciendo. H. G. Tudor Sacar a relucir el pasado es una técnica que se usa habitualmente por las personas que intentan manipular el presente. El pasado, en general, está cargado de culpas, de cosas que se podrían haber hecho y no se hicieron, de sentimientos que se podrían haber expresado y se mantuvieron en secreto, de decisiones que se podrían haber tomado pero no se tuvo el valor suficiente para hacerlo. Los manipuladores investigan a sus víctimas y descubren los secretos que guardan en su pasado, atesorándolos para sacarlos a la luz cuando la ocasión lo amerite. Son expertos en el arte de manejar los sentimientos que el pasado genera. A veces resulta increíble que una persona que apenas recuerda lo que pasó ayer, de pronto recuerde detalles que sucedieron hace años como si los estuviera viendo en una película. Pero así de selectiva puede ser la memoria cuando se la asocia con sentimientos tanto positivos como negativos. Aún más si la persona tiene la intención de manipular a otra con los acontecimientos que van sucediendo. Los recuerdos asociados a sentimientos positivos conforman la memoria que reconfort",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Refuerzo Intermitente y Presión Temporal\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_maquiavelica/maquiavelo_m9_tecnicas_presion.webp\" alt=\"Refuerzo Intermitente y Presión Temporal\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- SACAR A RELUCIR EL PASADO Me gusta usar dos palabras en particular cuando estoy sacando a relucir el pasado. Harías bien en fijarte en estas palabras ya que son indicadores clave de que estoy aplicando esta técnica de manipulación. Estas dos palabras son “siempre” y “nunca”. De este modo, te recuerdo de una cosa buena que solías hacer en el pasado pero que ya no estás haciendo. H. G. Tudor Sacar a relucir el pasado es una técnica que se usa habitualmente por las personas que intentan manipular el presente. El pasado, en general, está cargado de culpas, de cosas que se podrían haber hecho y no se hicieron, de sentimientos que se podrían haber expresado y se mantuvieron en secreto, de decisiones que se podrían haber tomado pero no se tuvo el valor suficiente para hacerlo. Los manipuladores investigan a sus víctimas y descubren los secretos que guardan en su pasado, atesorándolos para sacarlos a la luz cuando la ocasión lo amerite. Son expertos en el arte de manejar los sentimientos que el pasado genera. A veces resulta increíble que una persona que apenas recuerda lo que pasó ayer, de pronto recuerde detalles que sucedieron hace años como si los estuviera viendo en una película. Pero así de selectiva puede ser la memoria cuando se la asocia con sentimientos tanto positivos como negativos. Aún más si la persona tiene la intención de manipular a otra con los acontecimientos que van sucediendo. Los recuerdos asociados a sentimientos positivos conforman la memoria que reconfort",
           "interactiveChallenge": {
             "question": "Al aplicar los principios de la programación neurolingüística en el contexto de \"Tecnicas De Presion Y Refuerzos\"?",
             "options": [
@@ -3231,7 +3232,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- EL BOMBARDEO DE AMOR Y EL TRATAMIENTO SILENCIOSO El “bombardeo de amor” es muy utilizado a la hora de querer conquistar a una persona. Es usado no solamente en el caso de pretender una relación amorosa, sino cuando se espera llegar a alguien para lograr una relación cercana lo antes posible. Como vimos en un apartado anterior, consiste en demostraciones de cariño exageradas para halagar a la persona elegida. Cuando un manipulador espera controlar a una víctima, se acercará y sin mediar demasiadas interacciones, comenzará su “bombardeo de amor” para demostrar que está interesado. Por eso, este bombardeo inesperado por parte de alguien que recién estás conociendo, debería ser una llamada de atención ya que no es lo habitual que alguien demuestre tanta generosidad y altruismo. Si la víctima se deja envolver, le estará facilitando el camino al manipulador, quien combinará otras técnicas que la llevarán al sometimiento, perdiendo su identidad, su entorno de amigos, lo más probable que también su dinero y, por consecuencia, su salud mental. Este método es tan efectivo que es muy utilizado por los depredadores sexuales cuando intentan llegar a las adolescentes. También es utilizado por los líderes religiosos para lograr atraer adeptos, en especial, personas que están solas. El “bombardeo de amor” los hace sentir contenidos, queridos, tenidos en cuenta, en definitiva, desarrollan su sentimiento de pertenencia a la fe que este líder está profesando. El objetivo primordial al aplic",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Bombardeo de Afecto vs Ley del Silencio\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_maquiavelica/maquiavelo_m10_love_bombing_silencio.webp\" alt=\"Bombardeo de Afecto vs Ley del Silencio\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- EL BOMBARDEO DE AMOR Y EL TRATAMIENTO SILENCIOSO El “bombardeo de amor” es muy utilizado a la hora de querer conquistar a una persona. Es usado no solamente en el caso de pretender una relación amorosa, sino cuando se espera llegar a alguien para lograr una relación cercana lo antes posible. Como vimos en un apartado anterior, consiste en demostraciones de cariño exageradas para halagar a la persona elegida. Cuando un manipulador espera controlar a una víctima, se acercará y sin mediar demasiadas interacciones, comenzará su “bombardeo de amor” para demostrar que está interesado. Por eso, este bombardeo inesperado por parte de alguien que recién estás conociendo, debería ser una llamada de atención ya que no es lo habitual que alguien demuestre tanta generosidad y altruismo. Si la víctima se deja envolver, le estará facilitando el camino al manipulador, quien combinará otras técnicas que la llevarán al sometimiento, perdiendo su identidad, su entorno de amigos, lo más probable que también su dinero y, por consecuencia, su salud mental. Este método es tan efectivo que es muy utilizado por los depredadores sexuales cuando intentan llegar a las adolescentes. También es utilizado por los líderes religiosos para lograr atraer adeptos, en especial, personas que están solas. El “bombardeo de amor” los hace sentir contenidos, queridos, tenidos en cuenta, en definitiva, desarrollan su sentimiento de pertenencia a la fe que este líder está profesando. El objetivo primordial al aplic",
           "interactiveChallenge": {
             "question": "¿Qué estrategia resulta más efectiva para la consistencia cognitiva en el contexto de \"Bombardeo De Amor Silencio E Intimidacion\"?",
             "options": [
@@ -3586,7 +3587,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "¿CÓMO DARSE CUENTA DE QUE SE ESTÁ SIENDO MANIPULADO? En general, el que ejerce la manipulación suele ser una persona encantadora, carismática y es difícil reconocer que sus acciones son malintencionadas porque en apariencia parece muy sincero y honesto. Su trabajo es sutil, elaborado, muy bien planeado y no se reconoce su accionar hasta que ha pasado un tiempo y se analizan los hechos. Es frecuente que al llenar los vacíos emocionales se cierren los aspectos racionales de la persona manipulada y esta no vea lo que está sucediendo en realidad. La gran habilidad que demuestra el manipulador hace que la víctima sea su títere manejado a su antojo. Por estas razones, es importante estar atento y aprender a visualizar las señales que distinguen a un manipulador. No es necesario conocer de técnicas para darse cuenta si alguien de tu entorno o un extraño está tratando de manipularte. Si estás en una relación es necesario analizar los siguientes puntos, en los que te mirarás a ti mismo, para saber si la otra persona ejerce la manipulación contigo: ● Cuando pasas de la alegría de haber encontrado finalmente el amor pero en poco tiempo esa alegría se transforma en temor a perderlo. Tus sentimientos de alegría y felicidad de pronto son sentimientos de tristeza, angustia y desesperación. ● Tus emociones no tienen término medio, pasas de un estado de plenitud a un estado de vacío sin mediar situaciones conflictivas. ● Mantienes la relación aún cuando la mayoría del tiempo no te encuentras",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Lente de Discernimiento y Autoprotección\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_maquiavelica/maquiavelo_m11_detectar_conclusion.webp\" alt=\"Lente de Discernimiento y Autoprotección\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>¿CÓMO DARSE CUENTA DE QUE SE ESTÁ SIENDO MANIPULADO? En general, el que ejerce la manipulación suele ser una persona encantadora, carismática y es difícil reconocer que sus acciones son malintencionadas porque en apariencia parece muy sincero y honesto. Su trabajo es sutil, elaborado, muy bien planeado y no se reconoce su accionar hasta que ha pasado un tiempo y se analizan los hechos. Es frecuente que al llenar los vacíos emocionales se cierren los aspectos racionales de la persona manipulada y esta no vea lo que está sucediendo en realidad. La gran habilidad que demuestra el manipulador hace que la víctima sea su títere manejado a su antojo. Por estas razones, es importante estar atento y aprender a visualizar las señales que distinguen a un manipulador. No es necesario conocer de técnicas para darse cuenta si alguien de tu entorno o un extraño está tratando de manipularte. Si estás en una relación es necesario analizar los siguientes puntos, en los que te mirarás a ti mismo, para saber si la otra persona ejerce la manipulación contigo: ● Cuando pasas de la alegría de haber encontrado finalmente el amor pero en poco tiempo esa alegría se transforma en temor a perderlo. Tus sentimientos de alegría y felicidad de pronto son sentimientos de tristeza, angustia y desesperación. ● Tus emociones no tienen término medio, pasas de un estado de plenitud a un estado de vacío sin mediar situaciones conflictivas. ● Mantienes la relación aún cuando la mayoría del tiempo no te encuentras",
           "interactiveChallenge": {
             "question": "Ante una situación de la gaslighting sutil en el contexto de \"Como Detectar Manipulacion Y Conclusion\"?",
             "options": [
@@ -3875,6 +3876,594 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS001",
+      "category": "Manipulación",
+      "title": "El dilema del subordinado",
+      "difficulty": "Hard",
+      "badge": "Maquiavelo Estratega",
+      "scenarioDescription": "Un colega intenta usar gaslighting para hacerte dudar de un informe que presentaste. ¿Cómo respondes?",
+      "options": [
+        {
+          "text": "Confrontar agresivamente frente al equipo.",
+          "outcome": "Pérdida de control emocional.",
+          "wisdomScore": 20,
+          "analysis": "La agresividad expone tu vulnerabilidad.",
+          "bookInsight": "El poder requiere frialdad, no explosividad."
+        },
+        {
+          "text": "Documentar evidencias y responder con datos fríos.",
+          "outcome": "Victoria estratégica.",
+          "wisdomScore": 95,
+          "analysis": "La neutralidad desactiva la manipulación.",
+          "bookInsight": "La verdad es el arma más potente contra el gaslighting."
+        }
+      ]
+    },
+    {
+      "id": "CS002",
+      "category": "Persuasión",
+      "title": "Negociación de alto riesgo",
+      "difficulty": "Medium",
+      "badge": "Influenciador",
+      "scenarioDescription": "Tu oponente usa el silencio para presionarte a hablar de más.",
+      "options": [
+        {
+          "text": "Romper el silencio con una oferta mejorada.",
+          "outcome": "Debilidad percibida.",
+          "wisdomScore": 30,
+          "analysis": "Ceder ante el silencio es una derrota táctica.",
+          "bookInsight": "El silencio es una herramienta de poder; quien habla primero, pierde."
+        },
+        {
+          "text": "Mantener el contacto visual y esperar en silencio.",
+          "outcome": "Dominio del espacio.",
+          "wisdomScore": 90,
+          "analysis": "El silencio compartido transfiere la presión al otro.",
+          "bookInsight": "El control del tiempo es el control de la negociación."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Intimidación",
+      "title": "El jefe autoritario",
+      "difficulty": "Hard",
+      "badge": "Resiliencia",
+      "scenarioDescription": "Tu superior utiliza el bombardeo de amor seguido de críticas destructivas.",
+      "options": [
+        {
+          "text": "Aceptar la crítica para mejorar la relación.",
+          "outcome": "Ciclo de abuso reforzado.",
+          "wisdomScore": 10,
+          "analysis": "Validar el ciclo solo te hace más dependiente.",
+          "bookInsight": "El bombardeo de amor es el anzuelo; la crítica es el castigo."
+        },
+        {
+          "text": "Establecer límites claros sobre la comunicación profesional.",
+          "outcome": "Reajuste de poder.",
+          "wisdomScore": 85,
+          "analysis": "Los límites rompen la dinámica de manipulación.",
+          "bookInsight": "La distancia emocional es la mejor defensa."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Influencia",
+      "title": "La alianza estratégica",
+      "difficulty": "Medium",
+      "badge": "Diplomático",
+      "scenarioDescription": "Necesitas convencer a un rival de colaborar sin revelar tus verdaderas intenciones.",
+      "options": [
+        {
+          "text": "Revelar tu plan completo para generar confianza.",
+          "outcome": "Vulnerabilidad extrema.",
+          "wisdomScore": 15,
+          "analysis": "La transparencia total es un error táctico.",
+          "bookInsight": "Nunca reveles tus cartas hasta que el juego esté ganado."
+        },
+        {
+          "text": "Presentar una propuesta que beneficie sus intereses inmediatos.",
+          "outcome": "Cooperación lograda.",
+          "wisdomScore": 95,
+          "analysis": "La persuasión efectiva se basa en el interés propio del otro.",
+          "bookInsight": "Haz que el otro crea que tu plan es su idea."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Evasión",
+      "title": "La trampa de la culpa",
+      "difficulty": "Medium",
+      "badge": "Psicólogo",
+      "scenarioDescription": "Alguien intenta manipularte apelando a tu sentido de culpa por un error pasado.",
+      "options": [
+        {
+          "text": "Disculparte profusamente y aceptar sus condiciones.",
+          "outcome": "Sometimiento.",
+          "wisdomScore": 20,
+          "analysis": "La culpa es una herramienta de control.",
+          "bookInsight": "No permitas que el pasado dicte tu presente."
+        },
+        {
+          "text": "Reconocer el error brevemente y cambiar el enfoque al futuro.",
+          "outcome": "Control de la narrativa.",
+          "wisdomScore": 80,
+          "analysis": "Desviar la atención neutraliza la culpa.",
+          "bookInsight": "Quien controla la narrativa, controla el resultado."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Poder",
+      "title": "La gestión de la imagen",
+      "difficulty": "Hard",
+      "badge": "Maquiavélico",
+      "scenarioDescription": "Se difunde un rumor falso sobre ti en la oficina.",
+      "options": [
+        {
+          "text": "Desmentir el rumor con furia ante todos.",
+          "outcome": "Validación del rumor.",
+          "wisdomScore": 25,
+          "analysis": "La defensa apasionada parece una confesión.",
+          "bookInsight": "La indiferencia es la respuesta más elegante."
+        },
+        {
+          "text": "Ignorar el rumor y actuar con total normalidad.",
+          "outcome": "El rumor muere por falta de combustible.",
+          "wisdomScore": 90,
+          "analysis": "La falta de reacción deslegitima el ataque.",
+          "bookInsight": "Tu reputación se defiende con hechos, no con palabras."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "F01",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Hacer dudar a alguien de su propia percepción.",
+      "tacticalUse": "Desestabilizar la confianza del oponente.",
+      "countermeasure": "Mantener registros escritos."
+    },
+    {
+      "id": "F02",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Reciprocidad",
+      "definition": "Sentir la obligación de devolver un favor.",
+      "tacticalUse": "Dar algo pequeño para pedir algo grande.",
+      "countermeasure": "Evaluar el favor sin carga emocional."
+    },
+    {
+      "id": "F03",
+      "bookNumber": 1,
+      "category": "Intimidación",
+      "term": "Bombardeo de amor",
+      "definition": "Exceso de afecto para crear dependencia.",
+      "tacticalUse": "Ganar lealtad rápida.",
+      "countermeasure": "Mantener distancia crítica."
+    },
+    {
+      "id": "F04",
+      "bookNumber": 1,
+      "category": "Influencia",
+      "term": "Anclaje",
+      "definition": "Usar la primera información para sesgar juicios.",
+      "tacticalUse": "Establecer el precio inicial.",
+      "countermeasure": "Investigar el valor real antes de negociar."
+    },
+    {
+      "id": "F05",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Ley del Silencio",
+      "definition": "Usar el silencio para generar incomodidad.",
+      "tacticalUse": "Forzar al otro a hablar de más.",
+      "countermeasure": "Aceptar el silencio con calma."
+    },
+    {
+      "id": "F06",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Proyección",
+      "definition": "Atribuir defectos propios a otros.",
+      "tacticalUse": "Desviar la culpa.",
+      "countermeasure": "Analizar la conducta del acusador."
+    },
+    {
+      "id": "F07",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Prueba Social",
+      "definition": "Seguir la conducta de la mayoría.",
+      "tacticalUse": "Crear una falsa sensación de consenso.",
+      "countermeasure": "Pensar de forma independiente."
+    },
+    {
+      "id": "F08",
+      "bookNumber": 1,
+      "category": "Intimidación",
+      "term": "Triangulación",
+      "definition": "Involucrar a un tercero para crear conflicto.",
+      "tacticalUse": "Dividir y vencer.",
+      "countermeasure": "Comunicación directa con las partes."
+    },
+    {
+      "id": "F09",
+      "bookNumber": 1,
+      "category": "Influencia",
+      "term": "Escasez",
+      "definition": "Valorar más lo que es difícil de obtener.",
+      "tacticalUse": "Crear urgencia artificial.",
+      "countermeasure": "Evaluar la necesidad real."
+    },
+    {
+      "id": "F10",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Autoridad",
+      "definition": "Influencia basada en el estatus percibido.",
+      "tacticalUse": "Imponer decisiones sin debate.",
+      "countermeasure": "Cuestionar la fuente de autoridad."
+    },
+    {
+      "id": "F11",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Refuerzo intermitente",
+      "definition": "Premiar de forma aleatoria.",
+      "tacticalUse": "Generar adicción conductual.",
+      "countermeasure": "Identificar el patrón de recompensa."
+    },
+    {
+      "id": "F12",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Encuadre",
+      "definition": "Presentar la información bajo una luz específica.",
+      "tacticalUse": "Dirigir la conclusión del otro.",
+      "countermeasure": "Cambiar el marco de referencia."
+    },
+    {
+      "id": "F13",
+      "bookNumber": 1,
+      "category": "Intimidación",
+      "term": "Aislamiento",
+      "definition": "Separar a la víctima de su red de apoyo.",
+      "tacticalUse": "Hacer a la víctima dependiente.",
+      "countermeasure": "Mantener redes sociales externas."
+    },
+    {
+      "id": "F14",
+      "bookNumber": 1,
+      "category": "Influencia",
+      "term": "Compromiso",
+      "definition": "Lograr un pequeño sí para obtener un gran sí.",
+      "tacticalUse": "Escalar la obediencia.",
+      "countermeasure": "Negarse a compromisos pequeños."
+    },
+    {
+      "id": "F15",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Deshumanización",
+      "definition": "Ver al otro como un objeto.",
+      "tacticalUse": "Eliminar la empatía en la toma de decisiones.",
+      "countermeasure": "Reafirmar la humanidad propia."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Persuasión",
+      "name": "La Técnica del Pie en la Puerta",
+      "severity": "Low",
+      "icon": "door",
+      "howItWorks": "Pedir un favor pequeño para luego pedir uno grande.",
+      "redFlags": "Peticiones que escalan rápidamente.",
+      "counterScript": "No puedo comprometerme con eso ahora.",
+      "deepMechanism": "Consistencia cognitiva."
+    },
+    {
+      "id": "TM02",
+      "category": "Manipulación",
+      "name": "Gaslighting",
+      "severity": "High",
+      "icon": "cloud",
+      "howItWorks": "Negar hechos para confundir a la víctima.",
+      "redFlags": "Sentir que te vuelves loco.",
+      "counterScript": "Tengo pruebas de lo que ocurrió.",
+      "deepMechanism": "Erosión de la realidad."
+    },
+    {
+      "id": "TM03",
+      "category": "Influencia",
+      "name": "Anclaje de Precios",
+      "severity": "Medium",
+      "icon": "anchor",
+      "howItWorks": "Lanzar una cifra alta para que la real parezca baja.",
+      "redFlags": "Ofertas iniciales desproporcionadas.",
+      "counterScript": "Mi presupuesto es X, ignoremos esa cifra.",
+      "deepMechanism": "Sesgo de ajuste."
+    },
+    {
+      "id": "TM04",
+      "category": "Intimidación",
+      "name": "Silencio Táctico",
+      "severity": "Medium",
+      "icon": "mute",
+      "howItWorks": "Callar para que el otro llene el vacío.",
+      "redFlags": "Incomodidad forzada.",
+      "counterScript": "Parece que necesitas tiempo para pensar.",
+      "deepMechanism": "Ansiedad social."
+    },
+    {
+      "id": "TM05",
+      "category": "Poder",
+      "name": "Triangulación",
+      "severity": "High",
+      "icon": "triangle",
+      "howItWorks": "Usar a terceros para validar una mentira.",
+      "redFlags": "Historias contradictorias.",
+      "counterScript": "Hablemos todos juntos sobre esto.",
+      "deepMechanism": "División de lealtades."
+    },
+    {
+      "id": "TM06",
+      "category": "Persuasión",
+      "name": "Reciprocidad Forzada",
+      "severity": "Low",
+      "icon": "gift",
+      "howItWorks": "Dar algo no solicitado para cobrar un favor.",
+      "redFlags": "Regalos inesperados.",
+      "counterScript": "Gracias, pero no puedo aceptarlo.",
+      "deepMechanism": "Deuda psicológica."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Qué es el gaslighting?",
+      "options": [
+        "Un tipo de iluminación",
+        "Manipulación de la realidad",
+        "Un truco de magia",
+        "Una técnica de ventas"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una forma de abuso psicológico donde se hace dudar a la víctima de su percepción."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 1,
+      "question": "¿Por qué el silencio es una herramienta de poder?",
+      "options": [
+        "Porque ahorra energía",
+        "Porque intimida al interlocutor",
+        "Porque es educado",
+        "Porque evita errores"
+      ],
+      "correctIndex": 1,
+      "explanation": "El silencio genera presión en el otro para que revele información."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 1,
+      "question": "¿Qué es el bombardeo de amor?",
+      "options": [
+        "Un ataque militar",
+        "Un exceso de afecto inicial",
+        "Un regalo costoso",
+        "Una técnica de marketing"
+      ],
+      "correctIndex": 1,
+      "explanation": "Se usa para crear una dependencia emocional rápida."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "¿Qué busca la triangulación?",
+      "options": [
+        "Unir equipos",
+        "Crear conflicto entre terceros",
+        "Mejorar la comunicación",
+        "Ahorrar tiempo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Busca dividir para mantener el control."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 1,
+      "question": "¿Qué es el anclaje?",
+      "options": [
+        "Un barco",
+        "Un sesgo cognitivo de referencia",
+        "Una técnica de escritura",
+        "Un tipo de contrato"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es usar la primera información como base de juicio."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 1,
+      "question": "¿Cuál es la mejor defensa contra la manipulación?",
+      "options": [
+        "La ignorancia",
+        "La distancia emocional y límites",
+        "La venganza",
+        "La sumisión"
+      ],
+      "correctIndex": 1,
+      "explanation": "Mantener límites claros evita que la manipulación sea efectiva."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Maquiavelismo",
+      "category": "Teoría",
+      "definition": "Uso de la astucia y el engaño en política.",
+      "practicalExample": "Ocultar intenciones en una negociación."
+    },
+    {
+      "id": "G02",
+      "term": "Manipulación",
+      "category": "Técnica",
+      "definition": "Controlar a otros para beneficio propio.",
+      "practicalExample": "Hacer sentir culpable a alguien."
+    },
+    {
+      "id": "G03",
+      "term": "Persuasión",
+      "category": "Técnica",
+      "definition": "Convencer mediante argumentos.",
+      "practicalExample": "Vender una idea con beneficios claros."
+    },
+    {
+      "id": "G04",
+      "term": "Gaslighting",
+      "category": "Psicología",
+      "definition": "Negación de la realidad del otro.",
+      "practicalExample": "Decir 'eso nunca pasó'."
+    },
+    {
+      "id": "G05",
+      "term": "Triangulación",
+      "category": "Poder",
+      "definition": "Involucrar a terceros en conflictos.",
+      "practicalExample": "Hablar mal de A con B."
+    },
+    {
+      "id": "G06",
+      "term": "Refuerzo",
+      "category": "Psicología",
+      "definition": "Premio para repetir conducta.",
+      "practicalExample": "Elogiar solo cuando hacen lo que quieres."
+    },
+    {
+      "id": "G07",
+      "term": "Intimidación",
+      "category": "Poder",
+      "definition": "Uso del miedo para controlar.",
+      "practicalExample": "Mirada fija y tono autoritario."
+    },
+    {
+      "id": "G08",
+      "term": "Evasión",
+      "category": "Técnica",
+      "definition": "Evitar responder directamente.",
+      "practicalExample": "Cambiar de tema ante una pregunta difícil."
+    },
+    {
+      "id": "G09",
+      "term": "Anclaje",
+      "category": "Influencia",
+      "definition": "Sesgo de referencia inicial.",
+      "practicalExample": "Pedir 100 para aceptar 50."
+    },
+    {
+      "id": "G10",
+      "term": "Reciprocidad",
+      "category": "Persuasión",
+      "definition": "Deuda moral por un favor.",
+      "practicalExample": "Invitar un café para pedir un favor."
+    },
+    {
+      "id": "G11",
+      "term": "Escasez",
+      "category": "Influencia",
+      "definition": "Valorar lo limitado.",
+      "practicalExample": "Decir 'es la última unidad'."
+    },
+    {
+      "id": "G12",
+      "term": "Proyección",
+      "category": "Psicología",
+      "definition": "Atribuir culpas propias.",
+      "practicalExample": "Llamar mentiroso al que te descubrió."
+    },
+    {
+      "id": "G13",
+      "term": "Aislamiento",
+      "category": "Poder",
+      "definition": "Cortar apoyos sociales.",
+      "practicalExample": "Criticar a los amigos de la víctima."
+    },
+    {
+      "id": "G14",
+      "term": "Encuadre",
+      "category": "Persuasión",
+      "definition": "Contextualizar la información.",
+      "practicalExample": "Presentar un riesgo como una oportunidad."
+    },
+    {
+      "id": "G15",
+      "term": "Resiliencia",
+      "category": "Psicología",
+      "definition": "Capacidad de resistir manipulación.",
+      "practicalExample": "Mantener la calma ante ataques."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Poder",
+      "title": "Contacto Visual Sostenido",
+      "cue": "Mirar sin parpadear excesivamente.",
+      "interpretation": "Dominio y falta de miedo.",
+      "practicalDrill": "Mantener la mirada 3 segundos más de lo normal."
+    },
+    {
+      "id": "BL02",
+      "category": "Persuasión",
+      "title": "Postura Abierta",
+      "cue": "Brazos sin cruzar y pecho expuesto.",
+      "interpretation": "Confianza y transparencia.",
+      "practicalDrill": "Practicar hablar con manos visibles."
+    },
+    {
+      "id": "BL03",
+      "category": "Intimidación",
+      "title": "Invasión del Espacio Personal",
+      "cue": "Acercarse más de lo habitual.",
+      "interpretation": "Intento de dominación física.",
+      "practicalDrill": "Dar un paso atrás para recuperar espacio."
+    },
+    {
+      "id": "BL04",
+      "category": "Manipulación",
+      "title": "Microexpresiones",
+      "cue": "Gestos faciales rápidos de desprecio.",
+      "interpretation": "Ocultamiento de sentimientos reales.",
+      "practicalDrill": "Observar videos en cámara lenta."
+    },
+    {
+      "id": "BL05",
+      "category": "Influencia",
+      "title": "Espejo (Mirroring)",
+      "cue": "Imitar sutilmente la postura del otro.",
+      "interpretation": "Crear afinidad y confianza.",
+      "practicalDrill": "Copiar el ritmo de respiración del otro."
+    },
+    {
+      "id": "BL06",
+      "category": "Poder",
+      "title": "La Pausa de Autoridad",
+      "cue": "Hacer silencio antes de responder.",
+      "interpretation": "Control del tiempo y seguridad.",
+      "practicalDrill": "Contar hasta 2 antes de hablar."
     }
   ]
 };

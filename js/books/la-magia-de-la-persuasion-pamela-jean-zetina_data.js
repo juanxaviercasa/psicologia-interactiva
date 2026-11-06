@@ -8460,93 +8460,577 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Negociación Ejecutiva y Cierre de Proyectos",
-      "title": "La Presentación del Proyecto Estratégico ante un Director Rígido",
-      "difficulty": "Alta",
-      "badge": "Maestro del Rapport y Cierre",
-      "scenarioDescription": "Tienes 20 minutos para presentar un proyecto de reestructuración a un Director Financiero famoso por ser frío, altamente analítico y escéptico ante ideas innovadoras. Si solo te enfocas en vender entusiasmo, el proyecto será rechazado. ¿Cómo utilizas el método de los 5 pasos para convencerlo?",
+      "id": "CS001",
+      "category": "Persuasión",
+      "title": "El dilema de la primera impresión",
+      "difficulty": "Intermedio",
+      "badge": "Maestro de la Imagen",
+      "scenarioDescription": "Debes convencer a un inversor escéptico en 30 segundos. Tu lenguaje corporal es tenso y tu voz es monótona.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Cautivas con un lenguaje corporal sereno y voz pausada; comprendes que su input clave es la reducción de riesgo financiero; conectas usando datos claros en su mismo ritmo de habla; comunicas asertivamente los beneficios exactos y cierras reduciendo el margen de riesgo percibido.",
-          "outcome": "Éxito Absoluto",
-          "wisdomScore": 100,
-          "analysis": "Aplicaste los 5 pasos de Pamela Jean perfectamente. Al leer que su 'input' es la seguridad financiera y adaptar tu voz y ritmo a su perfil analítico, redujiste sus barreras defensivas y facilitaste un cierre seguro.",
-          "bookInsight": "El verdadero persuasor no intenta cambiar la naturaleza del interlocutor; adapta su mensaje a la frecuencia receptora de esa persona."
+          "text": "Ajustar postura, sonreír y modular el tono de voz antes de hablar.",
+          "outcome": "Éxito: El inversor muestra apertura inmediata.",
+          "wisdomScore": 95,
+          "analysis": "La primera impresión es el anclaje psicológico más fuerte.",
+          "bookInsight": "Basado en 'Paso 1 Cautiva: Imagen Vocal y Corporal'."
         },
         {
-          "id": "opt2",
-          "text": "Entras con mucha euforia e hiperactividad para contagiarlo de energía, omites los datos fríos para no aburrirlo y pasas directamente al cierre pidiéndole que confíe en tu intuición e innovación.",
-          "outcome": "Fracaso Repentino",
-          "wisdomScore": 20,
-          "analysis": "Chocaste frontalmente contra su perfil de personalidad analítico. Al no cautivar con sobriedad ni comprender sus inputs de seguridad, la euforia fue percibida como falta de rigor y poco profesionalismo.",
-          "bookInsight": "Tratar de vender entusiasmo a un perfil analítico e inseguro sin datos genera desconfianza inmediata."
+          "text": "Ir directo a los números sin cambiar tu postura.",
+          "outcome": "Fracaso: El inversor se desconecta por falta de confianza.",
+          "wisdomScore": 30,
+          "analysis": "La lógica sin presencia es ignorada.",
+          "bookInsight": "La reputación se construye antes de la primera palabra."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Manejo de Crisis y Clientes Difíciles",
-      "title": "Desalentando la Molestia de un Cliente Clave descontento",
-      "difficulty": "Alta",
-      "badge": "Mago de la Empatía y Asertividad",
-      "scenarioDescription": "Un cliente VIP entra a tu oficina sumamente furioso interrumpiendo tu jornada porque hubo un retraso en la entrega de su servicio. Está levantando la voz y demandando la cancelación de su contrato. ¿Cómo gestionas la situación con 'La Magia de la Persuasión'?",
+      "id": "CS002",
+      "category": "Psicología Oscura",
+      "title": "La trampa de la empatía",
+      "difficulty": "Avanzado",
+      "badge": "Estratega Empático",
+      "scenarioDescription": "Un colega intenta manipularte usando una historia triste para obtener información confidencial.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Calibras la emoción del cliente, mantienes una postura corporal abierta y serena; usas un tono de voz calmado y grave; practicas la escucha activa validando su frustración ('Comprendo perfectamente su molestia...'); y una vez en Rapport, comunicas una solución asertiva garantizando el cierre del problema.",
-          "outcome": "Éxito y Fidelización",
-          "wisdomScore": 100,
-          "analysis": "Lograste desactivar la carga límbica del cliente. Al no engancharte con su agresión y actuar como un ancla de calma (imagen vocal y corporal), la persona bajó la guardia, permitiendo conectar y resolver el problema asertivamente.",
-          "bookInsight": "Para liderar el estado emocional de otra persona, primero debes mantener un autocontrol impecable y luego llevarla gradualmente a tu estado deseado."
+          "text": "Validar su emoción pero mantener el límite de información.",
+          "outcome": "Éxito: Mantienes el control sin parecer frío.",
+          "wisdomScore": 90,
+          "analysis": "La empatía táctica permite conectar sin ser vulnerable.",
+          "bookInsight": "Basado en 'Paso 2 Comprende: Empatía y Personalidades'."
         },
         {
-          "id": "opt2",
-          "text": "Levantas la voz a su mismo nivel para demostrar autoridad y que no te intimidará, le interrumpes citando las cláusulas del contrato que eximen a la empresa de culpa y le exiges que se calme antes de hablar.",
-          "outcome": "Escalación de Conflicto",
-          "wisdomScore": 15,
-          "analysis": "Atacarse emocionalmente eleva la postura defensiva. Rompiste cualquier posibilidad de Rapport, dañaste la reputación corporativa y perdiste al cliente definitivamente.",
-          "bookInsight": "Atacar la emoción del otro con agresión o lógica fría cuando está alterado solo incrementa la resistencia y destruye la relación."
+          "text": "Ignorar su historia y cambiar de tema bruscamente.",
+          "outcome": "Fracaso: Generas resentimiento y sospecha.",
+          "wisdomScore": 40,
+          "analysis": "La frialdad excesiva cierra puertas de influencia.",
+          "bookInsight": "La empatía es una herramienta de lectura, no solo de sentimiento."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Persuasión",
+      "title": "El poder de la reputación",
+      "difficulty": "Intermedio",
+      "badge": "Arquitecto de Marca",
+      "scenarioDescription": "Te enfrentas a un rumor falso sobre tu ética profesional en una reunión importante.",
+      "options": [
+        {
+          "text": "Abordar el tema con calma, citando hechos y manteniendo contacto visual firme.",
+          "outcome": "Éxito: Neutralizas el rumor con autoridad.",
+          "wisdomScore": 85,
+          "analysis": "La reputación se defiende con presencia, no con excusas.",
+          "bookInsight": "Basado en 'Paso 1 Cautiva: Lenguaje Corporal y Reputación'."
+        },
+        {
+          "text": "Negar todo agresivamente y atacar al acusador.",
+          "outcome": "Fracaso: Pareces culpable y pierdes credibilidad.",
+          "wisdomScore": 20,
+          "analysis": "La defensiva es una señal de debilidad.",
+          "bookInsight": "La reputación es el escudo del mago."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Psicología Oscura",
+      "title": "Identificando inputs",
+      "difficulty": "Avanzado",
+      "badge": "Lector de Mentes",
+      "scenarioDescription": "Tu interlocutor tiene una personalidad dominante y necesita sentirse en control.",
+      "options": [
+        {
+          "text": "Presentar opciones que le permitan elegir, dándole la ilusión de control.",
+          "outcome": "Éxito: Acepta tu propuesta creyendo que fue suya.",
+          "wisdomScore": 95,
+          "analysis": "Satisfacer necesidades ocultas es la clave de la persuasión.",
+          "bookInsight": "Basado en 'Paso 2 Comprende: Inputs y Necesidades'."
+        },
+        {
+          "text": "Imponer tu autoridad para demostrar quién manda.",
+          "outcome": "Fracaso: Se genera una lucha de poder innecesaria.",
+          "wisdomScore": 35,
+          "analysis": "El choque de egos destruye la influencia.",
+          "bookInsight": "El mago no compite, el mago dirige."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Persuasión",
+      "title": "Persuasión vs Manipulación",
+      "difficulty": "Básico",
+      "badge": "Ética del Poder",
+      "scenarioDescription": "Quieres que un cliente compre un producto que realmente no necesita.",
+      "options": [
+        {
+          "text": "Enfocarte en los beneficios reales que sí le sirven.",
+          "outcome": "Éxito: Generas confianza a largo plazo.",
+          "wisdomScore": 100,
+          "analysis": "La persuasión ética crea lealtad.",
+          "bookInsight": "Basado en 'Persuasión vs Manipulación'."
+        },
+        {
+          "text": "Usar técnicas de miedo para forzar la venta.",
+          "outcome": "Fracaso: El cliente se sentirá engañado y no volverá.",
+          "wisdomScore": 10,
+          "analysis": "La manipulación es cortoplacista y destructiva.",
+          "bookInsight": "La diferencia radica en la intención."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Persuasión",
+      "title": "El lenguaje del mago",
+      "difficulty": "Intermedio",
+      "badge": "Maestro de la Comunicación",
+      "scenarioDescription": "Tu audiencia está aburrida durante una presentación técnica.",
+      "options": [
+        {
+          "text": "Cambiar el ritmo, usar historias y variar el tono de voz.",
+          "outcome": "Éxito: Recuperas la atención y el interés.",
+          "wisdomScore": 88,
+          "analysis": "La variedad es el antídoto contra el desinterés.",
+          "bookInsight": "Basado en 'Las Habilidades del Mago'."
+        },
+        {
+          "text": "Hablar más fuerte para que presten atención.",
+          "outcome": "Fracaso: La audiencia se siente agredida y se desconecta más.",
+          "wisdomScore": 25,
+          "analysis": "El volumen no reemplaza al carisma.",
+          "bookInsight": "El mago cautiva, no impone."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Los 5 Pasos de la Persuasión (Pamela Jean)",
-      "definition": "Metodología estructurada compuesta por: 1. Cautiva, 2. Comprende, 3. Conecta, 4. Comunica, 5. Convence.",
-      "tacticalUse": "Servir como hoja de ruta en cualquier interacción o negociación crucial para asegurar que la conexión emocional e informativa preceda a la propuesta de cierre.",
-      "countermeasure": "Evitar saltarse pasos (como intentar 'Convencer' antes de 'Cautivar' y 'Comprender'), ya que ello despierta resistencias automáticas."
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Anclaje",
+      "definition": "La primera información recibida que condiciona el juicio.",
+      "tacticalUse": "Establecer el tono inicial.",
+      "countermeasure": "Cuestionar la fuente del dato."
     },
     {
-      "id": "fc2",
-      "term": "Rapport y Mimetismo Sutil (Mirroring)",
-      "definition": "Técnica de alineación no verbal y vocal donde se reflejan pausadamente la postura, ritmo y tono del interlocutor.",
-      "tacticalUse": "Crear un clima de familiaridad e inconsciente seguridad donde el interlocutor siente que 'hablan el mismo idioma'.",
-      "countermeasure": "Si notas que alguien te imita de forma burda o inmediata para manipularte, cambia drásticamente de postura o postura corporal para romper la calibración."
+      "id": "FC002",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Empatía Táctica",
+      "definition": "Entender la perspectiva del otro para influir.",
+      "tacticalUse": "Desarmar defensas.",
+      "countermeasure": "Mantener distancia emocional."
     },
     {
-      "id": "fc3",
-      "term": "Inputs Motivacionales",
-      "definition": "Las necesidades, valores, temores o deseos profundos específicos que impulsan la toma de decisiones de una persona particular.",
-      "tacticalUse": "Hacer preguntas abiertas en la etapa 'Comprende' para descubrir si el motor del otro es la seguridad, el reconocimiento, la economía o la libertad.",
-      "countermeasure": "No asumas que tus propios inputs son los mismos del otro; ajusta tus argumentos exclusivamente a lo que a la contraparte le importa."
+      "id": "FC003",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Imagen Vocal",
+      "definition": "El uso del tono y ritmo para proyectar autoridad.",
+      "tacticalUse": "Proyectar seguridad.",
+      "countermeasure": "Analizar el contenido, no el tono."
     },
     {
-      "id": "fc4",
-      "term": "Agudeza Sensorial / Calibración",
-      "definition": "La capacidad desarrollada de observar activamente cambios mínimos en el tono de voz, respiración, postura y mirada del interlocutor.",
-      "tacticalUse": "Detectar objeciones no verbales o momentos de incomodidad antes de que la persona los exprese verbalmente para redirigir la estrategia.",
-      "countermeasure": "Evitar distraerse pensando en qué responder a continuación; enfocar la atención 100% en las señales que emite el otro."
+      "id": "FC004",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Inputs",
+      "definition": "Las necesidades y deseos ocultos del interlocutor.",
+      "tacticalUse": "Personalizar el mensaje.",
+      "countermeasure": "Ocultar vulnerabilidades."
     },
     {
-      "id": "fc5",
-      "term": "Persuasión vs. Manipulación (Principio de Ganar-Ganar)",
-      "definition": "Diferenciación ética entre buscar un acuerdo genuino donde ambas partes se benefician (Persuasión) o buscar solo el beneficio propio perjudicando al otro (Manipulación).",
-      "tacticalUse": "Evaluar si la propuesta generará valor duradero al interlocutor para construir alianzas sólidas y reputación duradera.",
-      "countermeasure": "Si identificas que una oferta solo beneficia a la otra parte y destruye tu valor, detecta la maniobra manipulativa e impón un límite asertivo."
+      "id": "FC005",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Manipulación",
+      "definition": "Influencia con intención de engaño.",
+      "tacticalUse": "Obtener beneficio propio.",
+      "countermeasure": "Detectar la falta de ética."
+    },
+    {
+      "id": "FC006",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Reputación",
+      "definition": "El activo intangible que precede a tu llegada.",
+      "tacticalUse": "Generar confianza previa.",
+      "countermeasure": "Investigar antecedentes."
+    },
+    {
+      "id": "FC007",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Lenguaje Corporal",
+      "definition": "Comunicación no verbal que valida el mensaje.",
+      "tacticalUse": "Reforzar la autoridad.",
+      "countermeasure": "Observar incongruencias."
+    },
+    {
+      "id": "FC008",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Personalidad",
+      "definition": "Patrones de comportamiento predecibles.",
+      "tacticalUse": "Adaptar el estilo de comunicación.",
+      "countermeasure": "Variar el comportamiento."
+    },
+    {
+      "id": "FC009",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Mago",
+      "definition": "Aquel que domina la persuasión con maestría.",
+      "tacticalUse": "Liderar situaciones.",
+      "countermeasure": "No dejarse deslumbrar."
+    },
+    {
+      "id": "FC010",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Primera Impresión",
+      "definition": "El juicio instantáneo que forma el cerebro.",
+      "tacticalUse": "Controlar el inicio.",
+      "countermeasure": "Reevaluar tras el tiempo."
+    },
+    {
+      "id": "FC011",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Necesidades",
+      "definition": "Motores ocultos de la conducta humana.",
+      "tacticalUse": "Ofrecer soluciones.",
+      "countermeasure": "Identificar el interés propio."
+    },
+    {
+      "id": "FC012",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Presencia",
+      "definition": "La capacidad de ocupar el espacio mental del otro.",
+      "tacticalUse": "Dominar la sala.",
+      "countermeasure": "Centrarse en uno mismo."
+    },
+    {
+      "id": "FC013",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Escucha Activa",
+      "definition": "Oír más allá de las palabras.",
+      "tacticalUse": "Obtener información clave.",
+      "countermeasure": "Hablar poco."
+    },
+    {
+      "id": "FC014",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Sesgo de Confirmación",
+      "definition": "Tendencia a buscar lo que refuerza nuestras ideas.",
+      "tacticalUse": "Alinear el mensaje.",
+      "countermeasure": "Buscar opiniones contrarias."
+    },
+    {
+      "id": "FC015",
+      "bookNumber": 1,
+      "category": "Poder",
+      "term": "Autoridad",
+      "definition": "Poder percibido basado en la competencia.",
+      "tacticalUse": "Influir sin esfuerzo.",
+      "countermeasure": "Pedir pruebas."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM001",
+      "category": "Persuasión",
+      "name": "Espejo (Mirroring)",
+      "severity": "Baja",
+      "icon": "Reflejo",
+      "howItWorks": "Imitar sutilmente gestos del otro.",
+      "redFlags": "Imitación obvia o burlesca.",
+      "counterScript": "Cambiar de postura repentinamente.",
+      "deepMechanism": "Crea afinidad subconsciente."
+    },
+    {
+      "id": "TM002",
+      "category": "Psicología Oscura",
+      "name": "Ilusión de Elección",
+      "severity": "Alta",
+      "icon": "Laberinto",
+      "howItWorks": "Dar dos opciones que llevan al mismo resultado.",
+      "redFlags": "Sentir que no hay salida.",
+      "counterScript": "Proponer una tercera opción.",
+      "deepMechanism": "Reduce la resistencia al control."
+    },
+    {
+      "id": "TM003",
+      "category": "Persuasión",
+      "name": "Anclaje de Valor",
+      "severity": "Media",
+      "icon": "Ancla",
+      "howItWorks": "Establecer un precio o valor alto primero.",
+      "redFlags": "Cifras desproporcionadas.",
+      "counterScript": "Ignorar el ancla y negociar desde cero.",
+      "deepMechanism": "Sesgo cognitivo de referencia."
+    },
+    {
+      "id": "TM004",
+      "category": "Psicología Oscura",
+      "name": "Bombardeo de Empatía",
+      "severity": "Alta",
+      "icon": "Corazón",
+      "howItWorks": "Exceso de validación emocional para bajar defensas.",
+      "redFlags": "Intimidad forzada muy rápido.",
+      "counterScript": "Mantener temas profesionales.",
+      "deepMechanism": "Genera deuda emocional."
+    },
+    {
+      "id": "TM005",
+      "category": "Persuasión",
+      "name": "Validación de Autoridad",
+      "severity": "Media",
+      "icon": "Corona",
+      "howItWorks": "Citar expertos o logros para ganar confianza.",
+      "redFlags": "Nombres sin contexto.",
+      "counterScript": "Pedir evidencia directa.",
+      "deepMechanism": "Apela al instinto de seguir al líder."
+    },
+    {
+      "id": "TM006",
+      "category": "Psicología Oscura",
+      "name": "Silencio Táctico",
+      "severity": "Alta",
+      "icon": "BocaCerrada",
+      "howItWorks": "Callar tras una pregunta para forzar al otro a hablar.",
+      "redFlags": "Incomodidad extrema.",
+      "counterScript": "Mantener el silencio hasta que el otro hable.",
+      "deepMechanism": "El cerebro humano odia el vacío social."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Cuál es el componente más importante de la primera impresión?",
+      "options": [
+        "La ropa",
+        "El lenguaje corporal y la voz",
+        "El currículum",
+        "La edad"
+      ],
+      "correctIndex": 1,
+      "explanation": "La ciencia demuestra que el impacto no verbal supera al contenido verbal."
+    },
+    {
+      "id": "Q002",
+      "bookNumber": 1,
+      "question": "¿Qué diferencia a la persuasión de la manipulación?",
+      "options": [
+        "El volumen de voz",
+        "La intención y el beneficio mutuo",
+        "La rapidez del proceso",
+        "El uso de tecnología"
+      ],
+      "correctIndex": 1,
+      "explanation": "La persuasión busca el beneficio mutuo; la manipulación es egoísta."
+    },
+    {
+      "id": "Q003",
+      "bookNumber": 1,
+      "question": "¿Qué es un 'Input' en el contexto de la persuasión?",
+      "options": [
+        "Un dato técnico",
+        "Una necesidad o deseo del otro",
+        "Un error de comunicación",
+        "Un tipo de saludo"
+      ],
+      "correctIndex": 1,
+      "explanation": "Los inputs son las claves que mueven la voluntad del interlocutor."
+    },
+    {
+      "id": "Q004",
+      "bookNumber": 1,
+      "question": "¿Por qué es vital la reputación?",
+      "options": [
+        "Porque es obligatoria",
+        "Porque actúa como un escudo y carta de presentación",
+        "Porque es fácil de cambiar",
+        "Porque no importa"
+      ],
+      "correctIndex": 1,
+      "explanation": "La reputación precede a tus acciones y facilita la influencia."
+    },
+    {
+      "id": "Q005",
+      "bookNumber": 1,
+      "question": "¿Qué técnica ayuda a entender personalidades?",
+      "options": [
+        "La empatía",
+        "El juicio rápido",
+        "La ignorancia",
+        "La agresividad"
+      ],
+      "correctIndex": 0,
+      "explanation": "La empatía permite leer los patrones de comportamiento del otro."
+    },
+    {
+      "id": "Q006",
+      "bookNumber": 1,
+      "question": "¿Qué es la 'Imagen Vocal'?",
+      "options": [
+        "Cantar bien",
+        "El uso del tono, ritmo y volumen",
+        "Hablar muy rápido",
+        "El uso de micrófonos"
+      ],
+      "correctIndex": 1,
+      "explanation": "La voz es una herramienta de poder que proyecta seguridad."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G001",
+      "term": "Mago",
+      "category": "Persuasión",
+      "definition": "Persona que domina el arte de conectar.",
+      "practicalExample": "Alguien que logra acuerdos sin esfuerzo."
+    },
+    {
+      "id": "G002",
+      "term": "Input",
+      "category": "Psicología",
+      "definition": "Necesidad oculta del interlocutor.",
+      "practicalExample": "Detectar que alguien busca reconocimiento."
+    },
+    {
+      "id": "G003",
+      "term": "Anclaje",
+      "definition": "Punto de referencia inicial.",
+      "practicalExample": "Mencionar un precio alto primero."
+    },
+    {
+      "id": "G004",
+      "term": "Empatía",
+      "definition": "Capacidad de sentir lo que el otro siente.",
+      "practicalExample": "Validar la frustración de un cliente."
+    },
+    {
+      "id": "G005",
+      "term": "Manipulación",
+      "definition": "Influencia con fines ocultos.",
+      "practicalExample": "Mentir para obtener una venta."
+    },
+    {
+      "id": "G006",
+      "term": "Reputación",
+      "definition": "Percepción pública de tu valor.",
+      "practicalExample": "Ser conocido por cumplir promesas."
+    },
+    {
+      "id": "G007",
+      "term": "Lenguaje Corporal",
+      "definition": "Señales no verbales.",
+      "practicalExample": "Mantener contacto visual firme."
+    },
+    {
+      "id": "G008",
+      "term": "Imagen Vocal",
+      "definition": "Uso estratégico de la voz.",
+      "practicalExample": "Bajar el tono para dar seriedad."
+    },
+    {
+      "id": "G009",
+      "term": "Persuasión",
+      "definition": "Arte de convencer éticamente.",
+      "practicalExample": "Lograr que el equipo trabaje unido."
+    },
+    {
+      "id": "G010",
+      "term": "Sesgo",
+      "definition": "Error de juicio sistemático.",
+      "practicalExample": "Creer que alguien es bueno por su apariencia."
+    },
+    {
+      "id": "G011",
+      "term": "Presencia",
+      "definition": "Impacto físico y mental.",
+      "practicalExample": "Entrar a una sala y captar la atención."
+    },
+    {
+      "id": "G012",
+      "term": "Necesidad",
+      "definition": "Carencia que motiva la acción.",
+      "practicalExample": "La necesidad de seguridad."
+    },
+    {
+      "id": "G013",
+      "term": "Estrategia",
+      "definition": "Plan para alcanzar un objetivo.",
+      "practicalExample": "Preparar el discurso antes de la reunión."
+    },
+    {
+      "id": "G014",
+      "term": "Conexión",
+      "definition": "Vínculo emocional entre dos personas.",
+      "practicalExample": "Encontrar un interés común."
+    },
+    {
+      "id": "G015",
+      "term": "Autoridad",
+      "definition": "Poder legítimo o percibido.",
+      "practicalExample": "Hablar con conocimiento de causa."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL001",
+      "category": "Presencia",
+      "title": "Postura de Poder",
+      "cue": "Hombros atrás, pecho abierto.",
+      "interpretation": "Seguridad y dominio.",
+      "practicalDrill": "Mantener 2 minutos frente al espejo."
+    },
+    {
+      "id": "BL002",
+      "category": "Conexión",
+      "title": "Contacto Visual",
+      "cue": "Mirada directa al triángulo facial.",
+      "interpretation": "Honestidad y atención.",
+      "practicalDrill": "Sostener la mirada 3 segundos más de lo habitual."
+    },
+    {
+      "id": "BL003",
+      "category": "Persuasión",
+      "title": "Gestos Abiertos",
+      "cue": "Palmas de las manos visibles.",
+      "interpretation": "Transparencia y apertura.",
+      "practicalDrill": "Evitar cruzar los brazos al hablar."
+    },
+    {
+      "id": "BL004",
+      "category": "Psicología",
+      "title": "Inclinación de Cabeza",
+      "cue": "Ligeramente hacia un lado.",
+      "interpretation": "Escucha activa y receptividad.",
+      "practicalDrill": "Hacerlo mientras alguien explica un problema."
+    },
+    {
+      "id": "BL005",
+      "category": "Poder",
+      "title": "Ritmo Vocal",
+      "cue": "Pausas estratégicas.",
+      "interpretation": "Control y reflexión.",
+      "practicalDrill": "Hacer una pausa de 2 segundos antes de responder."
+    },
+    {
+      "id": "BL006",
+      "category": "Conexión",
+      "title": "Sonrisa Duchenne",
+      "cue": "Sonrisa que alcanza los ojos.",
+      "interpretation": "Sinceridad y calidez.",
+      "practicalDrill": "Practicar la sonrisa genuina en el espejo."
     }
   ]
 };

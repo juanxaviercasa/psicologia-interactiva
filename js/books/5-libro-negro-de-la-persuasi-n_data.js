@@ -2081,93 +2081,584 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Negociación Estratégica B2B",
-      "title": "Cierre de Contrato de Software Corporativo",
-      "difficulty": "Alta",
-      "badge": "Estratega de Persuasión",
-      "scenarioDescription": "Llevas 3 meses negociando la implementación de un software para una gran firma. El Comité Director está indeciso por el alto costo. Te reúnes con el CEO y el Director Financiero en la sesión final donde exigirán un descuento drástico del 30% o amenazarán con posponer la compra.",
+      "id": "CS001",
+      "category": "Reciprocidad",
+      "title": "El favor estratégico",
+      "difficulty": "Medium",
+      "badge": "Diplomático",
+      "scenarioDescription": "Un colega te ofrece ayuda inesperada en un proyecto. Sabes que pronto te pedirá un favor mayor que compromete tus recursos.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar la Ley del Contraste y Reciprocidad: Mantener el precio base, presentar una versión 'Premium' aún más costosa que incluya consultoría ejecutiva, y luego ofrecer retirar ese servicio adicional concesionándolo como un beneficio especial a cambio de cerrar el contrato hoy mismo.",
-          "outcome": "Éxito Absoluto",
-          "wisdomScore": 100,
-          "analysis": "Estableciste un ancla superior (Contraste) y realizaste una concesión estratégica (Reciprocidad) sin depreciar el valor de tu producto base ni ceder tu margen de ganancia.",
-          "bookInsight": "Nunca bajes tu precio sin exigir o retirar algo a cambio; de lo contrario, devaluas tu trabajo y demuestras que tu precio inicial era ficticio."
+          "text": "Aceptar la ayuda y quedar en deuda",
+          "outcome": "Dependencia",
+          "wisdomScore": 40,
+          "analysis": "La reciprocidad crea una presión psicológica difícil de ignorar.",
+          "bookInsight": "La Ley 1 establece que el favor recibido obliga a una compensación."
         },
         {
-          "id": "opt2",
-          "text": "Utilizar Coerción y Amenaza: Advertirles que si no firman hoy perderán su lugar de implementación frente a su competidor directo y subirás los precios un 15% el mes entrante.",
-          "outcome": "Fallo Estrepitoso",
-          "wisdomScore": 15,
-          "analysis": "Activaste una fuerte reactancia psicológica. El CEO percibió la amenaza como chantaje, lo que destruyó la confianza y causó que rompan negociaciones inmediatamente por orgullo institucional.",
-          "bookInsight": "La coerción genera resistencia defensiva e indignación cuando se aplica sobre partes con alto poder relativo."
+          "text": "Rechazar la ayuda cortésmente",
+          "outcome": "Independencia",
+          "wisdomScore": 90,
+          "analysis": "Evitas la deuda emocional antes de que se genere.",
+          "bookInsight": "Mantener la autonomía es vital para no ser manipulado por la reciprocidad."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Liderazgo y Cultura Organizacional",
-      "title": "Transformación de un Equipo Demotivado",
-      "difficulty": "Alta",
-      "badge": "Líder Persuasivo",
-      "scenarioDescription": "Has sido nombrado director de un departamento con bajo rendimiento persistente. El personal se muestra apático, escéptico y resistente al cambio. Tienes tu primera reunión trimestral para fijar metas y necesitas que adopten un nuevo sistema de trabajo exigente.",
+      "id": "CS002",
+      "category": "Escasez",
+      "title": "La oferta limitada",
+      "difficulty": "Hard",
+      "badge": "Estratega",
+      "scenarioDescription": "Un cliente duda en cerrar un trato. Decides aplicar la ley de escasez sugiriendo que hay otro interesado.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar Ley de Expectativa y Consistencia: Expresar públicamente tu firme convicción en el talento no aprovechado del equipo, pedirles pequeños compromisos individuales visibles en la sesión y etiquetarlos como 'profesionales clave en la nueva etapa'.",
-          "outcome": "Éxito Sostenible",
-          "wisdomScore": 100,
-          "analysis": "Al elevar las expectativas (Efecto Pigmalión) y conseguir pequeños acuerdos públicos (Consistencia), las personas modifican progresivamente su autoimagen y comportamiento para ser coherentes con la nueva reputación asignada.",
-          "bookInsight": "Dale a una persona una excelente reputación que mantener y hará esfuerzos extraordinarios para estar a la altura de ella."
+          "text": "Mentir sobre un competidor inexistente",
+          "outcome": "Riesgo alto",
+          "wisdomScore": 30,
+          "analysis": "Si se descubre, pierdes toda autoridad.",
+          "bookInsight": "La Ley 7 debe basarse en la percepción real de valor, no en el engaño burdo."
         },
         {
-          "id": "opt2",
-          "text": "Aplicar Ley de Autoridad Rígida: Presentarte resaltando tu amplio currículum, imponiendo las reglas del nuevo sistema bajo advertencia de despidos inmediatos para quien no cumpla las cuotas.",
-          "outcome": "Fracaso Operativo",
+          "text": "Enfatizar la exclusividad de los beneficios",
+          "outcome": "Cierre efectivo",
+          "wisdomScore": 95,
+          "analysis": "La escasez de valor es más persuasiva que la escasez de tiempo.",
+          "bookInsight": "La escasez aumenta el deseo cuando se percibe como una oportunidad única."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Autoridad",
+      "title": "El desafío al experto",
+      "difficulty": "Hard",
+      "badge": "Maquiavélico",
+      "scenarioDescription": "Un superior con autoridad cuestionable intenta imponer una decisión técnica errónea.",
+      "options": [
+        {
+          "text": "Desafiarlo abiertamente",
+          "outcome": "Conflicto",
+          "wisdomScore": 50,
+          "analysis": "El ataque directo activa la defensa del ego.",
+          "bookInsight": "La Ley 8 sugiere que la autoridad debe ser gestionada con sutileza."
+        },
+        {
+          "text": "Presentar datos que validen otra opción",
+          "outcome": "Influencia",
+          "wisdomScore": 90,
+          "analysis": "Usas la autoridad de los datos para neutralizar la autoridad del cargo.",
+          "bookInsight": "La autoridad real se impone a través de la competencia demostrada."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Contraste",
+      "title": "La negociación salarial",
+      "difficulty": "Medium",
+      "badge": "Negociador",
+      "scenarioDescription": "Quieres pedir un aumento. Sabes que tu jefe es tacaño.",
+      "options": [
+        {
+          "text": "Pedir un aumento moderado",
+          "outcome": "Rechazo probable",
+          "wisdomScore": 40,
+          "analysis": "No estableces un punto de anclaje alto.",
+          "bookInsight": "La Ley 2 dice que el contraste hace que la segunda opción parezca mejor."
+        },
+        {
+          "text": "Pedir un aumento alto y luego ceder",
+          "outcome": "Aceptación",
+          "wisdomScore": 95,
+          "analysis": "El contraste hace que tu petición final parezca razonable.",
+          "bookInsight": "El contraste es la herramienta más poderosa para ajustar percepciones."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Afinidad",
+      "title": "El espejo social",
+      "difficulty": "Easy",
+      "badge": "Carismático",
+      "scenarioDescription": "Necesitas convencer a un inversor que no te conoce.",
+      "options": [
+        {
+          "text": "Hablar solo de números",
+          "outcome": "Distancia",
           "wisdomScore": 30,
-          "analysis": "Aunque la autoridad jerárquica produce obediencia superficial a corto plazo, mata la iniciativa interna, incrementa la rotación y genera sabotaje pasivo en un equipo ya desmotivado.",
-          "bookInsight": "El estatus de autoridad por título infunde temor o complacencia mínima, pero no persuade ni inspira compromiso interno."
+          "analysis": "Falta conexión emocional.",
+          "bookInsight": "La Ley 3 indica que la afinidad es la base de la confianza."
+        },
+        {
+          "text": "Encontrar intereses comunes antes de hablar de negocios",
+          "outcome": "Conexión",
+          "wisdomScore": 90,
+          "analysis": "La afinidad reduce las barreras defensivas.",
+          "bookInsight": "La gente dice sí a quienes les agradan."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Consistencia",
+      "title": "El compromiso pequeño",
+      "difficulty": "Medium",
+      "badge": "Manipulador",
+      "scenarioDescription": "Quieres que alguien se una a tu causa a largo plazo.",
+      "options": [
+        {
+          "text": "Pedir un compromiso total de inmediato",
+          "outcome": "Resistencia",
+          "wisdomScore": 20,
+          "analysis": "El compromiso grande genera miedo.",
+          "bookInsight": "La Ley 6 requiere pasos pequeños para asegurar la consistencia."
+        },
+        {
+          "text": "Pedir un pequeño apoyo inicial",
+          "outcome": "Adhesión",
+          "wisdomScore": 95,
+          "analysis": "Una vez que aceptan lo pequeño, es difícil negar lo grande.",
+          "bookInsight": "La consistencia obliga a mantener la coherencia con actos previos."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "Reciprocidad",
+      "term": "Ley de Reciprocidad",
+      "definition": "La tendencia humana a devolver favores.",
+      "tacticalUse": "Dar algo pequeño para recibir algo grande.",
+      "countermeasure": "Aceptar el regalo sin sentir deuda."
+    },
+    {
+      "id": "FC002",
+      "bookNumber": 2,
+      "category": "Contraste",
+      "term": "Efecto Contraste",
+      "definition": "La percepción cambia según lo que se vio antes.",
+      "tacticalUse": "Presentar lo caro antes de lo barato.",
+      "countermeasure": "Evaluar cada opción de forma aislada."
+    },
+    {
+      "id": "FC003",
+      "bookNumber": 3,
+      "category": "Afinidad",
+      "term": "Afinidad",
+      "definition": "Similitud percibida que genera confianza.",
+      "tacticalUse": "Espejeo de lenguaje corporal.",
+      "countermeasure": "Separar la simpatía de la decisión."
+    },
+    {
+      "id": "FC004",
+      "bookNumber": 4,
+      "category": "Expectativa",
+      "term": "Expectativa",
+      "definition": "Lo que creemos que pasará moldea la realidad.",
+      "tacticalUse": "Proyectar éxito para influir en otros.",
+      "countermeasure": "Cuestionar las suposiciones."
+    },
+    {
+      "id": "FC005",
+      "bookNumber": 5,
+      "category": "Asociación",
+      "term": "Asociación",
+      "definition": "Vincular ideas o personas con emociones.",
+      "tacticalUse": "Usar símbolos de estatus.",
+      "countermeasure": "Analizar el mensaje sin el mensajero."
+    },
+    {
+      "id": "FC006",
+      "bookNumber": 6,
+      "category": "Consistencia",
+      "term": "Consistencia",
+      "definition": "Necesidad de ser coherente con el pasado.",
+      "tacticalUse": "Lograr un 'sí' pequeño primero.",
+      "countermeasure": "Reevaluar si el compromiso inicial sigue siendo válido."
+    },
+    {
+      "id": "FC007",
+      "bookNumber": 7,
+      "category": "Escasez",
+      "term": "Escasez",
+      "definition": "El valor aumenta si es difícil de obtener.",
+      "tacticalUse": "Limitar el tiempo o la cantidad.",
+      "countermeasure": "Preguntar: ¿lo quiero por su valor o por su escasez?"
+    },
+    {
+      "id": "FC008",
+      "bookNumber": 8,
+      "category": "Autoridad",
+      "term": "Autoridad",
+      "definition": "Respeto automático a figuras de poder.",
+      "tacticalUse": "Usar títulos o uniformes.",
+      "countermeasure": "Verificar la competencia real."
+    },
+    {
+      "id": "FC009",
+      "bookNumber": 9,
+      "category": "Coerción",
+      "term": "Chantaje",
+      "definition": "Uso de amenazas para obtener algo.",
+      "tacticalUse": "Último recurso de poder.",
+      "countermeasure": "Exponer la amenaza públicamente."
+    },
+    {
+      "id": "FC010",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Anclaje",
+      "definition": "El primer dato fija la referencia.",
+      "tacticalUse": "Lanzar la cifra más alta primero.",
+      "countermeasure": "Ignorar el primer número."
+    },
+    {
+      "id": "FC011",
+      "bookNumber": 2,
+      "category": "Persuasión",
+      "term": "Encuadre",
+      "definition": "Cómo se presenta la información.",
+      "tacticalUse": "Enfocar en ganancias en lugar de pérdidas.",
+      "countermeasure": "Cambiar el marco de referencia."
+    },
+    {
+      "id": "FC012",
+      "bookNumber": 3,
+      "category": "Persuasión",
+      "term": "Validación Social",
+      "definition": "Hacer lo que otros hacen.",
+      "tacticalUse": "Mostrar testimonios.",
+      "countermeasure": "Pensar de forma independiente."
+    },
+    {
+      "id": "FC013",
+      "bookNumber": 4,
+      "category": "Persuasión",
       "term": "Efecto Halo",
-      "definition": "Sesgo cognitivo por el cual la percepción de un rasgo positivo (como la belleza o la simpatía) influye en el juicio general sobre otras cualidades no relacionadas (como la inteligencia o la confiabilidad).",
-      "tacticalUse": "Cuida minuciosamente tu diseño visual, presencia personal y empaque. Un inicio estéticamente impecable predispone favorablemente la evaluación de tus propuestas.",
-      "countermeasure": "Separa deliberadamente la estética de la sustancia. Evalúa métricas duras y datos concretos sin dejarte deslumbrar por la presentación."
+      "definition": "Una cualidad positiva irradia a todo.",
+      "tacticalUse": "Cuidar la imagen personal.",
+      "countermeasure": "Analizar rasgos por separado."
     },
     {
-      "id": "fc2",
-      "term": "Técnica del 'Pie en la Puerta'",
-      "definition": "Estrategia basada en la Ley de Consistencia que consiste en pedir un pequeño favor inicial casi insignificante para lograr que la persona acepte posteriormente una solicitud mucho mayor.",
-      "tacticalUse": "Consigue un primer 'Sí' de bajo compromiso (ej. suscribirse a un newsletter o responder una encuesta breve) antes de vender tu producto principal.",
-      "countermeasure": "Toma conciencia de tus pequeños compromisos iniciales. Recuerda que no estás obligado a aceptar una petición grande solo por haber accedido a una insignificante."
+      "id": "FC014",
+      "bookNumber": 5,
+      "category": "Persuasión",
+      "term": "Sesgo de Confirmación",
+      "definition": "Ver solo lo que confirma lo que creo.",
+      "tacticalUse": "Reforzar las creencias del otro.",
+      "countermeasure": "Buscar evidencia contraria."
     },
     {
-      "id": "fc3",
-      "term": "Aversión a la Pérdida",
-      "definition": "Principio psicológico que demuestra que el dolor de perder algo es aproximadamente el doble de intenso que el placer de ganar la misma cantidad.",
-      "tacticalUse": "Enfoca tus mensajes persuasivos en 'lo que el cliente perderá si no actúa ahora' en lugar de centrarte solo en las ganancias potenciales.",
-      "countermeasure": "Calcula fríamente el valor real del producto fuera del marco temporal de urgencia. Pregúntate: '¿Compraría esto si estuviera siempre disponible?'"
+      "id": "FC015",
+      "bookNumber": 6,
+      "category": "Persuasión",
+      "term": "Compromiso",
+      "definition": "La inversión previa ata al sujeto.",
+      "tacticalUse": "Hacer que el otro invierta tiempo.",
+      "countermeasure": "Saber retirarse a tiempo."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM001",
+      "category": "Influencia",
+      "name": "El Anclaje de Precios",
+      "severity": "Media",
+      "icon": "anchor",
+      "howItWorks": "Establecer un valor alto inicial para que el real parezca barato.",
+      "redFlags": "El interlocutor conoce la técnica.",
+      "counterScript": "Ese precio es irrelevante, basémonos en el valor de mercado.",
+      "deepMechanism": "Sesgo cognitivo de ajuste."
     },
     {
-      "id": "fc4",
-      "term": "Reactancia Psicológica",
-      "definition": "Reacción emocional defensiva que se activa cuando una persona siente que su libertad de elección está amenazada o restringida (común en la coerción).",
-      "tacticalUse": "Ofrece siempre opciones de elección explícitas e incluye frases como 'Tú eres libre de decidir' para desactivar resistencias defensivas.",
-      "countermeasure": "Identifica cuando estés actuando por llevar la contraria de forma visceral y analiza si la opción rechazada era realmente conveniente para ti."
+      "id": "TM002",
+      "category": "Poder",
+      "name": "La Autoridad Prestada",
+      "severity": "Alta",
+      "icon": "shield",
+      "howItWorks": "Asociarse con alguien de alto estatus.",
+      "redFlags": "La asociación es forzada.",
+      "counterScript": "¿Qué valor aporta usted personalmente?",
+      "deepMechanism": "Transferencia de valor."
     },
     {
-      "id": "fc5",
-      "term": "Anclaje de Precios (Ley de Contraste)",
-      "definition": "Proceso mediante el cual la primera cifra expuesta actúa como un punto de referencia mental que distorsiona la evaluación de todos los precios posteriores.",
-      "tacticalUse": "Presenta siempre en primer lugar la opción de gama alta o la tarifa completa antes de introducir ofertas, versiones estándar o descuentos.",
-      "countermeasure": "Investiga los precios de mercado de antemano para tener un ancla objetiva externa antes de entrar en la negociación."
+      "id": "TM003",
+      "category": "Persuasión",
+      "name": "La Escasez Artificial",
+      "severity": "Baja",
+      "icon": "clock",
+      "howItWorks": "Limitar la disponibilidad de un recurso.",
+      "redFlags": "La escasez desaparece si insistes.",
+      "counterScript": "No tengo prisa, avísame si cambia la disponibilidad.",
+      "deepMechanism": "Aversión a la pérdida."
+    },
+    {
+      "id": "TM004",
+      "category": "Negociación",
+      "name": "El Pie en la Puerta",
+      "severity": "Media",
+      "icon": "door",
+      "howItWorks": "Pedir un favor mínimo para luego pedir uno grande.",
+      "redFlags": "La petición crece rápidamente.",
+      "counterScript": "Acepto esto, pero no me comprometo a nada más.",
+      "deepMechanism": "Necesidad de consistencia."
+    },
+    {
+      "id": "TM005",
+      "category": "Poder",
+      "name": "El Chantaje Emocional",
+      "severity": "Crítica",
+      "icon": "lock",
+      "howItWorks": "Usar la culpa para controlar.",
+      "redFlags": "Sentimiento de deuda constante.",
+      "counterScript": "No acepto la responsabilidad de tus emociones.",
+      "deepMechanism": "Manipulación de la empatía."
+    },
+    {
+      "id": "TM006",
+      "category": "Persuasión",
+      "name": "El Espejeo",
+      "severity": "Baja",
+      "icon": "user",
+      "howItWorks": "Imitar gestos para generar afinidad.",
+      "redFlags": "Imitación exagerada.",
+      "counterScript": "Mantener una postura neutral.",
+      "deepMechanism": "Neuronas espejo."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Qué ley explica por qué nos sentimos obligados a devolver un favor?",
+      "options": [
+        "Ley de Contraste",
+        "Ley de Reciprocidad",
+        "Ley de Autoridad"
+      ],
+      "correctIndex": 1,
+      "explanation": "La reciprocidad es un imperativo social profundo."
+    },
+    {
+      "id": "Q002",
+      "bookNumber": 2,
+      "question": "¿Cómo se utiliza la Ley de Contraste en ventas?",
+      "options": [
+        "Mostrando lo barato primero",
+        "Mostrando lo caro primero",
+        "No mostrando precios"
+      ],
+      "correctIndex": 1,
+      "explanation": "El contraste hace que el segundo precio parezca menor."
+    },
+    {
+      "id": "Q003",
+      "bookNumber": 3,
+      "question": "¿Qué es la afinidad en la persuasión?",
+      "options": [
+        "Similitud y agrado",
+        "Poder absoluto",
+        "Miedo"
+      ],
+      "correctIndex": 0,
+      "explanation": "La afinidad es la base de la confianza."
+    },
+    {
+      "id": "Q004",
+      "bookNumber": 7,
+      "question": "¿Por qué la escasez es efectiva?",
+      "options": [
+        "Porque es lógica",
+        "Porque activa el miedo a perder",
+        "Porque es barata"
+      ],
+      "correctIndex": 1,
+      "explanation": "La aversión a la pérdida es un motor poderoso."
+    },
+    {
+      "id": "Q005",
+      "bookNumber": 6,
+      "question": "¿Qué busca la Ley de Consistencia?",
+      "options": [
+        "Coherencia con actos previos",
+        "Cambiar de opinión",
+        "Caos"
+      ],
+      "correctIndex": 0,
+      "explanation": "La gente odia parecer incoherente."
+    },
+    {
+      "id": "Q006",
+      "bookNumber": 8,
+      "question": "¿Qué es la autoridad en el libro?",
+      "options": [
+        "Poder físico",
+        "Influencia basada en estatus o conocimiento",
+        "Suerte"
+      ],
+      "correctIndex": 1,
+      "explanation": "La autoridad es una percepción de competencia."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G001",
+      "term": "Anclaje",
+      "category": "Persuasión",
+      "definition": "Punto de referencia inicial.",
+      "practicalExample": "Decir un precio alto primero."
+    },
+    {
+      "id": "G002",
+      "term": "Reciprocidad",
+      "category": "Psicología",
+      "definition": "Intercambio de favores.",
+      "practicalExample": "Regalar una muestra gratis."
+    },
+    {
+      "id": "G003",
+      "term": "Escasez",
+      "category": "Persuasión",
+      "definition": "Valor por limitación.",
+      "practicalExample": "Oferta por tiempo limitado."
+    },
+    {
+      "id": "G004",
+      "term": "Afinidad",
+      "category": "Psicología",
+      "definition": "Conexión emocional.",
+      "practicalExample": "Compartir un hobby."
+    },
+    {
+      "id": "G005",
+      "term": "Consistencia",
+      "category": "Psicología",
+      "definition": "Coherencia conductual.",
+      "practicalExample": "Firmar una petición."
+    },
+    {
+      "id": "G006",
+      "term": "Autoridad",
+      "category": "Poder",
+      "definition": "Influencia por estatus.",
+      "practicalExample": "Usar bata de médico."
+    },
+    {
+      "id": "G007",
+      "term": "Contraste",
+      "category": "Persuasión",
+      "definition": "Diferencia relativa.",
+      "practicalExample": "Comparar dos productos."
+    },
+    {
+      "id": "G008",
+      "term": "Coerción",
+      "category": "Poder",
+      "definition": "Uso de la fuerza o amenaza.",
+      "practicalExample": "Ultimátum."
+    },
+    {
+      "id": "G009",
+      "term": "Asociación",
+      "category": "Persuasión",
+      "definition": "Vínculo mental.",
+      "practicalExample": "Celebridad con marca."
+    },
+    {
+      "id": "G010",
+      "term": "Expectativa",
+      "category": "Psicología",
+      "definition": "Creencia sobre el futuro.",
+      "practicalExample": "Actuar como ganador."
+    },
+    {
+      "id": "G011",
+      "term": "Sesgo",
+      "category": "Psicología",
+      "definition": "Error de juicio.",
+      "practicalExample": "Confirmación."
+    },
+    {
+      "id": "G012",
+      "term": "Influencia",
+      "category": "Poder",
+      "definition": "Capacidad de cambiar otros.",
+      "practicalExample": "Liderazgo."
+    },
+    {
+      "id": "G013",
+      "term": "Manipulación",
+      "category": "Poder",
+      "definition": "Influencia oculta.",
+      "practicalExample": "Chantaje."
+    },
+    {
+      "id": "G014",
+      "term": "Estatus",
+      "category": "Poder",
+      "definition": "Posición social.",
+      "practicalExample": "Título académico."
+    },
+    {
+      "id": "G015",
+      "term": "Persuasión",
+      "category": "Psicología",
+      "definition": "Convencimiento voluntario.",
+      "practicalExample": "Argumentación."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL001",
+      "category": "Presencia",
+      "title": "Postura de Poder",
+      "cue": "Pecho abierto y manos visibles",
+      "interpretation": "Dominancia y seguridad",
+      "practicalDrill": "Mantener 2 minutos antes de una reunión."
+    },
+    {
+      "id": "BL002",
+      "category": "Afinidad",
+      "title": "Espejeo Sutil",
+      "cue": "Copiar el ritmo de respiración",
+      "interpretation": "Empatía profunda",
+      "practicalDrill": "Sincronizar el ritmo con el interlocutor."
+    },
+    {
+      "id": "BL003",
+      "category": "Autoridad",
+      "title": "Contacto Visual",
+      "cue": "Sostener la mirada sin parpadear",
+      "interpretation": "Control y confianza",
+      "practicalDrill": "Mantener mirada en el triángulo facial."
+    },
+    {
+      "id": "BL004",
+      "category": "Persuasión",
+      "title": "Inclinación de cabeza",
+      "cue": "Ligeramente hacia un lado",
+      "interpretation": "Escucha activa y apertura",
+      "practicalDrill": "Usar al recibir una objeción."
+    },
+    {
+      "id": "BL005",
+      "category": "Poder",
+      "title": "Manos en la mesa",
+      "cue": "Palmas visibles",
+      "interpretation": "Honestidad y transparencia",
+      "practicalDrill": "Evitar esconder las manos bajo la mesa."
+    },
+    {
+      "id": "BL006",
+      "category": "Defensa",
+      "title": "Barreras físicas",
+      "cue": "Brazos cruzados",
+      "interpretation": "Defensividad o rechazo",
+      "practicalDrill": "Desbloquear brazos al negociar."
     }
   ]
 };

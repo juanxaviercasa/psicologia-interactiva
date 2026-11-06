@@ -1443,93 +1443,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Relaciones Interpersonales",
-      "title": "Caso Práctico: Optima Persuasion Con Psicologia Subliminal",
-      "difficulty": "Media",
-      "badge": "Experto en Vínculos",
-      "scenarioDescription": "Durante una situación relacionada con \"Optima Persuasion Con Psicologia Subliminal\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS001",
+      "category": "Manipulación",
+      "title": "El dilema del subordinado",
+      "difficulty": "Hard",
+      "badge": "Maquiavelo",
+      "scenarioDescription": "Tu jefe utiliza el aislamiento social para que dependas solo de su criterio. ¿Cómo respondes?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Optima Persuasion Con Psicologia Subliminal\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Aceptar la dependencia para ganar confianza.",
+          "outcome": "Pérdida de autonomía",
+          "wisdomScore": 20,
+          "analysis": "La dependencia es una trampa de control.",
+          "bookInsight": "El control mental indetectable comienza con el aislamiento."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Crear alianzas externas discretas.",
+          "outcome": "Resiliencia estratégica",
+          "wisdomScore": 90,
+          "analysis": "Diversificar fuentes de poder neutraliza el control.",
+          "bookInsight": "La influencia requiere redes de apoyo fuera del alcance del manipulador."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Aplicación Ética de Principios",
-      "title": "Caso Práctico: Conclusion",
-      "difficulty": "Alta",
-      "badge": "Maestro de Influencia",
-      "scenarioDescription": "Durante una situación relacionada con \"Conclusion\", detectas señales sutiles de manipulación psicológica. La persona utiliza patrones estudiados en este módulo para influir en tu toma de decisiones. ¿Cómo respondes?",
+      "id": "CS002",
+      "category": "Seducción",
+      "title": "El espejo emocional",
+      "difficulty": "Medium",
+      "badge": "Seductor",
+      "scenarioDescription": "Alguien intenta usar PNL para reflejar tus gestos y ganar tu confianza inmediata.",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar técnicas de desactivación emocional y nombrar el patrón observado.",
-          "outcome": "Éxito Estratégico",
-          "wisdomScore": 100,
-          "analysis": "Nombrar el patrón interrumpe el ciclo automático de respuesta. Es la técnica más efectiva derivada del estudio de \"Conclusion\".",
-          "bookInsight": "La consciencia del patrón es el primer escudo: lo que se nombra, pierde poder sobre nosotros."
+          "text": "Espejar de vuelta para igualar el ritmo.",
+          "outcome": "Sincronía forzada",
+          "wisdomScore": 50,
+          "analysis": "Entras en su juego de espejos.",
+          "bookInsight": "La PNL es una herramienta de doble filo."
         },
         {
-          "id": "opt2",
-          "text": "Reaccionar emocionalmente y confrontar de forma impulsiva.",
-          "outcome": "Error Estratégico",
-          "wisdomScore": 15,
-          "analysis": "La reacción impulsiva confirma las expectativas del manipulador y cede el control de la situación.",
-          "bookInsight": "El control de las propias emociones es prerequisito para influir en las de otros — o para resistir su influencia."
+          "text": "Romper el patrón con un gesto inesperado.",
+          "outcome": "Dominio del marco",
+          "wisdomScore": 95,
+          "analysis": "Romper el rapport desestabiliza al manipulador.",
+          "bookInsight": "El control mental se rompe cuando el sujeto cambia el ritmo."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Engaño",
+      "title": "La mentira piadosa",
+      "difficulty": "Medium",
+      "badge": "Estratega",
+      "scenarioDescription": "Un colega usa una verdad a medias para ocultar un error grave.",
+      "options": [
+        {
+          "text": "Confrontar directamente con pruebas.",
+          "outcome": "Conflicto abierto",
+          "wisdomScore": 40,
+          "analysis": "La confrontación directa suele activar defensas.",
+          "bookInsight": "El arte del engaño se protege con la negación plausible."
+        },
+        {
+          "text": "Hacer preguntas abiertas que revelen la inconsistencia.",
+          "outcome": "Revelación sutil",
+          "wisdomScore": 90,
+          "analysis": "La técnica socrática expone la mentira sin atacar.",
+          "bookInsight": "La persuasión subliminal utiliza la duda como arma."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Hipnosis",
+      "title": "La sugestión en grupo",
+      "difficulty": "Hard",
+      "badge": "Mentalista",
+      "scenarioDescription": "Un orador usa patrones de lenguaje hipnótico para vender una idea impopular.",
+      "options": [
+        {
+          "text": "Cuestionar la lógica de los argumentos.",
+          "outcome": "Resistencia lógica",
+          "wisdomScore": 60,
+          "analysis": "La lógica no combate la sugestión emocional.",
+          "bookInsight": "La hipnosis elude el factor crítico de la mente."
+        },
+        {
+          "text": "Identificar el patrón y señalarlo con humor.",
+          "outcome": "Neutralización",
+          "wisdomScore": 95,
+          "analysis": "El humor rompe el trance hipnótico.",
+          "bookInsight": "La risa es el antídoto contra la sugestión."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Juegos Mentales",
+      "title": "El doble vínculo",
+      "difficulty": "Hard",
+      "badge": "Psicólogo Oscuro",
+      "scenarioDescription": "Te presentan una elección donde ambas opciones te perjudican.",
+      "options": [
+        {
+          "text": "Elegir la opción menos mala.",
+          "outcome": "Derrota aceptada",
+          "wisdomScore": 30,
+          "analysis": "Has caído en la trampa del marco limitado.",
+          "bookInsight": "Los juegos mentales funcionan limitando tus opciones."
+        },
+        {
+          "text": "Rechazar el marco y proponer una tercera vía.",
+          "outcome": "Victoria estratégica",
+          "wisdomScore": 100,
+          "analysis": "Romper el marco es la clave del poder.",
+          "bookInsight": "Quien define el marco, controla el resultado."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Persuasión",
+      "title": "La autoridad impuesta",
+      "difficulty": "Easy",
+      "badge": "Líder",
+      "scenarioDescription": "Alguien usa ropa y lenguaje técnico para intimidarte.",
+      "options": [
+        {
+          "text": "Asentir para evitar problemas.",
+          "outcome": "Sumisión",
+          "wisdomScore": 10,
+          "analysis": "La autoridad visual es una ilusión.",
+          "bookInsight": "La persuasión a menudo se disfraza de autoridad."
+        },
+        {
+          "text": "Pedir aclaraciones sobre puntos específicos.",
+          "outcome": "Igualdad de condiciones",
+          "wisdomScore": 85,
+          "analysis": "La precisión desmantela la fachada.",
+          "bookInsight": "El conocimiento es el escudo contra la persuasión vacía."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Prueba social",
-      "definition": "Técnica psicológica estudiada en \"Introduccion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita desviar la atención de sus propios errores.",
-      "countermeasure": "Tomarse tiempo antes de responder a demandas urgentes fabricadas."
+      "id": "FC001",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Anclaje",
+      "definition": "Asociación de un estímulo externo con un estado emocional.",
+      "tacticalUse": "Crear una respuesta positiva al tocar un objeto.",
+      "countermeasure": "Identificar el estímulo y desasociarlo conscientemente."
     },
     {
-      "id": "fc2",
-      "term": "Love bombing",
-      "definition": "Técnica psicológica estudiada en \"Consejos Para Sobresalir En La Persuasion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita posicionarse como figura de autoridad.",
-      "countermeasure": "Desarrollar independencia emocional mediante mindfulness diario."
+      "id": "FC002",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Hacer que alguien dude de su propia percepción.",
+      "tacticalUse": "Desestabilizar la confianza de un oponente.",
+      "countermeasure": "Mantener un registro escrito de los hechos."
     },
     {
-      "id": "fc3",
-      "term": "Rapport forzado",
-      "definition": "Técnica psicológica estudiada en \"Como Utilizar La Manipulacion\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita obtener cumplimiento sin resistencia.",
-      "countermeasure": "Crear distancia física y emocional ante señales de peligro."
+      "id": "FC003",
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Inducción",
+      "definition": "Proceso de llevar a alguien a un estado de sugestión.",
+      "tacticalUse": "Preparar el terreno para una petición.",
+      "countermeasure": "Mantener el pensamiento crítico activo."
     },
     {
-      "id": "fc4",
-      "term": "Consistencia cognitiva",
-      "definition": "Técnica psicológica estudiada en \"Aprender La Hipnosis Y Como Usarla\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita erosionar la autoestima del objetivo.",
-      "countermeasure": "Consultar perspectivas externas de confianza antes de decidir."
+      "id": "FC004",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Reciprocidad",
+      "definition": "Necesidad de devolver un favor recibido.",
+      "tacticalUse": "Dar algo pequeño para obtener algo grande.",
+      "countermeasure": "Evaluar el valor real del favor antes de aceptar."
     },
     {
-      "id": "fc5",
-      "term": "Triangulación",
-      "definition": "Técnica psicológica estudiada en \"Hechos Sobre La Programacion Neurolinguistica\": patrón cognitivo-conductual que opera bajo umbrales de consciencia para alterar percepciones y decisiones ajenas.",
-      "tacticalUse": "Se aplica cuando el manipulador necesita crear dependencia emocional.",
-      "countermeasure": "Practicar la técnica del \"disco rayado\" ante presión persistente."
+      "id": "FC005",
+      "bookNumber": 1,
+      "category": "Engaño",
+      "term": "Verdad a medias",
+      "definition": "Ocultar información clave para alterar la percepción.",
+      "tacticalUse": "Manipular la toma de decisiones ajena.",
+      "countermeasure": "Hacer preguntas de seguimiento profundas."
+    },
+    {
+      "id": "FC006",
+      "bookNumber": 1,
+      "category": "Juegos Mentales",
+      "term": "Doble vínculo",
+      "definition": "Presentar dos opciones que llevan al mismo resultado.",
+      "tacticalUse": "Forzar una elección que parece libre.",
+      "countermeasure": "Rechazar ambas opciones y proponer una nueva."
+    },
+    {
+      "id": "FC007",
+      "bookNumber": 1,
+      "category": "Seducción",
+      "term": "Espejo",
+      "definition": "Imitar sutilmente el lenguaje corporal del otro.",
+      "tacticalUse": "Generar rapport instantáneo.",
+      "countermeasure": "Cambiar de postura para romper el patrón."
+    },
+    {
+      "id": "FC008",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Sesgo de confirmación",
+      "definition": "Tendencia a buscar información que confirma lo que ya creemos.",
+      "tacticalUse": "Reforzar las creencias del objetivo.",
+      "countermeasure": "Buscar activamente opiniones contrarias."
+    },
+    {
+      "id": "FC009",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Escasez",
+      "definition": "Crear la ilusión de que algo es limitado.",
+      "tacticalUse": "Acelerar la toma de decisiones.",
+      "countermeasure": "Preguntarse si realmente se necesita el objeto."
+    },
+    {
+      "id": "FC010",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Calibración",
+      "definition": "Observar cambios sutiles en la fisiología del otro.",
+      "tacticalUse": "Detectar mentiras o estados emocionales.",
+      "countermeasure": "Controlar las microexpresiones faciales."
+    },
+    {
+      "id": "FC011",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Aislamiento",
+      "definition": "Separar al objetivo de su red de apoyo.",
+      "tacticalUse": "Aumentar la dependencia emocional.",
+      "countermeasure": "Mantener vínculos sociales fuertes."
+    },
+    {
+      "id": "FC012",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Autoridad",
+      "definition": "Uso de símbolos de poder para influir.",
+      "tacticalUse": "Ganar obediencia sin cuestionamientos.",
+      "countermeasure": "Separar el mensaje del mensajero."
+    },
+    {
+      "id": "FC013",
+      "bookNumber": 1,
+      "category": "Engaño",
+      "term": "Distracción",
+      "definition": "Desviar la atención hacia un punto irrelevante.",
+      "tacticalUse": "Ocultar la intención real.",
+      "countermeasure": "Enfocarse en el objetivo principal."
+    },
+    {
+      "id": "FC014",
+      "bookNumber": 1,
+      "category": "Psicología",
+      "term": "Proyección",
+      "definition": "Atribuir a otros los propios defectos.",
+      "tacticalUse": "Desviar la culpa.",
+      "countermeasure": "Analizar si la crítica es objetiva."
+    },
+    {
+      "id": "FC015",
+      "bookNumber": 1,
+      "category": "Hipnosis",
+      "term": "Sugestión",
+      "definition": "Introducir una idea en la mente subconsciente.",
+      "tacticalUse": "Cambiar la conducta del objetivo.",
+      "countermeasure": "Cuestionar el origen de los pensamientos propios."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM001",
+      "category": "Persuasión",
+      "name": "La Técnica del Pie en la Puerta",
+      "severity": "Low",
+      "icon": "🚪",
+      "howItWorks": "Pedir un favor pequeño para luego pedir uno grande.",
+      "redFlags": "Peticiones constantes de favores triviales.",
+      "counterScript": "No estoy en posición de comprometerme con nada más hoy.",
+      "deepMechanism": "Consistencia cognitiva."
+    },
+    {
+      "id": "TM002",
+      "category": "Manipulación",
+      "name": "Triangulación",
+      "severity": "High",
+      "icon": "🔺",
+      "howItWorks": "Introducir a una tercera persona para crear conflicto.",
+      "redFlags": "Rumores sobre terceros constantes.",
+      "counterScript": "Prefiero hablar directamente con la persona involucrada.",
+      "deepMechanism": "Inseguridad y competencia."
+    },
+    {
+      "id": "TM003",
+      "category": "Engaño",
+      "name": "La Falsa Elección",
+      "severity": "Medium",
+      "icon": "⚖️",
+      "howItWorks": "Dar dos opciones que parecen libres pero ambas benefician al manipulador.",
+      "redFlags": "Presión para decidir rápido.",
+      "counterScript": "Ninguna de esas opciones me convence, busquemos otra.",
+      "deepMechanism": "Ilusión de control."
+    },
+    {
+      "id": "TM004",
+      "category": "Hipnosis",
+      "name": "Lenguaje Vago (Milton Model)",
+      "severity": "Medium",
+      "icon": "🌀",
+      "howItWorks": "Usar frases ambiguas que el cerebro completa con sus propios significados.",
+      "redFlags": "Frases que suenan profundas pero no dicen nada concreto.",
+      "counterScript": "¿Podrías ser más específico sobre lo que quieres decir?",
+      "deepMechanism": "Proyección subconsciente."
+    },
+    {
+      "id": "TM005",
+      "category": "Seducción",
+      "name": "Push and Pull",
+      "severity": "Low",
+      "icon": "🧲",
+      "howItWorks": "Alternar entre interés y desinterés para generar tensión.",
+      "redFlags": "Comportamiento errático y confuso.",
+      "counterScript": "No me gusta este juego de ida y vuelta, seamos claros.",
+      "deepMechanism": "Deseo por lo inalcanzable."
+    },
+    {
+      "id": "TM006",
+      "category": "Psicología",
+      "name": "Aislamiento de Información",
+      "severity": "High",
+      "icon": "🔒",
+      "howItWorks": "Controlar el flujo de datos que recibe el objetivo.",
+      "redFlags": "Te dicen que 'nadie más te entenderá como yo'.",
+      "counterScript": "Voy a consultar otras fuentes para tener una visión completa.",
+      "deepMechanism": "Dependencia cognitiva."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q001",
+      "bookNumber": 1,
+      "question": "¿Cuál es el objetivo principal de la PNL en la persuasión?",
+      "options": [
+        "Controlar el clima",
+        "Modelar patrones de pensamiento y lenguaje",
+        "Adivinar el futuro",
+        "Mejorar la memoria"
+      ],
+      "correctIndex": 1,
+      "explanation": "La PNL busca entender cómo el lenguaje afecta el sistema nervioso para influir en el comportamiento."
+    },
+    {
+      "id": "Q002",
+      "bookNumber": 1,
+      "question": "¿Qué es el 'Gaslighting'?",
+      "options": [
+        "Una técnica de venta",
+        "Un tipo de hipnosis",
+        "Manipulación para hacer dudar de la realidad",
+        "Un método de seducción"
+      ],
+      "correctIndex": 2,
+      "explanation": "Es una forma de abuso psicológico donde se distorsiona la realidad del otro."
+    },
+    {
+      "id": "Q003",
+      "bookNumber": 1,
+      "question": "¿Por qué funciona la técnica de la escasez?",
+      "options": [
+        "Porque nos gusta el lujo",
+        "Porque el miedo a perder es mayor que el deseo de ganar",
+        "Porque es más barato",
+        "Porque es una ley física"
+      ],
+      "correctIndex": 1,
+      "explanation": "La psicología humana valora más lo que es difícil de obtener."
+    },
+    {
+      "id": "Q004",
+      "bookNumber": 1,
+      "question": "¿Qué es un anclaje en psicología?",
+      "options": [
+        "Un tipo de barco",
+        "Una técnica de relajación",
+        "Un estímulo que dispara una respuesta emocional",
+        "Un método de castigo"
+      ],
+      "correctIndex": 2,
+      "explanation": "El anclaje vincula un estímulo externo con un estado interno específico."
+    },
+    {
+      "id": "Q005",
+      "bookNumber": 1,
+      "question": "¿Qué es el 'Doble Vínculo'?",
+      "options": [
+        "Un contrato legal",
+        "Una situación donde cualquier elección es negativa",
+        "Un tipo de matrimonio",
+        "Una técnica de negociación ganar-ganar"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una trampa lógica donde el sujeto pierde sin importar qué elija."
+    },
+    {
+      "id": "Q006",
+      "bookNumber": 1,
+      "question": "¿Cuál es la mejor defensa contra la manipulación?",
+      "options": [
+        "Aislarse de todos",
+        "Atacar primero",
+        "Pensamiento crítico y autoconocimiento",
+        "Ignorar a los demás"
+      ],
+      "correctIndex": 2,
+      "explanation": "La conciencia de los propios sesgos y el pensamiento crítico son las mejores defensas."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G001",
+      "term": "Rapport",
+      "category": "Persuasión",
+      "definition": "Estado de armonía y conexión con otra persona.",
+      "practicalExample": "Igualar el tono de voz para generar confianza."
+    },
+    {
+      "id": "G002",
+      "term": "Sugestión",
+      "category": "Hipnosis",
+      "definition": "Idea introducida en la mente sin resistencia.",
+      "practicalExample": "Decir 'imagina que esto ya es tuyo' durante una venta."
+    },
+    {
+      "id": "G003",
+      "term": "Marco",
+      "category": "Psicología",
+      "definition": "El contexto o perspectiva desde la cual se ve una situación.",
+      "practicalExample": "Presentar un problema como una oportunidad de aprendizaje."
+    },
+    {
+      "id": "G004",
+      "term": "Microexpresión",
+      "category": "Psicología",
+      "definition": "Expresión facial involuntaria que dura una fracción de segundo.",
+      "practicalExample": "Detectar miedo cuando alguien dice estar seguro."
+    },
+    {
+      "id": "G005",
+      "term": "Sesgo",
+      "category": "Psicología",
+      "definition": "Error sistemático en el pensamiento.",
+      "practicalExample": "Creer que algo es bueno solo porque es caro."
+    },
+    {
+      "id": "G006",
+      "term": "Inducción",
+      "category": "Hipnosis",
+      "definition": "Proceso de guiar a alguien hacia un estado alterado.",
+      "practicalExample": "Usar una voz monótona y lenta para relajar."
+    },
+    {
+      "id": "G007",
+      "term": "Empatía táctica",
+      "category": "Persuasión",
+      "definition": "Usar la empatía como herramienta de negociación.",
+      "practicalExample": "Validar los sentimientos del otro para bajar sus defensas."
+    },
+    {
+      "id": "G008",
+      "term": "Disonancia cognitiva",
+      "category": "Psicología",
+      "definition": "Tensión al tener dos creencias contradictorias.",
+      "practicalExample": "Cambiar de opinión para justificar una mala compra."
+    },
+    {
+      "id": "G009",
+      "term": "Autoridad",
+      "category": "Poder",
+      "definition": "Capacidad de influir basada en el estatus percibido.",
+      "practicalExample": "Usar un uniforme para obtener obediencia."
+    },
+    {
+      "id": "G010",
+      "term": "Condicionamiento",
+      "category": "Psicología",
+      "definition": "Aprendizaje mediante refuerzos.",
+      "practicalExample": "Premiar una conducta para que se repita."
+    },
+    {
+      "id": "G011",
+      "term": "Persuasión subliminal",
+      "category": "Persuasión",
+      "definition": "Influencia que ocurre por debajo del umbral consciente.",
+      "practicalExample": "Uso de colores específicos en publicidad."
+    },
+    {
+      "id": "G012",
+      "term": "Engaño",
+      "category": "Manipulación",
+      "definition": "Acción de ocultar la verdad para beneficio propio.",
+      "practicalExample": "Omitir datos negativos en un informe."
+    },
+    {
+      "id": "G013",
+      "term": "Seducción",
+      "category": "Seducción",
+      "definition": "Arte de atraer a alguien hacia tus deseos.",
+      "practicalExample": "Hacer que la otra persona se sienta especial."
+    },
+    {
+      "id": "G014",
+      "term": "Programación",
+      "category": "PNL",
+      "definition": "Conjunto de hábitos mentales.",
+      "practicalExample": "Cambiar una creencia limitante por una potenciadora."
+    },
+    {
+      "id": "G015",
+      "term": "Control mental",
+      "category": "Manipulación",
+      "definition": "Influencia extrema sobre la voluntad ajena.",
+      "practicalExample": "Aislamiento y repetición de ideas."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL001",
+      "category": "Presencia",
+      "title": "La postura de poder",
+      "cue": "Pecho abierto, hombros hacia atrás, contacto visual firme.",
+      "interpretation": "Transmite confianza y dominio del entorno.",
+      "practicalDrill": "Mantener la postura durante 2 minutos antes de una reunión."
+    },
+    {
+      "id": "BL002",
+      "category": "Persuasión",
+      "title": "El contacto visual sostenido",
+      "cue": "Mirar al triángulo entre los ojos y la frente.",
+      "interpretation": "Crea una sensación de autoridad y seriedad.",
+      "practicalDrill": "Practicar con un espejo hasta no parpadear en exceso."
+    },
+    {
+      "id": "BL003",
+      "category": "Seducción",
+      "title": "El gesto de apertura",
+      "cue": "Palmas de las manos visibles y brazos relajados.",
+      "interpretation": "Indica honestidad y falta de amenaza.",
+      "practicalDrill": "Hablar con las manos abiertas durante una conversación."
+    },
+    {
+      "id": "BL004",
+      "category": "Manipulación",
+      "title": "El silencio estratégico",
+      "cue": "Hacer una pausa larga después de una pregunta.",
+      "interpretation": "Presiona al otro para que hable y revele información.",
+      "practicalDrill": "Contar hasta 5 mentalmente tras una respuesta."
+    },
+    {
+      "id": "BL005",
+      "category": "Presencia",
+      "title": "El asentimiento triple",
+      "cue": "Asentir tres veces seguidas mientras el otro habla.",
+      "interpretation": "Induce al otro a seguir hablando y a estar de acuerdo.",
+      "practicalDrill": "Usarlo en una charla casual para ver la reacción."
+    },
+    {
+      "id": "BL006",
+      "category": "Persuasión",
+      "title": "La inclinación de escucha",
+      "cue": "Inclinar ligeramente la cabeza hacia el interlocutor.",
+      "interpretation": "Muestra interés genuino y aumenta la receptividad.",
+      "practicalDrill": "Inclinar la cabeza al escuchar una queja."
     }
   ]
 };

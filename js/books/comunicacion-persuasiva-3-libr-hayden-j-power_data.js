@@ -4464,93 +4464,590 @@ const LIBROS_DATA = {
   ],
   "caseScenarios": [
     {
-      "id": "cs1",
-      "category": "Negociación Estratégica y Persuasión",
-      "title": "La Presentación ante el Comité Ejecutivo",
-      "difficulty": "Alta",
-      "badge": "Maestro de la Persuasión",
-      "scenarioDescription": "Debes convencer al comité directivo de tu empresa para que apruebe un presupuesto adicional para tu proyecto estratégico. El Director Financiero (CFO) es altamente escéptico y le preocupa el costo. Durante tu presentación, notas que el CFO cruza los brazos, echa la cabeza hacia atrás y mira de reojo.",
+      "id": "CS001",
+      "category": "Persuasion",
+      "title": "The Negotiation Deadlock",
+      "difficulty": "Hard",
+      "badge": "Master Negotiator",
+      "scenarioDescription": "You are negotiating a high-stakes contract. The client is rigid. Do you use the Principle of Scarcity or Social Proof?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Hacer una pausa, cambiar el enfoque del discurso apelando al principio de escasez y prueba social, e invitar al CFO con una pregunta abierta para disolver su resistencia no verbal.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Identificaste la barrera no verbal (postura defensiva) y recalibraste la interacción. Al hacer una pregunta abierta, obligaste al CFO a descruzar los brazos para hablar e interconectaste los argumentos con escasez y prueba social.",
-          "bookInsight": "El libro enseña que la persuasión efectiva requiere calibración continua: si el lenguaje corporal del oyente se cierra, insistir con el mismo discurso verbal generará un rechazo definitivo."
+          "text": "Apply Scarcity",
+          "outcome": "Client feels urgency and signs.",
+          "wisdomScore": 90,
+          "analysis": "Scarcity triggers the fear of missing out.",
+          "bookInsight": "The 11 Principles of Persuasion emphasize urgency."
         },
         {
-          "id": "opt2",
-          "text": "Aumentar el tono de voz para demostrar autoridad, ignorar el lenguaje corporal del CFO y acelerar la presentación para llegar rápido a los datos numéricos.",
-          "outcome": "Fallo",
-          "wisdomScore": 25,
-          "analysis": "Intentar imponer autoridad sobre un escéptico que ya muestra señales defensivas incrementa su resistencia interna. El lenguaje corporal cerrado indica que la mente ya ha rechazado el mensaje actual.",
-          "bookInsight": "Elevar la voz o ignorar las señales no verbales de rechazo destruye el Rapport y transforma la persuasión en un enfrentamiento de egos."
+          "text": "Apply Social Proof",
+          "outcome": "Client remains skeptical.",
+          "wisdomScore": 50,
+          "analysis": "Social proof is weak when the client feels unique.",
+          "bookInsight": "Context dictates the choice of principle."
         }
       ]
     },
     {
-      "id": "cs2",
-      "category": "Detección de Manipulación y Lenguaje Corporal",
-      "title": "La Trampa del Socio Comercial",
-      "difficulty": "Alta",
-      "badge": "Escudo Antibalas",
-      "scenarioDescription": "Un nuevo socio potencial te propone firmar un contrato exclusivo en 24 horas. Utiliza un tono de voz extremadamente afectuoso, te llena de elogios (Love Bombing) y afirma que 'esta oportunidad se cerrará mañana porque hay otro cliente esperando'. Sin embargo, cuando le preguntas por las cláusulas de rescisión, notas pacificadores tensionales: se toca el cuello rápidamente y parpadea con frecuencia.",
+      "id": "CS002",
+      "category": "Manipulation",
+      "title": "The Hidden Agenda",
+      "difficulty": "Expert",
+      "badge": "Dark Strategist",
+      "scenarioDescription": "A colleague tries to guilt-trip you into doing their work. How do you respond?",
       "options": [
         {
-          "id": "opt1",
-          "text": "Aplicar la regla del tiempo de espera, desacelerar la urgencia artificial y requerir la revisión detallada por un abogado independientemente del elogio recibido.",
-          "outcome": "Éxito",
-          "wisdomScore": 100,
-          "analysis": "Neutralizaste la combinación de Love Bombing y Escasez Artificial. Además, captaste la fuga no verbal (pacificadores en el cuello) que delataba estrés o mentira sobre la cláusula.",
-          "bookInsight": "Cuando un manipulador impone urgencia e intenta abrumar con afecto, la mejor defensa es pausar el tiempo y exigir verificación racional objetiva."
+          "text": "Set a firm boundary",
+          "outcome": "Manipulation neutralized.",
+          "wisdomScore": 95,
+          "analysis": "Recognizing manipulation is the first step to power.",
+          "bookInsight": "Differentiate between persuasion and manipulation."
         },
         {
-          "id": "opt2",
-          "text": "Firmar de inmediato en el acto para aprovechar la oportunidad y mantener el clima afectuoso y positivo creado por el socio.",
-          "outcome": "Fallo",
-          "wisdomScore": 15,
-          "analysis": "Caíste en la manipulación emocional por urgencia y adulación. Ignoraste la discordancia entre sus palabras dulces y sus señales de estrés no verbales.",
-          "bookInsight": "El manipulador suele usar el Love Bombing y la falsa urgencia para inhabilitar el centro de análisis lógico de su objetivo."
+          "text": "Accept to keep peace",
+          "outcome": "You become a puppet.",
+          "wisdomScore": 10,
+          "analysis": "Compliance reinforces the manipulator's behavior.",
+          "bookInsight": "Purpose of mental manipulation."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Persuasion",
+      "title": "The Influencer's Dilemma",
+      "difficulty": "Medium",
+      "badge": "Charisma Architect",
+      "scenarioDescription": "You need to convince a team to adopt a new strategy. Which technique do you use?",
+      "options": [
+        {
+          "text": "The Foot-in-the-door technique",
+          "outcome": "Gradual buy-in achieved.",
+          "wisdomScore": 85,
+          "analysis": "Small commitments lead to larger ones.",
+          "bookInsight": "21 Techniques of Persuasion."
+        },
+        {
+          "text": "Direct command",
+          "outcome": "Resistance and resentment.",
+          "wisdomScore": 20,
+          "analysis": "Coercion is not persuasion.",
+          "bookInsight": "Persuasion vs Manipulation."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Persuasion",
+      "title": "The Sales Pitch",
+      "difficulty": "Medium",
+      "badge": "Persuasion Pro",
+      "scenarioDescription": "A prospect is hesitant about the price. What is your move?",
+      "options": [
+        {
+          "text": "Highlight the value gap",
+          "outcome": "Prospect perceives value over cost.",
+          "wisdomScore": 88,
+          "analysis": "Reframing is a core psychological trick.",
+          "bookInsight": "7 Simple Psychological Tricks."
+        },
+        {
+          "text": "Offer a discount immediately",
+          "outcome": "Devaluation of your product.",
+          "wisdomScore": 30,
+          "analysis": "Discounts signal low demand.",
+          "bookInsight": "5 Secrets of Persuasive Communication."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Manipulation",
+      "title": "The Gaslighting Defense",
+      "difficulty": "Expert",
+      "badge": "Psychological Shield",
+      "scenarioDescription": "Someone is making you doubt your memory of an event.",
+      "options": [
+        {
+          "text": "Document everything",
+          "outcome": "Reality remains intact.",
+          "wisdomScore": 98,
+          "analysis": "Objective evidence defeats subjective manipulation.",
+          "bookInsight": "Claves Efectivas para la Manipulación Mental."
+        },
+        {
+          "text": "Argue your point",
+          "outcome": "You fall into their trap.",
+          "wisdomScore": 25,
+          "analysis": "Arguing validates the manipulator's frame.",
+          "bookInsight": "Purpose of mental manipulation."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Persuasion",
+      "title": "The Leadership Pivot",
+      "difficulty": "Hard",
+      "badge": "Influence Master",
+      "scenarioDescription": "You must persuade a superior to change their mind.",
+      "options": [
+        {
+          "text": "Mirroring and alignment",
+          "outcome": "Superior feels understood and open.",
+          "wisdomScore": 92,
+          "analysis": "Mirroring builds subconscious rapport.",
+          "bookInsight": "7 Simple Psychological Tricks."
+        },
+        {
+          "text": "Presenting raw data",
+          "outcome": "Superior feels challenged.",
+          "wisdomScore": 40,
+          "analysis": "Logic alone rarely changes minds.",
+          "bookInsight": "5 Secrets of Persuasive Communication."
         }
       ]
     }
   ],
   "flashcards": [
     {
-      "id": "fc1",
-      "term": "Rapport y Espejeamiento (Mirroring)",
-      "definition": "Técnica de sincronización no verbal donde se adopta sutilmente la postura, ritmo respiratorio y tono de voz del interlocutor.",
-      "tacticalUse": "Utilízalo en los primeros 3 minutos de una reunión para reducir la resistencia subconsciente de la otra persona y generar sintonía.",
-      "countermeasure": "Si notas que alguien copia todos tus movimientos de forma inmediata, cambia de postura bruscamente para probar si te está 'calibrando' o manipulando."
+      "id": "F01",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Mirroring",
+      "definition": "Subtly mimicking the body language of the other person.",
+      "tacticalUse": "Build rapport.",
+      "countermeasure": "Maintain conscious awareness of your own posture."
     },
     {
-      "id": "fc2",
-      "term": "Técnica del Portazo en la Cara (Door-in-the-Face)",
-      "definition": "Estrategia persuasiva que consiste en realizar una petición exageradamente alta que será rechazada, para luego hacer la petición real (más modesta).",
-      "tacticalUse": "Útil en negociaciones salariales o de precios: pide un margen alto para que la concesión posterior parezca un favor razonable.",
-      "countermeasure": "Reconoce la segunda oferta no como un favor o descuento, sino como la oferta real ajustada, y no te sientas obligado a ceder por reciprocidad."
+      "id": "F02",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Scarcity",
+      "definition": "Creating the perception of limited availability.",
+      "tacticalUse": "Increase urgency.",
+      "countermeasure": "Ask: Do I need this or do I just fear losing it?"
     },
     {
-      "id": "fc3",
-      "term": "Gaslighting (Luz de Gas)",
-      "definition": "Forma grave de manipulación psicológica que busca distorsionar la percepción de la realidad de la víctima hasta hacerla dudar de su juicio.",
-      "tacticalUse": "Estudio táctico de defensa: identificar cuándo un interlocutor usa frases como 'eso nunca pasó', 'estás loco/a' o 'te lo estás inventando'.",
-      "countermeasure": "Lleva registros por escrito (mensajes, correos, notas) de los acuerdos e interacciones claves. Valida tu memoria con fuentes externas objetivas."
+      "id": "F03",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Reciprocity",
+      "definition": "The urge to return a favor.",
+      "tacticalUse": "Create a sense of obligation.",
+      "countermeasure": "Accept gifts without feeling indebted."
     },
     {
-      "id": "fc4",
-      "term": "Microexpresiones Faciales",
-      "definition": "Expresiones involuntarias y ultra rápidas (duración de una fracción de segundo) que revelan la emoción real antes de que la persona la oculte.",
-      "tacticalUse": "Observa el rostro justo al lanzar una propuesta dura para detectar desprecio, miedo o asco antes de que el sujeto ponga 'cara de póquer'.",
-      "countermeasure": "Entrena el control de la respiración profunda para contener las respuestas micro-musculares involuntarias ante noticias impactantes."
+      "id": "F04",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Social Proof",
+      "definition": "People follow the actions of the masses.",
+      "tacticalUse": "Validate decisions.",
+      "countermeasure": "Evaluate based on logic, not popularity."
     },
     {
-      "id": "fc5",
-      "term": "Triángulo de la Mirada (Mirada de Poder vs. Mirada Social)",
-      "definition": "Dirección de los ojos enfocada en la zona entre los ojos y la frente (poder/negociación) o entre los ojos y la boca (social/afectiva).",
-      "tacticalUse": "En negociaciones críticas, enfoca tu mirada en el triángulo de la frente del otro para proyectar seriedad, autoridad y control de la mesa.",
-      "countermeasure": "Si alguien intenta intimidarte fijando la mirada en tu frente, mantén la calma y rompe suavemente la tensión mirando sus ojos y sonriendo de forma serena."
+      "id": "F05",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Authority",
+      "definition": "Using status to influence.",
+      "tacticalUse": "Establish credibility.",
+      "countermeasure": "Verify credentials independently."
+    },
+    {
+      "id": "F06",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Liking",
+      "definition": "People say yes to those they like.",
+      "tacticalUse": "Build connection.",
+      "countermeasure": "Separate the person from the request."
+    },
+    {
+      "id": "F07",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Consistency",
+      "definition": "Desire to align with past actions.",
+      "tacticalUse": "Get small commitments.",
+      "countermeasure": "Be willing to change your mind."
+    },
+    {
+      "id": "F08",
+      "bookNumber": 2,
+      "category": "Manipulation",
+      "term": "Gaslighting",
+      "definition": "Making someone question their reality.",
+      "tacticalUse": "Gain control.",
+      "countermeasure": "Keep a journal of events."
+    },
+    {
+      "id": "F09",
+      "bookNumber": 2,
+      "category": "Manipulation",
+      "term": "Love Bombing",
+      "definition": "Overwhelming with affection to gain trust.",
+      "tacticalUse": "Create dependency.",
+      "countermeasure": "Maintain boundaries."
+    },
+    {
+      "id": "F10",
+      "bookNumber": 2,
+      "category": "Manipulation",
+      "term": "Triangulation",
+      "definition": "Bringing a third party into a conflict.",
+      "tacticalUse": "Create insecurity.",
+      "countermeasure": "Communicate directly with the source."
+    },
+    {
+      "id": "F11",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Framing",
+      "definition": "Presenting information in a specific context.",
+      "tacticalUse": "Influence perception.",
+      "countermeasure": "Reframe the information yourself."
+    },
+    {
+      "id": "F12",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Anchoring",
+      "definition": "Using the first piece of info as a reference.",
+      "tacticalUse": "Set price expectations.",
+      "countermeasure": "Do your own research first."
+    },
+    {
+      "id": "F13",
+      "bookNumber": 2,
+      "category": "Manipulation",
+      "term": "Guilt Tripping",
+      "definition": "Using emotional debt to force action.",
+      "tacticalUse": "Control behavior.",
+      "countermeasure": "Identify the manipulation."
+    },
+    {
+      "id": "F14",
+      "bookNumber": 1,
+      "category": "Persuasion",
+      "term": "Auto-persuasion",
+      "definition": "Convincing oneself to change.",
+      "tacticalUse": "Self-improvement.",
+      "countermeasure": "Critical self-reflection."
+    },
+    {
+      "id": "F15",
+      "bookNumber": 2,
+      "category": "Manipulation",
+      "term": "Isolation",
+      "definition": "Cutting off support systems.",
+      "tacticalUse": "Total control.",
+      "countermeasure": "Maintain social ties."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Persuasion",
+      "name": "The Door-in-the-Face",
+      "severity": "Low",
+      "icon": "🚪",
+      "howItWorks": "Ask for a large favor, get rejected, ask for a smaller one.",
+      "redFlags": "Feeling pressured to say yes.",
+      "counterScript": "I appreciate the offer, but I cannot commit to either.",
+      "deepMechanism": "Perceptual contrast."
+    },
+    {
+      "id": "TM02",
+      "category": "Manipulation",
+      "name": "Silent Treatment",
+      "severity": "High",
+      "icon": "🤐",
+      "howItWorks": "Withholding communication to induce anxiety.",
+      "redFlags": "Feeling anxious for no reason.",
+      "counterScript": "I notice you are silent. Let's talk when you are ready.",
+      "deepMechanism": "Fear of abandonment."
+    },
+    {
+      "id": "TM03",
+      "category": "Persuasion",
+      "name": "The Yes-Set",
+      "severity": "Low",
+      "icon": "✅",
+      "howItWorks": "Getting small agreements before the big ask.",
+      "redFlags": "Agreeing to things you don't want.",
+      "counterScript": "I agree with that, but I disagree with the conclusion.",
+      "deepMechanism": "Consistency bias."
+    },
+    {
+      "id": "TM04",
+      "category": "Manipulation",
+      "name": "Projection",
+      "severity": "Medium",
+      "icon": "📽️",
+      "howItWorks": "Accusing others of your own flaws.",
+      "redFlags": "Feeling defensive.",
+      "counterScript": "That sounds like your experience, not mine.",
+      "deepMechanism": "Externalizing shame."
+    },
+    {
+      "id": "TM05",
+      "category": "Persuasion",
+      "name": "Authority Appeal",
+      "severity": "Medium",
+      "icon": "⚖️",
+      "howItWorks": "Citing experts to validate a point.",
+      "redFlags": "Blindly following.",
+      "counterScript": "What is the evidence behind that authority?",
+      "deepMechanism": "Deference to power."
+    },
+    {
+      "id": "TM06",
+      "category": "Manipulation",
+      "name": "Fear-Appeal",
+      "severity": "High",
+      "icon": "⚠️",
+      "howItWorks": "Using threats to force compliance.",
+      "redFlags": "Feeling threatened.",
+      "counterScript": "I am not making decisions based on fear.",
+      "deepMechanism": "Survival instinct."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "What is the primary difference between persuasion and manipulation?",
+      "options": [
+        "Intent and transparency",
+        "The volume of the voice",
+        "The speed of the speech",
+        "The gender of the speaker"
+      ],
+      "correctIndex": 0,
+      "explanation": "Persuasion is transparent and respects autonomy; manipulation is deceptive."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 1,
+      "question": "Which principle suggests people want what is rare?",
+      "options": [
+        "Liking",
+        "Scarcity",
+        "Authority",
+        "Consistency"
+      ],
+      "correctIndex": 1,
+      "explanation": "Scarcity creates value through limited availability."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 2,
+      "question": "What is the main goal of mental manipulation?",
+      "options": [
+        "Mutual benefit",
+        "Control and compliance",
+        "Educational growth",
+        "Social harmony"
+      ],
+      "correctIndex": 1,
+      "explanation": "Manipulation seeks to control the target for the manipulator's gain."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "What is 'Auto-persuasion'?",
+      "options": [
+        "Persuading a car",
+        "Convincing oneself",
+        "Persuading a crowd",
+        "Using a machine"
+      ],
+      "correctIndex": 1,
+      "explanation": "It is the internal process of changing one's own beliefs."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 1,
+      "question": "Which technique involves mirroring?",
+      "options": [
+        "Physical imitation",
+        "Loud shouting",
+        "Ignoring the person",
+        "Giving gifts"
+      ],
+      "correctIndex": 0,
+      "explanation": "Mirroring is the subtle imitation of body language."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 2,
+      "question": "What is a common sign of gaslighting?",
+      "options": [
+        "Clear communication",
+        "Feeling confused about reality",
+        "Direct honesty",
+        "Mutual respect"
+      ],
+      "correctIndex": 1,
+      "explanation": "Gaslighting makes the victim doubt their own perceptions."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "Persuasion",
+      "category": "Core",
+      "definition": "The act of influencing someone's beliefs.",
+      "practicalExample": "A speech that changes a vote."
+    },
+    {
+      "id": "G02",
+      "term": "Manipulation",
+      "category": "Core",
+      "definition": "Deceptive influence for selfish gain.",
+      "practicalExample": "Lying to get a promotion."
+    },
+    {
+      "id": "G03",
+      "term": "Rapport",
+      "category": "Psychology",
+      "definition": "A state of harmonious understanding.",
+      "practicalExample": "Finding common ground."
+    },
+    {
+      "id": "G04",
+      "term": "Anchoring",
+      "category": "Technique",
+      "definition": "Using initial info as a reference.",
+      "practicalExample": "Setting a high initial price."
+    },
+    {
+      "id": "G05",
+      "term": "Gaslighting",
+      "category": "Manipulation",
+      "definition": "Psychological abuse to induce doubt.",
+      "practicalExample": "Denying a past conversation."
+    },
+    {
+      "id": "G06",
+      "term": "Reciprocity",
+      "category": "Principle",
+      "definition": "The obligation to return a favor.",
+      "practicalExample": "Giving a free sample."
+    },
+    {
+      "id": "G07",
+      "term": "Scarcity",
+      "category": "Principle",
+      "definition": "Value derived from rarity.",
+      "practicalExample": "Limited time offers."
+    },
+    {
+      "id": "G08",
+      "term": "Social Proof",
+      "category": "Principle",
+      "definition": "Following the crowd.",
+      "practicalExample": "Best-seller labels."
+    },
+    {
+      "id": "G09",
+      "term": "Authority",
+      "category": "Principle",
+      "definition": "Influence based on status.",
+      "practicalExample": "Doctor's recommendation."
+    },
+    {
+      "id": "G10",
+      "term": "Consistency",
+      "category": "Principle",
+      "definition": "Aligning with past actions.",
+      "practicalExample": "Signing a petition."
+    },
+    {
+      "id": "G11",
+      "term": "Mirroring",
+      "category": "Technique",
+      "definition": "Subtle body language matching.",
+      "practicalExample": "Crossing legs when they do."
+    },
+    {
+      "id": "G12",
+      "term": "Framing",
+      "category": "Technique",
+      "definition": "Contextualizing information.",
+      "practicalExample": "90% success vs 10% failure."
+    },
+    {
+      "id": "G13",
+      "term": "Triangulation",
+      "category": "Manipulation",
+      "definition": "Using a third party to create conflict.",
+      "practicalExample": "Telling A what B said."
+    },
+    {
+      "id": "G14",
+      "term": "Love Bombing",
+      "category": "Manipulation",
+      "definition": "Excessive affection to control.",
+      "practicalExample": "Constant praise early on."
+    },
+    {
+      "id": "G15",
+      "term": "Auto-persuasion",
+      "category": "Psychology",
+      "definition": "Self-directed influence.",
+      "practicalExample": "Positive affirmations."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Presence",
+      "title": "The Power Stance",
+      "cue": "Open chest, feet shoulder-width apart.",
+      "interpretation": "Confidence and dominance.",
+      "practicalDrill": "Hold for 2 minutes before a meeting."
+    },
+    {
+      "id": "BL02",
+      "category": "Persuasion",
+      "title": "The Mirroring Technique",
+      "cue": "Subtly match the other person's posture.",
+      "interpretation": "Building subconscious rapport.",
+      "practicalDrill": "Mirror a friend's hand gestures."
+    },
+    {
+      "id": "BL03",
+      "category": "Manipulation Detection",
+      "title": "The Eye Contact Test",
+      "cue": "Excessive or lack of eye contact.",
+      "interpretation": "Potential deception or intimidation.",
+      "practicalDrill": "Observe eye patterns in a conversation."
+    },
+    {
+      "id": "BL04",
+      "category": "Presence",
+      "title": "The Steady Gaze",
+      "cue": "Maintaining eye contact while speaking.",
+      "interpretation": "Authority and sincerity.",
+      "practicalDrill": "Practice holding gaze for 3 seconds."
+    },
+    {
+      "id": "BL05",
+      "category": "Persuasion",
+      "title": "The Open Palm",
+      "cue": "Showing palms while talking.",
+      "interpretation": "Honesty and transparency.",
+      "practicalDrill": "Use open palms in your next pitch."
+    },
+    {
+      "id": "BL06",
+      "category": "Manipulation Detection",
+      "title": "The Defensive Barrier",
+      "cue": "Crossed arms or legs.",
+      "interpretation": "Resistance or closed-mindedness.",
+      "practicalDrill": "Identify when someone closes off."
     }
   ]
 };

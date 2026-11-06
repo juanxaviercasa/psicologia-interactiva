@@ -1,3 +1,4 @@
+// Contenido enriquecido para Programación Neurolingüística: Secretos de Manipulación
 const BOOK_CONTENT = {
   "modules": [
     {
@@ -7,7 +8,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/50 rounded-xl border border-slate-700/50 flex flex-col items-center\">\n    <h4 class=\"text-indigo-400 font-bold mb-4 flex items-center gap-2\">\n        <i class=\"fa-solid fa-book\"></i> Portada del Libro\n    </h4>\n    <div class=\"w-48 aspect-[2/3] bg-slate-800 rounded-lg shadow-lg border border-slate-700 flex flex-col justify-center items-center text-center p-3 relative overflow-hidden\">\n        <img src=\"../../assets/img/covers/cover_10.webp\" alt=\"Portada\" class=\"w-full h-full object-cover absolute inset-0 z-0 opacity-60 mix-blend-luminosity hover:opacity-100 transition-opacity duration-500\"><div class=\"z-10 bg-slate-900/80 px-3 py-1 rounded backdrop-blur-md shadow border border-indigo-500/30\"><span class=\"text-xs text-indigo-300 font-bold uppercase tracking-wider\">Portada Visual</span></div>\n    </div>\n</div><br/>Programación Neurolingüística Descubra Los Secretos de la Manipulación Mental con Técnicas de Psicología Oscura y PNL Programación Neurolingüística Descubra Los Secretos de la Manipulación Mental con Técnicas de Psicología Oscura y PNL Psicología Oscura Introducción PSICOLOGÍA OSCURA, DEPREDADORES, PERSUASIÓN Y ENGAÑO TÉCNICAS DE PERSUASIÓN POPULARES PARA USO PERSONAL DEFINICIÓN DE LA MANIPULACIÓN OSCURA: EL CARÁCTER DE UN MANIPULADOR MAESTRO ¿HAY DIFERENCIA ENTRE MANIPULACIÓN Y PERSUASIÓN? LAS CARACTERÍSTICAS DE UN MANIPULADOR MAESTRO TÉCNICAS DE MANIPULACIÓN PSICOLOGÍA INVERSA EJEMPLOS DE DÍA A DÍA DE DIFERENTES ASPECTOS DE LA PSICOLOGÍA OSCURA CÓMO TE AFECTA TU IDIOMA CORPORAL Conclusión Manipulación Mental Descubra Los Secretos de la Persuasión con Técnicas de Psicología Oscura y Programación Neurolingüística Introducción CONTROL MENTAL LAVADO DEL CEREBRO HIPNOSIS MANIPULACIÓN MOTIVACIONES DE MANIPULADORES ¿CÓMO SE MUESTRAN LAS TÁCTICAS DE MANIPULACIÓN EN LOS GRANDES CINCO? LA VERDAD SOBRE LA MANIPULACIÓN TIPOS DE HIPNOSIS CÓMO FUNCIONA LA PROGRAMACIÓN NEUROLINGÜÍSTICA EN LA MANIPULACIÓN Programación Neurolingüística Descubra Los Secretos de la Manipulación Mental con Técnicas de Psicología Oscura y PNL Introducción A CONTINUACIÓN, SE DESPLAZA EL TÉRMINO DE PROGRAMACIÓN NEUROLINGÜÍSTICA ALGUNAS DEFINICIONES RÁPIDAS CONOCIMIENTO DE PNL LENGUAJE DEL ÉXITO MÉTODOS DE PROGRAMACIÓN NEUROLINGÜÍSTICA CÓMO APLICAR TÉCNICAS DE PROGRAMACIÓN NEUROLINGÜÍSTICA PARA LA MANIPULACIÓN MEN",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> L1 Preliminares E Introduccion\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_y_narcisistas_guia_de_supervivencia_para/l1_preliminares_e_introduccion.webp\" alt=\"L1 Preliminares E Introduccion\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> El Santuario Interior del Empático\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_narcisistas/empaticos_m1_preliminares.webp\" alt=\"El Santuario Interior del Empático\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Programación Neurolingüística Descubra Los Secretos de la Manipulación Mental con Técnicas de Psicología Oscura y PNL Programación Neurolingüística Descubra Los Secretos de la Manipulación Mental con Técnicas de Psicología Oscura y PNL Psicología Oscura Introducción PSICOLOGÍA OSCURA, DEPREDADORES, PERSUASIÓN Y ENGAÑO TÉCNICAS DE PERSUASIÓN POPULARES PARA USO PERSONAL DEFINICIÓN DE LA MANIPULACIÓN OSCURA: EL CARÁCTER DE UN MANIPULADOR MAESTRO ¿HAY DIFERENCIA ENTRE MANIPULACIÓN Y PERSUASIÓN? LAS CARACTERÍSTICAS DE UN MANIPULADOR MAESTRO TÉCNICAS DE MANIPULACIÓN PSICOLOGÍA INVERSA EJEMPLOS DE DÍA A DÍA DE DIFERENTES ASPECTOS DE LA PSICOLOGÍA OSCURA CÓMO TE AFECTA TU IDIOMA CORPORAL Conclusión Manipulación Mental Descubra Los Secretos de la Persuasión con Técnicas de Psicología Oscura y Programación Neurolingüística Introducción CONTROL MENTAL LAVADO DEL CEREBRO HIPNOSIS MANIPULACIÓN MOTIVACIONES DE MANIPULADORES ¿CÓMO SE MUESTRAN LAS TÁCTICAS DE MANIPULACIÓN EN LOS GRANDES CINCO? LA VERDAD SOBRE LA MANIPULACIÓN TIPOS DE HIPNOSIS CÓMO FUNCIONA LA PROGRAMACIÓN NEUROLINGÜÍSTICA EN LA MANIPULACIÓN Programación Neurolingüística Descubra Los Secretos de la Manipulación Mental con Técnicas de Psicología Oscura y PNL Introducción A CONTINUACIÓN, SE DESPLAZA EL TÉRMINO DE PROGRAMACIÓN NEUROLINGÜÍSTICA ALGUNAS DEFINICIONES RÁPIDAS CONOCIMIENTO DE PNL LENGUAJE DEL ÉXITO MÉTODOS DE PROGRAMACIÓN NEUROLINGÜÍSTICA CÓMO APLICAR TÉCNICAS DE PROGRAMACIÓN NEUROLINGÜÍSTICA PARA LA MANIPULACIÓN MEN",
           "interactiveChallenge": {
             "question": "En el módulo de 'Preliminares e Introducción', ¿cuál es la dinámica principal descrita entre un sujeto empático y un manipulador narcisista?",
             "options": [
@@ -507,7 +508,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "al o como sujeto de estudio en sus vidas personales y privadas. Dichos rasgos de carácter, también conocidos como Rasgos de malevolencia, forman la base de personalidades más oscuras, y conocerlos ayudará a reconocer su uso a su alrededor, ya sea deliberado o desconocido. No es suficiente tener solo una de las características reconocibles para llamar firmemente a alguien una personalidad oscura. Cuando cayeron en un solo grupo de categorías, luego de un trauma juvenil o un conjunto desafiante de circunstancias que sobrevivieron, podría ser un desarrollo casual que resultó tener una gran influencia en la formación de la personalidad de ese individuo. En situaciones como estas donde el rasgo es perjudicial para la persona u otras personas, o donde el paciente no puede reconocer este aspecto de sí mismo y contribuye a otros problemas psicológicos, la persona puede buscar la ayuda de un consejero u otro profesional de la salud psicológica para definir sus problemas y descubrir la mejor manera de manejarlos a medida que avanzan juntos. Aquí hay una mirada más cercana a esos rasgos exhibidos en personas con personalidades más oscuras guiados por su propia psicología oscura y definidos por eso. Narcisismo: los narcisistas son individuos cuyas acciones, pensamientos y preocupaciones giran en torno a su propio bienestar y avance ante los demás, a veces a expensas de los demás. Este rasgo de personaje está inspirado en el mito griego de Narciso, un hombre que desperdició su vida enamor",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> L1 Depredadores Persuasion Y Engano\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_y_narcisistas_guia_de_supervivencia_para/l1_depredadores_persuasion_y_engano.webp\" alt=\"L1 Depredadores Persuasion Y Engano\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Depredadores Emocionales y el Lobo con Piel de Oveja\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_narcisistas/empaticos_m2_depredadores_engano.webp\" alt=\"Depredadores Emocionales y el Lobo con Piel de Oveja\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>al o como sujeto de estudio en sus vidas personales y privadas. Dichos rasgos de carácter, también conocidos como Rasgos de malevolencia, forman la base de personalidades más oscuras, y conocerlos ayudará a reconocer su uso a su alrededor, ya sea deliberado o desconocido. No es suficiente tener solo una de las características reconocibles para llamar firmemente a alguien una personalidad oscura. Cuando cayeron en un solo grupo de categorías, luego de un trauma juvenil o un conjunto desafiante de circunstancias que sobrevivieron, podría ser un desarrollo casual que resultó tener una gran influencia en la formación de la personalidad de ese individuo. En situaciones como estas donde el rasgo es perjudicial para la persona u otras personas, o donde el paciente no puede reconocer este aspecto de sí mismo y contribuye a otros problemas psicológicos, la persona puede buscar la ayuda de un consejero u otro profesional de la salud psicológica para definir sus problemas y descubrir la mejor manera de manejarlos a medida que avanzan juntos. Aquí hay una mirada más cercana a esos rasgos exhibidos en personas con personalidades más oscuras guiados por su propia psicología oscura y definidos por eso. Narcisismo: los narcisistas son individuos cuyas acciones, pensamientos y preocupaciones giran en torno a su propio bienestar y avance ante los demás, a veces a expensas de los demás. Este rasgo de personaje está inspirado en el mito griego de Narciso, un hombre que desperdició su vida enamor",
           "interactiveChallenge": {
             "question": "En 'Depredadores Persuasión Y Engaño', ¿cuál es el objetivo principal del camuflaje social empleado por un depredador psicológico?",
             "options": [
@@ -1210,7 +1211,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "y qué tan bien puede (si es que lo hace) reconocerlos en sus interacciones diarias. Una de las mejores cosas para explorar al recopilar la información básica de psicología y cómo influye en la naturaleza humana son los tipos de personalidad psicológica desarrollados y qué buscar al intentar categorizar a alguien con quien se asocia. Hay una variedad de diferentes gestos, contracciones, movimientos oculares u opciones de palabras que las personas pueden hacer, que están influenciadas por su tipo de personalidad y antecedentes de patrones de comportamiento. Cuanto más aprenda a identificar e interpretar estas habilidades físicas y verbales, más podrá leer a las personas a su alrededor para comprender su punto de vista o proceso de pensamiento en diferentes circunstancias para ayudar a predecir sus acciones (especialmente si la situación es peligrosa o relevante). Cuando se identifican los rasgos de personalidad, los individuos pueden clasificarse en algunos tipos principales de personalidad psicológica. Esas marcas de personalidad han entrado en la cultura dominante y se conocen comúnmente incluso en circunstancias sociales fundamentales. Aquí hay una breve introducción a Introvertidos, Extrovertidos y aquellos con Personalidades Abiertas para darle una visión más cercana y una comprensión más profunda de la existencia social humana. Introvertidos: En comparación con los que los rodean, este tipo de personalidad a veces se presenta como reservado y tranquilo. Idealmente, la may",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> L1 Tecnicas Populares Y Manipulacion Oscura\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_y_narcisistas_guia_de_supervivencia_para/l1_tecnicas_populares_y_manipulacion_oscura.webp\" alt=\"L1 Tecnicas Populares Y Manipulacion Oscura\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Trampas de Seducción y Anzuelos Emocionales\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_narcisistas/empaticos_m3_manipulacion_oscura.webp\" alt=\"Trampas de Seducción y Anzuelos Emocionales\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>y qué tan bien puede (si es que lo hace) reconocerlos en sus interacciones diarias. Una de las mejores cosas para explorar al recopilar la información básica de psicología y cómo influye en la naturaleza humana son los tipos de personalidad psicológica desarrollados y qué buscar al intentar categorizar a alguien con quien se asocia. Hay una variedad de diferentes gestos, contracciones, movimientos oculares u opciones de palabras que las personas pueden hacer, que están influenciadas por su tipo de personalidad y antecedentes de patrones de comportamiento. Cuanto más aprenda a identificar e interpretar estas habilidades físicas y verbales, más podrá leer a las personas a su alrededor para comprender su punto de vista o proceso de pensamiento en diferentes circunstancias para ayudar a predecir sus acciones (especialmente si la situación es peligrosa o relevante). Cuando se identifican los rasgos de personalidad, los individuos pueden clasificarse en algunos tipos principales de personalidad psicológica. Esas marcas de personalidad han entrado en la cultura dominante y se conocen comúnmente incluso en circunstancias sociales fundamentales. Aquí hay una breve introducción a Introvertidos, Extrovertidos y aquellos con Personalidades Abiertas para darle una visión más cercana y una comprensión más profunda de la existencia social humana. Introvertidos: En comparación con los que los rodean, este tipo de personalidad a veces se presenta como reservado y tranquilo. Idealmente, la may",
           "interactiveChallenge": {
             "question": "Dentro de 'Técnicas Populares Y Manipulación Oscura', ¿en qué consiste la técnica conocida como 'Love Bombing' (Bombardeo de Amor)?",
             "options": [
@@ -1826,7 +1827,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- ¿HAY DIFERENCIA ENTRE MANIPULACIÓN Y PERSUASIÓN? La distinción entre coerción y persuasión radica en su corazón y los factores que lo hacen lo que es. Como aprendimos en el capítulo anterior, la persuasión es el proceso de modificar los puntos de vista, pensamientos o sentimientos de alguien para obtener apoyo o hacer que tomen alguna acción. Los significados suenan casi similares, así que cuando las diferentes estrategias son visibles y se usan a su alrededor, ¿cómo puede decir la diferencia entre persuasión y manipulación? A menudo, la persuasión y la coerción pueden confundirse con la misma idea o con las dos caras de la misma moneda. La realidad es que la persuasión y la coerción son dos estrategias psicológicas completamente diferentes que pueden usarse para obtener resultados tanto positivos como negativos, dependiendo de la persona que los use y de cómo pretendan beneficiarse de ellos. La persuasión es una táctica que puede usarse para persuadir a alguien para que inicialmente tome una acción a la que se opuso o en contra. Esto también se logra al proporcionar a las personas información sobre la situación en cuestión, como decirle a su amigo que tienen que trabajar por la mañana cuando un evento social comienza a llegar tarde y alcanzan un nivel de intoxicación excesiva. Por otro lado, la coerción es un conjunto de estrategias y métodos organizados en una estrategia planificada deliberadamente para lograr que alguien (o un grupo de personas) altere sus puntos de vi",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> L1 Diferencia Entre Manipulacion Y Persuasion\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_y_narcisistas_guia_de_supervivencia_para/l1_diferencia_entre_manipulacion_y_persuasion.webp\" alt=\"L1 Diferencia Entre Manipulacion Y Persuasion\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> La Bifurcación Moral: Claridad vs Engaño\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_narcisistas/empaticos_m4_diferencia_persuasion.webp\" alt=\"La Bifurcación Moral: Claridad vs Engaño\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- ¿HAY DIFERENCIA ENTRE MANIPULACIÓN Y PERSUASIÓN? La distinción entre coerción y persuasión radica en su corazón y los factores que lo hacen lo que es. Como aprendimos en el capítulo anterior, la persuasión es el proceso de modificar los puntos de vista, pensamientos o sentimientos de alguien para obtener apoyo o hacer que tomen alguna acción. Los significados suenan casi similares, así que cuando las diferentes estrategias son visibles y se usan a su alrededor, ¿cómo puede decir la diferencia entre persuasión y manipulación? A menudo, la persuasión y la coerción pueden confundirse con la misma idea o con las dos caras de la misma moneda. La realidad es que la persuasión y la coerción son dos estrategias psicológicas completamente diferentes que pueden usarse para obtener resultados tanto positivos como negativos, dependiendo de la persona que los use y de cómo pretendan beneficiarse de ellos. La persuasión es una táctica que puede usarse para persuadir a alguien para que inicialmente tome una acción a la que se opuso o en contra. Esto también se logra al proporcionar a las personas información sobre la situación en cuestión, como decirle a su amigo que tienen que trabajar por la mañana cuando un evento social comienza a llegar tarde y alcanzan un nivel de intoxicación excesiva. Por otro lado, la coerción es un conjunto de estrategias y métodos organizados en una estrategia planificada deliberadamente para lograr que alguien (o un grupo de personas) altere sus puntos de vi",
           "interactiveChallenge": {
             "question": "Según el módulo 'Diferencia Entre Manipulación Y Persuasión', ¿cuál es la distinción ética fundamental entre ambas?",
             "options": [
@@ -2500,7 +2501,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "¿CUÁN VULNERABLES SOMOS PARA OSCURAR LA PSICOLOGÍA? Si nos fijamos en los estudios de casos utilizados para explicar el impacto de la psicología oscura en nuestra vida cotidiana, entonces la cuestión de nuestra debilidad pasa a primer plano. Las redes utilizadas por estos delincuentes son algo inocentes, y no exactamente lo que podría conocerse como un precursor del desastre. Por lo tanto, es seguro decir que son las premisas en las que se usaron las plataformas las que dieron como resultado el terrible resultado final. En el primer caso, tienes un hijo para sus compañeros en una sala de chat de computadora. Su pasión por el juego lo llevó allí, pero fue su necesidad de comunicarse con amigos lo que influyó en sus decisiones, y el depredador aprovechó esta necesidad. Nuevamente, en el segundo estudio de caso, era una necesidad humana fundamental interactuar con alguien en un nivel íntimo que se estaba aprovechando y los sentimientos de la víctima fueron manipulados para alterar su realidad. Ella descendió del amor a un estado emocional de inutilidad y, debido a su estado vulnerable, el perpetrador le infligió más daño. Y en el tercer caso, a pesar de que sus intenciones eran correctas y muy humanas, las víctimas depositaron su fe en la Deidad equivocada. El abusador se retrató a sí mismo como una conexión crucial con lo que necesitaban espiritualmente para lograr, y ese objetivo se convirtió en la base de su destino. Otros casos que he estado estudiando siguen este mismo patr",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> L1 Vulnerabilidad Ante La Psicologia Oscura\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_y_narcisistas_guia_de_supervivencia_para/l1_vulnerabilidad_ante_la_psicologia_oscura.webp\" alt=\"L1 Vulnerabilidad Ante La Psicologia Oscura\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Blindaje del Corazón ante la Depredación\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_narcisistas/empaticos_m5_vulnerabilidad_emocional.webp\" alt=\"Blindaje del Corazón ante la Depredación\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>¿CUÁN VULNERABLES SOMOS PARA OSCURAR LA PSICOLOGÍA? Si nos fijamos en los estudios de casos utilizados para explicar el impacto de la psicología oscura en nuestra vida cotidiana, entonces la cuestión de nuestra debilidad pasa a primer plano. Las redes utilizadas por estos delincuentes son algo inocentes, y no exactamente lo que podría conocerse como un precursor del desastre. Por lo tanto, es seguro decir que son las premisas en las que se usaron las plataformas las que dieron como resultado el terrible resultado final. En el primer caso, tienes un hijo para sus compañeros en una sala de chat de computadora. Su pasión por el juego lo llevó allí, pero fue su necesidad de comunicarse con amigos lo que influyó en sus decisiones, y el depredador aprovechó esta necesidad. Nuevamente, en el segundo estudio de caso, era una necesidad humana fundamental interactuar con alguien en un nivel íntimo que se estaba aprovechando y los sentimientos de la víctima fueron manipulados para alterar su realidad. Ella descendió del amor a un estado emocional de inutilidad y, debido a su estado vulnerable, el perpetrador le infligió más daño. Y en el tercer caso, a pesar de que sus intenciones eran correctas y muy humanas, las víctimas depositaron su fe en la Deidad equivocada. El abusador se retrató a sí mismo como una conexión crucial con lo que necesitaban espiritualmente para lograr, y ese objetivo se convirtió en la base de su destino. Otros casos que he estado estudiando siguen este mismo patr",
           "interactiveChallenge": {
             "question": "En 'Vulnerabilidad Ante La Psicología Oscura', ¿qué rasgo del empático es más explotado por los manipuladores oscuros?",
             "options": [
@@ -3464,7 +3465,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- ¿CÓMO FUNCIONA LA PNL? La programación neurolingüística (PNL) es un método para manipular las acciones de nuestro cerebro (la parte 'neuro' de la programación neurolingüística) mediante el uso del lenguaje (la parte 'lingüística') y otros medios de comunicación para permitirnos 'recodificar' 'la forma en que nuestro cerebro responde a los estímulos (eso es' programación ') y experimenta nuevos y mejores comportamientos más adecuados. La PNL puede definirse mejor como una combinación de estrategias, una selección de las mejores piezas, o un agregado, de lo que funciona mejor de muchos otros enfoques terapéuticos respaldados por algunos valores clave, como que el progreso ocurre rápidamente y somos independientes de nuestros comportamientos. De la misma manera que dos computadoras pueden ejecutar dos programas separados y son esencialmente dos cosas diferentes, porque solo el hardware (nuestra cabeza) está configurado en su núcleo; La programación (nuestros comportamientos) es completamente intercambiable. Para ayudar a facilitar la mejora deseada (o 'programación'), la PNL también combina tanto la hipnosis como la autohipnosis. LENGUAJE CORPORAL Una mirada a su lenguaje corporal es una de las mejores formas de entender a otros hombres. Esto puede decirle mucho sobre cómo una persona se comporta, se mueve e incluso habla. Todos tienen muchas variaciones entre sus gestos y no hay una forma exacta de saber qué constituye un individuo. Todavía hay muchas indicaciones similares",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> L1 Como Funciona La Pnl E Idioma Corporal\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_y_narcisistas_guia_de_supervivencia_para/l1_como_funciona_la_pnl_e_idioma_corporal.webp\" alt=\"L1 Como Funciona La Pnl E Idioma Corporal\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Decodificación del Falso Espejo Narcisista\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_narcisistas/empaticos_m6_pnl_idioma_corporal.webp\" alt=\"Decodificación del Falso Espejo Narcisista\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- ¿CÓMO FUNCIONA LA PNL? La programación neurolingüística (PNL) es un método para manipular las acciones de nuestro cerebro (la parte 'neuro' de la programación neurolingüística) mediante el uso del lenguaje (la parte 'lingüística') y otros medios de comunicación para permitirnos 'recodificar' 'la forma en que nuestro cerebro responde a los estímulos (eso es' programación ') y experimenta nuevos y mejores comportamientos más adecuados. La PNL puede definirse mejor como una combinación de estrategias, una selección de las mejores piezas, o un agregado, de lo que funciona mejor de muchos otros enfoques terapéuticos respaldados por algunos valores clave, como que el progreso ocurre rápidamente y somos independientes de nuestros comportamientos. De la misma manera que dos computadoras pueden ejecutar dos programas separados y son esencialmente dos cosas diferentes, porque solo el hardware (nuestra cabeza) está configurado en su núcleo; La programación (nuestros comportamientos) es completamente intercambiable. Para ayudar a facilitar la mejora deseada (o 'programación'), la PNL también combina tanto la hipnosis como la autohipnosis. LENGUAJE CORPORAL Una mirada a su lenguaje corporal es una de las mejores formas de entender a otros hombres. Esto puede decirle mucho sobre cómo una persona se comporta, se mueve e incluso habla. Todos tienen muchas variaciones entre sus gestos y no hay una forma exacta de saber qué constituye un individuo. Todavía hay muchas indicaciones similares",
           "interactiveChallenge": {
             "question": "En el módulo 'Cómo Funciona La PNL E Idioma Corporal', ¿qué se busca identificar mediante el análisis de microexpresiones e incongruencias no verbales?",
             "options": [
@@ -3935,7 +3936,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Introducción Para comprender el mecanismo de Control Mental se requiere una comprensión básica de la mente humana. Las personas toman decisiones de una manera que es única para cada uno de ellos en cada momento. Dichas decisiones se basan en filtros mentales utilizados para ver el yo y su entorno. La interpretación más fuerte de estos filtros es en forma de preguntas que las personas se hacen a sí mismas. Tenga en cuenta que estas preguntas se plantean inconscientemente y que las personas no las conocen, pero pueden deducirse de las acciones de un individuo y de la forma en que responden a los eventos. En cualquier caso, estos problemas no son los mismos. Un individuo puede tomar grandes decisiones sobre las relaciones sobre la base de la pregunta \"¿Este individuo me proporciona seguridad?\" pero en el sentido de comprar un automóvil, la pregunta podría ser \"¿Me dará atención?\" o viceversa. Dichos problemas pueden ser múltiples y tener una jerarquía priorizada. Por ejemplo, decidir si alguien debe considerarse una pareja sexual puede requerir tener que responder las siguientes preguntas. \"¿Me atrae su apariencia?\" \"¿Me siento cómodo con esta persona?\" \"¿Puedo verme teniendo sexo con esa persona?\" \"¿Puedo verme teniendo sexo con esa persona más de una vez?\" \"Si tengo relaciones sexuales con esa persona, ¿me sentiré bien conmigo mismo?\" y así. Las personas pueden responder a las mismas circunstancias de manera diferente, dependiendo de las preguntas (filtros) que hagan. Una",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> L2 Introduccion Y Control Mental\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_y_narcisistas_guia_de_supervivencia_para/l2_introduccion_y_control_mental.webp\" alt=\"L2 Introduccion Y Control Mental\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Despejando la Niebla del Gaslighting\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_narcisistas/empaticos_m7_control_mental.webp\" alt=\"Despejando la Niebla del Gaslighting\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Introducción Para comprender el mecanismo de Control Mental se requiere una comprensión básica de la mente humana. Las personas toman decisiones de una manera que es única para cada uno de ellos en cada momento. Dichas decisiones se basan en filtros mentales utilizados para ver el yo y su entorno. La interpretación más fuerte de estos filtros es en forma de preguntas que las personas se hacen a sí mismas. Tenga en cuenta que estas preguntas se plantean inconscientemente y que las personas no las conocen, pero pueden deducirse de las acciones de un individuo y de la forma en que responden a los eventos. En cualquier caso, estos problemas no son los mismos. Un individuo puede tomar grandes decisiones sobre las relaciones sobre la base de la pregunta \"¿Este individuo me proporciona seguridad?\" pero en el sentido de comprar un automóvil, la pregunta podría ser \"¿Me dará atención?\" o viceversa. Dichos problemas pueden ser múltiples y tener una jerarquía priorizada. Por ejemplo, decidir si alguien debe considerarse una pareja sexual puede requerir tener que responder las siguientes preguntas. \"¿Me atrae su apariencia?\" \"¿Me siento cómodo con esta persona?\" \"¿Puedo verme teniendo sexo con esa persona?\" \"¿Puedo verme teniendo sexo con esa persona más de una vez?\" \"Si tengo relaciones sexuales con esa persona, ¿me sentiré bien conmigo mismo?\" y así. Las personas pueden responder a las mismas circunstancias de manera diferente, dependiendo de las preguntas (filtros) que hagan. Una",
           "interactiveChallenge": {
             "question": "En 'Introducción Y Control Mental', ¿cuál es el pilar básico para implantar un proceso de control mental persuasivo o coercitivo?",
             "options": [
@@ -4928,7 +4929,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "¿QUIÉN USA EL CONTROL MENTAL? Los cultos son en todo conoce el uso de control mental para favorecer la total contra la aquiescencia de sus adherentes. Esto no se limita a los grupos que usan cubiertas blancas y protegidas, o las personas que se afeitan la cabeza para separarse. De hecho, incluso el hombre que habla más suavemente en un traje liso puede tener el objetivo de la manipulación. De hecho, incluso la mujer de aspecto menos difícil con una ocupación estándar puede ser una persona de un culto. Estos grupos se han vuelto tan modernos que, a pesar del hecho de que todos los conocemos y cómo funcionan, muchos a pesar de todo son víctimas de sus garantías y manipulación. La siguiente es una lista de grupos, áreas, instituciones y profesiones conocidas por aplicar el proceso de control mental: • Religiones • Política • Filosofía • Ciencia • Deportes • Meditación • Tratamientos Curativos • Desarrollo personal • Ganar dinero (por ejemplo, organizar la comercialización y el comercio de acciones) • Psicología • Cirugía Plástica • Medicación Occidental • Medios De Comunicación • Educación Además, la lista continúa, sorprendentemente, en áreas como la peluquería. Dado que la manipulación no se trata de en qué reunión u organización o llamada se encuentran las personas. Se trata de las personas y el instinto humano que ofrecemos en su conjunto. Básicamente, cualquiera puede sucumbir a un culto y al control mental que utilizan sin reconocerlo. Lo mejor que cualquiera puede buscar",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> L2 Quien Usa El Control Mental\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_y_narcisistas_guia_de_supervivencia_para/l2_quien_usa_el_control_mental.webp\" alt=\"L2 Quien Usa El Control Mental\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Manipuladores en Escenarios Cotidianos y Laborales\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_narcisistas/empaticos_m8_quien_usa_control.webp\" alt=\"Manipuladores en Escenarios Cotidianos y Laborales\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>¿QUIÉN USA EL CONTROL MENTAL? Los cultos son en todo conoce el uso de control mental para favorecer la total contra la aquiescencia de sus adherentes. Esto no se limita a los grupos que usan cubiertas blancas y protegidas, o las personas que se afeitan la cabeza para separarse. De hecho, incluso el hombre que habla más suavemente en un traje liso puede tener el objetivo de la manipulación. De hecho, incluso la mujer de aspecto menos difícil con una ocupación estándar puede ser una persona de un culto. Estos grupos se han vuelto tan modernos que, a pesar del hecho de que todos los conocemos y cómo funcionan, muchos a pesar de todo son víctimas de sus garantías y manipulación. La siguiente es una lista de grupos, áreas, instituciones y profesiones conocidas por aplicar el proceso de control mental: • Religiones • Política • Filosofía • Ciencia • Deportes • Meditación • Tratamientos Curativos • Desarrollo personal • Ganar dinero (por ejemplo, organizar la comercialización y el comercio de acciones) • Psicología • Cirugía Plástica • Medicación Occidental • Medios De Comunicación • Educación Además, la lista continúa, sorprendentemente, en áreas como la peluquería. Dado que la manipulación no se trata de en qué reunión u organización o llamada se encuentran las personas. Se trata de las personas y el instinto humano que ofrecemos en su conjunto. Básicamente, cualquiera puede sucumbir a un culto y al control mental que utilizan sin reconocerlo. Lo mejor que cualquiera puede buscar",
           "interactiveChallenge": {
             "question": "En el módulo 'Quién Usa El Control Mental', ¿cuál de los siguientes grupos o perfiles NO es un usuario habitual de estas técnicas destructivas?",
             "options": [
@@ -5863,7 +5864,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "TÁCTICAS PSICOLÓGICAS DE MANIPULACIÓN: ¿CÓMO OBTENES LO QUE QUIERES? Tómese un minuto para pensar en un escenario reciente en el que haya necesitado algo de otra persona. Es posible que desee ayudar a su pareja a recoger los platos. O querías que tu jefe tomara un ascenso. O querías que una persona te acompañara a una cita en una fiesta. ¿Cómo lo hiciste? En un mundo perfecto, solo podríamos pedirle a la gente todas las cosas que queremos, y ellos obedecerían. Pero el universo no es perfecto, y en un primer intento, no podemos obtener todo lo que queremos. ¿Y qué puedes hacer para conseguir lo que quieres? Hay muchas respuestas veraces y éticas a este problema. Sin embargo, también hay respuestas deshonestas. Cuando intentas usar engaños, mentiras o métodos engañosos para obtener lo que quieres, usas la coerción. Todos los días la gente trata de explotar a los demás. Puede ver a través de ellos si puede detectar los signos de coerción y tener una mayor influencia sobre las elecciones que haga y su relación con los demás. Encanto Como un todo, conocemos a alguien que utiliza un guiño y una recomendación para obtener lo que necesitan. Las personas necesitan sentirse atractivas y necesarias. Los manipuladores juegan con estos sentimientos siendo encantadores. Aceptan que cuando una persona comienza a ponerse un poco coqueta, comenzarán a sentirse atraídos por el manipulador y estarán obligados a someterse a las solicitudes del manipulador. Coerción Esta táctica no es toda divert",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> L2 Tacticas Psicologicas De Manipulacion\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_y_narcisistas_guia_de_supervivencia_para/l2_tacticas_psicologicas_de_manipulacion.webp\" alt=\"L2 Tacticas Psicologicas De Manipulacion\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Ciclos de Devaluación y Ruptura de Vínculos\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_narcisistas/empaticos_m9_tacticas_psicologicas.webp\" alt=\"Ciclos de Devaluación y Ruptura de Vínculos\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>TÁCTICAS PSICOLÓGICAS DE MANIPULACIÓN: ¿CÓMO OBTENES LO QUE QUIERES? Tómese un minuto para pensar en un escenario reciente en el que haya necesitado algo de otra persona. Es posible que desee ayudar a su pareja a recoger los platos. O querías que tu jefe tomara un ascenso. O querías que una persona te acompañara a una cita en una fiesta. ¿Cómo lo hiciste? En un mundo perfecto, solo podríamos pedirle a la gente todas las cosas que queremos, y ellos obedecerían. Pero el universo no es perfecto, y en un primer intento, no podemos obtener todo lo que queremos. ¿Y qué puedes hacer para conseguir lo que quieres? Hay muchas respuestas veraces y éticas a este problema. Sin embargo, también hay respuestas deshonestas. Cuando intentas usar engaños, mentiras o métodos engañosos para obtener lo que quieres, usas la coerción. Todos los días la gente trata de explotar a los demás. Puede ver a través de ellos si puede detectar los signos de coerción y tener una mayor influencia sobre las elecciones que haga y su relación con los demás. Encanto Como un todo, conocemos a alguien que utiliza un guiño y una recomendación para obtener lo que necesitan. Las personas necesitan sentirse atractivas y necesarias. Los manipuladores juegan con estos sentimientos siendo encantadores. Aceptan que cuando una persona comienza a ponerse un poco coqueta, comenzarán a sentirse atraídos por el manipulador y estarán obligados a someterse a las solicitudes del manipulador. Coerción Esta táctica no es toda divert",
           "interactiveChallenge": {
             "question": "En 'Tácticas Psicológicas De Manipulación', ¿qué objetivo persigue un manipulador cuando utiliza la 'Tratamiento de Silencio' (Ley del Hielo)?",
             "options": [
@@ -6711,7 +6712,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "d y valor de manera individual, y que cada persona procesa experiencias utilizando un sistema de representación primario (PRS). Para ordenar que un terapeuta de PNL trabaje exitosamente con un cliente tratante, el terapeuta debe buscar y ajustar el PRS de ese paciente y usar su historial personal. Los profesionales de PNL afirman que el uso de señales como los movimientos oculares se puede utilizar para controlar las estructuras de representación. Los terapeutas de PNL trabajan con individuos para comprender sus patrones de pensamiento y comportamiento, su estado emocional y sus objetivos. El terapeuta los ayudará a identificar y mejorar las habilidades que los respaldan mejor mediante el análisis del mapa de una persona, y los alentará a crear nuevos enfoques para reemplazar los improductivos. Este método ayudará a las personas a alcanzar los objetivos de recuperación en el curso de la terapia. Los partidarios de la PNL dicen que el método produce resultados rápidos y duraderos y mejora la comprensión de los patrones cognitivos y de comportamiento. La PNL también tiene como objetivo crear una comunicación significativa entre los procesos mentales conscientes e inconscientes para ayudar a las personas a mejorar la creatividad y resolver problemas. Algunos defensores de la PNL equiparan el enfoque de la terapia cognitiva conductual (TCC), pero sostienen que se pueden lograr mejoras significativas en la PNL en menos tiempo. La programación neurolingüística se ha utilizado desde",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> L2 Hipnosis E Hipnoterapia\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_y_narcisistas_guia_de_supervivencia_para/l2_hipnosis_e_hipnoterapia.webp\" alt=\"L2 Hipnosis E Hipnoterapia\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Sanación Subconsciente y Recuperación del Yo\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_narcisistas/empaticos_m10_hipnoterapia_sanacion.webp\" alt=\"Sanación Subconsciente y Recuperación del Yo\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>d y valor de manera individual, y que cada persona procesa experiencias utilizando un sistema de representación primario (PRS). Para ordenar que un terapeuta de PNL trabaje exitosamente con un cliente tratante, el terapeuta debe buscar y ajustar el PRS de ese paciente y usar su historial personal. Los profesionales de PNL afirman que el uso de señales como los movimientos oculares se puede utilizar para controlar las estructuras de representación. Los terapeutas de PNL trabajan con individuos para comprender sus patrones de pensamiento y comportamiento, su estado emocional y sus objetivos. El terapeuta los ayudará a identificar y mejorar las habilidades que los respaldan mejor mediante el análisis del mapa de una persona, y los alentará a crear nuevos enfoques para reemplazar los improductivos. Este método ayudará a las personas a alcanzar los objetivos de recuperación en el curso de la terapia. Los partidarios de la PNL dicen que el método produce resultados rápidos y duraderos y mejora la comprensión de los patrones cognitivos y de comportamiento. La PNL también tiene como objetivo crear una comunicación significativa entre los procesos mentales conscientes e inconscientes para ayudar a las personas a mejorar la creatividad y resolver problemas. Algunos defensores de la PNL equiparan el enfoque de la terapia cognitiva conductual (TCC), pero sostienen que se pueden lograr mejoras significativas en la PNL en menos tiempo. La programación neurolingüística se ha utilizado desde",
           "interactiveChallenge": {
             "question": "Dentro de 'Hipnosis E Hipnoterapia', ¿cuál es la diferencia clave entre la hipnosis ericksoniana/encubierta y la hipnosis clásica de escenario?",
             "options": [
@@ -7675,7 +7676,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Introducción Todos los seres humanos en forma nacen con el mismo sistema neurológico básico. El conocimiento que obtienes de tu entorno a través de tus sentidos es transmitido a tu cerebro por tu sistema neurológico. De esta manera, el mundo está fuera de ti, pero aún incluye los órganos, como tus ojos, oídos, piel, estómago y pulmones. La información es procesada por su cerebro y las señales se transmiten a su hígado. Por ejemplo, con tus ojos el resultado puede ser que estás parpadeando. El conocimiento también puede generar sentimientos, y puedes experimentar felicidad, reír o llorar. En resumen, te estás comportando de alguna manera. Su capacidad para hacer algo en su vida, ya sea nadar a lo largo de una piscina, cocinar o leer este libro, depende de cómo responda a la estimulación del sistema nervioso. Y mucha PNL está comprometida a resolver cómo pensar y comunicarse de manera más efectiva dentro de usted y con los demás. A CONTINUACIÓN, SE DESPLAZA EL TÉRMINO DE PROGRAMACIÓN NEUROLINGÜÍSTICA Neuro afecta el sistema de neurología. La PNL se centra en la premisa de que estás viendo el mundo a través de los sentidos y convirtiendo la información sensorial en procesos de pensamiento tanto conscientes como inconscientes. Los procesos de pensamiento activan el sistema de neurología que afecta la fisiología, las emociones y el comportamiento. El lenguaje se refiere a cómo usas las palabras para darle sentido al mundo, capturar y conceptualizar la experiencia y transmitirl",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> L3 Introduccion Al Sistema Neurologico Y Pnl\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_y_narcisistas_guia_de_supervivencia_para/l3_introduccion_al_sistema_neurologico_y_pnl.webp\" alt=\"L3 Introduccion Al Sistema Neurologico Y Pnl\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Restablecimiento Neural y Resiliencia\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_narcisistas/empaticos_m11_sistema_neurologico.webp\" alt=\"Restablecimiento Neural y Resiliencia\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>--- Introducción Todos los seres humanos en forma nacen con el mismo sistema neurológico básico. El conocimiento que obtienes de tu entorno a través de tus sentidos es transmitido a tu cerebro por tu sistema neurológico. De esta manera, el mundo está fuera de ti, pero aún incluye los órganos, como tus ojos, oídos, piel, estómago y pulmones. La información es procesada por su cerebro y las señales se transmiten a su hígado. Por ejemplo, con tus ojos el resultado puede ser que estás parpadeando. El conocimiento también puede generar sentimientos, y puedes experimentar felicidad, reír o llorar. En resumen, te estás comportando de alguna manera. Su capacidad para hacer algo en su vida, ya sea nadar a lo largo de una piscina, cocinar o leer este libro, depende de cómo responda a la estimulación del sistema nervioso. Y mucha PNL está comprometida a resolver cómo pensar y comunicarse de manera más efectiva dentro de usted y con los demás. A CONTINUACIÓN, SE DESPLAZA EL TÉRMINO DE PROGRAMACIÓN NEUROLINGÜÍSTICA Neuro afecta el sistema de neurología. La PNL se centra en la premisa de que estás viendo el mundo a través de los sentidos y convirtiendo la información sensorial en procesos de pensamiento tanto conscientes como inconscientes. Los procesos de pensamiento activan el sistema de neurología que afecta la fisiología, las emociones y el comportamiento. El lenguaje se refiere a cómo usas las palabras para darle sentido al mundo, capturar y conceptualizar la experiencia y transmitirl",
           "interactiveChallenge": {
             "question": "En 'Introducción Al Sistema Neurológico Y PNL', ¿qué rol juegan los 'Anclajes' en el condicionamiento emocional de una persona?",
             "options": [
@@ -8639,7 +8640,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "sienten la percepción del cuerpo (para nuestros propósitos, incluimos el sentido del olfato (olfativo) y el gusto (gustativo) en esta categoría). Obviamente tienes acceso a todos tus sentidos VAK en la vida cotidiana. Sin embargo, un significado puede dominar para usted en cualquier contexto dado. Cuando se vuelva más receptivo a los tres grupos visuales, auditivos y kinestésicos específicos en el trabajo y el juego, creemos que se beneficiará de este ejercicio. Para empezar, imagine que quiere cambiar una habitación dentro de su casa. En palabras puramente visuales, es posible que haya estado pensando en este trabajo: qué colores de pintura elegir o patrones para telas. Cuando comience a involucrarse en la dimensión auditiva, puede pensar en los sonidos de las cosas en la casa, esas tablas de piso chirriantes, la música o las conversaciones que desea tener, y cómo reducir el ruido del tráfico externo o dejar que el canto de los pájaros entre ¿O qué sucede si encuentras el elemento kinestésico en términos de texturas, este espacio? A continuación, puede elegir una alfombra suave, aterciopelada o una estera de esteras. Según la sensación que te atraiga, puedes revelar algo de ladrillo o preferir un nuevo acabado liso de yeso en las paredes. Una vez que conozca VAK en el sentido de aprendizaje, puede comenzar a experimentar con diferentes formas de asimilar el conocimiento. Digamos que has estado aprendiendo un idioma en el pasado escuchando los CD en tu auto. En lugar de ver p",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> L3 Pnl Frente A La Psicoterapia Y Modelos Mentales\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_y_narcisistas_guia_de_supervivencia_para/l3_pnl_frente_a_la_psicoterapia_y_modelos_mentales.webp\" alt=\"L3 Pnl Frente A La Psicoterapia Y Modelos Mentales\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Ruptura de Creencias Limitantes y Libertad\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_narcisistas/empaticos_m12_modelos_mentales.webp\" alt=\"Ruptura de Creencias Limitantes y Libertad\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>sienten la percepción del cuerpo (para nuestros propósitos, incluimos el sentido del olfato (olfativo) y el gusto (gustativo) en esta categoría). Obviamente tienes acceso a todos tus sentidos VAK en la vida cotidiana. Sin embargo, un significado puede dominar para usted en cualquier contexto dado. Cuando se vuelva más receptivo a los tres grupos visuales, auditivos y kinestésicos específicos en el trabajo y el juego, creemos que se beneficiará de este ejercicio. Para empezar, imagine que quiere cambiar una habitación dentro de su casa. En palabras puramente visuales, es posible que haya estado pensando en este trabajo: qué colores de pintura elegir o patrones para telas. Cuando comience a involucrarse en la dimensión auditiva, puede pensar en los sonidos de las cosas en la casa, esas tablas de piso chirriantes, la música o las conversaciones que desea tener, y cómo reducir el ruido del tráfico externo o dejar que el canto de los pájaros entre ¿O qué sucede si encuentras el elemento kinestésico en términos de texturas, este espacio? A continuación, puede elegir una alfombra suave, aterciopelada o una estera de esteras. Según la sensación que te atraiga, puedes revelar algo de ladrillo o preferir un nuevo acabado liso de yeso en las paredes. Una vez que conozca VAK en el sentido de aprendizaje, puede comenzar a experimentar con diferentes formas de asimilar el conocimiento. Digamos que has estado aprendiendo un idioma en el pasado escuchando los CD en tu auto. En lugar de ver p",
           "interactiveChallenge": {
             "question": "En el módulo 'PNL Frente A La Psicoterapia Y Modelos Mentales', ¿cómo se define el 'Reencuadre' (Reframing)?",
             "options": [
@@ -9661,7 +9662,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "lo obliguen a hacerlo; verdaderamente experto en perder el tiempo. • Para una persona motivada por los procedimientos: Palabras: la forma correcta, intento e intento, primero ... segundo ... y después ... (palabras o frases con estructura y procedimiento claros). Estilo: siga las reglas, técnicas y procedimientos establecidos; como directrices exactas, ¡siga los límites de velocidad! Ventajas: productiva; bueno con la organización basada en reglas; se adherirá a las notas concurrentes. Desventajas: el procedimiento puede resultar de mayor prioridad que la actividad a realizar; incluso desde un punto de vista pesimista burocrático y de bloqueo Marco de referencia interno / externo El término 'marco de referencia' se refiere a dónde está concentrando su atención. Si te refieres a ti mismo externamente, obtienes tu sentido de ti mismo desde fuera de ti mismo, cosas, eventos y circunstancias. Cuando se le haga referencia externamente, se describirá a sí mismo por título, estado, vehículo, casa, donde se va de vacaciones, pasado, futuro, padres, bebés, necesidades o condición. Siempre estás en una búsqueda para reafirmar quién eres, para ti mismo. La vida se vuelve mucho más fácil cuando te refieres a ti mismo internamente. Sabes quién eres. Recuerdas para qué estás aquí. Sabes lo que te hace el mayor sentido de satisfacción. Sabes que decir Después de que te hayas ido, sabes lo que quieres dejar atrás y ahora estás haciendo algo al respecto. Un marco externo se trata de satisface",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> L3 El Modelo Meta Y Aplicaciones Practicas\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_y_narcisistas_guia_de_supervivencia_para/l3_el_modelo_meta_y_aplicaciones_practicas.webp\" alt=\"L3 El Modelo Meta Y Aplicaciones Practicas\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Cuestionamiento de Precisión con Modelo Meta\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_narcisistas/empaticos_m13_modelo_meta.webp\" alt=\"Cuestionamiento de Precisión con Modelo Meta\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>lo obliguen a hacerlo; verdaderamente experto en perder el tiempo. • Para una persona motivada por los procedimientos: Palabras: la forma correcta, intento e intento, primero ... segundo ... y después ... (palabras o frases con estructura y procedimiento claros). Estilo: siga las reglas, técnicas y procedimientos establecidos; como directrices exactas, ¡siga los límites de velocidad! Ventajas: productiva; bueno con la organización basada en reglas; se adherirá a las notas concurrentes. Desventajas: el procedimiento puede resultar de mayor prioridad que la actividad a realizar; incluso desde un punto de vista pesimista burocrático y de bloqueo Marco de referencia interno / externo El término 'marco de referencia' se refiere a dónde está concentrando su atención. Si te refieres a ti mismo externamente, obtienes tu sentido de ti mismo desde fuera de ti mismo, cosas, eventos y circunstancias. Cuando se le haga referencia externamente, se describirá a sí mismo por título, estado, vehículo, casa, donde se va de vacaciones, pasado, futuro, padres, bebés, necesidades o condición. Siempre estás en una búsqueda para reafirmar quién eres, para ti mismo. La vida se vuelve mucho más fácil cuando te refieres a ti mismo internamente. Sabes quién eres. Recuerdas para qué estás aquí. Sabes lo que te hace el mayor sentido de satisfacción. Sabes que decir Después de que te hayas ido, sabes lo que quieres dejar atrás y ahora estás haciendo algo al respecto. Un marco externo se trata de satisface",
           "interactiveChallenge": {
             "question": "En 'El Modelo Meta Y Aplicaciones Prácticas', ¿para qué sirve el uso de preguntas del Modelo Meta frente a un discurso manipulador?",
             "options": [
@@ -10161,7 +10162,7 @@ const BOOK_CONTENT = {
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "preciar una nueva forma de ver la hipnosis. Piénselo simplemente como un estado de sueño donde la perspectiva de mejora es más visible. El English Dictionary of Collins describe la hipnosis como \"un estado de relajación y concentración inducido médicamente en el que las secciones más profundas de la mente son más visibles\". La hipnosis literalmente acelera el proceso de obtener la respuesta y el apoyo que necesita cuando tiene un problema. La realidad es que la hipnosis solo funciona si eres un participante dispuesto en el proceso. Kate se encontró una vez en una habitación de más de 100 personas fascinadas por un ejercicio de hipnosis grupal, y fue básicamente la única que no obedeció las órdenes incrustadas del presentador. Ella vio confundida mientras otros tomaban sus sillas con ellos hacia el escenario. Más tarde se dio cuenta de que había desconfiado de la persona que dirigía la sesión y, naturalmente, se había protegido de participar. Recuerde, solo usted puede controlar sus emociones, actos y vocabulario. Al igual que para cualquier asesoramiento o servicio relacionado, eche un vistazo a las credenciales clínicas del hipnoterapeuta y solicite referencias. Use las mismas precauciones de protección que usará mientras esté en una cita a ciegas. En particular, tenga cuidado al ingresar a una casa o habitación privada donde esté solo con la persona. En caso de duda, es una decisión inteligente llevar un compañero contigo. Contrariamente a la creencia común, las personas ti",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> L3 Conclusiones Y Cierre\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_y_narcisistas_guia_de_supervivencia_para/l3_conclusiones_y_cierre.webp\" alt=\"L3 Conclusiones Y Cierre\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Soberanía Emocional y Límites Inquebrantables\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/empaticos_narcisistas/empaticos_m14_conclusiones_cierre.webp\" alt=\"Soberanía Emocional y Límites Inquebrantables\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>preciar una nueva forma de ver la hipnosis. Piénselo simplemente como un estado de sueño donde la perspectiva de mejora es más visible. El English Dictionary of Collins describe la hipnosis como \"un estado de relajación y concentración inducido médicamente en el que las secciones más profundas de la mente son más visibles\". La hipnosis literalmente acelera el proceso de obtener la respuesta y el apoyo que necesita cuando tiene un problema. La realidad es que la hipnosis solo funciona si eres un participante dispuesto en el proceso. Kate se encontró una vez en una habitación de más de 100 personas fascinadas por un ejercicio de hipnosis grupal, y fue básicamente la única que no obedeció las órdenes incrustadas del presentador. Ella vio confundida mientras otros tomaban sus sillas con ellos hacia el escenario. Más tarde se dio cuenta de que había desconfiado de la persona que dirigía la sesión y, naturalmente, se había protegido de participar. Recuerde, solo usted puede controlar sus emociones, actos y vocabulario. Al igual que para cualquier asesoramiento o servicio relacionado, eche un vistazo a las credenciales clínicas del hipnoterapeuta y solicite referencias. Use las mismas precauciones de protección que usará mientras esté en una cita a ciegas. En particular, tenga cuidado al ingresar a una casa o habitación privada donde esté solo con la persona. En caso de duda, es una decisión inteligente llevar un compañero contigo. Contrariamente a la creencia común, las personas ti",
           "interactiveChallenge": {
             "question": "En 'Conclusiones Y Cierre', ¿cuál es la piedra angular para que un empático logre la inmunidad frente a los abusos narcisistas?",
             "options": [
@@ -10885,6 +10886,594 @@ const BOOK_CONTENT = {
           }
         }
       ]
+    }
+  ],
+  "caseScenarios": [
+    {
+      "id": "CS001",
+      "category": "Manipulación",
+      "title": "El dilema del líder",
+      "difficulty": "Hard",
+      "badge": "Maquiavelo",
+      "scenarioDescription": "Un colega intenta usar anclaje emocional para que aceptes un proyecto inviable. ¿Cómo respondes?",
+      "options": [
+        {
+          "text": "Aceptar para mantener la paz",
+          "outcome": "Manipulado",
+          "wisdomScore": 20,
+          "analysis": "Ceder ante la presión emocional es el primer paso hacia la subordinación.",
+          "bookInsight": "La vulnerabilidad ante la psicología oscura nace de la falta de límites claros."
+        },
+        {
+          "text": "Desarticular el anclaje con preguntas lógicas",
+          "outcome": "Empoderado",
+          "wisdomScore": 95,
+          "analysis": "Romper el patrón emocional obliga al manipulador a exponer su lógica fallida.",
+          "bookInsight": "La PNL se neutraliza cuando se hace consciente el proceso subconsciente."
+        }
+      ]
+    },
+    {
+      "id": "CS002",
+      "category": "Persuasión",
+      "title": "Negociación de alto riesgo",
+      "difficulty": "Medium",
+      "badge": "Estratega",
+      "scenarioDescription": "Tu contraparte usa lenguaje corporal cerrado para intimidarte. ¿Qué haces?",
+      "options": [
+        {
+          "text": "Imitar su postura para generar rapport",
+          "outcome": "Neutralizado",
+          "wisdomScore": 85,
+          "analysis": "El mirroring es una técnica de PNL efectiva para ganar confianza.",
+          "bookInsight": "El lenguaje corporal es el idioma del subconsciente."
+        },
+        {
+          "text": "Ignorarlo y hablar más fuerte",
+          "outcome": "Fracaso",
+          "wisdomScore": 30,
+          "analysis": "La agresividad directa suele activar mecanismos de defensa en el otro.",
+          "bookInsight": "La persuasión requiere sutileza, no fuerza bruta."
+        }
+      ]
+    },
+    {
+      "id": "CS003",
+      "category": "Control Mental",
+      "title": "La trampa de la autoridad",
+      "difficulty": "Hard",
+      "badge": "Mentalista",
+      "scenarioDescription": "Alguien intenta usar autoridad fingida para que reveles información confidencial.",
+      "options": [
+        {
+          "text": "Verificar credenciales y mantener silencio",
+          "outcome": "Seguro",
+          "wisdomScore": 100,
+          "analysis": "La validación externa es la mejor defensa contra la ingeniería social.",
+          "bookInsight": "El control mental se basa en la asunción de autoridad no cuestionada."
+        },
+        {
+          "text": "Revelar poco para ganar su confianza",
+          "outcome": "Comprometido",
+          "wisdomScore": 10,
+          "analysis": "Has caído en la técnica de reciprocidad forzada.",
+          "bookInsight": "La información es poder; no la regales por cortesía."
+        }
+      ]
+    },
+    {
+      "id": "CS004",
+      "category": "Psicología Oscura",
+      "title": "El gaslighting sutil",
+      "difficulty": "Hard",
+      "badge": "Observador",
+      "scenarioDescription": "Un superior cuestiona tu memoria sobre un acuerdo previo.",
+      "options": [
+        {
+          "text": "Dudar de ti mismo",
+          "outcome": "Vulnerable",
+          "wisdomScore": 0,
+          "analysis": "El gaslighting busca destruir tu realidad para controlarte.",
+          "bookInsight": "La autoconfianza es el escudo contra la manipulación psicológica."
+        },
+        {
+          "text": "Presentar evidencia escrita",
+          "outcome": "Resiliente",
+          "wisdomScore": 90,
+          "analysis": "La objetividad es el antídoto contra la distorsión de la realidad.",
+          "bookInsight": "La psicología oscura prospera en la ambigüedad."
+        }
+      ]
+    },
+    {
+      "id": "CS005",
+      "category": "Persuasión",
+      "title": "Venta bajo presión",
+      "difficulty": "Medium",
+      "badge": "Persuasor",
+      "scenarioDescription": "Un vendedor usa la técnica de escasez para presionarte.",
+      "options": [
+        {
+          "text": "Comprar por miedo a perder",
+          "outcome": "Manipulado",
+          "wisdomScore": 15,
+          "analysis": "El miedo es el disparador emocional más básico.",
+          "bookInsight": "La escasez es una construcción mental, no una realidad."
+        },
+        {
+          "text": "Pausar la decisión 24 horas",
+          "outcome": "Controlado",
+          "wisdomScore": 95,
+          "analysis": "El tiempo desactiva la urgencia artificial.",
+          "bookInsight": "La pausa es la herramienta más poderosa del negociador."
+        }
+      ]
+    },
+    {
+      "id": "CS006",
+      "category": "Control Mental",
+      "title": "La influencia del grupo",
+      "difficulty": "Medium",
+      "badge": "Líder",
+      "scenarioDescription": "El grupo presiona para una decisión que consideras poco ética.",
+      "options": [
+        {
+          "text": "Seguir al grupo para encajar",
+          "outcome": "Seguidor",
+          "wisdomScore": 25,
+          "analysis": "La presión de grupo anula el pensamiento crítico.",
+          "bookInsight": "El individuo pierde su poder cuando se disuelve en la masa."
+        },
+        {
+          "text": "Cuestionar la ética públicamente",
+          "outcome": "Líder",
+          "wisdomScore": 90,
+          "analysis": "Romper el consenso es un acto de poder individual.",
+          "bookInsight": "La independencia mental es la base de la verdadera influencia."
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "F01",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Anclaje",
+      "definition": "Asociar un estímulo externo con un estado emocional.",
+      "tacticalUse": "Crear estados de confianza en otros.",
+      "countermeasure": "Identificar el estímulo y romper la asociación."
+    },
+    {
+      "id": "F02",
+      "bookNumber": 1,
+      "category": "Manipulación",
+      "term": "Gaslighting",
+      "definition": "Hacer dudar a alguien de su propia percepción.",
+      "tacticalUse": "Desestabilizar la confianza del objetivo.",
+      "countermeasure": "Mantener registros objetivos y buscar validación externa."
+    },
+    {
+      "id": "F03",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Reciprocidad",
+      "definition": "Sentir la obligación de devolver un favor.",
+      "tacticalUse": "Dar algo pequeño para obtener algo grande.",
+      "countermeasure": "Aceptar el regalo sin sentir deuda moral."
+    },
+    {
+      "id": "F04",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Mirroring",
+      "definition": "Imitar gestos y lenguaje del otro.",
+      "tacticalUse": "Generar rapport instantáneo.",
+      "countermeasure": "Observar si el otro imita tus movimientos."
+    },
+    {
+      "id": "F05",
+      "bookNumber": 2,
+      "category": "Control Mental",
+      "term": "Aislamiento",
+      "definition": "Separar al sujeto de sus fuentes de apoyo.",
+      "tacticalUse": "Hacer al sujeto dependiente del manipulador.",
+      "countermeasure": "Mantener redes sociales y familiares fuertes."
+    },
+    {
+      "id": "F06",
+      "bookNumber": 2,
+      "category": "Psicología Oscura",
+      "term": "Love Bombing",
+      "definition": "Exceso de afecto para ganar control.",
+      "tacticalUse": "Crear dependencia emocional rápida.",
+      "countermeasure": "Establecer límites de tiempo y espacio."
+    },
+    {
+      "id": "F07",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Escasez",
+      "definition": "Crear urgencia mediante la limitación.",
+      "tacticalUse": "Forzar una decisión rápida.",
+      "countermeasure": "Evaluar el valor real sin la presión del tiempo."
+    },
+    {
+      "id": "F08",
+      "bookNumber": 2,
+      "category": "Control Mental",
+      "term": "Hipnosis",
+      "definition": "Estado de sugestión profunda.",
+      "tacticalUse": "Insertar ideas en el subconsciente.",
+      "countermeasure": "Mantener pensamiento crítico activo."
+    },
+    {
+      "id": "F09",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Calibración",
+      "definition": "Leer señales sutiles del cuerpo.",
+      "tacticalUse": "Detectar mentiras o estados internos.",
+      "countermeasure": "Controlar microexpresiones faciales."
+    },
+    {
+      "id": "F10",
+      "bookNumber": 2,
+      "category": "Psicología Oscura",
+      "term": "Triangulación",
+      "definition": "Introducir a un tercero para crear conflicto.",
+      "tacticalUse": "Desestabilizar una relación.",
+      "countermeasure": "Comunicación directa con el afectado."
+    },
+    {
+      "id": "F11",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Autoridad",
+      "definition": "Usar símbolos de poder para influir.",
+      "tacticalUse": "Obtener obediencia ciega.",
+      "countermeasure": "Cuestionar la fuente de la autoridad."
+    },
+    {
+      "id": "F12",
+      "bookNumber": 2,
+      "category": "Control Mental",
+      "term": "Repetición",
+      "definition": "Repetir mensajes para normalizarlos.",
+      "tacticalUse": "Cambiar creencias a largo plazo.",
+      "countermeasure": "Analizar la fuente y el propósito del mensaje."
+    },
+    {
+      "id": "F13",
+      "bookNumber": 1,
+      "category": "PNL",
+      "term": "Reencuadre",
+      "definition": "Cambiar el contexto de una situación.",
+      "tacticalUse": "Transformar una debilidad en fortaleza.",
+      "countermeasure": "Analizar los hechos desde múltiples ángulos."
+    },
+    {
+      "id": "F14",
+      "bookNumber": 2,
+      "category": "Psicología Oscura",
+      "term": "Culpabilización",
+      "definition": "Hacer sentir responsable al otro.",
+      "tacticalUse": "Obtener concesiones por remordimiento.",
+      "countermeasure": "Analizar la responsabilidad real objetiva."
+    },
+    {
+      "id": "F15",
+      "bookNumber": 1,
+      "category": "Persuasión",
+      "term": "Consenso",
+      "definition": "Usar la presión social para influir.",
+      "tacticalUse": "Hacer que el sujeto siga a la mayoría.",
+      "countermeasure": "Evaluar la decisión independientemente."
+    }
+  ],
+  "tacticalMatrix": [
+    {
+      "id": "TM01",
+      "category": "Persuasión",
+      "name": "Anclaje Emocional",
+      "severity": "Medium",
+      "icon": "Anchor",
+      "howItWorks": "Vincula un estado emocional a un gesto físico.",
+      "redFlags": "Cambios bruscos de humor tras un gesto.",
+      "counterScript": "Eso es interesante, pero no veo la conexión lógica.",
+      "deepMechanism": "Condicionamiento clásico pavloviano."
+    },
+    {
+      "id": "TM02",
+      "category": "Manipulación",
+      "name": "Gaslighting",
+      "severity": "High",
+      "icon": "Cloud",
+      "howItWorks": "Niega la realidad del otro sistemáticamente.",
+      "redFlags": "Dudas constantes sobre tu propia memoria.",
+      "counterScript": "Mis registros indican algo distinto, revisemos.",
+      "deepMechanism": "Erosión de la identidad y realidad propia."
+    },
+    {
+      "id": "TM03",
+      "category": "Control Mental",
+      "name": "Aislamiento",
+      "severity": "Critical",
+      "icon": "Lock",
+      "howItWorks": "Corta lazos con el entorno del sujeto.",
+      "redFlags": "Críticas constantes a tus amigos/familia.",
+      "counterScript": "Valoro mis relaciones externas, no son negociables.",
+      "deepMechanism": "Dependencia total del manipulador."
+    },
+    {
+      "id": "TM04",
+      "category": "Persuasión",
+      "name": "Reciprocidad",
+      "severity": "Low",
+      "icon": "Handshake",
+      "howItWorks": "Ofrece algo pequeño para recibir algo grande.",
+      "redFlags": "Favores no solicitados.",
+      "counterScript": "Gracias, pero no puedo aceptar este compromiso.",
+      "deepMechanism": "Norma social de deuda."
+    },
+    {
+      "id": "TM05",
+      "category": "Psicología Oscura",
+      "name": "Love Bombing",
+      "severity": "High",
+      "icon": "Heart",
+      "howItWorks": "Sobrecarga de afecto inicial.",
+      "redFlags": "Intensidad desproporcionada al tiempo de conocerse.",
+      "counterScript": "Prefiero ir más despacio para conocernos bien.",
+      "deepMechanism": "Dopamina y validación externa."
+    },
+    {
+      "id": "TM06",
+      "category": "Control Mental",
+      "name": "Sugestión Hipnótica",
+      "severity": "High",
+      "icon": "Eye",
+      "howItWorks": "Uso de lenguaje vago para inducir trance.",
+      "redFlags": "Somnolencia o pérdida de foco en la conversación.",
+      "counterScript": "Podrías ser más específico con eso?",
+      "deepMechanism": "Acceso directo al sistema límbico."
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "Q01",
+      "bookNumber": 1,
+      "question": "¿Cuál es la diferencia principal entre persuasión y manipulación?",
+      "options": [
+        "La intención",
+        "El resultado",
+        "El lenguaje usado",
+        "La velocidad"
+      ],
+      "correctIndex": 0,
+      "explanation": "La persuasión busca un beneficio mutuo, la manipulación busca el beneficio propio a costa del otro."
+    },
+    {
+      "id": "Q02",
+      "bookNumber": 1,
+      "question": "¿Qué es el anclaje en PNL?",
+      "options": [
+        "Un tipo de barco",
+        "Un estímulo que dispara una respuesta",
+        "Una técnica de ventas",
+        "Un ejercicio físico"
+      ],
+      "correctIndex": 1,
+      "explanation": "El anclaje vincula un estímulo externo con una respuesta interna específica."
+    },
+    {
+      "id": "Q03",
+      "bookNumber": 2,
+      "question": "¿Qué busca el gaslighting?",
+      "options": [
+        "Ayudar a la memoria",
+        "Desestabilizar la realidad del otro",
+        "Mejorar la comunicación",
+        "Aumentar la confianza"
+      ],
+      "correctIndex": 1,
+      "explanation": "El gaslighting es una forma de abuso psicológico para que la víctima dude de su juicio."
+    },
+    {
+      "id": "Q04",
+      "bookNumber": 1,
+      "question": "¿Qué técnica usa la escasez?",
+      "options": [
+        "Abundancia",
+        "Urgencia",
+        "Lógica pura",
+        "Empatía"
+      ],
+      "correctIndex": 1,
+      "explanation": "La escasez crea urgencia al limitar el acceso a un recurso."
+    },
+    {
+      "id": "Q05",
+      "bookNumber": 2,
+      "question": "¿Qué es el love bombing?",
+      "options": [
+        "Un ataque militar",
+        "Un exceso de afecto para manipular",
+        "Una técnica de marketing",
+        "Un tipo de terapia"
+      ],
+      "correctIndex": 1,
+      "explanation": "Es una táctica para crear dependencia emocional rápida mediante afecto desmedido."
+    },
+    {
+      "id": "Q06",
+      "bookNumber": 1,
+      "question": "¿Qué es el mirroring?",
+      "options": [
+        "Mirarse al espejo",
+        "Imitar el lenguaje corporal del otro",
+        "Hablar solo",
+        "Escribir un diario"
+      ],
+      "correctIndex": 1,
+      "explanation": "El mirroring es una técnica de PNL para generar rapport y confianza."
+    }
+  ],
+  "glossary": [
+    {
+      "id": "G01",
+      "term": "PNL",
+      "category": "Teoría",
+      "definition": "Programación Neurolingüística.",
+      "practicalExample": "Usar lenguaje para reprogramar patrones mentales."
+    },
+    {
+      "id": "G02",
+      "term": "Rapport",
+      "category": "Persuasión",
+      "definition": "Sintonía con otra persona.",
+      "practicalExample": "Lograr que el otro se sienta cómodo contigo."
+    },
+    {
+      "id": "G03",
+      "term": "Subconsciente",
+      "category": "Psicología",
+      "definition": "Parte de la mente fuera de la conciencia.",
+      "practicalExample": "Donde residen los sesgos y hábitos."
+    },
+    {
+      "id": "G04",
+      "term": "Sesgo",
+      "category": "Psicología",
+      "definition": "Error sistemático de pensamiento.",
+      "practicalExample": "Sesgo de confirmación al buscar datos."
+    },
+    {
+      "id": "G05",
+      "term": "Ingeniería Social",
+      "category": "Manipulación",
+      "definition": "Manipular personas para obtener datos.",
+      "practicalExample": "Hacerse pasar por técnico para obtener claves."
+    },
+    {
+      "id": "G06",
+      "term": "Trance",
+      "category": "Control Mental",
+      "definition": "Estado de atención focalizada.",
+      "practicalExample": "Inducido por hipnosis o lenguaje repetitivo."
+    },
+    {
+      "id": "G07",
+      "term": "Microexpresión",
+      "category": "Lenguaje Corporal",
+      "definition": "Gestos faciales breves.",
+      "practicalExample": "Detectar una mentira por un gesto de un segundo."
+    },
+    {
+      "id": "G08",
+      "term": "Sugestión",
+      "category": "Persuasión",
+      "definition": "Influencia indirecta.",
+      "practicalExample": "Sugerir una idea como si fuera del otro."
+    },
+    {
+      "id": "G09",
+      "term": "Patrón",
+      "category": "PNL",
+      "definition": "Secuencia de comportamiento.",
+      "practicalExample": "Romper un patrón de respuesta automática."
+    },
+    {
+      "id": "G10",
+      "term": "Límbico",
+      "category": "Psicología",
+      "definition": "Sistema emocional del cerebro.",
+      "practicalExample": "Donde se activan las respuestas de lucha o huida."
+    },
+    {
+      "id": "G11",
+      "term": "Asertividad",
+      "category": "Defensa",
+      "definition": "Comunicación directa y respetuosa.",
+      "practicalExample": "Decir no sin sentirse culpable."
+    },
+    {
+      "id": "G12",
+      "term": "Condicionamiento",
+      "category": "Psicología",
+      "definition": "Aprendizaje por asociación.",
+      "practicalExample": "Recompensar una conducta para repetirla."
+    },
+    {
+      "id": "G13",
+      "term": "Influencia",
+      "category": "Persuasión",
+      "definition": "Capacidad de cambiar opiniones.",
+      "practicalExample": "Convencer a un equipo de una nueva estrategia."
+    },
+    {
+      "id": "G14",
+      "term": "Vulnerabilidad",
+      "category": "Psicología",
+      "definition": "Estado de exposición.",
+      "practicalExample": "Ser vulnerable ante un manipulador experto."
+    },
+    {
+      "id": "G15",
+      "term": "Ética",
+      "category": "Filosofía",
+      "definition": "Principios de conducta.",
+      "practicalExample": "Usar la persuasión para el bien común."
+    }
+  ],
+  "bodyLanguageLab": [
+    {
+      "id": "BL01",
+      "category": "Presencia",
+      "title": "Postura de Poder",
+      "cue": "Hombros atrás y barbilla elevada.",
+      "interpretation": "Dominancia y seguridad.",
+      "practicalDrill": "Mantener esta postura durante 2 minutos antes de una reunión."
+    },
+    {
+      "id": "BL02",
+      "category": "Persuasión",
+      "title": "Contacto Visual",
+      "cue": "Mantener la mirada el 70% del tiempo.",
+      "interpretation": "Confianza y honestidad.",
+      "practicalDrill": "Practicar con un espejo hasta que se sienta natural."
+    },
+    {
+      "id": "BL03",
+      "category": "Defensa",
+      "title": "Manos Abiertas",
+      "cue": "Palmas visibles al hablar.",
+      "interpretation": "Transparencia y falta de amenaza.",
+      "practicalDrill": "Usar gestos abiertos en presentaciones."
+    },
+    {
+      "id": "BL04",
+      "category": "Detección",
+      "title": "Bloqueo de cuello",
+      "cue": "Tocar el cuello o la nuca.",
+      "interpretation": "Inseguridad o estrés.",
+      "practicalDrill": "Observar este gesto en otros durante una negociación."
+    },
+    {
+      "id": "BL05",
+      "category": "Persuasión",
+      "title": "Inclinación leve",
+      "cue": "Inclinar la cabeza al escuchar.",
+      "interpretation": "Interés genuino y escucha activa.",
+      "practicalDrill": "Inclinar la cabeza ligeramente al recibir feedback."
+    },
+    {
+      "id": "BL06",
+      "category": "Control",
+      "title": "Control de parpadeo",
+      "cue": "Parpadeo lento y controlado.",
+      "interpretation": "Control emocional y calma.",
+      "practicalDrill": "Practicar parpadeo consciente en situaciones de estrés."
     }
   ]
 };
