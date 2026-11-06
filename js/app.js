@@ -1477,12 +1477,13 @@ const App = {
     const bookId = urlParams.get('book');
     let book = null;
 
-    if (typeof COLECCION_DATA !== 'undefined' && COLECCION_DATA.books) {
+    if (typeof COLECCION_DATA !== 'undefined') {
+      const pool = (COLECCION_DATA.books || []).concat(COLECCION_DATA.audiobooks || [], COLECCION_DATA.allItems || []);
       if (bookId) {
-        book = COLECCION_DATA.books.find(b => b.id === bookId);
+        book = pool.find(b => b.id === bookId);
         if (!book) {
           const stripped = bookId.replace(/^[0-9]+-/, '');
-          book = COLECCION_DATA.books.find(b => b.id === stripped || b.id.includes(stripped) || stripped.includes(b.id));
+          book = pool.find(b => b.id === stripped || b.id.includes(stripped) || stripped.includes(b.id));
         }
       }
     }
@@ -1533,36 +1534,30 @@ const App = {
     // 4. Hero Title
     const heroTitle = document.getElementById('heroBookTitle');
     if (heroTitle) {
-      heroTitle.innerHTML = `<span class="text-white">${book.title}</span>`;
+      heroTitle.innerHTML = `<span class="text-white drop-shadow-lg">${book.title}</span>`;
     }
 
     // 5. Hero Description & Author
     const heroDesc = document.getElementById('heroBookDesc');
     if (heroDesc) {
-      const authorHtml = book.author ? `<div class="flex items-center gap-2 text-cyan-300 font-semibold text-sm mb-1"><i class="fa-solid fa-pen-nib text-cyan-400"></i> Autor: ${book.author}</div>` : '';
+      const authorHtml = book.author ? `<div class="flex items-center gap-2 text-cyan-400 font-bold text-base sm:text-lg mb-1"><i class="fa-solid fa-pen-nib"></i> ${book.author}</div>` : '';
       const fullTitleHtml = (book.fullTitle && book.fullTitle !== book.title) ? `<p class="text-slate-300 text-xs sm:text-sm italic mb-2 leading-relaxed">${book.fullTitle}</p>` : '';
-      heroDesc.innerHTML = `${authorHtml}${fullTitleHtml}<p class="text-slate-400 text-xs sm:text-sm">Ecosistema interactivo de estudio: domina este libro mediante lecciones secuenciales, ilustraciones tácticas, flashcards y casos de simulación.</p>`;
+      heroDesc.innerHTML = `${authorHtml}${fullTitleHtml}<p class="text-slate-400 text-xs sm:text-sm">Explora este libro mediante lecciones secuenciales, ilustraciones tácticas HD 16:9, evaluaciones diagnósticas y simulador de toma de decisiones.</p>`;
     }
 
-    // 6. Hero Cover
-    const heroCoverImg = document.getElementById('heroBookCoverImg');
-    const heroCoverContainer = document.getElementById('heroBookCoverContainer');
-    const heroAuthorText = document.getElementById('heroBookAuthorText');
-    if (heroCoverImg && heroCoverContainer) {
-      if (book.coverImage) {
-        heroCoverImg.src = book.coverImage;
-        heroCoverContainer.classList.remove('hidden');
-        if (heroAuthorText && book.author) heroAuthorText.textContent = book.author;
-      } else {
-        heroCoverContainer.classList.add('hidden');
-      }
+    // 6. Portada de fondo 16:9 en el Hero Banner
+    const heroBannerBg = document.getElementById('heroBannerBg');
+    if (heroBannerBg && book.coverImage) {
+      heroBannerBg.src = book.coverImage;
+      heroBannerBg.classList.remove('opacity-30', 'opacity-35');
+      heroBannerBg.classList.add('opacity-45');
     }
 
     // 7. Modules Section Heading
     const modulesHeading = document.getElementById('dashboardModulesHeading');
     if (modulesHeading) {
       const count = (typeof LIBROS_DATA !== 'undefined' && LIBROS_DATA.modules) ? LIBROS_DATA.modules.length : '';
-      modulesHeading.textContent = `Módulos y Capítulos de Estudio ${count ? `(${count})` : ''}`;
+      modulesHeading.textContent = `Módulos de Estudio: ${book.title} ${count ? `(${count})` : ''}`;
     }
   },
 
