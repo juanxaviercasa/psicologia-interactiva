@@ -1974,15 +1974,15 @@ Photorealistic master profiler's study at night: An open leather journal filled 
 | **m13** | `regalado_m13_apreton_fuerza.jpg` | ✅ Generado | Módulo 13: Cap II - Dinámicas del Saludo y Dominancia |
 | **m14** | `regalado_m14_ritmo_caminar.jpg` | ✅ Generado | Módulo 14: Cap III - Cadencia y Ritmo de Caminata |
 | **m15** | `regalado_m15_posturas_defensivas.jpg` | ✅ Generado | Módulo 15: Cap IV - Posturas de Brazos y Defensa Territorial |
-| **m16** | `regalado_m16_asentimiento_velocidad.jpg` | ⏳ Pendiente | Módulo 16: Cap V - Asentimientos y Microgestos Faciales |
-| **m17** | `regalado_m17_cruces_piernas.jpg` | ⏳ Pendiente | Módulo 17: Cap VI - Cruces de Piernas y Bloqueo Inconsciente |
-| **m18** | `regalado_m18_fisiologia_no_verbal.jpg` | ⏳ Pendiente | Módulo 18: Cap VII - Fisiología de la Reacción No Verbal |
-| **m19** | `regalado_m19_apertura_torax.jpg` | ⏳ Pendiente | Módulo 19: Cap VIII - Expansión Torácica y Presencia Alfa |
-| **m20** | `regalado_m20_autoapaciguamiento.jpg` | ⏳ Pendiente | Módulo 20: Cap IX - Pacifiers y Gestos de Autoapaciguamiento |
-| **m21** | `regalado_m21_congruencia_verbal.jpg` | ⏳ Pendiente | Módulo 21: Cap X - Congruencia Verbal y Micro-Señales |
-| **m22** | `regalado_m22_arte_comunicacion.jpg` | ⏳ Pendiente | Módulo 22: Cap XI - La Comunicación Estratégica Total |
-| **m23** | `regalado_m23_entrevista_laboral.jpg` | ⏳ Pendiente | Módulo 23: Cap XII - Calibración en Entrevistas de Alto Impacto |
-| **m24** | `regalado_m24_sintesis_maestria.jpg` | ⏳ Pendiente | Módulo 24: Cap XIII - Síntesis y Maestría en Lectura Humana |
+| **m16** | `regalado_m16_asentimiento_velocidad.jpg` | ✅ Generado | Módulo 16: Cap V - Asentimientos y Microgestos Faciales |
+| **m17** | `regalado_m17_cruces_piernas.jpg` | ✅ Generado | Módulo 17: Cap VI - Cruces de Piernas y Bloqueo Inconsciente |
+| **m18** | `regalado_m18_fisiologia_no_verbal.jpg` | ✅ Generado | Módulo 18: Cap VII - Fisiología de la Reacción No Verbal |
+| **m19** | `regalado_m19_apertura_torax.jpg` | ✅ Generado | Módulo 19: Cap VIII - Expansión Torácica y Presencia Alfa |
+| **m20** | `regalado_m20_autoapaciguamiento.jpg` | ✅ Generado | Módulo 20: Cap IX - Pacifiers y Gestos de Autoapaciguamiento |
+| **m21** | `regalado_m21_congruencia_verbal.jpg` | ✅ Generado | Módulo 21: Cap X - Congruencia Verbal y Micro-Señales |
+| **m22** | `regalado_m22_arte_comunicacion.jpg` | ✅ Generado | Módulo 22: Cap XI - La Comunicación Estratégica Total |
+| **m23** | `regalado_m23_entrevista_laboral.jpg` | ✅ Generado | Módulo 23: Cap XII - Calibración en Entrevistas de Alto Impacto |
+| **m24** | `regalado_m24_sintesis_maestria.jpg` | ✅ Generado | Módulo 24: Cap XIII - Síntesis y Maestría en Lectura Humana |
 
 ---
 

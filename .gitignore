@@ -16,6 +16,15 @@ assets/images/
 # Scratch & temporary development scripts
 scratch/
 *.log
+unmapped_books_summary.json
+
+# Node / dependencies (Keep root static for zero-config Vercel hosting)
+node_modules/
+package.json
+package-lock.json
+
+# Staging image folders
+assets/imagenes_faltantes/
 
 # Secrets and local processing outputs
 .env

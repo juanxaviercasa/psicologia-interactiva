@@ -9,7 +9,7 @@ const LIBROS_DATA = {
       "keyPillars": [
         {
           "title": "La Tríada Oscura",
-          "realExample": "<p>Estudio de los tres rasgos de personalidad más peligrosos: narcisismo, maquiavelismo y psicopatía.</p>",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Psicología Oscura Vol 4 - Fundamentos\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_4/psicologia_oscura_4_m1.webp\" alt=\"Psicología Oscura Vol 4 - Fundamentos\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><p>Estudio de los tres rasgos de personalidad más peligrosos: narcisismo, maquiavelismo y psicopatía.</p>",
           "interactiveChallenge": {
             "question": "Ante una señal de manipulación encubierta, la respuesta más efectiva es:",
             "options": [
@@ -47,7 +47,7 @@ const LIBROS_DATA = {
       "keyPillars": [
         {
           "title": "Influencia Encubierta",
-          "realExample": "<p>Las técnicas de influencia encubierta operan bajo el umbral de la consciencia del objetivo.</p>",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Psicología Oscura Vol 4 - Técnicas Avanzadas\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/psicologia_oscura_4/psicologia_oscura_4_m2.webp\" alt=\"Psicología Oscura Vol 4 - Técnicas Avanzadas\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/><p>Las técnicas de influencia encubierta operan bajo el umbral de la consciencia del objetivo.</p>",
           "interactiveChallenge": {
             "question": "El anclaje emocional se usa principalmente para:",
             "options": [
