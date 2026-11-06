@@ -4,11 +4,11 @@ const BOOK_CONTENT = {
     {
       "id": "m1",
       "bookNumber": 1,
-      "title": "Introduccion",
+      "title": "Introducción",
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> La Verdad Involuntaria del Cuerpo Humano\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/lenguaje_no_miente/nomiente_m1_introduccion.webp\" alt=\"La Verdad Involuntaria del Cuerpo Humano\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>EL LENGUAJE CORPORAL NO MIENTE LA CIENCIA OCULTA PARA INTERPRETAR Y DOMINAR EL LENGUAJE NO VERBAL Copyright: Publicado en Amazon Todos los derechos reservados. Ninguna parte de esta publicación puede ser reproducida, almacenada en sistemas de ninguna forma o por algún motivo, ya sea electrónica, mecánica, fotocopia, grabado o transmitido por otro medio sin los permisos del autor. Por favor, no participe o anime a la piratería de este material de ninguna forma. No puede enviar este libro en ningún formato. De acuerdo y en concordancia con el U.S. Copyright Act of 1976, el escaneo, carga a internet y reproducción electrónica de cualquier parte de este libro sin el permiso del autor y/o publicador, constituye el acto de piratería ilegal y robo de la propiedad intelectual de su autor. Si desea utilizar material de este libro (sea cualquier segmento o parte de él) previo a utilizarlo, debe ponerse en contacto directo con el autor. Gracias por su apoyo a la Ley de Derechos de Autor y Anti Piratería. POR QUÉ ESCRIBÍ ESTE LIBRO ¿Usted ha notado que tienen en común los políticos, famosos actores y rostros de televisión? Todos ellos saben el poder que otorga el dominar el Lenguaje Corporal. Los políticos invierten mucho de su tiempo en esquivar, evadir, pretender, mentir, esconder sus sentimientos y emociones, usando pantallas de humo o saludando a amigos imaginarios entre la multitud, porque entienden que, con esos pequeños gestos, guiños y formas de expresión, ganan la confianza y at",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> La Verdad Involuntaria del Cuerpo Humano\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/lenguaje_no_miente/nomiente_m1_introduccion.webp\" alt=\"La Verdad Involuntaria del Cuerpo Humano\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>EL LENGUAJE CORPORAL NO MIENTE LA CIENCIA OCULTA PARA INTERPRETAR Y DOMINAR EL LENGUAJE NO VERBAL Copyright: Publicado en Amazon Todos los derechos reservados. Ninguna parte de esta publicación puede ser reproducida, almacenada en sistemas de ninguna forma o por algún motivo, ya sea electrónica, mecánica, fotocopia, grabado o transmitido por otro medio sin los permisos del autor. Por favor, no participe o anime a la piratería de este material de ninguna forma. No puede enviar este libro en ningún formato. De acuerdo y en concordancia con el U.S. Copyright Act of 1976, el escaneo, carga a internet y reproducción electrónica de cualquier parte de este libro sin el permiso del autor y/o publicador, constituye el acto de piratería ilegal y robo de la propiedad intelectual de su autor. Si desea utilizar material de este libro (sea cualquier segmento o parte de él) previo a utilizarlo, debe ponerse en contacto directo con el autor. Gracias por su apoyo a la Ley de Derechos de Autor y Anti Piratería. Por QuéÉ ESCRIBÍ ESTE LIBRO ¿Usted ha notado que tienen en común los políticos, famosos actores y rostros de televisión? Todos ellos saben el poder que otorga el dominar el Lenguaje Corporal. Los políticos invierten mucho de su tiempo en esquivar, evadir, pretender, mentir, esconder sus sentimientos y emociones, usando pantallas de humo o saludando a amigos imaginarios entre la multitud, porque entienden que, con esos pequeños gestos, guiños y formas de expresión, ganan la confianza y at",
           "interactiveChallenge": {
             "question": "¿Cuál es la regla fundamental para interpretar correctamente el lenguaje corporal según los fundamentos de Mateo Holm?",
             "options": [
@@ -37,7 +37,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 2",
-          "realExample": "raen la atención de su público. Independientemente de la cultura en que nos hallemos, las palabras y los movimientos ocurren de manera simultánea con tal predictibilidad que una persona bien entrenada debe ser capaz de asegurar el movimiento que hace otro individuo al escuchar su voz. Existen casos donde las personas saben que idioma se está utilizando únicamente al ver los gestos del emisor. Algunas personas sienten difíciles aceptar que los humanos somos aún animales biológicamente. Somos una cierta especie de primate, un mono sin pelo que ha aprendido a caminar en dos patas con un cerebro avanzado. Pero como otras especies, estamos aún dominados por reglas biológicas que controlan nuestras acciones, reacciones, lenguaje corporal y gestos. Lo fascinante es que el animal humano raramente está al tanto de sus posturas, movimientos y gestos que cuentan una historia cuando su voz probablemente está contando una muy distinta. La clave para leer el lenguaje corporal está en ser capaz de entender la condición emocional de una persona mientras se escucha lo que ésta dice, notando las circunstancias bajo las cuales habla. Esto le permitirá a usted separar los hechos de la ficción y la realidad de la fantasía. Sin duda este será un libro que marcará un antes y un después en su forma de ver el mundo que lo rodea. CONTENIDOS DEL LIBRO Por qué escribí este libro Muchas Gracias por tu Descarga!",
+          "realExample": "raen la atención de su público. Independientemente de la cultura en que nos hallemos, las palabras y los movimientos ocurren de manera simultánea con tal predictibilidad que una persona bien entrenada debe ser capaz de asegurar el movimiento que hace otro individuo al escuchar su voz. Existen casos donde las personas saben que idioma se está utilizando únicamente al ver los gestos del emisor. Algunas personas sienten difíciles aceptar que los humanos somos aún animales biológicamente. Somos una cierta especie de primate, un mono sin pelo que ha aprendido a caminar en dos patas con un cerebro avanzado. Pero como otras especies, estamos aún dominados por reglas biológicas que controlan nuestras acciones, reacciones, lenguaje corporal y gestos. Lo fascinante es que el animal humano raramente está al tanto de sus posturas, movimientos y gestos que cuentan una historia cuando su voz probablemente está contando una muy distinta. La clave para leer el lenguaje corporal está en ser capaz de entender la condición emocional de una persona mientras se escucha lo que ésta dice, notando las circunstancias bajo las cuales habla. Esto le permitirá a usted separar los hechos de la ficción y la realidad de la fantasía. Sin duda este será un libro que marcará un antes y un después en su forma de ver el mundo que lo rodea. CONTENIDOS DEL LIBRO Por Quéé escribí este libro Muchas Gracias por tu Descarga!",
           "interactiveChallenge": {
             "question": "¿Cuál es la regla fundamental para interpretar correctamente el lenguaje corporal según los fundamentos de Mateo Holm?",
             "options": [
@@ -69,7 +69,7 @@ const BOOK_CONTENT = {
     {
       "id": "m2",
       "bookNumber": 2,
-      "title": "Cap Tulo 1 Fundamentos B Sicos Del Lenguaje Corporal Cap Tulo 2 Aprendiendo A Leer Manos Palmas Y De",
+      "title": "Capítulo 1: Fundamentos Básicos Del Lenguaje Corporal Capítulo 2: Aprendiendo A Leer Manos Palmas Y De",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -131,7 +131,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 3",
-          "realExample": "mismo cada vez que leas un capitulo te recomiendo que lo pongas en práctica antes de que comiences a leer el próximo. Gracias nuevamente por descargar este libro. ¡Espero que lo disfrutes!",
+          "realExample": "mismo cada vez que leas un Capítulo te recomiendo que lo pongas en práctica antes de que comiences a leer el próximo. Gracias nuevamente por descargar este libro. ¡Espero que lo disfrutes!",
           "interactiveChallenge": {
             "question": "En el estudio de las manos y palmas, ¿qué señal no verbal suele proyectar sinceridad, sumisión o ausencia de amenaza?",
             "options": [
@@ -163,7 +163,7 @@ const BOOK_CONTENT = {
     {
       "id": "m3",
       "bookNumber": 3,
-      "title": "Cap Tulo 1 Fundamentos B Sicos Del Lenguaje Corporal La Habilidad De Conocer Lo Que Realmente Sucede",
+      "title": "Capítulo 1: Fundamentos Básicos Del Lenguaje Corporal La Habilidad De Conocer Lo Que Realmente Sucede",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -518,7 +518,7 @@ const BOOK_CONTENT = {
     {
       "id": "m4",
       "bookNumber": 4,
-      "title": "Cap Tulo 2 Aprendiendo A Leer Manos Palmas Y Dedos De Entre Todas Las Especies Las Manos De Los Huma",
+      "title": "Capítulo 2: Aprendiendo A Leer Manos Palmas Y Dedos De Entre Todas Las Especies Las Manos De Los Huma",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1482,13 +1482,13 @@ const BOOK_CONTENT = {
     {
       "id": "m5",
       "bookNumber": 5,
-      "title": "Cap Tulo 3 Brazos Que Acercan Y Alejan Ya Sea Cruzando Sus Brazos Como Un Escudo Protector O Abri Nd",
+      "title": "Capítulo 3: Brazos Que Acercan Y Alejan Ya Sea Cruzando Sus Brazos Como Un Escudo Protector O Abri Nd",
       "keyPillars": [
         {
           "title": "Parte 1",
           "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Barreras Defensivas: Brazos en Cruz vs Acogida\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/lenguaje_no_miente/nomiente_m5_brazos_escudo.webp\" alt=\"Barreras Defensivas: Brazos en Cruz vs Acogida\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>CAPÍTULO 3: BRAZOS QUE ACERCAN Y ALEJAN Ya sea cruzando sus brazos como un escudo protector o abriéndolos en señal de bienvenida, la manera en que usted posiciona sus brazos le dice a un astuto observador cómo se siente. Ciertas posturas reflejan estados de ánimo específicos; los brazos cruzados retienen sus sentimientos dentro y mantienen al resto de personas lejos de ellos, mostrando que ha puesto obstáculos por los que nadie se atrevería a pasar. Mantenga esta posición por mucho tiempo y encontrará que se siente apagado y negativo, a no ser que tenga frío, caso en el cual cruzar las manos sobre su pecho para mantener el calor y alejar el frío tiene perfecto sentido. En el caso del contacto, tocar a otra persona puede ser una gran herramienta siempre y cuando sepa a quién, cuándo, dónde y cómo. Aprenda a tocar y la persona que recibe el gesto se sentirá involucrada y conectada, de otra manera prepárese para un rechazo total y desagradable. En este capítulo enseñaremos como leer las señales de los brazos, aparentar autocontrol e incrementar su influencia a través del contacto físico. BARRERAS DEFENSIVAS Cualquier gesto que protege su cuerpo de un asalto sea real o imaginario, es una barrera defensiva. Bajar la cabeza, inclinar el cuerpo, incluso apretar los labios o entrecerrar los ojos, son todos ejemplos de comportamientos defensivos. Opuesto a los gestos abiertos que reciben a otros, estos comportamientos le protegen y mantienen a los otros a raya. En sus tiempos de infan",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1517,7 +1517,7 @@ const BOOK_CONTENT = {
           "title": "Parte 2",
           "realExample": "cia, cuando se sentía amenazado o inseguro, seguramente se escondió tras las faldas de su madre o un mueble sólido. En la edad preescolar, ya es típico que la persona haya creado su propia barrera al cruzar los brazos de manera apretada sobre su pecho. A medida que el individuo crece el agarre se vuelve más relajado y se añade el cruzar de piernas a la ecuación para parecer más calmado y menos obvio. La posición de brazos cruzados es común a lo largo del mundo y comunica una postura defensiva; sirve no únicamente como una guardia protectora de un posible ataque, sino que también presenta una posición inflexible que dice que la persona no está en ánimos de negociar. Si una mujer encuentra a un hombre atractivo, mantendrá sus brazos en una posición abierta, pero cruzará sus brazos sobre su pecho con hombres que considere agresivos o no atractivos. Es posible que una persona cruce los brazos por encima del pecho si se siente ansioso, o falto de confianza. Esta posición es común adoptarla cuando se está entre extraños como en reuniones públicas, esperando abordar un vuelo, o cualquier lugar donde se sienta inseguro, temeroso o intimidado. Las personas que dicen que realizan el gesto por cierta comodidad que les brinda están en lo cierto. Cualquier gesto que coincida con la actitud correspondiente se siente cómodo. Por lo tanto, si alguien se siente negativo o intranquilo aún si no está conscientemente al tanto de esos sentimientos, es común que la persona cruce los brazos. Si se",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1546,7 +1546,7 @@ const BOOK_CONTENT = {
           "title": "Parte 3",
           "realExample": "siente relajado y está disfrutando, adoptará una posición de brazos abiertos que refleje su actitud. Recuerde siempre que el significado del mensaje está en el receptor; está demostrado que las personas reaccionan de manera negativa a la posición de brazos cruzados. Aún si usted se siente cómodo con sus brazos cruzados sobre su pecho, las personas que le observen interpretarán su actitud como defensiva. Así que al menos de que quiera mostrar que está en desacuerdo o no quiere involucrarse, encuentre otra posición para sus brazos. Si adopta esta posición cuando se encuentra dentro de un grupo de personas, notará pronto que otros miembros del grupo adoptarán la misma postura. Aunque contagiar o influir en otras personas para que asuman esta posición es sencillo, usted descubrirá una cierta dificultad en conseguir comunicaciones abiertas cuando la mayoría del grupo ha adoptado este gesto. Ejercicio: cuando vea a una persona en esta posición y quiera ayudar a cambiar su actitud, ofrézcale algo para hacer o para sostener, para que esté obligado a descruzar sus brazos e inclinarse hacia usted, rompiendo la postura negativa y creando una posición del cuerpo más abierta, que llevará también a una actitud más abierta. Una actitud puede convertirse en un gesto o postura que refleja la emoción, y la actitud se mantendrá por el tiempo que se mantenga esa postura. Una señal asertiva de ansiedad y miedo es cuando los brazos se cruzan a la altura del pecho y las manos aprietan fuertemente l",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1575,7 +1575,7 @@ const BOOK_CONTENT = {
           "title": "Parte 4",
           "realExample": "os antebrazos. La persona parece estar fortificándose ante la adversidad y aguantando antes de caer del precipicio. Las personas que esperan en la sala de recepción médica para su cita pueden ser vistas en esta posición, como también los viajeros inexpertos que toman esta posición cuando el avión despega, indicando que necesitan comodidad y seguridad. Dependiendo en su nivel de preocupación, es posible que agarren sus brazos tan fuertemente que los dedos y nudillos se vuelven blancos. Cruce sus brazos y añada cerrar el puño y lucirá como si estuviera preparándose para una pelea. Esta posición demuestra hostilidad así como una actitud defensiva, lo que puede ocasionar comportamiento agresivo. No se sorprenda si su mandíbula se cierra y su rostro se torna rojo, los gestos individuales trabajan en combinación con otros para transmitir actitudes. Ejercicio: cuando alguien cruce sus brazos y cierre sus puños en una conversación con usted, abra sus brazos y exponga sus palmas en una posición no amenazante y sumisa. Esta postura tiene un efecto calmante y la otra persona tenderá a retirar su posición agresiva y empezará a discutir de una manera más razonable. Esta postura doble es señal de control y autoridad. Los oficiales de policía que cruzan sus brazos tienden a cerrar sus puños para indicar que son quienes mandan y no deben ser tomados a la ligera. Un dato interesante, es que las personas que llevan armas raramente cruzan sus manos debido a que se sienten protegidos por el arma",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1604,7 +1604,7 @@ const BOOK_CONTENT = {
           "title": "Parte 5",
           "realExample": ". Una pose típica que genera superioridad que adoptan muchos hombres jóvenes en ambientes laborales es pararse con los brazos cruzados sobre el pecho y los pulgares apuntando hacia arriba. Esta posición demuestra recelo y confianza. La inquietud se transmite mediante los brazos cruzados mientras que los pulgares extendidos muestran confianza y un sentido de control y tranquilidad. Cuando conozca por primera vez a un grupo de personas, puede demostrar su estatus y superioridad al no doblar sus brazos. De un apretón de manos firme, manténgase a una distancia apropiada y mantenga las manos a los lados o en una posición de poder con una mano sobre la otra a la altura de la cintura. Debido a la estructura del torso superior en las mujeres, generalmente cruzan sus brazos más abajo que los hombres. Las niñas que entran en la pubertad tienden a adoptar esta posición de protección más frecuentemente que las mujeres más adultas. TOCARSE A SÍ MISMO La manera en que se toca a sí mismo le da pistas a los observadores sobre cómo se siente. La mayoría de este tipo de gestos provee comodidad y son inconscientes, representando mímicas del toque de otra persona, como si se dividiera en dos: una es la que está dando el gesto, y la otra lo recibe. Algunos de los más comunes incluyen lo siguiente: • Abrazos o caricias a sí mismo: cuando era niño y se sentía estresado o molesto, sus padres o cualquier persona que le cuidara, lo sostenía en sus brazos para calmarlo. En la etapa adulta, cuando se si",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1633,7 +1633,7 @@ const BOOK_CONTENT = {
           "title": "Parte 6",
           "realExample": "ente inseguro y no existe nadie que le ayude, o es inapropiado buscar consuelo en otra persona, usted se abrazará o acariciará a si mismo para darse comodidad y seguridad. Las acciones más comunes incluyen frotarse el cuello, acariciar los brazos o el rostro. • Medios abrazos: debido a que al cruzar ambos brazos sobre su cuerpo muestra que siente miedo o está a la defensiva, puede adoptar la posición de medio abrazo. En esta posición, uno de los brazos cruza el cuerpo y sostiene o toca el otro brazo, creando una barrera parcial. Las mujeres usan este gesto con más frecuencia que los hombres. • Proteger las zonas privadas: los hombres se toman a sí mismo de las manos en una posición de barrera que los hace sentir seguros. Al cubrir las partes íntimas se protegen subconscientemente de un potencial ataque frontal. La próxima vez que observe a una persona que se siente solitaria, rechazada o vulnerable de cualquier manera, mire la posición de sus manos. Verá que las coloca para proteger sus zonas privadas en un intento de crear sentimientos de comodidad y seguridad. COLOCANDO OBJETOS FRENTE A USTED Al colocar una taza de café, un cuaderno o cualquier otro objeto entre usted y otra persona, está colocando una barrera protectora. Esas barreras son un esfuerzo subconsciente para calmar los nervios o inseguridad que pueda estar experimentando, esté o no consciente del sentimiento. Si se encuentra en una situación donde se sirvan bebidas y se sienta inseguro, sostenga su vaso o copa f",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1662,7 +1662,7 @@ const BOOK_CONTENT = {
           "title": "Parte 7",
           "realExample": "rente a usted con ambas manos; esta acción crea una barrera sutil, detrás de la cual usted busca refugio. A medida que observa alrededor del salón, es posible que vea como casi todas las personas se colocan en la misma posición, indicando que no es la única persona con ese sentimiento. Si siente la necesidad de mostrar indiferencia o distanciamiento hacia otra persona para lastimar su ego, gire su hombro hacia ella, creando una barrera entre usted y el objeto de la acción. Con una mirada de desprecio, los labios hacia abajo y un rápido vistazo, el gesto deja al receptor sin ninguna duda de sus sentimientos de desdén y burla hacia él. TRANSMITIENDO AMISTAD Y HONESTIDAD Los brazos abiertos indican receptividad, amistad y actitud honesta. Esta posición dice que usted no tiene nada que ocultar y que los demás pueden acercarse y disfrutar con usted. Acerca a la gente a usted, haciéndoles sentir cómodos y tranquilos en su compañía. Al dejar su cuerpo expuesto, usted indica lo receptivo que es hacia lo que venga en su dirección. Vaya a cualquier evento deportivo y mire a los jugadores. El momento en que el ganador finaliza el partido, cruza la línea de meta, o anota el punto de la victoria sus brazos se abren debido a la emoción. Los perdedores cruzan sus brazos frente a sus cuerpos o los dejan colgar despreocupadamente a los lados. Cuando quiera persuadir a otra persona de su punto de vista, mantenga sus brazos en una posición abierta. Los brazos abiertos indican confianza, actitud",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1691,7 +1691,7 @@ const BOOK_CONTENT = {
           "title": "Parte 8",
           "realExample": "constructiva y crean impresiones positivas. Usted será percibido como sincero, directo y confiable, siempre que sus otros gestos sean igualmente abiertos y francos. TOCANDO PARA TRANSMITIR MENSAJES La clave respecto a tocar a otra persona es que significa muchas cosas para distintas personas. Es una manera genial de ofrecer calma, crear un lazo e incrementar su influencia. Algunas personas usan el gesto como símbolo de seguridad, soporte o estímulo. Otros lo usan como una señal de que quieren interrumpirlo. El tocar frecuentemente ocurre cuando alguien expresa emoción o se siente festivo. También podrá ver a personas tocándose una a la otra cuando hay un desastre o cuando escuchan a los problemas de otras personas. El acto de tocar no es tan directo como puede parecer. Toque de una manera apropiada y puede parecer cuidadoso, generoso; toque de manera incorrecta y será visto como alguien en quien no se puede confiar. Como la mayoría de las cosas no es lo que hace sino cómo lo hace. Algunos consejos al respecto: • Cuándo hacerlo: existen sociedades que no aúpan una gran cantidad de toque entre los individuos. Las personas tienden a relacionar el toque a un avance sexual cuando la intención puede ser simplemente mostrar apoyo, expresar simpatía o demostrar sentimientos tiernos. Personas diferentes responden de manera distinta a los toques. Algunos lo hacen de manera natural y los dan libremente mientras reciben cómodamente besos y abrazos. Para otros, el toque no solicitado se",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1720,7 +1720,7 @@ const BOOK_CONTENT = {
           "title": "Parte 9",
           "realExample": "evita de cualquier manera; si usted duda, no lo haga. Antes de tocar a otra persona, preste atención a los tipos de contacto con los que se siente cómodo. Hasta que no conozca bien a una persona, proceda con cuidado. • Dónde tocar: una gran cantidad de investigación se ha destinado a este tema y los resultados concluyen consistentemente en que las personas del sexo contrario tienen más restricciones acerca de donde se pueden colocar las manos que las personas del mismo sexo de quien toca; la única excepción es si usted es gay o lesbiana, donde lo contrario será cierto. A las madres en general se les da mayor libertad al respecto, pero no a los padres. • Dónde no tocar: diferentes culturas tienen distintas reglas sobre los toques. Por ejemplo lo que usted puede considerar como un gesto de afecto como dar palmadas a un niño en la cabeza o frotar el cabello de su amigo, es un insulto grave en Tailandia. • Por cuánto tiempo: la mayoría de los padres saben instintivamente por cuanto tiempo pueden tocar a sus hijos. Por ejemplo, durante la infancia ambos padres se sienten cómodos al bañar o cambiar al niño. A medida que crece, el padre le deja esas actividades a la madre; fenómeno que ocurre poco más temprano con las hijas que con los hijos. Eventualmente, la madre también dejará que su hijo se bañe por sí mismo. Ejercicio: cuando tenga una conversación con alguien que le parezca atractivo, permita que su mano le toque ligeramente mientras habla. De la misma manera, cuando sean pre",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1749,7 +1749,7 @@ const BOOK_CONTENT = {
           "title": "Parte 10",
           "realExample": "sentados y se saluden de manos permita que su mano se mantenga por un tiempo un poco mayor del que normalmente lo haría. Si no está interesado o siente repulsión por la persona, su toque será breve y desinteresado. Los rituales de toques son una parte importante del mundo de la superstición. La tradición de tocar madera luego de hacer una afirmación data de la acción antigua de tocar el roble sagrado para agradar al dios Thor. Tocar hierro para la buena suerte viene de la creencia arcaica de que el hierro contiene poderes mágicos y sobrenaturales. CREANDO UN ENLACE Haga contacto conscientemente con alguien e inmediatamente establecerá una conexión entre ambos. Los padres tocan a sus hijos, los amantes tocan a sus parejas, el doctor a sus pacientes. El poder del toque es la conexión. Involucrarse con otras personas mediante el contacto físico es algo en lo que los políticos y personas de negocios con habilidades políticas sofisticadas son particularmente expertos. El apretón con dos manos es uno de los favoritos de cualquier persona que busque conectar con otra. Al usar la mano derecha para saludar y la izquierda para tocar la mano, brazo o codo de la otra persona, usted demuestra su deseo de crear un lazo. Ejercicio: la próxima vez que se salude de manos con otra persona que le acaban de presentar, toque ligeramente su mano o codo con su mano izquierda mientras repite su nombre. Esto crea una impresión positiva y memorable al hacer que la persona se sienta valorada. Además, a",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1778,7 +1778,7 @@ const BOOK_CONTENT = {
           "title": "Parte 11",
           "realExample": "l repetir el nombre de la persona le ayuda a recordarla. Tocarse entre individuos del mismo rango y estatus ocurre regularmente. Dar palmadas en la espalda a un amigo, darle un abrazo, o apretar del brazo a un colega, son gestos que transmiten amistad y camaradería. Siempre calcule perfectamente la duración del toque hacia otra persona. Mantenerlo por más de tres segundos hace que la otra persona se pregunte cuáles son sus intenciones. Mientras más largo sea el toque más intenso será el mensaje. Si conoce a la persona con la que habla bastante bien y tienen una buena conexión, puede sentirse cómodo tocándole por un tiempo amplio. Si no la conoce bien, es muy probable que se sientan incómodos tocándose. Piense en las ocasiones en que accidentalmente se topó con un extraño o alguien que no conocía muy bien, generalmente usted se alejó muy rápidamente. La persona que realiza el doble apretón de manos es el superior, aunque si la otra persona también lo realiza, cada uno demuestra su sentido de jerarquía mayor. Por esa razón, guarde este gesto para las personas de su mismo estatus o de más bajo que usted. Puede ser percibido como muy ambicioso o familiar si lo realiza con personas de mayor estatus. DEMOSTRANDO DOMINIO Algo que se debe recordar sobre el toque es que es un gesto jerárquico. La persona que lo inicia mantiene la autoridad. El doctor toca al paciente, el profesor toca al aluno, y el sacerdote toca al creyente. Es considerado impertinente que una persona de bajo estatu",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1807,7 +1807,7 @@ const BOOK_CONTENT = {
           "title": "Parte 12",
           "realExample": "s sea quien inicie el toque hacia alguien superior. Su género determina en gran medida, lo que significa su toque. Un jefe hombre que toca a su secretaria mujer, lo hace como signo de poder y control. No así cuando es la mujer subordinada que toca al superior hombre o el jefe mujer que toca a su empleado hombre. Mientras que el toque de un hombre se percibe como paternal y poderoso, el toque de una mujer se interpreta como un preludio a la intimidad. Aún hoy en día donde se supone una igualdad de géneros, los hombres luchan contra el concepto de las mujeres y el poder. Recuerde siempre evitar tocar a los colegas del trabajo. Debido a las leyes que gobiernan el comportamiento del espacio laboral, puede recibir una queja formal por hacer un gesto que pueda ser interpretado como contacto físico inapropiado. Los estudios sugieren que los hombres perciben a las mujeres como “estiradas” cuando ellas se quejan de un hombre que las toca. Las estudiantes mujeres que trabajan en restaurantes, oficinas y fábricas son generalmente tocadas por sus superiores hombres y ellos esperan que estos gestos no sean interpretados como un avance sexual. Los mismos estudios sugieren que los hombres interpretan el toque de una mujer como la transmisión de un interés sexual, sea el caso o no. Las conclusiones demuestran que aunque el toque pueda implicar poder o intimidad, y siempre que las mujeres sean consideradas de un estatus inferior, el toque femenino se lee como un gesto íntimo porque el poder n",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1836,7 +1836,7 @@ const BOOK_CONTENT = {
           "title": "Parte 13",
           "realExample": "o es una interpretación razonable. Triste pero cierto de acuerdo con las investigaciones. REFORZANDO EL MENSAJE El toque es un gesto poderoso. Dependiendo de la manera en que lo administre puede ser señal de amor, apoyo, ira o frustración. Digamos que usted está discutiendo con otra persona. La tensión crece, se dicen palabras subidas de tono y antes de que se dé cuenta le dan una cachetada. Esto es un caso extremo de reforzar un mensaje negativo. El gesto refuerza lo que se ha dicho y es un signo físico de ira, frustración y deseo de infligir dolor. En otro caso su hija pequeña se cae y se raspa la rodilla. Mientras llora, usted la consola en sus brazos y acaricia su pierna herida para confortarla. En este caso el toque es una acción para calmar y aplacar. En ambos casos, el gesto ha reforzado el mensaje; el tipo de toque determina el tipo de mensaje que está siendo reforzado. Los vendedores, comerciantes y publicistas entienden la importancia de agradar a la mayor cantidad posible de sentidos, incluido el sentido del tacto al vender al público. Usted vee el producto y su sentido visual es estimulado; usted escucha el producto, como el crujir del cereal o el motor de un carro y su sentido auditorio se excita; en el momento que toca el producto, por ejemplo una suave alfombra, su respuesta kinestésica refuerza el mensaje de que el producto es algo que le atrae. Si reflexiona al respecto, su piel es su órgano más grande. Lo envuelve por encima, por debajo y por los lados compl",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1865,7 +1865,7 @@ const BOOK_CONTENT = {
           "title": "Parte 14",
           "realExample": "etamente. La piel es su órgano más antiguo y sensible también. Antes de que pudiese escuchar o hablar usted podía sentir. El sentido del tacto se inicia en el útero. Si usted le da un consejo o información a otra persona, es común tocarle en la mano, brazo u hombro para profundizar su conexión y reforzar el mensaje. Pero antes de tocar a otra persona usted debe establecer una conexión con ella. De seguro no querría tocar a un extraño más de lo que usted estaría dispuesto a aceptar. En una relación entre dos o más personas, la dominante, quien tiene y mantiene la autoridad, de manera implícita tiene el permiso de tocar. Recuerde siempre que tocar de manera inapropiada a otra persona puede ser percibido como grosero, amenazante e intrusivo. INCREMENTANDO LA INFLUENCIA De nuestros cinco sentidos, el del tacto es el más antiguo y el más inconsciente. Nuestro cuerpo reacciona de manera visceral al toque, acercándose a las manos que ofrecen comodidad y alejándose de aquellas que hacen daño. Si toca a una persona en el brazo u hombro al pedirle un favor, probablemente accederá. Si agarra a alguien del brazo para obtener su atención probablemente huirá. ¿De qué manera podemos saber si una persona recibe o rechaza el toque? Observe la manera en la que se relaciona con los demás y con los objetos. Las personas que se tocan a sí mismas, al rozar o acariciar sus rostros, manos, brazos y piernas, responden al tacto probablemente de manera positiva. Una persona que evade tocarse a sí misma",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1894,7 +1894,7 @@ const BOOK_CONTENT = {
           "title": "Parte 15",
           "realExample": "y no exhibe este tipo de comportamientos le dice al resto que mantenga sus manos alejadas. ABRAZANDO Las personas que trabajan en cruceros de seguro se identificarán con la siguiente situación: cuando los pasajeros llegan por primera vez existe muy poco toque entre la tripulación y ellos, generalmente un pequeño apretón de manos, pero al final del viaje la historia cambia dramáticamente: abrazos cercanos, apretones de cuerpo y despedidas muy sentidas de unos nuevos amigos. Al pasar algunos días en el mar juntos, se ha establecido una relación suficiente para permitir este comportamiento entre ambas partes. Ejercicio: la próxima vez que esté en un aeropuerto, mire como los amigos y miembros de la familia se abrazan al llegar y despedirse. Lo que se nota es que las personas que abrazan al llegar mantienen el gesto por más tiempo que al despedirse. La primera vez que se ven el uno al otro, el abrazo es intenso y fuerte. La persona da la bienvenida y acerca al viajero en su espacio más personal. El abrazo de despedida es generalmente más corto y menos apasionado. Es casi como si pensaran al momento de decir adiós que deben dejar ir a la otra persona. Consejo: si alguien le da palmadas en la espalda mientras lo abraza, le está dando la señal de que es suficiente y que está listo para terminar el abrazo.",
           "interactiveChallenge": {
-            "question": "¿Por qué las piernas y los pies son considerados los indicadores más honestos del estado mental?",
+            "question": "¿Por Quéé las piernas y los pies son considerados los indicadores más honestos del estado mental?",
             "options": [
               {
                 "text": "Porque están más alejados del cerebro consciente y rara vez nos enseñan a falsear su movimiento.",
@@ -1924,7 +1924,7 @@ const BOOK_CONTENT = {
     {
       "id": "m6",
       "bookNumber": 6,
-      "title": "Cap Tulo 4 La Relaci N Entre Las Piernas Los Pies Y La Mente En Ciertos Momentos De Su Vida Habr Tom",
+      "title": "Capítulo 4: La Relación Entre Las Piernas Los Pies Y La Mente En Ciertos Momentos De Su Vida Habr Tom",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2131,7 +2131,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 8",
-          "realExample": "E DIRECCIÓN Tendemos a girar nuestro cuerpo hacia lo que nos gusta o hacia lo que estamos de acuerdo, incluidos los individuos con los que interactuamos. De hecho podemos usar esta información para determinar si otras personas están felices de vernos o si prefieren que las dejemos a solas. Suponga que se acerca a dos personas que están conversando; las dos personas las conocía anteriormente y usted quiere hacer parte de la interacción pero no está seguro de que quieran su compañía. Vea el comportamiento de su torso y pies. Si mueven sus pies y torso hacia usted para admitirlo, la bienvenida es completa y genuina; de lo contrario, cuando mueven únicamente las caderas es mejor alejarse de la conversación. A menudo de las caderas hacia arriba daremos el frente hacia la persona con la que hablamos pero si no nos agrada la conversación nuestros pies cambiarán de posición apuntando hacia la salida más cercana. Cuando una persona realiza esta acción es una señal de rechazo, un deseo de distanciarse de su posición actual. Al hablar con una persona que cambia gradualmente o súbitamente la posición de sus pies lejos de usted, debe procesar esta información. ¿Por qué lo hace? A veces es señal de que la persona va tarde hacia otro compromiso; otras veces significa que no quiere estar cerca de usted. Tal vez usted haya dicho algo ofensivo o hecho algo incómodo. La determinación de la ansiedad del individuo por retirarse queda de su parte, basándose en las circunstancias que rodean al comp",
+          "realExample": "E DIRECCIÓN Tendemos a girar nuestro cuerpo hacia lo que nos gusta o hacia lo que estamos de acuerdo, incluidos los individuos con los que interactuamos. De hecho podemos usar esta información para determinar si otras personas están felices de vernos o si prefieren que las dejemos a solas. Suponga que se acerca a dos personas que están conversando; las dos personas las conocía anteriormente y usted quiere hacer parte de la interacción pero no está seguro de que quieran su compañía. Vea el comportamiento de su torso y pies. Si mueven sus pies y torso hacia usted para admitirlo, la bienvenida es completa y genuina; de lo contrario, cuando mueven únicamente las caderas es mejor alejarse de la conversación. A menudo de las caderas hacia arriba daremos el frente hacia la persona con la que hablamos pero si no nos agrada la conversación nuestros pies cambiarán de posición apuntando hacia la salida más cercana. Cuando una persona realiza esta acción es una señal de rechazo, un deseo de distanciarse de su posición actual. Al hablar con una persona que cambia gradualmente o súbitamente la posición de sus pies lejos de usted, debe procesar esta información. ¿Por Quéé lo hace? A veces es señal de que la persona va tarde hacia otro compromiso; otras veces significa que no quiere estar cerca de usted. Tal vez usted haya dicho algo ofensivo o hecho algo incómodo. La determinación de la ansiedad del individuo por retirarse queda de su parte, basándose en las circunstancias que rodean al comp",
           "interactiveChallenge": {
             "question": "Si durante una conversación uno de los pies de tu interlocutor se gira hacia la puerta de salida, ¿qué significa?",
             "options": [
@@ -2482,7 +2482,7 @@ const BOOK_CONTENT = {
     {
       "id": "m7",
       "bookNumber": 7,
-      "title": "Cap Tulo 5 Jugando Con Accesorios Cada D A Usted Proyecta Una Imagen De S Mismo De La Misma Manera E",
+      "title": "Capítulo 5: Jugando Con Accesorios Cada D A Usted Proyecta Una Imagen De S Mismo De La Misma Manera E",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2895,7 +2895,7 @@ const BOOK_CONTENT = {
     {
       "id": "m8",
       "bookNumber": 8,
-      "title": "Cap Tulo 6 Consejos Pr Cticos Para Mejorar Su Lectura Y Ejecuci N Consejos Para Descubrir Enga Os El",
+      "title": "Capítulo 6: Consejos Prácticos Para Mejorar Su Lectura Y Ejecución Consejos Para Descubrir Enga Os El",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -3102,7 +3102,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 8",
-          "realExample": "A Las personas no piensan en el discurso como lenguaje corporal, pero la forma en que se habla lo es. La manera en que dice algo puede transmitir al observador más sobre sus sentimientos y actitud que las palabras que dice. Debe aprender a observar el patrón del discurso y la manera en que encaja con las palabras que una persona dice. Las personas que tratan de engañar, tienden a hablar menor, hablar más lento y tener más errores al hacerlo. Tienden a tomar pausas más largas al responder a una pregunta, y titubear más al responder. Están inclinados a llenar rápidamente cualquier vacío incómodo en la conversación. El tono de la voz también importa, tendiendo a ser más alto de lo usual en registro con una pequeña elevación al final de las oraciones. CONSEJOS PARA REVELAR ATRACCIÓN La belleza está en el ojo de quien mira y lo atractivo toma muchas formas. Cualquiera sea su preferencia la verdad es que no necesita ser una estrella de Hollywood para ser atractivo. Lo que la mayoría de las personas encuentran atractivo es lo abierto y el interés que demuestre un individuo por ellas. ¿Por qué debería importarle? La mayoría de las personas que son percibidas como atractivas, se considera que tienen otros atributos positivos. Numerosos estudios muestran que las personas piensan que los individuos atractivos son talentosos, cálidos, amables, sensibles, interesantes, sociables. Si no es razón suficiente, las personas percibidas como atractivas también se cree que son más inteligentes y",
+          "realExample": "A Las personas no piensan en el discurso como lenguaje corporal, pero la forma en que se habla lo es. La manera en que dice algo puede transmitir al observador más sobre sus sentimientos y actitud que las palabras que dice. Debe aprender a observar el patrón del discurso y la manera en que encaja con las palabras que una persona dice. Las personas que tratan de engañar, tienden a hablar menor, hablar más lento y tener más errores al hacerlo. Tienden a tomar pausas más largas al responder a una pregunta, y titubear más al responder. Están inclinados a llenar rápidamente cualquier vacío incómodo en la conversación. El tono de la voz también importa, tendiendo a ser más alto de lo usual en registro con una pequeña elevación al final de las oraciones. CONSEJOS PARA REVELAR ATRACCIÓN La belleza está en el ojo de quien mira y lo atractivo toma muchas formas. Cualquiera sea su preferencia la verdad es que no necesita ser una estrella de Hollywood para ser atractivo. Lo que la mayoría de las personas encuentran atractivo es lo abierto y el interés que demuestre un individuo por ellas. ¿Por Quéé debería importarle? La mayoría de las personas que son percibidas como atractivas, se considera que tienen otros atributos positivos. Numerosos estudios muestran que las personas piensan que los individuos atractivos son talentosos, cálidos, amables, sensibles, interesantes, sociables. Si no es razón suficiente, las personas percibidas como atractivas también se cree que son más inteligentes y",
           "interactiveChallenge": {
             "question": "Para detectar posibles engaños según el Capítulo 6, ¿cuál es el primer paso metodológico indispensable?",
             "options": [
@@ -3714,7 +3714,7 @@ const BOOK_CONTENT = {
     {
       "id": "m9",
       "bookNumber": 9,
-      "title": "Cap Tulo Regalo",
+      "title": "Capítulo Regalo",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -3750,7 +3750,7 @@ const BOOK_CONTENT = {
     {
       "id": "m10",
       "bookNumber": 10,
-      "title": "Cap Tulo 12 Persuasi N Agresiva Y De Alto Impacto Este Tipo De Persuasi N Involucra Contenido Fuerte",
+      "title": "Capítulo 12: Persuasión Agresiva Y De Alto Impacto Este Tipo De Persuasión Involucra Contenido Fuerte",
       "keyPillars": [
         {
           "title": "Parte 1",

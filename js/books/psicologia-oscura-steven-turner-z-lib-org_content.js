@@ -707,7 +707,7 @@ const BOOK_CONTENT = {
     {
       "id": "q3",
       "bookNumber": 3,
-      "question": "¿Por qué es crucial el 'suministro narcisista' para un individuo con narcisismo patológico?",
+      "question": "¿Por Quéé es crucial el 'suministro narcisista' para un individuo con narcisismo patológico?",
       "options": [
         "Porque le permite comprar bienes materiales de lujo.",
         "Porque regula su frágil ego nuclear y sostiene su máscara de grandiosidad.",

@@ -34,7 +34,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 1",
+      "icon": "fa-brain",
+      "overview": "Arquitectura de la Calibración Sensorial Avanzada Ilustración Táctica HD La Programación Neurolingüística (PNL) apl..."
     },
     {
       "id": "m2",
@@ -70,7 +73,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 2",
+      "icon": "fa-shield-halved",
+      "overview": "Mapeo de Patrones de Movimiento Ocular (EMPs) Ilustración Táctica HD Los patrones de movimiento ocular (EMPs) son c..."
     },
     {
       "id": "m3",
@@ -106,7 +112,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 3",
+      "icon": "fa-chess-knight",
+      "overview": "Ingeniería de Anclajes Cinestésicos y Auditivos Ilustración Táctica HD Un anclaje es un estímulo externo (un gesto,..."
     },
     {
       "id": "m4",
@@ -114,7 +123,7 @@ const LIBROS_DATA = {
       "title": "Reencuadre Subliminal y Patrones Lingüísticos Hipnóticos",
       "keyPillars": [
         {
-          "title": "Manipulación del Marco de Realidad mediante el Reencuadre",
+          "title": "Manipulación del Marco de Realidad Mediante el Reencuadre",
           "realExample": "<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\"><div class=\"w-full flex items-center justify-between mb-3 px-1\"><h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\"><i class=\"fa-solid fa-brain\"></i> Manipulación del Marco de Realidad mediante el Reencuadre</h4><span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span></div><div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\"><img src=\"assets/img/covers/cover_book_col-041.webp\" alt=\"Ilustración\" class=\"w-full h-full object-cover\"></div></div><br/><p>El <strong>reencuadre</strong> (reframing) es el arte de cambiar el significado de una situación alterando el marco conceptual o emocional desde el cual se evalúa. En manos de un operador de psicología oscura, esta herramienta se convierte en un bisturí lingüístico capaz de desarmar objeciones, neutralizar críticas y redefinir la percepción que una persona tiene de sí misma.</p><p>Existen dos tipos principales de reencuadre táctico:</p><ul><li><strong>Reencuadre de Contexto:</strong> Demuestra que un comportamiento o problema que parece negativo en una circunstancia es altamente valioso en otra (\"No es que seas demasiado inflexible, es que posees una consistencia férrea cuando el caos amenaza al equipo\").</li><li><strong>Reencuadre de Significado:</strong> Cambia por completo la etiqueta emocional de un evento (\"No estás experimentando miedo al fracaso, tu sistema nervioso te está advirtiendo que estás a punto de romper tus propios límites\").</li></ul><p>Combinados con patrones del <em>Milton Model</em> (lenguaje vago, presuposiciones y doble vínculo), estos reencuadres actúan como sugestiones post-hipnóticas difíciles de rebatir racionalmente.</p>",
           "interactiveChallenge": {
             "question": "Un subordinado se muestra reacio a asumir una nueva responsabilidad argumentando que no tiene la experiencia necesaria y siente ansiedad. ¿Qué reencuadre de significado debes aplicar?",
@@ -142,7 +151,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 4",
+      "icon": "fa-eye",
+      "overview": "Manipulación del Marco de Realidad mediante el Reencuadre Ilustración Táctica HD El reencuadre (reframing) es el ar..."
     },
     {
       "id": "m5",
@@ -178,7 +190,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 5",
+      "icon": "fa-comments",
+      "overview": "Arquitectura del Trance Conversacional y Patrones Milton Ilustración Táctica HD El trance conversacional no requier..."
     },
     {
       "id": "m6",
@@ -214,7 +229,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 6",
+      "icon": "fa-bullseye",
+      "overview": "Blindaje Mental y Neutralización de Manipulaciones PNL Ilustración Táctica HD El estudio avanzado de la PNL y la ps..."
     }
   ],
   "caseScenarios": [

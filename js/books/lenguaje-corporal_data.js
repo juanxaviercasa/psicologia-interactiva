@@ -9,7 +9,7 @@ const LIBROS_DATA = {
           "title": "Situación, Ambiente, Proxémica y Postura",
           "realExample": "<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\"><div class=\"w-full flex items-center justify-between mb-3 px-1\"><h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\"><i class=\"fa-solid fa-eye\"></i> Método SAPP en Acción</h4><span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span></div><div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\"><img src=\"assets/img/covers/cover_book_col-088.webp\" alt=\"Ilustración\" class=\"w-full h-full object-cover\"></div></div><br/>Analizar un gesto aislado como cruzarse de brazos sin considerar el SAPP conduce a errores graves de interpretación...",
           "interactiveChallenge": {
-            "question": "¿Por qué es un error interpretar el cruce de brazos exclusivamente como rechazo?",
+            "question": "¿Por Quééé es un error interpretar el cruce de brazos exclusivamente como rechazo?",
             "options": [
               {
                 "text": "Porque el contexto ambiental, como el frío, o la postura específica de las manos cambian por completo el significado.",
@@ -34,7 +34,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 1",
+      "icon": "fa-brain",
+      "overview": "Método SAPP en Acción Ilustración Táctica HD Analizar un gesto aislado como cruzarse de brazos sin considerar el SA..."
     },
     {
       "id": "m2",
@@ -70,7 +73,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 2",
+      "icon": "fa-shield-halved",
+      "overview": "Subsistemas en Conflicto Ilustración Táctica HD El cuerpo lucha contra la gravedad y se divide en axial (pecho, pie..."
     },
     {
       "id": "m3",
@@ -106,7 +112,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 3",
+      "icon": "fa-chess-knight",
+      "overview": "Posturas de Poder Ilustración Táctica HD Las posturas alfa proyectan liderazgo y control, mientras que las beta per..."
     },
     {
       "id": "m4",
@@ -142,7 +151,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 4",
+      "icon": "fa-eye",
+      "overview": "Ilustradores vs Señas Ilustración Táctica HD Los ilustradores acompañan la palabra sin poseer una taxonomía univers..."
     },
     {
       "id": "m5",
@@ -178,7 +190,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 5",
+      "icon": "fa-comments",
+      "overview": "Gestos MAP Ilustración Táctica HD Los MAPs reflejan desequilibrios emocionales dirigidos hacia el propio cuerpo com..."
     },
     {
       "id": "m6",
@@ -214,7 +229,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 6",
+      "icon": "fa-bullseye",
+      "overview": "Emblemas Globales Ilustración Táctica HD Los emblemas son gestos con un significado específico acordado dentro de u..."
     },
     {
       "id": "m7",
@@ -250,7 +268,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 7",
+      "icon": "fa-network-wired",
+      "overview": "Microexpresiones Ilustración Táctica HD Las microexpresiones duran menos de medio segundo y revelan las emociones v..."
     },
     {
       "id": "m8",
@@ -286,7 +307,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 8",
+      "icon": "fa-lock-open",
+      "overview": "Paralenguaje Táctico Ilustración Táctica HD El paralenguaje abarca volumen, velocidad y tono, siendo clave para det..."
     }
   ],
   "caseScenarios": [
@@ -560,7 +584,7 @@ const LIBROS_DATA = {
     {
       "id": "q3",
       "bookNumber": 1,
-      "question": "¿Por qué se considera que la orientación media de los pies es muy fidedigna?",
+      "question": "¿Por Quééé se considera que la orientación media de los pies es muy fidedigna?",
       "options": [
         "Porque las personas rara vez mienten con los pies al mostrar su intención de permanencia o fuga",
         "Porque están más cerca de los zapatos del interlocutor",

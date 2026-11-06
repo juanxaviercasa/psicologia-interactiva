@@ -34,7 +34,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 1",
+      "icon": "fa-brain",
+      "overview": "Anatomía de la Oscuridad Ilustración Táctica HD La psicología oscura no es un constructo clínico aislado, sino un e..."
     },
     {
       "id": "m2",
@@ -70,7 +73,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 2",
+      "icon": "fa-shield-halved",
+      "overview": "Maquiavelismo Operativo Ilustración Táctica HD El maquiavelismo en la psicología oscura representa el cálculo frío,..."
     },
     {
       "id": "m3",
@@ -106,7 +112,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 3",
+      "icon": "fa-chess-knight",
+      "overview": "Narcisismo Patológico Ilustración Táctica HD El narcisismo patológico no es simplemente un exceso de vanidad; es un..."
     },
     {
       "id": "m4",
@@ -142,7 +151,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 4",
+      "icon": "fa-eye",
+      "overview": "Psicopatía Subclínica Ilustración Táctica HD La psicopatía subclínica representa el extremo más frío y peligroso de..."
     },
     {
       "id": "m5",
@@ -178,7 +190,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 5",
+      "icon": "fa-comments",
+      "overview": "Manipulación Encubierta Ilustración Táctica HD La manipulación encubierta es el arte de ejercer control psicológico..."
     },
     {
       "id": "m6",
@@ -214,7 +229,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 6",
+      "icon": "fa-bullseye",
+      "overview": "Escudos Psicológicos Ilustración Táctica HD El conocimiento de la psicología oscura no tiene como propósito fomenta..."
     }
   ],
   "caseScenarios": [
@@ -706,7 +724,7 @@ const LIBROS_DATA = {
     {
       "id": "q3",
       "bookNumber": 3,
-      "question": "¿Por qué es crucial el 'suministro narcisista' para un individuo con narcisismo patológico?",
+      "question": "¿Por Quééé es crucial el 'suministro narcisista' para un individuo con narcisismo patológico?",
       "options": [
         "Porque le permite comprar bienes materiales de lujo.",
         "Porque regula su frágil ego nuclear y sostiene su máscara de grandiosidad.",

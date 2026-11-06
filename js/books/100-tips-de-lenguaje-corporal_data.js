@@ -34,7 +34,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 1",
+      "icon": "fa-brain",
+      "overview": "La Geografía del Cuerpo y las Zonas de Interacción Ilustración Táctica HD El espacio personal no es simplemente una..."
     },
     {
       "id": "m2",
@@ -70,7 +73,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 2",
+      "icon": "fa-shield-halved",
+      "overview": "Geometría de la Mirada: Social, Íntima y de Poder Ilustración Táctica HD El contacto visual es una de las herramien..."
     },
     {
       "id": "m3",
@@ -106,7 +112,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 3",
+      "icon": "fa-chess-knight",
+      "overview": "La Dinámica de las Manos y el Control de los Microgestos Ilustración Táctica HD Las manos son la herramienta expres..."
     },
     {
       "id": "m4",
@@ -142,7 +151,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 4",
+      "icon": "fa-eye",
+      "overview": "La Física y la Psicología del Apretón de Manos Ilustración Táctica HD El apretón de manos es el primer ritual tácti..."
     },
     {
       "id": "m5",
@@ -178,7 +190,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 5",
+      "icon": "fa-comments",
+      "overview": "La Arquitectura del Cuerpo: Expansión y Contracción Ilustración Táctica HD La postura corporal no solo comunica a l..."
     },
     {
       "id": "m6",
@@ -186,7 +201,7 @@ const LIBROS_DATA = {
       "title": "Calibración Social y Detección de Congruencia",
       "keyPillars": [
         {
-          "title": "La Sintonía Límbica y la Detección de incongruencias",
+          "title": "La Sintonía Límbica y la Detección de Incongruencias",
           "realExample": "<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\"><div class=\"w-full flex items-center justify-between mb-3 px-1\"><h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\"><i class=\"fa-solid fa-brain\"></i> La Sintonía Límbica y la Detección de incongruencias</h4><span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span></div><div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\"><img src=\"assets/img/covers/cover_book_col-080.webp\" alt=\"Ilustración\" class=\"w-full h-full object-cover\"></div></div><br/><p>La cúspide del dominio del lenguaje corporal radica en la capacidad de detectar la congruencia entre el discurso verbal y las señales no verbales. Jesús Enrique Rosas recalca que las palabras pueden ensayarse y mentir con facilidad, pero el sistema límbico emite microgestos involuntarios que delatan la verdadera intención o el estado emocional interno en fracciones de segundo.</p><p>La incongruencia se manifiesta cuando hay un desfase temporal o una contradicción directa entre lo que se dice y lo que el cuerpo expresa:</p><ul><li><strong>Retraso en la Afirmación:</strong> Decir 'sí' verbalmente mientras la cabeza realiza un microgesto imperceptible de negación (摇头).</li><li><strong>Falsas Sonrisas (Sonrisa de Duchenne vs. Social):</strong> Una sonrisa genuina activa los músculos orbiculares alrededor de los ojos (patas de gallo), mientras que la sonrisa falsa solo mueve los labios de forma mecánica.</li><li><strong>Bloqueos Oculares instantáneos:</strong> Cubrirse los ojos o parpadear con fuerza al escuchar una propuesta indica rechazo visceral inmediato a pesar de aceptar educadamente.</li></ul><p>Desarrollar esta agudeza visual permite navegar el entorno social con un 'radar' infatigable, protegiéndote de manipulaciones y permitiéndote calibrar tu propia comunicación para alcanzar la máxima autenticidad y persuasión.</p>",
           "interactiveChallenge": {
             "question": "Un socio te asegura sonriendo que está totalmente de acuerdo con tu propuesta de expansión, pero notas que sus párpados se estrechan levemente y sus brazos se cruzan un segundo después de hablar. ¿Cómo debes proceder?",
@@ -214,7 +229,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 6",
+      "icon": "fa-bullseye",
+      "overview": "La Sintonía Límbica y la Detección de incongruencias Ilustración Táctica HD La cúspide del dominio del lenguaje cor..."
     }
   ],
   "caseScenarios": [

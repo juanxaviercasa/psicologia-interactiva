@@ -3,7 +3,7 @@ const LIBROS_DATA = {
     {
       "id": "m1",
       "bookNumber": 1,
-      "title": "Anatomía del Campo de Poder: La Oficina como Escenario Cinético",
+      "title": "Anatomía del Campo de Poder: La Oficina Como Escenario Cinético",
       "keyPillars": [
         {
           "title": "La Geometría del Poder en el Mobiliario de Oficina",
@@ -34,7 +34,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 1",
+      "icon": "fa-brain",
+      "overview": "La Geometría del Poder en el Mobiliario de Oficina Ilustración Táctica HD El entorno de trabajo moderno no es un es..."
     },
     {
       "id": "m2",
@@ -70,7 +73,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 2",
+      "icon": "fa-shield-halved",
+      "overview": "Decodificando la Armadura Corporal y las Posturas de Expansión Ilustración Táctica HD El cuerpo humano es un libro ..."
     },
     {
       "id": "m3",
@@ -106,7 +112,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 3",
+      "icon": "fa-chess-knight",
+      "overview": "El Detector Humano de Mentiras: Microgestos y Fugas Cinéticas Ilustración Táctica HD Una de las habilidades más luc..."
     },
     {
       "id": "m4",
@@ -142,7 +151,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 4",
+      "icon": "fa-eye",
+      "overview": "El Poder de las Manos: Torres, Palmas y Bloqueos Tácticos Ilustración Táctica HD Las manos humanas son instrumentos..."
     },
     {
       "id": "m5",
@@ -178,7 +190,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 5",
+      "icon": "fa-comments",
+      "overview": "Zonas Proxémicas y Invasiones Territoriales en la Oficina Ilustración Táctica HD El espacio personal no es una cues..."
     },
     {
       "id": "m6",
@@ -214,7 +229,10 @@ const LIBROS_DATA = {
             ]
           }
         }
-      ]
+      ],
+      "badge": "MÓDULO 6",
+      "icon": "fa-bullseye",
+      "overview": "La Sintonía Fina: Calibración y Contramedidas No Verbales Avanzadas Ilustración Táctica HD En la cúspide del desarr..."
     }
   ],
   "caseScenarios": [

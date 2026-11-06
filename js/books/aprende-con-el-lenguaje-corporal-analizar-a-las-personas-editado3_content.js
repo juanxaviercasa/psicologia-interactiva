@@ -4,7 +4,7 @@ const BOOK_CONTENT = {
     {
       "id": "m1",
       "bookNumber": 1,
-      "title": "Introduccion",
+      "title": "Introducción",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -69,7 +69,7 @@ const BOOK_CONTENT = {
     {
       "id": "m2",
       "bookNumber": 2,
-      "title": "Cap Tulo Ii Apret N De Mano Conoces A Alguien 21",
+      "title": "Capítulo Ii: Apretón De Mano Conoces A Alguien 21",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -105,7 +105,7 @@ const BOOK_CONTENT = {
     {
       "id": "m3",
       "bookNumber": 3,
-      "title": "Cap Tulo Iii Su Forma De Caminar Personalidad 25",
+      "title": "Capítulo Iii: Su Forma De Caminar Personalidad 25",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -141,7 +141,7 @@ const BOOK_CONTENT = {
     {
       "id": "m4",
       "bookNumber": 4,
-      "title": "Cap Tulo Iv Movimientos De Los Brazos 29",
+      "title": "Capítulo Iv: Movimientos De Los Brazos 29",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -177,7 +177,7 @@ const BOOK_CONTENT = {
     {
       "id": "m5",
       "bookNumber": 5,
-      "title": "Cap Tulo V Movimientos De Cabeza Personalidad 32",
+      "title": "Capítulo V: Movimientos De Cabeza Personalidad 32",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -213,7 +213,7 @@ const BOOK_CONTENT = {
     {
       "id": "m6",
       "bookNumber": 6,
-      "title": "Cap Tulo Vi Personalidad Acerca De Las Piernas 33",
+      "title": "Capítulo Vi: Personalidad Acerca De Las Piernas 33",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -249,7 +249,7 @@ const BOOK_CONTENT = {
     {
       "id": "m7",
       "bookNumber": 7,
-      "title": "Cap Tulo Vii Lenguaje Corporal No Verbal 36",
+      "title": "Capítulo Vii: Lenguaje Corporal No Verbal 36",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -285,7 +285,7 @@ const BOOK_CONTENT = {
     {
       "id": "m8",
       "bookNumber": 8,
-      "title": "Cap Tulo Viii La Parte Superior Del Cuerpo 45",
+      "title": "Capítulo Viii: La Parte Superior Del Cuerpo 45",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -321,7 +321,7 @@ const BOOK_CONTENT = {
     {
       "id": "m9",
       "bookNumber": 9,
-      "title": "Cap Tulo Ix Se Ales De Emociones Negativas Ev Talas 48",
+      "title": "Capítulo Ix: Señales De Emociones Negativas Evítalas 48",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -357,7 +357,7 @@ const BOOK_CONTENT = {
     {
       "id": "m10",
       "bookNumber": 10,
-      "title": "Cap Tulo X Gestos Corporales Positivos Se Ales Verbales 53",
+      "title": "Capítulo X: Gestos Corporales Positivos Señales Verbales 53",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -422,11 +422,11 @@ const BOOK_CONTENT = {
     {
       "id": "m11",
       "bookNumber": 11,
-      "title": "Cap Tulo Xiii Tips Del Lenguaje Corporal Sabias Qu 64 Conclusi N 68",
+      "title": "Capítulo Xiii: Tips Del Lenguaje Corporal Sabías Qué 64 Conclusión 68",
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capítulo XIII: Tips Clave y Conclusión Práctica\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/aprende_lenguaje_corporal_regalado/regalado_m11_tips_conclusion.webp\" alt=\"Capítulo XIII: Tips Clave y Conclusión Práctica\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>CAPÍTULO XIII: Tips del lenguaje corporal (Sabias qué…) ......................................... 64 Conclusión ...................................................................................................................... 68 10 Epílogo Antes de entrar en materia, quiero dejarle saber qué, lo que leerán aquí y todo lo que comparto, me he basado en lo que he aprendido sobre como analizar el comportamiento, los movimientos, los gestos, el lenguaje corporal de las personas con la que me he asociado en el transcurso de la vida. La gran mayoría de los introvertidos tenemos esta disciplina desde que nacemos. Quiero dejar claro también, en lo aprendido, la manera en la que he estudiado en poco tiempo, en el instante que conozco a un desconocido, al igual con los que ya he tratado como amigos de muchos tiempos; los gestos corporales que ellos hacen automáticamente sin darse cuenta. Les dejo saber, que he trabajo como operador telefónico y mis compañeros a diario hacen gestos, cuando hablan por línea y cuando hablan en el grupo o hasta conmigo. Lo que quiero dejarles dicho es qué, he estudiado pausadamente, como ellos se sientan, como se paran, como hablan, sus expresiones, sus gestos, entre otras cosas más que aprenderán aquí. No solo lo digo yo porque lo haya aprendido, sino, que también son estudios que han hecho algunas universidades e instituciones que trabajan sobre el lenguaje corporal; sea cuando vamos a solicitar viaje por primera vez, en un interrogatorio, FBI, o si",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capítulo XIII: Tips Clave y Conclusión Práctica\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/aprende_lenguaje_corporal_regalado/regalado_m11_tips_conclusion.webp\" alt=\"Capítulo XIII: Tips Clave y Conclusión Práctica\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>CAPÍTULO XIII: Tips del lenguaje corporal (Sabías Quéé…) ......................................... 64 Conclusión ...................................................................................................................... 68 10 Epílogo Antes de entrar en materia, quiero dejarle saber qué, lo que leerán aquí y todo lo que comparto, me he basado en lo que he aprendido sobre como analizar el comportamiento, los movimientos, los gestos, el lenguaje corporal de las personas con la que me he asociado en el transcurso de la vida. La gran mayoría de los introvertidos tenemos esta disciplina desde que nacemos. Quiero dejar claro también, en lo aprendido, la manera en la que he estudiado en poco tiempo, en el instante que conozco a un desconocido, al igual con los que ya he tratado como amigos de muchos tiempos; los gestos corporales que ellos hacen automáticamente sin darse cuenta. Les dejo saber, que he trabajo como operador telefónico y mis compañeros a diario hacen gestos, cuando hablan por línea y cuando hablan en el grupo o hasta conmigo. Lo que quiero dejarles dicho es qué, he estudiado pausadamente, como ellos se sientan, como se paran, como hablan, sus expresiones, sus gestos, entre otras cosas más que aprenderán aquí. No solo lo digo yo porque lo haya aprendido, sino, que también son estudios que han hecho algunas universidades e instituciones que trabajan sobre el lenguaje corporal; sea cuando vamos a solicitar viaje por primera vez, en un interrogatorio, FBI, o si",
           "interactiveChallenge": {
             "question": "En el 'Capítulo XIII: Tips del lenguaje corporal sabías que', ¿qué fenómeno pupilar se asocia directamente con la atracción y el agrado hacia otra persona?",
             "options": [
@@ -484,7 +484,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 3",
-          "realExample": "¿Por qué nuestro cuerpo nos decepciona y da una cosa cuando, verbalmente, estamos diciendo otra? Todo tiene que ver con nuestro cerebro. Viajaremos de arriba a abajo y trabajaremos cada parte del cuerpo y sus movimientos y lo que significan. Un poco más adentro, veremos una leve lección acerca de la respiración. Aunque esto parezca no tener mucha importancia, la respiración puede dejarle saber mucho sobre la otra persona por más ridículo que parezca. Tómese un momento para pensar en lo diferente que respiras cuando estás relajado, feliz, asustado y enfadado. ¿Se ven los cambios no? Entonces, en el transcurso del libro trataremos también sobre la importancia de la cara. La cara tiende a contener un montón de información, por lo que es importante estar al tanto en la información que la cara de una persona transmite cuando está hablando y escuchando. Por último, veremos cómo detectar a un mentiroso. A nadie le gusta que le mientan, así que esta información te ayudará a saber si alguien te está mintiendo. Sin embargo, tendrás que usar esta información de forma inteligente y sabiamente como yo la he estado usando. Algo importante te digo, no intentes aprenderlo todo a la primera vez que leas el libro. Simplemente lee y trata de corregir lo que puedas sobre ti, repásalo de nuevo y toma algunas notas. Entonces, he aquí, puedes empezar a tratar de leer el lenguaje corporal. Una manera fácil de ir aprendiendo a leer el lenguaje corporal, es practicando viendo películas, revistas y la",
+          "realExample": "¿Por Quéé nuestro cuerpo nos decepciona y da una cosa cuando, verbalmente, estamos diciendo otra? Todo tiene que ver con nuestro cerebro. Viajaremos de arriba a abajo y trabajaremos cada parte del cuerpo y sus movimientos y lo que significan. Un poco más adentro, veremos una leve lección acerca de la respiración. Aunque esto parezca no tener mucha importancia, la respiración puede dejarle saber mucho sobre la otra persona por más ridículo que parezca. Tómese un momento para pensar en lo diferente que respiras cuando estás relajado, feliz, asustado y enfadado. ¿Se ven los cambios no? Entonces, en el transcurso del libro trataremos también sobre la importancia de la cara. La cara tiende a contener un montón de información, por lo que es importante estar al tanto en la información que la cara de una persona transmite cuando está hablando y escuchando. Por último, veremos cómo detectar a un mentiroso. A nadie le gusta que le mientan, así que esta información te ayudará a saber si alguien te está mintiendo. Sin embargo, tendrás que usar esta información de forma inteligente y sabiamente como yo la he estado usando. Algo importante te digo, no intentes aprenderlo todo a la primera vez que leas el libro. Simplemente lee y trata de corregir lo que puedas sobre ti, repásalo de nuevo y toma algunas notas. Entonces, he aquí, puedes empezar a tratar de leer el lenguaje corporal. Una manera fácil de ir aprendiendo a leer el lenguaje corporal, es practicando viendo películas, revistas y la",
           "interactiveChallenge": {
             "question": "En el 'Capítulo XIII: Tips del lenguaje corporal sabías que', ¿qué fenómeno pupilar se asocia directamente con la atracción y el agrado hacia otra persona?",
             "options": [
@@ -545,7 +545,7 @@ const BOOK_CONTENT = {
     {
       "id": "m12",
       "bookNumber": 12,
-      "title": "Cap Tulo I",
+      "title": "Capítulo I: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -694,7 +694,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 6",
-          "realExample": "misma moneda. Te preguntarás ¿cómo así? Es decir, puedes decir “estoy bien” de varias maneras con diferentes expresiones faciales y tonos, y cada vez va a afectar al mensaje. El lenguaje corporal es una comunicación no verbal en la que se utilizan acciones físicas para expresar los sentimientos de una persona. Estas acciones incluyen el movimiento de los ojos, el tacto y el uso del espacio, los gestos, la postura y las expresiones faciales. El lenguaje corporal está presente tanto en los humanos como en los animales. 16 La importancia del lenguaje corporal El lenguaje corporal es una parte extremadamente importante en el proceso de la comunicación que pocos han estudiado. Constituye la mayor parte de nuestra comunicación y tiende a ser más precisa que las cosas que decimos. Todo el mundo ha oído que las acciones hablan más que las palabras, y esto es tan cierto porque hay muchas cosas que comunicamos sin decir nunca una palabra. Por ejemplo, un simple encogimiento de hombros puede decirle a una persona: “No estoy seguro” O “no sé”. Otro ejemplo, es levantar las cejas, girando las palmas de las manos hacia arriba y encogiéndose de hombros, esto podría significar, “No estoy seguro de lo que debo hacer”. ¿Qué importancia tiene el lenguaje corporal? ¿Por qué una persona debe tomarse el tiempo para aprender los significados imprecisos del lenguaje corporal? Técnicamente, la mente inconsciente ya es experta en ello, y la mente inconsciente es más poderosa que la de la mente conscie",
+          "realExample": "misma moneda. Te preguntarás ¿cómo así? Es decir, puedes decir “estoy bien” de varias maneras con diferentes expresiones faciales y tonos, y cada vez va a afectar al mensaje. El lenguaje corporal es una comunicación no verbal en la que se utilizan acciones físicas para expresar los sentimientos de una persona. Estas acciones incluyen el movimiento de los ojos, el tacto y el uso del espacio, los gestos, la postura y las expresiones faciales. El lenguaje corporal está presente tanto en los humanos como en los animales. 16 La importancia del lenguaje corporal El lenguaje corporal es una parte extremadamente importante en el proceso de la comunicación que pocos han estudiado. Constituye la mayor parte de nuestra comunicación y tiende a ser más precisa que las cosas que decimos. Todo el mundo ha oído que las acciones hablan más que las palabras, y esto es tan cierto porque hay muchas cosas que comunicamos sin decir nunca una palabra. Por ejemplo, un simple encogimiento de hombros puede decirle a una persona: “No estoy seguro” O “no sé”. Otro ejemplo, es levantar las cejas, girando las palmas de las manos hacia arriba y encogiéndose de hombros, esto podría significar, “No estoy seguro de lo que debo hacer”. ¿Qué importancia tiene el lenguaje corporal? ¿Por Quéé una persona debe tomarse el tiempo para aprender los significados imprecisos del lenguaje corporal? Técnicamente, la mente inconsciente ya es experta en ello, y la mente inconsciente es más poderosa que la de la mente conscie",
           "interactiveChallenge": {
             "question": "Con base en el 'Capítulo I', ¿cuál es el principio básico indispensable antes de interpretar cualquier gesto aislado del lenguaje corporal?",
             "options": [
@@ -723,7 +723,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 7",
-          "realExample": "nte. Entonces, ¿por qué deberíamos usar nuestro tiempo y trabajo duro para sacar esto de nuestra mente inconsciente y movernos a la mente consciente, hacer esto confuso y luchando por entenderlo? La razón por lo que esto debe hacerse es que nos da la oportunidad de desarrollar la habilidad de leer a otra persona y controlar su propio lenguaje corporal. Esto significa que puedes comunicarte con mayor frecuencia. Y un ejemplo de esto es, cuando conocemos a una persona por primera vez, la mente inconsciente comienza a desarrollar respuestas a preguntas que hemos aprendido que son importantes. ¿Van a hacerme daño? ¿Son más grandes que yo? ¿Podrían ser una pareja para mí? ¿Entienden lo que dicen? A medida que la relación comienza a crecer, surge la gran cuestión de la confianza. Hay algunas personas que influyen confianza en el primer instante y no les importa pensar ninguna de estas preguntas. Cuando te comunicas con intención, puedes usar tu lenguaje corporal para crear algún tipo de confianza con otras personas de forma más rápida y fiable en lugar de dejarlo en manos de la mente inconsciente. Esta es una gran habilidad. Una de ella es “la del camaleón”. ¿Por qué digo esto? Pues, el camaleón usa su camuflaje en todo lo que le rodea; es parecido a algunas personas, que te transmiten la misma confianza, su sonrisa, la mirada sus gestos. Un gran ejemplo de esto, para ser más preciso es, si sentado se inclina adelante y a la otra persona hace lo mismo. Esto lo utilizan muchos los v",
+          "realExample": "nte. Entonces, ¿Por Quéé deberíamos usar nuestro tiempo y trabajo duro para sacar esto de nuestra mente inconsciente y movernos a la mente consciente, hacer esto confuso y luchando por entenderlo? La razón por lo que esto debe hacerse es que nos da la oportunidad de desarrollar la habilidad de leer a otra persona y controlar su propio lenguaje corporal. Esto significa que puedes comunicarte con mayor frecuencia. Y un ejemplo de esto es, cuando conocemos a una persona por primera vez, la mente inconsciente comienza a desarrollar respuestas a preguntas que hemos aprendido que son importantes. ¿Van a hacerme daño? ¿Son más grandes que yo? ¿Podrían ser una pareja para mí? ¿Entienden lo que dicen? A medida que la relación comienza a crecer, surge la gran cuestión de la confianza. Hay algunas personas que influyen confianza en el primer instante y no les importa pensar ninguna de estas preguntas. Cuando te comunicas con intención, puedes usar tu lenguaje corporal para crear algún tipo de confianza con otras personas de forma más rápida y fiable en lugar de dejarlo en manos de la mente inconsciente. Esta es una gran habilidad. Una de ella es “la del camaleón”. ¿Por Quéé digo esto? Pues, el camaleón usa su camuflaje en todo lo que le rodea; es parecido a algunas personas, que te transmiten la misma confianza, su sonrisa, la mirada sus gestos. Un gran ejemplo de esto, para ser más preciso es, si sentado se inclina adelante y a la otra persona hace lo mismo. Esto lo utilizan muchos los v",
           "interactiveChallenge": {
             "question": "Con base en el 'Capítulo I', ¿cuál es el principio básico indispensable antes de interpretar cualquier gesto aislado del lenguaje corporal?",
             "options": [
@@ -929,7 +929,7 @@ const BOOK_CONTENT = {
     {
       "id": "m13",
       "bookNumber": 13,
-      "title": "Cap Tulo Ii",
+      "title": "Capítulo Ii: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1139,7 +1139,7 @@ const BOOK_CONTENT = {
     {
       "id": "m14",
       "bookNumber": 14,
-      "title": "Cap Tulo Iii",
+      "title": "Capítulo Iii: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1172,7 +1172,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 2",
-          "realExample": "mbién asumió que las personas con un caminar más joven eran más poderosas y más felices. Un estudio británico calificaron primero sus propias personalidades y lo compararon con otros basados a su caminar. A pesar de esto, se les ocurrieron dos estilos principales de caminar: El primer estilo de caminar es suelto y expansivo, lo que fue visto como un signo de calidez, confiabilidad, extraversión y aventura. El segundo era un estilo relajado y lento, que la gente veía como estabilidad emocional. Pero, los juicios basados en las caminatas fueron erróneos. Las suposiciones que estuvieron no coincidieron con lo caminante sobre sus personalidades. No te preocupes sino lo entendiste, ahora te muestro con este principio. 26 • Falsas suposiciones. El mensaje de esto es que tendemos a tratar a una persona de manera diferente por su estilo de caminar tanto como lo hacemos basándonos en su ropa, acento o apariencia. Se utiliza como fuente de información para averiguar qué tipo de persona es. Las suposiciones hechas sobre el rostro de una persona ofrecen a ser más exactas que las suposiciones basadas en su forma de andar. En los primeros hallazgos, se descubrió que las mujeres y los hombres con una marcha más lenta, un balanceo de brazos más pequeño y una zancada más corta se consideraban vulnerables. • Víctima al caminar. Tal vez haz sido víctima de un malhechor, psicópata, agresor, atraco, etc. La pregunta es ¿por qué me pasa esto a mí? Te lo preguntas si has pasado por esto o la pérdid",
+          "realExample": "mbién asumió que las personas con un caminar más joven eran más poderosas y más felices. Un estudio británico calificaron primero sus propias personalidades y lo compararon con otros basados a su caminar. A pesar de esto, se les ocurrieron dos estilos principales de caminar: El primer estilo de caminar es suelto y expansivo, lo que fue visto como un signo de calidez, confiabilidad, extraversión y aventura. El segundo era un estilo relajado y lento, que la gente veía como estabilidad emocional. Pero, los juicios basados en las caminatas fueron erróneos. Las suposiciones que estuvieron no coincidieron con lo caminante sobre sus personalidades. No te preocupes sino lo entendiste, ahora te muestro con este principio. 26 • Falsas suposiciones. El mensaje de esto es que tendemos a tratar a una persona de manera diferente por su estilo de caminar tanto como lo hacemos basándonos en su ropa, acento o apariencia. Se utiliza como fuente de información para averiguar qué tipo de persona es. Las suposiciones hechas sobre el rostro de una persona ofrecen a ser más exactas que las suposiciones basadas en su forma de andar. En los primeros hallazgos, se descubrió que las mujeres y los hombres con una marcha más lenta, un balanceo de brazos más pequeño y una zancada más corta se consideraban vulnerables. • Víctima al caminar. Tal vez haz sido víctima de un malhechor, psicópata, agresor, atraco, etc. La pregunta es ¿Por Quéé me pasa esto a mí? Te lo preguntas si has pasado por esto o la pérdid",
           "interactiveChallenge": {
             "question": "Según el 'Capítulo III', si una persona camina de forma lenta, arrastrando ligeramente los pies y con la mirada fija en el suelo, ¿qué diagnóstico actitudinal es el más acertado?",
             "options": [
@@ -1320,7 +1320,7 @@ const BOOK_CONTENT = {
     {
       "id": "m15",
       "bookNumber": 15,
-      "title": "Cap Tulo Iv",
+      "title": "Capítulo Iv: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1353,7 +1353,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 2",
-          "realExample": "dos, está tratando de crear una barrera protectora. Esto son esfuerzos subconscientes de ocultar su inseguridad o nerviosismo. Si vas por la calle, o estás asiendo fila o en una sala de espera, notarás la gran mayoría de la gente de brazos cruzados. Puedes preguntarle a la gente por qué tienen los brazos cruzados, y muchos dirán que es cómodo. Esto es cierto. La verdad es que cualquier gesto se sentirá cómodo sólo si tienes la actitud correcta. Esto significa que, si te sientes nervioso, defensivo o negativo, tener los brazos cruzados te hará sentir más cómodo. Pero la mejor manera es tenerlo descruzado. Algo interesante es que las mujeres ofrecen sus brazos abiertos cuando hay una persona a su alrededor cuando consideran que es atractiva, y cruzan los brazos si no es atractiva. ¿Lo has notado? • Brazos sobre el pecho. Este gesto, con los brazos sobre el pecho, es universal y debe ser leído con el mismo significado negativo o defensivo en casi todos los países. Básicamente, esto es usado en fila, en el metro, en cualquier lugar donde una persona se siente insegura. También, mucha 30 gente hará este gesto cuando no esté de acuerdo con lo que dice una persona. Sabes algo, confía más en el lenguaje corporal que en las palabras. Si quieres lograr una buena forma que una persona suelte esta posición de brazos cruzados es pedirle que sostenga algo o darle una tarea para realizar. Esto hará que descruce sus brazos. Y si esta sentada, es darle un folleto, un lapicero o cualquier otr",
+          "realExample": "dos, está tratando de crear una barrera protectora. Esto son esfuerzos subconscientes de ocultar su inseguridad o nerviosismo. Si vas por la calle, o estás asiendo fila o en una sala de espera, notarás la gran mayoría de la gente de brazos cruzados. Puedes preguntarle a la gente Por Quéé tienen los brazos cruzados, y muchos dirán que es cómodo. Esto es cierto. La verdad es que cualquier gesto se sentirá cómodo sólo si tienes la actitud correcta. Esto significa que, si te sientes nervioso, defensivo o negativo, tener los brazos cruzados te hará sentir más cómodo. Pero la mejor manera es tenerlo descruzado. Algo interesante es que las mujeres ofrecen sus brazos abiertos cuando hay una persona a su alrededor cuando consideran que es atractiva, y cruzan los brazos si no es atractiva. ¿Lo has notado? • Brazos sobre el pecho. Este gesto, con los brazos sobre el pecho, es universal y debe ser leído con el mismo significado negativo o defensivo en casi todos los países. Básicamente, esto es usado en fila, en el metro, en cualquier lugar donde una persona se siente insegura. También, mucha 30 gente hará este gesto cuando no esté de acuerdo con lo que dice una persona. Sabes algo, confía más en el lenguaje corporal que en las palabras. Si quieres lograr una buena forma que una persona suelte esta posición de brazos cruzados es pedirle que sostenga algo o darle una tarea para realizar. Esto hará que descruce sus brazos. Y si esta sentada, es darle un folleto, un lapicero o cualquier otr",
           "interactiveChallenge": {
             "question": "De acuerdo con el 'Capítulo IV', cuando alguien cruza los brazos y coloca sus manos debajo de las axilas ocultando los pulgares, ¿qué subtexto proyecta?",
             "options": [
@@ -1501,7 +1501,7 @@ const BOOK_CONTENT = {
     {
       "id": "m16",
       "bookNumber": 16,
-      "title": "Cap Tulo V",
+      "title": "Capítulo V: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1566,7 +1566,7 @@ const BOOK_CONTENT = {
     {
       "id": "m17",
       "bookNumber": 17,
-      "title": "Cap Tulo Vi",
+      "title": "Capítulo Vi: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1718,7 +1718,7 @@ const BOOK_CONTENT = {
     {
       "id": "m18",
       "bookNumber": 18,
-      "title": "Cap Tulo Vii",
+      "title": "Capítulo Vii: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2073,7 +2073,7 @@ const BOOK_CONTENT = {
     {
       "id": "m19",
       "bookNumber": 19,
-      "title": "Cap Tulo Viii",
+      "title": "Capítulo Viii: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2225,7 +2225,7 @@ const BOOK_CONTENT = {
     {
       "id": "m20",
       "bookNumber": 20,
-      "title": "Cap Tulo Ix",
+      "title": "Capítulo Ix: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2406,7 +2406,7 @@ const BOOK_CONTENT = {
     {
       "id": "m21",
       "bookNumber": 21,
-      "title": "Cap Tulo X",
+      "title": "Capítulo X: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2529,7 +2529,7 @@ const BOOK_CONTENT = {
     {
       "id": "m22",
       "bookNumber": 22,
-      "title": "Cap Tulo Xi",
+      "title": "Capítulo Xi: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2562,7 +2562,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 2",
-          "realExample": "que hacemos; te hablo del “PNL”. Te preguntarás ¿Qué significa? El PNL es la (Programación Neurolingüística) que es el modelo del pensamiento y la acción que explica la conducta del ser humano. Cuando estamos en una situación difícil solemos castigarnos mentalmente con sus aspectos negativos, a menudo las cosas no salen como lo planeamos, situaciones inesperadas obstaculizan nuestros planes, entonces nos preguntamos: ¿por que? ¿por qué me pasó esto? ¿por qué me sucede a mi? Estas preguntas siempre quedan sin respuesta y lo que logramos es abrumarnos aún más. El lenguaje corporal, no es más que todo lo que tú trasmites por medio de movimientos o gestos, delata completamente tus sentimientos o percepción acerca de las personas con la que estás interactuando. 57 Cuando conversas con una o varias personas, reflejas y envías miles de señales y mensajes a través de tu comportamiento. Así que presta atención y sácale provecho a los siguientes datos, porque tanto en tu vida laboral como en la personal, te serán de gran provecho. ¡Cuidado! Tus movimientos te delatan. 58 Aprendamos a leer más fácil el lenguaje corporal (Comunicación no verbal) Resumen adquirido Ya que has adquirido conocimiento en todo lo que has leído anteriormente, repasemos brevemente las señales ya aprendida. Pero esta vez, serán más fácil de aprender. • ¿Qué decimos con nuestras manos? Como ya sabes, las manos hablan por nosotros con sus movimientos, siempre tengamos en cuenta el contexto donde nos desenvolvemos.",
+          "realExample": "que hacemos; te hablo del “PNL”. Te preguntarás ¿Qué significa? El PNL es la (Programación Neurolingüística) que es el modelo del pensamiento y la acción que explica la conducta del ser humano. Cuando estamos en una situación difícil solemos castigarnos mentalmente con sus aspectos negativos, a menudo las cosas no salen como lo planeamos, situaciones inesperadas obstaculizan nuestros planes, entonces nos preguntamos: ¿por que? ¿Por Quéé me pasó esto? ¿Por Quéé me sucede a mi? Estas preguntas siempre quedan sin respuesta y lo que logramos es abrumarnos aún más. El lenguaje corporal, no es más que todo lo que tú trasmites por medio de movimientos o gestos, delata completamente tus sentimientos o percepción acerca de las personas con la que estás interactuando. 57 Cuando conversas con una o varias personas, reflejas y envías miles de señales y mensajes a través de tu comportamiento. Así que presta atención y sácale provecho a los siguientes datos, porque tanto en tu vida laboral como en la personal, te serán de gran provecho. ¡Cuidado! Tus movimientos te delatan. 58 Aprendamos a leer más fácil el lenguaje corporal (Comunicación no verbal) Resumen adquirido Ya que has adquirido conocimiento en todo lo que has leído anteriormente, repasemos brevemente las señales ya aprendida. Pero esta vez, serán más fácil de aprender. • ¿Qué decimos con nuestras manos? Como ya sabes, las manos hablan por nosotros con sus movimientos, siempre tengamos en cuenta el contexto donde nos desenvolvemos.",
           "interactiveChallenge": {
             "question": "Conforme al 'Capítulo XI', cuando un sospechoso afirma rotundamente estar diciendo la verdad pero realiza un encogimiento unilateral de hombros (un solo hombro sube ligeramente), ¿qué delata?",
             "options": [
@@ -2681,11 +2681,11 @@ const BOOK_CONTENT = {
     {
       "id": "m23",
       "bookNumber": 23,
-      "title": "Cap Tulo Xii",
+      "title": "Capítulo Xii: ",
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capítulo XII: Calibración en Entrevistas de Alto Impacto\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/aprende_lenguaje_corporal_regalado/regalado_m23_entrevista_laboral.webp\" alt=\"Capítulo XII: Calibración en Entrevistas de Alto Impacto\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>CAPÍTULO XII: Trucos para tener en cuenta en una entrevista (Comunicación verbal y no verbal) Te has preguntado ¿Por qué nunca me llaman para trabajar en una empresa después que me hubieron hecho la entrevista? ¿Por qué no califique? ¿Por qué le dieron el puesto a otro de envés a mí? ¿Qué vieron en mí? Sé que haces estas preguntas cuando vez que nunca te llaman después de haber entrevistado. Pero tranquilo, aquí te enseño también que debes hacer para que toca empresa te quieran elegir a ti, aún que no tengas experiencia en el puesto o como sea. He trabajado en muchos lugar, y en algunos de ellos no he tenido experiencia. En todas las entrevistas que he tenido siempre terminan contratándome. Siempre ten pendiente aprender cosas buenas en cada trabajo. Y si ya eres profesional en ciertas áreas vive lo haces. Sin más que decir, te muestro como tener una exitosa entrevista, llevándote a lo verbal y no verbal. • Usa tus ojos para hablar. Los ojos son las ventanas del alma, como antes de lo había dicho. Las personas que mira limpiamente a los ojos de otros, es una persona segura, amistosa, madura y sincera. Sus ojos y su mirada pueden decir tanto porque expresan prácticamente todas las emociones: alegría, tristeza, inquietud, tensión, preocupación, estimación o respeto. Por sus ojos muchas veces se puede saber lo que está pensando. Por eso, constituyen una ayuda poderosa en la conversación. • Usa adecuadamente tus manos. Tus manos se pueden aprovechar muy bien para complementar tus",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capítulo XII: Calibración en Entrevistas de Alto Impacto\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/aprende_lenguaje_corporal_regalado/regalado_m23_entrevista_laboral.webp\" alt=\"Capítulo XII: Calibración en Entrevistas de Alto Impacto\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>CAPÍTULO XII: Trucos para tener en cuenta en una entrevista (Comunicación verbal y no verbal) Te has preguntado ¿Por Quéé nunca me llaman para trabajar en una empresa después que me hubieron hecho la entrevista? ¿Por Quéé no califique? ¿Por Quéé le dieron el puesto a otro de envés a mí? ¿Qué vieron en mí? Sé que haces estas preguntas cuando vez que nunca te llaman después de haber entrevistado. Pero tranquilo, aquí te enseño también que debes hacer para que toca empresa te quieran elegir a ti, aún que no tengas experiencia en el puesto o como sea. He trabajado en muchos lugar, y en algunos de ellos no he tenido experiencia. En todas las entrevistas que he tenido siempre terminan contratándome. Siempre ten pendiente aprender cosas buenas en cada trabajo. Y si ya eres profesional en ciertas áreas vive lo haces. Sin más que decir, te muestro como tener una exitosa entrevista, llevándote a lo verbal y no verbal. • Usa tus ojos para hablar. Los ojos son las ventanas del alma, como antes de lo había dicho. Las personas que mira limpiamente a los ojos de otros, es una persona segura, amistosa, madura y sincera. Sus ojos y su mirada pueden decir tanto porque expresan prácticamente todas las emociones: alegría, tristeza, inquietud, tensión, preocupación, estimación o respeto. Por sus ojos muchas veces se puede saber lo que está pensando. Por eso, constituyen una ayuda poderosa en la conversación. • Usa adecuadamente tus manos. Tus manos se pueden aprovechar muy bien para complementar tus",
           "interactiveChallenge": {
             "question": "En el 'Capítulo XII', ¿qué significado tiene que tu interlocutor coloque sus manos en jarras sobre las caderas con los pulgares hacia atrás?",
             "options": [
@@ -2775,11 +2775,11 @@ const BOOK_CONTENT = {
     {
       "id": "m24",
       "bookNumber": 24,
-      "title": "Cap Tulo Xiii",
+      "title": "Capítulo Xiii: ",
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capítulo XIII: Síntesis y Maestría en Lectura Humana\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/aprende_lenguaje_corporal_regalado/regalado_m24_sintesis_maestria.webp\" alt=\"Capítulo XIII: Síntesis y Maestría en Lectura Humana\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>CAPÍTULO XIII: Tips del lenguaje corporal (Sabias qué…) Cuando una persona habla por teléfono; y mientras lo hace separa los codos de su cuerpo, esto significa que la persona es extrovertida. Y mientras más lo separa de su cuerpo, más extrovertida es. Cuando mentimos tratamos de ocultar las manos. Los oradores, lo abogados y comunicadores, usan la postura de la mano “cúpula o el triángulo” es cuando unimos las yemas de los cinco dedos. Esta forma, proyecta seguridad y decisión. Cuando saludas de apretón de mano y con tu mano libre tocas entre hombres y bíceps, tríceps esto significa que eres cordial y de buena voluntad. También muestra respeto hacia esa persona y transmite calidez. Si alguien te presenta su rostro con una mano con los puños cerrados y en ésta apoya su barbilla, nos dice, que esta dispuesto a escucharte y que deposita toda su atención a lo que dices. Dar la mano como un pez no sería bueno. Es decir, saludar de mano o apretón, debes tener cuidado al dar la mano a media Y sin fuerza en el saludo. Esto se vería como una expresión de desinterés y flojo. También sucede cuando alguien está sentado y sus pies apuntan hacia la salida, esto dice, no le interesa lo que habla. El tener las manos tras la espalda o las dos, cuando hablamos proyecta autoridad… pero debes tener cuidado también, porque también proyecta negatividad, alejamiento y desconfianza. En cambio, digo, que hay personas que no saben que hacer con sus manos cuando hablan con otras personas. Así que, cuid",
+          "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Capítulo XIII: Síntesis y Maestría en Lectura Humana\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/aprende_lenguaje_corporal_regalado/regalado_m24_sintesis_maestria.webp\" alt=\"Capítulo XIII: Síntesis y Maestría en Lectura Humana\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>CAPÍTULO XIII: Tips del lenguaje corporal (Sabías Quéé…) Cuando una persona habla por teléfono; y mientras lo hace separa los codos de su cuerpo, esto significa que la persona es extrovertida. Y mientras más lo separa de su cuerpo, más extrovertida es. Cuando mentimos tratamos de ocultar las manos. Los oradores, lo abogados y comunicadores, usan la postura de la mano “cúpula o el triángulo” es cuando unimos las yemas de los cinco dedos. Esta forma, proyecta seguridad y decisión. Cuando saludas de apretón de mano y con tu mano libre tocas entre hombres y bíceps, tríceps esto significa que eres cordial y de buena voluntad. También muestra respeto hacia esa persona y transmite calidez. Si alguien te presenta su rostro con una mano con los puños cerrados y en ésta apoya su barbilla, nos dice, que esta dispuesto a escucharte y que deposita toda su atención a lo que dices. Dar la mano como un pez no sería bueno. Es decir, saludar de mano o apretón, debes tener cuidado al dar la mano a media Y sin fuerza en el saludo. Esto se vería como una expresión de desinterés y flojo. También sucede cuando alguien está sentado y sus pies apuntan hacia la salida, esto dice, no le interesa lo que habla. El tener las manos tras la espalda o las dos, cuando hablamos proyecta autoridad… pero debes tener cuidado también, porque también proyecta negatividad, alejamiento y desconfianza. En cambio, digo, que hay personas que no saben que hacer con sus manos cuando hablan con otras personas. Así que, cuid",
           "interactiveChallenge": {
             "question": "De acuerdo con el 'Capítulo XIII', ¿cuál es la regla de oro para evitar emitir juicios erróneos al interpretar el lenguaje corporal de alguien?",
             "options": [
@@ -2837,7 +2837,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 3",
-          "realExample": "dizaje a nuestra memoria más rápido cuando escribimos. Cuando cruzamos la pierna opuesta encima de la otra en dirección hacia una persona que está al lado nuestro, estamos sintonizándonos y acercándonos a esa persona. Es una manera de acercarnos más a ellos. Sabias qué, si tu dedo anular es más largo las personas suelen ser agresivas. También sabías que si tu dedo índice es más largo, la persona es muy sensible. ¿Tobillos y muñecas cruzadas cuando esta sentada? Si una mujer está sentada y tiene los tobillos y las muñecas cruzadas, es porque desea distanciamiento. Para que se relaje, debe evitar hacerle preguntas. Debe buscar la manera que se relaje y descruce el tobillo. Apoyar el codo izquierdo sobre una mesa y llevarse la mano a la mejilla para retenerla o rodearla es una postura emocional y empática. Es una postura muy expresiva de seducción. Señalar con el pulgar demuestra desprecio hacia esa persona. Cuando dos mujeres se saludan de mejillas o abrazos, y sus genitales están distanciados determinan sus niveles de confianza. Al igual que los hombres. El cuello es la parte más vulnerable de la anatomía. Pero si te tocas cualquier parte del cuello o te lleva la mano a él mientras hablas, refleja inseguridad, mientes o exageras. Hablar con los dedos entrelazados proyecta frustración y contrariedad. Esto pasa cuando una persona no está de acuerdo con lo que ha escuchado o lo que opinó cierta persona. Es como crear una barrera cuando cruzamos los brazos, pero esta vez lo hacemo",
+          "realExample": "dizaje a nuestra memoria más rápido cuando escribimos. Cuando cruzamos la pierna opuesta encima de la otra en dirección hacia una persona que está al lado nuestro, estamos sintonizándonos y acercándonos a esa persona. Es una manera de acercarnos más a ellos. Sabías Quéé, si tu dedo anular es más largo las personas suelen ser agresivas. También sabías que si tu dedo índice es más largo, la persona es muy sensible. ¿Tobillos y muñecas cruzadas cuando esta sentada? Si una mujer está sentada y tiene los tobillos y las muñecas cruzadas, es porque desea distanciamiento. Para que se relaje, debe evitar hacerle preguntas. Debe buscar la manera que se relaje y descruce el tobillo. Apoyar el codo izquierdo sobre una mesa y llevarse la mano a la mejilla para retenerla o rodearla es una postura emocional y empática. Es una postura muy expresiva de seducción. Señalar con el pulgar demuestra desprecio hacia esa persona. Cuando dos mujeres se saludan de mejillas o abrazos, y sus genitales están distanciados determinan sus niveles de confianza. Al igual que los hombres. El cuello es la parte más vulnerable de la anatomía. Pero si te tocas cualquier parte del cuello o te lleva la mano a él mientras hablas, refleja inseguridad, mientes o exageras. Hablar con los dedos entrelazados proyecta frustración y contrariedad. Esto pasa cuando una persona no está de acuerdo con lo que ha escuchado o lo que opinó cierta persona. Es como crear una barrera cuando cruzamos los brazos, pero esta vez lo hacemo",
           "interactiveChallenge": {
             "question": "De acuerdo con el 'Capítulo XIII', ¿cuál es la regla de oro para evitar emitir juicios erróneos al interpretar el lenguaje corporal de alguien?",
             "options": [
@@ -2895,7 +2895,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 5",
-          "realExample": "s cerca el pecho demuestra victoria, gusto y ayuda a crear autoconfianza. Esta forma la vemos siempre en los presentadores de televisión cuando están de pie. Llevarte las manos detrás de la cabeza, entrelazar los dedos y abrir los codos, muestra que eres altanero o eres una amenaza. También, te da relajamiento y soñar despierto. Así que, ten cuidado al usarla. Cuando vayas a saludar a alguien, se tú el primero en extender la mano. Esto demuestra agrado, genuino, interés y alguien proactiva. Pero nunca olvides el contacto visual. Si eres de las personas que no puede evitar meter las manos en los bolsillos cuando hablas o te hablan, por lo menos mantén el contacto visual y el mentón en alto. Si te has encontrado con gente que son soberbia y sabelotodo, te enseño un truco. Cuando le saludes de apretón de mano y a la vez que lo haces coloca una mano sobre su hombro, esto le demuestras propiedad, dominio y poder. Aquí le demuestra que hay algo como si te perteneciera. Pero no olvides hacer contacto visual y darle una sonrisa auténtica. 67 Si dos personas están sentada en una mesa y sus tobillos están cruzado y así atrás o debajo de la silla; y uno de ellos está inclinado hacia la mesa, nos dice que están en desacuerdo o están en un pequeño conflicto de interés. Sabias qué, apoyar los dedos en la comisura de la boca y llevar usualmente los dedos al centro de los labios, es una autoevaluación negativa. Si tienes un anillo, y le das vuelta es una señal de ansiedad. Si hablas delante",
+          "realExample": "s cerca el pecho demuestra victoria, gusto y ayuda a crear autoconfianza. Esta forma la vemos siempre en los presentadores de televisión cuando están de pie. Llevarte las manos detrás de la cabeza, entrelazar los dedos y abrir los codos, muestra que eres altanero o eres una amenaza. También, te da relajamiento y soñar despierto. Así que, ten cuidado al usarla. Cuando vayas a saludar a alguien, se tú el primero en extender la mano. Esto demuestra agrado, genuino, interés y alguien proactiva. Pero nunca olvides el contacto visual. Si eres de las personas que no puede evitar meter las manos en los bolsillos cuando hablas o te hablan, por lo menos mantén el contacto visual y el mentón en alto. Si te has encontrado con gente que son soberbia y sabelotodo, te enseño un truco. Cuando le saludes de apretón de mano y a la vez que lo haces coloca una mano sobre su hombro, esto le demuestras propiedad, dominio y poder. Aquí le demuestra que hay algo como si te perteneciera. Pero no olvides hacer contacto visual y darle una sonrisa auténtica. 67 Si dos personas están sentada en una mesa y sus tobillos están cruzado y así atrás o debajo de la silla; y uno de ellos está inclinado hacia la mesa, nos dice que están en desacuerdo o están en un pequeño conflicto de interés. Sabías Quéé, apoyar los dedos en la comisura de la boca y llevar usualmente los dedos al centro de los labios, es una autoevaluación negativa. Si tienes un anillo, y le das vuelta es una señal de ansiedad. Si hablas delante",
           "interactiveChallenge": {
             "question": "De acuerdo con el 'Capítulo XIII', ¿cuál es la regla de oro para evitar emitir juicios erróneos al interpretar el lenguaje corporal de alguien?",
             "options": [

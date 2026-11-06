@@ -4,13 +4,13 @@ const BOOK_CONTENT = {
     {
       "id": "m1",
       "bookNumber": 1,
-      "title": "Introduccion",
+      "title": "Introducción",
       "keyPillars": [
         {
           "title": "Parte 1",
           "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Tratado Secreto de Persuasión y Control Mental\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/persuasion_control_mental/mental_m1_introduccion.webp\" alt=\"Tratado Secreto de Persuasión y Control Mental\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Persuasión Psicología Oscura Técnicas secretas para influenciar en las personas usando el control mental, la manipulación y el engaño Copyright 2020 por R.J. Anderson - Todos los derechos reservados. El siguiente libro se reproduce con el objetivo de proporcionar información lo más precisa y fiable posible. Sin embargo, la compra de este Libro puede ser vista como un consentimiento al hecho de que tanto el editor como el autor de este libro no son de ninguna manera expertos en los temas tratados en él y que cualquier recomendación o sugerencia que se haga aquí es sólo para fines de entretenimiento. Los profesionales deben ser consultados según sea necesario antes de llevar a cabo cualquiera de las acciones aquí respaldadas. Esta declaración es considerada justa y válida tanto por la Asociación Americana de Abogados como por el Comité de la Asociación de Editores y es legalmente vinculante en todo el territorio de los Estados Unidos. Además, la transmisión, duplicación o reproducción de cualquiera de las siguientes obras, incluida la información específica, se considerará un acto ilegal, independientemente de que se realice electrónicamente o en forma impresa. Esto se extiende a la creación de una copia secundaria o terciaria de la obra o una copia registrada y sólo se permite con el consentimiento expreso y por escrito del Editor. Se reservan todos los derechos adicionales. La información que figura en las siguientes páginas se considera en general una exposición veraz y exac",
           "interactiveChallenge": {
-            "question": "¿Cómo reconoce un observador entrenado la prueba social en el contexto de \"Introduccion\"?",
+            "question": "¿Cómo reconoce un observador entrenado la prueba social en el contexto de \"Introducción\"?",
             "options": [
               {
                 "text": "Implica reconocer patrones de prueba social y aplicar distancia emocional estratégica para neutralizarlos.",
@@ -39,7 +39,7 @@ const BOOK_CONTENT = {
           "title": "Parte 2",
           "realExample": "ta de los hechos y, como tal, toda falta de atención, utilización o uso indebido de la información en cuestión por parte del lector hará que las acciones resultantes queden exclusivamente bajo su competencia. No hay ningún escenario en el que el editor o el autor original de esta obra pueda ser considerado de alguna manera responsable de cualquier dificultad o daño que pueda ocurrirle después de emprender la información aquí descrita. Además, la información que figura en las páginas siguientes tiene fines exclusivamente informativos y, por lo tanto, debe considerarse universal. Como corresponde a su naturaleza, se presenta sin garantía en cuanto a su validez prolongada o su calidad provisional. Las marcas comerciales que se mencionan se hacen sin consentimiento escrito y no pueden considerarse en modo alguno como una aprobación del titular de la marca. Índice Introducción Capítulo 1: Consejos e información para sobresalir en la persuasión Capítulo 2: Cómo utilizar la manipulación Capítulo 3: Aprender la hipnosis y cómo usarla Capítulo 4: Conoce los hechos sobre la programación neurolingüística Capítulo 5: El arte del engaño Capítulo 6: Explorando el concepto de los juegos mentales Capítulo 7: Control mental indetectable Capítulo 8: Influencia a través de la seducción Capítulo 9: Lograr una óptima persuasión con la psicología subliminal Conclusión ¡Gracias! Introducción Felicitaciones por la compra de este libro y gracias por haberlo adquirido. En los siguientes capítulos se d",
           "interactiveChallenge": {
-            "question": "¿Cómo reconoce un observador entrenado la prueba social en el contexto de \"Introduccion\"?",
+            "question": "¿Cómo reconoce un observador entrenado la prueba social en el contexto de \"Introducción\"?",
             "options": [
               {
                 "text": "Implica reconocer patrones de prueba social y aplicar distancia emocional estratégica para neutralizarlos.",
@@ -68,7 +68,7 @@ const BOOK_CONTENT = {
           "title": "Parte 3",
           "realExample": "iscutirá todo lo que necesitas saber para dominar el arte de la persuasión. Desde el primer capítulo, aprenderás cómo se usa la persuasión y lo que necesitas hacer para convertirte en una persona más persuasiva. El capítulo dos te dará una visión completamente nueva de la manipulación. Verás cómo puedes usarla para beneficiarte en casi todas las áreas de tu vida. En el siguiente capítulo, aprenderás sobre la hipnosis. Es una técnica de persuasión que puedes aprender y utilizar a tu favor de forma regular. A medida que avanzas en este libro, aprenderás sobre la PNL y el engaño. Ambos conceptos te harán mucho más fácil persuadir a los demás y a ver las cosas como tú lo haces. A continuación vienen los juegos mentales y el control mental. Esto puede sonar como algo sacado de una película, pero la verdad es que se usan en la vida diaria regularmente. De hecho, has estado expuesto a ellos frecuentemente a lo largo de tu vida y es probable que ni siquiera te des cuenta. Saber cómo aprovechar y controlar estas habilidades te asegurará que consigas lo que quieres. El libro concluye con capítulos sobre la seducción y la psicología subliminal. Una vez que domines estas técnicas de persuasión, encontrarás que es poco lo que no puedes hacer en tu vida. Hay muchos libros sobre este tema en el mercado, ¡gracias de nuevo por elegir este! Se ha hecho todo lo posible para asegurar que esté lleno de tanta información útil como sea posible, por favor disfrútalo.",
           "interactiveChallenge": {
-            "question": "¿Cómo reconoce un observador entrenado la prueba social en el contexto de \"Introduccion\"?",
+            "question": "¿Cómo reconoce un observador entrenado la prueba social en el contexto de \"Introducción\"?",
             "options": [
               {
                 "text": "Implica reconocer patrones de prueba social y aplicar distancia emocional estratégica para neutralizarlos.",
@@ -1823,7 +1823,7 @@ const BOOK_CONTENT = {
     {
       "id": "Q003",
       "bookNumber": 1,
-      "question": "¿Por qué funciona la técnica de la escasez?",
+      "question": "¿Por Quéé funciona la técnica de la escasez?",
       "options": [
         "Porque nos gusta el lujo",
         "Porque el miedo a perder es mayor que el deseo de ganar",

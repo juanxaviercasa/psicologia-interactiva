@@ -4,7 +4,7 @@ const BOOK_CONTENT = {
     {
       "id": "m1",
       "bookNumber": 1,
-      "title": "Introduccion",
+      "title": "Introducción",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -124,7 +124,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 5",
-          "realExample": "no que parecía difícil de seguir en el pasado es B.F. Skinner. Skinner fue uno de los psicólogos más influyentes del siglo [[. Fue el que desarrolló las ideas del conductismo junto con la escuela de psicología que se va a centrar más en el comportamiento medible y observable. En primer lugar, el conductismo va a ser una de las escuelas de psicología, una que se centrará en la ciencia y hará hincapié en sólo mirar los datos medibles que podemos explorar sobre el comportamiento. Cuando se utiliza esta escuela de pensamiento, hay que tratar de centrarse en no dejar que los uicios cualitativos se interpongan en el camino de la ciencia que viene aquí. A lo largo de los años, ha demostrado ser una de las escuelas de pensamiento más influyentes en toda la historia de la ciencia. Lo que estas escuelas de pensamiento van a hacer es tratar de dar algún sentido a nuestra historia evolutiva como especie. Esto significa que vamos a echar un vistazo a por qué somos como somos. Seguir un enfoque evolutivo va a ser vital porque nos permite ver algunos de los mejores misterios de cómo funciona la mente humana. En un sentido evolutivo, vamos a ser conducidos a la autoprotección, a la necesidad de alimento y refugio, y así sucesivamente. Esto a menudo va a ser una parte inconsciente de nuestras vidas ahora, pero aún así es una buena idea explorar esto un poco y entender cómo algunos de estos instintos básicos van a entrar en juego. PNL significa programación neurolingüística. Es un concepto que",
+          "realExample": "no que parecía difícil de seguir en el pasado es B.F. Skinner. Skinner fue uno de los psicólogos más influyentes del siglo [[. Fue el que desarrolló las ideas del conductismo junto con la escuela de psicología que se va a centrar más en el comportamiento medible y observable. En primer lugar, el conductismo va a ser una de las escuelas de psicología, una que se centrará en la ciencia y hará hincapié en sólo mirar los datos medibles que podemos explorar sobre el comportamiento. Cuando se utiliza esta escuela de pensamiento, hay que tratar de centrarse en no dejar que los uicios cualitativos se interpongan en el camino de la ciencia que viene aquí. A lo largo de los años, ha demostrado ser una de las escuelas de pensamiento más influyentes en toda la historia de la ciencia. Lo que estas escuelas de pensamiento van a hacer es tratar de dar algún sentido a nuestra historia evolutiva como especie. Esto significa que vamos a echar un vistazo a Por Quéé somos como somos. Seguir un enfoque evolutivo va a ser vital porque nos permite ver algunos de los mejores misterios de cómo funciona la mente humana. En un sentido evolutivo, vamos a ser conducidos a la autoprotección, a la necesidad de alimento y refugio, y así sucesivamente. Esto a menudo va a ser una parte inconsciente de nuestras vidas ahora, pero aún así es una buena idea explorar esto un poco y entender cómo algunos de estos instintos básicos van a entrar en juego. PNL significa programación neurolingüística. Es un concepto que",
           "interactiveChallenge": {
             "question": "¿Cuál es el propósito fundamental al estudiar el lado oscuro de la mente humana en el módulo de Introducción?",
             "options": [
@@ -243,7 +243,7 @@ const BOOK_CONTENT = {
     {
       "id": "m2",
       "bookNumber": 2,
-      "title": "Preliminares E Indice",
+      "title": "Preliminares E Índice",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -276,7 +276,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 2",
-          "realExample": "ar al distribuidor ninguna obligación o falta legal por cualquier reparación, daño o desgracia relacionada con el dinero a causa de los datos que figuran en el presente, ya sea directamente o por implicación. Los creadores particulares reclaman todos los derechos de autor que no son propiedad del distribuidor. Los datos en esto se ofrecen con fines educativos exclusivamente y son todo incluido como tal. La introducción de los datos se hace sin contrato o cualquier tipo de confirmación de garantía. Las marcas comerciales que se utilizan no tienen ningún tipo de consentimiento, y la distribución de la marca comercial se realiza sin el consentimiento o el apoyo del propietario de la marca comercial. Todas las marcas registradas y marcas dentro de este libro son para fines explicativos y simplemente son poseídas por los propietarios, no están asociadas con este registro. Introducción Capítulo 1: ¿Cuál es el acto de manipulación? Capítulo 2: ¿Cómo reconocer la manipulación? Capítulo 3: Tipos de manipulación Capítulo 4: ¿Por qué somos vulnerables a la manipulación? Capítulo 5: ¿Cuáles son los efectos de la manipulación en la salud mental? Capítulo 6: ¿Cuáles son los signos que muestran que estás siendo manipulado psicológicamente y emocionalmente? Capítulo 7: ¿Cómo tratar con la gente que es manipuladora por naturaleza? Capítulo 8: El lenguaje corporal como signo de manipulación. Capítulo 9: Técnicas de manipulación Capítulo 10: ¿Qué es la Psicología Oscura? Capítulo 11: ¿Cuáles so",
+          "realExample": "ar al distribuidor ninguna obligación o falta legal por cualquier reparación, daño o desgracia relacionada con el dinero a causa de los datos que figuran en el presente, ya sea directamente o por implicación. Los creadores particulares reclaman todos los derechos de autor que no son propiedad del distribuidor. Los datos en esto se ofrecen con fines educativos exclusivamente y son todo incluido como tal. La introducción de los datos se hace sin contrato o cualquier tipo de confirmación de garantía. Las marcas comerciales que se utilizan no tienen ningún tipo de consentimiento, y la distribución de la marca comercial se realiza sin el consentimiento o el apoyo del propietario de la marca comercial. Todas las marcas registradas y marcas dentro de este libro son para fines explicativos y simplemente son poseídas por los propietarios, no están asociadas con este registro. Introducción Capítulo 1: ¿Cuál es el acto de manipulación? Capítulo 2: ¿Cómo reconocer la manipulación? Capítulo 3: Tipos de manipulación Capítulo 4: ¿Por Quéé somos vulnerables a la manipulación? Capítulo 5: ¿Cuáles son los efectos de la manipulación en la salud mental? Capítulo 6: ¿Cuáles son los signos que muestran que estás siendo manipulado psicológicamente y emocionalmente? Capítulo 7: ¿Cómo tratar con la gente que es manipuladora por naturaleza? Capítulo 8: El lenguaje corporal como signo de manipulación. Capítulo 9: Técnicas de manipulación Capítulo 10: ¿Qué es la Psicología Oscura? Capítulo 11: ¿Cuáles so",
           "interactiveChallenge": {
             "question": "En la sección de Preliminares e Índice, ¿qué premisa metodológica se establece sobre el uso de la persuasión?",
             "options": [
@@ -337,7 +337,7 @@ const BOOK_CONTENT = {
     {
       "id": "m3",
       "bookNumber": 3,
-      "title": "Capitulo 1",
+      "title": "Capítulo 1: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -576,7 +576,7 @@ const BOOK_CONTENT = {
     {
       "id": "m4",
       "bookNumber": 4,
-      "title": "Capitulo 2",
+      "title": "Capítulo 2: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -844,7 +844,7 @@ const BOOK_CONTENT = {
     {
       "id": "m5",
       "bookNumber": 5,
-      "title": "Capitulo 3",
+      "title": "Capítulo 3: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -993,7 +993,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 6",
-          "realExample": "que nunca se echará atrás en una discusión. Nunca admitirán que están equivocados. Nunca se disculpe por nada. Un manipulador nunca mostrará respeto, pero esperará que todos los demás le muestren respeto. No les gusta nada más que avergonzar a los demás. Hacerse el tonto es una práctica común, sólo para obligar a otra persona a explicarse mejor. En cada oportunidad, el manipulador se lanzará con algún comentario sarcástico, \"date prisa, todos estamos esperando tu explicación intelectual\", o \"¿por qué nadie más ha oído hablar de esto?\" Su único objetivo es hacer que la otra persona parezca un tonto, pero sin parecer ser el que lo hizo. Oh no, la víctima se hizo eso a sí misma porque es estúpida. ¿Y qué hay de las víctimas de tal manipulador? Pasemos ahora al otro lado de este escenario. ---",
+          "realExample": "que nunca se echará atrás en una discusión. Nunca admitirán que están equivocados. Nunca se disculpe por nada. Un manipulador nunca mostrará respeto, pero esperará que todos los demás le muestren respeto. No les gusta nada más que avergonzar a los demás. Hacerse el tonto es una práctica común, sólo para obligar a otra persona a explicarse mejor. En cada oportunidad, el manipulador se lanzará con algún comentario sarcástico, \"date prisa, todos estamos esperando tu explicación intelectual\", o \"¿Por Quéé nadie más ha oído hablar de esto?\" Su único objetivo es hacer que la otra persona parezca un tonto, pero sin parecer ser el que lo hizo. Oh no, la víctima se hizo eso a sí misma porque es estúpida. ¿Y qué hay de las víctimas de tal manipulador? Pasemos ahora al otro lado de este escenario. ---",
           "interactiveChallenge": {
             "question": "De acuerdo con el Capítulo 3 (Narcisismo), ¿cuál es el motor principal detrás del comportamiento del narcisista?",
             "options": [
@@ -1025,11 +1025,11 @@ const BOOK_CONTENT = {
     {
       "id": "m6",
       "bookNumber": 6,
-      "title": "Capitulo 4",
+      "title": "Capítulo 4: ",
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "apter 4: apter 4: ¿Por qué somos vulnerables a la ¿Por qué somos vulnerables a la manipulación? La otra cara de evitar la trampa de las relaciones tóxicas con personas emocionalmente manipuladoras es considerar si se tiene alguno de los rasgos de personalidad que los depredadores buscan en aquellos de los que son más propensos a ser víctimas. Muchos de nosotros esperamos ser tratados con respeto y amabilidad y de acuerdo con las leyes y costumbres básicas de una adultez educada, civilizada y responsable. Damos por sentado este entendimiento y esperamos que sea un hecho en todas nuestras relaciones. Consideramos que este es el entendimiento predeterminado en nuestras relaciones no sólo entre aquellos que conocemos y en los que confiamos, sino quizás aún más entre los extraños, compañeros de trabajo y profesionales con los que podemos entrar en contacto. Lamentablemente, los depredadores emocionales son muy conscientes de esta expectativa y a menudo explotan esta área de confianza específicamente cuando buscan formas de explotar a las víctimas. Todos hemos visto películas sobre el extraño atractivo que pidió ayuda con un neumático desinflado o los nuevos vecinos que parecían tan agradables cuando se mudaron por primera vez. Lentamente, estas relaciones que parecen tan benignas y normales en la superficie, rápidamente se convierten en una pesadilla aparentemente ineludible de violencia, victimización y criminalidad. Aunque tenemos razón al considerar estos tipos de relaciones co",
+          "realExample": "apter 4: apter 4: ¿Por Quéé somos vulnerables a la ¿Por Quéé somos vulnerables a la manipulación? La otra cara de evitar la trampa de las relaciones tóxicas con personas emocionalmente manipuladoras es considerar si se tiene alguno de los rasgos de personalidad que los depredadores buscan en aquellos de los que son más propensos a ser víctimas. Muchos de nosotros esperamos ser tratados con respeto y amabilidad y de acuerdo con las leyes y costumbres básicas de una adultez educada, civilizada y responsable. Damos por sentado este entendimiento y esperamos que sea un hecho en todas nuestras relaciones. Consideramos que este es el entendimiento predeterminado en nuestras relaciones no sólo entre aquellos que conocemos y en los que confiamos, sino quizás aún más entre los extraños, compañeros de trabajo y profesionales con los que podemos entrar en contacto. Lamentablemente, los depredadores emocionales son muy conscientes de esta expectativa y a menudo explotan esta área de confianza específicamente cuando buscan formas de explotar a las víctimas. Todos hemos visto películas sobre el extraño atractivo que pidió ayuda con un neumático desinflado o los nuevos vecinos que parecían tan agradables cuando se mudaron por primera vez. Lentamente, estas relaciones que parecen tan benignas y normales en la superficie, rápidamente se convierten en una pesadilla aparentemente ineludible de violencia, victimización y criminalidad. Aunque tenemos razón al considerar estos tipos de relaciones co",
           "interactiveChallenge": {
             "question": "En el Capítulo 4 (Maquiavelismo), ¿cuál es el principio organizador del sujeto con este rasgo?",
             "options": [
@@ -1206,7 +1206,7 @@ const BOOK_CONTENT = {
     {
       "id": "m7",
       "bookNumber": 7,
-      "title": "Capitulo 5",
+      "title": "Capítulo 5: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1358,7 +1358,7 @@ const BOOK_CONTENT = {
     {
       "id": "m8",
       "bookNumber": 8,
-      "title": "Capitulo 6",
+      "title": "Capítulo 6: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1420,7 +1420,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 3",
-          "realExample": "a actuar como loca por ti en un periodo de tiempo inusualmente corto. Un manipulador te hará sentir como si hubiera mariposas en tu estómago. Te esforzarás por complacerlo. Tu mayor deseo será hacerle sonreír. Esto es porque él ya te hace sentir como si le debieras o como si te gustara tanto que trabajarás para complacerlo. Ten cuidado con la gente que te hace sentir como una marioneta. Nunca deberías querer inclinarte hacia atrás por alguien con tanta urgencia. Necesitas tener un sentido de dignidad y espacio personal y valor en cada relación. Si no lo tienes, algo no va bien. El consejo más sencillo para tratar con un manipulador es levantarse e irse. Si puedes hacer esto, genial. Deberías hacerlo inmediatamente. No habrá nada bueno en esta relación, así que ¿por qué quedarse y salir lastimado? Pero este consejo es a menudo más fácil de decir que de hacer. Hay algunas situaciones en las que no puedes escapar de un manipulador y sus trampas. Por ejemplo, puede que tengas que trabajar con un manipulador y no puedas dejar tu trabajo, o no quieras hacerlo. O puedes tener un familiar manipulador y no puedes cortar con él o perderás a toda tu familia. Puede que te sientas atrapado e incapaz de salir por varias razones, como las financieras. Tal vez tengas hijos con el manipulador y debas hablar con él o ella por el resto de tu vida con respecto a los niños. La paternidad conjunta no termina automáticamente cuando los hijos cumplen los dieciocho años; a veces, tienes que continua",
+          "realExample": "a actuar como loca por ti en un periodo de tiempo inusualmente corto. Un manipulador te hará sentir como si hubiera mariposas en tu estómago. Te esforzarás por complacerlo. Tu mayor deseo será hacerle sonreír. Esto es porque él ya te hace sentir como si le debieras o como si te gustara tanto que trabajarás para complacerlo. Ten cuidado con la gente que te hace sentir como una marioneta. Nunca deberías querer inclinarte hacia atrás por alguien con tanta urgencia. Necesitas tener un sentido de dignidad y espacio personal y valor en cada relación. Si no lo tienes, algo no va bien. El consejo más sencillo para tratar con un manipulador es levantarse e irse. Si puedes hacer esto, genial. Deberías hacerlo inmediatamente. No habrá nada bueno en esta relación, así que ¿Por Quéé quedarse y salir lastimado? Pero este consejo es a menudo más fácil de decir que de hacer. Hay algunas situaciones en las que no puedes escapar de un manipulador y sus trampas. Por ejemplo, puede que tengas que trabajar con un manipulador y no puedas dejar tu trabajo, o no quieras hacerlo. O puedes tener un familiar manipulador y no puedes cortar con él o perderás a toda tu familia. Puede que te sientas atrapado e incapaz de salir por varias razones, como las financieras. Tal vez tengas hijos con el manipulador y debas hablar con él o ella por el resto de tu vida con respecto a los niños. La paternidad conjunta no termina automáticamente cuando los hijos cumplen los dieciocho años; a veces, tienes que continua",
           "interactiveChallenge": {
             "question": "En el Capítulo 6 (Técnicas de Manipulación), ¿en qué consiste la técnica de 'Puerta en la cara'?",
             "options": [
@@ -1568,13 +1568,13 @@ const BOOK_CONTENT = {
     {
       "id": "m9",
       "bookNumber": 9,
-      "title": "Capitulo 7",
+      "title": "Capítulo 7: ",
       "keyPillars": [
         {
           "title": "Parte 1",
           "realExample": "apter 7: apter 7: ¿Cómo tratar con la gente que es ¿Cómo tratar con la gente que es manipuladora por naturaleza? Tengan cuidado de no perder el contacto con la realidad. De lo contrario, corre el riesgo de ser atropellado por un manipulador. La búsqueda de la realidad debe dirigirse al mundo exterior y al interior de uno mismo. Una autoevaluación realista es un requisito importante para la evaluación fiable de otras áreas. Aquellos que juzgan mal sus propias capacidades se ven fácilmente en conflicto con la realidad. Por lo tanto, primero, trate de obtener el autoconocimiento. Sea crítico con cualquier intento de entender la realidad a través del lenguaje. El lenguaje siempre sólo empuja una cosa: Una piedra puede martillar, un arma, un proyectil, una joya o un escombro, y una planta puede dar adornos, platillos, medicinas, vegetales o hierbas. Persona, incluso la piedra y la planta no son ni lo uno ni lo otro. En este sentido, no hay hechos absolutos, sino siempre sólo hechos transmitidos lingüísticamente y por lo tanto interpretados e interpretables. Esfuércense por separar la descripción, la evaluación y la interpretación como diferentes. Intenta escribir una página primero y luego interpretarla. ¡Inténtalo primero, antes de seguir leyendo! Una descripción podría ser: Designación del material: Papel hecho de celulosa. Forma: 115 veces 118 veces 0,1 milímetros. Color: 80% blanco, 20% negro; Dispersa el color negro sobre el papel de manera desigual en pequeñas líneas curvas.",
           "interactiveChallenge": {
-            "question": "Según el Capítulo 7 (Persuasión Covert/Encubierta), ¿por qué es tan efectiva esta forma de influencia?",
+            "question": "Según el Capítulo 7 (Persuasión Covert/Encubierta), ¿Por Quéé es tan efectiva esta forma de influencia?",
             "options": [
               {
                 "text": "Porque sobrepasa los filtros críticos racionales de la víctima haciéndola creer que la idea fue suya.",
@@ -1603,7 +1603,7 @@ const BOOK_CONTENT = {
           "title": "Parte 2",
           "realExample": "Una interpretación podría ser así: Las pequeñas líneas negras son signos. Tienen un propósito. Son letras. Las letras son bloques de construcción para las palabras. Las palabras forman frases y textos. Cualquiera que haya aprendido a leer estos signos y conozca el lenguaje correspondiente puede sacar su significado de ellos. Los signos significan... Estoy de acuerdo con el contenido del material escrito, etc. Dos cosas se aclaran: Incluso la descripción más exacta está todavía lejos de los hechos en sí. La descripción y la interpretación se mezclan constantemente en el uso común. También puedes jugar una vez al siguiente juego: Interpretar los hechos alegados en una dirección diferente: • Una batalla perdida se convierte en una retirada estratégica, • Una medida de mantenimiento de la paz de un ataque, • El sobrepeso significa guapo o representativo, • Una bancarrota inminente se convierte en la tarea de reducir la salud, • Un burdel se convierte en un spa para hombres. Ambos nombres se refieren a la misma realidad pero los calificamos de forma diferente. Si quieres mantener los ojos abiertos al mundo real, debes evitar los esquemas conceptuales rígidos. Intente ser flexible en la elección de palabras, practique malabares con las palabras, considere posibles diferentes sistemas conceptuales y utilícelos en su propio valor para sí mismos. ¿Quién puede ser descrito políticamente sólo a través de los términos izquierda y derecha o pensamiento progresista y reaccionario? La gent",
           "interactiveChallenge": {
-            "question": "Según el Capítulo 7 (Persuasión Covert/Encubierta), ¿por qué es tan efectiva esta forma de influencia?",
+            "question": "Según el Capítulo 7 (Persuasión Covert/Encubierta), ¿Por Quéé es tan efectiva esta forma de influencia?",
             "options": [
               {
                 "text": "Porque sobrepasa los filtros críticos racionales de la víctima haciéndola creer que la idea fue suya.",
@@ -1632,7 +1632,7 @@ const BOOK_CONTENT = {
           "title": "Parte 3",
           "realExample": "e es entonces clasificada por uno como de izquierda y el otro como reaccionario. Para un análisis adecuado y para encontrar soluciones significativas, es importante reconocer que la terminología obsoleta no puede reflejar una realidad cambiante, a menudo o en parte, y debe ser sustituida o complementada por nuevos conceptos. Los problemas de la globalización y una posible catástrofe climática sólo pueden abordarse con complejas medidas inteligentes ante un mundo multipolar y muchas posibles soluciones políticas y técnicas. Dado que la distinción entre izquierda y derecha ya no ayuda, ya que es más factible técnicamente o no, a financiar o no, a ser políticamente exigible o no y a visualizar estas cosas de una forma amigable para los medios de comunicación, a apoyar la mayor cantidad de ellas como sea posible. Así pues, se requiere una terminología completamente nueva para poder comunicar de manera realista. También ocurre lo contrario: Se abusa de muchos términos ecológicos para justificar y camuflar el comportamiento antiecológico: bajo el nombre de biocombustible, se ha construido toda una rama de la industria en todo el mundo con mucho aplauso público. Mientras tanto, se ha demostrado que este combustible está descalificado de tres maneras: No proviene de la agricultura orgánica, sino de plantas genéticamente modificadas. Para producir un litro de combustible a partir de él, se consumen 4000 litros de agua durante el cultivo. Dado que un gran número de cultivos que antes s",
           "interactiveChallenge": {
-            "question": "Según el Capítulo 7 (Persuasión Covert/Encubierta), ¿por qué es tan efectiva esta forma de influencia?",
+            "question": "Según el Capítulo 7 (Persuasión Covert/Encubierta), ¿Por Quéé es tan efectiva esta forma de influencia?",
             "options": [
               {
                 "text": "Porque sobrepasa los filtros críticos racionales de la víctima haciéndola creer que la idea fue suya.",
@@ -1661,7 +1661,7 @@ const BOOK_CONTENT = {
           "title": "Parte 4",
           "realExample": "e utilizaban para la producción de alimentos se convirtieron en cultivos para combustible, los alimentos básicos se encarecieron en todo el mundo, lo que ya ha provocado disturbios en algunos países en desarrollo. Del mismo modo, pensar en las categorías Este y Oeste ha impedido durante mucho tiempo la distinción entre el Norte y el Sur, o entre los países industrializados y los países en desarrollo. Mientras tanto, estos términos también están obsoletos y se habla de mercados emergentes, de economías en rápido desarrollo y de aquellas que no hacen la conexión con el desarrollo mundial. Esta distinción se ha visto ensombrecida desde el ataque terrorista del 11 de septiembre de 2001 contra el World Trade Center de Nueva York y las guerras posteriores en el Afganistán y el Iraq en los últimos años, una separación entre el mundo islámico y el resto del mundo. La asociación es islámica ? peligrosa. Seguramente esta no es una distinción realmente adecuada. El mundo y también los estados islámicos son mucho más complejos. Los conceptos fijos suelen dominar una percepción de la realidad en la conciencia que ha estado obsoleta durante muchos años o décadas, impidiendo así el manejo adecuado de los nuevos avances. En muchos casos, esas fijaciones conceptuales son políticamente intencionadas porque, en una rudimentaria distinción básica entre el bien y el mal, justifican la lucha contra los malos. No se deje engañar por los conceptos. Tal vez todos son sólo un aspecto o nivel de la rea",
           "interactiveChallenge": {
-            "question": "Según el Capítulo 7 (Persuasión Covert/Encubierta), ¿por qué es tan efectiva esta forma de influencia?",
+            "question": "Según el Capítulo 7 (Persuasión Covert/Encubierta), ¿Por Quéé es tan efectiva esta forma de influencia?",
             "options": [
               {
                 "text": "Porque sobrepasa los filtros críticos racionales de la víctima haciéndola creer que la idea fue suya.",
@@ -1690,7 +1690,7 @@ const BOOK_CONTENT = {
           "title": "Parte 5",
           "realExample": "lidad; tal vez todos juntos son \"verdaderos\". Por lo tanto, compruebe sus términos y sólo utilice aquellos que realmente correspondan a su perspicacia e intención.",
           "interactiveChallenge": {
-            "question": "Según el Capítulo 7 (Persuasión Covert/Encubierta), ¿por qué es tan efectiva esta forma de influencia?",
+            "question": "Según el Capítulo 7 (Persuasión Covert/Encubierta), ¿Por Quéé es tan efectiva esta forma de influencia?",
             "options": [
               {
                 "text": "Porque sobrepasa los filtros críticos racionales de la víctima haciéndola creer que la idea fue suya.",
@@ -1720,7 +1720,7 @@ const BOOK_CONTENT = {
     {
       "id": "m10",
       "bookNumber": 10,
-      "title": "Capitulo 8",
+      "title": "Capítulo 8: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1959,7 +1959,7 @@ const BOOK_CONTENT = {
     {
       "id": "m11",
       "bookNumber": 11,
-      "title": "Capitulo 9",
+      "title": "Capítulo 9: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2169,7 +2169,7 @@ const BOOK_CONTENT = {
     {
       "id": "m12",
       "bookNumber": 12,
-      "title": "Capitulo 10",
+      "title": "Capítulo 10: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2437,11 +2437,11 @@ const BOOK_CONTENT = {
     {
       "id": "m13",
       "bookNumber": 13,
-      "title": "Capitulo 11",
+      "title": "Capítulo 11: ",
       "keyPillars": [
         {
           "title": "Parte 1",
-          "realExample": "--- Chapter 11: ¿Cuáles son los efectos de la psicología oscura? Una de las mayores razones por las que la gente lucha con la psicología oscura es que no entienden completamente lo que significa. La psicología oscura es más que las acciones y pensamientos de alguien. Se trata de ver por qué la gente se aprovecha de otros humanos. Al igual que la psicología, está tratando de encontrar una razón de por qué la gente piensa y actúa de la manera que lo hace. La única diferencia es que, con la psicología oscura, se centra en por qué un humano dañaría a propósito a otro humano o animal. Por ejemplo, la psicología oscura mira por qué Adolfo Hitler asesinó a millones de judíos durante la Segunda Guerra Mundial. La gente que estudia la psicología oscura se pregunta qué hizo que Hitler se comportara de la manera en que lo hizo. ¿Por qué Hitler apuntó a los judíos? La psicología oscura también puede ayudarte a entender a alguien. Por ejemplo, si sientes que estás siendo manipulado por tu pareja, puedes aprender sobre sus técnicas y por qué lo hacen. Esto puede ayudarte no sólo a entender a la persona sino también a protegerte a ti mismo. Puedes empezar a contrarrestar las acciones de tu pareja. Por supuesto, esto los hará enojar. Sin embargo, también los va a despistar de su juego, lo que le dará más influencia. Puede que no te des cuenta de que estás usando la psicología oscura con alguien. No importa quién seas, has manipulado a una persona en un momento u otro. Aunque esto podría habe",
+          "realExample": "--- Chapter 11: ¿Cuáles son los efectos de la psicología oscura? Una de las mayores razones por las que la gente lucha con la psicología oscura es que no entienden completamente lo que significa. La psicología oscura es más que las acciones y pensamientos de alguien. Se trata de ver Por Quéé la gente se aprovecha de otros humanos. Al igual que la psicología, está tratando de encontrar una razón de Por Quéé la gente piensa y actúa de la manera que lo hace. La única diferencia es que, con la psicología oscura, se centra en Por Quéé un humano dañaría a propósito a otro humano o animal. Por ejemplo, la psicología oscura mira Por Quéé Adolfo Hitler asesinó a millones de judíos durante la Segunda Guerra Mundial. La gente que estudia la psicología oscura se pregunta qué hizo que Hitler se comportara de la manera en que lo hizo. ¿Por Quéé Hitler apuntó a los judíos? La psicología oscura también puede ayudarte a entender a alguien. Por ejemplo, si sientes que estás siendo manipulado por tu pareja, puedes aprender sobre sus técnicas y Por Quéé lo hacen. Esto puede ayudarte no sólo a entender a la persona sino también a protegerte a ti mismo. Puedes empezar a contrarrestar las acciones de tu pareja. Por supuesto, esto los hará enojar. Sin embargo, también los va a despistar de su juego, lo que le dará más influencia. Puede que no te des cuenta de que estás usando la psicología oscura con alguien. No importa quién seas, has manipulado a una persona en un momento u otro. Aunque esto podría habe",
           "interactiveChallenge": {
             "question": "De acuerdo con el Capítulo 11 (Programación Neurolingüística - PNL), ¿qué es el 'Acompasamiento' o 'Matching'?",
             "options": [
@@ -2589,7 +2589,7 @@ const BOOK_CONTENT = {
     {
       "id": "m14",
       "bookNumber": 14,
-      "title": "Capitulo 12",
+      "title": "Capítulo 12: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2683,7 +2683,7 @@ const BOOK_CONTENT = {
     {
       "id": "m15",
       "bookNumber": 15,
-      "title": "Capitulo 13",
+      "title": "Capítulo 13: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2951,13 +2951,13 @@ const BOOK_CONTENT = {
     {
       "id": "m16",
       "bookNumber": 16,
-      "title": "Capitulo 14",
+      "title": "Capítulo 14: ",
       "keyPillars": [
         {
           "title": "Parte 1",
           "realExample": "apter 14: apter 14: Señales comunes de que estás siendo Señales comunes de que estás siendo manipulado Cuando te apegas a alguien que amas de la forma en que es y también aceptas felizmente que sea de la misma manera. Pero hay momentos en los que es importante que cambies algunas cosas en ti y otras en tu pareja para mejorar tu relación. Hay momentos en una relación en los que empiezas a pensar que tu pareja ha dejado de preocuparse por ti, se ha vuelto egocéntrica o ha empezado a imponerte cosas. Hay pequeñas cosas que al principio le parecerían tan bonitas como cocinar buena comida para su marido y decirle durante la cena que ha chocado con el coche cuando ha salido. A veces está bien, pero lentamente si estas cosas se vuelven más oscuras y profundas puede ser una gran preocupación para usted. La manipulación comienza desde el nivel del suelo y puede llegar hasta el cielo. Eres tú quien tiene que establecer los límites y entender cuando estas pequeñas cosas se convierten en grandes. Siempre debes tener la confianza para hablar y oponerte a algo que no está bien y en contra de tu deseo. Siempre debes preguntarte si tienes el valor de decir que no cuando no quieres hacer algo. La gente manipuladora elige especialmente a los compañeros que pueden ser fácilmente manipulados ya que les gusta que las cosas sucedan a su manera. Pero estas personas manipuladoras son realmente sabias y no te dejarían ver estas señales al principio de la relación. Siempre debes estar alerta en tu rel",
           "interactiveChallenge": {
-            "question": "En el Capítulo 14 (Manipulación en Relaciones de Pareja), ¿qué fenómeno psicológico explica por qué la víctima se engancha al 'Refuerzo Intermitente'?",
+            "question": "En el Capítulo 14 (Manipulación en Relaciones de Pareja), ¿qué fenómeno psicológico explica Por Quéé la víctima se engancha al 'Refuerzo Intermitente'?",
             "options": [
               {
                 "text": "La entrega impredecible de afecto y castigo genera picos dramáticos de dopamina y adicción química.",
@@ -2986,7 +2986,7 @@ const BOOK_CONTENT = {
           "title": "Parte 2",
           "realExample": "ación y si observas que las pequeñas amenazas se convierten en grandes y si no estás de acuerdo con lo que dicen, el gran enfado o la agresividad, es una clara señal de que estás con un compañero manipulador. Como si tu pareja no respetara tu decisión incluso después de que le expliques claramente tus razones y aún así intentes hacer las cosas según tus deseos, significa que es egoísta y no le preocupa lo que quieres de la vida. Los manipuladores no cambian de la noche a la mañana. Es sólo que sus pequeñas demandas se hacen más grandes día a día y su tolerancia para aceptar un \"no\" se hace más pequeña con cada día que pasa. Todo tu tiempo podría pasar pensando si quieres estar en esta relación o no. Los pensamientos que te vienen a la mente te confunden cuando por un lado puedes pensar que el amor significa dar y por otro lado puedes pensar que el amor debe ser incondicional. Pero créeme, si quieres pasar tu vida feliz, en paz y de acuerdo a tus deseos, entonces salir de la relación es sustancial para ti. Puede que te resulte difícil decir que no y quedarte sin tu pareja, pero te facilitará la vida y podrás vivirla según tus propios términos. A veces, la gente no es capaz de decir que no porque tienen miedo en su mente de cómo reaccionarían cuando dijeras que no. Olvídate de tu comportamiento complaciente con la gente, piensa en ti mismo, cuando dejes de agacharte para hacer feliz a todo el mundo, entonces es cuando te sentirás seguro y serás quien eres. Ahora sabes que es cr",
           "interactiveChallenge": {
-            "question": "En el Capítulo 14 (Manipulación en Relaciones de Pareja), ¿qué fenómeno psicológico explica por qué la víctima se engancha al 'Refuerzo Intermitente'?",
+            "question": "En el Capítulo 14 (Manipulación en Relaciones de Pareja), ¿qué fenómeno psicológico explica Por Quéé la víctima se engancha al 'Refuerzo Intermitente'?",
             "options": [
               {
                 "text": "La entrega impredecible de afecto y castigo genera picos dramáticos de dopamina y adicción química.",
@@ -3015,7 +3015,7 @@ const BOOK_CONTENT = {
           "title": "Parte 3",
           "realExample": "ucial dar un paso cuando te das cuenta de que tu pareja es manipuladora. Pero primero entendamos bien los signos de un amante manipulador Te provocan... Te provocan... Cuando no tienen nada que decir y están fuera de la Cuando no tienen nada que decir y están fuera de la discusión, te provocan. Podrían hacer cosas que te harían enojar y desencadenar tus emociones negativas. El único propósito de hacer es que quieren que te permitas una pelea sin sentido para que puedan usar algo en su defensa. Si sientes que están exagerando y pinchándote innecesariamente, lo mejor es que te calmes y trates de mantenerte en el tema. Si no puedes hacer eso, entonces trata de terminar la discusión cortésmente. Saben usar trucos. Saben usar trucos. Siempre están listos con sus trucos sucios para Siempre están listos con sus trucos sucios para conseguir lo que quieren. Te pedirían grandes cosas de tal manera que están pidiendo algunos pequeños favores. Son muy inteligentes y saben cómo tratar con diferentes tipos de personas. Por ejemplo, dirían que si no podemos ir a cenar a un restaurante lejano, vayamos a un restaurante cercano a comer comida china. La única opción que dejarían para ti es seleccionar la más fácil. Pero no debes recurrir a sus trucos ya que no siempre es importante ayudar y debes ayudar si quieres, no porque te den opciones. Técnica de manipulación. Técnica de manipulación. En este método intentan distorsionar el En este método intentan distorsionar el pasado y tergiversar los",
           "interactiveChallenge": {
-            "question": "En el Capítulo 14 (Manipulación en Relaciones de Pareja), ¿qué fenómeno psicológico explica por qué la víctima se engancha al 'Refuerzo Intermitente'?",
+            "question": "En el Capítulo 14 (Manipulación en Relaciones de Pareja), ¿qué fenómeno psicológico explica Por Quéé la víctima se engancha al 'Refuerzo Intermitente'?",
             "options": [
               {
                 "text": "La entrega impredecible de afecto y castigo genera picos dramáticos de dopamina y adicción química.",
@@ -3042,9 +3042,9 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 4",
-          "realExample": "hechos para que te confundan. Hacen preguntas como: \"¿No te llamé? ¿Por qué no te llamaría cuando sé que me necesitas? Estarían tan seguros de que empiezas a dudar de tu propia memoria. Saben muy bien en qué momento se debe usar. Para deshacerse de esta malvada táctica siempre debes confiar en tu memoria y decirles que recuerdas lo que dijiste. De esta manera, o bien dejarán de usar esta técnica o al menos tendrán cuidado de que recuerdes muy bien lo que dices y haces. Presionarte- Presionarte- Todo el mundo sabe que si tuvieras menos tiempo Todo el mundo sabe que si tuvieras menos tiempo para tomar decisiones, no podrías ver todos los aspectos de la situación. Esto es lo que los manipuladores hacen en una relación. Siempre te presionan para que tomes decisiones más rápido dándote menos tiempo cuando no quieren que pienses mucho en algo. Por lo tanto, siempre es bueno pedir algo de tiempo, para que puedas ver los pros y los contras de t según tú y comprobar si te conviene. Si todavía quieren que te des prisa, entonces amablemente responde que estás pensando en ello y necesitas algo de tiempo para tomar la decisión. Chantaje emocionalChantaje emocional- Este es un signo muy común de un Este es un signo muy común de un manipulador; son muy buenos para chantajearte emocionalmente. Siempre tratan de hacerte el punto más débil de ti y muestran inseguridad diciendo frases como, moriré sin ti o no puedo vivir sin ti, etc. Intentan amenazar su salud y su vida pero no se lo toman dema",
+          "realExample": "hechos para que te confundan. Hacen preguntas como: \"¿No te llamé? ¿Por Quéé no te llamaría cuando sé que me necesitas? Estarían tan seguros de que empiezas a dudar de tu propia memoria. Saben muy bien en qué momento se debe usar. Para deshacerse de esta malvada táctica siempre debes confiar en tu memoria y decirles que recuerdas lo que dijiste. De esta manera, o bien dejarán de usar esta técnica o al menos tendrán cuidado de que recuerdes muy bien lo que dices y haces. Presionarte- Presionarte- Todo el mundo sabe que si tuvieras menos tiempo Todo el mundo sabe que si tuvieras menos tiempo para tomar decisiones, no podrías ver todos los aspectos de la situación. Esto es lo que los manipuladores hacen en una relación. Siempre te presionan para que tomes decisiones más rápido dándote menos tiempo cuando no quieren que pienses mucho en algo. Por lo tanto, siempre es bueno pedir algo de tiempo, para que puedas ver los pros y los contras de t según tú y comprobar si te conviene. Si todavía quieren que te des prisa, entonces amablemente responde que estás pensando en ello y necesitas algo de tiempo para tomar la decisión. Chantaje emocionalChantaje emocional- Este es un signo muy común de un Este es un signo muy común de un manipulador; son muy buenos para chantajearte emocionalmente. Siempre tratan de hacerte el punto más débil de ti y muestran inseguridad diciendo frases como, moriré sin ti o no puedo vivir sin ti, etc. Intentan amenazar su salud y su vida pero no se lo toman dema",
           "interactiveChallenge": {
-            "question": "En el Capítulo 14 (Manipulación en Relaciones de Pareja), ¿qué fenómeno psicológico explica por qué la víctima se engancha al 'Refuerzo Intermitente'?",
+            "question": "En el Capítulo 14 (Manipulación en Relaciones de Pareja), ¿qué fenómeno psicológico explica Por Quéé la víctima se engancha al 'Refuerzo Intermitente'?",
             "options": [
               {
                 "text": "La entrega impredecible de afecto y castigo genera picos dramáticos de dopamina y adicción química.",
@@ -3073,7 +3073,7 @@ const BOOK_CONTENT = {
           "title": "Parte 5",
           "realExample": "siado en serio ya que es sólo una amenaza. Además, si dicen algo así, sólo diles que hagas lo que hagas, no serás responsable de ello. Los manipuladores en una relación siempre mostrarán que es tu error y ellos error y ellos son las víctimas son las víctimas por ello. Siempre te harían culpable por ello. Siempre te harían culpable diciendo: \"Sabes que tengo tanto trabajo en una oficina, deja de ser egoísta, etc.\", lo que te haría sentir culpable. Pero no te sientas así; mantén la calma y hazles ver que son responsables de su comportamiento. Evitan la responsabilidad y sólo tratan de convertirse en víctimas mostrando que son inseguros y se benefician de ti. Hacen esas cosas para llamar la atención de usted para que su amor y preocupación por ellos aumente. Pero debes estar preparado y saber cuándo prestar atención y cuándo evitar. Evitar discusiones- Evitar discusiones- Los manipuladores evitan en la mayoría de los Los manipuladores evitan en la mayoría de los casos discutir problemas comunes entre ambos o relacionados con la familia. Siempre intentarán terminar la discusión antes de que empiece o ni siquiera escuchar lo que quieres decir. Para ello, siempre debe asegurarse de que se ciñe a su punto de vista y hacerles entender que es importante y aclararlo. Cambiar un manipulador es muy difícil ya que es un rasgo de carácter. Estas personas son difíciles de cambiar ya que les encanta mantenerlo aunque les cueste estar separados. Siempre es bueno dar este paso si no se ve ning",
           "interactiveChallenge": {
-            "question": "En el Capítulo 14 (Manipulación en Relaciones de Pareja), ¿qué fenómeno psicológico explica por qué la víctima se engancha al 'Refuerzo Intermitente'?",
+            "question": "En el Capítulo 14 (Manipulación en Relaciones de Pareja), ¿qué fenómeno psicológico explica Por Quéé la víctima se engancha al 'Refuerzo Intermitente'?",
             "options": [
               {
                 "text": "La entrega impredecible de afecto y castigo genera picos dramáticos de dopamina y adicción química.",
@@ -3102,7 +3102,7 @@ const BOOK_CONTENT = {
           "title": "Parte 6",
           "realExample": "ún cambio en la persona porque siempre es bueno tomarse la molestia una vez en vez de alargarla toda la vida. La separación, el divorcio o la ruptura no son palabras pequeñas. Todas estas cosas requieren mucho valor y tiempo antes de tomar esta decisión. Hay muchas cosas que analizar y ver si tu decisión es la correcta. No es sencillo preguntarse a sí mismo qué es lo que está siendo víctima de la manipulación y obtener la respuesta. No, no funciona así, primero tienes que empezar a darte cuenta de las cosas. Una vez que te das cuenta, sólo tú puedes encontrar la manera de salir de la trampa de la manipulación. Aquí hay una lista de algunos puntos que debes comprobar contigo mismo y ver si te sientes así, entonces es el momento de tomar una posición por ti mismo: Responsabilidad... Responsabilidad... Siempre piensas que tienes una obligación con Siempre piensas que tienes una obligación con tu pareja. Piensas que eres el único responsable de mantenerlos felices o tristes. No sabes la razón, pero te sientes agradecido de que estén en tu vida. Si tienes ese tipo de carga en tu mente y que te hacen sentir responsable de todas las acciones y también dicen que depende de ti cómo es su estado de ánimo y cómo reaccionan. En este tipo de situaciones, siempre debes empezar a dar un paso atrás y ver si ellos sienten lo mismo. Deja de sentirte agradecido de que te quieran como tú a ellos. Miedo... Miedo... Si temes sus incómodas pausas cuando intentas decir que Si temes sus incómodas pau",
           "interactiveChallenge": {
-            "question": "En el Capítulo 14 (Manipulación en Relaciones de Pareja), ¿qué fenómeno psicológico explica por qué la víctima se engancha al 'Refuerzo Intermitente'?",
+            "question": "En el Capítulo 14 (Manipulación en Relaciones de Pareja), ¿qué fenómeno psicológico explica Por Quéé la víctima se engancha al 'Refuerzo Intermitente'?",
             "options": [
               {
                 "text": "La entrega impredecible de afecto y castigo genera picos dramáticos de dopamina y adicción química.",
@@ -3131,7 +3131,7 @@ const BOOK_CONTENT = {
           "title": "Parte 7",
           "realExample": "sas cuando intentas decir que no, por favor, deja de asustarte. Si tu pareja te pide que hagas algo y cuando quieres decir que no pero cuando te miran fijamente, pierdes el valor y haces lo que te dicen. Esto es una señal de que no tienes libertad en tu relación, por lo que no tienes el valor de hablar. No tiene sentido ser una relación en la que no puedas abrirte y mantener tu opinión. Deberías tener el coraje de hablar y aún así, si las cosas no mejoran, entonces múdate. JustificaciónJustificación- Si tienes que justificar cada acción que tomas y no Si tienes que justificar cada acción que tomas y no tienes el derecho de elegir por ti mismo, no estás con la persona adecuada. Además, no debes justificarte pensando que dependes de ellos y que ellos saben más. No dejes que estas excusas hagan una red a tu alrededor. Sé valiente y confiado para saber qué es lo mejor para ti y no sientas que necesitas a alguien que tome decisiones por ti. Espera la reacción y enfréntala con valentía.",
           "interactiveChallenge": {
-            "question": "En el Capítulo 14 (Manipulación en Relaciones de Pareja), ¿qué fenómeno psicológico explica por qué la víctima se engancha al 'Refuerzo Intermitente'?",
+            "question": "En el Capítulo 14 (Manipulación en Relaciones de Pareja), ¿qué fenómeno psicológico explica Por Quéé la víctima se engancha al 'Refuerzo Intermitente'?",
             "options": [
               {
                 "text": "La entrega impredecible de afecto y castigo genera picos dramáticos de dopamina y adicción química.",
@@ -3161,7 +3161,7 @@ const BOOK_CONTENT = {
     {
       "id": "m17",
       "bookNumber": 17,
-      "title": "Capitulo 15",
+      "title": "Capítulo 15: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -3194,7 +3194,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 2",
-          "realExample": "que no es verdad. Por ejemplo, incluso si eres la persona más racional que existe, si te conectas a Internet y ves 100 vídeos sobre cierta teoría de la conspiración, empezarás a creerla hasta cierto punto. Eso explica por qué la gente que parece inteligente puede terminar siendo adoctrinada en cultos o incluso en grupos terroristas. El control mental también funciona más eficazmente cuando se depende de la persona que está tratando de controlar su mente. Incluso en las relaciones involuntarias, la víctima puede empezar a comprar la visión del mundo del perpetrador si ha dependido del mismo durante mucho tiempo. Eso explica fenómenos como el síndrome de Estocolmo (en el que las personas secuestradas o retenidas como rehenes empiezan a ser afectuosas con sus captores y a empatizar con sus causas). Lo peor que puedes hacer es asumir que eres demasiado inteligente para que el control mental funcione contigo. Bajo las circunstancias adecuadas, cualquiera puede ser persuadido de abandonar su visión del mundo y adoptar la de otra persona. Los juegos mentales son trucos encubiertos que se hacen deliberadamente para manipular a alguien. Piensa en ellos como técnicas de manipulación psicológica \"artesanales\". Mientras que otras técnicas se aplican ampliamente, los juegos mentales se crean para dirigirse a personas muy específicas. Funcionan mejor cuando la víctima confía en el perpetrador, y el perpetrador entiende la personalidad y el comportamiento de la víctima. La mayoría de las té",
+          "realExample": "que no es verdad. Por ejemplo, incluso si eres la persona más racional que existe, si te conectas a Internet y ves 100 vídeos sobre cierta teoría de la conspiración, empezarás a creerla hasta cierto punto. Eso explica Por Quéé la gente que parece inteligente puede terminar siendo adoctrinada en cultos o incluso en grupos terroristas. El control mental también funciona más eficazmente cuando se depende de la persona que está tratando de controlar su mente. Incluso en las relaciones involuntarias, la víctima puede empezar a comprar la visión del mundo del perpetrador si ha dependido del mismo durante mucho tiempo. Eso explica fenómenos como el síndrome de Estocolmo (en el que las personas secuestradas o retenidas como rehenes empiezan a ser afectuosas con sus captores y a empatizar con sus causas). Lo peor que puedes hacer es asumir que eres demasiado inteligente para que el control mental funcione contigo. Bajo las circunstancias adecuadas, cualquiera puede ser persuadido de abandonar su visión del mundo y adoptar la de otra persona. Los juegos mentales son trucos encubiertos que se hacen deliberadamente para manipular a alguien. Piensa en ellos como técnicas de manipulación psicológica \"artesanales\". Mientras que otras técnicas se aplican ampliamente, los juegos mentales se crean para dirigirse a personas muy específicas. Funcionan mejor cuando la víctima confía en el perpetrador, y el perpetrador entiende la personalidad y el comportamiento de la víctima. La mayoría de las té",
           "interactiveChallenge": {
             "question": "Según el Capítulo 15 (Manipulación en el Entorno Laboral), ¿qué es la 'Triangulación' corporativa?",
             "options": [
@@ -3313,7 +3313,7 @@ const BOOK_CONTENT = {
     {
       "id": "m18",
       "bookNumber": 18,
-      "title": "Capitulo 16",
+      "title": "Capítulo 16: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -3581,7 +3581,7 @@ const BOOK_CONTENT = {
     {
       "id": "m19",
       "bookNumber": 19,
-      "title": "Capitulo 17",
+      "title": "Capítulo 17: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -3820,7 +3820,7 @@ const BOOK_CONTENT = {
     {
       "id": "m20",
       "bookNumber": 20,
-      "title": "Capitulo 18",
+      "title": "Capítulo 18: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -4059,7 +4059,7 @@ const BOOK_CONTENT = {
     {
       "id": "m21",
       "bookNumber": 21,
-      "title": "Capitulo 19",
+      "title": "Capítulo 19: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -4150,7 +4150,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 4",
-          "realExample": "ncluso tener que hacer que parezca que fue tu idea para empezar. Motivadores primarios Los motivadores primarios son, en última instancia, las razones por las que alguien querría hacer lo que se le pide. Hay muchos motivadores, y quieres estar seguro de que los estructuras de la manera correcta para que motiven a tu oyente y consigan el impulso necesario. Estructurando tus puntos más débiles y poderosos adecuadamente, puedes crear un impulso irreversible que hará que cualquiera trabaje a tu favor. La mejor manera de hacerlo es identificar sus motivadores primarios, y luego identificar sus motivadores menores. Quieres usar tus motivadores primarios como la primera y la última parte de la motivación en tu conversación, y luego quieres inyectar los menores a lo largo del resto de la conversación. De esta manera, la persona con la que estás hablando sabe cuál es el propósito de la conversación desde el principio, y deja la conversación con el propósito en mente también. Los rellenos en el medio sólo proporcionarán información adicional sobre por qué deben tomar su decisión a tu favor. Conocimientos recientes Es mucho más probable que la gente se concentre en lo último que escuchó en su conversación. Mientras que pensarán en los rellenos y todo lo demás, las piezas que más les impactarán son las cosas que escucharon más recientemente. Puede usar esto a su favor compartiendo la información más favorable después de la información inicial, de modo que es más probable que presten aten",
+          "realExample": "ncluso tener que hacer que parezca que fue tu idea para empezar. Motivadores primarios Los motivadores primarios son, en última instancia, las razones por las que alguien querría hacer lo que se le pide. Hay muchos motivadores, y quieres estar seguro de que los estructuras de la manera correcta para que motiven a tu oyente y consigan el impulso necesario. Estructurando tus puntos más débiles y poderosos adecuadamente, puedes crear un impulso irreversible que hará que cualquiera trabaje a tu favor. La mejor manera de hacerlo es identificar sus motivadores primarios, y luego identificar sus motivadores menores. Quieres usar tus motivadores primarios como la primera y la última parte de la motivación en tu conversación, y luego quieres inyectar los menores a lo largo del resto de la conversación. De esta manera, la persona con la que estás hablando sabe cuál es el propósito de la conversación desde el principio, y deja la conversación con el propósito en mente también. Los rellenos en el medio sólo proporcionarán información adicional sobre Por Quéé deben tomar su decisión a tu favor. Conocimientos recientes Es mucho más probable que la gente se concentre en lo último que escuchó en su conversación. Mientras que pensarán en los rellenos y todo lo demás, las piezas que más les impactarán son las cosas que escucharon más recientemente. Puede usar esto a su favor compartiendo la información más favorable después de la información inicial, de modo que es más probable que presten aten",
           "interactiveChallenge": {
             "question": "Según el Capítulo 19 (Control Mental y Lavado de Cerebro), ¿qué condición es indispensable para alterar la identidad de una persona?",
             "options": [
@@ -4269,7 +4269,7 @@ const BOOK_CONTENT = {
     {
       "id": "m22",
       "bookNumber": 22,
-      "title": "Capitulo 20",
+      "title": "Capítulo 20: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -4360,7 +4360,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 4",
-          "realExample": "cisista cambiará su personalidad o la imagen de sí misma en base al tipo de admiración que quiere recibir de los demás. Se verá a sí mismo a través de los ojos de los demás, y luego creará una imagen falsa que será una réplica exacta de lo que ve. En realidad esta imagen no existe. Un narcisista puede asumir un estilo de vida que no es suyo sólo para permanecer en el candelero. Otro enfoque utilizado para explicar por qué la sociedad está llena de narcisistas es el aspecto de la autoestima. La gente que se estima demasiado a sí misma a menudo celebra sus logros y éxitos. Estas personas son cariñosas y valoran a los demás. Son conscientes de cómo tratan a los demás, y les encanta construir relaciones saludables. Lo contrario es cierto para los narcisistas, ya que no se preocupan por las relaciones. El narcisismo se experimenta en todas partes. Los narcisistas pueden ser sus colegas, familiares o conocidos. Cuando se trata del lugar de trabajo, se debe crear conciencia debido a la arrogancia y la naturaleza intimidatoria asociada con el narcisismo. Por naturaleza, el narcisismo sigue siendo un gran desafío para las organizaciones debido al impacto negativo que causa en el rendimiento individual y del equipo. Los compañeros de trabajo narcisistas no se dan cuenta de la necesidad de ayuda. Frustrarán a sus colegas y se sentirán bien cuando metan a otros en problemas. En el lugar de trabajo, es fácil identificar a un colega con rasgos narcisistas. Él o ella tenderá a hacerlo: Infl",
+          "realExample": "cisista cambiará su personalidad o la imagen de sí misma en base al tipo de admiración que quiere recibir de los demás. Se verá a sí mismo a través de los ojos de los demás, y luego creará una imagen falsa que será una réplica exacta de lo que ve. En realidad esta imagen no existe. Un narcisista puede asumir un estilo de vida que no es suyo sólo para permanecer en el candelero. Otro enfoque utilizado para explicar Por Quéé la sociedad está llena de narcisistas es el aspecto de la autoestima. La gente que se estima demasiado a sí misma a menudo celebra sus logros y éxitos. Estas personas son cariñosas y valoran a los demás. Son conscientes de cómo tratan a los demás, y les encanta construir relaciones saludables. Lo contrario es cierto para los narcisistas, ya que no se preocupan por las relaciones. El narcisismo se experimenta en todas partes. Los narcisistas pueden ser sus colegas, familiares o conocidos. Cuando se trata del lugar de trabajo, se debe crear conciencia debido a la arrogancia y la naturaleza intimidatoria asociada con el narcisismo. Por naturaleza, el narcisismo sigue siendo un gran desafío para las organizaciones debido al impacto negativo que causa en el rendimiento individual y del equipo. Los compañeros de trabajo narcisistas no se dan cuenta de la necesidad de ayuda. Frustrarán a sus colegas y se sentirán bien cuando metan a otros en problemas. En el lugar de trabajo, es fácil identificar a un colega con rasgos narcisistas. Él o ella tenderá a hacerlo: Infl",
           "interactiveChallenge": {
             "question": "En el Capítulo 20 (Hipnosis y Sugestión), ¿qué es una 'Sugestión Posthipnótica'?",
             "options": [
@@ -4537,7 +4537,7 @@ const BOOK_CONTENT = {
     {
       "id": "m23",
       "bookNumber": 23,
-      "title": "Capitulo 21",
+      "title": "Capítulo 21: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -4599,7 +4599,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 3",
-          "realExample": "tú te quedarás sin aliento. Parecerá perfecto. Esto es porque está fingiendo. El narcisista cambiará la forma en que es percibido por los que le rodean. Cambiará completamente de marcha cuando vaya a hablar con la siguiente persona. De repente tendrá nuevos hábitos, nuevos hobbies, y nuevas metas en la vida, así que siempre hace lo que cree que a los demás les gustará más. La mejor manera de hacer esto es que él refleje a los demás lo que ve en ellos. Si el narcisista te ve como alguien que está dispuesto a escuchar e interesado g q p g q p en los perros, de repente será el oyente más paciente que jamás hayas conocido, que también resulta que ama a los perros. Si eres callado, introvertido y te gusta cocinar, él también lo será. Esto se debe a que la gente como aquellos con los que se pueden relacionar. Si el narcisista se relaciona contigo, lo ves como alguien que te puede gustar. Lo hace para engañar a tu mente para que te guste y así poder hacerte sentir que es una persona digna en la vida. Quiere que quieras estar cerca de él para que pueda empezar a prepararte para ser una buena fuente de suministro narcisista más tarde, y no lo serás si ves su verdadero ser al principio. Son críticos con todos los demás El narcisista suele criticar a todos los que le rodean, excepto a él mismo. El narcisista es un perfeccionista, y con esa tendencia al perfeccionismo, el narcisista está perpetuamente decepcionado por el mundo que le rodea. Constantemente se pregunta por qué las cosas n",
+          "realExample": "tú te quedarás sin aliento. Parecerá perfecto. Esto es porque está fingiendo. El narcisista cambiará la forma en que es percibido por los que le rodean. Cambiará completamente de marcha cuando vaya a hablar con la siguiente persona. De repente tendrá nuevos hábitos, nuevos hobbies, y nuevas metas en la vida, así que siempre hace lo que cree que a los demás les gustará más. La mejor manera de hacer esto es que él refleje a los demás lo que ve en ellos. Si el narcisista te ve como alguien que está dispuesto a escuchar e interesado g q p g q p en los perros, de repente será el oyente más paciente que jamás hayas conocido, que también resulta que ama a los perros. Si eres callado, introvertido y te gusta cocinar, él también lo será. Esto se debe a que la gente como aquellos con los que se pueden relacionar. Si el narcisista se relaciona contigo, lo ves como alguien que te puede gustar. Lo hace para engañar a tu mente para que te guste y así poder hacerte sentir que es una persona digna en la vida. Quiere que quieras estar cerca de él para que pueda empezar a prepararte para ser una buena fuente de suministro narcisista más tarde, y no lo serás si ves su verdadero ser al principio. Son críticos con todos los demás El narcisista suele criticar a todos los que le rodean, excepto a él mismo. El narcisista es un perfeccionista, y con esa tendencia al perfeccionismo, el narcisista está perpetuamente decepcionado por el mundo que le rodea. Constantemente se pregunta Por Quéé las cosas n",
           "interactiveChallenge": {
             "question": "Según el Capítulo 21 (Defensas Psicológicas y Escudo Emocional), ¿cuál es la primera línea de protección contra un manipulador?",
             "options": [
@@ -4747,7 +4747,7 @@ const BOOK_CONTENT = {
     {
       "id": "m24",
       "bookNumber": 24,
-      "title": "Capitulo 22",
+      "title": "Capítulo 22: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -4838,7 +4838,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 4",
-          "realExample": "mismo de los vampiros del tiempo también vampiros del tiempo también Además de los vampiros de la energía, también hay vampiros del tiempo. A menudo, un vampiro energético también puede ser un vampiro del tiempo. Sin embargo, no todos los vampiros del tiempo son vampiros energéticos. Los vampiros del tiempo son personas que ocupan demasiado tiempo. Es posible que te encuentres constantemente haciendo cosas para ellos, pasando demasiado tiempo con ellos o invirtiendo mucho tiempo preocupándote por ellos. Como resultado, acaban ocupando demasiado de tu precioso tiempo. La mejor manera de tratar con un vampiro del tiempo es limitar el tiempo que estás dispuesto a compartir con ellos. Decide cuál debe ser tu límite, establécelo, y ponte detrás de él. Empieza a reforzarlo dándoles sólo el tiempo que te corresponde y luego di que no cuando llegues al límite. Esto también cuenta cuando estés pensando en ellos. Si te encuentras preocupado por la persona, di no a ti mismo y establece un límite contigo mismo también. Reducir la cantidad de tiempo que estás dispuesto a dedicarle a una persona, especialmente si es tóxica para ti (ya sea consciente o inconscientemente) puede apoyarte y protegerte. Aunque es agradable ayudar a la gente y quieres ayudar a otros a sentirse bien en sus vidas, no es tu responsabilidad. Ten una conversación honesta contigo mismo sobre por qué te sientes personalmente responsable de los demás y luego empieza a imponer límites contigo mismo también. Crear estos",
+          "realExample": "mismo de los vampiros del tiempo también vampiros del tiempo también Además de los vampiros de la energía, también hay vampiros del tiempo. A menudo, un vampiro energético también puede ser un vampiro del tiempo. Sin embargo, no todos los vampiros del tiempo son vampiros energéticos. Los vampiros del tiempo son personas que ocupan demasiado tiempo. Es posible que te encuentres constantemente haciendo cosas para ellos, pasando demasiado tiempo con ellos o invirtiendo mucho tiempo preocupándote por ellos. Como resultado, acaban ocupando demasiado de tu precioso tiempo. La mejor manera de tratar con un vampiro del tiempo es limitar el tiempo que estás dispuesto a compartir con ellos. Decide cuál debe ser tu límite, establécelo, y ponte detrás de él. Empieza a reforzarlo dándoles sólo el tiempo que te corresponde y luego di que no cuando llegues al límite. Esto también cuenta cuando estés pensando en ellos. Si te encuentras preocupado por la persona, di no a ti mismo y establece un límite contigo mismo también. Reducir la cantidad de tiempo que estás dispuesto a dedicarle a una persona, especialmente si es tóxica para ti (ya sea consciente o inconscientemente) puede apoyarte y protegerte. Aunque es agradable ayudar a la gente y quieres ayudar a otros a sentirse bien en sus vidas, no es tu responsabilidad. Ten una conversación honesta contigo mismo sobre Por Quéé te sientes personalmente responsable de los demás y luego empieza a imponer límites contigo mismo también. Crear estos",
           "interactiveChallenge": {
             "question": "En el Capítulo 22 (Cómo Detectar Mentirosos), ¿qué indica una 'fuga no verbal' o 'leakage'?",
             "options": [
@@ -4867,7 +4867,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 5",
-          "realExample": "límites personales te facilitará evitar que te sientas personalmente responsable de las necesidades y sentimientos de los demás. Entonces, será más fácil para ti decir que no y proteger tu tiempo. Cuando digas que no, asegúrate de cumplir con ese tiempo con algo que sea un acto genuino de amor propio. Cuanto más te cuides, más fácil será entender por qué mereces tu tiempo, energía y atención más que nadie. Incluso si eso no se siente natural o \"correcto\" para ti al principio. Pronto comprenderás que es una práctica necesaria de protección y autocuidado. No sólo te ayuda a sentirte bien, sino que también amplía tu capacidad de ayudar a los demás. Preservar y proteger su e Preservar y proteger su energía nergía Es importante que aprendas a preservar y proteger tu energía como empático. Saber cómo \"desconectarse\" del mundo de vez en cuando para darse el espacio para recargarse es importante. Una buena forma de hacerlo es conseguir un juego de auriculares con cancelación de ruido de alta calidad y ponértelos cuando salgas en público o cuando estés en un entorno ruidoso. Aunque no siempre sea posible, su uso en determinadas circunstancias puede ayudarle a concentrarse en la energía de la música y no en el entorno que le rodea. Considere la posibilidad de utilizar música que sea estimulante y alegre, de modo que realmente amplifique su energía, en lugar de salir y volver a casa sintiéndose agotado. Otra forma de proteger tu energía es empezar a practicar los límites energéticos. Es",
+          "realExample": "límites personales te facilitará evitar que te sientas personalmente responsable de las necesidades y sentimientos de los demás. Entonces, será más fácil para ti decir que no y proteger tu tiempo. Cuando digas que no, asegúrate de cumplir con ese tiempo con algo que sea un acto genuino de amor propio. Cuanto más te cuides, más fácil será entender Por Quéé mereces tu tiempo, energía y atención más que nadie. Incluso si eso no se siente natural o \"correcto\" para ti al principio. Pronto comprenderás que es una práctica necesaria de protección y autocuidado. No sólo te ayuda a sentirte bien, sino que también amplía tu capacidad de ayudar a los demás. Preservar y proteger su e Preservar y proteger su energía nergía Es importante que aprendas a preservar y proteger tu energía como empático. Saber cómo \"desconectarse\" del mundo de vez en cuando para darse el espacio para recargarse es importante. Una buena forma de hacerlo es conseguir un juego de auriculares con cancelación de ruido de alta calidad y ponértelos cuando salgas en público o cuando estés en un entorno ruidoso. Aunque no siempre sea posible, su uso en determinadas circunstancias puede ayudarle a concentrarse en la energía de la música y no en el entorno que le rodea. Considere la posibilidad de utilizar música que sea estimulante y alegre, de modo que realmente amplifique su energía, en lugar de salir y volver a casa sintiéndose agotado. Otra forma de proteger tu energía es empezar a practicar los límites energéticos. Es",
           "interactiveChallenge": {
             "question": "En el Capítulo 22 (Cómo Detectar Mentirosos), ¿qué indica una 'fuga no verbal' o 'leakage'?",
             "options": [
@@ -4986,7 +4986,7 @@ const BOOK_CONTENT = {
     {
       "id": "m25",
       "bookNumber": 25,
-      "title": "Capitulo 23",
+      "title": "Capítulo 23: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -5225,7 +5225,7 @@ const BOOK_CONTENT = {
     {
       "id": "m26",
       "bookNumber": 26,
-      "title": "Capitulo 24",
+      "title": "Capítulo 24: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -5258,7 +5258,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 2",
-          "realExample": "sista consume completamente tu mundo por el aluvión de llamadas, textos y correos electrónicos, las muestras de celos excesivos, la cuña que se coloca entre tú y tus amigos y familia, incluso las demandas que se hacen sobre cómo te vistes, te peinas o comes. Como si eso no fuera suficiente, te encuentras en un constante estado de ansiedad, temeroso de activar accidentalmente al narcisista. Esto lleva a constantes cuestionamientos, pero nunca sabes realmente qué lo hará, y eso te deja ahogándote en sentimientos de desesperanza. Su integridad personal y sus valores están comprometidos. Ya no defiendes lo que crees. En su lugar, has dejado de hacer cosas que te hacían sentir bien, como donar tiempo y dinero a causas dignas, o has empezado a tolerar o incluso a participar en actividades que alguna vez habrían sido un obstáculo para ti. ¿Por qué? Porque esto es lo que quiere tu narcisista, y quieres mostrarles cuánto los amas, esperando que les dé la vuelta y te traten como cuando estuvieron juntos por primera vez. Si tienes que apartarte de las cosas y personas que son importantes para ti para demostrar tu amor a alguien, eso es abusivo. Llamada de nombre. Como el acoso, los insultos no se limitan al patio de la escuela. Los narcisistas lo usan para degradarte y socavar tu autoestima. Estallará durante las peleas, pero el narcisista lo hará otras veces también y afirmará que sólo estaban bromeando o que estás siendo demasiado sensible. Estos nombres son usados intencionalmente pa",
+          "realExample": "sista consume completamente tu mundo por el aluvión de llamadas, textos y correos electrónicos, las muestras de celos excesivos, la cuña que se coloca entre tú y tus amigos y familia, incluso las demandas que se hacen sobre cómo te vistes, te peinas o comes. Como si eso no fuera suficiente, te encuentras en un constante estado de ansiedad, temeroso de activar accidentalmente al narcisista. Esto lleva a constantes cuestionamientos, pero nunca sabes realmente qué lo hará, y eso te deja ahogándote en sentimientos de desesperanza. Su integridad personal y sus valores están comprometidos. Ya no defiendes lo que crees. En su lugar, has dejado de hacer cosas que te hacían sentir bien, como donar tiempo y dinero a causas dignas, o has empezado a tolerar o incluso a participar en actividades que alguna vez habrían sido un obstáculo para ti. ¿Por Quéé? Porque esto es lo que quiere tu narcisista, y quieres mostrarles cuánto los amas, esperando que les dé la vuelta y te traten como cuando estuvieron juntos por primera vez. Si tienes que apartarte de las cosas y personas que son importantes para ti para demostrar tu amor a alguien, eso es abusivo. Llamada de nombre. Como el acoso, los insultos no se limitan al patio de la escuela. Los narcisistas lo usan para degradarte y socavar tu autoestima. Estallará durante las peleas, pero el narcisista lo hará otras veces también y afirmará que sólo estaban bromeando o que estás siendo demasiado sensible. Estos nombres son usados intencionalmente pa",
           "interactiveChallenge": {
             "question": "En el Capítulo 24 (Recuperación del Abuso Emocional), ¿cuál es el paso decisivo para romper el lazo de trauma (Trauma Bond)?",
             "options": [
@@ -5345,7 +5345,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 5",
-          "realExample": "da. • Creyendo que nadie más puede conectar contigo tan profundamente. • Tratar de dejar la relación es tan doloroso que crees que te matará. • Esperando que el narcisista cumpla sus promesas a pesar de que nunca lo hacen. Si reconoces estos signos en tu vida, no te desesperes, hay esperanza de que puedas salir de esta relación abusiva, pero se necesitará trabajo y disciplina. Estudio de caso: Brad y Janet Brad pensó que había conocido a la mujer perfecta en Janet. Su romance floreció rápidamente, y pensó que pasaría el resto de su vida con ella. Estuvieron juntos durante casi una década y tuvieron dos hijos. El período de luna de miel fue genial, y luego todo pareció cambiar. \"Siempre me pregunté por qué era la única a la que trataba mal\", decía Brad. Parecía que Janet tenía más respeto por otras personas, excepto por la madre de Brad, Ellen, que no ganaba suficiente dinero para tener un lugar propio. Esto causó muchos conflictos porque Janet pensaba que Ellen la miraba fijamente y tenía hábitos molestos. Esta situación se deterioró hasta que Ellen se sintió obligada a encontrar un lugar propio. Cuando eso no funcionó debido al gasto, la discusión resultante terminó con Janet golpeando a Ellen. Naturalmente, ella culpó de todo a Brad. Las cosas se pusieron tan mal que Brad recurrió al alcohol e incluso consideró el suicidio. Pronto empezó a abusar de los opiáceos porque pararon el dolor que sentía por su matrimonio. La depresión y el empeoramiento de la ansiedad lo llevaron",
+          "realExample": "da. • Creyendo que nadie más puede conectar contigo tan profundamente. • Tratar de dejar la relación es tan doloroso que crees que te matará. • Esperando que el narcisista cumpla sus promesas a pesar de que nunca lo hacen. Si reconoces estos signos en tu vida, no te desesperes, hay esperanza de que puedas salir de esta relación abusiva, pero se necesitará trabajo y disciplina. Estudio de caso: Brad y Janet Brad pensó que había conocido a la mujer perfecta en Janet. Su romance floreció rápidamente, y pensó que pasaría el resto de su vida con ella. Estuvieron juntos durante casi una década y tuvieron dos hijos. El período de luna de miel fue genial, y luego todo pareció cambiar. \"Siempre me pregunté Por Quéé era la única a la que trataba mal\", decía Brad. Parecía que Janet tenía más respeto por otras personas, excepto por la madre de Brad, Ellen, que no ganaba suficiente dinero para tener un lugar propio. Esto causó muchos conflictos porque Janet pensaba que Ellen la miraba fijamente y tenía hábitos molestos. Esta situación se deterioró hasta que Ellen se sintió obligada a encontrar un lugar propio. Cuando eso no funcionó debido al gasto, la discusión resultante terminó con Janet golpeando a Ellen. Naturalmente, ella culpó de todo a Brad. Las cosas se pusieron tan mal que Brad recurrió al alcohol e incluso consideró el suicidio. Pronto empezó a abusar de los opiáceos porque pararon el dolor que sentía por su matrimonio. La depresión y el empeoramiento de la ansiedad lo llevaron",
           "interactiveChallenge": {
             "question": "En el Capítulo 24 (Recuperación del Abuso Emocional), ¿cuál es el paso decisivo para romper el lazo de trauma (Trauma Bond)?",
             "options": [
@@ -5435,7 +5435,7 @@ const BOOK_CONTENT = {
     {
       "id": "m27",
       "bookNumber": 27,
-      "title": "Capitulo 25",
+      "title": "Capítulo 25: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -5558,7 +5558,7 @@ const BOOK_CONTENT = {
     {
       "id": "m28",
       "bookNumber": 28,
-      "title": "Capitulo 26",
+      "title": "Capítulo 26: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -5739,7 +5739,7 @@ const BOOK_CONTENT = {
     {
       "id": "m29",
       "bookNumber": 29,
-      "title": "Capitulo 27",
+      "title": "Capítulo 27: ",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -5888,7 +5888,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 6",
-          "realExample": "complejo mental? En una escala del 1 al 10, ¿hasta dónde llegará para resolver su complejo? ¿Por qué? ¿Por qué? Si lograra superar su complejo, ¿cómo cree que su vida sería diferente? ¿Cómo creerías sobre tu complejo psicológico si no fuera un problema para ti en absoluto? En lo que respecta al complejo del dinero, algunos valores que lo fortalecen serían que el dinero es fácil de hacer, que el dinero no trae felicidad, y que el dinero no es el objetivo o el centro de tu vida. Escriba las respuestas a las preguntas anteriores. Debería ser capaz de identificar varios puntos pero también resistencias a su complejo que no conocía antes. Intente enumerar las más interesantes. . . La La creación creación a a su su estructura estructura Deberías haber entendido, aprendido, abrazado y familiarizado con tu estructura emocional. En este paso, intentaremos cambiar sus pensamientos y sentimientos alrededor de su complejo. Aunque las siguientes directrices a menudo se refieren a los compuestos mentales abordados de manera más efectiva a través de la reprogramación de nuestras mentes, también pueden extenderse a otros complejos físicos. Los complejos físicos, en la mayoría de los casos, requieren otro comportamiento específico y medible; por ejemplo, en relación con el complejo de acné, la víctima puede buscar tratamiento médico o cambiar sus hábitos alimenticios. Siga las siguientes pautas: Lo más esencial es acordar que es hora de detener el complejo y comprometerse con él. Definiendo l",
+          "realExample": "complejo mental? En una escala del 1 al 10, ¿hasta dónde llegará para resolver su complejo? ¿Por Quéé? ¿Por Quéé? Si lograra superar su complejo, ¿cómo cree que su vida sería diferente? ¿Cómo creerías sobre tu complejo psicológico si no fuera un problema para ti en absoluto? En lo que respecta al complejo del dinero, algunos valores que lo fortalecen serían que el dinero es fácil de hacer, que el dinero no trae felicidad, y que el dinero no es el objetivo o el centro de tu vida. Escriba las respuestas a las preguntas anteriores. Debería ser capaz de identificar varios puntos pero también resistencias a su complejo que no conocía antes. Intente enumerar las más interesantes. . . La La creación creación a a su su estructura estructura Deberías haber entendido, aprendido, abrazado y familiarizado con tu estructura emocional. En este paso, intentaremos cambiar sus pensamientos y sentimientos alrededor de su complejo. Aunque las siguientes directrices a menudo se refieren a los compuestos mentales abordados de manera más efectiva a través de la reprogramación de nuestras mentes, también pueden extenderse a otros complejos físicos. Los complejos físicos, en la mayoría de los casos, requieren otro comportamiento específico y medible; por ejemplo, en relación con el complejo de acné, la víctima puede buscar tratamiento médico o cambiar sus hábitos alimenticios. Siga las siguientes pautas: Lo más esencial es acordar que es hora de detener el complejo y comprometerse con él. Definiendo l",
           "interactiveChallenge": {
             "question": "Según el Capítulo 27 (Ética y Uso Consciente), ¿cuál es el límite ético entre la influencia legítima y la manipulación oscura?",
             "options": [
@@ -6268,7 +6268,7 @@ const BOOK_CONTENT = {
       "scenarioDescription": "Alguien te acusa de ser 'manipulador' justo cuando cuestionas sus acciones.",
       "options": [
         {
-          "text": "Defenderte explicando por qué no eres manipulador.",
+          "text": "Defenderte explicando Por Quéé no eres manipulador.",
           "outcome": "Trampa defensiva",
           "wisdomScore": 30,
           "analysis": "Justificarse es aceptar la premisa del atacante.",
@@ -6593,7 +6593,7 @@ const BOOK_CONTENT = {
     {
       "id": "Q05",
       "bookNumber": 1,
-      "question": "¿Por qué se usa el aislamiento?",
+      "question": "¿Por Quéé se usa el aislamiento?",
       "options": [
         "Para proteger",
         "Para controlar",

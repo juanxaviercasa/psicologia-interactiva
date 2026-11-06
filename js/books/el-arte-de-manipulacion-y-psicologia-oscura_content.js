@@ -4,7 +4,7 @@ const BOOK_CONTENT = {
     {
       "id": "m1",
       "bookNumber": 1,
-      "title": "Preliminares E Introduccion",
+      "title": "Preliminares E Introducción",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -95,7 +95,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 4",
-          "realExample": "las disposiciones psicológicas humanas, los gestos, los estados de ánimo e incluso los pensamientos basados en sus inclinaciones intuitivas. Mire, este libro está dirigido a desarrollar sus habilidades intuitivas, lo cual es un activo valioso en los rasgos psicológicos humanos y el análisis del lenguaje corporal. Comenzará a saber por qué los seres humanos se comportan de la manera en que lo hacen, y cómo puede ayudar a esas personas a mejorar, lo cual será ventajoso para usted al interactuar con ellas. El conocimiento encerrado en las páginas de este manual lo ayudará a desenmascarar engaños, y con sonrisas y miradas agradables que finalmente lo llevarán a frustraciones, arrepentimientos y pérdidas. ¿Puede imaginar la capacidad de leer con rapidez la mente de una persona con precisión y descubrir qué está pensando? ¿Cree que esa habilidad puede ayudarle en las negociaciones, investigaciones y entrevistas? ¿No le ayudaría a preparar las respuestas apropiadas para una entrevista o un panelista de investigación? Aunque no es posible leer las mentes humanas, este libro le dará pistas y expresiones no verbales, que pueden ayudarlo a detectar cuándo un individuo, a su alrededor, está manifestando algunos comportamientos inaceptables. Además, estas señales serán una representación precisa de los pensamientos e intenciones ocultos en la mente de las personas, lo que puede poner en peligro su vida o dificultar su éxito en los negocios y las relaciones.",
+          "realExample": "las disposiciones psicológicas humanas, los gestos, los estados de ánimo e incluso los pensamientos basados en sus inclinaciones intuitivas. Mire, este libro está dirigido a desarrollar sus habilidades intuitivas, lo cual es un activo valioso en los rasgos psicológicos humanos y el análisis del lenguaje corporal. Comenzará a saber Por Quéé los seres humanos se comportan de la manera en que lo hacen, y cómo puede ayudar a esas personas a mejorar, lo cual será ventajoso para usted al interactuar con ellas. El conocimiento encerrado en las páginas de este manual lo ayudará a desenmascarar engaños, y con sonrisas y miradas agradables que finalmente lo llevarán a frustraciones, arrepentimientos y pérdidas. ¿Puede imaginar la capacidad de leer con rapidez la mente de una persona con precisión y descubrir qué está pensando? ¿Cree que esa habilidad puede ayudarle en las negociaciones, investigaciones y entrevistas? ¿No le ayudaría a preparar las respuestas apropiadas para una entrevista o un panelista de investigación? Aunque no es posible leer las mentes humanas, este libro le dará pistas y expresiones no verbales, que pueden ayudarlo a detectar cuándo un individuo, a su alrededor, está manifestando algunos comportamientos inaceptables. Además, estas señales serán una representación precisa de los pensamientos e intenciones ocultos en la mente de las personas, lo que puede poner en peligro su vida o dificultar su éxito en los negocios y las relaciones.",
           "interactiveChallenge": {
             "question": "¿Cuál es el objetivo principal del estudio de la psicología oscura y la manipulación en la fase introductoria?",
             "options": [
@@ -127,7 +127,7 @@ const BOOK_CONTENT = {
     {
       "id": "m2",
       "bookNumber": 2,
-      "title": "Capitulo 1 Como Analizar A Las Personas",
+      "title": "Capítulo 1: Como Analizar A Las Personas",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -366,7 +366,7 @@ const BOOK_CONTENT = {
     {
       "id": "m3",
       "bookNumber": 3,
-      "title": "Capitulo 2 Los Misterios Y Secretos Para Leer A Las Personas",
+      "title": "Capítulo 2: Los Misterios Y Secretos Para Leer A Las Personas",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -518,7 +518,7 @@ const BOOK_CONTENT = {
     {
       "id": "m4",
       "bookNumber": 4,
-      "title": "Capitulo 3 Consejos Y Trucos Para Analizar El Lenguaje Corporal",
+      "title": "Capítulo 3: Consejos Y Trucos Para Analizar El Lenguaje Corporal",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -641,7 +641,7 @@ const BOOK_CONTENT = {
     {
       "id": "m5",
       "bookNumber": 5,
-      "title": "Capitulo 4 Poderosas Tecnicas De Lectura Del Lenguaje Corporal",
+      "title": "Capítulo 4: Poderosas Tecnicas De Lectura Del Lenguaje Corporal",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -822,7 +822,7 @@ const BOOK_CONTENT = {
     {
       "id": "m6",
       "bookNumber": 6,
-      "title": "Capitulo 5 Como Detectar Trucos Enganos Y Estafas",
+      "title": "Capítulo 5: Como Detectar Trucos Enganos Y Estafas",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1032,7 +1032,7 @@ const BOOK_CONTENT = {
     {
       "id": "m7",
       "bookNumber": 7,
-      "title": "Capitulo 6 Tipos De Rasgos De Personalidades",
+      "title": "Capítulo 6: Tipos De Rasgos De Personalidades",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1329,7 +1329,7 @@ const BOOK_CONTENT = {
     {
       "id": "m8",
       "bookNumber": 8,
-      "title": "Capitulo 7 Entendiendo La Bioquimica De La Personalidad",
+      "title": "Capítulo 7: Entendiendo La Bioquimica De La Personalidad",
       "keyPillars": [
         {
           "title": "Parte 1",

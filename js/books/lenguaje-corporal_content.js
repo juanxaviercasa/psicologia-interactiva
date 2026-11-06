@@ -10,7 +10,7 @@ const BOOK_CONTENT = {
           "title": "Situación, Ambiente, Proxémica y Postura",
           "realExample": "<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\"><div class=\"w-full flex items-center justify-between mb-3 px-1\"><h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\"><i class=\"fa-solid fa-eye\"></i> Método SAPP en Acción</h4><span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span></div><div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\"><img src=\"assets/img/covers/cover_book_col-088.webp\" alt=\"Ilustración\" class=\"w-full h-full object-cover\"></div></div><br/>Analizar un gesto aislado como cruzarse de brazos sin considerar el SAPP conduce a errores graves de interpretación...",
           "interactiveChallenge": {
-            "question": "¿Por qué es un error interpretar el cruce de brazos exclusivamente como rechazo?",
+            "question": "¿Por Quéé es un error interpretar el cruce de brazos exclusivamente como rechazo?",
             "options": [
               {
                 "text": "Porque el contexto ambiental, como el frío, o la postura específica de las manos cambian por completo el significado.",
@@ -561,7 +561,7 @@ const BOOK_CONTENT = {
     {
       "id": "q3",
       "bookNumber": 1,
-      "question": "¿Por qué se considera que la orientación media de los pies es muy fidedigna?",
+      "question": "¿Por Quéé se considera que la orientación media de los pies es muy fidedigna?",
       "options": [
         "Porque las personas rara vez mienten con los pies al mostrar su intención de permanencia o fuga",
         "Porque están más cerca de los zapatos del interlocutor",

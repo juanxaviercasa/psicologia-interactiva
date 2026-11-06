@@ -4,7 +4,7 @@ const BOOK_CONTENT = {
     {
       "id": "m1",
       "bookNumber": 1,
-      "title": "Preliminares E Introduccion",
+      "title": "Preliminares E Introducción",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -243,7 +243,7 @@ const BOOK_CONTENT = {
     {
       "id": "m2",
       "bookNumber": 2,
-      "title": "Capitulo 1 Como Leer A Las Personas",
+      "title": "Capítulo 1: Como Leer A Las Personas",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -334,7 +334,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 4",
-          "realExample": "es más importante que mirar a lo que una persona hace es mirar lo que no hacen. En otras palabras, si una persona es inquieta normalmente y si por alguna razón, de pronto no lo son, es aquí cuando debes preguntarte a ti mismo: “¿qué está pasando aquí? ¿Por qué esta persona está actuando así?”. Parcialidades Las parcialidades son cosas que no podemos escapar como humanos. Son algo que está íntimamente incrustado dentro de todos nosotros. Si ya tienes cierta emoción o sentimiento contra una persona, esto afectará o cambiará tu juicio cuando tratas de leerlos. Además, si alguien tiende a halagar o verse y actuar similar a ti, puedes ser un poco más subjetivo por todo esto. Por lo tanto, es un buen primer paso asumir de frente que estás parcializado de alguna manera. Con todas estas ideas en mente, cualquiera puede aprender cómo leer a aquellos a su alrededor. Bien sea que lo quieras por razones sociales, razones de negocios o solo por diversión, aprender a leer a las personas es simplemente una cuestión de confiar en tus instintos y practicar una habilidad que puedes usar en tu vida diaria.",
+          "realExample": "es más importante que mirar a lo que una persona hace es mirar lo que no hacen. En otras palabras, si una persona es inquieta normalmente y si por alguna razón, de pronto no lo son, es aquí cuando debes preguntarte a ti mismo: “¿qué está pasando aquí? ¿Por Quéé esta persona está actuando así?”. Parcialidades Las parcialidades son cosas que no podemos escapar como humanos. Son algo que está íntimamente incrustado dentro de todos nosotros. Si ya tienes cierta emoción o sentimiento contra una persona, esto afectará o cambiará tu juicio cuando tratas de leerlos. Además, si alguien tiende a halagar o verse y actuar similar a ti, puedes ser un poco más subjetivo por todo esto. Por lo tanto, es un buen primer paso asumir de frente que estás parcializado de alguna manera. Con todas estas ideas en mente, cualquiera puede aprender cómo leer a aquellos a su alrededor. Bien sea que lo quieras por razones sociales, razones de negocios o solo por diversión, aprender a leer a las personas es simplemente una cuestión de confiar en tus instintos y practicar una habilidad que puedes usar en tu vida diaria.",
           "interactiveChallenge": {
             "question": "En el Capítulo 1 sobre cómo leer a las personas, ¿qué significa establecer la 'línea base' (baseline) de un individuo?",
             "options": [
@@ -366,7 +366,7 @@ const BOOK_CONTENT = {
     {
       "id": "m3",
       "bookNumber": 3,
-      "title": "Capitulo 2 Nuestros Cuerpos Y Como Hablan",
+      "title": "Capítulo 2: Nuestros Cuerpos Y Como Hablan",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -866,7 +866,7 @@ const BOOK_CONTENT = {
     {
       "id": "m4",
       "bookNumber": 4,
-      "title": "Capitulo 3 Aspectos Basicos",
+      "title": "Capítulo 3: Aspectos Basicos",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -928,7 +928,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 3",
-          "realExample": "hijo, una mujer tiene que depender casi totalmente en la comunicación no verbal para entender las necesidades y deseos de un niño. Esto es apoyado por el hecho que las mujeres adivinaron la situación correctamente casi todo el tiempo. Esto también es usualmente usado para explicar por qué las mujeres tienden a ser mejores negociadoras que los hombres. La mayor parte del lenguaje corporal básico es el mismo en todo el mundo sin importar religión o diferencias raciales. Algunos ejemplos de estos es sonreír cuando estás feliz o fruncir el ceño cuando estás molesto. Asentir la cabeza es casi universalmente usado para indicar una afirmación. También se cree que esta forma de afirmación es una predisposición genética porque los individuos que nacieron ciegos aún usan esta forma de lenguaje corporal incluso cuando no han aprendido a usarla visualmente. Esto entonces me lleva a un punto interesante sobre el lenguaje corporal y si en realidad es una acción aprendida o genética. Este es un debate continuo y todavía se investiga en la actualidad. Algunas formas de lenguaje corporal pueden ser rastreadas a ancestros animales y se creen que son puramente genéticas. Esta es la acción de burlar o despreciar a alguien por ira o irritación. Una acción similar a esto de un animal es cuando se preparan para atacar. Existen tres reglas básicas para una lectura acertada del lenguaje corporal de una persona. Debes mantener en mente estas tres reglas cuando trates de analizar a una persona por su l",
+          "realExample": "hijo, una mujer tiene que depender casi totalmente en la comunicación no verbal para entender las necesidades y deseos de un niño. Esto es apoyado por el hecho que las mujeres adivinaron la situación correctamente casi todo el tiempo. Esto también es usualmente usado para explicar Por Quéé las mujeres tienden a ser mejores negociadoras que los hombres. La mayor parte del lenguaje corporal básico es el mismo en todo el mundo sin importar religión o diferencias raciales. Algunos ejemplos de estos es sonreír cuando estás feliz o fruncir el ceño cuando estás molesto. Asentir la cabeza es casi universalmente usado para indicar una afirmación. También se cree que esta forma de afirmación es una predisposición genética porque los individuos que nacieron ciegos aún usan esta forma de lenguaje corporal incluso cuando no han aprendido a usarla visualmente. Esto entonces me lleva a un punto interesante sobre el lenguaje corporal y si en realidad es una acción aprendida o genética. Este es un debate continuo y todavía se investiga en la actualidad. Algunas formas de lenguaje corporal pueden ser rastreadas a ancestros animales y se creen que son puramente genéticas. Esta es la acción de burlar o despreciar a alguien por ira o irritación. Una acción similar a esto de un animal es cuando se preparan para atacar. Existen tres reglas básicas para una lectura acertada del lenguaje corporal de una persona. Debes mantener en mente estas tres reglas cuando trates de analizar a una persona por su l",
           "interactiveChallenge": {
             "question": "En los aspectos básicos descritos en el Capítulo 3, ¿qué papel juega el principio de 'calibración'?",
             "options": [
@@ -1018,7 +1018,7 @@ const BOOK_CONTENT = {
     {
       "id": "m5",
       "bookNumber": 5,
-      "title": "Capitulo 4 Verbal Vs No Verbal",
+      "title": "Capítulo 4: Verbal Vs No Verbal",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1228,7 +1228,7 @@ const BOOK_CONTENT = {
     {
       "id": "m6",
       "bookNumber": 6,
-      "title": "Capitulo 5 Tu Mente Y Comunicacion",
+      "title": "Capítulo 5: Tu Mente Y Comunicacion",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1409,7 +1409,7 @@ const BOOK_CONTENT = {
     {
       "id": "m7",
       "bookNumber": 7,
-      "title": "Capitulo 6 Complejidades De La Cara",
+      "title": "Capítulo 6: Complejidades De La Cara",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2054,7 +2054,7 @@ const BOOK_CONTENT = {
     {
       "id": "m8",
       "bookNumber": 8,
-      "title": "Capitulo 7 La Verdad Y Las Relaciones",
+      "title": "Capítulo 7: La Verdad Y Las Relaciones",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2116,7 +2116,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 3",
-          "realExample": "sinceros. Frases de negación como “créeme”, “honestamente” y “siento perfectamente honesto” son intentos de ser evasivo y tratar de evitar el tema original en cuestión. Si una persona está tratando de cambiar la percepción de otros sobre sus acciones, ellos podrían usar estas diferentes técnicas evasivas. Si estas frases son repetidas en exceso y saltan en toda conversación, podrían ser pistas de que esa persona está mintiendo. Un individuo que parece estar muy a la defensiva o exagerar en ciertas situaciones que podrían parecer completamente aleatorias para ti podría ser una señal de que están mintiendo. Un ejemplo de esto podría ser si un individuo con el que estás en una relación amorosa termina de hablar por teléfono – y cuando le preguntas con quién hablaban, ellos responden con una afirmación hostil como “¿Por qué eres tan entrometido?” Una respuesta como esta es completamente fuera de lugar e indica que la persona se siente culpable de cierta situación. Por ejemplo, este individuo también parece proyectar sus sentimientos de culpa y desconfianza en la otra persona. Esta es una señal instantánea de que la persona te está mintiendo. Si un individuo ya tiene una historia larga de mentiras, entonces es probable que te estén mintiendo. Las personas continúan haciendo lo que saben bien, y si una persona sabe cómo vivir bien, es muy probable que te estén mintiendo. Si una persona hace contacto visual exagerado o extremo, ellos podrían estar mintiéndote. La malinterpretación",
+          "realExample": "sinceros. Frases de negación como “créeme”, “honestamente” y “siento perfectamente honesto” son intentos de ser evasivo y tratar de evitar el tema original en cuestión. Si una persona está tratando de cambiar la percepción de otros sobre sus acciones, ellos podrían usar estas diferentes técnicas evasivas. Si estas frases son repetidas en exceso y saltan en toda conversación, podrían ser pistas de que esa persona está mintiendo. Un individuo que parece estar muy a la defensiva o exagerar en ciertas situaciones que podrían parecer completamente aleatorias para ti podría ser una señal de que están mintiendo. Un ejemplo de esto podría ser si un individuo con el que estás en una relación amorosa termina de hablar por teléfono – y cuando le preguntas con quién hablaban, ellos responden con una afirmación hostil como “¿Por Quéé eres tan entrometido?” Una respuesta como esta es completamente fuera de lugar e indica que la persona se siente culpable de cierta situación. Por ejemplo, este individuo también parece proyectar sus sentimientos de culpa y desconfianza en la otra persona. Esta es una señal instantánea de que la persona te está mintiendo. Si un individuo ya tiene una historia larga de mentiras, entonces es probable que te estén mintiendo. Las personas continúan haciendo lo que saben bien, y si una persona sabe cómo vivir bien, es muy probable que te estén mintiendo. Si una persona hace contacto visual exagerado o extremo, ellos podrían estar mintiéndote. La malinterpretación",
           "interactiveChallenge": {
             "question": "En el Capítulo 7 (La verdad y las relaciones), ¿qué indicador suele revelar una disminución del afecto o creciente distancia en la pareja?",
             "options": [
@@ -2670,7 +2670,7 @@ const BOOK_CONTENT = {
     {
       "id": "m9",
       "bookNumber": 9,
-      "title": "Capitulo 8 Confianza Y Como Se Muestra",
+      "title": "Capítulo 8: Confianza Y Como Se Muestra",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2819,7 +2819,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 6",
-          "realExample": "de poca confianza porque dice que la persona en cuestión no se ve a sí misma como una persona muy exitosa o a la que le va bien en la vida. Jorobarse es una muestra común de poca confianza en un individuo. ¿Por qué? Porque bajar el centro del cuerpo de una persona es una señal de que la persona no está dispuesta a sostener el propio peso de su cuerpo. Envía una señal de que el individuo no está orgulloso de sí mismo. Debido a estas cosas, esta es una enorme señal de poca confianza en uno mismo. Para poder detectar niveles bajos de confianza en un individuo, todo lo que tienes que hacer es buscar algunas de estas señales comunes de baja autoestima y confianza. También puedes detectarlas en ti mismo al buscar estas señales comunes. Si descubres que tú o alguien que conoces tiene una autoestima o confianza baja, puedes comenzar a trabajar en ellos al decir afirmaciones muy positivas sobre ellos de manera regular. En el siguiente capítulo, hablaremos sobre cómo un individuo puede arreglar su lenguaje corporal y cómo pueden fingir ser más seguros de lo que realmente son. ---",
+          "realExample": "de poca confianza porque dice que la persona en cuestión no se ve a sí misma como una persona muy exitosa o a la que le va bien en la vida. Jorobarse es una muestra común de poca confianza en un individuo. ¿Por Quéé? Porque bajar el centro del cuerpo de una persona es una señal de que la persona no está dispuesta a sostener el propio peso de su cuerpo. Envía una señal de que el individuo no está orgulloso de sí mismo. Debido a estas cosas, esta es una enorme señal de poca confianza en uno mismo. Para poder detectar niveles bajos de confianza en un individuo, todo lo que tienes que hacer es buscar algunas de estas señales comunes de baja autoestima y confianza. También puedes detectarlas en ti mismo al buscar estas señales comunes. Si descubres que tú o alguien que conoces tiene una autoestima o confianza baja, puedes comenzar a trabajar en ellos al decir afirmaciones muy positivas sobre ellos de manera regular. En el siguiente capítulo, hablaremos sobre cómo un individuo puede arreglar su lenguaje corporal y cómo pueden fingir ser más seguros de lo que realmente son. ---",
           "interactiveChallenge": {
             "question": "Según el Capítulo 8 (Confianza y cómo se muestra), ¿cuál de los siguientes gestos transmite de forma consistente alta confianza y seguridad?",
             "options": [
@@ -2851,13 +2851,13 @@ const BOOK_CONTENT = {
     {
       "id": "m10",
       "bookNumber": 10,
-      "title": "Capitulo 9 Como Fingir Lenguaje Corporal Y Conclusion",
+      "title": "Capítulo 9: Como Fingir Lenguaje Corporal Y Conclusion",
       "keyPillars": [
         {
           "title": "Parte 1",
           "realExample": "<br/><br/>\n<div class=\"my-6 p-4 bg-slate-900/80 rounded-2xl border border-cyan-500/40 shadow-2xl flex flex-col items-center overflow-hidden\">\n    <div class=\"w-full flex items-center justify-between mb-3 px-1\">\n        <h4 class=\"text-cyan-400 font-bold text-sm flex items-center gap-2 font-mono\">\n            <i class=\"fa-solid fa-graduation-cap\"></i> Máscaras Sociales, Camuflaje No Verbal y Autorregulación Conductual\n        </h4>\n        <span class=\"text-[10px] font-mono uppercase px-2 py-0.5 rounded bg-cyan-950/80 text-cyan-300 border border-cyan-500/30\">Ilustración Táctica HD</span>\n    </div>\n    <div class=\"w-full aspect-video rounded-xl overflow-hidden border border-slate-700 bg-slate-950 shadow-inner relative group\">\n        <img src=\"assets/img/analizar_personas/cap_mod10_fingir_mascaras.webp\" alt=\"Máscaras Sociales, Camuflaje No Verbal y Autorregulación Conductual\" class=\"w-full h-full object-cover transition-transform duration-700 group-hover:scale-105\">\n    </div>\n</div><br/>Capítulo Nueve: Cómo Fingir tu Lenguaje Corporal Dentro de este capítulo, detallaremos algunas de las maneras más fáciles de fingir tu lenguaje corporal para poder emanar diferentes emociones o expresiones a aquellos a tu alrededor. Estos métodos pueden ser beneficiosos en la vida diaria al igual que en el trabajo. Ellos también pueden servirte bien para comenzar relaciones. Estos métodos también harán un buen trabajo al ayudarte a sentir lo que quieres sentir. ¿Has oído la frase “finge hasta que se sienta real”? Bueno, en ciertos casos, esto es cierto. Al fingir sentir algunas de las emociones, podrás convencerte a ti mismo que realmente te sientes así. 1. Respirar Profundo Al amplificar el suministro de oxígeno dentro de nuestros pulmones, podemos recibir más poder y más capacidad de fingir nuestras emociones mediante el lenguaje corporal. Esto también nos da un momento para recuperar nuestra compostura y fingir estar calmados y pensativos. Adicionalmente, respirar profundamente tiende a estimular el sistema nervioso parasimpático, el cual puede desencadenar una respuesta de relajación. Esto es muy bueno, especialmente cuando tratas de engañar a aquellos a tu alrededor para que piensen que estás calmado en una situación. Respirar profundo es un truco muy bueno para una vida consciente, ya que te da más poder en tu cuerpo y tus reacciones a estímulos. 2. Controlar el movimiento de tus cejas Nuestras cejas pueden transmitir mucho sobre nuestros sentimientos internos. Mucho mo",
           "interactiveChallenge": {
-            "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿por qué es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
+            "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿Por Quéé es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
             "options": [
               {
                 "text": "Porque el sistema nervioso autónomo provoca fugas no verbales microscópicas imposibles de controlar conscientemente a la vez",
@@ -2886,7 +2886,7 @@ const BOOK_CONTENT = {
           "title": "Parte 2",
           "realExample": "vimiento de nuestras cejas puede transmitir sentimientos que no quieres expresar. Tienes que estar muy consciente del movimiento de tus cejas cuando trabajas de fingir ciertas emociones mediante tu lenguaje corporal. 3. Trata de No Usar una Sonrisa Falsa Aunque es bueno sonreír aún si no tienes ganas, eso no es siempre beneficioso cuando tratas de fingir emociones mediante el lenguaje corporal. Mientras que verse feliz y radiante puede hacer que otros quieran gustar de ti, no es la mejor apariencia a tener constantemente. Las sonrisas falsas son fáciles de descubrir, y los humanos están naturalmente inclinados a tratar de buscar alguna inconsistencia dentro de la sonrisa de una persona. Una mejor manera de esconder tus emociones es mantener tu boca recta y no sonreír o estar triste. 4. Relajar Tu Cara Al tratar de mantener tus músculos faciales relajados, puedes controlar más fácilmente los movimientos de tu cara. Aléjate de movimientos como rechinar los dientes, fruncir el ceño o mostrar algún tipo de expresión emocional. Tener una apariencia relajada y calmada en tu cara hace más fácil el poder controlar mejor las emociones que estás transmitiendo mediante tu lenguaje corporal. 5. Apoyar tu Cabeza Cuando la cabeza de una persona está sostenida por una mano o tienen la cara enterrada en la palma de la mano es una pista obvia y clara de tristeza o mal humor. Es mejor mantener tu cara elevada y tu cuello y espalda rectos en una situación cuando te sientes triste, pero no quier",
           "interactiveChallenge": {
-            "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿por qué es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
+            "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿Por Quéé es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
             "options": [
               {
                 "text": "Porque el sistema nervioso autónomo provoca fugas no verbales microscópicas imposibles de controlar conscientemente a la vez",
@@ -2915,7 +2915,7 @@ const BOOK_CONTENT = {
           "title": "Parte 3",
           "realExample": "es que otros a tu alrededor sepan que te sientes triste. Otra cosa muy importante a recordar es tratar de evitar tocar tu cara cuando te sientes triste, ya que es una señal fuerte de ansiedad y estrés. 6. Evitar Inquietarse Moverte repentinamente o con mucha rapidez son señales obvias de incomodidad y ansiedad. Si tratas de relajar tu cuerpo y tratas de verte como si estuvieras cómodo donde estás, entonces puede ser más fácil controlar tus emociones y sentimientos. También se le dificulta a aquellos a tu alrededor el descifrar lo que sientes porque simplemente te ves calmado y relajado. 7. Hablar en un tono balanceado Esta es muy importante. Si quieres fingir otra cosa además de lo que sientes actualmente, puedes querer tomar un momento para pensar en lo que vas a decir y decirlo en un tono balanceado y parejo a aquellos a tu alrededor. El tono de tu voz puede decir más de tus pensamientos de lo que piensas. Hablar demasiado rápido o cambiar tu tono con rapidez y frecuencia es un indicador obvio que no estás seguro de lo que tratas de emitir o de lo que sientes. Trata de ralentizarte antes de responder cualquier pregunta. Adicional a esto, trata de emitir tus opiniones en un ambiente lógico. Querrás enfocarte exclusivamente en los hechos y eliminar cualquier emoción de la situación. Al enfocarte en los hechos, puedes evitar que tu cuerpo sienta dichas emociones y enfocarte en el asunto a tratar. 8. Tratar de Disociar Si puedes lograr disociarte de la situación en la que te en",
           "interactiveChallenge": {
-            "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿por qué es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
+            "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿Por Quéé es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
             "options": [
               {
                 "text": "Porque el sistema nervioso autónomo provoca fugas no verbales microscópicas imposibles de controlar conscientemente a la vez",
@@ -2942,9 +2942,9 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 4",
-          "realExample": "cuentras, será más fácil controlar tu lenguaje corporal y las emociones que estás tratando de transmitir. Una manera fácil de hacer esto es tener pensamientos positivos como buenos recuerdos. Hacer esto te ayudará a quitar tu mente de cualquier cosa que sucede a tu alrededor, y hará más difícil que otros lean tus pensamientos. Al disociarte de la situación a tu alrededor, podrás más fácilmente ver el lado lógico de lo que está pasando y podrás transmitir con precisión el lenguaje corporal y emociones que estás tratando de emanar. 9. Hablar contigo Mismo Podrás decirle a tu mente que piense en la manera que debería. Esto hará más fácil controlar tu lenguaje corporal y tus emociones, ya que estás en proceso de controlar tu propia mente. Conclusión Dentro de este texto, hemos aprendido muchas cosas importantes sobre nuestro propio lenguaje corporal y el de otras personas. Al comienzo de este texto, comencé por explicar por qué se escribió este libro y por qué es beneficioso para el lector. En el primer capítulo, comencé a analizar cómo una persona promedio puede leer a quienes les rodean y explicar qué tan fácil es leer a las personas y cómo puede ser aprendido por cualquier persona. También comencé a dar información básica sobre cómo analizar a las personas que nos rodean, con una breve discusión sobre lo importante que es el contexto para leer las palabras y las acciones de la gente, sobre cómo es esencial que tengamos en cuenta más de un punto de observación cuando se lee a l",
+          "realExample": "cuentras, será más fácil controlar tu lenguaje corporal y las emociones que estás tratando de transmitir. Una manera fácil de hacer esto es tener pensamientos positivos como buenos recuerdos. Hacer esto te ayudará a quitar tu mente de cualquier cosa que sucede a tu alrededor, y hará más difícil que otros lean tus pensamientos. Al disociarte de la situación a tu alrededor, podrás más fácilmente ver el lado lógico de lo que está pasando y podrás transmitir con precisión el lenguaje corporal y emociones que estás tratando de emanar. 9. Hablar contigo Mismo Podrás decirle a tu mente que piense en la manera que debería. Esto hará más fácil controlar tu lenguaje corporal y tus emociones, ya que estás en proceso de controlar tu propia mente. Conclusión Dentro de este texto, hemos aprendido muchas cosas importantes sobre nuestro propio lenguaje corporal y el de otras personas. Al comienzo de este texto, comencé por explicar Por Quéé se escribió este libro y Por Quéé es beneficioso para el lector. En el primer capítulo, comencé a analizar cómo una persona promedio puede leer a quienes les rodean y explicar qué tan fácil es leer a las personas y cómo puede ser aprendido por cualquier persona. También comencé a dar información básica sobre cómo analizar a las personas que nos rodean, con una breve discusión sobre lo importante que es el contexto para leer las palabras y las acciones de la gente, sobre cómo es esencial que tengamos en cuenta más de un punto de observación cuando se lee a l",
           "interactiveChallenge": {
-            "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿por qué es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
+            "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿Por Quéé es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
             "options": [
               {
                 "text": "Porque el sistema nervioso autónomo provoca fugas no verbales microscópicas imposibles de controlar conscientemente a la vez",
@@ -2973,7 +2973,7 @@ const BOOK_CONTENT = {
           "title": "Parte 5",
           "realExample": "as personas y, en su lugar, centrarse en cómo las combinaciones específicas de circunstancias pueden representar con mayor precisión cómo piensa y siente realmente alguien, cómo analizar a alguien de quien no tiene antecedentes, así como sobre cómo garantizar que su preferencia o criterio personal no ponga en peligro tu evaluación de las emociones y motivos de otra persona. En el segundo capítulo, comencé a hablar de la manera en que nuestros cuerpos hablan nuestro lenguaje corporal. Expliqué que hay gestos que evocan una impresión positiva en otros de la misma manera que hay otros que causan una impresión negativa. Expliqué cómo cada parte del cuerpo humano se comunica con los sentimientos de una persona. También expliqué cómo el lenguaje corporal puede revelar nuestras emociones internas más profundas que tal vez ni siquiera nos reconozcamos. También empecé a adentrarme en algunos gestos comunes y lo que significan en términos de lenguaje corporal. Luego comencé a detallar los aspectos no verbales que emiten nuestros cuerpos y lo que pueden significar en diferentes situaciones. Entré en detalles sobre el lenguaje corporal del torso, las caderas, el pecho, los hombros, las manos, los dedos, las piernas y los pies. También comencé a detallar cómo todas estas cosas funcionan juntas para crear una declaración completa del lenguaje corporal. En el tercer capítulo, comencé a analizar las reglas básicas para analizar a quienes nos rodean. Mientras tanto, en cuanto al cuarto capítu",
           "interactiveChallenge": {
-            "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿por qué es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
+            "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿Por Quéé es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
             "options": [
               {
                 "text": "Porque el sistema nervioso autónomo provoca fugas no verbales microscópicas imposibles de controlar conscientemente a la vez",
@@ -3002,7 +3002,7 @@ const BOOK_CONTENT = {
           "title": "Parte 6",
           "realExample": "lo, discutí la diferencia entre comunicación verbal y no verbal. Expliqué cómo puedes analizar las afirmaciones verbales que otros hacen en función de su comportamiento no verbal. También entré en las complejidades de analizar el comportamiento no verbal con el que podemos entrar en contacto a diario. Dentro del quinto capítulo, comencé a explicar cómo nuestras mentes se comunican con quienes nos rodean. Entré en detalles definiendo la mente inconsciente y el cerebro límbico y cómo trabajan juntos para crear nuestras personalidades y emociones. En el capítulo sexto, entré en las complejidades de leer la cara y te expliqué cómo puedes usar la cara como un método de comunicación no verbal y cómo puedes leer las expresiones faciales de otra persona a través de las cosas más pequeñas. Te expliqué cómo podrías analizar cada porción expresiva de la cara. Entré en detalles sobre el análisis y la comprensión de la comunicación no verbal con los ojos, sonrisas, expresiones, labios, cabezas y más. En el capítulo séptimo, analicé cómo se puede saber si hay verdad en una relación. Entré en detalles sobre cómo puedes saber si alguien está mintiendo en una relación y cómo analizar una relación entre el verdadero amor y la honestidad. En las siguientes secciones, entré en detalles sobre los signos comunes de que una mujer o un hombre están interesados en salir con otra persona. Mientras tanto, en el octavo capítulo, expliqué cómo se muestra típicamente la confianza en el cuerpo de una perso",
           "interactiveChallenge": {
-            "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿por qué es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
+            "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿Por Quéé es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
             "options": [
               {
                 "text": "Porque el sistema nervioso autónomo provoca fugas no verbales microscópicas imposibles de controlar conscientemente a la vez",
@@ -3031,7 +3031,7 @@ const BOOK_CONTENT = {
           "title": "Parte 7",
           "realExample": "na, cómo puede detectar la falta de confianza en alguien, así como cómo puede fingir algo de confianza en su propio cuerpo. En el capítulo noveno, entré en detalles sobre algunos consejos y trucos sobre cómo falsificar su propio lenguaje corporal. Entré en detalles sobre cómo puedes aprender a controlar tus propias emociones y tu lenguaje corporal para emitir diferentes expresiones y sentimientos a otras personas. Dentro de este texto, he dado con éxito una guía detallada sobre cómo leer a los que nos rodean, así como cómo afectar nuestro propio lenguaje corporal. Todos los consejos y trucos que he dado en este texto son muy beneficiosos para la persona promedio en términos de su vida social, su lugar de trabajo o su escuela. Espero que, como lector, seas capaz de encontrar algún uso en todos los trucos del lenguaje corporal que he dado en este texto. También espero que, como lector, puedas mejorar tus relaciones actuales y te encuentres en una posición económica más alta gracias a este libro.",
           "interactiveChallenge": {
-            "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿por qué es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
+            "question": "En el Capítulo 9 (Cómo fingir lenguaje corporal y conclusión), ¿Por Quéé es tan difícil simular el lenguaje corporal con éxito durante mucho tiempo?",
             "options": [
               {
                 "text": "Porque el sistema nervioso autónomo provoca fugas no verbales microscópicas imposibles de controlar conscientemente a la vez",

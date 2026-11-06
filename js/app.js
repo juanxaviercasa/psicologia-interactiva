@@ -1432,11 +1432,12 @@ const App = {
     // Buscar en módulos del curso principal
     if (typeof LIBROS_DATA !== 'undefined' && LIBROS_DATA.modules) {
       LIBROS_DATA.modules.forEach(m => {
-        if (m.title.toLowerCase().includes(q) || m.overview.toLowerCase().includes(q)) {
+        const curatedModTitle = this.curateTitle(m.title);
+        if (curatedModTitle.toLowerCase().includes(q) || (m.overview && m.overview.toLowerCase().includes(q))) {
           results.push({
             type: 'Academia',
             icon: 'fa-graduation-cap text-indigo-400',
-            title: m.title,
+            title: curatedModTitle,
             sub: `Módulo ${m.bookNumber}`,
             action: `App.switchTab('learning'); App.openLessonModal('m${m.bookNumber}-0');`
           });
@@ -1516,6 +1517,9 @@ const App = {
 
     window.ACTIVE_BOOK_DATA = book;
 
+    book.title = this.curateTitle(book.title);
+    if (book.fullTitle) book.fullTitle = this.curateTitle(book.fullTitle);
+
     // 1. Título de la pestaña
     document.title = `${book.title} | Psicología Estratégica`;
 
@@ -1562,6 +1566,121 @@ const App = {
   },
 
   // =============================================
+  // CURACIÓN Y NORMALIZACIÓN DE TEXTOS Y TITULARES
+  // =============================================
+  curateTitle(str) {
+    if (!str || typeof str !== 'string') return '';
+    let s = str.trim();
+
+    // 1. Prefijo de capítulo
+    s = s.replace(/\bCap\s*Tulo\s+([0-9IVXLCDM]+)\s*:?\s*/gi, 'Capítulo $1: ');
+    s = s.replace(/\bCap\s*Tulo\b/gi, 'Capítulo');
+    s = s.replace(/\bCapitulo\s+([0-9IVXLCDM]+)\s*:?\s*/gi, 'Capítulo $1: ');
+    s = s.replace(/\bCapitulo\b/gi, 'Capítulo');
+
+    // 2. Patrones genéricos de sufijo ...ci N / ...si N -> ...ción / ...sión
+    s = s.replace(/\b([a-záéíóúñ]+[csz])i\s+n\b/gi, (m, prefix) => prefix + 'ión');
+    s = s.replace(/\b([a-záéíóúñ]+)cci\s+n\b/gi, (m, prefix) => prefix + 'cción');
+    s = s.replace(/\b([a-záéíóúñ]+)t\s+n\b/gi, (m, prefix) => prefix + 'tón');
+
+    // 3. Diccionario exhaustivo de palabras rotas por OCR/extracción
+    const dict = [
+      [/\bM\s+Todos\b/gi, 'Métodos'],
+      [/\bM\s+Todo\b/gi, 'Método'],
+      [/\bTr\s+Ada\b/gi, 'Tríada'],
+      [/\bC\s+Mo\b/gi, 'Cómo'],
+      [/\bPor\s+Qu\b/gi, 'Por Qué'],
+      [/\bQu\s+Es\b/gi, 'Qué Es'],
+      [/\bCu\s+L\b/gi, 'Cuál'],
+      [/\bCu\s+Les\b/gi, 'Cuáles'],
+      [/\bQui\s+N\b/gi, 'Quién'],
+      [/\bQui\s+Nes\b/gi, 'Quiénes'],
+      [/\bD\s+Nde\b/gi, 'Dónde'],
+      [/\bCu\s+Ndo\b/gi, 'Cuándo'],
+      [/\bCu\s+Nto\b/gi, 'Cuánto'],
+      [/\bMaquiav\s+Licas\b/gi, 'Maquiavélicas'],
+      [/\bMaquiav\s+Lica\b/gi, 'Maquiavélica'],
+      [/\bMaquiav\s+Licos\b/gi, 'Maquiavélicos'],
+      [/\bMaquiav\s+Lico\b/gi, 'Maquiavélico'],
+      [/\bPsicop\s+Ticas\b/gi, 'Psicopáticas'],
+      [/\bPsicop\s+Tica\b/gi, 'Psicopática'],
+      [/\bPsicop\s+Ticos\b/gi, 'Psicopáticos'],
+      [/\bPsicop\s+Tico\b/gi, 'Psicopático'],
+      [/\bT\s+Cnicas\b/gi, 'Técnicas'],
+      [/\bT\s+Cnica\b/gi, 'Técnica'],
+      [/\bT\s+Cticas\b/gi, 'Tácticas'],
+      [/\bT\s+Ctica\b/gi, 'Táctica'],
+      [/\bPr\s+Cticas\b/gi, 'Prácticas'],
+      [/\bPr\s+Ctica\b/gi, 'Práctica'],
+      [/\bPr\s+Cticos\b/gi, 'Prácticos'],
+      [/\bPr\s+Ctico\b/gi, 'Práctico'],
+      [/\bSe\s+Ales\b/gi, 'Señales'],
+      [/\bSe\s+Al\b/gi, 'Señal'],
+      [/\bEv\s+Talas\b/gi, 'Evítalas'],
+      [/\bEv\s+Talo\b/gi, 'Evítalo'],
+      [/\bSabias\s+Qu\b/gi, 'Sabías Qué'],
+      [/\bPsicolog\s+A\b/gi, 'Psicología'],
+      [/\bIntroduccion\b/gi, 'Introducción'],
+      [/\bPrologo\b/gi, 'Prólogo'],
+      [/\bIndice\b/gi, 'Índice'],
+      [/\bAn\s+Lisis\b/gi, 'Análisis'],
+      [/\bDin\s+Mica\b/gi, 'Dinámica'],
+      [/\bDin\s+Micas\b/gi, 'Dinámicas'],
+      [/\bEstrat\s+Gia\b/gi, 'Estrategia'],
+      [/\bEstrat\s+Gico\b/gi, 'Estratégico'],
+      [/\bEstrat\s+Gicos\b/gi, 'Estratégicos'],
+      [/\bEstrat\s+Gicas\b/gi, 'Estratégicas'],
+      [/\bEmpat\s+A\b/gi, 'Empatía'],
+      [/\bSimpat\s+A\b/gi, 'Simpatía'],
+      [/\bEnerg\s+A\b/gi, 'Energía'],
+      [/\bFilosof\s+A\b/gi, 'Filosofía'],
+      [/\bB\s+Sica\b/gi, 'Básica'],
+      [/\bB\s+Sico\b/gi, 'Básico'],
+      [/\bB\s+Sicos\b/gi, 'Básicos'],
+      [/\bB\s+Sicas\b/gi, 'Básicas'],
+      [/\bSecret\s+Simo\b/gi, 'Secretísimo'],
+      [/\bGu\s+A\b/gi, 'Guía']
+    ];
+
+    dict.forEach(([rgx, rep]) => {
+      s = s.replace(rgx, rep);
+    });
+
+    // 4. Limpiar números huérfanos de página
+    s = s.replace(/\s+\d{1,3}\s*$/, '');
+    s = s.replace(/:\s*:/g, ':');
+    s = s.replace(/\s+/g, ' ').trim();
+
+    // 5. Capitalización y formateo inteligente en español
+    const minorWords = new Set(['de', 'la', 'el', 'los', 'las', 'un', 'una', 'unos', 'unas', 'y', 'e', 'o', 'u', 'en', 'a', 'por', 'para', 'con', 'sin', 'del', 'al', 'se', 'su', 'sus']);
+    const romanSet = new Set(['i', 'ii', 'iii', 'iv', 'v', 'vi', 'vii', 'viii', 'ix', 'x', 'xi', 'xii', 'xiii', 'xiv', 'xv', 'xvi', 'xvii', 'xviii', 'xix', 'xx']);
+
+    const parts = s.split(/(\s+|:\s*)/);
+    let isStartOrAfterColon = true;
+    for (let i = 0; i < parts.length; i++) {
+      const p = parts[i];
+      if (p.includes(':')) {
+        isStartOrAfterColon = true;
+        continue;
+      }
+      if (/^\s+$/.test(p)) continue;
+
+      const lower = p.toLowerCase();
+      if (romanSet.has(lower)) {
+        parts[i] = lower.toUpperCase();
+      } else if (!isStartOrAfterColon && minorWords.has(lower)) {
+        parts[i] = lower;
+      } else if (p.length > 0 && !p.startsWith('http')) {
+        parts[i] = p.charAt(0).toUpperCase() + p.slice(1);
+      }
+      isStartOrAfterColon = false;
+    }
+    s = parts.join('');
+
+    return s;
+  },
+
+  // =============================================
   // DASHBOARD
   // =============================================
   renderDashboard() {
@@ -1597,26 +1716,53 @@ const App = {
         modImg = `assets/img/psicologia_obscura_6en1/covers/cover_mod${m.bookNumber}.jpg`;
       }
 
+      // Safeguards contra 'undefined' y enriquecimiento visual
+      const modBadge = (m.badge && m.badge !== 'undefined') ? m.badge : (`MÓDULO ${m.bookNumber !== undefined ? m.bookNumber : ''}`);
+      const modIcon = (m.icon && m.icon !== 'undefined') ? m.icon : 'fa-book-open';
+      const modTitle = this.curateTitle(m.title);
+
+      let modOverview = '';
+      if (m.overview && m.overview !== 'undefined') {
+        modOverview = m.overview;
+      } else if (m.keyPillars && m.keyPillars.length > 0) {
+        for (const p of m.keyPillars) {
+          if (p.realExample) {
+            const clean = p.realExample.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+            if (clean.length > 20 && !clean.includes('Portada del Libro') && !clean.includes('Copyright')) {
+              modOverview = this.curateTitle(clean).substring(0, 115) + '...';
+              break;
+            }
+          }
+          if (p.concept && p.concept.length > 20) {
+            modOverview = this.curateTitle(p.concept).substring(0, 115) + '...';
+            break;
+          }
+        }
+      }
+      if (!modOverview) {
+        modOverview = 'Lección estructurada con análisis táctico, marcos conceptuales y simulador interactivo.';
+      }
+
       return `
       <div class="glass-card rounded-2xl border border-slate-800 hover:border-cyan-500/50 transition-all cursor-pointer group flex flex-col overflow-hidden" onclick="App.goToModule(${m.bookNumber})">
         <!-- IMAGE THUMBNAIL - PROMINENT & VISIBLE — 16:9 ratio, no distortion -->
         <div class="relative w-full bg-slate-900 overflow-hidden" style="padding-top: 56.25%;">
           <img src="${modImg}"
-               alt="${m.title}"
+               alt="${modTitle}"
                class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                onerror="this.style.display='none'">
           <div class="absolute inset-0 bg-gradient-to-t from-slate-900/70 to-transparent"></div>
-          <span class="absolute top-2 right-2 text-[10px] font-bold text-white bg-slate-900/70 backdrop-blur px-2 py-0.5 rounded border border-slate-700">${m.badge}</span>
+          <span class="absolute top-2 right-2 text-[10px] font-bold text-white bg-slate-900/70 backdrop-blur px-2 py-0.5 rounded border border-slate-700">${modBadge}</span>
         </div>
         <!-- CARD CONTENT -->
         <div class="p-4 flex flex-col flex-1">
             <div class="flex items-center gap-2 mb-2">
               <div class="w-8 h-8 rounded-lg bg-indigo-500/20 flex items-center justify-center text-indigo-400 border border-indigo-500/30 text-sm shrink-0">
-                <i class="fa-solid ${m.icon}"></i>
+                <i class="fa-solid ${modIcon}"></i>
               </div>
-              <h3 class="text-white font-bold text-sm leading-tight">${m.title}</h3>
+              <h3 class="text-white font-bold text-sm leading-tight">${modTitle}</h3>
             </div>
-            <p class="text-xs text-slate-400 line-clamp-2 mb-3 flex-1">${m.overview}</p>
+            <p class="text-xs text-slate-400 line-clamp-2 mb-3 flex-1">${modOverview}</p>
             
             <div class="mt-auto">
               <div class="flex justify-between text-[10px] mb-1">
@@ -1645,20 +1791,22 @@ const App = {
       let modCompletedCount = 0;
       mod.keyPillars.forEach((_, pi) => {
         const nextId = pi + 1 < mod.keyPillars.length ? `m${mod.bookNumber}-${pi+1}` : `m${mod.bookNumber+1}-0`;
-        if (this.state.progress.unlockedLessons[nextId]) modCompletedCount++;
+        if (this.state.progress.unlockedLessons && this.state.progress.unlockedLessons[nextId]) modCompletedCount++;
       });
       const modTotal = mod.keyPillars.length;
       const modPct = Math.round((modCompletedCount / modTotal) * 100);
+      const modTitle = this.curateTitle(mod.title);
+      const modIcon = (mod.icon && mod.icon !== 'undefined') ? mod.icon : 'fa-brain';
 
       html += `
         <div id="module-${mod.bookNumber}" class="bg-slate-900/80 border border-slate-700/50 p-5 rounded-2xl shadow-xl scroll-mt-24">
           <div class="flex items-center gap-3 mb-2">
             <div class="w-10 h-10 rounded-full bg-indigo-900/50 flex items-center justify-center text-indigo-400 border border-indigo-500/30 shrink-0">
-              <i class="fa-solid ${mod.icon}"></i>
+              <i class="fa-solid ${modIcon}"></i>
             </div>
             <div class="flex-1">
               <div class="text-[10px] text-indigo-400 font-bold uppercase tracking-widest font-mono">Fase ${mod.bookNumber}</div>
-              <h3 class="text-base font-bold text-white">${mod.title}</h3>
+              <h3 class="text-base font-bold text-white">${modTitle}</h3>
             </div>
             <div class="text-right shrink-0">
               <div class="text-xs font-mono font-bold ${modPct === 100 ? 'text-emerald-400' : 'text-slate-400'}">${modPct}%</div>
@@ -1680,6 +1828,7 @@ const App = {
           : this.state.progress.unlockedLessons[`m${mod.bookNumber+1}-0`] && pIndex === mod.keyPillars.length - 1;
 
         const actuallyUnlocked = isUnlocked && prevModCompleted;
+        const pillarTitle = this.curateTitle(pillar.title);
 
         html += `
           <div class="relative pl-5 py-1.5 ${actuallyUnlocked ? '' : 'opacity-40'}">
@@ -1689,7 +1838,7 @@ const App = {
               class="w-full text-left p-3.5 rounded-xl border ${actuallyUnlocked ? 'border-indigo-500/20 bg-indigo-950/10 hover:bg-indigo-900/20 hover:border-indigo-500/40 cursor-pointer' : 'border-slate-800 bg-slate-900/30 cursor-not-allowed'} flex justify-between items-center group transition-all">
               <div>
                 <div class="text-[10px] ${actuallyUnlocked ? 'text-indigo-400' : 'text-slate-600'} font-mono mb-0.5">Pilar ${pIndex + 1} de ${modTotal}</div>
-                <div class="font-semibold text-sm ${actuallyUnlocked ? 'text-slate-200' : 'text-slate-600'}">${pillar.title}</div>
+                <div class="font-semibold text-sm ${actuallyUnlocked ? 'text-slate-200' : 'text-slate-600'}">${pillarTitle}</div>
                 ${pillar.diagram ? '<div class="text-[10px] text-cyan-500 mt-0.5"><i class="fa-solid fa-sitemap"></i> Incluye mapa mental</div>' : ''}
                 ${pillar.interactiveChallenge ? '<div class="text-[10px] text-amber-500 mt-0.5"><i class="fa-solid fa-bolt"></i> Incluye prueba interactiva</div>' : ''}
               </div>
@@ -1739,7 +1888,7 @@ const App = {
     const pillar = mod.keyPillars[pIndex];
     if (!pillar) return;
 
-    document.getElementById('lessonModalTitle').innerHTML = `<i class="fa-solid fa-brain"></i> ${pillar.title}`;
+    document.getElementById('lessonModalTitle').innerHTML = `<i class="fa-solid fa-brain"></i> ${this.curateTitle(pillar.title)}`;
 
     const notes = this.state.userNotes[`m${modNumber}-${pIndex}`] || '';
     
@@ -1811,7 +1960,7 @@ const App = {
                     <div class="text-xs text-indigo-300 font-bold tracking-widest uppercase mb-1 flex items-center gap-2">
                        <i class="fa-solid fa-layer-group"></i> Fase ${modNumber} &bull; Pilar ${pIndex + 1}
                     </div>
-                    <h2 class="text-2xl md:text-3xl font-bold text-white leading-tight drop-shadow-lg">${pillar.title}</h2>
+                    <h2 class="text-2xl md:text-3xl font-bold text-white leading-tight drop-shadow-lg">${this.curateTitle(pillar.title)}</h2>
                 </div>
             </div>
         </div>
@@ -2573,11 +2722,11 @@ const App = {
       html += `
         <div class="relative flex flex-col items-center gap-3 p-4 rounded-2xl border ${unlocked ? 'border-indigo-500/50 bg-indigo-950/20 shadow-[0_0_15px_rgba(99,102,241,0.2)]' : 'border-slate-800 bg-slate-900/30 opacity-50'} text-center cursor-pointer hover:border-indigo-500/80 transition-all w-48" onclick="App.switchTab('learning')">
           <div class="w-16 h-16 rounded-full ${unlocked ? 'bg-indigo-900 border-indigo-400 text-indigo-300 shadow-inner shadow-indigo-500/50' : 'bg-slate-800 border-slate-700 text-slate-600'} border-4 flex items-center justify-center text-2xl z-10">
-            <i class="fa-solid ${mod.icon}"></i>
+            <i class="fa-solid ${mod.icon || 'fa-brain'}"></i>
           </div>
           <div class="z-10">
             <div class="text-[10px] text-slate-400 font-mono tracking-widest uppercase mb-1">Fase ${mod.bookNumber}</div>
-            <div class="text-sm font-bold ${unlocked ? 'text-white' : 'text-slate-600'} leading-tight">${mod.title}</div>
+            <div class="text-sm font-bold ${unlocked ? 'text-white' : 'text-slate-600'} leading-tight">${this.curateTitle(mod.title)}</div>
           </div>
           <div class="w-full bg-slate-800 rounded-full h-2 z-10 mt-2">
             <div class="bg-gradient-to-r from-indigo-500 to-cyan-400 h-2 rounded-full shadow-[0_0_8px_rgba(99,102,241,0.8)]" style="width:${pct}%"></div>

@@ -3,7 +3,7 @@ const BOOK_CONTENT = {
     {
       "id": "m1",
       "bookNumber": 1,
-      "title": "Preliminares E Introduccion",
+      "title": "Preliminares E Introducción",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -123,7 +123,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 5",
-          "realExample": "sar de esa persona. Un ejemplo moderno de esto se puede encontrar en los muchos anuncios a los que nos enfrentamos cada día. No podemos escapar de sus pegadizos eslóganes, colores brillantes y productos respaldados por celebridades. Nosotros, como consumidores, sabemos que los anuncios están ahí para vender productos, pero rara vez nos detenemos y discutimos cómo sus tácticas cambian lentamente la forma en que pensamos. Por ejemplo, piense en el último anuncio publicitario que vio sin pensar en los últimos episodios de su programa, de mala calidad, de televisión favorito. Los anuncios, al principio, suenan como ruido de fondo mientras se contempla silenciosamente a sí mismo pagando más cada mes por una transmisión sin publicidad. Lentamente, se ve a sí mismo viendo comerciales. Antes de ese punto, no tenía necesidad de nada de lo que estaban vendiendo, pero ahora las apetitosas imágenes de tacos o hamburguesas le hacen sentir hambriento, necesitado. Es posible que no haya tenido hambre antes, pero hay algo sobre esas imágenes que hacen que desee lo que están vendiendo. O advierte que su personaje favorito del reality show de mala calidad está vendiendo esos productos. Le gusta ese personaje, entonces ¿por qué no te gustaría algo que avala? A continuación, los anuncios pueden ofrecerle algo, algo exclusivo, algo importante, algo que ni siquiera sabía que quería al inicio. Eso es persuasión. Luego, piense en el último político que vio dando un discurso. ¿Se acercaron al podio c",
+          "realExample": "sar de esa persona. Un ejemplo moderno de esto se puede encontrar en los muchos anuncios a los que nos enfrentamos cada día. No podemos escapar de sus pegadizos eslóganes, colores brillantes y productos respaldados por celebridades. Nosotros, como consumidores, sabemos que los anuncios están ahí para vender productos, pero rara vez nos detenemos y discutimos cómo sus tácticas cambian lentamente la forma en que pensamos. Por ejemplo, piense en el último anuncio publicitario que vio sin pensar en los últimos episodios de su programa, de mala calidad, de televisión favorito. Los anuncios, al principio, suenan como ruido de fondo mientras se contempla silenciosamente a sí mismo pagando más cada mes por una transmisión sin publicidad. Lentamente, se ve a sí mismo viendo comerciales. Antes de ese punto, no tenía necesidad de nada de lo que estaban vendiendo, pero ahora las apetitosas imágenes de tacos o hamburguesas le hacen sentir hambriento, necesitado. Es posible que no haya tenido hambre antes, pero hay algo sobre esas imágenes que hacen que desee lo que están vendiendo. O advierte que su personaje favorito del reality show de mala calidad está vendiendo esos productos. Le gusta ese personaje, entonces ¿Por Quéé no te gustaría algo que avala? A continuación, los anuncios pueden ofrecerle algo, algo exclusivo, algo importante, algo que ni siquiera sabía que quería al inicio. Eso es persuasión. Luego, piense en el último político que vio dando un discurso. ¿Se acercaron al podio c",
           "interactiveChallenge": {
             "question": "En la introducción de S.L. Moore sobre la 'Tríada Oscura', ¿cuál es la distinción principal entre el maquiavelismo y la psicopatía dentro de la psicología oscura?",
             "options": [
@@ -213,7 +213,7 @@ const BOOK_CONTENT = {
     {
       "id": "m2",
       "bookNumber": 2,
-      "title": "Capitulo 1 La Psicologia De La Persuasion",
+      "title": "Capítulo 1: La Psicologia De La Persuasion",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -771,7 +771,7 @@ const BOOK_CONTENT = {
     {
       "id": "m3",
       "bookNumber": 3,
-      "title": "Capitulo 2 Maestros De La Persuasion",
+      "title": "Capítulo 2: Maestros De La Persuasion",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1358,7 +1358,7 @@ const BOOK_CONTENT = {
     {
       "id": "m4",
       "bookNumber": 4,
-      "title": "Capitulo 3 Como Usar La Persuasion Parte 1",
+      "title": "Capítulo 3: Como Usar La Persuasion Parte 1",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -1565,7 +1565,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 8",
-          "realExample": "perspectiva mental), pueden comenzar a verlo desde su lado. Pueden comenzar a preguntarse por qué un candidato externo incluso sería considerado para el puesto, especialmente dado que ya existían en la empresa opciones viables tan grandes. Esos compañeros de trabajo, a su vez, expresarían sus preocupaciones al comité de contratación, lo que podría influir en su decisión. Q, al tomar control de sí mismo, fue capaz de navegar a través de su forma de pensar y usar eso para aumentar los miedos y las preocupaciones de los demás. Ahora que hemos discutido cómo los rasgos de personalidad pueden ayudar al proceso de persuasión, podemos enfocarnos en tomar el control de nuestra comunicación al enfocarnos en nuestro lenguaje corporal. El lenguaje corporal es la comunicación no verbal que todos usamos en nuestras interacciones con los demás y que influye mucho en los mensajes que intentamos transmitir. Por ejemplo, cuando una persona está hablando con los brazos cruzados sobre el pecho, inconscientemente les dicen a los demás en la conversación que el interlocutor está cerrado. Cuando vemos este tipo de lenguaje corporal, podemos alejarnos de la conversación. Al usar la persuasión, es importante conocer el lenguaje corporal que se está utilizando, de modo que pueda usarse en el proceso de persuasión. Lenguaje Corporal El lenguaje corporal es la forma de comunicación no verbal que todos usamos. Algunas personas pueden estar más animadas con sus gestos que incorporan movimientos con sus m",
+          "realExample": "perspectiva mental), pueden comenzar a verlo desde su lado. Pueden comenzar a preguntarse Por Quéé un candidato externo incluso sería considerado para el puesto, especialmente dado que ya existían en la empresa opciones viables tan grandes. Esos compañeros de trabajo, a su vez, expresarían sus preocupaciones al comité de contratación, lo que podría influir en su decisión. Q, al tomar control de sí mismo, fue capaz de navegar a través de su forma de pensar y usar eso para aumentar los miedos y las preocupaciones de los demás. Ahora que hemos discutido cómo los rasgos de personalidad pueden ayudar al proceso de persuasión, podemos enfocarnos en tomar el control de nuestra comunicación al enfocarnos en nuestro lenguaje corporal. El lenguaje corporal es la comunicación no verbal que todos usamos en nuestras interacciones con los demás y que influye mucho en los mensajes que intentamos transmitir. Por ejemplo, cuando una persona está hablando con los brazos cruzados sobre el pecho, inconscientemente les dicen a los demás en la conversación que el interlocutor está cerrado. Cuando vemos este tipo de lenguaje corporal, podemos alejarnos de la conversación. Al usar la persuasión, es importante conocer el lenguaje corporal que se está utilizando, de modo que pueda usarse en el proceso de persuasión. Lenguaje Corporal El lenguaje corporal es la forma de comunicación no verbal que todos usamos. Algunas personas pueden estar más animadas con sus gestos que incorporan movimientos con sus m",
           "interactiveChallenge": {
             "question": "En el Capítulo 3 (Parte 1), al explicar cómo usar la persuasión, ¿en qué consiste la técnica de 'Anclaje Emocional' descrita por el autor?",
             "options": [
@@ -2029,7 +2029,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 24",
-          "realExample": "na indecisa sobre todo en su vida. Probablemente estabas exhausto de salir con ellos porque su energía ansiosa era contagiosa. Ahora piense en un momento en que estuvo con alguien que sabía exactamente lo que quería. Puede que se hayan tomado un momento para pensar en las opciones, pero una vez que se tomó una decisión, se mantuvieron firmes. Al igual que la energía de la persona indecisa, la energía de una persona decisiva es contagiosa. Su energía es más relajada y reconfortante, o que hace que interactuar con ellos sea más intrigante que con alguien que no lo es. La gente está impresionada por aquellos que claramente pueden tomar una decisión porque esto muestra que tienen confianza en sus elecciones. La confianza es algo que todos admiramos porque deseamos desesperadamente ser vistos como confiados. Por otro lado, aquellos que tienden a ser más indecisos son más fáciles de persuadir. Solo quieren que alguien les diga qué hacer. La Historia de Q: A medida que el viaje de Q continúa, se da cuenta de que sus compañeros de trabajo rara vez invitan a Bradley a almuerzos. Bradley es un empleado nuevo, y parece que a todos les gusta estar cerca, excepto durante las reuniones de almuerzo. Q finalmente le pregunta a uno de sus compañeros de trabajo por qué Bradley no está invitado, y ella comenta: \"Realmente no lo sé\". Q sugiere que inviten a Bradley, para que pueda ver por qué a la gente no le gusta estar cerca de él. Cuando comienza el almuerzo, Q se da cuenta de que Bradley abr",
+          "realExample": "na indecisa sobre todo en su vida. Probablemente estabas exhausto de salir con ellos porque su energía ansiosa era contagiosa. Ahora piense en un momento en que estuvo con alguien que sabía exactamente lo que quería. Puede que se hayan tomado un momento para pensar en las opciones, pero una vez que se tomó una decisión, se mantuvieron firmes. Al igual que la energía de la persona indecisa, la energía de una persona decisiva es contagiosa. Su energía es más relajada y reconfortante, o que hace que interactuar con ellos sea más intrigante que con alguien que no lo es. La gente está impresionada por aquellos que claramente pueden tomar una decisión porque esto muestra que tienen confianza en sus elecciones. La confianza es algo que todos admiramos porque deseamos desesperadamente ser vistos como confiados. Por otro lado, aquellos que tienden a ser más indecisos son más fáciles de persuadir. Solo quieren que alguien les diga qué hacer. La Historia de Q: A medida que el viaje de Q continúa, se da cuenta de que sus compañeros de trabajo rara vez invitan a Bradley a almuerzos. Bradley es un empleado nuevo, y parece que a todos les gusta estar cerca, excepto durante las reuniones de almuerzo. Q finalmente le pregunta a uno de sus compañeros de trabajo Por Quéé Bradley no está invitado, y ella comenta: \"Realmente no lo sé\". Q sugiere que inviten a Bradley, para que pueda ver Por Quéé a la gente no le gusta estar cerca de él. Cuando comienza el almuerzo, Q se da cuenta de que Bradley abr",
           "interactiveChallenge": {
             "question": "En el Capítulo 3 (Parte 1), al explicar cómo usar la persuasión, ¿en qué consiste la técnica de 'Anclaje Emocional' descrita por el autor?",
             "options": [
@@ -2206,7 +2206,7 @@ const BOOK_CONTENT = {
     {
       "id": "m5",
       "bookNumber": 5,
-      "title": "Capitulo 3 Como Usar La Persuasion Parte 2",
+      "title": "Capítulo 3: Como Usar La Persuasion Parte 2",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -2268,7 +2268,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 3",
-          "realExample": "ponder, porque este ir y venir creará un vínculo más fuerte entre ustedes dos. Ambos comenzarán a ver las cosas que tienen en común y los rasgos que no tienen. Hacer preguntas también puede ayudarlo a identificar qué tipo de rasgos de personalidad tienen, de modo que pueda adaptar mejor su plan de persuasión para adaptarlo a cómo funciona su mente. Encuentre su Círculo: Otra forma de incorporarte a la vida de otra persona es encontrar su círculo. Esto significa que conocerás a sus amigos o irás a lugares que sabes que les gusta pasar el rato. Esto no significa acechar a esta persona, sino tener una mejor comprensión de quién es. Encuentra formas de conectarte orgánicamente con su círculo. Si sabes que a esta persona y a sus amigos les gusta caminar y correr, comienza a buscar tiempo para salir a caminar y disfrutar de la actividad. Esto te ayudará cuando te conectes con ellos. Recuerde no ser demasiado entusiasta en sus conexiones. No vayas a sus lugares de reunión normales cuando sepas que estarán allí, solo ve a tu propio tiempo para descubrir por qué les gusta estar en un lugar así. Si este es un lugar que visitan con frecuencia, es muy probable que te encuentres con ellos de forma natural. Si los ves, no te acerques a ellos. Deja que te vean y deja que hagan la conexión. No te vuelvas agresivo porque eso es el acoso en el límite y el acecho no es lo que estás tratando de lograr aquí. Estás intentando mejore usted mismo al usar técnicas persuasivas para ayudarlo a avanzar",
+          "realExample": "ponder, porque este ir y venir creará un vínculo más fuerte entre ustedes dos. Ambos comenzarán a ver las cosas que tienen en común y los rasgos que no tienen. Hacer preguntas también puede ayudarlo a identificar qué tipo de rasgos de personalidad tienen, de modo que pueda adaptar mejor su plan de persuasión para adaptarlo a cómo funciona su mente. Encuentre su Círculo: Otra forma de incorporarte a la vida de otra persona es encontrar su círculo. Esto significa que conocerás a sus amigos o irás a lugares que sabes que les gusta pasar el rato. Esto no significa acechar a esta persona, sino tener una mejor comprensión de quién es. Encuentra formas de conectarte orgánicamente con su círculo. Si sabes que a esta persona y a sus amigos les gusta caminar y correr, comienza a buscar tiempo para salir a caminar y disfrutar de la actividad. Esto te ayudará cuando te conectes con ellos. Recuerde no ser demasiado entusiasta en sus conexiones. No vayas a sus lugares de reunión normales cuando sepas que estarán allí, solo ve a tu propio tiempo para descubrir Por Quéé les gusta estar en un lugar así. Si este es un lugar que visitan con frecuencia, es muy probable que te encuentres con ellos de forma natural. Si los ves, no te acerques a ellos. Deja que te vean y deja que hagan la conexión. No te vuelvas agresivo porque eso es el acoso en el límite y el acecho no es lo que estás tratando de lograr aquí. Estás intentando mejore usted mismo al usar técnicas persuasivas para ayudarlo a avanzar",
           "interactiveChallenge": {
             "question": "En el Capítulo 3 (Parte 2), S.L. Moore profundiza en el 'Acompasamiento y Conducción' (Pacing and Leading). ¿Cuál es la secuencia correcta para ejecutar esta técnica de persuasión encubierta?",
             "options": [
@@ -3025,7 +3025,7 @@ const BOOK_CONTENT = {
     {
       "id": "m6",
       "bookNumber": 6,
-      "title": "Capitulo 4 Como Defenderse De Los Manipuladores",
+      "title": "Capítulo 4: Como Defenderse De Los Manipuladores",
       "keyPillars": [
         {
           "title": "Parte 1",
@@ -3377,7 +3377,7 @@ const BOOK_CONTENT = {
         },
         {
           "title": "Parte 13",
-          "realExample": "ebe siempre permanecer fiel a lo que eres y a lo que piensas. Si otros vienen a usted con inquietudes acerca de cómo ha estado actuando, sea abierto y honesto con ellos sobre cómo se siente. Hágales saber que esas reacciones son legítimas y sinceras. Déjeles ver su verdadero yo. Si han sido sus amigos o colegas por un tiempo, deberían ser capaces de mirar más allá de las tácticas utilizadas por el manipulador. Un manipulador no puede cambiarle a menos que lo deje hacerlo. Aún tiene control sobre cómo le perciben. Los manipuladores intentarán moldear su forma de pensar y, en última instancia, tomar el control de quién eres. Debe tener una base sólida para poder llevar a cabo este paso porque, sin él, el manipulador podrá poner sus garras en tu mente y comenzar a tirar de las cuerdas, como una marioneta. La culpa es Inútil: Los manipuladores intentarán usar la culpa para obtener lo que quieren de usted. La culpa es una emoción desaprovechada que solo revela la debilidad de una persona. Un manipulador inteligente lo sabe y usará la culpa contra usted. Le harán sentir mal por no ayudarlos, incluso si no tienes la obligación de hacerlo. Si se encuentra en una situación en la que la otra parte está usando la culpa para hacer que haga su oferta, debe reevaluar estos sentimientos. ¿Por qué se siente culpable? ¿Viene de un lugar legítimo o simplemente se siente culpable porque quieren que te sientas culpable? Puede identificar cuándo las personas usan la culpa porque presentarán un le",
+          "realExample": "ebe siempre permanecer fiel a lo que eres y a lo que piensas. Si otros vienen a usted con inquietudes acerca de cómo ha estado actuando, sea abierto y honesto con ellos sobre cómo se siente. Hágales saber que esas reacciones son legítimas y sinceras. Déjeles ver su verdadero yo. Si han sido sus amigos o colegas por un tiempo, deberían ser capaces de mirar más allá de las tácticas utilizadas por el manipulador. Un manipulador no puede cambiarle a menos que lo deje hacerlo. Aún tiene control sobre cómo le perciben. Los manipuladores intentarán moldear su forma de pensar y, en última instancia, tomar el control de quién eres. Debe tener una base sólida para poder llevar a cabo este paso porque, sin él, el manipulador podrá poner sus garras en tu mente y comenzar a tirar de las cuerdas, como una marioneta. La culpa es Inútil: Los manipuladores intentarán usar la culpa para obtener lo que quieren de usted. La culpa es una emoción desaprovechada que solo revela la debilidad de una persona. Un manipulador inteligente lo sabe y usará la culpa contra usted. Le harán sentir mal por no ayudarlos, incluso si no tienes la obligación de hacerlo. Si se encuentra en una situación en la que la otra parte está usando la culpa para hacer que haga su oferta, debe reevaluar estos sentimientos. ¿Por Quéé se siente culpable? ¿Viene de un lugar legítimo o simplemente se siente culpable porque quieren que te sientas culpable? Puede identificar cuándo las personas usan la culpa porque presentarán un le",
           "interactiveChallenge": {
             "question": "En el Capítulo 4 ('Cómo Defenderse de los Manipuladores'), ¿qué es la técnica del 'Banco de Niebla' y cuándo debe aplicarse según el autor?",
             "options": [
