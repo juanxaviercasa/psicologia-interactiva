@@ -144,32 +144,26 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between py-4 md:py-5 min-h-[96px] gap-4 md:gap-6">
         
-        <!-- Botón Regresar al Menú Principal -->
-        <a href="index.html"
-           title="Volver al menú principal de libros"
-           class="flex-shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg bg-slate-900/80 border border-slate-700/80 hover:bg-slate-800 hover:border-cyan-500/50 text-slate-400 hover:text-cyan-300 transition-all group">
-          <i class="fa-solid fa-arrow-left text-xs group-hover:-translate-x-0.5 transition-transform"></i>
-          <span class="hidden sm:inline text-[11px] font-bold uppercase tracking-wider">Libros</span>
-        </a>
-
-        <!-- Logo & Titulo -->
-        <div class="flex items-center gap-3 cursor-pointer" onclick="App.switchTab('dashboard')">
-          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-600 to-indigo-600 flex items-center justify-center shadow-lg shadow-cyan-500/20 border border-cyan-400/30">
+        <!-- Logo & Titulo (Enlace orgánico al Menú Principal de Libros) -->
+        <a href="index.html" class="flex items-center gap-3 group cursor-pointer" title="Volver al Catálogo Principal de Libros">
+          <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-600 to-indigo-600 flex items-center justify-center shadow-lg shadow-cyan-500/20 border border-cyan-400/30 group-hover:scale-105 group-hover:border-cyan-400 group-hover:shadow-cyan-500/40 transition-all">
             <i class="fa-solid fa-brain text-white text-lg"></i>
           </div>
           <div>
             <div class="flex items-center gap-2">
-              <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-300 to-indigo-400 text-xl md:text-2xl tracking-tight drop-shadow-md">PSICOLOGÍA OSCURA</span>
-              <span class="px-1.5 py-0.5 text-[10px] font-mono font-bold bg-cyan-950 text-cyan-400 border border-cyan-700/50 rounded">6 EN 1</span>
+              <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-300 to-indigo-400 text-xl md:text-2xl tracking-tight drop-shadow-md group-hover:opacity-90">PSICOLOGÍA ESTRATÉGICA</span>
+              <span class="px-1.5 py-0.5 text-[10px] font-mono font-bold bg-cyan-950 text-cyan-400 border border-cyan-700/50 rounded flex items-center gap-1 group-hover:bg-cyan-900 group-hover:border-cyan-400 transition-all">
+                <i class="fa-solid fa-arrow-left text-[9px] group-hover:-translate-x-0.5 transition-transform"></i> CATÁLOGO
+              </span>
             </div>
             <div class="flex flex-col mt-0.5">
-              <p class="text-[0.65rem] sm:text-xs text-slate-400 font-medium tracking-wide">Sistema de Maestría Estratégica</p>
-              <p class="text-[0.55rem] sm:text-[0.65rem] text-slate-500 font-mono flex items-center gap-1 uppercase tracking-widest mt-0.5">
-                <i class="fa-solid fa-pen-nib text-cyan-500"></i> Autor: Benedict Goleman
+              <p class="text-[0.65rem] sm:text-xs text-slate-400 font-medium tracking-wide">Sistema Zenit • Academia & Biblioteca</p>
+              <p class="text-[0.55rem] sm:text-[0.65rem] text-slate-500 font-mono flex items-center gap-1 uppercase tracking-widest mt-0.5 group-hover:text-cyan-400 transition-colors">
+                <i class="fa-solid fa-layer-group text-cyan-500"></i> Explorar Todos los Libros
               </p>
             </div>
           </div>
-        </div>
+        </a>
 
         
 
