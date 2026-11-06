@@ -1523,33 +1523,27 @@ const App = {
     // 1. Título de la pestaña
     document.title = `${book.title} | Psicología Estratégica`;
 
-    // 2. Subtítulo en el Header
-    const headerTitle = document.getElementById('headerBookTitleText');
-    if (headerTitle) {
-      headerTitle.textContent = `${book.title}${book.author ? ` (${book.author})` : ''}`;
-    }
-
-    // 3. Hero Category Badge
+    // 2. Hero Category Badge
     const heroCategory = document.getElementById('heroBookCategory');
     if (heroCategory) {
       heroCategory.innerHTML = `<i class="fa-solid ${book.categoryIcon || 'fa-book-bookmark'} text-cyan-400"></i> ${book.categoryName ? book.categoryName.toUpperCase() : 'LIBRO EN ESTUDIO'}${book.timeEstimate ? ` • ${book.timeEstimate}` : ''}`;
     }
 
-    // 4. Hero Title
+    // 3. Hero Title
     const heroTitle = document.getElementById('heroBookTitle');
     if (heroTitle) {
       heroTitle.innerHTML = `<span class="text-white drop-shadow-lg">${book.title}</span>`;
     }
 
-    // 5. Hero Description & Author
+    // 4. Hero Description & Author
     const heroDesc = document.getElementById('heroBookDesc');
     if (heroDesc) {
       const authorHtml = book.author ? `<div class="flex items-center gap-2 text-cyan-400 font-bold text-base sm:text-lg mb-1"><i class="fa-solid fa-pen-nib"></i> ${book.author}</div>` : '';
       const fullTitleHtml = (book.fullTitle && book.fullTitle !== book.title) ? `<p class="text-slate-300 text-xs sm:text-sm italic mb-2 leading-relaxed">${book.fullTitle}</p>` : '';
-      heroDesc.innerHTML = `${authorHtml}${fullTitleHtml}<p class="text-slate-400 text-xs sm:text-sm">Explora este libro mediante lecciones secuenciales, ilustraciones tácticas HD 16:9, evaluaciones diagnósticas y simulador de toma de decisiones.</p>`;
+      heroDesc.innerHTML = `${authorHtml}${fullTitleHtml}<p class="text-slate-400 text-xs sm:text-sm">Explora este libro mediante lecciones secuenciales, ilustraciones tácticas de alta definición, evaluaciones diagnósticas y simulador de toma de decisiones.</p>`;
     }
 
-    // 6. Portada de fondo 16:9 en el Hero Banner y Banner de Academia
+    // 5. Portada y Distribución Editorial en Hero Banner y Banner de Academia
     const heroBannerBg = document.getElementById('heroBannerBg');
     if (heroBannerBg && book.coverImage) {
       heroBannerBg.src = book.coverImage;
@@ -1562,10 +1556,33 @@ const App = {
     }
     const learningTitle = document.getElementById('learningBannerTitle');
     if (learningTitle) {
-      learningTitle.textContent = `Academia de Estudio: ${book.title}`;
+      learningTitle.textContent = book.title;
+    }
+    const learningAuth = document.getElementById('learningBannerAuthor');
+    const learningAuthCont = document.getElementById('learningBannerAuthorContainer');
+    if (learningAuth && learningAuthCont) {
+      if (book.author) {
+        learningAuth.textContent = book.author;
+        learningAuthCont.style.display = 'inline-flex';
+      } else {
+        learningAuthCont.style.display = 'none';
+      }
+    }
+    const learningCat = document.getElementById('learningBannerCategory');
+    if (learningCat) {
+      learningCat.textContent = book.categoryName ? book.categoryName.toUpperCase() : 'RUTA FORMATIVA DE DOMINIO';
+    }
+    const learningSub = document.getElementById('learningBannerSubtitle');
+    if (learningSub) {
+      learningSub.textContent = (book.fullTitle && book.fullTitle !== book.title) ? book.fullTitle : 'Domina este compendio mediante fragmentación cognitiva (chunking), lecciones estructuradas y evaluaciones diagnósticas.';
+    }
+    const learningModulesCount = document.getElementById('learningBannerModulesCount');
+    if (learningModulesCount) {
+      const count = (typeof LIBROS_DATA !== 'undefined' && LIBROS_DATA.modules) ? LIBROS_DATA.modules.length : '';
+      learningModulesCount.textContent = count ? `${count} Módulos Tácticos` : 'Ruta Formativa Completa';
     }
 
-    // 7. Modules Section Heading
+    // 6. Modules Section Heading
     const modulesHeading = document.getElementById('dashboardModulesHeading');
     if (modulesHeading) {
       const count = (typeof LIBROS_DATA !== 'undefined' && LIBROS_DATA.modules) ? LIBROS_DATA.modules.length : '';

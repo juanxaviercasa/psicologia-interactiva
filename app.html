@@ -156,11 +156,9 @@
             <div class="flex items-center gap-2">
               <span class="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-300 to-indigo-400 text-xl md:text-2xl tracking-tight drop-shadow-md group-hover:opacity-90">PSICOLOGÍA ESTRATÉGICA</span>
             </div>
-            <div class="flex flex-col mt-0.5">
-              <p class="text-[0.65rem] sm:text-xs text-slate-400 font-medium tracking-wide flex items-center gap-1.5" id="headerBookSubtext">
-                <i class="fa-solid fa-book-open text-cyan-500"></i> <span id="headerBookTitleText">Sistema Zenit • Academia & Biblioteca</span>
-              </p>
-            </div>
+            <p class="text-[0.65rem] sm:text-xs text-slate-400 font-medium tracking-wide mt-0.5 flex items-center gap-1.5">
+              <i class="fa-solid fa-brain text-cyan-500 text-[10px]"></i> Sistema Zenit • Academia & Biblioteca
+            </p>
           </div>
         </a>
 
@@ -410,7 +408,7 @@
             if (descEl) {
               const authHtml = book.author ? `<div class="text-cyan-400 font-bold text-base sm:text-lg mb-1 flex items-center gap-2"><i class="fa-solid fa-pen-nib"></i> ${book.author}</div>` : '';
               const fullHtml = (book.fullTitle && book.fullTitle !== book.title) ? `<div class="text-slate-300 text-xs sm:text-sm italic mb-2 leading-relaxed">${book.fullTitle}</div>` : '';
-              descEl.innerHTML = `${authHtml}${fullHtml}<p class="text-slate-400 text-xs sm:text-sm">Explora este libro mediante lecciones secuenciales, ilustraciones tácticas HD 16:9, evaluaciones diagnósticas y simulador de toma de decisiones.</p>`;
+              descEl.innerHTML = `${authHtml}${fullHtml}<p class="text-slate-400 text-xs sm:text-sm">Explora este libro mediante lecciones secuenciales, ilustraciones tácticas de alta definición, evaluaciones diagnósticas y simulador de toma de decisiones.</p>`;
             }
 
             // 4. Categoría y tiempo
@@ -419,7 +417,7 @@
               catEl.innerHTML = `<i class="fa-solid ${book.categoryIcon || 'fa-book-bookmark'} text-cyan-400"></i> ${book.categoryName ? book.categoryName.toUpperCase() : 'LIBRO EN ESTUDIO'}${book.timeEstimate ? ' • ' + book.timeEstimate : ''}`;
             }
 
-            // 5. Portada 16:9 del Hero Banner y Banner de Academia
+            // 5. Portada y Metadatos en Hero Banner y Banner de Academia
             const bgEl = document.getElementById('heroBannerBg');
             if (bgEl && book.coverImage) {
               bgEl.src = book.coverImage;
@@ -432,16 +430,28 @@
             }
             const learningTitle = document.getElementById('learningBannerTitle');
             if (learningTitle) {
-              learningTitle.textContent = `Academia de Estudio: ${book.title}`;
+              learningTitle.textContent = book.title;
+            }
+            const learningAuth = document.getElementById('learningBannerAuthor');
+            const learningAuthCont = document.getElementById('learningBannerAuthorContainer');
+            if (learningAuth && learningAuthCont) {
+              if (book.author) {
+                learningAuth.textContent = book.author;
+                learningAuthCont.style.display = 'inline-flex';
+              } else {
+                learningAuthCont.style.display = 'none';
+              }
+            }
+            const learningCat = document.getElementById('learningBannerCategory');
+            if (learningCat) {
+              learningCat.textContent = book.categoryName ? book.categoryName.toUpperCase() : 'RUTA FORMATIVA DE DOMINIO';
+            }
+            const learningSub = document.getElementById('learningBannerSubtitle');
+            if (learningSub) {
+              learningSub.textContent = (book.fullTitle && book.fullTitle !== book.title) ? book.fullTitle : 'Domina este compendio mediante fragmentación cognitiva (chunking), lecciones estructuradas y evaluaciones diagnósticas.';
             }
 
-            // 6. Barra superior (header)
-            const headSub = document.getElementById('headerBookTitleText');
-            if (headSub) {
-              headSub.textContent = `${book.title}${book.author ? ` (${book.author})` : ''}`;
-            }
-
-            // 7. Encabezado de módulos
+            // 6. Encabezado de módulos
             const modHead = document.getElementById('dashboardModulesHeading');
             if (modHead) {
               modHead.textContent = `Módulos de Estudio: ${book.title}`;
@@ -547,17 +557,71 @@
     <!-- VISTA 2: ACADEMIA DE DOMINIO -->
     <!-- VISTA 2: ACADEMIA (APRENDIZAJE PROGRESIVO NEURO-OPTIMIZADO) -->
   <section id="view-learning" class="hidden space-y-6 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
-      <!-- Section Banner (Formato 16:9 Widescreen HD) -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
-        <img id="learningBannerImg" src="assets/img/psicologia_obscura_6en1/banners/banner_academia.jpg" alt="Academia de Dominio" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
-        <div class="absolute bottom-6 left-6 right-6 flex items-end justify-between">
-          <div>
-            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/90 border border-cyan-500/40 text-cyan-300 text-xs font-mono font-bold mb-2 shadow-sm">
-              <i class="fa-solid fa-graduation-cap"></i> RUTA FORMATIVA 16:9
+      <!-- Section Banner (Formato 16:9 Widescreen HD Editorial) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl border border-slate-800/80 group" style="aspect-ratio: 16/9; max-height: 520px; min-height: 320px;">
+        <img id="learningBannerImg" src="assets/img/psicologia_obscura_6en1/banners/banner_academia.jpg" alt="Portada del Libro" class="absolute inset-0 w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-1000 ease-out">
+        
+        <!-- Gradientes multicapa para legibilidad cristalina y estética editorial -->
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/75 to-slate-950/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/60 to-transparent"></div>
+        <div class="absolute -right-10 -bottom-10 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <!-- Contenedor de Información Distribuida -->
+        <div class="absolute inset-0 p-6 sm:p-8 md:p-10 flex flex-col justify-between z-10">
+          
+          <!-- Fila Superior: Badges e Indicadores -->
+          <div class="flex items-center justify-between gap-4">
+            <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/85 backdrop-blur-md border border-cyan-500/40 text-cyan-300 text-xs font-semibold tracking-wide shadow-lg">
+              <i class="fa-solid fa-graduation-cap text-cyan-400"></i>
+              <span id="learningBannerCategory">RUTA FORMATIVA DE DOMINIO</span>
             </div>
-            <h2 id="learningBannerTitle" class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">Academia de Dominio</h2>
+            <div class="hidden sm:inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900/80 backdrop-blur-md border border-slate-700/60 text-slate-300 text-xs font-medium shadow-lg">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              <span id="learningBannerStatus">Ruta Activa • 0 a 100</span>
+            </div>
           </div>
+
+          <!-- Bloque Central/Inferior: Autor, Gran Título, Subtítulo y Píldoras -->
+          <div class="space-y-3 sm:space-y-4 max-w-4xl">
+            
+            <!-- Autor con Estilo de Firma -->
+            <div id="learningBannerAuthorContainer" class="inline-flex items-center gap-2 px-3 py-1 rounded-lg bg-slate-950/75 backdrop-blur-md border border-cyan-500/30 text-cyan-300 font-bold text-sm sm:text-base md:text-lg shadow">
+              <i class="fa-solid fa-pen-nib text-cyan-400"></i>
+              <span id="learningBannerAuthor">Victor Sykes</span>
+            </div>
+
+            <!-- Gran Título del Libro -->
+            <h1 id="learningBannerTitle" class="text-2xl sm:text-4xl md:text-5xl font-black text-white tracking-tight leading-tight drop-shadow-2xl">
+              Academia de Dominio
+            </h1>
+
+            <!-- Subtítulo / Descripción Extensa -->
+            <p id="learningBannerSubtitle" class="text-slate-200/90 text-xs sm:text-sm md:text-base leading-relaxed drop-shadow-md line-clamp-2 sm:line-clamp-3 max-w-3xl font-normal">
+              Domina este compendio mediante fragmentación cognitiva (chunking), lecciones estructuradas y evaluaciones diagnósticas.
+            </p>
+
+            <!-- Píldoras de Metadatos y Capacidades -->
+            <div class="flex flex-wrap items-center gap-2.5 sm:gap-3 pt-2 text-xs font-medium">
+              <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-900/85 backdrop-blur-md border border-slate-700/80 text-white shadow-sm">
+                <i class="fa-solid fa-layer-group text-cyan-400"></i>
+                <span id="learningBannerModulesCount">18 Módulos Tácticos</span>
+              </div>
+              <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-900/85 backdrop-blur-md border border-slate-700/80 text-white shadow-sm">
+                <i class="fa-solid fa-brain text-indigo-400"></i>
+                <span>Chunking Progresivo</span>
+              </div>
+              <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-900/85 backdrop-blur-md border border-slate-700/80 text-white shadow-sm">
+                <i class="fa-solid fa-shield-virus text-rose-400"></i>
+                <span>Protocolos de Defensa</span>
+              </div>
+              <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-xl bg-slate-900/85 backdrop-blur-md border border-slate-700/80 text-white shadow-sm">
+                <i class="fa-solid fa-circle-check text-emerald-400"></i>
+                <span>Evaluación Diagnóstica</span>
+              </div>
+            </div>
+
+          </div>
+
         </div>
       </div>
     <div class="glass-card p-6 rounded-2xl border border-indigo-500/30 bg-indigo-950/10">
@@ -608,11 +672,25 @@
   
   <!-- VISTA 3: MATRIZ TÁCTICA DE DEFENSA -->
     <section id="view-matrix" class="hidden space-y-6">
-      <!-- Section Banner (16:9 Widescreen) -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
-        <img src="assets/img/psicologia_obscura_6en1/banners/banner_matriz.jpg" alt="Matriz de Defensa" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
-        <div class="absolute bottom-6 left-6"><span class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">Matriz de Defensa</span></div>
+      <!-- Section Banner (16:9 Widescreen Editorial) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl border border-slate-800/80 group" style="aspect-ratio: 16/9; max-height: 440px; min-height: 280px;">
+        <img src="assets/img/psicologia_obscura_6en1/banners/banner_matriz.jpg" alt="Matriz de Defensa" class="absolute inset-0 w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-1000 ease-out">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/75 to-slate-950/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/50 to-transparent"></div>
+        <div class="absolute inset-0 p-6 sm:p-8 md:p-10 flex flex-col justify-between z-10">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-rose-950/80 backdrop-blur border border-rose-500/40 text-rose-300 text-xs font-semibold self-start shadow">
+            <i class="fa-solid fa-shield-virus"></i> SISTEMA DEFENSIVO & CONTRAATAQUES
+          </div>
+          <div class="space-y-2 max-w-3xl">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-white drop-shadow-xl">Matriz Táctica de Detección & Escudos</h2>
+            <p class="text-slate-300 text-xs sm:text-sm md:text-base leading-relaxed drop-shadow line-clamp-2">20 Fichas tácticas de alta precisión: Mecanismos de agresión psicológica, señales tempranas (Red Flags) y guiones de respuesta directa.</p>
+            <div class="flex flex-wrap items-center gap-2 pt-1 text-xs">
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">20 Fichas Activas</span>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Manipulación & Gaslighting</span>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Guiones de Contraataque</span>
+            </div>
+          </div>
+        </div>
       </div>
       
       <div class="glass-card p-6 rounded-2xl border border-slate-800">
@@ -644,11 +722,25 @@
 
     <!-- VISTA 4: SIMULADOR DE CASOS REALES -->
     <section id="view-simulator" class="hidden space-y-6">
-      <!-- Section Banner (16:9 Widescreen) -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
-        <img src="assets/img/psicologia_obscura_6en1/banners/banner_simulador.jpg" alt="Simulador de Casos" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
-        <div class="absolute bottom-6 left-6"><span class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">Simulador de Casos</span></div>
+      <!-- Section Banner (16:9 Widescreen Editorial) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl border border-slate-800/80 group" style="aspect-ratio: 16/9; max-height: 440px; min-height: 280px;">
+        <img src="assets/img/psicologia_obscura_6en1/banners/banner_simulador.jpg" alt="Simulador de Casos" class="absolute inset-0 w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-1000 ease-out">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/75 to-slate-950/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/50 to-transparent"></div>
+        <div class="absolute inset-0 p-6 sm:p-8 md:p-10 flex flex-col justify-between z-10">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-indigo-950/80 backdrop-blur border border-indigo-500/40 text-indigo-300 text-xs font-semibold self-start shadow">
+            <i class="fa-solid fa-chess-knight"></i> TOMA DE DECISIONES BAJO PRESIÓN
+          </div>
+          <div class="space-y-2 max-w-3xl">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-white drop-shadow-xl">Simulador de Escenarios Reales</h2>
+            <p class="text-slate-300 text-xs sm:text-sm md:text-base leading-relaxed drop-shadow line-clamp-2">Enfrenta situaciones reales de chantaje, manipulación corporativa y relaciones narcisistas con retroalimentación estratégica inmediata.</p>
+            <div class="flex flex-wrap items-center gap-2 pt-1 text-xs">
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Ramificaciones Tácticas</span>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Decisiones en Tiempo Real</span>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Análisis Consecuencial</span>
+            </div>
+          </div>
+        </div>
       </div>
       
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
@@ -675,11 +767,25 @@
 
     <!-- VISTA 5: LABORATORIO DE LENGUAJE CORPORAL -->
     <section id="view-bodylab" class="hidden space-y-6">
-      <!-- Section Banner (16:9 Widescreen) -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
-        <img src="assets/img/psicologia_obscura_6en1/banners/banner_noverbal.jpg" alt="No Verbal" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
-        <div class="absolute bottom-6 left-6"><span class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">No Verbal</span></div>
+      <!-- Section Banner (16:9 Widescreen Editorial) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl border border-slate-800/80 group" style="aspect-ratio: 16/9; max-height: 440px; min-height: 280px;">
+        <img src="assets/img/psicologia_obscura_6en1/banners/banner_noverbal.jpg" alt="No Verbal" class="absolute inset-0 w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-1000 ease-out">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/75 to-slate-950/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/50 to-transparent"></div>
+        <div class="absolute inset-0 p-6 sm:p-8 md:p-10 flex flex-col justify-between z-10">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-cyan-950/80 backdrop-blur border border-cyan-500/40 text-cyan-300 text-xs font-semibold self-start shadow">
+            <i class="fa-solid fa-eye"></i> ANÁLISIS KINÉSICO AVANZADO
+          </div>
+          <div class="space-y-2 max-w-3xl">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-white drop-shadow-xl">Laboratorio No Verbal & Detección de Falsedad</h2>
+            <p class="text-slate-300 text-xs sm:text-sm md:text-base leading-relaxed drop-shadow line-clamp-2">Entrenador visual de microexpresiones faciales, patrones oculares, gestos pacificadores y detección de incongruencias corporales.</p>
+            <div class="flex flex-wrap items-center gap-2 pt-1 text-xs">
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Microexpresiones</span>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Patrones Oculares</span>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Detección de Falsedad</span>
+            </div>
+          </div>
+        </div>
       </div>
       
       <div class="glass-card p-6 rounded-2xl border border-slate-800">
@@ -699,11 +805,25 @@
 
     <!-- VISTA 6: FLASHCARDS ACTIVAS CON REPETICIÓN ESPACIADA -->
     <section id="view-flashcards" class="hidden space-y-6">
-      <!-- Section Banner (16:9 Widescreen) -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
-        <img src="assets/img/psicologia_obscura_6en1/banners/banner_flashcards.jpg" alt="Flashcards" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
-        <div class="absolute bottom-6 left-6"><span class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">Flashcards</span></div>
+      <!-- Section Banner (16:9 Widescreen Editorial) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl border border-slate-800/80 group" style="aspect-ratio: 16/9; max-height: 440px; min-height: 280px;">
+        <img src="assets/img/psicologia_obscura_6en1/banners/banner_flashcards.jpg" alt="Flashcards" class="absolute inset-0 w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-1000 ease-out">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/75 to-slate-950/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/50 to-transparent"></div>
+        <div class="absolute inset-0 p-6 sm:p-8 md:p-10 flex flex-col justify-between z-10">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-amber-950/80 backdrop-blur border border-amber-500/40 text-amber-300 text-xs font-semibold self-start shadow">
+            <i class="fa-solid fa-bolt"></i> CONSOLIDACIÓN MNEMÓNICA
+          </div>
+          <div class="space-y-2 max-w-3xl">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-white drop-shadow-xl">Flashcards de Repetición Espaciada</h2>
+            <p class="text-slate-300 text-xs sm:text-sm md:text-base leading-relaxed drop-shadow line-clamp-2">Fija los conceptos clave en tu memoria a largo plazo mediante recuerdo activo con algoritmo de intervalo óptimo.</p>
+            <div class="flex flex-wrap items-center gap-2 pt-1 text-xs">
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Recuerdo Activo</span>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Curva del Olvido</span>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Dominio Rápido</span>
+            </div>
+          </div>
+        </div>
       </div>
       
       <div class="glass-card p-6 rounded-2xl border border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-4">
@@ -814,11 +934,25 @@
 
     <!-- VISTA 7: QUIZZES DIAGNÓSTICOS -->
     <section id="view-quizzes" class="hidden space-y-6">
-      <!-- Section Banner (16:9 Widescreen) -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
-        <img src="assets/img/psicologia_obscura_6en1/banners/banner_quizzes.jpg" alt="Quizzes Tacticos" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
-        <div class="absolute bottom-6 left-6"><span class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">Quizzes Tácticos</span></div>
+      <!-- Section Banner (16:9 Widescreen Editorial) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl border border-slate-800/80 group" style="aspect-ratio: 16/9; max-height: 440px; min-height: 280px;">
+        <img src="assets/img/psicologia_obscura_6en1/banners/banner_quizzes.jpg" alt="Quizzes Tácticos" class="absolute inset-0 w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-1000 ease-out">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/75 to-slate-950/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/50 to-transparent"></div>
+        <div class="absolute inset-0 p-6 sm:p-8 md:p-10 flex flex-col justify-between z-10">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-emerald-950/80 backdrop-blur border border-emerald-500/40 text-emerald-300 text-xs font-semibold self-start shadow">
+            <i class="fa-solid fa-trophy"></i> EVALUACIÓN DIAGNÓSTICA CONTINUA
+          </div>
+          <div class="space-y-2 max-w-3xl">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-white drop-shadow-xl">Centro de Evaluación y Retención</h2>
+            <p class="text-slate-300 text-xs sm:text-sm md:text-base leading-relaxed drop-shadow line-clamp-2">Valida tu nivel de asimilación con preguntas situacionales de alta exigencia y análisis explicativo por respuesta.</p>
+            <div class="flex flex-wrap items-center gap-2 pt-1 text-xs">
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Puntaje Estratégico</span>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Preguntas Situacionales</span>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Retroalimentación Inmediata</span>
+            </div>
+          </div>
+        </div>
       </div>
       
       <div class="glass-card p-6 rounded-2xl border border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-4">
@@ -985,11 +1119,25 @@
   
   <!-- VISTA: LABORATORIO TÁCTICO (PHASE 1 & 2) -->
   <section id="view-laboratory" class="hidden space-y-8 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
-      <!-- Section Banner (16:9 Widescreen) -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
-        <img src="assets/img/psicologia_obscura_6en1/banners/banner_laboratorio.jpg" alt="Laboratorio Táctico" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
-        <div class="absolute bottom-6 left-6"><span class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">Laboratorio Táctico</span></div>
+      <!-- Section Banner (16:9 Widescreen Editorial) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl border border-slate-800/80 group" style="aspect-ratio: 16/9; max-height: 440px; min-height: 280px;">
+        <img src="assets/img/psicologia_obscura_6en1/banners/banner_laboratorio.jpg" alt="Laboratorio Táctico" class="absolute inset-0 w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-1000 ease-out">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/75 to-slate-950/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/50 to-transparent"></div>
+        <div class="absolute inset-0 p-6 sm:p-8 md:p-10 flex flex-col justify-between z-10">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-indigo-950/80 backdrop-blur border border-indigo-500/40 text-indigo-300 text-xs font-semibold self-start shadow">
+            <i class="fa-solid fa-flask"></i> INVESTIGACIÓN EXPERIMENTAL & MODELOS
+          </div>
+          <div class="space-y-2 max-w-3xl">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-white drop-shadow-xl">Laboratorio Táctico Interactivo</h2>
+            <p class="text-slate-300 text-xs sm:text-sm md:text-base leading-relaxed drop-shadow line-clamp-2">Modela interacciones humanas complejas con teoría de juegos, mapas de calor decisionales y simulaciones dinámicas.</p>
+            <div class="flex flex-wrap items-center gap-2 pt-1 text-xs">
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Teoría de Juegos</span>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Simulador Drag & Drop</span>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Modelos Cuantitativos</span>
+            </div>
+          </div>
+        </div>
       </div>
     
     <div class="glass-card p-6 rounded-2xl border border-indigo-500/30 bg-gradient-to-r from-slate-900 to-indigo-950/20">
@@ -1216,11 +1364,25 @@
 
   <!-- VISTA NUEVA: BIOMETRÍA (TRACKER FACIAL) -->
   <section id="view-biometrics" class="hidden space-y-6 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
-      <!-- Section Banner (16:9 Widescreen) -->
-      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl" style="padding-top: 56.25%;">
-        <img src="assets/img/psicologia_obscura_6en1/banners/banner_pdf.jpg" alt="Auditoría Biométrica" class="absolute inset-0 w-full h-full object-cover">
-        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/95 via-slate-950/40 to-transparent"></div>
-        <div class="absolute bottom-6 left-6"><span class="text-white font-extrabold text-2xl md:text-3xl drop-shadow-lg">Auditoría Biométrica</span></div>
+      <!-- Section Banner (16:9 Widescreen Editorial) -->
+      <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl border border-slate-800/80 group" style="aspect-ratio: 16/9; max-height: 440px; min-height: 280px;">
+        <img src="assets/img/psicologia_obscura_6en1/banners/banner_pdf.jpg" alt="Auditoría Biométrica" class="absolute inset-0 w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-1000 ease-out">
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/75 to-slate-950/20"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/50 to-transparent"></div>
+        <div class="absolute inset-0 p-6 sm:p-8 md:p-10 flex flex-col justify-between z-10">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-cyan-950/80 backdrop-blur border border-cyan-500/40 text-cyan-300 text-xs font-semibold self-start shadow">
+            <i class="fa-solid fa-expand"></i> TELEMETRÍA BIOMÉTRICA EN TIEMPO REAL
+          </div>
+          <div class="space-y-2 max-w-3xl">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-black text-white drop-shadow-xl">Tracker Biométrico & Análisis Facial</h2>
+            <p class="text-slate-300 text-xs sm:text-sm md:text-base leading-relaxed drop-shadow line-clamp-2">Evaluación visual de congruencia y nivel de estrés mediante visión por computadora ejecutada de manera 100% privada y local.</p>
+            <div class="flex flex-wrap items-center gap-2 pt-1 text-xs">
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">100% Privado Offline</span>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Visión por Computadora</span>
+              <span class="px-2.5 py-1 rounded-lg bg-slate-900/80 border border-slate-700 text-slate-300">Telemetría Facial</span>
+            </div>
+          </div>
+        </div>
       </div>
     <div class="glass-card p-6 rounded-2xl border border-cyan-500/30 bg-cyan-950/10 flex justify-between items-center">
       <div>
@@ -1671,7 +1833,7 @@
   <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
   <!-- SweetAlert2 -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-  <script src="js/app.js?v=7.1.0"></script>
+  <script src="js/app.js?v=7.2.0"></script>
 
   <footer class="mt-16 py-8 border-t border-slate-800/60 bg-slate-950/50 text-center relative z-20">
     <div class="container mx-auto px-4">
