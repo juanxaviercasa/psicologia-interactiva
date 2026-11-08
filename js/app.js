@@ -2489,7 +2489,7 @@ const App = {
     this.loadFlashcards();
     const frontEl = document.getElementById('fcFrontText');
     if (!frontEl || !this.state.filteredFlashcards || this.state.filteredFlashcards.length === 0) {
-      if (frontEl) frontEl.textContent = 'No hay flashcards disponibles';
+      if (frontEl) frontEl.textContent = this.state.rapidReview ? 'No tienes tarjetas pendientes por ahora. Vuelve más tarde.' : 'No hay flashcards disponibles';
       return;
     }
 
@@ -2555,7 +2555,7 @@ const App = {
   if(this.state.rapidReview)cards=cards.filter(c=>{const r=this.state.progress?.flashcardRatings?.[c.id];return !r||r.rating==='hard'||(r.dueAt&&new Date(r.dueAt).getTime()<=Date.now())});
   this.state.filteredFlashcards=cards;this.state.currentFlashcardIndex=0;this.renderCurrentFlashcard();
 },
-  function toggleRapidReview(){
+  toggleRapidReview(){
   this.state.rapidReview=!this.state.rapidReview;
   const btn=document.getElementById('btnRapidReview');
   if(btn){btn.setAttribute('aria-pressed',String(this.state.rapidReview));btn.classList.toggle('text-cyan-300',this.state.rapidReview)}
@@ -2577,63 +2577,29 @@ const App = {
   // =============================================
   // QUIZZES
   // =============================================
-  renderQuizzes() {
-    const container = document.getElementById('quizzesContainer');
-    if (!container || typeof LIBROS_DATA === 'undefined') return;
-    container.innerHTML = LIBROS_DATA.quizzes.map((q, i) => `
-      <div class="glass-card p-6 rounded-2xl border border-slate-800" id="quiz-block-${q.id}">
-        <!-- Quiz Scenario Image (16:9) -->
-        <div class="relative w-full rounded-xl overflow-hidden mb-4 border border-slate-700 bg-slate-950 group" style="padding-top:56.25%;">
-          <img src="assets/img/psicologia_obscura_6en1/quizzes/quiz_${q.id}.jpg"
-               alt="Escenario ${q.question.substring(0,40)}"
-               class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-               onerror="this.parentElement.style.display='none'">
-          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 to-transparent"></div>
-        </div>
-        <h4 class="text-base font-bold text-white mb-4 flex items-start gap-2">
-          <span class="text-cyan-500 font-mono shrink-0">Q${String(i+1).padStart(2,'0')}</span>
-          ${q.question}
-        </h4>
-        <div class="space-y-2" id="quiz-opts-${q.id}">
-          ${q.options.map((opt, oi) => `
-            <button onclick="App.checkQuizAnswer('${q.id}', ${oi}, ${q.correctIndex}, '${q.explanation.replace(/'/g, "&apos;")}')" class="quiz-opt w-full text-left p-3 rounded-xl border border-slate-700 bg-slate-800/50 hover:bg-slate-700 text-sm text-slate-300 transition-colors flex items-start gap-2">
-              <span class="font-bold text-slate-500 shrink-0">${['A','B','C','D'][oi]}.</span> ${opt}
-            </button>
-          `).join('')}
-        </div>
-        <div id="quiz-feedback-${q.id}" class="mt-4 hidden p-3 rounded-xl text-sm"></div>
-      </div>
-    `).join('');
+  renderQuizzes(){
+    const container=document.getElementById('quizzesContainer'),qs=this.getLibrosData()?.quizzes;
+    if(!container||!qs)return;
+    container.innerHTML=qs.map((q,i)=>{
+      const saved=this.state.quizAnswered[`quiz-${q.id}`],answered=!!saved;
+      const chosen=typeof saved==='object'?saved.selectedIndex:-1;
+      const correct=typeof saved==='object'?saved.correct:false;
+      return `<article class="glass-card p-6 rounded-2xl border border-slate-800" id="quiz-block-${this.escapeHTML(q.id)}">
+        <h4 class="text-base font-bold text-white mb-4">Q${i+1}. ${this.escapeHTML(q.question)}</h4>
+        <div class="space-y-2">${q.options.map((opt,oi)=>`<button onclick="App.checkQuizAnswer(${i},${oi})" ${answered?'disabled':''} class="quiz-opt w-full text-left p-3 rounded-xl border ${answered&&oi===q.correctIndex?'border-emerald-500 bg-emerald-950/30':answered&&oi===chosen?'border-rose-500 bg-rose-950/30':'border-slate-700 bg-slate-800/50 hover:bg-slate-700'} text-sm text-slate-200"><span class="font-bold mr-3">${['A','B','C','D'][oi]||oi+1}.</span>${this.escapeHTML(opt)}</button>`).join('')}</div>
+        ${answered?`<div role="status" class="mt-4 p-3 rounded-xl border ${correct?'border-emerald-500/50 text-emerald-200':'border-rose-500/50 text-rose-200'}">${correct?'Correcto.':chosen===-1?'Pregunta ya respondida.':'Incorrecto.'} ${this.escapeHTML(q.explanation||'')}</div>`:''}
+      </article>`;
+    }).join('');
   },
-
-  checkQuizAnswer(qId, selectedIdx, correctIdx, explanation) {
-    const opts = document.querySelectorAll(`#quiz-opts-${qId} .quiz-opt`);
-    opts.forEach((b, i) => {
-      b.disabled = true;
-      if (i === correctIdx) b.className = b.className.replace('border-slate-700 bg-slate-800/50','') + ' border-emerald-500 bg-emerald-950/30 text-emerald-200';
-      else if (i === selectedIdx && i !== correctIdx) b.className = b.className.replace('border-slate-700 bg-slate-800/50','') + ' border-rose-500 bg-rose-950/30 text-rose-200';
-    });
-
-    const feedback = document.getElementById(`quiz-feedback-${qId}`);
-    feedback.classList.remove('hidden');
-    const key = `quiz-${qId}`;
-
-    if (!this.state.quizAnswered[key]) {
-      this.state.quizAnswered[key] = true;
-      if (selectedIdx === correctIdx) {
-        this.state.quizScore++;
-        feedback.className = 'mt-4 p-3 rounded-xl text-sm bg-emerald-950/30 border border-emerald-500/50 text-emerald-200';
-        feedback.innerHTML = `<i class="fa-solid fa-check"></i> <strong>¡Correcto!</strong> ${explanation}`;
-        this.addXP(15);
-        this.playSound('success');
-      } else {
-        feedback.className = 'mt-4 p-3 rounded-xl text-sm bg-rose-950/30 border border-rose-500/50 text-rose-200';
-        feedback.innerHTML = `<i class="fa-solid fa-xmark"></i> <strong>Incorrecto.</strong> ${explanation}`;
-      }
-      this.saveProgress();
-    }
+  checkQuizAnswer(questionIndex,selectedIdx){
+    const q=this.getLibrosData()?.quizzes?.[questionIndex];
+    if(!q||!Number.isInteger(selectedIdx)||selectedIdx<0||selectedIdx>=q.options.length)return;
+    const key=`quiz-${q.id}`;
+    if(this.state.quizAnswered[key])return;
+    this.state.quizAnswered[key]={selectedIndex:selectedIdx,correct:selectedIdx===q.correctIndex};
+    if(selectedIdx===q.correctIndex){this.state.quizScore++;this.addXP(15);this.playSound('success')}
+    this.saveProgress();this.renderQuizzes();
   },
-
   resetQuiz() {
     this.state.quizScore = 0;
     this.state.quizAnswered = {};
@@ -2726,14 +2692,16 @@ const App = {
     ctx.beginPath(); ctx.arc(450, 540, 28, 0, Math.PI*2);
     ctx.fillStyle = '#0ea5e9'; ctx.fill();
     ctx.fillStyle = '#ffffff'; ctx.font = 'bold 11px sans-serif';
-    ctx.fillText('VERIFIED', 450, 544);
+    ctx.fillText('INTERNO', 450, 544);
+    if (!this.isCourseComplete()) { ctx.fillStyle = '#fca5a5'; ctx.font = 'bold 18px sans-serif'; ctx.fillText('VISTA PREVIA — AÚN NO ACREDITADA', 450, 395); }
   },
 
   downloadCertificate() {
+    if (!this.isCourseComplete()) { this.showToast('Debes completar y aprobar todas las lecciones para descargar la constancia.','error'); return; }
     this.generateCertificate();
     const canvas = document.getElementById('certCanvas');
     const a = document.createElement('a');
-    a.download = `Certificado_PSO_${this.state.certName || 'Estudiante'}.png`;
+    a.download = `Constancia_ZENIT_${(this.state.certName || 'Estudiante').replace(/[^\p{L}\p{N} _-]/gu, '').slice(0,60)}.png`;
     a.href = canvas.toDataURL('image/png');
     a.click();
     this.showToast('📥 Certificado descargado', 'success');
@@ -2867,7 +2835,7 @@ const App = {
     });
 
     if (results.length === 0) {
-      container.innerHTML = `<div class="text-center text-slate-500 text-sm py-8"><i class="fa-solid fa-magnifying-glass block text-3xl mb-2 opacity-30"></i>Sin resultados para "<span class="text-slate-300">${query}</span>"</div>`;
+      container.innerHTML = `<div class="text-center text-slate-500 text-sm py-8"><i class="fa-solid fa-magnifying-glass block text-3xl mb-2 opacity-30"></i>Sin resultados para "<span class="text-slate-300">${this.escapeHTML(query)}</span>"</div>`;
     } else {
       container.innerHTML = results.slice(0, 12).map(r => `
         <div onclick="${r.action}" class="p-3 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-800 cursor-pointer transition-colors">
@@ -3536,7 +3504,7 @@ const App = {
   },
 
   _sparringAIBubble(text) {
-    return `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-rose-950 flex items-center justify-center text-rose-400 border border-rose-800 shrink-0"><i class="fa-solid fa-mask"></i></div><div class="bg-slate-800 rounded-2xl rounded-tl-none p-3 max-w-[85%] text-sm text-slate-200 whitespace-pre-line">${text}</div></div>`;
+    return `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-rose-950 flex items-center justify-center text-rose-400 border border-rose-800 shrink-0"><i class="fa-solid fa-mask"></i></div><div class="bg-slate-800 rounded-2xl rounded-tl-none p-3 max-w-[85%] text-sm text-slate-200 whitespace-pre-line">${this.escapeHTML(text)}</div></div>`;
   },
 
   async sendSparringMessage(e) {
@@ -3553,7 +3521,7 @@ const App = {
         // It will automatically restart from onend, with a clean buffer
     }
 
-    box.innerHTML += `<div class="flex items-start gap-3 justify-end"><div class="bg-indigo-600 rounded-2xl rounded-tr-none p-3 max-w-[80%] text-sm text-white">${msg}</div></div>`;
+    box.innerHTML += `<div class="flex items-start gap-3 justify-end"><div class="bg-indigo-600 rounded-2xl rounded-tr-none p-3 max-w-[80%] text-sm text-white">${this.escapeHTML(msg)}</div></div>`;
     box.scrollTop = box.scrollHeight;
     
     if(!this.state.sparringHistory) this.state.sparringHistory = [];
@@ -3578,7 +3546,7 @@ const App = {
       console.error(err);
       document.getElementById(typingId)?.remove();
       let errorMsg = err.message || 'Error desconocido';
-      box.innerHTML += `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-red-900/50 flex items-center justify-center text-red-400 border border-red-800"><i class="fa-solid fa-triangle-exclamation"></i></div><div class="bg-red-950/20 border border-red-900/50 rounded-2xl rounded-tl-none p-3 max-w-[80%] text-sm text-red-400"><b>Fallo en el enlace táctico:</b> ${errorMsg} <br><br><span class="text-xs text-slate-400">Si el error persiste, verifica que tu API Key esté bien copiada en el Centro IA.</span></div></div>`;
+      box.innerHTML += `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-red-900/50 flex items-center justify-center text-red-400 border border-red-800"><i class="fa-solid fa-triangle-exclamation"></i></div><div class="bg-red-950/20 border border-red-900/50 rounded-2xl rounded-tl-none p-3 max-w-[80%] text-sm text-red-400"><b>Fallo en el enlace táctico:</b> ${this.escapeHTML(errorMsg)} <br><br><span class="text-xs text-slate-400">Si el error persiste, verifica que tu API Key esté bien copiada en el Centro IA.</span></div></div>`;
       box.scrollTop = box.scrollHeight;
       if (this.voiceState.isActive && !this.voiceState.isListening) {
           try { this.voiceState.recognition.start(); } catch(e){}
@@ -3589,43 +3557,23 @@ const App = {
   // =============================================
   // AUDITOR FORENSE
   // =============================================
-  async runAuditor() {
-    const input = document.getElementById('auditorInput').value.trim();
-    if (!input) { this.showToast('Pega un texto para analizar', 'error'); return; }
-    const area = document.getElementById('auditorResults');
-    area.innerHTML = '<div class="text-center py-8"><i class="fa-solid fa-circle-notch fa-spin text-4xl text-emerald-500 mb-3 block"></i><div class="text-slate-400 text-sm">Analizando patrones lingüísticos y sesgos...</div></div>';
-
-    try {
-      const result = await AIEngine.analyzeToxicText(input);
-      area.innerHTML = `
-        <h3 class="text-emerald-400 font-bold mb-4 flex items-center gap-2"><i class="fa-solid fa-microscope"></i> Reporte Forense Completo</h3>
-        <div class="space-y-4">
-          <div class="p-4 bg-rose-950/20 border border-rose-500/30 rounded-xl">
-            <div class="text-xs text-rose-400 font-bold font-mono mb-2">🚩 RED FLAGS DETECTADAS</div>
-            <ul class="list-disc list-inside text-sm text-slate-200 space-y-1">${result.redFlags.map(f => `<li>${f}</li>`).join('')}</ul>
-          </div>
-          <div class="p-4 bg-amber-950/20 border border-amber-500/30 rounded-xl">
-            <div class="text-xs text-amber-400 font-bold font-mono mb-2">⚔️ TÁCTICAS USADAS</div>
-            <div class="flex flex-wrap gap-2">${result.tacticsDetected.map(t => `<span class="px-2.5 py-1 bg-amber-950/30 text-amber-300 border border-amber-800/50 rounded-lg text-xs font-mono">${t}</span>`).join('')}</div>
-          </div>
-          <div class="p-4 bg-indigo-950/20 border border-indigo-500/30 rounded-xl">
-            <div class="text-xs text-indigo-400 font-bold font-mono mb-2">🔬 ANÁLISIS PROFUNDO</div>
-            <p class="text-sm text-slate-200 leading-relaxed">${result.analysis}</p>
-          </div>
-          <div class="p-4 bg-emerald-950/20 border-l-4 border-emerald-500">
-            <div class="text-xs text-emerald-400 font-bold font-mono mb-2">🛡️ CONTRAATAQUE RECOMENDADO</div>
-            <p class="text-sm text-emerald-100 font-mono leading-relaxed italic">"${result.counterScript}"</p>
-          </div>
-        </div>
-      `;
-    } catch (err) {
-      area.innerHTML = `<div class="p-4 bg-rose-950/20 border border-rose-500 rounded-xl text-rose-300 text-sm">${err.message.includes('API Key') ? '⚠️ Configura tu API Key de Gemini primero en el botón "Configurar IA" del Sparring.' : 'Error de análisis: ' + err.message}</div>`;
-    }
+  async runAuditor(){
+    const input=document.getElementById('auditorInput')?.value.trim();
+    if(!input){this.showToast('Introduce un mensaje anonimizado para analizar.','error');return}
+    const area=document.getElementById('auditorResults');if(!area)return;
+    area.textContent='Analizando texto...';
+    try{
+      const result=await AIEngine.analyzeToxicText(input);
+      const flags=Array.isArray(result.redFlags)?result.redFlags:[];
+      const tactics=Array.isArray(result.tacticsDetected)?result.tacticsDetected:[];
+      area.innerHTML=`<h3 class="text-emerald-400 font-bold mb-3">Análisis educativo orientativo (no diagnóstico)</h3>
+        <p class="text-xs text-slate-400 mb-4">Una sola conversación no permite diagnosticar ni determinar intenciones. El contexto puede cambiar la interpretación.</p>
+        <h4 class="font-bold text-sm">Señales a examinar</h4><ul class="list-disc pl-5">${flags.map(x=>`<li>${this.escapeHTML(x)}</li>`).join('')}</ul>
+        <h4 class="font-bold text-sm mt-4">Posibles patrones (no conclusiones)</h4><p>${this.escapeHTML(tactics.join(', ')||'Ninguno identificado con suficiente contexto')}</p>
+        <h4 class="font-bold text-sm mt-4">Análisis y límites</h4><p>${this.escapeHTML(result.analysis||'')}</p>
+        <h4 class="font-bold text-sm mt-4">Ejemplo de respuesta respetuosa</h4><p>${this.escapeHTML(result.counterScript||'')}</p>`;
+    }catch(err){area.textContent=`Análisis no disponible: ${err?.message||'Error de conexión'}`}
   },
-
-  // =============================================
-  // BIOMETRÍA / CÁMARA
-  // =============================================
   async toggleCamera() {
     if (typeof CVEngine === 'undefined') return;
     const btn = document.getElementById('btnToggleCam');
