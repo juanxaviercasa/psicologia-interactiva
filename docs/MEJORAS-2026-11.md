@@ -52,3 +52,7 @@ El cuestionario de cada lección ahora prioriza el ejercicio redactado en `inter
 ## Portada y rutas correctas
 
 El catálogo público ofrece filtros por texto, categoría y formato, y muestra tanto 94 libros como 20 audiolibros. Un manifiesto indexa solo los 89 libros con ambos archivos de curso generados. Los otros 5 acceden directamente a su obra dentro de la biblioteca sin presentarles las lecciones de un libro diferente. Los enlaces de audio abren la audioteca. Es un inventario estático que debe actualizarse al generar o retirar materiales.
+
+## Próxima acción de estudio
+
+El panel de inicio propone la siguiente lección **no completada** que esté disponible y muestra cuántas tarjetas son nuevas o ya están vencidas para repaso. Al calificar una tarjeta difícil, su próxima revisión se programa a unos diez minutos (no vuelve inmediatamente a la lista de vencidas). Las métricas se calculan con el progreso local; no constituyen una medición científica del dominio.

@@ -260,6 +260,7 @@ const App = {
   for(const k of ['progress','quizScore','quizAnswered','casesSolved','flashcardsDone','level','xp','certName','userNotes'])out[k]=this.state[k];
   try{localStorage.setItem(this.getProgressKey(),JSON.stringify(out))}catch(e){this.showToast('No se pudo guardar: almacenamiento lleno.','error')}
   this.updateAllUI();
+  this.renderStudyFocus();
 },
   updateAllUI(){
   const d=this.getLibrosData();if(!d?.modules)return;
@@ -1719,6 +1720,58 @@ const App = {
   // =============================================
   // DASHBOARD
   // =============================================
+  getStudyFocus(){
+    const data=this.getLibrosData();
+    const lessons=(data?.modules||[]).flatMap(m=>(m.keyPillars||[]).map((pillar,i)=>({
+      id:`m${m.bookNumber}-${i}`,modNumber:m.bookNumber,pIndex:i,
+      title:this.curateTitle(pillar.title||'Lección')
+    })));
+    const completed=this.state.progress?.completedLessons||{};
+    const unlocked=this.state.progress?.unlockedLessons||{};
+    const next=lessons.find((lesson,i)=>!completed[lesson.id]&&(i===0||unlocked[lesson.id]))||null;
+    const dueCards=(data?.flashcards||[]).filter(card=>{
+      const rating=this.state.progress?.flashcardRatings?.[card.id];
+      return !rating||!rating.dueAt||new Date(rating.dueAt).getTime()<=Date.now();
+    }).length;
+    return {next,dueCards,completed:lessons.filter(x=>completed[x.id]).length,total:lessons.length};
+  },
+  renderStudyFocus(){
+    const panel=document.getElementById('dashboardStudyFocus');
+    if(!panel)return;
+    const focus=this.getStudyFocus(),next=focus.next;
+    if(!focus.total){panel.textContent='Selecciona un curso disponible para comenzar.';return}
+    const label=next?this.escapeHTML(next.title):'Has terminado todas las lecciones disponibles.';
+    panel.innerHTML=`
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-3">
+        <div>
+          <h3 class="text-sm font-bold text-white flex items-center gap-2"><i class="fa-solid fa-book-open text-cyan-400" aria-hidden="true"></i> Continúa tu aprendizaje</h3>
+          <p class="text-xs text-slate-300 mt-1">${label}</p>
+          <p class="text-[11px] text-slate-400 mt-1">${focus.completed} de ${focus.total} lecciones registradas como completadas</p>
+        </div>
+        <button type="button" onclick="App.continueLearning()" ${next?'':'disabled'} class="rounded-xl bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-bold text-xs py-3 px-5 disabled:opacity-50 disabled:cursor-not-allowed">
+          ${next?'Retomar lección':'Ruta completada'}
+        </button>
+      </div>
+      <div class="mt-4 pt-4 border-t border-slate-700 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+        <p class="text-xs text-amber-200"><i class="fa-solid fa-layer-group" aria-hidden="true"></i> ${focus.dueCards} tarjetas nuevas o pendientes de repaso</p>
+        <button type="button" onclick="App.openDueFlashcards()" ${focus.dueCards?'':'disabled'} class="px-4 py-2 rounded-lg border border-amber-500/40 text-amber-200 text-xs font-bold hover:bg-amber-950/40 disabled:opacity-50 disabled:cursor-not-allowed">Repasar tarjetas</button>
+      </div>`;
+  },
+  continueLearning(){
+    const next=this.getStudyFocus().next;
+    if(!next){this.showToast('No hay lecciones pendientes disponibles.','info');return}
+    this.switchTab('learning');
+    setTimeout(()=>this.openLessonModal(next.modNumber,next.pIndex),100);
+  },
+  openDueFlashcards(){
+    const focus=this.getStudyFocus();
+    if(!focus.dueCards){this.showToast('No hay tarjetas pendientes por ahora.','info');return}
+    this.state.rapidReview=true;
+    const filter=document.getElementById('flashcardBookFilter');if(filter)filter.value='all';
+    const button=document.getElementById('btnRapidReview');
+    if(button){button.setAttribute('aria-pressed','true');button.classList.add('text-cyan-300')}
+    this.switchTab('flashcards');this.filterFlashcards('all');
+  },
   renderDashboard() {
     const data = this.getLibrosData();
     if (!data || !data.modules) return;
@@ -1814,6 +1867,7 @@ const App = {
       </div>
       `;
     }).join('');
+    this.renderStudyFocus();
   },
 
   renderLearningPath() {
@@ -2562,7 +2616,7 @@ const App = {
   const d=this.getLibrosData();if(!d?.flashcards)return;
   const selected=bookNum??document.getElementById('flashcardBookFilter')?.value??'all';
   let cards=selected==='all'?[...d.flashcards]:d.flashcards.filter(c=>String(c.bookNumber)===String(selected));
-  if(this.state.rapidReview)cards=cards.filter(c=>{const r=this.state.progress?.flashcardRatings?.[c.id];return !r||r.rating==='hard'||(r.dueAt&&new Date(r.dueAt).getTime()<=Date.now())});
+  if(this.state.rapidReview)cards=cards.filter(c=>{const r=this.state.progress?.flashcardRatings?.[c.id];return !r||!r.dueAt||new Date(r.dueAt).getTime()<=Date.now()});
   this.state.filteredFlashcards=cards;this.state.currentFlashcardIndex=0;this.renderCurrentFlashcard();
 },
   toggleRapidReview(){
