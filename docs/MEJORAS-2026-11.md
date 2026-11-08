@@ -48,3 +48,7 @@ El cuestionario de cada lección ahora prioriza el ejercicio redactado en `inter
 - Estado real del botón de completar tras aprobar, limpieza de temporizadores al cerrar y prevención de HTML en notas guardadas.
 - Avisos de no diagnóstico y tratamiento de datos al usar cámara, IA y lenguaje corporal.
 - Foco visible y respeto de la preferencia de movimiento reducido. Falta auditoría externa WCAG con usuarios y navegadores reales.
+
+## Portada y rutas correctas
+
+El catálogo público ofrece filtros por texto, categoría y formato, y muestra tanto 94 libros como 20 audiolibros. Un manifiesto indexa solo los 89 libros con ambos archivos de curso generados. Los otros 5 acceden directamente a su obra dentro de la biblioteca sin presentarles las lecciones de un libro diferente. Los enlaces de audio abren la audioteca. Es un inventario estático que debe actualizarse al generar o retirar materiales.

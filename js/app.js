@@ -212,6 +212,23 @@ const App = {
     // Initialize Audioplayer & Biblioteca Engines
     if (typeof AudioPlayerEngine !== 'undefined') AudioPlayerEngine.init();
     if (typeof BibliotecaEngine !== 'undefined') BibliotecaEngine.init();
+    // Enlaces de la portada: leer obra concreta o abrir sección de audiolibros.
+    const nav=new URLSearchParams(window.location.search);
+    const libraryId=nav.get('library');
+    if(libraryId&&/^[a-z0-9_-]{1,120}$/i.test(libraryId)&&typeof BibliotecaEngine!=='undefined'){
+      const book=BibliotecaEngine.books.find(x=>x.id===libraryId);
+      if(book){
+        BibliotecaEngine.activeCategory='all';
+        BibliotecaEngine.searchQuery=book.title;
+        const input=document.getElementById('bibliotecaSearchInput');
+        if(input)input.value=book.title;
+        this.switchTab('biblioteca');
+        BibliotecaEngine.openReaderModal(book.id);
+      }
+    }else if(nav.get('view')==='audiolibros'){
+      this.switchTab('audiolibros');
+    }
+
 
     // Click outside handler for desktop global search results
     document.addEventListener('click', (e) => {
