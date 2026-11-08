@@ -633,6 +633,7 @@
     </div>
 
     <!-- Renderizado por JS: La ruta lineal -->
+    <div id="courseLoadStatus" role="status" class="hidden rounded-xl border border-amber-500/50 bg-amber-950/30 text-amber-200 p-4 text-sm mb-3"></div>
     <div id="learningPathContainer" class="relative space-y-8 py-4">
       <!-- El JS inyectará la línea de tiempo aquí -->
     </div>
@@ -1794,7 +1795,13 @@
   <script>
     (function() {
       const urlParams = new URLSearchParams(window.location.search);
-      const bookId = urlParams.get('book');
+      const rawBookId = urlParams.get('book');
+      const bookId = rawBookId && /^[a-z0-9_-]{1,120}$/i.test(rawBookId) ? rawBookId : null;
+      if (rawBookId && !bookId) {
+        window.courseUnavailable = true;
+        console.warn('Identificador de libro inválido');
+        return;
+      }
       
       const contentSrc = bookId ? ('js/books/' + bookId + '_content.js?v=7.4.0') : 'js/book_content.js?v=4.0';
       const dataSrc = bookId ? ('js/books/' + bookId + '_data.js?v=7.4.0') : 'js/data_libros.js?v=4.0';
@@ -1823,11 +1830,9 @@
       };
       
       dataScript.onerror = function() {
-        console.warn('No se pudo cargar ' + dataSrc + ', activando fallback...');
-        const fbScript = document.createElement('script');
-        fbScript.src = 'js/data_libros.js?v=4.0';
-        fbScript.onload = function() { notifyDataReady(); };
-        document.head.appendChild(fbScript);
+        console.warn('No se pudo cargar el libro seleccionado: ' + dataSrc);
+        window.courseUnavailable = true;
+        notifyDataReady();
       };
 
       document.head.appendChild(contentScript);
@@ -1839,13 +1844,13 @@
   <script src="js/biblioteca_engine.js?v=3.1"></script>
   <script src="js/audio_engine.js?v=4.0"></script>
   <script src="js/cv_engine.js?v=4.1"></script>
-  <script src="js/ai_engine.js?v=4.1"></script>
+  <script src="js/ai_engine.js?v=4.2"></script>
   <!-- Face-API.js -->
   <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
   <!-- SweetAlert2 -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <!-- Main Application Logic (V7.4.0 Zenit Cortex) -->
-  <script src="js/app.js?v=7.5.0"></script>
+  <script src="js/app.js?v=7.6.0"></script>
 
   <footer class="mt-16 py-8 border-t border-slate-800/60 bg-slate-950/50 text-center relative z-20">
     <div class="container mx-auto px-4">

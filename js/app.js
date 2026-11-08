@@ -98,14 +98,17 @@ const App = {
   },
 
   getLibrosData() {
+    if (window.courseUnavailable) return null;
     if (typeof LIBROS_DATA !== 'undefined' && LIBROS_DATA) return LIBROS_DATA;
     if (typeof window !== 'undefined' && window.LIBROS_DATA) return window.LIBROS_DATA;
     return null;
   },
 
   onBookDataReady() {
+    if (window.courseUnavailable) { this.renderCourseUnavailable(); return; }
     this.initActiveBook();
     this.loadProgress();
+    if(window.courseUnavailable)this.renderCourseUnavailable();
     this.renderDashboard();
     if (this.state.activeTab === 'learning') {
       this.renderLearningPath();
@@ -121,6 +124,15 @@ const App = {
     this.updateStats();
   },
 
+  renderCourseUnavailable() {
+    const message='Este libro todavía no dispone de una ruta interactiva. Puedes leerlo en la biblioteca, pero no se mostrarán lecciones de otro libro.';
+    for(const id of ['dashboardModulesGrid','learningPathContainer']){
+      const el=document.getElementById(id);
+      if(el){el.textContent=message;el.setAttribute('role','status');}
+    }
+    const banner=document.getElementById('courseLoadStatus');
+    if(banner){banner.textContent=message;banner.classList.remove('hidden');}
+  },
   init() {
       window.App = this;
       for (const provider of ['google','groq','mistral','huggingface']) localStorage.removeItem(`userAIKey_${provider}`);

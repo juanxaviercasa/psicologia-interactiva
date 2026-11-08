@@ -137,23 +137,18 @@ const AIEngine = {
       const tecnica = libro?.tecnicas.find(t => t.id === context.tecnicaId);
       const escenario = this.SPARRING_ESCENARIOS.find(e => e.id === context.escenarioId);
 
-      sysPrompt = `Eres ${escenario?.npc || 'un manipulador'}. Contexto: ${escenario?.descripcion || ''}.
-Tu objetivo es atacar al usuario EXCLUSIVAMENTE con estas tácticas: ${tecnica?.contra || 'tácticas oscuras generales'}.
-El usuario está entrenando específicamente la técnica: "${tecnica?.nombre}". Tú eres su oponente de entrenamiento.
-REGLAS ESTRICTAS:
-- Actúa siempre en personaje. NUNCA salgas del rol ni expliques las tácticas que usas.
-- Solo ataca con las tácticas mencionadas. No uses otras.
-- Mantén respuestas CORTAS (2-4 oraciones máximo), como en un chat real. Sin párrafos largos.
-- Al FINAL de CADA mensaje tuyo (separado por una línea en blanco), añade una línea de evaluación táctica con este formato exacto:
-[TÁCTICA EVALUACIÓN: Éxito — ${tecnica?.evaluacion || '¿Aplicó la técnica?'}] o [TÁCTICA EVALUACIÓN: Fallo — Cediste poder emocional. Intenta ser más neutro.]
-- Si el mensaje del usuario es el primero o parece una apertura, INICIA la escena de forma natural sin revelar que es un entrenamiento.`;
+      sysPrompt = `Simulas a ${escenario?.npc || 'un interlocutor'} en una escena FICTICIA para practicar respuestas asertivas. Contexto: ${escenario?.descripcion || ''}.
+La habilidad que se practica es "${tecnica?.nombre || 'establecer límites'}". Recrea una tensión moderada para que el estudiante pueda identificar presión interpersonal y decidir con calma.
+REGLAS: No atribuyas trastornos, pensamientos ni intenciones como hechos; evita amenazas, humillaciones, coerción y técnicas dañinas de manipulación. Mantén respuestas breves de 2 a 4 oraciones.
+Tras cada turno, incluye una sola línea de retroalimentación formativa con una conducta observable, una sugerencia concreta y la advertencia "Simulación educativa, no evaluación clínica".
+No afirmes dominar a una persona ni conocer sus emociones.`;
     } else {
       // Modo Libre (sin contexto)
       sysPrompt = `Eres un Simulador de Sparring Psicológico de la Psicología Oscura (Modo Libre).
 Simula conversaciones educativas ficticias, de intensidad moderada, para practicar límites saludables. Evita diagnósticos, insultos, amenazas, coerción o técnicas de manipulación persuasiva real.
 Mantén las respuestas respetuosas e incluye, después de cada turno, una observación educativa sobre el establecimiento de límites.
 Mantén respuestas cortas (2-4 oraciones), como en un chat real.
-Al final de cada mensaje tuyo, añade: [TÁCTICA EVALUACIÓN: Éxito — Buena defensa táctica] o [TÁCTICA EVALUACIÓN: Fallo — Cediste poder emocional].`;
+Al final de cada mensaje tuyo, añade: [RETROALIMENTACIÓN EDUCATIVA: conducta observada; sugerencia de mejora; no es una evaluación clínica].`;
     }
 
     let prompt = "Historial de conversación:\n";
