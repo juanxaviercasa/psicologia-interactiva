@@ -123,6 +123,8 @@ const App = {
 
   init() {
       window.App = this;
+      for (const provider of ['google','groq','mistral','huggingface']) localStorage.removeItem(`userAIKey_${provider}`);
+      localStorage.removeItem('agy_llm_api_key');
       // Load theme
       if (localStorage.getItem('pso_theme') === 'light') {
           document.documentElement.classList.add('light-theme');
@@ -1867,7 +1869,7 @@ const App = {
       mod.keyPillars.forEach((pillar, pIndex) => {
         const lessonId = `m${mod.bookNumber}-${pIndex}`;
         const nextId = pIndex + 1 < mod.keyPillars.length ? `m${mod.bookNumber}-${pIndex+1}` : `m${mod.bookNumber+1}-0`;
-        const isFirst = mod.bookNumber === 1 && pIndex === 0;
+        const isFirst = mod === data.modules[0] && pIndex === 0;
         const isUnlocked = isFirst || this.state.progress.unlockedLessons[lessonId];
         const isCompleted = !!this.state.progress.completedLessons?.[lessonId];
 
@@ -2532,7 +2534,8 @@ const App = {
   const ease=Math.max(1.3,(prior.ease||2.5)+(rating==='easy'?.1:rating==='medium'?-.15:-.25));
   const intervalDays=rating==='hard'?0:rating==='medium'?1:n===1?1:n===2?3:Math.max(1,Math.round((prior.intervalDays||3)*ease));
   this.state.progress.flashcardRatings[card.id]={rating,repetitions:n,ease,intervalDays,lastReviewed:new Date().toISOString(),dueAt:new Date(Date.now()+(rating==='hard'?600000:intervalDays*86400000)).toISOString()};
-  if(rating==='easy'&&!prior.rating)this.addXP(5);
+  if(rating==='easy'&&!prior.rewarded){this.addXP(5);this.state.progress.flashcardRatings[card.id].rewarded=true;}
+  else this.state.progress.flashcardRatings[card.id].rewarded=!!prior.rewarded;
   this.saveProgress();
   if(this.state.rapidReview)this.filterFlashcards();else this.nextFlashcard();
 },
@@ -2642,7 +2645,7 @@ const App = {
   // =============================================
   // CERTIFICADO
   // =============================================
-  renderCertificateView() { this.generateCertificate(); },
+  renderCertificateView() { this.generateCertificate(); const btn=document.getElementById('downloadCourseCertificateBtn'); if(btn){btn.disabled=!this.isCourseComplete();btn.title=btn.disabled?'Completa y aprueba todas las lecciones para descargar':'Descargar constancia interna';btn.classList.toggle('opacity-50',btn.disabled);btn.classList.toggle('cursor-not-allowed',btn.disabled)} },
 
   saveCertName(name) {
     this.state.certName = name;

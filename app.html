@@ -1000,7 +1000,7 @@
         <div class="flex items-center gap-3">
 
           <input type="text" id="certUserNameInput" oninput="App.saveCertName(this.value)" placeholder="Escribe tu nombre..." class="bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-xl px-3 py-2 focus:outline-none focus:border-cyan-500">
-          <button onclick="App.downloadCertificate()" class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-slate-950 font-bold text-xs rounded-xl shadow-lg shadow-cyan-500/25 flex items-center gap-2">
+          <button id="downloadCourseCertificateBtn" onclick="App.downloadCertificate()" class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-slate-950 font-bold text-xs rounded-xl shadow-lg shadow-cyan-500/25 flex items-center gap-2">
             <i class="fa-solid fa-download"></i> Descargar constancia PNG
           </button>
         </div>
