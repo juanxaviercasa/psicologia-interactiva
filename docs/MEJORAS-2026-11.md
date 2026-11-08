@@ -41,3 +41,10 @@ El pie de página incluye **Respaldar avance** y **Restaurar copia**. Se guarda 
 ## Autoevaluaciones formativas
 
 El cuestionario de cada lección ahora prioriza el ejercicio redactado en `interactiveChallenge` y cinco objetivos distintos (caso, concepto, evidencia, límites y transferencia). Cuando un editor aporte al menos cinco preguntas válidas en `pillar.quizQuestions`, se usarán las preguntas redactadas en lugar de las generadas. Hay un modo **sin límite de tiempo activado por defecto**. Son prácticas de repaso, no exámenes psicométricos ni pruebas profesionales validadas; todavía hace falta redacción y revisión académica específica por libro.
+
+## Accesibilidad y privacidad de interfaz
+
+- Navegación por teclado para tarjetas, buscadores y secciones de lectura; diálogos con foco contenido y restaurado.
+- Estado real del botón de completar tras aprobar, limpieza de temporizadores al cerrar y prevención de HTML en notas guardadas.
+- Avisos de no diagnóstico y tratamiento de datos al usar cámara, IA y lenguaje corporal.
+- Foco visible y respeto de la preferencia de movimiento reducido. Falta auditoría externa WCAG con usuarios y navegadores reales.

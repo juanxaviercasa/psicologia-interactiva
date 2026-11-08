@@ -640,7 +640,7 @@
   </section>
 
   <!-- MODAL DE LECCIÓN ACTIVA (ENFOQUE TOTAL) -->
-  <div id="lessonModal" class="fixed inset-0 z-[60] bg-black/90 backdrop-blur-md hidden flex-col items-center justify-start p-4 sm:p-8 overflow-y-auto custom-scrollbar">
+  <div id="lessonModal" role="dialog" aria-modal="true" aria-labelledby="lessonModalTitle" class="fixed inset-0 z-[60] bg-black/90 backdrop-blur-md hidden flex-col items-center justify-start p-4 sm:p-8 overflow-y-auto custom-scrollbar">
     <div class="bg-slate-900 border border-indigo-500/50 rounded-2xl w-full max-w-5xl shadow-2xl flex flex-col my-auto shrink-0 animate-in zoom-in-95 duration-300">
       
       <!-- Modal Header (Static inside the box) -->
@@ -648,7 +648,7 @@
         <h3 id="lessonModalTitle" class="text-base sm:text-lg font-bold text-indigo-400 font-mono line-clamp-1 pr-4">
           <i class="fa-solid fa-book-open-reader"></i> Absorción Cognitiva
         </h3>
-        <button onclick="App.closeLessonModal()" class="text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 p-2 rounded-lg transition-colors shrink-0">
+        <button id="lessonCloseBtn" aria-label="Cerrar lección" onclick="App.closeLessonModal()" class="text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 p-2 rounded-lg transition-colors shrink-0">
           <i class="fa-solid fa-xmark"></i>
         </button>
       </div>
@@ -769,6 +769,7 @@
 
     <!-- VISTA 5: LABORATORIO DE LENGUAJE CORPORAL -->
     <section id="view-bodylab" class="hidden space-y-6">
+    <p class="rounded-xl border border-amber-500/40 bg-amber-950/20 p-4 text-xs text-amber-100" role="note">El lenguaje corporal no permite deducir con certeza engaño, intenciones, diagnósticos o emociones. Analiza contexto, cultura y diferencias individuales; las interpretaciones aquí son hipótesis de estudio.</p>
       <!-- Section Banner (16:9 Widescreen Editorial) -->
       <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl border border-slate-800/80 group" style="aspect-ratio: 16/9; max-height: 440px; min-height: 280px;">
         <img src="assets/img/psicologia_obscura_6en1/banners/banner_noverbal.jpg" alt="No Verbal" class="absolute inset-0 w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-1000 ease-out">
@@ -867,7 +868,7 @@
           <span id="fcCategoryBadge" class="px-2 py-0.5 rounded bg-slate-800 text-cyan-400 border border-slate-700">Categoría</span>
         </div>
 
-        <div class="flip-card-container" onclick="App.flipCurrentCard()">
+        <div id="fcFlipToggle" class="flip-card-container" role="button" tabindex="0" aria-pressed="false" aria-label="Mostrar respuesta de la tarjeta" onclick="App.flipCurrentCard()" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();App.flipCurrentCard()}else if(event.key==='ArrowRight'){event.preventDefault();App.nextFlashcard()}else if(event.key==='ArrowLeft'){event.preventDefault();App.prevFlashcard()}">
           <div class="flip-card-inner" id="mainFlashcard">
             
             <!-- Cara Delantera (Pregunta) -->
@@ -1074,6 +1075,7 @@
 
   <!-- VISTA NUEVA: SPARRING AI -->
   <section id="view-sparring" class="hidden space-y-6 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
+    <p role="note" class="rounded-xl border border-cyan-500/30 bg-cyan-950/20 p-4 text-xs text-cyan-100">Entrenamiento ficticio para practicar límites y comunicación respetuosa. No califica tu salud mental. Los mensajes se envían a tu proveedor de IA cuando la función está conectada.</p>
     <div class="glass-card p-6 rounded-2xl border border-rose-500/30 bg-rose-950/10">
       <div class="flex items-center justify-between">
         <div>
@@ -1338,6 +1340,7 @@
   </section>
 
   <section id="view-auditor" class="hidden space-y-6 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
+    <p role="note" class="rounded-xl border border-amber-500/40 bg-amber-950/20 p-4 text-xs text-amber-100">Privacidad: elimina nombres, teléfonos y datos personales antes de pegar conversaciones. Si activas IA externa, el texto será enviado al proveedor que hayas configurado. Este análisis es orientativo, no diagnostica personas.</p>
     <div class="glass-card p-6 rounded-2xl border border-emerald-500/30 bg-emerald-950/10">
       <h2 class="text-xl font-bold text-white flex items-center gap-2">
         <i class="fa-solid fa-user-secret text-emerald-400"></i> Auditor Forense de Comunicaciones
@@ -1366,6 +1369,7 @@
 
   <!-- VISTA NUEVA: BIOMETRÍA (TRACKER FACIAL) -->
   <section id="view-biometrics" class="hidden space-y-6 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-8">
+    <p role="note" class="rounded-xl border border-amber-500/40 bg-amber-950/20 p-4 text-xs text-amber-100">La cámara se activa solo con tu permiso. No se graba ni se usa como detector de mentiras, estrés o salud mental; las expresiones faciales no permiten evaluaciones clínicas fiables.</p>
       <!-- Section Banner (16:9 Widescreen Editorial) -->
       <div class="relative w-full rounded-2xl overflow-hidden mb-6 shadow-2xl border border-slate-800/80 group" style="aspect-ratio: 16/9; max-height: 440px; min-height: 280px;">
         <img src="assets/img/psicologia_obscura_6en1/banners/banner_pdf.jpg" alt="Auditoría Biométrica" class="absolute inset-0 w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-1000 ease-out">
@@ -1535,14 +1539,15 @@
     </section>
 
   <!-- MODAL DE BÚSQUEDA UNIVERSAL (CTRL+K) -->
-  <div id="searchModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4">
+  <div id="searchModal" role="dialog" aria-modal="true" aria-labelledby="searchModalTitle" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm hidden items-center justify-center p-4">
     <div class="bg-slate-900 border border-slate-700 rounded-2xl w-full max-w-2xl max-h-[80vh] flex flex-col shadow-2xl overflow-hidden animate-in fade-in zoom-in duration-200">
       
+      <h2 id="searchModalTitle" class="sr-only">Buscar conceptos y lecciones</h2>
       <!-- Input de búsqueda -->
       <div class="p-4 border-b border-slate-800 flex items-center gap-3">
         <i class="fa-solid fa-magnifying-glass text-cyan-400 text-lg"></i>
-        <input type="text" id="globalSearchInput" oninput="App.executeGlobalSearch(this.value)" placeholder="Escribe para buscar conceptos, tácticas, casos o defensas..." class="flex-1 bg-transparent border-none text-base text-slate-100 placeholder-slate-500 focus:outline-none">
-        <button onclick="App.closeSearchModal()" class="text-slate-400 hover:text-white px-2 py-1 rounded text-sm">
+        <input type="text" id="globalSearchInput" aria-label="Buscar conceptos y lecciones" oninput="App.executeGlobalSearch(this.value)" placeholder="Escribe para buscar conceptos, tácticas, casos o defensas..." class="flex-1 bg-transparent border-none text-base text-slate-100 placeholder-slate-500 focus:outline-none">
+        <button aria-label="Cerrar búsqueda" onclick="App.closeSearchModal()" class="text-slate-400 hover:text-white px-2 py-1 rounded text-sm">
           <i class="fa-solid fa-xmark text-lg"></i>
         </button>
       </div>
@@ -1859,7 +1864,7 @@
   <!-- Main Application Logic (V7.4.0 Zenit Cortex) -->
   <script src="js/progress_backup.js?v=1.0"></script>
   <script src="js/quiz_factory.js?v=1.0"></script>
-  <script src="js/app.js?v=7.7.0"></script>
+  <script src="js/app.js?v=7.8.0"></script>
 
   <footer class="mt-16 py-8 border-t border-slate-800/60 bg-slate-950/50 text-center relative z-20">
     <div class="container mx-auto px-4">

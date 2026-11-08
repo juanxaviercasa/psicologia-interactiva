@@ -81,6 +81,17 @@ const App = {
       }
   },
 
+  keepDialogFocus(event){
+    const modal=['lessonModal','searchModal'].map(id=>document.getElementById(id)).find(el=>el&&!el.classList.contains('hidden'));
+    if(!modal)return;
+    const focusables=[...modal.querySelectorAll('button:not([disabled]), [href], input:not([disabled]), textarea:not([disabled]), select:not([disabled]), [tabindex]:not([tabindex="-1"])')]
+      .filter(el=>el.getClientRects().length>0);
+    if(!focusables.length)return;
+    const first=focusables[0],last=focusables[focusables.length-1];
+    if(!modal.contains(document.activeElement)){event.preventDefault();first.focus();return}
+    if(event.shiftKey&&document.activeElement===first){event.preventDefault();last.focus()}
+    else if(!event.shiftKey&&document.activeElement===last){event.preventDefault();first.focus()}
+  },
   toggleTheme() {
       const html = document.documentElement;
       const icon = document.getElementById('themeIcon');
@@ -183,8 +194,9 @@ const App = {
     this.loadFlashcards();
 
     document.addEventListener('keydown', (e) => {
-      if (e.ctrlKey && e.key === 'k') { e.preventDefault(); this.openSearchModal(); }
+      if ((e.ctrlKey||e.metaKey) && e.key.toLowerCase() === 'k') { e.preventDefault(); this.openSearchModal(); }
       if (e.key === 'Escape') { this.closeSearchModal(); this.closeLessonModal(); }
+      if (e.key === 'Tab') this.keepDialogFocus(e);
     });
 
     if (typeof CVEngine !== 'undefined') CVEngine.init('webcamVideo', 'webcamCanvas');
@@ -276,6 +288,7 @@ const App = {
     
     const isHidden = contentEl.classList.contains('hidden');
     contentEl.classList.toggle('hidden');
+    headerEl.setAttribute('aria-expanded',String(isHidden));
     
     const chevron = headerEl.querySelector('.fa-chevron-down');
     if (chevron) {
@@ -1299,6 +1312,11 @@ const App = {
   },
 
   switchTab(tabId) {
+    if(this.state.activeTab==='biometrics'&&tabId!=='biometrics'&&typeof CVEngine!=='undefined'&&CVEngine.isTracking){
+      CVEngine.stopCamera();
+      const btn=document.getElementById('btnToggleCam');
+      if(btn)btn.textContent='Iniciar Escáner';
+    }
     this.state.activeTab = tabId;
     if (window.speechSynthesis && window.speechSynthesis.speaking) window.speechSynthesis.cancel();
 
@@ -1427,7 +1445,7 @@ const App = {
       resultsContainer.innerHTML = '<div class="p-3 text-xs text-slate-400 text-center font-mono">No se encontraron tácticas o libros.</div>';
     } else {
       resultsContainer.innerHTML = results.map(r => `
-        <div onclick="${r.action}; document.getElementById('headerSearchResults').classList.add('hidden');" class="p-2.5 hover:bg-slate-800/90 cursor-pointer border-b border-slate-800/60 last:border-0 flex items-center gap-3 transition-colors">
+        <div role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click()}" onclick="${r.action}; document.getElementById('headerSearchResults').classList.add('hidden');" class="p-2.5 hover:bg-slate-800/90 cursor-pointer border-b border-slate-800/60 last:border-0 flex items-center gap-3 transition-colors">
           <div class="w-7 h-7 rounded-lg bg-slate-950 border border-slate-800 flex items-center justify-center shrink-0">
             <i class="fa-solid ${r.icon} text-xs"></i>
           </div>
@@ -1888,6 +1906,7 @@ const App = {
     if (!mod) return;
     const pillar = mod.keyPillars[pIndex];
     if (!pillar) return;
+    this._previousLessonFocus=document.activeElement;
 
     document.getElementById('lessonModalTitle').innerHTML = `<i class="fa-solid fa-brain"></i> ${this.escapeHTML(this.curateTitle(pillar.title))}`;
 
@@ -2087,7 +2106,7 @@ const App = {
         <!-- 7. NOTAS PERSONALES & SPAR AI -->
         <div class="p-6 rounded-2xl bg-slate-800/30 border border-slate-700/50 lg:col-span-2">
           <div class="text-[11px] text-slate-400 font-bold font-mono tracking-widest mb-3"><i class="fa-solid fa-pen"></i> 7. MIS NOTAS E INSIGHTS PERSONALES</div>
-          <textarea id="lessonNotes" placeholder="Escribe tus conexiones, epifanías o cómo aplicarías esto mañana mismo..." class="w-full bg-slate-900/80 border border-slate-700 rounded-xl p-4 text-sm text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-32">${notes}</textarea>
+          <textarea id="lessonNotes" placeholder="Escribe tus conexiones, epifanías o cómo aplicarías esto mañana mismo..." class="w-full bg-slate-900/80 border border-slate-700 rounded-xl p-4 text-sm text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-32">${this.escapeHTML(notes)}</textarea>
           <button onclick="App.saveLessonNotes(${modNumber}, ${pIndex})" class="mt-3 px-5 py-2 bg-slate-700 hover:bg-slate-600 text-xs font-bold text-white rounded-lg transition-colors shadow-sm"><i class="fa-solid fa-save"></i> Guardar Notas</button>
           
           ${socraticBtnHtml}
@@ -2134,7 +2153,7 @@ const App = {
          chaptersHtml += `
            <div class="bg-slate-900/90 border border-slate-700/60 rounded-2xl overflow-hidden shadow-xl">
              <!-- Header del Acordeón -->
-             <div class="bg-slate-800/90 hover:bg-slate-700/80 px-6 py-4 border-b border-slate-700/60 flex justify-between items-center cursor-pointer transition-colors" onclick="App.toggleChapterReader('${contentId}', this)">
+             <div class="bg-slate-800/90 hover:bg-slate-700/80 px-6 py-4 border-b border-slate-700/60 flex justify-between items-center cursor-pointer transition-colors" role="button" tabindex="0" aria-expanded="false" aria-controls="${contentId}" onclick="App.toggleChapterReader('${contentId}', this)" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click()}">
                <div class="flex items-center gap-3">
                  <span class="w-7 h-7 rounded-lg bg-cyan-950 border border-cyan-500/40 text-cyan-400 font-mono text-xs font-bold flex items-center justify-center">${idx + 1}</span>
                  <span class="font-bold text-slate-100 font-serif text-base">${cleanTitle || chapterName}</span>
@@ -2166,17 +2185,15 @@ const App = {
 
     const btn = document.getElementById('btnCompleteLesson');
     btn.onclick = () => this.completeLesson(modNumber, pIndex);
-    if (pillar.interactiveChallenge) {
-      btn.disabled = true;
-      btn.classList.add('opacity-50', 'cursor-not-allowed');
-    } else {
-      btn.disabled = false;
-      btn.classList.remove('opacity-50', 'cursor-not-allowed');
-    }
+    const canFinish=!!this.getPillarScores()[`score_m${modNumber}_p${pIndex}`]?.passed;
+    btn.disabled=!canFinish;
+    btn.classList.toggle('opacity-50',!canFinish);
+    btn.classList.toggle('cursor-not-allowed',!canFinish);
 
     document.getElementById('lessonModal').classList.remove('hidden');
     document.getElementById('lessonModal').classList.add('flex');
     document.body.style.overflow = 'hidden';
+    document.getElementById('lessonCloseBtn')?.focus();
 
     if (pillar.diagram && window.mermaid) {
       setTimeout(() => { try { mermaid.init(undefined, document.querySelectorAll('.mermaid')); } catch(e) {} }, 80);
@@ -2253,9 +2270,12 @@ const App = {
   },
 
   closeLessonModal() {
-    document.getElementById('lessonModal').classList.add('hidden');
-    document.getElementById('lessonModal').classList.remove('flex');
-    document.body.style.overflow = '';
+    const modal=document.getElementById('lessonModal');
+    if(!modal||modal.classList.contains('hidden'))return;
+    this.stopQuizTimer();
+    modal.classList.add('hidden');modal.classList.remove('flex');
+    document.body.style.overflow='';
+    if(this._previousLessonFocus?.isConnected)this._previousLessonFocus.focus();
   },
 
   completeLesson(modNumber,pIndex){
@@ -2479,11 +2499,16 @@ const App = {
     // Reset flip state
     const inner = document.getElementById('mainFlashcard');
     if (inner) inner.classList.remove('flipped');
+    const toggle=document.getElementById('fcFlipToggle');
+    if(toggle){toggle.setAttribute('aria-pressed','false');toggle.setAttribute('aria-label','Mostrar respuesta de la tarjeta');}
   },
 
   flipCurrentCard() {
-    const inner = document.getElementById('mainFlashcard');
-    if (inner) inner.classList.toggle('flipped');
+    const inner=document.getElementById('mainFlashcard');
+    if(!inner)return;
+    const flipped=inner.classList.toggle('flipped');
+    const toggle=document.getElementById('fcFlipToggle');
+    if(toggle){toggle.setAttribute('aria-pressed',String(flipped));toggle.setAttribute('aria-label',flipped?'Mostrar pregunta de la tarjeta':'Mostrar respuesta de la tarjeta');}
   },
 
   rateFlashcard(rating){
@@ -2764,6 +2789,8 @@ const App = {
   // =============================================
   openSearchModal() {
     const m = document.getElementById('searchModal');
+    if(!m)return;
+    if(m.classList.contains('hidden'))this._previousSearchFocus=document.activeElement;
     m.classList.remove('hidden'); m.classList.add('flex');
     const inp = document.getElementById('globalSearchInput');
     if (inp) { inp.value = ''; inp.focus(); }
@@ -2771,8 +2798,10 @@ const App = {
   },
 
   closeSearchModal() {
-    const m = document.getElementById('searchModal');
-    m.classList.add('hidden'); m.classList.remove('flex');
+    const m=document.getElementById('searchModal');
+    if(!m||m.classList.contains('hidden'))return;
+    m.classList.add('hidden');m.classList.remove('flex');
+    if(this._previousSearchFocus?.isConnected)this._previousSearchFocus.focus();
   },
 
   toggleSearchModal() {
@@ -2815,7 +2844,7 @@ const App = {
       container.innerHTML = `<div class="text-center text-slate-500 text-sm py-8"><i class="fa-solid fa-magnifying-glass block text-3xl mb-2 opacity-30"></i>Sin resultados para "<span class="text-slate-300">${this.escapeHTML(query)}</span>"</div>`;
     } else {
       container.innerHTML = results.slice(0, 12).map(r => `
-        <div onclick="${r.action}" class="p-3 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-800 cursor-pointer transition-colors">
+        <div role="button" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();this.click()}" onclick="${r.action}" class="p-3 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-800 cursor-pointer transition-colors">
           <div class="flex items-center gap-2 mb-1">
             <i class="fa-solid ${r.icon} ${r.color} text-xs"></i>
             <span class="text-[10px] text-slate-500 font-mono uppercase">${this.escapeHTML(r.type)}</span>
