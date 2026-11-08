@@ -105,11 +105,11 @@ const App = {
 
   onBookDataReady() {
     this.initActiveBook();
+    this.loadProgress();
     this.renderDashboard();
     if (this.state.activeTab === 'learning') {
       this.renderLearningPath();
     }
-    this.loadProgress();
     this.state.filteredFlashcards = null;
     this.loadFlashcards();
     this.renderMatrixFilters();
@@ -1460,7 +1460,7 @@ const App = {
             icon: 'fa-graduation-cap text-indigo-400',
             title: curatedModTitle,
             sub: `Módulo ${m.bookNumber}`,
-            action: `App.switchTab('learning'); App.openLessonModal('m${m.bookNumber}-0');`
+            action: `App.switchTab('learning'); App.openLessonModal(${m.bookNumber}, 0);`
           });
         }
       });
@@ -1477,10 +1477,10 @@ const App = {
             <i class="fa-solid ${r.icon} text-xs"></i>
           </div>
           <div class="min-w-0 flex-1">
-            <div class="text-xs font-bold text-slate-200 truncate">${r.title}</div>
+            <div class="text-xs font-bold text-slate-200 truncate">${this.escapeHTML(r.title)}</div>
             <div class="text-[10px] text-slate-400 font-mono flex items-center gap-1.5">
-              <span class="text-cyan-400 font-semibold">[${r.type}]</span>
-              <span>${r.sub}</span>
+              <span class="text-cyan-400 font-semibold">[${this.escapeHTML(r.type)}]</span>
+              <span>${this.escapeHTML(r.sub)}</span>
             </div>
           </div>
         </div>
@@ -1547,20 +1547,20 @@ const App = {
     // 2. Hero Category Badge
     const heroCategory = document.getElementById('heroBookCategory');
     if (heroCategory) {
-      heroCategory.innerHTML = `<i class="fa-solid ${book.categoryIcon || 'fa-book-bookmark'} text-cyan-400"></i> ${book.categoryName ? book.categoryName.toUpperCase() : 'LIBRO EN ESTUDIO'}${book.timeEstimate ? ` • ${book.timeEstimate}` : ''}`;
+      heroCategory.innerHTML = `<i class="fa-solid ${book.categoryIcon || 'fa-book-bookmark'} text-cyan-400"></i> ${this.escapeHTML(book.categoryName ? book.categoryName.toUpperCase() : 'LIBRO EN ESTUDIO')}${book.timeEstimate ? ` • ${book.timeEstimate}` : ''}`;
     }
 
     // 3. Hero Title
     const heroTitle = document.getElementById('heroBookTitle');
     if (heroTitle) {
-      heroTitle.innerHTML = `<span class="text-white drop-shadow-lg">${book.title}</span>`;
+      heroTitle.innerHTML = `<span class="text-white drop-shadow-lg">${this.escapeHTML(book.title)}</span>`;
     }
 
     // 4. Hero Description & Author
     const heroDesc = document.getElementById('heroBookDesc');
     if (heroDesc) {
-      const authorHtml = book.author ? `<div class="flex items-center gap-2 text-cyan-400 font-bold text-base sm:text-lg mb-1"><i class="fa-solid fa-pen-nib"></i> ${book.author}</div>` : '';
-      const fullTitleHtml = (book.fullTitle && book.fullTitle !== book.title) ? `<p class="text-slate-300 text-xs sm:text-sm italic mb-2 leading-relaxed">${book.fullTitle}</p>` : '';
+      const authorHtml = book.author ? `<div class="flex items-center gap-2 text-cyan-400 font-bold text-base sm:text-lg mb-1"><i class="fa-solid fa-pen-nib"></i> ${this.escapeHTML(book.author)}</div>` : '';
+      const fullTitleHtml = (book.fullTitle && book.fullTitle !== book.title) ? `<p class="text-slate-300 text-xs sm:text-sm italic mb-2 leading-relaxed">${this.escapeHTML(book.fullTitle)}</p>` : '';
       heroDesc.innerHTML = `${authorHtml}${fullTitleHtml}<p class="text-slate-400 text-xs sm:text-sm">Explora este libro mediante lecciones secuenciales, ilustraciones tácticas de alta definición, evaluaciones diagnósticas y simulador de toma de decisiones.</p>`;
     }
 
@@ -1934,7 +1934,7 @@ const App = {
     const pillar = mod.keyPillars[pIndex];
     if (!pillar) return;
 
-    document.getElementById('lessonModalTitle').innerHTML = `<i class="fa-solid fa-brain"></i> ${this.curateTitle(pillar.title)}`;
+    document.getElementById('lessonModalTitle').innerHTML = `<i class="fa-solid fa-brain"></i> ${this.escapeHTML(this.curateTitle(pillar.title))}`;
 
     const notes = this.state.userNotes[`m${modNumber}-${pIndex}`] || '';
     
