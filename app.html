@@ -1576,6 +1576,13 @@
         <button onclick="App.exportStudySummary()" class="text-cyan-400 hover:underline flex items-center gap-1">
           <i class="fa-solid fa-file-arrow-down"></i> Exportar Notas
         </button>
+        <button type="button" onclick="ProgressBackup.download(App)" class="text-emerald-400 hover:underline flex items-center gap-1" title="Descarga un archivo JSON con tu avance y notas, sin claves de IA">
+          <i class="fa-solid fa-file-export"></i> Respaldar avance
+        </button>
+        <label for="learningBackupImport" tabindex="0" onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();document.getElementById('learningBackupImport').click()}" class="text-amber-300 hover:underline cursor-pointer flex items-center gap-1">
+          <i class="fa-solid fa-file-import"></i> Restaurar copia
+        </label>
+        <input type="file" id="learningBackupImport" accept=".json,application/json" class="sr-only" aria-label="Seleccionar copia JSON de avance" onchange="ProgressBackup.importFile(App,this.files[0]);this.value=''">
         <button onclick="App.resetAllProgress()" class="text-rose-400 hover:underline flex items-center gap-1">
           <i class="fa-solid fa-trash"></i> Reiniciar Progreso
         </button>
@@ -1850,6 +1857,7 @@
   <!-- SweetAlert2 -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <!-- Main Application Logic (V7.4.0 Zenit Cortex) -->
+  <script src="js/progress_backup.js?v=1.0"></script>
   <script src="js/app.js?v=7.6.0"></script>
 
   <footer class="mt-16 py-8 border-t border-slate-800/60 bg-slate-950/50 text-center relative z-20">

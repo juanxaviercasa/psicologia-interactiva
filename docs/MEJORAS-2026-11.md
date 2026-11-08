@@ -33,3 +33,7 @@ node --test tests/academy.test.cjs
 8. Asegurar que cada libro sin contenido interactivo generado muestre estado «sin curso» en vez del curso de referencia.
 
 > No se debe anunciar esta web como evaluación clínica, diagnóstico o certificación profesional.
+
+## Segunda fase: respaldo académico local
+
+El pie de página incluye **Respaldar avance** y **Restaurar copia**. Se guarda un archivo JSON por libro con lecciones completadas, evaluaciones, tarjetas, notas y puntuación. No incluye claves de API. La restauración valida la versión, el identificador del libro y listas permitidas de datos; requiere confirmación y reemplaza el progreso de ese libro en ese navegador. **El JSON no está cifrado**: contiene notas que pueden ser personales. No es sincronización en la nube ni una fuente de certificación verificable.
