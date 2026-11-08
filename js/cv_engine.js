@@ -9,6 +9,8 @@ const CVEngine = {
   stream: null,
   isTracking: false,
   modelsLoaded: false,
+  trackingInterval: null,
+  trackingBusy: false,
 
   async init(videoId, canvasId) {
     this.videoEl = document.getElementById(videoId);
@@ -28,23 +30,20 @@ const CVEngine = {
         this.modelsLoaded = true;
       }
     } catch (e) {
-      console.warn("CV Engine: No se pudieron cargar los modelos de FaceAPI (¿Sin internet?). Tracker en modo simulado.");
+      console.warn('CV Engine: modelos no disponibles. No se realizará análisis facial.');
     }
   },
 
   async startCamera() {
     try {
+      if (!this.videoEl || !this.canvasEl || !this.modelsLoaded) return false;
+      this.stopCamera();
       this.stream = await navigator.mediaDevices.getUserMedia({ video: true, audio: false });
       this.videoEl.srcObject = this.stream;
       this.isTracking = true;
       
-      this.videoEl.addEventListener('play', () => {
-        if (this.modelsLoaded) {
-          this.trackExpressions();
-        } else {
-          this.simulateTracking();
-        }
-      });
+      this.videoEl.onplay = () => this.trackExpressions();
+      if (!this.videoEl.paused) this.trackExpressions();
       return true;
     } catch (err) {
       console.error("Error accediendo a la cámara: ", err);
@@ -58,6 +57,11 @@ const CVEngine = {
       this.stream = null;
     }
     this.isTracking = false;
+    if (this.trackingInterval) clearInterval(this.trackingInterval);
+    this.trackingInterval = null;
+    this.trackingBusy = false;
+    if (this.videoEl) { this.videoEl.onplay = null; this.videoEl.srcObject = null; }
+    if (this.canvasEl) this.canvasEl.getContext('2d')?.clearRect(0,0,this.canvasEl.width,this.canvasEl.height);
   },
 
   trackExpressions() {
@@ -66,26 +70,28 @@ const CVEngine = {
     const displaySize = { width: this.videoEl.width, height: this.videoEl.height };
     faceapi.matchDimensions(this.canvasEl, displaySize);
 
-    setInterval(async () => {
-      if (!this.isTracking) return;
+    if (this.trackingInterval) clearInterval(this.trackingInterval);
+    this.trackingInterval = setInterval(async () => {
+      if (!this.isTracking || this.trackingBusy) return;
+      this.trackingBusy = true;
+      try {
       const detections = await faceapi.detectAllFaces(this.videoEl, new faceapi.TinyFaceDetectorOptions()).withFaceExpressions();
       if (detections.length > 0) {
         const resizedDetections = faceapi.resizeResults(detections, displaySize);
         this.canvasEl.getContext('2d').clearRect(0, 0, this.canvasEl.width, this.canvasEl.height);
         faceapi.draw.drawDetections(this.canvasEl, resizedDetections);
         
-        // Detección de estrés: si detecta miedo, tristeza o enojo elevado, puede penalizar el simulador.
-        const expressions = detections[0].expressions;
-        if (expressions.fear > 0.5 || expressions.angry > 0.5) {
-          document.dispatchEvent(new CustomEvent('neuro_stress_detected', { detail: expressions }));
-        }
+        // No inferir estrés ni penalizar al alumno por expresiones faciales.
       }
+      } catch (error) { console.warn('Análisis facial interrumpido', error); }
+      finally { this.trackingBusy = false; }
     }, 500);
   },
 
   simulateTracking() {
     // Si no hay modelos, pintamos una retícula verde HUD en el canvas simulando rastreo
-    setInterval(() => {
+    if (this.trackingInterval) clearInterval(this.trackingInterval);
+    this.trackingInterval = setInterval(() => {
       if (!this.isTracking) return;
       const ctx = this.canvasEl.getContext('2d');
       ctx.clearRect(0, 0, this.canvasEl.width, this.canvasEl.height);
@@ -102,7 +108,7 @@ const CVEngine = {
 
       ctx.fillStyle = '#06B6D4';
       ctx.font = '10px monospace';
-      ctx.fillText('BIOMETRÍA OFFLINE', cx - 40, cy + r + 20);
+      ctx.fillText('VISTA DEMOSTRATIVA (SIN ANÁLISIS)', 10, cy + r + 20);
     }, 100);
   }
 };

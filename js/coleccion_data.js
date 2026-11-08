@@ -584,7 +584,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-022.webp"
     },
     {
-      "id": "psicologia-obscura-s-l-moore",
+      "id": "psicologia-obscura-s-l-moore-edicion-2",
       "filename": "PSICOLOGIA OBSCURA S.L. MOORE .pdf",
       "title": "Psicología Oscura (6 en 1) - Compendio Maestro",
       "fullTitle": "Psicología Oscura: 6 Libros en 1 - Introducción a la Psicología, Análisis Conductual, Manipulación, Persuasión, TCC y Abuso Narcisista",
@@ -628,7 +628,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-024.webp"
     },
     {
-      "id": "psicologia-oscura-4-en-1-este-libro-incluye-secretos-de-la-psicologia-oscura-lectura-rapida-de-perso",
+      "id": "psicologia-oscura-4-en-1-este-libro-incluye-secretos-de-la-psicologia-oscura-lectura-rapida-de-perso-edicion-2",
       "filename": "PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-by-Recablee-Su-Mente.pdf",
       "title": "Psicología Oscura (4 en 1): Recablee su Mente",
       "fullTitle": "Psicología Oscura (4 en 1): Secretos de la Mente, Lectura Rápida de Personas y Libro de Ejercicios",
@@ -1640,7 +1640,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-070.webp"
     },
     {
-      "id": "pnl-guia-pratica-de-manipulacion-e-persuasion-como-influir-en-las-personas-usando-la-psicologia-oscu",
+      "id": "pnl-guia-pratica-de-manipulacion-e-persuasion-como-influir-en-las-personas-usando-la-psicologia-oscu-edicion-2",
       "filename": "PNL-Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
       "title": "PNL y Psicología Oscura: Estrategias de Influencia",
       "fullTitle": "PNL: Guía Práctica de Manipulación y Persuasión - Fundamentos de Programación Neurolingüística Aplicada",
@@ -2036,7 +2036,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-088.webp"
     },
     {
-      "id": "lenguaje-corporal",
+      "id": "lenguaje-corporal-edicion-2",
       "filename": "Lenguaje-Corporal.pdf",
       "title": "Manual Integral de Lenguaje Corporal y Kinésica",
       "fullTitle": "Manual Integral de Lenguaje Corporal, Microexpresiones y Detección de Incongruencias",
@@ -2476,7 +2476,7 @@ const COLECCION_DATA = {
       "coverImage": "assets/img/covers/cover_book_col-108.webp"
     },
     {
-      "id": "psicologia-oscura-fabian-goleman",
+      "id": "psicologia-oscura-fabian-goleman-edicion-2",
       "filename": "Psicologia-oscura-Fabian-Goleman.pdf",
       "title": "Psicología Oscura (2 Libros en 1): Persuasión y PNL",
       "fullTitle": "Psicología Oscura (2 Libros en 1): Psicología Oscura y Manipulación - Técnicas Secretas de Negociación y PNL",

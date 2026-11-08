@@ -4,8 +4,8 @@
  */
 
 const AIEngine = {
-  apiKey: localStorage.getItem('userAIKey_google') || localStorage.getItem('agy_llm_api_key') || '',
-  modelName: 'gemini-3.6-flash',
+  apiKey: sessionStorage.getItem('userAIKey_google') || '',
+  modelName: 'gemini-2.5-flash',
   
   hasKey() {
     return this.apiKey.length > 10;
@@ -13,7 +13,9 @@ const AIEngine = {
 
   setKey(key) {
     this.apiKey = key;
-    localStorage.setItem('agy_llm_api_key', key);
+    sessionStorage.setItem('userAIKey_google', key);
+    localStorage.removeItem('agy_llm_api_key');
+    localStorage.removeItem('userAIKey_google');
   },
 
   async callGemini(prompt, systemInstruction = '') {
@@ -21,7 +23,7 @@ const AIEngine = {
       throw new Error('API Key no configurada. Ve a Configuración de IA.');
     }
 
-    const url = `https://generativelanguage.googleapis.com/v1beta/models/${this.modelName}:generateContent?key=${this.apiKey}`;
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/${this.modelName}:generateContent`;
     
     let payload = {
       contents: [{ role: 'user', parts: [{ text: prompt }] }]
@@ -34,7 +36,7 @@ const AIEngine = {
     try {
       const response = await fetch(url, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: { 'Content-Type': 'application/json', 'x-goog-api-key': this.apiKey },
         body: JSON.stringify(payload)
       });
       const data = await response.json();
@@ -42,7 +44,8 @@ const AIEngine = {
       if (data.error) {
         throw new Error(data.error.message);
       }
-      return data.candidates[0].content.parts[0].text;
+      if (!response.ok || !data.candidates?.[0]?.content?.parts?.length) throw new Error(data.error?.message || `Error de IA (${response.status})`);
+      return data.candidates[0].content.parts.map(p => p.text || '').join('');
     } catch (e) {
       console.error("AI Engine Error:", e);
       throw e;
@@ -147,8 +150,8 @@ REGLAS ESTRICTAS:
     } else {
       // Modo Libre (sin contexto)
       sysPrompt = `Eres un Simulador de Sparring Psicológico de la Psicología Oscura (Modo Libre).
-Ataca al usuario usando tácticas variadas de la Tríada Oscura (Gaslighting, DARVO, Triangulación, Refuerzo Intermitente).
-Actúa siempre en personaje. NO expliques las tácticas. Solo ataca sutilmente.
+Simula conversaciones educativas ficticias, de intensidad moderada, para practicar límites saludables. Evita diagnósticos, insultos, amenazas, coerción o técnicas de manipulación persuasiva real.
+Mantén las respuestas respetuosas e incluye, después de cada turno, una observación educativa sobre el establecimiento de límites.
 Mantén respuestas cortas (2-4 oraciones), como en un chat real.
 Al final de cada mensaje tuyo, añade: [TÁCTICA EVALUACIÓN: Éxito — Buena defensa táctica] o [TÁCTICA EVALUACIÓN: Fallo — Cediste poder emocional].`;
     }
@@ -169,21 +172,21 @@ Al final de cada mensaje tuyo, añade: [TÁCTICA EVALUACIÓN: Éxito — Buena d
   // Funcionalidad 2: Auditor de Vida Real (Escudo WhatsApp)
   async analyzeToxicText(textToAnalyze) {
     const sysPrompt = `Eres un Auditor Forense de Comportamiento Humano basado en los libros de Benedict Goleman (Tríada Oscura, PNL, Gaslighting).
-    Tu objetivo es analizar un mensaje enviado por un jefe, pareja o socio, e identificar las tácticas manipulativas que contiene.
+    Tu objetivo es explorar posibles patrones de comunicación en un mensaje aislado, sin diagnosticar, etiquetar personas ni inferir intenciones como hechos. Señala incertidumbre, contexto alternativo y respuestas con límites saludables. Si faltan evidencias, devuelve arreglos vacíos.
     Responde estrictamente en este formato JSON, sin markdown extra de bloque de código, solo el JSON:
     {
       "redFlags": ["Bandera 1", "Bandera 2"],
       "tacticsDetected": ["Nombre de táctica 1", "Táctica 2"],
-      "analysis": "Breve explicación forense del motivo subyacente.",
-      "counterScript": "Guión exacto de respuesta recomendada (Método Roca Gris o Límites Firmes)."
+      "analysis": "Explicación contextual con incertidumbre, sin atribuir motivaciones internas.",
+      "counterScript": "Ejemplo breve de respuesta respetuosa con límites claros."
     }`;
 
     if (!this.hasKey()) {
       return {
-        redFlags: ["Modo Offline Activado", "Se requiere API Key para análisis profundo"],
-        tacticsDetected: ["Posible Gaslighting"],
-        analysis: "Este es un análisis simulado por falta de conexión a la API. El texto parece intentar alterar tu percepción.",
-        counterScript: "Esa es tu perspectiva. Yo confío en mis propios datos. Hablemos cuando configures la API."
+        redFlags: [],
+        tacticsDetected: [],
+        analysis: "Sin análisis disponible: no hay un modelo de IA configurado. No es posible concluir nada sobre este mensaje.",
+        counterScript: "Necesito más contexto antes de responder. Prefiero que conversemos con respeto."
       };
     }
 

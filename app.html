@@ -38,7 +38,7 @@
   <!-- Catálogo de Metadatos de Libros (Carga Prioritaria) -->
   <script src="js/coleccion_data.js?v=3.0"></script>
 
-  <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@11.4.1/dist/mermaid.min.js"></script>
   <script>
     document.addEventListener("DOMContentLoaded", () => {
       mermaid.initialize({ startOnLoad: false, theme: 'dark', fontFamily: 'monospace' });
@@ -231,7 +231,7 @@
                 <i class="fa-solid fa-moon text-amber-400 w-4 text-center"></i> Tema Visual
               </button>
               
-              <button onclick="App.unlockAll()" id="headerGodModeBtn" class="flex items-center gap-2.5 w-full px-3 py-2.5 text-left text-xs font-semibold text-amber-500 hover:bg-slate-800/80 rounded-lg transition-colors">
+              <button onclick="App.unlockAll()" id="headerGodModeBtn" hidden aria-hidden="true" class="flex items-center gap-2.5 w-full px-3 py-2.5 text-left text-xs font-semibold text-amber-500 hover:bg-slate-800/80 rounded-lg transition-colors">
                 <i class="fa-solid fa-unlock-keyhole text-amber-500 w-4 text-center"></i> Modo Dios
               </button>
             </div></div>
@@ -305,7 +305,7 @@
             <button onclick="App.switchTab('audiolibros')" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="audiolibros"><i class="fa-solid fa-headphones w-4 text-center text-cyan-400"></i> Audioteca Táctica (20)</button>
             <button onclick="App.switchTab('biblioteca')" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="biblioteca"><i class="fa-solid fa-book-bookmark w-4 text-center text-amber-400"></i> Gran Biblioteca (94)</button>
             <button onclick="App.switchTab('glossary')" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="glossary"><i class="fa-solid fa-file-word w-4 text-center"></i> Glosario</button>
-            <button onclick="App.switchTab('noverbal')" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="noverbal"><i class="fa-solid fa-eye w-4 text-center"></i> No Verbal</button>
+            <button onclick="App.switchTab('bodylab')" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="noverbal"><i class="fa-solid fa-eye w-4 text-center"></i> No Verbal</button>
             <button onclick="App.switchTab('quizzes')" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="quizzes"><i class="fa-solid fa-trophy w-4 text-center text-amber-500"></i> Quizzes</button>
             <button onclick="App.switchTab('skilltree')" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="skilltree"><i class="fa-solid fa-sitemap w-4 text-center text-emerald-400"></i> Skill Tree</button>
             <button onclick="App.switchTab('sparring')" class="nav-tab px-4 py-3 text-left hover:bg-slate-800 text-sm font-medium flex items-center gap-3 text-slate-300 border-b border-slate-800/50" data-target="sparring"><i class="fa-solid fa-robot w-4 text-center text-cyan-400"></i> Sparring AI</button>
@@ -363,7 +363,8 @@
         (function() {
           try {
             const urlParams = new URLSearchParams(window.location.search);
-            const bookId = urlParams.get('book');
+            const rawBookId = urlParams.get('book');
+      const bookId = rawBookId && /^[a-z0-9_-]{1,120}$/i.test(rawBookId) ? rawBookId : null;
             if (!bookId) return;
 
             let book = null;
@@ -838,7 +839,7 @@
 
         <!-- Selector de Filtro de Flashcards -->
         <div class="flex items-center gap-2 flex-wrap">
-          <button id="btnRapidReview" onclick="App.toggleRapidReview()" class="bg-slate-900 border border-slate-700 text-slate-400 hover:text-white px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all" title="Estudiar solo tarjetas difíciles">
+          <button id="btnRapidReview" type="button" aria-pressed="false" onclick="App.toggleRapidReview()" class="bg-slate-900 border border-slate-700 text-slate-400 hover:text-white px-3 py-1.5 rounded-lg text-xs font-semibold flex items-center gap-1.5 transition-all" title="Estudiar solo tarjetas difíciles">
             <i class="fa-solid fa-fire-flame-curved"></i> Revisión Rápida
           </button>
           <select id="flashcardBookFilter" onchange="App.filterFlashcards(this.value)" class="bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-lg px-3 py-1.5 focus:outline-none focus:border-cyan-500">
@@ -989,18 +990,18 @@
       <div class="glass-card p-6 rounded-2xl border border-slate-800 flex flex-col md:flex-row md:items-center justify-between gap-4">
         <div>
           <h2 class="text-xl font-bold text-white flex items-center gap-2">
-            <i class="fa-solid fa-award text-amber-400"></i> Certificado de Maestría Táctica
+            <i class="fa-solid fa-award text-amber-400"></i> Constancia de aprendizaje (interna)
           </h2>
           <p class="text-xs text-slate-400 mt-1">
-            Genera y descarga tu acreditación oficial de habilidades en Psicología Oscura y Defensa Conductual.
+            Constancia interna de finalización del libro seleccionado. Requiere aprobar y completar las lecciones; no es un título ni acreditación oficial.
           </p>
         </div>
 
         <div class="flex items-center gap-3">
 
           <input type="text" id="certUserNameInput" oninput="App.saveCertName(this.value)" placeholder="Escribe tu nombre..." class="bg-slate-900 border border-slate-700 text-xs text-slate-200 rounded-xl px-3 py-2 focus:outline-none focus:border-cyan-500">
-          <button onclick="App.downloadCertificate()" class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-slate-950 font-bold text-xs rounded-xl shadow-lg shadow-cyan-500/25 flex items-center gap-2">
-            <i class="fa-solid fa-download"></i> Descargar Diploma PNG
+          <button id="downloadCourseCertificateBtn" onclick="App.downloadCertificate()" class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-slate-950 font-bold text-xs rounded-xl shadow-lg shadow-cyan-500/25 flex items-center gap-2">
+            <i class="fa-solid fa-download"></i> Descargar constancia PNG
           </button>
         </div>
       </div>
@@ -1630,7 +1631,7 @@
           <p class="text-xs text-amber-200/70 mb-3">
             Si eres un auditor del curso o prefieres una exploración tipo "sandbox" a riesgo de comprometer la retención del conocimiento, puedes usar el Modo Dios.
           </p>
-          <button onclick="document.getElementById('methodologyModal').classList.add('hidden'); App.unlockAll();" class="px-4 py-2 bg-amber-500 text-amber-950 rounded-lg text-sm font-bold shadow-lg shadow-amber-500/20 hover:bg-amber-400 transition-colors">
+          <button onclick="document.getElementById('methodologyModal').classList.add('hidden'); App.switchTab('learning');" class="px-4 py-2 bg-amber-500 text-amber-950 rounded-lg text-sm font-bold shadow-lg shadow-amber-500/20 hover:bg-amber-400 transition-colors">
             Activar Modo Dios Ahora
           </button>
         </div>
@@ -1786,7 +1787,8 @@
   </div>
 
   <!-- Scripts Neural OS -->
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/marked@15.0.12/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.2.6/dist/purify.min.js"></script>
 
   <!-- Enrutador Dinámico de Libros con Sincronización Blindada y Fallback -->
   <script>
@@ -1833,17 +1835,17 @@
     })();
   </script>
   
-  <script src="js/audioplayer_engine.js?v=3.1"></script>
-  <script src="js/biblioteca_engine.js?v=3.0"></script>
+  <script src="js/audioplayer_engine.js?v=3.2"></script>
+  <script src="js/biblioteca_engine.js?v=3.1"></script>
   <script src="js/audio_engine.js?v=4.0"></script>
-  <script src="js/cv_engine.js?v=4.0"></script>
-  <script src="js/ai_engine.js?v=4.0"></script>
+  <script src="js/cv_engine.js?v=4.1"></script>
+  <script src="js/ai_engine.js?v=4.1"></script>
   <!-- Face-API.js -->
   <script defer src="https://cdn.jsdelivr.net/npm/face-api.js@0.22.2/dist/face-api.min.js"></script>
   <!-- SweetAlert2 -->
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <!-- Main Application Logic (V7.4.0 Zenit Cortex) -->
-  <script src="js/app.js?v=7.4.0"></script>
+  <script src="js/app.js?v=7.5.0"></script>
 
   <footer class="mt-16 py-8 border-t border-slate-800/60 bg-slate-950/50 text-center relative z-20">
     <div class="container mx-auto px-4">
@@ -2128,7 +2130,7 @@
 
       <!-- Contenedor del PDF (Iframe Nativo de Alta Compatibilidad) -->
       <div class="flex-1 w-full h-full bg-slate-950 relative">
-        <iframe id="pdfModalIframe" src="about:blank" class="w-full h-full border-none" title="Visor de PDF"></iframe>
+        <iframe id="pdfModalIframe" referrerpolicy="no-referrer" src="about:blank" class="w-full h-full border-none" title="Visor de PDF"></iframe>
       </div>
     </div>
   </div>

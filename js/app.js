@@ -1,5 +1,14 @@
 // app.js - NEURO-TACTICAL OS v2.0 — FULL REBUILD (ALL FUNCTIONS IMPLEMENTED)
 const App = {
+  escapeHTML(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));},
+  getBookScope(){return window.ACTIVE_BOOK_DATA?.id||new URLSearchParams(window.location.search).get('book')||'psicologia-obscura-6-en-1';},
+  getProgressKey(){return `pso_progress_v5:${this.getBookScope()}`;},
+  getPillarScoresKey(){return `userPillarScores:${this.getBookScope()}`;},
+  getPillarScores(){try{return JSON.parse(localStorage.getItem(this.getPillarScoresKey())||(!window.location.search?localStorage.getItem('userPillarScores'):null)||'{}')||{}}catch{return {}}},
+  isCourseComplete(){
+    const d=this.getLibrosData(),completed=this.state.progress?.completedLessons||{},scores=this.getPillarScores();
+    return !!(d?.modules?.length && d.modules.every(m=>m.keyPillars?.length&&m.keyPillars.every((_,i)=>completed[`m${m.bookNumber}-${i}`]===true&&scores[`score_m${m.bookNumber}_p${i}`]?.passed===true)));
+  },
   state: {
     activeTab: 'dashboard',
     currentCaseIndex: 0,
@@ -41,14 +50,14 @@ const App = {
           if (window.Swal) {
               Swal.fire({
                   title: 'Bases Científicas Activadas',
-                  text: 'El motor revelará referencias ocultas del DSM-5, citas de PubMed y análisis neurocientíficos profundos.',
+                  text: 'Se resaltarán fuentes disponibles. Las explicaciones no sustituyen la revisión científica ni la atención clínica.',
                   icon: 'info',
                   background: '#0B1120',
                   color: '#fff',
                   confirmButtonColor: '#06b6d4'
               });
           } else {
-              alert("🔬 MODO CIENCIAS ACTIVADO\n\nEl motor revelará referencias ocultas del DSM-5, citas de PubMed y análisis neurocientíficos profundos.");
+              alert('Modo científico: se muestran fuentes disponibles. Las afirmaciones deben contrastarse con fuentes científicas y profesionales.');
           }
       } else {
           icon.classList.remove('text-rose-500', 'fa-beat-fade');
@@ -67,7 +76,7 @@ const App = {
       }
       
       // Force re-render if in learning tab
-      if (this.state.currentTab === 'learning' && this.state.activeModule !== null) {
+      if (this.state.activeTab === 'learning' && this.state.activeModule !== null) {
           this.goToModule(this.state.activeModule);
       }
   },
@@ -96,10 +105,12 @@ const App = {
 
   onBookDataReady() {
     this.initActiveBook();
+    this.loadProgress();
     this.renderDashboard();
     if (this.state.activeTab === 'learning') {
       this.renderLearningPath();
     }
+    this.state.filteredFlashcards = null;
     this.loadFlashcards();
     this.renderMatrixFilters();
     this.filterMatrix('all');
@@ -112,6 +123,8 @@ const App = {
 
   init() {
       window.App = this;
+      for (const provider of ['google','groq','mistral','huggingface']) localStorage.removeItem(`userAIKey_${provider}`);
+      localStorage.removeItem('agy_llm_api_key');
       // Load theme
       if (localStorage.getItem('pso_theme') === 'light') {
           document.documentElement.classList.add('light-theme');
@@ -187,82 +200,45 @@ const App = {
     });
   },
 
-  loadProgress() {
-    const saved = localStorage.getItem('pso_progress_v4');
-    if (saved) {
-      try {
-        const parsed = JSON.parse(saved);
-        this.state = { ...this.state, ...parsed };
-      } catch(e) { console.error('Progress load error', e); }
-    }
-    // Bulletproof state structure
-    if (!this.state.progress) this.state.progress = {};
-    if (!this.state.progress.unlockedLessons) this.state.progress.unlockedLessons = { 'm1-0': true };
-    if (typeof this.state.level !== 'number') this.state.level = 1;
-    if (typeof this.state.xp !== 'number') this.state.xp = 0;
-    if (typeof this.state.flashcardsDone !== 'number') this.state.flashcardsDone = 0;
-    if (typeof this.state.casesSolved !== 'number') this.state.casesSolved = 0;
-    if (typeof this.state.quizScore !== 'number') this.state.quizScore = 0;
-    
-    this.updateAllUI();
-  },
-
-  saveProgress() {
-    const toSave = {
-      progress: this.state.progress,
-      quizScore: this.state.quizScore,
-      quizAnswered: this.state.quizAnswered,
-      casesSolved: this.state.casesSolved,
-      flashcardsDone: this.state.flashcardsDone,
-      level: this.state.level,
-      xp: this.state.xp,
-      certName: this.state.certName,
-      userNotes: this.state.userNotes
-    };
-    localStorage.setItem('pso_progress_v4', JSON.stringify(toSave));
-    this.updateAllUI();
-  },
-
-  updateAllUI() {
-    if (typeof LIBROS_DATA === 'undefined') return;
-    const unlocked = Object.keys(this.state.progress.unlockedLessons);
-    const completed = Math.max(0, unlocked.length - 1);
-    let total = 0;
-    LIBROS_DATA.modules.forEach(m => total += m.keyPillars.length);
-    const pct = total > 0 ? Math.min(100, Math.round((completed / total) * 100)) : 0;
-
-    // Dashboard stats
-    const dp = document.getElementById('dashProgressPercent');
-    if (dp) dp.textContent = pct + '%';
-    const db = document.getElementById('dashProgressBar');
-    if (db) db.style.width = pct + '%';
-    const df = document.getElementById('dashFlashcardsLearned');
-    if (df) df.textContent = this.state.flashcardsDone + ' / ' + (LIBROS_DATA.flashcards ? LIBROS_DATA.flashcards.length : 18);
-    const dc = document.getElementById('dashCasesSolved');
-    if (dc) dc.textContent = this.state.casesSolved + ' / ' + (LIBROS_DATA.caseScenarios ? LIBROS_DATA.caseScenarios.length : 8);
-    const dq = document.getElementById('dashQuizScore');
-    if (dq) dq.textContent = this.state.quizScore + ' pts';
-
-    // Streak
-    const stEl = document.getElementById('streakCounterText');
-    if (stEl) stEl.textContent = (this.state.progress.streak || 0) + ' Días';
-
-    // Header level
-    const lvlEl = document.getElementById('globalLevelText');
-    if (lvlEl) {
-      const levels = ['Novato', 'Observador', 'Analista', 'Táctico', 'Maestro'];
-      lvlEl.textContent = levels[Math.min(this.state.level - 1, levels.length - 1)];
-    }
-
-    // Header progress circle
-    const circle = document.getElementById('globalProgressCircle');
-    if (circle) circle.textContent = pct + '%';
-
-    // Quiz score badge
-    const qb = document.getElementById('quizScoreBadge');
-    if (qb && LIBROS_DATA.quizzes) qb.textContent = `Puntuación: ${this.state.quizScore} / ${LIBROS_DATA.quizzes.length}`;
-  },
-
+  loadProgress(){
+  const saved=localStorage.getItem(this.getProgressKey())||(!window.location.search?localStorage.getItem('pso_progress_v4'):null);
+  if(saved){try{this.state={...this.state,...JSON.parse(saved)}}catch(e){console.error('Error al restaurar progreso',e)}}
+  this.state.progress??={};
+  this.state.progress.unlockedLessons??={'m1-0':true};
+  this.state.progress.completedLessons??={};
+  this.state.progress.flashcardRatings??={};
+  this.state.progress.solvedCaseIds??={};
+  this.state.progress.quizRewards??={};
+  this.state.userNotes??={};
+  this.state.quizAnswered??={};
+  for(const k of ['level','xp','quizScore'])if(!Number.isFinite(this.state[k]))this.state[k]=k==='level'?1:0;
+  this.updateAllUI();
+},
+  saveProgress(){
+  const out={};
+  for(const k of ['progress','quizScore','quizAnswered','casesSolved','flashcardsDone','level','xp','certName','userNotes'])out[k]=this.state[k];
+  try{localStorage.setItem(this.getProgressKey(),JSON.stringify(out))}catch(e){this.showToast('No se pudo guardar: almacenamiento lleno.','error')}
+  this.updateAllUI();
+},
+  updateAllUI(){
+  const d=this.getLibrosData();if(!d?.modules)return;
+  const completed=this.state.progress?.completedLessons||{};
+  const total=d.modules.reduce((n,m)=>n+(m.keyPillars?.length||0),0);
+  const count=d.modules.reduce((n,m)=>n+(m.keyPillars||[]).filter((_,i)=>completed[`m${m.bookNumber}-${i}`]).length,0);
+  const pct=total?Math.round(100*count/total):0;
+  this.state.flashcardsDone=Object.values(this.state.progress?.flashcardRatings||{}).filter(x=>(x?.rating||x)==='easy').length;
+  this.state.casesSolved=Object.keys(this.state.progress?.solvedCaseIds||{}).length;
+  const set=(id,val)=>{const el=document.getElementById(id);if(el)el.textContent=String(val)};
+  set('dashProgressPercent',pct+'%');
+  const bar=document.getElementById('dashProgressBar');if(bar)bar.style.width=pct+'%';
+  set('dashFlashcardsLearned',`${this.state.flashcardsDone} / ${d.flashcards?.length||0}`);
+  set('dashCasesSolved',`${this.state.casesSolved} / ${d.caseScenarios?.length||0}`);
+  set('dashQuizScore',this.state.quizScore+' pts');
+  set('streakCounterText',(this.state.progress?.streak||0)+' Días');
+  set('globalLevelText',['Novato','Observador','Analista','Táctico','Maestro'][Math.max(0,Math.min(this.state.level-1,4))]);
+  set('globalProgressCircle',pct+'%');set('globalProgressCircleText',pct+'%');
+  if(d.quizzes)set('quizScoreBadge',`Puntuación: ${this.state.quizScore} / ${d.quizzes.length}`);
+},
   playSound(type) {
     // Minimal audio feedback via AudioEngine if available
     if (typeof AudioEngine !== 'undefined' && AudioEngine.ctx && type === 'success') {
@@ -443,7 +419,7 @@ const App = {
 
     // Consultamos si ya tiene nota previa guardada
     const scoreKey = `score_m${modNumber}_p${pIndex}`;
-    const scores = JSON.parse(localStorage.getItem('userPillarScores') || '{}');
+    const scores = this.getPillarScores();
     const pastResult = scores[scoreKey] || null;
 
     // Actualizar estado del botón de completar lección
@@ -776,9 +752,7 @@ const App = {
 
     if (isCorrect) {
       state.score++;
-      let earnedXP = 25;
-      if (isFast) earnedXP += 15; // Bonificación de agilidad mental
-      this.addXP(earnedXP);
+      // Recompensa única al aprobar: evitar XP infinito por reintentos.
     }
 
     q.options.forEach((_, i) => {
@@ -850,8 +824,9 @@ const App = {
 
     // Guardar nota y medalla en el historial del usuario
     const scoreKey = `score_m${state.modNumber}_p${state.pIndex}`;
-    let allScores = JSON.parse(localStorage.getItem('userPillarScores') || '{}');
-    allScores[scoreKey] = {
+    let allScores = this.getPillarScores();
+    const priorScore = allScores[scoreKey];
+    const newScore = {
       score: state.score,
       total: state.totalSteps,
       percentage: state.score * 20,
@@ -859,7 +834,8 @@ const App = {
       tier: isGold ? 'Oro' : (isSilver ? 'Plata' : 'Sin Calificar'),
       timestamp: new Date().toISOString()
     };
-    localStorage.setItem('userPillarScores', JSON.stringify(allScores));
+    if (!priorScore || newScore.score >= priorScore.score) allScores[scoreKey] = newScore;
+    localStorage.setItem(this.getPillarScoresKey(), JSON.stringify(allScores));
 
     if (isPassed) {
       const badgeKey = `badge_m${state.modNumber}_p${state.pIndex}`;
@@ -869,10 +845,12 @@ const App = {
         tier: isGold ? 'Oro' : 'Plata',
         timestamp: new Date().toISOString()
       };
-      let badges = JSON.parse(localStorage.getItem('userTacticalBadges') || '{}');
+      let badges = JSON.parse(localStorage.getItem(`userTacticalBadges:${this.getBookScope()}`) || '{}');
       badges[badgeKey] = badgeData;
-      localStorage.setItem('userTacticalBadges', JSON.stringify(badges));
-      this.addXP(isGold ? 125 : 100);
+      localStorage.setItem(`userTacticalBadges:${this.getBookScope()}`, JSON.stringify(badges));
+      this.state.progress.quizRewards ??= {};
+      if (!this.state.progress.quizRewards[scoreKey]) { this.state.progress.quizRewards[scoreKey] = true; this.addXP(isGold ? 125 : 100); }
+      this.saveProgress();
     }
 
     const btnComplete = document.getElementById('btnCompleteLesson');
@@ -1158,7 +1136,7 @@ const App = {
     keys.forEach(k => {
       const input = document.getElementById(`key_${k}`);
       if (input) {
-        input.value = localStorage.getItem(`userAIKey_${k}`) || '';
+        input.value = sessionStorage.getItem(`userAIKey_${k}`) || '';
       }
     });
 
@@ -1181,7 +1159,9 @@ const App = {
       const input = document.getElementById(`key_${k}`);
       if (input) {
         const val = input.value.trim();
-        localStorage.setItem(`userAIKey_${k}`, val);
+        if (val) sessionStorage.setItem(`userAIKey_${k}`, val);
+        else sessionStorage.removeItem(`userAIKey_${k}`);
+        localStorage.removeItem(`userAIKey_${k}`);
         if (k === 'google' && typeof AIEngine !== 'undefined') {
           AIEngine.apiKey = val;
         }
@@ -1197,7 +1177,7 @@ const App = {
     const provider = providerSelect ? providerSelect.value : 'local';
 
     if (provider === 'local') {
-      this.showToast('Modo Local: 100% Operativo (Sin necesidad de conexión).', 'success');
+      this.showToast('Modo local: recursos y ejercicios sin IA generativa.', 'info');
       return;
     }
 
@@ -1213,9 +1193,9 @@ const App = {
 
     try {
       if (provider === 'google') {
-        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${key}`, {
+        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${AIEngine.modelName}:generateContent`, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
           body: JSON.stringify({ contents: [{ parts: [{ text: 'Responde solo: OK' }] }] })
         });
         const data = await res.json();
@@ -1263,7 +1243,7 @@ const App = {
           throw new Error(data.error ? data.error.message : 'Error de clave');
         }
       } else if (provider === 'huggingface') {
-        this.showToast('✅ Token de Hugging Face configurado correctamente.', 'success');
+        this.showToast('Token recibido. No hay prueba de conectividad configurada para Hugging Face.', 'info');
       }
     } catch (err) {
       this.showToast(`❌ Error de conexión: ${err.message}`, 'error');
@@ -1480,7 +1460,7 @@ const App = {
             icon: 'fa-graduation-cap text-indigo-400',
             title: curatedModTitle,
             sub: `Módulo ${m.bookNumber}`,
-            action: `App.switchTab('learning'); App.openLessonModal('m${m.bookNumber}-0');`
+            action: `App.switchTab('learning'); App.openLessonModal(${m.bookNumber}, 0);`
           });
         }
       });
@@ -1497,10 +1477,10 @@ const App = {
             <i class="fa-solid ${r.icon} text-xs"></i>
           </div>
           <div class="min-w-0 flex-1">
-            <div class="text-xs font-bold text-slate-200 truncate">${r.title}</div>
+            <div class="text-xs font-bold text-slate-200 truncate">${this.escapeHTML(r.title)}</div>
             <div class="text-[10px] text-slate-400 font-mono flex items-center gap-1.5">
-              <span class="text-cyan-400 font-semibold">[${r.type}]</span>
-              <span>${r.sub}</span>
+              <span class="text-cyan-400 font-semibold">[${this.escapeHTML(r.type)}]</span>
+              <span>${this.escapeHTML(r.sub)}</span>
             </div>
           </div>
         </div>
@@ -1567,20 +1547,20 @@ const App = {
     // 2. Hero Category Badge
     const heroCategory = document.getElementById('heroBookCategory');
     if (heroCategory) {
-      heroCategory.innerHTML = `<i class="fa-solid ${book.categoryIcon || 'fa-book-bookmark'} text-cyan-400"></i> ${book.categoryName ? book.categoryName.toUpperCase() : 'LIBRO EN ESTUDIO'}${book.timeEstimate ? ` • ${book.timeEstimate}` : ''}`;
+      heroCategory.innerHTML = `<i class="fa-solid ${book.categoryIcon || 'fa-book-bookmark'} text-cyan-400"></i> ${this.escapeHTML(book.categoryName ? book.categoryName.toUpperCase() : 'LIBRO EN ESTUDIO')}${book.timeEstimate ? ` • ${book.timeEstimate}` : ''}`;
     }
 
     // 3. Hero Title
     const heroTitle = document.getElementById('heroBookTitle');
     if (heroTitle) {
-      heroTitle.innerHTML = `<span class="text-white drop-shadow-lg">${book.title}</span>`;
+      heroTitle.innerHTML = `<span class="text-white drop-shadow-lg">${this.escapeHTML(book.title)}</span>`;
     }
 
     // 4. Hero Description & Author
     const heroDesc = document.getElementById('heroBookDesc');
     if (heroDesc) {
-      const authorHtml = book.author ? `<div class="flex items-center gap-2 text-cyan-400 font-bold text-base sm:text-lg mb-1"><i class="fa-solid fa-pen-nib"></i> ${book.author}</div>` : '';
-      const fullTitleHtml = (book.fullTitle && book.fullTitle !== book.title) ? `<p class="text-slate-300 text-xs sm:text-sm italic mb-2 leading-relaxed">${book.fullTitle}</p>` : '';
+      const authorHtml = book.author ? `<div class="flex items-center gap-2 text-cyan-400 font-bold text-base sm:text-lg mb-1"><i class="fa-solid fa-pen-nib"></i> ${this.escapeHTML(book.author)}</div>` : '';
+      const fullTitleHtml = (book.fullTitle && book.fullTitle !== book.title) ? `<p class="text-slate-300 text-xs sm:text-sm italic mb-2 leading-relaxed">${this.escapeHTML(book.fullTitle)}</p>` : '';
       heroDesc.innerHTML = `${authorHtml}${fullTitleHtml}<p class="text-slate-400 text-xs sm:text-sm">Explora este libro mediante lecciones secuenciales, ilustraciones tácticas de alta definición, evaluaciones diagnósticas y simulador de toma de decisiones.</p>`;
     }
 
@@ -1758,7 +1738,7 @@ const App = {
       let modCompletedCount = 0;
       m.keyPillars.forEach((_, pi) => {
         const nextId = pi + 1 < m.keyPillars.length ? `m${m.bookNumber}-${pi+1}` : `m${m.bookNumber+1}-0`;
-        if (this.state.progress.unlockedLessons && this.state.progress.unlockedLessons[nextId]) modCompletedCount++;
+        if (this.state.progress.completedLessons && this.state.progress.completedLessons[`m${m.bookNumber}-${pi}`]) modCompletedCount++;
       });
       const modTotal = m.keyPillars.length;
       const modPct = Math.round((modCompletedCount / modTotal) * 100);
@@ -1859,7 +1839,7 @@ const App = {
       let modCompletedCount = 0;
       mod.keyPillars.forEach((_, pi) => {
         const nextId = pi + 1 < mod.keyPillars.length ? `m${mod.bookNumber}-${pi+1}` : `m${mod.bookNumber+1}-0`;
-        if (this.state.progress.unlockedLessons && this.state.progress.unlockedLessons[nextId]) modCompletedCount++;
+        if (this.state.progress.completedLessons && this.state.progress.completedLessons[`m${mod.bookNumber}-${pi}`]) modCompletedCount++;
       });
       const modTotal = mod.keyPillars.length;
       const modPct = Math.round((modCompletedCount / modTotal) * 100);
@@ -1889,11 +1869,9 @@ const App = {
       mod.keyPillars.forEach((pillar, pIndex) => {
         const lessonId = `m${mod.bookNumber}-${pIndex}`;
         const nextId = pIndex + 1 < mod.keyPillars.length ? `m${mod.bookNumber}-${pIndex+1}` : `m${mod.bookNumber+1}-0`;
-        const isFirst = mod.bookNumber === 1 && pIndex === 0;
+        const isFirst = mod === data.modules[0] && pIndex === 0;
         const isUnlocked = isFirst || this.state.progress.unlockedLessons[lessonId];
-        const isCompleted = this.state.progress.unlockedLessons[nextId] && pIndex + 1 < mod.keyPillars.length
-          ? true
-          : this.state.progress.unlockedLessons[`m${mod.bookNumber+1}-0`] && pIndex === mod.keyPillars.length - 1;
+        const isCompleted = !!this.state.progress.completedLessons?.[lessonId];
 
         const actuallyUnlocked = isUnlocked && prevModCompleted;
         const pillarTitle = this.curateTitle(pillar.title);
@@ -1956,7 +1934,7 @@ const App = {
     const pillar = mod.keyPillars[pIndex];
     if (!pillar) return;
 
-    document.getElementById('lessonModalTitle').innerHTML = `<i class="fa-solid fa-brain"></i> ${this.curateTitle(pillar.title)}`;
+    document.getElementById('lessonModalTitle').innerHTML = `<i class="fa-solid fa-brain"></i> ${this.escapeHTML(this.curateTitle(pillar.title))}`;
 
     const notes = this.state.userNotes[`m${modNumber}-${pIndex}`] || '';
     
@@ -2189,9 +2167,10 @@ const App = {
          if (typeof marked !== 'undefined') {
             parsedHtml = typeof marked.parse === 'function' ? marked.parse(rawMd) : marked(rawMd);
          } else {
-            parsedHtml = '<div class="whitespace-pre-wrap text-slate-300 font-sans leading-relaxed text-sm">' + rawMd + '</div>';
+            parsedHtml = '<div class="whitespace-pre-wrap text-slate-300 font-sans leading-relaxed text-sm">' + this.escapeHTML(rawMd) + '</div>';
          }
          
+         parsedHtml = typeof DOMPurify !== 'undefined' ? DOMPurify.sanitize(parsedHtml, { USE_PROFILES: { html: true } }) : this.escapeHTML(rawMd);
          const titlesMap = (typeof CHAPTER_TITLES !== 'undefined' ? CHAPTER_TITLES : null) || (typeof window !== 'undefined' ? window.CHAPTER_TITLES : null) || {};
          const safeChapterName = chapterName || '';
          const cleanTitle = titlesMap[safeChapterName] || safeChapterName.replace(/_/g, ' ').replace(/^Tema\s*\d+\s*/i, '').trim();
@@ -2318,26 +2297,20 @@ const App = {
     document.body.style.overflow = '';
   },
 
-  completeLesson(modNumber, pIndex) {
-    if (typeof LIBROS_DATA === 'undefined') return;
-    const mod = LIBROS_DATA.modules.find(m => m.bookNumber === modNumber);
-    let nextId = pIndex + 1 < mod.keyPillars.length ? `m${modNumber}-${pIndex+1}` : `m${modNumber+1}-0`;
-
-    if (!this.state.progress.unlockedLessons) this.state.progress.unlockedLessons = {};
-    this.state.progress.unlockedLessons[`m${modNumber}-${pIndex}`] = true;
-    this.state.progress.unlockedLessons[nextId] = true;
-
-    this.addXP(25);
-    this.saveProgress();
-    this.closeLessonModal();
-    this.renderLearningPath();
-    if (typeof confetti === 'function') confetti({ particleCount: 120, spread: 80, origin: { y: 0.6 } });
-    this.showToast('✅ ¡Pilar dominado! +25 XP', 'success');
-  },
-
-  // =============================================
-  // MATRIZ TÁCTICA
-  // =============================================
+  completeLesson(modNumber,pIndex){
+  const d=this.getLibrosData(),m=d?.modules?.find(x=>x.bookNumber===modNumber),id=`m${modNumber}-${pIndex}`;
+  if(!m?.keyPillars?.[pIndex])return;
+  if(!this.getPillarScores()[`score_m${modNumber}_p${pIndex}`]?.passed){this.showToast('Primero debes aprobar la evaluación de esta lección.','error');return}
+  this.state.progress.completedLessons??={};this.state.progress.unlockedLessons??={};
+  const first=!this.state.progress.completedLessons[id];
+  this.state.progress.completedLessons[id]=true;this.state.progress.unlockedLessons[id]=true;
+  const mi=d.modules.indexOf(m),next=pIndex+1<m.keyPillars.length?`m${modNumber}-${pIndex+1}`:d.modules[mi+1]?`m${d.modules[mi+1].bookNumber}-0`:null;
+  if(next)this.state.progress.unlockedLessons[next]=true;
+  if(first)this.addXP(25);
+  this.saveProgress();this.closeLessonModal();this.renderLearningPath();
+  if(first&&typeof confetti==='function')confetti({particleCount:60,spread:65,origin:{y:0.6}});
+  this.showToast(first?'Lección completada y registrada.':'Lección ya completada.','success');
+},
   renderMatrix(filter = 'all') {
     const container = document.getElementById('matrixGrid');
     if (!container || typeof LIBROS_DATA === 'undefined') return;
@@ -2452,7 +2425,7 @@ const App = {
     const area = document.getElementById('simulatorPlayerArea');
     const isGood = opt.wisdomScore > 50;
 
-    if (isGood) { this.state.casesSolved++; this.addXP(20); this.saveProgress(); }
+    if (isGood) { this.state.progress.solvedCaseIds ??= {}; if (!this.state.progress.solvedCaseIds[caseData.id]) { this.state.progress.solvedCaseIds[caseData.id] = true; this.addXP(20); } this.saveProgress(); }
 
     area.innerHTML = `
       <div class="glass-card p-6 rounded-2xl border border-slate-800 text-center mb-5">
@@ -2521,7 +2494,7 @@ const App = {
     this.loadFlashcards();
     const frontEl = document.getElementById('fcFrontText');
     if (!frontEl || !this.state.filteredFlashcards || this.state.filteredFlashcards.length === 0) {
-      if (frontEl) frontEl.textContent = 'No hay flashcards disponibles';
+      if (frontEl) frontEl.textContent = this.state.rapidReview ? 'No tienes tarjetas pendientes por ahora. Vuelve más tarde.' : 'No hay flashcards disponibles';
       return;
     }
 
@@ -2535,6 +2508,7 @@ const App = {
     if (catEl) catEl.textContent = card.category || 'General';
     if (frontEl) frontEl.textContent = card.front;
     const imgEl = document.getElementById('fcFrontImg');
+    if (imgEl) imgEl.loading = 'lazy';
     if (imgEl) imgEl.src = 'assets/img/psicologia_obscura_6en1/flashcards/' + card.id + '.jpg';
     const backEl = document.getElementById('fcBackText');
     if (backEl) backEl.textContent = card.back;
@@ -2551,21 +2525,20 @@ const App = {
     if (inner) inner.classList.toggle('flipped');
   },
 
-  rateFlashcard(rating) {
-    const cards = this.filterFlashcards();
-    const currentCard = cards[this.state.currentFlashcardIndex];
-    if (!currentCard) return;
-
-    // Save rating
-    if (!this.state.progress.flashcardRatings) this.state.progress.flashcardRatings = {};
-    this.state.progress.flashcardRatings[currentCard.id] = rating;
-
-    if (rating === 'easy') { this.state.flashcardsDone++; this.addXP(5); }
-    
-    this.nextFlashcard();
-    this.saveProgress();
-  },
-
+  rateFlashcard(rating){
+  const card=this.state.filteredFlashcards?.[this.state.currentFlashcardIndex];
+  if(!card||!['hard','medium','easy'].includes(rating))return;
+  this.state.progress.flashcardRatings??={};
+  const prior=this.state.progress.flashcardRatings[card.id]||{};
+  const n=rating==='hard'?0:(prior.repetitions||0)+1;
+  const ease=Math.max(1.3,(prior.ease||2.5)+(rating==='easy'?.1:rating==='medium'?-.15:-.25));
+  const intervalDays=rating==='hard'?0:rating==='medium'?1:n===1?1:n===2?3:Math.max(1,Math.round((prior.intervalDays||3)*ease));
+  this.state.progress.flashcardRatings[card.id]={rating,repetitions:n,ease,intervalDays,lastReviewed:new Date().toISOString(),dueAt:new Date(Date.now()+(rating==='hard'?600000:intervalDays*86400000)).toISOString()};
+  if(rating==='easy'&&!prior.rewarded){this.addXP(5);this.state.progress.flashcardRatings[card.id].rewarded=true;}
+  else this.state.progress.flashcardRatings[card.id].rewarded=!!prior.rewarded;
+  this.saveProgress();
+  if(this.state.rapidReview)this.filterFlashcards();else this.nextFlashcard();
+},
   nextFlashcard() {
     this.state.currentFlashcardIndex++;
     if (this.state.currentFlashcardIndex >= (this.state.filteredFlashcards || []).length) {
@@ -2582,16 +2555,20 @@ const App = {
     this.renderCurrentFlashcard();
   },
 
-  filterFlashcards(bookNum) {
-    if (typeof LIBROS_DATA === 'undefined' || !LIBROS_DATA.flashcards) return;
-    if (bookNum === 'all') {
-      this.state.filteredFlashcards = [...LIBROS_DATA.flashcards];
-    } else {
-      this.state.filteredFlashcards = LIBROS_DATA.flashcards.filter(f => String(f.bookNumber) === String(bookNum));
-    }
-    this.state.currentFlashcardIndex = 0;
-    this.renderCurrentFlashcard();
-  },
+  filterFlashcards(bookNum){
+  const d=this.getLibrosData();if(!d?.flashcards)return;
+  const selected=bookNum??document.getElementById('flashcardBookFilter')?.value??'all';
+  let cards=selected==='all'?[...d.flashcards]:d.flashcards.filter(c=>String(c.bookNumber)===String(selected));
+  if(this.state.rapidReview)cards=cards.filter(c=>{const r=this.state.progress?.flashcardRatings?.[c.id];return !r||r.rating==='hard'||(r.dueAt&&new Date(r.dueAt).getTime()<=Date.now())});
+  this.state.filteredFlashcards=cards;this.state.currentFlashcardIndex=0;this.renderCurrentFlashcard();
+},
+  toggleRapidReview(){
+  this.state.rapidReview=!this.state.rapidReview;
+  const btn=document.getElementById('btnRapidReview');
+  if(btn){btn.setAttribute('aria-pressed',String(this.state.rapidReview));btn.classList.toggle('text-cyan-300',this.state.rapidReview)}
+  this.filterFlashcards();
+  this.showToast(this.state.rapidReview?'Tarjetas pendientes o difíciles.':'Todas las tarjetas.','info');
+},
 
   shuffleFlashcards() {
     if (!this.state.filteredFlashcards) this.loadFlashcards();
@@ -2607,63 +2584,29 @@ const App = {
   // =============================================
   // QUIZZES
   // =============================================
-  renderQuizzes() {
-    const container = document.getElementById('quizzesContainer');
-    if (!container || typeof LIBROS_DATA === 'undefined') return;
-    container.innerHTML = LIBROS_DATA.quizzes.map((q, i) => `
-      <div class="glass-card p-6 rounded-2xl border border-slate-800" id="quiz-block-${q.id}">
-        <!-- Quiz Scenario Image (16:9) -->
-        <div class="relative w-full rounded-xl overflow-hidden mb-4 border border-slate-700 bg-slate-950 group" style="padding-top:56.25%;">
-          <img src="assets/img/psicologia_obscura_6en1/quizzes/quiz_${q.id}.jpg"
-               alt="Escenario ${q.question.substring(0,40)}"
-               class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-               onerror="this.parentElement.style.display='none'">
-          <div class="absolute inset-0 bg-gradient-to-t from-slate-950/70 to-transparent"></div>
-        </div>
-        <h4 class="text-base font-bold text-white mb-4 flex items-start gap-2">
-          <span class="text-cyan-500 font-mono shrink-0">Q${String(i+1).padStart(2,'0')}</span>
-          ${q.question}
-        </h4>
-        <div class="space-y-2" id="quiz-opts-${q.id}">
-          ${q.options.map((opt, oi) => `
-            <button onclick="App.checkQuizAnswer('${q.id}', ${oi}, ${q.correctIndex}, '${q.explanation.replace(/'/g, "&apos;")}')" class="quiz-opt w-full text-left p-3 rounded-xl border border-slate-700 bg-slate-800/50 hover:bg-slate-700 text-sm text-slate-300 transition-colors flex items-start gap-2">
-              <span class="font-bold text-slate-500 shrink-0">${['A','B','C','D'][oi]}.</span> ${opt}
-            </button>
-          `).join('')}
-        </div>
-        <div id="quiz-feedback-${q.id}" class="mt-4 hidden p-3 rounded-xl text-sm"></div>
-      </div>
-    `).join('');
+  renderQuizzes(){
+    const container=document.getElementById('quizzesContainer'),qs=this.getLibrosData()?.quizzes;
+    if(!container||!qs)return;
+    container.innerHTML=qs.map((q,i)=>{
+      const saved=this.state.quizAnswered[`quiz-${q.id}`],answered=!!saved;
+      const chosen=typeof saved==='object'?saved.selectedIndex:-1;
+      const correct=typeof saved==='object'?saved.correct:false;
+      return `<article class="glass-card p-6 rounded-2xl border border-slate-800" id="quiz-block-${this.escapeHTML(q.id)}">
+        <h4 class="text-base font-bold text-white mb-4">Q${i+1}. ${this.escapeHTML(q.question)}</h4>
+        <div class="space-y-2">${q.options.map((opt,oi)=>`<button onclick="App.checkQuizAnswer(${i},${oi})" ${answered?'disabled':''} class="quiz-opt w-full text-left p-3 rounded-xl border ${answered&&oi===q.correctIndex?'border-emerald-500 bg-emerald-950/30':answered&&oi===chosen?'border-rose-500 bg-rose-950/30':'border-slate-700 bg-slate-800/50 hover:bg-slate-700'} text-sm text-slate-200"><span class="font-bold mr-3">${['A','B','C','D'][oi]||oi+1}.</span>${this.escapeHTML(opt)}</button>`).join('')}</div>
+        ${answered?`<div role="status" class="mt-4 p-3 rounded-xl border ${correct?'border-emerald-500/50 text-emerald-200':'border-rose-500/50 text-rose-200'}">${correct?'Correcto.':chosen===-1?'Pregunta ya respondida.':'Incorrecto.'} ${this.escapeHTML(q.explanation||'')}</div>`:''}
+      </article>`;
+    }).join('');
   },
-
-  checkQuizAnswer(qId, selectedIdx, correctIdx, explanation) {
-    const opts = document.querySelectorAll(`#quiz-opts-${qId} .quiz-opt`);
-    opts.forEach((b, i) => {
-      b.disabled = true;
-      if (i === correctIdx) b.className = b.className.replace('border-slate-700 bg-slate-800/50','') + ' border-emerald-500 bg-emerald-950/30 text-emerald-200';
-      else if (i === selectedIdx && i !== correctIdx) b.className = b.className.replace('border-slate-700 bg-slate-800/50','') + ' border-rose-500 bg-rose-950/30 text-rose-200';
-    });
-
-    const feedback = document.getElementById(`quiz-feedback-${qId}`);
-    feedback.classList.remove('hidden');
-    const key = `quiz-${qId}`;
-
-    if (!this.state.quizAnswered[key]) {
-      this.state.quizAnswered[key] = true;
-      if (selectedIdx === correctIdx) {
-        this.state.quizScore++;
-        feedback.className = 'mt-4 p-3 rounded-xl text-sm bg-emerald-950/30 border border-emerald-500/50 text-emerald-200';
-        feedback.innerHTML = `<i class="fa-solid fa-check"></i> <strong>¡Correcto!</strong> ${explanation}`;
-        this.addXP(15);
-        this.playSound('success');
-      } else {
-        feedback.className = 'mt-4 p-3 rounded-xl text-sm bg-rose-950/30 border border-rose-500/50 text-rose-200';
-        feedback.innerHTML = `<i class="fa-solid fa-xmark"></i> <strong>Incorrecto.</strong> ${explanation}`;
-      }
-      this.saveProgress();
-    }
+  checkQuizAnswer(questionIndex,selectedIdx){
+    const q=this.getLibrosData()?.quizzes?.[questionIndex];
+    if(!q||!Number.isInteger(selectedIdx)||selectedIdx<0||selectedIdx>=q.options.length)return;
+    const key=`quiz-${q.id}`;
+    if(this.state.quizAnswered[key])return;
+    this.state.quizAnswered[key]={selectedIndex:selectedIdx,correct:selectedIdx===q.correctIndex};
+    if(selectedIdx===q.correctIndex){this.state.quizScore++;this.addXP(15);this.playSound('success')}
+    this.saveProgress();this.renderQuizzes();
   },
-
   resetQuiz() {
     this.state.quizScore = 0;
     this.state.quizAnswered = {};
@@ -2702,7 +2645,7 @@ const App = {
   // =============================================
   // CERTIFICADO
   // =============================================
-  renderCertificateView() { this.generateCertificate(); },
+  renderCertificateView() { this.generateCertificate(); const btn=document.getElementById('downloadCourseCertificateBtn'); if(btn){btn.disabled=!this.isCourseComplete();btn.title=btn.disabled?'Completa y aprueba todas las lecciones para descargar':'Descargar constancia interna';btn.classList.toggle('opacity-50',btn.disabled);btn.classList.toggle('cursor-not-allowed',btn.disabled)} },
 
   saveCertName(name) {
     this.state.certName = name;
@@ -2730,22 +2673,22 @@ const App = {
     ctx.fillText('NEURO-TACTICAL OS • ACADEMIA DE MAESTRÍA PSICOLÓGICA', 450, 90);
 
     ctx.fillStyle = '#ffffff'; ctx.font = 'bold 38px sans-serif';
-    ctx.fillText('CERTIFICADO DE DOMINIO', 450, 145);
+    ctx.fillText('CONSTANCIA DE ESTUDIO — NO OFICIAL', 450, 145);
 
     ctx.fillStyle = '#94a3b8'; ctx.font = 'italic 18px sans-serif';
-    ctx.fillText('Se acredita que', 450, 210);
+    ctx.fillText('Se registra que', 450, 210);
 
     ctx.fillStyle = '#ffffff'; ctx.font = `bold 32px sans-serif`;
     ctx.fillText(this.state.certName || 'El Estudiante', 450, 265);
 
     ctx.fillStyle = '#94a3b8'; ctx.font = 'italic 17px sans-serif';
-    ctx.fillText('ha completado el Sistema de Aprendizaje Estratégico de', 450, 320);
+    ctx.fillText('ha completado las lecciones de estudio de', 450, 320);
 
     ctx.fillStyle = '#06b6d4'; ctx.font = 'bold 22px sans-serif';
-    ctx.fillText('PSICOLOGÍA OSCURA Y PERFILADO TÁCTICO (6 EN 1)', 450, 360);
+    ctx.fillText((window.ACTIVE_BOOK_DATA?.title || 'Psicología y análisis conductual').slice(0,65), 450, 360);
 
     // Stats
-    const unlocked = Object.keys(this.state.progress.unlockedLessons).length - 1;
+    const unlocked = Object.values(this.state.progress.completedLessons || {}).filter(Boolean).length;
     ctx.fillStyle = '#475569'; ctx.font = '13px monospace';
     ctx.fillText(`Lecciones: ${Math.max(0,unlocked)} | Quiz: ${this.state.quizScore} pts | Nivel ${this.state.level} | XP: ${this.state.xp}`, 450, 420);
 
@@ -2756,17 +2699,19 @@ const App = {
     ctx.beginPath(); ctx.arc(450, 540, 28, 0, Math.PI*2);
     ctx.fillStyle = '#0ea5e9'; ctx.fill();
     ctx.fillStyle = '#ffffff'; ctx.font = 'bold 11px sans-serif';
-    ctx.fillText('VERIFIED', 450, 544);
+    ctx.fillText('INTERNO', 450, 544);
+    if (!this.isCourseComplete()) { ctx.fillStyle = '#fca5a5'; ctx.font = 'bold 18px sans-serif'; ctx.fillText('VISTA PREVIA — AÚN NO ACREDITADA', 450, 395); }
   },
 
   downloadCertificate() {
+    if (!this.isCourseComplete()) { this.showToast('Debes completar y aprobar todas las lecciones para descargar la constancia.','error'); return; }
     this.generateCertificate();
     const canvas = document.getElementById('certCanvas');
     const a = document.createElement('a');
-    a.download = `Certificado_PSO_${this.state.certName || 'Estudiante'}.png`;
+    a.download = `Constancia_ZENIT_${(this.state.certName || 'Estudiante').replace(/[^\p{L}\p{N} _-]/gu, '').slice(0,60)}.png`;
     a.href = canvas.toDataURL('image/png');
     a.click();
-    this.showToast('📥 Certificado descargado', 'success');
+    this.showToast('📥 Constancia interna descargada', 'success');
   },
 
   // =============================================
@@ -2897,7 +2842,7 @@ const App = {
     });
 
     if (results.length === 0) {
-      container.innerHTML = `<div class="text-center text-slate-500 text-sm py-8"><i class="fa-solid fa-magnifying-glass block text-3xl mb-2 opacity-30"></i>Sin resultados para "<span class="text-slate-300">${query}</span>"</div>`;
+      container.innerHTML = `<div class="text-center text-slate-500 text-sm py-8"><i class="fa-solid fa-magnifying-glass block text-3xl mb-2 opacity-30"></i>Sin resultados para "<span class="text-slate-300">${this.escapeHTML(query)}</span>"</div>`;
     } else {
       container.innerHTML = results.slice(0, 12).map(r => `
         <div onclick="${r.action}" class="p-3 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-800 cursor-pointer transition-colors">
@@ -2940,7 +2885,7 @@ const App = {
 
   exportStudySummary() {
     if (typeof LIBROS_DATA === 'undefined') return;
-    const unlocked = Object.keys(this.state.progress.unlockedLessons).length - 1;
+    const unlocked = Object.values(this.state.progress.completedLessons || {}).filter(Boolean).length;
     let text = `===== RESUMEN DE ESTUDIO — PSICOLOGÍA OSCURA =====\n`;
     text += `Fecha: ${new Date().toLocaleString('es-ES')}\n`;
     text += `Nivel: ${this.state.level} | XP: ${this.state.xp}\n`;
@@ -2957,42 +2902,13 @@ const App = {
   },
 
   
-  unlockAll() {
-    if (typeof LIBROS_DATA === 'undefined') return;
-    if (!confirm('¿Activar Modo Dios? Esto desbloqueará TODO el contenido ignorando el progreso lineal.')) return;
-    
-    LIBROS_DATA.modules.forEach(mod => {
-      mod.keyPillars.forEach((_, pIndex) => {
-        this.state.progress.unlockedLessons[`m${mod.bookNumber}-${pIndex}`] = true;
-      });
-      // Unlock the next module 0 index too
-      this.state.progress.unlockedLessons[`m${mod.bookNumber+1}-0`] = true;
-    });
-    this.saveProgress();
-    this.showToast('🔓 MODO DIOS ACTIVADO. Todo el contenido está desbloqueado.', 'success');
-    
-    if(this.state.activeTab === 'learning') {
-       this.renderLearningPath();
-    }
-  },
-
-  resetAllProgress() {
-    if (!confirm('¿Estás seguro de que quieres reiniciar TODO el progreso? Esta acción no se puede deshacer.')) return;
-    localStorage.removeItem('pso_progress_v4');
-    location.reload();
-  },
-
-  // =============================================
-  // AUDIO ENGINE
-  // =============================================
-
-  pomodoroInterval: null,
-  pomodoroTime: 25 * 60,
-  pomodoroBreakTime: 5 * 60,
-  isPomodoroActive: false,
-  isPomodoroBreak: false,
-  pomodoroSessions: 0,
-
+  unlockAll(){this.showToast('El desbloqueo administrativo está desactivado para los estudiantes.','info')},
+  resetAllProgress(){
+  if(!confirm('¿Reiniciar las notas, evaluaciones y avance de este libro en este navegador?'))return;
+  for(const k of [this.getProgressKey(),this.getPillarScoresKey(),`userTacticalBadges:${this.getBookScope()}`])localStorage.removeItem(k);
+  if(!window.location.search){localStorage.removeItem('pso_progress_v4');localStorage.removeItem('userPillarScores')}
+  location.reload();
+},
   openPomodoroWidget() {
     document.getElementById('pomodoroWidget').classList.remove('hidden');
     document.getElementById('pomodoroWidget').classList.add('flex');
@@ -3595,7 +3511,7 @@ const App = {
   },
 
   _sparringAIBubble(text) {
-    return `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-rose-950 flex items-center justify-center text-rose-400 border border-rose-800 shrink-0"><i class="fa-solid fa-mask"></i></div><div class="bg-slate-800 rounded-2xl rounded-tl-none p-3 max-w-[85%] text-sm text-slate-200 whitespace-pre-line">${text}</div></div>`;
+    return `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-rose-950 flex items-center justify-center text-rose-400 border border-rose-800 shrink-0"><i class="fa-solid fa-mask"></i></div><div class="bg-slate-800 rounded-2xl rounded-tl-none p-3 max-w-[85%] text-sm text-slate-200 whitespace-pre-line">${this.escapeHTML(text)}</div></div>`;
   },
 
   async sendSparringMessage(e) {
@@ -3612,7 +3528,7 @@ const App = {
         // It will automatically restart from onend, with a clean buffer
     }
 
-    box.innerHTML += `<div class="flex items-start gap-3 justify-end"><div class="bg-indigo-600 rounded-2xl rounded-tr-none p-3 max-w-[80%] text-sm text-white">${msg}</div></div>`;
+    box.innerHTML += `<div class="flex items-start gap-3 justify-end"><div class="bg-indigo-600 rounded-2xl rounded-tr-none p-3 max-w-[80%] text-sm text-white">${this.escapeHTML(msg)}</div></div>`;
     box.scrollTop = box.scrollHeight;
     
     if(!this.state.sparringHistory) this.state.sparringHistory = [];
@@ -3637,7 +3553,7 @@ const App = {
       console.error(err);
       document.getElementById(typingId)?.remove();
       let errorMsg = err.message || 'Error desconocido';
-      box.innerHTML += `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-red-900/50 flex items-center justify-center text-red-400 border border-red-800"><i class="fa-solid fa-triangle-exclamation"></i></div><div class="bg-red-950/20 border border-red-900/50 rounded-2xl rounded-tl-none p-3 max-w-[80%] text-sm text-red-400"><b>Fallo en el enlace táctico:</b> ${errorMsg} <br><br><span class="text-xs text-slate-400">Si el error persiste, verifica que tu API Key esté bien copiada en el Centro IA.</span></div></div>`;
+      box.innerHTML += `<div class="flex items-start gap-3"><div class="w-8 h-8 rounded-full bg-red-900/50 flex items-center justify-center text-red-400 border border-red-800"><i class="fa-solid fa-triangle-exclamation"></i></div><div class="bg-red-950/20 border border-red-900/50 rounded-2xl rounded-tl-none p-3 max-w-[80%] text-sm text-red-400"><b>Fallo en el enlace táctico:</b> ${this.escapeHTML(errorMsg)} <br><br><span class="text-xs text-slate-400">Si el error persiste, verifica que tu API Key esté bien copiada en el Centro IA.</span></div></div>`;
       box.scrollTop = box.scrollHeight;
       if (this.voiceState.isActive && !this.voiceState.isListening) {
           try { this.voiceState.recognition.start(); } catch(e){}
@@ -3648,43 +3564,23 @@ const App = {
   // =============================================
   // AUDITOR FORENSE
   // =============================================
-  async runAuditor() {
-    const input = document.getElementById('auditorInput').value.trim();
-    if (!input) { this.showToast('Pega un texto para analizar', 'error'); return; }
-    const area = document.getElementById('auditorResults');
-    area.innerHTML = '<div class="text-center py-8"><i class="fa-solid fa-circle-notch fa-spin text-4xl text-emerald-500 mb-3 block"></i><div class="text-slate-400 text-sm">Analizando patrones lingüísticos y sesgos...</div></div>';
-
-    try {
-      const result = await AIEngine.analyzeToxicText(input);
-      area.innerHTML = `
-        <h3 class="text-emerald-400 font-bold mb-4 flex items-center gap-2"><i class="fa-solid fa-microscope"></i> Reporte Forense Completo</h3>
-        <div class="space-y-4">
-          <div class="p-4 bg-rose-950/20 border border-rose-500/30 rounded-xl">
-            <div class="text-xs text-rose-400 font-bold font-mono mb-2">🚩 RED FLAGS DETECTADAS</div>
-            <ul class="list-disc list-inside text-sm text-slate-200 space-y-1">${result.redFlags.map(f => `<li>${f}</li>`).join('')}</ul>
-          </div>
-          <div class="p-4 bg-amber-950/20 border border-amber-500/30 rounded-xl">
-            <div class="text-xs text-amber-400 font-bold font-mono mb-2">⚔️ TÁCTICAS USADAS</div>
-            <div class="flex flex-wrap gap-2">${result.tacticsDetected.map(t => `<span class="px-2.5 py-1 bg-amber-950/30 text-amber-300 border border-amber-800/50 rounded-lg text-xs font-mono">${t}</span>`).join('')}</div>
-          </div>
-          <div class="p-4 bg-indigo-950/20 border border-indigo-500/30 rounded-xl">
-            <div class="text-xs text-indigo-400 font-bold font-mono mb-2">🔬 ANÁLISIS PROFUNDO</div>
-            <p class="text-sm text-slate-200 leading-relaxed">${result.analysis}</p>
-          </div>
-          <div class="p-4 bg-emerald-950/20 border-l-4 border-emerald-500">
-            <div class="text-xs text-emerald-400 font-bold font-mono mb-2">🛡️ CONTRAATAQUE RECOMENDADO</div>
-            <p class="text-sm text-emerald-100 font-mono leading-relaxed italic">"${result.counterScript}"</p>
-          </div>
-        </div>
-      `;
-    } catch (err) {
-      area.innerHTML = `<div class="p-4 bg-rose-950/20 border border-rose-500 rounded-xl text-rose-300 text-sm">${err.message.includes('API Key') ? '⚠️ Configura tu API Key de Gemini primero en el botón "Configurar IA" del Sparring.' : 'Error de análisis: ' + err.message}</div>`;
-    }
+  async runAuditor(){
+    const input=document.getElementById('auditorInput')?.value.trim();
+    if(!input){this.showToast('Introduce un mensaje anonimizado para analizar.','error');return}
+    const area=document.getElementById('auditorResults');if(!area)return;
+    area.textContent='Analizando texto...';
+    try{
+      const result=await AIEngine.analyzeToxicText(input);
+      const flags=Array.isArray(result.redFlags)?result.redFlags:[];
+      const tactics=Array.isArray(result.tacticsDetected)?result.tacticsDetected:[];
+      area.innerHTML=`<h3 class="text-emerald-400 font-bold mb-3">Análisis educativo orientativo (no diagnóstico)</h3>
+        <p class="text-xs text-slate-400 mb-4">Una sola conversación no permite diagnosticar ni determinar intenciones. El contexto puede cambiar la interpretación.</p>
+        <h4 class="font-bold text-sm">Señales a examinar</h4><ul class="list-disc pl-5">${flags.map(x=>`<li>${this.escapeHTML(x)}</li>`).join('')}</ul>
+        <h4 class="font-bold text-sm mt-4">Posibles patrones (no conclusiones)</h4><p>${this.escapeHTML(tactics.join(', ')||'Ninguno identificado con suficiente contexto')}</p>
+        <h4 class="font-bold text-sm mt-4">Análisis y límites</h4><p>${this.escapeHTML(result.analysis||'')}</p>
+        <h4 class="font-bold text-sm mt-4">Ejemplo de respuesta respetuosa</h4><p>${this.escapeHTML(result.counterScript||'')}</p>`;
+    }catch(err){area.textContent=`Análisis no disponible: ${err?.message||'Error de conexión'}`}
   },
-
-  // =============================================
-  // BIOMETRÍA / CÁMARA
-  // =============================================
   async toggleCamera() {
     if (typeof CVEngine === 'undefined') return;
     const btn = document.getElementById('btnToggleCam');
