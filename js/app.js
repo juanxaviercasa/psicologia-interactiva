@@ -1,5 +1,14 @@
 // app.js - NEURO-TACTICAL OS v2.0 — FULL REBUILD (ALL FUNCTIONS IMPLEMENTED)
 const App = {
+  escapeHTML(value){return String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));},
+  getBookScope(){return window.ACTIVE_BOOK_DATA?.id||new URLSearchParams(window.location.search).get('book')||'psicologia-obscura-6-en-1';},
+  getProgressKey(){return `pso_progress_v5:${this.getBookScope()}`;},
+  getPillarScoresKey(){return `userPillarScores:${this.getBookScope()}`;},
+  getPillarScores(){try{return JSON.parse(localStorage.getItem(this.getPillarScoresKey())||(!window.location.search?localStorage.getItem('userPillarScores'):null)||'{}')||{}}catch{return {}}},
+  isCourseComplete(){
+    const d=this.getLibrosData(),completed=this.state.progress?.completedLessons||{},scores=this.getPillarScores();
+    return !!(d?.modules?.length && d.modules.every(m=>m.keyPillars?.length&&m.keyPillars.every((_,i)=>completed[`m${m.bookNumber}-${i}`]===true&&scores[`score_m${m.bookNumber}_p${i}`]?.passed===true)));
+  },
   state: {
     activeTab: 'dashboard',
     currentCaseIndex: 0,
@@ -41,7 +50,7 @@ const App = {
           if (window.Swal) {
               Swal.fire({
                   title: 'Bases Científicas Activadas',
-                  text: 'El motor revelará referencias ocultas del DSM-5, citas de PubMed y análisis neurocientíficos profundos.',
+                  text: 'Se resaltarán fuentes disponibles. Las explicaciones no sustituyen la revisión científica ni la atención clínica.',
                   icon: 'info',
                   background: '#0B1120',
                   color: '#fff',
@@ -67,7 +76,7 @@ const App = {
       }
       
       // Force re-render if in learning tab
-      if (this.state.currentTab === 'learning' && this.state.activeModule !== null) {
+      if (this.state.activeTab === 'learning' && this.state.activeModule !== null) {
           this.goToModule(this.state.activeModule);
       }
   },
@@ -187,82 +196,45 @@ const App = {
     });
   },
 
-  loadProgress() {
-    const saved = localStorage.getItem('pso_progress_v4');
-    if (saved) {
-      try {
-        const parsed = JSON.parse(saved);
-        this.state = { ...this.state, ...parsed };
-      } catch(e) { console.error('Progress load error', e); }
-    }
-    // Bulletproof state structure
-    if (!this.state.progress) this.state.progress = {};
-    if (!this.state.progress.unlockedLessons) this.state.progress.unlockedLessons = { 'm1-0': true };
-    if (typeof this.state.level !== 'number') this.state.level = 1;
-    if (typeof this.state.xp !== 'number') this.state.xp = 0;
-    if (typeof this.state.flashcardsDone !== 'number') this.state.flashcardsDone = 0;
-    if (typeof this.state.casesSolved !== 'number') this.state.casesSolved = 0;
-    if (typeof this.state.quizScore !== 'number') this.state.quizScore = 0;
-    
-    this.updateAllUI();
-  },
-
-  saveProgress() {
-    const toSave = {
-      progress: this.state.progress,
-      quizScore: this.state.quizScore,
-      quizAnswered: this.state.quizAnswered,
-      casesSolved: this.state.casesSolved,
-      flashcardsDone: this.state.flashcardsDone,
-      level: this.state.level,
-      xp: this.state.xp,
-      certName: this.state.certName,
-      userNotes: this.state.userNotes
-    };
-    localStorage.setItem('pso_progress_v4', JSON.stringify(toSave));
-    this.updateAllUI();
-  },
-
-  updateAllUI() {
-    if (typeof LIBROS_DATA === 'undefined') return;
-    const unlocked = Object.keys(this.state.progress.unlockedLessons);
-    const completed = Math.max(0, unlocked.length - 1);
-    let total = 0;
-    LIBROS_DATA.modules.forEach(m => total += m.keyPillars.length);
-    const pct = total > 0 ? Math.min(100, Math.round((completed / total) * 100)) : 0;
-
-    // Dashboard stats
-    const dp = document.getElementById('dashProgressPercent');
-    if (dp) dp.textContent = pct + '%';
-    const db = document.getElementById('dashProgressBar');
-    if (db) db.style.width = pct + '%';
-    const df = document.getElementById('dashFlashcardsLearned');
-    if (df) df.textContent = this.state.flashcardsDone + ' / ' + (LIBROS_DATA.flashcards ? LIBROS_DATA.flashcards.length : 18);
-    const dc = document.getElementById('dashCasesSolved');
-    if (dc) dc.textContent = this.state.casesSolved + ' / ' + (LIBROS_DATA.caseScenarios ? LIBROS_DATA.caseScenarios.length : 8);
-    const dq = document.getElementById('dashQuizScore');
-    if (dq) dq.textContent = this.state.quizScore + ' pts';
-
-    // Streak
-    const stEl = document.getElementById('streakCounterText');
-    if (stEl) stEl.textContent = (this.state.progress.streak || 0) + ' Días';
-
-    // Header level
-    const lvlEl = document.getElementById('globalLevelText');
-    if (lvlEl) {
-      const levels = ['Novato', 'Observador', 'Analista', 'Táctico', 'Maestro'];
-      lvlEl.textContent = levels[Math.min(this.state.level - 1, levels.length - 1)];
-    }
-
-    // Header progress circle
-    const circle = document.getElementById('globalProgressCircle');
-    if (circle) circle.textContent = pct + '%';
-
-    // Quiz score badge
-    const qb = document.getElementById('quizScoreBadge');
-    if (qb && LIBROS_DATA.quizzes) qb.textContent = `Puntuación: ${this.state.quizScore} / ${LIBROS_DATA.quizzes.length}`;
-  },
-
+  loadProgress(){
+  const saved=localStorage.getItem(this.getProgressKey())||(!window.location.search?localStorage.getItem('pso_progress_v4'):null);
+  if(saved){try{this.state={...this.state,...JSON.parse(saved)}}catch(e){console.error('Error al restaurar progreso',e)}}
+  this.state.progress??={};
+  this.state.progress.unlockedLessons??={'m1-0':true};
+  this.state.progress.completedLessons??={};
+  this.state.progress.flashcardRatings??={};
+  this.state.progress.solvedCaseIds??={};
+  this.state.progress.quizRewards??={};
+  this.state.userNotes??={};
+  this.state.quizAnswered??={};
+  for(const k of ['level','xp','quizScore'])if(!Number.isFinite(this.state[k]))this.state[k]=k==='level'?1:0;
+  this.updateAllUI();
+},
+  saveProgress(){
+  const out={};
+  for(const k of ['progress','quizScore','quizAnswered','casesSolved','flashcardsDone','level','xp','certName','userNotes'])out[k]=this.state[k];
+  try{localStorage.setItem(this.getProgressKey(),JSON.stringify(out))}catch(e){this.showToast('No se pudo guardar: almacenamiento lleno.','error')}
+  this.updateAllUI();
+},
+  updateAllUI(){
+  const d=this.getLibrosData();if(!d?.modules)return;
+  const completed=this.state.progress?.completedLessons||{};
+  const total=d.modules.reduce((n,m)=>n+(m.keyPillars?.length||0),0);
+  const count=d.modules.reduce((n,m)=>n+(m.keyPillars||[]).filter((_,i)=>completed[`m${m.bookNumber}-${i}`]).length,0);
+  const pct=total?Math.round(100*count/total):0;
+  this.state.flashcardsDone=Object.values(this.state.progress?.flashcardRatings||{}).filter(x=>(x?.rating||x)==='easy').length;
+  this.state.casesSolved=Object.keys(this.state.progress?.solvedCaseIds||{}).length;
+  const set=(id,val)=>{const el=document.getElementById(id);if(el)el.textContent=String(val)};
+  set('dashProgressPercent',pct+'%');
+  const bar=document.getElementById('dashProgressBar');if(bar)bar.style.width=pct+'%';
+  set('dashFlashcardsLearned',`${this.state.flashcardsDone} / ${d.flashcards?.length||0}`);
+  set('dashCasesSolved',`${this.state.casesSolved} / ${d.caseScenarios?.length||0}`);
+  set('dashQuizScore',this.state.quizScore+' pts');
+  set('streakCounterText',(this.state.progress?.streak||0)+' Días');
+  set('globalLevelText',['Novato','Observador','Analista','Táctico','Maestro'][Math.max(0,Math.min(this.state.level-1,4))]);
+  set('globalProgressCircle',pct+'%');set('globalProgressCircleText',pct+'%');
+  if(d.quizzes)set('quizScoreBadge',`Puntuación: ${this.state.quizScore} / ${d.quizzes.length}`);
+},
   playSound(type) {
     // Minimal audio feedback via AudioEngine if available
     if (typeof AudioEngine !== 'undefined' && AudioEngine.ctx && type === 'success') {
@@ -443,7 +415,7 @@ const App = {
 
     // Consultamos si ya tiene nota previa guardada
     const scoreKey = `score_m${modNumber}_p${pIndex}`;
-    const scores = JSON.parse(localStorage.getItem('userPillarScores') || '{}');
+    const scores = this.getPillarScores();
     const pastResult = scores[scoreKey] || null;
 
     // Actualizar estado del botón de completar lección
@@ -776,9 +748,7 @@ const App = {
 
     if (isCorrect) {
       state.score++;
-      let earnedXP = 25;
-      if (isFast) earnedXP += 15; // Bonificación de agilidad mental
-      this.addXP(earnedXP);
+      // Recompensa única al aprobar: evitar XP infinito por reintentos.
     }
 
     q.options.forEach((_, i) => {
@@ -850,8 +820,9 @@ const App = {
 
     // Guardar nota y medalla en el historial del usuario
     const scoreKey = `score_m${state.modNumber}_p${state.pIndex}`;
-    let allScores = JSON.parse(localStorage.getItem('userPillarScores') || '{}');
-    allScores[scoreKey] = {
+    let allScores = this.getPillarScores();
+    const priorScore = allScores[scoreKey];
+    const newScore = {
       score: state.score,
       total: state.totalSteps,
       percentage: state.score * 20,
@@ -859,7 +830,8 @@ const App = {
       tier: isGold ? 'Oro' : (isSilver ? 'Plata' : 'Sin Calificar'),
       timestamp: new Date().toISOString()
     };
-    localStorage.setItem('userPillarScores', JSON.stringify(allScores));
+    if (!priorScore || newScore.score >= priorScore.score) allScores[scoreKey] = newScore;
+    localStorage.setItem(this.getPillarScoresKey(), JSON.stringify(allScores));
 
     if (isPassed) {
       const badgeKey = `badge_m${state.modNumber}_p${state.pIndex}`;
@@ -869,10 +841,12 @@ const App = {
         tier: isGold ? 'Oro' : 'Plata',
         timestamp: new Date().toISOString()
       };
-      let badges = JSON.parse(localStorage.getItem('userTacticalBadges') || '{}');
+      let badges = JSON.parse(localStorage.getItem(`userTacticalBadges:${this.getBookScope()}`) || '{}');
       badges[badgeKey] = badgeData;
-      localStorage.setItem('userTacticalBadges', JSON.stringify(badges));
-      this.addXP(isGold ? 125 : 100);
+      localStorage.setItem(`userTacticalBadges:${this.getBookScope()}`, JSON.stringify(badges));
+      this.state.progress.quizRewards ??= {};
+      if (!this.state.progress.quizRewards[scoreKey]) { this.state.progress.quizRewards[scoreKey] = true; this.addXP(isGold ? 125 : 100); }
+      this.saveProgress();
     }
 
     const btnComplete = document.getElementById('btnCompleteLesson');
@@ -2318,26 +2292,20 @@ const App = {
     document.body.style.overflow = '';
   },
 
-  completeLesson(modNumber, pIndex) {
-    if (typeof LIBROS_DATA === 'undefined') return;
-    const mod = LIBROS_DATA.modules.find(m => m.bookNumber === modNumber);
-    let nextId = pIndex + 1 < mod.keyPillars.length ? `m${modNumber}-${pIndex+1}` : `m${modNumber+1}-0`;
-
-    if (!this.state.progress.unlockedLessons) this.state.progress.unlockedLessons = {};
-    this.state.progress.unlockedLessons[`m${modNumber}-${pIndex}`] = true;
-    this.state.progress.unlockedLessons[nextId] = true;
-
-    this.addXP(25);
-    this.saveProgress();
-    this.closeLessonModal();
-    this.renderLearningPath();
-    if (typeof confetti === 'function') confetti({ particleCount: 120, spread: 80, origin: { y: 0.6 } });
-    this.showToast('✅ ¡Pilar dominado! +25 XP', 'success');
-  },
-
-  // =============================================
-  // MATRIZ TÁCTICA
-  // =============================================
+  completeLesson(modNumber,pIndex){
+  const d=this.getLibrosData(),m=d?.modules?.find(x=>x.bookNumber===modNumber),id=`m${modNumber}-${pIndex}`;
+  if(!m?.keyPillars?.[pIndex])return;
+  if(!this.getPillarScores()[`score_m${modNumber}_p${pIndex}`]?.passed){this.showToast('Primero debes aprobar la evaluación de esta lección.','error');return}
+  this.state.progress.completedLessons??={};this.state.progress.unlockedLessons??={};
+  const first=!this.state.progress.completedLessons[id];
+  this.state.progress.completedLessons[id]=true;this.state.progress.unlockedLessons[id]=true;
+  const mi=d.modules.indexOf(m),next=pIndex+1<m.keyPillars.length?`m${modNumber}-${pIndex+1}`:d.modules[mi+1]?`m${d.modules[mi+1].bookNumber}-0`:null;
+  if(next)this.state.progress.unlockedLessons[next]=true;
+  if(first)this.addXP(25);
+  this.saveProgress();this.closeLessonModal();this.renderLearningPath();
+  if(first&&typeof confetti==='function')confetti({particleCount:60,spread:65,origin:{y:0.6}});
+  this.showToast(first?'Lección completada y registrada.':'Lección ya completada.','success');
+},
   renderMatrix(filter = 'all') {
     const container = document.getElementById('matrixGrid');
     if (!container || typeof LIBROS_DATA === 'undefined') return;
@@ -2452,7 +2420,7 @@ const App = {
     const area = document.getElementById('simulatorPlayerArea');
     const isGood = opt.wisdomScore > 50;
 
-    if (isGood) { this.state.casesSolved++; this.addXP(20); this.saveProgress(); }
+    if (isGood) { this.state.progress.solvedCaseIds ??= {}; if (!this.state.progress.solvedCaseIds[caseData.id]) { this.state.progress.solvedCaseIds[caseData.id] = true; this.addXP(20); } this.saveProgress(); }
 
     area.innerHTML = `
       <div class="glass-card p-6 rounded-2xl border border-slate-800 text-center mb-5">
@@ -2551,21 +2519,19 @@ const App = {
     if (inner) inner.classList.toggle('flipped');
   },
 
-  rateFlashcard(rating) {
-    const cards = this.filterFlashcards();
-    const currentCard = cards[this.state.currentFlashcardIndex];
-    if (!currentCard) return;
-
-    // Save rating
-    if (!this.state.progress.flashcardRatings) this.state.progress.flashcardRatings = {};
-    this.state.progress.flashcardRatings[currentCard.id] = rating;
-
-    if (rating === 'easy') { this.state.flashcardsDone++; this.addXP(5); }
-    
-    this.nextFlashcard();
-    this.saveProgress();
-  },
-
+  rateFlashcard(rating){
+  const card=this.state.filteredFlashcards?.[this.state.currentFlashcardIndex];
+  if(!card||!['hard','medium','easy'].includes(rating))return;
+  this.state.progress.flashcardRatings??={};
+  const prior=this.state.progress.flashcardRatings[card.id]||{};
+  const n=rating==='hard'?0:(prior.repetitions||0)+1;
+  const ease=Math.max(1.3,(prior.ease||2.5)+(rating==='easy'?.1:rating==='medium'?-.15:-.25));
+  const intervalDays=rating==='hard'?0:rating==='medium'?1:n===1?1:n===2?3:Math.max(1,Math.round((prior.intervalDays||3)*ease));
+  this.state.progress.flashcardRatings[card.id]={rating,repetitions:n,ease,intervalDays,lastReviewed:new Date().toISOString(),dueAt:new Date(Date.now()+(rating==='hard'?600000:intervalDays*86400000)).toISOString()};
+  if(rating==='easy'&&!prior.rating)this.addXP(5);
+  this.saveProgress();
+  if(this.state.rapidReview)this.filterFlashcards();else this.nextFlashcard();
+},
   nextFlashcard() {
     this.state.currentFlashcardIndex++;
     if (this.state.currentFlashcardIndex >= (this.state.filteredFlashcards || []).length) {
@@ -2582,16 +2548,20 @@ const App = {
     this.renderCurrentFlashcard();
   },
 
-  filterFlashcards(bookNum) {
-    if (typeof LIBROS_DATA === 'undefined' || !LIBROS_DATA.flashcards) return;
-    if (bookNum === 'all') {
-      this.state.filteredFlashcards = [...LIBROS_DATA.flashcards];
-    } else {
-      this.state.filteredFlashcards = LIBROS_DATA.flashcards.filter(f => String(f.bookNumber) === String(bookNum));
-    }
-    this.state.currentFlashcardIndex = 0;
-    this.renderCurrentFlashcard();
-  },
+  filterFlashcards(bookNum){
+  const d=this.getLibrosData();if(!d?.flashcards)return;
+  const selected=bookNum??document.getElementById('flashcardBookFilter')?.value??'all';
+  let cards=selected==='all'?[...d.flashcards]:d.flashcards.filter(c=>String(c.bookNumber)===String(selected));
+  if(this.state.rapidReview)cards=cards.filter(c=>{const r=this.state.progress?.flashcardRatings?.[c.id];return !r||r.rating==='hard'||(r.dueAt&&new Date(r.dueAt).getTime()<=Date.now())});
+  this.state.filteredFlashcards=cards;this.state.currentFlashcardIndex=0;this.renderCurrentFlashcard();
+},
+  function toggleRapidReview(){
+  this.state.rapidReview=!this.state.rapidReview;
+  const btn=document.getElementById('btnRapidReview');
+  if(btn){btn.setAttribute('aria-pressed',String(this.state.rapidReview));btn.classList.toggle('text-cyan-300',this.state.rapidReview)}
+  this.filterFlashcards();
+  this.showToast(this.state.rapidReview?'Tarjetas pendientes o difíciles.':'Todas las tarjetas.','info');
+},
 
   shuffleFlashcards() {
     if (!this.state.filteredFlashcards) this.loadFlashcards();
@@ -2957,42 +2927,13 @@ const App = {
   },
 
   
-  unlockAll() {
-    if (typeof LIBROS_DATA === 'undefined') return;
-    if (!confirm('¿Activar Modo Dios? Esto desbloqueará TODO el contenido ignorando el progreso lineal.')) return;
-    
-    LIBROS_DATA.modules.forEach(mod => {
-      mod.keyPillars.forEach((_, pIndex) => {
-        this.state.progress.unlockedLessons[`m${mod.bookNumber}-${pIndex}`] = true;
-      });
-      // Unlock the next module 0 index too
-      this.state.progress.unlockedLessons[`m${mod.bookNumber+1}-0`] = true;
-    });
-    this.saveProgress();
-    this.showToast('🔓 MODO DIOS ACTIVADO. Todo el contenido está desbloqueado.', 'success');
-    
-    if(this.state.activeTab === 'learning') {
-       this.renderLearningPath();
-    }
-  },
-
-  resetAllProgress() {
-    if (!confirm('¿Estás seguro de que quieres reiniciar TODO el progreso? Esta acción no se puede deshacer.')) return;
-    localStorage.removeItem('pso_progress_v4');
-    location.reload();
-  },
-
-  // =============================================
-  // AUDIO ENGINE
-  // =============================================
-
-  pomodoroInterval: null,
-  pomodoroTime: 25 * 60,
-  pomodoroBreakTime: 5 * 60,
-  isPomodoroActive: false,
-  isPomodoroBreak: false,
-  pomodoroSessions: 0,
-
+  unlockAll(){this.showToast('El desbloqueo administrativo está desactivado para los estudiantes.','info')},
+  resetAllProgress(){
+  if(!confirm('¿Reiniciar las notas, evaluaciones y avance de este libro en este navegador?'))return;
+  for(const k of [this.getProgressKey(),this.getPillarScoresKey(),`userTacticalBadges:${this.getBookScope()}`])localStorage.removeItem(k);
+  if(!window.location.search){localStorage.removeItem('pso_progress_v4');localStorage.removeItem('userPillarScores')}
+  location.reload();
+},
   openPomodoroWidget() {
     document.getElementById('pomodoroWidget').classList.remove('hidden');
     document.getElementById('pomodoroWidget').classList.add('flex');
