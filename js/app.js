@@ -1327,7 +1327,9 @@ const App = {
     const div = document.createElement('div');
     div.id = 'toastNotif';
     div.className = `fixed bottom-6 right-6 z-[100] px-5 py-3 rounded-2xl border ${colors[type]} text-white text-sm font-bold shadow-2xl transition-all animate-in slide-in-from-bottom-5 duration-300`;
-    div.innerHTML = msg;
+    div.textContent = String(msg);
+    div.setAttribute('role',type==='error'?'alert':'status');
+    div.setAttribute('aria-live',type==='error'?'assertive':'polite');
     document.body.appendChild(div);
     setTimeout(() => div.remove(), 3500);
   },
@@ -2256,6 +2258,7 @@ const App = {
     const challenge = mod.keyPillars[pIndex].interactiveChallenge;
     const feedback = document.getElementById('challengeFeedback');
     const btn = document.getElementById('btnCompleteLesson');
+    if(!feedback||!btn||!challenge?.options)return;
 
     // Visual feedback on options
     challenge.options.forEach((_, i) => {
@@ -2270,12 +2273,17 @@ const App = {
 
     if (selectedIdx === challenge.correctIndex) {
       feedback.className = 'mt-4 p-3 rounded-xl text-sm font-bold bg-emerald-950/30 border border-emerald-500/50 text-emerald-200';
-      feedback.innerHTML = `<i class="fa-solid fa-check-circle"></i> CÓDIGO ACEPTADO — ${challenge.successMessage}`;
-      btn.disabled = false;
-      btn.classList.remove('opacity-50', 'cursor-not-allowed');
-      btn.classList.add('animate-pulse');
+      feedback.innerHTML = `<i class="fa-solid fa-check-circle"></i> Respuesta correcta — ${this.escapeHTML(challenge.successMessage)}`;
+      const passed=!!this.getPillarScores()[`score_m${modNumber}_p${pIndex}`]?.passed;
+      btn.disabled=!passed;
+      btn.classList.toggle('opacity-50',!passed);
+      btn.classList.toggle('cursor-not-allowed',!passed);
+      this.state.progress.quizRewards??={};
+      const rewardKey=`challenge:${modNumber}:${pIndex}`;
+      if(!this.state.progress.quizRewards[rewardKey]){
+        this.state.progress.quizRewards[rewardKey]=true;this.addXP(10);this.saveProgress();
+      }
       this.playSound('success');
-      this.addXP(10);
     } else {
       feedback.className = 'mt-4 p-3 rounded-xl text-sm font-bold bg-rose-950/30 border border-rose-500/50 text-rose-200';
       feedback.innerHTML = `<i class="fa-solid fa-xmark-circle"></i> ERROR TÁCTICO — Caíste en la trampa. La respuesta correcta está resaltada.`;
@@ -2604,10 +2612,19 @@ const App = {
     const key=`quiz-${q.id}`;
     if(this.state.quizAnswered[key])return;
     this.state.quizAnswered[key]={selectedIndex:selectedIdx,correct:selectedIdx===q.correctIndex};
-    if(selectedIdx===q.correctIndex){this.state.quizScore++;this.addXP(15);this.playSound('success')}
+    if(selectedIdx===q.correctIndex){
+      this.state.quizScore++;
+      this.state.progress.quizRewards??={};
+      const rewardKey=`general:${q.id}`;
+      if(!this.state.progress.quizRewards[rewardKey]){
+        this.state.progress.quizRewards[rewardKey]=true;this.addXP(15);
+      }
+      this.playSound('success');
+    }
     this.saveProgress();this.renderQuizzes();
   },
   resetQuiz() {
+    if(!confirm('Se reiniciarán las respuestas, pero las recompensas XP no se repetirán. ¿Continuar?'))return;
     this.state.quizScore = 0;
     this.state.quizAnswered = {};
     this.saveProgress();
@@ -2627,11 +2644,11 @@ const App = {
     container.innerHTML = terms.map(g => `
       <div class="glass-card p-4 rounded-xl border border-slate-800 hover:border-cyan-500/30 transition-colors">
         <div class="flex justify-between items-baseline mb-1.5">
-          <strong class="text-cyan-400 text-sm">${g.term}</strong>
-          <span class="text-[10px] text-slate-500 font-mono bg-slate-900 px-1.5 py-0.5 rounded">${g.category}</span>
+          <strong class="text-cyan-400 text-sm">${this.escapeHTML(g.term)}</strong>
+          <span class="text-[10px] text-slate-500 font-mono bg-slate-900 px-1.5 py-0.5 rounded">${this.escapeHTML(g.category)}</span>
         </div>
-        <p class="text-xs text-slate-300 leading-relaxed">${g.definition}</p>
-        ${g.example ? `<p class="text-[11px] text-slate-500 mt-2 italic">"${g.example}"</p>` : ''}
+        <p class="text-xs text-slate-300 leading-relaxed">${this.escapeHTML(g.definition)}</p>
+        ${g.example ? `<p class="text-[11px] text-slate-500 mt-2 italic">"${this.escapeHTML(g.example)}"</p>` : ''}
       </div>
     `).join('');
 
@@ -2818,7 +2835,7 @@ const App = {
       return;
     }
 
-    const q = query.toLowerCase();
+    const q = query.trim().toLocaleLowerCase('es').slice(0,140);
     const results = [];
 
     LIBROS_DATA.modules.forEach(m => {
@@ -2848,10 +2865,10 @@ const App = {
         <div onclick="${r.action}" class="p-3 rounded-xl border border-slate-800 bg-slate-900/50 hover:bg-slate-800 cursor-pointer transition-colors">
           <div class="flex items-center gap-2 mb-1">
             <i class="fa-solid ${r.icon} ${r.color} text-xs"></i>
-            <span class="text-[10px] text-slate-500 font-mono uppercase">${r.type}</span>
+            <span class="text-[10px] text-slate-500 font-mono uppercase">${this.escapeHTML(r.type)}</span>
           </div>
-          <div class="text-sm font-bold text-white">${r.title}</div>
-          <div class="text-xs text-slate-400 line-clamp-1">${r.desc}</div>
+          <div class="text-sm font-bold text-white">${this.escapeHTML(r.title)}</div>
+          <div class="text-xs text-slate-400 line-clamp-1">${this.escapeHTML(r.desc)}</div>
         </div>
       `).join('');
     }
