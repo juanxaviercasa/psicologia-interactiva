@@ -16,6 +16,7 @@ jobs:
           node-version: '22'
       - name: Comprobar sintaxis del código principal
         run: |
+          node --check js/quiz_factory.js
           node --check js/progress_backup.js
           node --check js/app.js
           node --check js/ai_engine.js

@@ -339,68 +339,7 @@ const App = {
     const pConcept = pillar.storytellingConcept || pillar.concept || 'Concepto de análisis conductual.';
     const pShield = pillar.tacticalShield || pillar.tacticalRule || 'Regla del escudo: Pausar, verificar y no justificar tu negativa.';
 
-    const rawQuestions = [
-      {
-        badge: '🏛️ NIVEL 1: BASE NEUROBIOLÓGICA Y CONCEPTUAL',
-        question: `En el marco de '${pTitle}', ¿cuál es el mecanismo central que describe la psicología estratégica?`,
-        options: [
-          pConcept.length > 140 ? pConcept.substring(0, 137) + '...' : pConcept,
-          'Un fenómeno puramente casual sin base biológica ni conductual demostrable.',
-          'Una técnica intuitiva que no se puede entrenar ni prevenir.',
-          'Una reacción psicológica que solo afecta a personas sin educación.'
-        ],
-        correctIndex: 0,
-        explanation: `Fundamento del pilar: ${pConcept}`
-      },
-      {
-        badge: '🔍 NIVEL 2: ANÁLISIS DE CASO REAL Y DETECCIÓN',
-        question: `Si un interlocutor intenta vulnerar tus límites mediante dinámicas de '${pTitle}', ¿qué señal clave delata la manipulación?`,
-        options: [
-          'Urgencia artificial, asimetría de información y presión encubierta para forzar una decisión sin consentimiento genuino.',
-          'Búsqueda de consenso transparente y respeto mutuo de tiempos.',
-          'Apertura a recibir contrapropuestas por escrito.',
-          'Presentación clara de datos y auditorías verificables.'
-        ],
-        correctIndex: 0,
-        explanation: 'La manipulación táctica siempre busca acelerar la respuesta de la víctima para anular la evaluación crítica del Córtex Prefrontal.'
-      },
-      {
-        badge: '🛡️ NIVEL 3: EJECUCIÓN DEL ESCUDO DEFENSIVO',
-        question: `¿Cuál es el escudo de respuesta inmediata para neutralizar esta dinámica?`,
-        options: [
-          pShield,
-          'Reaccionar con agresión verbal inmediata para intimidar al agresor.',
-          'Ceder incondicionalmente esperando que el manipulador cambie por gratitud.',
-          'Ignorar la situación y no establecer ningún límite formal.'
-        ],
-        correctIndex: 0,
-        explanation: `Escudo táctico aplicable: ${pShield}`
-      },
-      {
-        badge: '⚠️ NIVEL 4: EL ERROR COMÚN DE LA VÍCTIMA',
-        question: `¿Cuál es el error impulsivo más frecuente que le otorga más poder al manipulador?`,
-        options: [
-          'Justificarse extensamente, pedir disculpas por defender sus derechos y buscar la aprobación del agresor.',
-          'Hacer una pausa en silencio de 3 a 5 segundos antes de responder.',
-          'Solicitar que la propuesta se formalice por escrito.',
-          'Fijar una fecha posterior para evaluar la situación con calma.'
-        ],
-        correctIndex: 0,
-        explanation: 'Buscar la aprobación del agresor y dar explicaciones excesivas valida su falso juicio y le otorga autoridad moral sobre ti.'
-      },
-      {
-        badge: '⚡ NIVEL 5: TRANSFERENCIA EN ESCENARIO CRÍTICO',
-        question: `Frente a un intento de manipulación recurrente y sistemática en este ámbito, ¿cuál es la estrategia de contención a largo plazo?`,
-        options: [
-          'Registrar hechos por escrito (cadena de custodia), establecer consecuencias innegociables y reducir la exposición al manipulador.',
-          'Intentar convencer al manipulador de que cambie de actitud.',
-          'Contarle secretos personales para ganarse su confianza.',
-          'Aceptar el rol de víctima como algo inevitable.'
-        ],
-        correctIndex: 0,
-        explanation: 'La documentación objetiva de hechos y el establecimiento de límites innegociables desmantelan la impunidad de la manipulación sistemática.'
-      }
-    ];
+    const rawQuestions = QuizFactory.create(pillar);
 
     const randomizedQuestions = rawQuestions.map(q => {
       const shuffled = this.shuffleOptions(q.options, q.correctIndex);
@@ -469,7 +408,7 @@ const App = {
             Entrenamiento de Asimilación Táctica
           </h4>
           <p class="text-xs text-slate-400 leading-relaxed">
-            Pon a prueba tu agilidad mental frente a 5 escenarios tácticos simulados. El examen no se detendrá una vez que inicies.
+            Autoevalúa cinco aspectos del módulo a tu ritmo. Las preguntas formativas no son una evaluación clínica ni acreditan competencias profesionales.
           </p>
         </div>
 
@@ -484,7 +423,7 @@ const App = {
           <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
             <div class="text-[10px] font-mono text-slate-500 uppercase">Tiempo</div>
             <div class="text-sm font-bold text-slate-200 flex items-center gap-1.5 mt-0.5">
-              <i class="fa-solid fa-stopwatch text-amber-400 text-xs"></i> 45s / Preg.
+              <i class="fa-solid fa-stopwatch text-amber-400 text-xs"></i> Sin tiempo / opcional 45s
             </div>
           </div>
           <div class="p-3 rounded-xl bg-slate-900 border border-slate-800">
@@ -512,6 +451,7 @@ const App = {
           </span>
         </div>
 
+        <label class="flex items-center justify-center gap-2 text-xs text-slate-300"><input id="quizUntimedMode" type="checkbox" checked class="w-4 h-4 accent-cyan-400"> Resolver sin límite de tiempo (recomendado)</label>
         <!-- Botón de Inicio con Acción Directa -->
         <div class="pt-2">
           <button onclick="App.startQuizQuestions()" class="px-8 py-3.5 rounded-xl bg-gradient-to-r from-amber-500 via-indigo-600 to-cyan-500 hover:from-amber-400 hover:via-indigo-500 hover:to-cyan-400 text-white font-bold text-xs uppercase tracking-widest transition-all shadow-xl shadow-indigo-500/25 flex items-center gap-3 mx-auto cursor-pointer">
@@ -527,6 +467,7 @@ const App = {
     this.quizState.hasStarted = true;
     this.quizState.currentStep = 0;
     this.quizState.score = 0;
+    this.quizState.untimed = document.getElementById('quizUntimedMode')?.checked ?? true;
     this.renderQuizStep();
   },
 
@@ -538,6 +479,7 @@ const App = {
 
     const timerEl = document.getElementById('quizTimerText');
     const timerBar = document.getElementById('quizTimerBar');
+    if(this.quizState.untimed){if(timerEl)timerEl.textContent='Sin límite';if(timerBar)timerBar.style.width='100%';return;}
 
     this.quizState.timerInterval = setInterval(() => {
       if (this.quizState.isAnswered) {
@@ -612,7 +554,7 @@ const App = {
         <i class="fa-solid fa-clock text-rose-400 text-xl mt-0.5 shrink-0 animate-pulse"></i>
         <div>
           <div class="font-bold text-rose-300 mb-1">¡Tiempo Expirado! (0 puntos)</div>
-          <p class="text-slate-300 leading-relaxed">${q.explanation}</p>
+          <p class="text-slate-300 leading-relaxed">${this.escapeHTML(q.explanation)}</p>
         </div>
       `;
     }
@@ -693,11 +635,11 @@ const App = {
       <!-- Tarjeta de Pregunta -->
       <div class="space-y-5">
         <div class="inline-block px-3 py-1 rounded-md bg-indigo-950/80 border border-indigo-500/40 text-[11px] font-mono font-bold text-indigo-300 uppercase tracking-wider shadow-sm">
-          ${q.badge || '🏛️ ANÁLISIS DE CASO TÁCTICO'}
+          ${this.escapeHTML(q.badge || 'ANÁLISIS DE CASO')}
         </div>
 
         <h4 class="text-base sm:text-lg font-bold text-slate-100 leading-snug">
-          ${q.question}
+          ${this.escapeHTML(q.question)}
         </h4>
 
         <!-- Opciones Interactivas Barajadas -->
@@ -707,7 +649,7 @@ const App = {
               <span class="w-7 h-7 rounded-lg bg-slate-800 border border-slate-600 text-slate-300 font-mono font-bold text-xs flex items-center justify-center shrink-0 group-hover:border-indigo-400 group-hover:text-indigo-300 transition-colors">
                 ${['A', 'B', 'C', 'D'][i]}
               </span>
-              <span class="leading-relaxed pt-0.5">${opt}</span>
+              <span class="leading-relaxed pt-0.5">${this.escapeHTML(opt)}</span>
             </button>
           `).join('')}
         </div>
@@ -759,8 +701,7 @@ const App = {
 
     const q = state.quizList[state.currentStep];
     const isCorrect = (state.selectedOption === q.correctIndex);
-    const elapsedSeconds = 45 - state.timerSeconds;
-    const isFast = elapsedSeconds <= 20;
+    // La velocidad no forma parte de la nota: se evalúa la respuesta, no la rapidez.
 
     if (isCorrect) {
       state.score++;
@@ -792,8 +733,8 @@ const App = {
         feedbackBox.innerHTML = `
           <i class="fa-solid fa-circle-check text-emerald-400 text-xl mt-0.5 shrink-0"></i>
           <div>
-            <div class="font-bold text-emerald-300 mb-1">¡Respuesta Táctica Correcta! (+25 XP ${isFast ? '⚡ +15 XP Bono Agilidad' : ''})</div>
-            <p class="text-slate-300 leading-relaxed">${q.explanation}</p>
+            <div class="font-bold text-emerald-300 mb-1">Respuesta correcta (autoevaluación)</div>
+            <p class="text-slate-300 leading-relaxed">${this.escapeHTML(q.explanation)}</p>
           </div>
         `;
       } else {
@@ -802,7 +743,7 @@ const App = {
           <i class="fa-solid fa-triangle-exclamation text-rose-400 text-xl mt-0.5 shrink-0"></i>
           <div>
             <div class="font-bold text-rose-300 mb-1">Trampa Detectada (0 puntos)</div>
-            <p class="text-slate-300 leading-relaxed">${q.explanation}</p>
+            <p class="text-slate-300 leading-relaxed">${this.escapeHTML(q.explanation)}</p>
           </div>
         `;
       }
@@ -831,7 +772,7 @@ const App = {
     const isPassed = (state.score >= 4); // Nota mínima 80% (4 de 5)
 
     let badgeIcon = isGold ? '🥇' : (isSilver ? '🥈' : '⚠️');
-    let titleText = isGold ? '¡MEDALLA DE ORO: MAESTRÍA TÁCTICA 100%!' : (isSilver ? '¡MEDALLA DE PLATA: ESCUDO DEFENSIVO APROBADO (80%)!' : 'EVALUACIÓN NO APROBADA (REQUIERE 80%)');
+    let titleText = isGold ? 'Autoevaluación: 5 de 5 respuestas correctas' : (isSilver ? 'Autoevaluación completada: 4 de 5' : 'EVALUACIÓN NO APROBADA (REQUIERE 80%)');
     let badgeColor = isGold ? 'border-amber-400 bg-amber-500/10 text-amber-300 shadow-[0_0_30px_rgba(251,191,36,0.3)]' : (isSilver ? 'border-cyan-400 bg-cyan-500/10 text-cyan-300 shadow-[0_0_25px_rgba(6,182,212,0.3)]' : 'border-rose-500 bg-rose-950/30 text-rose-300');
 
     // Guardar nota y medalla en el historial del usuario
@@ -886,7 +827,7 @@ const App = {
             <span class="text-sm font-normal text-slate-400 block mt-1">Nota obtenida: ${state.score * 20}% (Mínimo aprobatorio: 80%)</span>
           </h3>
           <p class="text-slate-300 text-sm max-w-lg mx-auto mt-3 leading-relaxed">
-            ${isGold ? '¡Extraordinario! Has alcanzado la asimilación máxima de los 5 niveles cognitivos. Tu escudo psicológico es impenetrable.' : (isSilver ? '¡Excelente rendimiento! Has superado el estándar de defensa táctica (80%). Has ganado la Medalla de Plata.' : 'No has alcanzado la nota mínima del 80% (4/5). El neuroaprendizaje exige consolidar el conocimiento antes de avanzar. Reintenta con nuevas opciones barajadas.')}
+            ${isGold ? 'Acertaste las cinco preguntas de esta práctica. Revisa las fuentes y prueba aplicar los conceptos a casos distintos.' : (isSilver ? 'Has superado el umbral de esta autoevaluación del módulo. Esto no equivale a una validación profesional.' : 'No alcanzaste las cuatro respuestas correctas. Relee el material, comprueba las explicaciones y vuelve a intentarlo.')}
           </p>
         </div>
 

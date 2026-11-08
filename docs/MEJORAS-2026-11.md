@@ -37,3 +37,7 @@ node --test tests/academy.test.cjs
 ## Segunda fase: respaldo académico local
 
 El pie de página incluye **Respaldar avance** y **Restaurar copia**. Se guarda un archivo JSON por libro con lecciones completadas, evaluaciones, tarjetas, notas y puntuación. No incluye claves de API. La restauración valida la versión, el identificador del libro y listas permitidas de datos; requiere confirmación y reemplaza el progreso de ese libro en ese navegador. **El JSON no está cifrado**: contiene notas que pueden ser personales. No es sincronización en la nube ni una fuente de certificación verificable.
+
+## Autoevaluaciones formativas
+
+El cuestionario de cada lección ahora prioriza el ejercicio redactado en `interactiveChallenge` y cinco objetivos distintos (caso, concepto, evidencia, límites y transferencia). Cuando un editor aporte al menos cinco preguntas válidas en `pillar.quizQuestions`, se usarán las preguntas redactadas en lugar de las generadas. Hay un modo **sin límite de tiempo activado por defecto**. Son prácticas de repaso, no exámenes psicométricos ni pruebas profesionales validadas; todavía hace falta redacción y revisión académica específica por libro.
