@@ -57,7 +57,7 @@ const App = {
                   confirmButtonColor: '#06b6d4'
               });
           } else {
-              alert("🔬 MODO CIENCIAS ACTIVADO\n\nEl motor revelará referencias ocultas del DSM-5, citas de PubMed y análisis neurocientíficos profundos.");
+              alert('Modo científico: se muestran fuentes disponibles. Las afirmaciones deben contrastarse con fuentes científicas y profesionales.');
           }
       } else {
           icon.classList.remove('text-rose-500', 'fa-beat-fade');
@@ -109,6 +109,8 @@ const App = {
     if (this.state.activeTab === 'learning') {
       this.renderLearningPath();
     }
+    this.loadProgress();
+    this.state.filteredFlashcards = null;
     this.loadFlashcards();
     this.renderMatrixFilters();
     this.filterMatrix('all');
@@ -1132,7 +1134,7 @@ const App = {
     keys.forEach(k => {
       const input = document.getElementById(`key_${k}`);
       if (input) {
-        input.value = localStorage.getItem(`userAIKey_${k}`) || '';
+        input.value = sessionStorage.getItem(`userAIKey_${k}`) || '';
       }
     });
 
@@ -1155,7 +1157,9 @@ const App = {
       const input = document.getElementById(`key_${k}`);
       if (input) {
         const val = input.value.trim();
-        localStorage.setItem(`userAIKey_${k}`, val);
+        if (val) sessionStorage.setItem(`userAIKey_${k}`, val);
+        else sessionStorage.removeItem(`userAIKey_${k}`);
+        localStorage.removeItem(`userAIKey_${k}`);
         if (k === 'google' && typeof AIEngine !== 'undefined') {
           AIEngine.apiKey = val;
         }
@@ -1171,7 +1175,7 @@ const App = {
     const provider = providerSelect ? providerSelect.value : 'local';
 
     if (provider === 'local') {
-      this.showToast('Modo Local: 100% Operativo (Sin necesidad de conexión).', 'success');
+      this.showToast('Modo local: recursos y ejercicios sin IA generativa.', 'info');
       return;
     }
 
@@ -1187,9 +1191,9 @@ const App = {
 
     try {
       if (provider === 'google') {
-        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent?key=${key}`, {
+        const res = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${AIEngine.modelName}:generateContent`, {
           method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
+          headers: { 'Content-Type': 'application/json', 'x-goog-api-key': key },
           body: JSON.stringify({ contents: [{ parts: [{ text: 'Responde solo: OK' }] }] })
         });
         const data = await res.json();
@@ -1237,7 +1241,7 @@ const App = {
           throw new Error(data.error ? data.error.message : 'Error de clave');
         }
       } else if (provider === 'huggingface') {
-        this.showToast('✅ Token de Hugging Face configurado correctamente.', 'success');
+        this.showToast('Token recibido. No hay prueba de conectividad configurada para Hugging Face.', 'info');
       }
     } catch (err) {
       this.showToast(`❌ Error de conexión: ${err.message}`, 'error');
@@ -1732,7 +1736,7 @@ const App = {
       let modCompletedCount = 0;
       m.keyPillars.forEach((_, pi) => {
         const nextId = pi + 1 < m.keyPillars.length ? `m${m.bookNumber}-${pi+1}` : `m${m.bookNumber+1}-0`;
-        if (this.state.progress.unlockedLessons && this.state.progress.unlockedLessons[nextId]) modCompletedCount++;
+        if (this.state.progress.completedLessons && this.state.progress.completedLessons[`m${m.bookNumber}-${pi}`]) modCompletedCount++;
       });
       const modTotal = m.keyPillars.length;
       const modPct = Math.round((modCompletedCount / modTotal) * 100);
@@ -1833,7 +1837,7 @@ const App = {
       let modCompletedCount = 0;
       mod.keyPillars.forEach((_, pi) => {
         const nextId = pi + 1 < mod.keyPillars.length ? `m${mod.bookNumber}-${pi+1}` : `m${mod.bookNumber+1}-0`;
-        if (this.state.progress.unlockedLessons && this.state.progress.unlockedLessons[nextId]) modCompletedCount++;
+        if (this.state.progress.completedLessons && this.state.progress.completedLessons[`m${mod.bookNumber}-${pi}`]) modCompletedCount++;
       });
       const modTotal = mod.keyPillars.length;
       const modPct = Math.round((modCompletedCount / modTotal) * 100);
@@ -1865,9 +1869,7 @@ const App = {
         const nextId = pIndex + 1 < mod.keyPillars.length ? `m${mod.bookNumber}-${pIndex+1}` : `m${mod.bookNumber+1}-0`;
         const isFirst = mod.bookNumber === 1 && pIndex === 0;
         const isUnlocked = isFirst || this.state.progress.unlockedLessons[lessonId];
-        const isCompleted = this.state.progress.unlockedLessons[nextId] && pIndex + 1 < mod.keyPillars.length
-          ? true
-          : this.state.progress.unlockedLessons[`m${mod.bookNumber+1}-0`] && pIndex === mod.keyPillars.length - 1;
+        const isCompleted = !!this.state.progress.completedLessons?.[lessonId];
 
         const actuallyUnlocked = isUnlocked && prevModCompleted;
         const pillarTitle = this.curateTitle(pillar.title);
@@ -2163,9 +2165,10 @@ const App = {
          if (typeof marked !== 'undefined') {
             parsedHtml = typeof marked.parse === 'function' ? marked.parse(rawMd) : marked(rawMd);
          } else {
-            parsedHtml = '<div class="whitespace-pre-wrap text-slate-300 font-sans leading-relaxed text-sm">' + rawMd + '</div>';
+            parsedHtml = '<div class="whitespace-pre-wrap text-slate-300 font-sans leading-relaxed text-sm">' + this.escapeHTML(rawMd) + '</div>';
          }
          
+         parsedHtml = typeof DOMPurify !== 'undefined' ? DOMPurify.sanitize(parsedHtml, { USE_PROFILES: { html: true } }) : this.escapeHTML(rawMd);
          const titlesMap = (typeof CHAPTER_TITLES !== 'undefined' ? CHAPTER_TITLES : null) || (typeof window !== 'undefined' ? window.CHAPTER_TITLES : null) || {};
          const safeChapterName = chapterName || '';
          const cleanTitle = titlesMap[safeChapterName] || safeChapterName.replace(/_/g, ' ').replace(/^Tema\s*\d+\s*/i, '').trim();
@@ -2503,6 +2506,7 @@ const App = {
     if (catEl) catEl.textContent = card.category || 'General';
     if (frontEl) frontEl.textContent = card.front;
     const imgEl = document.getElementById('fcFrontImg');
+    if (imgEl) imgEl.loading = 'lazy';
     if (imgEl) imgEl.src = 'assets/img/psicologia_obscura_6en1/flashcards/' + card.id + '.jpg';
     const backEl = document.getElementById('fcBackText');
     if (backEl) backEl.textContent = card.back;
@@ -2666,22 +2670,22 @@ const App = {
     ctx.fillText('NEURO-TACTICAL OS • ACADEMIA DE MAESTRÍA PSICOLÓGICA', 450, 90);
 
     ctx.fillStyle = '#ffffff'; ctx.font = 'bold 38px sans-serif';
-    ctx.fillText('CERTIFICADO DE DOMINIO', 450, 145);
+    ctx.fillText('CONSTANCIA DE ESTUDIO — NO OFICIAL', 450, 145);
 
     ctx.fillStyle = '#94a3b8'; ctx.font = 'italic 18px sans-serif';
-    ctx.fillText('Se acredita que', 450, 210);
+    ctx.fillText('Se registra que', 450, 210);
 
     ctx.fillStyle = '#ffffff'; ctx.font = `bold 32px sans-serif`;
     ctx.fillText(this.state.certName || 'El Estudiante', 450, 265);
 
     ctx.fillStyle = '#94a3b8'; ctx.font = 'italic 17px sans-serif';
-    ctx.fillText('ha completado el Sistema de Aprendizaje Estratégico de', 450, 320);
+    ctx.fillText('ha completado las lecciones de estudio de', 450, 320);
 
     ctx.fillStyle = '#06b6d4'; ctx.font = 'bold 22px sans-serif';
-    ctx.fillText('PSICOLOGÍA OSCURA Y PERFILADO TÁCTICO (6 EN 1)', 450, 360);
+    ctx.fillText((window.ACTIVE_BOOK_DATA?.title || 'Psicología y análisis conductual').slice(0,65), 450, 360);
 
     // Stats
-    const unlocked = Object.keys(this.state.progress.unlockedLessons).length - 1;
+    const unlocked = Object.values(this.state.progress.completedLessons || {}).filter(Boolean).length;
     ctx.fillStyle = '#475569'; ctx.font = '13px monospace';
     ctx.fillText(`Lecciones: ${Math.max(0,unlocked)} | Quiz: ${this.state.quizScore} pts | Nivel ${this.state.level} | XP: ${this.state.xp}`, 450, 420);
 
@@ -2704,7 +2708,7 @@ const App = {
     a.download = `Constancia_ZENIT_${(this.state.certName || 'Estudiante').replace(/[^\p{L}\p{N} _-]/gu, '').slice(0,60)}.png`;
     a.href = canvas.toDataURL('image/png');
     a.click();
-    this.showToast('📥 Certificado descargado', 'success');
+    this.showToast('📥 Constancia interna descargada', 'success');
   },
 
   // =============================================
@@ -2878,7 +2882,7 @@ const App = {
 
   exportStudySummary() {
     if (typeof LIBROS_DATA === 'undefined') return;
-    const unlocked = Object.keys(this.state.progress.unlockedLessons).length - 1;
+    const unlocked = Object.values(this.state.progress.completedLessons || {}).filter(Boolean).length;
     let text = `===== RESUMEN DE ESTUDIO — PSICOLOGÍA OSCURA =====\n`;
     text += `Fecha: ${new Date().toLocaleString('es-ES')}\n`;
     text += `Nivel: ${this.state.level} | XP: ${this.state.xp}\n`;

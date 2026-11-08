@@ -17,6 +17,7 @@ const BibliotecaEngine = {
   init() {
     if (typeof COLECCION_DATA === 'undefined') return;
     this.books = COLECCION_DATA.books || [];
+    // Migrar favoritos antiguos de IDs duplicados preservando la primera edición.
     this.loadFavorites();
     this.renderCategoryTabs();
     this.renderBooks();
@@ -343,8 +344,8 @@ const BibliotecaEngine = {
     }
 
     if (iframe) {
-      // Inyectar el visor del navegador
-      iframe.src = book.encodedPath;
+      iframe.src = book.extension === 'PDF' ? book.encodedPath : 'about:blank';
+      iframe.title = book.extension === 'PDF' ? `Lector de PDF: ${book.title}` : 'Este formato se descarga o abre externamente';
     }
 
     if (modal) {

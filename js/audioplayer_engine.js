@@ -38,7 +38,7 @@ const AudioPlayerEngine = {
       this.gainNode = this.audioContext.createGain();
       
       // Duplicar el volumen (Amplificador x2)
-      this.gainNode.gain.value = 2.0; 
+      this.gainNode.gain.value = 1.0; 
       
       this.mediaSource.connect(this.gainNode);
       this.gainNode.connect(this.audioContext.destination);
@@ -91,8 +91,10 @@ const AudioPlayerEngine = {
     });
 
     this.audio.addEventListener('error', (e) => {
-      console.warn("Audio playback error:", e);
-      // Alert removed: 403/CORS errors trigger this unnecessarily.
+      console.warn('Audio playback error:', e);
+      const status = document.getElementById('audioStatusText');
+      if (status) { status.textContent = 'No se pudo cargar el audio. Comprueba la conexión o los permisos de acceso.'; status.setAttribute('role','alert'); }
+      if (window.App?.showToast) window.App.showToast('No se pudo reproducir este audio. Verifica el enlace o el permiso.', 'error');
     });
   },
 
