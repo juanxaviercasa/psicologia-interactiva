@@ -30,7 +30,7 @@ async function runAccessGuard({ url, fetchImpl }) {
   return { replaced, visibility: docStyle.visibility, result };
 }
 
-test('La portada index.html no expone el catálogo público y enlaza oferta + login Whop', () => {
+test('La portada index.html no expone el catálogo público y enlaza la oferta sin publicar el login', () => {
   const indexHtml = fs.readFileSync('index.html', 'utf8');
   const sitemapXml = fs.readFileSync('sitemap.xml', 'utf8');
   const robotsTxt = fs.readFileSync('robots.txt', 'utf8');
@@ -38,7 +38,8 @@ test('La portada index.html no expone el catálogo público y enlaza oferta + lo
   assert.match(indexHtml, /<link rel="canonical" href="https:\/\/cortex\.sistemazenit\.com\/">/);
   assert.doesNotMatch(indexHtml, /id="catalog-grid"/);
   assert.doesNotMatch(indexHtml, /js\/coleccion_data\.js/);
-  assert.match(indexHtml, /href="\/api\/auth\/login"/);
+  assert.doesNotMatch(indexHtml, /href="\/api\/auth\/login"/);
+  assert.match(indexHtml, /href="\/api\/checkout"/);
   assert.match(indexHtml, /href="#oferta"/);
 
   assert.equal(fs.existsSync('landing.html'), false);
