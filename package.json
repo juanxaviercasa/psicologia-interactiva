@@ -1,0 +1,16 @@
+{
+  "name": "zenit-cortex",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ZENIT CORTEX: biblioteca y academia interactiva de psicología y conducta.",
+  "scripts": {
+    "dev": "node server.js",
+    "check": "node --check js/course_manifest.js && node --check js/quiz_factory.js && node --check js/progress_backup.js && node --check js/app.js && node --check js/ai_engine.js && node --check js/cv_engine.js && node --check js/audioplayer_engine.js && node --check js/biblioteca_engine.js && node --check js/coleccion_data.js",
+    "test": "node --test tests/*.test.cjs",
+    "validate:publication": "node scripts/validate-publication.cjs",
+    "audit:assets": "node scripts/audit-assets.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

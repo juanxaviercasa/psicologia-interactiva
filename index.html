@@ -5,12 +5,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ZENIT CORTEX | Biblioteca y Academia de Psicología</title>
   <meta name="description" content="Explora 94 libros y 20 audiolibros de psicología y conducta. Busca por tema, estudia rutas interactivas y practica habilidades con enfoque crítico.">
-  <link rel="canonical" href="https://psicologiaoscura.sistemazenit.com/">
+  <link rel="canonical" href="https://cortex.sistemazenit.com/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="ZENIT CORTEX | Biblioteca y Academia de Psicología">
   <meta property="og:description" content="Busca libros, audiolibros y rutas de estudio interactivas de psicología y conducta.">
-  <meta property="og:url" content="https://psicologiaoscura.sistemazenit.com/">
-  <link rel="icon" type="image/svg+xml" href="assets/img/logo/zenit_cortex_icon.svg">
+  <meta property="og:url" content="https://cortex.sistemazenit.com/">
+  <meta property="og:site_name" content="ZENIT CORTEX">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ZENIT CORTEX | Biblioteca y Academia de Psicología">
+  <meta name="twitter:description" content="Busca libros, audiolibros y rutas de estudio interactivas de psicología y conducta.">
+  <link rel="icon" type="image/svg+xml" href="https://cdn.cortex.sistemazenit.com/assets/img/logo/zenit_cortex_icon.svg">
   
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
@@ -61,7 +65,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex items-center justify-between h-20">
         <a href="index.html" class="flex items-center gap-3.5 group cursor-pointer">
-          <img src="assets/img/logo/zenit_cortex_logo.png" alt="ZENIT CORTEX Logo" class="w-11 h-11 rounded-xl object-cover border border-cyan-400/40 shadow-lg shadow-cyan-500/25 group-hover:scale-105 group-hover:border-cyan-400 transition-all">
+          <img src="https://cdn.cortex.sistemazenit.com/assets/img/logo/zenit_cortex_logo.png" alt="ZENIT CORTEX Logo" class="w-11 h-11 rounded-xl object-cover border border-cyan-400/40 shadow-lg shadow-cyan-500/25 group-hover:scale-105 group-hover:border-cyan-400 transition-all">
           <div>
             <div class="flex items-center gap-1.5">
               <span class="text-xl md:text-2xl font-black text-white tracking-tight">ZENIT</span>
@@ -159,7 +163,7 @@
       const gradient=trustedClasses(book.gradient,'from-slate-900 to-slate-950');
       const badge=trustedClasses(book.badgeBg,'bg-slate-800 text-slate-300');
       const ico=/^fa-[a-z0-9-]+$/i.test(book.categoryIcon||'')?book.categoryIcon:'fa-book';
-      const cover=/^assets\/img\/[\w./-]+\.(webp|png|jpe?g)$/i.test(book.coverImage||'')?book.coverImage:'';
+      const cover=/^https:\/\/cdn\.cortex\.sistemazenit\.com\/assets\/img\/[\w./-]+\.(webp|png|jpe?g)$/i.test(book.coverImage||'')?book.coverImage:'';
       return `<a href="${escape(url)}" class="group relative rounded-2xl bg-gradient-to-b ${gradient} border border-slate-800/80 hover:border-cyan-500/50 p-5 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 shadow-lg hover:shadow-cyan-500/10">
         <div><div class="mb-3"><span class="inline-flex items-center gap-1 px-2.5 py-1 text-[10px] font-semibold rounded-lg ${badge}"><i class="fa-solid ${ico}" aria-hidden="true"></i> ${escape(book.categoryName||'Libro')}</span></div>
         <div class="w-full aspect-video relative rounded-xl bg-slate-950 border border-slate-800 flex items-center justify-center overflow-hidden">

@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 const path = require('path');
 
-const PORT = 8080;
+const PORT = Number(process.env.PORT || 8080);
 const PUBLIC_DIR = __dirname;
 
 const MIME_TYPES = {
@@ -10,6 +10,8 @@ const MIME_TYPES = {
   '.css': 'text/css; charset=utf-8',
   '.js': 'application/javascript; charset=utf-8',
   '.json': 'application/json; charset=utf-8',
+  '.txt': 'text/plain; charset=utf-8',
+  '.xml': 'application/xml; charset=utf-8',
   '.m4a': 'audio/mp4',
   '.mp3': 'audio/mpeg',
   '.pdf': 'application/pdf',
@@ -32,7 +34,8 @@ const server = http.createServer((req, res) => {
   }
 
   let safePath = path.normalize(path.join(PUBLIC_DIR, decodedUrl));
-  if (!safePath.startsWith(PUBLIC_DIR)) {
+  const relativePath = path.relative(PUBLIC_DIR, safePath);
+  if (relativePath.startsWith('..' + path.sep) || path.isAbsolute(relativePath)) {
     res.writeHead(403, { 'Content-Type': 'text/plain' });
     res.end('403 Forbidden');
     return;
@@ -59,8 +62,13 @@ const server = http.createServer((req, res) => {
   }
 
   if (!fs.existsSync(safePath)) {
-    res.writeHead(404, { 'Content-Type': 'text/plain' });
-    res.end('404 Not Found');
+    const notFoundPath = path.join(PUBLIC_DIR, '404.html');
+    res.writeHead(404, {
+      'Content-Type': MIME_TYPES['.html'],
+      'X-Content-Type-Options': 'nosniff',
+      'Referrer-Policy': 'strict-origin-when-cross-origin'
+    });
+    fs.createReadStream(notFoundPath).pipe(res);
     return;
   }
 

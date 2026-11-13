@@ -20,7 +20,7 @@ unmapped_books_summary.json
 
 # Node / dependencies (Keep root static for zero-config Vercel hosting)
 node_modules/
-package.json
+# Keep package manifests versioned so local development and CI use the same scripts.
 package-lock.json
 
 # Staging image folders
@@ -44,4 +44,3 @@ __pycache__/
 # OS metadata
 Thumbs.db
 .DS_Store
-

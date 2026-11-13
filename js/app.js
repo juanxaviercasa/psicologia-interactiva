@@ -37,15 +37,15 @@ const App = {
       const btn = document.getElementById('btnScientificMode');
       if (!btn) return;
       const icon = btn.querySelector('i');
-      
+
       body.classList.toggle('scientific-mode-active');
       const isActive = body.classList.contains('scientific-mode-active');
       localStorage.setItem('pso_scientific', isActive);
-      
+
       if (isActive) {
           icon.classList.remove('text-teal-400');
           icon.classList.add('text-rose-500', 'fa-beat-fade');
-          
+
           // Sweet alert style if available, otherwise native alert
           if (window.Swal) {
               Swal.fire({
@@ -74,7 +74,7 @@ const App = {
               });
           }
       }
-      
+
       // Force re-render if in learning tab
       if (this.state.activeTab === 'learning' && this.state.activeModule !== null) {
           this.goToModule(this.state.activeModule);
@@ -295,19 +295,19 @@ const App = {
     }
   },
 
-  
+
   // ==========================================
   // ADVANCED NEURAL TTS NARRATION ENGINE
   // ==========================================
-  
+
   toggleChapterReader(contentId, headerEl) {
     const contentEl = document.getElementById(contentId);
     if (!contentEl) return;
-    
+
     const isHidden = contentEl.classList.contains('hidden');
     contentEl.classList.toggle('hidden');
     headerEl.setAttribute('aria-expanded',String(isHidden));
-    
+
     const chevron = headerEl.querySelector('.fa-chevron-down');
     if (chevron) {
       if (isHidden) {
@@ -316,7 +316,7 @@ const App = {
         chevron.classList.remove('rotate-180');
       }
     }
-    
+
     if (isHidden && typeof mermaid !== 'undefined') {
       setTimeout(() => {
         try {
@@ -326,7 +326,7 @@ const App = {
     }
   },
 
-  
+
   // ==========================================
   // 5-TIER NEURO-LEARNING QUIZ ENGINE
   // ==========================================
@@ -642,7 +642,7 @@ const App = {
           </span>
           <div class="flex items-center gap-1.5">${stepDotsHtml}</div>
         </div>
-        
+
         <div class="flex items-center gap-4">
           <!-- Temporizador Táctico -->
           <div class="flex items-center gap-2 px-3 py-1.5 rounded-lg bg-slate-950 border border-slate-700/80 shadow-inner">
@@ -961,18 +961,18 @@ const App = {
     // Anti-freeze: ensure queue is clear before next chunk
     if (window.speechSynthesis.paused) window.speechSynthesis.resume();
     window.speechSynthesis.cancel();
-    
+
     // Suave delay to prevent harsh cuts and engine lag between audios
     setTimeout(() => {
         if (!state.activeChapter || state.isPaused) return;
-        
+
         const chunk = state.utterances[state.currentIndex];
         const u = new SpeechSynthesisUtterance(chunk);
         u.lang = 'es-ES';
         const savedRate = localStorage.getItem('userTTSRate');
         u.rate = savedRate ? parseFloat(savedRate) : 0.95;
         u.pitch = 1.0;
-        
+
         // Find best Spanish voice if selectedVoice is null
         if (state.selectedVoice) {
             u.voice = state.selectedVoice;
@@ -1006,14 +1006,14 @@ const App = {
         };
 
         window.speechSynthesis.speak(u);
-        
-        // Anti-freeze watchdog (Chrome 15s bug): 
+
+        // Anti-freeze watchdog (Chrome 15s bug):
         // If the chunk is long and doesn't fire onend after 12 seconds, we force resume.
         if (state.watchdog) clearTimeout(state.watchdog);
         state.watchdog = setTimeout(() => {
             if (!state.isPaused && state.activeChapter) window.speechSynthesis.resume();
         }, 12000);
-        
+
     }, 50);
   },
 
@@ -1043,13 +1043,13 @@ const App = {
   populateVoiceSelect() {
     const select = document.getElementById('ttsVoiceSelect');
     if (!select || !('speechSynthesis' in window)) return;
-    
+
     let voices = window.speechSynthesis.getVoices();
     if (!voices || voices.length === 0) {
       setTimeout(() => this.populateVoiceSelect(), 150);
       return;
     }
-    
+
     // Sort: Spanish voices first, neural/natural first
     const esVoices = voices.filter(v => v.lang.startsWith('es') || v.lang.includes('ES') || v.lang.includes('MX') || v.lang.includes('US') || v.lang.includes('419'));
     const otherVoices = voices.filter(v => !esVoices.includes(v));
@@ -1060,11 +1060,11 @@ const App = {
       const isNeural = v.name.includes('Natural') || v.name.includes('Neural') || v.name.includes('Online') || v.name.includes('Google');
       const isFemale = v.name.toLowerCase().includes('dalia') || v.name.toLowerCase().includes('elena') || v.name.toLowerCase().includes('laura') || v.name.toLowerCase().includes('sabina') || v.name.toLowerCase().includes('paulina') || v.name.toLowerCase().includes('female') || v.name.toLowerCase().includes('mujer');
       const isMale = v.name.toLowerCase().includes('jorge') || v.name.toLowerCase().includes('alvaro') || v.name.toLowerCase().includes('raul') || v.name.toLowerCase().includes('male') || v.name.toLowerCase().includes('hombre');
-      
+
       let tag = isNeural ? '⭐ Neural' : 'Estándar';
       let genderTag = isFemale ? ' [Femenina]' : (isMale ? ' [Masculina]' : '');
       let langTag = isEs ? '🇪🇸 Español' : `🌐 ${v.lang}`;
-      
+
       return `<option value="${v.name}">${langTag} - ${v.name} (${tag}${genderTag})</option>`;
     }).join('');
 
@@ -1079,12 +1079,12 @@ const App = {
   openVoiceSettingsModal() {
     const modal = document.getElementById('voiceSettingsModal');
     if (!modal) return;
-    
+
     this.populateVoiceSelect();
     if ('speechSynthesis' in window && window.speechSynthesis.onvoiceschanged !== undefined) {
       window.speechSynthesis.onvoiceschanged = () => this.populateVoiceSelect();
     }
-    
+
     const range = document.getElementById('ttsSpeedRange');
     const speedLabel = document.getElementById('ttsSpeedLabel');
     const savedRate = localStorage.getItem('userTTSRate') || '0.92';
@@ -1092,7 +1092,7 @@ const App = {
       range.value = savedRate;
       if (speedLabel) speedLabel.innerText = savedRate + 'x';
     }
-    
+
     modal.classList.remove('hidden');
   },
 
@@ -1238,18 +1238,18 @@ const App = {
   saveVoiceSettings() {
     const select = document.getElementById('ttsVoiceSelect');
     const range = document.getElementById('ttsSpeedRange');
-    
+
     if (select && select.value) {
       localStorage.setItem('userTTSVoice', select.value);
       const voices = window.speechSynthesis.getVoices();
       const chosen = voices.find(v => v.name === select.value);
       if (chosen) this.ttsState.selectedVoice = chosen;
     }
-    
+
     if (range) {
       localStorage.setItem('userTTSRate', range.value);
     }
-    
+
     this.closeVoiceSettingsModal();
     this.showToast('Preferencias de voz guardadas con éxito.', 'success');
   },
@@ -1257,21 +1257,21 @@ const App = {
   testVoice() {
     if (!('speechSynthesis' in window)) return;
     window.speechSynthesis.cancel();
-    
+
     const select = document.getElementById('ttsVoiceSelect');
     const range = document.getElementById('ttsSpeedRange');
-    
+
     const sampleText = "Esta es una demostración de mi voz para la lectura de Psicología Oscura. La autorregulación emocional y el pensamiento crítico son tus mejores defensas.";
     const u = new SpeechSynthesisUtterance(sampleText);
     u.lang = 'es-ES';
     u.rate = range ? parseFloat(range.value) : 0.92;
-    
+
     if (select && select.value) {
       const voices = window.speechSynthesis.getVoices();
       const chosen = voices.find(v => v.name === select.value);
       if (chosen) u.voice = chosen;
     }
-    
+
     window.speechSynthesis.speak(u);
   },
 
@@ -1433,7 +1433,7 @@ const App = {
             icon: 'fa-book text-amber-400',
             title: b.title,
             sub: `${b.categoryName} • ${b.sizeFormatted}`,
-            action: b.extension === 'PDF' 
+            action: b.extension === 'PDF'
               ? `App.switchTab('biblioteca'); BibliotecaEngine.openReaderModal('${b.id}');`
               : `App.switchTab('biblioteca');`
           });
@@ -1523,7 +1523,7 @@ const App = {
         author: 'Benedict Goleman',
         categoryName: 'Psicología Estratégica',
         categoryIcon: 'fa-brain',
-        coverImage: 'assets/img/covers/cover_book_col-023.webp'
+        coverImage: 'https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-023.webp'
       };
     }
 
@@ -1803,7 +1803,7 @@ const App = {
         modImg = window.ACTIVE_BOOK_DATA.coverImage;
       }
       if (!modImg) {
-        modImg = `assets/img/psicologia_obscura_6en1/covers/cover_mod${m.bookNumber}.jpg`;
+        modImg = `https://cdn.cortex.sistemazenit.com/assets/img/psicologia_obscura_6en1/covers/cover_mod${m.bookNumber}.jpg`;
       }
 
       // Safeguards contra 'undefined' y enriquecimiento visual
@@ -1853,7 +1853,7 @@ const App = {
               <h3 class="text-white font-bold text-sm leading-tight">${modTitle}</h3>
             </div>
             <p class="text-xs text-slate-400 line-clamp-2 mb-3 flex-1">${modOverview}</p>
-            
+
             <div class="mt-auto">
               <div class="flex justify-between text-[10px] mb-1">
                 <span class="text-slate-400">${modCompletedCount}/${modTotal} Pilares</span>
@@ -1982,20 +1982,20 @@ const App = {
     document.getElementById('lessonModalTitle').innerHTML = `<i class="fa-solid fa-brain"></i> ${this.escapeHTML(this.curateTitle(pillar.title))}`;
 
     const notes = this.state.userNotes[`m${modNumber}-${pIndex}`] || '';
-    
+
     // Support for both old and new data structures
     const rawConcept = pillar.storytellingConcept || pillar.concept;
     const rawShield = pillar.tacticalShield || pillar.tacticalRule;
     const conceptText = this.enrichTextWithIcons(rawConcept);
     const shieldText = this.enrichTextWithIcons(rawShield);
-    
+
     let dialogueHtml = '';
     if (pillar.dialogueBreakdown && pillar.dialogueBreakdown.length > 0) {
         dialogueHtml = pillar.dialogueBreakdown.map(line => {
             const isAggressor = line.speaker.toLowerCase().includes('manipulador') || line.speaker === 'A' || line.speaker.toLowerCase().includes('tóxica');
-            const icon = isAggressor 
-    ? '<img src="assets/img/psicologia_obscura_6en1/avatars/avatar_manipulator.jpg" class="w-12 h-12 rounded-full border-2 border-rose-500/70 shadow-[0_0_15px_rgba(244,63,94,0.5)] object-cover shrink-0">' 
-    : '<img src="assets/img/psicologia_obscura_6en1/avatars/avatar_victim.jpg" class="w-12 h-12 rounded-full border-2 border-emerald-500/70 shadow-[0_0_15px_rgba(16,185,129,0.5)] object-cover shrink-0">';
+            const icon = isAggressor
+    ? '<img src="https://cdn.cortex.sistemazenit.com/assets/img/psicologia_obscura_6en1/avatars/avatar_manipulator.jpg" class="w-12 h-12 rounded-full border-2 border-rose-500/70 shadow-[0_0_15px_rgba(244,63,94,0.5)] object-cover shrink-0">'
+    : '<img src="https://cdn.cortex.sistemazenit.com/assets/img/psicologia_obscura_6en1/avatars/avatar_victim.jpg" class="w-12 h-12 rounded-full border-2 border-emerald-500/70 shadow-[0_0_15px_rgba(16,185,129,0.5)] object-cover shrink-0">';
             return `
             <div class="mb-4">
                 <div class="flex items-center gap-2 text-[11px] font-bold ${isAggressor ? 'text-rose-400' : 'text-emerald-400'} mb-1 tracking-wider uppercase">
@@ -2022,7 +2022,7 @@ const App = {
         </div>
     `;
 
-    
+
     const moduleIcons = {
         1: '<i class="fa-solid fa-network-wired"></i>',
         2: '<i class="fa-solid fa-eye"></i>',
@@ -2038,7 +2038,7 @@ const App = {
 
         <!-- HEADER VISUAL ARCHITECTURE (16:9) -->
         <div class="lg:col-span-2 relative overflow-hidden rounded-2xl border border-slate-700 shadow-2xl" style="padding-top: 56.25%;">
-            <img src="assets/img/psicologia_obscura_6en1/headers/module_header_m${modNumber}.jpg"
+            <img src="https://cdn.cortex.sistemazenit.com/assets/img/psicologia_obscura_6en1/headers/module_header_m${modNumber}.jpg"
                  alt="Módulo ${modNumber}"
                  class="absolute inset-0 w-full h-full object-cover"
                  onerror="this.style.display='none'">
@@ -2061,14 +2061,14 @@ const App = {
         <div class="p-6 rounded-2xl bg-slate-800/40 border border-slate-700 lg:col-span-2 shadow-inner">
           <div class="text-[11px] text-amber-500 font-bold font-mono tracking-widest mb-4 flex justify-between items-center">
             <span><i class="fa-solid fa-seedling"></i> 1. LA RAÍZ (EL POR QUÉ FUNCIONA)</span>
-            
+
           </div>
           <!-- INFOGRAFIA EDUCATIVA (Encyclopedia Style) -->
           <div class="lesson-img-container w-full mb-6 mt-4 rounded-xl overflow-hidden border border-slate-700 shadow-lg relative group bg-slate-950" id="lesson-img-m${modNumber}-p${pIndex+1}">
               <!-- Aspect ratio 16:9 wrapper — prevents any stretching/pixelation -->
               <div class="relative w-full" style="padding-top: 56.25%;">
-                  <img src="assets/img/psicologia_obscura_6en1/lessons/lesson_m${modNumber}_p${pIndex+1}.jpg" 
-                       alt="Ilustración de ${pillar.title}" 
+                  <img src="https://cdn.cortex.sistemazenit.com/assets/img/psicologia_obscura_6en1/lessons/lesson_m${modNumber}_p${pIndex+1}.jpg"
+                       alt="Ilustración de ${pillar.title}"
                        class="absolute inset-0 w-full h-full object-contain bg-slate-950 transition-transform duration-700 group-hover:scale-105"
                        onerror="this.parentElement.parentElement.querySelector('.img-placeholder').style.display='flex'; this.parentElement.style.display='none'">
               </div>
@@ -2121,7 +2121,7 @@ const App = {
              ${this.enrichTextWithIcons(pillar.clinicalCase)}
           </div>
         </div>` : ''}
-        
+
         ${pillar.academicCitation ? `
         <!-- RESPALDO ACADÉMICO MEJORADO -->
         <div class="p-5 rounded-xl bg-slate-950/80 border border-indigo-900/50 shadow-[0_0_15px_rgba(79,70,229,0.1)] flex flex-col gap-3 mb-4 transition-all hover:border-indigo-500/50">
@@ -2148,7 +2148,7 @@ const App = {
         <div class="lg:col-span-2">
           <div class="text-[11px] text-slate-500 font-bold font-mono tracking-widest mb-2"><i class="fa-solid fa-diagram-project text-slate-500 mr-1"></i> DIAGRAMA DEL MECANISMO INTERNO</div>
           <div class="relative w-full rounded-xl overflow-hidden border border-slate-700 shadow-md bg-slate-950 group" style="padding-top:56.25%;">
-            <img src="assets/img/psicologia_obscura_6en1/diagrams/diagram_m${modNumber}_p${pIndex+1}.jpg"
+            <img src="https://cdn.cortex.sistemazenit.com/assets/img/psicologia_obscura_6en1/diagrams/diagram_m${modNumber}_p${pIndex+1}.jpg"
                  alt="Diagrama ${pillar.title}"
                  class="absolute inset-0 w-full h-full object-contain bg-slate-950 transition-transform duration-500 group-hover:scale-105"
                  onerror="this.parentElement.parentElement.style.display='none'">
@@ -2168,7 +2168,7 @@ const App = {
           <div class="text-[11px] text-amber-400 font-bold font-mono tracking-widest mb-4 flex items-center gap-2 relative z-10">
             <i class="fa-solid fa-bolt text-amber-400 animate-pulse"></i> 6. ENTRENAMIENTO DE ASIMILACIÓN INTERACTIVA
           </div>
-          
+
           <div id="quizInteractiveContainer" class="relative z-10">
             <!-- Renderizado dinámico por App.initLessonQuiz -->
           </div>
@@ -2179,18 +2179,18 @@ const App = {
           <div class="text-[11px] text-slate-400 font-bold font-mono tracking-widest mb-3"><i class="fa-solid fa-pen"></i> 7. MIS NOTAS E INSIGHTS PERSONALES</div>
           <textarea id="lessonNotes" placeholder="Escribe tus conexiones, epifanías o cómo aplicarías esto mañana mismo..." class="w-full bg-slate-900/80 border border-slate-700 rounded-xl p-4 text-sm text-slate-200 focus:outline-none focus:border-indigo-500 resize-none h-32">${this.escapeHTML(notes)}</textarea>
           <button onclick="App.saveLessonNotes(${modNumber}, ${pIndex})" class="mt-3 px-5 py-2 bg-slate-700 hover:bg-slate-600 text-xs font-bold text-white rounded-lg transition-colors shadow-sm"><i class="fa-solid fa-save"></i> Guardar Notas</button>
-          
+
           ${socraticBtnHtml}
         </div>
 
       </div>
     `;
 
-    
+
     // Append Extended Reading Chapters
     if (pillar.chapters && pillar.chapters.length > 0) {
       const bookStore = (typeof BOOK_CONTENT !== 'undefined' ? BOOK_CONTENT : null) || (typeof window !== 'undefined' ? window.BOOK_CONTENT : null) || {};
-      
+
       let chaptersHtml = `
         <div class="lg:col-span-2 mt-8">
           <div class="mb-4 flex items-center justify-between">
@@ -2203,10 +2203,10 @@ const App = {
           </div>
           <div class="space-y-4">
       `;
-      
+
       pillar.chapters.forEach((chapterName, idx) => {
          const rawMd = bookStore[chapterName] || 'Contenido del capítulo no disponible.';
-         
+
          // Parse markdown safely
          let parsedHtml = '';
          if (typeof marked !== 'undefined') {
@@ -2214,13 +2214,13 @@ const App = {
          } else {
             parsedHtml = '<div class="whitespace-pre-wrap text-slate-300 font-sans leading-relaxed text-sm">' + this.escapeHTML(rawMd) + '</div>';
          }
-         
+
          parsedHtml = typeof DOMPurify !== 'undefined' ? DOMPurify.sanitize(parsedHtml, { USE_PROFILES: { html: true } }) : this.escapeHTML(rawMd);
          const titlesMap = (typeof CHAPTER_TITLES !== 'undefined' ? CHAPTER_TITLES : null) || (typeof window !== 'undefined' ? window.CHAPTER_TITLES : null) || {};
          const safeChapterName = chapterName || '';
          const cleanTitle = titlesMap[safeChapterName] || safeChapterName.replace(/_/g, ' ').replace(/^Tema\s*\d+\s*/i, '').trim();
          const contentId = `chapter-drawer-${modNumber}-${pIndex}-${idx}`;
-         
+
          chaptersHtml += `
            <div class="bg-slate-900/90 border border-slate-700/60 rounded-2xl overflow-hidden shadow-xl">
              <!-- Header del Acordeón -->
@@ -2277,15 +2277,15 @@ const App = {
     if (!mod) return;
     const pillar = mod.keyPillars[pIndex];
     if (!pillar) return;
-    
+
     this.closeLessonModal();
     this.switchTab('sparring');
-    
+
     // Auto-fill Sparring AI chat
     const input = document.getElementById('sparringInput');
     if (input) {
         input.value = `Quiero debatir y entender mejor este pilar: ${pillar.title}. ¿Podrías hacerme algunas preguntas socráticas para ponerme a prueba sobre cómo aplicaría esto en la vida real?`;
-        
+
         // Optionally auto-send if the function exists
         if (typeof sendSparringMessage === 'function') {
             setTimeout(sendSparringMessage, 500);
@@ -2440,7 +2440,7 @@ const App = {
         </div>
         <!-- Simulator Scenario Image -->
         <div class="relative w-full rounded-xl overflow-hidden mb-4 border border-slate-700 bg-slate-950 group" style="padding-top:56.25%;">
-          <img src="assets/img/psicologia_obscura_6en1/simulador/sim_case_${caseData.id.replace('c','')}.jpg"
+          <img src="https://cdn.cortex.sistemazenit.com/assets/img/psicologia_obscura_6en1/simulador/sim_case_${caseData.id.replace('c','')}.jpg"
                alt="${caseData.title}"
                class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                onerror="this.parentElement.style.display='none'">
@@ -2561,7 +2561,7 @@ const App = {
     if (frontEl) frontEl.textContent = card.front;
     const imgEl = document.getElementById('fcFrontImg');
     if (imgEl) imgEl.loading = 'lazy';
-    if (imgEl) imgEl.src = 'assets/img/psicologia_obscura_6en1/flashcards/' + card.id + '.jpg';
+    if (imgEl) imgEl.src = 'https://cdn.cortex.sistemazenit.com/assets/img/psicologia_obscura_6en1/flashcards/' + card.id + '.jpg';
     const backEl = document.getElementById('fcBackText');
     if (backEl) backEl.textContent = card.back;
     const mnemoEl = document.getElementById('fcMnemonicText');
@@ -2932,7 +2932,7 @@ const App = {
   // =============================================
   shareProgress() {
     const text = `¡Estoy dominando tácticas de influencia y persuasión avanzada en la plataforma interactiva de Psicología Oscura! 🧠♟️\n\nMis stats actuales:\n🔥 Nivel: ${document.getElementById('globalLevelText')?.textContent || 'Novato'}\n✅ Progreso: ${document.getElementById('dashProgressPercent')?.textContent || '0%'}\n🎯 Simulador: ${document.getElementById('dashCasesSolved')?.textContent || '0'}\n\n¿Tienes lo necesario para ser un Maestro Táctico? 👉 `;
-    
+
     // Create the LinkedIn share URL. LinkedIn only takes a URL reliably via param, but we can copy the text to clipboard first!
     navigator.clipboard.writeText(text).then(() => {
         Swal.fire({
@@ -2971,7 +2971,7 @@ const App = {
     this.showToast('📄 Notas exportadas', 'success');
   },
 
-  
+
   unlockAll(){this.showToast('El desbloqueo administrativo está desactivado para los estudiantes.','info')},
   resetAllProgress(){
   if(!confirm('¿Reiniciar las notas, evaluaciones y avance de este libro en este navegador?'))return;
@@ -3124,7 +3124,7 @@ const App = {
       }
   },
 
-  
+
   updatePomodoroDisplay() {
       const mins = Math.floor(this.pomodoroTime / 60).toString().padStart(2, '0');
       const secs = (this.pomodoroTime % 60).toString().padStart(2, '0');
@@ -3165,7 +3165,7 @@ const App = {
     // ==========================================
   // VOICE SPARRING AI INTEGRATION
   // ==========================================
-  
+
   voiceState: {
     isActive: false,
     recognition: null,
@@ -3185,7 +3185,7 @@ const App = {
   toggleVoiceMode() {
     const btn = document.getElementById('btnVoiceMode');
     this.voiceState.isActive = !this.voiceState.isActive;
-    
+
     if (this.voiceState.isActive) {
       // Dictation mode ON
       if(btn) {
@@ -3247,7 +3247,7 @@ const App = {
             setTimeout(() => { if (!this.voiceState.isListening) this.voiceState.recognition.start(); }, 1000);
         }
       };
-      
+
       this.voiceState.recognition.onend = () => {
         this.voiceState.isListening = false;
         // Si sigue activo el botón del micrófono, vuelve a escuchar
@@ -3256,7 +3256,7 @@ const App = {
         }
       };
     }
-    
+
     // Start listening
     if (!this.voiceState.isListening && (!window.speechSynthesis || !window.speechSynthesis.speaking)) {
         try { this.voiceState.recognition.start(); } catch(e){}
@@ -3265,17 +3265,17 @@ const App = {
 
   speakSparringResponse(text) {
     if (!window.speechSynthesis || !this.voiceState.isActive) return;
-    
+
     window.speechSynthesis.cancel();
-    
+
     let cleanText = text.replace(/[*#_`]/g, '').trim();
     if (!cleanText) return;
-    
+
     // Chunking to prevent Chrome 15s crash
     const sentences = cleanText.match(/[^.!?]+[.!?]+|[^.!?]+$/g) || [cleanText];
     let chunks = sentences.map(s => s.trim()).filter(s => s.length > 0);
     let currentIndex = 0;
-    
+
     const speakNextChunk = () => {
         if (!this.voiceState.isActive || currentIndex >= chunks.length) {
             // Finished speaking all chunks
@@ -3287,12 +3287,12 @@ const App = {
             }
             return;
         }
-        
+
         const utterance = new SpeechSynthesisUtterance(chunks[currentIndex]);
         utterance.lang = 'es-ES';
-        utterance.pitch = 0.8; 
-        utterance.rate = 1.0; 
-        
+        utterance.pitch = 0.8;
+        utterance.rate = 1.0;
+
         const voices = window.speechSynthesis.getVoices();
         const maleVoice = voices.find(v => v.lang.includes('es') && (v.name.includes('Male') || v.name.includes('Pablo') || v.name.includes('Jorge')));
         if (maleVoice) utterance.voice = maleVoice;
@@ -3307,7 +3307,7 @@ const App = {
             currentIndex++;
             setTimeout(speakNextChunk, 200);
         };
-        
+
         utterance.onerror = (e) => {
             console.warn('Sparring TTS error', e);
             currentIndex++;
@@ -3316,7 +3316,7 @@ const App = {
 
         window.speechSynthesis.speak(utterance);
     };
-    
+
     speakNextChunk();
   },
 
@@ -3423,7 +3423,7 @@ const App = {
     const libroId = document.getElementById('sparringLibroSelect')?.value;
     const tecSelect = document.getElementById('sparringTecnicaSelect');
     const badge = document.getElementById('sparringTecnicaBadge');
-    
+
     // Reset following step
     const escSelect = document.getElementById('sparringEscenarioSelect');
     const escBadge = document.getElementById('sparringEscenarioBadge');
@@ -3490,7 +3490,7 @@ const App = {
     const tecnicaId = document.getElementById('sparringTecnicaSelect')?.value;
     const escenarioId = document.getElementById('sparringEscenarioSelect')?.value;
     const btn = document.getElementById('btnStartSparring');
-    
+
     if (btn) {
       if (libroId && tecnicaId && escenarioId) {
         btn.disabled = false;
@@ -3591,7 +3591,7 @@ const App = {
     if (!msg) return;
     input.value = '';
     const box = document.getElementById('sparringMessages') || document.getElementById('sparringChatBox');
-    
+
     // Clear speech recognition buffer if in dictation mode
     if (this.voiceState.isActive && this.voiceState.recognition) {
         this.voiceState.recognition.stop();
@@ -3600,7 +3600,7 @@ const App = {
 
     box.innerHTML += `<div class="flex items-start gap-3 justify-end"><div class="bg-indigo-600 rounded-2xl rounded-tr-none p-3 max-w-[80%] text-sm text-white">${this.escapeHTML(msg)}</div></div>`;
     box.scrollTop = box.scrollHeight;
-    
+
     if(!this.state.sparringHistory) this.state.sparringHistory = [];
     this.state.sparringHistory.push({ role: 'user', text: msg });
 
@@ -3614,11 +3614,11 @@ const App = {
       this.state.sparringHistory.push({ role: 'ai', text: reply });
       box.innerHTML += this._sparringAIBubble(reply);
       box.scrollTop = box.scrollHeight;
-      
+
       if (this.voiceState.isActive) {
          this.speakSparringResponse(reply);
       }
-      
+
     } catch (err) {
       console.error(err);
       document.getElementById(typingId)?.remove();

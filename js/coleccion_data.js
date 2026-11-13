@@ -117,7 +117,7 @@ const COLECCION_DATA = {
       "timeEstimate": "1h 38m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Aprende_a_Manipular_Sin_Que_Nadie_Lo_Note_Técnicas_Psicológica.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Aprende_a_Manipular_Sin_Que_Nadie_Lo_Note_T%C3%A9cnicas_Psicol%C3%B3gica.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-001.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-001.webp"
     },
     {
       "id": "col-002",
@@ -139,7 +139,7 @@ const COLECCION_DATA = {
       "timeEstimate": "1h 8m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Aprende_a_leer_mentes_con_el_lenguaje_corpora_United_Audiobook.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Aprende_a_leer_mentes_con_el_lenguaje_corpora_United_Audiobook.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-002.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-002.webp"
     },
     {
       "id": "col-003",
@@ -161,7 +161,7 @@ const COLECCION_DATA = {
       "timeEstimate": "1h 3m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/CÓMO_ANALIZAR_A_LAS_PERSONAS_RJ_ANDERSON.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/C%C3%93MO_ANALIZAR_A_LAS_PERSONAS_RJ_ANDERSON.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-003.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-003.webp"
     },
     {
       "id": "col-004",
@@ -183,7 +183,7 @@ const COLECCION_DATA = {
       "timeEstimate": "2h 2m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Descubre_los_Secretos_de_la_Psicología_Oscura!_Aprende_a_Analiza.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Descubre_los_Secretos_de_la_Psicolog%C3%ADa_Oscura%21_Aprende_a_Analiza.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-004.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-004.webp"
     },
     {
       "id": "col-005",
@@ -205,7 +205,7 @@ const COLECCION_DATA = {
       "timeEstimate": "3h 49m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_El_Lenguaje_Corporal_Descubre_Cómo_Leer_A_Las_Personas_C.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_El_Lenguaje_Corporal_Descubre_C%C3%B3mo_Leer_A_Las_Personas_C.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-005.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-005.webp"
     },
     {
       "id": "col-006",
@@ -227,7 +227,7 @@ const COLECCION_DATA = {
       "timeEstimate": "2h 8m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_La_Psicología_Oscura_Aprende_A_Leer_Mentes_Y_Manipular_C.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_La_Psicolog%C3%ADa_Oscura_Aprende_A_Leer_Mentes_Y_Manipular_C.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-006.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-006.webp"
     },
     {
       "id": "col-007",
@@ -249,7 +249,7 @@ const COLECCION_DATA = {
       "timeEstimate": "1h 51m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_el_Lenguaje_Corporal_Descifra_los_Secretos_del_Comportam.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_el_Lenguaje_Corporal_Descifra_los_Secretos_del_Comportam.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-007.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-007.webp"
     },
     {
       "id": "col-008",
@@ -271,7 +271,7 @@ const COLECCION_DATA = {
       "timeEstimate": "1h 47m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_el_lenguaje_corporal_y_la_psicología_oscura_en_tu_vida_di.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_el_lenguaje_corporal_y_la_psicolog%C3%ADa_oscura_en_tu_vida_di.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-008.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-008.webp"
     },
     {
       "id": "col-009",
@@ -293,7 +293,7 @@ const COLECCION_DATA = {
       "timeEstimate": "3h 10m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_la_Manipulación_El_audiolibro_sobre_Psicología_Oscura.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_la_Manipulaci%C3%B3n_El_audiolibro_sobre_Psicolog%C3%ADa_Oscura.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-009.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-009.webp"
     },
     {
       "id": "col-010",
@@ -315,7 +315,7 @@ const COLECCION_DATA = {
       "timeEstimate": "3h 54m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Domina_la_Psicología_Oscura_Aprende_a_Detectar_y_Controlar_la_M.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Domina_la_Psicolog%C3%ADa_Oscura_Aprende_a_Detectar_y_Controlar_la_M.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-010.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-010.webp"
     },
     {
       "id": "col-011",
@@ -337,7 +337,7 @@ const COLECCION_DATA = {
       "timeEstimate": "3h 47m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/El Libro de Enoc (Audiolibro Completo)  Voz Real Humana.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/El%20Libro%20de%20Enoc%20%28Audiolibro%20Completo%29%20%20Voz%20Real%20Humana.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-011.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-011.webp"
     },
     {
       "id": "col-012",
@@ -359,7 +359,7 @@ const COLECCION_DATA = {
       "timeEstimate": "1h 18m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Inteligencia Emocional Terry Lindberg.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Inteligencia%20Emocional%20Terry%20Lindberg.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-012.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-012.webp"
     },
     {
       "id": "col-013",
@@ -381,7 +381,7 @@ const COLECCION_DATA = {
       "timeEstimate": "1h 39m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/La_Psicología_de_la_Persuasión_El_audiolibro_sobre_Psicología.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/La_Psicolog%C3%ADa_de_la_Persuasi%C3%B3n_El_audiolibro_sobre_Psicolog%C3%ADa.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-013.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-013.webp"
     },
     {
       "id": "col-014",
@@ -403,7 +403,7 @@ const COLECCION_DATA = {
       "timeEstimate": "1h 14m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Lee a las Personas con facilidad - Audiolibro completo.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Lee%20a%20las%20Personas%20con%20facilidad%20-%20Audiolibro%20completo.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-014.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-014.webp"
     },
     {
       "id": "col-015",
@@ -425,7 +425,7 @@ const COLECCION_DATA = {
       "timeEstimate": "2h 45m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Lo_Que_Nadie_Te_Dice_Sobre_Leer_a_Las_Personas_Descúbrelo_en_E.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Lo_Que_Nadie_Te_Dice_Sobre_Leer_a_Las_Personas_Desc%C3%BAbrelo_en_E.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-015.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-015.webp"
     },
     {
       "id": "col-016",
@@ -447,7 +447,7 @@ const COLECCION_DATA = {
       "timeEstimate": "1h 28m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Los_Secretos_Oscuros_de_la_Mente_Aprende_a_Controlar_y_Protege.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Los_Secretos_Oscuros_de_la_Mente_Aprende_a_Controlar_y_Protege.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-016.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-016.webp"
     },
     {
       "id": "col-017",
@@ -469,7 +469,7 @@ const COLECCION_DATA = {
       "timeEstimate": "1h 32m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Manipulación al Descubierto - Tu audiolibro definitivo.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Manipulaci%C3%B3n%20al%20Descubierto%20-%20Tu%20audiolibro%20definitivo.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-017.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-017.webp"
     },
     {
       "id": "col-018",
@@ -491,7 +491,7 @@ const COLECCION_DATA = {
       "timeEstimate": "4h 34m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/PSICOLOGÍA_OSCURA_TÉCNICAS_PROHIBIDAS_de_PERSUASIÓN,_MANIPULACION.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/PSICOLOG%C3%8DA_OSCURA_T%C3%89CNICAS_PROHIBIDAS_de_PERSUASI%C3%93N%2C_MANIPULACION.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-018.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-018.webp"
     },
     {
       "id": "col-019",
@@ -513,7 +513,7 @@ const COLECCION_DATA = {
       "timeEstimate": "5h 29m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/STEVEN TURNER - PSICOLOGÍA OSCURA .m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/STEVEN%20TURNER%20-%20PSICOLOG%C3%8DA%20OSCURA%20.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-019.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-019.webp"
     },
     {
       "id": "col-020",
@@ -535,7 +535,7 @@ const COLECCION_DATA = {
       "timeEstimate": "2h 0m",
       "relativePath": "Coleccion _Psicologia_Oscura_Audiolibros/🎧Audiolibros🎧/Secretos_para_Leer_a_las_Personas_Psicología_Oscura_y_Análisis.m4a",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/audiolibros/Secretos_para_Leer_a_las_Personas_Psicolog%C3%ADa_Oscura_y_An%C3%A1lisis.m4a",
-      "coverImage": "assets/img/covers/cover_audio_col-020.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_audio_col-020.webp"
     }
   ],
   "books": [
@@ -559,7 +559,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~19 págs",
       "relativePath": "libros/psicologia/Psicología oscura - Aprenda los usos prácticos y las defensas dmanipulacion, la influencia emocional y otras tecnicas secretas.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicolog%C3%ADa%20oscura%20-%20Aprenda%20los%20usos%20pr%C3%A1cticos%20y%20las%20defensas%20dmanipulacion%2C%20la%20influencia%20emocional%20y%20otras%20tecnicas%20secretas.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-021.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-021.webp"
     },
     {
       "id": "psicologia-obscura-s-l-moore",
@@ -581,7 +581,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~22 págs",
       "relativePath": "libros/psicologia/PSICOLOGIA OBSCURA S.L. MOORE .pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/PSICOLOGIA%20OBSCURA%20S.L.%20MOORE%20.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-022.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-022.webp"
     },
     {
       "id": "psicologia-obscura-s-l-moore-edicion-2",
@@ -603,7 +603,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~59 págs",
       "relativePath": "libros/psicologia/PSICOLOGIA OBSCURA S.L. MOORE .pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/PSICOLOGIA%20OBSCURA%20S.L.%20MOORE%20.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-023.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-023.webp"
     },
     {
       "id": "psicologia-oscura-4-en-1-este-libro-incluye-secretos-de-la-psicologia-oscura-lectura-rapida-de-perso",
@@ -625,7 +625,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~112 págs",
       "relativePath": "libros/psicologia/PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-Recablee-Su-Mente-L.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-Recablee-Su-Mente-L.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-024.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-024.webp"
     },
     {
       "id": "psicologia-oscura-4-en-1-este-libro-incluye-secretos-de-la-psicologia-oscura-lectura-rapida-de-perso-edicion-2",
@@ -647,7 +647,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~112 págs",
       "relativePath": "libros/psicologia/PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-by-Recablee-Su-Mente.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/PSICOLOGIA-OSCURA-4-en-1-Este-Libro-Incluye-Secretos-de-La-Psicologia-Oscura-Lectura-Rapida-de-Personas-Reescriba-Su-Mente-by-Recablee-Su-Mente.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-025.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-025.webp"
     },
     {
       "id": "psicologia-oscura-al-extremo-41-tecnicas-de-psicologia-oscura-reveladas",
@@ -669,7 +669,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~26 págs",
       "relativePath": "libros/psicologia/PSICOLOGIA-OSCURA-AL-EXTREMO-41-Tecnicas-de-Psicologia-Oscura-Reveladas.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/PSICOLOGIA-OSCURA-AL-EXTREMO-41-Tecnicas-de-Psicologia-Oscura-Reveladas.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-026.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-026.webp"
     },
     {
       "id": "psicologia-oscura-secretos",
@@ -691,7 +691,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~126 págs",
       "relativePath": "libros/psicologia/PSICOLOGIA-OSCURA-SECRETOS.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/PSICOLOGIA-OSCURA-SECRETOS.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-027.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-027.webp"
     },
     {
       "id": "psicologi-a-oscura-aprenda-co-mo-influir-en-las-personas-mediante",
@@ -713,7 +713,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~25 págs",
       "relativePath": "libros/psicologia/Psicologi-a-Oscura-Aprenda-co-mo-Influir-en-las-personas-mediante.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologi-a-Oscura-Aprenda-co-mo-Influir-en-las-personas-mediante.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-028.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-028.webp"
     },
     {
       "id": "psicologia-oscura-como-reconocer-y-controlar-la-manipulacion-y-l-1",
@@ -735,7 +735,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~123 págs",
       "relativePath": "libros/psicologia/Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l (1).pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l%20%281%29.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-029.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-029.webp"
     },
     {
       "id": "psicologia-oscura-como-reconocer-y-controlar-la-manipulacion-y-l",
@@ -757,7 +757,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~123 págs",
       "relativePath": "libros/psicologia/Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura-Como-Reconocer-y-Controlar-La-Manipulacion-y-l.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-030.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-030.webp"
     },
     {
       "id": "psicologia-oscura-fabian-goleman",
@@ -779,7 +779,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~21 págs",
       "relativePath": "libros/psicologia/Psicologia-Oscura-Fabian-Goleman.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura-Fabian-Goleman.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-031.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-031.webp"
     },
     {
       "id": "psicologia-oscura-la-guia-definitiva-para-aprender-a-analizar",
@@ -801,7 +801,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~227 págs",
       "relativePath": "libros/psicologia/Psicologia-Oscura-La-Guia-Definitiva-Para-Aprender-a-Analizar.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura-La-Guia-Definitiva-Para-Aprender-a-Analizar.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-032.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-032.webp"
     },
     {
       "id": "psicologia-oscura-steven-turner-z-lib-org",
@@ -823,7 +823,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~330 págs",
       "relativePath": "libros/psicologia/Psicologia-Oscura-Steven-Turner-z-lib-org.docx",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura-Steven-Turner-z-lib-org.docx",
-      "coverImage": "assets/img/covers/cover_book_col-033.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-033.webp"
     },
     {
       "id": "psicologia-oscura-victor-sykes",
@@ -845,7 +845,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~16 págs",
       "relativePath": "libros/psicologia/Psicologia-Oscura-Victor-Sykes.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura-Victor-Sykes.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-034.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-034.webp"
     },
     {
       "id": "psicologia-oscura-e-inteligencia-emocional-descubre-como-detectar-la-manipulacion-emocional-y-aprend",
@@ -867,7 +867,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~35 págs",
       "relativePath": "libros/psicologia/Psicologia-Oscura-e-Inteligencia-Emocional-Descubre-como-detectar-la-manipulacion-emocional-y-aprende-tecnicas-para-persuadir-y-analizar-a-las-person.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura-e-Inteligencia-Emocional-Descubre-como-detectar-la-manipulacion-emocional-y-aprende-tecnicas-para-persuadir-y-analizar-a-las-person.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-035.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-035.webp"
     },
     {
       "id": "psicologia-oscura",
@@ -889,7 +889,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~215 págs",
       "relativePath": "libros/psicologia/Psicologia-Oscura.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-Oscura.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-036.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-036.webp"
     },
     {
       "id": "psicologia-oscura-aprenda-los-usos-pra-cticos-y-las-defensas-dmanipulacion-la-influencia-emocional-y",
@@ -911,7 +911,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~16 págs",
       "relativePath": "libros/psicologia/Psicologia-oscura-Aprenda-los-usos-pra-cticos-y-las-defensas-dmanipulacion-la-influencia-emocional-y-otras-tecnicas-secretas.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-oscura-Aprenda-los-usos-pra-cticos-y-las-defensas-dmanipulacion-la-influencia-emocional-y-otras-tecnicas-secretas.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-037.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-037.webp"
     },
     {
       "id": "psicologia-oscura-y-manipulacion-compress",
@@ -933,7 +933,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~30 págs",
       "relativePath": "libros/psicologia/Psicologia-oscura-y-manipulacion-compress.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Psicologia-oscura-y-manipulacion-compress.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-038.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-038.webp"
     },
     {
       "id": "secretos-de-la-psicologia-oscura-aprenda-las-tecnicas-de-persuasion-cubiertas-como-lavado-de-cerebro",
@@ -955,7 +955,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~38 págs",
       "relativePath": "libros/psicologia/Secretos-De-La-Psicologia-Oscura-Aprenda-las-Tecnicas-de-Persuasion-Cubiertas-como-Lavado-de-Cerebro-Hipnosis-y-PNL-para-Usarlas-en-su-Beneficio-Da.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Secretos-De-La-Psicologia-Oscura-Aprenda-las-Tecnicas-de-Persuasion-Cubiertas-como-Lavado-de-Cerebro-Hipnosis-y-PNL-para-Usarlas-en-su-Beneficio-Da.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-039.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-039.webp"
     },
     {
       "id": "secretos-de-psicologia-oscura-daniel-james-hollins",
@@ -977,7 +977,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~60 págs",
       "relativePath": "libros/psicologia/Secretos-de-psicologia-oscura-Daniel-James-Hollins.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/Secretos-de-psicologia-oscura-Daniel-James-Hollins.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-040.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-040.webp"
     },
     {
       "id": "psicologia-oscura-4",
@@ -999,7 +999,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~642 págs",
       "relativePath": "libros/psicologia/psicologia-oscura-4.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/psicologia/psicologia-oscura-4.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-041.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-041.webp"
     },
     {
       "id": "1-manipulaci-n-mental",
@@ -1021,7 +1021,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/manipulacion/1. MANIPULACIÓN MENTAL.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/1.%20MANIPULACI%C3%93N%20MENTAL.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-042.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-042.webp"
     },
     {
       "id": "4-manipulaci-n",
@@ -1043,7 +1043,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~68 págs",
       "relativePath": "libros/manipulacion/4. MANIPULACIÓN .pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/4.%20MANIPULACI%C3%93N%20.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-043.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-043.webp"
     },
     {
       "id": "6-manipulaci-n",
@@ -1065,7 +1065,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/manipulacion/6. Manipulación .pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/6.%20Manipulaci%C3%B3n%20.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-044.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-044.webp"
     },
     {
       "id": "7-manipulacion-mental-para-principiantes-aprenda-a-analizar-a-las-personas-y-manipular-su-mente-subc",
@@ -1087,7 +1087,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~29 págs",
       "relativePath": "libros/manipulacion/7-MANIPULACION-MENTAL-PARA-PRINCIPIANTES-Aprenda-a-Analizar-a-Las-Personas-y-Manipular-Su-Mente-Subconsciente-Influya-en-Las-Personas-Con-Psicologia-O.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/7-MANIPULACION-MENTAL-PARA-PRINCIPIANTES-Aprenda-a-Analizar-a-Las-Personas-y-Manipular-Su-Mente-Subconsciente-Influya-en-Las-Personas-Con-Psicologia-O.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-045.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-045.webp"
     },
     {
       "id": "el-arte-de-manipulacion-y-psicologia-oscura",
@@ -1109,7 +1109,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/manipulacion/El-Arte-de-Manipulacion-y-Psicologia-Oscura.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/El-Arte-de-Manipulacion-y-Psicologia-Oscura.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-046.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-046.webp"
     },
     {
       "id": "garcia-la-gran-manipulacion",
@@ -1131,7 +1131,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~26 págs",
       "relativePath": "libros/manipulacion/GARCIA-La-gran-manipulacion.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/GARCIA-La-gran-manipulacion.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-047.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-047.webp"
     },
     {
       "id": "goleman-fabian-manipulacion",
@@ -1153,7 +1153,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~28 págs",
       "relativePath": "libros/manipulacion/Goleman-Fabian-Manipulacion.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Goleman-Fabian-Manipulacion.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-048.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-048.webp"
     },
     {
       "id": "manipulacio-n-y-psicolo-gica-oscura",
@@ -1175,7 +1175,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~74 págs",
       "relativePath": "libros/manipulacion/MANIPULACIO-N-Y-PSICOLO-GICA-OSCURA.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/MANIPULACIO-N-Y-PSICOLO-GICA-OSCURA.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-049.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-049.webp"
     },
     {
       "id": "manipulacion-fabian-goleman",
@@ -1197,7 +1197,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~39 págs",
       "relativePath": "libros/manipulacion/MANIPULACION-FABIAN-GOLEMAN.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/MANIPULACION-FABIAN-GOLEMAN.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-050.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-050.webp"
     },
     {
       "id": "manipulacion-mental-para-principiantes-aprenda-a-analizar-a-las-personas-y-manipular-su-mente-subcon",
@@ -1219,7 +1219,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~29 págs",
       "relativePath": "libros/manipulacion/MANIPULACION-MENTAL-PARA-PRINCIPIANTES-Aprenda-a-Analizar-a-Las-Personas-y-Manipular-Su-Mente-Subconsciente-Influya-en-Las-Personas-Con-Psicologia-O (1).pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/MANIPULACION-MENTAL-PARA-PRINCIPIANTES-Aprenda-a-Analizar-a-Las-Personas-y-Manipular-Su-Mente-Subconsciente-Influya-en-Las-Personas-Con-Psicologia-O%20%281%29.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-051.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-051.webp"
     },
     {
       "id": "manipulacion-secretos-de-la-psicologia-oscura-aprende-como-analizar-e-influir-en-las-personas-pnl-le",
@@ -1241,7 +1241,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~20 págs",
       "relativePath": "libros/manipulacion/MANIPULACION-SECRETOS-de-LA-PSICOLOGIA-OSCURA-Aprende-Como-Analizar-e-Influir-en-Las-Personas-PNL-Lenguaje-Corporal-y-Tecnicas-Usadas-Por-El-Maes.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/MANIPULACION-SECRETOS-de-LA-PSICOLOGIA-OSCURA-Aprende-Como-Analizar-e-Influir-en-Las-Personas-PNL-Lenguaje-Corporal-y-Tecnicas-Usadas-Por-El-Maes.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-052.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-052.webp"
     },
     {
       "id": "manipulacion-el-santo-grial-de-la-psicologia-oscura-aprender-a-influir-en-las-personas-gracias-al-co",
@@ -1263,7 +1263,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~28 págs",
       "relativePath": "libros/manipulacion/Manipulacion-El-santo-grial-de-la-Psicologia-Oscura-Aprender-a-influir-en-las-personas-gracias-al-Control-Mental-y-Emocional-Hipnosis-superficial.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulacion-El-santo-grial-de-la-Psicologia-Oscura-Aprender-a-influir-en-las-personas-gracias-al-Control-Mental-y-Emocional-Hipnosis-superficial.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-053.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-053.webp"
     },
     {
       "id": "manipulacion-psicologica-aprende-a-manipular-y-influir-en-los-comportamientos-humanos-nuevas-tecnica",
@@ -1285,7 +1285,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~20 págs",
       "relativePath": "libros/manipulacion/Manipulacion-Psicologica-Aprende-a-Manipular-y-Influir-en-Los-Comportamientos-Humanos-Nuevas-Tecnicas-Para-Lavar-El-Cerebro-Usando-Hipnosis-PNL-y.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulacion-Psicologica-Aprende-a-Manipular-y-Influir-en-Los-Comportamientos-Humanos-Nuevas-Tecnicas-Para-Lavar-El-Cerebro-Usando-Hipnosis-PNL-y.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-054.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-054.webp"
     },
     {
       "id": "manipulacion-spanish-edition-h-g-tudor",
@@ -1307,7 +1307,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/manipulacion/Manipulacion-Spanish-Edition-H-G-Tudor.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulacion-Spanish-Edition-H-G-Tudor.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-055.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-055.webp"
     },
     {
       "id": "manipulacion-y-psicologia-oscur-daniel-long",
@@ -1329,7 +1329,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~42 págs",
       "relativePath": "libros/manipulacion/Manipulacion-Y-Psicologia-Oscur-Daniel-Long.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulacion-Y-Psicologia-Oscur-Daniel-Long.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-056.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-056.webp"
     },
     {
       "id": "manipulacion-afectiva-belen-vitelleschi",
@@ -1351,7 +1351,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~16 págs",
       "relativePath": "libros/manipulacion/Manipulacion-afectiva-Belen-Vitelleschi.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulacion-afectiva-Belen-Vitelleschi.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-057.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-057.webp"
     },
     {
       "id": "manipulacion-y-psicologia-oscura-maria-costanza-calvio",
@@ -1373,7 +1373,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~73 págs",
       "relativePath": "libros/manipulacion/Manipulacion-y-Psicologia-Oscura-Maria-Costanza-Calvio.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulacion-y-Psicologia-Oscura-Maria-Costanza-Calvio.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-058.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-058.webp"
     },
     {
       "id": "manipulacion-y-psicologia-oscura-una-guia-completa-para-aprender-las-tecnicas-secretas-para-influir-",
@@ -1395,7 +1395,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~84 págs",
       "relativePath": "libros/manipulacion/Manipulacion-y-Psicologia-Oscura-Una-Guia-Completa-para-Aprender-las-Tecnicas-Secretas-para-Influir-en-las-Personas-con-Persuasion-Engano-Control-M.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulacion-y-Psicologia-Oscura-Una-Guia-Completa-para-Aprender-las-Tecnicas-Secretas-para-Influir-en-las-Personas-con-Persuasion-Engano-Control-M.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-059.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-059.webp"
     },
     {
       "id": "manipulaci-n-y-psicologia-oscura",
@@ -1417,7 +1417,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~30 págs",
       "relativePath": "libros/manipulacion/Manipulación y Psicologia-oscura.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manipulaci%C3%B3n%20y%20Psicologia-oscura.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-060.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-060.webp"
     },
     {
       "id": "manual-de-manipulacion",
@@ -1439,7 +1439,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~41 págs",
       "relativePath": "libros/manipulacion/Manual-de-Manipulacion.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Manual-de-Manipulacion.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-061.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-061.webp"
     },
     {
       "id": "pnl-guia-pratica-de-manipulacion-e-persuasion-como-influir-en-las-personas-usando-la-psicologia-oscu",
@@ -1461,7 +1461,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~22 págs",
       "relativePath": "libros/manipulacion/PNL Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/PNL%20Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-062.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-062.webp"
     },
     {
       "id": "psicologia-oscura-manipulacion-emocional",
@@ -1483,7 +1483,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~17 págs",
       "relativePath": "libros/manipulacion/Psicologia-Oscura-Manipulacion-Emocional.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/manipulacion/Psicologia-Oscura-Manipulacion-Emocional.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-063.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-063.webp"
     },
     {
       "id": "47-las-mejores-tecnicas-de-persuasion",
@@ -1505,7 +1505,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~351 págs",
       "relativePath": "libros/persuasion/47-las-mejores-tecnicas-de-persuasion.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/47-las-mejores-tecnicas-de-persuasion.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-064.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-064.webp"
     },
     {
       "id": "5-libro-negro-de-la-persuasi-n",
@@ -1527,7 +1527,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/persuasion/5. LIBRO NEGRO DE LA PERSUASIÓN .pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/5.%20LIBRO%20NEGRO%20DE%20LA%20PERSUASI%C3%93N%20.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-065.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-065.webp"
     },
     {
       "id": "comunicacion-persuasiva-3-libr-hayden-j-power",
@@ -1549,7 +1549,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~30 págs",
       "relativePath": "libros/persuasion/Comunicacion-Persuasiva-3-Libr-Hayden-j-Power.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Comunicacion-Persuasiva-3-Libr-Hayden-j-Power.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-066.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-066.webp"
     },
     {
       "id": "empaticos-y-narcisistas-guia-de-supervivencia-para",
@@ -1571,7 +1571,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~35 págs",
       "relativePath": "libros/persuasion/Empaticos-y-Narcisistas-Guia-de-Supervivencia-Para.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Empaticos-y-Narcisistas-Guia-de-Supervivencia-Para.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-067.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-067.webp"
     },
     {
       "id": "la-magia-de-la-persuasion-pamela-jean-zetina",
@@ -1593,7 +1593,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~83 págs",
       "relativePath": "libros/persuasion/La-Magia-de-La-Persuasion-Pamela-Jean-Zetina.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/La-Magia-de-La-Persuasion-Pamela-Jean-Zetina.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-068.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-068.webp"
     },
     {
       "id": "la-persuasion",
@@ -1615,7 +1615,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~44 págs",
       "relativePath": "libros/persuasion/La-Persuasion.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/La-Persuasion.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-069.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-069.webp"
     },
     {
       "id": "maestro-de-la-persuasion-mateo-holm",
@@ -1637,7 +1637,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/persuasion/Maestro-de-la-Persuasion-Mateo-Holm.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Maestro-de-la-Persuasion-Mateo-Holm.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-070.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-070.webp"
     },
     {
       "id": "pnl-guia-pratica-de-manipulacion-e-persuasion-como-influir-en-las-personas-usando-la-psicologia-oscu-edicion-2",
@@ -1659,7 +1659,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~22 págs",
       "relativePath": "libros/persuasion/PNL-Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/PNL-Guia-pratica-de-Manipulacion-e-Persuasion-como-Influir-en-las-Personas-usando-la-Psicologia-Oscura.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-071.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-071.webp"
     },
     {
       "id": "persuasion-de-psicologia-oscura-e-inteligencia-emocional-descubre-como-detectar-la-manipulacion-emoc",
@@ -1681,7 +1681,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~35 págs",
       "relativePath": "libros/persuasion/Persuasion de Psicologia-Oscura-e-Inteligencia-Emocional-Descubre-como-detectar-la-manipulacion-emocional-y-aprende-tecnicas-para-persuadir-y-analizar-a-las-person.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Persuasion%20de%20Psicologia-Oscura-e-Inteligencia-Emocional-Descubre-como-detectar-la-manipulacion-emocional-y-aprende-tecnicas-para-persuadir-y-analizar-a-las-person.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-072.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-072.webp"
     },
     {
       "id": "persuasion-jane-austen",
@@ -1703,7 +1703,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~217 págs",
       "relativePath": "libros/persuasion/Persuasion-Jane-Austen.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Persuasion-Jane-Austen.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-073.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-073.webp"
     },
     {
       "id": "persuasion-positiva",
@@ -1725,7 +1725,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/persuasion/Persuasion-Positiva.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Persuasion-Positiva.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-074.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-074.webp"
     },
     {
       "id": "persuasion-psicologia-oscura-tecnicas-secretas-para-influenciar-en-las-personas-usando-el-control-me",
@@ -1747,7 +1747,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~28 págs",
       "relativePath": "libros/persuasion/Persuasion-Psicologia-Oscura-Tecnicas-Secretas-Para-Influenciar-en-Las-Personas-Usando-El-Control-Mental-La-Manipulacion-y-El-Engano-Spanish-Edit.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Persuasion-Psicologia-Oscura-Tecnicas-Secretas-Para-Influenciar-en-Las-Personas-Usando-El-Control-Mental-La-Manipulacion-y-El-Engano-Spanish-Edit.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-075.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-075.webp"
     },
     {
       "id": "persuasion-y-manipulacion-como-convencer-a-la-gente-influenciar-su-decisiones-y-defenderse-de-los-ma",
@@ -1769,7 +1769,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~18 págs",
       "relativePath": "libros/persuasion/Persuasion-y-Manipulacion-Como-Convencer-a-La-Gente-Influenciar-Su-Decisiones-y-Defenderse-de-Los-Manipuladores-Psicologia-Oscura-Spanish-Edition.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Persuasion-y-Manipulacion-Como-Convencer-a-La-Gente-Influenciar-Su-Decisiones-y-Defenderse-de-Los-Manipuladores-Psicologia-Oscura-Spanish-Edition.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-076.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-076.webp"
     },
     {
       "id": "persuasion",
@@ -1791,7 +1791,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/persuasion/Persuasion.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Persuasion.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-077.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-077.webp"
     },
     {
       "id": "psicologia-de-la-persuasion",
@@ -1813,7 +1813,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~77 págs",
       "relativePath": "libros/persuasion/Psicologia-de-La-Persuasion.pptx",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Psicologia-de-La-Persuasion.pptx",
-      "coverImage": "assets/img/covers/cover_book_col-078.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-078.webp"
     },
     {
       "id": "tecnicas-de-persuacion",
@@ -1835,7 +1835,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~395 págs",
       "relativePath": "libros/persuasion/Tecnicas-de-persuacion.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/persuasion/Tecnicas-de-persuacion.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-079.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-079.webp"
     },
     {
       "id": "100-tips-de-lenguaje-corporal",
@@ -1857,7 +1857,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~347 págs",
       "relativePath": "libros/lenguaje_corporal/100-Tips-de-Lenguaje-Corporal.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/100-Tips-de-Lenguaje-Corporal.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-080.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-080.webp"
     },
     {
       "id": "9-lenguaje-corporal-40-d-as",
@@ -1879,7 +1879,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~27 págs",
       "relativePath": "libros/lenguaje_corporal/9. LENGUAJE CORPORAL 40 DÍAS .pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/9.%20LENGUAJE%20CORPORAL%2040%20D%C3%8DAS%20.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-081.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-081.webp"
     },
     {
       "id": "aprende-con-el-lenguaje-corporal-analizar-a-las-personas-editado3",
@@ -1901,7 +1901,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~22 págs",
       "relativePath": "libros/lenguaje_corporal/Aprende-Con-El-Lenguaje-Corporal-Analizar-a-Las-Personas-Editado3.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Aprende-Con-El-Lenguaje-Corporal-Analizar-a-Las-Personas-Editado3.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-082.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-082.webp"
     },
     {
       "id": "como-conocer-a-las-personas-por-su-lenguaje-corporal---leonardo-ferrari",
@@ -1923,7 +1923,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~28 págs",
       "relativePath": "libros/lenguaje_corporal/Como Conocer A Las Personas Por Su Lenguaje Corporal - Leonardo Ferrari.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Como%20Conocer%20A%20Las%20Personas%20Por%20Su%20Lenguaje%20Corporal%20-%20Leonardo%20Ferrari.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-083.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-083.webp"
     },
     {
       "id": "domina-tu-lenguaje-corporal_-la---50minutos-es",
@@ -1945,7 +1945,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~35 págs",
       "relativePath": "libros/lenguaje_corporal/Domina tu lenguaje corporal_ La - 50Minutos.es.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Domina%20tu%20lenguaje%20corporal_%20La%20-%2050Minutos.es.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-084.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-084.webp"
     },
     {
       "id": "el-lenguaje-corporal-no-miente-mateo-holm",
@@ -1967,7 +1967,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~28 págs",
       "relativePath": "libros/lenguaje_corporal/El-Lenguaje-Corporal-NO-Miente-Mateo-Holm.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/El-Lenguaje-Corporal-NO-Miente-Mateo-Holm.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-085.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-085.webp"
     },
     {
       "id": "el-lenguaje-del-cuerpo-revela-mas-que-las-palabras",
@@ -1989,7 +1989,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~112 págs",
       "relativePath": "libros/lenguaje_corporal/El-Lenguaje-Del-Cuerpo-Revela-Mas-Que-Las-Palabras.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/El-Lenguaje-Del-Cuerpo-Revela-Mas-Que-Las-Palabras.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-086.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-086.webp"
     },
     {
       "id": "el_lenguaje_del_cuerpo",
@@ -2011,7 +2011,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~138 págs",
       "relativePath": "libros/lenguaje_corporal/El_lenguaje_del_cuerpo.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/El_lenguaje_del_cuerpo.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-087.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-087.webp"
     },
     {
       "id": "lenguaje-corporal",
@@ -2033,7 +2033,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/lenguaje_corporal/Lenguaje-Corporal.docx",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Lenguaje-Corporal.docx",
-      "coverImage": "assets/img/covers/cover_book_col-088.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-088.webp"
     },
     {
       "id": "lenguaje-corporal-edicion-2",
@@ -2055,7 +2055,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~285 págs",
       "relativePath": "libros/lenguaje_corporal/Lenguaje-Corporal.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Lenguaje-Corporal.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-089.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-089.webp"
     },
     {
       "id": "lenguaje-corporal-poderoso",
@@ -2077,7 +2077,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~508 págs",
       "relativePath": "libros/lenguaje_corporal/Lenguaje-corporal-poderoso.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Lenguaje-corporal-poderoso.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-090.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-090.webp"
     },
     {
       "id": "los-secretos-del-lenguaje-corporal",
@@ -2099,7 +2099,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/lenguaje_corporal/Los-Secretos-Del-Lenguaje-Corporal.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Los-Secretos-Del-Lenguaje-Corporal.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-091.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-091.webp"
     },
     {
       "id": "manual-lenguaje-corporal-1",
@@ -2121,7 +2121,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~699 págs",
       "relativePath": "libros/lenguaje_corporal/MANUAL-LENGUAJE-CORPORAL-1.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/MANUAL-LENGUAJE-CORPORAL-1.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-092.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-092.webp"
     },
     {
       "id": "manual-de-lenguaje-corporal",
@@ -2143,7 +2143,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~53 págs",
       "relativePath": "libros/lenguaje_corporal/Manual-de-Lenguaje-Corporal.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/lenguaje_corporal/Manual-de-Lenguaje-Corporal.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-093.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-093.webp"
     },
     {
       "id": "como-analizar-a-la-gente-una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-",
@@ -2165,7 +2165,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~31 págs",
       "relativePath": "libros/analizar_personas/COMO-ANALIZAR-A-LA-GENTE-Una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-tipos-de-personalidad-engano-empatico-compor.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/analizar_personas/COMO-ANALIZAR-A-LA-GENTE-Una-maestria-para-aprender-a-leer-a-la-gente-analizar-el-lenguaje-corporal-tipos-de-personalidad-engano-empatico-compor.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-094.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-094.webp"
     },
     {
       "id": "como-analizar-a-las-personas-con-psicologia-oscura-una-guia-rapida-para-leer-tipos-de-personalidad-h",
@@ -2187,7 +2187,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~26 págs",
       "relativePath": "libros/analizar_personas/COMO-ANALIZAR-A-LAS-PERSONAS-CON-PSICOLOGIA-OSCURA-Una-Guia-Rapida-para-Leer-Tipos-de-Personalidad-Humana-Mediante-el-Analisis-del-Lenguaje-Corporal.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/analizar_personas/COMO-ANALIZAR-A-LAS-PERSONAS-CON-PSICOLOGIA-OSCURA-Una-Guia-Rapida-para-Leer-Tipos-de-Personalidad-Humana-Mediante-el-Analisis-del-Lenguaje-Corporal.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-095.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-095.webp"
     },
     {
       "id": "como-analizar-a-las-personas-robert-leary",
@@ -2209,7 +2209,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~61 págs",
       "relativePath": "libros/analizar_personas/COMO-ANALIZAR-A-LAS-PERSONAS-ROBERT-LEARY.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/analizar_personas/COMO-ANALIZAR-A-LAS-PERSONAS-ROBERT-LEARY.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-096.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-096.webp"
     },
     {
       "id": "como-analizar-a-las-personas-una-guia-para-acelerar-la-lectura-de-las-personas-a-traves-de-la-psicol",
@@ -2231,7 +2231,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~20 págs",
       "relativePath": "libros/analizar_personas/Como-Analizar-A-Las-Personas-Una-Guia-Para-Acelerar-La-Lectura-De-Las-Personas-A-Traves-De-La-Psicologia-Del-Comportamiento-Humano-Aprende-A-Leer-El.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/analizar_personas/Como-Analizar-A-Las-Personas-Una-Guia-Para-Acelerar-La-Lectura-De-Las-Personas-A-Traves-De-La-Psicologia-Del-Comportamiento-Humano-Aprende-A-Leer-El.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-097.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-097.webp"
     },
     {
       "id": "como-analizar-a-las-personas-psicologia-oscura-tecnicas-secretas-para-analizar-e-influenciar-a-cualq",
@@ -2253,7 +2253,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/analizar_personas/como-analizar-a-las-personas-psicologia-oscura-tecnicas-secretas-para-analizar-e-influenciar-a-cualquiera-utilizando-el-lenguaje-corporal-la-psico.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/analizar_personas/como-analizar-a-las-personas-psicologia-oscura-tecnicas-secretas-para-analizar-e-influenciar-a-cualquiera-utilizando-el-lenguaje-corporal-la-psico.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-098.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-098.webp"
     },
     {
       "id": "el_pr-ncipe_de_maquiavelo",
@@ -2275,7 +2275,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~373 págs",
       "relativePath": "libros/maquiavelo/El_príncipe_de_maquiavelo.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/maquiavelo/El_pr%C3%ADncipe_de_maquiavelo.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-099.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-099.webp"
     },
     {
       "id": "psicologia-del-masoquismo",
@@ -2297,7 +2297,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/maquiavelo/Psicologia del masoquismo.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/maquiavelo/Psicologia%20del%20masoquismo.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-100.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-100.webp"
     },
     {
       "id": "psicologia-maquiavelica",
@@ -2319,7 +2319,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~21 págs",
       "relativePath": "libros/maquiavelo/Psicologia-Maquiavelica.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/maquiavelo/Psicologia-Maquiavelica.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-101.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-101.webp"
     },
     {
       "id": "psicologia-maquiavelica-teoria-y-tecnicas-de-psicologia-oscura-manipulacion-pdf",
@@ -2341,7 +2341,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~18 págs",
       "relativePath": "libros/maquiavelo/Psicologia-maquiavelica-Teoria-y-tecnicas-de-psicologia-oscura-manipulacion-pdf.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/maquiavelo/Psicologia-maquiavelica-Teoria-y-tecnicas-de-psicologia-oscura-manipulacion-pdf.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-102.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-102.webp"
     },
     {
       "id": "comunicacion-persuasiva-3-libros-en-1-persuasion-manipulacion-lenguaje-corporal-comunicacion-efectiv",
@@ -2363,7 +2363,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~38 págs",
       "relativePath": "libros/bonos/COMUNICACION-PERSUASIVA-3-libros-en-1-Persuasion-Manipulacion-Lenguaje-Corporal-Comunicacion-Efectiva-para-controlar-instantaneamente-cualquie.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/bonos/COMUNICACION-PERSUASIVA-3-libros-en-1-Persuasion-Manipulacion-Lenguaje-Corporal-Comunicacion-Efectiva-para-controlar-instantaneamente-cualquie.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-103.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-103.webp"
     },
     {
       "id": "como-analizar-a-las-personas-4-libros-en-1",
@@ -2385,7 +2385,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~33 págs",
       "relativePath": "libros/bonos/Como-Analizar-a-Las-Personas-4-Libros-en-1.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/bonos/Como-Analizar-a-Las-Personas-4-Libros-en-1.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-104.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-104.webp"
     },
     {
       "id": "el-abc-de-la-psicologia-oscura",
@@ -2407,7 +2407,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~95 págs",
       "relativePath": "libros/bonos/El-ABC-de-La-Psicologia-Oscura.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/bonos/El-ABC-de-La-Psicologia-Oscura.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-105.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-105.webp"
     },
     {
       "id": "manipulacion-mental-descubra-los-secretos-oscuros-de-la-psicologia-del-control-mental-para-analizar-",
@@ -2429,7 +2429,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~50 págs",
       "relativePath": "libros/bonos/MANIPULACION-MENTAL-Descubra-los-secretos-oscuros-de-la-psicologia-del-control-mental-para-analizar-influir-y-manipular-a-las-personas-con-tecnicas.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/bonos/MANIPULACION-MENTAL-Descubra-los-secretos-oscuros-de-la-psicologia-del-control-mental-para-analizar-influir-y-manipular-a-las-personas-con-tecnicas.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-106.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-106.webp"
     },
     {
       "id": "psicologia-4-manuales-en-1-autodisciplina-inteligencia-emocional-psicologia-oscura-y-manipulacion-ap",
@@ -2451,7 +2451,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~110 págs",
       "relativePath": "libros/bonos/Psicologia-4-Manuales-en-1-Autodisciplina-Inteligencia-Emocional-Psicologia-Oscura-y-Manipulacion-Aprende-Las-Claves-Del-Goleman-Fabian.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/bonos/Psicologia-4-Manuales-en-1-Autodisciplina-Inteligencia-Emocional-Psicologia-Oscura-y-Manipulacion-Aprende-Las-Claves-Del-Goleman-Fabian.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-107.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-107.webp"
     },
     {
       "id": "psicologia-oscura-6-en-1",
@@ -2473,7 +2473,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~290 págs",
       "relativePath": "libros/bonos/Psicologia-Oscura-6-en-1.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/bonos/Psicologia-Oscura-6-en-1.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-108.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-108.webp"
     },
     {
       "id": "psicologia-oscura-fabian-goleman-edicion-2",
@@ -2495,7 +2495,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~42 págs",
       "relativePath": "libros/bonos/Psicologia-oscura-Fabian-Goleman.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/bonos/Psicologia-oscura-Fabian-Goleman.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-109.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-109.webp"
     },
     {
       "id": "coleccion-erotica_-cuentos-que---sonam-thapa",
@@ -2517,7 +2517,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/extras/Coleccion erotica_ cuentos que - Sonam Thapa.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/extras/Coleccion%20erotica_%20cuentos%20que%20-%20Sonam%20Thapa.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-110.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-110.webp"
     },
     {
       "id": "desbloquea-tu-mente-modulo-1-pdf",
@@ -2539,7 +2539,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/extras/Desbloquea-tu-mente-modulo-1-pdf.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/extras/Desbloquea-tu-mente-modulo-1-pdf.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-111.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-111.webp"
     },
     {
       "id": "diario-de-una-ninfomana",
@@ -2561,7 +2561,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~15 págs",
       "relativePath": "libros/extras/Diario de una ninfomana.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/extras/Diario%20de%20una%20ninfomana.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-112.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-112.webp"
     },
     {
       "id": "psicologia-para-principiantes-manipulacion-lenguaje-corporal-pnl",
@@ -2583,7 +2583,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~36 págs",
       "relativePath": "libros/extras/Psicologia-para-principiantes-Manipulacion-Lenguaje-Corporal-PNL.pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/extras/Psicologia-para-principiantes-Manipulacion-Lenguaje-Corporal-PNL.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-113.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-113.webp"
     },
     {
       "id": "desbloquea-tu-cerebro-lib-rate-del-comportamiento-obsesivo-compulsivo-jeffrey-schwartz-1",
@@ -2605,7 +2605,7 @@ const COLECCION_DATA = {
       "timeEstimate": "~62 págs",
       "relativePath": "libros/extras/desbloquea-tu-cerebro-libérate-del-comportamiento-obsesivo-compulsivo-jeffrey-schwartz (1).pdf",
       "encodedPath": "https://pub-61a1c2ef083c480ebdd9aeff901294f0.r2.dev/libros/extras/desbloquea-tu-cerebro-lib%C3%A9rate-del-comportamiento-obsesivo-compulsivo-jeffrey-schwartz%20%281%29.pdf",
-      "coverImage": "assets/img/covers/cover_book_col-114.webp"
+      "coverImage": "https://cdn.cortex.sistemazenit.com/assets/img/covers/cover_book_col-114.webp"
     }
   ],
   "allItems": [

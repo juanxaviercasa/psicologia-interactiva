@@ -138,7 +138,7 @@ const AudioPlayerEngine = {
       artist: this.currentTrack.author || 'ZENIT CORTEX',
       album: 'Colección Psicología Oscura & Audiolibros',
       artwork: [
-        { src: 'assets/img/psicologia_obscura_6en1/banners/hero_banner_brain.jpg', sizes: '512x512', type: 'image/jpeg' }
+        { src: 'https://cdn.cortex.sistemazenit.com/assets/img/psicologia_obscura_6en1/banners/hero_banner_brain.jpg', sizes: '512x512', type: 'image/jpeg' }
       ]
     });
   },

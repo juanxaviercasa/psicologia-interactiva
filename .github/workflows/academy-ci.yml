@@ -26,4 +26,6 @@ jobs:
           node --check js/biblioteca_engine.js
           node --check js/coleccion_data.js
       - name: Ejecutar pruebas sin dependencias
-        run: node --test tests/*.test.cjs
+        run: npm test
+      - name: Validar publicación, SEO y accesibilidad básica
+        run: npm run validate:publication
