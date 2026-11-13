@@ -31,7 +31,9 @@ Convertir la biblioteca interactiva en una plataforma publicable, mantenible y s
 - Build reproducible con dependencias fijadas y presupuesto de tamaño.
 - Prueba automatizada de portadas, audio y PDF.
 
-**Avance actual:** se añadió `npm run audit:assets`, que mide peso y duplicados sin borrar archivos automáticamente. También se incorporó lazy loading, `decoding="async"` y alt descriptivo para imágenes secundarias de la academia. La migración física a CDN queda pendiente para no romper enlaces sin un destino de almacenamiento aprobado.
+**Avance actual:** se añadió `npm run audit:assets`, que mide peso y duplicados sin borrar archivos automáticamente. También se incorporó lazy loading, `decoding="async"` y alt descriptivo para imágenes secundarias de la academia. Se creó el bucket R2 público separado `sistema-zenit-media-public`, se migraron 1.730 objetos (aprox. 575 MB), se configuró `cdn.cortex.sistemazenit.com` con TLS 1.2+ y se actualizaron las referencias del frontend al CDN. El bucket `sistema-zenit-media-private` se dejó intacto.
+
+**Pendiente operativo:** completar el registro de licencias antes de mantener como públicos los 91 PDF, 2 DOCX y 1 PPTX migrados; si algún material no está autorizado, moverlo al bucket privado y servirlo mediante URLs firmadas.
 
 ## Fase 3 — Seguridad y backend
 
