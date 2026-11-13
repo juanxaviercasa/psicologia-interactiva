@@ -36,7 +36,6 @@
       <div class="flex items-center gap-3 text-sm">
         <a href="#que-incluye" class="hidden text-slate-300 transition hover:text-white sm:inline">Qué incluye</a>
         <a href="#oferta" class="hidden rounded-xl border border-white/15 px-4 py-2 font-semibold text-slate-200 transition hover:border-cyanx/60 hover:text-white sm:inline">Ver acceso</a>
-        <a id="navMemberAction" href="/api/auth/login" class="rounded-xl bg-cyanx px-4 py-2 font-bold text-ink transition hover:bg-white">Iniciar sesión</a>
       </div>
     </nav>
   </header>
@@ -49,7 +48,6 @@
         <p class="mt-7 max-w-2xl text-lg leading-8 text-slate-300">ZENIT CORTEX reúne materiales de psicología, conducta y comunicación en una plataforma privada diseñada para estudiar con estructura y criterio.</p>
         <div class="mt-9 flex flex-col gap-3 sm:flex-row">
           <a href="#oferta" class="rounded-2xl bg-gradient-to-r from-cyanx to-mint px-6 py-4 text-center font-black text-ink shadow-2xl shadow-cyanx/20 transition hover:-translate-y-1">Ver acceso premium <i class="fa-solid fa-arrow-right ml-2"></i></a>
-          <a id="heroMemberAction" href="/api/auth/login" class="rounded-2xl border border-white/15 px-6 py-4 text-center font-bold text-white transition hover:border-cyanx/60 hover:bg-white/5">Ya tengo acceso · Iniciar sesión</a>
         </div>
         <p class="mt-4 text-xs text-slate-500">Contenido educativo. No sustituye terapia, diagnóstico, asesoría legal ni formación profesional acreditada.</p>
       </div>
@@ -81,7 +79,7 @@
         <div class="absolute -right-24 -top-24 h-64 w-64 rounded-full bg-cyanx/10 blur-3xl"></div>
         <div class="relative grid gap-10 lg:grid-cols-[1fr_360px] lg:items-center">
           <div><p class="text-sm font-bold uppercase tracking-[.18em] text-mint">Acceso premium</p><h2 class="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Tu siguiente etapa de estudio empieza aquí.</h2><p class="mt-5 max-w-xl leading-7 text-slate-300">Compra directamente en Whop. Allí podrás introducir tu correo y completar el pago; después podrás iniciar sesión para acceder a la biblioteca y la academia.</p><ul class="mt-7 space-y-3 text-sm text-slate-200"><li><i class="fa-solid fa-check mr-3 text-mint"></i>Acceso verificado con Whop</li><li><i class="fa-solid fa-check mr-3 text-mint"></i>Biblioteca y rutas de aprendizaje internas para miembros</li><li><i class="fa-solid fa-check mr-3 text-mint"></i>Contenido preparado para almacenamiento privado</li></ul></div>
-          <div class="rounded-3xl border border-white/15 bg-[#07111f]/80 p-6 text-center"><p class="text-xs font-bold uppercase tracking-[.2em] text-slate-400">Acceso premium</p><p id="offerStatus" class="mt-4 text-2xl font-black text-white">Cortex</p><p id="offerDetail" class="mt-3 text-sm leading-6 text-slate-400">US$9 al mes o US$90 al año. No necesitas crear una cuenta en Cortex antes de comprar.</p><a id="offerCta" href="/api/checkout" class="mt-6 block w-full rounded-2xl bg-gradient-to-r from-cyanx to-mint px-5 py-4 font-black text-ink transition hover:-translate-y-1">Comprar en Whop</a><a href="/api/auth/login" class="mt-3 block text-sm font-bold text-cyanx hover:text-white">Ya tengo acceso · Iniciar sesión</a></div>
+          <div class="rounded-3xl border border-white/15 bg-[#07111f]/80 p-6 text-center"><p class="text-xs font-bold uppercase tracking-[.2em] text-slate-400">Acceso premium</p><p id="offerStatus" class="mt-4 text-2xl font-black text-white">Cortex</p><p id="offerDetail" class="mt-3 text-sm leading-6 text-slate-400">US$9 al mes o US$90 al año. No necesitas crear una cuenta en Cortex antes de comprar.</p><a id="offerCta" href="/api/checkout" class="mt-6 block w-full rounded-2xl bg-gradient-to-r from-cyanx to-mint px-5 py-4 font-black text-ink transition hover:-translate-y-1">Comprar en Whop</a></div>
         </div>
       </div>
     </section>
@@ -91,7 +89,7 @@
     <section class="mx-auto max-w-4xl px-5 py-16 lg:px-8"><h2 class="text-center text-3xl font-black">Preguntas frecuentes</h2><div class="mt-8 space-y-3"><details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Cómo se comprobará mi acceso?</summary><p class="mt-3 leading-7 text-slate-400">Con login de Whop y una verificación server-side del producto o experiencia contratada. No se confiará en una bandera guardada en el navegador.</p></details><details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Cómo accedo al catálogo de libros y a la academia?</summary><p class="mt-3 leading-7 text-slate-400">El catálogo completo y las rutas de aprendizaje están protegidos en el área interna de la plataforma y se habilitan inmediatamente al completar tu suscripción e iniciar sesión con Whop.</p></details><details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Esto sustituye a un psicólogo?</summary><p class="mt-3 leading-7 text-slate-400">No. Es una herramienta educativa de lectura y práctica. Ante una necesidad clínica, consulta con un profesional habilitado.</p></details></div></section>
   </main>
   <div id="accessNotice" class="hidden fixed bottom-5 left-1/2 z-50 w-[calc(100%-2rem)] max-w-lg -translate-x-1/2 rounded-2xl border border-cyanx/40 bg-[#07111f]/95 px-5 py-3 text-center text-sm text-slate-200 shadow-2xl backdrop-blur" role="status"></div>
-  <footer class="border-t border-white/10 px-5 py-8 text-center text-xs text-slate-500"><p>© 2026 ZENIT CORTEX · Sistema Zenit</p><p class="mt-2"><a class="hover:text-white" href="#oferta">Acceso premium</a> · <a class="hover:text-white" href="/api/auth/login">Iniciar sesión</a></p></footer>
+  <footer class="border-t border-white/10 px-5 py-8 text-center text-xs text-slate-500"><p>© 2026 ZENIT CORTEX · Sistema Zenit</p><p class="mt-2"><a class="hover:text-white" href="#oferta">Acceso premium</a></p></footer>
   <script>
     (function showAccessNotice() {
       const params = new URLSearchParams(window.location.search);
