@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
+Disallow: /biblioteca
+Disallow: /biblioteca.html
 Disallow: /app
 Disallow: /app.html
 Disallow: /api/

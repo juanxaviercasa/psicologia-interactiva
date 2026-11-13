@@ -16,8 +16,8 @@ test('Manifiesto cubre rutas interactivas existentes y separa las cinco obras si
     assert.ok(fs.existsSync('js/books/'+id+'_content.js'),id+' missing content');
   }
 });
-test('La portada ofrece filtros accesibles, links a la biblioteca y audiolibros',()=>{
-  const src=fs.readFileSync('index.html','utf8');
+test('La biblioteca interna ofrece filtros accesibles, links a la academia y audiolibros',()=>{
+  const src=fs.readFileSync('biblioteca.html','utf8');
   assert.match(src,/id="catalogSearch"/);assert.match(src,/id="catalogCategoryFilter"/);
   assert.match(src,/id="catalogFormatFilter"/);
   assert.match(src,/app\.html\?library=/);assert.match(src,/app\.html\?view=audiolibros/);

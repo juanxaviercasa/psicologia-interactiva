@@ -2560,8 +2560,29 @@ const App = {
     if (catEl) catEl.textContent = card.category || 'General';
     if (frontEl) frontEl.textContent = card.front;
     const imgEl = document.getElementById('fcFrontImg');
-    if (imgEl) imgEl.loading = 'lazy';
-    if (imgEl) imgEl.src = 'https://cdn.cortex.sistemazenit.com/assets/img/psicologia_obscura_6en1/flashcards/' + card.id + '.jpg';
+    if (imgEl) {
+      const cardId = String(card.id || '');
+      const coverFallback = (window.ACTIVE_BOOK_DATA && window.ACTIVE_BOOK_DATA.coverImage) || '';
+      const hasLegacyArtwork = /^f([1-9]|[12]\d|30)$/.test(cardId);
+      const nextSrc = card.imageUrl
+        || (hasLegacyArtwork ? 'https://cdn.cortex.sistemazenit.com/assets/img/psicologia_obscura_6en1/flashcards/' + cardId + '.jpg' : coverFallback);
+      const wrapper = imgEl.parentElement;
+      imgEl.loading = 'lazy';
+      imgEl.onerror = () => {
+        if (coverFallback && imgEl.src !== coverFallback) {
+          imgEl.src = coverFallback;
+          return;
+        }
+        if (wrapper) wrapper.classList.add('hidden');
+      };
+      if (nextSrc) {
+        if (wrapper) wrapper.classList.remove('hidden');
+        imgEl.src = nextSrc;
+      } else {
+        imgEl.removeAttribute('src');
+        if (wrapper) wrapper.classList.add('hidden');
+      }
+    }
     const backEl = document.getElementById('fcBackText');
     if (backEl) backEl.textContent = card.back;
     const mnemoEl = document.getElementById('fcMnemonicText');

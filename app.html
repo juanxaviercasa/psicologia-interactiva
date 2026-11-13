@@ -7,19 +7,7 @@
   <meta name="description" content="Área interactiva de estudio de ZENIT CORTEX con rutas de aprendizaje, tarjetas y autoevaluaciones formativas.">
   <meta name="robots" content="noindex,follow">
   <link rel="canonical" href="https://cortex.sistemazenit.com/app">
-  <script>
-    (async function enforcePremiumAccess() {
-      try {
-        const response = await fetch('/api/access', { headers: { Accept: 'application/json' }, credentials: 'same-origin' });
-        const access = await response.json();
-        if (!response.ok || !access.allowed) {
-          window.location.replace('/?access=' + encodeURIComponent(access.reason || (response.status === 401 ? 'login_required' : 'access_denied')));
-        }
-      } catch {
-        window.location.replace('/?access=verification_unavailable');
-      }
-    }());
-  </script>
+  <script src="js/access_guard.js?v=1.0"></script>
   <meta property="og:type" content="website">
   <meta property="og:title" content="ZENIT CORTEX | Academia de Inteligencia Conductual">
   <meta property="og:description" content="Área interactiva de estudio con rutas de aprendizaje y autoevaluaciones formativas.">
@@ -171,7 +159,7 @@
       <div class="flex items-center justify-between py-4 md:py-5 min-h-[96px] gap-4 md:gap-6">
         
         <!-- Logo & Titulo (Enlace orgánico al Menú Principal de Libros) -->
-        <a href="index.html" class="flex items-center gap-3.5 group cursor-pointer" title="Volver al Catálogo Principal de Libros">
+        <a href="biblioteca.html" class="flex items-center gap-3.5 group cursor-pointer" title="Volver al Catálogo Principal de Libros">
           <img src="https://cdn.cortex.sistemazenit.com/assets/img/logo/zenit_cortex_logo.png" alt="ZENIT CORTEX Logo" class="w-12 h-12 rounded-xl object-cover border border-cyan-400/40 shadow-lg shadow-cyan-500/25 group-hover:scale-105 group-hover:border-cyan-400 transition-all shrink-0">
           <div>
             <div class="flex items-center gap-1.5">

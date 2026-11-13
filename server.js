@@ -45,6 +45,10 @@ const server = http.createServer((req, res) => {
     safePath = path.join(safePath, 'index.html');
   }
 
+  if (!fs.existsSync(safePath) && !path.extname(safePath) && fs.existsSync(safePath + '.html')) {
+    safePath = safePath + '.html';
+  }
+
   if (!fs.existsSync(safePath)) {
     // Smart fallback for re-organized 6 en 1 assets
     const imgPrefix = path.normalize(path.join(PUBLIC_DIR, 'assets', 'img'));

@@ -36,12 +36,12 @@ Suscribir al menos eventos de pago y membresía. El endpoint verifica la firma S
 
 ## Contenido premium
 
-Antes de activar ventas, mover PDFs, DOCX, PPTX y audios premium al bucket R2 privado. La ruta `app.html` comprueba `/api/access` antes de renderizar. La protección de archivos individuales debe completarse con URLs firmadas o un proxy de media antes de publicar enlaces directos.
+Antes de activar ventas, mover PDFs, DOCX, PPTX y audios premium al bucket R2 privado. Las rutas `biblioteca.html` y `app.html` comprueban `/api/access` antes de renderizar. La protección de archivos individuales debe completarse con URLs firmadas o un proxy de media antes de publicar enlaces directos.
 
 ## Oferta
 
-`landing.html` no inventa precio ni promesas. Se activa cuando existe `WHOP_CHECKOUT_URL`; entonces `/api/offer` muestra el texto configurado con `OFFER_LABEL`, `OFFER_DESCRIPTION` y `OFFER_CTA`.
+`index.html` (`/`) no inventa precio ni promesas. Se activa cuando existe `WHOP_CHECKOUT_URL`; entonces `/api/offer` muestra el texto configurado con `OFFER_LABEL`, `OFFER_DESCRIPTION` y `OFFER_CTA`.
 
 ## Binding de media privado
 
-Crear un binding R2 de Pages Functions llamado `MEDIA_PRIVATE` apuntando al bucket privado. El endpoint dinámico `functions/api/media/[key].js` comprueba la membresía de Whop antes de leer el objeto y nunca expone el bucket directamente. Después de verificar el flujo, actualizar las URLs de PDFs, documentos y audios premium para usar `/api/media/<clave>`.
+Crear un binding R2 de Pages Functions llamado `MEDIA_PRIVATE` apuntando al bucket privado. El endpoint `functions/api/media.js` comprueba la membresía de Whop antes de leer el objeto y nunca expone el bucket directamente. Después de verificar el flujo, actualizar las URLs de PDFs, documentos y audios premium para usar `/api/media?key=<clave>`.

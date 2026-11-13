@@ -1,188 +1,130 @@
-<!DOCTYPE html>
-<html lang="es" class="dark">
+<!doctype html>
+<html lang="es" class="scroll-smooth">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ZENIT CORTEX | Biblioteca y Academia de Psicología</title>
-  <meta name="description" content="Explora 94 libros y 20 audiolibros de psicología y conducta. Busca por tema, estudia rutas interactivas y practica habilidades con enfoque crítico.">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ZENIT CORTEX | Entrenamiento en inteligencia conductual</title>
+  <meta name="description" content="Una biblioteca privada y academia interactiva para estudiar psicología, conducta y comunicación con rutas de aprendizaje prácticas.">
   <link rel="canonical" href="https://cortex.sistemazenit.com/">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="ZENIT CORTEX | Biblioteca y Academia de Psicología">
-  <meta property="og:description" content="Busca libros, audiolibros y rutas de estudio interactivas de psicología y conducta.">
+  <meta property="og:title" content="ZENIT CORTEX | Entrenamiento en inteligencia conductual">
+  <meta property="og:description" content="Estudia con una biblioteca curada, audiolibros y rutas interactivas de aprendizaje mediante membresía.">
   <meta property="og:url" content="https://cortex.sistemazenit.com/">
   <meta property="og:site_name" content="ZENIT CORTEX">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="ZENIT CORTEX | Biblioteca y Academia de Psicología">
-  <meta name="twitter:description" content="Busca libros, audiolibros y rutas de estudio interactivas de psicología y conducta.">
   <link rel="icon" type="image/svg+xml" href="https://cdn.cortex.sistemazenit.com/assets/img/logo/zenit_cortex_icon.svg">
-  
-  <!-- Tailwind CSS -->
-  <script src="https://cdn.tailwindcss.com?plugins=typography"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
   <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            brand: {
-              cyan: '#06B6D4',
-              emerald: '#10B981',
-              amber: '#F59E0B',
-              rose: '#F43F5E',
-              purple: '#8B5CF6',
-              dark: '#090D16',
-              card: '#0F172A',
-              border: '#1E293B'
-            }
-          }
-        }
-      }
-    }
+    tailwind.config = { theme: { extend: { colors: { ink:'#07111f', cyanx:'#38d9ff', violetx:'#8b7cff', mint:'#63f2c1' } } } };
   </script>
-  
-  <!-- FontAwesome 6 -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  
   <style>
-    body {
-      background-color: #0F172A;
-      color: #F8FAFC;
-      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    }
-    
-    .glass-nav {
-      background: rgba(15, 23, 42, 0.8);
-      backdrop-filter: blur(12px);
-      -webkit-backdrop-filter: blur(12px);
-      border-bottom: 1px solid rgba(30, 41, 59, 0.8);
-    }
+    :root { color-scheme: dark; }
+    body { background: #07111f; color: #eef8ff; font-family: ui-sans-serif, system-ui, sans-serif; }
+    .grid-bg { background-image: linear-gradient(rgba(56,217,255,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(56,217,255,.06) 1px, transparent 1px); background-size: 42px 42px; }
+    .glow { box-shadow: 0 0 90px rgba(56,217,255,.15); }
+    .glass { background: rgba(9, 24, 43, .72); border: 1px solid rgba(148, 163, 184, .18); backdrop-filter: blur(18px); }
+    .text-gradient { background: linear-gradient(100deg, #eafcff 0%, #63f2c1 46%, #8b7cff 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
   </style>
 </head>
-<body class="antialiased min-h-screen flex flex-col">
+<body>
+  <header class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#07111f]/80 backdrop-blur-xl">
+    <nav class="mx-auto flex h-20 max-w-6xl items-center justify-between px-5 lg:px-8" aria-label="Navegación principal">
+      <a href="/" class="flex items-center gap-3" aria-label="ZENIT CORTEX inicio">
+        <img src="https://cdn.cortex.sistemazenit.com/assets/img/logo/zenit_cortex_icon.svg" alt="ZENIT CORTEX" class="h-10 w-10 rounded-xl ring-1 ring-cyanx/40">
+        <span class="text-lg font-black tracking-tight">ZENIT <span class="text-cyanx">CORTEX</span></span>
+      </a>
+      <div class="flex items-center gap-3 text-sm">
+        <a href="#que-incluye" class="hidden text-slate-300 transition hover:text-white sm:inline">Qué incluye</a>
+        <a href="#oferta" class="hidden rounded-xl border border-white/15 px-4 py-2 font-semibold text-slate-200 transition hover:border-cyanx/60 hover:text-white sm:inline">Ver acceso</a>
+        <a id="navMemberAction" href="/api/auth/login" class="rounded-xl bg-cyanx px-4 py-2 font-bold text-ink transition hover:bg-white">Iniciar sesión</a>
+      </div>
+    </nav>
+  </header>
 
-  <!-- TOP NAV -->
-  <nav class="glass-nav fixed top-0 w-full z-50 transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-20">
-        <a href="/" class="flex items-center gap-3.5 group cursor-pointer">
-          <img src="https://cdn.cortex.sistemazenit.com/assets/img/logo/zenit_cortex_logo.png" alt="ZENIT CORTEX Logo" class="w-11 h-11 rounded-xl object-cover border border-cyan-400/40 shadow-lg shadow-cyan-500/25 group-hover:scale-105 group-hover:border-cyan-400 transition-all">
-          <div>
-            <div class="flex items-center gap-1.5">
-              <span class="text-xl md:text-2xl font-black text-white tracking-tight">ZENIT</span>
-              <span class="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-indigo-400 tracking-tight">CORTEX</span>
-            </div>
-            <p class="text-[10px] text-slate-400 font-mono tracking-wider uppercase flex items-center gap-1.5">
-              <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span> Academia de Inteligencia Conductual
-            </p>
+  <main class="grid-bg overflow-hidden">
+    <section class="relative mx-auto grid max-w-6xl gap-14 px-5 pb-24 pt-36 lg:grid-cols-[1.12fr_.88fr] lg:px-8 lg:pt-48">
+      <div class="relative z-10">
+        <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-mint/30 bg-mint/10 px-4 py-2 text-xs font-bold uppercase tracking-[.16em] text-mint"><span class="h-2 w-2 animate-pulse rounded-full bg-mint"></span> Membresía privada + práctica guiada</div>
+        <h1 class="max-w-4xl text-5xl font-black leading-[.98] tracking-[-.04em] sm:text-7xl">Entrena tu forma de <span class="text-gradient">leer la conducta.</span></h1>
+        <p class="mt-7 max-w-2xl text-lg leading-8 text-slate-300">ZENIT CORTEX reúne materiales de psicología, conducta y comunicación en una plataforma privada diseñada para estudiar con estructura y criterio.</p>
+        <div class="mt-9 flex flex-col gap-3 sm:flex-row">
+          <a href="#oferta" class="rounded-2xl bg-gradient-to-r from-cyanx to-mint px-6 py-4 text-center font-black text-ink shadow-2xl shadow-cyanx/20 transition hover:-translate-y-1">Ver acceso premium <i class="fa-solid fa-arrow-right ml-2"></i></a>
+          <a id="heroMemberAction" href="/api/auth/login" class="rounded-2xl border border-white/15 px-6 py-4 text-center font-bold text-white transition hover:border-cyanx/60 hover:bg-white/5">Ya tengo acceso · Iniciar sesión</a>
+        </div>
+        <p class="mt-4 text-xs text-slate-500">Contenido educativo. No sustituye terapia, diagnóstico, asesoría legal ni formación profesional acreditada.</p>
+      </div>
+      <div class="relative flex items-center justify-center">
+        <div class="absolute h-72 w-72 rounded-full bg-cyanx/20 blur-3xl"></div>
+        <div class="glass glow relative w-full max-w-md rounded-[2rem] p-5 sm:p-7">
+          <div class="mb-6 flex items-center justify-between border-b border-white/10 pb-5"><div><p class="text-xs font-bold uppercase tracking-[.2em] text-cyanx">Cortex signal</p><p class="mt-1 text-xl font-black">Mapa de aprendizaje</p></div><i class="fa-solid fa-brain text-3xl text-mint"></i></div>
+          <div class="space-y-4">
+            <div class="rounded-2xl border border-cyanx/20 bg-cyanx/5 p-4"><div class="flex justify-between text-sm"><span class="font-bold">Fundamentos</span><span class="text-cyanx">01</span></div><div class="mt-3 h-2 rounded-full bg-white/10"><div class="h-2 w-4/5 rounded-full bg-cyanx"></div></div></div>
+            <div class="rounded-2xl border border-violetx/20 bg-violetx/5 p-4"><div class="flex justify-between text-sm"><span class="font-bold">Persuasión y comunicación</span><span class="text-violetx">02</span></div><div class="mt-3 h-2 rounded-full bg-white/10"><div class="h-2 w-3/5 rounded-full bg-violetx"></div></div></div>
+            <div class="rounded-2xl border border-mint/20 bg-mint/5 p-4"><div class="flex justify-between text-sm"><span class="font-bold">Práctica guiada</span><span class="text-mint">03</span></div><div class="mt-3 h-2 rounded-full bg-white/10"><div class="h-2 w-2/5 rounded-full bg-mint"></div></div></div>
           </div>
-        </a>
-        <div class="flex items-center gap-3">
-          <a href="/" class="px-4 py-2 border border-slate-600 hover:border-cyan-400 text-slate-200 text-xs font-bold rounded-xl transition-all flex items-center gap-2">
-            <i class="fa-solid fa-arrow-left"></i> Ver la oferta
-          </a>
-          <a href="app.html" class="px-4 py-2 bg-gradient-to-r from-cyan-500 to-indigo-600 hover:from-cyan-400 hover:to-indigo-500 text-slate-950 text-xs font-bold rounded-xl shadow-lg shadow-cyan-500/20 transition-all flex items-center gap-2">
-            <i class="fa-solid fa-graduation-cap"></i> Acceder
-          </a>
+          <div class="mt-6 flex items-center gap-3 text-xs text-slate-400"><i class="fa-solid fa-lock text-mint"></i> El catálogo completo y la academia se desbloquean internamente al activar tu suscripción.</div>
         </div>
       </div>
-    </div>
-  </nav>
-
-  <!-- HERO SECTION -->
-  <main class="flex-grow pt-28 pb-20 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
-    <div class="mb-12 text-center">
-      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/80 border border-cyan-500/40 text-cyan-300 text-xs font-semibold mb-4 shadow-lg backdrop-blur-md">
-        <i class="fa-solid fa-shield-halved text-cyan-400"></i> BLINDAJE ESTRATÉGICO & ANÁLISIS DE LA CONDUCTA
-      </div>
-      <h1 class="text-3xl sm:text-5xl font-black text-white mb-4 tracking-tight">
-        Tu Búnker de <span class="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-teal-300 to-indigo-400">Inteligencia Estratégica</span>
-      </h1>
-      <p class="text-slate-300 text-sm sm:text-base max-w-2xl mx-auto leading-relaxed">
-        Explora el compendio interactivo de <strong>ZENIT CORTEX</strong>: 94 libros y 20 audiolibros. Busca, lee y accede a rutas interactivas de estudio, con preguntas de autoevaluación, casos y tarjetas de repaso.
-      </p>
-    </div>
-
-    <section aria-label="Buscar y filtrar materiales" class="mb-7 rounded-2xl border border-slate-700 bg-slate-900/80 p-4 sm:p-5">
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-3">
-        <label class="flex flex-col gap-1.5 text-xs font-bold text-slate-300">Buscar título, autor o tema
-          <input id="catalogSearch" type="search" aria-controls="catalog-grid" placeholder="Ej. sesgos cognitivos, lenguaje corporal..." class="bg-slate-950 border border-slate-700 rounded-lg px-3 py-3 text-sm text-white focus:outline-none focus:border-cyan-400">
-        </label>
-        <label class="flex flex-col gap-1.5 text-xs font-bold text-slate-300">Categoría
-          <select id="catalogCategoryFilter" aria-controls="catalog-grid" class="bg-slate-950 border border-slate-700 rounded-lg px-3 py-3 text-sm text-white"></select>
-        </label>
-        <label class="flex flex-col gap-1.5 text-xs font-bold text-slate-300">Formato
-          <select id="catalogFormatFilter" aria-controls="catalog-grid" class="bg-slate-950 border border-slate-700 rounded-lg px-3 py-3 text-sm text-white">
-            <option value="all">Todos los formatos</option><option value="PDF">PDF</option><option value="DOCX">DOCX</option><option value="PPTX">PPTX</option><option value="M4A">Audiolibro (M4A)</option>
-          </select>
-        </label>
-      </div>
-      <p id="catalogCount" class="mt-3 text-xs text-cyan-300" role="status" aria-live="polite"></p>
     </section>
-    <p class="mb-5 text-xs text-slate-400">Las rutas interactivas son actividades educativas de práctica; no constituyen diagnóstico ni titulación profesional.</p>
-    <!-- CATALOG GRID -->
-    <div id="catalog-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-      <!-- El contenido se generará con JS -->
-    </div>
-  </main>
 
-  <footer class="py-8 border-t border-slate-800 text-center text-slate-500 text-xs mt-auto">
-    <p>&copy; 2026 ZENIT CORTEX • Sistema Zenit. Todos los derechos reservados.</p>
-  </footer>
+    <section id="que-incluye" class="mx-auto max-w-6xl px-5 py-20 lg:px-8">
+      <div class="max-w-2xl"><p class="text-sm font-bold uppercase tracking-[.18em] text-cyanx">Una experiencia, tres capas</p><h2 class="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Menos ruido. Más estructura para aprender.</h2></div>
+      <div class="mt-10 grid gap-5 md:grid-cols-3">
+        <article class="glass rounded-3xl p-7"><i class="fa-solid fa-book-open-reader text-2xl text-cyanx"></i><h3 class="mt-6 text-xl font-black">Biblioteca curada</h3><p class="mt-3 leading-7 text-slate-400">Libros, audiolibros y materiales organizados por temas dentro del área privada de miembros.</p></article>
+        <article class="glass rounded-3xl p-7"><i class="fa-solid fa-route text-2xl text-violetx"></i><h3 class="mt-6 text-xl font-black">Rutas interactivas</h3><p class="mt-3 leading-7 text-slate-400">Preguntas, casos y repasos que convierten la lectura en práctica deliberada y observable.</p></article>
+        <article class="glass rounded-3xl p-7"><i class="fa-solid fa-chart-line text-2xl text-mint"></i><h3 class="mt-6 text-xl font-black">Progreso personal</h3><p class="mt-3 leading-7 text-slate-400">Una experiencia pensada para volver, retomar sesiones y construir un mapa propio de aprendizaje.</p></article>
+      </div>
+    </section>
 
-  <!-- Scripts -->
-  <script src="js/coleccion_data.js?v=3.1"></script>
-  <script src="js/course_manifest.js?v=1.0"></script>
-  <script>
-    document.addEventListener('DOMContentLoaded', function renderCatalog(){
-  const grid=document.getElementById('catalog-grid');
-  const queryInput=document.getElementById('catalogSearch');
-  const categoryInput=document.getElementById('catalogCategoryFilter');
-  const formatInput=document.getElementById('catalogFormatFilter');
-  const countEl=document.getElementById('catalogCount');
-  if(!grid||typeof COLECCION_DATA==='undefined'){
-    if(grid)grid.textContent='No se pudo cargar la colección.';
-    return;
-  }
-  const escape=(v)=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const normalize=(v)=>String(v||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('es');
-  const items=[...(COLECCION_DATA.books||[]),...(COLECCION_DATA.audiobooks||[])];
-  const categories=(COLECCION_DATA.meta?.categories||[]).filter(x=>items.some(item=>item.categoryKey===x.id));
-  categoryInput.innerHTML='<option value="all">Todas las categorías</option>'+categories.map(x=>`<option value="${escape(x.id)}">${escape(x.name)}</option>`).join('');
-  const trustedClasses=(v,otherwise)=>/^[a-z0-9/ _-]+$/i.test(String(v||''))?v:otherwise;
-  function update(){
-    const query=normalize(queryInput.value.trim()),category=categoryInput.value,format=formatInput.value;
-    const filtered=items.filter(item=>{
-      const matchText=!query||normalize(`${item.title||''} ${item.fullTitle||''} ${item.author||''} ${item.categoryName||''}`).includes(query);
-      const matchCategory=category==='all'||item.categoryKey===category;
-      const matchFormat=format==='all'||String(item.extension).toUpperCase()===format;
-      return matchText&&matchCategory&&matchFormat;
-    });
-    countEl.textContent=`${filtered.length} de ${items.length} recursos disponibles · ${COURSE_MANIFEST.ids.length} rutas interactivas indexadas`;
-    grid.innerHTML=filtered.length?filtered.map(book=>{
-      const audio=book.type==='audio',interactive=!audio&&COURSE_MANIFEST.has(book.id);
-      const url=audio?'app.html?view=audiolibros':interactive?`app.html?book=${encodeURIComponent(book.id)}`:`app.html?library=${encodeURIComponent(book.id)}`;
-      const cta=audio?'Explorar audiolibro':interactive?'Estudiar curso':'Abrir en biblioteca';
-      const icon=audio?'fa-headphones':interactive?'fa-graduation-cap':'fa-book-open';
-      const gradient=trustedClasses(book.gradient,'from-slate-900 to-slate-950');
-      const badge=trustedClasses(book.badgeBg,'bg-slate-800 text-slate-300');
-      const ico=/^fa-[a-z0-9-]+$/i.test(book.categoryIcon||'')?book.categoryIcon:'fa-book';
-      const cover=/^https:\/\/cdn\.cortex\.sistemazenit\.com\/assets\/img\/[\w./-]+\.(webp|png|jpe?g)$/i.test(book.coverImage||'')?book.coverImage:'';
-      return `<a href="${escape(url)}" class="group relative rounded-2xl bg-gradient-to-b ${gradient} border border-slate-800/80 hover:border-cyan-500/50 p-5 flex flex-col justify-between transition-all duration-300 hover:-translate-y-1 shadow-lg hover:shadow-cyan-500/10">
-        <div><div class="mb-3"><span class="inline-flex items-center gap-1 px-2.5 py-1 text-[10px] font-semibold rounded-lg ${badge}"><i class="fa-solid ${ico}" aria-hidden="true"></i> ${escape(book.categoryName||'Libro')}</span></div>
-        <div class="w-full aspect-video relative rounded-xl bg-slate-950 border border-slate-800 flex items-center justify-center overflow-hidden">
-          ${cover?`<img src="${escape(cover)}" alt="Portada de ${escape(book.title)}" loading="lazy" decoding="async" class="absolute inset-0 w-full h-full object-cover" onerror="this.remove()">`:''}
-          <i class="fa-solid ${ico} text-5xl text-slate-600" aria-hidden="true"></i>
-        </div><h3 class="mt-4 text-sm font-bold text-white group-hover:text-cyan-300 line-clamp-2">${escape(book.title)}</h3>
-        <p class="text-xs text-slate-400 mt-2 truncate">${escape(book.author||'Autor no especificado')}</p>
-        </div><div class="mt-4 pt-3 border-t border-slate-800 text-cyan-300 text-xs font-semibold flex items-center gap-2">
-          <i class="fa-solid ${icon}" aria-hidden="true"></i>${cta}
+    <section id="oferta" class="mx-auto max-w-6xl px-5 py-16 lg:px-8">
+      <div class="relative overflow-hidden rounded-[2rem] border border-cyanx/30 bg-gradient-to-br from-cyanx/10 via-[#0b2037] to-violetx/10 p-7 sm:p-12">
+        <div class="absolute -right-24 -top-24 h-64 w-64 rounded-full bg-cyanx/10 blur-3xl"></div>
+        <div class="relative grid gap-10 lg:grid-cols-[1fr_360px] lg:items-center">
+          <div><p class="text-sm font-bold uppercase tracking-[.18em] text-mint">Acceso premium</p><h2 class="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Tu siguiente etapa de estudio empieza aquí.</h2><p class="mt-5 max-w-xl leading-7 text-slate-300">La oferta, el precio y el plan de Whop se mostrarán aquí cuando se configure la cuenta comercial. La plataforma verifica la membresía antes de mostrar la biblioteca y la academia.</p><ul class="mt-7 space-y-3 text-sm text-slate-200"><li><i class="fa-solid fa-check mr-3 text-mint"></i>Acceso verificado con Whop</li><li><i class="fa-solid fa-check mr-3 text-mint"></i>Biblioteca y rutas de aprendizaje internas para miembros</li><li><i class="fa-solid fa-check mr-3 text-mint"></i>Contenido preparado para almacenamiento privado</li></ul></div>
+          <div class="rounded-3xl border border-white/15 bg-[#07111f]/80 p-6 text-center"><p class="text-xs font-bold uppercase tracking-[.2em] text-slate-400">Estado de la oferta</p><p id="offerStatus" class="mt-4 text-2xl font-black text-white">Configurando acceso</p><p id="offerDetail" class="mt-3 text-sm leading-6 text-slate-400">El botón de compra aparecerá al conectar el producto de Whop.</p><button id="offerCta" type="button" class="mt-6 w-full cursor-not-allowed rounded-2xl bg-white/10 px-5 py-4 font-black text-slate-500" disabled>Compra próximamente</button><a href="/api/auth/login" class="mt-3 block text-sm font-bold text-cyanx hover:text-white">Ya tengo acceso · Iniciar sesión</a></div>
         </div>
-      </a>`;
-    }).join(''):'<div class="col-span-full text-center py-16 text-slate-400">No encontramos recursos con esos filtros. Cambia la búsqueda o selecciona otra categoría.</div>';
-  }
-  for(const el of [queryInput,categoryInput,formatInput])el.addEventListener(el===queryInput?'input':'change',update);
-  update();
-});
+      </div>
+    </section>
+
+    <section class="mx-auto max-w-6xl px-5 py-20 lg:px-8"><div class="grid gap-5 md:grid-cols-2"><div class="glass rounded-3xl p-7"><h2 class="text-2xl font-black">¿Para quién es?</h2><p class="mt-4 leading-7 text-slate-400">Para personas curiosas, estudiantes y profesionales que quieran estudiar conducta y comunicación con una estructura de consulta y práctica. No es una promesa de control sobre otras personas.</p></div><div class="glass rounded-3xl p-7"><h2 class="text-2xl font-black">¿Qué no es?</h2><p class="mt-4 leading-7 text-slate-400">No es terapia, diagnóstico, certificación oficial ni garantía de resultados personales. El contenido se presenta con enfoque educativo y criterio crítico.</p></div></div></section>
+
+    <section class="mx-auto max-w-4xl px-5 py-16 lg:px-8"><h2 class="text-center text-3xl font-black">Preguntas frecuentes</h2><div class="mt-8 space-y-3"><details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Cómo se comprobará mi acceso?</summary><p class="mt-3 leading-7 text-slate-400">Con login de Whop y una verificación server-side del producto o experiencia contratada. No se confiará en una bandera guardada en el navegador.</p></details><details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Cómo accedo al catálogo de libros y a la academia?</summary><p class="mt-3 leading-7 text-slate-400">El catálogo completo y las rutas de aprendizaje están protegidos en el área interna de la plataforma y se habilitan inmediatamente al completar tu suscripción e iniciar sesión con Whop.</p></details><details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Esto sustituye a un psicólogo?</summary><p class="mt-3 leading-7 text-slate-400">No. Es una herramienta educativa de lectura y práctica. Ante una necesidad clínica, consulta con un profesional habilitado.</p></details></div></section>
+  </main>
+  <div id="accessNotice" class="hidden fixed bottom-5 left-1/2 z-50 w-[calc(100%-2rem)] max-w-lg -translate-x-1/2 rounded-2xl border border-cyanx/40 bg-[#07111f]/95 px-5 py-3 text-center text-sm text-slate-200 shadow-2xl backdrop-blur" role="status"></div>
+  <footer class="border-t border-white/10 px-5 py-8 text-center text-xs text-slate-500"><p>© 2026 ZENIT CORTEX · Sistema Zenit</p><p class="mt-2"><a class="hover:text-white" href="#oferta">Acceso premium</a> · <a class="hover:text-white" href="/api/auth/login">Iniciar sesión</a></p></footer>
+  <script>
+    (function showAccessNotice() {
+      const params = new URLSearchParams(window.location.search);
+      const reason = params.get('access') || (params.get('auth_error') ? 'auth_error' : '');
+      if (!reason) return;
+      const messages = {
+        login_required: 'Inicia sesión con Whop para acceder a la biblioteca y a la academia.',
+        access_denied: 'Tu cuenta actual no tiene una membresía activa de Whop.',
+        whop_check_failed: 'No se pudo comprobar tu membresía de Whop. Intenta de nuevo.',
+        verification_unavailable: 'El servicio de verificación de acceso no está disponible.',
+        auth_error: 'No se pudo completar el inicio de sesión con Whop. Intenta de nuevo.'
+      };
+      const notice = document.getElementById('accessNotice');
+      if (notice && messages[reason]) {
+        notice.textContent = messages[reason];
+        notice.classList.remove('hidden');
+      }
+    }());
+    fetch('/api/offer', { headers: { Accept: 'application/json' } }).then(r => r.ok ? r.json() : null).then(data => {
+      if (!data || !data.configured) return;
+      const status = document.getElementById('offerStatus'); const detail = document.getElementById('offerDetail'); const cta = document.getElementById('offerCta');
+      status.textContent = data.label || 'Acceso disponible'; detail.textContent = data.description || 'Acceso premium protegido por Whop.'; cta.disabled = false; cta.className = 'mt-6 w-full rounded-2xl bg-gradient-to-r from-cyanx to-mint px-5 py-4 font-black text-ink transition hover:-translate-y-1'; cta.textContent = data.cta || 'Obtener acceso'; cta.onclick = () => { window.location.href = '/api/checkout'; };
+    }).catch(() => {});
+    fetch('/api/access', { headers: { Accept: 'application/json' }, credentials: 'same-origin' })
+      .then(r => r.ok ? r.json() : null)
+      .then(access => {
+        if (!access || !access.allowed) return;
+        const navBtn = document.getElementById('navMemberAction');
+        const heroBtn = document.getElementById('heroMemberAction');
+        if (navBtn) { navBtn.href = 'biblioteca.html'; navBtn.textContent = 'Mi biblioteca'; }
+        if (heroBtn) { heroBtn.href = 'biblioteca.html'; heroBtn.textContent = 'Entrar a mi biblioteca'; }
+      })
+      .catch(() => {});
   </script>
 </body>
 </html>

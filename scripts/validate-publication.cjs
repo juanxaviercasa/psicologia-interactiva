@@ -14,13 +14,14 @@ function requireMatch(file, pattern, message) {
 }
 
 requireMatch('CNAME', /^cortex\.sistemazenit\.com\s*$/m, 'CNAME no coincide con el dominio canónico.');
-requireMatch('index.html', new RegExp(`canonical" href="${canonicalOrigin.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&')}/"`), 'falta canonical del catálogo.');
-requireMatch('index.html', new RegExp(`og:url" content="${canonicalOrigin.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&')}/"`), 'falta og:url del catálogo.');
+requireMatch('index.html', new RegExp(`canonical" href="${canonicalOrigin.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&')}/"`), 'falta canonical de portada.');
+requireMatch('index.html', new RegExp(`og:url" content="${canonicalOrigin.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&')}/"`), 'falta og:url de portada.');
+requireMatch('biblioteca.html', /<meta name="robots" content="noindex,follow">/, 'la biblioteca interna debe estar marcada como noindex.');
 requireMatch('app.html', /<meta name="robots" content="noindex,follow">/, 'la academia dinámica debe estar marcada como noindex.');
 requireMatch('robots.txt', /Sitemap:\s*https:\/\/cortex\.sistemazenit\.com\/sitemap\.xml/, 'robots.txt no declara el sitemap canónico.');
 requireMatch('sitemap.xml', /<loc>https:\/\/cortex\.sistemazenit\.com\/<\/loc>/, 'sitemap.xml no contiene la portada canónica.');
 
-for (const file of ['index.html', 'app.html']) {
+for (const file of ['index.html', 'biblioteca.html', 'app.html']) {
   const html = read(file);
   if (html.includes('psicologiaoscura.sistemazenit.com')) {
     errors.push(`${file}: contiene el dominio antiguo.`);
@@ -39,7 +40,7 @@ for (const file of ['index.html', 'app.html']) {
   }
 }
 
-for (const file of ['index.html', 'app.html', '404.html', 'robots.txt', 'sitemap.xml', 'package.json']) {
+for (const file of ['index.html', 'biblioteca.html', 'app.html', '404.html', 'robots.txt', 'sitemap.xml', 'package.json']) {
   if (!fs.existsSync(path.join(root, file))) errors.push(`falta archivo requerido: ${file}`);
 }
 

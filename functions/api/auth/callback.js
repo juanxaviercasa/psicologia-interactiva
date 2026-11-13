@@ -14,5 +14,5 @@ export async function onRequestGet({ request, env }) {
   const user = await infoResponse.json();
   const session = { userId: user.sub, name: user.name || user.preferred_username || '', email: user.email || '', accessToken: tokens.access_token, refreshToken: tokens.refresh_token || '', expiresAt: Date.now() + Number(tokens.expires_in || 3600) * 1000 };
   const value = await seal(session, env.SESSION_SECRET);
-  return redirect('/app.html', { 'Set-Cookie': [cookie('cortex_session', value, { maxAge: 60 * 60 * 24 * 30 }), cookie('cortex_oauth_state', '', { maxAge: 0 }), cookie('cortex_oauth_verifier', '', { maxAge: 0 })] });
+  return redirect('/biblioteca.html', { 'Set-Cookie': [cookie('cortex_session', value, { maxAge: 60 * 60 * 24 * 30 }), cookie('cortex_oauth_state', '', { maxAge: 0 }), cookie('cortex_oauth_verifier', '', { maxAge: 0 })] });
 }
