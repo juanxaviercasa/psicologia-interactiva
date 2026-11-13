@@ -7,6 +7,19 @@
   <meta name="description" content="Área interactiva de estudio de ZENIT CORTEX con rutas de aprendizaje, tarjetas y autoevaluaciones formativas.">
   <meta name="robots" content="noindex,follow">
   <link rel="canonical" href="https://cortex.sistemazenit.com/app">
+  <script>
+    (async function enforcePremiumAccess() {
+      try {
+        const response = await fetch('/api/access', { headers: { Accept: 'application/json' }, credentials: 'same-origin' });
+        const access = await response.json();
+        if (!response.ok || !access.allowed) {
+          window.location.replace('/?access=' + encodeURIComponent(access.reason || (response.status === 401 ? 'login_required' : 'access_denied')));
+        }
+      } catch {
+        window.location.replace('/?access=verification_unavailable');
+      }
+    }());
+  </script>
   <meta property="og:type" content="website">
   <meta property="og:title" content="ZENIT CORTEX | Academia de Inteligencia Conductual">
   <meta property="og:description" content="Área interactiva de estudio con rutas de aprendizaje y autoevaluaciones formativas.">
