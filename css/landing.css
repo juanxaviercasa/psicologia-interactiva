@@ -1,5 +1,23 @@
 /* Sistema visual específico de la landing de ZENIT CORTEX. */
-.cortex-hero-video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:-2; }
+.checkout-modal[hidden] { display:none; }
+.checkout-modal__plans { display:flex; gap:.5rem; padding:1rem; }
+.checkout-modal__plans button { flex:1; padding:.8rem; border:1px solid #ccd6df; border-radius:.7rem; cursor:pointer; }
+.checkout-modal__plans button[aria-pressed="true"] { background:#07111f; color:#7ef6d7; }
+#checkout-status { padding:1rem; text-align:center; }
+.checkout-modal { position:fixed; inset:0; z-index:100; display:grid; place-items:center; padding:1rem; }
+.checkout-modal__backdrop { position:absolute; inset:0; background:rgba(2,8,16,.84); backdrop-filter:blur(8px); }
+.checkout-modal__panel { position:relative; width:min(100%, 760px); max-height:min(94vh, 920px); overflow:auto; border:1px solid rgba(126,246,215,.25); border-radius:1.5rem; background:#f8fbff; color:#0b1728; box-shadow:0 30px 100px rgba(0,0,0,.55); }
+.checkout-modal__close { position:absolute; right:.8rem; top:.65rem; z-index:2; width:2.2rem; height:2.2rem; border:0; border-radius:999px; background:rgba(7,17,31,.72); color:#fff; font-size:1.6rem; line-height:1; cursor:pointer; }
+.checkout-modal__brand { display:flex; gap:1rem; align-items:center; padding:1rem 3.5rem 1rem 1rem; background:#07111f; color:#edf7f5; }
+.checkout-modal__brand img { width:5rem; height:4rem; object-fit:cover; border-radius:.7rem; }
+.checkout-modal__eyebrow { margin:0 0 .2rem; color:#7ef6d7; font-size:.7rem; font-weight:800; letter-spacing:.16em; text-transform:uppercase; }
+.checkout-modal__brand h2 { margin:0; font-size:1.3rem; font-weight:900; }
+.checkout-modal__brand p:last-child { margin:.25rem 0 0; color:#b8c7d9; font-size:.85rem; }
+.checkout-modal__frame-wrap { min-height:520px; background:#fff; }
+.checkout-modal__frame-wrap iframe { display:block; width:100%; height:min(70vh,700px); min-height:520px; border:0; background:#fff; }
+.checkout-modal__fallback { margin:0; padding:.8rem 1rem 1rem; color:#617187; font-size:.78rem; text-align:center; }
+.checkout-modal__fallback a { color:#087f70; font-weight:800; }
+main > section:first-child > video.cortex-hero-video { position:absolute; inset:0; display:block; width:100%; height:100%; max-width:none; object-fit:cover; z-index:-2; pointer-events:none; }
 main > section:first-child:has(.cortex-hero-video)::before { background:linear-gradient(90deg,rgba(5,12,20,.80),rgba(5,12,20,.5) 48%,rgba(5,12,20,.08)); }
 .cortex-offer-film { position:relative; height:clamp(200px,28vw,320px); margin:0 0 2rem; border-radius:1rem; overflow:hidden; }
 .cortex-offer-film img,.cortex-offer-video { position:absolute; inset:0; display:block; width:100%; height:100%; object-fit:cover; }
@@ -69,7 +87,7 @@ main > section:first-child::before {
     linear-gradient(90deg, rgba(5, 12, 20, .88), rgba(5, 12, 20, .65) 48%, rgba(5, 12, 20, .12)),
     url("../js/visuals/cortex-open-doors.webp") center / cover;
 }
-main > section:first-child > div { min-width: 0; }
+main > section:first-child > div { min-width: 0; grid-column:1; }
 main > section:first-child h1 {
   font-size: clamp(2.5rem, 4.4vw, 3.9rem);
   line-height: 1.06;

@@ -1,4 +1,56 @@
 (() => {
+  const checkoutModal = document.querySelector('#checkout-modal');
+  const checkoutHost = document.querySelector('#whop-checkout');
+  const status = document.querySelector('#checkout-status');
+  let sdkPromise;
+  let selectedPlan = 'plan_Q03X3kJHIRgEt';
+  let mountedPlan;
+  let generation = 0;
+  const loadSdk = () => sdkPromise ||= new Promise((resolve, reject) => {
+    if (window.WhopElements) return resolve();
+    const script = document.createElement('script');
+    script.src = 'https://cdn.whop.com/elements/amber/elements.js';
+    script.setAttribute('data-whop-elements', '');
+    script.onload = resolve;
+    script.onerror = () => { sdkPromise = null; script.remove(); reject(new Error('SDK unavailable')); };
+    document.head.append(script);
+  });
+  const mountCheckout = async () => {
+    const current = ++generation;
+    document.querySelector('#checkout-fallback').href = `https://whop.com/checkout/${selectedPlan}`;
+    if (mountedPlan === selectedPlan) return;
+    status.hidden = false;
+    status.textContent = 'Cargando checkout seguro…';
+    try {
+      await loadSdk();
+      if (current !== generation) return;
+      checkoutHost.replaceChildren();
+      const checkout = window.WhopElements().checkout.create({plan:selectedPlan, returnUrl: `${location.origin}/api/auth/login`});
+      checkout.create('checkout').mount('#whop-checkout');
+      mountedPlan = selectedPlan;
+      status.hidden = true;
+    } catch { status.textContent = 'No se pudo cargar el checkout. Puedes abrirlo con el enlace de abajo.'; }
+  };
+  let lastFocused = null;
+  const closeCheckout = () => { if (!checkoutModal) return; checkoutModal.hidden = true; document.body.style.overflow = ''; lastFocused?.focus?.(); };
+  const openCheckout = (event) => {
+    event.preventDefault();
+    if (!checkoutModal || !checkoutHost) return;
+    lastFocused = event.currentTarget;
+    document.body.style.overflow = 'hidden';
+    mountCheckout();
+    checkoutModal.hidden = false;
+    checkoutModal.querySelector('.checkout-modal__close')?.focus();
+  };
+  document.querySelectorAll('a[href="/api/checkout"], a[href="/api/checkout?embedded=1"]').forEach(link => link.addEventListener('click', openCheckout));
+  checkoutModal?.querySelectorAll('[data-checkout-close]').forEach(button => button.addEventListener('click', closeCheckout));
+  document.querySelectorAll('[data-checkout-plan]').forEach(button => button.addEventListener('click', () => {
+    selectedPlan = button.dataset.checkoutPlan;
+    document.querySelectorAll('[data-checkout-plan]').forEach(option => option.setAttribute('aria-pressed', String(option === button)));
+    mountCheckout();
+  }));
+  document.addEventListener('keydown', event => { if (event.key === 'Escape' && checkoutModal && !checkoutModal.hidden) closeCheckout(); });
+
   const root = 'js/visuals/';
   const pricing = document.querySelector('#oferta .text-center');
   if (pricing) {
@@ -11,6 +63,9 @@
   const add = (container, name, poster, className, image) => {
     const video = document.createElement('video');
     video.className = className;
+    if (className === 'cortex-hero-video') {
+      Object.assign(video.style, {position:'absolute', inset:'0', width:'100%', height:'100%', objectFit:'cover', zIndex:'-2', pointerEvents:'none'});
+    }
     video.poster = root + poster;
     video.dataset.source = root + name;
     video.muted = true;

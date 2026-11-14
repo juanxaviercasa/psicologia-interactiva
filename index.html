@@ -18,7 +18,7 @@
   <link rel="icon" type="image/svg+xml" href="/js/visuals/cortex-favicon.svg">
   <link rel="stylesheet" href="css/tailwind.generated.css">
   <link rel="stylesheet" href="css/landing.css">
-  <script src="js/landing_video.js" defer></script>
+  <script src="js/landing_video.js?v=whop-elements-20261114-3" defer></script>
 </head>
 <body>
   <header class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#07111f]/80 backdrop-blur-xl">
@@ -130,6 +130,19 @@
       <details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Cortex es terapia o un diagnóstico?</summary><p class="mt-3 leading-7 text-slate-300">No. Es una herramienta educativa para leer, practicar y reflexionar. Si necesitas atención clínica, consulta con un profesional habilitado.</p></details>
     </div></section>
   </main>
+  <div id="checkout-modal" class="checkout-modal" hidden aria-labelledby="checkout-modal-title" role="dialog" aria-modal="true">
+    <div class="checkout-modal__backdrop" data-checkout-close></div>
+    <section class="checkout-modal__panel" role="document">
+      <button class="checkout-modal__close" type="button" aria-label="Cerrar checkout" data-checkout-close>×</button>
+      <div class="checkout-modal__brand">
+        <img src="js/visuals/cortex-offer-study-v2.png" alt="Cortex: libros, audio y práctica" loading="lazy">
+        <div><p class="checkout-modal__eyebrow">Acceso a Cortex</p><h2 id="checkout-modal-title">Completa tu acceso</h2><p>Elige tu plan y paga de forma segura sin salir de esta página.</p></div>
+      </div>
+      <div class="checkout-modal__plans" aria-label="Elige tu plan"><button type="button" data-checkout-plan="plan_Q03X3kJHIRgEt" aria-pressed="true">Mensual · US$9</button><button type="button" data-checkout-plan="plan_Z9vJHL8fz5FZp" aria-pressed="false">Anual · US$90</button></div>
+      <div class="checkout-modal__frame-wrap"><div id="whop-checkout"></div><p id="checkout-status" role="status">Cargando checkout seguro…</p></div>
+      <p class="checkout-modal__fallback">¿No se muestra el checkout? <a id="checkout-fallback" href="https://whop.com/checkout/plan_Q03X3kJHIRgEt" target="_blank" rel="noopener">Abrirlo en una pestaña nueva</a></p>
+    </section>
+  </div>
   <aside class="mobile-access-bar" aria-label="Ver planes a Cortex">
     <span><strong>Entra a Cortex</strong>US$9 al mes o US$90 al año.</span>
     <a href="/api/checkout">Empezar ahora</a>
