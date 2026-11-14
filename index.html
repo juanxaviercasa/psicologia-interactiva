@@ -8,94 +8,16 @@
   <link rel="canonical" href="https://cortex.sistemazenit.com/">
   <meta property="og:type" content="website">
   <meta property="og:title" content="Cortex | Psicología, persuasión y lenguaje corporal">
-  <meta property="og:description" content="Explora la conducta humana con 94 libros, 20 audiolibros y rutas interactivas. Desde US$9 al mes.">
+  <meta property="og:description" content="Explora la conducta humana con libros, audiolibros, rutas y actividades de práctica.">
   <meta property="og:url" content="https://cortex.sistemazenit.com/">
   <meta property="og:site_name" content="ZENIT CORTEX">
+  <meta property="og:image" content="https://cortex.sistemazenit.com/js/visuals/cortex-open-doors.webp">
+  <meta property="og:image:alt" content="Cortex: explora la psicología humana en un espacio de aprendizaje">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preload" as="image" href="js/visuals/cortex-open-doors.webp">
   <link rel="icon" type="image/svg+xml" href="https://cdn.cortex.sistemazenit.com/assets/img/logo/zenit_cortex_icon.svg">
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = { theme: { extend: { colors: { ink:'#07111f', cyanx:'#38d9ff', violetx:'#8b7cff', mint:'#63f2c1' } } } };
-  </script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <style>
-    :root { color-scheme: dark; }
-    body { background: #07111f; color: #eef8ff; font-family: ui-sans-serif, system-ui, sans-serif; }
-    .grid-bg { background-image: linear-gradient(rgba(56,217,255,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(56,217,255,.06) 1px, transparent 1px); background-size: 42px 42px; }
-    .glow { box-shadow: 0 0 90px rgba(56,217,255,.15); }
-    .glass { background: rgba(9, 24, 43, .72); border: 1px solid rgba(148, 163, 184, .18); backdrop-filter: blur(18px); }
-    .text-gradient { background: linear-gradient(100deg, #eafcff 0%, #63f2c1 46%, #8b7cff 100%); -webkit-background-clip: text; background-clip: text; color: transparent; }
-    /* El hero se adapta al ancho y a la altura útil de la pantalla. */
-    main > section:first-child { gap: clamp(2rem, 4vw, 4rem); padding-top: 8rem; padding-bottom: 4rem; align-items: center; }
-    main > section:first-child > div { min-width: 0; }
-    main > section:first-child h1 { font-size: clamp(2.5rem, 4.4vw, 3.9rem); line-height: 1.06; text-wrap: balance; }
-    main > section:first-child h1 + p { font-size: 1rem; line-height: 1.75; margin-top: 1.5rem; }
-    main > section:first-child .glow { padding: 1.25rem; }
-    main > section:first-child .glow > img { aspect-ratio: 16 / 10; max-height: 240px; margin-bottom: 1rem; }
-    main > section:first-child .glow > .space-y-4 { display: none; }
-    main > section:first-child .glow > .mb-6 { margin-bottom: 0; padding-bottom: 1rem; }
-    main > section:first-child .glow > .mt-6 { margin-top: 1rem; }
-    main > section:first-child .inline-flex { max-width: 100%; font-size: .65rem; letter-spacing: .12em; }
-    @media (min-width: 1024px) {
-      main > section:first-child { grid-template-columns: minmax(0, 1.15fr) minmax(0, .85fr); }
-    }
-    @media (min-width: 1024px) and (max-height: 800px) {
-      main > section:first-child { padding-top: 7rem; padding-bottom: 2.5rem; }
-      main > section:first-child h1 { font-size: clamp(2.5rem, 4vw, 3.4rem); }
-      main > section:first-child .mt-9 { margin-top: 1.5rem; }
-    }
-    @media (max-width: 639px) {
-      main > section:first-child { padding-top: 7rem; padding-bottom: 3rem; }
-      main > section:first-child .inline-flex { line-height: 1.6; }
-      main > section:first-child .glow { max-width: 100%; }
-      main > section:first-child .text-sm.uppercase { font-size: .7rem; letter-spacing: .1em; }
-    }
-  </style>
-  <style>
-    body { background:#050b14; }
-    .forces { position:relative; background:radial-gradient(ellipse at 0% 28%,#123b5140,transparent 48%),radial-gradient(ellipse at 100% 70%,#68284230,transparent 45%); }
-    .force-chapter { box-shadow:0 24px 70px #0007; border-color:#62d9ff30; background:linear-gradient(125deg,#102332,#08121f); }
-    .force-chapter:nth-of-type(2) { border-color:#e9ad6045; background:linear-gradient(120deg,#292016,#0b1521); }
-    .force-chapter:nth-of-type(3) { border-color:#ed87a640; background:linear-gradient(120deg,#281322,#0b1521); }
-    .training-lab { position:relative; padding:clamp(1.4rem,4vw,3rem); border:1px solid #9275ff55; border-radius:30px; background:radial-gradient(ellipse at 100% 0%,#6d28d940,transparent 60%),linear-gradient(145deg,#102539,#09111f); box-shadow:0 0 90px #7447e51a; }
-    .training-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; margin-top:2rem; }
-    .training-grid article { padding:1.5rem; border:1px solid #ffffff18; border-radius:20px; background:#040c18a8; }
-    .training-grid span { display:block; font-size:.65rem; font-weight:800; letter-spacing:.16em; color:#63f2c1; }
-    .training-grid i { display:block; color:#8bafff; font-size:1.6rem; margin:1.5rem 0; }
-    .training-grid h3 { font-size:1.25rem; font-weight:800; line-height:1.3; }
-    .training-grid p { color:#cbd5e1; line-height:1.8; margin-top:.8rem; font-size:.95rem; }
-    .training-grid small { display:block; color:#d8c7ef; line-height:1.6; margin-top:1rem; }
-    .training-grid .sparring-feature { border-color:#b189ff88; background:linear-gradient(140deg,#42266680,#0b1627); }
-    #oferta > .relative { box-shadow:0 0 100px #38d9ff12; border-color:#63f2c166; }
-    @media(max-width:960px) { .training-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
-    @media(max-width:600px) { .training-grid { grid-template-columns:1fr; } }
-  </style>
-  <style>
-    :root { --forces-image: url('js/visuals/cortex-human-forces.png'); }
-    .grid-bg { background-image: none; }
-    main > section:first-child { position:relative; isolation:isolate; }
-    main > section:first-child::before { content:''; position:absolute; z-index:-1; inset:0; background:linear-gradient(90deg,rgba(5,12,20,.88),rgba(5,12,20,.65) 48%,rgba(5,12,20,.12)),url('js/visuals/cortex-open-doors.png') center/cover; }
-    .forces { max-width:1280px; margin:auto; padding:4rem 1.5rem; }
-    .forces-intro { max-width:700px; margin-bottom:3rem; }
-    .forces-intro h2 { font-size:clamp(2rem,4vw,3.5rem); line-height:1.08; letter-spacing:-.04em; font-weight:900; }
-    .force-chapter { min-height:390px; position:relative; isolation:isolate; overflow:hidden; border:1px solid #ffffff20; border-radius:28px; margin:1.5rem 0; display:flex; align-items:center; padding:clamp(1.5rem,5vw,4rem); background:#08141c; }
-    .force-chapter::before { content:''; position:absolute; inset:0; z-index:-2; background-image:url('/images/cortex-human-forces.png'); background-size:300% auto; background-repeat:no-repeat; }
-    .force-chapter::after { content:''; position:absolute; inset:0; z-index:-1; background:linear-gradient(90deg,rgba(4,10,17,.94),rgba(4,10,17,.7) 48%,rgba(4,10,17,.1)); }
-    .force-chapter::before { background-image:var(--forces-image); }
-    .force-chapter:nth-of-type(1)::before { background-position:left center; }
-    .force-chapter:nth-of-type(2)::before { background-position:center center; }
-    .force-chapter:nth-of-type(3)::before { background-position:right center; }
-    .force-chapter { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1fr); gap:clamp(1.5rem,4vw,4rem); }
-    .force-chapter::before, .force-chapter::after { display:none; }
-    .desire-photo { width:100%; height:330px; object-fit:cover; object-position:center; border-radius:18px; }
-    .force-chapter:nth-of-type(2) .desire-photo { object-position:center; }
-    .force-chapter:nth-of-type(3) .desire-photo { object-position:center; }
-    .force-copy { max-width:470px; }
-    .force-copy small { color:#63f2c1; font-weight:700; letter-spacing:.18em; text-transform:uppercase; }
-    .force-copy h3 { font-size:clamp(1.8rem,3.5vw,3rem); font-weight:800; line-height:1.1; margin:1rem 0; }
-    .force-copy p { color:#cbd5e1; line-height:1.8; }
-    .force-copy a { display:inline-block; margin-top:1.5rem; color:#fff; border-bottom:1px solid #63f2c1; padding-bottom:.4rem; }
-    @media(max-width:760px) { .force-chapter { grid-template-columns:1fr; min-height:0; } .desire-photo { height:240px; } main > section:first-child::before { background-position:70% top; background-image:linear-gradient(180deg,rgba(5,12,20,.7),rgba(5,12,20,.94) 65%),url('js/visuals/cortex-open-doors.png'); } }
-  </style>
+  <link rel="stylesheet" href="css/tailwind.generated.css">
+  <link rel="stylesheet" href="css/landing.css">
 </head>
 <body>
   <header class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#07111f]/80 backdrop-blur-xl">
@@ -106,7 +28,7 @@
       </a>
       <div class="flex items-center gap-3 text-sm">
         <a href="#que-incluye" class="hidden text-slate-300 transition hover:text-white sm:inline">Qué incluye</a>
-        <a href="#oferta" class="hidden rounded-xl border border-white/15 px-4 py-2 font-semibold text-slate-200 transition hover:border-cyanx/60 hover:text-white sm:inline">Ver acceso</a>
+        <a href="#oferta" class="rounded-xl border border-white/15 px-3 py-2 text-xs font-semibold text-slate-200 transition hover:border-cyanx/60 hover:text-white sm:px-4 sm:text-sm">Estado de acceso</a>
       </div>
     </nav>
   </header>
@@ -117,18 +39,18 @@
         <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-mint/30 bg-mint/10 px-4 py-2 text-xs font-bold uppercase tracking-[.16em] text-mint"><span class="h-2 w-2 rounded-full bg-mint"></span> Tu espacio para explorar la mente humana</div>
         <p class="mb-5 text-sm font-bold uppercase tracking-[.18em] text-cyanx">Psicología · Persuasión · Lenguaje corporal</p>
         <h1 class="max-w-4xl text-5xl font-black leading-[.98] tracking-[-.04em] sm:text-7xl">Detrás de cada conducta, <span class="text-gradient">hay algo que entender.</span></h1>
-        <p class="mt-7 max-w-2xl text-lg leading-8 text-slate-300">Explora la psicología humana: cómo influimos, por qué cedemos y qué comunicamos sin palabras. Reúne tu lectura, tus audiolibros y tu práctica en un solo lugar: Cortex.</p>
+        <p class="mt-7 max-w-2xl text-lg leading-8 text-slate-300">Explora la psicología humana: cómo influimos, por qué cedemos y qué comunicamos sin palabras. Reúne lectura, audio, rutas de aprendizaje y actividades de práctica en un solo lugar: Cortex.</p>
         <div class="mt-9 flex flex-col gap-3 sm:flex-row">
-          <a href="/api/checkout" class="rounded-2xl bg-gradient-to-r from-cyanx to-mint px-6 py-4 text-center font-black text-ink shadow-2xl shadow-cyanx/20 transition hover:-translate-y-1">Quiero entrar a Cortex <i class="fa-solid fa-arrow-right ml-2"></i></a>
-          <a href="#oferta" class="px-6 py-4 text-center text-slate-300">Desde US$9 al mes · Ver planes</a>
+          <a href="#oferta" class="rounded-2xl bg-gradient-to-r from-cyanx to-mint px-6 py-4 text-center font-black text-ink shadow-2xl shadow-cyanx/20 transition hover:-translate-y-1">Ver información de acceso <svg class="ml-2 inline size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          <a href="#que-incluye" class="px-6 py-4 text-center text-slate-300">Explorar lo que incluye</a>
         </div>
-        <p class="mt-4 text-xs text-slate-500">Contenido educativo para aprender y reflexionar. No sustituye terapia ni un diagnóstico profesional.</p>
+        <p class="mt-4 text-xs text-slate-300">Contenido educativo para aprender y reflexionar. No sustituye terapia ni un diagnóstico profesional.</p>
       </div>
       <div aria-hidden="true" class="hidden lg:block"></div>
     </section>
 
     <section aria-label="Tu membresía Cortex" class="mx-auto max-w-6xl border-y border-white/10 px-5 py-7 lg:px-8">
-      <div class="grid grid-cols-1 gap-6 text-center sm:grid-cols-3">
+      <div class="membership-stats__grid grid grid-cols-1 gap-6 text-center sm:grid-cols-3">
         <p class="text-slate-300"><strong class="mr-2 text-2xl font-black text-white">94</strong> libros para explorar</p>
         <p class="text-slate-300"><strong class="mr-2 text-2xl font-black text-white">20</strong> audiolibros para escuchar</p>
         <p class="text-slate-300"><strong class="block text-lg font-bold text-mint">Rutas interactivas</strong> Aprende, practica y repasa</p>
@@ -136,9 +58,9 @@
     </section>
     <section class="forces" aria-label="Las fuerzas que nos mueven">
       <div class="forces-intro"><p class="mb-4 text-sm uppercase tracking-widest text-mint">Las fuerzas que nos mueven</p><h2>Lo que deseas también tiene una psicología.</h2><p class="mt-6 leading-8 text-slate-300">Sentirte mejor contigo. Hacer que tus ideas cuenten. Conectar con alguien. Explora la conducta humana a través de lo que más nos importa.</p></div>
-      <article class="force-chapter"><img class="desire-photo" src="js/visuals/cortex-self-awareness.png" alt="Una mujer escribe en su diario junto a una ventana"><div class="force-copy"><small>01 / Sentirte mejor contigo</small><h3>Ese momento en que eliges cómo responder.</h3><p>Una crítica que te toca. Una discusión que vuelve a empezar. Aprende a reconocer tus patrones, poner nombre a lo que sientes y practicar respuestas más conscientes.</p><a href="#oferta">Quiero comprenderme mejor →</a></div></article>
-      <article class="force-chapter"><img class="desire-photo" src="js/visuals/cortex-negotiation.png" alt="Dos profesionales intercambian ideas en una conversación"><div class="force-copy"><small>02 / Hacer valer tus ideas</small><h3>Llega a esa conversación con algo más que ganas.</h3><p>Presentar una propuesta. Negociar tus honorarios. Defender tu trabajo. Estudia cómo argumentar, escuchar objeciones y comunicar el valor de lo que ofreces.</p><a href="#oferta">Quiero comunicar con más intención →</a></div></article>
-      <article class="force-chapter"><img class="desire-photo" src="js/visuals/cortex-connection.png" alt="Una pareja adulta comparte una mirada cercana y recíproca"><div class="force-copy"><small>03 / Conectar de verdad</small><h3>Una mirada despierta interés. Una conversación abre posibilidades.</h3><p>Acercarte a alguien que te atrae. Expresar lo que quieres. Escuchar lo que la otra persona necesita. Explora comunicación, lenguaje corporal y límites para construir vínculos con reciprocidad.</p><a href="#oferta">Quiero entender mejor mis relaciones →</a></div></article>
+      <article class="force-chapter"><img class="desire-photo" src="js/visuals/cortex-self-awareness.webp" alt="Una mujer escribe en su diario junto a una ventana"><div class="force-copy"><small>01 / Sentirte mejor contigo</small><h3>Ese momento en que eliges cómo responder.</h3><p>Una crítica que te toca. Una discusión que vuelve a empezar. Aprende a reconocer tus patrones, poner nombre a lo que sientes y practicar respuestas más conscientes.</p><a href="#oferta">Quiero comprenderme mejor →</a></div></article>
+      <article class="force-chapter"><img class="desire-photo" src="js/visuals/cortex-negotiation.webp" alt="Dos profesionales intercambian ideas en una conversación"><div class="force-copy"><small>02 / Hacer valer tus ideas</small><h3>Llega a esa conversación con algo más que ganas.</h3><p>Presentar una propuesta. Negociar tus honorarios. Defender tu trabajo. Estudia cómo argumentar, escuchar objeciones y comunicar el valor de lo que ofreces.</p><a href="#oferta">Quiero comunicar con más intención →</a></div></article>
+      <article class="force-chapter"><img class="desire-photo" src="js/visuals/cortex-connection.webp" alt="Una pareja adulta comparte una mirada cercana y recíproca"><div class="force-copy"><small>03 / Conectar de verdad</small><h3>Una mirada despierta interés. Una conversación abre posibilidades.</h3><p>Acercarte a alguien que te atrae. Expresar lo que quieres. Escuchar lo que la otra persona necesita. Explora comunicación, lenguaje corporal y límites para construir vínculos con reciprocidad.</p><a href="#oferta">Quiero entender mejor mis relaciones →</a></div></article>
     </section>
     <section id="que-incluye" class="mx-auto max-w-6xl px-5 py-20 lg:px-8">
       <div class="max-w-2xl"><p class="text-sm font-bold uppercase tracking-[.18em] text-cyanx">Tu biblioteca de psicología, con práctica</p><h2 class="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Lee la teoría. Explora los casos. Forma tu propio criterio.</h2></div>
@@ -152,34 +74,47 @@
         <h2 class="mt-4 text-3xl font-black sm:text-5xl">¿Qué harías si la conversación fuera ahora?</h2>
         <p class="mt-5 max-w-2xl leading-8 text-slate-300">Una idea te llama la atención. Una lección te ayuda a entenderla. Un escenario te invita a decidir. Así puedes trabajar el contenido dentro de Cortex.</p>
         <div class="training-grid">
-          <article><span>01 / EXPLORA</span><i class="fa-solid fa-headphones"></i><h3>Lee. Escucha. Sigue tu curiosidad.</h3><p>Encuentra tu próximo tema entre 94 libros y 20 audiolibros. Alterna lectura y audio según el momento de tu día.</p></article>
-          <article><span>02 / PROFUNDIZA</span><i class="fa-solid fa-route"></i><h3>Ten claro tu siguiente paso.</h3><p>Recorre lecciones por módulos, consulta conceptos en el glosario y retoma tu avance en las rutas interactivas disponibles.</p></article>
-          <article><span>03 / DECIDE</span><i class="fa-solid fa-chess-knight"></i><h3>Pon tus ideas frente a un caso.</h3><p>Explora escenarios del simulador, elige una respuesta y revisa lo que ocurre. Una forma de cuestionar tu primera reacción antes de llevarla a la vida diaria.</p></article>
-          <article class="sparring-feature"><span>04 / ENSAYA</span><i class="fa-solid fa-comments"></i><h3>Entra al sparring.</h3><p>Elige un libro, una técnica y un escenario. Ensaya una conversación con IA y recibe comentarios sobre cómo aplicaste la técnica.</p><small>El sparring requiere configurar tu propia clave de IA. El servicio externo puede tener costes adicionales.</small></article>
-          <article><span>05 / COMPRUEBA</span><i class="fa-solid fa-list-check"></i><h3>Descubre qué has entendido.</h3><p>Responde cuestionarios y revisa tus respuestas. Localiza los conceptos que necesitan otra lectura y vuelve a intentarlo con más contexto.</p></article>
-          <article><span>06 / RECUERDA</span><i class="fa-solid fa-layer-group"></i><h3>Vuelve a lo que merece quedarse.</h3><p>Repasa con flashcards y tarjetas pendientes. Consulta tu progreso y guarda una copia de tu avance para retomarlo después.</p></article>
+          <article><span>01 / EXPLORA</span><svg class="training-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M3 13v-2a9 9 0 0 1 18 0v2"/><path d="M5 13h2v7H5a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2Zm12 0h2a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-2z"/></svg><h3>Lee. Escucha. Sigue tu curiosidad.</h3><p>Encuentra tu próximo tema entre 94 libros y 20 audiolibros. Alterna lectura y audio según el momento de tu día.</p></article>
+          <article><span>02 / PROFUNDIZA</span><svg class="training-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="6" cy="18" r="2"/><circle cx="18" cy="6" r="2"/><path d="M8 18h5a3 3 0 0 0 3-3v-3a3 3 0 0 1 3-3"/><path d="M6 16v-3a3 3 0 0 1 3-3h3"/></svg><h3>Ten claro tu siguiente paso.</h3><p>Recorre lecciones por módulos, consulta conceptos en el glosario y retoma tu avance en las rutas interactivas disponibles.</p></article>
+          <article><span>03 / DECIDE</span><svg class="training-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m9 15 2-6 4 6H9Zm1-9h.01M17 10h.01"/></svg><h3>Pon tus ideas frente a un caso.</h3><p>Explora escenarios del simulador, elige una respuesta y revisa lo que ocurre. Una forma de cuestionar tu primera reacción antes de llevarla a la vida diaria.</p></article>
+          <article class="sparring-feature"><span>04 / ENSAYA</span><svg class="training-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M20 11.5a7.5 7.5 0 0 1-8 7.5 8.7 8.7 0 0 1-3.5-.7L4 20l1.3-3.4A7.3 7.3 0 0 1 4 12c0-4.1 3.6-7.5 8-7.5s8 3.1 8 7Z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></svg><h3>Entra al sparring.</h3><p>Elige un libro, una técnica y un escenario. Ensaya una conversación con IA y recibe comentarios sobre cómo aplicaste la técnica.</p><small>El sparring requiere configurar tu propia clave de IA. El servicio externo puede tener costes adicionales.</small></article>
+          <article><span>05 / COMPRUEBA</span><svg class="training-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m4 7 2 2 4-4M12 7h8M4 16l2 2 4-4m2 2h8"/></svg><h3>Descubre qué has entendido.</h3><p>Responde cuestionarios y revisa tus respuestas. Localiza los conceptos que necesitan otra lectura y vuelve a intentarlo con más contexto.</p></article>
+          <article><span>06 / RECUERDA</span><svg class="training-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5M3 16l9 5 9-5"/></svg><h3>Vuelve a lo que merece quedarse.</h3><p>Repasa con flashcards y tarjetas pendientes. Consulta tu progreso y guarda una copia de tu avance para retomarlo después.</p></article>
         </div>
-        <a href="/api/checkout" class="mt-8 inline-block rounded-2xl bg-mint px-7 py-4 font-black text-ink">Quiero empezar mi recorrido →</a>
+        <a href="#oferta" class="mt-8 inline-block rounded-2xl bg-mint px-7 py-4 font-black text-ink">Ver información de acceso →</a>
       </div>
     </section>
 
     <section id="oferta" class="mx-auto max-w-6xl px-5 py-16 lg:px-8">
-      <figure class="mb-8 overflow-hidden rounded-3xl border border-white/10"><img src="js/visuals/cortex-human-forces.png" loading="lazy" alt="Autoconocimiento, influencia profesional y conexión: tres ámbitos para explorar la psicología en la vida diaria" class="w-full object-cover"><figcaption class="bg-[#0b1826] px-6 py-5 text-center text-lg font-bold">Lo que aprendes cobra sentido en tu próxima conversación.</figcaption></figure>
+      <figure class="mb-8 overflow-hidden rounded-3xl border border-white/10"><img src="js/visuals/cortex-human-forces.webp" loading="lazy" alt="Autoconocimiento, influencia profesional y conexión: tres ámbitos para explorar la psicología en la vida diaria" class="w-full object-cover"><figcaption class="bg-[#0b1826] px-6 py-5 text-center text-lg font-bold">Lo que aprendes cobra sentido en tu próxima conversación.</figcaption></figure>
       <div class="relative overflow-hidden rounded-[2rem] border border-cyanx/30 bg-gradient-to-br from-cyanx/10 via-[#0b2037] to-violetx/10 p-7 sm:p-12">
         <div class="absolute -right-24 -top-24 h-64 w-64 rounded-full bg-cyanx/10 blur-3xl"></div>
         <div class="relative grid gap-10 lg:grid-cols-[1fr_360px] lg:items-center">
-          <div><p class="text-sm font-bold uppercase tracking-[.18em] text-mint">Tu próxima lectura puede empezar aquí</p><h2 class="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Haz de la psicología una parte de tu día.</h2><p class="mt-5 max-w-xl leading-7 text-slate-300">Elige un tema que te intrigue. Lee o escucha a tu ritmo. Pon a prueba lo que has entendido con las actividades de la academia.</p><ul class="mt-7 space-y-3 text-sm text-slate-200"><li><i class="fa-solid fa-check mr-3 text-mint"></i>94 libros y 20 audiolibros en una biblioteca organizada</li><li><i class="fa-solid fa-check mr-3 text-mint"></i>Rutas interactivas, preguntas y casos de práctica</li><li><i class="fa-solid fa-check mr-3 text-mint"></i>Herramientas de repaso y seguimiento de tu avance</li></ul></div>
-          <div class="rounded-3xl border border-white/15 bg-[#07111f]/80 p-6 text-center"><p class="text-xs font-bold uppercase tracking-[.2em] text-mint">Membresía Cortex</p><p id="offerStatus" class="mt-4 text-5xl font-black text-white">US$9<span class="text-base font-normal text-slate-400"> / mes</span></p><p class="mt-4 text-lg font-bold text-white">O US$90 al año</p><p class="mt-2 text-sm text-mint">Ahorra US$18 con el plan anual.</p><p id="offerDetail" class="mt-5 text-sm leading-6 text-slate-400">Biblioteca y academia en una sola membresía. Elige tu plan al continuar.</p><a id="offerCta" href="/api/checkout" class="mt-6 block w-full rounded-2xl bg-gradient-to-r from-cyanx to-mint px-5 py-4 font-black text-ink transition hover:-translate-y-1">Quiero entrar a Cortex</a><p class="mt-3 text-xs text-slate-500">Introduce tu correo durante la compra.</p></div>
+          <div><p class="text-sm font-bold uppercase tracking-[.18em] text-mint">Tu próxima lectura puede empezar aquí</p><h2 class="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Haz de la psicología una parte de tu día.</h2><p class="mt-5 max-w-xl leading-7 text-slate-300">Elige un tema que te intrigue. Lee o escucha a tu ritmo. Pon a prueba lo que has entendido con las actividades de la academia.</p><ul class="mt-7 space-y-3 text-sm text-slate-200"><li><svg class="mr-3 inline size-4 text-mint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>94 libros y 20 audiolibros en una biblioteca organizada</li><li><svg class="mr-3 inline size-4 text-mint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Rutas interactivas, preguntas y casos de práctica</li><li><svg class="mr-3 inline size-4 text-mint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Herramientas de repaso y seguimiento de tu avance</li></ul></div>
+          <div class="rounded-3xl border border-white/15 bg-[#07111f]/80 p-6 text-center">
+            <p class="text-xs font-bold uppercase tracking-[.2em] text-mint">Acceso a Cortex</p>
+            <p class="mt-4 text-2xl font-black text-white">En actualización</p>
+            <p class="mt-4 text-sm leading-6 text-slate-300">Estamos revisando el enlace de compra. Por ahora no se puede completar una compra desde esta página.</p>
+            <p class="mt-4 rounded-xl border border-amber-300/30 bg-amber-300/10 px-4 py-3 text-left text-sm leading-6 text-amber-100" role="status">No continúes a pagar desde un enlace antiguo. Publicaremos aquí el acceso y las condiciones vigentes cuando estén confirmados.</p>
+          </div>
         </div>
       </div>
     </section>
 
     <section class="mx-auto max-w-6xl px-5 py-20 lg:px-8"><div class="grid gap-5 md:grid-cols-2"><div class="glass rounded-3xl p-7"><h2 class="text-2xl font-black">Hecho para personas curiosas</h2><p class="mt-4 leading-7 text-slate-400">Para quienes quieren entender mejor lo que leen, lo que sienten y lo que ocurre en sus conversaciones, sin convertir la psicología en recetas mágicas.</p></div><div class="glass rounded-3xl p-7"><h2 class="text-2xl font-black">Con criterio, no con promesas</h2><p class="mt-4 leading-7 text-slate-400">Cortex es una herramienta educativa. No es terapia, diagnóstico ni una fórmula para controlar a otras personas.</p></div></div></section>
 
-    <section class="mx-auto max-w-4xl px-5 py-16 lg:px-8"><h2 class="text-center text-3xl font-black">Antes de entrar</h2><div class="mt-8 space-y-3"><details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Necesito crear una cuenta antes de comprar?</summary><p class="mt-3 leading-7 text-slate-400">No. Pulsa “Empezar ahora”, introduce tu correo y completa el pago. La cuenta y la identificación se gestionan dentro del proceso de compra.</p></details><details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Qué recibo con la membresía?</summary><p class="mt-3 leading-7 text-slate-400">Acceso a la biblioteca privada, rutas interactivas, ejercicios y herramientas para estudiar a tu ritmo. Tu acceso se verifica cada vez que entras.</p></details><details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Cortex es terapia o un diagnóstico?</summary><p class="mt-3 leading-7 text-slate-400">No. Es una herramienta educativa para leer, practicar y reflexionar. Si necesitas atención clínica, consulta con un profesional habilitado.</p></details></div></section>
+    <section class="mx-auto max-w-4xl px-5 py-16 lg:px-8" aria-labelledby="faq-title"><h2 id="faq-title" class="text-center text-3xl font-black">Antes de entrar</h2><div class="mt-8 space-y-3">
+      <details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Puedo comprar ahora?</summary><p class="mt-3 leading-7 text-slate-300">No por el momento. El enlace anterior de compra no está disponible y se está actualizando. No envíes pagos mediante enlaces guardados; vuelve a esta página para consultar el acceso vigente.</p></details>
+      <details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Qué recibo con la membresía?</summary><p class="mt-3 leading-7 text-slate-300">La propuesta incluye una biblioteca de libros y audiolibros, rutas interactivas, ejercicios y herramientas de repaso. El alcance y las condiciones comerciales deben confirmarse en el proceso de acceso vigente antes de pagar.</p></details>
+      <details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Cortex es terapia o un diagnóstico?</summary><p class="mt-3 leading-7 text-slate-300">No. Es una herramienta educativa para leer, practicar y reflexionar. Si necesitas atención clínica, consulta con un profesional habilitado.</p></details>
+    </div></section>
   </main>
+  <aside class="mobile-access-bar" aria-label="Estado de acceso a Cortex">
+    <span><strong>Acceso en actualización</strong>El enlace de compra no está disponible.</span>
+    <a href="#oferta">Ver estado</a>
+  </aside>
   <div id="accessNotice" class="hidden fixed bottom-5 left-1/2 z-50 w-[calc(100%-2rem)] max-w-lg -translate-x-1/2 rounded-2xl border border-cyanx/40 bg-[#07111f]/95 px-5 py-3 text-center text-sm text-slate-200 shadow-2xl backdrop-blur" role="status"></div>
-  <footer class="border-t border-white/10 px-5 py-8 text-center text-xs text-slate-500"><p>© 2026 ZENIT CORTEX · Sistema Zenit</p><p class="mt-2"><a class="hover:text-white" href="#oferta">Acceso premium</a></p></footer>
+  <footer class="border-t border-white/10 px-5 py-8 text-center text-xs text-slate-300"><p>© 2026 ZENIT CORTEX · Sistema Zenit</p><p class="mt-2"><a class="hover:text-white" href="#oferta">Estado de acceso</a></p></footer>
   <script>
     (function showAccessNotice() {
       const params = new URLSearchParams(window.location.search);
@@ -198,10 +133,6 @@
         notice.classList.remove('hidden');
       }
     }());
-    fetch('/api/offer', { headers: { Accept: 'application/json' } }).then(r => r.ok ? r.json() : null).then(data => {
-      if (!data || !data.configured) return;
-      // La oferta editorial permanece visible incluso si la API tarda o falla.
-    }).catch(() => {});
     fetch('/api/access', { headers: { Accept: 'application/json' }, credentials: 'same-origin' })
       .then(r => r.ok ? r.json() : null)
       .then(access => {

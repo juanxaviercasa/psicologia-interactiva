@@ -5,7 +5,9 @@
   "description": "ZENIT CORTEX: biblioteca y academia interactiva de psicología y conducta.",
   "scripts": {
     "dev": "node server.js",
-    "check": "node --check js/access_guard.js && node --check js/course_manifest.js && node --check js/quiz_factory.js && node --check js/progress_backup.js && node --check js/app.js && node --check js/ai_engine.js && node --check js/cv_engine.js && node --check js/audioplayer_engine.js && node --check js/biblioteca_engine.js && node --check js/coleccion_data.js",
+    "build:css": "tailwindcss -c tailwind.config.js -i css/tailwind.source.css -o css/tailwind.generated.css --minify",
+    "build": "npm run build:css",
+    "check": "node --check tailwind.config.js && node --check js/access_guard.js && node --check js/course_manifest.js && node --check js/quiz_factory.js && node --check js/progress_backup.js && node --check js/app.js && node --check js/ai_engine.js && node --check js/cv_engine.js && node --check js/audioplayer_engine.js && node --check js/biblioteca_engine.js && node --check js/coleccion_data.js",
     "test": "node --test tests/*.test.cjs",
     "validate:publication": "node scripts/validate-publication.cjs",
     "validate:functions": "node scripts/validate-functions.cjs",
@@ -13,5 +15,8 @@
   },
   "engines": {
     "node": ">=22"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
   }
 }
