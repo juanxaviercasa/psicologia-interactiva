@@ -15,6 +15,18 @@ main > section:first-child:has(.cortex-hero-video)::before { background:linear-g
   --cortex-mint: #63f2c1;
 }
 
+.cortex-perspective { padding-top:32px; padding-bottom:20px; }
+.perspective-banner { position:relative; overflow:hidden; border-radius:28px; border:1px solid #ffffff20; margin:0; background:#091522; }
+.perspective-banner img { display:block; width:100%; height:auto; }
+.perspective-banner::after { content:''; position:absolute; inset:25% 0 0; background:linear-gradient(transparent,#050b14ee); pointer-events:none; }
+.perspective-banner figcaption { position:absolute; bottom:0; left:0; right:0; z-index:1; padding:clamp(24px,4vw,48px); }
+.perspective-banner figcaption span,.perspective-notes article > span { color:var(--cortex-mint); font-size:.7rem; font-weight:800; letter-spacing:.15em; }
+.perspective-banner h2 { font-size:clamp(1.6rem,3vw,2.6rem); line-height:1.15; font-weight:900; max-width:24ch; margin-top:12px; }
+.perspective-banner figcaption p { color:#cbd5e1; margin-top:12px; line-height:1.6; }
+.perspective-notes { display:grid; grid-template-columns:1fr 1fr; gap:40px; padding:32px 8px; border-bottom:1px solid #ffffff18; }
+.perspective-notes h3 { font-size:1.25rem; font-weight:800; margin:12px 0; }
+.perspective-notes p { color:#aebed0; line-height:1.8; max-width:52ch; }
+@media(max-width:600px) { .perspective-notes { grid-template-columns:1fr; gap:28px; } .perspective-banner figcaption { position:relative; } .perspective-banner::after { display:none; } }
 html { scroll-padding-top: 6rem; }
 body {
   background: var(--cortex-ink);
