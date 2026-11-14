@@ -28,7 +28,7 @@
       </a>
       <div class="flex items-center gap-3 text-sm">
         <a href="#que-incluye" class="hidden text-slate-300 transition hover:text-white sm:inline">Qué incluye</a>
-        <a href="#oferta" class="rounded-xl border border-white/15 px-3 py-2 text-xs font-semibold text-slate-200 transition hover:border-cyanx/60 hover:text-white sm:px-4 sm:text-sm">Estado de acceso</a>
+        <a href="#oferta" class="rounded-xl border border-white/15 px-3 py-2 text-xs font-semibold text-slate-200 transition hover:border-cyanx/60 hover:text-white sm:px-4 sm:text-sm">Ver planes</a>
       </div>
     </nav>
   </header>
@@ -41,7 +41,7 @@
         <h1 class="max-w-4xl text-5xl font-black leading-[.98] tracking-[-.04em] sm:text-7xl">Detrás de cada conducta, <span class="text-gradient">hay algo que entender.</span></h1>
         <p class="mt-7 max-w-2xl text-lg leading-8 text-slate-300">Explora la psicología humana: cómo influimos, por qué cedemos y qué comunicamos sin palabras. Reúne lectura, audio, rutas de aprendizaje y actividades de práctica en un solo lugar: Cortex.</p>
         <div class="mt-9 flex flex-col gap-3 sm:flex-row">
-          <a href="#oferta" class="rounded-2xl bg-gradient-to-r from-cyanx to-mint px-6 py-4 text-center font-black text-ink shadow-2xl shadow-cyanx/20 transition hover:-translate-y-1">Ver información de acceso <svg class="ml-2 inline size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+          <a href="/api/checkout" class="rounded-2xl bg-gradient-to-r from-cyanx to-mint px-6 py-4 text-center font-black text-ink shadow-2xl shadow-cyanx/20 transition hover:-translate-y-1">Quiero entrar a Cortex <svg class="ml-2 inline size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
           <a href="#que-incluye" class="px-6 py-4 text-center text-slate-300">Explorar lo que incluye</a>
         </div>
         <p class="mt-4 text-xs text-slate-300">Contenido educativo para aprender y reflexionar. No sustituye terapia ni un diagnóstico profesional.</p>
@@ -81,13 +81,13 @@
           <article><span>05 / COMPRUEBA</span><svg class="training-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m4 7 2 2 4-4M12 7h8M4 16l2 2 4-4m2 2h8"/></svg><h3>Descubre qué has entendido.</h3><p>Responde cuestionarios y revisa tus respuestas. Localiza los conceptos que necesitan otra lectura y vuelve a intentarlo con más contexto.</p></article>
           <article><span>06 / RECUERDA</span><svg class="training-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="m12 3 9 5-9 5-9-5 9-5Zm-9 9 9 5 9-5M3 16l9 5 9-5"/></svg><h3>Vuelve a lo que merece quedarse.</h3><p>Repasa con flashcards y tarjetas pendientes. Consulta tu progreso y guarda una copia de tu avance para retomarlo después.</p></article>
         </div>
-        <a href="#oferta" class="mt-8 inline-block rounded-2xl bg-mint px-7 py-4 font-black text-ink">Ver información de acceso →</a>
+        <a href="/api/checkout" class="mt-8 inline-block rounded-2xl bg-mint px-7 py-4 font-black text-ink">Quiero entrar a Cortex →</a>
       </div>
     </section>
 
-    <section id="oferta" class="mx-auto max-w-6xl px-5 py-16 lg:px-8">
+    <section class="mx-auto max-w-6xl px-5 py-16 lg:px-8">
       <figure class="mb-8 overflow-hidden rounded-3xl border border-white/10"><img src="js/visuals/cortex-human-forces.webp" loading="lazy" alt="Autoconocimiento, influencia profesional y conexión: tres ámbitos para explorar la psicología en la vida diaria" class="w-full object-cover"><figcaption class="bg-[#0b1826] px-6 py-5 text-center text-lg font-bold">Lo que aprendes cobra sentido en tu próxima conversación.</figcaption></figure>
-      <div class="relative overflow-hidden rounded-[2rem] border border-cyanx/30 bg-gradient-to-br from-cyanx/10 via-[#0b2037] to-violetx/10 p-7 sm:p-12">
+      <div id="oferta" style="scroll-margin-top: 7rem" class="relative overflow-hidden rounded-[2rem] border border-cyanx/30 bg-gradient-to-br from-cyanx/10 via-[#0b2037] to-violetx/10 p-7 sm:p-12">
         <div class="absolute -right-24 -top-24 h-64 w-64 rounded-full bg-cyanx/10 blur-3xl"></div>
         <div class="relative grid gap-10 lg:grid-cols-[1fr_360px] lg:items-center">
           <div><p class="text-sm font-bold uppercase tracking-[.18em] text-mint">Tu próxima lectura puede empezar aquí</p><h2 class="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Haz de la psicología una parte de tu día.</h2><p class="mt-5 max-w-xl leading-7 text-slate-300">Elige un tema que te intrigue. Lee o escucha a tu ritmo. Pon a prueba lo que has entendido con las actividades de la academia.</p><ul class="mt-7 space-y-3 text-sm text-slate-200"><li><svg class="mr-3 inline size-4 text-mint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>94 libros y 20 audiolibros en una biblioteca organizada</li><li><svg class="mr-3 inline size-4 text-mint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Rutas interactivas, preguntas y casos de práctica</li><li><svg class="mr-3 inline size-4 text-mint" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m5 12 4 4L19 6"/></svg>Herramientas de repaso y seguimiento de tu avance</li></ul></div>
@@ -106,16 +106,16 @@
 
     <section class="mx-auto max-w-4xl px-5 py-16 lg:px-8" aria-labelledby="faq-title"><h2 id="faq-title" class="text-center text-3xl font-black">Antes de entrar</h2><div class="mt-8 space-y-3">
       <details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Cómo empiezo?</summary><p class="mt-3 leading-7 text-slate-300">Pulsa “Quiero entrar a Cortex”, elige tu plan y completa tus datos en el checkout. Después podrás acceder con la cuenta asociada a tu membresía.</p></details>
-      <details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Qué recibo con la membresía?</summary><p class="mt-3 leading-7 text-slate-300">La propuesta incluye una biblioteca de libros y audiolibros, rutas interactivas, ejercicios y herramientas de repaso. El alcance y las condiciones comerciales deben confirmarse en el proceso de acceso vigente antes de pagar.</p></details>
+      <details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Qué recibo con la membresía?</summary><p class="mt-3 leading-7 text-slate-300">Tu membresía reúne 94 libros, 20 audiolibros, rutas interactivas, simuladores, cuestionarios y flashcards. El sparring con IA requiere una clave propia y puede generar costes del proveedor externo.</p></details>
       <details class="glass rounded-2xl p-5"><summary class="cursor-pointer font-bold">¿Cortex es terapia o un diagnóstico?</summary><p class="mt-3 leading-7 text-slate-300">No. Es una herramienta educativa para leer, practicar y reflexionar. Si necesitas atención clínica, consulta con un profesional habilitado.</p></details>
     </div></section>
   </main>
-  <aside class="mobile-access-bar" aria-label="Estado de acceso a Cortex">
+  <aside class="mobile-access-bar" aria-label="Ver planes a Cortex">
     <span><strong>Entra a Cortex</strong>US$9 al mes o US$90 al año.</span>
     <a href="/api/checkout">Empezar ahora</a>
   </aside>
   <div id="accessNotice" class="hidden fixed bottom-5 left-1/2 z-50 w-[calc(100%-2rem)] max-w-lg -translate-x-1/2 rounded-2xl border border-cyanx/40 bg-[#07111f]/95 px-5 py-3 text-center text-sm text-slate-200 shadow-2xl backdrop-blur" role="status"></div>
-  <footer class="border-t border-white/10 px-5 py-8 text-center text-xs text-slate-300"><p>© 2026 ZENIT CORTEX · Sistema Zenit</p><p class="mt-2"><a class="hover:text-white" href="#oferta">Estado de acceso</a></p></footer>
+  <footer class="border-t border-white/10 px-5 py-8 text-center text-xs text-slate-300"><p>© 2026 ZENIT CORTEX · Sistema Zenit</p><p class="mt-2"><a class="hover:text-white" href="#oferta">Ver planes</a></p></footer>
   <script>
     (function showAccessNotice() {
       const params = new URLSearchParams(window.location.search);
