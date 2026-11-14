@@ -7,7 +7,7 @@ export async function onRequest(context) {
   const path = decodeURIComponent(new URL(context.request.url).pathname);
   const protectedPath = /^\/(?:app|biblioteca)(?:\.html)?\/?$/i.test(path)
     || /^\/(?:libros|Psicologia_Oscura|Caja_Fuerte)(?:\/|$)/i.test(path)
-    || (path.startsWith('/js/') && !path.startsWith('/js/visuals/') && path !== '/js/access_guard.js');
+    || (path.startsWith('/js/') && !path.startsWith('/js/visuals/') && !['/js/access_guard.js', '/js/landing_video.js'].includes(path));
   if (!protectedPath) return context.next();
   let access;
   try { access = await checkAccess(context); }
