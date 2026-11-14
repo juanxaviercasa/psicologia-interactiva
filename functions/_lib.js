@@ -6,7 +6,11 @@ export function json(data, status = 200, headers = {}) {
 }
 
 export function redirect(location, headers = {}) {
-  return new Response(null, { status: 302, headers: { Location: location, ...headers } });
+  const result = new Headers({ Location: location, 'cache-control': 'no-store' });
+  for (const [name, value] of Object.entries(headers)) {
+    for (const item of Array.isArray(value) ? value : [value]) result.append(name, item);
+  }
+  return new Response(null, { status: 302, headers: result });
 }
 
 export function parseCookies(request) {

@@ -6,7 +6,7 @@ export async function onRequestGet({ request, env }) {
   if (params.get('error')) return redirect(`/?auth_error=${encodeURIComponent(params.get('error_description') || params.get('error'))}`);
   if (!params.get('code') || !params.get('state') || params.get('state') !== cookies.cortex_oauth_state || !cookies.cortex_oauth_verifier) return new Response('Solicitud OAuth inválida o expirada.', { status: 400 });
   const redirectUri = env.WHOP_REDIRECT_URI || `${url.origin}/api/auth/callback`;
-  const tokenResponse = await fetch('https://api.whop.com/oauth/token', { method: 'POST', headers: { 'content-type': 'application/json', accept: 'application/json' }, body: JSON.stringify({ grant_type: 'authorization_code', code: params.get('code'), redirect_uri: redirectUri, client_id: env.WHOP_CLIENT_ID, code_verifier: cookies.cortex_oauth_verifier }) });
+  const tokenResponse = await fetch('https://api.whop.com/oauth/token', { method: 'POST', headers: { 'content-type': 'application/json', accept: 'application/json' }, body: JSON.stringify({ grant_type: 'authorization_code', code: params.get('code'), redirect_uri: redirectUri, client_id: env.WHOP_CLIENT_ID, client_secret: env.WHOP_CLIENT_SECRET, code_verifier: cookies.cortex_oauth_verifier }) });
   if (!tokenResponse.ok) return new Response('No se pudo completar el login con Whop.', { status: 502 });
   const tokens = await tokenResponse.json();
   const infoResponse = await fetch('https://api.whop.com/oauth/userinfo', { headers: { authorization: `Bearer ${tokens.access_token}`, accept: 'application/json' } });

@@ -48,11 +48,15 @@
       }
 
       const access = await response.json();
-      if (access && access.configured === false) {
+      if (isLocalEnv && access && access.configured === false) {
         reveal();
         return { allowed: true, mode: 'not_configured' };
       }
       if (!response.ok || !access || !access.allowed) {
+        if (response.status === 401) {
+          loc.replace('/api/auth/login');
+          return { allowed: false, reason: 'login_required' };
+        }
         const reason = (access && access.reason) || (response.status === 401 ? 'login_required' : 'access_denied');
         redirectToLanding(loc, reason);
         return { allowed: false, reason };

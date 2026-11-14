@@ -162,8 +162,8 @@ test('ZenitAccessGuard oculta flicker durante verificación, permite local/no-co
       json: async () => ({ allowed: false, configured: false, reason: 'access_not_configured' })
     })
   });
-  assert.deepEqual(uncfgRes.replaced, []);
-  assert.equal(uncfgRes.visibility, '');
+  assert.deepEqual(uncfgRes.replaced, ['/?access=access_not_configured']);
+  assert.equal(uncfgRes.visibility, 'hidden');
 
   const deniedRes = await runAccessGuard({
     url: 'https://cortex.sistemazenit.com/biblioteca',
@@ -174,7 +174,7 @@ test('ZenitAccessGuard oculta flicker durante verificación, permite local/no-co
       json: async () => ({ allowed: false, authenticated: false })
     })
   });
-  assert.deepEqual(deniedRes.replaced, ['/?access=login_required']);
+  assert.deepEqual(deniedRes.replaced, ['/api/auth/login']);
   assert.equal(deniedRes.visibility, 'hidden');
 
   const okRes = await runAccessGuard({
