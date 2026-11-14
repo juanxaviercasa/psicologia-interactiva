@@ -50,6 +50,29 @@
       main > section:first-child .text-sm.uppercase { font-size: .7rem; letter-spacing: .1em; }
     }
   </style>
+  <style>
+    :root { --forces-image: url('/js/visuals/cortex-human-forces.png'); }
+    .grid-bg { background-image: none; }
+    main > section:first-child { position:relative; isolation:isolate; }
+    main > section:first-child::before { content:''; position:absolute; z-index:-1; inset:0; background:linear-gradient(90deg,rgba(5,12,20,.96),rgba(5,12,20,.65) 55%,rgba(5,12,20,.3)),url('/images/cortex-human-forces.png') center/cover; opacity:.85; }
+    .forces { max-width:1280px; margin:auto; padding:4rem 1.5rem; }
+    .forces-intro { max-width:700px; margin-bottom:3rem; }
+    .forces-intro h2 { font-size:clamp(2rem,4vw,3.5rem); line-height:1.08; letter-spacing:-.04em; font-weight:900; }
+    .force-chapter { min-height:390px; position:relative; isolation:isolate; overflow:hidden; border:1px solid #ffffff20; border-radius:28px; margin:1.5rem 0; display:flex; align-items:center; padding:clamp(1.5rem,5vw,4rem); background:#08141c; }
+    .force-chapter::before { content:''; position:absolute; inset:0; z-index:-2; background-image:url('/images/cortex-human-forces.png'); background-size:300% auto; background-repeat:no-repeat; }
+    .force-chapter::after { content:''; position:absolute; inset:0; z-index:-1; background:linear-gradient(90deg,rgba(4,10,17,.94),rgba(4,10,17,.7) 48%,rgba(4,10,17,.1)); }
+    main > section:first-child::before { background-image:linear-gradient(90deg,rgba(5,12,20,.96),rgba(5,12,20,.65) 55%,rgba(5,12,20,.3)),var(--forces-image); }
+    .force-chapter::before { background-image:var(--forces-image); }
+    .force-chapter:nth-of-type(1)::before { background-position:left center; }
+    .force-chapter:nth-of-type(2)::before { background-position:center center; }
+    .force-chapter:nth-of-type(3)::before { background-position:right center; }
+    .force-copy { max-width:470px; }
+    .force-copy small { color:#63f2c1; font-weight:700; letter-spacing:.18em; text-transform:uppercase; }
+    .force-copy h3 { font-size:clamp(1.8rem,3.5vw,3rem); font-weight:800; line-height:1.1; margin:1rem 0; }
+    .force-copy p { color:#cbd5e1; line-height:1.8; }
+    .force-copy a { display:inline-block; margin-top:1.5rem; color:#fff; border-bottom:1px solid #63f2c1; padding-bottom:.4rem; }
+    @media(max-width:640px) { .force-chapter { min-height:440px; align-items:flex-end; } .force-chapter::before { background-size:auto 100%; } .force-chapter::after { background:linear-gradient(0deg,#040a11 5%,#040a11bf 65%,#040a1133); } }
+  </style>
 </head>
 <body>
   <header class="fixed inset-x-0 top-0 z-50 border-b border-white/10 bg-[#07111f]/80 backdrop-blur-xl">
@@ -93,6 +116,12 @@
       </div>
     </section>
 
+    <section class="forces" aria-label="Las fuerzas que nos mueven">
+      <div class="forces-intro"><p class="mb-4 text-sm uppercase tracking-widest text-mint">Las fuerzas que nos mueven</p><h2>Lo que deseas también tiene una psicología.</h2><p class="mt-6 leading-8 text-slate-300">Sentirte mejor contigo. Hacer que tus ideas cuenten. Conectar con alguien. Explora la conducta humana a través de lo que más nos importa.</p></div>
+      <article class="force-chapter"><div class="force-copy"><small>01 / Bienestar y autoconocimiento</small><h3>Entenderte cambia tu punto de partida.</h3><p>¿Por qué repites ciertas reacciones? Explora emociones, sesgos y patrones de conducta para hacerte mejores preguntas sobre ti.</p><a href="#que-incluye">Explorar cómo aprenderás →</a></div></article>
+      <article class="force-chapter"><div class="force-copy"><small>02 / Ambición e influencia</small><h3>Tus ideas merecen una buena conversación.</h3><p>Estudia persuasión, comunicación y negociación. Descubre cómo influyen el contexto y las emociones cuando propones, escuchas y tomas decisiones.</p><a href="#que-incluye">Descubrir las herramientas →</a></div></article>
+      <article class="force-chapter"><div class="force-copy"><small>03 / Amor y conexión</small><h3>La atracción despierta curiosidad. La conexión se construye.</h3><p>Acércate a la psicología de las relaciones: comunicación, límites y señales no verbales. Comprender al otro empieza por escuchar y reconocer la reciprocidad.</p><a href="#oferta">Quiero explorar Cortex →</a></div></article>
+    </section>
     <section id="que-incluye" class="mx-auto max-w-6xl px-5 py-20 lg:px-8">
       <div class="max-w-2xl"><p class="text-sm font-bold uppercase tracking-[.18em] text-cyanx">Tu biblioteca de psicología, con práctica</p><h2 class="mt-3 text-4xl font-black tracking-tight sm:text-5xl">Lee la teoría. Explora los casos. Forma tu propio criterio.</h2></div>
       <div class="my-10 grid gap-5 md:grid-cols-3">
