@@ -51,6 +51,25 @@
     }
   </style>
   <style>
+    body { background:#050b14; }
+    .forces { position:relative; background:radial-gradient(ellipse at 0% 28%,#123b5140,transparent 48%),radial-gradient(ellipse at 100% 70%,#68284230,transparent 45%); }
+    .force-chapter { box-shadow:0 24px 70px #0007; border-color:#62d9ff30; background:linear-gradient(125deg,#102332,#08121f); }
+    .force-chapter:nth-of-type(2) { border-color:#e9ad6045; background:linear-gradient(120deg,#292016,#0b1521); }
+    .force-chapter:nth-of-type(3) { border-color:#ed87a640; background:linear-gradient(120deg,#281322,#0b1521); }
+    .training-lab { position:relative; padding:clamp(1.4rem,4vw,3rem); border:1px solid #9275ff55; border-radius:30px; background:radial-gradient(ellipse at 100% 0%,#6d28d940,transparent 60%),linear-gradient(145deg,#102539,#09111f); box-shadow:0 0 90px #7447e51a; }
+    .training-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; margin-top:2rem; }
+    .training-grid article { padding:1.5rem; border:1px solid #ffffff18; border-radius:20px; background:#040c18a8; }
+    .training-grid span { display:block; font-size:.65rem; font-weight:800; letter-spacing:.16em; color:#63f2c1; }
+    .training-grid i { display:block; color:#8bafff; font-size:1.6rem; margin:1.5rem 0; }
+    .training-grid h3 { font-size:1.25rem; font-weight:800; line-height:1.3; }
+    .training-grid p { color:#cbd5e1; line-height:1.8; margin-top:.8rem; font-size:.95rem; }
+    .training-grid small { display:block; color:#d8c7ef; line-height:1.6; margin-top:1rem; }
+    .training-grid .sparring-feature { border-color:#b189ff88; background:linear-gradient(140deg,#42266680,#0b1627); }
+    #oferta > .relative { box-shadow:0 0 100px #38d9ff12; border-color:#63f2c166; }
+    @media(max-width:960px) { .training-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media(max-width:600px) { .training-grid { grid-template-columns:1fr; } }
+  </style>
+  <style>
     :root { --forces-image: url('js/visuals/cortex-human-forces.png'); }
     .grid-bg { background-image: none; }
     main > section:first-child { position:relative; isolation:isolate; }
@@ -128,10 +147,19 @@
         <article class="glass overflow-hidden rounded-3xl"><img loading="lazy" src="https://cdn.cortex.sistemazenit.com/assets/img/aprende_lenguaje_corporal_regalado/regalado_m22_arte_comunicacion.webp" alt="Material ilustrado sobre comunicación" class="aspect-video w-full object-cover"><div class="p-6"><h3 class="text-xl font-bold">Persuasión y comunicación</h3><p class="mt-3 text-slate-300">Explora cómo los argumentos, las emociones y el contexto influyen en nuestras decisiones.</p></div></article>
         <article class="glass overflow-hidden rounded-3xl"><img loading="lazy" src="https://cdn.cortex.sistemazenit.com/assets/img/analizar_personas_tecnicas_secretas/tecsec_m2_analisis_lenguaje_corporal.webp" alt="Material ilustrado sobre lenguaje corporal" class="aspect-video w-full object-cover"><div class="p-6"><h3 class="text-xl font-bold">Lenguaje corporal y conducta</h3><p class="mt-3 text-slate-300">Observa gestos, posturas y señales en contexto. Una invitación a observar mejor y evitar conclusiones apresuradas.</p></div></article>
       </div>
-      <div class="mt-10 grid gap-5 md:grid-cols-3">
-        <article class="glass rounded-3xl p-7"><i class="fa-solid fa-book-open-reader text-2xl text-cyanx"></i><h3 class="mt-6 text-xl font-black">Lee con dirección</h3><p class="mt-3 leading-7 text-slate-400">Una biblioteca privada ordenada para encontrar lo que buscas y entender cómo encaja cada idea.</p></article>
-        <article class="glass rounded-3xl p-7"><i class="fa-solid fa-route text-2xl text-violetx"></i><h3 class="mt-6 text-xl font-black">Practica lo que entiendes</h3><p class="mt-3 leading-7 text-slate-400">Casos, preguntas y ejercicios para pasar de “lo leí” a “sé cómo aplicarlo y cuestionarlo”.</p></article>
-        <article class="glass rounded-3xl p-7"><i class="fa-solid fa-chart-line text-2xl text-mint"></i><h3 class="mt-6 text-xl font-black">Vuelve y avanza</h3><p class="mt-3 leading-7 text-slate-400">Retoma tus sesiones, revisa tus avances y construye una comprensión que se queda contigo.</p></article>
+      <div class="training-lab mt-16">
+        <p class="text-sm uppercase tracking-widest text-mint">Del descubrimiento a la práctica</p>
+        <h2 class="mt-4 text-3xl font-black sm:text-5xl">¿Qué harías si la conversación fuera ahora?</h2>
+        <p class="mt-5 max-w-2xl leading-8 text-slate-300">Una idea te llama la atención. Una lección te ayuda a entenderla. Un escenario te invita a decidir. Así puedes trabajar el contenido dentro de Cortex.</p>
+        <div class="training-grid">
+          <article><span>01 / EXPLORA</span><i class="fa-solid fa-headphones"></i><h3>Lee. Escucha. Sigue tu curiosidad.</h3><p>Encuentra tu próximo tema entre 94 libros y 20 audiolibros. Alterna lectura y audio según el momento de tu día.</p></article>
+          <article><span>02 / PROFUNDIZA</span><i class="fa-solid fa-route"></i><h3>Ten claro tu siguiente paso.</h3><p>Recorre lecciones por módulos, consulta conceptos en el glosario y retoma tu avance en las rutas interactivas disponibles.</p></article>
+          <article><span>03 / DECIDE</span><i class="fa-solid fa-chess-knight"></i><h3>Pon tus ideas frente a un caso.</h3><p>Explora escenarios del simulador, elige una respuesta y revisa lo que ocurre. Una forma de cuestionar tu primera reacción antes de llevarla a la vida diaria.</p></article>
+          <article class="sparring-feature"><span>04 / ENSAYA</span><i class="fa-solid fa-comments"></i><h3>Entra al sparring.</h3><p>Elige un libro, una técnica y un escenario. Ensaya una conversación con IA y recibe comentarios sobre cómo aplicaste la técnica.</p><small>El sparring requiere configurar tu propia clave de IA. El servicio externo puede tener costes adicionales.</small></article>
+          <article><span>05 / COMPRUEBA</span><i class="fa-solid fa-list-check"></i><h3>Descubre qué has entendido.</h3><p>Responde cuestionarios y revisa tus respuestas. Localiza los conceptos que necesitan otra lectura y vuelve a intentarlo con más contexto.</p></article>
+          <article><span>06 / RECUERDA</span><i class="fa-solid fa-layer-group"></i><h3>Vuelve a lo que merece quedarse.</h3><p>Repasa con flashcards y tarjetas pendientes. Consulta tu progreso y guarda una copia de tu avance para retomarlo después.</p></article>
+        </div>
+        <a href="/api/checkout" class="mt-8 inline-block rounded-2xl bg-mint px-7 py-4 font-black text-ink">Quiero empezar mi recorrido →</a>
       </div>
     </section>
 
