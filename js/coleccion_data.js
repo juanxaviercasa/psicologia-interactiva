@@ -5006,6 +5006,26 @@ const COLECCION_DATA = {
   ]
 };
 
+// Resolve every catalog view through the authenticated media endpoint.
+// Primary book entries carry the canonical folder structure uploaded to R2.
+const privateMediaKeys = new Map();
+for (const item of [...COLECCION_DATA.books, ...COLECCION_DATA.audiobooks]) {
+  const key = item.type === 'audio'
+    ? `audiolibros/${item.filename}`
+    : item.relativePath;
+  if (!key.startsWith('libros/') && !key.startsWith('audiolibros/')) {
+    throw new Error(`Invalid private media path: ${item.id}`);
+  }
+  privateMediaKeys.set(item.filename, key);
+}
+for (const list of Object.values(COLECCION_DATA)) {
+  if (!Array.isArray(list)) continue;
+  for (const item of list) {
+    const key = privateMediaKeys.get(item.filename);
+    if (key) item.encodedPath = `/api/media?key=${encodeURIComponent(key)}`;
+  }
+}
+
 if (typeof window !== 'undefined') {
   window.COLECCION_DATA = COLECCION_DATA;
 }
