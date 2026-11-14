@@ -1,4 +1,11 @@
 /* Sistema visual específico de la landing de ZENIT CORTEX. */
+.cortex-hero-video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:-2; }
+main > section:first-child:has(.cortex-hero-video)::before { background:linear-gradient(90deg,rgba(5,12,20,.80),rgba(5,12,20,.5) 48%,rgba(5,12,20,.08)); }
+.cortex-offer-film { margin:0 0 2rem; border-radius:1rem; overflow:hidden; }
+.cortex-offer-film img,.cortex-offer-video { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; }
+.cortex-offer-film img[hidden],.desire-photo[hidden] { display:none; }
+.cortex-motion-toggle { position:fixed; left:1rem; bottom:1rem; z-index:45; padding:.55rem .8rem; border:1px solid #ffffff40; border-radius:1rem; background:#07111fee; color:#eef8ff; font-size:.75rem; cursor:pointer; }
+@media(max-width:640px) { .cortex-motion-toggle { bottom:5rem; } }
 :root {
   color-scheme: dark;
   --cortex-ink: #050b14;
