@@ -14,6 +14,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Instalar dependencias fijadas
+        run: npm ci
+      - name: Compilar CSS estático de la landing
+        run: npm run build
       - name: Comprobar sintaxis del código principal
         run: |
           node --check js/course_manifest.js

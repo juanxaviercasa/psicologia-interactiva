@@ -39,8 +39,13 @@ test('La portada index.html no expone el catálogo público y enlaza la oferta s
   assert.doesNotMatch(indexHtml, /id="catalog-grid"/);
   assert.doesNotMatch(indexHtml, /js\/coleccion_data\.js/);
   assert.doesNotMatch(indexHtml, /href="\/api\/auth\/login"/);
-  assert.match(indexHtml, /href="\/api\/checkout"/);
+  assert.doesNotMatch(indexHtml, /href="\/api\/checkout"/);
+  assert.match(indexHtml, /El enlace de compra no está disponible/);
+  assert.doesNotMatch(indexHtml, /US\$9|US\$90/);
   assert.match(indexHtml, /href="#oferta"/);
+  assert.match(indexHtml, /href="css\/landing\.css"/);
+  assert.match(indexHtml, /href="css\/tailwind\.generated\.css"/);
+  assert.doesNotMatch(indexHtml, /cdn\.tailwindcss\.com|cdnjs\.cloudflare\.com/);
 
   assert.equal(fs.existsSync('landing.html'), false);
   assert.doesNotMatch(sitemapXml, /biblioteca\.html|landing\.html|app\.html/);

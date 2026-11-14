@@ -21,7 +21,6 @@ unmapped_books_summary.json
 # Node / dependencies (Keep root static for zero-config Vercel hosting)
 node_modules/
 # Keep package manifests versioned so local development and CI use the same scripts.
-package-lock.json
 
 # Staging image folders
 assets/imagenes_faltantes/
