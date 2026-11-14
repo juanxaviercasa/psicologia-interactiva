@@ -73,9 +73,9 @@ main > section:first-child .inline-flex {
 /* Tres situaciones cotidianas con una misma voz visual. */
 .forces {
   position: relative;
-  max-width: 1280px;
+  max-width: 1152px;
   margin: auto;
-  padding: 4rem 1.5rem;
+  padding: 4rem clamp(1rem, 2.5vw, 2rem);
   background:
     radial-gradient(ellipse at 0% 28%, #123b5140, transparent 48%),
     radial-gradient(ellipse at 100% 70%, #68284230, transparent 45%);
