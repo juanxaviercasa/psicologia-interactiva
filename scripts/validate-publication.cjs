@@ -17,7 +17,7 @@ requireMatch('index.html', /canonical" href="https:\/\/cortex\.sistemazenit\.com
 requireMatch('index.html', /og:url" content="https:\/\/cortex\.sistemazenit\.com\//, 'falta og:url de portada.');
 requireMatch('index.html', /href="css\/landing\.css"/, 'la landing debe cargar su hoja de estilos externa.');
 requireMatch('index.html', /aria-labelledby="faq-title"/, 'el bloque de FAQ debe tener un nombre accesible.');
-requireMatch('index.html', /El enlace de compra no está disponible/, 'la landing debe explicar el estado real del checkout.');
+requireMatch('index.html', /href="\/api\/checkout"/, 'la landing debe permitir acceder al checkout.');
 requireMatch('biblioteca.html', /<meta name="robots" content="noindex,follow">/, 'la biblioteca interna debe estar marcada como noindex.');
 requireMatch('app.html', /<meta name="robots" content="noindex,follow">/, 'la academia dinámica debe estar marcada como noindex.');
 requireMatch('robots.txt', /Sitemap:\s*https:\/\/cortex\.sistemazenit\.com\/sitemap\.xml/, 'robots.txt no declara el sitemap canónico.');
@@ -25,7 +25,6 @@ requireMatch('sitemap.xml', /<loc>https:\/\/cortex\.sistemazenit\.com\/<\/loc>/,
 
 const landing = read('index.html');
 if (/<style\b/i.test(landing)) errors.push('index.html: mover los estilos de landing a css/landing.css.');
-if (/href="\/api\/checkout"/.test(landing)) errors.push('index.html: no debe enlazar al checkout actualmente no disponible.');
 if (/cdn\.tailwindcss\.com|cdnjs\.cloudflare\.com/.test(landing)) errors.push('index.html: la landing no debe cargar Tailwind ni Font Awesome por CDN.');
 requireMatch('index.html', /href="css\/tailwind\.generated\.css"/, 'falta cargar el CSS estático de Tailwind.');
 for (const asset of [
