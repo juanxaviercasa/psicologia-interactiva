@@ -28,6 +28,7 @@ main > section:first-child:has(.cortex-hero-video)::before { background:linear-g
 .perspective-notes p { color:#aebed0; line-height:1.8; max-width:52ch; }
 @media(max-width:600px) { .perspective-notes { grid-template-columns:1fr; gap:28px; } .perspective-banner figcaption { position:relative; } .perspective-banner::after { display:none; } }
 html { scroll-padding-top: 6rem; }
+#planes { scroll-margin-top:2rem; }
 body {
   background: var(--cortex-ink);
   color: var(--cortex-text);

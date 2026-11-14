@@ -1,5 +1,11 @@
 (() => {
   const root = 'js/visuals/';
+  const pricing = document.querySelector('#oferta .text-center');
+  if (pricing) {
+    pricing.id = 'planes';
+    document.querySelectorAll('a[href="#oferta"]').forEach(link => { link.href = '#planes'; });
+    if (location.hash === '#planes') requestAnimationFrame(() => pricing.scrollIntoView({block:'start', behavior:'instant'}));
+  }
   const preference = matchMedia('(prefers-reduced-motion: reduce)');
   const videos = [];
   const add = (container, name, poster, className, image) => {
