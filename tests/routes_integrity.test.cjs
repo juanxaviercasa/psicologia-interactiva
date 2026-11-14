@@ -43,7 +43,7 @@ test('La portada index.html no expone el catálogo público y enlaza la oferta s
   assert.doesNotMatch(indexHtml, /El enlace de compra no está disponible/);
   assert.match(indexHtml, /US\$9|US\$90/);
   assert.match(indexHtml, /href="#oferta"/);
-  assert.match(indexHtml, /href="css\/landing\.css"/);
+  assert.match(indexHtml, /href="css\/landing\.css(?:\?[^\"]*)?"/);
   assert.match(indexHtml, /href="css\/tailwind\.generated\.css"/);
   assert.doesNotMatch(indexHtml, /cdn\.tailwindcss\.com|cdnjs\.cloudflare\.com/);
 
