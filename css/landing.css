@@ -6,7 +6,7 @@
 #checkout-status { padding:1rem; text-align:center; }
 .checkout-modal { position:fixed; inset:0; z-index:100; display:grid; place-items:center; padding:1rem; }
 .checkout-modal__backdrop { position:absolute; inset:0; background:rgba(2,8,16,.84); backdrop-filter:blur(8px); }
-.checkout-modal__panel { position:relative; width:min(100%, 760px); max-height:min(94vh, 920px); overflow:auto; border:1px solid rgba(126,246,215,.25); border-radius:1.5rem; background:#f8fbff; color:#0b1728; box-shadow:0 30px 100px rgba(0,0,0,.55); }
+.checkout-modal__panel { position:relative; width:min(100%, 590px); max-height:min(94vh, 920px); overflow:auto; border:1px solid rgba(126,246,215,.25); border-radius:1.5rem; background:#f8fbff; color:#0b1728; box-shadow:0 30px 100px rgba(0,0,0,.55); }
 .checkout-modal__close { position:absolute; right:.8rem; top:.65rem; z-index:2; width:2.2rem; height:2.2rem; border:0; border-radius:999px; background:rgba(7,17,31,.72); color:#fff; font-size:1.6rem; line-height:1; cursor:pointer; }
 .checkout-modal__brand { display:flex; gap:1rem; align-items:center; padding:1rem 3.5rem 1rem 1rem; background:#07111f; color:#edf7f5; }
 .checkout-modal__brand img { width:5rem; height:4rem; object-fit:cover; border-radius:.7rem; }
@@ -18,6 +18,7 @@
 .checkout-modal__panel { color-scheme:light; max-height:calc(100dvh - 2rem); overscroll-behavior:contain; }
 .checkout-modal__fallback { margin:0; padding:.8rem 1rem 1rem; color:#617187; font-size:.78rem; text-align:center; }
 .checkout-modal__fallback a { color:#087f70; font-weight:800; }
+@media(max-width:640px) { .checkout-modal { padding:0; align-items:end; } .checkout-modal__panel { width:100%; max-height:94dvh; border-radius:1.25rem 1.25rem 0 0; } .checkout-modal__brand { padding:.85rem 3.25rem .85rem .85rem; } .checkout-modal__brand img { width:4rem; height:3.3rem; } .checkout-modal__plans { padding:.75rem; } .checkout-modal__plans button { padding:.7rem .35rem; font-size:.85rem; } }
 main > section:first-child > video.cortex-hero-video { position:absolute; inset:0; display:block; width:100%; height:100%; max-width:none; object-fit:cover; z-index:-2; pointer-events:none; }
 main > section:first-child:has(.cortex-hero-video)::before { background:linear-gradient(90deg,rgba(5,12,20,.80),rgba(5,12,20,.5) 48%,rgba(5,12,20,.08)); }
 .cortex-offer-film { position:relative; height:clamp(200px,28vw,320px); margin:0 0 2rem; border-radius:1rem; overflow:hidden; }
